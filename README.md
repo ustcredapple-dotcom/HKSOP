@@ -2,9 +2,9 @@
   <img src="docs/assets/hksop-cover.svg" alt="HKSOP — From a sketch to an optical system. Universal posts, device adapters, and shared design data." width="100%">
 </p>
 
-<h1 align="center">Building an AI-native experimental system!</h1>
+<h1 align="center">HKSOP · Hong Kong Standard Optical Protocol</h1>
 
-<p align="center"><strong>HKSOP · Hong Kong Standard Optical Protocol</strong></p>
+<h3 align="center">Building an AI-native experimental system!</h3>
 
 <p align="center">A common mechanical interface and a machine-readable design workflow for tabletop optics.</p>
 

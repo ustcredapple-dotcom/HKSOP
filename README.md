@@ -2,7 +2,9 @@
   <img src="docs/assets/hksop-cover.svg" alt="HKSOP — From a sketch to an optical system. Universal posts, device adapters, and shared design data." width="100%">
 </p>
 
-<h1 align="center">HKSOP · Hong Kong Standard Optical Protocol</h1>
+<h1 align="center">Building an AI-native experimental system!</h1>
+
+<p align="center"><strong>HKSOP · Hong Kong Standard Optical Protocol</strong></p>
 
 <p align="center">A common mechanical interface and a machine-readable design workflow for tabletop optics.</p>
 
@@ -294,4 +296,4 @@ This design comes from the **HKU Ultracold Atom Lab (ZZLab), The University of H
 
 The system has evolved through real experimental design, with people and AI working together. Reviewed sketches become explicit components, coordinates, optical datums and assembly relationships. Revisions leave data that can be inspected and reused. The next AI can read those definitions and verification results, identify what a change affects, and continue the design with the researcher.
 
-<p align="center"><strong>From AI. For AI.</strong><br><br><strong>Building an AI-native experimental system.</strong></p>
+<p align="center"><strong>From AI. For AI.</strong></p>

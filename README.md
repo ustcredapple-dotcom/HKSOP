@@ -290,6 +290,13 @@ English documentation includes the [sketch-to-3D case study](docs/workflow-case-
 
 This design comes from the **HKU Ultracold Atom Lab (ZZLab), The University of Hong Kong**. Visit [Ultracold@HKU](https://www.ultracold.hku.hk/) for the lab website. For this project, contact **Wang Junjie** at [u3013215@connect.hku.hk](mailto:u3013215@connect.hku.hk) or through [ustcredapple-dotcom](https://github.com/ustcredapple-dotcom).
 
+<a id="contributors"></a>
+## Contributors
+
+**[Wang Junjie](https://github.com/ustcredapple-dotcom)** 负责项目方向、实验需求、光学与机械设计，以及工程审核。**[ChatGPT](https://chatgpt.com/)** 作为 **AI 协作助手**，参与协议整理、代码与文档编写、光路 JSON 布局和三维复建辅助，并协助整理验证记录与展示材料。
+
+**[Wang Junjie](https://github.com/ustcredapple-dotcom)** leads the project, defines experimental requirements, and oversees optical and mechanical design and engineering review. **[ChatGPT](https://chatgpt.com/)** contributes as an **AI collaborator**, assisting with protocol development, code and documentation, optical-layout JSON, CAD reconstruction, verification records and project illustrations.
+
 ## From AI. For AI.
 
 这套体系是在真实实验设计中，由人与 AI 一起迭代出来的。手稿里的意图经过确认，成为明确的器件、坐标、光学基准和装配关系；每次修正也留下可以检查和继续使用的数据。下一个 AI 接手时，可以读取这些定义和验证结果，知道改的是哪个元件、会影响哪些关系，再与研究者一起完成下一轮设计。

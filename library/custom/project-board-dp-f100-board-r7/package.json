@@ -1,0 +1,16 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "project-board-dp-f100-board-r7",
+  "displayName": "Double Pass f100 · 425×150 · 25mm基础孔阵 R7",
+  "records": [
+    {
+      "kind": "registeredBoards",
+      "path": "records/dp-f100-board-r7.json"
+    }
+  ],
+  "componentDependencies": [],
+  "currentProject": "陈广杰交付项目",
+  "sourceCatalogIdentity": "nas-f6f31f9fc44ac657:1ea66f6d275b",
+  "retentionRole": "active-project-custom-component",
+  "distribution": "step-and-topviews-no-drawings"
+}

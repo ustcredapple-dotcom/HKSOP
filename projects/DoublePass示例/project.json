@@ -1,0 +1,12 @@
+{
+  "format": "hksop-project-v2",
+  "name": "DoublePass示例",
+  "currentEngineering": {
+    "path": "project.zzoptics.json",
+    "sha256": "d601ab5db613d897c1f84f5f63979a23458ad60827e012fa5fbf455656874cb0"
+  },
+  "modules": [],
+  "history": [],
+  "results": "results/index.json",
+  "acceptance": "Example only; original physical/manufacturing limits retained."
+}

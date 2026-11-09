@@ -1,0 +1,9 @@
+{
+  "id": "servo-pd-board-m6-pending",
+  "name": "面包板侧 M6 紧固螺钉",
+  "model": "M6；长度按实际面包板选择",
+  "kind": "standard",
+  "unit": "颗",
+  "status": "安装选配；实物规格待核",
+  "notes": "四个Ø6.4底孔；与原交付13行BOM分列的板侧安装补充项，长度未指定。"
+}

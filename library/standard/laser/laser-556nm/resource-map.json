@@ -1,0 +1,31 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "kit-laser-556nm",
+  "files": [
+    {
+      "path": "cad/9d20e1ef2b446dc037757808690a1f276ddd3f4d0ebde8177a91eed9d2444c33.step",
+      "stored": "library/assets/sha256/9d/9d20e1ef2b446dc037757808690a1f276ddd3f4d0ebde8177a91eed9d2444c33.step",
+      "sha256": "9d20e1ef2b446dc037757808690a1f276ddd3f4d0ebde8177a91eed9d2444c33",
+      "originalReferences": [
+        "step/laser_installation_reference_20261006/LASER_556_HEAD_REFERENCE_WITH_DATUM.step"
+      ],
+      "sources": [
+        "library/assets/sha256/9d/9d20e1ef2b446dc037757808690a1f276ddd3f4d0ebde8177a91eed9d2444c33.step"
+      ]
+    },
+    {
+      "path": "rendering/e2ca7e8332fc2f257a939bbdb4cc46fc9910ebda125954178f9a72377d06d071.svg",
+      "stored": "library/assets/sha256/e2/e2ca7e8332fc2f257a939bbdb4cc46fc9910ebda125954178f9a72377d06d071.svg",
+      "sha256": "e2ca7e8332fc2f257a939bbdb4cc46fc9910ebda125954178f9a72377d06d071",
+      "originalReferences": [
+        "topviews/kit_laser-556nm.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/e2/e2ca7e8332fc2f257a939bbdb4cc46fc9910ebda125954178f9a72377d06d071.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "laser-556nm"
+  ]
+}

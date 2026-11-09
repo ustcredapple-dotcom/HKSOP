@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-slm-dowel-d2",
+  "revision": "source-snapshot",
+  "displayName": "柱端定位销",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-slm-dowel-d2.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

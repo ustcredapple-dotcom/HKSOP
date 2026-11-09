@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-post-metric-100mm-m1",
+  "files": [
+    {
+      "path": "cad/4a03bf06f232fc8aeb766c82f82e2542abaf3a3195fedae67e89abf9f161d72d.step",
+      "stored": "library/assets/sha256/4a/4a03bf06f232fc8aeb766c82f82e2542abaf3a3195fedae67e89abf9f161d72d.step",
+      "sha256": "4a03bf06f232fc8aeb766c82f82e2542abaf3a3195fedae67e89abf9f161d72d",
+      "originalReferences": [
+        "step/universal-post-b6-r1/万能柱_H100mm_B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/4a/4a03bf06f232fc8aeb766c82f82e2542abaf3a3195fedae67e89abf9f161d72d.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,36 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "camera-a6504-adapter-r2",
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "displayName": "鑫图 A6504-Pro 相机与双柱转接套件",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/camera-a6504-adapter-r2.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-36-a65-b-r2",
+    "custom-36-a65-c-r2",
+    "custom-post-metric-12p5mm-m1",
+    "hardware-dowel-d2x10",
+    "hardware-iso7089-m4",
+    "hardware-m6-board-length-select",
+    "hardware-stainless-gap-shim-select",
+    "new-hardware-aee748b5031c",
+    "new-hardware-f0579b934c7c",
+    "new-hardware-ff9fb49c865c",
+    "new-r3-hardware-b63ea2222bac",
+    "purchased-camera-a6504-pro"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

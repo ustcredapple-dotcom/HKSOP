@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "hardware-h2-r3-m4-washer",
+  "revision": "source-snapshot",
+  "displayName": "H2 R3 M4 垫圈 · Ø4.3/Ø9×0.8",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/hardware-h2-r3-m4-washer.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

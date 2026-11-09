@@ -1,0 +1,62 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "periscope-turn90-h150-to87p5-r3",
+  "files": [
+    {
+      "path": "cad/0fa4dda476eb8501345777f2806cdcccb707e349bd1f04661b7269d39806aa88.step",
+      "stored": "library/assets/sha256/0f/0fa4dda476eb8501345777f2806cdcccb707e349bd1f04661b7269d39806aa88.step",
+      "sha256": "0fa4dda476eb8501345777f2806cdcccb707e349bd1f04661b7269d39806aa88",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/periscope-turn90-h150-to87p5-r3__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/0f/0fa4dda476eb8501345777f2806cdcccb707e349bd1f04661b7269d39806aa88.step"
+      ]
+    },
+    {
+      "path": "rendering/84747a8e216005b5ef37dd9ba9823fe502da0f2b129b5ece18209b8acda6be5c.svg",
+      "stored": "library/assets/sha256/84/84747a8e216005b5ef37dd9ba9823fe502da0f2b129b5ece18209b8acda6be5c.svg",
+      "sha256": "84747a8e216005b5ef37dd9ba9823fe502da0f2b129b5ece18209b8acda6be5c",
+      "originalReferences": [
+        "topviews/periscope-turn90-h150-to87p5-r3__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/84/84747a8e216005b5ef37dd9ba9823fe502da0f2b129b5ece18209b8acda6be5c.svg"
+      ]
+    },
+    {
+      "path": "rendering/9f7c4c82a4e44520792124d9ad9aef31df00da82197b0786cc4e72a1626617be.svg",
+      "stored": "library/assets/sha256/9f/9f7c4c82a4e44520792124d9ad9aef31df00da82197b0786cc4e72a1626617be.svg",
+      "sha256": "9f7c4c82a4e44520792124d9ad9aef31df00da82197b0786cc4e72a1626617be",
+      "originalReferences": [
+        "topviews/periscope-turn90-h150-to87p5-r3-optical-side.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/9f/9f7c4c82a4e44520792124d9ad9aef31df00da82197b0786cc4e72a1626617be.svg"
+      ]
+    },
+    {
+      "path": "cad/e06370c89e2cbb617dd06bf3772e39e2ab3beebc31dcc7fc0e9d673602406086.step",
+      "stored": "library/assets/sha256/e0/e06370c89e2cbb617dd06bf3772e39e2ab3beebc31dcc7fc0e9d673602406086.step",
+      "sha256": "e06370c89e2cbb617dd06bf3772e39e2ab3beebc31dcc7fc0e9d673602406086",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/periscope-turn90-h150-to87p5-r3__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/e0/e06370c89e2cbb617dd06bf3772e39e2ab3beebc31dcc7fc0e9d673602406086.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-periscope-mirror-adapter10c-r3",
+    "custom-periscope-s45-r1",
+    "custom-periscope-turn90-25tm-r3",
+    "custom-post-metric-12p5mm-m1",
+    "mt-am1s5",
+    "new-hardware-d56c7b8035c3",
+    "periscope-d2x4-pin",
+    "periscope-d2x8-pin",
+    "periscope-m4x14-screw",
+    "periscope-m6x12-screw"
+  ]
+}

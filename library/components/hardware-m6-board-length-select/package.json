@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "hardware-m6-board-length-select",
+  "revision": "source-snapshot",
+  "displayName": "面包板固定螺丝 M6 · 按板选长",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/hardware-m6-board-length-select.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

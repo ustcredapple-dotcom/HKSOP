@@ -1,0 +1,86 @@
+{
+  "id": "new-r6-20-camera-cs-adapter",
+  "kind": "custom",
+  "unit": "件",
+  "name": "CS口相机侧置转接块（传感器基准待确认）",
+  "model": "20-CAM-CS-M1",
+  "status": "M1公制加工审核图；PDF、DXF与STEP同源",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/f44dd805e7c00ec609c4122d",
+  "sourceStepSha256": "cb6e3e7ce6f7bf9e68e91f56b8a5985a55cb6bfc80f8bfa33e7828e6c37c37e0",
+  "productionReady": false,
+  "drawingRevision": "M1",
+  "drawingStatus": "engineering-review",
+  "notes": "M1公制修订；CS至感光面12.759333mm为估计，并非整机厂保；需按实际传感器确认后修正。。实物试装未完成。",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "threadClass": "待确认",
+    "profileId": "r6_316L_passivated",
+    "policyVersion": "supplied-manufacturing-M1-2026-10-05",
+    "processDetails": "感光面按CS法兰后12.7593mm估算；此为可修正试制件，实际感光基准待实测确认。 竖壁三M3孔是间隙沉孔，螺纹位于原厂相机。 盲销孔标注为有效圆柱深；钻尖另计，不得贯穿。"
+  },
+  "stepPath": "step/metric-m1-20261006/20-CAM-CS_METRIC_M1.step",
+  "drawingPath": null,
+  "dxfPath": null,
+  "manufacturingEvidence": {
+    "sourcePackage": null,
+    "sourceCode": "20-CAM-CS",
+    "sourceStepSha256": "cb6e3e7ce6f7bf9e68e91f56b8a5985a55cb6bfc80f8bfa33e7828e6c37c37e0",
+    "drawingSha256": "40386f7ea346f1915047506760ac9ac99dfa9991b3391fbed13649f8f9aeab6d",
+    "dxfSha256": "1f4c7655a0660ce7d5bc5b5e7f7a59668e899eeeec355e8050081ef8fc9717c9",
+    "pageCount": 3,
+    "metricMigration": {
+      "post_height_old_mm": 38.1,
+      "post_height_new_mm": 37.5,
+      "selected_height_delta_mm": -0.4,
+      "world_bottom_delta_mm": -0.6,
+      "supplier_translation_mm": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "physicalTrialCompleted": false
+  },
+  "sourceDrawingSha256": "40386f7ea346f1915047506760ac9ac99dfa9991b3391fbed13649f8f9aeab6d",
+  "sourceDxfSha256": "1f4c7655a0660ce7d5bc5b5e7f7a59668e899eeeec355e8050081ef8fc9717c9",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "aed0d9a9482959e91587a297dd82fca7d741df2552dd22cebd748f95646bf6a9",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "080bd772ec1e748968a7f9fefc9a232c092c44173cb77789f5ba06358eae8bfe",
+      "currentPdfSha256": "94aed55f687f86b734d4d9d4b8ddedadee6d3d836a5799ac596db5ed2d8d3cfc",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "ea6bddbabdd33caeef9699a6113c13dc1341b7b6ed98b8df7f91c11c8cf66fa4",
+      "currentPdfSha256": "aed0d9a9482959e91587a297dd82fca7d741df2552dd22cebd748f95646bf6a9",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

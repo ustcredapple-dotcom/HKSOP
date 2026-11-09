@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-suruga-xyz-base-r1",
+  "revision": "R1",
+  "displayName": "32-XYZ-B 底部一体转接板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-suruga-xyz-base-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

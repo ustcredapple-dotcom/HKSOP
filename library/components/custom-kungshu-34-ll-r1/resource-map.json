@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-kungshu-34-ll-r1",
+  "files": [
+    {
+      "path": "cad/228a4deba2d6f2352d84ab8d972fdb48ee1a75795fe149a1c54917e3e9e81bde.step",
+      "stored": "library/assets/sha256/22/228a4deba2d6f2352d84ab8d972fdb48ee1a75795fe149a1c54917e3e9e81bde.step",
+      "sha256": "228a4deba2d6f2352d84ab8d972fdb48ee1a75795fe149a1c54917e3e9e81bde",
+      "originalReferences": [
+        "step/kungshu-compact-r2/34-LL_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/22/228a4deba2d6f2352d84ab8d972fdb48ee1a75795fe149a1c54917e3e9e81bde.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

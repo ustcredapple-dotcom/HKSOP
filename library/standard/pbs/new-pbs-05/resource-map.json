@@ -1,0 +1,37 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-pbs-05",
+  "files": [
+    {
+      "path": "rendering/b05c6149b4d7716e5de0370715047fab9b12ecb805b6d92c3a74399f80ed79bd.svg",
+      "stored": "library/assets/sha256/b0/b05c6149b4d7716e5de0370715047fab9b12ecb805b6d92c3a74399f80ed79bd.svg",
+      "sha256": "b05c6149b4d7716e5de0370715047fab9b12ecb805b6d92c3a74399f80ed79bd",
+      "originalReferences": [
+        "topviews/new-pbs-05__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/b0/b05c6149b4d7716e5de0370715047fab9b12ecb805b6d92c3a74399f80ed79bd.svg"
+      ]
+    },
+    {
+      "path": "cad/bfc40669db0950834c958b900cd9b5069e9df89fa1add3af845fc7e1e56ccf0a.step",
+      "stored": "library/assets/sha256/bf/bfc40669db0950834c958b900cd9b5069e9df89fa1add3af845fc7e1e56ccf0a.step",
+      "sha256": "bfc40669db0950834c958b900cd9b5069e9df89fa1add3af845fc7e1e56ccf0a",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/new-pbs-05__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/bf/bfc40669db0950834c958b900cd9b5069e9df89fa1add3af845fc7e1e56ccf0a.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-post-metric-37p5mm-m1",
+    "metric-m1-post-m4x8",
+    "metric-m1-post-pin-d2x8",
+    "new-pbs-05-adapter-1",
+    "new-pbs-05-adapter-2",
+    "new-pbs-05-vendor-1",
+    "new-pbs-05-vendor-2"
+  ]
+}

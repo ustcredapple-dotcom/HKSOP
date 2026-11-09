@@ -1,0 +1,86 @@
+{
+  "id": "new-r6-09-isoc1-adapter",
+  "kind": "custom",
+  "unit": "件",
+  "name": "带官方安装罩隔离器双柱转接梁",
+  "model": "09-ISO-C-M1",
+  "status": "M1公制加工审核图；PDF、DXF与STEP同源",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/cf0e57507c276dc043212e41",
+  "sourceStepSha256": "79dbacf41a7d7db905cc520f65f067d0e8e1c6e931094e11ed1a80fa9fe68603",
+  "productionReady": false,
+  "drawingRevision": "M1",
+  "drawingStatus": "engineering-review",
+  "notes": "M1公制修订；真实Faraday作用平面及隔离/热/磁性能未确认。。实物试装未完成。",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "threadClass": "待确认",
+    "profileId": "r6_316L_passivated",
+    "policyVersion": "supplied-manufacturing-M1-2026-10-05",
+    "processDetails": "顶面2个M4沉孔、主底面2个M6沉孔，方向相反。 本件无螺纹孔；100mm双柱间距不等于两M6孔25mm间距。"
+  },
+  "stepPath": "step/metric-m1-20261006/09-ISO-C_METRIC_M1.step",
+  "drawingPath": null,
+  "dxfPath": null,
+  "manufacturingEvidence": {
+    "sourcePackage": null,
+    "sourceCode": "09-ISO-C",
+    "sourceStepSha256": "79dbacf41a7d7db905cc520f65f067d0e8e1c6e931094e11ed1a80fa9fe68603",
+    "drawingSha256": "a51a3783ed9a337eb00a85a254f2e89cd893635323cd0036308baca8de450b46",
+    "dxfSha256": "d31aad0e2a5c165c80b2f8c56fad3d48dabdcb8ad9734d59deead84786e1361f",
+    "pageCount": 3,
+    "metricMigration": {
+      "post_height_old_mm": 12.7,
+      "post_height_new_mm": 12.5,
+      "selected_height_delta_mm": -0.8,
+      "world_bottom_delta_mm": -0.2,
+      "supplier_translation_mm": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "physicalTrialCompleted": false
+  },
+  "sourceDrawingSha256": "a51a3783ed9a337eb00a85a254f2e89cd893635323cd0036308baca8de450b46",
+  "sourceDxfSha256": "d31aad0e2a5c165c80b2f8c56fad3d48dabdcb8ad9734d59deead84786e1361f",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "bc5498d9b9320b1df5989a26355ab391eedd21ffaea730ce1fb1e719f80ffb82",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "bbdc173fdeff76dc26181d6af2c79e6e9fce17161ed1211ebd27b8213d04aa35",
+      "currentPdfSha256": "2dc7204bd20cbbbf71d6047430e7fa2a30e6da51cc110b6eb46ebbd0277c9a3a",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "e3626fae00515e4127e6bc07bb3bd53701fe63ab59905bd03b345ac2de797399",
+      "currentPdfSha256": "bc5498d9b9320b1df5989a26355ab391eedd21ffaea730ce1fb1e719f80ffb82",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

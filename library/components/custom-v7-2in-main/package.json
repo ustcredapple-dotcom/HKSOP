@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-v7-2in-main",
+  "revision": "V7-R1",
+  "displayName": "V7 2英寸电动镜架 主板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-v7-2in-main.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

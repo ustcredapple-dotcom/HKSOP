@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-pcf-b01-r1",
+  "files": [
+    {
+      "path": "cad/99efa7b65a84c72a976e732d7f4ef60bc999bcc70af2fb13a110453917c6b0f8.step",
+      "stored": "library/assets/sha256/99/99efa7b65a84c72a976e732d7f4ef60bc999bcc70af2fb13a110453917c6b0f8.step",
+      "sha256": "99efa7b65a84c72a976e732d7f4ef60bc999bcc70af2fb13a110453917c6b0f8",
+      "originalReferences": [
+        "step/pcf-fixed-base-h62p5-r1/PCF-B01_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/99/99efa7b65a84c72a976e732d7f4ef60bc999bcc70af2fb13a110453917c6b0f8.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-p20-l-r1",
+  "revision": "source-snapshot",
+  "displayName": "固定侧下转接座",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-p20-l-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

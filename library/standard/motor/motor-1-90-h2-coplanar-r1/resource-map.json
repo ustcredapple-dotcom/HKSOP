@@ -1,0 +1,65 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "motor-1-90-h2-coplanar-r1",
+  "files": [
+    {
+      "path": "cad/d9da9dbb0451a245ac54ea0ecfd16196fcf019aa035def3818e42411f6056568.step",
+      "stored": "library/assets/sha256/d9/d9da9dbb0451a245ac54ea0ecfd16196fcf019aa035def3818e42411f6056568.step",
+      "sha256": "d9da9dbb0451a245ac54ea0ecfd16196fcf019aa035def3818e42411f6056568",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/asset-motor-1-hardware-review__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/d9/d9da9dbb0451a245ac54ea0ecfd16196fcf019aa035def3818e42411f6056568.step"
+      ]
+    },
+    {
+      "path": "rendering/f56141e1152e3e252971b1f6cc44c974f486016fe8b549990fc49369d136d83e.svg",
+      "stored": "library/assets/sha256/f5/f56141e1152e3e252971b1f6cc44c974f486016fe8b549990fc49369d136d83e.svg",
+      "sha256": "f56141e1152e3e252971b1f6cc44c974f486016fe8b549990fc49369d136d83e",
+      "originalReferences": [
+        "topviews/motor-1-90-h2-coplanar-r1__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/f5/f56141e1152e3e252971b1f6cc44c974f486016fe8b549990fc49369d136d83e.svg"
+      ]
+    },
+    {
+      "path": "cad/f9b322513eab505668d7d6aaf6de4297173ad7047edf7286a9f2b2f622e63c69.step",
+      "stored": "library/assets/sha256/f9/f9b322513eab505668d7d6aaf6de4297173ad7047edf7286a9f2b2f622e63c69.step",
+      "sha256": "f9b322513eab505668d7d6aaf6de4297173ad7047edf7286a9f2b2f622e63c69",
+      "originalReferences": [
+        "step/motor-h2-compact-support-r3/review/motor-1-90-h2-compact-support-r3-hardware-review.step"
+      ],
+      "sources": [
+        "library/assets/sha256/f9/f9b322513eab505668d7d6aaf6de4297173ad7047edf7286a9f2b2f622e63c69.step"
+      ]
+    },
+    {
+      "path": "cad/f9fbe349314447d51485d02344e61f095222909f74b478a1eb684a3594ca39a0.step",
+      "stored": "library/assets/sha256/f9/f9fbe349314447d51485d02344e61f095222909f74b478a1eb684a3594ca39a0.step",
+      "sha256": "f9fbe349314447d51485d02344e61f095222909f74b478a1eb684a3594ca39a0",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/motor-1-90-h2-coplanar-r1__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/f9/f9fbe349314447d51485d02344e61f095222909f74b478a1eb684a3594ca39a0.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-motor-adapter-10-s2-r2",
+    "custom-motor-h2d1-b-r3",
+    "custom-motor-h2d1-l-r2",
+    "custom-motor-h2d1-s-r3",
+    "custom-post-metric-25mm-m1",
+    "encoder-servo",
+    "hardware-h2-r3-m2x10",
+    "hardware-h2-r3-m4-washer",
+    "hardware-h2-r3-m4x20",
+    "hardware-iso4762-m3x8",
+    "motor-adapter-m3",
+    "mt-am1s5",
+    "v7-source-m4-nut"
+  ]
+}

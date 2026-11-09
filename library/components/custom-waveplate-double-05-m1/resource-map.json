@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-waveplate-double-05-m1",
+  "files": [
+    {
+      "path": "cad/3451108510c088c0ae988dcacb02334de9cc78620046e87de9f4f827e9025627.step",
+      "stored": "library/assets/sha256/34/3451108510c088c0ae988dcacb02334de9cc78620046e87de9f4f827e9025627.step",
+      "sha256": "3451108510c088c0ae988dcacb02334de9cc78620046e87de9f4f827e9025627",
+      "originalReferences": [
+        "step/waveplate05-m1/24-WP05-D_METRIC_M1_GLYPH_REPAIRED.step"
+      ],
+      "sources": [
+        "library/assets/sha256/34/3451108510c088c0ae988dcacb02334de9cc78620046e87de9f4f827e9025627.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

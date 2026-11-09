@@ -1,0 +1,13 @@
+{
+  "id": "lbtek-sm1-8a",
+  "name": "麓邦 SM1-8A",
+  "model": "SM1-8A",
+  "kind": "lubang",
+  "unit": "件",
+  "sourceUrl": "https://www.lbtek.com/product/221",
+  "stepPath": "step/txy1s-fixed-r5/vendor/SM1-8A.step",
+  "sourceStepSha256": "9bea69316bc73972d221cd46cdbe04139dea7078c54a245f932cbed936bbf803",
+  "drawingPath": null,
+  "sourceDrawingSha256": "e401505f0ca8da04fdd735b8e36335887200f00bb7897344f6ba148fae691d02",
+  "notes": "厂家资料来自用户冻结包；套筒随附卡环不重复计购。仅前端SM1-8A保留一个SM1R；TXY1S和其余套筒多余卡环拆下。实物螺纹/镜片夹持待核。"
+}

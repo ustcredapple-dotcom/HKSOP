@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-mcv05-r1",
+  "revision": "R1",
+  "displayName": "MCV05-R1 PBS 竖直调节一体转接件",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-mcv05-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

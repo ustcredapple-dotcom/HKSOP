@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "lbtek-op1-10b6",
+  "revision": "source-snapshot",
+  "displayName": "Ø25 mm 无基座 M6 光学接杆 · 10 mm",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/lbtek-op1-10b6.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

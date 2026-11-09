@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "hardware-nbk-snss-m6x10-sd",
+  "revision": "source-snapshot",
+  "displayName": "NBK SNSS-M6-10-SD 不锈钢内六角小头螺钉",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/hardware-nbk-snss-m6x10-sd.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

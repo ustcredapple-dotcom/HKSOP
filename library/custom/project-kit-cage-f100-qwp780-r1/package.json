@@ -1,0 +1,22 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "project-kit-cage-f100-qwp780-r1",
+  "displayName": "f100 透镜 + 笼杆可调 QWP · 780 nm",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/cage-f100-qwp780-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-post-metric-25mm-m1",
+    "custom-15",
+    "opm-12.5bs",
+    "crm-1as",
+    "mop-50-dp-r1"
+  ],
+  "currentProject": "陈广杰交付项目",
+  "sourceCatalogIdentity": "nas-f6f31f9fc44ac657:1ea66f6d275b",
+  "retentionRole": "active-project-custom-component",
+  "distribution": "step-and-topviews-no-drawings"
+}

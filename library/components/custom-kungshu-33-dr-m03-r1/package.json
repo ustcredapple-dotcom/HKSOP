@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-kungshu-33-dr-m03-r1",
+  "revision": "R1",
+  "displayName": "33-DR-M03 定制转接件",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-kungshu-33-dr-m03-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

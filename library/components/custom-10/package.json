@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-10",
+  "revision": "source-snapshot",
+  "displayName": "可调反射镜 1inch",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-10.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

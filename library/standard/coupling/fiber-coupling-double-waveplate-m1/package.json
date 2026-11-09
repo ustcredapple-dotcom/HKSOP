@@ -1,0 +1,30 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "fiber-coupling-double-waveplate-m1",
+  "revision": "CURRENT-B6R1",
+  "displayName": "双波片光纤耦合头",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/fiber-coupling-double-waveplate-m1.json"
+    }
+  ],
+  "componentDependencies": [
+    "crm-1as",
+    "cs30-xy1d",
+    "custom-coupler-fc2a-r1",
+    "custom-post-metric-25mm-m1",
+    "mft",
+    "mop-75"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

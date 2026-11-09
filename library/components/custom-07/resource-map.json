@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-07",
+  "files": [
+    {
+      "path": "cad/a85b98bd98b992853df79ac6bdd9b9440ef58b1e79814ed0e2039da8f2fff239.step",
+      "stored": "library/assets/sha256/a8/a85b98bd98b992853df79ac6bdd9b9440ef58b1e79814ed0e2039da8f2fff239.step",
+      "sha256": "a85b98bd98b992853df79ac6bdd9b9440ef58b1e79814ed0e2039da8f2fff239",
+      "originalReferences": [
+        "step/original-metric-m1-20261006/custom-07_M1_native.step"
+      ],
+      "sources": [
+        "library/assets/sha256/a8/a85b98bd98b992853df79ac6bdd9b9440ef58b1e79814ed0e2039da8f2fff239.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

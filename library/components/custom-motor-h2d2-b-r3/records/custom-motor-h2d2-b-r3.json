@@ -1,0 +1,228 @@
+{
+  "id": "custom-motor-h2d2-b-r3",
+  "name": "H2D2-B R3 · 舵机下紧凑共面桥板",
+  "model": "H2D2-B_R3",
+  "kind": "custom",
+  "unit": "件",
+  "stepPath": "step/motor-h2-compact-support-r3/H2D2-B_R3.step",
+  "drawingPath": null,
+  "sourceStepSha256": "099c77085915ca158084abb22ebbfda18203f398608075d0111005cfc959103c",
+  "sourceDrawingSha256": "46dbe39931597c1d8cfb7ff4e2854c2462b980835cb0f85bf6c25ed1bc8d1367",
+  "drawingRevision": "H2-Compact-Support-R3",
+  "drawingStatus": "engineering-review",
+  "productionReady": false,
+  "status": "名义CAD及加工审核图；实装、带电全行程和加工放行未完成",
+  "notes": "R3仅改后支撑；长H2杆、高位原11mm杆、电机和镜架位置保持。先桥板侧板预装，再装舵机；桥侧沉孔改用M3×8。",
+  "manufacturingSpec": {
+    "material": "6061 aluminium, black anodize",
+    "surfaceTreatment": "black anodize, source V2",
+    "profileId": "al6061",
+    "threadClass": "待工艺确认",
+    "policyVersion": "source-specific-h2-compact-support-r3"
+  },
+  "manufacturingEvidence": {
+    "revision": "H2-Compact-Support-R3",
+    "drawingPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "drawingSha256": "46dbe39931597c1d8cfb7ff4e2854c2462b980835cb0f85bf6c25ed1bc8d1367",
+    "dxfSha256": "f18f3969e4a827540d9935ee63325ce822361418e07aa966690df8d7c528eb85",
+    "sourceStepSha256": "099c77085915ca158084abb22ebbfda18203f398608075d0111005cfc959103c",
+    "singleSolid": true,
+    "physicalTrialCompleted": false,
+    "parametersSha256": "547183bdd2a23a65a07de26827cb6646ba00cc285cc842c4206d0824de110843",
+    "nominalGeometry": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 6909.941531167465,
+      "boundsMm": [
+        0.0,
+        -0.0,
+        0.0,
+        60.6000001,
+        31.0000002,
+        5.0000001
+      ]
+    },
+    "localToAssemblyTranslationMm": [
+      -19.0000001,
+      -65.07375911,
+      111.28567129
+    ],
+    "roundtripVolumeDifferenceMm3": 5.820766091346741e-11,
+    "engraving": {
+      "text": "H2D2B3",
+      "centerAssemblyMm": [
+        0,
+        -57.07375901,
+        116.28567129
+      ],
+      "xDirection": [
+        1,
+        0,
+        0
+      ],
+      "outwardNormal": [
+        0,
+        0,
+        1
+      ],
+      "heightMm": 2,
+      "depthMm": 0.2,
+      "removedVolumeMm3": 0.7635834217071533
+    },
+    "manufacturingReady": false,
+    "holes": [
+      {
+        "part": "H2D2-B",
+        "kind": "M2 clearance through",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "entryMm": [
+          -16.5,
+          -62.57375901,
+          111.28567129
+        ],
+        "diameterMm": 2.2,
+        "threadReceiver": "source servo nominal M2 pilot"
+      },
+      {
+        "part": "H2D2-B",
+        "kind": "M2 clearance through",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "entryMm": [
+          -16.5,
+          -37.57375901,
+          111.28567129
+        ],
+        "diameterMm": 2.2,
+        "threadReceiver": "source servo nominal M2 pilot"
+      },
+      {
+        "part": "H2D2-B",
+        "kind": "M2 clearance through",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "entryMm": [
+          16.5,
+          -62.57375901,
+          111.28567129
+        ],
+        "diameterMm": 2.2,
+        "threadReceiver": "source servo nominal M2 pilot"
+      },
+      {
+        "part": "H2D2-B",
+        "kind": "M2 clearance through",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "entryMm": [
+          16.5,
+          -37.57375901,
+          111.28567129
+        ],
+        "diameterMm": 2.2,
+        "threadReceiver": "source servo nominal M2 pilot"
+      },
+      {
+        "part": "H2D2-B",
+        "kind": "M3 clearance counterbore through",
+        "axis": [
+          0,
+          0,
+          -1
+        ],
+        "entryMm": [
+          38.1,
+          -60.57375901,
+          116.28567129
+        ],
+        "diameterMm": 3.2,
+        "counterboreDiameterMm": 6.5,
+        "counterboreDepthMm": 3,
+        "remainingThicknessMm": 2
+      },
+      {
+        "part": "H2D2-B",
+        "kind": "M3 clearance counterbore through",
+        "axis": [
+          0,
+          0,
+          -1
+        ],
+        "entryMm": [
+          38.1,
+          -53.57375901,
+          116.28567129
+        ],
+        "diameterMm": 3.2,
+        "counterboreDiameterMm": 6.5,
+        "counterboreDepthMm": 3,
+        "remainingThicknessMm": 2
+      }
+    ]
+  },
+  "dxfPath": null,
+  "sourceDxfSha256": "f18f3969e4a827540d9935ee63325ce822361418e07aa966690df8d7c528eb85",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "d690437ab5584c49dceb8e7a6e989074263437c4455561b2d868fba7cc845062",
+  "drawingPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "79e7c41742e3b6d18e32ffcc39dd14ebaebd0231730be5a9e5e7679cdec09927",
+      "currentPdfSha256": "3a8d3436ef3bff8231150c9f27b4fd20b2f2a562a9a92b1f6ec214351ac63890",
+      "annotatedPages": [
+        2,
+        3
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "b52187b13cd77702443166d4ab55f9585035fa5cf955868065127f4947be6487",
+      "currentPdfSha256": "d690437ab5584c49dceb8e7a6e989074263437c4455561b2d868fba7cc845062",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

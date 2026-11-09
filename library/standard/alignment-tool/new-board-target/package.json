@@ -1,0 +1,26 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-board-target",
+  "revision": "source-snapshot",
+  "displayName": "面包板双位高度靶 · 间距50 mm",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/new-board-target.json"
+    }
+  ],
+  "componentDependencies": [
+    "new-r3-13-14-common-target",
+    "new-r3-14-height-frame"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

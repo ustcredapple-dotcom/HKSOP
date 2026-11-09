@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-wp051-d-r1",
+  "files": [
+    {
+      "path": "cad/2bd2f61399f4af4a18f85e41a4104491297821aad3a648b1fbe431f36c2d49a4.step",
+      "stored": "library/assets/sha256/2b/2bd2f61399f4af4a18f85e41a4104491297821aad3a648b1fbe431f36c2d49a4.step",
+      "sha256": "2bd2f61399f4af4a18f85e41a4104491297821aad3a648b1fbe431f36c2d49a4",
+      "originalReferences": [
+        "step/mixed-waveplate-r1-20261012/WP051-D_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/2b/2bd2f61399f4af4a18f85e41a4104491297821aad3a648b1fbe431f36c2d49a4.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

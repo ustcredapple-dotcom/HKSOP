@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "flir-focus-single-axis-stage-reference",
+  "revision": "source-snapshot",
+  "displayName": "现有 Suruga 单轴台（拆台复用）",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/flir-focus-single-axis-stage-reference.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-fc75-p-r2",
+  "revision": "source-snapshot",
+  "displayName": "FLIR 调焦特种万能柱 H25",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-fc75-p-r2.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

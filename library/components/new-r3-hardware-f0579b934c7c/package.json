@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-r3-hardware-f0579b934c7c",
+  "revision": "source-snapshot",
+  "displayName": "M4×10 内六角圆柱头螺钉",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-r3-hardware-f0579b934c7c.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

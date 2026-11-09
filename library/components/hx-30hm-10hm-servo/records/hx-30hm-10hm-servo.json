@@ -1,0 +1,21 @@
+{
+  "id": "hx-30hm-10hm-servo",
+  "name": "完整舵机 HX-30HM / 10HM",
+  "model": "HX-30HM_10HM（文件标识，实际变体待确认）",
+  "kind": "standard",
+  "unit": "件",
+  "stepPath": "step/servo-detector-gate-r2/SERVO_SOURCE.step",
+  "sourceStepSha256": "64c17dbf7908d6c366313953af0a575f27ebea98ee428cfb2405415b63ca2547",
+  "status": "来源冻结 · 实物接口待核",
+  "notes": "用户提供STEP；完整舵机保留14实体。厂家和具体变体未标明，不等同旧库未知型号编码器舵机。",
+  "sourceUrl": "",
+  "revision": "SOURCE-FROZEN-R1",
+  "supplier": null,
+  "productionReady": false,
+  "geometryEvidence": {
+    "sourceKind": "user-supplied-CAD",
+    "sourceStepSha256": "64c17dbf7908d6c366313953af0a575f27ebea98ee428cfb2405415b63ca2547",
+    "nativeSolidCount": 14,
+    "sourceUnmodified": true
+  }
+}

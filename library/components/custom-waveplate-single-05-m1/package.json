@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-waveplate-single-05-m1",
+  "revision": "M1",
+  "displayName": "23-WP05-S 半英寸单波片一体转接块",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-waveplate-single-05-m1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

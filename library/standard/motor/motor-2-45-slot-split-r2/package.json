@@ -1,0 +1,33 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "motor-2-45-slot-split-r2",
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "displayName": "电动反射镜 · 2 inch · 45° · M2S r2",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/motor-2-45-slot-split-r2.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-motor-adapter-18-s2-r2",
+    "custom-motor-m2s-a-r2",
+    "custom-motor-m2s-h-r2",
+    "custom-motor-m2s-l-r2",
+    "custom-motor-m2s-s-r2",
+    "custom-post-metric-12p5mm-m1",
+    "encoder-servo",
+    "motor-adapter-m3",
+    "new-r3-vendor-mt-am2s5"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

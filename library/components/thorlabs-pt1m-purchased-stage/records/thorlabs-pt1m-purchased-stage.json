@@ -1,0 +1,20 @@
+{
+  "id": "thorlabs-pt1m-purchased-stage",
+  "name": "Thorlabs PT1/M 手动单轴位移台",
+  "model": "PT1/M",
+  "kind": "standard",
+  "unit": "台",
+  "revision": "R1-A7075",
+  "manufacturer": "Thorlabs",
+  "sourceUrl": "https://media.thorlabs.com/globalassets/items/p/pt/pt1/pt1_m/2864-e0w.pdf?v=0116022458",
+  "status": "型号已确认；实物验收未执行",
+  "notes": "厂家真实参考件，保持原尺寸及接口；不作为自制加工件。",
+  "drawingPath": null,
+  "sourceDrawingSha256": "f00f014074b9ea9259d44f8d4e1c5b38d1322faef7f0a6c1b06eebc0550bb5f0",
+  "dxfPath": null,
+  "sourceDxfSha256": "397bf4d45ba1e885052887ea2d0e29f3fc53b96c20d98fe8e3f6470a16d96adb",
+  "stepPath": "step/manual-stage-r1-a7075/vendor/thorlabs-pt1m-purchased-stage/2864-E0W.step",
+  "sourceStepSha256": "a79d2e37803e5f287a693332e9dca5f5fd824560a2fed65273705b75c69e2338",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "6704d053ee2b4753bc70de05c4c46ad8497b82c808754d3869052fcb3595770a"
+}

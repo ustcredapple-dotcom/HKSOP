@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "lbtek-amm3-1dr",
+  "revision": "source-snapshot",
+  "displayName": "麓邦 AMM3-1DR · D形反射镜调整架",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/lbtek-amm3-1dr.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

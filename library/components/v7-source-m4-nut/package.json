@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "v7-source-m4-nut",
+  "revision": "source-snapshot",
+  "displayName": "V7 M4 螺母 AF7×3.2",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/v7-source-m4-nut.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

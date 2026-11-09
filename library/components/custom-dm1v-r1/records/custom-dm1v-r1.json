@@ -1,0 +1,56 @@
+{
+  "id": "custom-dm1v-r1",
+  "name": "DM1V-R1 · D镜竖直刀口一体转接板",
+  "model": "DM1V-R1",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R1",
+  "productionReady": false,
+  "drawingStatus": "engineering-review",
+  "status": "加工审核版；定位孔配合与螺纹等级待核定",
+  "sourceUrl": "https://cad.onshape.com/documents/3f1005e8109819b0d8f4538d/v/c7246a4f24bae6dce7d975eb/e/602681771d771fffb32d72c2",
+  "stepPath": "step/dm1v-r1/DM1V-R1.step",
+  "drawingPath": null,
+  "dxfPath": null,
+  "sourceStepSha256": "7edbe3ca64a74729f637edd4f822324db05a1e8e684a80304a5a75a07eb4e22a",
+  "sourceDrawingSha256": "d91c9a412ab002c3c23a3a55cb17ffe2d55cae1bc0712c152d47b7b62f1c36a3",
+  "sourceDxfSha256": "6189fa3b7542f67517055ad539204a75fe81b168026d82bb97a57154f9c9c52b",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "板厚5.5，后挡高4，内根R0.5；按同修订孔旁标注及孔表加工；编号激光打标。"
+  },
+  "manufacturingEvidence": {
+    "sourceStepSha256": "7edbe3ca64a74729f637edd4f822324db05a1e8e684a80304a5a75a07eb4e22a",
+    "drawingSha256": "d91c9a412ab002c3c23a3a55cb17ffe2d55cae1bc0712c152d47b7b62f1c36a3",
+    "geometryValidated": true,
+    "pdfVisualReviewPassed": true,
+    "physicalAssemblyTested": false,
+    "engineeringReleaseApproved": false
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "自制件身份标识",
+    "notes": "顶平面Z=5.5；DM1V-R1字高2.0；仅激光，不铣刻。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "cloudReference": {
+    "documentId": "3f1005e8109819b0d8f4538d",
+    "workspaceId": "0ca9154723ca22fb744ffd33",
+    "versionId": "c7246a4f24bae6dce7d975eb",
+    "elementId": "602681771d771fffb32d72c2",
+    "configuration": "default",
+    "folderId": "aca6e9de7a0df4f3096709ed",
+    "libraryMembershipVerified": true,
+    "url": "https://cad.onshape.com/documents/3f1005e8109819b0d8f4538d/v/c7246a4f24bae6dce7d975eb/e/602681771d771fffb32d72c2",
+    "sourceUrl": "https://cad.onshape.com/documents/3f1005e8109819b0d8f4538d/v/c7246a4f24bae6dce7d975eb/e/602681771d771fffb32d72c2",
+    "active": false,
+    "current": false,
+    "status": "frozen-producer-evidence-received-readback-pending",
+    "sourceStepSha256": "7edbe3ca64a74729f637edd4f822324db05a1e8e684a80304a5a75a07eb4e22a",
+    "reason": "已收到源作者冻结版本、42实体及整体移动撤销记录；本轮浏览器工具被禁用，独立云端尺寸回读待续。精确CAD采用本地/NAS冻结STEP。"
+  },
+  "notes": "0°与45°共用；柱端M4×8、镜架端M4×10、2×Ø2×8销。M4螺纹写作M4×0.7；制造等级及销孔配合待工艺确认。 可编辑DXF与同修订加工PDF联合使用；补充PDF引用该已核验加工图，不重复制造图。",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "d91c9a412ab002c3c23a3a55cb17ffe2d55cae1bc0712c152d47b7b62f1c36a3"
+}

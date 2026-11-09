@@ -1,0 +1,86 @@
+{
+  "id": "new-pd-adapter-1",
+  "name": "光电探测器转接块",
+  "model": "03-PD-M1",
+  "kind": "custom",
+  "unit": "件",
+  "status": "M1公制加工审核图；PDF、DXF与STEP同源",
+  "notes": "M1公制修订；真实光敏面位置及底螺孔有效牙深待实物确认。。实物试装未完成。",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/e19fd6119eda6fc84ad8ab1c",
+  "stepPath": "step/metric-m1-20261006/03-PD_METRIC_M1.step",
+  "drawingPath": null,
+  "sourceStepSha256": "e81155ef71b495079c515b5d04cb150b86b388e615f7b8cf285220e1331f9381",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "threadClass": "待确认",
+    "profileId": "r6_316L_passivated",
+    "policyVersion": "supplied-manufacturing-M1-2026-10-05",
+    "processDetails": "M4两沉孔入口方向相反，按孔表加工。 PD真实光敏面轴向位置待实测；本件为现有机械适配尺寸。"
+  },
+  "drawingRevision": "M1",
+  "drawingStatus": "engineering-review",
+  "dxfPath": null,
+  "manufacturingEvidence": {
+    "sourcePackage": null,
+    "sourceCode": "03-PD",
+    "sourceStepSha256": "e81155ef71b495079c515b5d04cb150b86b388e615f7b8cf285220e1331f9381",
+    "drawingSha256": "aaa5118df3a9c1d742e127feb1755c28c0134e5a4198dfe6a083206cd620ed5b",
+    "dxfSha256": "981941b288759a1b0a3a230947693a0b333178a53faa5b8b9093412e47bb3412",
+    "pageCount": 3,
+    "metricMigration": {
+      "post_height_old_mm": 25.4,
+      "post_height_new_mm": 25,
+      "selected_height_delta_mm": -0.6,
+      "world_bottom_delta_mm": -0.4,
+      "supplier_translation_mm": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "physicalTrialCompleted": false
+  },
+  "sourceDrawingSha256": "aaa5118df3a9c1d742e127feb1755c28c0134e5a4198dfe6a083206cd620ed5b",
+  "sourceDxfSha256": "981941b288759a1b0a3a230947693a0b333178a53faa5b8b9093412e47bb3412",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "b8b5e810b0c551b1fad6dc526d0cf396f63915cf3796733f508ba231aef07068",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "e98a7f718849ae3b5baa546036490e2620d880404e3a4569accb8be3067c898b",
+      "currentPdfSha256": "c5cd670ab8c562bacf5cd775002c5ac8c4ef1f7be91ed6ef8dcf89ef82fb80e2",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "b7e259d322419fd321980cfd1cbd5a47f7c59a2c897c8a2c9ab17c8bf685b38b",
+      "currentPdfSha256": "b8b5e810b0c551b1fad6dc526d0cf396f63915cf3796733f508ba231aef07068",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-suruga-xyz-zpanel-r1",
+  "revision": "R2",
+  "displayName": "三轴台输出板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-suruga-xyz-zpanel-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

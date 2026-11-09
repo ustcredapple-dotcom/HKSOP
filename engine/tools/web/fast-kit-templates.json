@@ -1,0 +1,282 @@
+{
+  "schema": "zzlab-fast-kit-template-admission-v1",
+  "sourceCatalogSha256": "ea87efc198c40476f373aa7be7cece357709ce2070bd30c8492bd3d13ba4b3f2",
+  "geometryGeneratorSha256": [
+    "5592bea5fbf7033d683ff1f7be154d4e68a22c3820e92d24eea7108b301ddc09",
+    "6b09efb085506af60153591c8fac59e1aa385c7e83c67f7dc840281b3a6595a4"
+  ],
+  "scope": "Current 66 admitted standard simple/motorized rotator templates; unchanged baseline STEP and post plus receipt required. Any geometry/code change needs one-time review, no silent admission.",
+  "kits": {
+    "waveplate": {
+      "assemblySha256": "0b11eb51dccc22d296f376bf5208259876778daa9307dd0080bcf49909aed4f6",
+      "opticalType": "waveplate"
+    },
+    "pbs-fixed": {
+      "assemblySha256": "ba4f6c1360a775a8fd4f7e03ae5b33555cb00b20aeba4aa3b5ef0caf44c45886",
+      "opticalType": "pbs"
+    },
+    "pbs-adjustable": {
+      "assemblySha256": "98ae2ab7269a2352e35d4a56bbbf9f65f9b9cab1ce21cdb148a737e20caa1da0",
+      "opticalType": "pbs"
+    },
+    "fiber-coupling": {
+      "assemblySha256": "e9f11466649080be701bd9952dfd78a36a535ef75c4bb958e575c43c3f0fa9af",
+      "opticalType": "coupler"
+    },
+    "fixed-05-90": {
+      "assemblySha256": "cf1f8898500d633a370d174459e1761357d4d12b22df385364b71935ad6d0274",
+      "opticalType": "mirror"
+    },
+    "fixed-05-45": {
+      "assemblySha256": "deca1c8eb26ec59492dea8f333c36bef1ed4f0eae82f18316a90abcc2c45a0ad",
+      "opticalType": "mirror"
+    },
+    "fixed-1-90": {
+      "assemblySha256": "ac2ccc4e320e317fc599ccaebb735ee438575fb9106b8e6a84c2fbf3b46f64ea",
+      "opticalType": "mirror"
+    },
+    "fixed-1-45": {
+      "assemblySha256": "f2add05021ab57f5842ca4bd544707a80ce916415d073a04ced25d98dadea78c",
+      "opticalType": "mirror"
+    },
+    "adjustable-05-90": {
+      "assemblySha256": "030c5c129fdd276770aacfe74a8a7c070d142741e135f121ebac493f26e3e78f",
+      "opticalType": "mirror"
+    },
+    "adjustable-05-45": {
+      "assemblySha256": "5b646b2941b0605777972856cbc7203abb1e661d839d1f7e0927fe3b8044a5d3",
+      "opticalType": "mirror"
+    },
+    "adjustable-1-90": {
+      "assemblySha256": "45fca4abbef11d8ca178ecb73f1616421101af7596f5aae741bc5eab632c473e",
+      "opticalType": "mirror"
+    },
+    "adjustable-1-45": {
+      "assemblySha256": "c7cc33cd07dc850475ffc9df46789d5a5a63b6ec803579beb9dc6194aef56032",
+      "opticalType": "mirror"
+    },
+    "motor-05-90": {
+      "assemblySha256": "d9096cfe01f70e7ba5fe34c6d936aafeac2278cf18a11eac8818ffeb743fe3ee",
+      "opticalType": "mirror"
+    },
+    "motor-05-45": {
+      "assemblySha256": "4ca385676df76dddfa62b9f9f860dba8ae00fdb66689bceb9fb0a27080b19d12",
+      "opticalType": "mirror"
+    },
+    "motor-1-90": {
+      "assemblySha256": "cdb8da62edcc247a741438b3ebbd592b199d68e6e7e9c866cd0e996a5dd9bf0e",
+      "opticalType": "mirror"
+    },
+    "motor-1-45": {
+      "assemblySha256": "686aeaeaa5954faa4c5a7ebb5dc70d6e802bdb10dbbd66f27c4acefd5036f312",
+      "opticalType": "mirror"
+    },
+    "cage-90": {
+      "assemblySha256": "586ee45e4a46de115ccc354b94b81640c45ab033718b9ec3b50854c7bc50a41e",
+      "opticalType": "lens"
+    },
+    "cage-45": {
+      "assemblySha256": "92ee638932d1f15401849f533143b387bb8878f3ea00b29e8b968d72e2275ba8",
+      "opticalType": "lens"
+    },
+    "new-waveplate-single": {
+      "assemblySha256": "bb5133fb0cd7ae1d698d459adcdfad0a0211604ab2d2c795508cd45eb504c819",
+      "opticalType": "waveplate"
+    },
+    "new-pd": {
+      "assemblySha256": "cf2a71c693d5bdf935bf6ddfc5ccbbdeee1532b6093560700a6a49a0cfcff4c9",
+      "opticalType": "unsupported"
+    },
+    "new-post-ruler": {
+      "assemblySha256": "029740fbfda543d4190c9401ed99aceea32fff2944e7d5bd4b34f4af8d2133d4",
+      "opticalType": "unsupported"
+    },
+    "new-lens-filter-2inch": {
+      "assemblySha256": "81d4462e964cf345fdae244506a2baa8c6823bb5fdf6708477dd167df3166931",
+      "opticalType": "lens"
+    },
+    "new-lens-filter-2inch-45": {
+      "assemblySha256": "0eb717a1810ab2e3ceb5600180c81f0610db400783f3bb3a721bdea95d9abef2",
+      "opticalType": "lens"
+    },
+    "new-mirror-fixed-2inch": {
+      "assemblySha256": "e3964b1c95359d16b0dbcd6707158b5aed8ac41bedbff67ed70f8b9f294dcd23",
+      "opticalType": "mirror"
+    },
+    "new-mirror-fixed-2inch-45": {
+      "assemblySha256": "acb48b5d8861d6d7321b76a3c26bd1b2ec117afc888d9ed87d9e2f7df851d3dd",
+      "opticalType": "mirror"
+    },
+    "new-mirror-adjustable-2inch": {
+      "assemblySha256": "ac9452ee8a176bf2a95a35b273d829400ac15840761f2ea567b375086cb7eee9",
+      "opticalType": "mirror"
+    },
+    "new-mirror-adjustable-2inch-45": {
+      "assemblySha256": "8523e751ab7805e78d7e124cb2c915c2686c49fec2fcfa2b838afc14da6abeb4",
+      "opticalType": "mirror"
+    },
+    "new-waveplate-single-2inch": {
+      "assemblySha256": "339b7b4b381d2c63600b7559e5c8a6905b319e86719ffb5aff3b4914c2cc06d9",
+      "opticalType": "waveplate"
+    },
+    "new-waveplate-single-2inch-45": {
+      "assemblySha256": "b507a564e844a7cf65c3e3e863aa6e722754740b82d226f3b834b828844ae75f",
+      "opticalType": "waveplate"
+    },
+    "new-slm-hamamatsu": {
+      "assemblySha256": "04a7c966206f4f1e551883e646b5085a38dc16deb2142ecd2d21e901b08b9649",
+      "opticalType": "unsupported"
+    },
+    "new-slm-hamamatsu-45": {
+      "assemblySha256": "3afa266cfd8e2b4afe449f4efc7f649c304d53e5ee2d8a3f2b63cf9650747554",
+      "opticalType": "unsupported"
+    },
+    "new-camera-flir": {
+      "assemblySha256": "936792c64451edda4692d8acc8685e46bedeafb89f24d677a25b3a580c1f6d56",
+      "opticalType": "unsupported"
+    },
+    "new-camera-flir-45": {
+      "assemblySha256": "f48597f62011d87f3e49352e67e02ad46b691bcf3867d24093c197a550b13f57",
+      "opticalType": "unsupported"
+    },
+    "waveplate-single-05-m1": {
+      "assemblySha256": "655988a3d0679abced1def51b743845108e9c3eaafe8455d7eba534d71b8cb6f",
+      "opticalType": "waveplate"
+    },
+    "waveplate-double-05-m1": {
+      "assemblySha256": "ad4b5d8299a228c9d97dd24977cb00701bdc5809178c7264f79522db16204db5",
+      "opticalType": "waveplate"
+    },
+    "motor-v7-1in-0": {
+      "assemblySha256": "3aeb390e50fa27ac2d248e7d576147b324f752a09666d9ebf54f8c4769e20744",
+      "opticalType": "mirror"
+    },
+    "motor-v7-1in-45": {
+      "assemblySha256": "f77572efff9abf693023be0265b84dff828d86f68a8bae9e0cbe67dd0d7c066e",
+      "opticalType": "mirror"
+    },
+    "motor-v7-2in-0": {
+      "assemblySha256": "d4634277b8320bac9c4299eff802b500033f1cc8594b9097f95efe27b226360b",
+      "opticalType": "mirror"
+    },
+    "motor-v7-2in-45": {
+      "assemblySha256": "7444389b7b6e44ab65d1dcc1b329d8d3fe6712bc4a7b7193c1811de2cecf3b18",
+      "opticalType": "mirror"
+    },
+    "fiber-coupling-double-waveplate-m1": {
+      "assemblySha256": "9e48f277ea622f326318fe033b92a0247b604b395c4765b9cfa314460ff1bde9",
+      "opticalType": "coupler"
+    },
+    "motor-2-90-slot-split-r2": {
+      "assemblySha256": "8f980df8092dcc840edc96183784ece5f95ad13b09407669d7aa2d32b714b4c5",
+      "opticalType": "mirror"
+    },
+    "motor-2-45-slot-split-r2": {
+      "assemblySha256": "3964bbe42717c17f969aaef7f49cc09396eca2149da70bcf6225628ce04050a0",
+      "opticalType": "mirror"
+    },
+    "mt-cube-pbs-1inch-m1-r1": {
+      "assemblySha256": "02b1121cfd8d3cf765ce79163a78e0e85e7fb373917ca426901da1b71b369b2a",
+      "opticalType": "unsupported"
+    },
+    "mt-cube-bs-1inch-m1-r1": {
+      "assemblySha256": "ccdc1c68f4889350f1b88c66b64d54a12756895d9e9e147c3edaba59e45b99cf",
+      "opticalType": "unsupported"
+    },
+    "objective-post-ls30-6l1-r2": {
+      "assemblySha256": "77b1e899a3fbbb0b927cf253d4420bae3348424c11d1e9a7926cfe5ebe3ea588",
+      "opticalType": "unsupported"
+    },
+    "objective-post-ls30-6r1-r2": {
+      "assemblySha256": "6630538834252a05c38e3fddf41d89eae075b7236875805c348fb037da148436",
+      "opticalType": "unsupported"
+    },
+    "objective-post-mt1m-r2": {
+      "assemblySha256": "6ce9de6d76cb0f09f568ddde7e5b99cb1fe2379453593b3f3445aa916351b661",
+      "opticalType": "unsupported"
+    },
+    "objective-post-pt1m-r2": {
+      "assemblySha256": "99b2dba9871aed1b9ddfc723804bc8b9b27c89a37bc8fb7ee8ef3d487f7ee328",
+      "opticalType": "unsupported"
+    },
+    "mt-am1t-h25-32t1-standard-r2": {
+      "assemblySha256": "678d6e5e3ed4cc6fc4c25f4dc81474d3c43eab3c04c60a664b7b01778fd4c5d0",
+      "opticalType": "unsupported"
+    },
+    "mt-am1-h25-v7-1a-standard-r2": {
+      "assemblySha256": "1a98a95d351718ee5664a5435bb4b5dfeb8471b2f37db1c4f93d87d6074ef531",
+      "opticalType": "mirror"
+    },
+    "motor-1-90-h2-coplanar-r1": {
+      "assemblySha256": "f9fbe349314447d51485d02344e61f095222909f74b478a1eb684a3594ca39a0",
+      "opticalType": "mirror"
+    },
+    "motor-2-90-h2-coplanar-r1": {
+      "assemblySha256": "28b3829668208d5d7ceae16c7bba5abe2d3d1c7cdf8709fc4806df963e304569",
+      "opticalType": "mirror"
+    },
+    "objective-post-ls30-6l1-r3": {
+      "assemblySha256": "82a85b5640e79ff7f8475f2900fa831e6000d957992a3a9b2907857b38c4bfe2",
+      "opticalType": "unsupported"
+    },
+    "objective-post-ls30-6r1-r3": {
+      "assemblySha256": "09fc483c50f2b11a377969726eab31f581811b342d60c750c31c13e083de1263",
+      "opticalType": "unsupported"
+    },
+    "mt-cube-pbs-0p5inch-m1-r2": {
+      "assemblySha256": "ad38a80e84da077f2fb98cc806d249667952bcf1ec5343f4d5fd8c8b37cf6684",
+      "opticalType": "unsupported"
+    },
+    "mt-cube-pbs-2inch-m1-r2": {
+      "assemblySha256": "bff7719c6e07fea8b8cb63ffa5ab3a4e428a9c62e1e4738c7286d8f212c49433",
+      "opticalType": "unsupported"
+    },
+    "thin-mirror-05-r3": {
+      "assemblySha256": "f21383051e1b59b70316007d16f536ffb38597b4b3712120877848caa7134ed0",
+      "opticalType": "mirror"
+    },
+    "waveplate-mixed-051-r1": {
+      "assemblySha256": "dc6f6f50338b9d99732ed609854c518312522016eda4fb882b56aca486f3add9",
+      "opticalType": "waveplate"
+    },
+    "kungshu-louc1-dr-manual-0-r1": {
+      "assemblySha256": "3361c3ab08f2e36c762c4870e5266324f56f6f4a19242f9f72d1e1b3acdfbc1e",
+      "opticalType": "mirror"
+    },
+    "kungshu-louc1-dr-manual-45-r1": {
+      "assemblySha256": "024345478235276811d76b5ea1b177c45b2e50e3d7c656fccb79f46679278e5e",
+      "opticalType": "mirror"
+    },
+    "kungshu-louc1-ll-manual-0-r1": {
+      "assemblySha256": "f3a5b1f179d2dc9a7d9d23043f298d7513f2fe66338daf58b28639c93777e312",
+      "opticalType": "unsupported"
+    },
+    "kungshu-louc1-ll-manual-45-r1": {
+      "assemblySha256": "55ac0c5da04fe15e9b3f73c4b17189c1c13370729e68bd544b487d20a4d29ae3",
+      "opticalType": "unsupported"
+    },
+    "kungshu-louc1-dr-motorized-0-r1": {
+      "assemblySha256": "67ff256aef1c965ba397986140dbb007c3549f4ba2ff900cfd44cff5c42a2d48",
+      "opticalType": "mirror"
+    },
+    "kungshu-louc1-dr-motorized-45-r1": {
+      "assemblySha256": "aa35b2a8c3ea01cd14a4f1c3420cce4020aceb672c1d167053161b48ca6122a0",
+      "opticalType": "mirror"
+    },
+    "kungshu-louc1-ll-motorized-0-r1": {
+      "assemblySha256": "8b9ffeb8dd02f29ac0a0b17750e0e7456a55d4a4633625d44090d7da622df3e0",
+      "opticalType": "unsupported"
+    },
+    "kungshu-louc1-ll-motorized-45-r1": {
+      "assemblySha256": "7850f85480ef9784ff255301014b253d5d9bac1d533aa9e78fc7098e722bc2a0",
+      "opticalType": "unsupported"
+    }
+  },
+  "runtimeUpgrades": {
+    "exports.py": {
+      "fromSha256": "09f65ad4c4636d4d87adbd7ecd45cd0626d353089bdb3759540ced279dafbfc8",
+      "toSha256": "a6f94dfedb4e3f2d9ae880c47a2452cf2b139702d482ad214497ab74933bb5d3",
+      "scope": "Add exact complete assembly reference to fast-upload ZIP only; unchanged BOM/auth/optical engine."
+    }
+  }
+}

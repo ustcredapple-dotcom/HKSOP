@@ -1,0 +1,3 @@
+# Isolated Python 3.12 worker; pin to the versions verified by geometry QA.
+cadquery-ocp==8.0.1.0.0
+reportlab==4.4.9

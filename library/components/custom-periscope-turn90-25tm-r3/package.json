@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-periscope-turn90-25tm-r3",
+  "revision": "source-snapshot",
+  "displayName": "高位转向爬架",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-periscope-turn90-25tm-r3.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

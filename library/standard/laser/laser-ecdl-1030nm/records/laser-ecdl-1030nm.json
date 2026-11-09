@@ -1,0 +1,124 @@
+{
+  "name": "ECDL / CatEye · 1030 nm · 光纤输出",
+  "category": "laser",
+  "variant": "配套种子光学头 · 尺寸待补",
+  "description": "依据所附CatEye手册绘制外观俯视示意；1030 nm、FC/APC光纤输出，50 mW（报告200 mA工况）。",
+  "status": "报告已核对；外形尺寸待补",
+  "sourceUrl": "",
+  "components": [],
+  "opticalSlots": [],
+  "bomPolicy": "reference-only",
+  "releaseStage": "documentation-preview",
+  "bundleStatus": "blocked",
+  "bundleNote": "尚缺光学头机械尺寸与安装孔定位；当前仅供资料查看，不计入采购或生产。",
+  "notes": "报告PLP-2026-03-007272-Y-01中的1030 nm种子模块，不能按308 nm主输出腔或CEL Driver控制器尺寸建图。实测50 mW@200 mA、线偏振、PER 47.4 dB；未提供自由空间光斑、M²、出光轴高和安装孔坐标。FC/APC输出需经已定位并标定的光纤耦合头进入自由空间光路。具体采购型号及尺寸待补；不重复计购主系统内的种子模块。",
+  "sourceReport": {
+    "title": "Cat Eye Laser 测试报告",
+    "reportId": "PLP-2026-03-007272-Y-01",
+    "sourceFiles": [
+      {
+        "id": 1,
+        "name": "Cat Eye Laser测试报告_FL-SF-308-0.1-CW_20260109.pdf",
+        "path": null,
+        "sha256": "6f39bd60ac330becc4019af9ce3a83451e58a6f3a21783052464b36a99fa5cec",
+        "pages": 9
+      },
+      {
+        "id": 2,
+        "name": "CatEye软件用户手册_Precilasers.pdf",
+        "path": null,
+        "sha256": "332e64c5b69b74a6ded09c69cb41d6b5bff7e1e45f789c323ba3005737ad5674",
+        "pages": 22
+      }
+    ],
+    "wavelengthNm": 1030,
+    "powerMw": 50,
+    "testCurrentMa": 200,
+    "polarizationType": "linear",
+    "extinctionRatioDb": 47.4,
+    "outputMode": "FC/APC fiber",
+    "beamDiameterMm": null,
+    "beamQualityM2": null,
+    "axisRelativeToBoardDeg": null
+  },
+  "layout": {
+    "placementAllowed": false,
+    "status": "尺寸待补 · FC/APC 光纤输出",
+    "topViewPath": "topviews/kit_laser-ecdl-1030nm.svg",
+    "topViewUrl": "./topviews/kit_laser-ecdl-1030nm.svg",
+    "note": "此图仅为未定标元件库缩略图，不含毫米尺寸或孔位。补齐光学头尺寸、安装孔和端口定位后方可放入画布。",
+    "opticalPortsMm": [],
+    "geometryStatus": "awaiting-dimensions",
+    "opticalType": "unsupported",
+    "opticalDatumVerified": false,
+    "opticalSimulationNote": "该种子激光为FC/APC光纤输出；安装尺寸及自由空间出光模型未登记。"
+  },
+  "geometryEvidence": {
+    "status": "awaiting-dimensions",
+    "calibrationVerified": false,
+    "usage": "Unscaled component-library thumbnail only; not a manufacturing drawing or calibrated placement footprint.",
+    "widthMm": null,
+    "heightMm": null,
+    "bodyHeightMm": null,
+    "anchorXMm": null,
+    "anchorYMm": null,
+    "baseBoundsMm": null,
+    "collisionBoundsMm": null,
+    "collisionPolygonsMm": null,
+    "mountingHoleOffsetsMm": null,
+    "opticalPortPositionMm": null,
+    "opticalAxisHeightMm": null,
+    "unknown": [
+      "光学头长宽高及底座外形",
+      "底部安装孔类型、孔距与孔位基准",
+      "FC/APC/Fiberport端口相对壳体及支承底面的准确位置",
+      "接头、调节旋钮及线缆外伸尺寸"
+    ],
+    "excludedObjects": [
+      "CEL Driver 控制器",
+      "308 nm输出腔",
+      "308 nm主机控制机箱"
+    ]
+  },
+  "installationPackageReview": {
+    "revision": "REFERENCE_HANDOFF_20261006",
+    "protocol": "zzlab-optics-library-v1",
+    "baselineVersion": "2026-10-06.5-waveplate05-m1",
+    "mechanicalMountStatus": "not-released-measurements-required",
+    "evidence": {
+      "path": "evidence/install/laser-ecdl-1030nm.json"
+    },
+    "sourceDocuments": [
+      {
+        "originalFileName": null,
+        "sha256": "6f39bd60ac330becc4019af9ce3a83451e58a6f3a21783052464b36a99fa5cec",
+        "externalEvidenceArchive": "laser-original-evidence-20261006.zip",
+        "externalEvidenceArchiveSha256": "1c9eb61cbc7e21200296476ea6d2d39d7605f961a504a581f3daa67f51d92f7e",
+        "archiveFile": null
+      },
+      {
+        "originalFileName": null,
+        "sha256": "332e64c5b69b74a6ded09c69cb41d6b5bff7e1e45f789c323ba3005737ad5674",
+        "externalEvidenceArchive": "laser-original-evidence-20261006.zip",
+        "externalEvidenceArchiveSha256": "1c9eb61cbc7e21200296476ea6d2d39d7605f961a504a581f3daa67f51d92f7e",
+        "archiveFile": null
+      }
+    ],
+    "unchangedRuntimeSemantics": [
+      "BOM",
+      "mounting holes",
+      "minimum hole count",
+      "optical ports",
+      "simulation",
+      "placement permission"
+    ],
+    "limits": {
+      "manufacturingMount": "Not done as a manufacturing installation kit in audited source. Documentation card only; no located optical-head CAD.",
+      "feet": "Optical-head envelope, mounting thread/spacing and base datum absent; CEL Driver dimensions are not the head.",
+      "port": "FC/APC fiber output; no localized free-space port. Report1030nm/50mW does not define head mounting geometry.",
+      "next": "Obtain exact head model/serial and mechanical drawing or measurements, support/holes, FC/APC connector and cable clearance; select a separately located collimator if free-space output is needed."
+    },
+    "referenceCad": null
+  },
+  "id": "laser-ecdl-1030nm"
+}

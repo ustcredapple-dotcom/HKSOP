@@ -1,0 +1,35 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-camera-flir-45",
+  "files": [
+    {
+      "path": "rendering/1d5a1b73bd8fa724d9a6c267fd21c141bfa7789b388ac831c1211ca97194b1f0.svg",
+      "stored": "library/assets/sha256/1d/1d5a1b73bd8fa724d9a6c267fd21c141bfa7789b388ac831c1211ca97194b1f0.svg",
+      "sha256": "1d5a1b73bd8fa724d9a6c267fd21c141bfa7789b388ac831c1211ca97194b1f0",
+      "originalReferences": [
+        "topviews/new-camera-flir-45__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/1d/1d5a1b73bd8fa724d9a6c267fd21c141bfa7789b388ac831c1211ca97194b1f0.svg"
+      ]
+    },
+    {
+      "path": "cad/f48597f62011d87f3e49352e67e02ad46b691bcf3867d24093c197a550b13f57.step",
+      "stored": "library/assets/sha256/f4/f48597f62011d87f3e49352e67e02ad46b691bcf3867d24093c197a550b13f57.step",
+      "sha256": "f48597f62011d87f3e49352e67e02ad46b691bcf3867d24093c197a550b13f57",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/new-camera-flir-45__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/f4/f48597f62011d87f3e49352e67e02ad46b691bcf3867d24093c197a550b13f57.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-post-metric-37p5mm-m1",
+    "metric-m1-post-m4x12",
+    "metric-m1-post-pin-d2x8",
+    "new-r6-20-camera-cs-adapter",
+    "new-r6-camera-flir-bfs-u3-16s2-cs"
+  ]
+}

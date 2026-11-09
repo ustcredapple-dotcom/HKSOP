@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-mt-am1t-dual-m4-c4",
+  "revision": "DUAL-M4-R4",
+  "displayName": "32-T1-C4 · MT-AM1T 双M4紧凑转接块",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-mt-am1t-dual-m4-c4.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

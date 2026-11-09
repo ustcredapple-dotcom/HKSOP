@@ -1,0 +1,33 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "waveplate",
+  "files": [
+    {
+      "path": "cad/0b11eb51dccc22d296f376bf5208259876778daa9307dd0080bcf49909aed4f6.step",
+      "stored": "library/assets/sha256/0b/0b11eb51dccc22d296f376bf5208259876778daa9307dd0080bcf49909aed4f6.step",
+      "sha256": "0b11eb51dccc22d296f376bf5208259876778daa9307dd0080bcf49909aed4f6",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/waveplate__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/0b/0b11eb51dccc22d296f376bf5208259876778daa9307dd0080bcf49909aed4f6.step"
+      ]
+    },
+    {
+      "path": "rendering/cf78b230581c068020a0073b656efb21a2b4bd353a3c0c60e5d1a0fd22d39909.svg",
+      "stored": "library/assets/sha256/cf/cf78b230581c068020a0073b656efb21a2b4bd353a3c0c60e5d1a0fd22d39909.svg",
+      "sha256": "cf78b230581c068020a0073b656efb21a2b4bd353a3c0c60e5d1a0fd22d39909",
+      "originalReferences": [
+        "topviews/waveplate__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/cf/cf78b230581c068020a0073b656efb21a2b4bd353a3c0c60e5d1a0fd22d39909.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "crm-1as",
+    "custom-07",
+    "custom-post-metric-25mm-m1"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "it75-reused-mtl1-b-r1",
+  "files": [
+    {
+      "path": "cad/531459bdf181f6a2b0a080c34b0a2860ce6fafb6099d5be1b1481f6ccaed2e99.step",
+      "stored": "library/assets/sha256/53/531459bdf181f6a2b0a080c34b0a2860ce6fafb6099d5be1b1481f6ccaed2e99.step",
+      "sha256": "531459bdf181f6a2b0a080c34b0a2860ce6fafb6099d5be1b1481f6ccaed2e99",
+      "originalReferences": [
+        "step/txy1s-fixed-r5/MTL1-B-R1_REUSED_12p5.step"
+      ],
+      "sources": [
+        "library/assets/sha256/53/531459bdf181f6a2b0a080c34b0a2860ce6fafb6099d5be1b1481f6ccaed2e99.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

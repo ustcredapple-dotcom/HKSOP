@@ -1,0 +1,864 @@
+{
+  "name": "DM1F-R1 · 固定式D形反射镜竖直刀口 · 45°",
+  "category": "fixed",
+  "variant": "DFM1 / 45° / H25 / 光高62.5 mm",
+  "revision": "R1",
+  "sourceUrl": "https://www.lbtek.com/product/266?fid=36&sid=103&tid=104",
+  "mechanicalConfiguration": {
+    "angleDeg": 45,
+    "postClockDeg": 270
+  },
+  "components": [
+    {
+      "componentId": "custom-dm1f-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "lbtek-dfm1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-post-metric-25mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-pin-d2x8",
+      "quantity": 2
+    },
+    {
+      "componentId": "metric-m1-post-m4x8",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-m4x16",
+      "quantity": 1
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "mirror",
+      "label": "D形镜片 BDM1D系列 · 镀膜按波段选择",
+      "type": "mirror",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 25.4,
+      "note": "半圆D形，厚6 mm；参考模型内名PM10D-AG，不推断膜层。BDM1D-A/B/C按实际波段选定；请填入Rp/Rs及相位数据，或主动选择理想近似。"
+    }
+  ],
+  "layout": {
+    "topViewPath": "topviews/d-mirror-dm1f-45-r1.svg",
+    "topViewUrl": "./topviews/d-mirror-dm1f-45-r1.svg",
+    "widthMm": 39.33523804664,
+    "heightMm": 37.969552621700004,
+    "anchorXMm": 20.350461735790002,
+    "anchorYMm": 18.984776310850005,
+    "placementAllowed": true,
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "minimumAlignedMountingHoles": 4,
+    "mountingHoleRadiusMm": 3.2,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "collisionBoundsMm": {
+      "xMin": -19.922919486984682,
+      "yMin": -18.559777069091798,
+      "xMax": 18.559777069091798,
+      "yMax": 18.559777069091798
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -19.91816,
+          "yMm": -11.13449
+        },
+        {
+          "xMm": -19.9211,
+          "yMm": -11.11931
+        },
+        {
+          "xMm": -19.92269,
+          "yMm": -11.10394
+        },
+        {
+          "xMm": -19.92292,
+          "yMm": -11.08848
+        },
+        {
+          "xMm": -19.92178,
+          "yMm": -11.07306
+        },
+        {
+          "xMm": -19.88509,
+          "yMm": -10.76308
+        },
+        {
+          "xMm": -19.88224,
+          "yMm": -10.74615
+        },
+        {
+          "xMm": -19.87774,
+          "yMm": -10.72957
+        },
+        {
+          "xMm": -19.87164,
+          "yMm": -10.71352
+        },
+        {
+          "xMm": -19.86399,
+          "yMm": -10.69814
+        },
+        {
+          "xMm": -19.71147,
+          "yMm": -10.4258
+        },
+        {
+          "xMm": -19.70304,
+          "yMm": -10.41223
+        },
+        {
+          "xMm": -19.6934,
+          "yMm": -10.39948
+        },
+        {
+          "xMm": -19.68263,
+          "yMm": -10.38767
+        },
+        {
+          "xMm": -17.675,
+          "yMm": -8.37663
+        },
+        {
+          "xMm": -17.675,
+          "yMm": -0.95726
+        },
+        {
+          "xMm": -18.50852,
+          "yMm": -0.12374
+        },
+        {
+          "xMm": -18.52005,
+          "yMm": -0.11102
+        },
+        {
+          "xMm": -18.53028,
+          "yMm": -0.09722
+        },
+        {
+          "xMm": -18.53911,
+          "yMm": -0.08249
+        },
+        {
+          "xMm": -18.54646,
+          "yMm": -0.06697
+        },
+        {
+          "xMm": -18.55224,
+          "yMm": -0.0508
+        },
+        {
+          "xMm": -18.55641,
+          "yMm": -0.03414
+        },
+        {
+          "xMm": -18.55893,
+          "yMm": -0.01715
+        },
+        {
+          "xMm": -18.55978,
+          "yMm": 0.0
+        },
+        {
+          "xMm": -18.55893,
+          "yMm": 0.01715
+        },
+        {
+          "xMm": -18.55641,
+          "yMm": 0.03414
+        },
+        {
+          "xMm": -18.55224,
+          "yMm": 0.0508
+        },
+        {
+          "xMm": -18.54646,
+          "yMm": 0.06697
+        },
+        {
+          "xMm": -18.53911,
+          "yMm": 0.08249
+        },
+        {
+          "xMm": -18.53028,
+          "yMm": 0.09722
+        },
+        {
+          "xMm": -18.52005,
+          "yMm": 0.11102
+        },
+        {
+          "xMm": -18.50852,
+          "yMm": 0.12374
+        },
+        {
+          "xMm": -17.675,
+          "yMm": 0.95726
+        },
+        {
+          "xMm": -17.675,
+          "yMm": 17.5
+        },
+        {
+          "xMm": -17.67416,
+          "yMm": 17.51715
+        },
+        {
+          "xMm": -17.67164,
+          "yMm": 17.53414
+        },
+        {
+          "xMm": -17.66746,
+          "yMm": 17.5508
+        },
+        {
+          "xMm": -17.66168,
+          "yMm": 17.56697
+        },
+        {
+          "xMm": -17.65434,
+          "yMm": 17.58249
+        },
+        {
+          "xMm": -17.64551,
+          "yMm": 17.59722
+        },
+        {
+          "xMm": -17.63528,
+          "yMm": 17.61102
+        },
+        {
+          "xMm": -17.62374,
+          "yMm": 17.62374
+        },
+        {
+          "xMm": -17.61102,
+          "yMm": 17.63528
+        },
+        {
+          "xMm": -17.59722,
+          "yMm": 17.64551
+        },
+        {
+          "xMm": -17.58249,
+          "yMm": 17.65434
+        },
+        {
+          "xMm": -17.56697,
+          "yMm": 17.66168
+        },
+        {
+          "xMm": -17.5508,
+          "yMm": 17.66746
+        },
+        {
+          "xMm": -17.53414,
+          "yMm": 17.67164
+        },
+        {
+          "xMm": -17.51715,
+          "yMm": 17.67416
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 17.675
+        },
+        {
+          "xMm": -0.95726,
+          "yMm": 17.675
+        },
+        {
+          "xMm": -0.12374,
+          "yMm": 18.50852
+        },
+        {
+          "xMm": -0.11102,
+          "yMm": 18.52005
+        },
+        {
+          "xMm": -0.09722,
+          "yMm": 18.53028
+        },
+        {
+          "xMm": -0.08249,
+          "yMm": 18.53911
+        },
+        {
+          "xMm": -0.06697,
+          "yMm": 18.54646
+        },
+        {
+          "xMm": -0.0508,
+          "yMm": 18.55224
+        },
+        {
+          "xMm": -0.03414,
+          "yMm": 18.55641
+        },
+        {
+          "xMm": -0.01715,
+          "yMm": 18.55893
+        },
+        {
+          "xMm": 0.0,
+          "yMm": 18.55978
+        },
+        {
+          "xMm": 0.01715,
+          "yMm": 18.55893
+        },
+        {
+          "xMm": 0.03414,
+          "yMm": 18.55641
+        },
+        {
+          "xMm": 0.0508,
+          "yMm": 18.55224
+        },
+        {
+          "xMm": 0.06697,
+          "yMm": 18.54646
+        },
+        {
+          "xMm": 0.08249,
+          "yMm": 18.53911
+        },
+        {
+          "xMm": 0.09722,
+          "yMm": 18.53028
+        },
+        {
+          "xMm": 0.11102,
+          "yMm": 18.52005
+        },
+        {
+          "xMm": 0.12374,
+          "yMm": 18.50852
+        },
+        {
+          "xMm": 0.95726,
+          "yMm": 17.675
+        },
+        {
+          "xMm": 17.5,
+          "yMm": 17.675
+        },
+        {
+          "xMm": 17.51715,
+          "yMm": 17.67416
+        },
+        {
+          "xMm": 17.53414,
+          "yMm": 17.67164
+        },
+        {
+          "xMm": 17.5508,
+          "yMm": 17.66746
+        },
+        {
+          "xMm": 17.56697,
+          "yMm": 17.66168
+        },
+        {
+          "xMm": 17.58249,
+          "yMm": 17.65434
+        },
+        {
+          "xMm": 17.59722,
+          "yMm": 17.64551
+        },
+        {
+          "xMm": 17.61102,
+          "yMm": 17.63528
+        },
+        {
+          "xMm": 17.62374,
+          "yMm": 17.62374
+        },
+        {
+          "xMm": 17.63528,
+          "yMm": 17.61102
+        },
+        {
+          "xMm": 17.64551,
+          "yMm": 17.59722
+        },
+        {
+          "xMm": 17.65434,
+          "yMm": 17.58249
+        },
+        {
+          "xMm": 17.66168,
+          "yMm": 17.56697
+        },
+        {
+          "xMm": 17.66746,
+          "yMm": 17.5508
+        },
+        {
+          "xMm": 17.67164,
+          "yMm": 17.53414
+        },
+        {
+          "xMm": 17.67416,
+          "yMm": 17.51715
+        },
+        {
+          "xMm": 17.675,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.675,
+          "yMm": 0.95726
+        },
+        {
+          "xMm": 18.50852,
+          "yMm": 0.12374
+        },
+        {
+          "xMm": 18.52005,
+          "yMm": 0.11102
+        },
+        {
+          "xMm": 18.53028,
+          "yMm": 0.09722
+        },
+        {
+          "xMm": 18.53911,
+          "yMm": 0.08249
+        },
+        {
+          "xMm": 18.54646,
+          "yMm": 0.06697
+        },
+        {
+          "xMm": 18.55224,
+          "yMm": 0.0508
+        },
+        {
+          "xMm": 18.55641,
+          "yMm": 0.03414
+        },
+        {
+          "xMm": 18.55893,
+          "yMm": 0.01715
+        },
+        {
+          "xMm": 18.55978,
+          "yMm": -0.0
+        },
+        {
+          "xMm": 18.55893,
+          "yMm": -0.01715
+        },
+        {
+          "xMm": 18.55641,
+          "yMm": -0.03414
+        },
+        {
+          "xMm": 18.55224,
+          "yMm": -0.0508
+        },
+        {
+          "xMm": 18.54646,
+          "yMm": -0.06697
+        },
+        {
+          "xMm": 18.53911,
+          "yMm": -0.08249
+        },
+        {
+          "xMm": 18.53028,
+          "yMm": -0.09722
+        },
+        {
+          "xMm": 18.52005,
+          "yMm": -0.11102
+        },
+        {
+          "xMm": 18.50852,
+          "yMm": -0.12374
+        },
+        {
+          "xMm": 17.675,
+          "yMm": -0.95726
+        },
+        {
+          "xMm": 17.675,
+          "yMm": -17.5
+        },
+        {
+          "xMm": 17.67416,
+          "yMm": -17.51715
+        },
+        {
+          "xMm": 17.67164,
+          "yMm": -17.53414
+        },
+        {
+          "xMm": 17.66746,
+          "yMm": -17.5508
+        },
+        {
+          "xMm": 17.66168,
+          "yMm": -17.56697
+        },
+        {
+          "xMm": 17.65434,
+          "yMm": -17.58249
+        },
+        {
+          "xMm": 17.64551,
+          "yMm": -17.59722
+        },
+        {
+          "xMm": 17.63528,
+          "yMm": -17.61102
+        },
+        {
+          "xMm": 17.62374,
+          "yMm": -17.62374
+        },
+        {
+          "xMm": 17.61102,
+          "yMm": -17.63528
+        },
+        {
+          "xMm": 17.59722,
+          "yMm": -17.64551
+        },
+        {
+          "xMm": 17.58249,
+          "yMm": -17.65434
+        },
+        {
+          "xMm": 17.56697,
+          "yMm": -17.66168
+        },
+        {
+          "xMm": 17.5508,
+          "yMm": -17.66746
+        },
+        {
+          "xMm": 17.53414,
+          "yMm": -17.67164
+        },
+        {
+          "xMm": 17.51715,
+          "yMm": -17.67416
+        },
+        {
+          "xMm": 17.5,
+          "yMm": -17.675
+        },
+        {
+          "xMm": 0.95726,
+          "yMm": -17.675
+        },
+        {
+          "xMm": 0.12374,
+          "yMm": -18.50852
+        },
+        {
+          "xMm": 0.11102,
+          "yMm": -18.52005
+        },
+        {
+          "xMm": 0.09722,
+          "yMm": -18.53028
+        },
+        {
+          "xMm": 0.08249,
+          "yMm": -18.53911
+        },
+        {
+          "xMm": 0.06697,
+          "yMm": -18.54646
+        },
+        {
+          "xMm": 0.0508,
+          "yMm": -18.55224
+        },
+        {
+          "xMm": 0.03414,
+          "yMm": -18.55641
+        },
+        {
+          "xMm": 0.01715,
+          "yMm": -18.55893
+        },
+        {
+          "xMm": -0.0,
+          "yMm": -18.55978
+        },
+        {
+          "xMm": -0.01715,
+          "yMm": -18.55893
+        },
+        {
+          "xMm": -0.03414,
+          "yMm": -18.55641
+        },
+        {
+          "xMm": -0.0508,
+          "yMm": -18.55224
+        },
+        {
+          "xMm": -0.06697,
+          "yMm": -18.54646
+        },
+        {
+          "xMm": -0.08249,
+          "yMm": -18.53911
+        },
+        {
+          "xMm": -0.09722,
+          "yMm": -18.53028
+        },
+        {
+          "xMm": -0.11102,
+          "yMm": -18.52005
+        },
+        {
+          "xMm": -0.12374,
+          "yMm": -18.50852
+        },
+        {
+          "xMm": -0.95726,
+          "yMm": -17.675
+        },
+        {
+          "xMm": -17.5,
+          "yMm": -17.675
+        },
+        {
+          "xMm": -17.51715,
+          "yMm": -17.67416
+        },
+        {
+          "xMm": -17.53414,
+          "yMm": -17.67164
+        },
+        {
+          "xMm": -17.5508,
+          "yMm": -17.66746
+        },
+        {
+          "xMm": -17.56697,
+          "yMm": -17.66168
+        },
+        {
+          "xMm": -17.58249,
+          "yMm": -17.65434
+        },
+        {
+          "xMm": -17.59722,
+          "yMm": -17.64551
+        },
+        {
+          "xMm": -17.61102,
+          "yMm": -17.63528
+        },
+        {
+          "xMm": -17.62374,
+          "yMm": -17.62374
+        },
+        {
+          "xMm": -17.63528,
+          "yMm": -17.61102
+        },
+        {
+          "xMm": -17.64551,
+          "yMm": -17.59722
+        },
+        {
+          "xMm": -17.65434,
+          "yMm": -17.58249
+        },
+        {
+          "xMm": -17.66168,
+          "yMm": -17.56697
+        },
+        {
+          "xMm": -17.66746,
+          "yMm": -17.5508
+        },
+        {
+          "xMm": -17.67164,
+          "yMm": -17.53414
+        },
+        {
+          "xMm": -17.67416,
+          "yMm": -17.51715
+        },
+        {
+          "xMm": -17.675,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -17.675,
+          "yMm": -13.6851
+        },
+        {
+          "xMm": -19.68263,
+          "yMm": -11.67406
+        },
+        {
+          "xMm": -19.69626,
+          "yMm": -11.65871
+        },
+        {
+          "xMm": -19.708,
+          "yMm": -11.64186
+        },
+        {
+          "xMm": -19.83878,
+          "yMm": -11.42845
+        },
+        {
+          "xMm": -19.84752,
+          "yMm": -11.41235
+        },
+        {
+          "xMm": -19.85453,
+          "yMm": -11.39543
+        },
+        {
+          "xMm": -19.85973,
+          "yMm": -11.37786
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "dm1f-r1-20261103",
+    "geometryEvidence": {
+      "sourceStep": "step/dm1f-r1/DM1F-R1_ASM_45deg.step",
+      "sourceStepSha256": "d1ff9695525f94894f8fc0dbb96ee62ef6bb39bac6c6805331878f74b7f6d567",
+      "imageSha256": "5ac3f6d39d75a9b538d0108001793eea0814ea432c2c5f3106bc6dc6d3d2a51f",
+      "sourceSha256": "d1ff9695525f94894f8fc0dbb96ee62ef6bb39bac6c6805331878f74b7f6d567",
+      "frame": "支承面Z=0，柱轴XY=0，刀口竖直经过柱轴；未平移几何。",
+      "meshDeflectionMm": 0.035,
+      "collisionGuardMm": 0.175,
+      "collisionMethod": "Actual CAD XY triangle union, filled holes, simplify0.02mm, outward guard0.175mm",
+      "physicalAssemblyTested": false
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "d1ff9695525f94894f8fc0dbb96ee62ef6bb39bac6c6805331878f74b7f6d567",
+      "imageSha256": "5ac3f6d39d75a9b538d0108001793eea0814ea432c2c5f3106bc6dc6d3d2a51f",
+      "revision": "R1",
+      "renderRole": "complete",
+      "displayTransform": null
+    },
+    "opticalType": "mirror",
+    "opticalCenterMm": {
+      "xMm": -4.490128060534577,
+      "yMm": -4.490128060534576
+    },
+    "opticalAxisHeightMm": 62.5,
+    "nominalOpticalHeightMm": 62.5,
+    "opticalSurfaceAngleDeg": 45,
+    "opticalDatumVerified": true,
+    "opticalDefaults": {
+      "elementType": "mirror",
+      "inserted": true,
+      "configured": false,
+      "surfaceAngleDeg": 45,
+      "clearApertureMm": 12.7,
+      "mirror": {
+        "mode": "data",
+        "samples": []
+      }
+    },
+    "opticalInteraction": {
+      "format": "zzlab-optical-interaction",
+      "version": 1,
+      "model": "planar",
+      "onNoMatch": "block",
+      "heightToleranceMm": 0.1,
+      "inputs": [
+        {
+          "id": "coating-side",
+          "direction": {
+            "angleDeg": 135,
+            "halfAngleDeg": 89.9,
+            "bidirectional": false
+          },
+          "steps": [
+            {
+              "op": "mirror"
+            }
+          ]
+        }
+      ]
+    },
+    "opticalSimulationNote": "刀口坐标为柱轴(0,0)，不是光束中心推荐位置。62.5 mm高度处的几何反射线段为0°态X=-12.7…0、Y=0；软件中心在(-6.35,0)，线段宽12.7。正X侧旁通。口径为几何上限，实用净口及膜层待确认；刀口截光仅警告，不模拟衍射或两束相干合束。反面不作为前膜反射面。",
+    "opticalGeometryEvidence": {
+      "sourceStepSha256": "d1ff9695525f94894f8fc0dbb96ee62ef6bb39bac6c6805331878f74b7f6d567",
+      "knifeEdgeAtAnchor": true,
+      "knifeEdgeReferenceMm": [
+        0,
+        0,
+        62.5
+      ],
+      "coatingPlaneAt0Deg": "Y=0; normal -Y; X in [-12.7,0] at Z=62.5",
+      "mirrorThicknessMm": 6,
+      "opticalCenterMeaning": "中高截面反射线段中点；刀口定位仍为柱轴",
+      "maximumHorizontalGeometricApertureMm": 12.7,
+      "coatingConfirmed": false
+    },
+    "status": "名义几何；未实物试装"
+  },
+  "assemblyReference": {
+    "stepPath": "step/dm1f-r1/DM1F-R1_ASM_45deg.step",
+    "sourceStepSha256": "d1ff9695525f94894f8fc0dbb96ee62ef6bb39bac6c6805331878f74b7f6d567",
+    "sha256": "d1ff9695525f94894f8fc0dbb96ee62ef6bb39bac6c6805331878f74b7f6d567",
+    "drawingPath": null,
+    "sourceDrawingSha256": "dd0afdf1a4f8c69c03bde9dfd71adc3cecb29968d4331948c06d51a9c9835a66",
+    "sourceExact": true,
+    "includeInBundle": true,
+    "revision": "R1",
+    "nominalFixedPositionAssembly": true,
+    "standardScrewsAndPinsDetailedModels": false
+  },
+  "releaseStage": "engineering-review",
+  "bundleStatus": "complete",
+  "status": "极速入库 · 加工审核版 · 未实物试装",
+  "notes": "0°/45°共用26×26 mm一体316L转接件，刀口竖直经过柱轴。先从底面M4×16锁DFM1，再套销并用M4×8上柱；不能带柱拆镜架固定螺钉。销孔专用配合公差待工艺确认；DFM1有效M4牙深必须实测≥4.5 mm。反射与旁通光束分别放在刀口两侧。采购镜片与膜层待选；底座4颗M6按实际板厚选长。",
+  "fastUpload": {
+    "schema": "zzlab-fast-kit-upload-v1",
+    "archiveSha256": "7916c89c84a4f30d573e0cf9765a48e262473a1ebe3752f53107b91f84f452b2",
+    "atlas": "excluded-by-user-scope",
+    "onshape": "excluded-by-user-scope",
+    "physicalAssemblyValidated": false,
+    "productionApprovalGranted": false
+  },
+  "id": "d-mirror-dm1f-45-r1"
+}

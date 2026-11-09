@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-kungshu-34-ll-r1",
+  "revision": "R2-COMPACT-2B",
+  "displayName": "34-LL R2 手动/电动共用紧凑转接板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-kungshu-34-ll-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

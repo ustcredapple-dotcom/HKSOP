@@ -1,0 +1,40 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "fiber-coupling-kz-motor-z-r1",
+  "revision": "R1",
+  "displayName": "CS30-KZ + XY耦合头 · 电动Z轴 R1",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/fiber-coupling-kz-motor-z-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "cs30-kz",
+    "cs30-xy1d",
+    "custom-fc-kz-r3-a",
+    "custom-fz-kz-br-r1",
+    "custom-fz-kz-h2-r1",
+    "custom-fz-kz-sl-r1",
+    "custom-post-metric-25mm-m1",
+    "encoder-servo",
+    "hardware-flat-set-m3x4",
+    "hardware-flat-set-m3x6-soft-tip",
+    "hardware-iso4762-m2x8",
+    "mop-50",
+    "new-hardware-1d23c1ca342d",
+    "new-hardware-2675b0c6a8c3",
+    "new-hardware-f0579b934c7c",
+    "new-hardware-ff9fb49c865c"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

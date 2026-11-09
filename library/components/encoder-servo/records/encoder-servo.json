@@ -1,0 +1,10 @@
+{
+  "id": "encoder-servo",
+  "name": "编码器舵机",
+  "model": "",
+  "kind": "standard",
+  "unit": "个",
+  "sourceUrl": "",
+  "notes": "Onshape 电动子装配中每套 2 个；零件名“编码器舵机”，具体厂商型号未标明。",
+  "status": "型号待确认"
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-hardware-f1da242532cf",
+  "revision": "source-snapshot",
+  "displayName": "M4×16 内六角圆柱头螺钉",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-hardware-f1da242532cf.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

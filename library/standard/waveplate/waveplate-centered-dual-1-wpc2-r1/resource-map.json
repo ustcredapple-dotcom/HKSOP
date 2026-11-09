@@ -1,0 +1,36 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "waveplate-centered-dual-1-wpc2-r1",
+  "files": [
+    {
+      "path": "cad/2f6a4ba84feaeb1963c40aa80d8f852a5421aa66b45f95ab590e1573b109f28f.step",
+      "stored": "library/assets/sha256/2f/2f6a4ba84feaeb1963c40aa80d8f852a5421aa66b45f95ab590e1573b109f28f.step",
+      "sha256": "2f6a4ba84feaeb1963c40aa80d8f852a5421aa66b45f95ab590e1573b109f28f",
+      "originalReferences": [
+        "step/wpc2-r1/WPC2-R1_H62p5_assembly.step"
+      ],
+      "sources": [
+        "library/assets/sha256/2f/2f6a4ba84feaeb1963c40aa80d8f852a5421aa66b45f95ab590e1573b109f28f.step"
+      ]
+    },
+    {
+      "path": "rendering/adbf848eee6cc925e2aeb1dd0a0378ee56b89cca70fbac0c2ce754a9940f66fd.svg",
+      "stored": "library/assets/sha256/ad/adbf848eee6cc925e2aeb1dd0a0378ee56b89cca70fbac0c2ce754a9940f66fd.svg",
+      "sha256": "adbf848eee6cc925e2aeb1dd0a0378ee56b89cca70fbac0c2ce754a9940f66fd",
+      "originalReferences": [
+        "topviews/waveplate-centered-dual-1-wpc2-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/ad/adbf848eee6cc925e2aeb1dd0a0378ee56b89cca70fbac0c2ce754a9940f66fd.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "crm-1as",
+    "custom-post-metric-25mm-m1",
+    "custom-wpc2-r1",
+    "hardware-h2-r3-m4x20",
+    "metric-m1-post-pin-d2x8",
+    "v7-iso4762-m4x16"
+  ]
+}

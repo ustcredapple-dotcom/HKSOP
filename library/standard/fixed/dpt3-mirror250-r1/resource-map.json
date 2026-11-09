@@ -1,0 +1,38 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "dpt3-mirror250-r1",
+  "files": [
+    {
+      "path": "cad/11aa1f491aefa65cb80937285063a205ba94ab656ab6956578700dd47955bb68.step",
+      "stored": "library/assets/sha256/11/11aa1f491aefa65cb80937285063a205ba94ab656ab6956578700dd47955bb68.step",
+      "sha256": "11aa1f491aefa65cb80937285063a205ba94ab656ab6956578700dd47955bb68",
+      "originalReferences": [
+        "step/dipole-trap3-r1/MIRROR_1INCH_LOCAL.step"
+      ],
+      "sources": [
+        "library/assets/sha256/11/11aa1f491aefa65cb80937285063a205ba94ab656ab6956578700dd47955bb68.step"
+      ]
+    },
+    {
+      "path": "rendering/e2587fa343ef9cf1c72cb78dbf384137ca72ec23fc35edf4d23cc8d9b5ba1572.svg",
+      "stored": "library/assets/sha256/e2/e2587fa343ef9cf1c72cb78dbf384137ca72ec23fc35edf4d23cc8d9b5ba1572.svg",
+      "sha256": "e2587fa343ef9cf1c72cb78dbf384137ca72ec23fc35edf4d23cc8d9b5ba1572",
+      "originalReferences": [
+        "topviews/dpt3-mirror250-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/e2/e2587fa343ef9cf1c72cb78dbf384137ca72ec23fc35edf4d23cc8d9b5ba1572.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-13",
+    "dpt3-pin-d2x5",
+    "dpt3-post25-r1",
+    "hardware-h2-r3-m4x20",
+    "hardware-iso4762-m6x16",
+    "mt-flf1s",
+    "new-hardware-f0579b934c7c",
+    "v7-pin-d2x8"
+  ]
+}

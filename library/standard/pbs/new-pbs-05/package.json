@@ -1,0 +1,31 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-pbs-05",
+  "revision": "CURRENT-B6R1",
+  "displayName": "固定 PBS · 0.5 inch",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/new-pbs-05.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-post-metric-37p5mm-m1",
+    "metric-m1-post-m4x8",
+    "metric-m1-post-pin-d2x8",
+    "new-pbs-05-adapter-1",
+    "new-pbs-05-adapter-2",
+    "new-pbs-05-vendor-1",
+    "new-pbs-05-vendor-2"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

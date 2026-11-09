@@ -1,0 +1,36 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "pcf-fixed-base-h62p5-r1",
+  "files": [
+    {
+      "path": "cad/3a3728aeeb3e9f955efdd784154cf3a93f4624a00c1f993769bba8489c1a530a.step",
+      "stored": "library/assets/sha256/3a/3a3728aeeb3e9f955efdd784154cf3a93f4624a00c1f993769bba8489c1a530a.step",
+      "sha256": "3a3728aeeb3e9f955efdd784154cf3a93f4624a00c1f993769bba8489c1a530a",
+      "originalReferences": [
+        "step/pcf-fixed-base-h62p5-r1/PCF_H62p5_GRIDLINE_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/3a/3a3728aeeb3e9f955efdd784154cf3a93f4624a00c1f993769bba8489c1a530a.step"
+      ]
+    },
+    {
+      "path": "rendering/40651c44c1f185785c0f6cde044b8a9a25744afa2c7b6b542675eda549f250de.svg",
+      "stored": "library/assets/sha256/40/40651c44c1f185785c0f6cde044b8a9a25744afa2c7b6b542675eda549f250de.svg",
+      "sha256": "40651c44c1f185785c0f6cde044b8a9a25744afa2c7b6b542675eda549f250de",
+      "originalReferences": [
+        "topviews/pcf-fixed-base-h62p5-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/40/40651c44c1f185785c0f6cde044b8a9a25744afa2c7b6b542675eda549f250de.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-pcf-b01-r1",
+    "custom-post-metric-37p5mm-m1",
+    "hardware-iso4762-m2p5x8",
+    "hardware-pcf-base-m6-length-unconfirmed",
+    "new-hardware-d56c7b8035c3",
+    "new-hardware-f0579b934c7c"
+  ]
+}

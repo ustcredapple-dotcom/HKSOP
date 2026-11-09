@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-laser308-periscope-vertical28-g58-r3",
+  "revision": "source-snapshot",
+  "displayName": "308 爬架竖板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-laser308-periscope-vertical28-g58-r3.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

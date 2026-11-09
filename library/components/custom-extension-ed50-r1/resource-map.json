@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-extension-ed50-r1",
+  "files": [
+    {
+      "path": "cad/1431b5beb6db08609438a9c856dd903b39856b048a058f11d31924599deb5a63.step",
+      "stored": "library/assets/sha256/14/1431b5beb6db08609438a9c856dd903b39856b048a058f11d31924599deb5a63.step",
+      "sha256": "1431b5beb6db08609438a9c856dd903b39856b048a058f11d31924599deb5a63",
+      "originalReferences": [
+        "step/extension-series-r1/延长50√2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/14/1431b5beb6db08609438a9c856dd903b39856b048a058f11d31924599deb5a63.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

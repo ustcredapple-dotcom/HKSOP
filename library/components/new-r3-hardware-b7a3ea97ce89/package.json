@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-r3-hardware-b7a3ea97ce89",
+  "revision": "source-snapshot",
+  "displayName": "Ø2×5 圆柱销",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-r3-hardware-b7a3ea97ce89.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "servo-detector-sg01-r1",
+  "revision": "R1",
+  "displayName": "SG01 舵机至万能柱固定座",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/servo-detector-sg01-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

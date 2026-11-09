@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-q1fb-r1",
+  "revision": "R1",
+  "displayName": "Q1FB R1 固定侧对中座",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-q1fb-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

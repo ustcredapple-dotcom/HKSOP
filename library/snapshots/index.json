@@ -1,0 +1,18 @@
+{
+  "format": "hksop-snapshot-index-v1",
+  "policy": "current-only",
+  "snapshots": [
+    {
+      "id": "web-current",
+      "role": "current-only",
+      "version": "2026-11-09.hksop-github-local-1",
+      "sha256": "2be129462c329b2a3f6ed5491702d83a7ae8c79dcc40254e15f38ce87382c7f7",
+      "counts": {
+        "components": 432,
+        "kits": 263,
+        "registeredBoards": 6
+      },
+      "assetCount": 960
+    }
+  ]
+}

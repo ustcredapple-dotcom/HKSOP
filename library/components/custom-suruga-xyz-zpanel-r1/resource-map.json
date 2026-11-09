@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-suruga-xyz-zpanel-r1",
+  "files": [
+    {
+      "path": "cad/fc1a4bc9c75782c74a9ca4a62975f8c659e5c5864e601366b6ac397267239737.step",
+      "stored": "library/assets/sha256/fc/fc1a4bc9c75782c74a9ca4a62975f8c659e5c5864e601366b6ac397267239737.step",
+      "sha256": "fc1a4bc9c75782c74a9ca4a62975f8c659e5c5864e601366b6ac397267239737",
+      "originalReferences": [
+        "step/suruga-xyz-zpanel-r2/32-XYZ-Z_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/fc/fc1a4bc9c75782c74a9ca4a62975f8c659e5c5864e601366b6ac397267239737.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

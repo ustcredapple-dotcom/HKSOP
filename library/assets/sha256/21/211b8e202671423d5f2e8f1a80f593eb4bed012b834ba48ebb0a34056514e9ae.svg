@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-323 -144 656 288" width="656mm" height="288mm" role="img" aria-labelledby="laser-title laser-desc">
+  <title id="laser-title">频准激光 FL-SF-308-0.1-CW 俯视图 · 左端主光口</title>
+  <desc id="laser-desc">型号 FL-SF-308-0.1-CW；原厂手册尺寸已核对，报告中心波长308.366 nm、测试功率118 mW。主机壳 520×238 mm；含前端突出部及安装脚 543×261 mm。紫色十字为光口，箭头向左出光；光轴距主机壳上侧边 52 mm，距支承底面 135 mm。右端金色件为接头，不是光口。安装孔组及接头相对壳体的位置含按原图比例估读，仅供布局，不作加工图。</desc>
+  <defs>
+    <linearGradient id="lid" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f7f9fb"/><stop offset="1" stop-color="#d9e0e6"/></linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f8dd83"/><stop offset=".5" stop-color="#c99c30"/><stop offset="1" stop-color="#876a26"/></linearGradient>
+    <g id="lid-screw"><circle r="2.5" fill="#9faab4" stroke="#36434e" stroke-width=".6"/><path d="M-1.2 0H1.2" stroke="#36434e" stroke-width=".7"/></g>
+    <g id="mount-hole"><rect x="-3.2" y="-3.7" width="6.4" height="7.4" rx="3.2" fill="#fcfefd" stroke="#36434e" stroke-width=".7"/></g>
+  </defs>
+  <!-- Geometry uses the housing centre. SVG Y is opposite to board-local Y. -->
+  <g stroke="#36434e" stroke-width="1" stroke-linejoin="round">
+    <path d="M-277-119H-260V119H-277V42H-272V-6H-277Z" fill="#c0c9d1"/>
+    <rect x="-283" y="-107" width="23" height="82" rx="1.2" fill="#b9c3cc"/>
+    <path d="M-279-102V-30M-275-102V-30M-271-102V-30" stroke="#75848f" stroke-width="1.3"/>
+    <rect x="76" y="-130.5" width="65" height="13" rx="1" fill="#acb8c1"/>
+    <rect x="76" y="117.5" width="65" height="13" rx="1" fill="#acb8c1"/>
+    <rect x="-260" y="-119" width="520" height="238" rx="1.5" fill="#a4b2be"/>
+    <rect x="-255" y="-114" width="510" height="228" rx="1" fill="url(#lid)"/>
+    <path d="M-251-110H251V110H-251Z" fill="none" stroke="#c0c9d1" stroke-width=".7"/>
+    <g id="service-connectors">
+      <path d="M260-51H272V-31H260ZM260 15H272V35H260Z" fill="#4d5558"/>
+      <path d="M271-50H282V-32H271ZM271 16H282V34H271Z" fill="url(#brass)"/>
+      <path d="M282-48L323-46V-36L282-34ZM282 18L323 20V30L282 32Z" fill="url(#brass)"/>
+      <path d="M294-47V-35M298-47V-35M294 19V31M298 19V31" stroke="#ab8130"/>
+      <path d="M260 94H272V110H260ZM272 97H283V107H272Z" fill="#bec7cc"/>
+      <path d="M270 94V110M279 98V106" stroke="#6d7b83"/>
+    </g>
+  </g>
+  <g id="confirmed-mounting-pattern">
+    <use href="#mount-hole" x="83.5" y="-125"/><use href="#mount-hole" x="133.5" y="-125"/>
+    <use href="#mount-hole" x="83.5" y="125"/><use href="#mount-hole" x="133.5" y="125"/>
+  </g>
+  <g opacity=".65"><use href="#mount-hole" x="-266.5" y="-25"/><use href="#mount-hole" x="-266.5" y="25"/></g>
+  <g>
+    <use href="#lid-screw" x="-247" y="-99"/><use href="#lid-screw" x="-247" y="-34"/><use href="#lid-screw" x="-247" y="36"/><use href="#lid-screw" x="-247" y="100"/>
+    <use href="#lid-screw" x="247" y="-99"/><use href="#lid-screw" x="247" y="-34"/><use href="#lid-screw" x="247" y="36"/><use href="#lid-screw" x="247" y="100"/>
+  </g>
+  <g font-family="Arial, 'PingFang SC', sans-serif" fill="#566774" text-anchor="middle">
+    <text x="15" y="10" font-size="22" font-weight="600" letter-spacing="1">308 nm</text>
+    <text x="15" y="30" font-size="10" letter-spacing="1">FL-SF-308-0.1-CW</text>
+    <text x="15" y="89" font-size="7" fill="#7b8992">520 × 238 mm · H 185 mm</text>
+  </g>
+  <g id="optical-output-port" data-optical-port="output" data-x-mm="-283" data-y-mm="67" data-height-mm="135" data-wavelength-nm="308.366" fill="none" stroke="#c02d81">
+    <title>光口：距上侧壳边 52 mm；光轴高 135 mm；向左出光</title>
+    <path d="M-283-67H-316" stroke-width="2.2"/>
+    <path d="M-310-72L-319-67L-310-62Z" fill="#c02d81" stroke="none"/>
+    <circle cx="-283" cy="-67" r="5.2" fill="#fff" stroke-width="1.6"/>
+    <path d="M-291-67H-275M-283-75V-59" stroke-width=".9"/>
+    <path d="M-245-119V-67M-248-119H-242M-248-67H-242M-277-67H-242" stroke-width=".7" stroke-dasharray="2 1.5"/>
+  </g>
+  <g font-family="Arial, 'PingFang SC', sans-serif" fill="#a51f6b">
+    <text x="-234" y="-88" font-size="8">52 mm</text>
+    <text x="-234" y="-57" font-size="11" font-weight="600">光口 / OUTPUT</text>
+    <text x="-234" y="-42" font-size="8">308 nm · 光轴高 135 mm</text>
+  </g>
+<g id="optical-output-port-616" data-optical-port="monitor616" data-x-mm="-196" data-y-mm="-119" data-height-mm="36" data-wavelength-nm="616.73287" stroke="#d67116" fill="none">
+<title>616 nm 侧面出光口：名义局部坐标 (-196, -119) mm，高36 mm；位置基准待实物核定。默认关闭，独立设置出光参数。</title>
+<circle cx="-196" cy="119" r="4" stroke-width="1.6"/><path d="M-202 119H-190M-196 113V139" stroke-width="1.2"/><path d="M-199 135L-196 141L-193 135Z" fill="#d67116"/>
+<text x="-181" y="98" stroke="none" fill="#a74b08" font-family="Arial,sans-serif" font-size="11" font-weight="bold">616 nm</text>
+<text x="-181" y="111" stroke="none" fill="#a74b08" font-family="Arial,sans-serif" font-size="8">侧出光 · H 36 mm（名义）</text>
+</g></svg>

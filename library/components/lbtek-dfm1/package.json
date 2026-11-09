@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "lbtek-dfm1",
+  "revision": "source-snapshot",
+  "displayName": "麓邦 DFM1 · D形反射镜固定架",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/lbtek-dfm1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

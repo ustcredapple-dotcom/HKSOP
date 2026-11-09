@@ -1,0 +1,13 @@
+{
+  "id": "lbtek-sm1-12p5a",
+  "name": "麓邦 SM1-12.5A",
+  "model": "SM1-12.5A",
+  "kind": "lubang",
+  "unit": "件",
+  "sourceUrl": "https://www.lbtek.com/product/221",
+  "stepPath": "step/txy1s-fixed-r5/vendor/SM1-12.5A.step",
+  "sourceStepSha256": "3b3c4135857262e1a4c03da0bf6607f758c168b2ddcd9c1bb49910a9fd3da9e5",
+  "drawingPath": null,
+  "sourceDrawingSha256": "f3ff6c2f321eb2a93a548bf5e3b26d8600b483acb5e3e325ca9b90cf44d57c04",
+  "notes": "厂家资料来自用户冻结包；套筒随附卡环不重复计购。仅前端SM1-8A保留一个SM1R；TXY1S和其余套筒多余卡环拆下。实物螺纹/镜片夹持待核。"
+}

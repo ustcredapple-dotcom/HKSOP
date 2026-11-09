@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "hardware-din7984-m6x6-a4",
+  "revision": "source-snapshot",
+  "displayName": "DIN7984 M6×1×6 低头螺钉 · A4",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/hardware-din7984-m6x6-a4.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

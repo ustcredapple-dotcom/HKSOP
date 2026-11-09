@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "MT1-T",
+  "files": [
+    {
+      "path": "cad/1ded0e995b029ce9a944584290d00eb8da3c8f90d1546f1fafbe4954ac667bd2.step",
+      "stored": "library/assets/sha256/1d/1ded0e995b029ce9a944584290d00eb8da3c8f90d1546f1fafbe4954ac667bd2.step",
+      "sha256": "1ded0e995b029ce9a944584290d00eb8da3c8f90d1546f1fafbe4954ac667bd2",
+      "originalReferences": [
+        "step/manual-stage-r1-a7075/MT1-T.step"
+      ],
+      "sources": [
+        "library/assets/sha256/1d/1ded0e995b029ce9a944584290d00eb8da3c8f90d1546f1fafbe4954ac667bd2.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

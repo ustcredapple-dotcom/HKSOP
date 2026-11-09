@@ -1,0 +1,6 @@
+{
+  "runtimePython": "/path/to/runtime-venv/bin/python",
+  "cadPython": "/path/to/cad-venv/bin/python",
+  "node": "/path/to/node",
+  "scope": "Optional machine-local settings; copy to local-environment.json and edit locally."
+}

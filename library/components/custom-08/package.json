@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-08",
+  "revision": "source-snapshot",
+  "displayName": "固定式PBS 1inch",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-08.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

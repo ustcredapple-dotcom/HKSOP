@@ -1,0 +1,46 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "project-kit-cage-f100-qwp780-r1",
+  "files": [
+    {
+      "path": "rendering/12dee9601594cfb336e6ffb44cd92207a70f778bd4195b9e3fd13145b27142b9.svg",
+      "stored": "library/assets/sha256/12/12dee9601594cfb336e6ffb44cd92207a70f778bd4195b9e3fd13145b27142b9.svg",
+      "sha256": "12dee9601594cfb336e6ffb44cd92207a70f778bd4195b9e3fd13145b27142b9",
+      "originalReferences": [
+        "sha256/12/12dee9601594cfb336e6ffb44cd92207a70f778bd4195b9e3fd13145b27142b9.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/12/12dee9601594cfb336e6ffb44cd92207a70f778bd4195b9e3fd13145b27142b9.svg"
+      ]
+    },
+    {
+      "path": "rendering/3f226327b07766532409ad3368be7fcce7a362c238bad14aa37f66f4df794602.svg",
+      "stored": "library/assets/sha256/3f/3f226327b07766532409ad3368be7fcce7a362c238bad14aa37f66f4df794602.svg",
+      "sha256": "3f226327b07766532409ad3368be7fcce7a362c238bad14aa37f66f4df794602",
+      "originalReferences": [
+        "sha256/3f/3f226327b07766532409ad3368be7fcce7a362c238bad14aa37f66f4df794602.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/3f/3f226327b07766532409ad3368be7fcce7a362c238bad14aa37f66f4df794602.svg"
+      ]
+    },
+    {
+      "path": "cad/477718080e80c4e0ae7814d58e80168f7f16fca20c424a0d88f6144586c70b78.step",
+      "stored": "library/assets/sha256/47/477718080e80c4e0ae7814d58e80168f7f16fca20c424a0d88f6144586c70b78.step",
+      "sha256": "477718080e80c4e0ae7814d58e80168f7f16fca20c424a0d88f6144586c70b78",
+      "originalReferences": [
+        "sha256/47/477718080e80c4e0ae7814d58e80168f7f16fca20c424a0d88f6144586c70b78.step"
+      ],
+      "sources": [
+        "library/assets/sha256/47/477718080e80c4e0ae7814d58e80168f7f16fca20c424a0d88f6144586c70b78.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-post-metric-25mm-m1",
+    "custom-15",
+    "opm-12.5bs",
+    "crm-1as",
+    "mop-50-dp-r1"
+  ]
+}

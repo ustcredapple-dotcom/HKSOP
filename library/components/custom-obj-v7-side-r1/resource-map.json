@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-obj-v7-side-r1",
+  "files": [
+    {
+      "path": "cad/ba79ef50cb49c60deec50a0c86a341a5b5e5de4b851d72fbc7c0b4d92765efb4.step",
+      "stored": "library/assets/sha256/ba/ba79ef50cb49c60deec50a0c86a341a5b5e5de4b851d72fbc7c0b4d92765efb4.step",
+      "sha256": "ba79ef50cb49c60deec50a0c86a341a5b5e5de4b851d72fbc7c0b4d92765efb4",
+      "originalReferences": [
+        "step/objective-ac-r1/OBJ-V7-S_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/ba/ba79ef50cb49c60deec50a0c86a341a5b5e5de4b851d72fbc7c0b4d92765efb4.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

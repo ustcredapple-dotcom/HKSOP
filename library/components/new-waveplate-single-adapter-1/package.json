@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-waveplate-single-adapter-1",
+  "revision": "source-snapshot",
+  "displayName": "单波片转接块",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-waveplate-single-adapter-1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

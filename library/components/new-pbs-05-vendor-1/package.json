@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-pbs-05-vendor-1",
+  "revision": "source-snapshot",
+  "displayName": "半英寸棱镜安装平台",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-pbs-05-vendor-1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

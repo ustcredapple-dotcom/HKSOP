@@ -1,0 +1,840 @@
+{
+  "name": "可调 PBS · 0.5 inch · AMP-1R",
+  "category": "pbs",
+  "variant": "公制 M1 · 名义光高62.5 mm",
+  "description": "M1真实装配俯视图；保持原安装与光学XY基准，配套公制转接件、正式万能柱及同源加工图。",
+  "sourceUrl": "https://cad.onshape.com/documents/6e58c9cce55d2925e9e4e840/v/437700e874b02419d6267c3d/e/748c058b4a5916ae24a9d868",
+  "sourceOnshapeStatus": "M1_FIXED_VERSION_ASSEMBLY_VERIFIED",
+  "components": [
+    {
+      "componentId": "custom-post-metric-12p5mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r3-11-pbs-lower",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r3-11-pbs-upper",
+      "quantity": 1
+    },
+    {
+      "componentId": "amp-1r",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-pbs-05-vendor-1",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-pbs-05-vendor-2",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-m4x12",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-pin-d2x8",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "optic",
+      "label": "PBS晶体",
+      "type": "pbs",
+      "quantity": 1,
+      "unit": "个",
+      "diameterMm": 12.7,
+      "replacesComponentId": "new-pbs-05-vendor-2"
+    }
+  ],
+  "status": "M1加工审核版",
+  "notes": "原架角调不绕柱心，完整调整范围和小间隙不构成公差保证。 下座接柱，原AMP固定侧接下座，小PBS夹座通过上板接运动侧。柱端工具需要先释放并取下整个AMP载荷，不能在完整载荷下强拧；上下两件分属固定侧与运动侧，不直接合并。 非柱侧安装紧固件仍按孔表与实物选配。  H12.5 B4-R2：普通H12.5柱底脚4 mm，其余普通柱保持各自规格；完整STEP已换柱回读，总高、孔位和全部器件姿态保持；未实物试装。",
+  "releaseStage": "engineering-review",
+  "bundleStatus": "complete",
+  "bundleNote": "冻结M1 STEP、三页加工PDF及可编辑DXF配套；未作实物试装验收。",
+  "layout": {
+    "topViewPath": "topviews/new-pbs-adjustable-05__H12p5_B4_R2.svg",
+    "topViewUrl": "./topviews/new-pbs-adjustable-05__H12p5_B4_R2.svg",
+    "widthMm": 60.82681613,
+    "heightMm": 52.994322,
+    "anchorXMm": 18.30549407,
+    "anchorYMm": 28.344306,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "basePolygonsMm": [
+      [
+        {
+          "xMm": -17.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": -17.5
+        }
+      ]
+    ],
+    "collisionBoundsMm": {
+      "xMin": -17.65,
+      "yMin": -24.050016,
+      "xMax": 41.865828,
+      "yMax": 27.744306
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": 3.75,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -17.65,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -17.65,
+          "yMm": 17.65
+        },
+        {
+          "xMm": -13.149808,
+          "yMm": 17.65
+        },
+        {
+          "xMm": -13.140737,
+          "yMm": 24.747278
+        },
+        {
+          "xMm": -13.063416,
+          "yMm": 25.235461
+        },
+        {
+          "xMm": -12.910649,
+          "yMm": 25.70563
+        },
+        {
+          "xMm": -12.686212,
+          "yMm": 26.146113
+        },
+        {
+          "xMm": -12.393887,
+          "yMm": 26.548464
+        },
+        {
+          "xMm": -11.854327,
+          "yMm": 27.047228
+        },
+        {
+          "xMm": -11.430281,
+          "yMm": 27.307084
+        },
+        {
+          "xMm": -10.970804,
+          "yMm": 27.497405
+        },
+        {
+          "xMm": -10.250151,
+          "yMm": 27.640752
+        },
+        {
+          "xMm": 10.247183,
+          "yMm": 27.640752
+        },
+        {
+          "xMm": 10.738393,
+          "yMm": 27.562952
+        },
+        {
+          "xMm": 11.430545,
+          "yMm": 27.307603
+        },
+        {
+          "xMm": 12.046441,
+          "yMm": 26.896075
+        },
+        {
+          "xMm": 12.547228,
+          "yMm": 26.354327
+        },
+        {
+          "xMm": 12.808635,
+          "yMm": 25.92775
+        },
+        {
+          "xMm": 12.969609,
+          "yMm": 25.491409
+        },
+        {
+          "xMm": 12.973619,
+          "yMm": 26.846113
+        },
+        {
+          "xMm": 13.035868,
+          "yMm": 27.066831
+        },
+        {
+          "xMm": 13.188328,
+          "yMm": 27.315623
+        },
+        {
+          "xMm": 13.354697,
+          "yMm": 27.469413
+        },
+        {
+          "xMm": 13.554997,
+          "yMm": 27.581587
+        },
+        {
+          "xMm": 13.898955,
+          "yMm": 27.650004
+        },
+        {
+          "xMm": 22.89425,
+          "yMm": 27.647529
+        },
+        {
+          "xMm": 23.177973,
+          "yMm": 27.579413
+        },
+        {
+          "xMm": 23.429332,
+          "yMm": 27.42538
+        },
+        {
+          "xMm": 23.585154,
+          "yMm": 27.256813
+        },
+        {
+          "xMm": 23.71899,
+          "yMm": 26.994144
+        },
+        {
+          "xMm": 23.763708,
+          "yMm": 26.711805
+        },
+        {
+          "xMm": 23.763708,
+          "yMm": 24.462072
+        },
+        {
+          "xMm": 24.163708,
+          "yMm": 24.062078
+        },
+        {
+          "xMm": 24.163708,
+          "yMm": 23.647727
+        },
+        {
+          "xMm": 29.951807,
+          "yMm": 23.647727
+        },
+        {
+          "xMm": 29.953216,
+          "yMm": 25.05669
+        },
+        {
+          "xMm": 30.000116,
+          "yMm": 25.252028
+        },
+        {
+          "xMm": 30.138269,
+          "yMm": 25.458771
+        },
+        {
+          "xMm": 30.308169,
+          "yMm": 25.5822
+        },
+        {
+          "xMm": 30.541645,
+          "yMm": 25.648042
+        },
+        {
+          "xMm": 33.551657,
+          "yMm": 25.64952
+        },
+        {
+          "xMm": 33.551657,
+          "yMm": 27.162052
+        },
+        {
+          "xMm": 34.13998,
+          "yMm": 27.744306
+        },
+        {
+          "xMm": 41.263334,
+          "yMm": 27.744306
+        },
+        {
+          "xMm": 41.851657,
+          "yMm": 27.162052
+        },
+        {
+          "xMm": 41.851657,
+          "yMm": 13.838385
+        },
+        {
+          "xMm": 41.26377,
+          "yMm": 13.250752
+        },
+        {
+          "xMm": 34.139543,
+          "yMm": 13.250752
+        },
+        {
+          "xMm": 33.551657,
+          "yMm": 13.838385
+        },
+        {
+          "xMm": 33.551657,
+          "yMm": 15.35048
+        },
+        {
+          "xMm": 30.544638,
+          "yMm": 15.351956
+        },
+        {
+          "xMm": 30.349256,
+          "yMm": 15.39886
+        },
+        {
+          "xMm": 30.139963,
+          "yMm": 15.538693
+        },
+        {
+          "xMm": 30.000116,
+          "yMm": 15.747972
+        },
+        {
+          "xMm": 29.953216,
+          "yMm": 15.94331
+        },
+        {
+          "xMm": 29.951807,
+          "yMm": 17.352273
+        },
+        {
+          "xMm": 24.163708,
+          "yMm": 17.352273
+        },
+        {
+          "xMm": 24.163708,
+          "yMm": 16.937922
+        },
+        {
+          "xMm": 23.763708,
+          "yMm": 16.537928
+        },
+        {
+          "xMm": 23.763708,
+          "yMm": 13.0581
+        },
+        {
+          "xMm": 23.817491,
+          "yMm": 12.988457
+        },
+        {
+          "xMm": 23.86276,
+          "yMm": 12.827945
+        },
+        {
+          "xMm": 23.863537,
+          "yMm": 12.15
+        },
+        {
+          "xMm": 25.763708,
+          "yMm": 12.15
+        },
+        {
+          "xMm": 25.763708,
+          "yMm": -8.15
+        },
+        {
+          "xMm": 23.763708,
+          "yMm": -8.15
+        },
+        {
+          "xMm": 23.763708,
+          "yMm": -12.544504
+        },
+        {
+          "xMm": 24.163708,
+          "yMm": -12.937603
+        },
+        {
+          "xMm": 24.163708,
+          "yMm": -13.351198
+        },
+        {
+          "xMm": 29.965978,
+          "yMm": -13.351198
+        },
+        {
+          "xMm": 29.96739,
+          "yMm": -11.941261
+        },
+        {
+          "xMm": 30.033234,
+          "yMm": -11.707865
+        },
+        {
+          "xMm": 30.154902,
+          "yMm": -11.540453
+        },
+        {
+          "xMm": 30.322351,
+          "yMm": -11.418829
+        },
+        {
+          "xMm": 30.555821,
+          "yMm": -11.353003
+        },
+        {
+          "xMm": 33.565828,
+          "yMm": -11.351525
+        },
+        {
+          "xMm": 33.565828,
+          "yMm": -9.839731
+        },
+        {
+          "xMm": 34.153749,
+          "yMm": -9.252517
+        },
+        {
+          "xMm": 41.277907,
+          "yMm": -9.252517
+        },
+        {
+          "xMm": 41.865828,
+          "yMm": -9.839731
+        },
+        {
+          "xMm": 41.865828,
+          "yMm": -23.160292
+        },
+        {
+          "xMm": 41.277885,
+          "yMm": -23.747222
+        },
+        {
+          "xMm": 34.153772,
+          "yMm": -23.747222
+        },
+        {
+          "xMm": 33.565828,
+          "yMm": -23.160292
+        },
+        {
+          "xMm": 33.565828,
+          "yMm": -21.648475
+        },
+        {
+          "xMm": 30.555821,
+          "yMm": -21.646997
+        },
+        {
+          "xMm": 30.322351,
+          "yMm": -21.581171
+        },
+        {
+          "xMm": 30.154902,
+          "yMm": -21.459547
+        },
+        {
+          "xMm": 30.033234,
+          "yMm": -21.292135
+        },
+        {
+          "xMm": 29.96739,
+          "yMm": -21.058739
+        },
+        {
+          "xMm": 29.965978,
+          "yMm": -19.648802
+        },
+        {
+          "xMm": 24.163708,
+          "yMm": -19.648802
+        },
+        {
+          "xMm": 24.163708,
+          "yMm": -20.062397
+        },
+        {
+          "xMm": 23.763708,
+          "yMm": -20.455496
+        },
+        {
+          "xMm": 23.763708,
+          "yMm": -23.108846
+        },
+        {
+          "xMm": 23.738478,
+          "yMm": -23.322018
+        },
+        {
+          "xMm": 23.661098,
+          "yMm": -23.531766
+        },
+        {
+          "xMm": 23.53689,
+          "yMm": -23.717656
+        },
+        {
+          "xMm": 23.37272,
+          "yMm": -23.869413
+        },
+        {
+          "xMm": 23.17242,
+          "yMm": -23.981587
+        },
+        {
+          "xMm": 22.828401,
+          "yMm": -24.050016
+        },
+        {
+          "xMm": 13.764723,
+          "yMm": -24.040125
+        },
+        {
+          "xMm": 13.481569,
+          "yMm": -23.948122
+        },
+        {
+          "xMm": 13.240635,
+          "yMm": -23.773074
+        },
+        {
+          "xMm": 13.065586,
+          "yMm": -23.53214
+        },
+        {
+          "xMm": 12.973637,
+          "yMm": -23.249149
+        },
+        {
+          "xMm": 12.964376,
+          "yMm": -20.4728
+        },
+        {
+          "xMm": 12.667816,
+          "yMm": -20.560336
+        },
+        {
+          "xMm": 11.810793,
+          "yMm": -20.650412
+        },
+        {
+          "xMm": 11.371989,
+          "yMm": -20.627416
+        },
+        {
+          "xMm": 10.942488,
+          "yMm": -20.553219
+        },
+        {
+          "xMm": 10.647324,
+          "yMm": -20.472099
+        },
+        {
+          "xMm": 10.627487,
+          "yMm": -21.91758
+        },
+        {
+          "xMm": 10.512754,
+          "yMm": -22.19457
+        },
+        {
+          "xMm": 10.372492,
+          "yMm": -22.372492
+        },
+        {
+          "xMm": 10.19457,
+          "yMm": -22.512754
+        },
+        {
+          "xMm": 9.924991,
+          "yMm": -22.624418
+        },
+        {
+          "xMm": 9.708846,
+          "yMm": -22.65
+        },
+        {
+          "xMm": 4.788195,
+          "yMm": -22.65
+        },
+        {
+          "xMm": 4.508829,
+          "yMm": -22.605753
+        },
+        {
+          "xMm": 4.303079,
+          "yMm": -22.510901
+        },
+        {
+          "xMm": 4.127508,
+          "yMm": -22.372492
+        },
+        {
+          "xMm": 3.989099,
+          "yMm": -22.196921
+        },
+        {
+          "xMm": 3.895501,
+          "yMm": -21.99389
+        },
+        {
+          "xMm": 3.852476,
+          "yMm": -21.777591
+        },
+        {
+          "xMm": 3.850036,
+          "yMm": -18.138628
+        },
+        {
+          "xMm": 3.75,
+          "yMm": -18.015531
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "metric-m1-2026-10-06",
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "placementAllowed": true,
+    "status": "M1 STEP实际俯视投影与安装孔已核验",
+    "note": "实际 STEP 俯视投影；碰撞轮廓按 CAD 投影细分并保留 0.15 mm 余量；按底座真实安装孔吸附。",
+    "nominalOpticalHeightMm": 62.5,
+    "opticalGeometryEvidence": {
+      "coordinateFrame": "world X right / Y up / Z height",
+      "sourceDatumHeightMm": 62.5,
+      "opticalCenterMm": {
+        "xMm": 0.0,
+        "yMm": 0.0
+      },
+      "geometricReferenceOnly": true,
+      "simulationType": "pbs",
+      "referenceKind": "actual cube internal diagonal interface",
+      "opticalSurfaceAngleDeg": -45.0,
+      "planeNormalWorld": [
+        0.70710678,
+        0.70710678,
+        0.0
+      ],
+      "sourceLeaf": "PBS22_532_prism_A",
+      "cadPlane": {
+        "areaMm2": 215.99430057824244,
+        "centerWorldMm": [
+          0.0,
+          -0.0,
+          62.5
+        ],
+        "normalWorld": [
+          -0.70710678,
+          -0.70710678,
+          0.0
+        ],
+        "centerLayoutMm": [
+          0.0,
+          -0.0,
+          62.5
+        ],
+        "normalLayout": [
+          -0.70710678,
+          -0.70710678,
+          0.0
+        ],
+        "boundsWorldMm": [
+          -6.20857864,
+          -6.20857864,
+          56.35,
+          6.20857864,
+          6.20857864,
+          68.65
+        ]
+      },
+      "note": "仅 AMP-1R 中位；平台枢轴不是光学中心。",
+      "migrationEvidence": {
+        "sourceSha256": "f74405d25b8cb99ffb9a878280b470e3e04c36ca018a20481e7f251ec6c86f86",
+        "providerReadbackStatus": "PASS_REPLACEMENT_READBACK_FINAL_POST_SOURCE_CHECK_REQUIRED_SEPARATELY",
+        "supplierTranslationMm": [
+          0,
+          0,
+          -1
+        ],
+        "measuredAgainstFrozenM1": true,
+        "physicalTrialCompleted": false
+      }
+    },
+    "geometryEvidence": {
+      "sourceStep": "step/standard-post-h12p5-b4-r2/assemblies/new-pbs-adjustable-05__H12p5_B4_R2.step",
+      "sourceSha256": "ac9eff966d9646ddf5cf0032bc55884906df601380158f4269755096f11bfd03",
+      "partCount": 36,
+      "postCount": 1,
+      "imageSha256": "6cecb11c2d52c072238930550e8629d0aae9141561c20e8c4eb682f7edc8817b",
+      "faceColoursPreserved": true,
+      "excludedReferenceCount": 0,
+      "guardMm": 0.15,
+      "meshDeflectionMm": 0.035,
+      "axes": "world X right / Y up / Z height",
+      "referenceAssembly": {
+        "assetKind": "assembly-reference-not-manufacturing-part",
+        "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/new-pbs-adjustable-05__H12p5_B4_R2.step",
+        "sha256": "ac9eff966d9646ddf5cf0032bc55884906df601380158f4269755096f11bfd03"
+      },
+      "previousProjectionSource": {
+        "sourceStep": null,
+        "sourceSha256": "f74405d25b8cb99ffb9a878280b470e3e04c36ca018a20481e7f251ec6c86f86",
+        "imageSha256": "580c40dbca9f48be24676baebcb3a66f68eae39fcfd871591faf5c39c077d4de",
+        "partCount": 36,
+        "meshDeflectionMm": 0.04
+      },
+      "triangleCount": 379113,
+      "postBaseRevision": {
+        "revision": "H12p5-B4-R2",
+        "componentIds": [
+          "custom-post-metric-12p5mm-m1"
+        ],
+        "baseThicknessByComponentId": {
+          "custom-post-metric-12p5mm-m1": 4
+        },
+        "nominalAndOpticalHeightsPreserved": true,
+        "geometryStatus": "passed",
+        "physicalAssemblyAccepted": false,
+        "previousAssemblySha256": "9ee7bc29762659e4cb2768ee640661e2a49b09716991939c273937e7b19bbfb2",
+        "currentAssemblySha256": "ac9eff966d9646ddf5cf0032bc55884906df601380158f4269755096f11bfd03",
+        "replacementReportSha256": "5e0c5761f431c0918cd0d378e20eb14b8dbefe09cf77504cb51129858129c7f4",
+        "originalEntitiesAndPosesPreserved": true
+      },
+      "sourceStepSha256": "ac9eff966d9646ddf5cf0032bc55884906df601380158f4269755096f11bfd03",
+      "baseThicknessByComponentId": {
+        "custom-post-metric-12p5mm-m1": 4
+      }
+    },
+    "opticalType": "pbs",
+    "opticalSurfaceAngleDeg": -45.0,
+    "opticalAxisHeightMm": 62.5,
+    "opticalCenterMm": {
+      "xMm": 0.0,
+      "yMm": 0.0
+    },
+    "opticalDatumVerified": true,
+    "opticalAxisHeightSource": "冻结M1总装、正式公制柱及商用件实际刚体变换已回读；名义光高62.5 mm。",
+    "opticalSimulationNote": "仅 AMP-1R 中位；平台枢轴不是光学中心。",
+    "sourceUrl": "https://cad.onshape.com/documents/6e58c9cce55d2925e9e4e840/v/437700e874b02419d6267c3d/e/748c058b4a5916ae24a9d868",
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "ac9eff966d9646ddf5cf0032bc55884906df601380158f4269755096f11bfd03",
+      "imageSha256": "6cecb11c2d52c072238930550e8629d0aae9141561c20e8c4eb682f7edc8817b",
+      "revision": "H12p5-B4-R2",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null,
+      "projectionReportSha256": "b4756dc9f6188dd060a182a35cd1cee37e86ef98db5397a52facb061649c6eb7"
+    }
+  },
+  "optionalNotes": [
+    "M1柱侧螺钉与销钉已按同源BOM计入；其余安装紧固件按孔表和实测有效牙深选配。"
+  ],
+  "manufacturingRevision": "M1",
+  "manufacturingEvidence": {
+    "sourceAssembly": {
+      "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/new-pbs-adjustable-05__H12p5_B4_R2.step",
+      "sha256": "ac9eff966d9646ddf5cf0032bc55884906df601380158f4269755096f11bfd03"
+    },
+    "sourceVersionId": "4931897f80d530bffcf46a4e",
+    "customCodes": [
+      "11-PBS-L",
+      "11-PBS-U"
+    ],
+    "hardwarePolicy": "M1 supplied column-side screws and pins included; other mounting fasteners remain optional pending selection.",
+    "topViewVisualReviewPassed": true,
+    "physicalTrialCompleted": false
+  },
+  "metricRevision": {
+    "revision": "M1",
+    "nativeAssemblySha256": "f74405d25b8cb99ffb9a878280b470e3e04c36ca018a20481e7f251ec6c86f86",
+    "nominalAxisHeightMm": 62.5,
+    "sourceVersionId": "4931897f80d530bffcf46a4e",
+    "preservedInstanceXY": true
+  },
+  "postBaseRevision": {
+    "revision": "H12p5-B4-R2",
+    "componentIds": [
+      "custom-post-metric-12p5mm-m1"
+    ],
+    "baseThicknessByComponentId": {
+      "custom-post-metric-12p5mm-m1": 4
+    },
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "physicalAssemblyAccepted": false,
+    "previousAssemblySha256": "9ee7bc29762659e4cb2768ee640661e2a49b09716991939c273937e7b19bbfb2",
+    "currentAssemblySha256": "ac9eff966d9646ddf5cf0032bc55884906df601380158f4269755096f11bfd03",
+    "replacementReportSha256": "5e0c5761f431c0918cd0d378e20eb14b8dbefe09cf77504cb51129858129c7f4",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "assemblyReference": {
+    "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/new-pbs-adjustable-05__H12p5_B4_R2.step",
+    "sourceStepSha256": "ac9eff966d9646ddf5cf0032bc55884906df601380158f4269755096f11bfd03",
+    "revision": "CURRENT-B6R1-H12p5B4R2",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "cloudUrl": "https://cad.onshape.com/documents/6e58c9cce55d2925e9e4e840/v/437700e874b02419d6267c3d/e/748c058b4a5916ae24a9d868",
+    "cloudStatus": "frozen-independent-assembly-readback-pending"
+  },
+  "cloudReference": {
+    "batch": 5,
+    "documentId": "6e58c9cce55d2925e9e4e840",
+    "workspaceId": "b482368ffdc22b2fb9daff0c",
+    "sourceUrl": "https://cad.onshape.com/documents/6e58c9cce55d2925e9e4e840/v/437700e874b02419d6267c3d/e/748c058b4a5916ae24a9d868",
+    "status": "frozen-independent-assembly-readback-pending",
+    "observation": "Onshape notification panel and folder list via IAB",
+    "strictReadbackComplete": false,
+    "active": false,
+    "current": true,
+    "sourceStepSha256": "ac9eff966d9646ddf5cf0032bc55884906df601380158f4269755096f11bfd03",
+    "automaticCloudReuseAllowed": false,
+    "independentAssemblyElementVerified": true,
+    "physicalAssemblyAccepted": false,
+    "versionId": "437700e874b02419d6267c3d",
+    "elementId": "748c058b4a5916ae24a9d868",
+    "elementType": "Assembly",
+    "versionFrozen": true,
+    "uiEvidence": {
+      "path": null,
+      "sha256": "111070afdf1f7cfd83ecc7bf45897a424b5d8e31f4e01cf6a1d68eae2dbec7bd"
+    },
+    "checkedAt": "2026-10-28T01:54:56.736608+08:00"
+  },
+  "id": "new-pbs-adjustable-05"
+}

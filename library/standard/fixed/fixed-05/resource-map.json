@@ -1,0 +1,55 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "fixed-05",
+  "files": [
+    {
+      "path": "rendering/5dccf33b1dcb2b39e57fafead588056535502aca2d129a1195f48b8f42ce47de.svg",
+      "stored": "library/assets/sha256/5d/5dccf33b1dcb2b39e57fafead588056535502aca2d129a1195f48b8f42ce47de.svg",
+      "sha256": "5dccf33b1dcb2b39e57fafead588056535502aca2d129a1195f48b8f42ce47de",
+      "originalReferences": [
+        "topviews/fixed-05-90__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/5d/5dccf33b1dcb2b39e57fafead588056535502aca2d129a1195f48b8f42ce47de.svg"
+      ]
+    },
+    {
+      "path": "rendering/c40085b8f9e6f20787372b8839cb6ea9d92fc828dbb009fd84d82aa570e84b91.svg",
+      "stored": "library/assets/sha256/c4/c40085b8f9e6f20787372b8839cb6ea9d92fc828dbb009fd84d82aa570e84b91.svg",
+      "sha256": "c40085b8f9e6f20787372b8839cb6ea9d92fc828dbb009fd84d82aa570e84b91",
+      "originalReferences": [
+        "topviews/fixed-05-45__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/c4/c40085b8f9e6f20787372b8839cb6ea9d92fc828dbb009fd84d82aa570e84b91.svg"
+      ]
+    },
+    {
+      "path": "cad/cf1f8898500d633a370d174459e1761357d4d12b22df385364b71935ad6d0274.step",
+      "stored": "library/assets/sha256/cf/cf1f8898500d633a370d174459e1761357d4d12b22df385364b71935ad6d0274.step",
+      "sha256": "cf1f8898500d633a370d174459e1761357d4d12b22df385364b71935ad6d0274",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/fixed-05-90__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/cf/cf1f8898500d633a370d174459e1761357d4d12b22df385364b71935ad6d0274.step"
+      ]
+    },
+    {
+      "path": "cad/deca1c8eb26ec59492dea8f333c36bef1ed4f0eae82f18316a90abcc2c45a0ad.step",
+      "stored": "library/assets/sha256/de/deca1c8eb26ec59492dea8f333c36bef1ed4f0eae82f18316a90abcc2c45a0ad.step",
+      "sha256": "deca1c8eb26ec59492dea8f333c36bef1ed4f0eae82f18316a90abcc2c45a0ad",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/fixed-05-45__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/de/deca1c8eb26ec59492dea8f333c36bef1ed4f0eae82f18316a90abcc2c45a0ad.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-14",
+    "custom-post-metric-37p5mm-m1",
+    "mt-flf05s"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "hx-30hm-10hm-servo",
+  "files": [
+    {
+      "path": "cad/64c17dbf7908d6c366313953af0a575f27ebea98ee428cfb2405415b63ca2547.step",
+      "stored": "library/assets/sha256/64/64c17dbf7908d6c366313953af0a575f27ebea98ee428cfb2405415b63ca2547.step",
+      "sha256": "64c17dbf7908d6c366313953af0a575f27ebea98ee428cfb2405415b63ca2547",
+      "originalReferences": [
+        "step/servo-detector-gate-r2/SERVO_SOURCE.step"
+      ],
+      "sources": [
+        "library/assets/sha256/64/64c17dbf7908d6c366313953af0a575f27ebea98ee428cfb2405415b63ca2547.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

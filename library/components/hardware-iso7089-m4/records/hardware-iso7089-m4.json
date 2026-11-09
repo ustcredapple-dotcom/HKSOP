@@ -1,0 +1,17 @@
+{
+  "id": "hardware-iso7089-m4",
+  "name": "ISO 7089 M4 平垫圈",
+  "model": "Ø4.3 / Ø9 / 厚0.8mm",
+  "kind": "standard",
+  "unit": "件",
+  "status": "名义规格与数量登记 · 实物采购待核",
+  "notes": "鑫图后两相机螺丝必需；缺垫可能顶盲孔。材质、表面处理和实物尺寸待采购确认。",
+  "standardSpec": {
+    "standard": "ISO 7089",
+    "boreDiameterMm": 4.3,
+    "outerDiameterMm": 9,
+    "thicknessMm": 0.8,
+    "material": null,
+    "finish": null
+  }
+}

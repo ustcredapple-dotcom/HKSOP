@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-187.5 -90 405 180" width="405mm" height="180mm" role="img" aria-labelledby="laser935-title laser935-desc">
+<title id="laser935-title">935 nm 激光输出腔 · FL-SF-935-0.2-CW · 俯视布局示意</title>
+<desc id="laser935-desc">手册尺寸布局示意。已按用户要求去掉四个估读外夹脚，保留主壳、侧散热器、光纤输入和935主输出；没有源STEP，未声称删除真实CAD实体。主壳长275毫米，本体基准光高27毫米；用户需选支撑和压板、手调实际板面光高。名义出光参考对齐已有孔列，不是安装孔。</desc>
+<defs>
+ <linearGradient id="lid935" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f0f3f6" /><stop offset="1" stop-color="#b4c0ce" /></linearGradient>
+ <linearGradient id="metal935"><stop stop-color="#8292a4" /><stop offset=".5" stop-color="#e6ebef" /><stop offset="1" stop-color="#6e7f93" /></linearGradient>
+ <g id="screw935"><circle r="1.3" fill="#4e5a67" /><path d="M-.7 0H.7" stroke="#cad3dc" stroke-width=".45" /></g>
+</defs>
+<g stroke="#354454" stroke-width=".8" stroke-linejoin="round">
+ <g id="estimated-heat-sink"><rect x="-97.5" y="-71" width="101" height="32" fill="#39434d" /><g stroke="#84909b" stroke-width="1.1"><path d="M-91 -70V-42" /><path d="M-87 -70V-42" /><path d="M-83 -70V-42" /><path d="M-79 -70V-42" /><path d="M-75 -70V-42" /><path d="M-71 -70V-42" /><path d="M-67 -70V-42" /><path d="M-63 -70V-42" /><path d="M-59 -70V-42" /><path d="M-55 -70V-42" /><path d="M-51 -70V-42" /><path d="M-47 -70V-42" /><path d="M-43 -70V-42" /><path d="M-39 -70V-42" /><path d="M-35 -70V-42" /><path d="M-31 -70V-42" /><path d="M-27 -70V-42" /><path d="M-23 -70V-42" /><path d="M-19 -70V-42" /><path d="M-15 -70V-42" /><path d="M-11 -70V-42" /><path d="M-7 -70V-42" /><path d="M-3 -70V-42" /><path d="M1 -70V-42" /></g></g>
+ <g id="fiber-input"><title>光纤输入接头；不是自由空间出光口。接头外伸为示意估读。</title><rect x="137.5" y="-12" width="14" height="24" fill="url(#metal935)" /><path d="M151.5-9L202.5-6V6L151.5 9Z" fill="url(#metal935)" /><path d="M143-11V11M147-11V11" fill="none" /></g>
+ <rect x="-142.5" y="-40" width="5" height="80" fill="#748494" />
+ <rect x="-137.5" y="-41" width="275" height="82" rx="2.5" fill="url(#lid935)" />
+ <path d="M-134.5-37.5H134.5M-134.5 37.5H134.5" stroke="#edf2f6" stroke-width="1.2" />
+</g>
+<g id="appearance-only-lid-fasteners"><use href="#screw935" x="-128" y="-38" /><use href="#screw935" x="-128" y="38" /><use href="#screw935" x="-95" y="-38" /><use href="#screw935" x="-95" y="38" /><use href="#screw935" x="-62" y="-38" /><use href="#screw935" x="-62" y="38" /><use href="#screw935" x="-29" y="-38" /><use href="#screw935" x="-29" y="38" /><use href="#screw935" x="4" y="-38" /><use href="#screw935" x="4" y="38" /><use href="#screw935" x="37" y="-38" /><use href="#screw935" x="37" y="38" /><use href="#screw935" x="70" y="-38" /><use href="#screw935" x="70" y="38" /><use href="#screw935" x="103" y="-38" /><use href="#screw935" x="103" y="38" /><use href="#screw935" x="129" y="-38" /><use href="#screw935" x="129" y="38" /></g>
+<g font-family="Arial,'PingFang SC',sans-serif" text-anchor="middle">
+ <text x="12" y="-12" font-size="14" font-weight="700" fill="#34455a">935 nm</text>
+ <text x="12" y="1" font-size="7.4" fill="#465b71">FL-SF-935-0.2-CW</text>
+ <text x="12" y="14" font-size="6.2" fill="#5e7285">主壳长 275 mm · 板面光高需手调确认</text>
+ <text x="12" y="28" font-size="5.2" fill="#79614b">人工支撑／压板 · 无固定转接底座</text>
+</g>
+<g id="optical-output-port" data-optical-port="output" data-x-mm="-142.5" data-y-mm="-1" data-wavelength-nm="935.18051" stroke="#b84b66" fill="none">
+ <title>935.18051 nm红外主输出，向左；厂家本体基准27 mm，板上实际轴高待手调确认。左薄盖前面为布局光程参考，实际窗口纵向位置未完整标定。</title>
+ <path d="M-142.5 1H-178" stroke-width="1.8" /><path d="M-176-3L-183 1L-176 5Z" stroke="none" fill="#b84b66" />
+ <circle cx="-142.5" cy="1" r="4.3" fill="#fff" stroke-width="1.2" /><path d="M-149 1H-136M-142.5-5.5V7.5" stroke-width=".7" />
+ <path d="M-119-41V1M-122-41H-116M-122 1H-116" stroke-width=".55" stroke-dasharray="2 1.2" />
+</g>
+<g font-family="Arial,'PingFang SC',sans-serif" fill="#993e56"><text x="-112" y="-18" font-size="6.5">42 mm</text><text x="-132" y="21" font-size="6">光口 OUTPUT</text><text x="-132" y="30" font-size="5.4">红外 · 左向</text></g>
+</svg>

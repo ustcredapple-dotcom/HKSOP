@@ -1,0 +1,35 @@
+{
+  "id": "custom-bdp-a1-r4",
+  "name": "BDP-A1 R4 · 后置PD光阱双螺钉转接板",
+  "model": "BDP-A1 R4",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R4",
+  "productionReady": false,
+  "drawingStatus": "engineering-review",
+  "status": "机械审核版；未放行加工",
+  "stepPath": "step/bd1-pd-r4/BDP-A1_R4.step",
+  "drawingPath": null,
+  "sourceStepSha256": "87f59e1c3eb1d033d982cbd12a75f7c65ce35b48a39df2d69b193e25c751a1f6",
+  "sourceDrawingSha256": "950790810c6a8a65fd5264277598606b015e9f50514d3caf4e97c1f6864f8e90",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化；去毛刺，保护接触面和定位孔",
+    "processDetails": "外廓105.5×52×18.5 mm；中段厚10 mm。H1两销孔之间12.8×4.3长孔，两端各Ø8.25深4圆沉孔，配2×M4×12。两销孔仍为(0,±5)；保留直角前靠位和台阶，无退刀槽。其余孔位及加工规格见R4 PDF。"
+  },
+  "manufacturingEvidence": {
+    "sourceStepSha256": "87f59e1c3eb1d033d982cbd12a75f7c65ce35b48a39df2d69b193e25c751a1f6",
+    "drawingSha256": "950790810c6a8a65fd5264277598606b015e9f50514d3caf4e97c1f6864f8e90",
+    "producerVerificationSha256": "28f0019bc80c77000b55547d35fda59ca6590ed38313ab2bc86658bd40e92d97",
+    "physicalAssemblyTested": false,
+    "engineeringReleaseApproved": false,
+    "receiverScope": "极速接收：文件/基准/可用性核验，复用生产者几何检查"
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "新制件身份标识",
+    "notes": "PDF第4页打标定位；前托Y=-21外侧面，字右+X、字顶+Z。DXF面坐标(X,Z)，1:1 mm；0.02模型浅痕仅示意，不铣刻。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "notes": "H1双M4名义旋入6 mm，H3的PD有效M4牙深待实测；销孔配合等级、实物夹紧和镜架全行程待验。"
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "lbtek-mopc-5p6-p4",
+  "revision": "source-snapshot",
+  "displayName": "麓邦 MOPC-5.6-P4 · M3 同轴接杆（4根装）",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/lbtek-mopc-5p6-p4.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

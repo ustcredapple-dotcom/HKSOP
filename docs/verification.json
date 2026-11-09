@@ -1,0 +1,64 @@
+{
+  "format": "hksop-subset-verification-v1",
+  "at": "2026-11-09T11:48:36+08:00",
+  "passed": true,
+  "counts": {
+    "components": 432,
+    "kits": 263,
+    "registeredBoards": 6
+  },
+  "packages": 694,
+  "examplesReadable": 3,
+  "v4ProfilesVerified": [
+    {
+      "profile": "web",
+      "normalization": true,
+      "passiveEmitterRejected": true,
+      "missingSettingsRejected": true,
+      "forwardAndReverseTrace": true,
+      "gaussianLensTransform": true,
+      "missingFocalLengthBlocked": true
+    },
+    {
+      "profile": "editor",
+      "normalization": true,
+      "passiveEmitterRejected": true,
+      "missingSettingsRejected": true,
+      "forwardAndReverseTrace": true,
+      "gaussianLensTransform": true,
+      "missingFocalLengthBlocked": true
+    }
+  ],
+  "runtimeChecksPassed": true,
+  "engineSourcesVerified": 99,
+  "assetCopyAndReadback": "All asset hashes verified while copying; manifest docs/asset-manifest.json",
+  "regularFiles": 3454,
+  "directories": 2540,
+  "symlinks": 1003,
+  "brokenOrExternalLinks": [],
+  "excludedDrawingFiles": [],
+  "bytes": 4870522773,
+  "topLevelBytes": {
+    "(root)": 5220,
+    "skills": 716514,
+    "engine": 4206862,
+    "config": 1699,
+    "library": 4865237954,
+    "projects": 52045,
+    "docs": 276180,
+    ".git": 26299
+  },
+  "github": {
+    "uploaded": false,
+    "remoteCreated": false,
+    "reason": "User deferred GitHub upload",
+    "futureVisibility": "private"
+  },
+  "git": {
+    "initialized": true,
+    "branch": "main",
+    "commitCreated": false,
+    "remote": null
+  },
+  "manufacturingAcceptance": "Not upgraded; drawings excluded by user scope."
+}

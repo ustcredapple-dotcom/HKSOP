@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "lbtek-ls30-6l1-purchased-stage",
+  "files": [
+    {
+      "path": "cad/b50c1b6e982ca22d8f86ba2fa67aeb490d93f2e880e39448a9ada0ac549dcc88.step",
+      "stored": "library/assets/sha256/b5/b50c1b6e982ca22d8f86ba2fa67aeb490d93f2e880e39448a9ada0ac549dcc88.step",
+      "sha256": "b50c1b6e982ca22d8f86ba2fa67aeb490d93f2e880e39448a9ada0ac549dcc88",
+      "originalReferences": [
+        "step/manual-stage-r1-a7075/vendor/lbtek-ls30-6l1-purchased-stage/LS30-6L1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/b5/b50c1b6e982ca22d8f86ba2fa67aeb490d93f2e880e39448a9ada0ac549dcc88.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,86 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "suruga-xyz-motor-2in-left-r2",
+  "files": [
+    {
+      "path": "rendering/395c52918931dc304445a86d6034b493849c138890836379c82cd2006493831e.svg",
+      "stored": "library/assets/sha256/39/395c52918931dc304445a86d6034b493849c138890836379c82cd2006493831e.svg",
+      "sha256": "395c52918931dc304445a86d6034b493849c138890836379c82cd2006493831e",
+      "originalReferences": [
+        "topviews/suruga-xyz-motor-2in-left-r2__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/39/395c52918931dc304445a86d6034b493849c138890836379c82cd2006493831e.svg"
+      ]
+    },
+    {
+      "path": "cad/77b049cc082381d7cbc55ad2e2d799f45f5d38eb220c10b1b65f26ba3c43f968.step",
+      "stored": "library/assets/sha256/77/77b049cc082381d7cbc55ad2e2d799f45f5d38eb220c10b1b65f26ba3c43f968.step",
+      "sha256": "77b049cc082381d7cbc55ad2e2d799f45f5d38eb220c10b1b65f26ba3c43f968",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/suruga-xyz-motor-2in-left-r2__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/77/77b049cc082381d7cbc55ad2e2d799f45f5d38eb220c10b1b65f26ba3c43f968.step"
+      ]
+    },
+    {
+      "path": "rendering/807f28a24cd1dc5bdb681f9d2c3bd5fac75531559d289336d7e1caef4c7ec972.svg",
+      "stored": "library/assets/sha256/80/807f28a24cd1dc5bdb681f9d2c3bd5fac75531559d289336d7e1caef4c7ec972.svg",
+      "sha256": "807f28a24cd1dc5bdb681f9d2c3bd5fac75531559d289336d7e1caef4c7ec972",
+      "originalReferences": [
+        "topviews/suruga-xyz-post25-left-r2__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/80/807f28a24cd1dc5bdb681f9d2c3bd5fac75531559d289336d7e1caef4c7ec972.svg"
+      ]
+    },
+    {
+      "path": "cad/a08e2d1ceeb9fa55634fd63515ab07ebbd74d80220bc99c1d8d29c3c417c70ff.step",
+      "stored": "library/assets/sha256/a0/a08e2d1ceeb9fa55634fd63515ab07ebbd74d80220bc99c1d8d29c3c417c70ff.step",
+      "sha256": "a08e2d1ceeb9fa55634fd63515ab07ebbd74d80220bc99c1d8d29c3c417c70ff",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/suruga-xyz-post25-left-r2__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/a0/a08e2d1ceeb9fa55634fd63515ab07ebbd74d80220bc99c1d8d29c3c417c70ff.step"
+      ]
+    },
+    {
+      "path": "rendering/b4798a0bd1265f58cf4da6b05c0d7d9213d4bc610a151366c02154123f00eaae.svg",
+      "stored": "library/assets/sha256/b4/b4798a0bd1265f58cf4da6b05c0d7d9213d4bc610a151366c02154123f00eaae.svg",
+      "sha256": "b4798a0bd1265f58cf4da6b05c0d7d9213d4bc610a151366c02154123f00eaae",
+      "originalReferences": [
+        "topviews/suruga-xyz-motor-2in-left-r2__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/b4/b4798a0bd1265f58cf4da6b05c0d7d9213d4bc610a151366c02154123f00eaae.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-post-metric-12p5mm-m1",
+    "custom-suruga-xyz-base-r1",
+    "custom-suruga-xyz-zpanel-r1",
+    "custom-v7-2a",
+    "custom-v7-2in-main",
+    "custom-v7-2in-side",
+    "custom-v7-m3-h2",
+    "hardware-iso4762-m3x10",
+    "hardware-iso4762-m3x8",
+    "hardware-iso4762-m6x12",
+    "hardware-iso4762-m6x16",
+    "hardware-iso7089-m4",
+    "v7-din7991-m3x10",
+    "v7-iso4762-m4x12",
+    "v7-iso4762-m4x16",
+    "v7-pin-d2x6",
+    "v7-pin-d2x8",
+    "v7-source-encoder-servo",
+    "v7-source-m2x10",
+    "v7-source-m4-nut",
+    "v7-source-m4x20-thin",
+    "v7-source-mt-am2",
+    "v7-source-retaining-washer"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-extension-ed37p5-r1",
+  "files": [
+    {
+      "path": "cad/f3c3946089fab3633547b6174a068ea201a4ad804c93d92f66149c7f7842fd61.step",
+      "stored": "library/assets/sha256/f3/f3c3946089fab3633547b6174a068ea201a4ad804c93d92f66149c7f7842fd61.step",
+      "sha256": "f3c3946089fab3633547b6174a068ea201a4ad804c93d92f66149c7f7842fd61",
+      "originalReferences": [
+        "step/extension-series-r1/延长37.5√2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/f3/f3c3946089fab3633547b6174a068ea201a4ad804c93d92f66149c7f7842fd61.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

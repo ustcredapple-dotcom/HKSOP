@@ -1,0 +1,31 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "extension-ex75-r1",
+  "files": [
+    {
+      "path": "rendering/4b0bce76187548f9c3bc574d56533041ea855800ca12a5dcc9f243c7260258ea.svg",
+      "stored": "library/assets/sha256/4b/4b0bce76187548f9c3bc574d56533041ea855800ca12a5dcc9f243c7260258ea.svg",
+      "sha256": "4b0bce76187548f9c3bc574d56533041ea855800ca12a5dcc9f243c7260258ea",
+      "originalReferences": [
+        "topviews/extension-ex75-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/4b/4b0bce76187548f9c3bc574d56533041ea855800ca12a5dcc9f243c7260258ea.svg"
+      ]
+    },
+    {
+      "path": "cad/99f1a4db2c065cc0fcbd16191b6a357449fd6d932ca76bc57dc69e5ed6a724f2.step",
+      "stored": "library/assets/sha256/99/99f1a4db2c065cc0fcbd16191b6a357449fd6d932ca76bc57dc69e5ed6a724f2.step",
+      "sha256": "99f1a4db2c065cc0fcbd16191b6a357449fd6d932ca76bc57dc69e5ed6a724f2",
+      "originalReferences": [
+        "step/extension-series-r1/延长75.step"
+      ],
+      "sources": [
+        "library/assets/sha256/99/99f1a4db2c065cc0fcbd16191b6a357449fd6d932ca76bc57dc69e5ed6a724f2.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-extension-ex75-r1"
+  ]
+}

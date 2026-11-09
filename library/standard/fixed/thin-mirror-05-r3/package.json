@@ -1,0 +1,29 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "thin-mirror-05-r3",
+  "revision": "R3-B6R1",
+  "displayName": "半英寸薄型镜架",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/thin-mirror-05-r3.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-h05-a3-r3",
+    "custom-post-metric-25mm-m1",
+    "ganter-gn9135-m3-3-ku",
+    "metric-m1-post-m4x8",
+    "metric-m1-post-pin-d2x8"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

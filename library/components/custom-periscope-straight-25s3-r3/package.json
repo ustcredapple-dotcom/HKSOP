@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-periscope-straight-25s3-r3",
+  "revision": "source-snapshot",
+  "displayName": "直向爬架",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-periscope-straight-25s3-r3.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

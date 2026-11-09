@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-fc-mft-r3-a",
+  "files": [
+    {
+      "path": "cad/a94e6f76548ff38970195690ea8b81c072cc066b1131f1980eadcf5711487e21.step",
+      "stored": "library/assets/sha256/a9/a94e6f76548ff38970195690ea8b81c072cc066b1131f1980eadcf5711487e21.step",
+      "sha256": "a94e6f76548ff38970195690ea8b81c072cc066b1131f1980eadcf5711487e21",
+      "originalReferences": [
+        "step/fiber-rear-dual-r3/FC-MFT-R3-A.step"
+      ],
+      "sources": [
+        "library/assets/sha256/a9/a94e6f76548ff38970195690ea8b81c072cc066b1131f1980eadcf5711487e21.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

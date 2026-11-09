@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-05",
+  "revision": "source-snapshot",
+  "displayName": "面包板1530",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-05.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

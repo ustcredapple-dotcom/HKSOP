@@ -1,0 +1,121 @@
+{
+  "name": "索雷博 MT1/M 位移小面包板",
+  "category": "manual-stage",
+  "variant": "MT1/M / R1-A7075",
+  "description": "单轴手动位移小面包板；固定基座保持不动，上板与内部元件共同移动。顶面名义高度 37.5 mm；自制板采用7075铝合金、黑色阳极氧化。",
+  "stageModuleId": "stage-board-thorlabs-mt1m",
+  "stageRuntime": {
+    "kitId": "stage-board-thorlabs-mt1m",
+    "topBoardId": "stage-top-mt1-t",
+    "topBoardRevision": "R1-A7075",
+    "revision": "R1-A7075",
+    "topViewPath": "topviews/kit_manual-stage-thorlabs-mt1m-complete.svg",
+    "fixedTopView": {
+      "src": "./topviews/kit_manual-stage-thorlabs-mt1m-fixed.svg",
+      "topViewPath": "topviews/kit_manual-stage-thorlabs-mt1m-fixed.svg",
+      "widthMm": 119.651400099991,
+      "heightMm": 63.593599999999995,
+      "anchorXMm": 30.748572295160002,
+      "anchorYMm": 30.73,
+      "sha256": "2f61e1501c0ae3798b329b7116378788288935c3ca6d298170efa273713ca965"
+    },
+    "movingTopView": {
+      "src": "./topviews/kit_manual-stage-thorlabs-mt1m-moving.svg",
+      "topViewPath": "topviews/kit_manual-stage-thorlabs-mt1m-moving.svg",
+      "widthMm": 63.0,
+      "heightMm": 63.0,
+      "anchorXMm": 31.5,
+      "anchorYMm": 31.5,
+      "sha256": "aab56b703b4994aa58649801ea7d340afd06f33f22a7b6681f9e524344ee5096"
+    },
+    "baseBoundsMm": {
+      "xMin": -30.4799996,
+      "yMin": -30.734,
+      "xMax": 30.4800004,
+      "yMax": 30.48
+    },
+    "baseBoundsEvidence": "独立回读 Z=0 承载面",
+    "vendorMotionRepresentation": "unchanged-source-pose-with-conservative-full-travel-keepout",
+    "userMaterialOverride": {
+      "revision": "R1-A7075",
+      "geometryRevision": "R1",
+      "evidence": "library/reviews/manual-moving-stage-r1-a7075-import-20261006/evidence/user-material-override-20261006.json"
+    }
+  },
+  "components": [
+    {
+      "componentId": "thorlabs-mt1m-purchased-stage",
+      "quantity": 1
+    },
+    {
+      "componentId": "MT1-T",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-iso4762-m6x12",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-iso4762-m6x16",
+      "quantity": 4
+    }
+  ],
+  "opticalSlots": [],
+  "layout": {
+    "widthMm": 120.40282780483099,
+    "heightMm": 64.36359999999999,
+    "anchorXMm": 31.5,
+    "anchorYMm": 31.5,
+    "topViewPath": "topviews/kit_manual-stage-thorlabs-mt1m-complete.svg",
+    "topViewUrl": "./topviews/kit_manual-stage-thorlabs-mt1m-complete.svg",
+    "placementAllowed": false,
+    "baseBoundsMm": {
+      "xMin": -30.4799996,
+      "yMin": -30.734,
+      "xMax": 30.4800004,
+      "yMax": 30.48
+    },
+    "collisionBoundsMm": {
+      "xMin": -36.848572,
+      "xMax": 95.002828,
+      "yMin": -32.6136,
+      "yMax": 30.48
+    },
+    "opticalType": "empty",
+    "opticalDefaults": {
+      "elementType": "empty",
+      "inserted": false,
+      "configured": true
+    },
+    "note": "专用运动小面包板入口；不得作为普通静态光学器件放置。"
+  },
+  "sourceUrl": "https://media.thorlabs.com/globalassets/items/m/mt/mt1/mt1_m/2381-e0w.pdf?v=0116012826",
+  "status": "名义尺寸已核对；待工艺及实物归中验收",
+  "notes": "R1-A7075材料改版：五种自制板7075铝合金、黑色阳极氧化；几何沿用R1。q=0表示机械行程中位，测微头中位读数未实测。厂家机构仅显示源CAD姿态，碰撞保留保守全行程包络。采用标准末端驱动配置；不包含MT405侧驱转接。；底部25mm孔距直接接母板，先固定原厂台再装上板。；+X底面1.5深避让槽必须保留，夹持块名义最小余量1.627。；总高按CAD 20.574计算；图纸20.6为圆整值。",
+  "assemblyReference": {
+    "stepPath": "step/manual-stage-r1-a7075/assemblies/thorlabs-mt1m-assembly.step",
+    "sourceStepSha256": "a3a945b8fc89e87df827ed0fee44d54a4c6e6f5b5285dc915fb267d0b303fab9",
+    "drawingPath": null,
+    "drawingPages": [
+      4
+    ],
+    "sourceDrawingSha256": "97e4af3b88bcca294fe1c1b23d6a61e1f5b5a3412bc8ba785825420f0f12ff62"
+  },
+  "drawingAnnotationEvidence": {
+    "/assemblyReference/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "495cec3e7e3b46f91e58c10482af7f7439007acc35d2831e02babd57385d174b",
+      "currentPdfSha256": "b8ae04a5834ace0ecd9e2ce67bb61c0ad4bd624461e34c98ad512c806557254f",
+      "annotatedPages": [
+        10,
+        12,
+        14
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "id": "stage-board-thorlabs-mt1m"
+}

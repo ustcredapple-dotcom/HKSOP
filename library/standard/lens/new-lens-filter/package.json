@@ -1,0 +1,31 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-lens-filter",
+  "revision": "CURRENT-B6R1",
+  "displayName": "透镜／滤光片架 · FLFT1A",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/new-lens-filter.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-post-metric-25mm-m1",
+    "metric-m1-post-m4x8",
+    "metric-m1-post-pin-d2x8",
+    "new-lens-filter-adapter-1",
+    "new-lens-filter-adapter-2",
+    "new-lens-filter-vendor-1",
+    "new-lens-filter-vendor-2"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

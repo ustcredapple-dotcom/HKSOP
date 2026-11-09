@@ -1,0 +1,37 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "mirror-hpb1-0deg",
+  "files": [
+    {
+      "path": "cad/6de442a0cabc55d57d1c8f9d0baa1195fd4c9b5185172f42cad472524772020f.step",
+      "stored": "library/assets/sha256/6d/6de442a0cabc55d57d1c8f9d0baa1195fd4c9b5185172f42cad472524772020f.step",
+      "sha256": "6de442a0cabc55d57d1c8f9d0baa1195fd4c9b5185172f42cad472524772020f",
+      "originalReferences": [
+        "step/cs30kz-hpb-shared-r2/HPB1_0deg_ASSEMBLY_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/6d/6de442a0cabc55d57d1c8f9d0baa1195fd4c9b5185172f42cad472524772020f.step"
+      ]
+    },
+    {
+      "path": "rendering/95799933d39341f835d0a0fcff6401a7e29e35f3cae7b9dc62304746f5b68f14.svg",
+      "stored": "library/assets/sha256/95/95799933d39341f835d0a0fcff6401a7e29e35f3cae7b9dc62304746f5b68f14.svg",
+      "sha256": "95799933d39341f835d0a0fcff6401a7e29e35f3cae7b9dc62304746f5b68f14",
+      "originalReferences": [
+        "topviews/mirror-hpb1-0deg.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/95/95799933d39341f835d0a0fcff6401a7e29e35f3cae7b9dc62304746f5b68f14.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-hpb1-a",
+    "custom-post-metric-25mm-m1",
+    "hpb-1-2",
+    "metric-m1-post-m4x16",
+    "metric-m1-post-pin-d2x8",
+    "v7-iso4762-m4x12",
+    "v7-pin-d2x6"
+  ]
+}

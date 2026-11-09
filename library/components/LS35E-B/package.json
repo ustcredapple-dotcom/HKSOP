@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "LS35E-B",
+  "revision": "R1",
+  "displayName": "LS35x.Lab.E 下转接底板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/LS35E-B.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

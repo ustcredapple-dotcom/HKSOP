@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-r3-11-pbs-upper",
+  "files": [
+    {
+      "path": "cad/3ea268ecddf705c9c7dbf0ec469e58b12da45a129b26a0e351f09558bbba0b6f.step",
+      "stored": "library/assets/sha256/3e/3ea268ecddf705c9c7dbf0ec469e58b12da45a129b26a0e351f09558bbba0b6f.step",
+      "sha256": "3ea268ecddf705c9c7dbf0ec469e58b12da45a129b26a0e351f09558bbba0b6f",
+      "originalReferences": [
+        "step/metric-m1-20261006/11-PBS-U_METRIC_M1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/3e/3ea268ecddf705c9c7dbf0ec469e58b12da45a129b26a0e351f09558bbba0b6f.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

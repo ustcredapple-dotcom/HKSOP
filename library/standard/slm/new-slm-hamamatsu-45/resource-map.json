@@ -1,0 +1,36 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-slm-hamamatsu-45",
+  "files": [
+    {
+      "path": "cad/3afa266cfd8e2b4afe449f4efc7f649c304d53e5ee2d8a3f2b63cf9650747554.step",
+      "stored": "library/assets/sha256/3a/3afa266cfd8e2b4afe449f4efc7f649c304d53e5ee2d8a3f2b63cf9650747554.step",
+      "sha256": "3afa266cfd8e2b4afe449f4efc7f649c304d53e5ee2d8a3f2b63cf9650747554",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/new-slm-hamamatsu-45__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/3a/3afa266cfd8e2b4afe449f4efc7f649c304d53e5ee2d8a3f2b63cf9650747554.step"
+      ]
+    },
+    {
+      "path": "rendering/4f3edb0f7bec26029582bf8e8b933f5a2de03c8c37ce1ee19204033c52cfd436.svg",
+      "stored": "library/assets/sha256/4f/4f3edb0f7bec26029582bf8e8b933f5a2de03c8c37ce1ee19204033c52cfd436.svg",
+      "sha256": "4f3edb0f7bec26029582bf8e8b933f5a2de03c8c37ce1ee19204033c52cfd436",
+      "originalReferences": [
+        "topviews/new-slm-hamamatsu-45__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/4f/4f3edb0f7bec26029582bf8e8b933f5a2de03c8c37ce1ee19204033c52cfd436.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-post-metric-25mm-m1",
+    "metric-m1-post-m4x16",
+    "metric-m1-post-pin-d2x8",
+    "new-slm-21-adapter",
+    "new-slm-hamamatsu-head",
+    "new-slm-m6x8-review"
+  ]
+}

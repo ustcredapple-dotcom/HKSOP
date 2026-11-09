@@ -1,0 +1,32 @@
+{
+  "format": "zzlab-optical-interaction",
+  "version": 1,
+  "model": "planar",
+  "onNoMatch": "block",
+  "inputs": [
+    {
+      "id": "main",
+      "direction": {
+        "angleDeg": 0,
+        "halfAngleDeg": 5,
+        "bidirectional": true
+      },
+      "steps": [
+        {
+          "op": "waveplate",
+          "waveplates": [
+            {
+              "inserted": true,
+              "fastAxisDeg": 22.5,
+              "retardanceDeg": 180,
+              "designWavelengthNm": 532
+            }
+          ]
+        },
+        {
+          "op": "pbs"
+        }
+      ]
+    }
+  ]
+}

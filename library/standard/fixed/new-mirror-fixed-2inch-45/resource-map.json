@@ -1,0 +1,36 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-mirror-fixed-2inch-45",
+  "files": [
+    {
+      "path": "cad/2e7a87f18d76ed71f7c18a7e51adecfdb845bf7d6261ce1f78702c43a52d7a93.step",
+      "stored": "library/assets/sha256/2e/2e7a87f18d76ed71f7c18a7e51adecfdb845bf7d6261ce1f78702c43a52d7a93.step",
+      "sha256": "2e7a87f18d76ed71f7c18a7e51adecfdb845bf7d6261ce1f78702c43a52d7a93",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/new-mirror-fixed-2inch-45__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/2e/2e7a87f18d76ed71f7c18a7e51adecfdb845bf7d6261ce1f78702c43a52d7a93.step"
+      ]
+    },
+    {
+      "path": "rendering/bcd7fba8dddbccabd6a35908d1a5f379ee333306a2ab123923d02854bced426d.svg",
+      "stored": "library/assets/sha256/bc/bcd7fba8dddbccabd6a35908d1a5f379ee333306a2ab123923d02854bced426d.svg",
+      "sha256": "bcd7fba8dddbccabd6a35908d1a5f379ee333306a2ab123923d02854bced426d",
+      "originalReferences": [
+        "topviews/new-mirror-fixed-2inch-45__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/bc/bcd7fba8dddbccabd6a35908d1a5f379ee333306a2ab123923d02854bced426d.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-post-metric-12p5mm-m1",
+    "metric-m1-post-m4x12",
+    "metric-m1-post-pin-d2x8",
+    "new-r3-17-r3-adapter",
+    "new-r3-vendor-lpm20-532-hp",
+    "new-r3-vendor-mt-flf2s"
+  ]
+}

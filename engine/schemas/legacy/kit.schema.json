@@ -1,0 +1,641 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ZZLab authoritative kit record (runtime-compatible; new-package rules also enforced by tools/library.py)",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "category",
+    "components",
+    "opticalSlots",
+    "layout"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,159}$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,159}$"
+    },
+    "components": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "componentId",
+          "quantity"
+        ],
+        "properties": {
+          "componentId": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,159}$"
+          },
+          "quantity": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "opticalSlots": {
+      "type": "array"
+    },
+    "layout": {
+      "type": "object",
+      "required": [
+        "placementAllowed",
+        "topViewPath"
+      ],
+      "properties": {
+        "placementAllowed": {
+          "type": "boolean"
+        },
+        "topViewPath": {
+          "type": "string",
+          "pattern": "^topviews/[A-Za-z0-9][A-Za-z0-9_.-]*\\.(svg|png|webp)$"
+        },
+        "opticalType": {
+          "enum": [
+            "empty",
+            "mirror",
+            "dichroic",
+            "pbs",
+            "waveplate",
+            "lens",
+            "coupler",
+            "source",
+            "unsupported"
+          ]
+        },
+        "widthMm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "heightMm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "anchorXMm": {
+          "type": "number",
+          "minimum": 0
+        },
+        "anchorYMm": {
+          "type": "number",
+          "minimum": 0
+        },
+        "baseBoundsMm": {
+          "type": "object",
+          "required": [
+            "xMin",
+            "xMax",
+            "yMin",
+            "yMax"
+          ],
+          "properties": {
+            "xMin": {
+              "type": "number"
+            },
+            "xMax": {
+              "type": "number"
+            },
+            "yMin": {
+              "type": "number"
+            },
+            "yMax": {
+              "type": "number"
+            }
+          },
+          "additionalProperties": false
+        },
+        "minimumAlignedMountingHoles": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 128,
+          "description": "Required number of distinct real mounting holes aligned to usable board thread holes; omission requires every mounting hole. Must not exceed the registered distinct mounting-hole count."
+        },
+        "baseOverhangAllowedWithPartialMounting": {
+          "type": "boolean",
+          "description": "Explicit per-kit installation-policy exception. True permits partial base overhang only after at least minimumAlignedMountingHoles (minimum 2) distinct mounting holes align to actual usable M6 board threads. Virtual root-table holes, counterbores and non-thread holes do not qualify; collision and other checks remain active. Preserve the user/manufacturer policy source."
+        },
+        "collisionBoundsMm": {
+          "type": "object",
+          "required": [
+            "xMin",
+            "xMax",
+            "yMin",
+            "yMax"
+          ],
+          "properties": {
+            "xMin": {
+              "type": "number"
+            },
+            "xMax": {
+              "type": "number"
+            },
+            "yMin": {
+              "type": "number"
+            },
+            "yMax": {
+              "type": "number"
+            }
+          },
+          "additionalProperties": false
+        },
+        "mountingHoleOffsetsMm": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "xMm",
+              "yMm"
+            ],
+            "properties": {
+              "xMm": {
+                "type": "number"
+              },
+              "yMm": {
+                "type": "number"
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "collisionPolygonsMm": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "minItems": 3,
+            "items": {
+              "type": "object",
+              "required": [
+                "xMm",
+                "yMm"
+              ],
+              "properties": {
+                "xMm": {
+                  "type": "number"
+                },
+                "yMm": {
+                  "type": "number"
+                }
+              },
+              "additionalProperties": true
+            }
+          }
+        },
+        "opticalCenterMm": {
+          "anyOf": [
+            {
+              "type": "object",
+              "required": [
+                "xMm",
+                "yMm"
+              ],
+              "properties": {
+                "xMm": {
+                  "type": "number"
+                },
+                "yMm": {
+                  "type": "number"
+                }
+              },
+              "additionalProperties": true
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "fixedUniversalPostComponentIds": {
+          "type": "array",
+          "maxItems": 128,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Kit BOM post component IDs mechanically fixed in orientation/length and excluded from Z-elevation replacement. IDs must reference this kit components and registered universalPostSeries; validated by elevation.py. Does not remove BOM rows."
+        },
+        "opticalAssembly": {
+          "type": "object",
+          "properties": {
+            "externalAxisHeightsMm": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 16,
+              "uniqueItems": true,
+              "items": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 10000
+              },
+              "description": "Optional measured external optical-height converter group. Requires verified opticalAssembly and each value matching a face.centerMm Z within 1e-5 mm. Backend/frontend check cross-field semantics; world heights include instance/child-board elevation. Does not bypass ray intersection or polarization checks."
+            },
+            "version": {
+              "type": "integer",
+              "enum": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "description": "v1 legacy; v2 coupler; v3 passive; v4 passive assembly with independent horizontal thin-lens nodes."
+            },
+            "emissionNodeId": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 128,
+              "description": "v2 only: references the single read-only coupler node. Only parent optics.source may emit."
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "required": [
+                  "externalAxisHeightsMm"
+                ]
+              },
+              "then": {
+                "required": [
+                  "verified",
+                  "nodes"
+                ],
+                "properties": {
+                  "verified": {
+                    "const": true
+                  },
+                  "nodes": {
+                    "type": "array",
+                    "minItems": 1
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "required": [
+                  "version"
+                ],
+                "properties": {
+                  "version": {
+                    "const": 2
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "verified",
+                  "nodes",
+                  "bounds",
+                  "internalElements",
+                  "emissionNodeId"
+                ]
+              }
+            },
+            {
+              "if": {
+                "required": [
+                  "version"
+                ],
+                "properties": {
+                  "version": {
+                    "enum": [
+                      3,
+                      4
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "verified",
+                  "nodes",
+                  "bounds",
+                  "internalElements"
+                ],
+                "not": {
+                  "required": [
+                    "emissionNodeId"
+                  ]
+                }
+              }
+            }
+          ],
+          "additionalProperties": true
+        },
+        "opticalClearApertureVerified": {
+          "type": "boolean",
+          "description": "False means the catalog has no verified combined optic-and-holder clear aperture; users must supply an explicit instance clearApertureMm before optical propagation."
+        },
+        "opticalPortsMm": {
+          "type": "array",
+          "maxItems": 17,
+          "prefixItems": [
+            {
+              "type": "object"
+            }
+          ],
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "role",
+              "sourceVersion",
+              "xMm",
+              "yMm",
+              "beamHeightMm",
+              "directionX",
+              "directionY",
+              "geometryConfirmed"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,79}$",
+                "not": {
+                  "enum": [
+                    "__proto__",
+                    "prototype",
+                    "constructor"
+                  ]
+                }
+              },
+              "role": {
+                "const": "source"
+              },
+              "sourceVersion": {
+                "const": 1
+              },
+              "geometryConfirmed": {
+                "type": "boolean"
+              },
+              "label": {
+                "type": "string"
+              },
+              "geometryBasis": {
+                "type": "string"
+              },
+              "verificationScope": {
+                "type": "string"
+              },
+              "sourceDefaults": {
+                "type": "object",
+                "properties": {
+                  "enabled": {
+                    "const": false
+                  },
+                  "wavelengthNm": {
+                    "type": "number",
+                    "minimum": 1,
+                    "maximum": 1000000.0
+                  },
+                  "powerMw": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1000000000.0
+                  },
+                  "beamDiameterMm": {
+                    "type": "number",
+                    "exclusiveMinimum": 0,
+                    "maximum": 10000.0
+                  },
+                  "beamQualityM2": {
+                    "type": "number",
+                    "minimum": 1,
+                    "maximum": 100
+                  },
+                  "polarizationType": {
+                    "enum": [
+                      "linear",
+                      "circular-left",
+                      "circular-right",
+                      "elliptical",
+                      "unpolarized"
+                    ]
+                  },
+                  "polarizationAngleDeg": {
+                    "type": "number",
+                    "minimum": -3600,
+                    "maximum": 3600
+                  },
+                  "ellipticityDeg": {
+                    "type": "number",
+                    "minimum": -45,
+                    "maximum": 45
+                  },
+                  "wavefrontRadiusMm": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              "sourceReport": {
+                "type": "object"
+              },
+              "xMm": {
+                "type": "number",
+                "minimum": -10000.0,
+                "maximum": 10000.0
+              },
+              "yMm": {
+                "type": "number",
+                "minimum": -10000.0,
+                "maximum": 10000.0
+              },
+              "beamHeightMm": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 10000.0
+              },
+              "directionX": {
+                "type": "number",
+                "minimum": -10000.0,
+                "maximum": 10000.0
+              },
+              "directionY": {
+                "type": "number",
+                "minimum": -10000.0,
+                "maximum": 10000.0
+              }
+            },
+            "additionalProperties": true
+          },
+          "description": "First port retains legacy primary-source semantics; each subsequent v1 port is a fixed, separately configured source owned by the same physical laser instance. Catalog owns geometry and report provenance; project sourcePorts contains only explicit beam parameters. Runtime fails closed until geometry and independent beam assumptions are confirmed."
+        },
+        "opticalClearApertureMm": {
+          "type": "number",
+          "minimum": 1e-06,
+          "maximum": 10000,
+          "description": "Verified nominal clear aperture, not the optical insert's outside diameter. Instance settings remain authoritative."
+        },
+        "manualMountingPolicy": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "version",
+            "mode"
+          ],
+          "properties": {
+            "version": {
+              "const": 1
+            },
+            "mode": {
+              "const": "user-support-and-clamp"
+            },
+            "targetAxisHeightMm": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 10000
+            }
+          },
+          "description": "User supports and clamps the source manually. Target height is a UI reference, not a verified catalog datum or an instance default."
+        },
+        "sourceAlignmentReference": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "version",
+            "portId"
+          ],
+          "properties": {
+            "version": {
+              "const": 1
+            },
+            "portId": {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,63}$"
+            }
+          },
+          "description": "Reference the single catalog source optical output for XY hole-column snapping. It does not create or verify mechanical mounting holes."
+        },
+        "postThreadAdapterAccepted": {
+          "type": "boolean",
+          "description": "Explicit owner approval to use a separately selected post-thread adapter when replacing M4/M6 post tops. Allows height planning, adds a pending-spec accessory to procurement. Adapter must retain the post end-face datum; no measured fit or added height inferred."
+        },
+        "globalHeightPolicy": {
+          "enum": [
+            "fixed-datum"
+          ],
+          "description": "Immutable measured optical datum: placement allowed with notice; global height changes and optical-height validation retain real mismatch."
+        },
+        "measurementPointsMm": {
+          "type": "array",
+          "description": "Named CAD-verified mechanical datum points, local mm; root XY measurement only. Not an optical focal plane.",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "label",
+              "xMm",
+              "yMm",
+              "zMm",
+              "verified"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "label": {
+                "type": "string",
+                "minLength": 1
+              },
+              "xMm": {
+                "type": "number"
+              },
+              "yMm": {
+                "type": "number"
+              },
+              "zMm": {
+                "type": "number"
+              },
+              "verified": {
+                "type": "boolean"
+              }
+            },
+            "additionalProperties": true
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "required": [
+              "baseOverhangAllowedWithPartialMounting"
+            ],
+            "properties": {
+              "baseOverhangAllowedWithPartialMounting": {
+                "const": true
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "minimumAlignedMountingHoles",
+              "mountingHoleOffsetsMm"
+            ],
+            "properties": {
+              "minimumAlignedMountingHoles": {
+                "minimum": 2
+              },
+              "mountingHoleOffsetsMm": {
+                "minItems": 2
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "placementAllowed": {
+                "const": true
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "widthMm",
+              "heightMm",
+              "anchorXMm",
+              "anchorYMm",
+              "baseBoundsMm",
+              "collisionBoundsMm",
+              "mountingHoleOffsetsMm",
+              "collisionPolygonsMm"
+            ]
+          }
+        }
+      ],
+      "additionalProperties": true
+    },
+    "libraryVisibility": {
+      "enum": [
+        "active",
+        "compatibility-only"
+      ]
+    },
+    "canonicalKitId": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,159}$"
+    },
+    "compatibilityKitIds": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,159}$"
+      }
+    }
+  },
+  "additionalProperties": true
+}

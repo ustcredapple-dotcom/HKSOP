@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-r6-20-camera-cs-adapter",
+  "files": [
+    {
+      "path": "cad/cb6e3e7ce6f7bf9e68e91f56b8a5985a55cb6bfc80f8bfa33e7828e6c37c37e0.step",
+      "stored": "library/assets/sha256/cb/cb6e3e7ce6f7bf9e68e91f56b8a5985a55cb6bfc80f8bfa33e7828e6c37c37e0.step",
+      "sha256": "cb6e3e7ce6f7bf9e68e91f56b8a5985a55cb6bfc80f8bfa33e7828e6c37c37e0",
+      "originalReferences": [
+        "step/metric-m1-20261006/20-CAM-CS_METRIC_M1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/cb/cb6e3e7ce6f7bf9e68e91f56b8a5985a55cb6bfc80f8bfa33e7828e6c37c37e0.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

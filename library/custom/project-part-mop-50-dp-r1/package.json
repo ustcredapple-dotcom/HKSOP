@@ -1,0 +1,16 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "project-part-mop-50-dp-r1",
+  "displayName": "Ø6×50 mm同轴接杆",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/mop-50-dp-r1.json"
+    }
+  ],
+  "componentDependencies": [],
+  "currentProject": "陈广杰交付项目",
+  "sourceCatalogIdentity": "nas-f6f31f9fc44ac657:1ea66f6d275b",
+  "retentionRole": "active-project-custom-component",
+  "distribution": "step-and-topviews-no-drawings"
+}

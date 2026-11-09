@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-lens-filter-vendor-2",
+  "revision": "source-snapshot",
+  "displayName": "双凸透镜 · f=100 mm",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-lens-filter-vendor-2.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "lbtek-sm1-50a",
+  "revision": "source-snapshot",
+  "displayName": "麓邦 SM1-50A",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/lbtek-sm1-50a.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

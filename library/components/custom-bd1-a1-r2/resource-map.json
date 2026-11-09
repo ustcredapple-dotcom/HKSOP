@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-bd1-a1-r2",
+  "files": [
+    {
+      "path": "cad/703fe5b5518543e082483ce4f821e7f7169c0d98f45409267173b106737551aa.step",
+      "stored": "library/assets/sha256/70/703fe5b5518543e082483ce4f821e7f7169c0d98f45409267173b106737551aa.step",
+      "sha256": "703fe5b5518543e082483ce4f821e7f7169c0d98f45409267173b106737551aa",
+      "originalReferences": [
+        "step/bd1-r2/BD1-A1_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/70/703fe5b5518543e082483ce4f821e7f7169c0d98f45409267173b106737551aa.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,48 @@
+{
+  "format": "zzlab-optics-project",
+  "version": 1,
+  "requires": [
+    "zzlab-metric-supports-v1"
+  ],
+  "metadata": {
+    "name": "基础反射示例",
+    "notes": "最小元件摆放示例，含一个标准可调反射镜架；未设置光源，未宣称完整追迹或加工验收。",
+    "createdAt": "2026-11-09T11:38:16+08:00",
+    "updatedAt": "2026-11-09T11:38:16+08:00"
+  },
+  "catalogVersion": "2026-11-09.hksop-github-local-1",
+  "layout": {
+    "board": {
+      "widthMm": 300,
+      "heightMm": 200,
+      "thicknessMm": 12.5,
+      "pitchMm": 12.5,
+      "edgeOffsetMm": 12.5,
+      "holeType": "M6_through",
+      "holeDiameterMm": 5,
+      "thread": "M6x1.0",
+      "mountingHoles": []
+    },
+    "instances": [
+      {
+        "id": "mirror-1",
+        "kitId": "adjustable-1-45",
+        "xMm": 100,
+        "yMm": 100,
+        "rotationDeg": 0
+      }
+    ],
+    "subBoards": []
+  },
+  "optical": {},
+  "extras": [],
+  "moduleQuantities": [],
+  "ui": {
+    "mountingSelection": {
+      "rowParity": "any",
+      "columnParity": "any"
+    },
+    "view": null,
+    "selectedIds": []
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "lbtek-mt-csb1-purchased",
+  "revision": "source-snapshot",
+  "displayName": "MT立方体分束镜固定架 · 25.4 mm",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/lbtek-mt-csb1-purchased.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

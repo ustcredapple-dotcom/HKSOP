@@ -1,0 +1,74 @@
+{
+  "id": "custom-aom-heatspreader08-rf180-r1",
+  "name": "AOM 导热板",
+  "model": "08-AOM-HR-R1",
+  "kind": "custom",
+  "unit": "件",
+  "stepPath": "step/aom-rf180-metric/08-AOM-HR_R1.step",
+  "sourceStepSha256": "3b0bf1385ec892cdd253ab845670e3933a5088bb8e9a3495c1260aeee3220dcb",
+  "productionReady": false,
+  "status": "加工审核版；热性能/实配未测",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "采用当前冻结孔表/局部加工定义，通用公差与粗糙度按用户要求省略；导热能力须结合工况验证。"
+  },
+  "sourceOwnership": {
+    "role": "当前定制制造定义；原AMP-1R/AOM参考本体不归为本轮新造"
+  },
+  "notes": "RF接口改向+Y；AOM本体与AMP-1R保持厂家参考源。",
+  "drawingPath": null,
+  "sourceDrawingSha256": "95601ee4414575b31c929ca2dca78534628665dc6bcc1069b3f7f8619be534ca",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "dxfPath": null,
+  "manufacturingEvidence": {
+    "sourceStepSha256": "3b0bf1385ec892cdd253ab845670e3933a5088bb8e9a3495c1260aeee3220dcb",
+    "drawingSha256": "95601ee4414575b31c929ca2dca78534628665dc6bcc1069b3f7f8619be534ca",
+    "dxfSha256": "e32edb496c28189a6c907b0aa6d8034d8aa5c6e76486827557cdf089db4be82e",
+    "pageCount": 3,
+    "releaseScope": "nominal CAD/drawing engineering review; thermal performance and physical fitting unverified",
+    "sameLocalGeometryAsOld08C": false
+  },
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/13e796b6399c6c09085aa668/e/78ef09bcdc94f51775b0ee38",
+  "drawingSourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/13e796b6399c6c09085aa668/e/37090f0354749afddecee1de",
+  "drawingSourceUrlRole": "frozen imported machining PDF; local SHA-bound PDF remains manufacturing document",
+  "sourcePartName": "AOM RF180导热承板",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "db06b7a957f2002cb989378852cf6c131fec4dcb8fe1611b3ee48326721460aa",
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "e1ea9188c7c01332962c22f052868c6234360ddfd6df63c2b3dc1788b6c51aa7",
+      "currentPdfSha256": "e0235f2ddcd66178b386a54c94dfdac68e85289e788e06867cc234756ace9fb2",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "3595d05d5cd5c2f5b449951c76c8412cf980ec84ed0c9010972dd1f0d7efaaf9",
+      "currentPdfSha256": "db06b7a957f2002cb989378852cf6c131fec4dcb8fe1611b3ee48326721460aa",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

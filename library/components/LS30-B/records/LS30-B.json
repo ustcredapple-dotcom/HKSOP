@@ -1,0 +1,102 @@
+{
+  "id": "LS30-B",
+  "name": "LS30 左/右型共用下转接板",
+  "model": "LS30-B",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R2-A7075",
+  "productionReady": false,
+  "manufacturingStatus": "review-required",
+  "manufacturingSpec": {
+    "material": "7075 铝合金",
+    "surfaceTreatment": "黑色阳极氧化",
+    "processDetails": "S01/S02：从顶面攻M3×0.5，有效牙深6 mm；Ø2.5底孔直钻深8 mm，另加钻尖。STEP为螺纹底孔表达；螺纹牙型不以螺旋实体建模。保持刻字及接触面精加工；不标通用公差和粗糙度。"
+  },
+  "status": "两孔为M3螺纹底孔；螺纹加工信息已明确登记，待工艺及实装验收",
+  "notes": null,
+  "stepPath": "step/manual-stage-r2-a7075/LS30-B.step",
+  "sourceStepSha256": "d089f410fd8027ffffa46459fe04f07a0d6621fa3de00531b694e857195e13fe",
+  "drawingPath": null,
+  "sourceDrawingSha256": "c155e32a8fd5bf394a0fe0aa93955baa5a8f232cb6ee24dec76ed915fb86f54c",
+  "drawingPages": [
+    4,
+    5,
+    6
+  ],
+  "dxfPath": null,
+  "sourceDxfSha256": "e6a285c22be76d4f6f1d318640187d27ee3364c2ee8f907a0d296536ae29a9c2",
+  "manufacturingEvidence": {
+    "geometryRevision": "R1",
+    "materialRevision": "R2-A7075",
+    "userOverride": "library/reviews/manual-moving-stage-r1-a7075-import-20261006/evidence/user-material-override-20261006.json",
+    "geometryUnchanged": true,
+    "previousRevision": "R1-A7075",
+    "previousStepSha256": "fb12762b358154e2d682ac2337c33c6e331eb4305bc845449dc54604d89b7ba8",
+    "sourceStepSha256": "d089f410fd8027ffffa46459fe04f07a0d6621fa3de00531b694e857195e13fe",
+    "drawingSha256": "c155e32a8fd5bf394a0fe0aa93955baa5a8f232cb6ee24dec76ed915fb86f54c",
+    "dxfSha256": "e6a285c22be76d4f6f1d318640187d27ee3364c2ee8f907a0d296536ae29a9c2",
+    "threadRepresentation": "tap-drill-geometry-with-explicit-thread-callouts",
+    "revisionEvidence": "library/reviews/ls30-upper-carriage-r2-20261007/evidence/review.json",
+    "threadedHoles": [
+      {
+        "id": "S01",
+        "xMm": 19.35,
+        "yMm": 25,
+        "entryFace": "top",
+        "thread": "M3x0.5",
+        "drillDiameterMm": 2.5,
+        "effectiveThreadDepthMm": 6,
+        "drillDepthMm": 8,
+        "drillPointDepthMm": 0.751076,
+        "role": "stage-attachment-thread"
+      },
+      {
+        "id": "S02",
+        "xMm": 30.65,
+        "yMm": 25,
+        "entryFace": "top",
+        "thread": "M3x0.5",
+        "drillDiameterMm": 2.5,
+        "effectiveThreadDepthMm": 6,
+        "drillDepthMm": 8,
+        "drillPointDepthMm": 0.751076,
+        "role": "stage-attachment-thread"
+      }
+    ]
+  },
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "ebbc2262d60d21c80ff2989f1b9143df457b0293ed4121ee17e82a13b47c19f5",
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "8dc9e4fa429fa97aa258861d4a4cca9091abb3ebd79dd5c0a9dbb009b5d051a0",
+      "currentPdfSha256": "02aaa769d16f0392e131c88164543fc8dc6722f24396bd9a27a5967068584296",
+      "annotatedPages": [
+        1,
+        4
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "b3391413bbf8b3c45c2a44e9427ac3d0936f557fd7f05883b884216a13f2133f",
+      "currentPdfSha256": "c75f560cfe7ef2091c7cf7c0517f6ea7e712adc869e0f3e7e304619c886d2037",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

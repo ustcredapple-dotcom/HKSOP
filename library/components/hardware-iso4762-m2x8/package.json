@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "hardware-iso4762-m2x8",
+  "revision": "R1",
+  "displayName": "ISO 4762 M2×8 内六角圆柱头螺钉",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/hardware-iso4762-m2x8.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-lens-filter-adapter-2",
+  "revision": "source-snapshot",
+  "displayName": "一英寸透镜上板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-lens-filter-adapter-2.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,33 @@
+{
+  "version": "2026-11-08-r9",
+  "name": "HKSOP",
+  "fullName": "Hong Kong Standard Optical Protocol",
+  "canonicalLaserAsset": "hksop-logo-mono.svg",
+  "colorSymbolReference": "symbol-color.svg",
+  "rendering": "Black filled areas are engraving; transparent/white areas are unmarked. All text converted to vector outlines.",
+  "basis": "User requested removing the two short bars on either side of the center dot from the confirmed no-T r6 logo.",
+  "files": [
+    {
+      "path": "hksop-logo-mono.svg",
+      "sha256": "423a00654c97411f0842e8f3cae38013160e2cb08c885557e84242f88a55a19a"
+    },
+    {
+      "path": "symbol-color.svg",
+      "sha256": "0fdf5c7fa5e6183b125921c2dfd10f721de35c5b958dd75088015c3cd44ff07d"
+    },
+    {
+      "path": "OFL-Manrope.txt",
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+    }
+  ],
+  "lettering": "HKSOP: Manrope Bold 700, non-pixel, outlined. Full name: geometric pixel outlines, beneath HKSOP. Icon to the left; type block to the right.",
+  "revision": "Removed left-port and right-port only. Center dot, both C shapes, three partial-plus L shapes, upper-right plus, and both wordmarks remain unchanged. No top or bottom T.",
+  "typeface": {
+    "family": "Manrope",
+    "weight": 700,
+    "source": "https://github.com/google/fonts/tree/main/ofl/manrope",
+    "license": "SIL Open Font License 1.1",
+    "licenseFile": "OFL-Manrope.txt",
+    "fontRequiredToRender": false
+  }
+}

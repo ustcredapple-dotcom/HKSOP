@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "PT1-T",
+  "revision": "R1-A7075",
+  "displayName": "PT1/M 上面包板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/PT1-T.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

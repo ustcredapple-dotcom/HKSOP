@@ -1,0 +1,41 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "txy1s-fixed-sm1-h75-r5",
+  "files": [
+    {
+      "path": "cad/981e097a94ac45e6d420185d0d7d81fd7255eaee662be76c7c1dbf75d3c20010.step",
+      "stored": "library/assets/sha256/98/981e097a94ac45e6d420185d0d7d81fd7255eaee662be76c7c1dbf75d3c20010.step",
+      "sha256": "981e097a94ac45e6d420185d0d7d81fd7255eaee662be76c7c1dbf75d3c20010",
+      "originalReferences": [
+        "step/txy1s-fixed-r5/TXY_FIXED_SM1_H75_R5.step"
+      ],
+      "sources": [
+        "library/assets/sha256/98/981e097a94ac45e6d420185d0d7d81fd7255eaee662be76c7c1dbf75d3c20010.step"
+      ]
+    },
+    {
+      "path": "rendering/f7957b88b1feedc3350e77ba39e0edec122a01c69a84dd48fa615abd0fcf88bb.svg",
+      "stored": "library/assets/sha256/f7/f7957b88b1feedc3350e77ba39e0edec122a01c69a84dd48fa615abd0fcf88bb.svg",
+      "sha256": "f7957b88b1feedc3350e77ba39e0edec122a01c69a84dd48fa615abd0fcf88bb",
+      "originalReferences": [
+        "topviews/txy1s-fixed-sm1-h75-r5.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/f7/f7957b88b1feedc3350e77ba39e0edec122a01c69a84dd48fa615abd0fcf88bb.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-txp75-r5",
+    "hardware-txyfixed-iso4762-m4x12",
+    "hardware-txyfixed-iso4762-m6x10",
+    "hardware-txyfixed-iso4762-m6x20",
+    "hardware-txyfixed-iso4762-m6x25",
+    "it75-reused-mtl1-b-r1",
+    "lbtek-sm1-12p5a",
+    "lbtek-sm1-50a",
+    "lbtek-sm1-8a",
+    "lbtek-txy1s",
+    "thorlabs-mt1m-purchased-stage"
+  ]
+}

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-248 -174 482 348" width="482mm" height="348mm" role="img" aria-labelledby="laser532-title laser532-desc">
+  <title id="laser532-title">532 nm 激光器 · 频准激光 · 俯视图</title>
+  <desc id="laser532-desc">激光头主壳长400 mm，含支脚占位419×322 mm，后接头另计。六个直径6.4 mm通孔：每组两孔间距50 mm，上下孔排距310 mm。绿色标记为左端光口，距总宽上侧外缘60 mm，光轴距支承底面95.7 mm。主壳宽约300 mm及后接头、接缝为照片估读示意；不用于加工，不含独立控制机箱。</desc>
+  <defs>
+    <linearGradient id="laser532-lid" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f4f6f8"/><stop offset="1" stop-color="#cdd5df"/></linearGradient>
+    <linearGradient id="laser532-foot" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#a4afbd"/><stop offset=".5" stop-color="#e7ebef"/><stop offset="1" stop-color="#a4afbd"/></linearGradient>
+    <g id="laser532-screw"><circle r="1.8" fill="#566170" stroke="#334155" stroke-width=".35"/><path d="M-1 0H1" stroke="#dce3ea" stroke-width=".55"/></g>
+    <g id="laser532-hole"><circle r="3.2" fill="#fff" stroke="#334155" stroke-width=".65"/></g>
+  </defs>
+  <!-- Housing-centre datum; SVG Y is the negative of board-local Y. -->
+  <g stroke="#354354" stroke-width="1" stroke-linejoin="round">
+    <path d="M-208-150H-200V150H-208Z" fill="#a1adbc"/>
+    <path d="M-176-161H-114V-149H-176ZM-176 149H-114V161H-176Z" fill="url(#laser532-foot)"/>
+    <path d="M198-26H211V36H198Z" fill="url(#laser532-foot)"/>
+    <rect x="-200" y="-150" width="400" height="300" rx="1.2" fill="url(#laser532-lid)"/>
+    <path d="M-199 70H-34V88H137V-2H199M137 88V149" fill="none" stroke="#57677a" stroke-width=".85"/>
+    <path d="M-196-146H196M-196 146H133" stroke="#eaf0f5" stroke-width="1.3"/>
+    <g id="laser532-service-connectors">
+      <path d="M200-144H210V-124H200ZM210-140H221L224-136V-132L221-128H210Z" fill="#8896a7"/>
+      <path d="M200 50H210V70H200ZM210 54H220L224 58V62L220 66H210ZM200 86H210V106H200ZM210 90H220L224 94V98L220 102H210Z" fill="#9eabba"/>
+      <path d="M200 113H209V139H200ZM209 117H220V135H209Z" fill="#647286"/>
+      <path d="M212-140V-128M214 54V66M214 90V102M212 118V134M215 118V134" fill="none" stroke="#435267" stroke-width=".65"/>
+    </g>
+  </g>
+  <g id="laser532-mounting-holes" data-diameter-mm="6.4">
+    <use href="#laser532-hole" x="-170" y="-155"/><use href="#laser532-hole" x="-120" y="-155"/>
+    <use href="#laser532-hole" x="-170" y="155"/><use href="#laser532-hole" x="-120" y="155"/>
+    <use href="#laser532-hole" x="205" y="30"/><use href="#laser532-hole" x="205" y="-20"/>
+  </g>
+  <g id="laser532-lid-fasteners">
+    <use href="#laser532-screw" x="-194" y="-144"/><use href="#laser532-screw" x="-100" y="-146"/><use href="#laser532-screw" x="-50" y="-146"/><use href="#laser532-screw" x="0" y="-146"/><use href="#laser532-screw" x="50" y="-146"/><use href="#laser532-screw" x="100" y="-146"/><use href="#laser532-screw" x="150" y="-146"/><use href="#laser532-screw" x="194" y="-144"/>
+    <use href="#laser532-screw" x="-196" y="-45"/><use href="#laser532-screw" x="-196" y="5"/><use href="#laser532-screw" x="196" y="-100"/><use href="#laser532-screw" x="196" y="-45"/><use href="#laser532-screw" x="196" y="146"/>
+    <use href="#laser532-screw" x="-196" y="70"/><use href="#laser532-screw" x="-148" y="70"/><use href="#laser532-screw" x="-98" y="70"/><use href="#laser532-screw" x="-48" y="70"/><use href="#laser532-screw" x="-28" y="88"/><use href="#laser532-screw" x="22" y="88"/><use href="#laser532-screw" x="72" y="88"/><use href="#laser532-screw" x="132" y="88"/><use href="#laser532-screw" x="138" y="4"/><use href="#laser532-screw" x="138" y="45"/>
+    <use href="#laser532-screw" x="-196" y="145"/><use href="#laser532-screw" x="-80" y="146"/><use href="#laser532-screw" x="-30" y="146"/><use href="#laser532-screw" x="20" y="146"/><use href="#laser532-screw" x="70" y="146"/>
+  </g>
+  <g font-family="Arial, 'PingFang SC', sans-serif" text-anchor="middle">
+    <text x="16" y="-20" font-size="27" font-weight="600" fill="#243847">532 nm</text>
+    <text x="16" y="2" font-size="10" letter-spacing="2.5" fill="#6b7987">PRECILASERS</text>
+    <text x="16" y="29" font-size="9" fill="#547364">光轴高 95.7 mm</text>
+    <text x="-18" y="124" font-size="7.5" fill="#73808f">6 × Ø6.4 · 含支脚 419 × 322 mm</text>
+  </g>
+  <g id="optical-output-port" data-optical-port="output" data-x-mm="-208" data-y-mm="101" data-height-mm="95.7" data-wavelength-nm="532" stroke="#299b36" fill="none">
+    <title>532 nm 光口：向左出光；距总宽上侧外缘60 mm；光轴高95.7 mm</title>
+    <path d="M-208-101H-239" stroke-width="2.2"/>
+    <path d="M-236-106L-244-101L-236-96Z" fill="#299b36" stroke="none"/>
+    <circle cx="-208" cy="-101" r="5" fill="#fff" stroke-width="1.5"/>
+    <path d="M-216-101H-200M-208-109V-93" stroke-width=".9"/>
+    <path d="M-187-161V-101M-190-161H-184M-190-101H-184M-202-101H-182" stroke-width=".65" stroke-dasharray="2 1.5"/>
+  </g>
+  <g font-family="Arial, 'PingFang SC', sans-serif" fill="#247d32">
+    <text x="-178" y="-124" font-size="8">60 mm</text>
+    <text x="-178" y="-99" font-size="10.5" font-weight="600">光口 / OUTPUT</text>
+    <text x="-178" y="-83" font-size="8">532 nm · 向左出光</text>
+  </g>
+</svg>

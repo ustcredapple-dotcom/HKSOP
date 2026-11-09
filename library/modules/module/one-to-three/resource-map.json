@@ -1,0 +1,53 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "one-to-three",
+  "files": [
+    {
+      "path": "cad/4bd6b4d12aa9f3f72593e63be5df459736de5cc9306da27859dee847035062c1.step",
+      "stored": "library/assets/sha256/4b/4bd6b4d12aa9f3f72593e63be5df459736de5cc9306da27859dee847035062c1.step",
+      "sha256": "4bd6b4d12aa9f3f72593e63be5df459736de5cc9306da27859dee847035062c1",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/one-to-three__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/4b/4bd6b4d12aa9f3f72593e63be5df459736de5cc9306da27859dee847035062c1.step"
+      ]
+    },
+    {
+      "path": "rendering/c3f246cb61cb5eef94500867d17aa7202931c5a9d18f73bad12a657a92fcdd2a.svg",
+      "stored": "library/assets/sha256/c3/c3f246cb61cb5eef94500867d17aa7202931c5a9d18f73bad12a657a92fcdd2a.svg",
+      "sha256": "c3f246cb61cb5eef94500867d17aa7202931c5a9d18f73bad12a657a92fcdd2a",
+      "originalReferences": [
+        "topviews/one-to-three__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/c3/c3f246cb61cb5eef94500867d17aa7202931c5a9d18f73bad12a657a92fcdd2a.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "amp-1r",
+    "crm-1as",
+    "cs30-xy1d",
+    "custom-04",
+    "custom-06",
+    "custom-07",
+    "custom-09",
+    "custom-11",
+    "custom-13",
+    "custom-post-metric-12p5mm-m1",
+    "custom-post-metric-25mm-m1",
+    "custom-post-metric-37p5mm-m1",
+    "encoder-servo",
+    "mft",
+    "mop-50",
+    "motor-adapter-28",
+    "motor-adapter-9",
+    "motor-bracket-21",
+    "motor-bracket-22",
+    "mt-am05s5",
+    "mt-flf1s",
+    "pbs24-532-alias",
+    "pcms1"
+  ]
+}

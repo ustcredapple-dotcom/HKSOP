@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-270 -100 520 200" width="520mm" height="200mm" role="img" aria-labelledby="laser556-title laser556-desc">
+  <title id="laser556-title">556 nm 激光器 · 频准激光 · 校准俯视图</title>
+  <desc id="laser556-desc">FL-SF-556-1.5-CW倍频输出腔，主壳375×90×73 mm。绿色光口位于图中右端，向右出光，光轴距支承底面37 mm；正看出光端面，光轴距右侧主壳边44 mm，对应本图中心上侧1 mm。左端是连接线，不是出光口。侧散热器、接头、可调夹脚与滑槽按同页正交图比例估读；安装孔径、定位和调整范围未标注，不作孔吸附依据。不含独立放大控制箱和1112 nm监视口。不用于加工。</desc>
+  <defs>
+    <linearGradient id="laser556-lid" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f5f8fa"/><stop offset="1" stop-color="#cbd6df"/></linearGradient>
+    <linearGradient id="laser556-foot" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#98a8b5"/><stop offset=".5" stop-color="#e7edf1"/><stop offset="1" stop-color="#9eacb8"/></linearGradient>
+    <linearGradient id="laser556-cable" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#eceff1"/><stop offset=".48" stop-color="#f8fafb"/><stop offset="1" stop-color="#aeb9c2"/></linearGradient>
+    <g id="laser556-screw"><circle r="2.1" fill="#556574" stroke="#304454" stroke-width=".45"/><circle r=".85" fill="#c9d3db"/><path d="M-.6 0H.6" stroke="#304454" stroke-width=".6"/></g>
+  </defs>
+  <!-- Millimetres. Origin at the main housing centre. SVG Y = -board-local Y.
+       Accessory outlines and visual slots are estimated, not calibrated mounting coordinates. -->
+  <g id="laser556-adjustable-clamps" data-geometry-status="estimated-not-mounting-datums" fill="url(#laser556-foot)" stroke="#506372" stroke-width=".9" stroke-linejoin="round">
+    <path d="M-87.5-45V-63.5H-67.5V-45ZM-87.5 45V63.5H-67.5V45Z"/>
+    <path d="M82.5-45V-77.5H112.5V-45ZM82.5 45V78H112.5V45Z"/>
+    <rect x="-80.5" y="-57.5" width="6" height="12" rx="3" fill="#f6faf9"/>
+    <rect x="-80.5" y="45.5" width="6" height="12" rx="3" fill="#f6faf9"/>
+    <rect x="94.25" y="-71" width="6.5" height="17.5" rx="3.25" fill="#f6faf9"/>
+    <path d="M84-49H111M84 76H111" fill="none" stroke="#ebf0f4" stroke-width=".7"/>
+  </g>
+  <g id="laser556-heatsink" data-geometry-status="estimated" stroke="#273b46" stroke-width=".8">
+    <rect x="32.5" y="45" width="100" height="30" rx=".6" fill="#424d55"/>
+    <path d="M34.5 46V74M39.5 46V74M44.5 46V74M49.5 46V74M54.5 46V74M59.5 46V74M64.5 46V74M69.5 46V74M74.5 46V74M79.5 46V74" fill="none" stroke="#111d27" stroke-width="2.1"/>
+    <path d="M36 46V74M41 46V74M46 46V74M51 46V74M56 46V74M61 46V74M66 46V74M71 46V74M76 46V74M81 46V74" fill="none" stroke="#87929b" stroke-width=".55"/>
+    <path d="M82.5 45H132.5V75H82.5ZM105.5 75L132.5 48" fill="#59636b"/>
+  </g>
+  <g id="laser556-rear-connection" data-geometry-status="estimated" stroke="#4d5b69" stroke-width=".8" stroke-linejoin="round">
+    <path d="M-252.5-6L-205-8V8L-252.5 6Z" fill="url(#laser556-cable)"/>
+    <path d="M-205-9H-194.5V9H-205ZM-194.5-6.5H-187.5V6.5H-194.5Z" fill="#9caab7"/>
+    <path d="M-204-6.5H-196M-204 6.5H-196M-190-6V6" fill="none" stroke="#e3e8ec" stroke-width="1"/>
+  </g>
+  <g id="laser556-output-collar" data-geometry-status="estimated" fill="#97a7b4" stroke="#3d5668" stroke-width=".7">
+    <rect x="187.5" y="-19.5" width="5" height="37" rx=".7"/>
+    <path d="M190-18V16" stroke="#dce6eb"/>
+  </g>
+  <g id="laser556-calibrated-housing" data-length-mm="375" data-width-mm="90" data-height-mm="73" stroke="#344a5b" stroke-width=".9">
+    <rect x="-187.5" y="-45" width="375" height="90" rx="2" fill="url(#laser556-lid)"/>
+    <path d="M-183-42H183V42H-183ZM-181.5-42V42M181.5-42V42" fill="none" stroke="#738390" stroke-width=".6"/>
+    <path d="M-181-40H181M-181 40H181" stroke="#f7fafc" stroke-width=".8"/>
+  </g>
+  <g id="laser556-lid-fasteners" data-geometry-status="illustrative">
+    <use href="#laser556-screw" x="-182.5" y="-40.5"/><use href="#laser556-screw" x="-127.5" y="-42"/><use href="#laser556-screw" x="-77.5" y="-42"/><use href="#laser556-screw" x="-27.5" y="-42"/><use href="#laser556-screw" x="22.5" y="-42"/><use href="#laser556-screw" x="72.5" y="-42"/><use href="#laser556-screw" x="122.5" y="-42"/><use href="#laser556-screw" x="182.5" y="-40.5"/>
+    <use href="#laser556-screw" x="-182.5" y="40.5"/><use href="#laser556-screw" x="-127.5" y="42"/><use href="#laser556-screw" x="-77.5" y="42"/><use href="#laser556-screw" x="-27.5" y="42"/><use href="#laser556-screw" x="22.5" y="42"/><use href="#laser556-screw" x="72.5" y="42"/><use href="#laser556-screw" x="122.5" y="42"/><use href="#laser556-screw" x="182.5" y="40.5"/>
+    <use href="#laser556-screw" x="-185" y="0"/><use href="#laser556-screw" x="185" y="0"/>
+  </g>
+  <g font-family="Arial, 'PingFang SC', sans-serif" text-anchor="middle">
+    <text x="-17" y="-7" font-size="23" font-weight="600" fill="#253e4d">556 nm</text>
+    <text x="-17" y="7" font-size="7.5" letter-spacing="2" fill="#71818e">PRECILASERS</text>
+    <text x="-17" y="27" font-size="8.5" fill="#536f60">主壳 375 × 90 mm · 光轴高 37 mm</text>
+  </g>
+  <g id="optical-output-port" data-optical-port="output" data-x-mm="187.5" data-y-mm="1" data-height-mm="37" data-wavelength-nm="555.80335" data-direction-x="1" data-direction-y="0" stroke="#67a71f" fill="none">
+    <title>556 nm 主光口：向右出光，中心局部坐标X=187.5 mm、Y=1 mm，光轴高37 mm</title>
+    <path d="M187.5-1H231" stroke-width="1.9"/>
+    <path d="M229-6L238-1L229 4Z" fill="#67a71f" stroke="none"/>
+    <circle cx="187.5" cy="-1" r="4.8" fill="#fff" stroke-width="1.4"/>
+    <path d="M180.5-1H194.5M187.5-8V6" stroke-width=".7"/>
+  </g>
+  <g font-family="Arial, 'PingFang SC', sans-serif" fill="#578925" text-anchor="middle">
+    <text x="214" y="-26" font-size="7.5" font-weight="600">主光口</text>
+    <text x="214" y="20" font-size="6.5">向右出光</text>
+  </g>
+</svg>

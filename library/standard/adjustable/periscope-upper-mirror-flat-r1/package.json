@@ -1,0 +1,29 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "periscope-upper-mirror-flat-r1",
+  "revision": "R1-extracted",
+  "displayName": "爬架上镜架",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/periscope-upper-mirror-flat-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-periscope-s45-r1",
+    "mt-am1s5",
+    "periscope-d2x4-pin",
+    "periscope-m4x14-screw",
+    "periscope-m6x12-screw"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

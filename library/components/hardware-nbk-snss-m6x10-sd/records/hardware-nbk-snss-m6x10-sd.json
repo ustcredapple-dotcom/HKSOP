@@ -1,0 +1,28 @@
+{
+  "id": "hardware-nbk-snss-m6x10-sd",
+  "name": "NBK SNSS-M6-10-SD 不锈钢内六角小头螺钉",
+  "model": "SNSS-M6-10-SD",
+  "kind": "standard",
+  "unit": "颗",
+  "sourceUrl": "https://www.nbk1560-chn.com.cn/products/specialscrew/nedzicom/socketheadcapscrew/SNSS-SD/SNSS-M6-SD/",
+  "standardSpec": {
+    "manufacturer": "NBK",
+    "model": "SNSS-M6-10-SD",
+    "thread": "M6x1.0",
+    "diameterMm": 6,
+    "pitchMm": 1,
+    "lengthMm": 10,
+    "headDiameterMm": 8.5,
+    "headDiameterToleranceMm": 0.1,
+    "headDiameterMaxMm": 8.6,
+    "headHeightMm": 5.5,
+    "hexSizeMm": 5,
+    "material": "SUSXM7 (equivalent to SUS304)",
+    "strengthClass": "A2-70",
+    "surfaceFinish": "Not independently specified; do not substitute a carbon-steel/coated SNS version",
+    "quantityPerPack": 10,
+    "requiredCountForThisKit": 2,
+    "massPerPieceG": 3.7
+  },
+  "notes": "PT1/M单轴直接固定到25mm孔距主面包板；每套2颗；厂家10颗/包。头径8.5±0.1，头高5.5，5mm六角；不得用普通M6大头替代。SUSXM7/SUS304 equivalent A2-70，非316L。无垫片；名义旋入母板5.428mm，实际孔深、载荷/座面压力和扭矩未实装验收。 主板实际可用M6牙深须覆盖名义5.428mm及螺钉长度/入口余量，建议至少8mm并确认不顶底；该建议不构成承载验收。"
+}

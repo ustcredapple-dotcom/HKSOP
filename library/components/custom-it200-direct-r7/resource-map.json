@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-it200-direct-r7",
+  "files": [
+    {
+      "path": "cad/f9fd5c9eb90541ad1caa68f942b7b3fd7980e8f91678f388d66e179883e891f7.step",
+      "stored": "library/assets/sha256/f9/f9fd5c9eb90541ad1caa68f942b7b3fd7980e8f91678f388d66e179883e891f7.step",
+      "sha256": "f9fd5c9eb90541ad1caa68f942b7b3fd7980e8f91678f388d66e179883e891f7",
+      "originalReferences": [
+        "step/iontrap-it200-direct-r7/IT200-DIRECT_R7.step"
+      ],
+      "sources": [
+        "library/assets/sha256/f9/f9fd5c9eb90541ad1caa68f942b7b3fd7980e8f91678f388d66e179883e891f7.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,38 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "mt-cube-pbs-2inch-m1-r2",
+  "files": [
+    {
+      "path": "rendering/4c937b21825de4ddf513d69ec7772ab97e85b30bd6741375c43f86f491c6719c.svg",
+      "stored": "library/assets/sha256/4c/4c937b21825de4ddf513d69ec7772ab97e85b30bd6741375c43f86f491c6719c.svg",
+      "sha256": "4c937b21825de4ddf513d69ec7772ab97e85b30bd6741375c43f86f491c6719c",
+      "originalReferences": [
+        "topviews/mt-cube-pbs-2inch-m1-r2__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/4c/4c937b21825de4ddf513d69ec7772ab97e85b30bd6741375c43f86f491c6719c.svg"
+      ]
+    },
+    {
+      "path": "cad/f73a32305166bb8b2095d59b22bc716a3ccad682216b0cfdfb0fa878cf9711cd.step",
+      "stored": "library/assets/sha256/f7/f73a32305166bb8b2095d59b22bc716a3ccad682216b0cfdfb0fa878cf9711cd.step",
+      "sha256": "f73a32305166bb8b2095d59b22bc716a3ccad682216b0cfdfb0fa878cf9711cd",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/mt-cube-pbs-2inch-m1-r2__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/f7/f73a32305166bb8b2095d59b22bc716a3ccad682216b0cfdfb0fa878cf9711cd.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-mt-cube-adapter-2inch-m1-r2",
+    "custom-post-metric-12p5mm-m1",
+    "hardware-iso4762-m6x12",
+    "lbtek-csb2-purchased",
+    "lbtek-mt-am2-purchased",
+    "metric-m1-post-pin-d2x8",
+    "new-r3-hardware-b7a3ea97ce89",
+    "v7-iso4762-m4x12"
+  ]
+}

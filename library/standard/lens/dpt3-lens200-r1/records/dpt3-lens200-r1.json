@@ -1,0 +1,165 @@
+{
+  "name": "Dipole Trap 3 · R200透镜直装",
+  "category": "lens",
+  "variant": "H62.5 / DPT3 R1",
+  "components": [
+    {
+      "componentId": "dpt3-lens-support-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-lens-filter-vendor-1",
+      "quantity": 1
+    },
+    {
+      "componentId": "dpt3-lens-1in-f200-unselected",
+      "quantity": 1
+    },
+    {
+      "componentId": "it75-r3-m6x20",
+      "quantity": 4
+    },
+    {
+      "componentId": "new-hardware-f0579b934c7c",
+      "quantity": 1
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "optic",
+      "label": "透镜／滤光片",
+      "type": "lens",
+      "quantity": 1,
+      "unit": "片",
+      "replacesComponentId": "dpt3-lens-1in-f200-unselected",
+      "diameterMm": 25.4
+    }
+  ],
+  "layout": {
+    "topViewPath": "topviews/dpt3-lens200-r1.svg",
+    "topViewUrl": "./topviews/dpt3-lens200-r1.svg",
+    "widthMm": 48,
+    "heightMm": 68,
+    "anchorXMm": 26,
+    "anchorYMm": 34,
+    "baseBoundsMm": {
+      "xMin": -24.22511077512354,
+      "yMin": -32.691166221486014,
+      "xMax": 20.77488922487646,
+      "yMax": 32.308833778513986
+    },
+    "collisionBoundsMm": {
+      "xMin": -24.37511077512,
+      "yMin": -32.84116622148,
+      "xMax": 20.924889224875997,
+      "yMax": 32.458833778514
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -24.37511077512,
+          "yMm": -32.84116622148
+        },
+        {
+          "xMm": -24.37511077512,
+          "yMm": 32.458833778514
+        },
+        {
+          "xMm": 20.924889224875997,
+          "yMm": 32.458833778514
+        },
+        {
+          "xMm": 20.924889224875997,
+          "yMm": -32.84116622148
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "dpt3-r1-20261019",
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -16.72511077512354,
+        "yMm": -25.191166221486014
+      },
+      {
+        "xMm": 13.27488922487646,
+        "yMm": -25.191166221486014
+      },
+      {
+        "xMm": -16.72511077512354,
+        "yMm": 24.808833778513986
+      },
+      {
+        "xMm": 13.27488922487646,
+        "yMm": 24.808833778513986
+      }
+    ],
+    "mountingHoleRadiusMm": 3.2,
+    "placementAllowed": true,
+    "opticalType": "lens",
+    "opticalSurfaceAngleDeg": 72.41475710295128,
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "nominalOpticalHeightMm": 62.5,
+    "opticalAxisHeightMm": 62.5,
+    "geometryEvidence": {
+      "sourceStep": "step/dipole-trap3-r1/LENS_R200_LOCAL.step",
+      "sourceSha256": "fdbaea70d3e72d930740411c01fbefbabf2e271145f47af08bff85c771afb56a",
+      "partCount": 5,
+      "imageSha256": "764ddd2558e10ab1ff04e290c2b92fdebf0acd32654d5f52415f68f57231e779",
+      "stepPath": "step/dipole-trap3-r1/LENS_R200_LOCAL.step"
+    },
+    "opticalGeometryEvidence": {
+      "referencePointWorldMm": [
+        0,
+        0,
+        62.5
+      ],
+      "planeNormalWorld": [
+        0.9532685145756101,
+        -0.3021243769026424,
+        0
+      ],
+      "referenceKind": "geometric lens midplane",
+      "geometricReferenceOnly": true
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "fdbaea70d3e72d930740411c01fbefbabf2e271145f47af08bff85c771afb56a",
+      "renderRole": "complete",
+      "imageSha256": "764ddd2558e10ab1ff04e290c2b92fdebf0acd32654d5f52415f68f57231e779"
+    },
+    "note": "预定角度已编码在模型；板上安装时rotationDeg=0，不再额外旋转。",
+    "status": "本地CAD核验通过；未实物试装",
+    "opticalDefaults": {
+      "elementType": "lens",
+      "inserted": true,
+      "configured": false,
+      "focalLengthMm": 200
+    }
+  },
+  "releaseStage": "engineering-review",
+  "bundleStatus": "complete",
+  "sourceOnshapeStatus": "NOT_UPLOADED",
+  "notes": "完整模块R2的预装光学子件；原R1机械几何不变。镜片已安装，具体型号、镀膜与光学参数待实测确认。",
+  "sourceUrl": "",
+  "publicationScope": {
+    "website": true,
+    "localEditor": true,
+    "onshapeUploaded": false,
+    "globalMachiningAtlasIncluded": false,
+    "physicalTrial": false
+  },
+  "fastUpload": {
+    "schema": "zzlab-fast-kit-upload-v1",
+    "packageId": "dipole-trap3-complete-module-r2-20261019",
+    "mode": "reviewed-module-intake",
+    "atlasIncluded": false,
+    "onshapeUploaded": false,
+    "sourceZipSha256": "c8e996df594c96d977448942055fb1048de60775c7ba0047fd87a5747283b0d9"
+  },
+  "status": "工程审核版 · 尚未实物试装",
+  "description": "来自用户提供的 Dipole Trap 3 完整模块 R2；镜片已预装，实际型号和镀膜仍待确认。",
+  "id": "dpt3-lens200-r1"
+}

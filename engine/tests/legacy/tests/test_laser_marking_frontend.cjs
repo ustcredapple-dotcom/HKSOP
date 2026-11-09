@@ -1,0 +1,16 @@
+'use strict';
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const source=fs.readFileSync(require('node:path').join(__dirname,'../static/app.js'),'utf8');
+const context={escape:value=>String(value).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')};
+vm.createContext(context);
+vm.runInContext(source.slice(source.indexOf('  function renderLaserMarking('),source.indexOf('  function renderTable(')),context);
+const row={unit:'个',laserMarking:{status:'required',files:[{face:'顶面',text:'<P-01>',setupPdfPath:'top.pdf'}]}};
+const html=context.renderLaserMarking(row,7);
+assert.match(html,/需要打标/);assert.match(html,/打标 7 个/);assert.match(html,/顶面：&lt;P-01&gt;（含定位说明）/);
+assert.match(context.renderLaserMarking(row,11),/打标 11 个/);
+assert.match(context.renderLaserMarking({laserMarking:{status:'required',files:[]}},2),/需要打标；DXF待补/);
+assert.match(context.renderLaserMarking({},2),/待核实是否打标/);
+assert.match(context.renderLaserMarking({},2),/打标数量待核实/);
+assert.match(context.renderLaserMarking({laserMarking:{status:'none',files:[]}},2),/无需打标/);
+assert.doesNotMatch(context.renderLaserMarking({laserMarking:{status:'none',files:[]}},2),/打标 2/);
+console.log('Laser marking UI: required/none/review, missing DXF, editable quantities, setup PDF and escaped content passed.');

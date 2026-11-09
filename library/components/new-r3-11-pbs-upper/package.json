@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-r3-11-pbs-upper",
+  "revision": "source-snapshot",
+  "displayName": "可调半英寸PBS上板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-r3-11-pbs-upper.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

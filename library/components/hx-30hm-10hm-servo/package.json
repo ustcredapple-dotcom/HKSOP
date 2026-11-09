@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "hx-30hm-10hm-servo",
+  "revision": "SOURCE-FROZEN-R1",
+  "displayName": "完整舵机 HX-30HM / 10HM",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/hx-30hm-10hm-servo.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

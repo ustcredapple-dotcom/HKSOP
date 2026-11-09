@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "lbtek-mt-am05-purchased",
+  "files": [
+    {
+      "path": "cad/5bf586696fe5afa1315c619650cc7da3a6994a25889e27833f66779871aa456b.step",
+      "stored": "library/assets/sha256/5b/5bf586696fe5afa1315c619650cc7da3a6994a25889e27833f66779871aa456b.step",
+      "sha256": "5bf586696fe5afa1315c619650cc7da3a6994a25889e27833f66779871aa456b",
+      "originalReferences": [
+        "step/mt-cube-size-family-r2/MT-AM05-vendor.step"
+      ],
+      "sources": [
+        "library/assets/sha256/5b/5bf586696fe5afa1315c619650cc7da3a6994a25889e27833f66779871aa456b.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

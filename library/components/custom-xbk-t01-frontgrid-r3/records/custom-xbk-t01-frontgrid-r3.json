@@ -1,0 +1,53 @@
+{
+  "id": "custom-xbk-t01-frontgrid-r3",
+  "name": "XBK-T01 前伸双档上转接件 R3",
+  "model": "XBK-T01 R3",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R3-FRONT-GRID",
+  "stepPath": "step/xbk-cavity-frontgrid-r3/XBK-T01_R3_FRONT25_37p5_316L.step",
+  "sourceStepSha256": "535c07c79638ffaa5f11d59944fba6042d9710f1444e865b2987d94d60bbc200",
+  "drawingPath": null,
+  "sourceDrawingSha256": "ac1aeebc4ecfebef30c6fc247532eeb3d63c02cd521e2f453413348555a251e6",
+  "drawingPages": [
+    3
+  ],
+  "manufacturingEvidence": {
+    "drawingPages": [
+      3
+    ],
+    "sourceStepSha256": "535c07c79638ffaa5f11d59944fba6042d9710f1444e865b2987d94d60bbc200",
+    "drawingSha256": "ac1aeebc4ecfebef30c6fc247532eeb3d63c02cd521e2f453413348555a251e6",
+    "physicalTrialCompleted": false,
+    "geometryChecks": "library/reviews/xbk-cavity-frontgrid-r3-standard-20261023/evidence/design-checks.json",
+    "cloudExactReadback": "library/reviews/xbk-cavity-frontgrid-r3-standard-20261023/evidence/cloud-new-parts.json"
+  },
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "螺纹以攻丝底孔表达，按图纸孔旁规格及深度加工。通用公差与粗糙度按用户协议不标。"
+  },
+  "productionReady": false,
+  "manufacturingStatus": "engineering-review",
+  "status": "用户认可名义建模；尚未放行加工",
+  "notes": "40×40×6.9；两组M4及双销孔间隔12.5；完整腔镜光学顶点Y=25或37.5；模型底面Z20，制造图以零件底面Z0。",
+  "laserMarking": {
+    "status": "required",
+    "reason": "R3已核定背侧编号面；激光打标，不铣刻。",
+    "notes": "按定位PDF第2页装夹；已有相同标识实物不重复打标。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "sourceUrl": "https://cad.onshape.com/documents/3317d27b2b157a1b479f8aad/v/4d404b3d4822937206f8cc0b/e/6b0a53cc1ef74315780e1248",
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "18fd64199c84ef68cc71fffb994b9ee7dd7491701b3e9e523c3f76bec3ef7d7b",
+        "sha256": "ac1aeebc4ecfebef30c6fc247532eeb3d63c02cd521e2f453413348555a251e6"
+      }
+    ]
+  }
+}

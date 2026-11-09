@@ -1,0 +1,1542 @@
+{
+  "name": "XBK PT1/M · 物镜右移12.5 · A/C双电机固定整装",
+  "category": "motor",
+  "variant": "H62.5 / 右移12.5 / 原R3转接座",
+  "revision": "R3-RIGHT12p5-H62p5",
+  "description": "PT1/M台体固定，上部物镜、镜架、双电机和原转接座整体向右12.5mm；俯视前向-X、右向+Y。",
+  "components": [
+    {
+      "componentId": "custom-v7-1in-main",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-obj-v7-side-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-v7-m3-h2",
+      "quantity": 2
+    },
+    {
+      "componentId": "v7-source-encoder-servo",
+      "quantity": 2
+    },
+    {
+      "componentId": "v7-source-m2x10",
+      "quantity": 4
+    },
+    {
+      "componentId": "v7-source-m4-nut",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-source-m4x20-thin",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-source-retaining-washer",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-pin-d2x6",
+      "quantity": 2
+    },
+    {
+      "componentId": "v7-din7991-m3x10",
+      "quantity": 2
+    },
+    {
+      "componentId": "custom-obj-pt1m-ac-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "thorlabs-pt1m-purchased-stage",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-iso4762-m6x16",
+      "quantity": 2
+    },
+    {
+      "componentId": "dpt3-pin-d2x5",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-nbk-snss-m6x10-sd",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [],
+  "layout": {
+    "placementAllowed": true,
+    "widthMm": 223,
+    "heightMm": 114,
+    "anchorXMm": 95,
+    "anchorYMm": 70,
+    "topViewPath": "topviews/xbk-objective-pt1m-ac-right12p5-h62p5-r3.svg",
+    "topViewUrl": "./topviews/xbk-objective-pt1m-ac-right12p5-h62p5-r3.svg",
+    "baseBoundsMm": {
+      "xMin": -30.473403366301106,
+      "xMax": 30.486596633698895,
+      "yMin": -26.419970967178973,
+      "yMax": 26.412029032821028
+    },
+    "collisionBoundsMm": {
+      "xMin": -92.65,
+      "yMin": -41.9888,
+      "xMax": 126.0643318597095,
+      "yMax": 67.67530000000001
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -92.48808,
+          "yMm": 27.416461
+        },
+        {
+          "xMm": -92.23584,
+          "yMm": 27.86821
+        },
+        {
+          "xMm": -92.02434,
+          "yMm": 28.115929
+        },
+        {
+          "xMm": -91.768463,
+          "yMm": 28.335698
+        },
+        {
+          "xMm": -91.470768,
+          "yMm": 28.518136
+        },
+        {
+          "xMm": -91.169935,
+          "yMm": 28.642722
+        },
+        {
+          "xMm": -90.662826,
+          "yMm": 28.743583
+        },
+        {
+          "xMm": -55.6,
+          "yMm": 28.75
+        },
+        {
+          "xMm": -55.501207,
+          "yMm": 28.710925
+        },
+        {
+          "xMm": -55.096731,
+          "yMm": 29.114644
+        },
+        {
+          "xMm": -54.552583,
+          "yMm": 29.569981
+        },
+        {
+          "xMm": -50.95,
+          "yMm": 29.5795
+        },
+        {
+          "xMm": -50.95,
+          "yMm": 38.1
+        },
+        {
+          "xMm": -50.857403,
+          "yMm": 38.238582
+        },
+        {
+          "xMm": -25.15,
+          "yMm": 38.25
+        },
+        {
+          "xMm": -25.15,
+          "yMm": 45.0
+        },
+        {
+          "xMm": -25.106066,
+          "yMm": 45.106066
+        },
+        {
+          "xMm": -25.0,
+          "yMm": 45.15
+        },
+        {
+          "xMm": 25.0,
+          "yMm": 45.15
+        },
+        {
+          "xMm": 25.106066,
+          "yMm": 45.106066
+        },
+        {
+          "xMm": 25.15,
+          "yMm": 45.0
+        },
+        {
+          "xMm": 25.15,
+          "yMm": 38.25
+        },
+        {
+          "xMm": 27.2092,
+          "yMm": 38.25
+        },
+        {
+          "xMm": 27.2092,
+          "yMm": 56.5077
+        },
+        {
+          "xMm": 25.3592,
+          "yMm": 56.5077
+        },
+        {
+          "xMm": 25.220618,
+          "yMm": 56.600297
+        },
+        {
+          "xMm": 25.2092,
+          "yMm": 60.4562
+        },
+        {
+          "xMm": 25.253134,
+          "yMm": 60.562266
+        },
+        {
+          "xMm": 25.3592,
+          "yMm": 60.6062
+        },
+        {
+          "xMm": 27.2092,
+          "yMm": 60.6062
+        },
+        {
+          "xMm": 27.220618,
+          "yMm": 60.863203
+        },
+        {
+          "xMm": 27.3592,
+          "yMm": 60.9558
+        },
+        {
+          "xMm": 31.2092,
+          "yMm": 60.9558
+        },
+        {
+          "xMm": 31.2092,
+          "yMm": 66.0635
+        },
+        {
+          "xMm": 31.253134,
+          "yMm": 66.169566
+        },
+        {
+          "xMm": 31.3592,
+          "yMm": 66.2135
+        },
+        {
+          "xMm": 32.2092,
+          "yMm": 66.2135
+        },
+        {
+          "xMm": 32.2092,
+          "yMm": 67.5253
+        },
+        {
+          "xMm": 32.253134,
+          "yMm": 67.631366
+        },
+        {
+          "xMm": 32.3592,
+          "yMm": 67.6753
+        },
+        {
+          "xMm": 64.3592,
+          "yMm": 67.6753
+        },
+        {
+          "xMm": 64.465266,
+          "yMm": 67.631366
+        },
+        {
+          "xMm": 64.5092,
+          "yMm": 67.5253
+        },
+        {
+          "xMm": 64.5092,
+          "yMm": 66.2135
+        },
+        {
+          "xMm": 66.3592,
+          "yMm": 66.2135
+        },
+        {
+          "xMm": 66.465266,
+          "yMm": 66.169566
+        },
+        {
+          "xMm": 66.5092,
+          "yMm": 66.0635
+        },
+        {
+          "xMm": 66.5092,
+          "yMm": 35.9023
+        },
+        {
+          "xMm": 66.465266,
+          "yMm": 35.796234
+        },
+        {
+          "xMm": 66.3592,
+          "yMm": 35.7523
+        },
+        {
+          "xMm": 64.5092,
+          "yMm": 35.7523
+        },
+        {
+          "xMm": 64.497782,
+          "yMm": 31.469497
+        },
+        {
+          "xMm": 64.3592,
+          "yMm": 31.3769
+        },
+        {
+          "xMm": 63.0092,
+          "yMm": 31.3769
+        },
+        {
+          "xMm": 62.997782,
+          "yMm": 17.124897
+        },
+        {
+          "xMm": 62.8592,
+          "yMm": 17.0323
+        },
+        {
+          "xMm": 50.95,
+          "yMm": 17.0323
+        },
+        {
+          "xMm": 50.95,
+          "yMm": 12.85
+        },
+        {
+          "xMm": 60.001403,
+          "yMm": 12.838582
+        },
+        {
+          "xMm": 61.352582,
+          "yMm": 11.487403
+        },
+        {
+          "xMm": 61.364,
+          "yMm": 9.7596
+        },
+        {
+          "xMm": 62.8592,
+          "yMm": 9.7596
+        },
+        {
+          "xMm": 62.997782,
+          "yMm": 9.667003
+        },
+        {
+          "xMm": 63.0092,
+          "yMm": 7.13301
+        },
+        {
+          "xMm": 74.9644,
+          "yMm": 7.13379
+        },
+        {
+          "xMm": 74.973447,
+          "yMm": 7.566407
+        },
+        {
+          "xMm": 75.088367,
+          "yMm": 7.662824
+        },
+        {
+          "xMm": 81.4644,
+          "yMm": 8.7845
+        },
+        {
+          "xMm": 99.4867,
+          "yMm": 8.78453
+        },
+        {
+          "xMm": 99.498118,
+          "yMm": 9.199903
+        },
+        {
+          "xMm": 99.6367,
+          "yMm": 9.2925
+        },
+        {
+          "xMm": 120.967685,
+          "yMm": 9.285148
+        },
+        {
+          "xMm": 121.354524,
+          "yMm": 9.012912
+        },
+        {
+          "xMm": 121.414464,
+          "yMm": 8.914998
+        },
+        {
+          "xMm": 122.116871,
+          "yMm": 4.4668
+        },
+        {
+          "xMm": 125.5447,
+          "yMm": 4.4668
+        },
+        {
+          "xMm": 125.675895,
+          "yMm": 4.389517
+        },
+        {
+          "xMm": 125.898851,
+          "yMm": 2.746008
+        },
+        {
+          "xMm": 126.022589,
+          "yMm": 1.379926
+        },
+        {
+          "xMm": 126.064332,
+          "yMm": 0.004521
+        },
+        {
+          "xMm": 126.022589,
+          "yMm": -1.379925
+        },
+        {
+          "xMm": 125.767085,
+          "yMm": -3.853015
+        },
+        {
+          "xMm": 125.683282,
+          "yMm": -4.374203
+        },
+        {
+          "xMm": 125.5447,
+          "yMm": -4.4668
+        },
+        {
+          "xMm": 122.116875,
+          "yMm": -4.4668
+        },
+        {
+          "xMm": 121.414464,
+          "yMm": -8.914998
+        },
+        {
+          "xMm": 121.354524,
+          "yMm": -9.012912
+        },
+        {
+          "xMm": 120.9213,
+          "yMm": -9.2925
+        },
+        {
+          "xMm": 99.6367,
+          "yMm": -9.2925
+        },
+        {
+          "xMm": 99.498118,
+          "yMm": -9.199903
+        },
+        {
+          "xMm": 99.4867,
+          "yMm": -8.784535
+        },
+        {
+          "xMm": 81.4644,
+          "yMm": -8.7845
+        },
+        {
+          "xMm": 75.088366,
+          "yMm": -7.662823
+        },
+        {
+          "xMm": 74.973447,
+          "yMm": -7.566406
+        },
+        {
+          "xMm": 74.9644,
+          "yMm": -7.13379
+        },
+        {
+          "xMm": 64.5092,
+          "yMm": -7.13311
+        },
+        {
+          "xMm": 64.5092,
+          "yMm": -8.2846
+        },
+        {
+          "xMm": 66.3592,
+          "yMm": -8.2846
+        },
+        {
+          "xMm": 66.465266,
+          "yMm": -8.328534
+        },
+        {
+          "xMm": 66.5092,
+          "yMm": -8.4346
+        },
+        {
+          "xMm": 66.5092,
+          "yMm": -39.2636
+        },
+        {
+          "xMm": 66.465266,
+          "yMm": -39.369666
+        },
+        {
+          "xMm": 66.3592,
+          "yMm": -39.4136
+        },
+        {
+          "xMm": 64.5092,
+          "yMm": -39.4136
+        },
+        {
+          "xMm": 64.5092,
+          "yMm": -41.8388
+        },
+        {
+          "xMm": 64.465266,
+          "yMm": -41.944866
+        },
+        {
+          "xMm": 64.3592,
+          "yMm": -41.9888
+        },
+        {
+          "xMm": 32.3592,
+          "yMm": -41.9888
+        },
+        {
+          "xMm": 32.253134,
+          "yMm": -41.944866
+        },
+        {
+          "xMm": 32.2092,
+          "yMm": -41.8388
+        },
+        {
+          "xMm": 32.2092,
+          "yMm": -39.4136
+        },
+        {
+          "xMm": 31.3592,
+          "yMm": -39.4136
+        },
+        {
+          "xMm": 31.253134,
+          "yMm": -39.369666
+        },
+        {
+          "xMm": 31.2092,
+          "yMm": -39.2636
+        },
+        {
+          "xMm": 31.2092,
+          "yMm": -38.25
+        },
+        {
+          "xMm": -50.8,
+          "yMm": -38.25
+        },
+        {
+          "xMm": -50.906066,
+          "yMm": -38.206066
+        },
+        {
+          "xMm": -50.95,
+          "yMm": -38.1
+        },
+        {
+          "xMm": -50.95,
+          "yMm": -4.5795
+        },
+        {
+          "xMm": -54.552583,
+          "yMm": -4.569981
+        },
+        {
+          "xMm": -55.097047,
+          "yMm": -4.114376
+        },
+        {
+          "xMm": -55.501207,
+          "yMm": -3.710925
+        },
+        {
+          "xMm": -55.6,
+          "yMm": -3.75
+        },
+        {
+          "xMm": -90.5,
+          "yMm": -3.7499
+        },
+        {
+          "xMm": -90.842134,
+          "yMm": -3.722324
+        },
+        {
+          "xMm": -91.169995,
+          "yMm": -3.6427
+        },
+        {
+          "xMm": -91.481349,
+          "yMm": -3.512743
+        },
+        {
+          "xMm": -91.768463,
+          "yMm": -3.335698
+        },
+        {
+          "xMm": -92.138635,
+          "yMm": -2.991617
+        },
+        {
+          "xMm": -92.418199,
+          "yMm": -2.570647
+        },
+        {
+          "xMm": -92.591802,
+          "yMm": -2.096144
+        },
+        {
+          "xMm": -92.649884,
+          "yMm": -1.605408
+        },
+        {
+          "xMm": -92.65,
+          "yMm": 26.6
+        },
+        {
+          "xMm": -92.622509,
+          "yMm": 26.942007
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": 0
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 0
+      }
+    ],
+    "minimumAlignedMountingHoles": 2,
+    "opticalType": "unsupported",
+    "opticalDefaults": {
+      "elementType": "unsupported",
+      "inserted": true,
+      "configured": true
+    },
+    "opticalCenterMm": {
+      "xMm": -12.5,
+      "yMm": 12.5
+    },
+    "opticalAxisHeightMm": 62.5,
+    "opticalDatumVerified": false,
+    "opticalClearApertureVerified": false,
+    "opticalSimulationNote": "仅追到物镜后端机械基准；内部光学主平面、出瞳和装配通光口径未核，不按理想薄透镜计算。",
+    "opticalSurfaceAngleDeg": 90,
+    "mountingDatumVerified": true,
+    "fullObjectiveEnvelopeModeled": true,
+    "geometryEvidence": {
+      "sourceStepSha256": "b3ae5b319338b915ea0dc5d7b5a239082bd24d160dd932efc5fbf51a36c5b658",
+      "imageSha256": "f7b87610ba39dcea239af1d227d20645e65f5c5b72398fbf1f88c82759c9eb08",
+      "leafCount": 110,
+      "nativeBottomBoreCentersMm": [
+        [
+          -12.693403366013467,
+          -0.003970967178005935
+        ],
+        [
+          12.706596633986535,
+          -0.0039709671780023825
+        ]
+      ],
+      "hostM6ScrewAxesMm": [
+        [
+          -12.5,
+          0
+        ],
+        [
+          12.5,
+          0
+        ]
+      ],
+      "maxNominalShaftAxisEccentricityMm": 0.20663479318569583,
+      "minimumNominalShaftRadialClearanceMm": 0.15886520681430416,
+      "physicalTrial": false,
+      "mountingOffsetMeaning": "host threaded hole/screw axes; original PT1 native bores are 25.4mm apart, never changed to 25mm",
+      "sourceToKit": {
+        "matrixRows": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "translationMm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "nominalPoseOnly": true,
+      "collisionProjectionBufferMm": 0.15,
+      "cadFrameAlreadyKitLocal": true,
+      "sourceReview": "library/reviews/xbk-lateral-fixed-r4-standard-20261023/evidence/design-checks.json",
+      "stagePoseUnchanged": true,
+      "lateralOffsetMm": 12.5
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "b3ae5b319338b915ea0dc5d7b5a239082bd24d160dd932efc5fbf51a36c5b658",
+      "imageSha256": "f7b87610ba39dcea239af1d227d20645e65f5c5b72398fbf1f88c82759c9eb08"
+    },
+    "note": "舞台/底板锚点不动；上件横向换位。软件以完整固定套件摆放；机械换孔须松螺钉重新安装并对光。",
+    "measurementPointsMm": [
+      {
+        "id": "rear-mechanical-exit",
+        "label": "物镜后端机械出口",
+        "xMm": -12.5,
+        "yMm": 12.5,
+        "zMm": 62.5,
+        "verified": true,
+        "definition": "mechanical rear exit, not principal plane"
+      },
+      {
+        "id": "front-mechanical-end",
+        "label": "物镜前端面",
+        "xMm": -92.50000446,
+        "yMm": 12.5,
+        "zMm": 62.5,
+        "verified": true,
+        "definition": "front mechanical face"
+      }
+    ],
+    "status": "真实STEP固定构型；名义安装与62.5光高已核"
+  },
+  "assemblyReference": {
+    "stepPath": "step/xbk-lateral-fixed-r4/XBK_PT1M_OBJECTIVE_AC_R3_RIGHT12p5_H62p5.step",
+    "sourceStepSha256": "b3ae5b319338b915ea0dc5d7b5a239082bd24d160dd932efc5fbf51a36c5b658",
+    "sha256": "b3ae5b319338b915ea0dc5d7b5a239082bd24d160dd932efc5fbf51a36c5b658",
+    "revision": "R3-RIGHT12p5-H62p5",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "includeInBundle": true,
+    "drawingPath": null,
+    "sourceDrawingSha256": "5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60",
+    "note": "110叶件完整固定总装；台体原位；未重建运动配合。",
+    "onshapeUrl": "https://cad.onshape.com/documents/a05bdf063019cd8dcf188e9d/v/b6528131338cea8dca376874/e/a348908994b6b38bd90900f1",
+    "leafCount": 110
+  },
+  "assemblyAssets": [
+    {
+      "stepPath": "step/xbk-lateral-fixed-r4/XBK_PT1M_OBJECTIVE_AC_R3_RIGHT12p5_H62p5.step",
+      "sha256": "b3ae5b319338b915ea0dc5d7b5a239082bd24d160dd932efc5fbf51a36c5b658",
+      "role": "reviewed-complete-nominal-assembly",
+      "assemblyLeafCount": 110
+    }
+  ],
+  "sourceUrl": "https://cad.onshape.com/documents/a05bdf063019cd8dcf188e9d/v/b6528131338cea8dca376874/e/a348908994b6b38bd90900f1",
+  "productionReady": false,
+  "releaseStage": "engineering-review",
+  "status": "工程审核版 · 固定安装构型 · 未实装",
+  "notes": "保留原厂底面接口。PT1/M采用已登记薄头M6偏心直锁方案，原生孔距25.4mm，必须实测归中；MT1/M底孔25mm。换档后重新对光，实物承载、全行程及电机扫角未验。 本固定构型仅移动上部46叶件+12.5Y；原台体64叶件及全部原孔不变；选用C,E两颗M6固定。",
+  "mountedExistingHardware": [
+    {
+      "componentId": "lbtek-mt-am1t-purchased",
+      "quantity": 1,
+      "procurement": "existing-excluded"
+    },
+    {
+      "identity": "用户已有Mitutoyo M Plan Apo NIR 20X/0.40物镜",
+      "quantity": 1,
+      "procurement": "existing-excluded",
+      "exactOrderNumber": null
+    },
+    {
+      "identity": "原厂附送M4×14",
+      "quantity": 1,
+      "procurement": "existing-excluded"
+    }
+  ],
+  "objectiveSpecification": {
+    "format": "zzlab-objective-specification-v1",
+    "manufacturer": "Mitutoyo",
+    "model": "M Plan Apo NIR 20× / 0.40",
+    "identification": "Photo confirms standard NIR, 20×, NA 0.40, infinity/0, f=200; not NIR B, HR or LCD. Physical order-number suffix not visible.",
+    "catalogReferenceOrderNumber": "378-824-16",
+    "physicalOrderNumber": null,
+    "magnification": 20,
+    "numericalAperture": 0.4,
+    "focalLengthMm": 10,
+    "focalLengthReferenceWavelengthNm": 550,
+    "workingDistanceMm": 20,
+    "workingDistanceDatum": "front mechanical face to nominal in-focus specimen plane",
+    "tubeLensFocalLengthMm": 200,
+    "infinityCorrected": true,
+    "coverGlassThicknessMm": 0,
+    "correctionWavelengthNm": {
+      "min": 480,
+      "max": 1800
+    },
+    "parfocalDistanceMm": 95,
+    "parfocalDatum": "mounting shoulder to nominal in-focus specimen plane",
+    "frontFaceFromShoulderMm": 75,
+    "rearThreadProjectionMm": 5,
+    "derivedPupilDiameterMm": 8,
+    "pupilDerivation": "2 × NA × f; nominal pupil, NOT verified mechanical clear aperture",
+    "nominalRearThreadEndToFocusMm": 100,
+    "nominalFocusDerivation": "5 mm thread projection + 95 mm parfocal distance; equivalent to 80 mm body length + 20 mm WD",
+    "nominalFocusInKitMm": {
+      "xMm": -112.5,
+      "yMm": 12.5,
+      "zMm": 62.5
+    },
+    "nominalFocusBasis": "R3 right12.5 mechanical rear [-12.5,12.5,62.5]; inherited nominal WD, not measured focus.",
+    "sourceUrl": "https://www.mitutoyo.co.jp/products/sensors-and-devices-incorporated-units/built-in-optical-instruments/tube-and-objective-lenses-and-eyepiece/nir/378-824-16/",
+    "catalogUrl": "https://www2.mitutoyo.co.jp/eng/support/service/catalog/04/E14020.pdf",
+    "catalogPdfPages": [
+      16,
+      22
+    ],
+    "retrievedAt": "2026-10-07",
+    "sourcePdfSha256": "52809eda5ae160735d173f87a40b5ff01e717cda6464a80cea48301f4b69ff81",
+    "photoSha256": "8e97cd59d0e6239cdac872605eaa91df5ec1f0b05ee67fa2775447522b8b4f3e",
+    "simulationStatus": "reference-parameters-only",
+    "notes": "官方名义参数：20×、NA 0.40、焦距10 mm（550 nm）、工作距离20 mm；f=200是配套管镜焦距。波长补偿范围480–1800 nm，不是保证全波段透过率或损伤阈值。超过1100 nm时，官方提示焦点相对可见光可能偏移。",
+    "simulationLimit": "工作距离从物镜前端面量起；焦距从主平面量起，两者不能混用。尚无完整光学处方、已核实装配通光口径和波长响应；本次登记名义焦点参考，不把柱轴或镜架表面当作薄透镜。"
+  },
+  "motorization": {
+    "motorCount": 2,
+    "axesRearView": [
+      "upper-left-A",
+      "lower-right-C"
+    ],
+    "manualRearViewAxis": "lower-left-B",
+    "nominalSocketInsertionMm": 1.8,
+    "socketDepthMm": 3,
+    "bottomClearanceMm": 1.2,
+    "relativeAxialSetupSamplesMm": [
+      -0.75,
+      0,
+      0.75
+    ],
+    "sourceV7GeometryReused": true,
+    "fullPoweredMotionValidated": false,
+    "motorElectricalSkuConfirmed": false,
+    "inheritedBomOnlyHardwareCount": null
+  },
+  "mechanicalConfiguration": {
+    "defaultPose": {
+      "coarseOffsetMm": [
+        0,
+        12.5
+      ],
+      "fineTranslationMm": 0,
+      "selectedHoles": [
+        "C",
+        "E"
+      ],
+      "payloadSourceTranslationMm": [
+        -12.5,
+        12.5,
+        0
+      ],
+      "adapterLocalTranslationMm": [
+        -12.5,
+        12.5,
+        20.32
+      ]
+    },
+    "coarseInstallation": {
+      "pitchMm": 12.5,
+      "rearCentersXmm": [
+        -37.5,
+        -25.0,
+        -12.5,
+        0.0,
+        12.5
+      ],
+      "rearCentersYmm": [
+        -12.5,
+        0,
+        12.5
+      ],
+      "minimumFasteners": 2,
+      "fastener": "ISO4762 M6x16",
+      "positions": [
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            -25,
+            -12.5
+          ],
+          "opticalRearCenterMm": [
+            -37.5,
+            -12.5,
+            62.5
+          ],
+          "usedHoleIds": [
+            "B",
+            "H"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              -12.5
+            ],
+            [
+              12.5,
+              25
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              -37.49039999999732,
+              -24.99359999999995
+            ],
+            [
+              -24.993599999997333,
+              12.496800000000096
+            ]
+          ],
+          "screwSpacingMm": 39.528470752104745,
+          "maxRadialAxisResidualMm": 0.011537764083739936,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            -25,
+            0
+          ],
+          "opticalRearCenterMm": [
+            -37.5,
+            0,
+            62.5
+          ],
+          "usedHoleIds": [
+            "A",
+            "D"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              -25
+            ],
+            [
+              0,
+              25
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              -37.49039999999732,
+              -24.99359999999995
+            ],
+            [
+              -37.49039999999733,
+              24.993600000000118
+            ]
+          ],
+          "screwSpacingMm": 50.0,
+          "maxRadialAxisResidualMm": 0.011537764083739936,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            -25,
+            12.5
+          ],
+          "opticalRearCenterMm": [
+            -37.5,
+            12.5,
+            62.5
+          ],
+          "usedHoleIds": [
+            "C",
+            "E"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              12.5
+            ],
+            [
+              12.5,
+              -25
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              -37.49039999999733,
+              24.993600000000118
+            ],
+            [
+              -24.99359999999736,
+              -12.496799999999944
+            ]
+          ],
+          "screwSpacingMm": 39.528470752104745,
+          "maxRadialAxisResidualMm": 0.011537764083641402,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            -12.5,
+            -12.5
+          ],
+          "opticalRearCenterMm": [
+            -25.0,
+            -12.5,
+            62.5
+          ],
+          "usedHoleIds": [
+            "D",
+            "F"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              25
+            ],
+            [
+              12.5,
+              -12.5
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              -24.993599999997333,
+              12.496800000000096
+            ],
+            [
+              -12.496799999997286,
+              -24.993599999999955
+            ]
+          ],
+          "screwSpacingMm": 39.528470752104745,
+          "maxRadialAxisResidualMm": 0.007155417530342051,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            -12.5,
+            0
+          ],
+          "opticalRearCenterMm": [
+            -25.0,
+            0,
+            62.5
+          ],
+          "usedHoleIds": [
+            "E",
+            "H"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              12.5,
+              -25
+            ],
+            [
+              12.5,
+              25
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              -12.496799999997286,
+              -24.993599999999955
+            ],
+            [
+              -12.496799999997336,
+              24.993600000000118
+            ]
+          ],
+          "screwSpacingMm": 50.0,
+          "maxRadialAxisResidualMm": 0.007155417529253708,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            -12.5,
+            12.5
+          ],
+          "opticalRearCenterMm": [
+            -25.0,
+            12.5,
+            62.5
+          ],
+          "usedHoleIds": [
+            "A",
+            "G"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              -25
+            ],
+            [
+              12.5,
+              12.5
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              -24.99359999999736,
+              -12.496799999999944
+            ],
+            [
+              -12.496799999997336,
+              24.993600000000118
+            ]
+          ],
+          "screwSpacingMm": 39.528470752104745,
+          "maxRadialAxisResidualMm": 0.007155417530384949,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            0,
+            -12.5
+          ],
+          "opticalRearCenterMm": [
+            -12.5,
+            -12.5,
+            62.5
+          ],
+          "usedHoleIds": [
+            "B",
+            "H"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              -12.5
+            ],
+            [
+              12.5,
+              25
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              -12.496799999997286,
+              -24.993599999999955
+            ],
+            [
+              2.7142732506035827e-12,
+              12.496800000000096
+            ]
+          ],
+          "screwSpacingMm": 39.528470752104745,
+          "maxRadialAxisResidualMm": 0.007155417529253708,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            0,
+            0
+          ],
+          "opticalRearCenterMm": [
+            -12.5,
+            0,
+            62.5
+          ],
+          "usedHoleIds": [
+            "A",
+            "D"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              -25
+            ],
+            [
+              0,
+              25
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              -12.496799999997286,
+              -24.993599999999955
+            ],
+            [
+              -12.496799999997336,
+              24.993600000000118
+            ]
+          ],
+          "screwSpacingMm": 50.0,
+          "maxRadialAxisResidualMm": 0.007155417529253708,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            0,
+            12.5
+          ],
+          "opticalRearCenterMm": [
+            -12.5,
+            12.5,
+            62.5
+          ],
+          "usedHoleIds": [
+            "C",
+            "E"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              12.5
+            ],
+            [
+              12.5,
+              -25
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              -12.496799999997336,
+              24.993600000000118
+            ],
+            [
+              2.6716406864579767e-12,
+              -12.496799999999942
+            ]
+          ],
+          "screwSpacingMm": 39.528470752104745,
+          "maxRadialAxisResidualMm": 0.007155417529085293,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            12.5,
+            -12.5
+          ],
+          "opticalRearCenterMm": [
+            0.0,
+            -12.5,
+            62.5
+          ],
+          "usedHoleIds": [
+            "D",
+            "F"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              25
+            ],
+            [
+              12.5,
+              -12.5
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              2.7142732506035827e-12,
+              12.496800000000096
+            ],
+            [
+              12.496800000002722,
+              -24.993599999999944
+            ]
+          ],
+          "screwSpacingMm": 39.528470752104745,
+          "maxRadialAxisResidualMm": 0.007155417526832344,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            12.5,
+            0
+          ],
+          "opticalRearCenterMm": [
+            0.0,
+            0,
+            62.5
+          ],
+          "usedHoleIds": [
+            "E",
+            "H"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              12.5,
+              -25
+            ],
+            [
+              12.5,
+              25
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              12.496800000002722,
+              -24.993599999999944
+            ],
+            [
+              12.496800000002715,
+              24.993600000000125
+            ]
+          ],
+          "screwSpacingMm": 50.0,
+          "maxRadialAxisResidualMm": 0.007155417526832344,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            12.5,
+            12.5
+          ],
+          "opticalRearCenterMm": [
+            0.0,
+            12.5,
+            62.5
+          ],
+          "usedHoleIds": [
+            "A",
+            "G"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              -25
+            ],
+            [
+              12.5,
+              12.5
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              2.6716406864579767e-12,
+              -12.496799999999942
+            ],
+            [
+              12.496800000002715,
+              24.993600000000125
+            ]
+          ],
+          "screwSpacingMm": 39.528470752104745,
+          "maxRadialAxisResidualMm": 0.007155417526673462,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            25,
+            -12.5
+          ],
+          "opticalRearCenterMm": [
+            12.5,
+            -12.5,
+            62.5
+          ],
+          "usedHoleIds": [
+            "B",
+            "H"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              -12.5
+            ],
+            [
+              12.5,
+              25
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              12.496800000002722,
+              -24.993599999999944
+            ],
+            [
+              24.993600000002765,
+              12.496800000000103
+            ]
+          ],
+          "screwSpacingMm": 39.528470752104745,
+          "maxRadialAxisResidualMm": 0.007155417526832344,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            25,
+            0
+          ],
+          "opticalRearCenterMm": [
+            12.5,
+            0,
+            62.5
+          ],
+          "usedHoleIds": [
+            "A",
+            "D"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              -25
+            ],
+            [
+              0,
+              25
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              12.496800000002722,
+              -24.993599999999944
+            ],
+            [
+              12.496800000002715,
+              24.993600000000125
+            ]
+          ],
+          "screwSpacingMm": 50.0,
+          "maxRadialAxisResidualMm": 0.007155417526832344,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            25,
+            12.5
+          ],
+          "opticalRearCenterMm": [
+            12.5,
+            12.5,
+            62.5
+          ],
+          "usedHoleIds": [
+            "C",
+            "E"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              12.5
+            ],
+            [
+              12.5,
+              -25
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              12.496800000002715,
+              24.993600000000125
+            ],
+            [
+              24.993600000002722,
+              -12.49679999999994
+            ]
+          ],
+          "screwSpacingMm": 39.528470752104745,
+          "maxRadialAxisResidualMm": 0.007155417526673462,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        }
+      ],
+      "method": "Move adapter and full upper payload together; remove upper assembly to access M6 as needed; reattach using M4 and two dowels; realign optics.",
+      "precision": "Nominal grid matching only; screw clearance does not guarantee precision repeatability."
+    },
+    "fineMotion": {
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "rangeCheckedMm": [
+        -12.5,
+        12.5
+      ],
+      "sourceCadTravelZeroCalibrated": false,
+      "STEPKinematics": "rigid static nominal assembly; source mates not reconstructed",
+      "checkMethod": "source CAD kept in nominal pose; additional payload shifts checked conservatively against entire stationary OEM envelope; no detailed bearing kinematic simulation"
+    },
+    "runtimeControl": "rigid whole-kit canvas movement; internal coarse/fine poses documented, not animated",
+    "fixedKitVariant": "right12p5",
+    "originalCenteredKitId": "xbk-objective-pt1m-ac-r3"
+  },
+  "manufacturingDrawingPath": null,
+  "pendingRequirements": [
+    {
+      "id": "physical",
+      "label": "实装承载/重复定位及完整电机运动待验收"
+    },
+    {
+      "id": "cloud",
+      "label": "云端导入状态见来源记录；尚未完成全部精确回读与原生配合验收"
+    }
+  ],
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "6029e5035262a432753afaea7c1fbee6ba999b8432a12e0dcc772960b0bc7089",
+        "sha256": "5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60"
+      }
+    ]
+  },
+  "id": "xbk-objective-pt1m-ac-right12p5-h62p5-r3"
+}

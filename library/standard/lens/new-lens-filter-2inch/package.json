@@ -1,0 +1,30 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-lens-filter-2inch",
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "displayName": "透镜／滤光片架 · 2 inch · 0° · M1",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/new-lens-filter-2inch.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-post-metric-12p5mm-m1",
+    "metric-m1-post-m4x12",
+    "metric-m1-post-pin-d2x8",
+    "new-r3-16-r3-adapter",
+    "new-r3-vendor-bcx10819-a",
+    "new-r3-vendor-flft2a"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

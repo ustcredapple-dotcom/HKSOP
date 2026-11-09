@@ -1,0 +1,145 @@
+{
+  "name": "1870 nm 种子激光器 · 光纤输出",
+  "category": "laser",
+  "variant": "配套935 nm系统 · 资料参考",
+  "description": "FL-SF-1870-S光纤种子；1870.36nm、21mW，FC/APC输出。",
+  "status": "报告已核对；仅供配套资料查看",
+  "sourceUrl": "",
+  "components": [],
+  "opticalSlots": [],
+  "bomPolicy": "reference-only",
+  "releaseStage": "documentation-preview",
+  "bundleStatus": "blocked",
+  "bundleNote": "当前为配套机架光纤种子资料，不加入画布、采购或生产，避免与935nm整套系统重复计数。",
+  "notes": "FL-SF-1870-S，配套935nm系统的FC/APC光纤种子源；实测1870.36nm、21mW，光纤尾长150cm。所附尺寸是机架机箱，不是自由空间光学头；未提供面包板安装孔或自由空间光口。仅供资料查看，不重复计购主系统，不生成自由空间光束。",
+  "sourceReport": {
+    "title": "1870 nm光纤种子激光器测试报告",
+    "reportId": "PLP-2026-03-007264-S-01",
+    "reportNumber": "F2026044265",
+    "reportDateVerbatim": "10/06/2026",
+    "sourceFiles": [
+      {
+        "id": 3,
+        "name": "1870nm_光纤激光器测试报告_F2026044265.pdf",
+        "path": null,
+        "sha256": "796514609ed7c43e937a61829380b6897bbb0673118298426791e8a983efcab3",
+        "pages": 6
+      },
+      {
+        "id": 4,
+        "name": "1870nm激光器用户手册-频准激光-F2026044265.pdf",
+        "path": null,
+        "sha256": "703b9aa9535dd9e4800cb2b615da9bd3adddc142ee2527283569aae169c04d4c",
+        "pages": 13
+      }
+    ],
+    "model": "FL-SF-1870-S",
+    "wavelengthNm": 1870.36,
+    "powerMw": 21,
+    "testCurrentA": 6.8,
+    "polarizationType": "linear",
+    "extinctionRatioDb": null,
+    "extinctionRatioLowerBoundDb": 20,
+    "extinctionRatioOperator": ">",
+    "outputMode": "FC/APC fiber",
+    "fiberTailLengthCm": 150,
+    "beamDiameterMm": null,
+    "beamQualityM2": null,
+    "axisRelativeToBoardDeg": null,
+    "relatedSystemKitId": "laser-935nm",
+    "chassisReferenceDimensionsMm": {
+      "frontPanelWidth": 483,
+      "bodyWidth": 430,
+      "bodyDepth": 360,
+      "overallSideProjectionDepth": 386.9,
+      "height": 88.1
+    },
+    "note": "机架机箱尺寸仅供资料参考；不能据此构造光学头安装、自由空间出光或高斯q。"
+  },
+  "layout": {
+    "placementAllowed": false,
+    "status": "资料参考 · FC/APC光纤种子源",
+    "topViewPath": "topviews/kit_laser-seed-1870nm.svg",
+    "topViewUrl": "./topviews/kit_laser-seed-1870nm.svg",
+    "note": "未定标资料缩略图；不是可拖入面包板的光学头。待提供真实自由空间头与安装资料后再登记。",
+    "opticalPortsMm": [],
+    "geometryStatus": "awaiting-dimensions",
+    "opticalType": "unsupported",
+    "opticalDatumVerified": false,
+    "opticalSimulationNote": "该配套种子是FC/APC光纤输出，没有已标定的自由空间出光模型。"
+  },
+  "geometryEvidence": {
+    "status": "awaiting-dimensions",
+    "calibrationVerified": false,
+    "usage": "Unscaled documentation thumbnail; chassis dimensions do not define an optical-head footprint.",
+    "widthMm": null,
+    "heightMm": null,
+    "bodyHeightMm": null,
+    "anchorXMm": null,
+    "anchorYMm": null,
+    "baseBoundsMm": null,
+    "collisionBoundsMm": null,
+    "collisionPolygonsMm": null,
+    "mountingHoleOffsetsMm": null,
+    "opticalPortPositionMm": null,
+    "opticalAxisHeightMm": null,
+    "unknown": [
+      "独立自由空间光学头尺寸与光口定位",
+      "实际面包板安装孔与支承几何",
+      "外接准直器参数、光斑、M²和高斯q"
+    ],
+    "excludedObjects": [
+      "935 nm自由空间输出腔",
+      "未提供的自由空间光纤准直头"
+    ]
+  },
+  "installationPackageReview": {
+    "revision": "REFERENCE_HANDOFF_20261006",
+    "protocol": "zzlab-optics-library-v1",
+    "baselineVersion": "2026-10-06.5-waveplate05-m1",
+    "mechanicalMountStatus": "not-released-measurements-required",
+    "evidence": {
+      "path": "evidence/install/laser-seed-1870nm.json"
+    },
+    "sourceDocuments": [
+      {
+        "originalFileName": null,
+        "sha256": "796514609ed7c43e937a61829380b6897bbb0673118298426791e8a983efcab3",
+        "externalEvidenceArchive": "laser-original-evidence-20261006.zip",
+        "externalEvidenceArchiveSha256": "1c9eb61cbc7e21200296476ea6d2d39d7605f961a504a581f3daa67f51d92f7e",
+        "archiveFile": null
+      },
+      {
+        "originalFileName": null,
+        "sha256": "703b9aa9535dd9e4800cb2b615da9bd3adddc142ee2527283569aae169c04d4c",
+        "externalEvidenceArchive": "laser-original-evidence-20261006.zip",
+        "externalEvidenceArchiveSha256": "1c9eb61cbc7e21200296476ea6d2d39d7605f961a504a581f3daa67f51d92f7e",
+        "archiveFile": null
+      }
+    ],
+    "unchangedRuntimeSemantics": [
+      "BOM",
+      "mounting holes",
+      "minimum hole count",
+      "optical ports",
+      "simulation",
+      "placement permission"
+    ],
+    "limits": {
+      "manufacturingMount": "No optical-head manufacturing mount. Existing STEP is rack chassis reference only.",
+      "feet": "483front/430body×360depth×88.1height,386.9side envelope refer to chassis, not optical head or breadboard mounting.",
+      "port": "FL-SF-1870-S FC/APC fiber output with150cm tail; no free-space port.",
+      "next": "Clarify rack mounting versus a separately selected fiber collimator/head; provide actual head and mount dimensions if bench installation is intended."
+    },
+    "referenceCad": {
+      "stepPath": "step/laser_installation_reference_20261006/LASER_1870_RACK_BODY_REFERENCE_NO_PORT.step",
+      "sha256": "79ad238f4da3bd5c01f5084c071926f171f788a929ec12ac06b895edf95cc825",
+      "role": "DIMENSION_REFERENCE_ONLY_NOT_MANUFACTURER_CAD_NOT_MACHINING_MODEL",
+      "opticalDatumSymbolIsNonphysical": true,
+      "holesModeled": false,
+      "manufacturerCADVersion": null,
+      "canReleaseManufacturingMount": false
+    }
+  },
+  "id": "laser-seed-1870nm"
+}

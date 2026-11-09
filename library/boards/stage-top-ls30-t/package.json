@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "stage-top-ls30-t",
+  "revision": "R2-A7075",
+  "displayName": "LS30 左/右型共用上面包板 · 位移模块专用",
+  "records": [
+    {
+      "kind": "registeredBoards",
+      "path": "records/stage-top-ls30-t.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

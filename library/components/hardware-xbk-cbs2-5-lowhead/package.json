@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "hardware-xbk-cbs2-5-lowhead",
+  "revision": "source-snapshot",
+  "displayName": "低头内六角螺钉 M2×5",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/hardware-xbk-cbs2-5-lowhead.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

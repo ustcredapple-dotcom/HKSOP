@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "motor-adapter-9",
+  "files": [
+    {
+      "path": "cad/6c42ae7b9c3e431b7b0f52439e8cdcb35581cdd4639026528cf3021989d7bdbc.step",
+      "stored": "library/assets/sha256/6c/6c42ae7b9c3e431b7b0f52439e8cdcb35581cdd4639026528cf3021989d7bdbc.step",
+      "sha256": "6c42ae7b9c3e431b7b0f52439e8cdcb35581cdd4639026528cf3021989d7bdbc",
+      "originalReferences": [
+        "step/09_电动镜架/9mmM3toH2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/6c/6c42ae7b9c3e431b7b0f52439e8cdcb35581cdd4639026528cf3021989d7bdbc.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

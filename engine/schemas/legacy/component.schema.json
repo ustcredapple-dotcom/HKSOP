@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ZZLab authoritative component record (compatible legacy shape)",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "kind",
+    "unit"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,159}$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "enum": [
+        "custom",
+        "lubang",
+        "standard"
+      ]
+    },
+    "unit": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stepPath": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "drawingPath": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dxfPath": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "manufacturingSpec": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "dxfPdfPath": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dxfPdfSha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "laserMarking": {
+      "$ref": "#/$defs/laserMarking"
+    }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "laserMarking": {
+      "type": "object",
+      "required": [
+        "status",
+        "files"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "required",
+            "none",
+            "review"
+          ]
+        },
+        "reason": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "files": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "face",
+              "dxfPath",
+              "sha256"
+            ],
+            "properties": {
+              "face": {
+                "type": "string",
+                "minLength": 1
+              },
+              "dxfPath": {
+                "type": "string",
+                "pattern": "^drawings/(?:(?!(?:\\.|\\.\\.)(?:/|$))[^/\\\\:\\u0000-\\u001f]+/)*(?!(?:\\.|\\.\\.)(?:/|$))[^/\\\\:\\u0000-\\u001f]+\\.[dD][xX][fF]$"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-fA-F0-9]{64}$"
+              },
+              "text": {
+                "type": "string"
+              },
+              "setupPdfPath": {
+                "type": "string",
+                "pattern": "^drawings/(?:(?!(?:\\.|\\.\\.)(?:/|$))[^/\\\\:\\u0000-\\u001f]+/)*(?!(?:\\.|\\.\\.)(?:/|$))[^/\\\\:\\u0000-\\u001f]+\\.[pP][dD][fF]$"
+              },
+              "setupPdfSha256": {
+                "type": "string",
+                "pattern": "^[a-fA-F0-9]{64}$"
+              }
+            },
+            "dependentRequired": {
+              "setupPdfPath": [
+                "setupPdfSha256"
+              ],
+              "setupPdfSha256": [
+                "setupPdfPath"
+              ]
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "none"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "files": {
+                "maxItems": 0
+              }
+            }
+          }
+        }
+      ],
+      "additionalProperties": false
+    }
+  }
+}

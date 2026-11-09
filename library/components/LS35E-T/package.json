@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "LS35E-T",
+  "revision": "R1",
+  "displayName": "LS35x.Lab.E 上面包板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/LS35E-T.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

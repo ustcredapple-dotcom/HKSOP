@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "it75-r3-m6x30",
+  "revision": "source-snapshot",
+  "displayName": "M6×30 内六角圆柱头螺钉",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/it75-r3-m6x30.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

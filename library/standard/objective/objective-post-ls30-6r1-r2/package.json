@@ -1,0 +1,30 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "objective-post-ls30-6r1-r2",
+  "revision": "R2-B6R1",
+  "displayName": "一体式物镜柱式连接套件 · LS30-6R1",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/objective-post-ls30-6r1-r2.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-30-obj-m-r2",
+    "custom-post-metric-25mm-m1",
+    "hardware-iso4762-m6x12",
+    "new-hardware-0cc1a2908550",
+    "new-hardware-d56c7b8035c3",
+    "new-r3-hardware-b7a3ea97ce89"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "custom-fz-kz-br-r1",
+  "name": "FZ-KZ-BR-R1 双笼杆电机支架",
+  "model": "FZ-KZ-BR-R1",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R1",
+  "status": "工程审核版；实物与加工放行待确认",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "按当前R1图纸加工；激光编号，不铣刻。不添加通用公差或粗糙度。"
+  },
+  "notes": "现有编码器舵机机械接口参考；实际杆孔配合、反向防松和实物行程待验证。",
+  "stepPath": "step/fiber-motor-z-r1/FZ-KZ-BR-R1.step",
+  "sourceStepSha256": "044ccf8e498400fdb388d3994c7050d3b42fcae94e35954c138b8886f8a29b9c",
+  "drawingPath": null,
+  "sourceDrawingSha256": "03ebe9bfb945b8f43add3707a875048e83d7b288316e775a8ff32858aca54a7b",
+  "dxfPath": null,
+  "sourceDxfSha256": "cec36766b98ff66b23e49ae23776af6bbe147e1829c7b49a9c214693e8a0b77b",
+  "laserMarking": {
+    "status": "required",
+    "reason": "新件R1唯一编号",
+    "notes": "实际字高1.5mm；按定位PDF装夹，圆柱面按弧长展开；激光打标，不铣刻。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "manufacturingEvidence": {
+    "sourceStepSha256": "044ccf8e498400fdb388d3994c7050d3b42fcae94e35954c138b8886f8a29b9c",
+    "drawingSha256": "03ebe9bfb945b8f43add3707a875048e83d7b288316e775a8ff32858aca54a7b",
+    "pageCount": 1,
+    "originalDrawingSha256": "a38e540cfe1c90156e3d308ae0dbedcfd2454bf2c3f69cfc7643f202722576d8",
+    "originalPage": 3,
+    "geometryValidated": true,
+    "physicalTrialCompleted": false,
+    "reviewScope": "Independent one-solid validity and assembly-instance identity check; source unchanged dimensioned page."
+  },
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "cf0b07b2410173a13859316514721ebbce2611200f63053855ef55c516986eb0",
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "a92cb0ce1a225ff2e55758b9cbd28d994e9ed383c6c1e01064a3703dc16bf403",
+        "sha256": "03ebe9bfb945b8f43add3707a875048e83d7b288316e775a8ff32858aca54a7b"
+      },
+      {
+        "path": null,
+        "previousSha256": "f786f94086ccd5cf4028efc6a6193f07a064311c26b15f5f51a6c700ce37e29e",
+        "sha256": "cec36766b98ff66b23e49ae23776af6bbe147e1829c7b49a9c214693e8a0b77b"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "lbtek-ramc-1bl",
+  "revision": "source-snapshot",
+  "displayName": "麓邦 RAMC-1BL · 直角微调镜架",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/lbtek-ramc-1bl.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

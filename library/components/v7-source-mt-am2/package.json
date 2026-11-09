@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "v7-source-mt-am2",
+  "revision": "source-snapshot",
+  "displayName": "原 V7 2英寸旋钮镜架 MT-AM2",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/v7-source-mt-am2.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

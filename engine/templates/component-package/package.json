@@ -1,0 +1,35 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "replace-with-unique-id",
+  "displayName": "填写元件名称",
+  "revision": "draft-1",
+  "records": [
+    {
+      "kind": "components",
+      "path": "record.json"
+    }
+  ],
+  "assets": [],
+  "capabilities": {
+    "display": {
+      "status": "not-verified",
+      "evidence": []
+    },
+    "placement": {
+      "status": "not-verified",
+      "evidence": []
+    },
+    "simulation": {
+      "status": "not-verified",
+      "evidence": []
+    },
+    "procurement": {
+      "status": "not-verified",
+      "evidence": []
+    },
+    "manufacturing": {
+      "status": "not-verified",
+      "evidence": []
+    }
+  }
+}

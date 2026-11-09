@@ -1,0 +1,175 @@
+{
+  "name": "Dipole Trap 3 · 起点1inch反射镜向下",
+  "category": "fixed",
+  "variant": "H62.5 / DPT3 R1",
+  "components": [
+    {
+      "componentId": "dpt3-post25-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-13",
+      "quantity": 1
+    },
+    {
+      "componentId": "mt-flf1s",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-iso4762-m6x16",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-h2-r3-m4x20",
+      "quantity": 2
+    },
+    {
+      "componentId": "new-hardware-f0579b934c7c",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-pin-d2x8",
+      "quantity": 2
+    },
+    {
+      "componentId": "dpt3-pin-d2x5",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "mirror",
+      "label": "反射镜",
+      "type": "mirror",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 25.4
+    }
+  ],
+  "layout": {
+    "topViewPath": "topviews/dpt3-mirror250-r1.svg",
+    "topViewUrl": "./topviews/dpt3-mirror250-r1.svg",
+    "widthMm": 38,
+    "heightMm": 39,
+    "anchorXMm": 19,
+    "anchorYMm": 20,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "collisionBoundsMm": {
+      "xMin": -17.650000000000002,
+      "yMin": -17.65,
+      "xMax": 17.650000000000002,
+      "yMax": 19.108578319491
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -17.650000000000002,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -17.650000000000002,
+          "yMm": 19.108578319491
+        },
+        {
+          "xMm": 17.650000000000002,
+          "yMm": 19.108578319491
+        },
+        {
+          "xMm": 17.650000000000002,
+          "yMm": -17.65
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "dpt3-r1-20261019",
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "mountingHoleRadiusMm": 3.2,
+    "placementAllowed": true,
+    "opticalType": "mirror",
+    "opticalSurfaceAngleDeg": 36.20737855147564,
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "nominalOpticalHeightMm": 62.5,
+    "opticalAxisHeightMm": 62.5,
+    "geometryEvidence": {
+      "sourceStep": "step/dipole-trap3-r1/MIRROR_1INCH_LOCAL.step",
+      "sourceSha256": "11aa1f491aefa65cb80937285063a205ba94ab656ab6956578700dd47955bb68",
+      "partCount": 8,
+      "imageSha256": "e2587fa343ef9cf1c72cb78dbf384137ca72ec23fc35edf4d23cc8d9b5ba1572",
+      "stepPath": "step/dipole-trap3-r1/MIRROR_1INCH_LOCAL.step"
+    },
+    "opticalGeometryEvidence": {
+      "referencePointWorldMm": [
+        0,
+        0,
+        62.5
+      ],
+      "planeNormalWorld": [
+        0.5907095830851898,
+        -0.8068842472444986,
+        0
+      ],
+      "referenceKind": "front of D25.4 x 6 reference mirror",
+      "geometricReferenceOnly": false
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "11aa1f491aefa65cb80937285063a205ba94ab656ab6956578700dd47955bb68",
+      "renderRole": "complete",
+      "imageSha256": "e2587fa343ef9cf1c72cb78dbf384137ca72ec23fc35edf4d23cc8d9b5ba1572"
+    },
+    "note": "预定角度已编码在模型；板上安装时rotationDeg=0，不再额外旋转。",
+    "status": "本地CAD核验通过；未实物试装",
+    "opticalDefaults": {
+      "elementType": "mirror",
+      "inserted": true,
+      "configured": false
+    }
+  },
+  "releaseStage": "engineering-review",
+  "bundleStatus": "complete",
+  "sourceOnshapeStatus": "NOT_UPLOADED",
+  "notes": "完整模块R2的预装光学子件；原R1机械几何不变。镜片已安装，具体型号、镀膜与光学参数待实测确认。",
+  "sourceUrl": "",
+  "publicationScope": {
+    "website": true,
+    "localEditor": true,
+    "onshapeUploaded": false,
+    "globalMachiningAtlasIncluded": false,
+    "physicalTrial": false
+  },
+  "fastUpload": {
+    "schema": "zzlab-fast-kit-upload-v1",
+    "packageId": "dipole-trap3-complete-module-r2-20261019",
+    "mode": "reviewed-module-intake",
+    "atlasIncluded": false,
+    "onshapeUploaded": false,
+    "sourceZipSha256": "c8e996df594c96d977448942055fb1048de60775c7ba0047fd87a5747283b0d9"
+  },
+  "status": "工程审核版 · 尚未实物试装",
+  "description": "来自用户提供的 Dipole Trap 3 完整模块 R2；镜片已预装，实际型号和镀膜仍待确认。",
+  "id": "dpt3-mirror250-r1"
+}

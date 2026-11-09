@@ -1,0 +1,77 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "servo-pd-bilateral-50-r3",
+  "files": [
+    {
+      "path": "cad/22f8a55405e99a10b2dabbf5bb0f9842c0605ff04e7a8df0333e2e82c34f9685.step",
+      "stored": "library/assets/sha256/22/22f8a55405e99a10b2dabbf5bb0f9842c0605ff04e7a8df0333e2e82c34f9685.step",
+      "sha256": "22f8a55405e99a10b2dabbf5bb0f9842c0605ff04e7a8df0333e2e82c34f9685",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/asset-servo-pd-bilateral-50-r3-0__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/22/22f8a55405e99a10b2dabbf5bb0f9842c0605ff04e7a8df0333e2e82c34f9685.step"
+      ]
+    },
+    {
+      "path": "rendering/8bb9463d1db60174c5a1361788344b4dc32dd01da14bd0e79edf8e0ed258565f.svg",
+      "stored": "library/assets/sha256/8b/8bb9463d1db60174c5a1361788344b4dc32dd01da14bd0e79edf8e0ed258565f.svg",
+      "sha256": "8bb9463d1db60174c5a1361788344b4dc32dd01da14bd0e79edf8e0ed258565f",
+      "originalReferences": [
+        "topviews/servo-pd-bilateral-50-r3__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/8b/8bb9463d1db60174c5a1361788344b4dc32dd01da14bd0e79edf8e0ed258565f.svg"
+      ]
+    },
+    {
+      "path": "rendering/b32aaf914c43cc29decbd945d05a6efcad0220fd6e6482d3de904a651969dab4.png",
+      "stored": "library/assets/sha256/b3/b32aaf914c43cc29decbd945d05a6efcad0220fd6e6482d3de904a651969dab4.png",
+      "sha256": "b32aaf914c43cc29decbd945d05a6efcad0220fd6e6482d3de904a651969dab4",
+      "originalReferences": [
+        "topviews/servo-pd-bilateral-50-r3.png"
+      ],
+      "sources": [
+        "library/assets/sha256/b3/b32aaf914c43cc29decbd945d05a6efcad0220fd6e6482d3de904a651969dab4.png"
+      ]
+    },
+    {
+      "path": "cad/d979f2370c94bca7dc7c27c99aa4f6852b715c2248420c37a8ebd2637aba5cf1.step",
+      "stored": "library/assets/sha256/d9/d979f2370c94bca7dc7c27c99aa4f6852b715c2248420c37a8ebd2637aba5cf1.step",
+      "sha256": "d979f2370c94bca7dc7c27c99aa4f6852b715c2248420c37a8ebd2637aba5cf1",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/servo-pd-bilateral-50-r3__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/d9/d979f2370c94bca7dc7c27c99aa4f6852b715c2248420c37a8ebd2637aba5cf1.step"
+      ]
+    },
+    {
+      "path": "cad/e71f7bb999c78a4d813ff5a03434fbb9e43a6c81ad94ada88615e66b6be0aa59.step",
+      "stored": "library/assets/sha256/e7/e71f7bb999c78a4d813ff5a03434fbb9e43a6c81ad94ada88615e66b6be0aa59.step",
+      "sha256": "e71f7bb999c78a4d813ff5a03434fbb9e43a6c81ad94ada88615e66b6be0aa59",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/asset-servo-pd-bilateral-50-r3-2__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/e7/e71f7bb999c78a4d813ff5a03434fbb9e43a6c81ad94ada88615e66b6be0aa59.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-post-metric-12p5mm-m1",
+    "hardware-iso4762-m2x5",
+    "hardware-iso4762-m3x8",
+    "hx-30hm-10hm-servo",
+    "metric-m1-post-pin-d2x8",
+    "pd-module-37p3-r1",
+    "servo-horn-a-d19",
+    "servo-pd-board-m6-pending",
+    "servo-pd-horn-center-screw-pending",
+    "servo-pd-m3-washer-0p5",
+    "servo-pd-rear-screws-pending",
+    "servo-pd-ug01-r3",
+    "servo-pd-ug02-50-r3",
+    "v7-iso4762-m4x16"
+  ]
+}

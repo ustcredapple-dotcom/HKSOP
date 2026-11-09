@@ -1,0 +1,770 @@
+{
+  "name": "半英寸腔镜架",
+  "category": "adjustable",
+  "variant": "R20 腔镜 / 62.5 mm",
+  "description": "胶头机米直接夹紧，保留真实镜面和安装基准。曲面腔镜的镀膜、基片折射率未提供；当前引擎不支持此曲面/厚基片追迹，不能按平面反射镜计算。",
+  "sourceUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/4f0417abc64c96fdb90480c1",
+  "sourceOnshapeStatus": "SOURCE_FIXED_VERSION; receiver library cloud copy pending",
+  "revision": "R3-B6R1-H12p5B4R2",
+  "components": [
+    {
+      "componentId": "custom-cm127-a1-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "ganter-gn9135-m3-3-ku",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-post-metric-12p5mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r3-18-r3-adapter",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r3-vendor-mt-am2s5",
+      "quantity": 1
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "optic",
+      "label": "Ø12.7 R20平凹腔镜（边厚4 mm）",
+      "type": "mirror",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 12.7
+    }
+  ],
+  "status": "加工审核版；待实物试装",
+  "releaseStage": "engineering-review",
+  "bundleStatus": "complete",
+  "bundleNote": "自制件STEP与三页加工/装配PDF齐全；光学片型号选填。",
+  "notes": "已确认腔镜边缘厚4 mm及0.5 mm平带；总装12.5 mm柱已替换为当前M4贯穿版本。柱侧紧固件未在源总装体现，待按18-MIR-A装配说明选配。  H12.5 B4-R2：普通H12.5柱底脚4 mm，其余普通柱保持各自规格；完整STEP已换柱回读，总高、孔位和全部器件姿态保持；未实物试装。",
+  "layout": {
+    "widthMm": 57.0,
+    "heightMm": 71.1,
+    "anchorXMm": 18.25,
+    "anchorYMm": 36.35,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "basePolygonsMm": [
+      [
+        {
+          "xMm": 17.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": -17.5,
+          "yMm": -17.5
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "collisionBoundsMm": {
+      "xMin": -17.65,
+      "yMin": -34.15,
+      "xMax": 38.15,
+      "yMax": 35.75
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -5.0,
+          "yMm": 19.588378
+        },
+        {
+          "xMm": -0.15,
+          "yMm": 19.588378
+        },
+        {
+          "xMm": -0.15,
+          "yMm": 19.300756
+        },
+        {
+          "xMm": 0.35,
+          "yMm": 19.300756
+        },
+        {
+          "xMm": 0.35343,
+          "yMm": 33.090237
+        },
+        {
+          "xMm": 0.406175,
+          "yMm": 33.355405
+        },
+        {
+          "xMm": 0.475239,
+          "yMm": 33.522142
+        },
+        {
+          "xMm": 0.569537,
+          "yMm": 33.676021
+        },
+        {
+          "xMm": 0.75306,
+          "yMm": 33.874555
+        },
+        {
+          "xMm": 0.899066,
+          "yMm": 33.980635
+        },
+        {
+          "xMm": 1.05987,
+          "yMm": 34.062568
+        },
+        {
+          "xMm": 1.231511,
+          "yMm": 34.118338
+        },
+        {
+          "xMm": 1.497054,
+          "yMm": 34.15
+        },
+        {
+          "xMm": 12.202946,
+          "yMm": 34.15
+        },
+        {
+          "xMm": 12.379918,
+          "yMm": 34.135956
+        },
+        {
+          "xMm": 12.555405,
+          "yMm": 34.093825
+        },
+        {
+          "xMm": 12.800934,
+          "yMm": 33.980635
+        },
+        {
+          "xMm": 13.013255,
+          "yMm": 33.813255
+        },
+        {
+          "xMm": 13.180635,
+          "yMm": 33.600934
+        },
+        {
+          "xMm": 13.262568,
+          "yMm": 33.44013
+        },
+        {
+          "xMm": 13.318338,
+          "yMm": 33.268489
+        },
+        {
+          "xMm": 13.35,
+          "yMm": 33.002946
+        },
+        {
+          "xMm": 13.35,
+          "yMm": 29.640559
+        },
+        {
+          "xMm": 13.522434,
+          "yMm": 29.468126
+        },
+        {
+          "xMm": 13.854145,
+          "yMm": 29.663375
+        },
+        {
+          "xMm": 14.106862,
+          "yMm": 29.779879
+        },
+        {
+          "xMm": 14.368387,
+          "yMm": 29.876361
+        },
+        {
+          "xMm": 14.635493,
+          "yMm": 29.951692
+        },
+        {
+          "xMm": 14.909788,
+          "yMm": 30.006307
+        },
+        {
+          "xMm": 15.188818,
+          "yMm": 30.039247
+        },
+        {
+          "xMm": 15.465433,
+          "yMm": 30.050116
+        },
+        {
+          "xMm": 15.804363,
+          "yMm": 30.033488
+        },
+        {
+          "xMm": 15.804363,
+          "yMm": 31.07051
+        },
+        {
+          "xMm": 16.146218,
+          "yMm": 31.41247
+        },
+        {
+          "xMm": 17.123759,
+          "yMm": 31.412459
+        },
+        {
+          "xMm": 17.123759,
+          "yMm": 34.602946
+        },
+        {
+          "xMm": 17.155421,
+          "yMm": 34.868489
+        },
+        {
+          "xMm": 17.248998,
+          "yMm": 35.122142
+        },
+        {
+          "xMm": 17.343296,
+          "yMm": 35.276021
+        },
+        {
+          "xMm": 17.460504,
+          "yMm": 35.413255
+        },
+        {
+          "xMm": 17.597738,
+          "yMm": 35.530463
+        },
+        {
+          "xMm": 17.751617,
+          "yMm": 35.624761
+        },
+        {
+          "xMm": 18.00527,
+          "yMm": 35.718338
+        },
+        {
+          "xMm": 18.270813,
+          "yMm": 35.75
+        },
+        {
+          "xMm": 36.276705,
+          "yMm": 35.75
+        },
+        {
+          "xMm": 36.542248,
+          "yMm": 35.718338
+        },
+        {
+          "xMm": 36.795901,
+          "yMm": 35.624761
+        },
+        {
+          "xMm": 37.020699,
+          "yMm": 35.474555
+        },
+        {
+          "xMm": 37.204222,
+          "yMm": 35.276021
+        },
+        {
+          "xMm": 37.29852,
+          "yMm": 35.122142
+        },
+        {
+          "xMm": 37.367584,
+          "yMm": 34.955405
+        },
+        {
+          "xMm": 37.409715,
+          "yMm": 34.779918
+        },
+        {
+          "xMm": 37.423759,
+          "yMm": 34.602946
+        },
+        {
+          "xMm": 37.423759,
+          "yMm": 10.15
+        },
+        {
+          "xMm": 38.15,
+          "yMm": 10.15
+        },
+        {
+          "xMm": 38.15,
+          "yMm": -10.15
+        },
+        {
+          "xMm": 37.423759,
+          "yMm": -10.15
+        },
+        {
+          "xMm": 37.423759,
+          "yMm": -33.002907
+        },
+        {
+          "xMm": 37.392097,
+          "yMm": -33.26845
+        },
+        {
+          "xMm": 37.298519,
+          "yMm": -33.522101
+        },
+        {
+          "xMm": 37.148314,
+          "yMm": -33.746899
+        },
+        {
+          "xMm": 36.94978,
+          "yMm": -33.93042
+        },
+        {
+          "xMm": 36.7959,
+          "yMm": -34.024717
+        },
+        {
+          "xMm": 36.629164,
+          "yMm": -34.093781
+        },
+        {
+          "xMm": 36.453677,
+          "yMm": -34.135912
+        },
+        {
+          "xMm": 36.276747,
+          "yMm": -34.15
+        },
+        {
+          "xMm": 18.270771,
+          "yMm": -34.15
+        },
+        {
+          "xMm": 18.093841,
+          "yMm": -34.135912
+        },
+        {
+          "xMm": 17.918354,
+          "yMm": -34.093781
+        },
+        {
+          "xMm": 17.751618,
+          "yMm": -34.024717
+        },
+        {
+          "xMm": 17.526819,
+          "yMm": -33.874512
+        },
+        {
+          "xMm": 17.399204,
+          "yMm": -33.746899
+        },
+        {
+          "xMm": 17.293124,
+          "yMm": -33.600893
+        },
+        {
+          "xMm": 17.179934,
+          "yMm": -33.355365
+        },
+        {
+          "xMm": 17.137803,
+          "yMm": -33.179879
+        },
+        {
+          "xMm": 17.123759,
+          "yMm": -33.002907
+        },
+        {
+          "xMm": 17.123759,
+          "yMm": -31.412459
+        },
+        {
+          "xMm": 16.146218,
+          "yMm": -31.41247
+        },
+        {
+          "xMm": 15.804363,
+          "yMm": -31.07051
+        },
+        {
+          "xMm": 15.804363,
+          "yMm": -29.759232
+        },
+        {
+          "xMm": 15.424182,
+          "yMm": -29.813355
+        },
+        {
+          "xMm": 15.050094,
+          "yMm": -29.823447
+        },
+        {
+          "xMm": 14.765781,
+          "yMm": -29.803095
+        },
+        {
+          "xMm": 14.512205,
+          "yMm": -29.763523
+        },
+        {
+          "xMm": 14.002027,
+          "yMm": -29.621189
+        },
+        {
+          "xMm": 13.67027,
+          "yMm": -29.479226
+        },
+        {
+          "xMm": 13.35,
+          "yMm": -29.295935
+        },
+        {
+          "xMm": 13.347523,
+          "yMm": -31.001484
+        },
+        {
+          "xMm": 13.321233,
+          "yMm": -31.423641
+        },
+        {
+          "xMm": 13.256386,
+          "yMm": -31.956104
+        },
+        {
+          "xMm": 13.130463,
+          "yMm": -32.176021
+        },
+        {
+          "xMm": 12.94694,
+          "yMm": -32.374555
+        },
+        {
+          "xMm": 12.722142,
+          "yMm": -32.524761
+        },
+        {
+          "xMm": 12.468489,
+          "yMm": -32.618338
+        },
+        {
+          "xMm": 12.202946,
+          "yMm": -32.65
+        },
+        {
+          "xMm": 1.497054,
+          "yMm": -32.65
+        },
+        {
+          "xMm": 1.320082,
+          "yMm": -32.635956
+        },
+        {
+          "xMm": 1.144595,
+          "yMm": -32.593825
+        },
+        {
+          "xMm": 0.977858,
+          "yMm": -32.524761
+        },
+        {
+          "xMm": 0.823979,
+          "yMm": -32.430463
+        },
+        {
+          "xMm": 0.686745,
+          "yMm": -32.313255
+        },
+        {
+          "xMm": 0.569537,
+          "yMm": -32.176021
+        },
+        {
+          "xMm": 0.475239,
+          "yMm": -32.022142
+        },
+        {
+          "xMm": 0.406175,
+          "yMm": -31.855405
+        },
+        {
+          "xMm": 0.35343,
+          "yMm": -31.590236
+        },
+        {
+          "xMm": 0.35,
+          "yMm": -25.05879
+        },
+        {
+          "xMm": -0.15,
+          "yMm": -25.05879
+        },
+        {
+          "xMm": -0.15,
+          "yMm": -25.139497
+        },
+        {
+          "xMm": -5.0,
+          "yMm": -25.139497
+        },
+        {
+          "xMm": -5.0,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -17.65,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -17.65,
+          "yMm": 17.65
+        },
+        {
+          "xMm": -5.0,
+          "yMm": 17.65
+        }
+      ]
+    ],
+    "topViewPath": "topviews/cavity-mirror-127-r3__H12p5_B4_R2.svg",
+    "topViewUrl": "./topviews/cavity-mirror-127-r3__H12p5_B4_R2.svg",
+    "placementAllowed": true,
+    "minimumAlignedMountingHoles": 4,
+    "nominalOpticalHeightMm": 62.5,
+    "opticalAxisHeightMm": 62.5,
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalSurfaceAngleDeg": 90,
+    "opticalDatumVerified": true,
+    "collisionGeometryVersion": "thin-clamps-r3-20261010",
+    "status": "真实STEP投影和25 mm安装孔群已核验",
+    "note": "安装锚点为正式公制柱中心；四个Ø6.4孔位于±12.5 mm；轮廓按真实CAD投影。",
+    "opticalAxisHeightSource": "原R3冻结总装读回；柱高与机加工件高度链分别核验。",
+    "opticalClearApertureMm": 11.7,
+    "opticalType": "unsupported",
+    "opticalSimulationNote": "曲面腔镜的镀膜、基片折射率未提供；当前引擎不支持此曲面/厚基片追迹，不能按平面反射镜计算。",
+    "opticalDefaults": {
+      "elementType": "unsupported",
+      "inserted": true,
+      "configured": true,
+      "clearApertureMm": 11.7
+    },
+    "opticalInteraction": {
+      "format": "zzlab-optical-interaction",
+      "version": 1,
+      "model": "planar",
+      "onNoMatch": "block",
+      "heightToleranceMm": 0.1,
+      "inputs": [
+        {
+          "id": "optic",
+          "steps": [
+            {
+              "op": "block",
+              "reason": "曲面腔镜的镀膜、基片折射率未提供；当前引擎不支持此曲面/厚基片追迹，不能按平面反射镜计算。"
+            }
+          ]
+        }
+      ]
+    },
+    "opticalGeometryEvidence": {
+      "coordinateFrame": "world X right / Y up / Z height",
+      "referencePointWorldMm": [
+        0,
+        0,
+        62.5
+      ],
+      "planeNormalWorld": [
+        -1,
+        0,
+        0
+      ],
+      "referenceKind": "rear planar mechanical datum; curved front is not coincident",
+      "coatingIdentityVerified": false,
+      "sourceStepSha256": "e1c31edb4304ceb035f84b3d9aa040b1e4d9fc59c81961d3f0656724741da152",
+      "physicalTrialCompleted": false,
+      "cavityMirror": {
+        "status": "user-confirmed",
+        "date": "2026-10-10",
+        "edgeThicknessMm": 4,
+        "flatOuterSupportBandMm": 0.5,
+        "source": "Current user explicit reply",
+        "note": "Supersedes only the two geometry assumptions in original R3 documents; source originals unchanged. Coating, holding load and physical fit are not confirmed.",
+        "radiusMm": 20,
+        "diameterMm": 12.7,
+        "centerThicknessMm": 3.1253104549965407,
+        "frontVertexXMm": -3.1253104549965407,
+        "backPlaneXMm": 0
+      }
+    },
+    "geometryEvidence": {
+      "sourceStep": "step/standard-post-h12p5-b4-r2/assemblies/cavity-mirror-127-r3__H12p5_B4_R2.step",
+      "sourceSha256": "e1c31edb4304ceb035f84b3d9aa040b1e4d9fc59c81961d3f0656724741da152",
+      "excludedReferences": [
+        "objective collision envelope"
+      ],
+      "cadFrameAlreadyKitLocal": true,
+      "sourceToKit": {
+        "matrixRows": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "translationMm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "previousProjectionSource": {
+        "sourceStep": "step/thin-clamps-r3/CM127_R3_现行M4柱_网站总装.step",
+        "sourceSha256": "5ea75d3be77e91f5b3be7c8207868c9434a6e2da05dc59953488441b7e8ced12"
+      },
+      "imageSha256": "decf75272f429df5b992d366241c32c242c345bb6bb995f3ec3f1aa10def9f7f",
+      "partCount": 7,
+      "triangleCount": 150416,
+      "meshDeflectionMm": 0.035,
+      "postBaseRevision": {
+        "revision": "H12p5-B4-R2",
+        "componentIds": [
+          "custom-post-metric-12p5mm-m1"
+        ],
+        "baseThicknessByComponentId": {
+          "custom-post-metric-12p5mm-m1": 4
+        },
+        "nominalAndOpticalHeightsPreserved": true,
+        "geometryStatus": "passed",
+        "physicalAssemblyAccepted": false,
+        "previousAssemblySha256": "a2bbf2c0aa61298b96514352a6fb08ba831fde33e23f132a23d04e165cca6a05",
+        "currentAssemblySha256": "e1c31edb4304ceb035f84b3d9aa040b1e4d9fc59c81961d3f0656724741da152",
+        "replacementReportSha256": "a1430b7f04c23380eb0cd393ba3be72b5d632b63e4f130739b4e070949e34add",
+        "originalEntitiesAndPosesPreserved": true
+      },
+      "sourceStepSha256": "e1c31edb4304ceb035f84b3d9aa040b1e4d9fc59c81961d3f0656724741da152",
+      "baseThicknessByComponentId": {
+        "custom-post-metric-12p5mm-m1": 4
+      }
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "e1c31edb4304ceb035f84b3d9aa040b1e4d9fc59c81961d3f0656724741da152",
+      "imageSha256": "decf75272f429df5b992d366241c32c242c345bb6bb995f3ec3f1aa10def9f7f",
+      "revision": "H12p5-B4-R2",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null,
+      "projectionReportSha256": "fe27038bb613432bb1402e662a0412ece132334419b5bb96b5f35439d78277bd"
+    },
+    "sourceUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/4f0417abc64c96fdb90480c1"
+  },
+  "assemblyAssets": [
+    {
+      "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/cavity-mirror-127-r3__H12p5_B4_R2.step",
+      "sha256": "e1c31edb4304ceb035f84b3d9aa040b1e4d9fc59c81961d3f0656724741da152",
+      "role": "nominal-CAD-reference-assembly",
+      "includesPlaceholderOptics": true,
+      "revision": "R3-current-M4-post"
+    }
+  ],
+  "manufacturingEvidence": {
+    "sourceVersionId": "6e2be70a92a934705469593a",
+    "sourceAssembly": {
+      "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/cavity-mirror-127-r3__H12p5_B4_R2.step",
+      "sha256": "e1c31edb4304ceb035f84b3d9aa040b1e4d9fc59c81961d3f0656724741da152"
+    },
+    "physicalTrialCompleted": false,
+    "receiverDerivation": "Current M4 through post substituted; reference objective excluded"
+  },
+  "postBaseRevision": {
+    "revision": "H12p5-B4-R2",
+    "componentIds": [
+      "custom-post-metric-12p5mm-m1"
+    ],
+    "baseThicknessByComponentId": {
+      "custom-post-metric-12p5mm-m1": 4
+    },
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "physicalAssemblyAccepted": false,
+    "previousAssemblySha256": "a2bbf2c0aa61298b96514352a6fb08ba831fde33e23f132a23d04e165cca6a05",
+    "currentAssemblySha256": "e1c31edb4304ceb035f84b3d9aa040b1e4d9fc59c81961d3f0656724741da152",
+    "replacementReportSha256": "a1430b7f04c23380eb0cd393ba3be72b5d632b63e4f130739b4e070949e34add",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "assemblyReference": {
+    "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/cavity-mirror-127-r3__H12p5_B4_R2.step",
+    "sourceStepSha256": "e1c31edb4304ceb035f84b3d9aa040b1e4d9fc59c81961d3f0656724741da152",
+    "revision": "R3-B6R1-H12p5B4R2",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "cloudUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/4f0417abc64c96fdb90480c1",
+    "cloudStatus": "frozen-independent-assembly-readback-pending"
+  },
+  "cloudReference": {
+    "batch": 4,
+    "documentId": "66b198de06cefdf0be97875b",
+    "workspaceId": "048790c4e7cccc432b78d839",
+    "sourceUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/4f0417abc64c96fdb90480c1",
+    "status": "frozen-independent-assembly-readback-pending",
+    "observation": "Onshape notification panel and folder list via IAB",
+    "strictReadbackComplete": false,
+    "active": false,
+    "current": true,
+    "sourceStepSha256": "e1c31edb4304ceb035f84b3d9aa040b1e4d9fc59c81961d3f0656724741da152",
+    "automaticCloudReuseAllowed": false,
+    "independentAssemblyElementVerified": true,
+    "physicalAssemblyAccepted": false,
+    "versionId": "f7760018eec7aecfe4fe9762",
+    "elementId": "4f0417abc64c96fdb90480c1",
+    "elementType": "Assembly",
+    "versionFrozen": true,
+    "uiEvidence": {
+      "path": null,
+      "sha256": "9572a243eaa463b4784ac014b7247c4c8d819942ef561ffeba484bd117acfb5f"
+    },
+    "checkedAt": "2026-10-28T01:54:56.736608+08:00"
+  },
+  "id": "cavity-mirror-127-r3"
+}

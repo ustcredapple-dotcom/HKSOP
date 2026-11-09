@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "hardware-txyfixed-iso4762-m4x12",
+  "revision": "source-snapshot",
+  "displayName": "ISO4762 M4×12",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/hardware-txyfixed-iso4762-m4x12.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

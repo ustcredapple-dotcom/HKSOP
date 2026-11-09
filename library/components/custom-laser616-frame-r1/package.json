@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-laser616-frame-r1",
+  "revision": "R1",
+  "displayName": "616 nm 侧光口爬架 LF616",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-laser616-frame-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

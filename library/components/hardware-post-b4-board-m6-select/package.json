@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "hardware-post-b4-board-m6-select",
+  "revision": "source-snapshot",
+  "displayName": "B4柱底固定M6螺钉 · 长度按母板牙深选择",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/hardware-post-b4-board-m6-select.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

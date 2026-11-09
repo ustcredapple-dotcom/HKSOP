@@ -1,0 +1,15 @@
+{
+  "standardLibrary": true,
+  "customProjects": [
+    "一分三光路",
+    "DoublePass"
+  ],
+  "step": true,
+  "topViewRendering": true,
+  "threeViewAndManufacturingDrawings": false,
+  "projectHistory": false,
+  "githubUpload": "authorized",
+  "futureVisibility": "private",
+  "githubRepository": "ustcredapple-dotcom/HKSOP",
+  "githubVisibility": "private"
+}

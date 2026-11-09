@@ -1,0 +1,1149 @@
+{
+  "name": "滨松 C15550-23UP 相机与双柱转接套件",
+  "category": "mechanical",
+  "variant": "87.5 mm 名义光高 / R4实际机身 / R2加工件",
+  "description": "双柱支撑、侧面锁紧；整装包含用户提供的实际相机CAD。qCMOS / ORCA-Quest IQ。",
+  "components": [
+    {
+      "componentId": "custom-35-hq-b-r2",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-35-hq-c-r2",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-post-metric-12p5mm-m1",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-dowel-d2x10",
+      "quantity": 2
+    },
+    {
+      "componentId": "new-hardware-ff9fb49c865c",
+      "quantity": 2
+    },
+    {
+      "componentId": "new-hardware-f0579b934c7c",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-stainless-gap-shim-select",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-m6-board-length-select",
+      "quantity": 8
+    },
+    {
+      "componentId": "hardware-m6x8-camera-trial",
+      "quantity": 2
+    },
+    {
+      "componentId": "new-hardware-1d23c1ca342d",
+      "quantity": 4
+    },
+    {
+      "componentId": "purchased-camera-c15550-23up",
+      "quantity": 1
+    }
+  ],
+  "opticalSlots": [],
+  "layout": {
+    "topViewPath": "topviews/camera-c15550-adapter-r2__H12p5_B4_R2.svg",
+    "topViewUrl": "./topviews/camera-c15550-adapter-r2__H12p5_B4_R2.svg",
+    "widthMm": 116,
+    "heightMm": 157,
+    "anchorXMm": 58,
+    "anchorYMm": 137,
+    "placementAllowed": true,
+    "mechanicalOnly": true,
+    "opticalDatumVerified": false,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "xMax": 17.5,
+      "yMin": -17.5,
+      "yMax": 117.5
+    },
+    "collisionBoundsMm": {
+      "xMin": -55.000000000001606,
+      "yMin": -17.5460001,
+      "xMax": 55.00000010000001,
+      "yMax": 134.07400000000004
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -48.099998,
+          "yMm": -12.426
+        },
+        {
+          "xMm": -50.392296,
+          "yMm": -12.410586
+        },
+        {
+          "xMm": -51.167229,
+          "yMm": -12.287849
+        },
+        {
+          "xMm": -51.913418,
+          "yMm": -12.045398
+        },
+        {
+          "xMm": -52.269951,
+          "yMm": -11.881033
+        },
+        {
+          "xMm": -52.938927,
+          "yMm": -11.471085
+        },
+        {
+          "xMm": -53.535534,
+          "yMm": -10.961534
+        },
+        {
+          "xMm": -54.045086,
+          "yMm": -10.364926
+        },
+        {
+          "xMm": -54.263203,
+          "yMm": -10.038493
+        },
+        {
+          "xMm": -54.455032,
+          "yMm": -9.695952
+        },
+        {
+          "xMm": -54.755283,
+          "yMm": -8.971085
+        },
+        {
+          "xMm": -54.938442,
+          "yMm": -8.208173
+        },
+        {
+          "xMm": -54.984585,
+          "yMm": -7.818295
+        },
+        {
+          "xMm": -54.999077,
+          "yMm": -2.702462
+        },
+        {
+          "xMm": -54.912132,
+          "yMm": -2.513868
+        },
+        {
+          "xMm": -54.814804,
+          "yMm": -2.448836
+        },
+        {
+          "xMm": -54.700001,
+          "yMm": -2.426
+        },
+        {
+          "xMm": -55.0,
+          "yMm": -2.426
+        },
+        {
+          "xMm": -54.999901,
+          "yMm": 116.073997
+        },
+        {
+          "xMm": -54.5,
+          "yMm": 116.073997
+        },
+        {
+          "xMm": -54.5,
+          "yMm": 116.573997
+        },
+        {
+          "xMm": -54.723537,
+          "yMm": 116.574928
+        },
+        {
+          "xMm": -54.836197,
+          "yMm": 116.606697
+        },
+        {
+          "xMm": -54.942703,
+          "yMm": 116.697662
+        },
+        {
+          "xMm": -54.991711,
+          "yMm": 116.803963
+        },
+        {
+          "xMm": -55.0,
+          "yMm": 119.073997
+        },
+        {
+          "xMm": -54.938442,
+          "yMm": 119.856171
+        },
+        {
+          "xMm": -54.755283,
+          "yMm": 120.619087
+        },
+        {
+          "xMm": -54.455032,
+          "yMm": 121.343956
+        },
+        {
+          "xMm": -54.045086,
+          "yMm": 122.012924
+        },
+        {
+          "xMm": -53.535534,
+          "yMm": 122.609535
+        },
+        {
+          "xMm": -52.938927,
+          "yMm": 123.119087
+        },
+        {
+          "xMm": -52.612492,
+          "yMm": 123.337204
+        },
+        {
+          "xMm": -51.913418,
+          "yMm": 123.693398
+        },
+        {
+          "xMm": -51.167229,
+          "yMm": 123.935852
+        },
+        {
+          "xMm": -50.782173,
+          "yMm": 124.012444
+        },
+        {
+          "xMm": -50.0,
+          "yMm": 124.073997
+        },
+        {
+          "xMm": -43.0,
+          "yMm": 124.084
+        },
+        {
+          "xMm": -43.0,
+          "yMm": 124.1605
+        },
+        {
+          "xMm": -42.386501,
+          "yMm": 124.774002
+        },
+        {
+          "xMm": -41.549999,
+          "yMm": 124.774002
+        },
+        {
+          "xMm": -41.549999,
+          "yMm": 130.074005
+        },
+        {
+          "xMm": -40.349998,
+          "yMm": 130.074005
+        },
+        {
+          "xMm": -40.349998,
+          "yMm": 132.074005
+        },
+        {
+          "xMm": -41.0,
+          "yMm": 132.074005
+        },
+        {
+          "xMm": -41.0,
+          "yMm": 134.074005
+        },
+        {
+          "xMm": -31.0,
+          "yMm": 134.074005
+        },
+        {
+          "xMm": -31.0,
+          "yMm": 132.074005
+        },
+        {
+          "xMm": -31.65,
+          "yMm": 132.074005
+        },
+        {
+          "xMm": -31.65,
+          "yMm": 130.074005
+        },
+        {
+          "xMm": -30.450001,
+          "yMm": 130.074005
+        },
+        {
+          "xMm": -30.450001,
+          "yMm": 126.236648
+        },
+        {
+          "xMm": -30.407345,
+          "yMm": 126.267015
+        },
+        {
+          "xMm": -30.407345,
+          "yMm": 126.573997
+        },
+        {
+          "xMm": -30.0,
+          "yMm": 126.573997
+        },
+        {
+          "xMm": -30.0,
+          "yMm": 127.073997
+        },
+        {
+          "xMm": -29.075001,
+          "yMm": 127.073997
+        },
+        {
+          "xMm": -29.075001,
+          "yMm": 130.973999
+        },
+        {
+          "xMm": -28.970842,
+          "yMm": 131.061615
+        },
+        {
+          "xMm": -28.867619,
+          "yMm": 131.210495
+        },
+        {
+          "xMm": -28.806662,
+          "yMm": 131.473999
+        },
+        {
+          "xMm": -28.834015,
+          "yMm": 131.653091
+        },
+        {
+          "xMm": -28.889112,
+          "yMm": 131.777557
+        },
+        {
+          "xMm": -29.075001,
+          "yMm": 131.973999
+        },
+        {
+          "xMm": -29.075001,
+          "yMm": 133.173996
+        },
+        {
+          "xMm": -28.775,
+          "yMm": 133.473999
+        },
+        {
+          "xMm": -25.225,
+          "yMm": 133.473999
+        },
+        {
+          "xMm": -24.924999,
+          "yMm": 133.173996
+        },
+        {
+          "xMm": -24.924999,
+          "yMm": 131.973999
+        },
+        {
+          "xMm": -25.110888,
+          "yMm": 131.777557
+        },
+        {
+          "xMm": -25.165985,
+          "yMm": 131.653091
+        },
+        {
+          "xMm": -25.193338,
+          "yMm": 131.473999
+        },
+        {
+          "xMm": -25.132381,
+          "yMm": 131.210495
+        },
+        {
+          "xMm": -25.029158,
+          "yMm": 131.061615
+        },
+        {
+          "xMm": -24.924999,
+          "yMm": 130.973999
+        },
+        {
+          "xMm": -24.924999,
+          "yMm": 127.073997
+        },
+        {
+          "xMm": -24.0,
+          "yMm": 127.073997
+        },
+        {
+          "xMm": -24.0,
+          "yMm": 126.573997
+        },
+        {
+          "xMm": -23.592655,
+          "yMm": 126.573997
+        },
+        {
+          "xMm": -23.592655,
+          "yMm": 125.374001
+        },
+        {
+          "xMm": -23.5,
+          "yMm": 125.374001
+        },
+        {
+          "xMm": -23.5,
+          "yMm": 124.084
+        },
+        {
+          "xMm": -21.5,
+          "yMm": 124.084
+        },
+        {
+          "xMm": -21.5,
+          "yMm": 125.374001
+        },
+        {
+          "xMm": -21.407345,
+          "yMm": 125.374001
+        },
+        {
+          "xMm": -21.407345,
+          "yMm": 126.573997
+        },
+        {
+          "xMm": -21.0,
+          "yMm": 126.573997
+        },
+        {
+          "xMm": -21.0,
+          "yMm": 127.073997
+        },
+        {
+          "xMm": -20.075001,
+          "yMm": 127.073997
+        },
+        {
+          "xMm": -20.075001,
+          "yMm": 130.973999
+        },
+        {
+          "xMm": -19.970842,
+          "yMm": 131.061615
+        },
+        {
+          "xMm": -19.867619,
+          "yMm": 131.210495
+        },
+        {
+          "xMm": -19.806662,
+          "yMm": 131.473999
+        },
+        {
+          "xMm": -19.834015,
+          "yMm": 131.653091
+        },
+        {
+          "xMm": -19.889112,
+          "yMm": 131.777557
+        },
+        {
+          "xMm": -20.075001,
+          "yMm": 131.973999
+        },
+        {
+          "xMm": -20.075001,
+          "yMm": 133.173996
+        },
+        {
+          "xMm": -19.775,
+          "yMm": 133.473999
+        },
+        {
+          "xMm": -16.225,
+          "yMm": 133.473999
+        },
+        {
+          "xMm": -15.925,
+          "yMm": 133.173996
+        },
+        {
+          "xMm": -15.925,
+          "yMm": 131.973999
+        },
+        {
+          "xMm": -16.110888,
+          "yMm": 131.777557
+        },
+        {
+          "xMm": -16.165985,
+          "yMm": 131.653091
+        },
+        {
+          "xMm": -16.193338,
+          "yMm": 131.473999
+        },
+        {
+          "xMm": -16.132381,
+          "yMm": 131.210495
+        },
+        {
+          "xMm": -16.029158,
+          "yMm": 131.061615
+        },
+        {
+          "xMm": -15.925,
+          "yMm": 130.973999
+        },
+        {
+          "xMm": -15.925,
+          "yMm": 127.073997
+        },
+        {
+          "xMm": -15.0,
+          "yMm": 127.073997
+        },
+        {
+          "xMm": -15.0,
+          "yMm": 126.573997
+        },
+        {
+          "xMm": -14.592655,
+          "yMm": 126.573997
+        },
+        {
+          "xMm": -14.592655,
+          "yMm": 125.374001
+        },
+        {
+          "xMm": -14.5,
+          "yMm": 125.374001
+        },
+        {
+          "xMm": -14.5,
+          "yMm": 124.084
+        },
+        {
+          "xMm": -12.5,
+          "yMm": 124.084
+        },
+        {
+          "xMm": -12.5,
+          "yMm": 125.374001
+        },
+        {
+          "xMm": -12.407345,
+          "yMm": 125.374001
+        },
+        {
+          "xMm": -12.407345,
+          "yMm": 126.573997
+        },
+        {
+          "xMm": -12.0,
+          "yMm": 126.573997
+        },
+        {
+          "xMm": -12.0,
+          "yMm": 127.073997
+        },
+        {
+          "xMm": -11.075,
+          "yMm": 127.073997
+        },
+        {
+          "xMm": -11.075,
+          "yMm": 130.973999
+        },
+        {
+          "xMm": -10.970843,
+          "yMm": 131.061615
+        },
+        {
+          "xMm": -10.867618,
+          "yMm": 131.210495
+        },
+        {
+          "xMm": -10.806663,
+          "yMm": 131.473999
+        },
+        {
+          "xMm": -10.834015,
+          "yMm": 131.653091
+        },
+        {
+          "xMm": -10.889113,
+          "yMm": 131.777557
+        },
+        {
+          "xMm": -11.075,
+          "yMm": 131.973999
+        },
+        {
+          "xMm": -11.075,
+          "yMm": 133.173996
+        },
+        {
+          "xMm": -10.775,
+          "yMm": 133.473999
+        },
+        {
+          "xMm": -7.225,
+          "yMm": 133.473999
+        },
+        {
+          "xMm": -6.925,
+          "yMm": 133.173996
+        },
+        {
+          "xMm": -6.925,
+          "yMm": 131.973999
+        },
+        {
+          "xMm": -7.110887,
+          "yMm": 131.777557
+        },
+        {
+          "xMm": -7.165985,
+          "yMm": 131.653091
+        },
+        {
+          "xMm": -7.193337,
+          "yMm": 131.473999
+        },
+        {
+          "xMm": -7.132382,
+          "yMm": 131.210495
+        },
+        {
+          "xMm": -7.029157,
+          "yMm": 131.061615
+        },
+        {
+          "xMm": -6.925,
+          "yMm": 130.973999
+        },
+        {
+          "xMm": -6.925,
+          "yMm": 127.073997
+        },
+        {
+          "xMm": -6.0,
+          "yMm": 127.073997
+        },
+        {
+          "xMm": -6.0,
+          "yMm": 126.573997
+        },
+        {
+          "xMm": -5.592655,
+          "yMm": 126.573997
+        },
+        {
+          "xMm": -5.592655,
+          "yMm": 125.374001
+        },
+        {
+          "xMm": -5.5,
+          "yMm": 125.374001
+        },
+        {
+          "xMm": -5.5,
+          "yMm": 124.084
+        },
+        {
+          "xMm": -3.5,
+          "yMm": 124.084
+        },
+        {
+          "xMm": -3.5,
+          "yMm": 125.573997
+        },
+        {
+          "xMm": 3.5,
+          "yMm": 125.573997
+        },
+        {
+          "xMm": 3.5,
+          "yMm": 126.573997
+        },
+        {
+          "xMm": 8.5,
+          "yMm": 126.573997
+        },
+        {
+          "xMm": 8.5,
+          "yMm": 125.573997
+        },
+        {
+          "xMm": 9.5,
+          "yMm": 125.573997
+        },
+        {
+          "xMm": 9.5,
+          "yMm": 124.573997
+        },
+        {
+          "xMm": 11.762288,
+          "yMm": 124.567444
+        },
+        {
+          "xMm": 11.876335,
+          "yMm": 124.516708
+        },
+        {
+          "xMm": 11.967302,
+          "yMm": 124.410194
+        },
+        {
+          "xMm": 11.999075,
+          "yMm": 124.297539
+        },
+        {
+          "xMm": 12.0,
+          "yMm": 124.084
+        },
+        {
+          "xMm": 50.0,
+          "yMm": 124.073997
+        },
+        {
+          "xMm": 50.782173,
+          "yMm": 124.012444
+        },
+        {
+          "xMm": 51.545086,
+          "yMm": 123.829285
+        },
+        {
+          "xMm": 52.269951,
+          "yMm": 123.52903
+        },
+        {
+          "xMm": 52.938927,
+          "yMm": 123.119087
+        },
+        {
+          "xMm": 53.247242,
+          "yMm": 122.87603
+        },
+        {
+          "xMm": 53.802029,
+          "yMm": 122.321243
+        },
+        {
+          "xMm": 54.263203,
+          "yMm": 121.686493
+        },
+        {
+          "xMm": 54.455032,
+          "yMm": 121.343956
+        },
+        {
+          "xMm": 54.755283,
+          "yMm": 120.619087
+        },
+        {
+          "xMm": 54.861851,
+          "yMm": 120.241226
+        },
+        {
+          "xMm": 54.938442,
+          "yMm": 119.856171
+        },
+        {
+          "xMm": 55.0,
+          "yMm": 119.073997
+        },
+        {
+          "xMm": 54.991711,
+          "yMm": 116.803963
+        },
+        {
+          "xMm": 54.942703,
+          "yMm": 116.697662
+        },
+        {
+          "xMm": 54.836197,
+          "yMm": 116.606697
+        },
+        {
+          "xMm": 54.723537,
+          "yMm": 116.574928
+        },
+        {
+          "xMm": 54.5,
+          "yMm": 116.573997
+        },
+        {
+          "xMm": 54.5,
+          "yMm": 116.073997
+        },
+        {
+          "xMm": 55.0,
+          "yMm": 116.073997
+        },
+        {
+          "xMm": 55.0,
+          "yMm": -2.426
+        },
+        {
+          "xMm": 54.700001,
+          "yMm": -2.426
+        },
+        {
+          "xMm": 54.814804,
+          "yMm": -2.448836
+        },
+        {
+          "xMm": 54.912132,
+          "yMm": -2.513868
+        },
+        {
+          "xMm": 54.999077,
+          "yMm": -2.702462
+        },
+        {
+          "xMm": 55.0,
+          "yMm": -7.426
+        },
+        {
+          "xMm": 54.938442,
+          "yMm": -8.208173
+        },
+        {
+          "xMm": 54.755283,
+          "yMm": -8.971085
+        },
+        {
+          "xMm": 54.455032,
+          "yMm": -9.695952
+        },
+        {
+          "xMm": 54.045086,
+          "yMm": -10.364926
+        },
+        {
+          "xMm": 53.535534,
+          "yMm": -10.961534
+        },
+        {
+          "xMm": 52.938927,
+          "yMm": -11.471085
+        },
+        {
+          "xMm": 52.269951,
+          "yMm": -11.881033
+        },
+        {
+          "xMm": 51.545086,
+          "yMm": -12.181283
+        },
+        {
+          "xMm": 50.782173,
+          "yMm": -12.364442
+        },
+        {
+          "xMm": 50.392296,
+          "yMm": -12.410586
+        },
+        {
+          "xMm": 48.099998,
+          "yMm": -12.426
+        },
+        {
+          "xMm": 48.099998,
+          "yMm": -15.0
+        },
+        {
+          "xMm": 46.77924,
+          "yMm": -15.0
+        },
+        {
+          "xMm": 45.75,
+          "yMm": -16.023199
+        },
+        {
+          "xMm": 45.75,
+          "yMm": -16.746
+        },
+        {
+          "xMm": 45.450001,
+          "yMm": -17.046
+        },
+        {
+          "xMm": 44.72116,
+          "yMm": -17.046
+        },
+        {
+          "xMm": 44.218208,
+          "yMm": -17.546
+        },
+        {
+          "xMm": -44.218208,
+          "yMm": -17.546
+        },
+        {
+          "xMm": -44.72116,
+          "yMm": -17.046
+        },
+        {
+          "xMm": -45.450001,
+          "yMm": -17.046
+        },
+        {
+          "xMm": -45.75,
+          "yMm": -16.746
+        },
+        {
+          "xMm": -45.75,
+          "yMm": -16.023199
+        },
+        {
+          "xMm": -46.77924,
+          "yMm": -15.0
+        },
+        {
+          "xMm": -48.099998,
+          "yMm": -15.0
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 87.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 87.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 112.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 112.5
+      }
+    ],
+    "mountingHoleRadiusMm": 3.2,
+    "status": "真实STEP俯视 · R4实际相机",
+    "note": "R4采用用户提供的C15550-23UP实际CAD机身；保留R2加工件、H12.5 M2正式双柱及100mm柱距。名义光高87.5mm，保持正放。实际原底板M6孔轴为(±25,57.774)，底面Z24.5；实际前端面比旧外形代理前移0.020mm，真实硅面轴向位置仍待确认。已核CAD安装接口与机身/支撑无新增实体干涉；未含线缆、水管和实测操作空间，仍为试制审核，尚未实装与加工放行。",
+    "geometryEvidence": {
+      "sourceStep": "step/standard-post-h12p5-b4-r2/assemblies/camera-c15550-adapter-r2__H12p5_B4_R2.step",
+      "sourceSha256": "d3b17fa3278fadf83aab829d022886f304e68e8a97f66fc2aa6842e8386e1450",
+      "partCount": 5,
+      "postCount": 2,
+      "postRevision": "M2",
+      "coordinateFrame": "mm; front post axis XY0,0; board top Z0; +Y rear; back post Y100; +Z height",
+      "referenceAssembly": {
+        "assetKind": "actual-camera-full-assembly",
+        "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/camera-c15550-adapter-r2__H12p5_B4_R2.step",
+        "sha256": "d3b17fa3278fadf83aab829d022886f304e68e8a97f66fc2aa6842e8386e1450"
+      },
+      "physicalTrialCompleted": false,
+      "cameraBodyIncluded": true,
+      "imageSha256": "82abdab38ed5b94bb82d90f8476115cf968c6a284cab2c188c9db0d7aa6620b0",
+      "solidCount": 402,
+      "cameraBodyIsOemCad": null,
+      "outlineAccuracy": "Actual supplied STEP projection,0.035mm mesh and0.02mm contour simplification; cables/hoses not included.",
+      "cameraBodyIsReconstructed": false,
+      "sourceType": "user-supplied-actual-camera-CAD",
+      "previousProjectionSource": {
+        "sourceStep": "step/camera-actual-r4/35-HQ_R4_ACTUAL_CAMERA_FULL_ASSEMBLY.step",
+        "sourceSha256": "8711ed6a05ff0cea672bf7ece47d59ccb1cb793dd79e71416aa88aefe9bc37bd",
+        "imageSha256": "1e3e989a2e2485d81f96a83a0265725ceb96ab3ab4abb10a8bfede07072e603d",
+        "partCount": 5
+      },
+      "triangleCount": 614406,
+      "meshDeflectionMm": 0.035,
+      "postBaseRevision": {
+        "revision": "H12p5-B4-R2",
+        "componentIds": [
+          "custom-post-metric-12p5mm-m1"
+        ],
+        "baseThicknessByComponentId": {
+          "custom-post-metric-12p5mm-m1": 4
+        },
+        "nominalAndOpticalHeightsPreserved": true,
+        "geometryStatus": "passed",
+        "physicalAssemblyAccepted": false,
+        "previousAssemblySha256": "4d66204165eb100b0c7eda1cde1eb6dd0b1c3c63a720cbe70e6b39ac9a864879",
+        "currentAssemblySha256": "d3b17fa3278fadf83aab829d022886f304e68e8a97f66fc2aa6842e8386e1450",
+        "replacementReportSha256": "c4bdd7ad136289879985ad8c4f52745825c057167b51a5a0989ee82ad73f57cf",
+        "originalEntitiesAndPosesPreserved": true
+      },
+      "sourceStepSha256": "d3b17fa3278fadf83aab829d022886f304e68e8a97f66fc2aa6842e8386e1450",
+      "baseThicknessByComponentId": {
+        "custom-post-metric-12p5mm-m1": 4
+      }
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "d3b17fa3278fadf83aab829d022886f304e68e8a97f66fc2aa6842e8386e1450",
+      "imageSha256": "82abdab38ed5b94bb82d90f8476115cf968c6a284cab2c188c9db0d7aa6620b0",
+      "revision": "H12p5-B4-R2",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null,
+      "projectionReportSha256": "d685ea3b884df842420b1d2bdb37b7626ef8471a13ca8ab990b59157d55ec547"
+    },
+    "sourceUrl": "https://cad.onshape.com/documents/ce8e77762b7598a9ee96789b/v/7d6ea79005cc957bde5aa1a6/e/0e7538eadeda9844b83e1aff"
+  },
+  "mechanicalConfiguration": "upright-camera-reference-0deg",
+  "mechanicalRevision": {
+    "revision": "R4-ACTUAL-CAMERA-CAD",
+    "manufacturingRevision": "R2-TRIAL",
+    "assemblySha256": "8711ed6a05ff0cea672bf7ece47d59ccb1cb793dd79e71416aa88aefe9bc37bd",
+    "acceptanceStatus": "actual-cad-interface-reviewed",
+    "physicalTrialCompleted": false
+  },
+  "assemblyReference": {
+    "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/camera-c15550-adapter-r2__H12p5_B4_R2.step",
+    "sha256": "d3b17fa3278fadf83aab829d022886f304e68e8a97f66fc2aa6842e8386e1450",
+    "sourceStepSha256": "d3b17fa3278fadf83aab829d022886f304e68e8a97f66fc2aa6842e8386e1450",
+    "revision": "CURRENT-B6R1-H12p5B4R2",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "cloudUrl": "https://cad.onshape.com/documents/ce8e77762b7598a9ee96789b/v/7d6ea79005cc957bde5aa1a6/e/0e7538eadeda9844b83e1aff",
+    "cloudStatus": "frozen-independent-assembly-readback-pending"
+  },
+  "assemblyAssets": [
+    {
+      "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/camera-c15550-adapter-r2__H12p5_B4_R2.step",
+      "sha256": "d3b17fa3278fadf83aab829d022886f304e68e8a97f66fc2aa6842e8386e1450",
+      "role": "actual-camera-and-support-assembly",
+      "leafCount": 5,
+      "solidCount": 402,
+      "includesStandardFastenerSolids": false,
+      "includesOemCamera": null,
+      "includesUserSuppliedActualCamera": true,
+      "includesReconstructedCameraBody": false,
+      "sourceValidityWarnings": [],
+      "manufacturingUse": "相机采用用户实际CAD用于装配参考；自制件使用独立R2加工文件。"
+    }
+  ],
+  "cameraCompatibility": {
+    "model": "滨松 C15550-23UP",
+    "nominalOpticalHeightMm": 87.5,
+    "actualSensorPositionVerified": false,
+    "cameraBodyCadAvailable": true,
+    "nominalSensorPointMm": [
+      0,
+      0,
+      87.5
+    ],
+    "datumStatus": "trial-flange-proxy-assumption",
+    "cameraBodyCadSource": "user-supplied-actual-camera-CAD",
+    "cameraReferenceRevision": "R4",
+    "cameraBodyIsOemCad": null,
+    "cameraBodyIsReconstructed": false,
+    "sourceCameraStep": "step/camera-actual-r4/35-HQ_R4_USER_SUPPLIED_ACTUAL_CAMERA.step",
+    "sourceCameraSha256": "afbd9ea9e0135799cfddd4de3386f2589910055afe016f531aaedd14d49fa75d",
+    "modelIdentityBasis": "用户指定；文件产品名C15550-23UP匹配",
+    "sourceToWorld": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        -1,
+        -12.426
+      ],
+      [
+        0,
+        1,
+        0,
+        87.5
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "status": "试制审核 · 未实装 · 未加工放行",
+  "releaseStage": "engineering-review",
+  "productionReady": false,
+  "bundleStatus": "complete",
+  "bundleNote": "R4实际相机完整整装、原始CAD与4个R2加工件及打标资料；未实装、未加工放行。",
+  "notes": "R4采用用户提供的C15550-23UP实际CAD机身；保留R2加工件、H12.5 M2正式双柱及100mm柱距。名义光高87.5mm，保持正放。实际原底板M6孔轴为(±25,57.774)，底面Z24.5；实际前端面比旧外形代理前移0.020mm，真实硅面轴向位置仍待确认。已核CAD安装接口与机身/支撑无新增实体干涉；未含线缆、水管和实测操作空间，仍为试制审核，尚未实装与加工放行。  H12.5 B4-R2：普通H12.5柱底脚4 mm，其余普通柱保持各自规格；完整STEP已换柱回读，总高、孔位和全部器件姿态保持；未实物试装。",
+  "optionalNotes": [
+    "板侧M6螺丝按8孔记录，实际数量及长度按所用面包板选配；所有头部/长度/销配合须首件核对。",
+    "前销Ø2×10、后销Ø2×8不可混用。两侧0.10mm名义间隙逐处配不锈钢薄垫片。",
+    "相机外形已替换为用户提供实际CAD；线缆、水管、真实硅面与实物装配尚未核实。"
+  ],
+  "cloudReference": {
+    "batch": 1,
+    "documentId": "ce8e77762b7598a9ee96789b",
+    "workspaceId": "5a3ed02bf0c0c7618eda5a86",
+    "sourceUrl": "https://cad.onshape.com/documents/ce8e77762b7598a9ee96789b/v/7d6ea79005cc957bde5aa1a6/e/0e7538eadeda9844b83e1aff",
+    "status": "frozen-independent-assembly-readback-pending",
+    "observation": "Onshape notification panel and folder list via IAB",
+    "strictReadbackComplete": false,
+    "active": false,
+    "current": true,
+    "sourceStepSha256": "d3b17fa3278fadf83aab829d022886f304e68e8a97f66fc2aa6842e8386e1450",
+    "automaticCloudReuseAllowed": false,
+    "independentAssemblyElementVerified": true,
+    "physicalAssemblyAccepted": false,
+    "versionId": "7d6ea79005cc957bde5aa1a6",
+    "elementId": "0e7538eadeda9844b83e1aff",
+    "elementType": "Assembly",
+    "versionFrozen": true,
+    "uiEvidence": {
+      "path": null,
+      "sha256": "abcb83c96fd7d08b84a432fdc21ecba021d440d34cb6aa03990c541a7140572d"
+    },
+    "checkedAt": "2026-10-28T01:54:56.736608+08:00"
+  },
+  "sourceUrl": "https://cad.onshape.com/documents/ce8e77762b7598a9ee96789b/v/7d6ea79005cc957bde5aa1a6/e/0e7538eadeda9844b83e1aff",
+  "postBaseRevision": {
+    "revision": "H12p5-B4-R2",
+    "componentIds": [
+      "custom-post-metric-12p5mm-m1"
+    ],
+    "baseThicknessByComponentId": {
+      "custom-post-metric-12p5mm-m1": 4
+    },
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "physicalAssemblyAccepted": false,
+    "previousAssemblySha256": "4d66204165eb100b0c7eda1cde1eb6dd0b1c3c63a720cbe70e6b39ac9a864879",
+    "currentAssemblySha256": "d3b17fa3278fadf83aab829d022886f304e68e8a97f66fc2aa6842e8386e1450",
+    "replacementReportSha256": "c4bdd7ad136289879985ad8c4f52745825c057167b51a5a0989ee82ad73f57cf",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "id": "camera-c15550-adapter-r2"
+}

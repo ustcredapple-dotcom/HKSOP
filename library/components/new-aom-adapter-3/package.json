@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-aom-adapter-3",
+  "revision": "source-snapshot",
+  "displayName": "AOM两只相同压桥",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-aom-adapter-3.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

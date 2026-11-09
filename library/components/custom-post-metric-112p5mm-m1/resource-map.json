@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-post-metric-112p5mm-m1",
+  "files": [
+    {
+      "path": "cad/da7b6d45d18e6fb9e09287969429788f1b436b0f0b9cd7188f209f92feeee622.step",
+      "stored": "library/assets/sha256/da/da7b6d45d18e6fb9e09287969429788f1b436b0f0b9cd7188f209f92feeee622.step",
+      "sha256": "da7b6d45d18e6fb9e09287969429788f1b436b0f0b9cd7188f209f92feeee622",
+      "originalReferences": [
+        "step/universal-post-b6-r1/万能柱_H112.5mm_B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/da/da7b6d45d18e6fb9e09287969429788f1b436b0f0b9cd7188f209f92feeee622.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "motor-adapter-9",
+  "revision": "source-snapshot",
+  "displayName": "9mmM3toH2",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/motor-adapter-9.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

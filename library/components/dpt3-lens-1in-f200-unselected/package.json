@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "dpt3-lens-1in-f200-unselected",
+  "revision": "source-snapshot",
+  "displayName": "1 inch 透镜 · 目标f200 · 型号待选",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/dpt3-lens-1in-f200-unselected.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

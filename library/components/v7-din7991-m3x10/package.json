@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "v7-din7991-m3x10",
+  "revision": "source-snapshot",
+  "displayName": "DIN 7991 M3×0.5×10 沉头内六角螺钉",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/v7-din7991-m3x10.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

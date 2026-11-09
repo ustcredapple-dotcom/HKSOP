@@ -1,0 +1,54 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "rotated-motor-2-90-h2-coplanar-r1-08b83c3853",
+  "files": [
+    {
+      "path": "cad/28b3829668208d5d7ceae16c7bba5abe2d3d1c7cdf8709fc4806df963e304569.step",
+      "stored": "library/assets/sha256/28/28b3829668208d5d7ceae16c7bba5abe2d3d1c7cdf8709fc4806df963e304569.step",
+      "sha256": "28b3829668208d5d7ceae16c7bba5abe2d3d1c7cdf8709fc4806df963e304569",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/motor-2-90-h2-coplanar-r1__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/28/28b3829668208d5d7ceae16c7bba5abe2d3d1c7cdf8709fc4806df963e304569.step"
+      ]
+    },
+    {
+      "path": "cad/501c61f64d30367f0a90221c61beb622ebcc446673755f8470087bd416ee77db.step",
+      "stored": "library/assets/sha256/50/501c61f64d30367f0a90221c61beb622ebcc446673755f8470087bd416ee77db.step",
+      "sha256": "501c61f64d30367f0a90221c61beb622ebcc446673755f8470087bd416ee77db",
+      "originalReferences": [
+        "step/custom-rotation/UP12p5R+45.000-8918CA/完整总装.step"
+      ],
+      "sources": [
+        "library/assets/sha256/50/501c61f64d30367f0a90221c61beb622ebcc446673755f8470087bd416ee77db.step"
+      ]
+    },
+    {
+      "path": "rendering/e27faa9ef3925113025f2d13b35a10a08b915a9a03be20f74039403f6e5ab680.svg",
+      "stored": "library/assets/sha256/e2/e27faa9ef3925113025f2d13b35a10a08b915a9a03be20f74039403f6e5ab680.svg",
+      "sha256": "e27faa9ef3925113025f2d13b35a10a08b915a9a03be20f74039403f6e5ab680",
+      "originalReferences": [
+        "topviews/rotated-motor-2-90-h2-coplanar-r1-08b83c3853-full-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/e2/e27faa9ef3925113025f2d13b35a10a08b915a9a03be20f74039403f6e5ab680.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-motor-adapter-18-s2-r2",
+    "custom-motor-h2d2-b-r3",
+    "custom-motor-h2d2-l-r2",
+    "custom-motor-h2d2-s-r3",
+    "custom-rotpost-08b83c3853",
+    "encoder-servo",
+    "hardware-h2-r3-m2x10",
+    "hardware-h2-r3-m4-washer",
+    "hardware-h2-r3-m4x20",
+    "hardware-iso4762-m3x8",
+    "motor-adapter-m3",
+    "new-r3-vendor-mt-am2s5",
+    "v7-source-m4-nut"
+  ]
+}

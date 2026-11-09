@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-i53-t3-r3",
+  "files": [
+    {
+      "path": "cad/ed21f30f6c7b94d154d60c4651c123629dc795be89c5d3aa465ebdc77f1f295b.step",
+      "stored": "library/assets/sha256/ed/ed21f30f6c7b94d154d60c4651c123629dc795be89c5d3aa465ebdc77f1f295b.step",
+      "sha256": "ed21f30f6c7b94d154d60c4651c123629dc795be89c5d3aa465ebdc77f1f295b",
+      "originalReferences": [
+        "step/i532v3-r3/I53-T3_R3.step"
+      ],
+      "sources": [
+        "library/assets/sha256/ed/ed21f30f6c7b94d154d60c4651c123629dc795be89c5d3aa465ebdc77f1f295b.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

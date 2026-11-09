@@ -1,0 +1,32 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "mt-cube-pbs-1inch-vertical-r1",
+  "revision": "R1",
+  "displayName": "MT立方体PBS模块 · 1 inch · 竖直驱动 · H25 · R1",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/mt-cube-pbs-1inch-vertical-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-mcv1-r1",
+    "custom-post-metric-25mm-m1",
+    "hardware-iso4762-m6x12",
+    "lbtek-mt-csb1-purchased",
+    "metric-m1-post-pin-d2x8",
+    "mt-am1s5",
+    "new-r3-hardware-b7a3ea97ce89",
+    "v7-iso4762-m4x12"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "custom-motor-m2s-l-r2",
+  "name": "M2S-L · V2电动镜架独立加工件",
+  "model": "M2S-L",
+  "kind": "custom",
+  "unit": "件",
+  "status": "真实STEP及加工审核图；未投产",
+  "notes": "原V2支架改为四块独立5mm平板。实体、孔与刻字已作CAD审核；加工公差、实物工具、舵机牙型与摩擦锁紧仍待实验确认。",
+  "stepPath": "step/motor-slot-split-r2/M2S-L.step",
+  "drawingPath": null,
+  "dxfPath": null,
+  "sourceStepSha256": "7d936536b4f695acdca467fdd7a654a7e4088aa968be258ca8aa6311b4ce5124",
+  "sourceDrawingSha256": "42f65f90180d6ebef3726e9e0057027cb1787bc02348beb66363f1fa9db22cd0",
+  "sourceDxfSha256": "9571ccaed8588fd5db42f9fc68b803dcfec0a3d07638941c88cffccdb3041b2c",
+  "drawingRevision": "M2S-r2",
+  "drawingStatus": "engineering-review",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "6061 铝合金",
+    "surfaceTreatment": "黑色阳极氧化",
+    "profileId": "al6061",
+    "threadClass": "待实物确认",
+    "policyVersion": "source-specific-ms2-r2"
+  },
+  "manufacturingEvidence": {
+    "revision": "M2S-r2",
+    "sourceStepSha256": "7d936536b4f695acdca467fdd7a654a7e4088aa968be258ca8aa6311b4ce5124",
+    "drawingSha256": "42f65f90180d6ebef3726e9e0057027cb1787bc02348beb66363f1fa9db22cd0",
+    "dxfSha256": "9571ccaed8588fd5db42f9fc68b803dcfec0a3d07638941c88cffccdb3041b2c",
+    "pdfPages": 7,
+    "physicalTrialCompleted": false,
+    "mechanicalManifestSha256": "428e9f6d542bc6d3454303cdb147995a49717949e0e622040bf3e6e69ded0c85",
+    "singleSolid": true,
+    "materialBasis": "继承被修改V2支架6061黑阳极"
+  },
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "ca826a3ee7c3feb3b2a7af8b0dd757b453d9688b62ca5cd4d6b460f5fb7aea0d",
+  "drawingPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "06c8f447fa10500c626395f007772ebccfebd38c3b79a17630a6520b5ce300b9",
+      "currentPdfSha256": "42f65f90180d6ebef3726e9e0057027cb1787bc02348beb66363f1fa9db22cd0",
+      "annotatedPages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "db4fc9782c41e9829e59352d7157e975f90a3403ea9ba6a68fcf3c2b9a60e3d5",
+      "currentPdfSha256": "ca826a3ee7c3feb3b2a7af8b0dd757b453d9688b62ca5cd4d6b460f5fb7aea0d",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前 STEP 原字形及功能文字改用激光打标，完整轮廓与位置已提取核验。",
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

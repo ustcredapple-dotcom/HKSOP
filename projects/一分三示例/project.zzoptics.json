@@ -1,0 +1,1022 @@
+{
+  "format": "zzlab-optics-project",
+  "version": 1,
+  "requires": [
+    "zzlab-collision-overrides-v1",
+    "zzlab-metric-supports-v1"
+  ],
+  "metadata": {
+    "name": "一分三示例",
+    "notes": "399 nm机械布局；6套工术DR手动镜架采用33-DR R2双螺钉转接板；5套混合波片和4处FC/APC接头参考。机械版本以R7 STEP及assembly_config.json为准。\nHKSOP-github示例：保留布局及光学设置；不代表新的实物或制造验收。\n原附加说明：operatingWavelengthNm = 399 nm。\n原附加说明：mechanicalAttachmentManifest = assembly_config.json（原项目机械附件名，本示例不附带该文件）。",
+    "createdAt": "2026-10-06T07:46:36.318Z",
+    "updatedAt": "2026-11-03T13:40:16.128+08:00",
+    "opticalAxisTargetMm": 75
+  },
+  "catalogVersion": "2026-11-09.hksop-github-local-1",
+  "layout": {
+    "board": {
+      "widthMm": 900,
+      "heightMm": 450,
+      "pitchMm": 12.5,
+      "edgeOffsetMm": 12.5,
+      "thicknessMm": 12.5,
+      "holeType": "M6_through",
+      "thread": "M6x1.0",
+      "holeDiameterMm": 5,
+      "mountingHoles": []
+    },
+    "instances": [
+      {
+        "id": "shared-instance-3c7f6ae9-42d7-4707-b373-07ba8271bc00",
+        "kitId": "pbs-adjustable",
+        "xMm": 287.5,
+        "yMm": 175,
+        "rotationDeg": 270,
+        "boardId": "shared-board-9152c583-6322-4075-ac2f-f227f733e455",
+        "optics": {
+          "elementType": "pbs",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 45,
+          "fastAxisDeg": 0,
+          "retardanceDeg": 180,
+          "designWavelengthNm": 532,
+          "clearApertureMm": 25.4,
+          "pbsHandedness": "right",
+          "focalLengthMm": null,
+          "source": {
+            "enabled": false,
+            "wavelengthNm": 532,
+            "powerMw": 1,
+            "beamDiameterMm": 2,
+            "polarizationAngleDeg": 0,
+            "ellipticityDeg": 0,
+            "beamQualityM2": 1,
+            "directionAngleDeg": -90,
+            "polarizationType": "linear",
+            "wavefrontRadiusMm": null
+          }
+        }
+      },
+      {
+        "id": "shared-instance-5f14bb14-4ed3-43c0-ad7d-29172b458746",
+        "kitId": "fiber-coupling",
+        "xMm": 75,
+        "yMm": 25,
+        "rotationDeg": 180,
+        "boardId": "shared-board-9152c583-6322-4075-ac2f-f227f733e455"
+      },
+      {
+        "id": "shared-instance-2d21582a-0646-4f8f-aed4-5e94672c9bfa",
+        "kitId": "pbs-adjustable",
+        "xMm": 162.5,
+        "yMm": 175,
+        "rotationDeg": 270,
+        "boardId": "shared-board-9152c583-6322-4075-ac2f-f227f733e455",
+        "optics": {
+          "elementType": "pbs",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 45,
+          "fastAxisDeg": 0,
+          "retardanceDeg": 180,
+          "designWavelengthNm": 532,
+          "clearApertureMm": 25.4,
+          "pbsHandedness": "right",
+          "focalLengthMm": null,
+          "source": {
+            "enabled": false,
+            "wavelengthNm": 532,
+            "powerMw": 1,
+            "beamDiameterMm": 2,
+            "polarizationAngleDeg": 0,
+            "ellipticityDeg": 0,
+            "beamQualityM2": 1,
+            "directionAngleDeg": -90,
+            "polarizationType": "linear",
+            "wavefrontRadiusMm": null
+          }
+        }
+      },
+      {
+        "id": "shared-instance-25c22fc5-b77b-482a-9fd9-2b309cb1b099",
+        "kitId": "fiber-coupling",
+        "xMm": 200,
+        "yMm": 25,
+        "rotationDeg": 180,
+        "boardId": "shared-board-9152c583-6322-4075-ac2f-f227f733e455"
+      },
+      {
+        "id": "shared-instance-5f84408e-28dc-4f43-90fd-fb812d88d7af",
+        "kitId": "fiber-coupling",
+        "xMm": 325,
+        "yMm": 25,
+        "rotationDeg": 180,
+        "boardId": "shared-board-9152c583-6322-4075-ac2f-f227f733e455"
+      },
+      {
+        "id": "shared-instance-eddc1cac-4f0c-4bc4-9b87-6339d8b8258e",
+        "kitId": "fiber-coupling",
+        "xMm": 387.5,
+        "yMm": 175,
+        "rotationDeg": 270,
+        "boardId": "shared-board-9152c583-6322-4075-ac2f-f227f733e455",
+        "optics": {
+          "elementType": "coupler",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 0,
+          "fastAxisDeg": 0,
+          "retardanceDeg": 180,
+          "designWavelengthNm": 532,
+          "clearApertureMm": 25.4,
+          "pbsHandedness": "left",
+          "focalLengthMm": null,
+          "source": {
+            "enabled": true,
+            "wavelengthNm": 399,
+            "powerMw": 1,
+            "beamDiameterMm": 1,
+            "polarizationAngleDeg": 0,
+            "ellipticityDeg": 0,
+            "beamQualityM2": 1,
+            "directionAngleDeg": -90,
+            "polarizationType": "linear",
+            "wavefrontRadiusMm": null
+          }
+        }
+      },
+      {
+        "id": "shared-instance-c29eb133-b77f-4225-8cd6-3e2604139411",
+        "kitId": "kungshu-louc1-dr-manual-45-r1",
+        "xMm": 75,
+        "yMm": 87.5,
+        "rotationDeg": 180,
+        "boardId": "shared-board-9152c583-6322-4075-ac2f-f227f733e455",
+        "optics": {
+          "elementType": "mirror",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 135,
+          "fastAxisDeg": 0,
+          "retardanceDeg": 180,
+          "designWavelengthNm": 532,
+          "clearApertureMm": 25.4,
+          "pbsHandedness": "left",
+          "focalLengthMm": null,
+          "mirror": {
+            "mode": "ideal",
+            "model": "",
+            "samples": []
+          },
+          "source": {
+            "enabled": false,
+            "wavelengthNm": 532,
+            "powerMw": 1,
+            "beamDiameterMm": 2,
+            "polarizationAngleDeg": 0,
+            "ellipticityDeg": 0,
+            "beamQualityM2": 1,
+            "directionAngleDeg": -90,
+            "polarizationType": "linear",
+            "wavefrontRadiusMm": null
+          }
+        }
+      },
+      {
+        "id": "shared-instance-c497efbb-60b0-4d40-8380-886005aa8a11",
+        "kitId": "kungshu-louc1-dr-manual-45-r1",
+        "xMm": 37.5,
+        "yMm": 87.5,
+        "rotationDeg": 0,
+        "boardId": "shared-board-9152c583-6322-4075-ac2f-f227f733e455",
+        "optics": {
+          "elementType": "mirror",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 135,
+          "fastAxisDeg": 0,
+          "retardanceDeg": 180,
+          "designWavelengthNm": 532,
+          "clearApertureMm": 25.4,
+          "pbsHandedness": "left",
+          "focalLengthMm": null,
+          "mirror": {
+            "mode": "ideal",
+            "model": "",
+            "samples": []
+          },
+          "source": {
+            "enabled": false,
+            "wavelengthNm": 532,
+            "powerMw": 1,
+            "beamDiameterMm": 2,
+            "polarizationAngleDeg": 0,
+            "ellipticityDeg": 0,
+            "beamQualityM2": 1,
+            "directionAngleDeg": -90,
+            "polarizationType": "linear",
+            "wavefrontRadiusMm": null
+          }
+        }
+      },
+      {
+        "id": "shared-instance-84042ba4-f68d-4af4-9a5a-1d1e9849102f",
+        "kitId": "kungshu-louc1-dr-manual-45-r1",
+        "xMm": 200,
+        "yMm": 87.5,
+        "rotationDeg": 180,
+        "boardId": "shared-board-9152c583-6322-4075-ac2f-f227f733e455",
+        "optics": {
+          "elementType": "mirror",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 135,
+          "fastAxisDeg": 0,
+          "retardanceDeg": 180,
+          "designWavelengthNm": 532,
+          "clearApertureMm": 25.4,
+          "pbsHandedness": "left",
+          "focalLengthMm": null,
+          "mirror": {
+            "mode": "ideal",
+            "model": "",
+            "samples": []
+          },
+          "source": {
+            "enabled": false,
+            "wavelengthNm": 532,
+            "powerMw": 1,
+            "beamDiameterMm": 2,
+            "polarizationAngleDeg": 0,
+            "ellipticityDeg": 0,
+            "beamQualityM2": 1,
+            "directionAngleDeg": -90,
+            "polarizationType": "linear",
+            "wavefrontRadiusMm": null
+          }
+        }
+      },
+      {
+        "id": "shared-instance-26e4f166-a5a8-46c3-bb61-e0f2630540da",
+        "kitId": "kungshu-louc1-dr-manual-45-r1",
+        "xMm": 162.5,
+        "yMm": 87.5,
+        "rotationDeg": 0,
+        "boardId": "shared-board-9152c583-6322-4075-ac2f-f227f733e455",
+        "optics": {
+          "elementType": "mirror",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 135,
+          "fastAxisDeg": 0,
+          "retardanceDeg": 180,
+          "designWavelengthNm": 532,
+          "clearApertureMm": 25.4,
+          "pbsHandedness": "left",
+          "focalLengthMm": null,
+          "mirror": {
+            "mode": "ideal",
+            "model": "",
+            "samples": []
+          },
+          "source": {
+            "enabled": false,
+            "wavelengthNm": 532,
+            "powerMw": 1,
+            "beamDiameterMm": 2,
+            "polarizationAngleDeg": 0,
+            "ellipticityDeg": 0,
+            "beamQualityM2": 1,
+            "directionAngleDeg": -90,
+            "polarizationType": "linear",
+            "wavefrontRadiusMm": null
+          }
+        }
+      },
+      {
+        "id": "shared-instance-f92fb36f-f70d-41c4-a285-b501c5209eaf",
+        "kitId": "kungshu-louc1-dr-manual-45-r1",
+        "xMm": 325,
+        "yMm": 87.5,
+        "rotationDeg": 180,
+        "boardId": "shared-board-9152c583-6322-4075-ac2f-f227f733e455",
+        "optics": {
+          "elementType": "mirror",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 135,
+          "fastAxisDeg": 0,
+          "retardanceDeg": 180,
+          "designWavelengthNm": 532,
+          "clearApertureMm": 25.4,
+          "pbsHandedness": "left",
+          "focalLengthMm": null,
+          "mirror": {
+            "mode": "ideal",
+            "model": "",
+            "samples": []
+          },
+          "source": {
+            "enabled": false,
+            "wavelengthNm": 532,
+            "powerMw": 1,
+            "beamDiameterMm": 2,
+            "polarizationAngleDeg": 0,
+            "ellipticityDeg": 0,
+            "beamQualityM2": 1,
+            "directionAngleDeg": -90,
+            "polarizationType": "linear",
+            "wavefrontRadiusMm": null
+          }
+        }
+      },
+      {
+        "id": "shared-instance-cb8bdf0a-44d0-4ac5-8f94-a335186ad09b",
+        "kitId": "kungshu-louc1-dr-manual-45-r1",
+        "xMm": 287.5,
+        "yMm": 87.5,
+        "rotationDeg": 0,
+        "boardId": "shared-board-9152c583-6322-4075-ac2f-f227f733e455",
+        "optics": {
+          "elementType": "mirror",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 135,
+          "fastAxisDeg": 0,
+          "retardanceDeg": 180,
+          "designWavelengthNm": 532,
+          "clearApertureMm": 25.4,
+          "pbsHandedness": "left",
+          "focalLengthMm": null,
+          "mirror": {
+            "mode": "ideal",
+            "model": "",
+            "samples": []
+          },
+          "source": {
+            "enabled": false,
+            "wavelengthNm": 532,
+            "powerMw": 1,
+            "beamDiameterMm": 2,
+            "polarizationAngleDeg": 0,
+            "ellipticityDeg": 0,
+            "beamQualityM2": 1,
+            "directionAngleDeg": -90,
+            "polarizationType": "linear",
+            "wavefrontRadiusMm": null
+          }
+        }
+      },
+      {
+        "id": "placed-muwfevaz-z-57fzq",
+        "kitId": "waveplate-mixed-051-r1",
+        "xMm": 212.5,
+        "yMm": 175,
+        "rotationDeg": 0,
+        "boardId": "shared-board-9152c583-6322-4075-ac2f-f227f733e455",
+        "optics": {
+          "elementType": "waveplate",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 90,
+          "fastAxisDeg": 0,
+          "retardanceDeg": 180,
+          "designWavelengthNm": 532,
+          "clearApertureMm": 12.7,
+          "pbsHandedness": "left",
+          "focalLengthMm": null,
+          "waveplates": [
+            {
+              "inserted": true,
+              "fastAxisDeg": 0,
+              "retardanceDeg": 180,
+              "designWavelengthNm": 532
+            },
+            {
+              "inserted": true,
+              "fastAxisDeg": 45,
+              "retardanceDeg": 90,
+              "designWavelengthNm": 532
+            }
+          ],
+          "source": {
+            "enabled": false,
+            "wavelengthNm": 532,
+            "powerMw": 1,
+            "beamDiameterMm": 2,
+            "polarizationAngleDeg": 0,
+            "ellipticityDeg": 0,
+            "beamQualityM2": 1,
+            "directionAngleDeg": -90,
+            "polarizationType": "linear",
+            "wavefrontRadiusMm": null
+          }
+        }
+      },
+      {
+        "id": "placed-muwfewko-10-051s9",
+        "kitId": "waveplate-mixed-051-r1",
+        "xMm": 337.5,
+        "yMm": 175,
+        "rotationDeg": 0,
+        "boardId": "shared-board-9152c583-6322-4075-ac2f-f227f733e455",
+        "optics": {
+          "elementType": "waveplate",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 90,
+          "fastAxisDeg": 0,
+          "retardanceDeg": 180,
+          "designWavelengthNm": 532,
+          "clearApertureMm": 12.7,
+          "pbsHandedness": "left",
+          "focalLengthMm": null,
+          "waveplates": [
+            {
+              "inserted": true,
+              "fastAxisDeg": 0,
+              "retardanceDeg": 180,
+              "designWavelengthNm": 399
+            },
+            {
+              "inserted": true,
+              "fastAxisDeg": 45,
+              "retardanceDeg": 90,
+              "designWavelengthNm": 399
+            }
+          ],
+          "source": {
+            "enabled": false,
+            "wavelengthNm": 532,
+            "powerMw": 1,
+            "beamDiameterMm": 2,
+            "polarizationAngleDeg": 0,
+            "ellipticityDeg": 0,
+            "beamQualityM2": 1,
+            "directionAngleDeg": -90,
+            "polarizationType": "linear",
+            "wavefrontRadiusMm": null
+          }
+        }
+      },
+      {
+        "id": "placed-muwfeysr-11-lsrhr",
+        "kitId": "waveplate-mixed-051-r1",
+        "xMm": 162.5,
+        "yMm": 125,
+        "rotationDeg": 90,
+        "boardId": "shared-board-9152c583-6322-4075-ac2f-f227f733e455",
+        "optics": {
+          "elementType": "waveplate",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 90,
+          "fastAxisDeg": 0,
+          "retardanceDeg": 180,
+          "designWavelengthNm": 532,
+          "clearApertureMm": 12.7,
+          "pbsHandedness": "left",
+          "focalLengthMm": null,
+          "waveplates": [
+            {
+              "inserted": true,
+              "fastAxisDeg": 0,
+              "retardanceDeg": 180,
+              "designWavelengthNm": 532
+            },
+            {
+              "inserted": true,
+              "fastAxisDeg": 0,
+              "retardanceDeg": 90,
+              "designWavelengthNm": 532
+            }
+          ],
+          "source": {
+            "enabled": false,
+            "wavelengthNm": 532,
+            "powerMw": 1,
+            "beamDiameterMm": 2,
+            "polarizationAngleDeg": 0,
+            "ellipticityDeg": 0,
+            "beamQualityM2": 1,
+            "directionAngleDeg": -90,
+            "polarizationType": "linear",
+            "wavefrontRadiusMm": null
+          }
+        }
+      },
+      {
+        "id": "placed-muwfezv6-12-z6ey9",
+        "kitId": "waveplate-mixed-051-r1",
+        "xMm": 287.5,
+        "yMm": 125,
+        "rotationDeg": 90,
+        "boardId": "shared-board-9152c583-6322-4075-ac2f-f227f733e455",
+        "optics": {
+          "elementType": "waveplate",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 90,
+          "fastAxisDeg": 0,
+          "retardanceDeg": 180,
+          "designWavelengthNm": 532,
+          "clearApertureMm": 12.7,
+          "pbsHandedness": "left",
+          "focalLengthMm": null,
+          "waveplates": [
+            {
+              "inserted": true,
+              "fastAxisDeg": 0,
+              "retardanceDeg": 90,
+              "designWavelengthNm": 532
+            },
+            {
+              "inserted": true,
+              "fastAxisDeg": 0,
+              "retardanceDeg": 180,
+              "designWavelengthNm": 532
+            }
+          ],
+          "source": {
+            "enabled": false,
+            "wavelengthNm": 532,
+            "powerMw": 1,
+            "beamDiameterMm": 2,
+            "polarizationAngleDeg": 0,
+            "ellipticityDeg": 0,
+            "beamQualityM2": 1,
+            "directionAngleDeg": -90,
+            "polarizationType": "linear",
+            "wavefrontRadiusMm": null
+          }
+        }
+      },
+      {
+        "id": "placed-muwff16s-13-mlrpp",
+        "kitId": "waveplate-mixed-051-r1",
+        "xMm": 100,
+        "yMm": 175,
+        "rotationDeg": 0,
+        "boardId": "shared-board-9152c583-6322-4075-ac2f-f227f733e455",
+        "optics": {
+          "elementType": "waveplate",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 90,
+          "fastAxisDeg": 0,
+          "retardanceDeg": 180,
+          "designWavelengthNm": 532,
+          "clearApertureMm": 12.7,
+          "pbsHandedness": "left",
+          "focalLengthMm": null,
+          "waveplates": [
+            {
+              "inserted": true,
+              "fastAxisDeg": 0,
+              "retardanceDeg": 180,
+              "designWavelengthNm": 532
+            },
+            {
+              "inserted": true,
+              "fastAxisDeg": 0,
+              "retardanceDeg": 90,
+              "designWavelengthNm": 532
+            }
+          ],
+          "source": {
+            "enabled": false,
+            "wavelengthNm": 532,
+            "powerMw": 1,
+            "beamDiameterMm": 2,
+            "polarizationAngleDeg": 0,
+            "ellipticityDeg": 0,
+            "beamQualityM2": 1,
+            "directionAngleDeg": -90,
+            "polarizationType": "linear",
+            "wavefrontRadiusMm": null
+          }
+        }
+      },
+      {
+        "id": "placed-muz9s2iq-1-9kasz",
+        "kitId": "fixed-1-45",
+        "xMm": 37.5,
+        "yMm": 175,
+        "rotationDeg": 0,
+        "boardId": "shared-board-9152c583-6322-4075-ac2f-f227f733e455",
+        "optics": {
+          "elementType": "mirror",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 45,
+          "fastAxisDeg": 0,
+          "retardanceDeg": 180,
+          "designWavelengthNm": 532,
+          "clearApertureMm": 25.4,
+          "pbsHandedness": "left",
+          "focalLengthMm": null,
+          "mirror": {
+            "mode": "ideal",
+            "model": "",
+            "samples": []
+          },
+          "source": {
+            "enabled": false,
+            "wavelengthNm": 532,
+            "powerMw": 1,
+            "beamDiameterMm": 2,
+            "polarizationAngleDeg": 0,
+            "ellipticityDeg": 0,
+            "beamQualityM2": 1,
+            "directionAngleDeg": -90,
+            "polarizationType": "linear",
+            "wavefrontRadiusMm": null
+          }
+        }
+      }
+    ],
+    "baseMode": "table",
+    "subBoards": [
+      {
+        "id": "shared-board-9152c583-6322-4075-ac2f-f227f733e455",
+        "name": "手动一分三，混合双波片，8孔",
+        "board": {
+          "widthMm": 425,
+          "heightMm": 200,
+          "pitchMm": 12.5,
+          "edgeOffsetMm": 12.5,
+          "thicknessMm": 12.5,
+          "holeType": "M6_through",
+          "thread": "M6x1.0",
+          "holeDiameterMm": 5,
+          "mountingHoles": [
+            {
+              "columnIndex": 0,
+              "rowIndex": 0
+            },
+            {
+              "columnIndex": 32,
+              "rowIndex": 0
+            },
+            {
+              "columnIndex": 9,
+              "rowIndex": 1
+            },
+            {
+              "columnIndex": 31,
+              "rowIndex": 1
+            },
+            {
+              "columnIndex": 31,
+              "rowIndex": 9
+            },
+            {
+              "columnIndex": 32,
+              "rowIndex": 10
+            },
+            {
+              "columnIndex": 5,
+              "rowIndex": 13
+            },
+            {
+              "columnIndex": 0,
+              "rowIndex": 14
+            }
+          ]
+        },
+        "xMm": 275,
+        "yMm": 87.5,
+        "rotationDeg": 0
+      }
+    ],
+    "collisionOverrides": [
+      {
+        "instanceIds": [
+          "placed-muwfeysr-11-lsrhr",
+          "shared-instance-26e4f166-a5a8-46c3-bb61-e0f2630540da"
+        ]
+      },
+      {
+        "instanceIds": [
+          "placed-muwfezv6-12-z6ey9",
+          "shared-instance-cb8bdf0a-44d0-4ac5-8f94-a335186ad09b"
+        ]
+      }
+    ]
+  },
+  "optical": {
+    "shared-instance-3c7f6ae9-42d7-4707-b373-07ba8271bc00::pbs": {
+      "inserted": true,
+      "quantity": 1,
+      "unit": "个",
+      "name": "偏振分束立方体（装配别名待核对）",
+      "model": "PBS24-532-1",
+      "supplier": "麓邦",
+      "wavelength": "",
+      "opticalType": "",
+      "notes": "",
+      "kind": "lubang"
+    },
+    "shared-instance-5f14bb14-4ed3-43c0-ad7d-29172b458746::lens": {
+      "kind": "lubang"
+    },
+    "shared-instance-5f14bb14-4ed3-43c0-ad7d-29172b458746::fiber": {
+      "kind": "lubang"
+    },
+    "shared-instance-2d21582a-0646-4f8f-aed4-5e94672c9bfa::pbs": {
+      "inserted": true,
+      "quantity": 1,
+      "unit": "个",
+      "name": "偏振分束立方体（装配别名待核对）",
+      "model": "PBS24-532-1",
+      "supplier": "麓邦",
+      "wavelength": "",
+      "opticalType": "",
+      "notes": "",
+      "kind": "lubang"
+    },
+    "shared-instance-25c22fc5-b77b-482a-9fd9-2b309cb1b099::lens": {
+      "kind": "lubang"
+    },
+    "shared-instance-25c22fc5-b77b-482a-9fd9-2b309cb1b099::fiber": {
+      "kind": "lubang"
+    },
+    "shared-instance-5f84408e-28dc-4f43-90fd-fb812d88d7af::lens": {
+      "kind": "lubang"
+    },
+    "shared-instance-5f84408e-28dc-4f43-90fd-fb812d88d7af::fiber": {
+      "kind": "lubang"
+    },
+    "shared-instance-eddc1cac-4f0c-4bc4-9b87-6339d8b8258e::lens": {
+      "inserted": false,
+      "quantity": 1,
+      "unit": "片",
+      "name": "耦合透镜",
+      "model": "",
+      "supplier": "麓邦",
+      "wavelength": "",
+      "opticalType": "",
+      "notes": "",
+      "kind": "lubang"
+    },
+    "shared-instance-eddc1cac-4f0c-4bc4-9b87-6339d8b8258e::fiber": {
+      "inserted": false,
+      "quantity": 1,
+      "unit": "个",
+      "name": "光纤／接头",
+      "model": "",
+      "supplier": "麓邦",
+      "wavelength": "",
+      "opticalType": "",
+      "notes": "",
+      "kind": "lubang"
+    },
+    "shared-instance-c29eb133-b77f-4225-8cd6-3e2604139411::mirror": {
+      "inserted": true,
+      "quantity": 1,
+      "unit": "片",
+      "name": "反射镜",
+      "model": "",
+      "supplier": "麓邦",
+      "wavelength": "",
+      "opticalType": "",
+      "notes": "",
+      "kind": "lubang"
+    },
+    "shared-instance-c497efbb-60b0-4d40-8380-886005aa8a11::mirror": {
+      "inserted": true,
+      "quantity": 1,
+      "unit": "片",
+      "name": "反射镜",
+      "model": "",
+      "supplier": "麓邦",
+      "wavelength": "",
+      "opticalType": "",
+      "notes": "",
+      "kind": "lubang"
+    },
+    "shared-instance-84042ba4-f68d-4af4-9a5a-1d1e9849102f::mirror": {
+      "inserted": true,
+      "quantity": 1,
+      "unit": "片",
+      "name": "反射镜",
+      "model": "",
+      "supplier": "麓邦",
+      "wavelength": "",
+      "opticalType": "",
+      "notes": "",
+      "kind": "lubang"
+    },
+    "shared-instance-26e4f166-a5a8-46c3-bb61-e0f2630540da::mirror": {
+      "inserted": true,
+      "quantity": 1,
+      "unit": "片",
+      "name": "反射镜",
+      "model": "",
+      "supplier": "麓邦",
+      "wavelength": "",
+      "opticalType": "",
+      "notes": "",
+      "kind": "lubang"
+    },
+    "shared-instance-f92fb36f-f70d-41c4-a285-b501c5209eaf::mirror": {
+      "inserted": true,
+      "quantity": 1,
+      "unit": "片",
+      "name": "反射镜",
+      "model": "",
+      "supplier": "麓邦",
+      "wavelength": "",
+      "opticalType": "",
+      "notes": "",
+      "kind": "lubang"
+    },
+    "shared-instance-cb8bdf0a-44d0-4ac5-8f94-a335186ad09b::mirror": {
+      "inserted": true,
+      "quantity": 1,
+      "unit": "片",
+      "name": "反射镜",
+      "model": "",
+      "supplier": "麓邦",
+      "wavelength": "",
+      "opticalType": "",
+      "notes": "",
+      "kind": "lubang"
+    },
+    "placed-muwfevaz-z-57fzq::wave-1": {
+      "inserted": true,
+      "quantity": 1,
+      "unit": "片",
+      "name": "半英寸波片位 · 正向第1片 · 399nm波片待选",
+      "model": "",
+      "supplier": "",
+      "wavelength": "",
+      "opticalType": "",
+      "notes": "本次更换机械尺寸；CAD玻璃为原厂532nm机械参考，实际399nm波片型号/延迟量/快轴待选。 原选配标注外径：12.7 mm。",
+      "kind": "standard"
+    },
+    "placed-muwfevaz-z-57fzq::wave-2": {
+      "inserted": true,
+      "quantity": 1,
+      "unit": "片",
+      "name": "一英寸波片位 · 正向第2片 · 399nm波片待选",
+      "model": "",
+      "supplier": "",
+      "wavelength": "",
+      "opticalType": "",
+      "notes": "本次更换机械尺寸；CAD玻璃为原厂532nm机械参考，实际399nm波片型号/延迟量/快轴待选。 原选配标注外径：25.4 mm。",
+      "kind": "standard"
+    },
+    "placed-muwfewko-10-051s9::wave-1": {
+      "inserted": true,
+      "quantity": 1,
+      "unit": "片",
+      "name": "半英寸波片位 · 正向第1片 · 399nm波片待选",
+      "model": "",
+      "supplier": "",
+      "wavelength": "",
+      "opticalType": "",
+      "notes": "本次更换机械尺寸；CAD玻璃为原厂532nm机械参考，实际399nm波片型号/延迟量/快轴待选。 原选配标注外径：12.7 mm。",
+      "kind": "standard"
+    },
+    "placed-muwfewko-10-051s9::wave-2": {
+      "inserted": true,
+      "quantity": 1,
+      "unit": "片",
+      "name": "一英寸波片位 · 正向第2片 · 399nm波片待选",
+      "model": "",
+      "supplier": "",
+      "wavelength": "",
+      "opticalType": "",
+      "notes": "本次更换机械尺寸；CAD玻璃为原厂532nm机械参考，实际399nm波片型号/延迟量/快轴待选。 原选配标注外径：25.4 mm。",
+      "kind": "standard"
+    },
+    "placed-muwfeysr-11-lsrhr::wave-1": {
+      "inserted": true,
+      "quantity": 1,
+      "unit": "片",
+      "name": "半英寸波片位 · 正向第1片 · 399nm波片待选",
+      "model": "",
+      "supplier": "",
+      "wavelength": "",
+      "opticalType": "",
+      "notes": "本次更换机械尺寸；CAD玻璃为原厂532nm机械参考，实际399nm波片型号/延迟量/快轴待选。 原选配标注外径：12.7 mm。",
+      "kind": "standard"
+    },
+    "placed-muwfeysr-11-lsrhr::wave-2": {
+      "inserted": true,
+      "quantity": 1,
+      "unit": "片",
+      "name": "一英寸波片位 · 正向第2片 · 399nm波片待选",
+      "model": "",
+      "supplier": "",
+      "wavelength": "",
+      "opticalType": "",
+      "notes": "本次更换机械尺寸；CAD玻璃为原厂532nm机械参考，实际399nm波片型号/延迟量/快轴待选。 原选配标注外径：25.4 mm。",
+      "kind": "standard"
+    },
+    "placed-muwfezv6-12-z6ey9::wave-1": {
+      "inserted": true,
+      "quantity": 1,
+      "unit": "片",
+      "name": "半英寸波片位 · 正向第1片 · 399nm波片待选",
+      "model": "",
+      "supplier": "",
+      "wavelength": "",
+      "opticalType": "",
+      "notes": "本次更换机械尺寸；CAD玻璃为原厂532nm机械参考，实际399nm波片型号/延迟量/快轴待选。 原选配标注外径：12.7 mm。",
+      "kind": "standard"
+    },
+    "placed-muwfezv6-12-z6ey9::wave-2": {
+      "inserted": true,
+      "quantity": 1,
+      "unit": "片",
+      "name": "一英寸波片位 · 正向第2片 · 399nm波片待选",
+      "model": "",
+      "supplier": "",
+      "wavelength": "",
+      "opticalType": "",
+      "notes": "本次更换机械尺寸；CAD玻璃为原厂532nm机械参考，实际399nm波片型号/延迟量/快轴待选。 原选配标注外径：25.4 mm。",
+      "kind": "standard"
+    },
+    "placed-muwff16s-13-mlrpp::wave-1": {
+      "inserted": true,
+      "quantity": 1,
+      "unit": "片",
+      "name": "半英寸波片位 · 正向第1片 · 399nm波片待选",
+      "model": "",
+      "supplier": "",
+      "wavelength": "",
+      "opticalType": "",
+      "notes": "本次更换机械尺寸；CAD玻璃为原厂532nm机械参考，实际399nm波片型号/延迟量/快轴待选。 原选配标注外径：12.7 mm。",
+      "kind": "standard"
+    },
+    "placed-muwff16s-13-mlrpp::wave-2": {
+      "inserted": true,
+      "quantity": 1,
+      "unit": "片",
+      "name": "一英寸波片位 · 正向第2片 · 399nm波片待选",
+      "model": "",
+      "supplier": "",
+      "wavelength": "",
+      "opticalType": "",
+      "notes": "本次更换机械尺寸；CAD玻璃为原厂532nm机械参考，实际399nm波片型号/延迟量/快轴待选。 原选配标注外径：25.4 mm。",
+      "kind": "standard"
+    },
+    "placed-muz9s2iq-1-9kasz::mirror": {
+      "inserted": true,
+      "quantity": 1,
+      "unit": "片",
+      "name": "反射镜",
+      "model": "",
+      "supplier": "",
+      "wavelength": "",
+      "opticalType": "",
+      "notes": "",
+      "kind": "standard"
+    }
+  },
+  "extras": [],
+  "moduleQuantities": [],
+  "ui": {
+    "mountingSelection": {
+      "rowParity": "any",
+      "columnParity": "any"
+    },
+    "view": {
+      "x": 60.680652615122085,
+      "y": 40.705460536973646,
+      "w": 854.1817902199191,
+      "h": 402.2779022321059
+    },
+    "selectedIds": []
+  },
+  "catalogReferenced": [
+    {
+      "id": "fiber-coupling",
+      "name": "光纤耦合系统"
+    },
+    {
+      "id": "fixed-1-45",
+      "name": "固定式反射镜 · 1 inch · 45°"
+    },
+    {
+      "id": "pbs-adjustable",
+      "name": "可调式 PBS · 1 inch"
+    },
+    {
+      "id": "waveplate-mixed-051-r1",
+      "name": "混合双波片 · CMRM05S + CRM-1AS"
+    },
+    {
+      "id": "kungshu-louc1-dr-manual-45-r1",
+      "name": "kungshu-LOUC1-DR-Manual · 45°"
+    }
+  ],
+  "opticalRendering": {
+    "generated": false,
+    "visible": true,
+    "autoRestore": false
+  }
+}

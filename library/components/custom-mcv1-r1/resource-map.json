@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-mcv1-r1",
+  "files": [
+    {
+      "path": "cad/f270a2acbc536fa118e3c9c12b562f49d6e5dadf074658409ee6099c1abf7f7f.step",
+      "stored": "library/assets/sha256/f2/f270a2acbc536fa118e3c9c12b562f49d6e5dadf074658409ee6099c1abf7f7f.step",
+      "sha256": "f270a2acbc536fa118e3c9c12b562f49d6e5dadf074658409ee6099c1abf7f7f",
+      "originalReferences": [
+        "step/combined-r1-20261015/1/MCV1-R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/f2/f270a2acbc536fa118e3c9c12b562f49d6e5dadf074658409ee6099c1abf7f7f.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-mot-ra-m2",
+  "revision": "R2",
+  "displayName": "MOT 反射镜＋波片笼式转接立板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-mot-ra-m2.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

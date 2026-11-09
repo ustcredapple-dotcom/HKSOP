@@ -1,0 +1,63 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "camera-c15550-adapter-r2",
+  "files": [
+    {
+      "path": "rendering/82abdab38ed5b94bb82d90f8476115cf968c6a284cab2c188c9db0d7aa6620b0.svg",
+      "stored": "library/assets/sha256/82/82abdab38ed5b94bb82d90f8476115cf968c6a284cab2c188c9db0d7aa6620b0.svg",
+      "sha256": "82abdab38ed5b94bb82d90f8476115cf968c6a284cab2c188c9db0d7aa6620b0",
+      "originalReferences": [
+        "topviews/camera-c15550-adapter-r2__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/82/82abdab38ed5b94bb82d90f8476115cf968c6a284cab2c188c9db0d7aa6620b0.svg"
+      ]
+    },
+    {
+      "path": "cad/8711ed6a05ff0cea672bf7ece47d59ccb1cb793dd79e71416aa88aefe9bc37bd.step",
+      "stored": "library/assets/sha256/87/8711ed6a05ff0cea672bf7ece47d59ccb1cb793dd79e71416aa88aefe9bc37bd.step",
+      "sha256": "8711ed6a05ff0cea672bf7ece47d59ccb1cb793dd79e71416aa88aefe9bc37bd",
+      "originalReferences": [
+        "step/camera-actual-r4/35-HQ_R4_ACTUAL_CAMERA_FULL_ASSEMBLY.step"
+      ],
+      "sources": [
+        "library/assets/sha256/87/8711ed6a05ff0cea672bf7ece47d59ccb1cb793dd79e71416aa88aefe9bc37bd.step"
+      ]
+    },
+    {
+      "path": "cad/afbd9ea9e0135799cfddd4de3386f2589910055afe016f531aaedd14d49fa75d.step",
+      "stored": "library/assets/sha256/af/afbd9ea9e0135799cfddd4de3386f2589910055afe016f531aaedd14d49fa75d.step",
+      "sha256": "afbd9ea9e0135799cfddd4de3386f2589910055afe016f531aaedd14d49fa75d",
+      "originalReferences": [
+        "step/camera-actual-r4/35-HQ_R4_USER_SUPPLIED_ACTUAL_CAMERA.step"
+      ],
+      "sources": [
+        "library/assets/sha256/af/afbd9ea9e0135799cfddd4de3386f2589910055afe016f531aaedd14d49fa75d.step"
+      ]
+    },
+    {
+      "path": "cad/d3b17fa3278fadf83aab829d022886f304e68e8a97f66fc2aa6842e8386e1450.step",
+      "stored": "library/assets/sha256/d3/d3b17fa3278fadf83aab829d022886f304e68e8a97f66fc2aa6842e8386e1450.step",
+      "sha256": "d3b17fa3278fadf83aab829d022886f304e68e8a97f66fc2aa6842e8386e1450",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/camera-c15550-adapter-r2__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/d3/d3b17fa3278fadf83aab829d022886f304e68e8a97f66fc2aa6842e8386e1450.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-35-hq-b-r2",
+    "custom-35-hq-c-r2",
+    "custom-post-metric-12p5mm-m1",
+    "hardware-dowel-d2x10",
+    "hardware-m6-board-length-select",
+    "hardware-m6x8-camera-trial",
+    "hardware-stainless-gap-shim-select",
+    "new-hardware-1d23c1ca342d",
+    "new-hardware-f0579b934c7c",
+    "new-hardware-ff9fb49c865c",
+    "purchased-camera-c15550-23up"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-mt-cube-adapter-0p5inch-m1-r2",
+  "files": [
+    {
+      "path": "cad/179b34753972266b5b80022224223df63a09b3d1df4bcb8f5bad9e0a03e036f1.step",
+      "stored": "library/assets/sha256/17/179b34753972266b5b80022224223df63a09b3d1df4bcb8f5bad9e0a03e036f1.step",
+      "sha256": "179b34753972266b5b80022224223df63a09b3d1df4bcb8f5bad9e0a03e036f1",
+      "originalReferences": [
+        "step/mt-cube-size-family-r2/MCB-05R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/17/179b34753972266b5b80022224223df63a09b3d1df4bcb8f5bad9e0a03e036f1.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "hardware-flat-set-m3x3",
+  "name": "M3×3 平端紧定螺钉",
+  "model": "M3×3 平端紧定螺钉",
+  "kind": "standard",
+  "unit": "颗",
+  "status": "规格按审核设计；实物待核",
+  "notes": "用于MFT夹头；不得换成长螺钉。"
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-fz-kz-sl-r1",
+  "revision": "R1",
+  "displayName": "FZ-KZ-SL-R1 旋钮紧定套筒",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-fz-kz-sl-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

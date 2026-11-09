@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-post-metric-87p5mm-m1",
+  "files": [
+    {
+      "path": "cad/b2a7f5ada58af19ed7d4bca2a9927b31cdfe98366fffd67bfd879cf82b888cf2.step",
+      "stored": "library/assets/sha256/b2/b2a7f5ada58af19ed7d4bca2a9927b31cdfe98366fffd67bfd879cf82b888cf2.step",
+      "sha256": "b2a7f5ada58af19ed7d4bca2a9927b31cdfe98366fffd67bfd879cf82b888cf2",
+      "originalReferences": [
+        "step/universal-post-b6-r1/万能柱_H87.5mm_B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/b2/b2a7f5ada58af19ed7d4bca2a9927b31cdfe98366fffd67bfd879cf82b888cf2.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

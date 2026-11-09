@@ -1,0 +1,51 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "xbk-cavity-front25-l12p5-h62p5-r4",
+  "files": [
+    {
+      "path": "rendering/74f44e0b686a946877e868b1c7d1b4eae0d32b983f0cf11f13aa23ce1990027a.svg",
+      "stored": "library/assets/sha256/74/74f44e0b686a946877e868b1c7d1b4eae0d32b983f0cf11f13aa23ce1990027a.svg",
+      "sha256": "74f44e0b686a946877e868b1c7d1b4eae0d32b983f0cf11f13aa23ce1990027a",
+      "originalReferences": [
+        "topviews/xbk-cavity-front25-l12p5-h62p5-r4.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/74/74f44e0b686a946877e868b1c7d1b4eae0d32b983f0cf11f13aa23ce1990027a.svg"
+      ]
+    },
+    {
+      "path": "cad/e65857e8ba2ebe1f86121b62bf57b44793b6e32ddef98d92c94e88d36c3dd53f.step",
+      "stored": "library/assets/sha256/e6/e65857e8ba2ebe1f86121b62bf57b44793b6e32ddef98d92c94e88d36c3dd53f.step",
+      "sha256": "e65857e8ba2ebe1f86121b62bf57b44793b6e32ddef98d92c94e88d36c3dd53f",
+      "originalReferences": [
+        "step/xbk-lateral-fixed-r4/XBK_Cavity_R4_FRONT25_L12p5_H62p5.step"
+      ],
+      "sources": [
+        "library/assets/sha256/e6/e65857e8ba2ebe1f86121b62bf57b44793b6e32ddef98d92c94e88d36c3dd53f.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-cm127-a1-r3",
+    "custom-motor-h2d2-b-r3",
+    "custom-motor-h2d2-l-r2",
+    "custom-motor-h2d2-s-r3",
+    "custom-xbk-b01-frontgrid-r3",
+    "custom-xbk-t01-lateral-r4",
+    "dpt3-pin-d2x5",
+    "encoder-servo",
+    "ganter-gn9135-m3-3-ku",
+    "hardware-h2-r3-m2x10",
+    "hardware-h2-r3-m4-washer",
+    "hardware-h2-r3-m4x20",
+    "hardware-iso4762-m2x8",
+    "hardware-iso4762-m3x8",
+    "hardware-xbk-cbs2-5-lowhead",
+    "hardware-xbk-iso4762-m6x8",
+    "motor-adapter-m3",
+    "new-r3-vendor-mt-am2s5",
+    "v7-iso4762-m4x12",
+    "v7-source-m4-nut",
+    "zolix-ls35x-lab-e-purchased-stage"
+  ]
+}

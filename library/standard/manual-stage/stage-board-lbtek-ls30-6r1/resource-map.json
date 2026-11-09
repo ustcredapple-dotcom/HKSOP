@@ -1,0 +1,58 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "stage-board-lbtek-ls30-6r1",
+  "files": [
+    {
+      "path": "rendering/3f7bc6ad3aa30740c438a77d33e939c8c2013fece85c38a32d1f07642686a13d.svg",
+      "stored": "library/assets/sha256/3f/3f7bc6ad3aa30740c438a77d33e939c8c2013fece85c38a32d1f07642686a13d.svg",
+      "sha256": "3f7bc6ad3aa30740c438a77d33e939c8c2013fece85c38a32d1f07642686a13d",
+      "originalReferences": [
+        "topviews/kit_manual-stage-r2-lbtek-ls30-6r1-moving.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/3f/3f7bc6ad3aa30740c438a77d33e939c8c2013fece85c38a32d1f07642686a13d.svg"
+      ]
+    },
+    {
+      "path": "rendering/ac2673f62002a11597c4eaaab3deda5f89c32783a38c3b87fdf12014a3ea4351.svg",
+      "stored": "library/assets/sha256/ac/ac2673f62002a11597c4eaaab3deda5f89c32783a38c3b87fdf12014a3ea4351.svg",
+      "sha256": "ac2673f62002a11597c4eaaab3deda5f89c32783a38c3b87fdf12014a3ea4351",
+      "originalReferences": [
+        "topviews/kit_manual-stage-r2-lbtek-ls30-6r1-fixed.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/ac/ac2673f62002a11597c4eaaab3deda5f89c32783a38c3b87fdf12014a3ea4351.svg"
+      ]
+    },
+    {
+      "path": "rendering/f0091721672af1dbd7549b99d3f63b46e98e8ae0803f6c2a826466095b7edd8c.svg",
+      "stored": "library/assets/sha256/f0/f0091721672af1dbd7549b99d3f63b46e98e8ae0803f6c2a826466095b7edd8c.svg",
+      "sha256": "f0091721672af1dbd7549b99d3f63b46e98e8ae0803f6c2a826466095b7edd8c",
+      "originalReferences": [
+        "topviews/kit_manual-stage-r2-lbtek-ls30-6r1-complete.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/f0/f0091721672af1dbd7549b99d3f63b46e98e8ae0803f6c2a826466095b7edd8c.svg"
+      ]
+    },
+    {
+      "path": "cad/f5ab2fc0b0e0b0bdeea939680cd95007a303d1d24458a10a980af43c1daa6872.step",
+      "stored": "library/assets/sha256/f5/f5ab2fc0b0e0b0bdeea939680cd95007a303d1d24458a10a980af43c1daa6872.step",
+      "sha256": "f5ab2fc0b0e0b0bdeea939680cd95007a303d1d24458a10a980af43c1daa6872",
+      "originalReferences": [
+        "step/manual-stage-r2-a7075/assemblies/lbtek-ls30-6r1-assembly.step"
+      ],
+      "sources": [
+        "library/assets/sha256/f5/f5ab2fc0b0e0b0bdeea939680cd95007a303d1d24458a10a980af43c1daa6872.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "LS30-B",
+    "LS30-T",
+    "hardware-iso4762-m3x10",
+    "hardware-iso4762-m3x8",
+    "hardware-iso4762-m6x12",
+    "lbtek-ls30-6r1-purchased-stage"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "thorlabs-sm1rc-m",
+  "revision": "source-snapshot",
+  "displayName": "Thorlabs SM1RC/M · 公制夹具",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/thorlabs-sm1rc-m.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

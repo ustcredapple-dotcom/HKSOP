@@ -1,0 +1,178 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ZZLab authoritative registered board; detailed hole/polygon checks use registered_boards.py",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "revision",
+    "widthMm",
+    "heightMm",
+    "thicknessMm",
+    "outlineMm",
+    "holesMm",
+    "mountingHoleIds",
+    "topViewPath"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,159}$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "revision": {
+      "type": "string",
+      "minLength": 1
+    },
+    "widthMm": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "heightMm": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "thicknessMm": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "outlineMm": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "xMm",
+          "yMm"
+        ],
+        "properties": {
+          "xMm": {
+            "type": "number"
+          },
+          "yMm": {
+            "type": "number"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "holesMm": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "xMm",
+          "yMm",
+          "type",
+          "diameterMm"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,159}$"
+          },
+          "xMm": {
+            "type": "number"
+          },
+          "yMm": {
+            "type": "number"
+          },
+          "diameterMm": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "type": {
+            "enum": [
+              "thread",
+              "clearance",
+              "counterbore"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "mountingHoleIds": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,159}$"
+      }
+    },
+    "topViewPath": {
+      "type": "string"
+    },
+    "laserMarking": {
+      "$ref": "component.schema.json#/$defs/laserMarking"
+    },
+    "defaultContents": {
+      "type": "array",
+      "maxItems": 64,
+      "items": {
+        "type": "object",
+        "required": [
+          "kitId",
+          "xMm",
+          "yMm",
+          "rotationDeg"
+        ],
+        "properties": {
+          "kitId": {
+            "type": "string"
+          },
+          "xMm": {
+            "type": "number",
+            "minimum": -6000,
+            "maximum": 6000
+          },
+          "yMm": {
+            "type": "number",
+            "minimum": -6000,
+            "maximum": 6000
+          },
+          "rotationDeg": {
+            "enum": [
+              0,
+              90,
+              180,
+              270
+            ]
+          },
+          "optics": {
+            "type": "object",
+            "description": "Explicit installed optical state, validated by the existing optics settings protocol."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "includedComponents": {
+      "type": "array",
+      "maxItems": 64,
+      "items": {
+        "type": "object",
+        "required": [
+          "componentId",
+          "quantity"
+        ],
+        "properties": {
+          "componentId": {
+            "type": "string"
+          },
+          "quantity": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 9999
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": true
+}

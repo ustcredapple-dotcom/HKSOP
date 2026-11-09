@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "it399-short-tray-r6",
+  "files": [
+    {
+      "path": "cad/e12d5d18c70a611bd872faf9d949044d918d5febbfaadfdc49dfd9270365d257.step",
+      "stored": "library/assets/sha256/e1/e12d5d18c70a611bd872faf9d949044d918d5febbfaadfdc49dfd9270365d257.step",
+      "sha256": "e12d5d18c70a611bd872faf9d949044d918d5febbfaadfdc49dfd9270365d257",
+      "originalReferences": [
+        "step/iontrap-it399-r6-motor2/MTL1-U75-R6.step"
+      ],
+      "sources": [
+        "library/assets/sha256/e1/e12d5d18c70a611bd872faf9d949044d918d5febbfaadfdc49dfd9270365d257.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

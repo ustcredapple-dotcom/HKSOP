@@ -1,0 +1,44 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "aa-mt80-amp1r-r1",
+  "files": [
+    {
+      "path": "rendering/2460877bf17e4a90900e52309a06a60591e26cda2a06b0a41d994b462c9c8a96.svg",
+      "stored": "library/assets/sha256/24/2460877bf17e4a90900e52309a06a60591e26cda2a06b0a41d994b462c9c8a96.svg",
+      "sha256": "2460877bf17e4a90900e52309a06a60591e26cda2a06b0a41d994b462c9c8a96",
+      "originalReferences": [
+        "topviews/aa-mt80-amp1r-r1__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/24/2460877bf17e4a90900e52309a06a60591e26cda2a06b0a41d994b462c9c8a96.svg"
+      ]
+    },
+    {
+      "path": "cad/ba898601920d172e8db2e18f17ad7311ec4408aa5ad996f26d60b2e79a377a7d.step",
+      "stored": "library/assets/sha256/ba/ba898601920d172e8db2e18f17ad7311ec4408aa5ad996f26d60b2e79a377a7d.step",
+      "sha256": "ba898601920d172e8db2e18f17ad7311ec4408aa5ad996f26d60b2e79a377a7d",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/aa-mt110-amp1r-r1__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/ba/ba898601920d172e8db2e18f17ad7311ec4408aa5ad996f26d60b2e79a377a7d.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "aa-inpro004-tim-unselected",
+    "aa-mt80-b30a1-ir",
+    "amp-1r",
+    "custom-aa4b-r1",
+    "custom-aa4s-r1",
+    "custom-post-metric-12p5mm-m1",
+    "hardware-iso4762-m2p5x5",
+    "hardware-iso4762-m3x8",
+    "hardware-iso4762-m6x12",
+    "metric-m1-post-m4x16",
+    "metric-m1-post-pin-d2x8",
+    "new-aom-adapter-1",
+    "new-hardware-f0579b934c7c",
+    "new-r3-hardware-b63ea2222bac"
+  ]
+}

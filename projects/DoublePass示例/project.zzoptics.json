@@ -1,0 +1,528 @@
+{
+  "format": "zzlab-optics-project",
+  "version": 1,
+  "requires": [
+    "zzlab-metric-supports-v1"
+  ],
+  "metadata": {
+    "name": "DoublePass示例",
+    "notes": "R8：保留12器件位置/旋转/光学参数；两套电动45°镜架改为手动45°镜架。底板沿用R7：141 M6+8安装孔，25mm基础孔阵。12.5mm柱脚采用当前B4R2，完整总加工包14种31件。理想光学与实物未决项继承R6。 05/06/07镜架各配0.812637mm座垫及名义6mm镜片，实体见R8总装。\nHKSOP-github示例：保留布局及光学设置；不代表新的实物或制造验收。",
+    "createdAt": "2026-10-06T07:46:36.318Z",
+    "updatedAt": "2026-11-06T12:10:21.040Z",
+    "opticalAxisTargetMm": 62.5
+  },
+  "catalogVersion": "2026-11-09.hksop-github-local-1",
+  "layout": {
+    "board": {
+      "registeredBoardId": "dp-f100-board-r7",
+      "registeredBoardRevision": "R7-20261106",
+      "holeType": "M6_through",
+      "thread": "M6x1.0",
+      "holeDiameterMm": 5,
+      "widthMm": 425,
+      "heightMm": 150,
+      "thicknessMm": 12.5,
+      "pitchMm": 12.5,
+      "edgeOffsetMm": 12.5,
+      "mountingHoles": [
+        {
+          "holeId": "H1"
+        },
+        {
+          "holeId": "H2"
+        },
+        {
+          "holeId": "H3"
+        },
+        {
+          "holeId": "H4"
+        },
+        {
+          "holeId": "H5"
+        },
+        {
+          "holeId": "H6"
+        },
+        {
+          "holeId": "H7"
+        },
+        {
+          "holeId": "H8"
+        }
+      ]
+    },
+    "instances": [
+      {
+        "id": "shared-instance-76efa47d-6014-4971-a39b-2514e8113b4c",
+        "kitId": "cage-f100-qwp780-r1",
+        "xMm": 125,
+        "yMm": 125,
+        "rotationDeg": 90,
+        "optics": {
+          "elementType": "empty",
+          "inserted": false,
+          "configured": true
+        },
+        "internalOptics": {
+          "lens": {
+            "elementType": "lens",
+            "inserted": true,
+            "configured": true,
+            "clearApertureMm": 22.86,
+            "focalLengthMm": 100
+          },
+          "qwp": {
+            "elementType": "waveplate",
+            "inserted": true,
+            "configured": true,
+            "surfaceAngleDeg": 0,
+            "fastAxisDeg": 0,
+            "retardanceDeg": 180,
+            "designWavelengthNm": 532,
+            "clearApertureMm": 21.5,
+            "pbsHandedness": "left",
+            "focalLengthMm": null,
+            "waveplates": [
+              {
+                "inserted": true,
+                "fastAxisDeg": 45,
+                "retardanceDeg": 90,
+                "designWavelengthNm": 780
+              }
+            ],
+            "source": {
+              "enabled": false,
+              "wavelengthNm": 532,
+              "powerMw": 1,
+              "beamDiameterMm": 2,
+              "polarizationAngleDeg": 0,
+              "ellipticityDeg": 0,
+              "beamQualityM2": 1,
+              "directionAngleDeg": -90,
+              "polarizationType": "linear",
+              "wavefrontRadiusMm": null
+            }
+          }
+        }
+      },
+      {
+        "id": "shared-instance-4794ee40-0c10-4fc9-a947-e1678f903c4c",
+        "kitId": "pbs-adjustable",
+        "xMm": 400,
+        "yMm": 125,
+        "rotationDeg": 90,
+        "optics": {
+          "elementType": "pbs",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 45,
+          "clearApertureMm": 25.4,
+          "source": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "id": "shared-instance-f9fd729f-c1e5-4774-b1e2-b635ad1b0dbc",
+        "kitId": "pbs-fixed",
+        "xMm": 300,
+        "yMm": 125,
+        "rotationDeg": 0,
+        "optics": {
+          "elementType": "pbs",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 45,
+          "clearApertureMm": 25.4,
+          "pbsHandedness": "right",
+          "source": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "id": "shared-instance-5191237a-4275-4ad6-b4c5-a44a52a8ad6f",
+        "kitId": "waveplate",
+        "xMm": 400,
+        "yMm": 62.5,
+        "rotationDeg": 0,
+        "optics": {
+          "elementType": "waveplate",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 0,
+          "clearApertureMm": 25.4,
+          "waveplates": [
+            {
+              "inserted": true,
+              "fastAxisDeg": 0,
+              "retardanceDeg": 180,
+              "designWavelengthNm": 780
+            }
+          ],
+          "source": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "id": "shared-instance-c0a12c93-35a5-477e-ace7-65b35a6e0ac4",
+        "kitId": "adjustable-1-90",
+        "xMm": 25,
+        "yMm": 125,
+        "rotationDeg": 270,
+        "optics": {
+          "elementType": "mirror",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 0,
+          "clearApertureMm": 25.4,
+          "mirror": {
+            "mode": "ideal",
+            "samples": []
+          },
+          "source": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "id": "shared-instance-ce267623-90c1-4426-9fe0-b1f3348a7acb",
+        "kitId": "adjustable-1-45",
+        "xMm": 250,
+        "yMm": 25,
+        "rotationDeg": 90,
+        "optics": {
+          "elementType": "mirror",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 45,
+          "clearApertureMm": 25.4,
+          "mirror": {
+            "mode": "ideal",
+            "samples": []
+          },
+          "source": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "id": "shared-instance-5e8dc81f-9cea-4b1c-bcd0-880a1f48b324",
+        "kitId": "adjustable-1-45",
+        "xMm": 300,
+        "yMm": 25,
+        "rotationDeg": 180,
+        "optics": {
+          "elementType": "mirror",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 45,
+          "clearApertureMm": 25.4,
+          "mirror": {
+            "mode": "ideal",
+            "samples": []
+          },
+          "source": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "id": "shared-instance-edf058ad-c4ed-4af4-abad-ee92678a70e7",
+        "kitId": "fixed-1-45",
+        "xMm": 250,
+        "yMm": 62.5,
+        "rotationDeg": 270,
+        "optics": {
+          "elementType": "mirror",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 45,
+          "clearApertureMm": 25.4,
+          "mirror": {
+            "mode": "ideal",
+            "samples": []
+          },
+          "source": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "id": "shared-instance-18df78da-2463-4738-9915-72a15ccc5063",
+        "kitId": "fiber-coupling",
+        "xMm": 175,
+        "yMm": 62.5,
+        "rotationDeg": 90,
+        "optics": {
+          "elementType": "coupler",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 0,
+          "clearApertureMm": 25.4,
+          "source": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "id": "shared-instance-55a1dcd5-574a-486b-9dfc-8ab7a9f9293a",
+        "kitId": "waveplate",
+        "xMm": 300,
+        "yMm": 75,
+        "rotationDeg": 0,
+        "optics": {
+          "elementType": "waveplate",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 0,
+          "clearApertureMm": 25.4,
+          "waveplates": [
+            {
+              "inserted": true,
+              "fastAxisDeg": 0,
+              "retardanceDeg": 180,
+              "designWavelengthNm": 780
+            }
+          ],
+          "source": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "id": "shared-instance-9441d8d5-a88d-4e5b-b8e2-7a3cf7d82ae4",
+        "kitId": "waveplate",
+        "xMm": 337.5,
+        "yMm": 125,
+        "rotationDeg": 90,
+        "optics": {
+          "elementType": "waveplate",
+          "inserted": true,
+          "configured": true,
+          "surfaceAngleDeg": 0,
+          "clearApertureMm": 25.4,
+          "waveplates": [
+            {
+              "inserted": true,
+              "fastAxisDeg": 45,
+              "retardanceDeg": 180,
+              "designWavelengthNm": 780
+            }
+          ],
+          "source": {
+            "enabled": false
+          }
+        }
+      },
+      {
+        "id": "placed-mvaloe0v-1-y08gz",
+        "kitId": "new-aom",
+        "xMm": 225,
+        "yMm": 125,
+        "rotationDeg": 0,
+        "optics": {
+          "elementType": "unsupported",
+          "inserted": true,
+          "configured": false
+        }
+      }
+    ]
+  },
+  "optical": {
+    "module:dp-module::fixed-1-45-mirror": {
+      "kind": "standard"
+    },
+    "module:dp-module::pbs-adjustable-pbs": {
+      "kind": "standard"
+    },
+    "module:dp-module::pbs-fixed-pbs": {
+      "kind": "standard"
+    },
+    "module:dp-module::cage-90-optic": {
+      "kind": "standard"
+    },
+    "module:dp-module::adjustable-1-90-mirror": {
+      "kind": "standard"
+    },
+    "module:dp-module::motor-05-45-mirror": {
+      "kind": "standard"
+    },
+    "module:dp-module::waveplate-wave-1": {
+      "kind": "standard"
+    },
+    "module:dp-module::waveplate-wave-2": {
+      "kind": "standard"
+    },
+    "module:dp-module::fiber-coupling-lens": {
+      "kind": "standard"
+    },
+    "module:dp-module::fiber-coupling-fiber": {
+      "kind": "standard"
+    },
+    "module:one-to-three::pbs-adjustable-pbs": {
+      "kind": "standard"
+    },
+    "module:one-to-three::motor-05-45-mirror": {
+      "kind": "standard"
+    },
+    "module:one-to-three::fiber-coupling-lens": {
+      "kind": "standard"
+    },
+    "module:one-to-three::fiber-coupling-fiber": {
+      "kind": "standard"
+    },
+    "module:one-to-three::waveplate-wave-1": {
+      "kind": "standard"
+    },
+    "module:one-to-three::waveplate-wave-2": {
+      "kind": "standard"
+    },
+    "module:one-to-three::fixed-1-45-mirror": {
+      "kind": "standard"
+    },
+    "module:suruga-xyz-motor-2in-left-r2::mirror": {
+      "kind": "standard"
+    },
+    "shared-instance-76efa47d-6014-4971-a39b-2514e8113b4c::optic": {
+      "inserted": true,
+      "quantity": 1,
+      "unit": "片",
+      "name": "f100透镜（780nm焦距待标定）",
+      "model": "CX10613-B（尺寸候选，未定购）",
+      "supplier": "麓邦",
+      "wavelength": "700–1100 nm镀膜；标称f100@587.6 nm",
+      "opticalType": "",
+      "notes": "需求f100@780nm；该候选实物EFL及主平面待核，禁止视为已确认满足100mm工作距离。",
+      "kind": "lubang"
+    },
+    "shared-instance-4794ee40-0c10-4fc9-a947-e1678f903c4c::pbs": {
+      "kind": "lubang"
+    },
+    "shared-instance-f9fd729f-c1e5-4774-b1e2-b635ad1b0dbc::pbs": {
+      "kind": "lubang"
+    },
+    "shared-instance-5191237a-4275-4ad6-b4c5-a44a52a8ad6f::wave-1": {
+      "kind": "lubang"
+    },
+    "shared-instance-5191237a-4275-4ad6-b4c5-a44a52a8ad6f::wave-2": {
+      "kind": "lubang"
+    },
+    "shared-instance-c0a12c93-35a5-477e-ace7-65b35a6e0ac4::mirror": {
+      "kind": "lubang"
+    },
+    "shared-instance-ce267623-90c1-4426-9fe0-b1f3348a7acb::mirror": {
+      "kind": "lubang"
+    },
+    "shared-instance-5e8dc81f-9cea-4b1c-bcd0-880a1f48b324::mirror": {
+      "kind": "lubang"
+    },
+    "shared-instance-edf058ad-c4ed-4af4-abad-ee92678a70e7::mirror": {
+      "kind": "lubang"
+    },
+    "shared-instance-18df78da-2463-4738-9915-72a15ccc5063::lens": {
+      "kind": "lubang"
+    },
+    "shared-instance-18df78da-2463-4738-9915-72a15ccc5063::fiber": {
+      "kind": "lubang"
+    },
+    "shared-instance-55a1dcd5-574a-486b-9dfc-8ab7a9f9293a::wave-1": {
+      "kind": "lubang"
+    },
+    "shared-instance-55a1dcd5-574a-486b-9dfc-8ab7a9f9293a::wave-2": {
+      "kind": "lubang"
+    },
+    "shared-instance-9441d8d5-a88d-4e5b-b8e2-7a3cf7d82ae4::wave-1": {
+      "kind": "lubang"
+    },
+    "shared-instance-9441d8d5-a88d-4e5b-b8e2-7a3cf7d82ae4::wave-2": {
+      "kind": "lubang"
+    },
+    "placed-mvaloe0v-1-y08gz::optic": {
+      "kind": "standard"
+    },
+    "shared-instance-76efa47d-6014-4971-a39b-2514e8113b4c::qwp": {
+      "inserted": true,
+      "quantity": 1,
+      "unit": "片",
+      "name": "780nm四分之一波片",
+      "model": "QWP25-780A",
+      "supplier": "麓邦",
+      "wavelength": "780 nm",
+      "opticalType": "quarter-wave",
+      "notes": "无框片，Ø25.4×3.2mm；设计λ/4，实际快轴零点与延迟待标定。",
+      "kind": "lubang"
+    }
+  },
+  "extras": [],
+  "moduleQuantities": [],
+  "ui": {
+    "mountingSelection": {
+      "rowParity": "any",
+      "columnParity": "any"
+    },
+    "view": {
+      "x": -25,
+      "y": -30,
+      "w": 475,
+      "h": 250
+    },
+    "selectedIds": []
+  },
+  "catalogReferenced": [
+    {
+      "id": "adjustable-1-45",
+      "name": "可调反射镜 · 1 inch · 45°"
+    },
+    {
+      "id": "adjustable-1-90",
+      "name": "可调反射镜 · 1 inch · 90°"
+    },
+    {
+      "id": "cage-f100-qwp780-r1",
+      "name": "f100 透镜 + 笼杆可调 QWP · 780 nm"
+    },
+    {
+      "id": "dp-module",
+      "name": "DP 模块"
+    },
+    {
+      "id": "fiber-coupling",
+      "name": "光纤耦合系统"
+    },
+    {
+      "id": "fixed-1-45",
+      "name": "固定式反射镜 · 1 inch · 45°"
+    },
+    {
+      "id": "new-aom",
+      "name": "可调 AOM · AMP-1R · M1 RF180"
+    },
+    {
+      "id": "one-to-three",
+      "name": "一分三模块"
+    },
+    {
+      "id": "pbs-adjustable",
+      "name": "可调式 PBS · 1 inch"
+    },
+    {
+      "id": "pbs-fixed",
+      "name": "固定式 PBS · 1 inch"
+    },
+    {
+      "id": "suruga-xyz-motor-2in-left-r2",
+      "name": "Suruga XYZ · 左四孔 · 电动 2 inch V7 全口径镜架"
+    },
+    {
+      "id": "waveplate",
+      "name": "波片系统"
+    }
+  ],
+  "opticalRendering": {
+    "generated": false,
+    "visible": true,
+    "autoRestore": true
+  }
+}

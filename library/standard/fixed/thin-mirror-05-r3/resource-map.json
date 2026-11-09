@@ -1,0 +1,46 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "thin-mirror-05-r3",
+  "files": [
+    {
+      "path": "rendering/711e9738aa38d2011cb7593784faea2c666615b4173c6e017967606a5497163c.svg",
+      "stored": "library/assets/sha256/71/711e9738aa38d2011cb7593784faea2c666615b4173c6e017967606a5497163c.svg",
+      "sha256": "711e9738aa38d2011cb7593784faea2c666615b4173c6e017967606a5497163c",
+      "originalReferences": [
+        "topviews/thin-mirror-05-r3__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/71/711e9738aa38d2011cb7593784faea2c666615b4173c6e017967606a5497163c.svg"
+      ]
+    },
+    {
+      "path": "cad/d1f9ec42d7668a47f953d7f252bc82c3bedfa2ab31df0a34cb7eca8664b54c27.step",
+      "stored": "library/assets/sha256/d1/d1f9ec42d7668a47f953d7f252bc82c3bedfa2ab31df0a34cb7eca8664b54c27.step",
+      "sha256": "d1f9ec42d7668a47f953d7f252bc82c3bedfa2ab31df0a34cb7eca8664b54c27",
+      "originalReferences": [
+        "step/thin-clamps-r3/H05-H25_R3_STANDARD_WORLD_ASSEMBLY.step"
+      ],
+      "sources": [
+        "library/assets/sha256/d1/d1f9ec42d7668a47f953d7f252bc82c3bedfa2ab31df0a34cb7eca8664b54c27.step"
+      ]
+    },
+    {
+      "path": "cad/f21383051e1b59b70316007d16f536ffb38597b4b3712120877848caa7134ed0.step",
+      "stored": "library/assets/sha256/f2/f21383051e1b59b70316007d16f536ffb38597b4b3712120877848caa7134ed0.step",
+      "sha256": "f21383051e1b59b70316007d16f536ffb38597b4b3712120877848caa7134ed0",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/thin-mirror-05-r3__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/f2/f21383051e1b59b70316007d16f536ffb38597b4b3712120877848caa7134ed0.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-h05-a3-r3",
+    "custom-post-metric-25mm-m1",
+    "ganter-gn9135-m3-3-ku",
+    "metric-m1-post-m4x8",
+    "metric-m1-post-pin-d2x8"
+  ]
+}

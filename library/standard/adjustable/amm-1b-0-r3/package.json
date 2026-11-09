@@ -1,0 +1,31 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "amm-1b-0-r3",
+  "revision": "R3",
+  "displayName": "AMM-1B 镜架 · 0° · 直角台阶 R3",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/amm-1b-0-r3.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-am1b-r3",
+    "custom-post-metric-25mm-m1",
+    "hardware-iso4762-m6x12",
+    "lbtek-amm-1b-purchased",
+    "metric-m1-post-m4x14",
+    "metric-m1-post-pin-d2x8",
+    "new-hardware-f0579b934c7c"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

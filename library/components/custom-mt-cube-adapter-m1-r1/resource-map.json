@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-mt-cube-adapter-m1-r1",
+  "files": [
+    {
+      "path": "cad/c689d2bb11fb451dbb4e5506b214e6f9b8a5c09cef5867f28503e93dfc96dc29.step",
+      "stored": "library/assets/sha256/c6/c689d2bb11fb451dbb4e5506b214e6f9b8a5c09cef5867f28503e93dfc96dc29.step",
+      "sha256": "c689d2bb11fb451dbb4e5506b214e6f9b8a5c09cef5867f28503e93dfc96dc29",
+      "originalReferences": [
+        "step/mt-cube-module-r1/MCB-1R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/c6/c689d2bb11fb451dbb4e5506b214e6f9b8a5c09cef5867f28503e93dfc96dc29.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

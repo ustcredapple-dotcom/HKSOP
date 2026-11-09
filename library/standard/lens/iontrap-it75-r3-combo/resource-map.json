@@ -1,0 +1,22 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "iontrap-it75-r3-combo",
+  "files": [
+    {
+      "path": "rendering/5ddcf2568bf987bf36fe89cd7cfb211d78826171443551dc9d546c1bea5eac2c.svg",
+      "stored": "library/assets/sha256/5d/5ddcf2568bf987bf36fe89cd7cfb211d78826171443551dc9d546c1bea5eac2c.svg",
+      "sha256": "5ddcf2568bf987bf36fe89cd7cfb211d78826171443551dc9d546c1bea5eac2c",
+      "originalReferences": [
+        "topviews/it399-r6-combo.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/5d/5ddcf2568bf987bf36fe89cd7cfb211d78826171443551dc9d546c1bea5eac2c.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "it399-short-tray-r6",
+    "it75-r3-m6x20",
+    "it75-r3-reused-combo"
+  ]
+}

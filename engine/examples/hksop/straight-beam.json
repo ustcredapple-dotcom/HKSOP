@@ -1,0 +1,42 @@
+{
+  "bounds": {
+    "xMin": -10,
+    "yMin": -100,
+    "xMax": 300,
+    "yMax": 100
+  },
+  "elements": [
+    {
+      "id": "source",
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "rotationDeg": 0,
+      "optics": {
+        "elementType": "source",
+        "configured": false,
+        "inserted": true,
+        "surfaceAngleDeg": 0,
+        "pbsHandedness": "left",
+        "fastAxisDeg": 0,
+        "retardanceDeg": 180,
+        "designWavelengthNm": 532,
+        "focalLengthMm": null,
+        "clearApertureMm": 25.4,
+        "source": {
+          "enabled": true,
+          "wavelengthNm": 532,
+          "powerMw": 10,
+          "beamDiameterMm": 2,
+          "polarizationType": "linear",
+          "polarizationAngleDeg": 0,
+          "ellipticityDeg": 0,
+          "wavefrontRadiusMm": null,
+          "beamQualityM2": 1,
+          "directionAngleDeg": 0
+        }
+      }
+    }
+  ]
+}

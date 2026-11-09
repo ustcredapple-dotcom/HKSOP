@@ -1,0 +1,35 @@
+{
+  "id": "custom-kungshu-33-dr-r1",
+  "name": "33-DR R2 手动/电动共用紧凑转接板",
+  "model": "33-DR",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R2-COMPACT-2B",
+  "productionReady": false,
+  "drawingStatus": "engineering-review",
+  "status": "紧凑双螺钉；CAD及图纸审核版；未实物试装",
+  "stepPath": "step/kungshu-compact-r2/33-DR_R2.step",
+  "drawingPath": null,
+  "sourceStepSha256": "ecf5284797d75c3775f5d5df5b916a4badd801677e191905b09cba8bf3d55b7f",
+  "sourceDrawingSha256": "935b9be2bcc8d0f4e0ab013394e8a46c1e38e26be6f907ea3b310f2889cd3b92",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "按同修订图纸加工；编号激光打标，不铣刻。"
+  },
+  "manufacturingEvidence": {
+    "sourceStepSha256": "ecf5284797d75c3775f5d5df5b916a4badd801677e191905b09cba8bf3d55b7f",
+    "drawingSha256": "935b9be2bcc8d0f4e0ab013394e8a46c1e38e26be6f907ea3b310f2889cd3b92",
+    "geometryValidated": true,
+    "pdfVisualReviewPassed": true,
+    "physicalAssemblyTested": false,
+    "engineeringReleaseApproved": false
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "R2共用紧凑板身份标识",
+    "notes": "激光打标，不铣刻；CAD凹深仅显示。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "notes": "柱顶中心及偏置8.5mm的M4双螺钉，共用Ø8.25深4沉孔槽；2×M4×14；保留原柱销、镜架销/螺孔和支架M3接口。手动、电动共用。"
+}

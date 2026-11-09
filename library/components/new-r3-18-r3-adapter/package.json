@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-r3-18-r3-adapter",
+  "revision": "source-snapshot",
+  "displayName": "二英寸可调镜转接块",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-r3-18-r3-adapter.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

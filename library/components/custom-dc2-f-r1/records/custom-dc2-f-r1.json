@@ -1,0 +1,24 @@
+{
+  "id": "custom-dc2-f-r1",
+  "name": "2 inch 固定双色镜转接板 R1",
+  "model": "DC2-F_R1",
+  "kind": "custom",
+  "unit": "件",
+  "stepPath": "step/fixed-dichroic-r1/DC2-F_R1.step",
+  "sourceStepSha256": "b0de4cc24fbafc852f57367605985c332f4c899f9759d1f66274e997cf941ca4",
+  "drawingPath": null,
+  "sourceDrawingSha256": "b247db96498d9961355f2fac9652cea83fa28f9052513a3e69454c962c4a8f7a",
+  "status": "工程审核版；未实物试装",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L",
+    "surfaceTreatment": "去磁、钝化"
+  },
+  "notes": "0°/45°复用同件。螺纹等级、销孔配合和首件实际啮合待确认。",
+  "laserMarking": {
+    "status": "required",
+    "reason": "激光标识，不铣刻",
+    "files": [],
+    "notes": " 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。"
+  }
+}

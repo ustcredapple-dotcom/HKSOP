@@ -1,0 +1,24 @@
+{
+  "id": "lbtek-mt-csb1-purchased",
+  "name": "MT立方体分束镜固定架 · 25.4 mm",
+  "model": "MT-CSB1",
+  "kind": "lubang",
+  "unit": "个",
+  "sourceUrl": "https://www.lbtek.com/product/744",
+  "stepPath": "step/mt-cube-module-r1/MT-CSB1-vendor.step",
+  "drawingPath": null,
+  "status": "官方型号/PDF/STEP已核对；实物未试装",
+  "sourceEvidence": {
+    "type": "manufacturer-reference",
+    "sourceStepSha256": "97ee64d778e59f96407c771041e26ec059cb999a29e94cee46d7fdaebc9d6aca",
+    "drawingSha256": "4a86a38ccaa50084c7866493b1735f451bcaab5f56adeb96e71d7393949a5a87",
+    "referenceOnly": true
+  },
+  "notes": "保留厂家原模型与实体；厂家尺寸图仅供选型参考，不作为新加工图；本模块未实物试装。",
+  "nominalGeometry": {
+    "cubeEdgeMm": 25.4,
+    "stemDiameterMm": 25.4,
+    "stemLengthMm": 6.2,
+    "drawingThroughOpeningDiameterMm": 20.5
+  }
+}

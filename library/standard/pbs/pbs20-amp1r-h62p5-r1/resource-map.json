@@ -1,0 +1,38 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "pbs20-amp1r-h62p5-r1",
+  "files": [
+    {
+      "path": "rendering/6343404506ab3d56f5d7bf775665a6b6c2e7b5172f1fb5d27ab989bff62c4cd5.svg",
+      "stored": "library/assets/sha256/63/6343404506ab3d56f5d7bf775665a6b6c2e7b5172f1fb5d27ab989bff62c4cd5.svg",
+      "sha256": "6343404506ab3d56f5d7bf775665a6b6c2e7b5172f1fb5d27ab989bff62c4cd5",
+      "originalReferences": [
+        "topviews/pbs20-amp1r-h62p5-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/63/6343404506ab3d56f5d7bf775665a6b6c2e7b5172f1fb5d27ab989bff62c4cd5.svg"
+      ]
+    },
+    {
+      "path": "cad/cfb2775684b59d9622674865a493f629743860d8735101b7d4882a65b5ac4138.step",
+      "stored": "library/assets/sha256/cf/cfb2775684b59d9622674865a493f629743860d8735101b7d4882a65b5ac4138.step",
+      "sha256": "cfb2775684b59d9622674865a493f629743860d8735101b7d4882a65b5ac4138",
+      "originalReferences": [
+        "step/pbs20-r1/PBS20_AMP1R_H62p5_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/cf/cfb2775684b59d9622674865a493f629743860d8735101b7d4882a65b5ac4138.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "amp-1r",
+    "custom-p20-l-r1",
+    "custom-p20-u-r1",
+    "custom-post-metric-12p5mm-m1",
+    "metric-m1-post-pin-d2x8",
+    "new-hardware-f0579b934c7c",
+    "new-r3-hardware-b63ea2222bac",
+    "pcms20"
+  ]
+}

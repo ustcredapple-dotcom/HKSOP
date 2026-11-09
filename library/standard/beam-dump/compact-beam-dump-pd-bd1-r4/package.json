@@ -1,0 +1,36 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "compact-beam-dump-pd-bd1-r4",
+  "revision": "R4",
+  "displayName": "紧凑向上折转光阱＋后置PD · BD1-PD R4",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/compact-beam-dump-pd-bd1-r4.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-bdp-a1-r4",
+    "custom-post-metric-25mm-m1",
+    "lbtek-mop-12p5",
+    "lbtek-mopc-5p6-p4",
+    "lbtek-ramc-1bl",
+    "metric-m1-post-m4x16",
+    "metric-m1-post-pin-d2x8",
+    "new-beam-dump-vendor-1",
+    "new-hardware-1d23c1ca342d",
+    "new-hardware-f0579b934c7c",
+    "new-pd-vendor-1",
+    "opm-12.5bs"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

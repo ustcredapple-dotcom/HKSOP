@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-slm-hamamatsu-head",
+  "revision": "source-snapshot",
+  "displayName": "滨松 SLM 无水冷光学头",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-slm-hamamatsu-head.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

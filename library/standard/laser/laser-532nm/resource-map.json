@@ -1,0 +1,31 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "kit-laser-532nm",
+  "files": [
+    {
+      "path": "rendering/3cce89815e5eb6f3582f94a4fbf0b52549d88f93cea1fd9f6f2a082ef59c77ce.svg",
+      "stored": "library/assets/sha256/3c/3cce89815e5eb6f3582f94a4fbf0b52549d88f93cea1fd9f6f2a082ef59c77ce.svg",
+      "sha256": "3cce89815e5eb6f3582f94a4fbf0b52549d88f93cea1fd9f6f2a082ef59c77ce",
+      "originalReferences": [
+        "topviews/kit_laser-532nm.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/3c/3cce89815e5eb6f3582f94a4fbf0b52549d88f93cea1fd9f6f2a082ef59c77ce.svg"
+      ]
+    },
+    {
+      "path": "cad/54516f0d49aefcf94b5cd60ce54a516cc0d613720ccbd6cc14ea3a5395aa1dda.step",
+      "stored": "library/assets/sha256/54/54516f0d49aefcf94b5cd60ce54a516cc0d613720ccbd6cc14ea3a5395aa1dda.step",
+      "sha256": "54516f0d49aefcf94b5cd60ce54a516cc0d613720ccbd6cc14ea3a5395aa1dda",
+      "originalReferences": [
+        "step/laser_installation_reference_20261006/LASER_532_HEAD_REFERENCE_WITH_DATUM.step"
+      ],
+      "sources": [
+        "library/assets/sha256/54/54516f0d49aefcf94b5cd60ce54a516cc0d613720ccbd6cc14ea3a5395aa1dda.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "laser-532nm"
+  ]
+}

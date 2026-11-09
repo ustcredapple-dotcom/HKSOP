@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "pcms20",
+  "revision": "source-snapshot",
+  "displayName": "20 mm 方形棱镜安装平台",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/pcms20.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

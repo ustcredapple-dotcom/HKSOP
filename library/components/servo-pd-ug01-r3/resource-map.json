@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "servo-pd-ug01-r3",
+  "files": [
+    {
+      "path": "cad/a9472f05db71349b8fc268b0afe01b7a63f2fd82f83a4df5064ac1406d1df70f.step",
+      "stored": "library/assets/sha256/a9/a9472f05db71349b8fc268b0afe01b7a63f2fd82f83a4df5064ac1406d1df70f.step",
+      "sha256": "a9472f05db71349b8fc268b0afe01b7a63f2fd82f83a4df5064ac1406d1df70f",
+      "originalReferences": [
+        "step/servo-pd-bilateral-r3/UG01_R3.step"
+      ],
+      "sources": [
+        "library/assets/sha256/a9/a9472f05db71349b8fc268b0afe01b7a63f2fd82f83a4df5064ac1406d1df70f.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

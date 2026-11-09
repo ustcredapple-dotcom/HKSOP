@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-txy2-a1-r1",
+  "files": [
+    {
+      "path": "cad/acabbae867f091cfc0af6ff1423d5afb43ed3c133e8b8afa370b44bf98e19e28.step",
+      "stored": "library/assets/sha256/ac/acabbae867f091cfc0af6ff1423d5afb43ed3c133e8b8afa370b44bf98e19e28.step",
+      "sha256": "acabbae867f091cfc0af6ff1423d5afb43ed3c133e8b8afa370b44bf98e19e28",
+      "originalReferences": [
+        "step/txy2-r1/TXY2-A1_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/ac/acabbae867f091cfc0af6ff1423d5afb43ed3c133e8b8afa370b44bf98e19e28.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

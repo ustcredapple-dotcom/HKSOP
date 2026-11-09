@@ -1,0 +1,16 @@
+{
+  "id": "lbtek-vam-05f-purchased",
+  "name": "不锈钢垂直调节安装架，顶丝固定Ø12.7 mm光学元件，带底座，正面装载",
+  "model": "VAM-05F",
+  "kind": "lubang",
+  "unit": "件",
+  "sourceUrl": "https://www.lbtek.com/product/687?path=36%2F103%2F195",
+  "stepPath": "step/vam05f-r1/VAM-05F_vendor.step",
+  "drawingPath": null,
+  "sourceStepSha256": "f753d6ae42f83082b53fd1603cc63e757601fc38d46a05ae20d242b0a397ef95",
+  "sourceDrawingSha256": "84d470fb662322d30174bccf18fd81246d21e496e560dd0fa0be4d6457f71e4f",
+  "drawingRevision": "B",
+  "drawingStatus": "manufacturer-reference-only",
+  "status": "官方型号与接口来源已核对；商用整件采购参考",
+  "notes": "厂商型号参数主体材质440C，不套用本任务转接板316L处理。适用Ø12.7mm光学元件，最低厚1.5mm，标称轴高15.9mm。官方PDF仅供参考，孔径0.0印刷错误以官方API及STEP核对；厂附特殊M4×0.7螺钉的头部/长度/驱动规格未公开，保留未知。厂附工具与五金不拆成重复采购；组合推荐镜片不纳入默认BOM。"
+}

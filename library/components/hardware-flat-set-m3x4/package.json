@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "hardware-flat-set-m3x4",
+  "revision": "source-snapshot",
+  "displayName": "M3×4 平端紧定螺钉",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/hardware-flat-set-m3x4.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "motor-adapter-m3",
+  "files": [
+    {
+      "path": "cad/87960d0af1526a2b8210c56b2f5d030200d03dd233a805bce82bcf2fc0bbaf64.step",
+      "stored": "library/assets/sha256/87/87960d0af1526a2b8210c56b2f5d030200d03dd233a805bce82bcf2fc0bbaf64.step",
+      "sha256": "87960d0af1526a2b8210c56b2f5d030200d03dd233a805bce82bcf2fc0bbaf64",
+      "originalReferences": [
+        "step/09_电动镜架/转接螺纹_m3toh2_11mm_V2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/87/87960d0af1526a2b8210c56b2f5d030200d03dd233a805bce82bcf2fc0bbaf64.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,45 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "xbk-objective-pt1m-ac-right12p5-h62p5-r3",
+  "files": [
+    {
+      "path": "cad/b3ae5b319338b915ea0dc5d7b5a239082bd24d160dd932efc5fbf51a36c5b658.step",
+      "stored": "library/assets/sha256/b3/b3ae5b319338b915ea0dc5d7b5a239082bd24d160dd932efc5fbf51a36c5b658.step",
+      "sha256": "b3ae5b319338b915ea0dc5d7b5a239082bd24d160dd932efc5fbf51a36c5b658",
+      "originalReferences": [
+        "step/xbk-lateral-fixed-r4/XBK_PT1M_OBJECTIVE_AC_R3_RIGHT12p5_H62p5.step"
+      ],
+      "sources": [
+        "library/assets/sha256/b3/b3ae5b319338b915ea0dc5d7b5a239082bd24d160dd932efc5fbf51a36c5b658.step"
+      ]
+    },
+    {
+      "path": "rendering/f7b87610ba39dcea239af1d227d20645e65f5c5b72398fbf1f88c82759c9eb08.svg",
+      "stored": "library/assets/sha256/f7/f7b87610ba39dcea239af1d227d20645e65f5c5b72398fbf1f88c82759c9eb08.svg",
+      "sha256": "f7b87610ba39dcea239af1d227d20645e65f5c5b72398fbf1f88c82759c9eb08",
+      "originalReferences": [
+        "topviews/xbk-objective-pt1m-ac-right12p5-h62p5-r3.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/f7/f7b87610ba39dcea239af1d227d20645e65f5c5b72398fbf1f88c82759c9eb08.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-obj-pt1m-ac-r3",
+    "custom-obj-v7-side-r1",
+    "custom-v7-1in-main",
+    "custom-v7-m3-h2",
+    "dpt3-pin-d2x5",
+    "hardware-iso4762-m6x16",
+    "hardware-nbk-snss-m6x10-sd",
+    "thorlabs-pt1m-purchased-stage",
+    "v7-din7991-m3x10",
+    "v7-pin-d2x6",
+    "v7-source-encoder-servo",
+    "v7-source-m2x10",
+    "v7-source-m4-nut",
+    "v7-source-m4x20-thin",
+    "v7-source-retaining-washer"
+  ]
+}

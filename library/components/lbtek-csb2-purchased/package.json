@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "lbtek-csb2-purchased",
+  "revision": "source-snapshot",
+  "displayName": "CSB2 · 厂家原件",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/lbtek-csb2-purchased.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

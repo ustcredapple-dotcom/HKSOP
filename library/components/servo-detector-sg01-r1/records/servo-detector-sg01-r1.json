@@ -1,0 +1,35 @@
+{
+  "id": "servo-detector-sg01-r1",
+  "name": "SG01 舵机至万能柱固定座",
+  "model": "SG01",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R1",
+  "stepPath": "step/servo-detector-gate-r2/SG01_FIXED_MOUNT_R1.step",
+  "drawingPath": null,
+  "sourceStepSha256": "cc360de571cf5fc2d1e8bdd2e8b0d7d89397a76c57af9ec22c322e8bca4c77b4",
+  "sourceDrawingSha256": "9e0b73899101c5f341574d601489470e35039c539654a2f522e9668f4b944409",
+  "status": "加工审核版 · 整机外部接口待实装",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "按冻结STEP及孔旁尺寸加工；编号激光打标，不铣刻。无额外通用公差/粗糙度。"
+  },
+  "manufacturingEvidence": {
+    "revision": "R1",
+    "sourceStepSha256": "cc360de571cf5fc2d1e8bdd2e8b0d7d89397a76c57af9ec22c322e8bca4c77b4",
+    "drawingSha256": "9e0b73899101c5f341574d601489470e35039c539654a2f522e9668f4b944409",
+    "pageCount": 2,
+    "geometryValidated": true,
+    "pdfVisualReviewPassed": true,
+    "physicalTrialCompleted": false
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "新定制件唯一短编号；独立1:1闭合矢量和真实面定位均已验收。",
+    "files": [],
+    "notes": " 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。"
+  },
+  "notes": "本体不攻丝；自制通孔、平底销孔、沉孔规格明确。舵机/舵盘外部螺纹与螺长待实测。"
+}

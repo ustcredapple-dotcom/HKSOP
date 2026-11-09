@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-post-metric-25mm-m1",
+  "files": [
+    {
+      "path": "cad/b6729cdb0b48cf2269883aa92d1d10b6489f250f6f4796ae54313e948b1e6778.step",
+      "stored": "library/assets/sha256/b6/b6729cdb0b48cf2269883aa92d1d10b6489f250f6f4796ae54313e948b1e6778.step",
+      "sha256": "b6729cdb0b48cf2269883aa92d1d10b6489f250f6f4796ae54313e948b1e6778",
+      "originalReferences": [
+        "step/universal-post-b6-r1/万能柱_H25mm_B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/b6/b6729cdb0b48cf2269883aa92d1d10b6489f250f6f4796ae54313e948b1e6778.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

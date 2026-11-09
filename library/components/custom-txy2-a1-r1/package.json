@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-txy2-a1-r1",
+  "revision": "R1",
+  "displayName": "TXY2-A1 R1 · 单M6底孔防转转接板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-txy2-a1-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

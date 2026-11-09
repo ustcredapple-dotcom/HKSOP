@@ -1,0 +1,119 @@
+{
+  "name": "索雷博 PT1/M 位移小面包板",
+  "category": "manual-stage",
+  "variant": "PT1/M / R2 直装",
+  "description": "PT1/M 直接固定到25 mm孔距主面包板；保留PT1-T上板，名义顶面高度37.5 mm。上板7075铝合金、黑色阳极氧化。",
+  "stageModuleId": "stage-board-thorlabs-pt1m",
+  "stageRuntime": {
+    "kitId": "stage-board-thorlabs-pt1m",
+    "topBoardId": "stage-top-pt1-t",
+    "topBoardRevision": "R1-A7075",
+    "revision": "R2-A7075-DIRECT-MOUNT",
+    "topViewPath": "topviews/kit_pt1m-direct-mount-r2-complete.svg",
+    "fixedTopView": {
+      "src": "./topviews/kit_pt1m-direct-mount-r2-fixed.svg",
+      "topViewPath": "topviews/kit_pt1m-direct-mount-r2-fixed.svg",
+      "widthMm": 177.214396634004,
+      "heightMm": 76.70000019999901,
+      "anchorXMm": 51.05659663372403,
+      "anchorYMm": 38.353971067179,
+      "sha256": "c5c2da59ffd6ee2f819886f5d0259c582179b2dd33efa208626c72ab88201fc0"
+    },
+    "movingTopView": {
+      "src": "./topviews/kit_pt1m-direct-mount-r2-moving.svg",
+      "topViewPath": "topviews/kit_pt1m-direct-mount-r2-moving.svg",
+      "widthMm": 100.5,
+      "heightMm": 75.5,
+      "anchorXMm": 50.25,
+      "anchorYMm": 37.75,
+      "sha256": "7b5e257718f9c20adb5da162cacf9756d2164358601a3b249d1b66a8e969e462"
+    },
+    "baseBoundsMm": {
+      "xMin": -30.48,
+      "xMax": 30.48,
+      "yMin": -26.416,
+      "yMax": 26.416
+    },
+    "baseBoundsEvidence": "OEM bottom-contact footprint measured from unchanged factory CAD; no PT1-B; frozen independent direct-mount audit.",
+    "vendorMotionRepresentation": "unchanged-source-pose-with-conservative-full-travel-keepout",
+    "userMaterialOverride": {
+      "revision": "R1-A7075",
+      "geometryRevision": "R1",
+      "evidence": "library/reviews/manual-moving-stage-r1-a7075-import-20261006/evidence/user-material-override-20261006.json"
+    },
+    "motionGeometryEvidence": "library/reviews/pt1m-direct-mount-r2-20261009/evidence/mechanical/final-review.json"
+  },
+  "components": [
+    {
+      "componentId": "thorlabs-pt1m-purchased-stage",
+      "quantity": 1
+    },
+    {
+      "componentId": "PT1-T",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-iso4762-m6x16",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-nbk-snss-m6x10-sd",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [],
+  "layout": {
+    "widthMm": 177.214396634004,
+    "heightMm": 76.70000019999901,
+    "anchorXMm": 51.05659663372403,
+    "anchorYMm": 38.353971067179,
+    "topViewPath": "topviews/kit_pt1m-direct-mount-r2-complete.svg",
+    "topViewUrl": "./topviews/kit_pt1m-direct-mount-r2-complete.svg",
+    "placementAllowed": false,
+    "baseBoundsMm": {
+      "xMin": -30.48,
+      "xMax": 30.48,
+      "yMin": -26.416,
+      "yMax": 26.416
+    },
+    "collisionBoundsMm": {
+      "xMin": -63.306597,
+      "yMin": -38.096029,
+      "xMax": 138.4078,
+      "yMax": 38.103971
+    },
+    "opticalType": "empty",
+    "opticalDefaults": {
+      "elementType": "empty",
+      "inserted": false,
+      "configured": true
+    },
+    "note": "专用运动小面包板入口；不得作为普通静态光学器件放置。"
+  },
+  "sourceUrl": "https://media.thorlabs.com/globalassets/items/p/pt/pt1/pt1_m/2864-e0w.pdf?v=0116022458",
+  "status": "名义尺寸已核对；待工艺及实物归中验收",
+  "notes": null,
+  "assemblyReference": {
+    "stepPath": "step/pt1m-direct-mount-r2/PT1M_DIRECT_R2_ASSEM.step",
+    "sourceStepSha256": "f44af11b61f08b62eefb97e0e2288a627f893c864a73199ea3d490dec24bd696",
+    "drawingPath": null,
+    "drawingPages": [
+      1,
+      2
+    ]
+  },
+  "revision": "R2-A7075-DIRECT-MOUNT",
+  "directMounting": {
+    "nominalTopHeightMm": 37.5,
+    "originalBorePitchMm": 25.4,
+    "tableScrewPitchMm": 25,
+    "shaftOffsetPerHoleMm": 0.2,
+    "screwComponentId": "hardware-nbk-snss-m6x10-sd",
+    "installedQuantity": 2,
+    "lowerAdapterPresent": false,
+    "topPlateGeometryUnchanged": true,
+    "evidencePath": "library/reviews/pt1m-direct-mount-r2-20261009/evidence/mechanical/final-review.json",
+    "physicalAcceptance": "not-performed"
+  },
+  "id": "stage-board-thorlabs-pt1m"
+}

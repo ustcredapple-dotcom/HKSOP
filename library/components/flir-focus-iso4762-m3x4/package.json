@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "flir-focus-iso4762-m3x4",
+  "revision": "source-snapshot",
+  "displayName": "M3×4 内六角圆柱头螺钉",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/flir-focus-iso4762-m3x4.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "pcms20",
+  "files": [
+    {
+      "path": "cad/dc7c787bde46de986cf5bfe3ea612b297a72799d5a6561f24e9455601174531e.step",
+      "stored": "library/assets/sha256/dc/dc7c787bde46de986cf5bfe3ea612b297a72799d5a6561f24e9455601174531e.step",
+      "sha256": "dc7c787bde46de986cf5bfe3ea612b297a72799d5a6561f24e9455601174531e",
+      "originalReferences": [
+        "step/pbs20-r1/PCMS20_OEM.step"
+      ],
+      "sources": [
+        "library/assets/sha256/dc/dc7c787bde46de986cf5bfe3ea612b297a72799d5a6561f24e9455601174531e.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

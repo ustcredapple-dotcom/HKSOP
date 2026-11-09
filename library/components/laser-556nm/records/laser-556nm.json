@@ -1,0 +1,12 @@
+{
+  "id": "laser-556nm",
+  "name": "556 nm 激光器 · 频准激光",
+  "model": "FL-SF-556-1.5-CW",
+  "kind": "standard",
+  "unit": "台",
+  "sourceUrl": "",
+  "stepPath": null,
+  "drawingPath": null,
+  "status": "型号与出厂报告已核对；安装定位待确认",
+  "notes": "频准激光FL-SF-556-1.5-CW，报告PLP-2025-09-005910-01。555.80335nm、稳功率1.54W、M²1.020、线偏振；窗面Gaussian参数依据报告束腰推算。外购整机1台，俯视图只表示光学输出腔。滑槽孔位未标注，未加入自动孔吸附。"
+}

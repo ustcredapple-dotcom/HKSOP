@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "hardware-m6x8-camera-trial",
+  "revision": "source-snapshot",
+  "displayName": "内六角圆柱头螺钉 M6×8",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/hardware-m6x8-camera-trial.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

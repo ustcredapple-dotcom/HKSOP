@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-post-metric-150mm-m1",
+  "revision": "B6-R1",
+  "displayName": "万能柱 150 mm · 底座6 mm B6 R1",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-post-metric-150mm-m1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

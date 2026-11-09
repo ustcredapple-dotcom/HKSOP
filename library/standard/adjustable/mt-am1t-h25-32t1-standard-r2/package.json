@@ -1,0 +1,31 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "mt-am1t-h25-32t1-standard-r2",
+  "revision": "DUAL-M4-R4",
+  "displayName": "MT-AM1T · 90°直向 · H25双螺钉紧凑版",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/mt-am1t-h25-32t1-standard-r2.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-mt-am1t-dual-m4-c4",
+    "custom-post-metric-25mm-m1",
+    "hardware-iso4762-m6x12",
+    "lbtek-mt-am1t-purchased",
+    "metric-m1-post-m4x14",
+    "metric-m1-post-pin-d2x8",
+    "new-r3-hardware-b7a3ea97ce89"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

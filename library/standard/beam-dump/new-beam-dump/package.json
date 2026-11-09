@@ -1,0 +1,29 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-beam-dump",
+  "revision": "CURRENT-B6R1",
+  "displayName": "双柱光阱 · LBT1",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/new-beam-dump.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-post-metric-25mm-m1",
+    "metric-m1-post-m4x14",
+    "metric-m1-post-pin-d2x8",
+    "new-beam-dump-adapter-1",
+    "new-beam-dump-vendor-1"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

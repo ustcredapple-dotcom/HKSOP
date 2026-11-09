@@ -1,0 +1,78 @@
+{
+  "id": "custom-laser308-periscope-base28-yfoot-r3",
+  "name": "308 爬架横板",
+  "model": "28-BY3 R3",
+  "kind": "custom",
+  "unit": "件",
+  "stepPath": "step/periscope-standard-r3/28-BY3_R3.step",
+  "sourceStepSha256": "0d6c81510dcae922560d559e891954e4a1389af1c931380ea519b8f326104420",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "仅按冻结孔表加工；通用公差和粗糙度依用户要求有意省略。螺纹规格依图纸，不从底孔直径推断。"
+  },
+  "status": "名义CAD工程审核；实物刚度、夹紧和重复定位未实测",
+  "notes": "原有柱及商业MT-AM1S5未改；旧custom10保留历史，本R3使用独立10-C校正件。镜片几何盘不代表已选光学型号。",
+  "sourceOwnership": {
+    "originalSystem": "用户原有模块与原厂家参考组件",
+    "currentRevision": "本任务获准R3结构修订",
+    "role": "新增定制件；不归属复用商用品原设计"
+  },
+  "drawingPath": null,
+  "sourceDrawingSha256": "25d76e086d18ebfe16389a0c52f31a0fec19ab9498f7f15a381a79ce72e3a3a1",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "dxfPath": null,
+  "manufacturingEvidence": {
+    "sourceStepSha256": "0d6c81510dcae922560d559e891954e4a1389af1c931380ea519b8f326104420",
+    "drawingSha256": "25d76e086d18ebfe16389a0c52f31a0fec19ab9498f7f15a381a79ce72e3a3a1",
+    "dxfSha256": "801a7ecb98a6164bce0667e9808477d8378d9e9e90553cca302436756afd321e",
+    "pageCount": 3,
+    "specPath": "source-project/periscope_standard_r3_20261006/turn90_cad/centered/308/specs/28-BY3.json",
+    "specSHA256": "3b89222cabc45facaffd188a700e446f074416a9a1b40143836608dae0f2152e",
+    "geometryReview": "library/reviews/periscope-standard-r3-20261006/evidence/package_review.json",
+    "releaseScope": "nominal CAD/drawing engineering review; no physical manufacturing qualification"
+  },
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/13e796b6399c6c09085aa668/e/251690407cd15742ed0c3394",
+  "drawingSourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/13e796b6399c6c09085aa668/e/359faae7d9437a843c853e71",
+  "drawingSourceUrlRole": "frozen imported machining PDF; local SHA-bound PDF remains manufacturing document",
+  "sourcePartName": "308向Y短横板",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "32f4ffb9235da3fee6c473b6a02dbc893f44ec4bc95c82dfdc6e5123aeeb1d24",
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "843192630e4b083537da0e25f51b705bc2b84df9de560e4c894e2da56207094a",
+      "currentPdfSha256": "a516333ce654318220906bab44e727863a91381fcdf613f18871e0bbaf37b524",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "1064a2f515d0ca6605501a59860e3fcbc2537f463db7a8604ba4a76d55da8772",
+      "currentPdfSha256": "32f4ffb9235da3fee6c473b6a02dbc893f44ec4bc95c82dfdc6e5123aeeb1d24",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-35-ls75-h-r2",
+  "files": [
+    {
+      "path": "cad/5f75449e1201077b96c2561a3a6562d02e69a25e2658b659bb7d3048aaba46b2.step",
+      "stored": "library/assets/sha256/5f/5f75449e1201077b96c2561a3a6562d02e69a25e2658b659bb7d3048aaba46b2.step",
+      "sha256": "5f75449e1201077b96c2561a3a6562d02e69a25e2658b659bb7d3048aaba46b2",
+      "originalReferences": [
+        "step/camera-ls75-h75-r2/35-LS75-H_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/5f/5f75449e1201077b96c2561a3a6562d02e69a25e2658b659bb7d3048aaba46b2.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

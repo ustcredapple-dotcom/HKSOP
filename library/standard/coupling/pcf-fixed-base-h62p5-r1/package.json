@@ -1,0 +1,30 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "pcf-fixed-base-h62p5-r1",
+  "revision": "R1",
+  "displayName": "PCF 准直器 · 固定式双柱底座 R1",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/pcf-fixed-base-h62p5-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-pcf-b01-r1",
+    "custom-post-metric-37p5mm-m1",
+    "hardware-iso4762-m2p5x8",
+    "hardware-pcf-base-m6-length-unconfirmed",
+    "new-hardware-d56c7b8035c3",
+    "new-hardware-f0579b934c7c"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

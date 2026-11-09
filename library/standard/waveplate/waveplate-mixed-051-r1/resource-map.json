@@ -1,0 +1,38 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "waveplate-mixed-051-r1",
+  "files": [
+    {
+      "path": "rendering/3355f74c2e101aadfe793389796f903d63290552fcc71a5adc2cb7c3efd2be7a.svg",
+      "stored": "library/assets/sha256/33/3355f74c2e101aadfe793389796f903d63290552fcc71a5adc2cb7c3efd2be7a.svg",
+      "sha256": "3355f74c2e101aadfe793389796f903d63290552fcc71a5adc2cb7c3efd2be7a",
+      "originalReferences": [
+        "topviews/waveplate-mixed-051-r1__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/33/3355f74c2e101aadfe793389796f903d63290552fcc71a5adc2cb7c3efd2be7a.svg"
+      ]
+    },
+    {
+      "path": "cad/dc6f6f50338b9d99732ed609854c518312522016eda4fb882b56aca486f3add9.step",
+      "stored": "library/assets/sha256/dc/dc6f6f50338b9d99732ed609854c518312522016eda4fb882b56aca486f3add9.step",
+      "sha256": "dc6f6f50338b9d99732ed609854c518312522016eda4fb882b56aca486f3add9",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/waveplate-mixed-051-r1__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/dc/dc6f6f50338b9d99732ed609854c518312522016eda4fb882b56aca486f3add9.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "cmrm05s",
+    "crm-1as",
+    "custom-post-metric-37p5mm-m1",
+    "custom-wp051-d-r1",
+    "new-hardware-0cc1a2908550",
+    "new-hardware-1d23c1ca342d",
+    "new-hardware-f0579b934c7c",
+    "new-hardware-ff9fb49c865c"
+  ]
+}

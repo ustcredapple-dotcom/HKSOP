@@ -1,0 +1,214 @@
+{
+  "name": "FLIR 相机调焦整装 · 特种万能柱 R2",
+  "category": "detector",
+  "variant": "BFS-U3-16S2-CS · H75 · 50×50安装孔",
+  "revision": "R2",
+  "description": "FLIR相机、现有转接板、H25特柱、单轴位移台及底板，中位整套拖入。",
+  "components": [
+    {
+      "componentId": "custom-fc75-b-r2",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-fc75-p-r2",
+      "quantity": 1
+    },
+    {
+      "componentId": "flir-focus-single-axis-stage-reference",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r6-20-camera-cs-adapter",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r6-camera-flir-bfs-u3-16s2-cs",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-iso4762-m6x10",
+      "quantity": 4
+    },
+    {
+      "componentId": "new-hardware-8bfe2c119c79",
+      "quantity": 4
+    },
+    {
+      "componentId": "metric-m1-post-m4x12",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-pin-d2x8",
+      "quantity": 2
+    },
+    {
+      "componentId": "flir-focus-iso4762-m3x4",
+      "quantity": 3
+    }
+  ],
+  "opticalSlots": [],
+  "status": "极速入库 · 工程审核版 · 未实物试装",
+  "releaseStage": "fast-upload",
+  "productionReady": false,
+  "notes": "底板四孔50×50 mm，兼容25 mm及12.5 mm M6孔网。名义机械光轴75 mm，保持相机绕轴90°姿态；高度链9+16+25+10.5+14.5。原20-CAM-CS-M1转接板复用不改造。位移台为接口参考；底部4颗原M3固定螺钉复用，长度/头座需核实，未自动采购。原感光面深度12.759333 mm为历史估计，未验证。中位静态布局，不模拟调焦运动或成像；源包附±6.5 mm参考姿态。M6×10要求面包板可用牙深≥8 mm。紧固件在清单中，未在原总装详模。",
+  "assemblyReference": {
+    "stepPath": "step/flir-focus-h75-r2/FC75_R2_MID_REFERENCE_ASSEMBLY.step",
+    "sourceStepSha256": "482da1ce6176d51c54dce1df829328a8216d144c5cab788a80351e8dc38954d6",
+    "sourceExact": true,
+    "revision": "R2-MID",
+    "nominalFixedPositionAssembly": true,
+    "includeInBundle": true,
+    "drawingPath": null,
+    "sourceDrawingSha256": "685c8ca693e3886c445ebdf38c72238ad2e204ea4c969c0f55d16ea9fae438d7",
+    "cloudStatus": "not-uploaded-fast-scope"
+  },
+  "fastUpload": {
+    "schema": "zzlab-fast-kit-upload-v1",
+    "archiveSha256": "521e5992c732938a5646129567e5bb8d3a256172ff3b8a0a943818835b6c1c6e",
+    "atlas": "excluded-by-user-scope",
+    "onshape": "excluded-by-user-scope",
+    "physicalAssemblyValidated": false,
+    "productionApprovalGranted": false
+  },
+  "layout": {
+    "topViewPath": "topviews/flir-focus-h75-r2.svg",
+    "topViewUrl": "./topviews/flir-focus-h75-r2.svg",
+    "widthMm": 68,
+    "heightMm": 68,
+    "anchorXMm": 34,
+    "anchorYMm": 34,
+    "baseBoundsMm": {
+      "xMin": -32,
+      "yMin": -32,
+      "xMax": 32,
+      "yMax": 32
+    },
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -25,
+        "yMm": -25
+      },
+      {
+        "xMm": -25,
+        "yMm": 25
+      },
+      {
+        "xMm": 25,
+        "yMm": -25
+      },
+      {
+        "xMm": 25,
+        "yMm": 25
+      }
+    ],
+    "minimumAlignedMountingHoles": 4,
+    "mountingConfirmed": true,
+    "placementAllowed": true,
+    "status": "R2真实STEP中位俯视与四孔安装已核对",
+    "note": "锚点为固定底板中心；四孔均需对齐，光高75。中位静态，不含调焦运动。",
+    "collisionBoundsMm": {
+      "xMin": -32.15,
+      "yMin": -32.15,
+      "xMax": 32.15,
+      "yMax": 32.15
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -32.15,
+          "yMm": 32.0
+        },
+        {
+          "xMm": -32.106066,
+          "yMm": 32.106066
+        },
+        {
+          "xMm": -32.0,
+          "yMm": 32.15
+        },
+        {
+          "xMm": 32.0,
+          "yMm": 32.15
+        },
+        {
+          "xMm": 32.106066,
+          "yMm": 32.106066
+        },
+        {
+          "xMm": 32.15,
+          "yMm": 32.0
+        },
+        {
+          "xMm": 32.15,
+          "yMm": -32.0
+        },
+        {
+          "xMm": 32.106066,
+          "yMm": -32.106066
+        },
+        {
+          "xMm": 32.0,
+          "yMm": -32.15
+        },
+        {
+          "xMm": -32.0,
+          "yMm": -32.15
+        },
+        {
+          "xMm": -32.106066,
+          "yMm": -32.106066
+        },
+        {
+          "xMm": -32.15,
+          "yMm": -32.0
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "fc75-r2-mid",
+    "opticalType": "unsupported",
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalAxisHeightMm": 75,
+    "nominalOpticalHeightMm": 75,
+    "opticalAxisHeightSource": "R2来源高度链9+16+25+10.5+14.5；原感光面位置仍为估计",
+    "opticalSurfaceAngleDeg": 90,
+    "opticalDatumVerified": false,
+    "opticalSimulationNote": "仅名义机械轴位置；真实感光面未确认，成像与调焦运动未模拟。",
+    "opticalGeometryEvidence": {
+      "referencePointWorldMm": [
+        0,
+        0,
+        75
+      ],
+      "planeNormalWorld": [
+        1,
+        0,
+        0
+      ],
+      "geometricReferenceOnly": true,
+      "sensorPlanePending": true,
+      "source": "R2冻结总装及来源verification.json"
+    },
+    "geometryEvidence": {
+      "sourceStep": "step/flir-focus-h75-r2/FC75_R2_MID_REFERENCE_ASSEMBLY.step",
+      "sourceSha256": "482da1ce6176d51c54dce1df829328a8216d144c5cab788a80351e8dc38954d6",
+      "sourceStepSha256": "482da1ce6176d51c54dce1df829328a8216d144c5cab788a80351e8dc38954d6",
+      "imageSha256": "8f2500ef4f92b8b64b67a1444b0aea52512a4821177ce75047ff3f8c37c5cce6",
+      "partCount": 6,
+      "triangleCount": 124500,
+      "meshDeflectionMm": 0.035,
+      "collisionGuardMm": 0.15,
+      "physicalAssemblyTested": false
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "482da1ce6176d51c54dce1df829328a8216d144c5cab788a80351e8dc38954d6",
+      "imageSha256": "8f2500ef4f92b8b64b67a1444b0aea52512a4821177ce75047ff3f8c37c5cce6",
+      "revision": "R2",
+      "renderRole": "complete"
+    }
+  },
+  "id": "flir-focus-h75-r2"
+}

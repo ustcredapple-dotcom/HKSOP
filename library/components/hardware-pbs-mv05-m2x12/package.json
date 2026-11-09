@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "hardware-pbs-mv05-m2x12",
+  "revision": "source-snapshot",
+  "displayName": "PBS 半英寸竖直电动版 M2×12 舵机螺钉",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/hardware-pbs-mv05-m2x12.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

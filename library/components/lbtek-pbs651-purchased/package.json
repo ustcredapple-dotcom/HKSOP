@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "lbtek-pbs651-purchased",
+  "revision": "source-snapshot",
+  "displayName": "PBS651 · 厂家原件",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/lbtek-pbs651-purchased.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

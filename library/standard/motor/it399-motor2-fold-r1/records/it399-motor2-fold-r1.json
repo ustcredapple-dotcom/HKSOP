@@ -1,0 +1,441 @@
+{
+  "name": "399 · 2 inch双电机折转镜 R1",
+  "category": "motor",
+  "variant": "399 R6模块内部 · 专用改孔柱",
+  "description": "标准双电机镜架保持原样，专用柱顶孔换向；名义光线向俯视图下方折。",
+  "libraryVisibility": "compatibility-only",
+  "components": [
+    {
+      "componentId": "custom-motor-adapter-18-s2-r2",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r3-vendor-mt-am2s5",
+      "quantity": 1
+    },
+    {
+      "componentId": "encoder-servo",
+      "quantity": 2
+    },
+    {
+      "componentId": "motor-adapter-m3",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-h2d2-b-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-h2d2-s-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-h2d2-l-r2",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-h2-r3-m2x10",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-iso4762-m3x8",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-h2-r3-m4x20",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-h2-r3-m4-washer",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-source-m4-nut",
+      "quantity": 1
+    },
+    {
+      "componentId": "it399-motor2-post-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-iso4762-m6x16",
+      "quantity": 4
+    },
+    {
+      "componentId": "new-hardware-f1da242532cf",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-hardware-ff9fb49c865c",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "mirror",
+      "label": "实际399折转镜（镀膜及规格待选）",
+      "type": "mirror",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 50.8
+    }
+  ],
+  "status": "非标准安装模块 · 工程审核版",
+  "productionReady": false,
+  "layout": {
+    "placementAllowed": true,
+    "topViewPath": "topviews/it399-r6-motor.svg",
+    "topViewUrl": "./topviews/it399-r6-motor.svg",
+    "widthMm": 98.51861428444056,
+    "heightMm": 99.65981724798212,
+    "anchorXMm": 28.659313492440447,
+    "anchorYMm": 78.20209467638006,
+    "baseBoundsMm": {
+      "xMin": -20.457722571597504,
+      "xMax": 20.457722571597504,
+      "yMin": -20.457722571597504,
+      "yMax": 20.457722571597504
+    },
+    "collisionBoundsMm": {
+      "xMin": -27.659313492440447,
+      "xMax": 68.85930079200011,
+      "yMin": -20.457722571602062,
+      "yMax": 77.20209467638006
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -27.449951171875,
+          "yMm": 18.8682861328125
+        },
+        {
+          "xMm": -27.6004638671875,
+          "yMm": 19.142578125
+        },
+        {
+          "xMm": -27.65887451171875,
+          "yMm": 19.449951171875
+        },
+        {
+          "xMm": -27.52752685546875,
+          "yMm": 19.9766845703125
+        },
+        {
+          "xMm": -21.46435546875,
+          "yMm": 28.88812255859375
+        },
+        {
+          "xMm": -21.25,
+          "yMm": 29.115966796875
+        },
+        {
+          "xMm": -20.74664306640625,
+          "yMm": 29.31939697265625
+        },
+        {
+          "xMm": -20.211181640625,
+          "yMm": 29.22979736328125
+        },
+        {
+          "xMm": -17.246620208982677,
+          "yMm": 27.226429640894708
+        },
+        {
+          "xMm": -16.87457275390625,
+          "yMm": 27.29705810546875
+        },
+        {
+          "xMm": -16.806262521620965,
+          "yMm": 26.992512191331798
+        },
+        {
+          "xMm": -16.8162841796875,
+          "yMm": 27.6204833984375
+        },
+        {
+          "xMm": -16.6912841796875,
+          "yMm": 28.31787109375
+        },
+        {
+          "xMm": -16.3790283203125,
+          "yMm": 29.0535888671875
+        },
+        {
+          "xMm": -15.932455293624002,
+          "yMm": 29.663781629828804
+        },
+        {
+          "xMm": -16.87860107421875,
+          "yMm": 30.30792236328125
+        },
+        {
+          "xMm": -16.9456787109375,
+          "yMm": 30.660888671875
+        },
+        {
+          "xMm": -16.346119904913394,
+          "yMm": 31.541528006595513
+        },
+        {
+          "xMm": -19.10498046875,
+          "yMm": 33.4197998046875
+        },
+        {
+          "xMm": -19.4189453125,
+          "yMm": 33.765380859375
+        },
+        {
+          "xMm": -19.541748046875,
+          "yMm": 34.2158203125
+        },
+        {
+          "xMm": -19.44671630859375,
+          "yMm": 34.6729736328125
+        },
+        {
+          "xMm": -18.130758168141483,
+          "yMm": 36.627761730914926
+        },
+        {
+          "xMm": -20.94122314453125,
+          "yMm": 38.5411376953125
+        },
+        {
+          "xMm": -19.92824612740742,
+          "yMm": 40.029054119365924
+        },
+        {
+          "xMm": -21.2508544921875,
+          "yMm": 40.92950439453125
+        },
+        {
+          "xMm": -5.943683121775734,
+          "yMm": 63.413457286425455
+        },
+        {
+          "xMm": -6.770263671875,
+          "yMm": 63.9761962890625
+        },
+        {
+          "xMm": 2.2340087890625,
+          "yMm": 77.20208740234375
+        },
+        {
+          "xMm": 68.8592529296875,
+          "yMm": 31.84320068359375
+        },
+        {
+          "xMm": 43.53485107421875,
+          "yMm": -5.354522705078125
+        },
+        {
+          "xMm": 39.401775264725416,
+          "yMm": -2.5407018131447785
+        },
+        {
+          "xMm": 38.116943359375,
+          "yMm": -4.42236328125
+        },
+        {
+          "xMm": 37.81805419921875,
+          "yMm": -4.673187255859375
+        },
+        {
+          "xMm": 37.52362060546875,
+          "yMm": -4.7789306640625
+        },
+        {
+          "xMm": 37.21087646484375,
+          "yMm": -4.788482666015625
+        },
+        {
+          "xMm": 36.9105224609375,
+          "yMm": -4.700958251953125
+        },
+        {
+          "xMm": 35.33801788898745,
+          "yMm": -3.6452992445226755
+        },
+        {
+          "xMm": 34.73846435546875,
+          "yMm": -4.525970458984375
+        },
+        {
+          "xMm": 34.385498046875,
+          "yMm": -4.59295654296875
+        },
+        {
+          "xMm": 33.19675044445523,
+          "yMm": -3.7836577072203568
+        },
+        {
+          "xMm": 32.892578125,
+          "yMm": -4.408294677734375
+        },
+        {
+          "xMm": 32.43975830078125,
+          "yMm": -4.9774169921875
+        },
+        {
+          "xMm": 31.762451171875,
+          "yMm": -5.489501953125
+        },
+        {
+          "xMm": 31.17930767315056,
+          "yMm": -5.742217634603662
+        },
+        {
+          "xMm": 32.82452392578125,
+          "yMm": -6.865203857421875
+        },
+        {
+          "xMm": 33.5321044921875,
+          "yMm": -7.451171875
+        },
+        {
+          "xMm": 33.6785888671875,
+          "yMm": -7.94244384765625
+        },
+        {
+          "xMm": 33.58355712890625,
+          "yMm": -8.3995361328125
+        },
+        {
+          "xMm": 27.48406982421875,
+          "yMm": -17.380584716796875
+        },
+        {
+          "xMm": 27.205810546875,
+          "yMm": -17.654083251953125
+        },
+        {
+          "xMm": 26.766357421875,
+          "yMm": -17.8118896484375
+        },
+        {
+          "xMm": 26.453857421875,
+          "yMm": -17.796875
+        },
+        {
+          "xMm": 26.16131591796875,
+          "yMm": -17.68603515625
+        },
+        {
+          "xMm": 21.048761565281097,
+          "yMm": -14.209158492870756
+        },
+        {
+          "xMm": 20.99249267578125,
+          "yMm": -14.29180908203125
+        },
+        {
+          "xMm": 20.457701547181614,
+          "yMm": -13.92772863772717
+        },
+        {
+          "xMm": -13.927734375,
+          "yMm": -20.457733154296875
+        },
+        {
+          "xMm": -20.457692372966562,
+          "yMm": 13.927680328195947
+        },
+        {
+          "xMm": -20.99249267578125,
+          "yMm": 14.29180908203125
+        },
+        {
+          "xMm": -20.936235280403025,
+          "yMm": 14.374442533817842
+        },
+        {
+          "xMm": -27.22210693359375,
+          "yMm": 18.6539306640625
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -14.612658979712505,
+        "yMm": 9.94837662850716
+      },
+      {
+        "xMm": 9.94837662850716,
+        "yMm": 14.612658979712505
+      },
+      {
+        "xMm": -9.94837662850716,
+        "yMm": -14.612658979712505
+      },
+      {
+        "xMm": 14.612658979712505,
+        "yMm": -9.94837662850716
+      }
+    ],
+    "minimumAlignedMountingHoles": 4,
+    "opticalAxisHeightMm": 62.5,
+    "opticalClearApertureVerified": false,
+    "geometryEvidence": {
+      "sourceStepSha256": "7d35defeafa5f42f599ecee5a9f43cfda99eba55390093cf9f25c5c1f9d8cea8",
+      "imageSha256": "fc7486ce0f9cbdabfcf8347a55d39f5144699624fe1ea514f3a1d047b8f411d8",
+      "style": "zzlab-shaded-metal-v1",
+      "leafCount": 28,
+      "sourcePoseUnchanged": true,
+      "projectionSimplificationMm": 0.04,
+      "mountingDatum": "source world pose baked into projection; board-owned child rotation0"
+    },
+    "opticalType": "mirror",
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalSurfaceAngleDeg": 145.7527560664453,
+    "opticalDatumVerified": true,
+    "opticalAxisHeightSource": "源总装名义50.8×12 mm镜片前表面；实际镜片厚度及镀膜待确认。",
+    "opticalDefaults": {
+      "elementType": "mirror",
+      "inserted": false,
+      "configured": false
+    },
+    "opticalSimulationNote": "名义前光面按源姿态将入射21.505512°折到俯视-Y；实际镜片规格和镀膜待选，未做通电全行程认证。"
+  },
+  "notes": "按A面方向，先锁柱底4颗M6×16，再装镜架M4×16及2根Ø2×8销。保留原双电机及长H2驱动；尚未实物试装或验证带电全行程。名义50.8×12 mm片仅参考，待选择实际光学片。",
+  "sourceReport": {
+    "kind": "user-cad-package",
+    "revision": "R6+MOTOR2-R1/INSTALL-20261019",
+    "packageSha256": "4f55d6d940388da8fb589ed455ab160cacf0486720412682a3a227c114b75654",
+    "boardPackageSha256": "7652d9a920b5be3cd6cbc9500ebba81990aa19acfa445ecccae0b0c519b3d5e9"
+  },
+  "assemblyReference": {
+    "stepPath": "step/iontrap-it399-r6-motor2/IT75_MOTOR2_SETTING_R1.step",
+    "sourceStepSha256": "33760b720b366e1a52dc3631b93fdc92f9f759b7aa9afba987f1d7ab0ffa56d2",
+    "sourceExact": true
+  },
+  "donorSource": {
+    "kitId": "motor-2-90-h2-coplanar-r1",
+    "sourceStepSha256": "e98789cf0aa861ed0fe46d9bd568987869a89fbd8760c0ef5a7bb25de557ec01",
+    "postReplaced": true,
+    "standardUpperAssemblyUnchanged": true
+  },
+  "publicationScope": {
+    "website": true,
+    "localEditor": true,
+    "atlasIncluded": false,
+    "onshapeUploaded": false,
+    "physicalTrial": false
+  },
+  "fastUpload": {
+    "schema": "zzlab-fast-kit-upload-v1",
+    "packageId": "it399-r6-motor2-replacement-20261019",
+    "mode": "reviewed-module-replacement",
+    "atlasIncluded": false,
+    "onshapeUploaded": false,
+    "sourceZipSha256": "4f55d6d940388da8fb589ed455ab160cacf0486720412682a3a227c114b75654"
+  },
+  "h12p5AssemblyInstructionUpdate": {
+    "revision": "2026-10-28",
+    "partGeometryChanged": false,
+    "scope": "Only ordinary H12.5 post references in shared assembly instruction PDF updated."
+  },
+  "id": "it399-motor2-fold-r1"
+}

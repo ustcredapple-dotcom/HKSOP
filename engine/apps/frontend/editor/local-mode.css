@@ -1,0 +1,12 @@
+/* Commerce and account controls are excluded; original editing layout is retained. */
+#results, #generate, .plan-footnote, .workspace-navigation, #canvas-cart-link,
+#shared-kits-region, #shared-publish-open, #shared-publish-login,
+#shared-publish-access-note, #guest-access-open, #access-login,
+[data-module-generate], [data-export], #shared-publish-dialog {display:none!important}
+#local-sync-status {font-size:12px;color:#647570;max-width:350px}
+#local-sync {white-space:nowrap}
+.project-drop-overlay {position:fixed;inset:16px;z-index:10000;display:grid;place-items:center;pointer-events:none;border:3px dashed #39766c;border-radius:18px;background:rgba(239,247,243,.94);color:#24534c;text-align:center}
+.project-drop-overlay[hidden] {display:none}
+.project-drop-overlay strong {display:block;font-size:26px;margin-bottom:12px}
+.project-drop-overlay p {margin:8px 20px;font-size:15px}
+#project-drop-hint {margin:0 0 12px;color:#647570;font-size:12px}

@@ -1,0 +1,953 @@
+{
+  "source": "ZZLab_手动位移小面包板_完整协议包_R1_2026-10-06.zip / mechanical/stage-registration.json",
+  "modules": [
+    {
+      "id": "stage-board-lbtek-ls30-6l1",
+      "revision": "R1",
+      "name": "麓邦 LS30-6L1 位移小面包板",
+      "stack": {
+        "bottomAdapterThicknessMm": 12,
+        "topPlateThicknessMm": 8.5,
+        "totalHeightMm": 37.5
+      },
+      "centerTopOriginMm": {
+        "xMm": -25.0,
+        "yMm": -25.0
+      },
+      "topSurface": {
+        "widthMm": 50,
+        "heightMm": 50,
+        "holes": [
+          {
+            "id": "T01",
+            "xMm": 12.5,
+            "yMm": 12.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T02",
+            "xMm": 12.5,
+            "yMm": 25.0,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T03",
+            "xMm": 12.5,
+            "yMm": 37.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T04",
+            "xMm": 37.5,
+            "yMm": 12.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T05",
+            "xMm": 37.5,
+            "yMm": 25.0,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T06",
+            "xMm": 37.5,
+            "yMm": 37.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "F01",
+            "xMm": 25.0,
+            "yMm": 19.35,
+            "type": "mounting",
+            "usable": false
+          },
+          {
+            "id": "F02",
+            "xMm": 25.0,
+            "yMm": 30.65,
+            "type": "mounting",
+            "usable": false
+          },
+          {
+            "id": "R01",
+            "xMm": 25,
+            "yMm": 12.5,
+            "type": "reserved",
+            "usable": false
+          },
+          {
+            "id": "R02",
+            "xMm": 25,
+            "yMm": 25,
+            "type": "reserved",
+            "usable": false
+          },
+          {
+            "id": "R03",
+            "xMm": 25,
+            "yMm": 37.5,
+            "type": "reserved",
+            "usable": false
+          }
+        ]
+      },
+      "lowerAttachmentHoles": [
+        {
+          "id": "B01",
+          "xMm": -12.5,
+          "yMm": -12.5
+        },
+        {
+          "id": "B02",
+          "xMm": -12.5,
+          "yMm": 12.5
+        },
+        {
+          "id": "B03",
+          "xMm": 12.5,
+          "yMm": -12.5
+        },
+        {
+          "id": "B04",
+          "xMm": 12.5,
+          "yMm": 12.5
+        }
+      ],
+      "motion": {
+        "axis": "x",
+        "minMm": -3.25,
+        "maxMm": 3.25,
+        "workingMinMm": -3,
+        "workingMaxMm": 3,
+        "zeroMeaning": "mechanical-travel-midpoint",
+        "readoutAtCenterMm": null,
+        "centerCalibrationStatus": "not-performed"
+      },
+      "collisionBodies": [
+        {
+          "id": "vendor-full-travel-keepout",
+          "frame": "fixed",
+          "boundsMm": {
+            "xMin": -39.95,
+            "yMin": -25.0,
+            "zMin": 0.0,
+            "xMax": 25.0,
+            "yMax": 25.0,
+            "zMax": 29.0
+          },
+          "quality": "conservative"
+        },
+        {
+          "id": "top-plate",
+          "frame": "moving",
+          "boundsMm": {
+            "xMin": 0,
+            "yMin": 0,
+            "zMin": -8.5,
+            "xMax": 50,
+            "yMax": 50,
+            "zMax": 0
+          },
+          "quality": "conservative"
+        }
+      ]
+    },
+    {
+      "id": "stage-board-lbtek-ls30-6r1",
+      "revision": "R1",
+      "name": "麓邦 LS30-6R1 位移小面包板",
+      "stack": {
+        "bottomAdapterThicknessMm": 12,
+        "topPlateThicknessMm": 8.5,
+        "totalHeightMm": 37.5
+      },
+      "centerTopOriginMm": {
+        "xMm": -25.0,
+        "yMm": -25.0
+      },
+      "topSurface": {
+        "widthMm": 50,
+        "heightMm": 50,
+        "holes": [
+          {
+            "id": "T01",
+            "xMm": 12.5,
+            "yMm": 12.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T02",
+            "xMm": 12.5,
+            "yMm": 25.0,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T03",
+            "xMm": 12.5,
+            "yMm": 37.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T04",
+            "xMm": 37.5,
+            "yMm": 12.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T05",
+            "xMm": 37.5,
+            "yMm": 25.0,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T06",
+            "xMm": 37.5,
+            "yMm": 37.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "F01",
+            "xMm": 25.0,
+            "yMm": 19.35,
+            "type": "mounting",
+            "usable": false
+          },
+          {
+            "id": "F02",
+            "xMm": 25.0,
+            "yMm": 30.65,
+            "type": "mounting",
+            "usable": false
+          },
+          {
+            "id": "R01",
+            "xMm": 25,
+            "yMm": 12.5,
+            "type": "reserved",
+            "usable": false
+          },
+          {
+            "id": "R02",
+            "xMm": 25,
+            "yMm": 25,
+            "type": "reserved",
+            "usable": false
+          },
+          {
+            "id": "R03",
+            "xMm": 25,
+            "yMm": 37.5,
+            "type": "reserved",
+            "usable": false
+          }
+        ]
+      },
+      "lowerAttachmentHoles": [
+        {
+          "id": "B01",
+          "xMm": -12.5,
+          "yMm": -12.5
+        },
+        {
+          "id": "B02",
+          "xMm": -12.5,
+          "yMm": 12.5
+        },
+        {
+          "id": "B03",
+          "xMm": 12.5,
+          "yMm": -12.5
+        },
+        {
+          "id": "B04",
+          "xMm": 12.5,
+          "yMm": 12.5
+        }
+      ],
+      "motion": {
+        "axis": "x",
+        "minMm": -3.25,
+        "maxMm": 3.25,
+        "workingMinMm": -3,
+        "workingMaxMm": 3,
+        "zeroMeaning": "mechanical-travel-midpoint",
+        "readoutAtCenterMm": null,
+        "centerCalibrationStatus": "not-performed"
+      },
+      "collisionBodies": [
+        {
+          "id": "vendor-full-travel-keepout",
+          "frame": "fixed",
+          "boundsMm": {
+            "xMin": -39.95,
+            "yMin": -25.0,
+            "zMin": 0.0,
+            "xMax": 25.0,
+            "yMax": 25.0,
+            "zMax": 29.0
+          },
+          "quality": "conservative"
+        },
+        {
+          "id": "top-plate",
+          "frame": "moving",
+          "boundsMm": {
+            "xMin": 0,
+            "yMin": 0,
+            "zMin": -8.5,
+            "xMax": 50,
+            "yMax": 50,
+            "zMax": 0
+          },
+          "quality": "conservative"
+        }
+      ]
+    },
+    {
+      "id": "stage-board-thorlabs-mt1m",
+      "revision": "R1",
+      "name": "索雷博 MT1/M 位移小面包板",
+      "stack": {
+        "bottomAdapterThicknessMm": 0,
+        "topPlateThicknessMm": 16.926,
+        "totalHeightMm": 37.5
+      },
+      "centerTopOriginMm": {
+        "xMm": -31.25,
+        "yMm": -31.25
+      },
+      "topSurface": {
+        "widthMm": 62.5,
+        "heightMm": 62.5,
+        "holes": [
+          {
+            "id": "T01",
+            "xMm": 6.25,
+            "yMm": 6.25,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T02",
+            "xMm": 6.25,
+            "yMm": 18.75,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T03",
+            "xMm": 6.25,
+            "yMm": 31.25,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T04",
+            "xMm": 6.25,
+            "yMm": 43.75,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T05",
+            "xMm": 6.25,
+            "yMm": 56.25,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T06",
+            "xMm": 18.75,
+            "yMm": 6.25,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T07",
+            "xMm": 18.75,
+            "yMm": 31.25,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T08",
+            "xMm": 18.75,
+            "yMm": 56.25,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T09",
+            "xMm": 31.25,
+            "yMm": 6.25,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T10",
+            "xMm": 31.25,
+            "yMm": 18.75,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T11",
+            "xMm": 31.25,
+            "yMm": 31.25,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T12",
+            "xMm": 31.25,
+            "yMm": 43.75,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T13",
+            "xMm": 31.25,
+            "yMm": 56.25,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T14",
+            "xMm": 43.75,
+            "yMm": 6.25,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T15",
+            "xMm": 43.75,
+            "yMm": 31.25,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T16",
+            "xMm": 43.75,
+            "yMm": 56.25,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T17",
+            "xMm": 56.25,
+            "yMm": 6.25,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T18",
+            "xMm": 56.25,
+            "yMm": 18.75,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T19",
+            "xMm": 56.25,
+            "yMm": 31.25,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T20",
+            "xMm": 56.25,
+            "yMm": 43.75,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T21",
+            "xMm": 56.25,
+            "yMm": 56.25,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "F01",
+            "xMm": 18.75,
+            "yMm": 18.75,
+            "type": "mounting",
+            "usable": false
+          },
+          {
+            "id": "F02",
+            "xMm": 18.75,
+            "yMm": 43.75,
+            "type": "mounting",
+            "usable": false
+          },
+          {
+            "id": "F03",
+            "xMm": 43.75,
+            "yMm": 18.75,
+            "type": "mounting",
+            "usable": false
+          },
+          {
+            "id": "F04",
+            "xMm": 43.75,
+            "yMm": 43.75,
+            "type": "mounting",
+            "usable": false
+          }
+        ]
+      },
+      "lowerAttachmentHoles": [
+        {
+          "id": "B01",
+          "xMm": -12.5,
+          "yMm": 0.0
+        },
+        {
+          "id": "B02",
+          "xMm": 12.5,
+          "yMm": 0.0
+        }
+      ],
+      "motion": {
+        "axis": "x",
+        "minMm": -6.35,
+        "maxMm": 6.35,
+        "workingMinMm": -6.35,
+        "workingMaxMm": 6.35,
+        "zeroMeaning": "mechanical-travel-midpoint",
+        "readoutAtCenterMm": null,
+        "centerCalibrationStatus": "not-performed"
+      },
+      "collisionBodies": [
+        {
+          "id": "vendor-full-travel-keepout",
+          "frame": "fixed",
+          "boundsMm": {
+            "xMin": -36.848572,
+            "yMin": -32.6136,
+            "zMin": -0.0,
+            "xMax": 95.002828,
+            "yMax": 30.48,
+            "zMax": 20.574
+          },
+          "quality": "conservative"
+        },
+        {
+          "id": "top-plate",
+          "frame": "moving",
+          "boundsMm": {
+            "xMin": 0,
+            "yMin": 0,
+            "zMin": -16.926,
+            "xMax": 62.5,
+            "yMax": 62.5,
+            "zMax": 0
+          },
+          "quality": "conservative"
+        }
+      ]
+    },
+    {
+      "id": "stage-board-thorlabs-pt1m",
+      "revision": "R1",
+      "name": "索雷博 PT1/M 位移小面包板",
+      "stack": {
+        "bottomAdapterThicknessMm": 12.5,
+        "topPlateThicknessMm": 17.18,
+        "totalHeightMm": 50
+      },
+      "centerTopOriginMm": {
+        "xMm": -50.0,
+        "yMm": -37.5
+      },
+      "topSurface": {
+        "widthMm": 100,
+        "heightMm": 75,
+        "holes": [
+          {
+            "id": "T01",
+            "xMm": 12.5,
+            "yMm": 25.0,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T02",
+            "xMm": 12.5,
+            "yMm": 37.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T03",
+            "xMm": 12.5,
+            "yMm": 50.0,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T04",
+            "xMm": 25.0,
+            "yMm": 12.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T05",
+            "xMm": 25.0,
+            "yMm": 25.0,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T06",
+            "xMm": 25.0,
+            "yMm": 37.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T07",
+            "xMm": 25.0,
+            "yMm": 50.0,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T08",
+            "xMm": 25.0,
+            "yMm": 62.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T09",
+            "xMm": 37.5,
+            "yMm": 12.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T10",
+            "xMm": 37.5,
+            "yMm": 25.0,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T11",
+            "xMm": 37.5,
+            "yMm": 37.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T12",
+            "xMm": 37.5,
+            "yMm": 50.0,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T13",
+            "xMm": 37.5,
+            "yMm": 62.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T14",
+            "xMm": 50.0,
+            "yMm": 12.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T15",
+            "xMm": 50.0,
+            "yMm": 25.0,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T16",
+            "xMm": 50.0,
+            "yMm": 37.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T17",
+            "xMm": 50.0,
+            "yMm": 50.0,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T18",
+            "xMm": 50.0,
+            "yMm": 62.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T19",
+            "xMm": 62.5,
+            "yMm": 12.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T20",
+            "xMm": 62.5,
+            "yMm": 25.0,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T21",
+            "xMm": 62.5,
+            "yMm": 37.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T22",
+            "xMm": 62.5,
+            "yMm": 50.0,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T23",
+            "xMm": 62.5,
+            "yMm": 62.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T24",
+            "xMm": 75.0,
+            "yMm": 12.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T25",
+            "xMm": 75.0,
+            "yMm": 25.0,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T26",
+            "xMm": 75.0,
+            "yMm": 37.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T27",
+            "xMm": 75.0,
+            "yMm": 50.0,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T28",
+            "xMm": 75.0,
+            "yMm": 62.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T29",
+            "xMm": 87.5,
+            "yMm": 25.0,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T30",
+            "xMm": 87.5,
+            "yMm": 37.5,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "T31",
+            "xMm": 87.5,
+            "yMm": 50.0,
+            "type": "thread",
+            "usable": true,
+            "thread": "M6x1.0"
+          },
+          {
+            "id": "F01",
+            "xMm": 12.5096,
+            "yMm": 12.5064,
+            "type": "mounting",
+            "usable": false
+          },
+          {
+            "id": "F02",
+            "xMm": 12.5096,
+            "yMm": 62.4936,
+            "type": "mounting",
+            "usable": false
+          },
+          {
+            "id": "F03",
+            "xMm": 87.4904,
+            "yMm": 12.5064,
+            "type": "mounting",
+            "usable": false
+          },
+          {
+            "id": "F04",
+            "xMm": 87.4904,
+            "yMm": 62.4936,
+            "type": "mounting",
+            "usable": false
+          }
+        ]
+      },
+      "lowerAttachmentHoles": [
+        {
+          "id": "B01",
+          "xMm": -37.5,
+          "yMm": -25.0
+        },
+        {
+          "id": "B02",
+          "xMm": -37.5,
+          "yMm": 25.0
+        },
+        {
+          "id": "B03",
+          "xMm": 37.5,
+          "yMm": -25.0
+        },
+        {
+          "id": "B04",
+          "xMm": 37.5,
+          "yMm": 25.0
+        }
+      ],
+      "motion": {
+        "axis": "x",
+        "minMm": -12.5,
+        "maxMm": 12.5,
+        "workingMinMm": -12.5,
+        "workingMaxMm": 12.5,
+        "zeroMeaning": "mechanical-travel-midpoint",
+        "readoutAtCenterMm": null,
+        "centerCalibrationStatus": "not-performed"
+      },
+      "collisionBodies": [
+        {
+          "id": "vendor-full-travel-keepout",
+          "frame": "fixed",
+          "boundsMm": {
+            "xMin": -63.306597,
+            "yMin": -38.096029,
+            "zMin": 0.0,
+            "xMax": 138.4078,
+            "yMax": 38.103971,
+            "zMax": 32.82
+          },
+          "quality": "conservative"
+        },
+        {
+          "id": "top-plate",
+          "frame": "moving",
+          "boundsMm": {
+            "xMin": 0,
+            "yMin": 0,
+            "zMin": -17.18,
+            "xMax": 100,
+            "yMax": 75,
+            "zMax": 0
+          },
+          "quality": "conservative"
+        }
+      ]
+    }
+  ]
+}

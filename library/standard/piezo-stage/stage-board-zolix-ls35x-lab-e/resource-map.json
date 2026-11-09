@@ -1,0 +1,58 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "stage-board-zolix-ls35x-lab-e",
+  "files": [
+    {
+      "path": "rendering/05d2ae3986f5c0397490c6c4dcc3a2dd6b7461b8d013d5857425fa6ae9cc2960.svg",
+      "stored": "library/assets/sha256/05/05d2ae3986f5c0397490c6c4dcc3a2dd6b7461b8d013d5857425fa6ae9cc2960.svg",
+      "sha256": "05d2ae3986f5c0397490c6c4dcc3a2dd6b7461b8d013d5857425fa6ae9cc2960",
+      "originalReferences": [
+        "topviews/kit_ls35x-lab-e-r1-complete.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/05/05d2ae3986f5c0397490c6c4dcc3a2dd6b7461b8d013d5857425fa6ae9cc2960.svg"
+      ]
+    },
+    {
+      "path": "rendering/45f8ef3aa25bf288be13d8610b407e0a6706d03cac890501c8f5d2294819355d.svg",
+      "stored": "library/assets/sha256/45/45f8ef3aa25bf288be13d8610b407e0a6706d03cac890501c8f5d2294819355d.svg",
+      "sha256": "45f8ef3aa25bf288be13d8610b407e0a6706d03cac890501c8f5d2294819355d",
+      "originalReferences": [
+        "topviews/kit_ls35x-lab-e-r1-moving.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/45/45f8ef3aa25bf288be13d8610b407e0a6706d03cac890501c8f5d2294819355d.svg"
+      ]
+    },
+    {
+      "path": "cad/d1a62c3a442f9039bc57b9b4ba2bb5d3858b88a11e5ad434af10cc7f87ea1eaa.step",
+      "stored": "library/assets/sha256/d1/d1a62c3a442f9039bc57b9b4ba2bb5d3858b88a11e5ad434af10cc7f87ea1eaa.step",
+      "sha256": "d1a62c3a442f9039bc57b9b4ba2bb5d3858b88a11e5ad434af10cc7f87ea1eaa",
+      "originalReferences": [
+        "step/ls35x-lab-e-r1/assemblies/31-LS35-ASM_R1_q+0mm.step"
+      ],
+      "sources": [
+        "library/assets/sha256/d1/d1a62c3a442f9039bc57b9b4ba2bb5d3858b88a11e5ad434af10cc7f87ea1eaa.step"
+      ]
+    },
+    {
+      "path": "rendering/ee2de1b5d62e1ef04dc795c62fcb01897dc4f1153bc226e224bff1c4191aa564.svg",
+      "stored": "library/assets/sha256/ee/ee2de1b5d62e1ef04dc795c62fcb01897dc4f1153bc226e224bff1c4191aa564.svg",
+      "sha256": "ee2de1b5d62e1ef04dc795c62fcb01897dc4f1153bc226e224bff1c4191aa564",
+      "originalReferences": [
+        "topviews/kit_ls35x-lab-e-r1-fixed.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/ee/ee2de1b5d62e1ef04dc795c62fcb01897dc4f1153bc226e224bff1c4191aa564.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "LS35E-B",
+    "LS35E-T",
+    "hardware-iso4762-m2x5",
+    "hardware-iso4762-m2x8",
+    "hardware-iso4762-m6x12",
+    "zolix-ls35x-lab-e-purchased-stage"
+  ]
+}

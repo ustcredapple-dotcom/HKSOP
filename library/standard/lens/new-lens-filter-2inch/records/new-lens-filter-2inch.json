@@ -1,0 +1,428 @@
+{
+  "name": "透镜／滤光片架 · 2 inch · 0° · M1",
+  "category": "lens",
+  "variant": "公制 M1 · 名义光高62.5 mm",
+  "description": "M1真实装配俯视图；保持原安装与光学XY基准，配套公制转接件、正式万能柱及同源加工图。",
+  "sourceUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/943edf9420884260b76290ee",
+  "sourceOnshapeStatus": "M1_FIXED_VERSION_ASSEMBLY_VERIFIED",
+  "components": [
+    {
+      "componentId": "custom-post-metric-12p5mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r3-16-r3-adapter",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r3-vendor-flft2a",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r3-vendor-bcx10819-a",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-m4x12",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-pin-d2x8",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "optic",
+      "label": "透镜／滤光片",
+      "type": "lens",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 50.8,
+      "replacesComponentId": "new-r3-vendor-bcx10819-a"
+    }
+  ],
+  "status": "M1加工审核版",
+  "notes": "中央沉孔与销孔局部相通，销孔保留约307°圆周；尺寸/毛刺/配合须验收。 先放入柱固定M4；镜架离柱时，从转接块底面用普通M4锁住镜架，靠紧两个与镜片平面平行的短挡，再将整体按两销上柱，从外露M4内六角拧紧。没有旧T形侧装窗，也无侧向长臂。中央底沉孔与定位孔局部相通须去毛刺并检验定位。 非柱侧安装紧固件仍按孔表与实物选配。  H12.5 B4-R2：普通H12.5柱底脚4 mm，其余普通柱保持各自规格；完整STEP已换柱回读，总高、孔位和全部器件姿态保持；未实物试装。",
+  "releaseStage": "engineering-review",
+  "bundleStatus": "complete",
+  "bundleNote": "冻结M1 STEP、三页加工PDF及可编辑DXF配套；未作实物试装验收。",
+  "layout": {
+    "topViewPath": "topviews/new-lens-filter-2inch__H12p5_B4_R2.svg",
+    "topViewUrl": "./topviews/new-lens-filter-2inch__H12p5_B4_R2.svg",
+    "widthMm": 36.3945112,
+    "heightMm": 57.500004,
+    "anchorXMm": 18.1972556,
+    "anchorYMm": 28.750002,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "basePolygonsMm": [
+      [
+        {
+          "xMm": -17.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": -17.5
+        }
+      ]
+    ],
+    "collisionBoundsMm": {
+      "xMin": -17.65,
+      "yMin": -28.150002,
+      "xMax": 17.65,
+      "yMax": 28.150002
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -5.912997,
+          "yMm": -28.148456
+        },
+        {
+          "xMm": -6.191851,
+          "yMm": -28.05785
+        },
+        {
+          "xMm": -6.410064,
+          "yMm": -27.839638
+        },
+        {
+          "xMm": -6.5,
+          "yMm": -27.520748
+        },
+        {
+          "xMm": -6.5,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -17.65,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -17.65,
+          "yMm": 17.65
+        },
+        {
+          "xMm": -6.5,
+          "yMm": 17.65
+        },
+        {
+          "xMm": -6.5,
+          "yMm": 27.520748
+        },
+        {
+          "xMm": -6.411755,
+          "yMm": 27.833641
+        },
+        {
+          "xMm": -6.273356,
+          "yMm": 27.995686
+        },
+        {
+          "xMm": -6.096877,
+          "yMm": 28.103832
+        },
+        {
+          "xMm": -5.864764,
+          "yMm": 28.150002
+        },
+        {
+          "xMm": 5.909987,
+          "yMm": 28.148456
+        },
+        {
+          "xMm": 6.143492,
+          "yMm": 28.082601
+        },
+        {
+          "xMm": 6.310942,
+          "yMm": 27.960942
+        },
+        {
+          "xMm": 6.432601,
+          "yMm": 27.793492
+        },
+        {
+          "xMm": 6.498455,
+          "yMm": 27.559988
+        },
+        {
+          "xMm": 6.499977,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 17.65,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 17.65,
+          "yMm": -17.65
+        },
+        {
+          "xMm": 6.5,
+          "yMm": -17.65
+        },
+        {
+          "xMm": 6.5,
+          "yMm": -27.520748
+        },
+        {
+          "xMm": 6.409205,
+          "yMm": -27.842681
+        },
+        {
+          "xMm": 6.150073,
+          "yMm": -28.082221
+        },
+        {
+          "xMm": 5.867744,
+          "yMm": -28.150002
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "metric-m1-2026-10-06",
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "placementAllowed": true,
+    "status": "M1 STEP实际俯视投影与安装孔已核验",
+    "note": "实际 STEP 俯视投影；碰撞轮廓按 CAD 投影细分并保留 0.15 mm 余量；按底座真实安装孔吸附。",
+    "nominalOpticalHeightMm": 62.5,
+    "opticalGeometryEvidence": {
+      "coordinateFrame": "world X right / Y up / Z height",
+      "sourceDatumHeightMm": 62.5,
+      "opticalCenterMm": {
+        "xMm": 0.0,
+        "yMm": 0.0
+      },
+      "geometricReferenceOnly": true,
+      "planeNormalWorld": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "opticalSurfaceAngleDeg": 90.0,
+      "sourceLeaf": "BCX10819-A_actual_lens_midplane_x0",
+      "axisCylinder": {
+        "radiusMm": 25.4,
+        "axisPointWorldMm": [
+          -1.50145627,
+          0.0,
+          62.5
+        ],
+        "axisWorld": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "axisPointLayoutMm": [
+          -1.50145627,
+          0.0,
+          62.5
+        ],
+        "axisLayout": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "boundsWorldMm": [
+          -1.50145637,
+          -25.4000001,
+          37.0999999,
+          1.50145637,
+          25.4000001,
+          87.9000001
+        ]
+      },
+      "referencePointWorldMm": [
+        0.0,
+        0.0,
+        62.5
+      ],
+      "simulationType": "lens",
+      "referenceKind": "symmetric biconvex lens mechanical midplane",
+      "note": "BCX10819-A 机械对称中面通过柱心；不可将其声称为已验证的折射主平面。",
+      "migrationEvidence": {
+        "sourceSha256": "70ab5a9d9a1176640a3244087078e5619b58ee90fc0eb8c7f618b5b4765b251f",
+        "providerReadbackStatus": "PASS_REPLACEMENT_READBACK_FINAL_POST_SOURCE_CHECK_REQUIRED_SEPARATELY",
+        "supplierTranslationMm": [
+          0,
+          0,
+          -1
+        ],
+        "measuredAgainstFrozenM1": true,
+        "physicalTrialCompleted": false
+      }
+    },
+    "geometryEvidence": {
+      "sourceStep": "step/standard-post-h12p5-b4-r2/assemblies/new-lens-filter-2inch__H12p5_B4_R2.step",
+      "sourceSha256": "ddad6c19a0ba075af4b7b083112a2c386d0426129a9eaadce4320e1e634fd481",
+      "partCount": 6,
+      "postCount": 1,
+      "imageSha256": "13a70ee1f8fe8069f78a9e02c1a41e400d5ac010e2b6912684ed607774764bd2",
+      "faceColoursPreserved": true,
+      "excludedReferenceCount": 0,
+      "guardMm": 0.15,
+      "meshDeflectionMm": 0.035,
+      "axes": "world X right / Y up / Z height",
+      "referenceAssembly": {
+        "assetKind": "assembly-reference-not-manufacturing-part",
+        "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/new-lens-filter-2inch__H12p5_B4_R2.step",
+        "sha256": "ddad6c19a0ba075af4b7b083112a2c386d0426129a9eaadce4320e1e634fd481"
+      },
+      "previousProjectionSource": {
+        "sourceStep": null,
+        "sourceSha256": "70ab5a9d9a1176640a3244087078e5619b58ee90fc0eb8c7f618b5b4765b251f",
+        "imageSha256": "9e7afe398348369914dd1a6fe84b2a3fa967abdb3101d15e0eee13b7604a635b",
+        "partCount": 6,
+        "meshDeflectionMm": 0.04
+      },
+      "triangleCount": 36550,
+      "postBaseRevision": {
+        "revision": "H12p5-B4-R2",
+        "componentIds": [
+          "custom-post-metric-12p5mm-m1"
+        ],
+        "baseThicknessByComponentId": {
+          "custom-post-metric-12p5mm-m1": 4
+        },
+        "nominalAndOpticalHeightsPreserved": true,
+        "geometryStatus": "passed",
+        "physicalAssemblyAccepted": false,
+        "previousAssemblySha256": "81d4462e964cf345fdae244506a2baa8c6823bb5fdf6708477dd167df3166931",
+        "currentAssemblySha256": "ddad6c19a0ba075af4b7b083112a2c386d0426129a9eaadce4320e1e634fd481",
+        "replacementReportSha256": "c37aeb3dc2f4b7b87e01c47c662267e4c296858c68a5d00fed38f7fbea1447ad",
+        "originalEntitiesAndPosesPreserved": true
+      },
+      "sourceStepSha256": "ddad6c19a0ba075af4b7b083112a2c386d0426129a9eaadce4320e1e634fd481",
+      "baseThicknessByComponentId": {
+        "custom-post-metric-12p5mm-m1": 4
+      }
+    },
+    "opticalType": "lens",
+    "opticalSurfaceAngleDeg": 90.0,
+    "opticalAxisHeightMm": 62.5,
+    "opticalCenterMm": {
+      "xMm": 0.0,
+      "yMm": 0.0
+    },
+    "opticalDatumVerified": true,
+    "opticalAxisHeightSource": "冻结M1总装、正式公制柱及商用件实际刚体变换已回读；名义光高62.5 mm。",
+    "opticalSimulationNote": "BCX10819-A 机械对称中面通过柱心；不可将其声称为已验证的折射主平面。",
+    "sourceUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/943edf9420884260b76290ee",
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "ddad6c19a0ba075af4b7b083112a2c386d0426129a9eaadce4320e1e634fd481",
+      "imageSha256": "13a70ee1f8fe8069f78a9e02c1a41e400d5ac010e2b6912684ed607774764bd2",
+      "revision": "H12p5-B4-R2",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null,
+      "projectionReportSha256": "5f8260c549a4df80469ab5944910b815deb717327015328298021bdf895bf057"
+    }
+  },
+  "optionalNotes": [
+    "M1柱侧螺钉与销钉已按同源BOM计入；其余安装紧固件按孔表和实测有效牙深选配。"
+  ],
+  "manufacturingRevision": "M1",
+  "manufacturingEvidence": {
+    "sourceAssembly": {
+      "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/new-lens-filter-2inch__H12p5_B4_R2.step",
+      "sha256": "ddad6c19a0ba075af4b7b083112a2c386d0426129a9eaadce4320e1e634fd481"
+    },
+    "sourceVersionId": "4931897f80d530bffcf46a4e",
+    "customCodes": [
+      "16-LENS"
+    ],
+    "hardwarePolicy": "M1 supplied column-side screws and pins included; other mounting fasteners remain optional pending selection.",
+    "topViewVisualReviewPassed": true,
+    "physicalTrialCompleted": false
+  },
+  "metricRevision": {
+    "revision": "M1",
+    "nativeAssemblySha256": "70ab5a9d9a1176640a3244087078e5619b58ee90fc0eb8c7f618b5b4765b251f",
+    "nominalAxisHeightMm": 62.5,
+    "sourceVersionId": "4931897f80d530bffcf46a4e",
+    "preservedInstanceXY": true
+  },
+  "postBaseRevision": {
+    "revision": "H12p5-B4-R2",
+    "componentIds": [
+      "custom-post-metric-12p5mm-m1"
+    ],
+    "baseThicknessByComponentId": {
+      "custom-post-metric-12p5mm-m1": 4
+    },
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "physicalAssemblyAccepted": false,
+    "previousAssemblySha256": "81d4462e964cf345fdae244506a2baa8c6823bb5fdf6708477dd167df3166931",
+    "currentAssemblySha256": "ddad6c19a0ba075af4b7b083112a2c386d0426129a9eaadce4320e1e634fd481",
+    "replacementReportSha256": "c37aeb3dc2f4b7b87e01c47c662267e4c296858c68a5d00fed38f7fbea1447ad",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "assemblyReference": {
+    "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/new-lens-filter-2inch__H12p5_B4_R2.step",
+    "sourceStepSha256": "ddad6c19a0ba075af4b7b083112a2c386d0426129a9eaadce4320e1e634fd481",
+    "revision": "CURRENT-B6R1-H12p5B4R2",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "cloudUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/943edf9420884260b76290ee",
+    "cloudStatus": "frozen-independent-assembly-readback-pending"
+  },
+  "cloudReference": {
+    "batch": 4,
+    "documentId": "66b198de06cefdf0be97875b",
+    "workspaceId": "048790c4e7cccc432b78d839",
+    "sourceUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/943edf9420884260b76290ee",
+    "status": "frozen-independent-assembly-readback-pending",
+    "observation": "Onshape notification panel and folder list via IAB",
+    "strictReadbackComplete": false,
+    "active": false,
+    "current": true,
+    "sourceStepSha256": "ddad6c19a0ba075af4b7b083112a2c386d0426129a9eaadce4320e1e634fd481",
+    "automaticCloudReuseAllowed": false,
+    "independentAssemblyElementVerified": true,
+    "physicalAssemblyAccepted": false,
+    "versionId": "f7760018eec7aecfe4fe9762",
+    "elementId": "943edf9420884260b76290ee",
+    "elementType": "Assembly",
+    "versionFrozen": true,
+    "uiEvidence": {
+      "path": null,
+      "sha256": "9572a243eaa463b4784ac014b7247c4c8d819942ef561ffeba484bd117acfb5f"
+    },
+    "checkedAt": "2026-10-28T01:54:56.736608+08:00"
+  },
+  "id": "new-lens-filter-2inch"
+}

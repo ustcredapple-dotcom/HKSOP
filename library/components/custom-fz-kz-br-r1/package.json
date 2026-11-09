@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-fz-kz-br-r1",
+  "revision": "R1",
+  "displayName": "FZ-KZ-BR-R1 双笼杆电机支架",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-fz-kz-br-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

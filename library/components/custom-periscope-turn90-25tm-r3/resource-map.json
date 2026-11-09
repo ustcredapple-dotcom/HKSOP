@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-periscope-turn90-25tm-r3",
+  "files": [
+    {
+      "path": "cad/e9518541d26c1f5a05bac105a1f176fdfdb1be98d968b9fec2379d8112d8a59b.step",
+      "stored": "library/assets/sha256/e9/e9518541d26c1f5a05bac105a1f176fdfdb1be98d968b9fec2379d8112d8a59b.step",
+      "sha256": "e9518541d26c1f5a05bac105a1f176fdfdb1be98d968b9fec2379d8112d8a59b",
+      "originalReferences": [
+        "step/periscope-standard-r3/25-TM_R3_CENTERED.step"
+      ],
+      "sources": [
+        "library/assets/sha256/e9/e9518541d26c1f5a05bac105a1f176fdfdb1be98d968b9fec2379d8112d8a59b.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

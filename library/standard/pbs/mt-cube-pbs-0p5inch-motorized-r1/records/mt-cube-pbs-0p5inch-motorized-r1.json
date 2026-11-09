@@ -1,0 +1,368 @@
+{
+  "name": "MT立方体PBS模块 · 0.5 inch · 电动竖直驱动 · R1",
+  "category": "pbs",
+  "variant": "motorized-vertical-R1",
+  "revision": "R1",
+  "description": "光高62.5mm；当前B6-R1柱；原镜架式及手动版本保留。厂家附薄头夹紧螺钉不重复采购。仅名义CAD与离散姿态检查，未实装、未做完整行程或通电测试。 厂家半英寸前夹板源STEP有效性警告保留，新加工件检查通过。 舵机沿用已接受的近似模型，实际型号/线缆/扭矩待测；H2杆按配套版本。",
+  "components": [
+    {
+      "componentId": "custom-post-metric-37p5mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "mt-am05s5",
+      "quantity": 1
+    },
+    {
+      "componentId": "lbtek-mt-csb05-purchased",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-iso4762-m4x12",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-pin-d2x8",
+      "quantity": 2
+    },
+    {
+      "componentId": "new-r3-hardware-b7a3ea97ce89",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-iso4762-m6x12",
+      "quantity": 4
+    },
+    {
+      "componentId": "encoder-servo",
+      "quantity": 2
+    },
+    {
+      "componentId": "custom-mcve05-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-mv05-s1-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-mv05-dl-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-mv05-dh-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "motor-bracket-21",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r3-hardware-eb2e220803c7",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-pbs-mv05-m2x12",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-h2-r3-m2x10",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "cube",
+      "label": "PBS621裸立方光学件",
+      "type": "pbs",
+      "quantity": 1,
+      "unit": "个",
+      "referenceComponentId": "lbtek-pbs621-purchased",
+      "referenceModel": "PBS621",
+      "cubeEdgeMm": 12.7,
+      "notes": "12.7为立方边长。厂家玻璃在名义总装中；采购需显式选配，未选择不计固定购买量。光学响应仍unsupported。"
+    }
+  ],
+  "status": "工程审核版；未实物试装",
+  "releaseStage": "engineering-review",
+  "bundleStatus": "engineering-review",
+  "bundleNote": null,
+  "notes": "光高62.5mm；当前B6-R1柱；原镜架式及手动版本保留。厂家附薄头夹紧螺钉不重复采购。仅名义CAD与离散姿态检查，未实装、未做完整行程或通电测试。 厂家半英寸前夹板源STEP有效性警告保留，新加工件检查通过。 舵机沿用已接受的近似模型，实际型号/线缆/扭矩待测；H2杆按配套版本。",
+  "layout": {
+    "placementAllowed": true,
+    "opticalType": "unsupported",
+    "opticalAxisHeightMm": 62.5,
+    "nominalOpticalHeightMm": 62.5,
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalSurfaceAngleDeg": 135,
+    "opticalDatumVerified": false,
+    "opticalDatumScope": "nominal CAD reference only; physical calibration not performed",
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "basePolygonsMm": [
+      [
+        {
+          "xMm": -17.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": -17.5
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "mountingHoleRadiusMm": 3.3,
+    "note": "真实STEP正交俯视；柱底四孔为安装基准；工程审核状态。",
+    "opticalSimulationNote": "未提供P/S透反率与相位，沿用原PBS的unsupported交互。",
+    "topViewPath": "topviews/mt-cube-pbs-0p5inch-motorized-r1.svg",
+    "topViewUrl": "./topviews/mt-cube-pbs-0p5inch-motorized-r1.svg",
+    "widthMm": 50,
+    "heightMm": 83,
+    "anchorXMm": 29,
+    "anchorYMm": 20,
+    "collisionBoundsMm": {
+      "xMin": -26.35,
+      "yMin": -60.704,
+      "xMax": 18.75,
+      "yMax": 17.55
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -21.2,
+          "yMm": -60.704
+        },
+        {
+          "xMm": -21.25,
+          "yMm": -60.654
+        },
+        {
+          "xMm": -21.25,
+          "yMm": -59.954
+        },
+        {
+          "xMm": -25.75,
+          "yMm": -59.954
+        },
+        {
+          "xMm": -25.8,
+          "yMm": -59.904
+        },
+        {
+          "xMm": -25.8,
+          "yMm": -38.204
+        },
+        {
+          "xMm": -26.3,
+          "yMm": -38.204
+        },
+        {
+          "xMm": -26.35,
+          "yMm": -38.154
+        },
+        {
+          "xMm": -26.35,
+          "yMm": -13.154
+        },
+        {
+          "xMm": -26.3,
+          "yMm": -13.104
+        },
+        {
+          "xMm": -17.55,
+          "yMm": -13.104
+        },
+        {
+          "xMm": -17.546194,
+          "yMm": 17.519134
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 17.55
+        },
+        {
+          "xMm": 17.519134,
+          "yMm": 17.546194
+        },
+        {
+          "xMm": 17.55,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.55,
+          "yMm": -13.104
+        },
+        {
+          "xMm": 18.7,
+          "yMm": -13.104
+        },
+        {
+          "xMm": 18.75,
+          "yMm": -13.154
+        },
+        {
+          "xMm": 18.75,
+          "yMm": -38.154
+        },
+        {
+          "xMm": 18.7,
+          "yMm": -38.204
+        },
+        {
+          "xMm": 14.05,
+          "yMm": -38.204
+        },
+        {
+          "xMm": 14.05,
+          "yMm": -42.4
+        },
+        {
+          "xMm": 13.99972,
+          "yMm": -42.650506
+        },
+        {
+          "xMm": 13.92465,
+          "yMm": -42.783675
+        },
+        {
+          "xMm": 13.783675,
+          "yMm": -42.92465
+        },
+        {
+          "xMm": 13.650506,
+          "yMm": -42.99972
+        },
+        {
+          "xMm": 13.503665,
+          "yMm": -43.041637
+        },
+        {
+          "xMm": 11.85,
+          "yMm": -43.05
+        },
+        {
+          "xMm": 11.846194,
+          "yMm": -60.673134
+        },
+        {
+          "xMm": 11.8,
+          "yMm": -60.704
+        }
+      ]
+    ],
+    "geometryEvidence": {
+      "source": "SHA-bound delivered STEP triangulation and B6 post planar-face audit",
+      "stepSha256": "c430808fef6fd8af179121caf4f85ca209efded3ee3628ca85c737abdfa12b96",
+      "topViewSha256": "be90c78cfce21e6eda6b6cf7ab0a379123f8502a3761874d9ed8f8a07abded08",
+      "leafCount": 37,
+      "solidCount": 37,
+      "mountingDatum": "35 mm B6 post footprint at world XY origin; nominal M6-hole offsets ±12.5 mm",
+      "sourcePoseUnchanged": true,
+      "base6mmVerified": true,
+      "physicalTrial": false,
+      "knownOEMValidityWarnings": 5
+    }
+  },
+  "assemblyReference": {
+    "stepPath": "step/combined-r1-20261015/0/PBS_MOTOR_0p5inch_R1.step",
+    "sourceStepSha256": "c430808fef6fd8af179121caf4f85ca209efded3ee3628ca85c737abdfa12b96",
+    "sha256": "c430808fef6fd8af179121caf4f85ca209efded3ee3628ca85c737abdfa12b96",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "containsSimplifiedManufacturerReference": true,
+    "note": "完整设计参考总装；外加标准五金按BOM，未把检验包络虚报为精细螺钉实体。",
+    "drawingPath": null,
+    "sourceDrawingSha256": "d02431197ed22e6cb67edd876abaf0bfee42e4b24ced46e27de12a6baf851d51"
+  },
+  "assemblyAssets": [
+    {
+      "stepPath": "step/combined-r1-20261015/0/PBS_MOTOR_0p5inch_R1.step",
+      "sha256": "c430808fef6fd8af179121caf4f85ca209efded3ee3628ca85c737abdfa12b96",
+      "role": "nominal-CAD-reference-assembly",
+      "additionalStandardFastenerCADIncluded": false
+    }
+  ],
+  "mechanicalConfiguration": {
+    "id": "motorized-vertical-R1",
+    "source": "exact delivered assembly, fixed nominal state"
+  },
+  "capabilities": {
+    "layout": true,
+    "mounting": "nominal CAD checked; physical confirmation pending",
+    "opticalSimulation": false,
+    "productionApproval": false
+  },
+  "sourceUrl": "https://cad.onshape.com/documents/0257d98beba4068e2743612a/v/d185ce63f5ee830350017b06/e/1fd3099f0181ade022a1aedc",
+  "mechanical": {
+    "heightChainMm": [
+      37.5,
+      12.299999999999997,
+      12.700000000000003
+    ],
+    "opticalCenterMm": [
+      2.6645352591003757e-15,
+      2.6645352591003757e-15,
+      62.49999999999999
+    ],
+    "fixedPositionStep": true,
+    "physicalAssemblyTested": false,
+    "includedOEMClampNotRepurchased": true
+  },
+  "originalSourceUrl": "https://www.lbtek.com/product/1265",
+  "cloudReference": {
+    "active": false,
+    "current": false,
+    "status": "reviewed-reference-local-precision-source",
+    "documentId": "0257d98beba4068e2743612a",
+    "workspaceId": "fab352fdd0ecc2e72bba1804",
+    "versionId": "d185ce63f5ee830350017b06",
+    "elementId": "1fd3099f0181ade022a1aedc",
+    "sourceUrl": "https://cad.onshape.com/documents/0257d98beba4068e2743612a/v/d185ce63f5ee830350017b06/e/1fd3099f0181ade022a1aedc",
+    "sourceStepSha256": "c430808fef6fd8af179121caf4f85ca209efded3ee3628ca85c737abdfa12b96",
+    "strictWholeAssemblyGeometryEquivalent": false,
+    "allPostSolidsStrictGeometryEquivalent": true,
+    "allAssemblyIdentityAndPoseReferencesPassed": false,
+    "actualCloudAcceptanceSha256": "90c1617c89c1856c70c43d74572bc89701d08208adb4d54ef99e9f2a71839459",
+    "authoritativePrecisionSource": "已核验本地完整 STEP；云端静态冻结版供查看。原生自由度、全套整体移动或完整复用协议尚未全部验收。",
+    "physicalTrialPerformed": false
+  },
+  "h12p5AssemblyInstructionUpdate": {
+    "revision": "2026-10-28",
+    "partGeometryChanged": false,
+    "scope": "Only ordinary H12.5 post references in shared assembly instruction PDF updated."
+  },
+  "id": "mt-cube-pbs-0p5inch-motorized-r1"
+}

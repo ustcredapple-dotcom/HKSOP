@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-hpb1-a",
+  "revision": "R2",
+  "displayName": "HPB-1-2共用转接件（0°/45°）",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-hpb1-a.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

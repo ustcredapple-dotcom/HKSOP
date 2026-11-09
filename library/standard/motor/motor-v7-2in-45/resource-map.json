@@ -1,0 +1,48 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "motor-v7-2in-45",
+  "files": [
+    {
+      "path": "rendering/5b4e38ce666af9e1f6784af81e0bb62c67639c9f548e2f1675e715c202b2651b.svg",
+      "stored": "library/assets/sha256/5b/5b4e38ce666af9e1f6784af81e0bb62c67639c9f548e2f1675e715c202b2651b.svg",
+      "sha256": "5b4e38ce666af9e1f6784af81e0bb62c67639c9f548e2f1675e715c202b2651b",
+      "originalReferences": [
+        "topviews/motor-v7-2in-45__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/5b/5b4e38ce666af9e1f6784af81e0bb62c67639c9f548e2f1675e715c202b2651b.svg"
+      ]
+    },
+    {
+      "path": "cad/ddf3ddd6d5d678920f0522dccde1e95a5cf76e52beb5bbfc07f3392ca80f9f22.step",
+      "stored": "library/assets/sha256/dd/ddf3ddd6d5d678920f0522dccde1e95a5cf76e52beb5bbfc07f3392ca80f9f22.step",
+      "sha256": "ddf3ddd6d5d678920f0522dccde1e95a5cf76e52beb5bbfc07f3392ca80f9f22",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/motor-v7-2in-45__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/dd/ddf3ddd6d5d678920f0522dccde1e95a5cf76e52beb5bbfc07f3392ca80f9f22.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-post-metric-12p5mm-m1",
+    "custom-v7-2a",
+    "custom-v7-2in-main",
+    "custom-v7-2in-side",
+    "custom-v7-m3-h2",
+    "hardware-iso4762-m6x12",
+    "hardware-iso7089-m4",
+    "v7-din7991-m3x10",
+    "v7-iso4762-m4x12",
+    "v7-iso4762-m4x16",
+    "v7-pin-d2x6",
+    "v7-pin-d2x8",
+    "v7-source-encoder-servo",
+    "v7-source-m2x10",
+    "v7-source-m4-nut",
+    "v7-source-m4x20-thin",
+    "v7-source-mt-am2",
+    "v7-source-retaining-washer"
+  ]
+}

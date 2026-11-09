@@ -1,0 +1,620 @@
+{
+  "name": "XBK 腔镜 · 居中 · 前伸25 · R4",
+  "category": "motor",
+  "variant": "H62.5 / 居中 / 前伸25 / 固定整装",
+  "revision": "R4-25-c0-h62p5-r4",
+  "description": "台体和底板固定，腔镜相对台体居中；前伸25mm。完整压电台、双电机镜架、支架、腔镜及转接件。",
+  "components": [
+    {
+      "componentId": "new-r3-vendor-mt-am2s5",
+      "quantity": 1
+    },
+    {
+      "componentId": "encoder-servo",
+      "quantity": 2
+    },
+    {
+      "componentId": "motor-adapter-m3",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-h2d2-b-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-h2d2-s-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-h2d2-l-r2",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-h2-r3-m2x10",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-iso4762-m3x8",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-h2-r3-m4x20",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-h2-r3-m4-washer",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-source-m4-nut",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-xbk-b01-frontgrid-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-xbk-t01-lateral-r4",
+      "quantity": 1
+    },
+    {
+      "componentId": "zolix-ls35x-lab-e-purchased-stage",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-cm127-a1-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "ganter-gn9135-m3-3-ku",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-xbk-cbs2-5-lowhead",
+      "quantity": 3
+    },
+    {
+      "componentId": "hardware-iso4762-m2x8",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-xbk-iso4762-m6x8",
+      "quantity": 2
+    },
+    {
+      "componentId": "v7-iso4762-m4x12",
+      "quantity": 1
+    },
+    {
+      "componentId": "dpt3-pin-d2x5",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "cavity-mirror",
+      "label": "现有Ø12.7 R20腔镜（随整装保留，型号待补）",
+      "type": "mirror",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 12.7,
+      "defaultExisting": true,
+      "notes": "几何参考镜片随STEP保留；不自动重复采购，镀膜/基片参数未知。"
+    }
+  ],
+  "sourceUrl": "https://cad.onshape.com/documents/a05bdf063019cd8dcf188e9d/v/b6528131338cea8dca376874/e/75b8f697efb50fa73c8b7f93",
+  "layout": {
+    "placementAllowed": true,
+    "widthMm": 85,
+    "heightMm": 75,
+    "anchorXMm": 41,
+    "anchorYMm": 29,
+    "topViewPath": "topviews/xbk-cavity-front25-c0-h62p5-r4.svg",
+    "topViewUrl": "./topviews/xbk-cavity-front25-c0-h62p5-r4.svg",
+    "baseBoundsMm": {
+      "xMin": -35,
+      "xMax": 35,
+      "yMin": -27.5,
+      "yMax": 20
+    },
+    "collisionBoundsMm": {
+      "xMin": -39.15,
+      "yMin": -43.7491,
+      "xMax": 41.75,
+      "yMax": 26.874699999999997
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -35.15,
+          "yMm": 1.5509
+        },
+        {
+          "xMm": -35.138582,
+          "yMm": 20.057403
+        },
+        {
+          "xMm": -35.0,
+          "yMm": 20.15
+        },
+        {
+          "xMm": -32.65,
+          "yMm": 20.15
+        },
+        {
+          "xMm": -32.616679,
+          "yMm": 20.648778
+        },
+        {
+          "xMm": -32.433749,
+          "yMm": 21.045793
+        },
+        {
+          "xMm": -32.105793,
+          "yMm": 21.352049
+        },
+        {
+          "xMm": -31.676225,
+          "yMm": 21.511084
+        },
+        {
+          "xMm": -25.0588,
+          "yMm": 21.5247
+        },
+        {
+          "xMm": -25.0588,
+          "yMm": 22.044068
+        },
+        {
+          "xMm": -25.1395,
+          "yMm": 22.1747
+        },
+        {
+          "xMm": -25.1395,
+          "yMm": 26.7247
+        },
+        {
+          "xMm": -25.046903,
+          "yMm": 26.863282
+        },
+        {
+          "xMm": 19.4384,
+          "yMm": 26.8747
+        },
+        {
+          "xMm": 19.544466,
+          "yMm": 26.830766
+        },
+        {
+          "xMm": 19.5884,
+          "yMm": 26.7247
+        },
+        {
+          "xMm": 19.5884,
+          "yMm": 22.1747
+        },
+        {
+          "xMm": 19.495803,
+          "yMm": 22.036118
+        },
+        {
+          "xMm": 19.3008,
+          "yMm": 22.0247
+        },
+        {
+          "xMm": 19.3008,
+          "yMm": 21.5247
+        },
+        {
+          "xMm": 33.0,
+          "yMm": 21.5247
+        },
+        {
+          "xMm": 33.274279,
+          "yMm": 21.491422
+        },
+        {
+          "xMm": 33.595849,
+          "yMm": 21.358143
+        },
+        {
+          "xMm": 33.870584,
+          "yMm": 21.125882
+        },
+        {
+          "xMm": 34.060099,
+          "yMm": 20.820247
+        },
+        {
+          "xMm": 34.136667,
+          "yMm": 20.548671
+        },
+        {
+          "xMm": 34.15,
+          "yMm": 20.15
+        },
+        {
+          "xMm": 35.0,
+          "yMm": 20.15
+        },
+        {
+          "xMm": 35.106066,
+          "yMm": 20.106066
+        },
+        {
+          "xMm": 35.15,
+          "yMm": 20.0
+        },
+        {
+          "xMm": 35.15,
+          "yMm": 4.610079
+        },
+        {
+          "xMm": 35.351182,
+          "yMm": 4.471484
+        },
+        {
+          "xMm": 35.533749,
+          "yMm": 4.271993
+        },
+        {
+          "xMm": 35.664622,
+          "yMm": 4.035535
+        },
+        {
+          "xMm": 35.734824,
+          "yMm": 3.786634
+        },
+        {
+          "xMm": 35.75,
+          "yMm": 1.5509
+        },
+        {
+          "xMm": 39.057403,
+          "yMm": 1.539482
+        },
+        {
+          "xMm": 39.15,
+          "yMm": 1.4009
+        },
+        {
+          "xMm": 39.15,
+          "yMm": -0.2491
+        },
+        {
+          "xMm": 40.6,
+          "yMm": -0.2491
+        },
+        {
+          "xMm": 40.706066,
+          "yMm": -0.293034
+        },
+        {
+          "xMm": 40.75,
+          "yMm": -0.3991
+        },
+        {
+          "xMm": 40.75,
+          "yMm": -27.4491
+        },
+        {
+          "xMm": 41.6,
+          "yMm": -27.4491
+        },
+        {
+          "xMm": 41.706066,
+          "yMm": -27.493034
+        },
+        {
+          "xMm": 41.75,
+          "yMm": -27.5991
+        },
+        {
+          "xMm": 41.738582,
+          "yMm": -43.656503
+        },
+        {
+          "xMm": 41.6,
+          "yMm": -43.7491
+        },
+        {
+          "xMm": -39.057403,
+          "yMm": -43.737682
+        },
+        {
+          "xMm": -39.15,
+          "yMm": -43.5991
+        },
+        {
+          "xMm": -39.15,
+          "yMm": 1.4009
+        },
+        {
+          "xMm": -39.106066,
+          "yMm": 1.506966
+        },
+        {
+          "xMm": -39.0,
+          "yMm": 1.5509
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -25,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 25,
+        "yMm": 12.5
+      }
+    ],
+    "minimumAlignedMountingHoles": 2,
+    "opticalAxisHeightMm": 62.5,
+    "nominalOpticalHeightMm": 62.5,
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 25
+    },
+    "opticalSurfaceAngleDeg": 0,
+    "opticalDatumVerified": true,
+    "opticalAxisHeightSource": "实际R20球面顶点；高度链8+12+6.9+35.6=62.5",
+    "opticalType": "unsupported",
+    "opticalSimulationNote": "曲面腔镜R20，镀膜/折射率及腔参数未给；现有引擎不支持本曲面厚基片追迹，不按理想平面镜计算。",
+    "opticalDefaults": {
+      "elementType": "unsupported",
+      "inserted": true,
+      "configured": true,
+      "clearApertureMm": 11.7
+    },
+    "opticalInteraction": {
+      "format": "zzlab-optical-interaction",
+      "version": 1,
+      "model": "planar",
+      "onNoMatch": "block",
+      "heightToleranceMm": 0.1,
+      "inputs": [
+        {
+          "id": "cavity",
+          "steps": [
+            {
+              "op": "block",
+              "reason": "曲面腔镜R20，镀膜/折射率及腔参数未给；现有引擎不支持本曲面厚基片追迹，不按理想平面镜计算。"
+            }
+          ]
+        }
+      ]
+    },
+    "geometryEvidence": {
+      "sourceStepSha256": "1d45d11a1cb71245b439b3baac74a6900ce1356bd49d07f0f076493f04f5284d",
+      "imageSha256": "4e143d8ee3027876a0eb5110ff3099edbf33db0f6a57f2d4bfa955de8bc8cdf5",
+      "leafCount": 53,
+      "sourceToKit": {
+        "matrixRows": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "translationMm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "nominalPoseOnly": true,
+      "collisionProjectionBufferMm": 0.15,
+      "preservedLeafCount": 52,
+      "newSolidCount": 1,
+      "cadFrameAlreadyKitLocal": true,
+      "sourceReview": "library/reviews/xbk-lateral-fixed-r4-standard-20261023/evidence/design-checks.json",
+      "stagePoseUnchanged": true,
+      "lateralOffsetMm": 0
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "1d45d11a1cb71245b439b3baac74a6900ce1356bd49d07f0f076493f04f5284d",
+      "imageSha256": "4e143d8ee3027876a0eb5110ff3099edbf33db0f6a57f2d4bfa955de8bc8cdf5"
+    },
+    "opticalGeometryEvidence": {
+      "referencePointWorldMm": [
+        0,
+        25,
+        62.5
+      ],
+      "normalWorld": [
+        0,
+        1,
+        0
+      ],
+      "referenceKind": "actual concave spherical vertex R20; not back plane",
+      "coatingIdentityVerified": false,
+      "sourceStepSha256": "1d45d11a1cb71245b439b3baac74a6900ce1356bd49d07f0f076493f04f5284d",
+      "physicalTrialCompleted": false
+    },
+    "status": "真实STEP固定构型；名义安装与62.5光高已核",
+    "note": "舞台/底板锚点不动；上件横向换位。软件以完整固定套件摆放；机械换孔须松螺钉重新安装并对光。"
+  },
+  "assemblyReference": {
+    "stepPath": "step/xbk-lateral-fixed-r4/XBK_Cavity_R4_FRONT25_C0_H62p5.step",
+    "sourceStepSha256": "1d45d11a1cb71245b439b3baac74a6900ce1356bd49d07f0f076493f04f5284d",
+    "sha256": "1d45d11a1cb71245b439b3baac74a6900ce1356bd49d07f0f076493f04f5284d",
+    "revision": "R4-25-c0-h62p5-r4",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "leafCount": 53,
+    "note": "53叶件完整固定总装；台体原位；未重建运动配合。",
+    "includeInBundle": true,
+    "drawingPath": null,
+    "sourceDrawingSha256": "5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60",
+    "onshapeUrl": "https://cad.onshape.com/documents/a05bdf063019cd8dcf188e9d/v/b6528131338cea8dca376874/e/75b8f697efb50fa73c8b7f93"
+  },
+  "assemblyAssets": [
+    {
+      "stepPath": "step/xbk-lateral-fixed-r4/XBK_Cavity_R4_FRONT25_C0_H62p5.step",
+      "sha256": "1d45d11a1cb71245b439b3baac74a6900ce1356bd49d07f0f076493f04f5284d",
+      "role": "reviewed-complete-nominal-assembly",
+      "assemblyLeafCount": 53
+    }
+  ],
+  "mechanicalConfiguration": {
+    "installationRow": "A",
+    "opticalVertexForwardMm": 25,
+    "baseFixing": "round-holes",
+    "coarseOffsetMm": 0,
+    "stageOffsetMm": 0,
+    "mirrorTipTilt": "source nominal",
+    "lateralOffsetMm": 0,
+    "mountM4XYmm": [
+      0,
+      -5.3990694603165394
+    ],
+    "usedPinXYmm": [
+      [
+        -5,
+        -5.3990694603165394
+      ],
+      [
+        5,
+        -5.3990694603165394
+      ]
+    ],
+    "pinQuantity": 2,
+    "reinstallationRequired": true,
+    "precisionRepeatabilityVerified": false
+  },
+  "mechanicalKinematics": {
+    "axis": [
+      0,
+      1,
+      0
+    ],
+    "baseCoarseTravelMm": [
+      -6.25,
+      6.25
+    ],
+    "stageNominalTravelMm": [
+      -10,
+      10
+    ],
+    "nominalOpticalVertexMm": [
+      0,
+      25,
+      62.5
+    ],
+    "opticalVertexFormula": "[0, 25 + coarseOffsetMm + stageOffsetMm, 62.5]",
+    "movingLeaves": [
+      "SupplierSolid02_MOVING",
+      "SupplierSolid13_MOVING",
+      "SupplierSolid06_MOVING",
+      "SupplierSolid15_MOVING",
+      "SupplierSolid05_MOVING",
+      "SupplierSolid04_MOVING",
+      "SupplierSolid11_MOVING",
+      "SupplierSolid14_MOVING",
+      "SupplierSolid12_MOVING",
+      "SupplierSolid10_MOVING",
+      "XBK-T01_R4_X3_FRONT25_37p5_316L",
+      "SERVO_HIGH",
+      "MT_AM2S5_source_leaf_17",
+      "MT_AM2S5_source_leaf_15",
+      "MT_AM2S5_source_leaf_19",
+      "MT_AM2S5_source_leaf_04",
+      "MT_AM2S5_source_leaf_03",
+      "MT_AM2S5_source_leaf_13",
+      "MT_AM2S5_source_leaf_18",
+      "SERVO_LOW",
+      "MT_AM2S5_source_leaf_20",
+      "H2D2-S",
+      "MT_AM2S5_source_leaf_07",
+      "MT_AM2S5_source_leaf_16",
+      "SOURCE_HIGH_SHAFT_11MM",
+      "MT_AM2S5_source_leaf_02",
+      "H2D2-L",
+      "MT_AM2S5_source_leaf_08",
+      "MT_AM2S5_source_leaf_11",
+      "MT_AM2S5_source_leaf_09",
+      "MT_AM2S5_source_leaf_05",
+      "MT_AM2S5_source_leaf_12",
+      "H2D2-B",
+      "MT_AM2S5_source_leaf_10",
+      "MT_AM2S5_source_leaf_06",
+      "MT_AM2S5_source_leaf_14",
+      "CM127-A1 | R3 SINGLE PIECE Al6061-T6",
+      "Cavity_mirror_D12p7_R20_ET4_flatband0p5",
+      "GN913.5 M3x3 KU | nominal stainless body | NO INTERNAL SPRING",
+      "GN913.5 POM soft tip | nominal projection0.8"
+    ],
+    "fixedLeaves": [
+      "XBK-B01_R3_COMPACT_P25_316L",
+      "SupplierSolid16_FIXED",
+      "SupplierSolid08_FIXED",
+      "SupplierSolid17_FIXED",
+      "SupplierSolid09_FIXED",
+      "SupplierSolid22_FIXED",
+      "SupplierSolid01_FIXED",
+      "SupplierSolid19_FIXED",
+      "SupplierSolid07_FIXED",
+      "SupplierSolid18_FIXED",
+      "SupplierSolid21_FIXED",
+      "SupplierSolid03_FIXED",
+      "SupplierSolid20_FIXED"
+    ],
+    "mirrorAngularRange": null,
+    "stageTravelBasis": "inherited nominal CAD/LS35 source; actual .E model and powered travel unverified",
+    "editorDynamicMotionSupported": false,
+    "coarseMotionRequiresSlotFixing": true,
+    "roundHoleModeGridPitchMm": 12.5,
+    "lateralInstallationOffsetsMm": [
+      -12.5,
+      0,
+      12.5
+    ],
+    "alternativeKitIds": [
+      "xbk-cavity-front25-l12p5-h62p5-r4",
+      "xbk-cavity-front25-r12p5-h62p5-r4",
+      "xbk-cavity-front37p5-l12p5-h62p5-r4",
+      "xbk-cavity-front37p5-c0-h62p5-r4",
+      "xbk-cavity-front37p5-r12p5-h62p5-r4"
+    ]
+  },
+  "manufacturingDrawingPath": null,
+  "productionReady": false,
+  "releaseStage": "engineering-review",
+  "status": "工程审核版 · 固定安装构型 · 未实装",
+  "notes": "六档使用同一套实体，选用一档；中心2销、左右1枚外销+M4×12夹紧，名义格点，换档须重新对光。原台体三点M2固定不变。安装五金BOM-only。台体型号/承载、通电行程、调角与线缆待实核。",
+  "pendingRequirements": [
+    {
+      "id": "physical",
+      "label": "实装承载/重复定位及完整电机运动待验收"
+    },
+    {
+      "id": "cloud",
+      "label": "云端导入状态见来源记录；尚未完成全部精确回读与原生配合验收"
+    }
+  ],
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "6029e5035262a432753afaea7c1fbee6ba999b8432a12e0dcc772960b0bc7089",
+        "sha256": "5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60"
+      }
+    ]
+  },
+  "id": "xbk-cavity-front25-c0-h62p5-r4"
+}

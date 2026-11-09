@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-pbs-05-vendor-2",
+  "revision": "source-snapshot",
+  "displayName": "半英寸偏振分束立方体",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-pbs-05-vendor-2.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

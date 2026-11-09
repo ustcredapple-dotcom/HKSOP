@@ -1,0 +1,30 @@
+{
+  "id": "it75-r3-reused-combo",
+  "kind": "standard",
+  "name": "原透镜combo底板、位移台与镜架（复用）",
+  "model": "MT1/M + MTL1-B-R1 + FLFT1A + 2×SM1R（不含上托板）",
+  "unit": "套",
+  "status": "现有整装复用 · 非新购",
+  "notes": "复用原底板、台体、镜架、压圈及原四颗M6×8/一颗M4×8；旧MTL1-U75-R1托板换成独立登记的MTL1-U75-R6。BCX参考片不作为实际399镜片采购。",
+  "sourceReport": {
+    "kind": "user-cad-package",
+    "revision": "R6+MOTOR2-R1/INSTALL-20261019",
+    "packageSha256": "4f55d6d940388da8fb589ed455ab160cacf0486720412682a3a227c114b75654",
+    "boardPackageSha256": "7652d9a920b5be3cd6cbc9500ebba81990aa19acfa445ecccae0b0c519b3d5e9"
+  },
+  "publicationScope": {
+    "website": true,
+    "localEditor": true,
+    "atlasIncluded": false,
+    "onshapeUploaded": false,
+    "physicalTrial": false
+  },
+  "fastUpload": {
+    "schema": "zzlab-fast-kit-upload-v1",
+    "packageId": "it399-r6-motor2-replacement-20261019",
+    "mode": "reviewed-module-replacement",
+    "atlasIncluded": false,
+    "onshapeUploaded": false,
+    "sourceZipSha256": "4f55d6d940388da8fb589ed455ab160cacf0486720412682a3a227c114b75654"
+  }
+}

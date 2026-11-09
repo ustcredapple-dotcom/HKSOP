@@ -1,0 +1,30 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-isolator",
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "displayName": "带罩隔离器 · ISOC1 · 780 nm",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/new-isolator.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-post-metric-12p5mm-m1",
+    "metric-m1-post-m4x16",
+    "metric-m1-post-pin-d2x8",
+    "new-r6-09-isoc1-adapter",
+    "new-r6-vendor-iso780-3-1p5w",
+    "new-r6-vendor-isoc1"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

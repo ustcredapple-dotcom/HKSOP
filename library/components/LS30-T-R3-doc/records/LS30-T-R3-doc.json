@@ -1,0 +1,85 @@
+{
+  "id": "LS30-T-R3-doc",
+  "name": "LS30 左/右型共用上面包板",
+  "model": "LS30-T-R3-doc",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R2-A7075",
+  "productionReady": false,
+  "manufacturingStatus": "review-required",
+  "manufacturingSpec": {
+    "material": "7075 铝合金",
+    "surfaceTreatment": "黑色阳极氧化",
+    "processDetails": "以已交付孔表、孔深和局部剖面为准。保持刻字编号及接触面精加工；不标通用公差及粗糙度。材料改版未复核承载、刚度及螺纹寿命；不声明新重量。"
+  },
+  "status": "R2名义设计及连接孔核验；待工艺及实装验收",
+  "notes": "M6为通牙；附件旋入不超过7.5 mm，螺钉不得伸出板底。2颗ISO4762 M3×10从顶面Ø6.5×3.0沉孔固定至厂家顶M3×0.5孔；名义旋入4.5 mm，螺钉头名义上与顶面齐平。厂家M4螺距疑点仍未解决，本设计不使用厂家M4接口。材料沿用7075铝合金、黑色阳极氧化；未进行实物承载、刚度及螺纹寿命验收。",
+  "stepPath": "step/manual-stage-r2-a7075/LS30-T.step",
+  "sourceStepSha256": "c2817caae94e20465a3d7a93fc8c5f3a738293abcd5689669a6f193bbc0e423a",
+  "drawingPath": null,
+  "sourceDrawingSha256": "d361016ef8671fb01f517d28af03b0c18bc300f071204fb2741153e210c0ce5d",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "dxfPath": null,
+  "sourceDxfSha256": "d2530c76b6054bebd768bcf46d29731b2b284114e35d9c8208e673e034f61685",
+  "manufacturingEvidence": {
+    "geometryRevision": "R2",
+    "materialRevision": "R2-A7075",
+    "userOverride": "library/reviews/manual-moving-stage-r1-a7075-import-20261006/evidence/user-material-override-20261006.json",
+    "geometryUnchanged": false,
+    "previousRevision": "R1-A7075",
+    "sourceStepSha256": "c2817caae94e20465a3d7a93fc8c5f3a738293abcd5689669a6f193bbc0e423a",
+    "drawingSha256": "d361016ef8671fb01f517d28af03b0c18bc300f071204fb2741153e210c0ce5d",
+    "dxfSha256": "d2530c76b6054bebd768bcf46d29731b2b284114e35d9c8208e673e034f61685",
+    "revisionEvidence": "library/reviews/ls30-upper-carriage-r2-20261007/evidence/review.json"
+  },
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "e930821b932c8b7aeef853c991c54335f48baa6dc84b74aa70c1a459d9d29a6a",
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "3dd5e4a15307eb2d03c512159d650f4ac93e012d20d64156ccd7335c0e4f91e3",
+      "currentPdfSha256": "d361016ef8671fb01f517d28af03b0c18bc300f071204fb2741153e210c0ce5d",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "f5a56a98627073ba5c4bfa91d66e1a4a23b2d5dd2aefc6533fae2303031fcb60",
+      "currentPdfSha256": "e930821b932c8b7aeef853c991c54335f48baa6dc84b74aa70c1a459d9d29a6a",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "a52c7d764940c88016efbe91899f6676ca2addb254f39aef824f670b92b97655",
+        "sha256": "d2530c76b6054bebd768bcf46d29731b2b284114e35d9c8208e673e034f61685"
+      }
+    ]
+  }
+}

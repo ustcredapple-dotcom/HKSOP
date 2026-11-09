@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-dc2-f-r1",
+  "revision": "source-snapshot",
+  "displayName": "2 inch 固定双色镜转接板 R1",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-dc2-f-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,36 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "kungshu-louc1-dr-manual-45-r1",
+  "files": [
+    {
+      "path": "rendering/440df3df8e6857a59438d400d2065aee5ad5d66c6de7a2bddcc310d0806d7bb4.svg",
+      "stored": "library/assets/sha256/44/440df3df8e6857a59438d400d2065aee5ad5d66c6de7a2bddcc310d0806d7bb4.svg",
+      "sha256": "440df3df8e6857a59438d400d2065aee5ad5d66c6de7a2bddcc310d0806d7bb4",
+      "originalReferences": [
+        "topviews/kungshu-louc1-dr-manual-45-r2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/44/440df3df8e6857a59438d400d2065aee5ad5d66c6de7a2bddcc310d0806d7bb4.svg"
+      ]
+    },
+    {
+      "path": "cad/acf61f26977809876fd90d7b23f1cb2cabd9d767fa78b939be314591c155cb11.step",
+      "stored": "library/assets/sha256/ac/acf61f26977809876fd90d7b23f1cb2cabd9d767fa78b939be314591c155cb11.step",
+      "sha256": "acf61f26977809876fd90d7b23f1cb2cabd9d767fa78b939be314591c155cb11",
+      "originalReferences": [
+        "step/kungshu-compact-r2/assemblies/kungshu-louc1-dr-manual-45-r2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/ac/acf61f26977809876fd90d7b23f1cb2cabd9d767fa78b939be314591c155cb11.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-kungshu-33-dr-r1",
+    "custom-post-metric-25mm-m1",
+    "kungshu-louc1-dr",
+    "new-hardware-d56c7b8035c3",
+    "new-hardware-ff9fb49c865c",
+    "periscope-m4x14-screw"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "lbtek-sm1-12p5a",
+  "files": [
+    {
+      "path": "cad/3b3c4135857262e1a4c03da0bf6607f758c168b2ddcd9c1bb49910a9fd3da9e5.step",
+      "stored": "library/assets/sha256/3b/3b3c4135857262e1a4c03da0bf6607f758c168b2ddcd9c1bb49910a9fd3da9e5.step",
+      "sha256": "3b3c4135857262e1a4c03da0bf6607f758c168b2ddcd9c1bb49910a9fd3da9e5",
+      "originalReferences": [
+        "step/txy1s-fixed-r5/vendor/SM1-12.5A.step"
+      ],
+      "sources": [
+        "library/assets/sha256/3b/3b3c4135857262e1a4c03da0bf6607f758c168b2ddcd9c1bb49910a9fd3da9e5.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

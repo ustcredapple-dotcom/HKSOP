@@ -1,0 +1,31 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "extension-ed50-r1",
+  "files": [
+    {
+      "path": "cad/1431b5beb6db08609438a9c856dd903b39856b048a058f11d31924599deb5a63.step",
+      "stored": "library/assets/sha256/14/1431b5beb6db08609438a9c856dd903b39856b048a058f11d31924599deb5a63.step",
+      "sha256": "1431b5beb6db08609438a9c856dd903b39856b048a058f11d31924599deb5a63",
+      "originalReferences": [
+        "step/extension-series-r1/延长50√2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/14/1431b5beb6db08609438a9c856dd903b39856b048a058f11d31924599deb5a63.step"
+      ]
+    },
+    {
+      "path": "rendering/2b19fc83c86e77fd8bab70c1c5f909aa0dd3630b501ef251d8f1b9acf42a7b41.svg",
+      "stored": "library/assets/sha256/2b/2b19fc83c86e77fd8bab70c1c5f909aa0dd3630b501ef251d8f1b9acf42a7b41.svg",
+      "sha256": "2b19fc83c86e77fd8bab70c1c5f909aa0dd3630b501ef251d8f1b9acf42a7b41",
+      "originalReferences": [
+        "topviews/extension-ed50-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/2b/2b19fc83c86e77fd8bab70c1c5f909aa0dd3630b501ef251d8f1b9acf42a7b41.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-extension-ed50-r1"
+  ]
+}

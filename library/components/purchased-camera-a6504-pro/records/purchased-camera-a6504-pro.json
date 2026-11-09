@@ -1,0 +1,20 @@
+{
+  "id": "purchased-camera-a6504-pro",
+  "name": "鑫图 A6504-Pro 相机",
+  "model": "A6504-Pro",
+  "kind": "standard",
+  "unit": "台",
+  "status": "采购件 · 用户提供实际CAD",
+  "stepPath": "step/camera-actual-r4/36-A65_R4_USER_SUPPLIED_ACTUAL_CAMERA.step",
+  "sourceStepSha256": "3962ef32a674ba69f119daf253b9f495c21b300d4d6572d99e0e1bcc48bdb6cc",
+  "notes": "采购与库存单件；R4采用用户提供实际相机CAD，原始字节冻结。感光硅面位置、线缆水管和实装仍待核实。实际前后底部M4孔轴为(±20,-4.3/87.2)，底面Z22.5；后两M4×6继续配0.8mm平垫。源文件名Aries 6504 V1-50，按用户指定关联当前A6504-Pro；厂家型号等同与硅面位置未独立确认。源CAD一个后部小零件保留原有局部拓扑方向警告，不影响本次安装孔与支撑接触。",
+  "cameraReference": {
+    "revision": "R4",
+    "sourceType": "user-supplied-actual-camera-CAD",
+    "isOemCad": null,
+    "isReconstructed": false,
+    "manufacturingUse": false,
+    "originalFilename": "Aries 6504 V1-50 26-3-24 WAIGUAN (1)(1).stp",
+    "sourceNativeCoordinateFrame": "mm; original supplier CAD axes retained in single camera file; sourceToWorld stored on kit."
+  }
+}

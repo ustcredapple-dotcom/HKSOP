@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "mt-flf1s",
+  "revision": "source-snapshot",
+  "displayName": "1 inch 固定镜架",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/mt-flf1s.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-35-hq-c-r2",
+  "files": [
+    {
+      "path": "cad/a9f7c7efb5345b0aeacc55848e7d4b59304317641bcd967d6b7accc8467a2112.step",
+      "stored": "library/assets/sha256/a9/a9f7c7efb5345b0aeacc55848e7d4b59304317641bcd967d6b7accc8467a2112.step",
+      "sha256": "a9f7c7efb5345b0aeacc55848e7d4b59304317641bcd967d6b7accc8467a2112",
+      "originalReferences": [
+        "step/camera-adapters-r2/35-HQ-C_R2-TRIAL.step"
+      ],
+      "sources": [
+        "library/assets/sha256/a9/a9f7c7efb5345b0aeacc55848e7d4b59304317641bcd967d6b7accc8467a2112.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,13 @@
+{
+  "id": "lbtek-sm1-50a",
+  "name": "麓邦 SM1-50A",
+  "model": "SM1-50A",
+  "kind": "lubang",
+  "unit": "件",
+  "sourceUrl": "https://www.lbtek.com/product/221",
+  "stepPath": "step/txy1s-fixed-r5/vendor/SM1-50A.step",
+  "sourceStepSha256": "3758e9a9e65f2eb15fc2f9b0ee4c52add57107e06a2f8f30d9a45d2814387faa",
+  "drawingPath": null,
+  "sourceDrawingSha256": "eca563059bddf3cf75d78196ce845c14c09a04887a839dcae38368e3ed5687a0",
+  "notes": "厂家资料来自用户冻结包；套筒随附卡环不重复计购。仅前端SM1-8A保留一个SM1R；TXY1S和其余套筒多余卡环拆下。实物螺纹/镜片夹持待核。"
+}

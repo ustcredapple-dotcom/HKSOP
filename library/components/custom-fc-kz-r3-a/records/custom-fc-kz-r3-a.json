@@ -1,0 +1,43 @@
+{
+  "id": "custom-fc-kz-r3-a",
+  "name": "FC-KZ-R3-A 后置旋钮直角转接件",
+  "model": "FC-KZ-R3-A",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R3",
+  "status": "工程审阅版；实物与加工放行待确认",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "连续90°直角台阶与后挡；无凹槽，无倒R或清根要求；激光打标。未额外指定通用公差或粗糙度。"
+  },
+  "notes": "CS30-KZ 专用，台阶7.5mm；孔径、深度及沉孔方向按原交付图。M4与定位销有效啮合需首件确认。",
+  "stepPath": "step/fiber-rear-dual-r3/FC-KZ-R3-A.step",
+  "sourceStepSha256": "121d25c198b06fb03eadc640cdfc8a06e6247d76ca06d8f43ca8a0a64691614b",
+  "drawingPath": null,
+  "sourceDrawingSha256": "759eb31bea7fbbe60732b9839b8d3a8827d610566ed36fa4fa3a5346be671f41",
+  "dxfPath": null,
+  "sourceDxfSha256": "f3103231b91ecee1978413a678bcf6d5c411c20710f2cabd836fec9484f8cd3e",
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前R3唯一加工件编号",
+    "notes": "在Y=-15前端面激光编号，字高2mm；不铣刻，激光参数待材料试样确认。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "manufacturingEvidence": {
+    "sourceStepSha256": "121d25c198b06fb03eadc640cdfc8a06e6247d76ca06d8f43ca8a0a64691614b",
+    "drawingSha256": "759eb31bea7fbbe60732b9839b8d3a8827d610566ed36fa4fa3a5346be671f41",
+    "pageCount": 1,
+    "originalDrawingSha256": "63c16273bf375ef62ade50ec5c9c8b9d9f425b28bb9b7bee8005904cfab9fdb6",
+    "originalPage": 2,
+    "geometryValidated": true,
+    "physicalTrialCompleted": false,
+    "reviewScope": "One closed valid custom solid and original dimensioned drawing; unchanged page extraction; physical release pending.",
+    "originalDxfSha256": "50e7f20e0d098507616a03e8030e3a12fff76abbfcd6d5d4743591fa61d9bca3",
+    "dxfLayoutOnlyChange": "Move six header notes up12mm; original source retained, geometry and dimensions unchanged"
+  },
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "15486a6ec9c0eb45bebd34a8dbd7a6f90efd87b1f9323ab6c569f45f504dea76",
+  "drawingLayoutRevision": "R3-note-spacing1"
+}

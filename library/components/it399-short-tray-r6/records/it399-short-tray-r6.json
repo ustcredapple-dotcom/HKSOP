@@ -1,0 +1,81 @@
+{
+  "id": "it399-short-tray-r6",
+  "name": "399 R6 · 缩短3.9 mm透镜托板",
+  "model": "MTL1-U75-R6",
+  "kind": "custom",
+  "unit": "件",
+  "stepPath": "step/iontrap-it399-r6-motor2/MTL1-U75-R6.step",
+  "sourceStepSha256": "e12d5d18c70a611bd872faf9d949044d918d5febbfaadfdc49dfd9270365d257",
+  "drawingPath": null,
+  "sourceDrawingSha256": "7d760f8b19b219d787b94dee20ba0290176cc6101f1def8b8bef0293c932c116",
+  "drawingRevision": "MTL1-U75-R6",
+  "drawingStatus": "engineering-review",
+  "productionReady": false,
+  "status": "源CAD与加工审核图；尚未实装或加工放行",
+  "notes": "原托板前缘-84改为-80.1 mm；孔位与贴靠保持。复用原四颗M6×8及镜架M4×8。",
+  "manufacturingSpec": {
+    "material": "316L",
+    "surfaceTreatment": "去磁、钝化"
+  },
+  "referenceFiles": [
+    {
+      "label": "源加工视图",
+      "dxfPath": null,
+      "sha256": "14a10aa9a2faca6a5cad5a2e2fc8b1c7137cd6c4b01db85e5a1f55a06874415e"
+    },
+    {
+      "label": "源加工视图",
+      "dxfPath": null,
+      "sha256": "7e50de48404d6b8f0113c9c3e9aa462dec4921f56a7552f736609c88d57abb8f"
+    },
+    {
+      "label": "源加工视图",
+      "dxfPath": null,
+      "sha256": "36569746616f645be9a2483767493fb5ce06174cfdde90a02cbb1c9819732bf4"
+    },
+    {
+      "label": "源加工视图",
+      "dxfPath": null,
+      "sha256": "1844d0943a5c09db88a7872003baa141cb01f049f52ac485260c765d7cf5ca69"
+    }
+  ],
+  "laserMarking": {
+    "status": "required",
+    "reason": "新加工件编号与方向标识",
+    "notes": "源1:1激光文件；不铣刻。按源定位图装夹。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "sourceReport": {
+    "kind": "user-cad-package",
+    "revision": "R6+MOTOR2-R1/INSTALL-20261019",
+    "packageSha256": "4f55d6d940388da8fb589ed455ab160cacf0486720412682a3a227c114b75654",
+    "boardPackageSha256": "7652d9a920b5be3cd6cbc9500ebba81990aa19acfa445ecccae0b0c519b3d5e9"
+  },
+  "publicationScope": {
+    "website": true,
+    "localEditor": true,
+    "atlasIncluded": false,
+    "onshapeUploaded": false,
+    "physicalTrial": false
+  },
+  "fastUpload": {
+    "schema": "zzlab-fast-kit-upload-v1",
+    "packageId": "it399-r6-motor2-replacement-20261019",
+    "mode": "reviewed-module-replacement",
+    "atlasIncluded": false,
+    "onshapeUploaded": false,
+    "sourceZipSha256": "4f55d6d940388da8fb589ed455ab160cacf0486720412682a3a227c114b75654"
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "f67a54784ccb82f9e4b1dd14e0216a2d869e0adf81402bb06e3d9c64266bc617",
+        "sha256": "7d760f8b19b219d787b94dee20ba0290176cc6101f1def8b8bef0293c932c116"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "hardware-iso4762-m2p5x8",
+  "revision": "source-snapshot",
+  "displayName": "M2.5×8 内六角圆柱头螺钉",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/hardware-iso4762-m2p5x8.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

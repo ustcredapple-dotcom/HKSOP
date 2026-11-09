@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-30-obj-m-r2",
+  "files": [
+    {
+      "path": "cad/65a360e33dba2c9ee3511908e08f158615d62b723520f55c353184c3ecf60f21.step",
+      "stored": "library/assets/sha256/65/65a360e33dba2c9ee3511908e08f158615d62b723520f55c353184c3ecf60f21.step",
+      "sha256": "65a360e33dba2c9ee3511908e08f158615d62b723520f55c353184c3ecf60f21",
+      "originalReferences": [
+        "step/objective-post-r2/30-OBJ-M_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/65/65a360e33dba2c9ee3511908e08f158615d62b723520f55c353184c3ecf60f21.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,50 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "fiber-coupling-mft-rear-r3",
+  "files": [
+    {
+      "path": "rendering/23132a12b90f35065a63c9e1cd76969208283c4fb8b9bd48f35c9914c15577df.svg",
+      "stored": "library/assets/sha256/23/23132a12b90f35065a63c9e1cd76969208283c4fb8b9bd48f35c9914c15577df.svg",
+      "sha256": "23132a12b90f35065a63c9e1cd76969208283c4fb8b9bd48f35c9914c15577df",
+      "originalReferences": [
+        "topviews/fiber-coupling-mft-rear-r3.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/23/23132a12b90f35065a63c9e1cd76969208283c4fb8b9bd48f35c9914c15577df.svg"
+      ]
+    },
+    {
+      "path": "rendering/54c923b36a03b11a97294098cef1a9c9771fffb03b213877b2e10d90c498793f.png",
+      "stored": "library/assets/sha256/54/54c923b36a03b11a97294098cef1a9c9771fffb03b213877b2e10d90c498793f.png",
+      "sha256": "54c923b36a03b11a97294098cef1a9c9771fffb03b213877b2e10d90c498793f",
+      "originalReferences": [
+        "topviews/fiber-coupling-mft-rear-r3.png"
+      ],
+      "sources": [
+        "library/assets/sha256/54/54c923b36a03b11a97294098cef1a9c9771fffb03b213877b2e10d90c498793f.png"
+      ]
+    },
+    {
+      "path": "cad/93462653e8021b17ffd1581f7ede32678789ce3e0c36ea573d7c066b76bdffa1.step",
+      "stored": "library/assets/sha256/93/93462653e8021b17ffd1581f7ede32678789ce3e0c36ea573d7c066b76bdffa1.step",
+      "sha256": "93462653e8021b17ffd1581f7ede32678789ce3e0c36ea573d7c066b76bdffa1",
+      "originalReferences": [
+        "step/fiber-rear-dual-r3/FC_MFT_REVERSED_R3.step"
+      ],
+      "sources": [
+        "library/assets/sha256/93/93462653e8021b17ffd1581f7ede32678789ce3e0c36ea573d7c066b76bdffa1.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "cs30-xy1d",
+    "custom-fc-mft-r3-a",
+    "custom-post-metric-25mm-m1",
+    "mft",
+    "mop-50",
+    "new-hardware-1d23c1ca342d",
+    "new-hardware-2675b0c6a8c3",
+    "new-hardware-f0579b934c7c",
+    "new-hardware-ff9fb49c865c"
+  ]
+}

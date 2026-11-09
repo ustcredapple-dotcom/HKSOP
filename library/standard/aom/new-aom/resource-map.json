@@ -1,0 +1,39 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-aom",
+  "files": [
+    {
+      "path": "rendering/5d507deebab66d5fdf03070730726eafeb5f0b26c7047c3c9efdf22307596c28.svg",
+      "stored": "library/assets/sha256/5d/5d507deebab66d5fdf03070730726eafeb5f0b26c7047c3c9efdf22307596c28.svg",
+      "sha256": "5d507deebab66d5fdf03070730726eafeb5f0b26c7047c3c9efdf22307596c28",
+      "originalReferences": [
+        "topviews/new-aom__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/5d/5d507deebab66d5fdf03070730726eafeb5f0b26c7047c3c9efdf22307596c28.svg"
+      ]
+    },
+    {
+      "path": "cad/8291b27552567249c13ac3e57c9500921b5d8b7c6e79177eb72c6ce80c07662b.step",
+      "stored": "library/assets/sha256/82/8291b27552567249c13ac3e57c9500921b5d8b7c6e79177eb72c6ce80c07662b.step",
+      "sha256": "8291b27552567249c13ac3e57c9500921b5d8b7c6e79177eb72c6ce80c07662b",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/new-aom__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/82/8291b27552567249c13ac3e57c9500921b5d8b7c6e79177eb72c6ce80c07662b.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "amp-1r",
+    "custom-aom-heatspreader08-rf180-r1",
+    "custom-post-metric-12p5mm-m1",
+    "metric-m1-post-m4x16",
+    "metric-m1-post-pin-d2x8",
+    "new-aom-adapter-1",
+    "new-aom-adapter-3",
+    "new-aom-vendor-2",
+    "new-hardware-2024b58b5f4e"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "motor-2-90-h2-coplanar-r1",
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "displayName": "电动反射镜 · 2 inch · H2直连",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/motor-2-90-h2-coplanar-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-motor-adapter-18-s2-r2",
+    "custom-motor-h2d2-b-r3",
+    "custom-motor-h2d2-l-r2",
+    "custom-motor-h2d2-s-r3",
+    "custom-post-metric-12p5mm-m1",
+    "encoder-servo",
+    "hardware-h2-r3-m2x10",
+    "hardware-h2-r3-m4-washer",
+    "hardware-h2-r3-m4x20",
+    "hardware-iso4762-m3x8",
+    "motor-adapter-m3",
+    "new-r3-vendor-mt-am2s5",
+    "v7-source-m4-nut"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "servo-pd-ug02-25-r3",
+  "name": "UG02-25-R3 25 mm 双侧探测载臂",
+  "model": "UG02-25-R3",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R3",
+  "status": "工程审阅版；实物接口及加工放行待确认",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "依冻结STEP及孔旁加工规格；激光编号、不铣刻。未额外规定通用公差或粗糙度。"
+  },
+  "notes": "保留原交付尺寸、孔型和有效深度；不以商业源平孔推定实际螺纹。",
+  "stepPath": "step/servo-pd-bilateral-r3/UG02_R25_R3.step",
+  "sourceStepSha256": "50692df06ca713e14b29bca8d90b66534b71700c3049f1a1d52191fc5726fc4e",
+  "drawingPath": null,
+  "sourceDrawingSha256": "34d1872dfc3d85852ff39b5571bf8aa72e2425ac375a26a746feb1a77b48d864",
+  "dxfPath": null,
+  "sourceDxfSha256": "7a51abcedb310bdd273255d69d5080b74fe74d52db820445cf0ce064fce5a27f",
+  "laserMarking": {
+    "status": "required",
+    "reason": "唯一短编号；本次冻结R3实体上的独立激光打标",
+    "notes": "激光打标，不铣刻；激光参数待材料试样确认。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "manufacturingEvidence": {
+    "revision": "R3",
+    "sourceStepSha256": "50692df06ca713e14b29bca8d90b66534b71700c3049f1a1d52191fc5726fc4e",
+    "drawingSha256": "34d1872dfc3d85852ff39b5571bf8aa72e2425ac375a26a746feb1a77b48d864",
+    "pageCount": 2,
+    "geometryValidated": true,
+    "physicalTrialCompleted": false,
+    "reviewScope": "Source native solid validity and eight original dimensioned pages; external thread and sensor assumptions retained."
+  },
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "03a65614220ad9f29f50c1ef6cf74f522b6ba98685ec8a9e487c38687eab2912",
+  "originalSourceDxfPath": null,
+  "originalSourceDxfSha256": "0bf7760d01200d5ca7bdf917eebae096528fb1e792675377add617f45dcb17e0",
+  "dxfLayoutRevision": "20261016-review1; annotation positions only; source geometry and dimension endpoints unchanged",
+  "originalDxfReference": {
+    "dxfPath": null,
+    "sha256": "cfa040f539e41898c26e26b1f297ce960b48ac377f3788ea8dde429a851a1c36",
+    "status": "Original annotation layout retained for traceability; use current reviewed dxfPath"
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "02ed19c56e40cd259a934da7e035fa9eb33e655ff601a0b4d4a980dc701914b7",
+        "sha256": "34d1872dfc3d85852ff39b5571bf8aa72e2425ac375a26a746feb1a77b48d864"
+      },
+      {
+        "path": null,
+        "previousSha256": "7b6f4f550cc755ce503cda142c8d881f65eb742f8f041192495f36d5997f693f",
+        "sha256": "7a51abcedb310bdd273255d69d5080b74fe74d52db820445cf0ce064fce5a27f"
+      },
+      {
+        "path": null,
+        "previousSha256": "0bf7760d01200d5ca7bdf917eebae096528fb1e792675377add617f45dcb17e0",
+        "sha256": "cfa040f539e41898c26e26b1f297ce960b48ac377f3788ea8dde429a851a1c36"
+      }
+    ]
+  }
+}

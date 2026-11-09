@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-motor-m2s-l-r2",
+  "revision": "source-snapshot",
+  "displayName": "M2S-L · V2电动镜架独立加工件",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-motor-m2s-l-r2.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

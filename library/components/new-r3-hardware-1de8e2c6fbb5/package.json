@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-r3-hardware-1de8e2c6fbb5",
+  "revision": "source-snapshot",
+  "displayName": "GN 912.3-M4-8-NI 缩头内六角螺钉",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-r3-hardware-1de8e2c6fbb5.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

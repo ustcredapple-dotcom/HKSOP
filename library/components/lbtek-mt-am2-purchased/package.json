@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "lbtek-mt-am2-purchased",
+  "revision": "source-snapshot",
+  "displayName": "MT-AM2 · 厂家原件",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/lbtek-mt-am2-purchased.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

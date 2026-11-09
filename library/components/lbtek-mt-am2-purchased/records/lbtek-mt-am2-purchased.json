@@ -1,0 +1,43 @@
+{
+  "id": "lbtek-mt-am2-purchased",
+  "name": "MT-AM2 · 厂家原件",
+  "model": "MT-AM2",
+  "kind": "lubang",
+  "unit": "个",
+  "sourceUrl": "https://www.lbtek.com/product/1259",
+  "stepPath": "step/mt-cube-size-family-r2/MT-AM2-vendor.step",
+  "drawingPath": null,
+  "status": "官方型号/API/PDF/STEP已核对；名义CAD参考；未实物试装",
+  "sourceEvidence": {
+    "type": "manufacturer-reference",
+    "sourceStepSha256": "0d8fdf11b2b2113d097b215a31466af45a965b1487a31c90ab1cd3e0c2fc80a9",
+    "drawingSha256": "9f4bc802c6a529f0a4ede90b4a4c271669aeae4ffa294787a44065dc793ec784",
+    "apiSha256": "a3842246f4d6fe0d83950dca29e0e91bc2ac3af484abba82d7c5682af219e8a4",
+    "referenceOnly": true
+  },
+  "manufacturerAttributes": {
+    "材质": "316L不锈钢",
+    "表面处理": "喷砂",
+    "适用光学元件直径": "Ø50.8 mm",
+    "光学元件固定方式": "挠性弹片和固定螺丝",
+    "沉头孔规格/数量": "M4/2个",
+    "光轴中心高度": "35.6 mm",
+    "附送螺丝数量": "2个M4×14内六角螺钉",
+    "调整精度": "0.27°/转",
+    "最小光学元件厚度 ": "4 mm",
+    "附送扳手规格及数量": "2.0\\2.5 mm，各1个",
+    "是否兼容锁紧螺母": "是",
+    "可调俯仰/偏摆角度范围": "±4°",
+    "调节器规格/数量": "带滚花旋钮M6×0.25精密调节器/3个"
+  },
+  "notes": "保留厂家原始实体与层级；厂家图为选型资料，不是定制加工图；未改造或缩放原件。 当前构型使用一颗厂附薄头螺钉，另一颗备用；不能替换普通圆柱头或重复采购。 与原未核实厂家来源的v7-source-mt-am2记录区分，原身份不改写。",
+  "includedAccessories": [
+    {
+      "model": "M4x14 supplier thin head",
+      "quantity": 2,
+      "installedQuantity": 1,
+      "spareQuantity": 1,
+      "purchaseSeparately": false
+    }
+  ]
+}

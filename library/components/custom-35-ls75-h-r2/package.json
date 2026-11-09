@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-35-ls75-h-r2",
+  "revision": "R2",
+  "displayName": "35-LS75-H R2 · 滨松侧转双筋直角座",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-35-ls75-h-r2.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

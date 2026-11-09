@@ -1,0 +1,37 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "amm-1b-45-r3",
+  "files": [
+    {
+      "path": "rendering/33ed55172067f10e0a1c24f97472a9ad202720022152dbfa50e05e0202f314b2.svg",
+      "stored": "library/assets/sha256/33/33ed55172067f10e0a1c24f97472a9ad202720022152dbfa50e05e0202f314b2.svg",
+      "sha256": "33ed55172067f10e0a1c24f97472a9ad202720022152dbfa50e05e0202f314b2",
+      "originalReferences": [
+        "topviews/amm-1b-45-r3.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/33/33ed55172067f10e0a1c24f97472a9ad202720022152dbfa50e05e0202f314b2.svg"
+      ]
+    },
+    {
+      "path": "cad/f5892d73e1190364a40a4b6585edd9afb588b76e9377530e6580afeb9f843e1e.step",
+      "stored": "library/assets/sha256/f5/f5892d73e1190364a40a4b6585edd9afb588b76e9377530e6580afeb9f843e1e.step",
+      "sha256": "f5892d73e1190364a40a4b6585edd9afb588b76e9377530e6580afeb9f843e1e",
+      "originalReferences": [
+        "step/combined-r1-20261015/3/AM1B_R3_45deg_H62p5_ASSEMBLY.step"
+      ],
+      "sources": [
+        "library/assets/sha256/f5/f5892d73e1190364a40a4b6585edd9afb588b76e9377530e6580afeb9f843e1e.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-am1b-r3",
+    "custom-post-metric-25mm-m1",
+    "hardware-iso4762-m6x12",
+    "lbtek-amm-1b-purchased",
+    "metric-m1-post-m4x14",
+    "metric-m1-post-pin-d2x8",
+    "new-hardware-f0579b934c7c"
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ZZLab element import package v1",
+  "type": "object",
+  "required": [
+    "protocolVersion",
+    "packageId",
+    "baseCatalogSha256",
+    "records",
+    "assets",
+    "metadataPatch",
+    "reviews"
+  ],
+  "properties": {
+    "protocolVersion": {
+      "const": "zzlab-optics-library-v1"
+    },
+    "packageId": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,159}$"
+    },
+    "baseCatalogSha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "records": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "type",
+          "id",
+          "path"
+        ],
+        "properties": {
+          "type": {
+            "enum": [
+              "kits",
+              "components",
+              "boards"
+            ]
+          },
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,159}$"
+          },
+          "path": {
+            "type": "string"
+          },
+          "mode": {
+            "enum": [
+              "add",
+              "replace"
+            ]
+          },
+          "previousSha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "mode": {
+                  "const": "replace"
+                }
+              },
+              "required": [
+                "mode"
+              ]
+            },
+            "then": {
+              "required": [
+                "previousSha256"
+              ]
+            }
+          }
+        ],
+        "additionalProperties": false
+      }
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "root",
+          "path",
+          "source",
+          "sha256"
+        ],
+        "properties": {
+          "root": {
+            "enum": [
+              "assets",
+              "static"
+            ]
+          },
+          "path": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "mode": {
+            "enum": [
+              "add",
+              "replace"
+            ]
+          },
+          "previousSha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "mode": {
+                  "const": "replace"
+                }
+              },
+              "required": [
+                "mode"
+              ]
+            },
+            "then": {
+              "required": [
+                "previousSha256"
+              ]
+            }
+          }
+        ],
+        "additionalProperties": false
+      }
+    },
+    "metadataPatch": {
+      "type": "object",
+      "required": [
+        "version"
+      ],
+      "properties": {
+        "version": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": true
+    },
+    "reviews": {
+      "type": "object",
+      "required": [
+        "sourceReviewed",
+        "geometryReviewed",
+        "interactionReviewed",
+        "bomReviewed"
+      ],
+      "properties": {
+        "sourceReviewed": {
+          "type": "object",
+          "required": [
+            "status",
+            "reviewer",
+            "reason",
+            "evidence"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "reviewed",
+                "not-applicable"
+              ]
+            },
+            "reviewer": {
+              "type": "string",
+              "minLength": 1
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1
+            },
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "properties": {
+                  "path": {
+                    "type": "string",
+                    "pattern": "^evidence/"
+                  },
+                  "sha256": {
+                    "type": "string",
+                    "pattern": "^[a-f0-9]{64}$"
+                  }
+                },
+                "additionalProperties": false
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "geometryReviewed": {
+          "type": "object",
+          "required": [
+            "status",
+            "reviewer",
+            "reason",
+            "evidence"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "reviewed",
+                "not-applicable"
+              ]
+            },
+            "reviewer": {
+              "type": "string",
+              "minLength": 1
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1
+            },
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "properties": {
+                  "path": {
+                    "type": "string",
+                    "pattern": "^evidence/"
+                  },
+                  "sha256": {
+                    "type": "string",
+                    "pattern": "^[a-f0-9]{64}$"
+                  }
+                },
+                "additionalProperties": false
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "interactionReviewed": {
+          "type": "object",
+          "required": [
+            "status",
+            "reviewer",
+            "reason",
+            "evidence"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "reviewed",
+                "not-applicable"
+              ]
+            },
+            "reviewer": {
+              "type": "string",
+              "minLength": 1
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1
+            },
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "properties": {
+                  "path": {
+                    "type": "string",
+                    "pattern": "^evidence/"
+                  },
+                  "sha256": {
+                    "type": "string",
+                    "pattern": "^[a-f0-9]{64}$"
+                  }
+                },
+                "additionalProperties": false
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "bomReviewed": {
+          "type": "object",
+          "required": [
+            "status",
+            "reviewer",
+            "reason",
+            "evidence"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "reviewed",
+                "not-applicable"
+              ]
+            },
+            "reviewer": {
+              "type": "string",
+              "minLength": 1
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1
+            },
+            "evidence": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "properties": {
+                  "path": {
+                    "type": "string",
+                    "pattern": "^evidence/"
+                  },
+                  "sha256": {
+                    "type": "string",
+                    "pattern": "^[a-f0-9]{64}$"
+                  }
+                },
+                "additionalProperties": false
+              }
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

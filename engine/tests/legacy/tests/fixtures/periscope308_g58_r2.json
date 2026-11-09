@@ -1,0 +1,289 @@
+{
+  "source": "R2 original record optical subset; synthetic coefficients are test-only, not this fixture",
+  "kit": {
+    "id": "laser308-offset-turn90-135-to62p5",
+    "name": "308 nm 分体偏置90°爬架 · 135→62.5 · R2 G58试制",
+    "category": "periscope",
+    "opticalSlots": [
+      {
+        "id": "upper-mirror-optic",
+        "label": "上镜 · 308nm/45°待选；Ø25.4×6mm几何，实际镀膜/型号待选",
+        "type": "mirror",
+        "quantity": 1,
+        "unit": "片",
+        "diameterMm": 25.4,
+        "thicknessMm": 6,
+        "wavelengthNm": 308.366,
+        "requiredAOIDeg": 45,
+        "note": "308nm工作波段，45°入射；不得据几何参考盘默认理想反射或Rp/Rs/相位。"
+      },
+      {
+        "id": "lower-mirror-optic",
+        "label": "下镜 · 308nm/45°待选；Ø25.4×6mm几何，实际镀膜/型号待选",
+        "type": "mirror",
+        "quantity": 1,
+        "unit": "片",
+        "diameterMm": 25.4,
+        "thicknessMm": 6,
+        "wavelengthNm": 308.366,
+        "requiredAOIDeg": 45,
+        "note": "308nm工作波段，45°入射；不得据几何参考盘默认理想反射或Rp/Rs/相位。"
+      }
+    ],
+    "designRequirements": {
+      "sourceWavelengthNm": 308.366,
+      "sourceHeightMm": 135,
+      "outputHeightMm": 62.5,
+      "conditionalGapMm": 58,
+      "actualWindowX": null,
+      "actualSourceMountingDatumVerified": false,
+      "userApprovedCorrectableG58Prototype": true
+    },
+    "components": [],
+    "layout": {
+      "opticalAssembly": {
+        "verified": true,
+        "bounds": {
+          "min": [
+            -87.5,
+            -34.17985575971931,
+            0.0
+          ],
+          "max": [
+            33.831689427638004,
+            29.900408559637892,
+            173.67985575969257
+          ]
+        },
+        "nodes": [
+          {
+            "id": "upper-mirror",
+            "name": "上镜 · 308nm/45°待选",
+            "type": "mirror",
+            "centerMm": [
+              -2.1213203435401904,
+              4.500000000006999,
+              137.12132034349938
+            ],
+            "normal": [
+              0.7071067811865036,
+              0.0,
+              -0.7071067811865918
+            ],
+            "radiusMm": 12.7,
+            "geometryConfirmed": true,
+            "coatingFaceIndex": null,
+            "clearApertureConfirmed": false,
+            "faces": [
+              {
+                "centerMm": [
+                  1.9320545163736824e-11,
+                  4.500000000006999,
+                  134.9999999999396
+                ],
+                "normal": [
+                  0.7071067811865036,
+                  0.0,
+                  -0.7071067811865918
+                ],
+                "radiusMm": 12.7
+              },
+              {
+                "centerMm": [
+                  -4.242640687099701,
+                  4.500000000006999,
+                  139.24264068705915
+                ],
+                "normal": [
+                  -0.7071067811865036,
+                  -0.0,
+                  0.7071067811865918
+                ],
+                "radiusMm": 12.7
+              }
+            ],
+            "note": "实际后肩+用户指定6mm名义参考盘；实片装入、镀膜面、有效口径和Rp/Rs相位未确认。"
+          },
+          {
+            "id": "lower-mirror",
+            "name": "下镜 · 308nm/45°待选",
+            "type": "mirror",
+            "centerMm": [
+              1.5014416566041065e-11,
+              2.37867965644734,
+              60.37867965643067
+            ],
+            "normal": [
+              4.403298851525474e-14,
+              0.7071067811867809,
+              0.7071067811863144
+            ],
+            "radiusMm": 12.7,
+            "geometryConfirmed": true,
+            "coatingFaceIndex": null,
+            "clearApertureConfirmed": false,
+            "faces": [
+              {
+                "centerMm": [
+                  1.5146515531586828e-11,
+                  4.500000000007683,
+                  62.49999999998961
+                ],
+                "normal": [
+                  4.403298851525474e-14,
+                  0.7071067811867809,
+                  0.7071067811863144
+                ],
+                "radiusMm": 12.7
+              },
+              {
+                "centerMm": [
+                  1.48823176004953e-11,
+                  0.2573593128869973,
+                  58.25735931287173
+                ],
+                "normal": [
+                  -4.403298851525474e-14,
+                  -0.7071067811867809,
+                  -0.7071067811863144
+                ],
+                "radiusMm": 12.7
+              }
+            ],
+            "note": "实际后肩+用户指定6mm名义参考盘；实片装入、镀膜面、有效口径和Rp/Rs相位未确认。"
+          }
+        ],
+        "internalElements": [
+          {
+            "id": "upper-mirror",
+            "name": "上镜 · 308nm/45°待选",
+            "type": "mirror",
+            "slotId": "upper-mirror-optic",
+            "opticalDefaults": {
+              "elementType": "mirror",
+              "inserted": true,
+              "configured": false,
+              "coatingFaceIndex": null,
+              "mirror": {
+                "mode": "data",
+                "model": "",
+                "samples": []
+              }
+            },
+            "existingInAssembly": false,
+            "sidePointMm": {
+              "xMm": 27.87867965645981,
+              "yMm": 137.12132034349938
+            },
+            "candidateFaces": [
+              {
+                "index": 0,
+                "sidePointMm": {
+                  "xMm": 30.00000000001932,
+                  "yMm": 134.9999999999396
+                }
+              },
+              {
+                "index": 1,
+                "sidePointMm": {
+                  "xMm": 25.7573593129003,
+                  "yMm": 139.24264068705915
+                }
+              }
+            ]
+          },
+          {
+            "id": "lower-mirror",
+            "name": "下镜 · 308nm/45°待选",
+            "type": "mirror",
+            "slotId": "lower-mirror-optic",
+            "opticalDefaults": {
+              "elementType": "mirror",
+              "inserted": true,
+              "configured": false,
+              "coatingFaceIndex": null,
+              "mirror": {
+                "mode": "data",
+                "model": "",
+                "samples": []
+              }
+            },
+            "existingInAssembly": false,
+            "sidePointMm": {
+              "xMm": 30.000000000015014,
+              "yMm": 60.37867965643067
+            },
+            "candidateFaces": [
+              {
+                "index": 0,
+                "sidePointMm": {
+                  "xMm": 30.000000000015145,
+                  "yMm": 62.49999999998961
+                }
+              },
+              {
+                "index": 1,
+                "sidePointMm": {
+                  "xMm": 30.000000000014882,
+                  "yMm": 58.25735931287173
+                }
+              }
+            ]
+          }
+        ],
+        "note": "真实名义参考几何；G58源安装基准与实际镜片待确认。输入−X，高135；垂直−Z；输出+Y，高62.5，两镜XY=(0,4.5)。",
+        "sideView": {
+          "path": "topviews/laser308-g58-optical-xz.svg",
+          "topViewPath": "topviews/laser308-g58-optical-xz.svg",
+          "widthMm": 70,
+          "heightMm": 185,
+          "xMin": -30,
+          "zMin": 0
+        }
+      },
+      "opticalAxisHeightMm": 135,
+      "opticalAxisHeightSource": "135mm仅输入端参考；内部上下镜分别135/62.5，不能当单一光高件自动对齐。",
+      "opticalCenterMm": {
+        "xMm": 0,
+        "yMm": 4.5
+      },
+      "opticalType": "empty",
+      "opticalDefaults": {
+        "elementType": "empty",
+        "inserted": true,
+        "configured": true
+      },
+      "globalHeightComparable": false,
+      "fixedUniversalPostComponentIds": [
+        "custom-post-metric-12p5mm-m1"
+      ],
+      "placementAllowed": true,
+      "widthMm": 122.67167796276668,
+      "heightMm": 65.58024574943022,
+      "anchorXMm": 88.16999433138334,
+      "anchorYMm": 30.650393499934125,
+      "baseBoundsMm": {
+        "xMin": -87.5,
+        "yMin": -25,
+        "xMax": 25,
+        "yMax": 25
+      },
+      "mountingHoleOffsetsMm": [
+        {
+          "xMm": -75,
+          "yMm": 0
+        },
+        {
+          "xMm": -12.5,
+          "yMm": -12.5
+        },
+        {
+          "xMm": -12.5,
+          "yMm": 12.5
+        }
+      ],
+      "minimumAlignedMountingHoles": 3
+    }
+  },
+  "sourceRecordCanonicalSha256": "8fa19271cf26732f79a2486510235b41f8a096701a0661c11853c1322aea0b9a"
+}

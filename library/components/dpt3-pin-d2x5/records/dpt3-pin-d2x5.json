@@ -1,0 +1,23 @@
+{
+  "id": "dpt3-pin-d2x5",
+  "name": "圆柱定位销 Ø2×5",
+  "kind": "standard",
+  "unit": "件",
+  "model": "Ø2×5",
+  "notes": "ZZ-13至镜架；露出1.5，底部插入3.5；标准件不另出加工CAD。",
+  "publicationScope": {
+    "website": true,
+    "localEditor": true,
+    "onshapeUploaded": false,
+    "globalMachiningAtlasIncluded": false,
+    "physicalTrial": false
+  },
+  "fastUpload": {
+    "schema": "zzlab-fast-kit-upload-v1",
+    "packageId": "dipole-trap3-complete-module-r2-20261019",
+    "mode": "reviewed-module-intake",
+    "atlasIncluded": false,
+    "onshapeUploaded": false,
+    "sourceZipSha256": "c8e996df594c96d977448942055fb1048de60775c7ba0047fd87a5747283b0d9"
+  }
+}

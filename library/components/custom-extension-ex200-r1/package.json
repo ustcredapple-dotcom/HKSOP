@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-extension-ex200-r1",
+  "revision": "R1",
+  "displayName": "延长块 200 mm",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-extension-ex200-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,29 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "pbs-adjustable",
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "displayName": "可调式 PBS · 1 inch",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/pbs-adjustable.json"
+    }
+  ],
+  "componentDependencies": [
+    "amp-1r",
+    "custom-09",
+    "custom-post-metric-12p5mm-m1",
+    "pbs24-532-alias",
+    "pcms1"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

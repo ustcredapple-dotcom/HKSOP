@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-obj-pt1m-ac-r3",
+  "revision": "R3",
+  "displayName": "PT1/M物镜 A/C 双电机前伸转接座",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-obj-pt1m-ac-r3.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

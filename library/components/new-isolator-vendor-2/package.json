@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-isolator-vendor-2",
+  "revision": "source-snapshot",
+  "displayName": "隔离器（型号待选）",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-isolator-vendor-2.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

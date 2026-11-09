@@ -1,0 +1,25 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "kit-laser-556nm",
+  "revision": "source-snapshot",
+  "displayName": "556 nm 激光器 · 频准激光",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/laser-556nm.json"
+    }
+  ],
+  "componentDependencies": [
+    "laser-556nm"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,23 @@
+'use strict';
+const assert=require('node:assert/strict'),P=require('../static/periscope-properties.js'),G=require('../static/global-height.js'),A=require('../static/optical-assembly-engine.js'),R=require('../static/optical-renderer.js'),E=require('../static/optical-engine.js'),H=require('../static/elevation.js'),F=require('../static/project-file.js'),c=require('../catalog.json');
+const board={widthMm:900,heightMm:600,thicknessMm:12.5,pitchMm:25,edgeOffsetMm:12.5,holeType:'M6_through',mountingHoles:[]},k=c.kits.find(k=>k.id==='laser-616-side-periscope-m1-r1'),cards=P.cards(c).filter(k=>k.category==='periscope');
+assert.equal(cards.length,4);assert.equal(cards.flatMap(k=>k.periscopeVariants).length,70);assert.equal(c.kits.filter(k=>k.category==='periscope').length,70);
+const i={id:'keep-id',kitId:k.id,xMm:300,yMm:250,rotationDeg:0},layout={board,instances:[i]},before=structuredClone(layout);
+assert.equal(G.plan(layout,c,62.5).valid,true);assert.ok(G.plan(layout,c,75).issues.some(v=>v.code==='periscope_output_unavailable'));assert.deepEqual(layout,before);
+const child=structuredClone(layout);child.subBoards=[{id:'b',name:'板',xMm:50,yMm:50,rotationDeg:90,board:{...board,widthMm:200,heightMm:200}}];child.instances[0].boardId='b';assert.equal(G.plan(child,c,75).valid,true);assert.deepEqual(H.analyze(child,c,{periscopeMode:true}).axisHeights[0].effectiveExternalAxisHeightsMm,[48.5,75]);
+for(const card of cards)for(const v of card.periscopeVariants){const cfg=v.mechanicalConfiguration,old={board,instances:[{...i,kitId:card.id,rotationDeg:90,internalOptics:{}}]},changed=P.change(old,c,i.id,cfg.inputHeightMm,cfg.outputHeightMm);assert.equal(changed.instances[0].kitId,v.id);for(const key of ['id','xMm','yMm','rotationDeg','internalOptics'])assert.deepEqual(changed.instances[0][key],old.instances[0][key]);const project=F.create({layout:changed,optical:{},extras:[],moduleQuantities:[],metadata:{name:'爬架属性测试'}},{catalog:c});assert.equal(F.parse(JSON.stringify(project),{catalog:c}).project.layout.instances[0].kitId,v.id);}
+const turn=c.kits.find(k=>k.id==='periscope-turn90-h125-to62p5-r3');assert.equal(G.variantFor(turn,75,c)?.mechanicalConfiguration.family,'M');assert.throws(()=>P.change(layout,c,i.id,36,75),/没有/);
+const lower=k.layout.opticalAssembly.nodes[0],upper=k.layout.opticalAssembly.nodes[1];assert.deepEqual(A.reflect3(A.reflect3([0,-1,0],lower.normal),upper.normal),{x:1,y:0,z:0});
+const kits=new Map(c.kits.map(k=>[k.id,k]));let scene=R.sceneFor(layout,kits,{},[],E,c);scene.elements.unshift({id:'source',center:{x:300,y:350},axisHeightMm:36,optics:{elementType:'source',source:{enabled:true,directionAngleDeg:-90,wavelengthNm:616.73287,powerMw:25.1,beamDiameterMm:2}}});
+let s=E.createSession(scene);assert.equal(s.pending[0].internalId,'lower616');assert.equal(E.pendingIssue(s,s.pending[0]).code,'optics_unconfigured');
+for(const n of k.layout.opticalAssembly.nodes)scene.elements[1].internalOptics[n.id]={elementType:'mirror',configured:true,inserted:true,coatingFaceIndex:0,mirror:{mode:'ideal',samples:[]}};
+s=E.createSession(scene);assert.equal(E.pendingIssue(s,s.pending[0]).code,'assembly_aperture_unknown');
+for(const n of k.layout.opticalAssembly.nodes)scene.elements[1].internalParameterEvidence[n.id]={clearApertureMm:20};
+s=E.createSession(scene);for(let j=0;s.pending.length&&j<10;j++){assert.equal(E.pendingIssue(s,s.pending[0]),null);s=E.advancePending(s,s.pending[0].id)}
+assert.equal(s.pending.length,0);assert.equal(s.completed.at(-1).reason,'escaped');assert.ok(Math.abs(s.segments.at(-1).beam.axisHeightMm-62.5)<1e-6);assert.ok(s.segments.some(v=>Math.abs(v.lengthMm-26.5)<1e-6));assert.ok(s.segments.at(-1).direction.x>0.99999);
+scene.elements[1].internalOptics.lower616.mirror={mode:'data',model:'',samples:[]};s=E.createSession(scene);assert.equal(E.pendingIssue(s,s.pending[0]).code,'mirror_sample_mismatch');
+console.log('PASS four cards,70 exact configurations, old IDs/project round trips, pose/optics unchanged, TL/TM heights,616 placement and child-board height, real 3D upturn, missing aperture/coating block. Synthetic ideal-mirror trace only, not physical calibration.');
+
+assert.equal(P.forPlacement(cards.find(k=>k.periscopeFamily==='turn90'),c,75).mechanicalConfiguration.outputHeightMm,75);
+
+const extras=[{id:'extra',instanceId:'keep-id',kitId:'old',model:'M',quantity:2},{id:'sibling',instanceId:'other',kitId:'old',quantity:1},{id:'all',kitId:'old',quantity:3}];const rebound=P.rebindExtras(extras,[{id:'keep-id',kitId:'new'}]);assert.equal(rebound[0].kitId,'new');assert.equal(rebound[0].quantity,2);assert.equal(extras[0].kitId,'old');assert.deepEqual(rebound.slice(1),extras.slice(1));

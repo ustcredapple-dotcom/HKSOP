@@ -1,0 +1,36 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "isolator-i532v3-enclosure-r3",
+  "revision": "R3",
+  "displayName": "532 nm 隔离器 · I532V3 · 螺丝拼板遮光罩 R3",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/isolator-i532v3-enclosure-r3.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-i53-a3-r3",
+    "custom-i53-e3-r3",
+    "custom-i53-l3-r3",
+    "custom-i53-s3-r3",
+    "custom-i53-t3-r3",
+    "custom-post-metric-25mm-m1",
+    "i532v3-m3x10",
+    "i532v3-m3x6",
+    "i532v3-m4x8",
+    "i532v3-pin-d2x8",
+    "thorlabs-i532v3",
+    "thorlabs-sm1rc-m"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

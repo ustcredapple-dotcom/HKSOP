@@ -1,0 +1,31 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "fixed-dichroic-1inch-0-r1",
+  "revision": "R1",
+  "displayName": "固定双色镜 · 1 inch · 0° · R1",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/fixed-dichroic-1inch-0-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-dc1-f-r1",
+    "custom-post-metric-25mm-m1",
+    "hardware-h2-r3-m4x20",
+    "metric-m1-post-pin-d2x8",
+    "mt-flf1s",
+    "new-hardware-0cc1a2908550",
+    "new-hardware-d56c7b8035c3"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

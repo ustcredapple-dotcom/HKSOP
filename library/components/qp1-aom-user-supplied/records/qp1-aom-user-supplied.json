@@ -1,0 +1,9 @@
+{
+  "id": "qp1-aom-user-supplied",
+  "name": "QP1 AOM 本体及原 RF 引线",
+  "model": "QP1 / 源模型标识 QP1-0001",
+  "kind": "standard",
+  "unit": "套",
+  "status": "用户提供实际外形 CAD；完整订货型号与厂家待确认",
+  "notes": "整装包含本体和原RF引线；源BOM未列本体，本轮按实际装配补列1套。未知内部晶体作用面、射频/衍射参数及散热要求；不据外形推断。"
+}

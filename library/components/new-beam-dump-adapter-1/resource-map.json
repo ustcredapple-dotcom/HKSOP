@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-beam-dump-adapter-1",
+  "files": [
+    {
+      "path": "cad/54e2be3b84e7923ddefe54f7af159c7925e62b9fbda9c4cb3e86a01c6282b35c.step",
+      "stored": "library/assets/sha256/54/54e2be3b84e7923ddefe54f7af159c7925e62b9fbda9c4cb3e86a01c6282b35c.step",
+      "sha256": "54e2be3b84e7923ddefe54f7af159c7925e62b9fbda9c4cb3e86a01c6282b35c",
+      "originalReferences": [
+        "step/metric-m1-20261006/07-BT_METRIC_M1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/54/54e2be3b84e7923ddefe54f7af159c7925e62b9fbda9c4cb3e86a01c6282b35c.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

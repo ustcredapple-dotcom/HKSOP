@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "i532v3-m4x8",
+  "revision": "source-snapshot",
+  "displayName": "M4×8 内六角圆柱头螺钉 · 钛材候选",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/i532v3-m4x8.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

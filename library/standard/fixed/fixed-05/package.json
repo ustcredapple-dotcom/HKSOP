@@ -1,0 +1,31 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "fixed-05",
+  "revision": "CURRENT-B6R1",
+  "displayName": "固定式反射镜 · 0.5 inch · 90°",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/fixed-05-45.json"
+    },
+    {
+      "kind": "kits",
+      "path": "records/fixed-05-90.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-14",
+    "custom-post-metric-37p5mm-m1",
+    "mt-flf05s"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

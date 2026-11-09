@@ -1,0 +1,17 @@
+{
+  "format": "zzlab-optical-interaction",
+  "version": 1,
+  "model": "planar",
+  "onNoMatch": "block",
+  "inputs": [
+    {
+      "id": "main",
+      "steps": [
+        {
+          "op": "block",
+          "reason": "缺少已核实的光学作用数据，仅供布局。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "hardware-h2-r3-m4x20",
+  "revision": "source-snapshot",
+  "displayName": "H2 R3 M4×20 侧板夹紧螺钉 · 名义头Ø7×4",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/hardware-h2-r3-m4x20.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

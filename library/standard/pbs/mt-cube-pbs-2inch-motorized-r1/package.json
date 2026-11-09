@@ -1,0 +1,42 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "mt-cube-pbs-2inch-motorized-r1",
+  "revision": "R1-H12p5B4R2",
+  "displayName": "MT立方体PBS模块 · 2 inch · 电动竖直驱动 · R1",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/mt-cube-pbs-2inch-motorized-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-mcv2-r1",
+    "custom-motor-h2d2-b-r3",
+    "custom-motor-h2d2-l-r2",
+    "custom-motor-h2d2-s-r3",
+    "custom-post-metric-12p5mm-m1",
+    "encoder-servo",
+    "hardware-h2-r3-m2x10",
+    "hardware-h2-r3-m4-washer",
+    "hardware-h2-r3-m4x20",
+    "hardware-iso4762-m3x8",
+    "hardware-iso4762-m6x12",
+    "lbtek-csb2-purchased",
+    "metric-m1-post-pin-d2x8",
+    "motor-adapter-m3",
+    "new-r3-hardware-b7a3ea97ce89",
+    "new-r3-vendor-mt-am2s5",
+    "v7-iso4762-m4x12",
+    "v7-source-m4-nut"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

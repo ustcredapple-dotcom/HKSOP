@@ -1,0 +1,9 @@
+{
+  "id": "hardware-stainless-gap-shim-select",
+  "name": "不锈钢薄垫片 · 按间隙选配",
+  "model": "名义0.10mm，按首件选配",
+  "kind": "standard",
+  "unit": "件",
+  "status": "名义规格与数量登记 · 实物采购待核",
+  "notes": "两侧四处侧耳间隙逐处测量配片，不以锁紧力拉弯侧耳。"
+}

@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-xbk-t01-lateral-r4",
+  "files": [
+    {
+      "path": "cad/63e0d617f61850eb946f3f43caaf895699a05fe34e9bff0118756ebb2b60ff35.step",
+      "stored": "library/assets/sha256/63/63e0d617f61850eb946f3f43caaf895699a05fe34e9bff0118756ebb2b60ff35.step",
+      "sha256": "63e0d617f61850eb946f3f43caaf895699a05fe34e9bff0118756ebb2b60ff35",
+      "originalReferences": [
+        "step/xbk-lateral-fixed-r4/XBK-T01_R4_X3_FRONT25_37p5_316L.step"
+      ],
+      "sources": [
+        "library/assets/sha256/63/63e0d617f61850eb946f3f43caaf895699a05fe34e9bff0118756ebb2b60ff35.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

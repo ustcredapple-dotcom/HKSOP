@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "hardware-txyfixed-iso4762-m6x10",
+  "revision": "source-snapshot",
+  "displayName": "ISO4762 M6×10",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/hardware-txyfixed-iso4762-m6x10.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

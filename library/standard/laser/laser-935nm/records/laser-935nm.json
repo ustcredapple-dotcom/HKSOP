@@ -1,0 +1,439 @@
+{
+  "name": "935 nm 激光器 · 频准激光",
+  "category": "laser",
+  "variant": "人工支撑／压板 · 报告223.6mW · 板面光高待手调",
+  "description": "935自由空间输出腔；画布去掉四个估读外夹脚，保留散热器。使用者自行选支撑和压板，手动对准后声明光高。",
+  "sourceUrl": "",
+  "components": [
+    {
+      "componentId": "laser-935nm",
+      "quantity": 1
+    }
+  ],
+  "opticalSlots": [],
+  "status": "光学报告参数保留；人工安装与名义参考需用户确认",
+  "notes": "BOM仍仅计FL-SF-935-0.2-CW系统1套。无固定自制转接底座；支撑与压板由使用者按实物选择，未猜填型号/数量。当前无厂家STEP，本修订只修改手册布局SVG和协议，未进行CAD实体删除。主壳基准光高27mm是手册数据，板面实际光高保持未知；62.5mm仅手动对准目标。",
+  "layout": {
+    "topViewPath": "topviews/kit_laser-935nm_manual_mount_r1.svg",
+    "topViewUrl": "./topviews/kit_laser-935nm_manual_mount_r1.svg",
+    "widthMm": 405,
+    "heightMm": 180,
+    "anchorXMm": 187.5,
+    "anchorYMm": 90,
+    "baseBoundsMm": {
+      "xMin": -142.5,
+      "yMin": -41,
+      "xMax": 137.5,
+      "yMax": 41
+    },
+    "collisionBoundsMm": {
+      "xMin": -142.5,
+      "xMax": 202.5,
+      "yMin": -41,
+      "yMax": 71
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -137.5,
+          "yMm": -41
+        },
+        {
+          "xMm": 137.5,
+          "yMm": -41
+        },
+        {
+          "xMm": 137.5,
+          "yMm": 41
+        },
+        {
+          "xMm": -137.5,
+          "yMm": 41
+        }
+      ],
+      [
+        {
+          "xMm": -142.5,
+          "yMm": -40
+        },
+        {
+          "xMm": -137.5,
+          "yMm": -40
+        },
+        {
+          "xMm": -137.5,
+          "yMm": 40
+        },
+        {
+          "xMm": -142.5,
+          "yMm": 40
+        }
+      ],
+      [
+        {
+          "xMm": -97.5,
+          "yMm": 41
+        },
+        {
+          "xMm": 3.5,
+          "yMm": 41
+        },
+        {
+          "xMm": 3.5,
+          "yMm": 71
+        },
+        {
+          "xMm": -97.5,
+          "yMm": 71
+        }
+      ],
+      [
+        {
+          "xMm": 137.5,
+          "yMm": -12
+        },
+        {
+          "xMm": 151.5,
+          "yMm": -12
+        },
+        {
+          "xMm": 151.5,
+          "yMm": 12
+        },
+        {
+          "xMm": 137.5,
+          "yMm": 12
+        }
+      ],
+      [
+        {
+          "xMm": 151.5,
+          "yMm": -9
+        },
+        {
+          "xMm": 202.5,
+          "yMm": -9
+        },
+        {
+          "xMm": 202.5,
+          "yMm": 9
+        },
+        {
+          "xMm": 151.5,
+          "yMm": 9
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [],
+    "placementAllowed": true,
+    "mountingConfirmed": false,
+    "opticalPortsMm": [
+      {
+        "id": "output",
+        "xMm": -142.5,
+        "yMm": -1,
+        "directionX": -1,
+        "directionY": 0,
+        "wavelengthNm": 935.18051
+      }
+    ],
+    "opticalDirectionDeg": 180,
+    "opticalType": "source",
+    "opticalDefaults": {
+      "elementType": "source",
+      "inserted": true,
+      "source": {
+        "enabled": false,
+        "wavelengthNm": 935.18051,
+        "powerMw": 223.6,
+        "beamDiameterMm": 0.8685697751080752,
+        "beamQualityM2": 1.026,
+        "polarizationType": "linear",
+        "polarizationAngleDeg": 0,
+        "ellipticityDeg": 0,
+        "wavefrontRadiusMm": -4874.984143451052,
+        "directionAngleDeg": 180
+      }
+    },
+    "opticalDatumStatus": "nominal manual front-cover reference, not measured window plane; instance-only explicit user acceptance required",
+    "status": "手册俯视示意；四外夹脚已从SVG与碰撞区移除，人工固定",
+    "geometryStatus": "dimensioned-with-estimated-details",
+    "collisionGeometryVersion": "manual-935nm-unmounted-2026-10-06-r1",
+    "sourceUrl": "",
+    "calibration": {
+      "source": "频准激光_1870nm光纤激光放大器用户手册.pdf，PDF第7–8页（印刷5–6页）",
+      "sourceFile": {
+        "id": 2,
+        "name": "频准激光_1870nm光纤激光放大器用户手册.pdf",
+        "path": null,
+        "sha256": "09383ba9e2bca90d66dc83d9268af40de3b961d019334c3232d7d61b0cdb0519",
+        "pages": 18
+      },
+      "datum": "主壳中心；局部X向右、Y向上；左端为自由空间输出，右接头为光纤输入。",
+      "housingLengthMm": 275,
+      "estimatedHousingWidthMm": 82,
+      "bodyHeightMm": 50,
+      "frontCoverThicknessMm": 5,
+      "opticalPortSideOffsetMm": 42,
+      "opticalPortSideDatum": "真正俯视图上侧主壳边缘",
+      "opticalAxisHeightMm": 27,
+      "opticalAxisHeightDatum": "尺寸图支承基准；5mm为纵向薄盖厚度，不叠加到轴高",
+      "viewInterpretation": "尺寸图上长视图为底视图；作真正俯视图时翻转Y，散热器从下侧移到上侧。",
+      "projectionSymbolPresent": false,
+      "projectionInferenceConfidence": "high, cross-checked with manual input labels",
+      "bottomThreadedInterface": {
+        "thread": "M6-6H",
+        "count": 8,
+        "threadDepthMm": 5,
+        "drillDiameterMm": 5,
+        "drillDepthMm": 8,
+        "columnSpacingsMm": [
+          75,
+          50,
+          50
+        ],
+        "rowSpacingMm": 50,
+        "datum": "仅孔组局部坐标：第一/末列中点与两排中点；相对外壳位置未标注。",
+        "relativeHoleCentersMm": [
+          {
+            "xMm": -87.5,
+            "yMm": -25
+          },
+          {
+            "xMm": -87.5,
+            "yMm": 25
+          },
+          {
+            "xMm": -12.5,
+            "yMm": -25
+          },
+          {
+            "xMm": -12.5,
+            "yMm": 25
+          },
+          {
+            "xMm": 37.5,
+            "yMm": -25
+          },
+          {
+            "xMm": 37.5,
+            "yMm": 25
+          },
+          {
+            "xMm": 87.5,
+            "yMm": -25
+          },
+          {
+            "xMm": 87.5,
+            "yMm": 25
+          }
+        ],
+        "type": "bottom-blind-thread",
+        "directBreadboardFasteningVerified": false,
+        "note": "此为底部盲螺纹接口，不是从上面穿螺钉锁入大板的夹脚通孔。不得用于当前安装孔吸附。"
+      },
+      "bottomImperialInterface": {
+        "count": 4,
+        "thread": "1/4-20 UNC",
+        "threadDepthMm": 7.95,
+        "drillDiameterMm": 5.105,
+        "drillDepthMm": 8,
+        "patternMm": [
+          127,
+          50.8
+        ],
+        "absoluteOriginMm": null,
+        "usedForMetricSnapping": false
+      },
+      "unconfirmed": [
+        "主壳全宽按正交图比例估为82 mm；图中仅标光轴距一侧42 mm，不能由对称假设声称全宽已确认。",
+        "外置夹脚通槽的中心、尺寸和安装位置未标注，因此直接大板安装孔数组为空。",
+        "底部M6孔组绝对位置、夹脚可调范围及实际支承接触面未标注。",
+        "散热器、夹脚、右侧光纤输入接头外伸和顶盖螺钉位置为外观估读；碰撞区域为布局近似。",
+        "出光窗精确纵向平面未标注，使用左端5 mm薄盖前表面作布局光程参考。"
+      ],
+      "usage": "外购输出腔的布局近似与光学预览；不用于加工或自动确认安装适配"
+    },
+    "note": "BOM仍仅计FL-SF-935-0.2-CW系统1套。无固定自制转接底座；支撑与压板由使用者按实物选择，未猜填型号/数量。当前无厂家STEP，本修订只修改手册布局SVG和协议，未进行CAD实体删除。主壳基准光高27mm是手册数据，板面实际光高保持未知；62.5mm仅手动对准目标。",
+    "sourceReport": {
+      "title": "频准激光935 nm出厂测试报告",
+      "reportId": "PLP-2026-03-007264-01",
+      "reportDateVerbatim": "10/06/2026",
+      "sourceFiles": [
+        {
+          "id": 1,
+          "name": "频准激光_FL-SF-935-0.2-CW_测试报告_202603007264.pdf",
+          "path": null,
+          "sha256": "4111da3f6f310b1a5aaf3cb6f13093dcc582e8179bbcf5fde86763d95f32c9a4",
+          "pages": 12
+        },
+        {
+          "id": 2,
+          "name": "频准激光_1870nm光纤激光放大器用户手册.pdf",
+          "path": null,
+          "sha256": "09383ba9e2bca90d66dc83d9268af40de3b961d019334c3232d7d61b0cdb0519",
+          "pages": 18
+        }
+      ],
+      "summary": [
+        "报告PDF第3–5页：FL-SF-935-0.2-CW，连续准直自由空间主输出935.18051 nm；稳功率模式223.6 mW。",
+        "报告PDF第9页：束腰在出光窗后76.9886 mm，拟合w0=430.842µm（D0=0.861684 mm）。",
+        "报告PDF第3、12页：独立测得M²=1.026；与窗后束腰结合，重算圆对称等效窗面D≈0.868570 mm、R≈-4874.984 mm。",
+        "报告PDF第8页：线偏振，消光比24.9 dB；偏振相对板面的方向未标定。",
+        "手册PDF第7–8页：右侧光纤输入、左侧自由空间输出布局参考，光轴高27 mm；1870 nm监视光4.96 mW不属于主输出。"
+      ],
+      "simulationNotes": [
+        "223.6 mW对应报告稳功率测试点（泵浦电流7.1–6.9 A）；可以按实际运行点修改。",
+        "窗面光斑与波前是由报告束腰和独立M²构造的等效模型，不是窗面直接测量；重算全角发散1.417767 mrad，比原fit高约2.62%。",
+        "偏振初值0°是模拟假设，不由消光比推断完整Stokes或实际主轴方向；应用报告参数保留用户偏振角。",
+        "光口横向采用壳侧距42 mm；出光窗纵向参考置于左薄盖前面，未有窗口精确埋深，光程绝对零点须实物复核。"
+      ],
+      "reportedParameters": {
+        "wavelengthNm": 935.18051,
+        "powerMw": 223.6,
+        "beamDiameterMm": 0.8685697751080752,
+        "beamQualityM2": 1.026,
+        "polarizationType": "linear",
+        "extinctionRatioDb": 24.9,
+        "axisRelativeToBoardDeg": null,
+        "wavefrontRadiusMm": -4874.984143451052,
+        "beamDiameterDefinition": "报告束腰与独立M²推算的圆对称高斯等效窗面1/e²直径"
+      },
+      "parameterKinds": {
+        "wavelengthNm": "reported-measurement",
+        "powerMw": "reported-measurement",
+        "beamQualityM2": "reported-measurement",
+        "polarizationType": "reported",
+        "beamDiameterMm": "derived-model-at-window",
+        "wavefrontRadiusMm": "derived-model-at-window"
+      },
+      "originalWindowRelativeFit": {
+        "sourceFileId": 1,
+        "pdfPage": 9,
+        "waistRadiusMm": 0.430842,
+        "waistDiameterMm": 0.861684,
+        "waistDistanceFromWindowMm": 76.9886,
+        "rayleighRangeMm": 623.699,
+        "fullAngleDivergenceMrad": 1.38157,
+        "reportedFitWavelengthNm": 935,
+        "fitRSquared": 0.997602,
+        "note": "原始GaussianBeam图以935nm拟合理想高斯；图中文字w0=430.842µm，正文束腰直径约0.861mm。"
+      },
+      "computedModel": {
+        "kind": "derived-circular-equivalent-gaussian",
+        "wavelengthNm": 935.18051,
+        "beamQualityM2": 1.026,
+        "waistDiameterMm": 0.861684,
+        "waistDistanceFromWindowMm": 76.9886,
+        "rayleighRangeMm": 607.775418799194,
+        "windowBeamDiameterMm": 0.8685697751080752,
+        "windowWavefrontRadiusMm": -4874.984143451052,
+        "fullAngleDivergenceMrad": 1.4177671115795754,
+        "divergenceDifferencePercent": 2.6199983771778124,
+        "inputReferences": [
+          {
+            "sourceFileId": 1,
+            "pdfPage": 9,
+            "fields": [
+              "waistRadiusMm",
+              "waistDistanceFromWindowMm"
+            ]
+          },
+          {
+            "sourceFileId": 1,
+            "pdfPages": [
+              3,
+              12
+            ],
+            "fields": [
+              "wavelengthNm",
+              "beamQualityM2"
+            ]
+          }
+        ],
+        "signConvention": "出光窗为z=0，传播向前为正；束腰位于+76.9886mm，因此窗面为会聚波前R<0。",
+        "limitations": [
+          "将独立M²=1.026与窗口定位的束腰拟合合为圆对称等效模型；窗面D/R为计算值而非实测。",
+          "未使用附录3未知原点的-434.2/-361.3mm束腰坐标；未把两轴不同参数伪装成已测圆束。",
+          "重算发散角比附录2原fit约高2.62%；报告原fit和独立M²测量并非同一参数组。"
+        ]
+      },
+      "applyFields": [
+        "wavelengthNm",
+        "powerMw",
+        "beamDiameterMm",
+        "beamQualityM2",
+        "polarizationType",
+        "wavefrontRadiusMm"
+      ]
+    },
+    "opticalDatumVerified": false,
+    "manualMountingPolicy": {
+      "version": 1,
+      "mode": "user-support-and-clamp",
+      "targetAxisHeightMm": 62.5
+    },
+    "sourceAlignmentReference": {
+      "version": 1,
+      "portId": "output"
+    },
+    "opticalSimulationNote": "目录板面光高未知。先人工支撑/压板固定并手调，再在光学设置中填写板面起轴高和接受左盖名义出光参考；用户声明不是目录实测认证。未确认时出光暂停。",
+    "manualBodyReference": {
+      "bodyAxisHeightFromManufacturerDatumMm": 27,
+      "actualBoardAxisHeightMm": null,
+      "userTargetAxisHeightMm": 62.5,
+      "targetVerified": false,
+      "nativeStepAvailable": false,
+      "cadDeletionExecuted": false
+    }
+  },
+  "installationPackageReview": {
+    "revision": "REFERENCE_HANDOFF_20261006",
+    "protocol": "zzlab-optics-library-v1",
+    "baselineVersion": "2026-10-06.5-waveplate05-m1",
+    "mechanicalMountStatus": "not-released-measurements-required",
+    "evidence": {
+      "path": "evidence/install/laser-935nm.json"
+    },
+    "sourceDocuments": [
+      {
+        "originalFileName": null,
+        "sha256": "4111da3f6f310b1a5aaf3cb6f13093dcc582e8179bbcf5fde86763d95f32c9a4",
+        "externalEvidenceArchive": "laser-original-evidence-20261006.zip",
+        "externalEvidenceArchiveSha256": "1c9eb61cbc7e21200296476ea6d2d39d7605f961a504a581f3daa67f51d92f7e",
+        "archiveFile": null
+      },
+      {
+        "originalFileName": null,
+        "sha256": "09383ba9e2bca90d66dc83d9268af40de3b961d019334c3232d7d61b0cdb0519",
+        "externalEvidenceArchive": "laser-original-evidence-20261006.zip",
+        "externalEvidenceArchiveSha256": "1c9eb61cbc7e21200296476ea6d2d39d7605f961a504a581f3daa67f51d92f7e",
+        "archiveFile": null
+      }
+    ],
+    "unchangedRuntimeSemantics": [
+      "BOM",
+      "mounting holes",
+      "minimum hole count",
+      "optical ports",
+      "simulation",
+      "placement permission"
+    ],
+    "limits": {
+      "manufacturingMount": "No verified manufacturing mount. Bottom-thread pattern is an interface, not a finished adapter.",
+      "feet": "Bottom8×M6-6H thread5/drill8,75/50/50 columns×50 rows known only in local group frame; group-to-housing offset unknown. External table-clamp holes remain unlocated; holes array intentionally empty.",
+      "port": "Z27 dimensioned; side offset42 known but fullwidth82 estimated makes Y−1 conditional; X−142.5 is front thin-cover reference only.",
+      "next": "Measure bottom-hole group origin to support and beam, true housing width and clamp footprint; do not treat blindM6 as breadboard through-holes."
+    },
+    "referenceCad": {
+      "stepPath": "step/laser_installation_reference_20261006/LASER_935_HEAD_REFERENCE_WITH_DATUM.step",
+      "sha256": "eda6dfc8e96c01111896ffd585df30f6a3b190cbc78eb9665639a5e33b4acf96",
+      "role": "DIMENSION_REFERENCE_ONLY_NOT_MANUFACTURER_CAD_NOT_MACHINING_MODEL",
+      "opticalDatumSymbolIsNonphysical": true,
+      "holesModeled": false,
+      "manufacturerCADVersion": null,
+      "canReleaseManufacturingMount": false
+    }
+  },
+  "id": "laser-935nm"
+}

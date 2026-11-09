@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-obj-mt1m-ac-r3",
+  "files": [
+    {
+      "path": "cad/e61bc338d66b819967100795dc22e38492c83e65cc30b158ef4bb9bfdaeb447c.step",
+      "stored": "library/assets/sha256/e6/e61bc338d66b819967100795dc22e38492c83e65cc30b158ef4bb9bfdaeb447c.step",
+      "sha256": "e61bc338d66b819967100795dc22e38492c83e65cc30b158ef4bb9bfdaeb447c",
+      "originalReferences": [
+        "step/xbk-objectives-forward-r3/OBJ-MT1M-AC-R3.step"
+      ],
+      "sources": [
+        "library/assets/sha256/e6/e61bc338d66b819967100795dc22e38492c83e65cc30b158ef4bb9bfdaeb447c.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

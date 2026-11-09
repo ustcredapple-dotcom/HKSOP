@@ -1,0 +1,36 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "motor-05",
+  "revision": "CURRENT-B6R1",
+  "displayName": "电动反射镜 · 0.5 inch · 90°",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/motor-05-45.json"
+    },
+    {
+      "kind": "kits",
+      "path": "records/motor-05-90.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-11",
+    "custom-post-metric-37p5mm-m1",
+    "encoder-servo",
+    "motor-adapter-28",
+    "motor-adapter-9",
+    "motor-bracket-21",
+    "motor-bracket-22",
+    "mt-am05s5"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

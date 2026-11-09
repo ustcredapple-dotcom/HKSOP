@@ -1,0 +1,69 @@
+{
+  "id": "MT1-T",
+  "name": "MT1/M 上面包板",
+  "model": "MT1-T",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R1-A7075",
+  "productionReady": false,
+  "manufacturingStatus": "review-required",
+  "manufacturingSpec": {
+    "material": "7075 铝合金",
+    "surfaceTreatment": "黑色阳极氧化",
+    "processDetails": "以已交付孔表、孔深和局部剖面为准。保持刻字编号及接触面精加工；不标通用公差及粗糙度。材料改版未复核承载、刚度及螺纹寿命；不声明新重量。"
+  },
+  "status": "名义设计；待工艺及实装验收",
+  "notes": "底面+X端铣深1.5避让槽，禁止省略。；4颗M6x16固定；名义进入原厂顶孔5.274。；按厂家CAD高20.574设计，总高37.500为名义值；实物测高后可配磨板厚。；用户材料改版：7075铝合金、黑色阳极氧化。几何与孔深沿用R1；承载、刚度及螺纹寿命未因材料变更重新验收；不声明新重量。",
+  "stepPath": "step/manual-stage-r1-a7075/MT1-T.step",
+  "sourceStepSha256": "1ded0e995b029ce9a944584290d00eb8da3c8f90d1546f1fafbe4954ac667bd2",
+  "drawingPath": null,
+  "sourceDrawingSha256": "97e4af3b88bcca294fe1c1b23d6a61e1f5b5a3412bc8ba785825420f0f12ff62",
+  "drawingPages": [
+    10,
+    11
+  ],
+  "dxfPath": null,
+  "sourceDxfSha256": "c06a510a57f36daae76b1d0cfab7b468e771155de4f80a9d92cffaf4aa77eca7",
+  "manufacturingEvidence": {
+    "geometryRevision": "R1",
+    "materialRevision": "R1-A7075",
+    "userOverride": "library/reviews/manual-moving-stage-r1-a7075-import-20261006/evidence/user-material-override-20261006.json",
+    "geometryUnchanged": true
+  },
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "b152994b58f194fce2d41c09e49525cb30f01ec60dfc2bbcca526df1c9826a65",
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "495cec3e7e3b46f91e58c10482af7f7439007acc35d2831e02babd57385d174b",
+      "currentPdfSha256": "b8ae04a5834ace0ecd9e2ce67bb61c0ad4bd624461e34c98ad512c806557254f",
+      "annotatedPages": [
+        10,
+        12,
+        14
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "331a185c7a5015ae5b6a12509161b5b2f9102b0e3310681f9d574cbf48524853",
+      "currentPdfSha256": "b152994b58f194fce2d41c09e49525cb30f01ec60dfc2bbcca526df1c9826a65",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

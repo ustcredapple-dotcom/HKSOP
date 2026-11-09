@@ -1,0 +1,39 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "xbk-objective-pt1m-ac-r3",
+  "revision": "R3-H62p5-FORWARD",
+  "displayName": "XBK PT1/M · 物镜 A/C 双电机前伸整装 R3",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/xbk-objective-pt1m-ac-r3.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-obj-pt1m-ac-r3",
+    "custom-obj-v7-side-r1",
+    "custom-v7-1in-main",
+    "custom-v7-m3-h2",
+    "dpt3-pin-d2x5",
+    "hardware-iso4762-m6x16",
+    "hardware-nbk-snss-m6x10-sd",
+    "thorlabs-pt1m-purchased-stage",
+    "v7-din7991-m3x10",
+    "v7-pin-d2x6",
+    "v7-source-encoder-servo",
+    "v7-source-m2x10",
+    "v7-source-m4-nut",
+    "v7-source-m4x20-thin",
+    "v7-source-retaining-washer"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

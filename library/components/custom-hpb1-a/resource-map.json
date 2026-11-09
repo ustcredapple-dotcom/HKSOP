@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-hpb1-a",
+  "files": [
+    {
+      "path": "cad/44f849803b821d2c28ea127dac447121b2a415379b8f976441e46937c965ef22.step",
+      "stored": "library/assets/sha256/44/44f849803b821d2c28ea127dac447121b2a415379b8f976441e46937c965ef22.step",
+      "sha256": "44f849803b821d2c28ea127dac447121b2a415379b8f976441e46937c965ef22",
+      "originalReferences": [
+        "step/cs30kz-hpb-shared-r2/HPB1-A-R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/44/44f849803b821d2c28ea127dac447121b2a415379b8f976441e46937c965ef22.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

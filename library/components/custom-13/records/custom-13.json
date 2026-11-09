@@ -1,0 +1,76 @@
+{
+  "id": "custom-13",
+  "name": "固定反射镜 1inch",
+  "model": "ZZ-13-M1",
+  "kind": "custom",
+  "unit": "件",
+  "status": "公制M1加工审核图；STEP与孔表同源",
+  "notes": "配合公制支撑后的名义光高62.5 mm；保留已核验镜面孔组及孔规格。材料316L不锈钢，退磁、喷砂；尚未实物试装。",
+  "sourceUrl": "https://cad.onshape.com/documents/3a3c1d8089df865b8b4e822a/v/6e749963ebef18952db7c82d/e/399e3c7baf6ce717c735fc45",
+  "stepPath": "step/original-metric-m1-20261006/custom-13_M1_native.step",
+  "drawingPath": null,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "退磁、喷砂",
+    "threadClass": "待确认",
+    "profileId": "post316L",
+    "policyVersion": "materials-2026-09-24.2"
+  },
+  "revision": "C",
+  "drawingRevision": "M1",
+  "sourceStepSha256": "d94c57ab754a7d72130c118e4d3db6eba633c4528a518ab3381b85ff9ea09e52",
+  "manufacturingEvidence": {
+    "revision": "M1",
+    "sourceVersionId": "6e749963ebef18952db7c82d",
+    "sourceStepSha256": "d94c57ab754a7d72130c118e4d3db6eba633c4528a518ab3381b85ff9ea09e52",
+    "drawingSha256": "8fa22449936a43ca530f48c232a34e0a1b690ad71c8a1a77a6bfe9cd4d9d3e3b",
+    "holeTableRows": 7,
+    "pdfPages": 2,
+    "visualReviewPassed": true,
+    "physicalTrialCompleted": false
+  },
+  "sourceDrawingSha256": "8fa22449936a43ca530f48c232a34e0a1b690ad71c8a1a77a6bfe9cd4d9d3e3b",
+  "productionReady": false,
+  "drawingStatus": "engineering-review",
+  "drawingPages": [
+    1,
+    2
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "c28b26ecb751a2a8161ec7726cf418307e79d8ebf49797746c827bfba755c208",
+      "currentPdfSha256": "8fa22449936a43ca530f48c232a34e0a1b690ad71c8a1a77a6bfe9cd4d9d3e3b",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "按本轮补齐要求增加识别编号；已核当前 STEP 外表面位置。",
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "35a3bacaeb763664e42104540c47772d85216655f88431c3d787dcd579b1f75c",
+        "sha256": "8fa22449936a43ca530f48c232a34e0a1b690ad71c8a1a77a6bfe9cd4d9d3e3b"
+      },
+      {
+        "path": null,
+        "previousSha256": "a89565e5b6897d0cf7dd37e83c22abf9a4ca83cd55339f81b0edb3ec4d9db51a",
+        "sha256": "0b6e1d38c8f830fea4885fcaee60e608f924eae9fdc80e4fbc131c2a3e26bb04"
+      }
+    ]
+  }
+}

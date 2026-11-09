@@ -1,0 +1,32 @@
+{
+  "id": "custom-kungshu-34-ll-m02-r1",
+  "name": "34-LL-M02 定制转接件",
+  "model": "34-LL-M02",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R1",
+  "productionReady": false,
+  "drawingStatus": "engineering-review",
+  "status": "CAD及图纸审核版；未实装、未制造放行",
+  "stepPath": "step/kungshu-r1-20261012/34-LL-M02_R1.step",
+  "drawingPath": null,
+  "sourceStepSha256": "90260c1426d4f278de9528f2ff495204b6e2e772445d60b26942844c7b1c9794",
+  "sourceDrawingSha256": "4e5570dc78fdc4a2ffaa65207326ace90aef3ae7b9f13c1d84e7a6cb12f225eb",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "按本修订加工图；编号激光打标，不铣刻。通用公差及表面粗糙度未指定。"
+  },
+  "manufacturingEvidence": {
+    "sourceStepSha256": "90260c1426d4f278de9528f2ff495204b6e2e772445d60b26942844c7b1c9794",
+    "drawingSha256": "4e5570dc78fdc4a2ffaa65207326ace90aef3ae7b9f13c1d84e7a6cb12f225eb",
+    "physicalAssemblyTested": false,
+    "engineeringReleaseApproved": false
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "源R1编号及逐面打标资料已接收，当前STEP SHA匹配。",
+    "notes": "激光打标，不铣刻。CAD凹深仅显示；实物已有相同编号不重复。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

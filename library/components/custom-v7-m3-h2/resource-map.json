@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-v7-m3-h2",
+  "files": [
+    {
+      "path": "cad/828184fc68861ef465b501cbc09f57075279e86be4d3ab6ac34c1e18fac019dc.step",
+      "stored": "library/assets/sha256/82/828184fc68861ef465b501cbc09f57075279e86be4d3ab6ac34c1e18fac019dc.step",
+      "sha256": "828184fc68861ef465b501cbc09f57075279e86be4d3ab6ac34c1e18fac019dc",
+      "originalReferences": [
+        "step/motorized-v7-r1/custom-v7-m3-h2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/82/828184fc68861ef465b501cbc09f57075279e86be4d3ab6ac34c1e18fac019dc.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

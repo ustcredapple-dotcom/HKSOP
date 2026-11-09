@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-motor-ms2-h-r2",
+  "files": [
+    {
+      "path": "cad/bec729ed2d7db30110abe64ea156ad8b7663faa42638d46a8c2ae01432fabe1d.step",
+      "stored": "library/assets/sha256/be/bec729ed2d7db30110abe64ea156ad8b7663faa42638d46a8c2ae01432fabe1d.step",
+      "sha256": "bec729ed2d7db30110abe64ea156ad8b7663faa42638d46a8c2ae01432fabe1d",
+      "originalReferences": [
+        "step/motor-slot-split-r2/MS2-H.step"
+      ],
+      "sources": [
+        "library/assets/sha256/be/bec729ed2d7db30110abe64ea156ad8b7663faa42638d46a8c2ae01432fabe1d.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

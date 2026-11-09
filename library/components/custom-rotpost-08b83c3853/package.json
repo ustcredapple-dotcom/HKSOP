@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-rotpost-08b83c3853",
+  "revision": "B6-R1-ROT1",
+  "displayName": "特制万能柱 H12.5 / ROT +45.000°",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-rotpost-08b83c3853.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

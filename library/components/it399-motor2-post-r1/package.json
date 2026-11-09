@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "it399-motor2-post-r1",
+  "revision": "source-snapshot",
+  "displayName": "399 折转镜 · 改孔专用柱 R1",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/it399-motor2-post-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,961 @@
+{
+  "name": "616 nm 侧光口双镜爬架 · LF616 / 10-C616 R1",
+  "category": "periscope",
+  "variant": "36→62.5 mm / -Y→+X",
+  "description": "机械名义镜点36/62.5mm，路径-Y→+Z→+X；87mm按最前端X=-283解释，尚未实物核对。Ø25.4×6仅镜片槽参考；有效反射净口及616nm镀膜未知，11.75mm后开孔不是反射净口。当前只支持机械布局/采购，真实光学模拟暂停。",
+  "sourceUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/0f5b08c0c3313ebe007c14fc",
+  "components": [
+    {
+      "componentId": "custom-laser616-frame-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-laser616-10c-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-post-metric-12p5mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-periscope-s45-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "mt-am1s5",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "lower616",
+      "label": "下镜 · 616 nm反射片待选型",
+      "type": "mirror",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 25.4,
+      "thicknessMm": 6,
+      "notes": "Ø25.4×6为CAD槽参考，实际采购型号、有效反射净口、镀膜及反射面待确认；不默认采购。"
+    },
+    {
+      "id": "upper616",
+      "label": "上镜 · 616 nm反射片待选型",
+      "type": "mirror",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 25.4,
+      "thicknessMm": 6,
+      "notes": "Ø25.4×6为CAD槽参考，实际采购型号、有效反射净口、镀膜及反射面待确认；不默认采购。"
+    }
+  ],
+  "pendingRequirements": [
+    {
+      "id": "hardware-0-lower-b6",
+      "label": "M6×12 ×4；B6下柱脚，CAD尺寸候选",
+      "evidence": {
+        "partId": "M6x12_socket",
+        "quantity": 4,
+        "interface": "4 lower H12.5 B6 post feet into LF616",
+        "gripMm": 6,
+        "engagementMm": 6,
+        "availableFullDiameterDepthMm": 10,
+        "nominalRemainingMm": 4,
+        "status": "CAD dimensional candidate; reduced engagement explicit; physical thread, torque and load capacity not accepted",
+        "packaging": "not modeled; source supplied post/adapter fasteners must be checked"
+      }
+    },
+    {
+      "id": "hardware-0-upper27",
+      "label": "M6×12 ×4；原27-S45上脚，CAD尺寸候选",
+      "evidence": {
+        "partId": "M6x12_socket",
+        "quantity": 4,
+        "interface": "4 upper27 adapter feet into LF616",
+        "gripMm": 4,
+        "engagementMm": 8,
+        "availableFullDiameterDepthMm": 10,
+        "nominalRemainingMm": 2,
+        "status": "CAD dimensional candidate",
+        "packaging": "not modeled; source supplied post/adapter fasteners must be checked"
+      }
+    },
+    {
+      "id": "hardware-1",
+      "label": "M6x12_socket ×3；conditional on actual board M6 thread depth and footprint availability",
+      "evidence": {
+        "partId": "M6x12_socket",
+        "quantity": 3,
+        "interface": "LF616 bottom to optical board",
+        "gripMm": 4,
+        "engagementMm": 8,
+        "status": "conditional on actual board M6 thread depth and footprint availability",
+        "packaging": "not modeled"
+      }
+    },
+    {
+      "id": "hardware-2",
+      "label": "M4x14_socket ×1；CAD dimensional candidate",
+      "evidence": {
+        "partId": "M4x14_socket",
+        "quantity": 1,
+        "interface": "10-C616 to offset formal H12.5 M4",
+        "gripMm": 8.7,
+        "engagementMm": 5.3,
+        "availableFullDiameterDepthMm": 8,
+        "nominalRemainingMm": 2.7,
+        "status": "CAD dimensional candidate",
+        "packaging": "one additional screw; source kit inclusion unknown"
+      }
+    },
+    {
+      "id": "hardware-3",
+      "label": "M4x14_thin_socket ×2；source supplied nominal; actual tip/threads/torque to verify",
+      "evidence": {
+        "partId": "M4x14_thin_socket",
+        "quantity": 2,
+        "interface": "MT-AM1S5 lower/upper to 10-C616/27-S45",
+        "gripMm": 9,
+        "engagementMm": 5,
+        "availableFullDiameterDepthMm": [
+          12.7,
+          7
+        ],
+        "minimumThreadDepthMm": [
+          12.7,
+          5.5
+        ],
+        "status": "source supplied nominal; actual tip/threads/torque to verify",
+        "packaging": "source official evidence says two supplied per MT-AM1S5 pack, one used per mount; do not double-order blindly"
+      }
+    },
+    {
+      "id": "hardware-4",
+      "label": "D2x8_dowel ×2；dimensionally checked; fit and retention tolerances unpublished",
+      "evidence": {
+        "partId": "D2x8_dowel",
+        "quantity": 2,
+        "interface": "H12.5 to 10-C616",
+        "embedMm": 4,
+        "protrusionMm": 4,
+        "receivingFullDiameterDepthMm": 4.2,
+        "nominalRemainingMm": 0.2,
+        "status": "dimensionally checked; fit and retention tolerances unpublished"
+      }
+    },
+    {
+      "id": "hardware-5",
+      "label": "D2x6_dowel ×2；CAD inserted-pin envelope checked; actual protrusion must be controlled",
+      "evidence": {
+        "partId": "D2x6_dowel",
+        "quantity": 2,
+        "interface": "10-C616 to lower commercial round/capsule",
+        "embedMm": 4.5,
+        "protrusionMm": 1.5,
+        "receivingFullDiameterDepthMm": 1.9,
+        "nominalRemainingMm": 0.4,
+        "status": "CAD inserted-pin envelope checked; actual protrusion must be controlled"
+      }
+    },
+    {
+      "id": "hardware-6",
+      "label": "D2x4_dowel ×2；source interface plus actual inserted-pin envelope checked",
+      "evidence": {
+        "partId": "D2x4_dowel",
+        "quantity": 2,
+        "interface": "27-S45 to upper commercial round/capsule",
+        "embedMm": 2.5,
+        "protrusionMm": 1.5,
+        "receivingFullDiameterDepthMm": 1.9,
+        "nominalRemainingMm": 0.4,
+        "status": "source interface plus actual inserted-pin envelope checked"
+      }
+    }
+  ],
+  "notes": "名义机械光路36→62.5 mm，-Y→+Z→+X；源CAD后肩+6mm参考镜片。按实际镜片填写净口、镀膜面与反射数据后追迹；位置与实物尚待核对。  H12.5 B4-R2：普通H12.5柱底脚4 mm，其余普通柱保持各自规格；完整STEP已换柱回读，总高、孔位和全部器件姿态保持；未实物试装。",
+  "status": "机械加工审核版；镜片参数待选",
+  "assemblyAssets": [
+    {
+      "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/laser-616-side-periscope-m1-r1__H12p5_B4_R2.step",
+      "sha256": "4c16a1e434593cf9f756c13ce24e98a247a44e696c075a31dcb6a59e2771b239",
+      "role": "nominal-local-CAD-reference",
+      "includesPlaceholderOptics": true
+    },
+    {
+      "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/asset-laser-616-side-periscope-m1-r1-1__H12p5_B4_R2.step",
+      "sha256": "4b3a9d9fcda29de3f61665cef0bc302ae3ab983c21c21904738690097e2741ad",
+      "role": "nominal-laser-world-reference",
+      "includesPlaceholderOptics": true,
+      "revisionScope": "current-M2-M4-B6-reference-world",
+      "note": "本轮由旧M1/M6柱显式迁移至当前M2/M4+B6，原世界坐标及所有非柱原实体保持；仅机械参考，未实装/光学验真。"
+    },
+    {
+      "stepPath": "step/laser616-periscope-r1/MT-AM1S5-reference-normalized.step",
+      "sha256": "ec7d407aa84e6c51ccd300ba90fb1823c48ff3de053560d1d5db3b3e8da790f3",
+      "role": "source-commercial-leaf-rigid-reference",
+      "includesPlaceholderOptics": true
+    }
+  ],
+  "mechanical": {
+    "opticalReference": [
+      {
+        "id": "lower616",
+        "centerMm": [
+          0.0,
+          0.0,
+          36.0
+        ],
+        "normal": [
+          0.0,
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "radiusMm": 12.7,
+        "referenceThicknessMm": 6,
+        "hardwareClockDeg": 135,
+        "referenceRadiusMm": 12.7,
+        "reflectiveClearApertureMm": null,
+        "coating616nm": null,
+        "geometryBasis": "Nominal source rear shoulders plus6mm reference mirror thickness; not measured purchased optic."
+      },
+      {
+        "id": "upper616",
+        "centerMm": [
+          0.0,
+          0.0,
+          62.5
+        ],
+        "normal": [
+          0.7071067811865476,
+          0.0,
+          -0.7071067811865476
+        ],
+        "radiusMm": 12.7,
+        "referenceThicknessMm": 6,
+        "hardwareClockDeg": 90,
+        "referenceRadiusMm": 12.7,
+        "reflectiveClearApertureMm": null,
+        "coating616nm": null,
+        "geometryBasis": "Nominal source rear shoulders plus6mm reference mirror thickness; not measured purchased optic."
+      }
+    ],
+    "coordinateContract": "X right,Y forward,Z board-up; local XY reflection origin; sourceCAD retains its listed coordinates and matrix applies exactly once",
+    "assemblyPlacements": {
+      "status": "passed",
+      "normalizedCommercialGeometry": {
+        "valid": true,
+        "solidCount": 28,
+        "volumeMm3": 30206.713199910508,
+        "boundsMm": [
+          -25.40040856,
+          -25.40040856,
+          -30.137363,
+          25.4,
+          33.83168943,
+          0.80000018
+        ],
+        "path": "mechanical\\MT-AM1S5-reference-normalized.step",
+        "sha256": "ec7d407aa84e6c51ccd300ba90fb1823c48ff3de053560d1d5db3b3e8da790f3",
+        "bytes": 7101555,
+        "assemblyLinks": 28
+      },
+      "coordinateContract": "X right,Y forward,Z board-up; local XY reflection origin; sourceCAD retains its listed coordinates and matrix applies exactly once",
+      "worldTranslationMm": [
+        -279.5,
+        -200.0,
+        0.0
+      ],
+      "pieces": [
+        {
+          "name": "LF616",
+          "quantity": 1,
+          "sourceCAD": "mechanical/LF616-frame.step",
+          "sourceSHA256": "3d135eaa53f47db4bbdabc807886764744e32507ab995f54062c7c171e057fe6",
+          "rotationRows": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "localTranslationMm": [
+            0,
+            0,
+            0
+          ],
+          "worldTranslationMm": [
+            -279.5,
+            -200.0,
+            0.0
+          ],
+          "notes": "local reflectionXY/boardZ origin"
+        },
+        {
+          "name": "10-C616",
+          "quantity": 1,
+          "sourceCAD": "mechanical/10-C616-adapter.step",
+          "sourceSHA256": "8f8895ca4a595a973c003de15c4ee5f4da6513a265f5f62a47df7a09c628b9dc",
+          "rotationRows": [
+            [
+              -0.7071067811865477,
+              2.299347170293093e-17,
+              -0.7071067811865475
+            ],
+            [
+              -0.5,
+              0.7071067811865479,
+              0.5000000000000001
+            ],
+            [
+              0.5,
+              0.7071067811865479,
+              -0.5000000000000001
+            ]
+          ],
+          "localTranslationMm": [
+            26.94076836320746,
+            -19.050000000000004,
+            55.05000000000001
+          ],
+          "worldTranslationMm": [
+            -252.55923163679253,
+            -219.05,
+            55.05000000000001
+          ],
+          "notes": "delivered canonical bottomZ0; reconstructed R3 recipe, new ID"
+        },
+        {
+          "name": "formal H12.5",
+          "quantity": 1,
+          "sourceCAD": "source\\periscope-reference\\project\\work\\metric_20261005\\assembly_integration\\formal_posts\\H12.5mm\\万能柱_H12.5mm.step",
+          "sourceSHA256": "411ed637c0f11decf139b8317a611a11986f435adbe6e57303017bc7235b9186",
+          "rotationRows": [
+            [
+              0.5000000000000002,
+              -0.7071067811865475,
+              0.5000000000000002
+            ],
+            [
+              -0.14644660940672652,
+              0.5000000000000001,
+              0.8535533905932742
+            ],
+            [
+              -0.8535533905932742,
+              -0.5000000000000001,
+              0.14644660940672652
+            ]
+          ],
+          "localTranslationMm": [
+            32.951176003293114,
+            -23.300000000000008,
+            59.30000000000001
+          ],
+          "worldTranslationMm": [
+            -246.5488239967069,
+            -223.3,
+            59.30000000000001
+          ],
+          "notes": "exact formal source coordinates, no scaling or treatment change"
+        },
+        {
+          "name": "27-S45_R1",
+          "quantity": 1,
+          "sourceCAD": "source\\periscope-reference\\project\\work\\periscope_side_adapter_20261005\\models\\27-S45_R1.step",
+          "sourceSHA256": "6c43fd8b388b7e1fa6d1083ae42c2b259f34f5c97115ba8af700dd902c8a522d",
+          "rotationRows": [
+            [
+              0.5000000000000001,
+              0.7071067811865476,
+              -0.5
+            ],
+            [
+              -0.7071067811865476,
+              6.123233995736766e-17,
+              -0.7071067811865476
+            ],
+            [
+              -0.5,
+              0.7071067811865476,
+              0.5000000000000001
+            ]
+          ],
+          "localTranslationMm": [
+            50.0,
+            70.71067811865476,
+            12.499999999999986
+          ],
+          "worldTranslationMm": [
+            -229.5,
+            -129.28932188134524,
+            12.499999999999986
+          ],
+          "notes": "exact source STEP built in old H100 coordinates; this pose accounts for original coordinates"
+        },
+        {
+          "name": "lower MT-AM1S5 reference",
+          "quantity": 1,
+          "sourceCAD": "mechanical/MT-AM1S5-reference-normalized.step",
+          "sourceSHA256": "ec7d407aa84e6c51ccd300ba90fb1823c48ff3de053560d1d5db3b3e8da790f3",
+          "rotationRows": [
+            [
+              0.7071067811865477,
+              -0.7071067811865475,
+              2.299347170293093e-17
+            ],
+            [
+              0.5,
+              0.5000000000000001,
+              0.7071067811865479
+            ],
+            [
+              -0.5,
+              -0.5000000000000001,
+              0.7071067811865479
+            ]
+          ],
+          "localTranslationMm": [
+            0.0,
+            0.0,
+            36.0
+          ],
+          "worldTranslationMm": [
+            -279.5,
+            -200.0,
+            36.0
+          ],
+          "notes": "source assembly commercial leaves only normalized F0/N+Z; no geometrical modification"
+        },
+        {
+          "name": "upper MT-AM1S5 reference",
+          "quantity": 1,
+          "sourceCAD": "mechanical/MT-AM1S5-reference-normalized.step",
+          "sourceSHA256": "ec7d407aa84e6c51ccd300ba90fb1823c48ff3de053560d1d5db3b3e8da790f3",
+          "rotationRows": [
+            [
+              8.138310010579146e-17,
+              -0.7071067811865476,
+              0.7071067811865476
+            ],
+            [
+              -1.0,
+              -6.123233995736766e-17,
+              -1.410985210337171e-17
+            ],
+            [
+              1.1830696189879907e-16,
+              -0.7071067811865476,
+              -0.7071067811865476
+            ]
+          ],
+          "localTranslationMm": [
+            0.0,
+            0.0,
+            62.5
+          ],
+          "worldTranslationMm": [
+            -279.5,
+            -200.0,
+            62.5
+          ],
+          "notes": "same source-normalized reference"
+        }
+      ],
+      "opticalReferenceMirrors": [
+        {
+          "centerLocalMm": [
+            0,
+            0,
+            36
+          ],
+          "centerWorldMm": [
+            -279.5,
+            -200,
+            36
+          ],
+          "normal": [
+            0.0,
+            0.7071067811865476,
+            0.7071067811865476
+          ],
+          "referenceRadiusMm": 12.7,
+          "referenceThicknessMm": 6,
+          "effectiveReflectiveApertureRadiusMm": null,
+          "coating": null
+        },
+        {
+          "centerLocalMm": [
+            0,
+            0,
+            62.5
+          ],
+          "centerWorldMm": [
+            -279.5,
+            -200,
+            62.5
+          ],
+          "normal": [
+            0.7071067811865476,
+            0.0,
+            -0.7071067811865476
+          ],
+          "referenceRadiusMm": 12.7,
+          "referenceThicknessMm": 6,
+          "effectiveReflectiveApertureRadiusMm": null,
+          "coating": null
+        }
+      ],
+      "catalogueIdentity": "MT normalized reference is extracted source pose, not original supplier standalone STEP hash",
+      "fastenerExported": false,
+      "sourceScope": "pre-B6 construction provenance; do not rematerialize current assembly from old sourceCAD entries",
+      "currentFrozenAssemblyReference": {
+        "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/laser-616-side-periscope-m1-r1__H12p5_B4_R2.step",
+        "sha256": "4c16a1e434593cf9f756c13ce24e98a247a44e696c075a31dcb6a59e2771b239",
+        "poseAlreadyMaterialized": true
+      },
+      "historicalPlacementEvidencePreserved": true
+    },
+    "datum": {
+      "boardZ": 0,
+      "frontDatumNativeX": -283,
+      "laserTranslationMm": [
+        -83.5,
+        0.0,
+        0.0
+      ],
+      "periscopeTranslationMm": [
+        -279.5,
+        -200.0,
+        0.0
+      ],
+      "portWorldMm": [
+        -279.5,
+        -119,
+        36
+      ],
+      "uncertainty": "87 mm front offset interpreted from outermost front plane; no physical verification"
+    },
+    "physicalTested": false,
+    "beamDiameterAssumptionMm": 4,
+    "verificationScope": "CAD mechanical nominal interfaces only. Diameter4 is a synthetic clearance calculation, not real sidebeam measurement."
+  },
+  "layout": {
+    "placementAllowed": true,
+    "topViewPath": "topviews/laser-616-side-periscope-m1-r1__H12p5_B4_R2.svg",
+    "topViewUrl": "./topviews/laser-616-side-periscope-m1-r1__H12p5_B4_R2.svg",
+    "widthMm": 127.5000001,
+    "heightMm": 127.5,
+    "anchorXMm": 57.5,
+    "anchorYMm": 65.0,
+    "baseBoundsMm": {
+      "xMin": -57.5,
+      "yMin": -62.5,
+      "xMax": 70,
+      "yMax": 65
+    },
+    "collisionBoundsMm": {
+      "xMin": -57.5,
+      "yMin": -62.5,
+      "xMax": 70.0000001,
+      "yMax": 65.0
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -57.5,
+          "yMm": -62.5
+        },
+        {
+          "xMm": 70.0000001,
+          "yMm": -62.5
+        },
+        {
+          "xMm": 70.0000001,
+          "yMm": 65.0
+        },
+        {
+          "xMm": -57.5,
+          "yMm": 65.0
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": 54.5,
+        "yMm": -50
+      },
+      {
+        "xMm": 54.5,
+        "yMm": 50
+      },
+      {
+        "xMm": -45.5,
+        "yMm": 50
+      }
+    ],
+    "mountingHoleRadiusMm": 3.25,
+    "minimumAlignedMountingHoles": 3,
+    "opticalType": "empty",
+    "opticalDatumVerified": true,
+    "opticalClearApertureVerified": false,
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalDirectionDeg": 270,
+    "opticalSimulationNote": "名义机械光路36→62.5 mm，-Y→+Z→+X；源CAD后肩+6mm参考镜片。按实际镜片填写净口、镀膜面与反射数据后追迹；位置与实物尚待核对。",
+    "geometryEvidence": {
+      "previousProjectionSource": [
+        {
+          "path": "mechanical/parameters.json",
+          "sha256": "6a00d495b51fd16be6bc98bd748dfee21b028fc50ac756a45b8fd70e2a060b1c"
+        },
+        {
+          "path": "research/mechanical/cad-exports.json",
+          "sha256": "3bd420e7c67182a4725c09111999d8076f2279f0bf7abb362a3feb83e6b1842a"
+        },
+        {
+          "path": "research/mechanical/final-interface-verification.json",
+          "sha256": "4b01ffd9a59286e8951ce2877225e0bcb21a0dc470cef038ae8f105fa106b446"
+        },
+        {
+          "path": "mechanical/assembly-placements.json",
+          "sha256": "8a2f469062e0201aa5ee2b2919e4ffbba166a2570bdd42267bcae2baf0dcea5d"
+        }
+      ],
+      "sourceStep": "step/standard-post-h12p5-b4-r2/assemblies/laser-616-side-periscope-m1-r1__H12p5_B4_R2.step",
+      "sourceStepSha256": "4c16a1e434593cf9f756c13ce24e98a247a44e696c075a31dcb6a59e2771b239",
+      "sourceSha256": "4c16a1e434593cf9f756c13ce24e98a247a44e696c075a31dcb6a59e2771b239",
+      "imageSha256": "e9295579f7b355631bd259a18829178324d42e249a33ab276d82d3f7bd433519",
+      "postBaseRevision": {
+        "revision": "H12p5-B4-R2",
+        "componentIds": [
+          "custom-post-metric-12p5mm-m1"
+        ],
+        "baseThicknessByComponentId": {
+          "custom-post-metric-12p5mm-m1": 4
+        },
+        "nominalAndOpticalHeightsPreserved": true,
+        "geometryStatus": "passed",
+        "physicalAssemblyAccepted": false,
+        "previousAssemblySha256": "46d80288c0cda30620b31d1b86a04d35b2eb0cbcab48fa2320f788a4a9cce667",
+        "currentAssemblySha256": "4c16a1e434593cf9f756c13ce24e98a247a44e696c075a31dcb6a59e2771b239",
+        "replacementReportSha256": "3d72fd8066c5cd5e5c1d26cd8bedc46d725af3771cfe7f4b69c825afd374a20e",
+        "originalEntitiesAndPosesPreserved": true
+      },
+      "baseThicknessByComponentId": {
+        "custom-post-metric-12p5mm-m1": 4
+      }
+    },
+    "fixedUniversalPostComponentIds": [
+      "custom-post-metric-12p5mm-m1"
+    ],
+    "fixedUniversalPostReason": "H12.5 is a rigid tilted support in the audited assembly; cannot be replaced as a vertical Z-height post.",
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "4c16a1e434593cf9f756c13ce24e98a247a44e696c075a31dcb6a59e2771b239",
+      "imageSha256": "e9295579f7b355631bd259a18829178324d42e249a33ab276d82d3f7bd433519",
+      "revision": "H12p5-B4-R2",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null,
+      "projectionReportSha256": "5845520be1e79941044287682be832e86098d2f66a7ee846059a4e5e7efb34db"
+    },
+    "opticalAssembly": {
+      "verified": true,
+      "verificationScope": "Source CAD nominal interfaces only; not physical optical calibration. source mechanical.opticalReference retained verbatim.",
+      "bounds": {
+        "min": [
+          -57.5,
+          -62.5,
+          0
+        ],
+        "max": [
+          70.0000001,
+          65,
+          90
+        ]
+      },
+      "nodes": [
+        {
+          "id": "lower616",
+          "name": "下镜 · 616 nm 镜片待选",
+          "type": "mirror",
+          "centerMm": [
+            0.0,
+            -2.121320343559643,
+            33.878679656440355
+          ],
+          "normal": [
+            0.0,
+            0.7071067811865476,
+            0.7071067811865476
+          ],
+          "radiusMm": 12.7,
+          "geometryConfirmed": true,
+          "clearApertureConfirmed": false,
+          "requiresClearApertureConfirmation": true,
+          "faces": [
+            {
+              "centerMm": [
+                0.0,
+                0.0,
+                36.0
+              ],
+              "normal": [
+                0.0,
+                0.7071067811865476,
+                0.7071067811865476
+              ],
+              "radiusMm": 12.7
+            },
+            {
+              "centerMm": [
+                0.0,
+                -4.242640687119286,
+                31.757359312880716
+              ],
+              "normal": [
+                -0.0,
+                -0.7071067811865476,
+                -0.7071067811865476
+              ],
+              "radiusMm": 12.7
+            }
+          ],
+          "note": "源机械协议：真实后肩 + 6 mm 名义镜片前面。有效反射净口及镀膜未知，实物位置待核对。"
+        },
+        {
+          "id": "upper616",
+          "name": "上镜 · 616 nm 镜片待选",
+          "type": "mirror",
+          "centerMm": [
+            -2.121320343559643,
+            0.0,
+            64.62132034355965
+          ],
+          "normal": [
+            0.7071067811865476,
+            0.0,
+            -0.7071067811865476
+          ],
+          "radiusMm": 12.7,
+          "geometryConfirmed": true,
+          "clearApertureConfirmed": false,
+          "requiresClearApertureConfirmation": true,
+          "faces": [
+            {
+              "centerMm": [
+                0.0,
+                0.0,
+                62.5
+              ],
+              "normal": [
+                0.7071067811865476,
+                0.0,
+                -0.7071067811865476
+              ],
+              "radiusMm": 12.7
+            },
+            {
+              "centerMm": [
+                -4.242640687119286,
+                0.0,
+                66.74264068711929
+              ],
+              "normal": [
+                -0.7071067811865476,
+                -0.0,
+                0.7071067811865476
+              ],
+              "radiusMm": 12.7
+            }
+          ],
+          "note": "源机械协议：真实后肩 + 6 mm 名义镜片前面。有效反射净口及镀膜未知，实物位置待核对。"
+        }
+      ],
+      "internalElements": [
+        {
+          "id": "lower616",
+          "name": "下镜",
+          "type": "mirror",
+          "slotId": "lower616",
+          "existingInAssembly": false,
+          "opticalDefaults": {
+            "elementType": "mirror",
+            "inserted": true,
+            "configured": false,
+            "coatingFaceIndex": null,
+            "mirror": {
+              "mode": "data",
+              "model": "",
+              "samples": []
+            }
+          },
+          "sidePointMm": {
+            "xMm": 30.0,
+            "yMm": 33.878679656440355
+          },
+          "candidateFaces": [
+            {
+              "index": 0,
+              "sidePointMm": {
+                "xMm": 30.0,
+                "yMm": 36.0
+              }
+            },
+            {
+              "index": 1,
+              "sidePointMm": {
+                "xMm": 30.0,
+                "yMm": 31.757359312880716
+              }
+            }
+          ]
+        },
+        {
+          "id": "upper616",
+          "name": "上镜",
+          "type": "mirror",
+          "slotId": "upper616",
+          "existingInAssembly": false,
+          "opticalDefaults": {
+            "elementType": "mirror",
+            "inserted": true,
+            "configured": false,
+            "coatingFaceIndex": null,
+            "mirror": {
+              "mode": "data",
+              "model": "",
+              "samples": []
+            }
+          },
+          "sidePointMm": {
+            "xMm": 27.878679656440358,
+            "yMm": 64.62132034355965
+          },
+          "candidateFaces": [
+            {
+              "index": 0,
+              "sidePointMm": {
+                "xMm": 30.0,
+                "yMm": 62.5
+              }
+            },
+            {
+              "index": 1,
+              "sidePointMm": {
+                "xMm": 25.757359312880716,
+                "yMm": 66.74264068711929
+              }
+            }
+          ]
+        }
+      ],
+      "externalAxisHeightsMm": [
+        36,
+        62.5
+      ],
+      "sideView": {
+        "path": "topviews/laser616-nominal-optical-side.svg",
+        "topViewPath": "topviews/laser616-nominal-optical-side.svg",
+        "widthMm": 90,
+        "heightMm": 90,
+        "xMin": -30,
+        "zMin": 0
+      },
+      "note": "36 mm -Y 入射，经下镜向 +Z，再经上镜向 +X，输出62.5 mm。名义机械光高已登记；实物镜片、镀膜及净口必须另行确认。"
+    },
+    "opticalDefaults": {
+      "elementType": "empty",
+      "inserted": true,
+      "configured": true
+    },
+    "opticalAxisHeightMm": null,
+    "currentProjectionEvidence": {
+      "previousProjectionSource": {},
+      "sourceStep": "step/standard-post-h12p5-b4-r2/assemblies/laser-616-side-periscope-m1-r1__H12p5_B4_R2.step",
+      "sourceSha256": "4c16a1e434593cf9f756c13ce24e98a247a44e696c075a31dcb6a59e2771b239",
+      "imageSha256": "343a0819eb708c71481e3d76aaaedb09b330e97443c018035267d56207958f39",
+      "partCount": 62,
+      "triangleCount": 1182765,
+      "meshDeflectionMm": 0.035,
+      "postBaseRevision": {
+        "revision": "B6-R1",
+        "sourceRole": "complete",
+        "xyFootprintAndFunctionalDatumsPreserved": true,
+        "projectionReportSha256": "e3b36349a81fe05a849065bdbdbeb389f1700c34bba54dab0822dceaf7e15948",
+        "displayTransform": null,
+        "sourceGeometryChangedByRenderer": false
+      }
+    },
+    "sourceUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/0f5b08c0c3313ebe007c14fc"
+  },
+  "mechanicalConfiguration": {
+    "family": "616",
+    "bodyCode": "LF616/10-C616",
+    "inputHeightMm": 36,
+    "outputHeightMm": 62.5,
+    "uniqueOpticalStatePolicy": "Fixed manufactured nominal state only; no vertical post substitution."
+  },
+  "postBaseRevision": {
+    "revision": "H12p5-B4-R2",
+    "componentIds": [
+      "custom-post-metric-12p5mm-m1"
+    ],
+    "baseThicknessByComponentId": {
+      "custom-post-metric-12p5mm-m1": 4
+    },
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "physicalAssemblyAccepted": false,
+    "previousAssemblySha256": "46d80288c0cda30620b31d1b86a04d35b2eb0cbcab48fa2320f788a4a9cce667",
+    "currentAssemblySha256": "4c16a1e434593cf9f756c13ce24e98a247a44e696c075a31dcb6a59e2771b239",
+    "replacementReportSha256": "3d72fd8066c5cd5e5c1d26cd8bedc46d725af3771cfe7f4b69c825afd374a20e",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "assemblyReference": {
+    "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/laser-616-side-periscope-m1-r1__H12p5_B4_R2.step",
+    "sourceStepSha256": "4c16a1e434593cf9f756c13ce24e98a247a44e696c075a31dcb6a59e2771b239",
+    "revision": "CURRENT-B6R1-H12p5B4R2",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "cloudUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/0f5b08c0c3313ebe007c14fc",
+    "cloudStatus": "frozen-independent-assembly-readback-pending"
+  },
+  "cloudReference": {
+    "batch": 4,
+    "documentId": "66b198de06cefdf0be97875b",
+    "workspaceId": "048790c4e7cccc432b78d839",
+    "sourceUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/0f5b08c0c3313ebe007c14fc",
+    "status": "frozen-independent-assembly-readback-pending",
+    "observation": "Onshape notification panel and folder list via IAB",
+    "strictReadbackComplete": false,
+    "active": false,
+    "current": true,
+    "sourceStepSha256": "4c16a1e434593cf9f756c13ce24e98a247a44e696c075a31dcb6a59e2771b239",
+    "automaticCloudReuseAllowed": false,
+    "independentAssemblyElementVerified": true,
+    "physicalAssemblyAccepted": false,
+    "versionId": "f7760018eec7aecfe4fe9762",
+    "elementId": "0f5b08c0c3313ebe007c14fc",
+    "elementType": "Assembly",
+    "versionFrozen": true,
+    "uiEvidence": {
+      "path": null,
+      "sha256": "9572a243eaa463b4784ac014b7247c4c8d819942ef561ffeba484bd117acfb5f"
+    },
+    "checkedAt": "2026-10-28T01:54:56.736608+08:00"
+  },
+  "id": "laser-616-side-periscope-m1-r1"
+}

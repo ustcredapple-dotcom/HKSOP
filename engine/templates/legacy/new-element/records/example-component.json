@@ -1,0 +1,12 @@
+{
+  "id": "TODO-new-component-id",
+  "name": "TODO 真实器件名称",
+  "model": "TODO 真实型号；未知写待确认",
+  "kind": "standard",
+  "unit": "个",
+  "status": "待核对",
+  "notes": "模板；仅展示结构，不是已完成导入。",
+  "sourceUrl": "",
+  "stepPath": null,
+  "drawingPath": null
+}

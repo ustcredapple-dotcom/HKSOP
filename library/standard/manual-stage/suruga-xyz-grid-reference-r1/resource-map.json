@@ -1,0 +1,46 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "suruga-xyz-grid-reference-r1",
+  "files": [
+    {
+      "path": "cad/537d5e33d2889131fda4054f789710336c6dd239aea1cd6b5433bea37b913a87.step",
+      "stored": "library/assets/sha256/53/537d5e33d2889131fda4054f789710336c6dd239aea1cd6b5433bea37b913a87.step",
+      "sha256": "537d5e33d2889131fda4054f789710336c6dd239aea1cd6b5433bea37b913a87",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/asset-suruga-post-example__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/53/537d5e33d2889131fda4054f789710336c6dd239aea1cd6b5433bea37b913a87.step"
+      ]
+    },
+    {
+      "path": "cad/9a4a4d76795954c702c55385de5bf74ff8cd9fe8c1562238dfbb28366868fe66.step",
+      "stored": "library/assets/sha256/9a/9a4a4d76795954c702c55385de5bf74ff8cd9fe8c1562238dfbb28366868fe66.step",
+      "sha256": "9a4a4d76795954c702c55385de5bf74ff8cd9fe8c1562238dfbb28366868fe66",
+      "originalReferences": [
+        "step/suruga-xyz-zpanel-r2/assemblies/32_XYZ_GRID_INTERFACE_REFERENCE_R1_ZPANEL_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/9a/9a4a4d76795954c702c55385de5bf74ff8cd9fe8c1562238dfbb28366868fe66.step"
+      ]
+    },
+    {
+      "path": "rendering/abee2da76900b48bd44b74545564cdaf19f9db0c902ee652f5cab6a5508a426f.svg",
+      "stored": "library/assets/sha256/ab/abee2da76900b48bd44b74545564cdaf19f9db0c902ee652f5cab6a5508a426f.svg",
+      "sha256": "abee2da76900b48bd44b74545564cdaf19f9db0c902ee652f5cab6a5508a426f",
+      "originalReferences": [
+        "topviews/kit_suruga-xyz-grid-reference-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/ab/abee2da76900b48bd44b74545564cdaf19f9db0c902ee652f5cab6a5508a426f.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-suruga-xyz-base-r1",
+    "custom-suruga-xyz-zpanel-r1",
+    "hardware-iso4762-m3x10",
+    "hardware-iso4762-m3x8",
+    "hardware-iso4762-m6x16"
+  ]
+}

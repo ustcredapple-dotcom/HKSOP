@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-xbk-b01-h62p5-r1",
+  "files": [
+    {
+      "path": "cad/c2946f10693695285aa13302d4c453b39968edd0aa0e32c54e0ec9a42da93f7b.step",
+      "stored": "library/assets/sha256/c2/c2946f10693695285aa13302d4c453b39968edd0aa0e32c54e0ec9a42da93f7b.step",
+      "sha256": "c2946f10693695285aa13302d4c453b39968edd0aa0e32c54e0ec9a42da93f7b",
+      "originalReferences": [
+        "step/xbk-cavity-piezo-h62p5-r1/XBK-B01_R1_P25_BOTTOM_316L.step"
+      ],
+      "sources": [
+        "library/assets/sha256/c2/c2946f10693695285aa13302d4c453b39968edd0aa0e32c54e0ec9a42da93f7b.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

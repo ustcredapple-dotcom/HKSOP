@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "lbtek-pbs621-purchased",
+  "revision": "source-snapshot",
+  "displayName": "PBS621 · 厂家原件",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/lbtek-pbs621-purchased.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

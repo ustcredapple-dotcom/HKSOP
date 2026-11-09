@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-small-post-50mm-r1",
+  "files": [
+    {
+      "path": "cad/105981641a8127fdefb60d7cb7d91a498f0a3080a0a8ff9fad650d46a38521b6.step",
+      "stored": "library/assets/sha256/10/105981641a8127fdefb60d7cb7d91a498f0a3080a0a8ff9fad650d46a38521b6.step",
+      "sha256": "105981641a8127fdefb60d7cb7d91a498f0a3080a0a8ff9fad650d46a38521b6",
+      "originalReferences": [
+        "step/small-post-b4-r2/小万能柱_H50mm_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/10/105981641a8127fdefb60d7cb7d91a498f0a3080a0a8ff9fad650d46a38521b6.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

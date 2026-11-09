@@ -1,0 +1,10 @@
+{
+  "id": "v7-source-m2x10",
+  "name": "V7 M2×10 电机安装螺钉",
+  "kind": "standard",
+  "unit": "件",
+  "sourceUrl": "https://chatgpt.com/s/cx_6ac4918366588191ab1b8ae22e6f925b",
+  "standardSpec": "source-V7",
+  "status": "按指定尺寸选配并实测装配",
+  "notes": "沿用源装配规格；每套4颗，前端有效啮合约5 mm；头型随原源件。"
+}

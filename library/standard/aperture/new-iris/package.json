@@ -1,0 +1,30 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-iris",
+  "revision": "CURRENT-B6R1",
+  "displayName": "可变光阑 · CSD20",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/new-iris.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-post-metric-25mm-m1",
+    "metric-m1-post-m4x16",
+    "metric-m1-post-pin-d2x8",
+    "new-iris-adapter-1",
+    "new-iris-adapter-2",
+    "new-iris-vendor-1"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

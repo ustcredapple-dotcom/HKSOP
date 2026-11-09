@@ -1,0 +1,438 @@
+{
+  "name": "308 nm 激光器 · 频准激光",
+  "category": "laser",
+  "variant": "报告参数 · 118 mW · 光轴高135 mm",
+  "description": "按原厂尺寸图核对俯视图与左端主光口；出光默认参数来自这台设备的测试报告。",
+  "sourceUrl": "",
+  "components": [
+    {
+      "componentId": "laser-308nm",
+      "quantity": 1
+    }
+  ],
+  "opticalSlots": [],
+  "status": "型号与出厂测试报告已核对",
+  "notes": "频准激光 FL-SF-308-0.1-CW，报告 PLP-2026-03-007272-01。主输出为连续、准直自由空间光；默认采用报告中心波长308.366 nm、测试功率118 mW、准直直径1.264 mm、M² 1.071和线偏振。功率对应报告测试工况，可按实际设置修改。报告未标定偏振相对板面的角度和窗面波前；圆对称高斯、平波前及初始偏振0°为模拟假设。本条仅表示外购整机，不生成激光器自制模型或加工图。",
+  "layout": {
+    "topViewPath": "topviews/kit_laser-308nm-ports-r1.svg",
+    "topViewUrl": "./topviews/kit_laser-308nm-ports-r1.svg",
+    "widthMm": 656,
+    "heightMm": 288,
+    "anchorXMm": 323,
+    "anchorYMm": 144,
+    "baseBoundsMm": {
+      "xMin": -283,
+      "yMin": -130.5,
+      "xMax": 260,
+      "yMax": 130.5
+    },
+    "collisionBoundsMm": {
+      "xMin": -283,
+      "yMin": -130.5,
+      "xMax": 323,
+      "yMax": 130.5
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -260,
+          "yMm": -119
+        },
+        {
+          "xMm": 260,
+          "yMm": -119
+        },
+        {
+          "xMm": 260,
+          "yMm": 119
+        },
+        {
+          "xMm": -260,
+          "yMm": 119
+        }
+      ],
+      [
+        {
+          "xMm": -277,
+          "yMm": -119
+        },
+        {
+          "xMm": -260,
+          "yMm": -119
+        },
+        {
+          "xMm": -260,
+          "yMm": 119
+        },
+        {
+          "xMm": -277,
+          "yMm": 119
+        }
+      ],
+      [
+        {
+          "xMm": -283,
+          "yMm": 25
+        },
+        {
+          "xMm": -260,
+          "yMm": 25
+        },
+        {
+          "xMm": -260,
+          "yMm": 107
+        },
+        {
+          "xMm": -283,
+          "yMm": 107
+        }
+      ],
+      [
+        {
+          "xMm": 76,
+          "yMm": 117.5
+        },
+        {
+          "xMm": 141,
+          "yMm": 117.5
+        },
+        {
+          "xMm": 141,
+          "yMm": 130.5
+        },
+        {
+          "xMm": 76,
+          "yMm": 130.5
+        }
+      ],
+      [
+        {
+          "xMm": 76,
+          "yMm": -130.5
+        },
+        {
+          "xMm": 141,
+          "yMm": -130.5
+        },
+        {
+          "xMm": 141,
+          "yMm": -117.5
+        },
+        {
+          "xMm": 76,
+          "yMm": -117.5
+        }
+      ],
+      [
+        {
+          "xMm": 260,
+          "yMm": 31
+        },
+        {
+          "xMm": 323,
+          "yMm": 31
+        },
+        {
+          "xMm": 323,
+          "yMm": 51
+        },
+        {
+          "xMm": 260,
+          "yMm": 51
+        }
+      ],
+      [
+        {
+          "xMm": 260,
+          "yMm": -35
+        },
+        {
+          "xMm": 323,
+          "yMm": -35
+        },
+        {
+          "xMm": 323,
+          "yMm": -15
+        },
+        {
+          "xMm": 260,
+          "yMm": -15
+        }
+      ],
+      [
+        {
+          "xMm": 260,
+          "yMm": -110
+        },
+        {
+          "xMm": 283,
+          "yMm": -110
+        },
+        {
+          "xMm": 283,
+          "yMm": -94
+        },
+        {
+          "xMm": 260,
+          "yMm": -94
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": 83.5,
+        "yMm": -125
+      },
+      {
+        "xMm": 83.5,
+        "yMm": 125
+      },
+      {
+        "xMm": 133.5,
+        "yMm": -125
+      },
+      {
+        "xMm": 133.5,
+        "yMm": 125
+      }
+    ],
+    "mountingHoleRadiusMm": 3.7,
+    "opticalPortsMm": [
+      {
+        "id": "output",
+        "xMm": -283,
+        "yMm": 67,
+        "directionX": -1,
+        "directionY": 0,
+        "wavelengthNm": 308.366,
+        "beamHeightMm": 135
+      },
+      {
+        "id": "monitor616",
+        "label": "616 nm 侧面监视口",
+        "role": "source",
+        "sourceVersion": 1,
+        "xMm": -196,
+        "yMm": -119,
+        "beamHeightMm": 36,
+        "directionX": 0,
+        "directionY": -1,
+        "geometryConfirmed": true,
+        "geometryBasis": "Declared user-datum interpretation: user photograph rotated 180 degrees relative to catalogue; outer front X=-283 plus87; housing side Y=-119; native height36 above laser bearing bottom. Physical front/height datums await verification.",
+        "verificationScope": "Declared nominal reference coordinates only; not a further measurement or actual optical calibration.",
+        "sourceDefaults": {
+          "enabled": false,
+          "wavelengthNm": 616.73287,
+          "powerMw": 25.1
+        },
+        "sourceReport": {
+          "title": "616 nm 侧口 · 独立报告工况",
+          "reportId": "PLP-2026-03-007272-01",
+          "summary": [
+            "报告PDF第3、7页：616 nm侧监视口测试功率25.1 mW。",
+            "报告PDF第4页：该中心工况波长616.73287 nm；不是所有调谐点的固定波长。",
+            "本口光斑直径、M²、偏振与窗面波前未独立标定，不能沿用308 nm主口数据。"
+          ],
+          "simulationNotes": [
+            "本口与主口分别设置并保存，出光功率及波长可按实际工况修改。",
+            "报告参数按钮仅应用本口波长和功率；未知光束参数需明确填写并确认计算假设。",
+            "位置采用已声明的前面/承托底面基准解释，实际安装前核对87 mm和36 mm基准。"
+          ],
+          "applyFields": [
+            "wavelengthNm",
+            "powerMw"
+          ],
+          "reportedParameters": {
+            "wavelengthNm": 616.73287,
+            "powerMw": 25.1,
+            "beamDiameterMm": null,
+            "beamQualityM2": null,
+            "polarizationType": null,
+            "windowWavefrontRadiusMm": null,
+            "wavefrontRadiusMm": null
+          },
+          "sourceFiles": [
+            {
+              "id": 3,
+              "name": "频准激光_202603007272_用户手册.pdf",
+              "path": null,
+              "sha256": "31cf4fde9c2f4d1ea0d2a42ea01a62cdce4b527cc77696052c1f2da4a3d57508",
+              "pages": 24
+            },
+            {
+              "id": 4,
+              "name": "频准激光_FL-SF-308-0.1-CW_测试报告_PLP-2026-03-007272-01.pdf",
+              "path": null,
+              "sha256": "3dbe74bb8f0abb1a89346cac1b06103de58410984895001afe0c58c92738dcc1",
+              "pages": 17
+            }
+          ]
+        }
+      }
+    ],
+    "placementAllowed": true,
+    "status": "原厂手册尺寸与主光口已核对；局部安装定位仍含估读",
+    "note": "外购整机俯视示意。主壳 520×238 mm，含前端及底脚 543×261 mm；紫色十字为左端光口，箭头为出光方向：距主壳上侧边 52 mm，光轴高 135 mm。按四个侧安装孔的已知间距（50×250 mm）吸附；优先全孔对齐，至少两个孔对齐才可用；前端两孔仅示意、不参与吸附。孔组相对主壳位置及右端接头伸出量按图片估读，安装前请核对实物。 另登记616 nm侧监视口：X=-196、Y=-119、Z=36 mm，方向-Y，采用用户87 mm/36 mm标注的明确基准解释；真实基准待核定。额外光口只增加独立出光参数，不重复整机BOM。",
+    "sourceUrl": "",
+    "collisionGeometryVersion": "drawing-308nm-2026-09-28.1",
+    "calibration": {
+      "source": "用户提供的三视图",
+      "captureSha256": "98fa79ff3a2307eb43a2638b371307bf04a796b9e718b18370a15b64b01c2c89",
+      "datum": "主机壳中心；X 向右、Y 向上",
+      "housingLengthMm": 520,
+      "housingWidthMm": 238,
+      "bodyHeightMm": 185,
+      "frontExtensionMm": 23,
+      "overallExcludingRearConnectorsMm": [
+        543,
+        261
+      ],
+      "opticalPortSideOffsetMm": 52,
+      "beamHeightMm": 135,
+      "confirmedMountingPatternMm": [
+        50,
+        250
+      ],
+      "estimatedMountingOriginMm": [
+        83.5,
+        -125
+      ],
+      "estimatedRearConnectorExtensionMm": 63,
+      "unconfirmed": [
+        "安装孔组相对壳体的绝对位置",
+        "前端上孔坐标及槽形方向",
+        "接头外伸尺寸",
+        "安装脚相对主机壳的横向对称性"
+      ],
+      "usage": "用于布局与整机采购，不用于加工",
+      "manualVerification": {
+        "file": null,
+        "sha256": "31cf4fde9c2f4d1ea0d2a42ea01a62cdce4b527cc77696052c1f2da4a3d57508",
+        "pdfPage": 11,
+        "apertureIdentityPdfPage": 8,
+        "dimensionsMatchExistingView": true,
+        "estimatedDetailsRemainEstimated": true
+      }
+    },
+    "minimumAlignedMountingHoles": 2,
+    "opticalAxisHeightMm": 135,
+    "opticalAxisHeightSource": "用户手册 PDF第11页：支承底面至主光轴135 mm",
+    "opticalDirectionDeg": 180,
+    "opticalDefaults": {
+      "elementType": "source",
+      "inserted": true,
+      "source": {
+        "enabled": false,
+        "wavelengthNm": 308.366,
+        "powerMw": 118,
+        "beamDiameterMm": 1.264,
+        "beamQualityM2": 1.071,
+        "polarizationType": "linear",
+        "polarizationAngleDeg": 0,
+        "ellipticityDeg": 0,
+        "wavefrontRadiusMm": null,
+        "directionAngleDeg": 180
+      }
+    },
+    "sourceReport": {
+      "title": "频准激光出厂测试报告",
+      "reportId": "PLP-2026-03-007272-01",
+      "summary": [
+        "报告第3页：FL-SF-308-0.1-CW；中心波长308.366 nm；连续自由空间输出；测试功率118 mW。",
+        "报告第3、17页：准直直径1.264 mm，M² 1.071；采用D4σ的圆对称高斯等效近似。",
+        "报告第12页：线偏振，消光比23.7 dB；报告未给偏振主轴相对板面方向。",
+        "手册第8、11页：左端为308 nm主光口，光轴高135 mm、距壳体侧边52 mm。616 nm监视口另设，未代作主光口。"
+      ],
+      "simulationNotes": [
+        "这是报告工况的初始模型，功率与波长可按实际运行点修改。",
+        "窗面直径与波前未单独标定；先以报告准直直径和平波前近似，不把M²附录的束腰坐标当作窗面坐标。",
+        "偏振角0°只是初始假设；请按实物设置。消光比只作参考，不由它推断完整Stokes、椭圆率或偏振度。"
+      ],
+      "reportedParameters": {
+        "wavelengthNm": 308.366,
+        "powerMw": 118,
+        "beamDiameterMm": 1.264,
+        "beamQualityM2": 1.071,
+        "polarizationType": "linear",
+        "extinctionRatioDb": 23.7,
+        "beamDiameterDefinition": "D4σ; Gaussian-equivalent simulation",
+        "axisRelativeToBoardDeg": null,
+        "windowWavefrontRadiusMm": null
+      },
+      "applyFields": [
+        "wavelengthNm",
+        "powerMw",
+        "beamDiameterMm",
+        "beamQualityM2",
+        "polarizationType"
+      ],
+      "sourceFiles": [
+        {
+          "id": 3,
+          "name": "频准激光_202603007272_用户手册.pdf",
+          "path": null,
+          "sha256": "31cf4fde9c2f4d1ea0d2a42ea01a62cdce4b527cc77696052c1f2da4a3d57508",
+          "pages": 24
+        },
+        {
+          "id": 4,
+          "name": "频准激光_FL-SF-308-0.1-CW_测试报告_PLP-2026-03-007272-01.pdf",
+          "path": null,
+          "sha256": "3dbe74bb8f0abb1a89346cac1b06103de58410984895001afe0c58c92738dcc1",
+          "pages": 17
+        }
+      ]
+    },
+    "opticalType": "source"
+  },
+  "bundleStatus": "complete",
+  "installationPackageReview": {
+    "revision": "REFERENCE_HANDOFF_20261006",
+    "protocol": "zzlab-optics-library-v1",
+    "baselineVersion": "2026-10-06.5-waveplate05-m1",
+    "mechanicalMountStatus": "not-released-measurements-required",
+    "evidence": {
+      "path": "evidence/install/laser-308nm.json"
+    },
+    "sourceDocuments": [
+      {
+        "originalFileName": null,
+        "sha256": "31cf4fde9c2f4d1ea0d2a42ea01a62cdce4b527cc77696052c1f2da4a3d57508",
+        "externalEvidenceArchive": "laser-original-evidence-20261006.zip",
+        "externalEvidenceArchiveSha256": "1c9eb61cbc7e21200296476ea6d2d39d7605f961a504a581f3daa67f51d92f7e",
+        "archiveFile": null
+      },
+      {
+        "originalFileName": null,
+        "sha256": "3dbe74bb8f0abb1a89346cac1b06103de58410984895001afe0c58c92738dcc1",
+        "externalEvidenceArchive": "laser-original-evidence-20261006.zip",
+        "externalEvidenceArchiveSha256": "1c9eb61cbc7e21200296476ea6d2d39d7605f961a504a581f3daa67f51d92f7e",
+        "archiveFile": null
+      }
+    ],
+    "unchangedRuntimeSemantics": [
+      "BOM",
+      "mounting holes",
+      "minimum hole count",
+      "optical ports",
+      "simulation",
+      "placement permission"
+    ],
+    "limits": {
+      "manufacturingMount": "No separate laser-to-board manufacturing mount. 28 R1/R2 is a beam-turning periscope, not a mount for the laser chassis.",
+      "feet": "6.4×7.4 slots; side50×250 relative spacing known; absolute group/body offset and symmetry estimated; G58 user-approved correctable prototype.",
+      "port": "AxisY67/Z135 confirmed by dimension; true windowX unknown; −283 exterior reference only.",
+      "next": "Measure actual side-foot group datum to housing/beam, slot shape/contact plane and G58 before non-prototype mount release."
+    },
+    "referenceCad": {
+      "stepPath": "step/laser_installation_reference_20261006/LASER_308_HEAD_REFERENCE_WITH_DATUM.step",
+      "sha256": "1cd6c544eddac2b45529f41f1a15bdb2691278abe7f839977c069fbb305d8094",
+      "role": "DIMENSION_REFERENCE_ONLY_NOT_MANUFACTURER_CAD_NOT_MACHINING_MODEL",
+      "opticalDatumSymbolIsNonphysical": true,
+      "holesModeled": false,
+      "manufacturerCADVersion": null,
+      "canReleaseManufacturingMount": false
+    }
+  },
+  "id": "laser-308nm"
+}

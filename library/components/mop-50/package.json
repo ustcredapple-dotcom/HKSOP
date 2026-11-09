@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "mop-50",
+  "revision": "source-snapshot",
+  "displayName": "50 mm 笼式接杆",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/mop-50.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

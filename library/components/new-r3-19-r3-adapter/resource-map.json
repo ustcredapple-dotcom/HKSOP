@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-r3-19-r3-adapter",
+  "files": [
+    {
+      "path": "cad/84805167026a228aed7253c54e0b7f65b9f90aa7c88fe98f0c7e43cefd52ac4f.step",
+      "stored": "library/assets/sha256/84/84805167026a228aed7253c54e0b7f65b9f90aa7c88fe98f0c7e43cefd52ac4f.step",
+      "sha256": "84805167026a228aed7253c54e0b7f65b9f90aa7c88fe98f0c7e43cefd52ac4f",
+      "originalReferences": [
+        "step/metric-m1-20261006/19-WP_METRIC_M1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/84/84805167026a228aed7253c54e0b7f65b9f90aa7c88fe98f0c7e43cefd52ac4f.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

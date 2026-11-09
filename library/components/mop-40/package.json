@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "mop-40",
+  "revision": "source-snapshot",
+  "displayName": "Ø6×40 mm 笼杆",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/mop-40.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

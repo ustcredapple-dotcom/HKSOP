@@ -1,0 +1,403 @@
+{
+  "name": "532 nm 激光器 · 频准激光",
+  "category": "laser",
+  "variant": "报告参数 · 21.63 W · 光轴高95.7 mm",
+  "description": "原厂手册尺寸与既有俯视图一致；左端主光口的出光参数采用本机测试报告。",
+  "sourceUrl": "",
+  "components": [
+    {
+      "componentId": "laser-532nm",
+      "quantity": 1
+    }
+  ],
+  "opticalSlots": [],
+  "status": "型号与出厂测试报告已核对",
+  "notes": "频准激光 FL-SF-532-20-CW，出厂报告 PLP-2026-03-007265-01（2026-08-20）。主输出为连续、准直自由空间光；默认采用实测中心波长532.00020 nm、稳功率模式21.63 W（21630 mW）、准直直径1.574 mm、M² 1.040和线偏振。功率对应报告测试工况，可按实际运行点修改。1064 nm监视口的15.12 mW不是主输出。报告未标定偏振相对板面的角度及窗面波前；圆对称高斯、平波前和初始偏振0°为模拟假设。本条为外购整机，不生成自制模型或加工图。",
+  "layout": {
+    "topViewPath": "topviews/kit_laser-532nm.svg",
+    "topViewUrl": "./topviews/kit_laser-532nm.svg",
+    "widthMm": 482,
+    "heightMm": 348,
+    "anchorXMm": 248,
+    "anchorYMm": 174,
+    "baseBoundsMm": {
+      "xMin": -208,
+      "yMin": -161,
+      "xMax": 211,
+      "yMax": 161
+    },
+    "collisionBoundsMm": {
+      "xMin": -208,
+      "yMin": -161,
+      "xMax": 224,
+      "yMax": 161
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -200,
+          "yMm": -150
+        },
+        {
+          "xMm": 200,
+          "yMm": -150
+        },
+        {
+          "xMm": 200,
+          "yMm": 150
+        },
+        {
+          "xMm": -200,
+          "yMm": 150
+        }
+      ],
+      [
+        {
+          "xMm": -208,
+          "yMm": -150
+        },
+        {
+          "xMm": -200,
+          "yMm": -150
+        },
+        {
+          "xMm": -200,
+          "yMm": 150
+        },
+        {
+          "xMm": -208,
+          "yMm": 150
+        }
+      ],
+      [
+        {
+          "xMm": -176,
+          "yMm": 149
+        },
+        {
+          "xMm": -114,
+          "yMm": 149
+        },
+        {
+          "xMm": -114,
+          "yMm": 161
+        },
+        {
+          "xMm": -176,
+          "yMm": 161
+        }
+      ],
+      [
+        {
+          "xMm": -176,
+          "yMm": -161
+        },
+        {
+          "xMm": -114,
+          "yMm": -161
+        },
+        {
+          "xMm": -114,
+          "yMm": -149
+        },
+        {
+          "xMm": -176,
+          "yMm": -149
+        }
+      ],
+      [
+        {
+          "xMm": 198,
+          "yMm": -36
+        },
+        {
+          "xMm": 211,
+          "yMm": -36
+        },
+        {
+          "xMm": 211,
+          "yMm": 26
+        },
+        {
+          "xMm": 198,
+          "yMm": 26
+        }
+      ],
+      [
+        {
+          "xMm": 200,
+          "yMm": 124
+        },
+        {
+          "xMm": 224,
+          "yMm": 124
+        },
+        {
+          "xMm": 224,
+          "yMm": 144
+        },
+        {
+          "xMm": 200,
+          "yMm": 144
+        }
+      ],
+      [
+        {
+          "xMm": 200,
+          "yMm": -70
+        },
+        {
+          "xMm": 224,
+          "yMm": -70
+        },
+        {
+          "xMm": 224,
+          "yMm": -50
+        },
+        {
+          "xMm": 200,
+          "yMm": -50
+        }
+      ],
+      [
+        {
+          "xMm": 200,
+          "yMm": -106
+        },
+        {
+          "xMm": 224,
+          "yMm": -106
+        },
+        {
+          "xMm": 224,
+          "yMm": -86
+        },
+        {
+          "xMm": 200,
+          "yMm": -86
+        }
+      ],
+      [
+        {
+          "xMm": 200,
+          "yMm": -139
+        },
+        {
+          "xMm": 220,
+          "yMm": -139
+        },
+        {
+          "xMm": 220,
+          "yMm": -113
+        },
+        {
+          "xMm": 200,
+          "yMm": -113
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -170,
+        "yMm": 155
+      },
+      {
+        "xMm": -120,
+        "yMm": 155
+      },
+      {
+        "xMm": -170,
+        "yMm": -155
+      },
+      {
+        "xMm": -120,
+        "yMm": -155
+      },
+      {
+        "xMm": 205,
+        "yMm": -30
+      },
+      {
+        "xMm": 205,
+        "yMm": 20
+      }
+    ],
+    "mountingHoleRadiusMm": 3.2,
+    "minimumAlignedMountingHoles": 2,
+    "opticalPortsMm": [
+      {
+        "id": "output",
+        "xMm": -208,
+        "yMm": 101,
+        "directionX": -1,
+        "directionY": 0,
+        "wavelengthNm": 532.0002,
+        "beamHeightMm": 95.7
+      }
+    ],
+    "opticalAxisHeightMm": 95.7,
+    "opticalAxisHeightSource": "用户手册 PDF第10页：支承底面至主光轴95.7 mm",
+    "placementAllowed": true,
+    "status": "原厂手册尺寸与主光口已核对；局部外观细节仍含估读",
+    "note": "外购激光头；含前端及支脚占位 419×322 mm（后接头另计）。6×Ø6.4 通孔，每组孔距 50 mm，上下孔排距 310 mm；拖拽优先对齐最多安装孔，至少两个孔对齐。绿色十字为左端光口，距总宽上侧外缘 60 mm，光轴高 95.7 mm。主壳长 400 mm；壳宽约 300 mm、接头及顶盖细节按照片估读，仅供布局。图片下方的独立控制机箱不包含在本俯视图中。",
+    "sourceUrl": "",
+    "collisionGeometryVersion": "drawing-532nm-2026-10-02.1",
+    "calibration": {
+      "source": "用户提供的 Precilasers Product Assembly / Dimensions 照片",
+      "captureSha256": "eb2a9560e35fdabf720815f9bed9bf2d1207e824d33ab1aa3e0fb8331f47999f",
+      "datum": "主壳中心；X 向右、Y 向上；左端为光口",
+      "housingLengthMm": 400,
+      "estimatedHousingWidthMm": 300,
+      "bodyHeightMm": 130.2,
+      "overallExcludingRearConnectorsMm": [
+        419,
+        322
+      ],
+      "mountingHoleDiameterMm": 6.4,
+      "mountingRowSpacingMm": 310,
+      "mountingPairSpacingMm": 50,
+      "mountingXChainMm": [
+        30,
+        50,
+        325,
+        6
+      ],
+      "rearLowerHoleFromLowerRowMm": 125,
+      "opticalPortSideOffsetMm": 60,
+      "opticalPortSideDatum": "322 mm 总宽上侧外缘",
+      "beamHeightMm": 95.7,
+      "derivedFrontExtensionMm": 8,
+      "estimatedRearConnectorExtensionMm": 24,
+      "unconfirmed": [
+        "主壳宽 300 mm 由轮廓推算，图中未单独标注",
+        "后端接头外伸量及外形细节按照片估读",
+        "支脚、顶盖接缝及壳体细节为布局示意"
+      ],
+      "usage": "用于布局与外购整机采购，不用于加工",
+      "manualVerification": {
+        "file": null,
+        "sha256": "4e465d74fbc1adc030ddac1bed20deb7b253fc982052c9783c9b0dcddfc0c7c6",
+        "pdfPage": 10,
+        "dimensionsMatchExistingView": true,
+        "estimatedDetailsRemainEstimated": true
+      }
+    },
+    "opticalDirectionDeg": 180,
+    "opticalDefaults": {
+      "elementType": "source",
+      "inserted": true,
+      "source": {
+        "enabled": false,
+        "wavelengthNm": 532.0002,
+        "powerMw": 21630,
+        "beamDiameterMm": 1.574,
+        "beamQualityM2": 1.04,
+        "polarizationType": "linear",
+        "polarizationAngleDeg": 0,
+        "ellipticityDeg": 0,
+        "wavefrontRadiusMm": null,
+        "directionAngleDeg": 180
+      }
+    },
+    "sourceReport": {
+      "title": "频准激光出厂测试报告",
+      "reportId": "PLP-2026-03-007265-01",
+      "reportDate": "2026-08-20",
+      "summary": [
+        "报告第3–5页：FL-SF-532-20-CW；中心波长532.00020 nm；连续自由空间输出；稳功率模式21.63 W（21630 mW）。",
+        "报告第3、13页：准直直径1.574 mm，M² 1.040；采用D4σ的圆对称高斯等效近似。",
+        "报告第8页：线偏振，消光比21.1 dB；未给偏振主轴相对板面方向。",
+        "手册第10页：主光轴高95.7 mm，横向尺寸60 mm；尺寸图与已登记俯视图一致。1064 nm监视口另设，15.12 mW不是532 nm主输出。"
+      ],
+      "simulationNotes": [
+        "默认功率对应稳功率模式测试点（泵浦电流8.6–8.4 A），不代表任意电流或波长下的固定功率；可按实际运行设置修改。",
+        "窗面直径与波前未单独标定；以报告准直直径和平波前近似，不把M²附录束腰坐标当作窗面坐标，也不与另组传播测点拼接。",
+        "偏振角0°仅为初始假设，请按实物设置；消光比只作参考，不由它推断完整Stokes、椭圆率或偏振度。"
+      ],
+      "reportedParameters": {
+        "wavelengthNm": 532.0002,
+        "powerMw": 21630,
+        "beamDiameterMm": 1.574,
+        "beamQualityM2": 1.04,
+        "polarizationType": "linear",
+        "extinctionRatioDb": 21.1,
+        "beamDiameterDefinition": "D4σ; Gaussian-equivalent simulation",
+        "axisRelativeToBoardDeg": null,
+        "windowWavefrontRadiusMm": null
+      },
+      "applyFields": [
+        "wavelengthNm",
+        "powerMw",
+        "beamDiameterMm",
+        "beamQualityM2",
+        "polarizationType"
+      ],
+      "sourceFiles": [
+        {
+          "id": 1,
+          "name": "频准激光_FL-SF-532-20-CW_测试报告_202603007265.pdf",
+          "path": null,
+          "sha256": "af1cb16ca1e98f265232dcb504d9a579b1481c683c9d3e250e109cc801396e83",
+          "pages": 13
+        },
+        {
+          "id": 2,
+          "name": "频准激光TE-UM-001用户手册.pdf",
+          "path": null,
+          "sha256": "4e465d74fbc1adc030ddac1bed20deb7b253fc982052c9783c9b0dcddfc0c7c6",
+          "pages": 24
+        }
+      ]
+    },
+    "opticalType": "source"
+  },
+  "installationPackageReview": {
+    "revision": "REFERENCE_HANDOFF_20261006",
+    "protocol": "zzlab-optics-library-v1",
+    "baselineVersion": "2026-10-06.5-waveplate05-m1",
+    "mechanicalMountStatus": "not-released-measurements-required",
+    "evidence": {
+      "path": "evidence/install/laser-532nm.json"
+    },
+    "sourceDocuments": [
+      {
+        "originalFileName": null,
+        "sha256": "af1cb16ca1e98f265232dcb504d9a579b1481c683c9d3e250e109cc801396e83",
+        "externalEvidenceArchive": "laser-original-evidence-20261006.zip",
+        "externalEvidenceArchiveSha256": "1c9eb61cbc7e21200296476ea6d2d39d7605f961a504a581f3daa67f51d92f7e",
+        "archiveFile": null
+      },
+      {
+        "originalFileName": null,
+        "sha256": "4e465d74fbc1adc030ddac1bed20deb7b253fc982052c9783c9b0dcddfc0c7c6",
+        "externalEvidenceArchive": "laser-original-evidence-20261006.zip",
+        "externalEvidenceArchiveSha256": "1c9eb61cbc7e21200296476ea6d2d39d7605f961a504a581f3daa67f51d92f7e",
+        "archiveFile": null
+      }
+    ],
+    "unchangedRuntimeSemantics": [
+      "BOM",
+      "mounting holes",
+      "minimum hole count",
+      "optical ports",
+      "simulation",
+      "placement permission"
+    ],
+    "limits": {
+      "manufacturingMount": "No separate custom installation mount found; six manufacturer through-foot positions are registered for layout.",
+      "feet": "6×Ø6.4; side310 row spacing,50 pairs and30/50/325/6 X chain dimensioned. Housing width300 estimated. Pattern is not generally all-six25-grid compatible.",
+      "port": "AxisY101 from322/2−60, Z95.7 dimensioned; true windowX unknown (−208 exterior reference).",
+      "next": "Select intended table grid and mounting strategy, confirm real support faces/foot thickness and source-to-beam absolute datum; do not call reference STEP a manufacturing mount."
+    },
+    "referenceCad": {
+      "stepPath": "step/laser_installation_reference_20261006/LASER_532_HEAD_REFERENCE_WITH_DATUM.step",
+      "sha256": "54516f0d49aefcf94b5cd60ce54a516cc0d613720ccbd6cc14ea3a5395aa1dda",
+      "role": "DIMENSION_REFERENCE_ONLY_NOT_MANUFACTURER_CAD_NOT_MACHINING_MODEL",
+      "opticalDatumSymbolIsNonphysical": true,
+      "holesModeled": false,
+      "manufacturerCADVersion": null,
+      "canReleaseManufacturingMount": false
+    }
+  },
+  "id": "laser-532nm"
+}

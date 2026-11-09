@@ -1,0 +1,27 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "lbtek-lbc1-h62p5-smallpost50-r1",
+  "revision": "R1",
+  "displayName": "LBC1 刀片挡光器 · H62.5 小万能柱",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/lbtek-lbc1-h62p5-smallpost50-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-small-post-50mm-r1",
+    "hardware-iso4762-m6x16",
+    "lbtek-lbc1"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

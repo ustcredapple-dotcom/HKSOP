@@ -1,0 +1,113 @@
+{
+  "id": "custom-v7-2a",
+  "name": "V7 2英寸电动镜架 万能柱转接块",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "V7-R1",
+  "status": "加工审核资料；实物验收未执行",
+  "sourceUrl": "https://chatgpt.com/s/cx_6ac4918366588191ab1b8ae22e6f925b",
+  "productionReady": false,
+  "manufacturingStatus": "review-required",
+  "physicalAcceptance": "not-performed",
+  "stepPath": "step/motorized-v7-r1/custom-v7-2a.step",
+  "sourceStepSha256": "8c74532a340de1eb48d93fda5c091d1f8feedc9eaa7b686f94b217d1b1f30552",
+  "manufacturingSpec": {
+    "material": "316L stainless steel",
+    "surfaceTreatment": "去磁、钝化；接触面精加工",
+    "processDetails": "功能孔径/深度见 R1 图纸与 parts.json；不附加通用公差和粗糙度。"
+  },
+  "origin": "new-adapter-r1",
+  "manufacturingEvidence": {
+    "sourceStepSha256": "8c74532a340de1eb48d93fda5c091d1f8feedc9eaa7b686f94b217d1b1f30552",
+    "revision": "V7-R1",
+    "assetKind": "manufactured-single-part",
+    "physicalAcceptance": "not-performed",
+    "drawingSha256": "f17dee5adcff22e1b4fc2a27c271e0a1c4265c8827c93232c03d631aff591f4f",
+    "drawingScope": "R1 new adapter detailed review drawings",
+    "dxfSha256": "d795258ec2fe60d96cfa6b98f9612922b9d83f9d12b6b85b564c7a392193e928"
+  },
+  "drawingPath": null,
+  "sourceDrawingSha256": "f17dee5adcff22e1b4fc2a27c271e0a1c4265c8827c93232c03d631aff591f4f",
+  "dxfPath": null,
+  "sourceDxfSha256": "d795258ec2fe60d96cfa6b98f9612922b9d83f9d12b6b85b564c7a392193e928",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "e2fcc8d4d0b62f01f0e9fdfa9fd85502f96d6da298393399408be6e8250f1cc4",
+  "drawingPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "H12p5-B4R2-installation",
+      "currentPdfSha256": "f17dee5adcff22e1b4fc2a27c271e0a1c4265c8827c93232c03d631aff591f4f",
+      "annotatedPages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "geometryChanged": false,
+      "reviewScope": "H12.5 B4-R2 assembly views and notes updated; unchanged adapter machining pages retained. No physical/manufacturing release.",
+      "previousPdfSha256": "c72fc188c98d8ea9109020dc053896f5be97e85b59d5d211259af3bae5d6a760",
+      "unchangedMachiningPages": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "c7c2839016c4989348e8744d9f84254f1a937faceef39e86f0b91db42a383939",
+      "currentPdfSha256": "e2fcc8d4d0b62f01f0e9fdfa9fd85502f96d6da298393399408be6e8250f1cc4",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "drawingRevision": "CURRENT-H12p5B4R2-INSTALL",
+  "installationRevision": {
+    "revision": "B6-R1",
+    "adapterGeometryChanged": false,
+    "sourcePostBaseThicknessMm": 6,
+    "nominalOpticalHeightPreserved": true,
+    "physicalAssemblyAccepted": false
+  },
+  "notes": "本版安装页已按6 mm柱底及当前BOM修订；转接件本体加工尺寸保持。",
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "76d6f0ccd1684ff21f768b06c9ea0bc5da93692b067abe2d4fc0b5be7565e3a7",
+        "sha256": "f17dee5adcff22e1b4fc2a27c271e0a1c4265c8827c93232c03d631aff591f4f"
+      }
+    ]
+  },
+  "h12p5AssemblyInstructionUpdate": {
+    "revision": "2026-10-28",
+    "partGeometryChanged": false,
+    "scope": "Only ordinary H12.5 post references in shared assembly instruction PDF updated."
+  }
+}

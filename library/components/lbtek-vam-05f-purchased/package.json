@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "lbtek-vam-05f-purchased",
+  "revision": "source-snapshot",
+  "displayName": "不锈钢垂直调节安装架，顶丝固定Ø12.7 mm光学元件，带底座，正面装载",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/lbtek-vam-05f-purchased.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

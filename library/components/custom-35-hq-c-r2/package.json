@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-35-hq-c-r2",
+  "revision": "R2-TRIAL",
+  "displayName": "35-HQ-C 滨松 C15550-23UP 相机托板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-35-hq-c-r2.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

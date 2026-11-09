@@ -1,0 +1,31 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "kit-laser-308nm",
+  "files": [
+    {
+      "path": "cad/1cd6c544eddac2b45529f41f1a15bdb2691278abe7f839977c069fbb305d8094.step",
+      "stored": "library/assets/sha256/1c/1cd6c544eddac2b45529f41f1a15bdb2691278abe7f839977c069fbb305d8094.step",
+      "sha256": "1cd6c544eddac2b45529f41f1a15bdb2691278abe7f839977c069fbb305d8094",
+      "originalReferences": [
+        "step/laser_installation_reference_20261006/LASER_308_HEAD_REFERENCE_WITH_DATUM.step"
+      ],
+      "sources": [
+        "library/assets/sha256/1c/1cd6c544eddac2b45529f41f1a15bdb2691278abe7f839977c069fbb305d8094.step"
+      ]
+    },
+    {
+      "path": "rendering/211b8e202671423d5f2e8f1a80f593eb4bed012b834ba48ebb0a34056514e9ae.svg",
+      "stored": "library/assets/sha256/21/211b8e202671423d5f2e8f1a80f593eb4bed012b834ba48ebb0a34056514e9ae.svg",
+      "sha256": "211b8e202671423d5f2e8f1a80f593eb4bed012b834ba48ebb0a34056514e9ae",
+      "originalReferences": [
+        "topviews/kit_laser-308nm-ports-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/21/211b8e202671423d5f2e8f1a80f593eb4bed012b834ba48ebb0a34056514e9ae.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "laser-308nm"
+  ]
+}

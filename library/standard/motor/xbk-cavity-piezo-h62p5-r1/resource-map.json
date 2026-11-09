@@ -1,0 +1,49 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "xbk-cavity-piezo-h62p5-r1",
+  "files": [
+    {
+      "path": "cad/90b433a35565b78bb88fab77a0f3ead2db214cb9754a331d1022b0be23cff658.step",
+      "stored": "library/assets/sha256/90/90b433a35565b78bb88fab77a0f3ead2db214cb9754a331d1022b0be23cff658.step",
+      "sha256": "90b433a35565b78bb88fab77a0f3ead2db214cb9754a331d1022b0be23cff658",
+      "originalReferences": [
+        "step/xbk-cavity-piezo-h62p5-r1/XBK_Cavity_H62p5_R1_ASSEMBLY.step"
+      ],
+      "sources": [
+        "library/assets/sha256/90/90b433a35565b78bb88fab77a0f3ead2db214cb9754a331d1022b0be23cff658.step"
+      ]
+    },
+    {
+      "path": "rendering/a90931764e0fd6e3542363765801294398d49ecf5474338a25ccdbac4c3b75a1.svg",
+      "stored": "library/assets/sha256/a9/a90931764e0fd6e3542363765801294398d49ecf5474338a25ccdbac4c3b75a1.svg",
+      "sha256": "a90931764e0fd6e3542363765801294398d49ecf5474338a25ccdbac4c3b75a1",
+      "originalReferences": [
+        "topviews/xbk-cavity-piezo-h62p5-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/a9/a90931764e0fd6e3542363765801294398d49ecf5474338a25ccdbac4c3b75a1.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-cm127-a1-r3",
+    "custom-motor-h2d2-b-r3",
+    "custom-motor-h2d2-l-r2",
+    "custom-motor-h2d2-s-r3",
+    "custom-xbk-b01-h62p5-r1",
+    "custom-xbk-t01-h62p5-r1",
+    "encoder-servo",
+    "ganter-gn9135-m3-3-ku",
+    "hardware-h2-r3-m2x10",
+    "hardware-h2-r3-m4-washer",
+    "hardware-h2-r3-m4x20",
+    "hardware-iso4762-m2x8",
+    "hardware-iso4762-m3x8",
+    "hardware-xbk-cbs2-5-lowhead",
+    "hardware-xbk-iso4762-m6x8",
+    "motor-adapter-m3",
+    "new-r3-vendor-mt-am2s5",
+    "v7-source-m4-nut",
+    "zolix-ls35x-lab-e-purchased-stage"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "servo-pd-ug01-r3",
+  "revision": "R3",
+  "displayName": "UG01-R3 一体舵机固定座",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/servo-pd-ug01-r3.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

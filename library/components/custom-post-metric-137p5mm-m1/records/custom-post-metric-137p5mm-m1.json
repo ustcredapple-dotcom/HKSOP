@@ -1,0 +1,106 @@
+{
+  "id": "custom-post-metric-137p5mm-m1",
+  "name": "万能柱 137.5 mm · 底座6 mm B6 R1",
+  "model": "ZZ-POST-H137P5MM",
+  "kind": "custom",
+  "unit": "件",
+  "status": "底座6 mm / 总高保持；加工审核版",
+  "notes": "B6 R1：标称总高137.5 mm保持，含6 mm底座；底座35×35×6；Ø25柱身露出131.5 mm；4×Ø6.4贯穿底座，25×25孔距保持。顶中心M4×0.70深12、底中心M6×1深12；2×偏置M4深8、4×Ø2.01定位孔圆柱深4.2。底面、顶面、孔轴与钻尖保持原位置；只在原底座上表面增加2 mm材料。316L退磁、喷砂；激光打标，不铣刻。螺纹等级待确认；未实物试装或加工放行。",
+  "sourceUrl": "https://cad.onshape.com/documents/894af481abaf8644d053faa3/v/04f8ec309a2623b8b9552173/e/de354d683ec92c920a59abb8",
+  "stepPath": "step/universal-post-b6-r1/万能柱_H137.5mm_B6_R1.step",
+  "drawingPath": null,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "退磁、喷砂",
+    "threadClass": "待确认",
+    "profileId": "post316L",
+    "policyVersion": "materials-2026-09-24.2",
+    "processDetails": "B6 R1：标称总高137.5 mm保持，含6 mm底座；底座35×35×6；Ø25柱身露出131.5 mm；4×Ø6.4贯穿底座，25×25孔距保持。顶中心M4×0.70深12、底中心M6×1深12；2×偏置M4深8、4×Ø2.01定位孔圆柱深4.2。底面、顶面、孔轴与钻尖保持原位置；只在原底座上表面增加2 mm材料。316L退磁、喷砂；激光打标，不铣刻。螺纹等级待确认；未实物试装或加工放行。"
+  },
+  "postTopThread": "M4",
+  "heightMm": 137.5,
+  "revision": "B6-R1",
+  "seriesId": "metric-12p5-r1",
+  "sourceStepSha256": "e2bc0e50708fbf166a75dc713de5c78deba9588d779ec91b747670d7a11dd3df",
+  "drawingRevision": "B6-R1",
+  "drawingStatus": "engineering-review",
+  "productionReady": false,
+  "manufacturingEvidence": {
+    "revision": "B6-R1",
+    "sourceStepSha256": "e2bc0e50708fbf166a75dc713de5c78deba9588d779ec91b747670d7a11dd3df",
+    "drawingSha256": "66a2fafb9a6f4c8ef934281c2c771044eb9a3530ac6b614de1e71b5f97ef5db2",
+    "pageCount": 2,
+    "geometryValidated": true,
+    "pdfVisualReviewPassed": true,
+    "physicalAssemblyValidated": false,
+    "productionApprovalGranted": false,
+    "sourceVersionId": "04f8ec309a2623b8b9552173",
+    "sourceElementId": "de354d683ec92c920a59abb8",
+    "sourceGeometryKind": "authorized-local-exact-brep-revision",
+    "baseSourceStepSha256": "cf119bb824a4629b521edf504ce89cbfdda1b1934bc98b4b7945cd0afeab3a39",
+    "baseSourceRevision": "M1",
+    "baseSourceUrl": "https://cad.onshape.com/documents/3a3c1d8089df865b8b4e822a/v/717979e25918fc346b4f0518/e/fae658bc60545565a50fc643",
+    "generatorSha256": "38d690d2f8680e13a311b9da2d8249ce4e86a059e2247785603e206264e47273",
+    "geometryReviewSha256": "82b71750314e2dc22c43a69c7dc9e940c50d381fdb0b2fe76cba29b5e41f142a",
+    "measurementSha256": "85aee90a2b61117840c59c826cb6cff4c6125556487d1e0f58c69415fa54e57e",
+    "cloudGeometryReviewSha256": "aa942cc7ef2cf3a1c8f38efba04a57edcb67a50221ba22114cdac86b05acb8b8"
+  },
+  "sourceDrawingSha256": "66a2fafb9a6f4c8ef934281c2c771044eb9a3530ac6b614de1e71b5f97ef5db2",
+  "drawingPages": [
+    1,
+    2
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "B6-R1",
+      "currentPdfSha256": "66a2fafb9a6f4c8ef934281c2c771044eb9a3530ac6b614de1e71b5f97ef5db2",
+      "annotatedPages": [
+        1,
+        2
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "geometryChanged": true,
+      "reviewScope": "Current B6 exact STEP HLR, original post coordinate datums, directly attached hole-group specifications and individually rendered/viewed pages; physical/production acceptance not performed."
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "B6 R1新制柱底侧面标明柱高、型号系列与修订，区别4 mm旧版。",
+    "notes": "激光打标，不铣刻；配套1:1字形DXF和独立定位PDF；设备参数及首件工艺待试样，不重复打标已有同标识实物。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "mechanicalInterface": {
+    "baseThicknessMm": 6,
+    "stemExposedHeightMm": 131.5
+  },
+  "postBaseRevision": {
+    "revision": "B6-R1",
+    "previousRevision": "M1",
+    "baseThicknessMm": 6,
+    "nominalHeightMm": 137.5,
+    "nativeHeightAxis": "Y",
+    "seatingPlaneMm": -4,
+    "baseTopPlaneMm": 2,
+    "topPlaneMm": 133.5,
+    "heightAndAllOriginalFunctionalDatumsPreserved": true,
+    "previousRecordSha256": "3803aa2856cd48566846a0e86ea05a7d5726257671f17a8d4f3e50232f519688",
+    "previousStepSha256": "cf119bb824a4629b521edf504ce89cbfdda1b1934bc98b4b7945cd0afeab3a39",
+    "previousDrawingSha256": "8a0e2cb9d88dfb56d7d0bf9157a013558385b25a85ae44ecddae4f01b9b1dbc5",
+    "originalArchiveStatus": "pending-final-release-acceptance",
+    "cloudStatus": "frozen-strict-geometry-equivalent",
+    "authorization": "2026-10-15 user requested every universal post base4→6, total height unchanged; originals archived after completion."
+  },
+  "cloudReference": {
+    "active": true,
+    "current": true,
+    "status": "frozen-geometry-verified",
+    "documentId": "894af481abaf8644d053faa3",
+    "versionId": "04f8ec309a2623b8b9552173",
+    "elementId": "de354d683ec92c920a59abb8",
+    "sourceUrl": "https://cad.onshape.com/documents/894af481abaf8644d053faa3/v/04f8ec309a2623b8b9552173/e/de354d683ec92c920a59abb8",
+    "sourceStepSha256": "e2bc0e50708fbf166a75dc713de5c78deba9588d779ec91b747670d7a11dd3df",
+    "strictGeometryEquivalent": true,
+    "singlePartInIndependentAssembly": true,
+    "nativeParametricFeatureHistoryRetainedInOriginalArchive": true
+  }
+}

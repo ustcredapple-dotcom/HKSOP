@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "LS30-T",
+  "files": [
+    {
+      "path": "cad/c2817caae94e20465a3d7a93fc8c5f3a738293abcd5689669a6f193bbc0e423a.step",
+      "stored": "library/assets/sha256/c2/c2817caae94e20465a3d7a93fc8c5f3a738293abcd5689669a6f193bbc0e423a.step",
+      "sha256": "c2817caae94e20465a3d7a93fc8c5f3a738293abcd5689669a6f193bbc0e423a",
+      "originalReferences": [
+        "step/manual-stage-r2-a7075/LS30-T.step"
+      ],
+      "sources": [
+        "library/assets/sha256/c2/c2817caae94e20465a3d7a93fc8c5f3a738293abcd5689669a6f193bbc0e423a.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

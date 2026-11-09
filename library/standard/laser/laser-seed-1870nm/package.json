@@ -1,0 +1,23 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "laser-seed-1870nm",
+  "revision": "source-snapshot",
+  "displayName": "1870 nm 种子激光器 · 光纤输出",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/laser-seed-1870nm.json"
+    }
+  ],
+  "componentDependencies": [],
+  "capabilities": {
+    "display": "available",
+    "placement": "not-declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

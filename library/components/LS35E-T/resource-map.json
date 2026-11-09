@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "LS35E-T",
+  "files": [
+    {
+      "path": "cad/874faaf374d1f5aafab61b3d72bc168a6a5a2da1add9da03acb66d723f105335.step",
+      "stored": "library/assets/sha256/87/874faaf374d1f5aafab61b3d72bc168a6a5a2da1add9da03acb66d723f105335.step",
+      "sha256": "874faaf374d1f5aafab61b3d72bc168a6a5a2da1add9da03acb66d723f105335",
+      "originalReferences": [
+        "step/ls35x-lab-e-r1/31-LS35-T_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/87/874faaf374d1f5aafab61b3d72bc168a6a5a2da1add9da03acb66d723f105335.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

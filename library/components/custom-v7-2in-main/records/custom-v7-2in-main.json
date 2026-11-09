@@ -1,0 +1,81 @@
+{
+  "id": "custom-v7-2in-main",
+  "name": "V7 2英寸电动镜架 主板",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "V7-R1",
+  "status": "加工审核资料；实物验收未执行",
+  "sourceUrl": "https://chatgpt.com/s/cx_6ac4918366588191ab1b8ae22e6f925b",
+  "productionReady": false,
+  "manufacturingStatus": "review-required",
+  "physicalAcceptance": "not-performed",
+  "stepPath": "step/motorized-v7-r1/custom-v7-2in-main.step",
+  "sourceStepSha256": "1f6fb3a3ddd2dc6eb0dba8e2d9000a1dac5766b36b1ab84f5f80819fe670d3bd",
+  "manufacturingSpec": {
+    "material": "沿用源设计；待审核确认",
+    "surfaceTreatment": "沿用源设计；待审核确认",
+    "processDetails": "保留用户提供 V7 单件 STEP；不缩放、不更改孔位；尺寸复核图不代表投产批准。"
+  },
+  "origin": "user-supplied-v7-unchanged",
+  "manufacturingEvidence": {
+    "sourceStepSha256": "1f6fb3a3ddd2dc6eb0dba8e2d9000a1dac5766b36b1ab84f5f80819fe670d3bd",
+    "revision": "V7-R1",
+    "assetKind": "manufactured-single-part",
+    "physicalAcceptance": "not-performed",
+    "drawingSha256": "7cbcc7cb9f4e7777b8c4a20c6102bb1e0503d5dfd129c1d6d139cdba16bb2340",
+    "drawingScope": "Original V7 unchanged single part, dimension review drawing; no manufacturing release",
+    "dxfSha256": "2c72775f44463c4cb97d4bed4c22c3519281a771fc375d248df6610c153c5556"
+  },
+  "drawingPath": null,
+  "sourceDrawingSha256": "7cbcc7cb9f4e7777b8c4a20c6102bb1e0503d5dfd129c1d6d139cdba16bb2340",
+  "dxfPath": null,
+  "sourceDxfSha256": "2c72775f44463c4cb97d4bed4c22c3519281a771fc375d248df6610c153c5556",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "083a62b5274788011a6599cf481e8112304727c1d9b044a7ccee412f7472c0ff",
+  "drawingPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "a2d624ba148d85489b2d4dcbdd55ffa095948fc3acdf1a9f47b5a043ef46f030",
+      "currentPdfSha256": "7cbcc7cb9f4e7777b8c4a20c6102bb1e0503d5dfd129c1d6d139cdba16bb2340",
+      "annotatedPages": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "de1a4cb39cec10e24ff9c65de637b41f3d0e320b66fe840915dcd0d0acb30a72",
+      "currentPdfSha256": "083a62b5274788011a6599cf481e8112304727c1d9b044a7ccee412f7472c0ff",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "按本轮补齐要求增加识别编号；已核当前 STEP 外表面位置。",
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

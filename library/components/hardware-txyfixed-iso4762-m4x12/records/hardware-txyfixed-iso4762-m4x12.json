@@ -1,0 +1,8 @@
+{
+  "id": "hardware-txyfixed-iso4762-m4x12",
+  "name": "ISO4762 M4×12",
+  "model": "ISO4762 M4×12",
+  "kind": "standard",
+  "unit": "颗",
+  "notes": "底面固定TXY1S，名义旋入4.574；先锁镜架、再上板、最后套筒。 按源BOM指定，标准紧固件未详模；采用普通圆柱头内六角螺钉，顶板不使用锥形沉头。"
+}

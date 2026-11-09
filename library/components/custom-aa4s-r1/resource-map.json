@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-aa4s-r1",
+  "files": [
+    {
+      "path": "cad/fa29889c5484dbc169b1d7102a300b8bf8303218d44df745de6f10fc53feabab.step",
+      "stored": "library/assets/sha256/fa/fa29889c5484dbc169b1d7102a300b8bf8303218d44df745de6f10fc53feabab.step",
+      "sha256": "fa29889c5484dbc169b1d7102a300b8bf8303218d44df745de6f10fc53feabab",
+      "originalReferences": [
+        "step/combined-r1-20261015/4/AA4S_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/fa/fa29889c5484dbc169b1d7102a300b8bf8303218d44df745de6f10fc53feabab.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

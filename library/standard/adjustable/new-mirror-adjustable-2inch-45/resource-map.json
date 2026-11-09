@@ -1,0 +1,36 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-mirror-adjustable-2inch-45",
+  "files": [
+    {
+      "path": "cad/3eb030ba08037c78cbddbf282bb6c5f76edd63567c464585f17a5ac7fa410fcc.step",
+      "stored": "library/assets/sha256/3e/3eb030ba08037c78cbddbf282bb6c5f76edd63567c464585f17a5ac7fa410fcc.step",
+      "sha256": "3eb030ba08037c78cbddbf282bb6c5f76edd63567c464585f17a5ac7fa410fcc",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/new-mirror-adjustable-2inch-45__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/3e/3eb030ba08037c78cbddbf282bb6c5f76edd63567c464585f17a5ac7fa410fcc.step"
+      ]
+    },
+    {
+      "path": "rendering/72987281b40629bba7a5a6cd7b8e2df8fe0b4277e843ed4f57dc4e9a5d7f74fe.svg",
+      "stored": "library/assets/sha256/72/72987281b40629bba7a5a6cd7b8e2df8fe0b4277e843ed4f57dc4e9a5d7f74fe.svg",
+      "sha256": "72987281b40629bba7a5a6cd7b8e2df8fe0b4277e843ed4f57dc4e9a5d7f74fe",
+      "originalReferences": [
+        "topviews/new-mirror-adjustable-2inch-45__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/72/72987281b40629bba7a5a6cd7b8e2df8fe0b4277e843ed4f57dc4e9a5d7f74fe.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-post-metric-12p5mm-m1",
+    "metric-m1-post-m4x16",
+    "metric-m1-post-pin-d2x8",
+    "new-r3-18-r3-adapter",
+    "new-r3-vendor-lpm20-532-hp",
+    "new-r3-vendor-mt-am2s5"
+  ]
+}

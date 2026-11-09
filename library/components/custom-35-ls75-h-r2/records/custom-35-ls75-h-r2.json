@@ -1,0 +1,59 @@
+{
+  "id": "custom-35-ls75-h-r2",
+  "name": "35-LS75-H R2 · 滨松侧转双筋直角座",
+  "model": "35-LS75-H",
+  "revision": "R2",
+  "kind": "custom",
+  "unit": "件",
+  "stepPath": "step/camera-ls75-h75-r2/35-LS75-H_R2.step",
+  "sourceStepSha256": "5f75449e1201077b96c2561a3a6562d02e69a25e2658b659bb7d3048aaba46b2",
+  "drawingPath": null,
+  "sourceDrawingSha256": "14838a95a1f83e6492de3009aa60ded0aae8cc87f1e65465f398ee8f4779002e",
+  "drawingPage": 2,
+  "drawingViews": [
+    {
+      "view": "35-LS75-H_R2_FRONT_1to1",
+      "dxfPath": null,
+      "dxfPdfPath": null,
+      "notes": "1:1几何投影；完整尺寸及工艺以同修订PDF指定页为准。"
+    },
+    {
+      "view": "35-LS75-H_R2_LEFT_1to1",
+      "dxfPath": null,
+      "dxfPdfPath": null,
+      "notes": "1:1几何投影；完整尺寸及工艺以同修订PDF指定页为准。"
+    },
+    {
+      "view": "35-LS75-H_R2_TOP_1to1",
+      "dxfPath": null,
+      "dxfPdfPath": null,
+      "notes": "1:1几何投影；完整尺寸及工艺以同修订PDF指定页为准。"
+    }
+  ],
+  "dxfPath": null,
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "14838a95a1f83e6492de3009aa60ded0aae8cc87f1e65465f398ee8f4779002e",
+  "productionReady": false,
+  "drawingStatus": "engineering-review",
+  "status": "加工审核版；未实物试装",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "滨松侧转90°一体直角座：底75.7×140×8，立板10厚、双筋8厚，局部最高88；原底座3×M6×10侧装。 位移台顶部4×M6×8固定，编号激光打标，不铣刻。"
+  },
+  "manufacturingEvidence": {
+    "sourceStepSha256": "5f75449e1201077b96c2561a3a6562d02e69a25e2658b659bb7d3048aaba46b2",
+    "geometryValidated": true,
+    "pdfVisualReviewPassed": true,
+    "sourceReview": "producer frozen QA reused",
+    "physicalAssemblyTested": false,
+    "engineeringReleaseApproved": false
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "自制件身份标识",
+    "notes": "字高2.5，图示局部左下(-14,-68)。HQ局部Z8/世界Z34，A65局部Z9/世界Z35；A65冻结单件STEP本身Z26..35，不改变源坐标。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "notes": "滨松侧转90°一体直角座：底75.7×140×8，立板10厚、双筋8厚，局部最高88；原底座3×M6×10侧装。 图纸PDF第2页；DXF为未带完整标注的几何投影，不替代PDF加工图。"
+}

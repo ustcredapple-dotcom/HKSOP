@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "periscope-d2x8-pin",
+  "revision": "source-snapshot",
+  "displayName": "板间定位销 Ø2×8",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/periscope-d2x8-pin.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

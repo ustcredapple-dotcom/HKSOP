@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-aom-adapter-1",
+  "files": [
+    {
+      "path": "cad/724b16df042c5174282972d24cc76565caf1d12fc37d46428e243dc86cb7ab21.step",
+      "stored": "library/assets/sha256/72/724b16df042c5174282972d24cc76565caf1d12fc37d46428e243dc86cb7ab21.step",
+      "sha256": "724b16df042c5174282972d24cc76565caf1d12fc37d46428e243dc86cb7ab21",
+      "originalReferences": [
+        "step/metric-m1-20261006/08-AOM-B_METRIC_M1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/72/724b16df042c5174282972d24cc76565caf1d12fc37d46428e243dc86cb7ab21.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

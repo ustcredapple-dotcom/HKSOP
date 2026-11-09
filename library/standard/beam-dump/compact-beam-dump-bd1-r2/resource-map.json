@@ -1,0 +1,40 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "compact-beam-dump-bd1-r2",
+  "files": [
+    {
+      "path": "rendering/8a60c3e7f3e9e5649f889ad9d590bd110466d7b45f40e16e415f15dd2b53aac2.svg",
+      "stored": "library/assets/sha256/8a/8a60c3e7f3e9e5649f889ad9d590bd110466d7b45f40e16e415f15dd2b53aac2.svg",
+      "sha256": "8a60c3e7f3e9e5649f889ad9d590bd110466d7b45f40e16e415f15dd2b53aac2",
+      "originalReferences": [
+        "topviews/compact-beam-dump-bd1-r2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/8a/8a60c3e7f3e9e5649f889ad9d590bd110466d7b45f40e16e415f15dd2b53aac2.svg"
+      ]
+    },
+    {
+      "path": "cad/9a4a6cd0e7ddfe0eeadbdca292149d4cc4b8e3cab5f82d608420f0e47c583d38.step",
+      "stored": "library/assets/sha256/9a/9a4a6cd0e7ddfe0eeadbdca292149d4cc4b8e3cab5f82d608420f0e47c583d38.step",
+      "sha256": "9a4a6cd0e7ddfe0eeadbdca292149d4cc4b8e3cab5f82d608420f0e47c583d38",
+      "originalReferences": [
+        "step/bd1-r2/BD1_R2_assembly.step"
+      ],
+      "sources": [
+        "library/assets/sha256/9a/9a4a6cd0e7ddfe0eeadbdca292149d4cc4b8e3cab5f82d608420f0e47c583d38.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-bd1-a1-r2",
+    "custom-post-metric-25mm-m1",
+    "lbtek-mop-12p5",
+    "lbtek-mopc-5p6-p4",
+    "lbtek-ramc-1bl",
+    "metric-m1-post-m4x16",
+    "metric-m1-post-pin-d2x8",
+    "new-beam-dump-vendor-1",
+    "new-hardware-f0579b934c7c",
+    "opm-12.5bs"
+  ]
+}

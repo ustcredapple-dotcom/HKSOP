@@ -1,0 +1,37 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "motor-1",
+  "revision": "MS2-A-R3-THRU-B6R1",
+  "displayName": "电动反射镜 · 1 inch · 90° · MS2-A R3-THRU",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/motor-1-45.json"
+    },
+    {
+      "kind": "kits",
+      "path": "records/motor-1-90.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-motor-adapter-10-s2-r2",
+    "custom-motor-ms2-a-r3-thru",
+    "custom-motor-ms2-h-r2",
+    "custom-motor-ms2-l-r2",
+    "custom-motor-ms2-s-r2",
+    "custom-post-metric-25mm-m1",
+    "encoder-servo",
+    "motor-adapter-m3",
+    "mt-am1s5"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

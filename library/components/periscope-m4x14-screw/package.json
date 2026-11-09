@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "periscope-m4x14-screw",
+  "revision": "source-snapshot",
+  "displayName": "内六角圆柱头螺钉 M4×14",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/periscope-m4x14-screw.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

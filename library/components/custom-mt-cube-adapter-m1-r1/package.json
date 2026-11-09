@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-mt-cube-adapter-m1-r1",
+  "revision": "M1-R1",
+  "displayName": "MT立方体分束模块单体转接件",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-mt-cube-adapter-m1-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

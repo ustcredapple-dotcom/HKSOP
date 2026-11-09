@@ -1,0 +1,37 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "fixed-dichroic-1inch-0-r1",
+  "files": [
+    {
+      "path": "cad/7d541143e121a63b6f17d5b7f759acef933b97d4d60a0127f8eddb3680475ee1.step",
+      "stored": "library/assets/sha256/7d/7d541143e121a63b6f17d5b7f759acef933b97d4d60a0127f8eddb3680475ee1.step",
+      "sha256": "7d541143e121a63b6f17d5b7f759acef933b97d4d60a0127f8eddb3680475ee1",
+      "originalReferences": [
+        "step/fixed-dichroic-r1/DC1-F_R1_0deg_assembly.step"
+      ],
+      "sources": [
+        "library/assets/sha256/7d/7d541143e121a63b6f17d5b7f759acef933b97d4d60a0127f8eddb3680475ee1.step"
+      ]
+    },
+    {
+      "path": "rendering/d77117cb797d3fcdf97c3b15f6bec5e39bdb3000417dc553cd22d962fdb21e13.svg",
+      "stored": "library/assets/sha256/d7/d77117cb797d3fcdf97c3b15f6bec5e39bdb3000417dc553cd22d962fdb21e13.svg",
+      "sha256": "d77117cb797d3fcdf97c3b15f6bec5e39bdb3000417dc553cd22d962fdb21e13",
+      "originalReferences": [
+        "topviews/fixed-dichroic-1inch-0-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/d7/d77117cb797d3fcdf97c3b15f6bec5e39bdb3000417dc553cd22d962fdb21e13.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-dc1-f-r1",
+    "custom-post-metric-25mm-m1",
+    "hardware-h2-r3-m4x20",
+    "metric-m1-post-pin-d2x8",
+    "mt-flf1s",
+    "new-hardware-0cc1a2908550",
+    "new-hardware-d56c7b8035c3"
+  ]
+}

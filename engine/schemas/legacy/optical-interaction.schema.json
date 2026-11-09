@@ -1,0 +1,458 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:zzlab:optical-interaction:v1",
+  "title": "ZZLab optical interaction language v1",
+  "$comment": "Finite data DSL. No expressions, eval, URLs, arbitrary matrices or gain. Python/JS normalizers and runtime are authoritative for cross-field, physical and evidence checks. Unicode codepoint text lengths. Source geometry and axis height remain authoritative catalog data.",
+  "oneOf": [
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "format": {
+          "const": "zzlab-optical-interaction"
+        },
+        "version": {
+          "const": 1,
+          "type": "number"
+        },
+        "heightToleranceMm": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "model": {
+          "const": "planar"
+        },
+        "inputs": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 16,
+          "items": {
+            "$ref": "#/$defs/input"
+          }
+        },
+        "onNoMatch": {
+          "enum": [
+            "block",
+            "pass"
+          ]
+        }
+      },
+      "required": [
+        "format",
+        "version",
+        "model",
+        "inputs",
+        "onNoMatch"
+      ]
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "format": {
+          "const": "zzlab-optical-interaction"
+        },
+        "version": {
+          "const": 1,
+          "type": "number"
+        },
+        "heightToleranceMm": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "model": {
+          "const": "source"
+        },
+        "emission": {
+          "$ref": "#/$defs/condition"
+        }
+      },
+      "required": [
+        "format",
+        "version",
+        "model",
+        "emission"
+      ]
+    }
+  ],
+  "$defs": {
+    "direction": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "angleDeg": {
+          "type": "number",
+          "minimum": -3600,
+          "maximum": 3600
+        },
+        "halfAngleDeg": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 90
+        },
+        "bidirectional": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "angleDeg",
+        "halfAngleDeg",
+        "bidirectional"
+      ]
+    },
+    "wavelength": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "min": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 1000000.0
+        },
+        "max": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 1000000.0
+        },
+        "onMismatch": {
+          "enum": [
+            "block",
+            "warn"
+          ]
+        }
+      },
+      "required": [
+        "min",
+        "max",
+        "onMismatch"
+      ],
+      "$comment": "Runtime additionally checks min <= max."
+    },
+    "condition": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "direction": {
+          "$ref": "#/$defs/direction"
+        },
+        "wavelengthNm": {
+          "$ref": "#/$defs/wavelength"
+        }
+      },
+      "required": []
+    },
+    "plate": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "inserted": {
+          "type": "boolean"
+        },
+        "fastAxisDeg": {
+          "type": "number",
+          "minimum": -3600,
+          "maximum": 3600
+        },
+        "retardanceDeg": {
+          "type": "number",
+          "minimum": -36000,
+          "maximum": 36000
+        },
+        "designWavelengthNm": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 1000000.0
+        }
+      },
+      "required": [
+        "inserted"
+      ],
+      "$comment": "An inserted explicit plate missing numeric fields validates as incomplete data but blocks evaluation; no measurement is invented."
+    },
+    "mirror": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mode": {
+          "enum": [
+            "ideal",
+            "data"
+          ]
+        },
+        "model": {
+          "type": "string",
+          "maxLength": 160,
+          "pattern": "^[^\\u0000-\\u0008\\u000b\\u000c\\u000e-\\u001f\\u007f]*$"
+        },
+        "samples": {
+          "type": "array",
+          "maxItems": 256,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "wavelengthNm": {
+                "type": "number",
+                "minimum": 1,
+                "maximum": 1000000.0
+              },
+              "incidenceAngleDeg": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 90
+              },
+              "reflectanceP": {
+                "anyOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "reflectanceS": {
+                "anyOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "phaseDifferenceDeg": {
+                "anyOf": [
+                  {
+                    "type": "number",
+                    "minimum": -36000,
+                    "maximum": 36000
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "wavelengthNm",
+              "incidenceAngleDeg",
+              "reflectanceP",
+              "reflectanceS",
+              "phaseDifferenceDeg"
+            ]
+          }
+        }
+      },
+      "required": [
+        "mode",
+        "samples"
+      ],
+      "$comment": "No duplicate (wavelengthNm,incidenceAngleDeg); unknown coefficients are null. Full data mode evaluation needs a matching physical sample. Model retains the existing mirror normalizer text rules."
+    },
+    "step": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "op": {
+              "const": "pass"
+            }
+          },
+          "required": [
+            "op"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "op": {
+              "const": "pbs"
+            }
+          },
+          "required": [
+            "op"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "op": {
+              "const": "mirror"
+            },
+            "mirror": {
+              "$ref": "#/$defs/mirror"
+            }
+          },
+          "required": [
+            "op"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "op": {
+              "const": "waveplate"
+            },
+            "waveplates": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 8,
+              "items": {
+                "$ref": "#/$defs/plate"
+              }
+            }
+          },
+          "required": [
+            "op"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "op": {
+              "const": "lens"
+            },
+            "focalLengthMm": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": -1000000.0,
+                  "maximum": -1e-06
+                },
+                {
+                  "type": "number",
+                  "minimum": 1e-06,
+                  "maximum": 1000000.0
+                }
+              ]
+            }
+          },
+          "required": [
+            "op"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "op": {
+              "const": "coupler"
+            },
+            "halfAngleDeg": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 90
+            }
+          },
+          "required": [
+            "op"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "op": {
+              "const": "attenuate"
+            },
+            "transmission": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": [
+            "op",
+            "transmission"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "op": {
+              "const": "absorb"
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 500,
+              "pattern": "^(?![\\u0009-\\u000d\\u0020\\u00a0\\u1680\\u2000-\\u200a\\u2028\\u2029\\u202f\\u205f\\u3000\\ufeff]*$)[^\\u0000-\\u001f\\u007f]+$"
+            }
+          },
+          "required": [
+            "op"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "op": {
+              "const": "block"
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 500,
+              "pattern": "^(?![\\u0009-\\u000d\\u0020\\u00a0\\u1680\\u2000-\\u200a\\u2028\\u2029\\u202f\\u205f\\u3000\\ufeff]*$)[^\\u0000-\\u001f\\u007f]+$"
+            }
+          },
+          "required": [
+            "op",
+            "reason"
+          ]
+        }
+      ]
+    },
+    "input": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "pattern": "^(?![\\u0009-\\u000d\\u0020\\u00a0\\u1680\\u2000-\\u200a\\u2028\\u2029\\u202f\\u205f\\u3000\\ufeff]*$)[^\\u0000-\\u001f\\u007f]+$",
+          "not": {
+            "enum": [
+              "__proto__",
+              "constructor",
+              "prototype"
+            ]
+          }
+        },
+        "direction": {
+          "$ref": "#/$defs/direction"
+        },
+        "wavelengthNm": {
+          "$ref": "#/$defs/wavelength"
+        },
+        "steps": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 8,
+          "items": {
+            "$ref": "#/$defs/step"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "steps"
+      ]
+    }
+  }
+}

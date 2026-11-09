@@ -1,0 +1,95 @@
+{
+  "id": "custom-periscope-turn90-25tl-r3",
+  "name": "低位转向爬架",
+  "model": "25-TL R3",
+  "kind": "custom",
+  "unit": "件",
+  "stepPath": "step/periscope-standard-r3/25-TL_R3_CENTERED.step",
+  "sourceStepSha256": "d5367b5f0a13e1ddb66f6afdd2cc8a35d71d4562a7c1355d28507c00556d015e",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "仅按冻结孔表加工；通用公差和粗糙度依用户要求有意省略。螺纹规格依图纸，不从底孔直径推断。"
+  },
+  "status": "名义CAD工程审核；实物刚度、夹紧和重复定位未实测",
+  "notes": "原有柱及商业MT-AM1S5未改；旧custom10保留历史，本R3使用独立10-C校正件。镜片几何盘不代表已选光学型号。",
+  "sourceOwnership": {
+    "originalSystem": "用户原有模块与原厂家参考组件",
+    "currentRevision": "本任务获准R3结构修订",
+    "role": "新增定制件；不归属复用商用品原设计"
+  },
+  "drawingPath": null,
+  "sourceDrawingSha256": "b9ece335129d88a972077fb0575cb50d1e9237af563bc890fc5a5f7a6201402e",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "dxfPath": null,
+  "manufacturingEvidence": {
+    "sourceStepSha256": "d5367b5f0a13e1ddb66f6afdd2cc8a35d71d4562a7c1355d28507c00556d015e",
+    "drawingSha256": "b9ece335129d88a972077fb0575cb50d1e9237af563bc890fc5a5f7a6201402e",
+    "dxfSha256": "71517fa15266bfa6fc17e2909bcb81cc18b258314f6f5c877e46c6f0f81479ec",
+    "pageCount": 3,
+    "specPath": "source-project/periscope_standard_r3_20261006/turn90_cad/centered/L/specs/25-TL.json",
+    "specSHA256": "db72f6897b77700fbf2d74405a2ef9fe18cf89bfc7e4b216b727da15c6d8ccf8",
+    "geometryReview": "library/reviews/periscope-standard-r3-20261006/evidence/package_review.json",
+    "releaseScope": "nominal CAD/drawing engineering review; no physical manufacturing qualification"
+  },
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/13e796b6399c6c09085aa668/e/0cf11fc028ba72ed5078002d",
+  "drawingSourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/13e796b6399c6c09085aa668/e/e733404f0c738a89450c633f",
+  "drawingSourceUrlRole": "frozen imported machining PDF; local SHA-bound PDF remains manufacturing document",
+  "sourcePartName": "公制90度多档紧凑一体爬架_25-TL",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "114d8b107aab09ce8d9e4455cbb6584a1433696a29a58f311ccc5cc03725cd99",
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "430243023985380b5104975a83a08551b9e381bb2ce40d52a9839f85850f50da",
+      "currentPdfSha256": "dd9e87f62f6368f3ba1e03de5b6dd2311650d50950339a3594a5d9f59cdfdd19",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "ad1eecb633220e0ffca30bab27d12db51ae66c29f35dbdeb616a6cff2e164511",
+      "currentPdfSha256": "114d8b107aab09ce8d9e4455cbb6584a1433696a29a58f311ccc5cc03725cd99",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "6e8b0d347a3a185b2dc18b5a73732b58559efddc7657bc085d4e5f15c9ca8533",
+        "sha256": "b9ece335129d88a972077fb0575cb50d1e9237af563bc890fc5a5f7a6201402e"
+      },
+      {
+        "path": null,
+        "previousSha256": "52021b8e826f8ab98e02d342392eede6e4a19e0b5e41162a413415e65d07358b",
+        "sha256": "71517fa15266bfa6fc17e2909bcb81cc18b258314f6f5c877e46c6f0f81479ec"
+      }
+    ]
+  }
+}

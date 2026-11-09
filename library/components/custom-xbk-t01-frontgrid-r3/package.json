@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-xbk-t01-frontgrid-r3",
+  "revision": "R3-FRONT-GRID",
+  "displayName": "XBK-T01 前伸双档上转接件 R3",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-xbk-t01-frontgrid-r3.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,40 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "mt-cube-pbs-0p5inch-motorized-r1",
+  "revision": "R1",
+  "displayName": "MT立方体PBS模块 · 0.5 inch · 电动竖直驱动 · R1",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/mt-cube-pbs-0p5inch-motorized-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-mcve05-r1",
+    "custom-mv05-dh-r1",
+    "custom-mv05-dl-r1",
+    "custom-mv05-s1-r1",
+    "custom-post-metric-37p5mm-m1",
+    "encoder-servo",
+    "hardware-h2-r3-m2x10",
+    "hardware-iso4762-m6x12",
+    "hardware-pbs-mv05-m2x12",
+    "lbtek-mt-csb05-purchased",
+    "metric-m1-post-pin-d2x8",
+    "motor-bracket-21",
+    "mt-am05s5",
+    "new-r3-hardware-b7a3ea97ce89",
+    "new-r3-hardware-eb2e220803c7",
+    "v7-iso4762-m4x12"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

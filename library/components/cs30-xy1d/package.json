@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "cs30-xy1d",
+  "revision": "source-snapshot",
+  "displayName": "30 mm 笼式 XY 调整架",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/cs30-xy1d.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

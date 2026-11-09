@@ -1,0 +1,32 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "pbs20-amp1r-h62p5-r1",
+  "revision": "R1",
+  "displayName": "20 mm PBS 可调架 · AMP-1R R1",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/pbs20-amp1r-h62p5-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "amp-1r",
+    "custom-p20-l-r1",
+    "custom-p20-u-r1",
+    "custom-post-metric-12p5mm-m1",
+    "metric-m1-post-pin-d2x8",
+    "new-hardware-f0579b934c7c",
+    "new-r3-hardware-b63ea2222bac",
+    "pcms20"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-post-metric-50mm-m1",
+  "files": [
+    {
+      "path": "cad/fe0405c387a46d642f6ea240c55e400c634f990179850441adf7f7517729fc6d.step",
+      "stored": "library/assets/sha256/fe/fe0405c387a46d642f6ea240c55e400c634f990179850441adf7f7517729fc6d.step",
+      "sha256": "fe0405c387a46d642f6ea240c55e400c634f990179850441adf7f7517729fc6d",
+      "originalReferences": [
+        "step/universal-post-b6-r1/万能柱_H50mm_B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/fe/fe0405c387a46d642f6ea240c55e400c634f990179850441adf7f7517729fc6d.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

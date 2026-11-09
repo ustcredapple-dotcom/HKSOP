@@ -1,0 +1,36 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-waveplate-single",
+  "files": [
+    {
+      "path": "cad/bb5133fb0cd7ae1d698d459adcdfad0a0211604ab2d2c795508cd45eb504c819.step",
+      "stored": "library/assets/sha256/bb/bb5133fb0cd7ae1d698d459adcdfad0a0211604ab2d2c795508cd45eb504c819.step",
+      "sha256": "bb5133fb0cd7ae1d698d459adcdfad0a0211604ab2d2c795508cd45eb504c819",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/new-waveplate-single__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/bb/bb5133fb0cd7ae1d698d459adcdfad0a0211604ab2d2c795508cd45eb504c819.step"
+      ]
+    },
+    {
+      "path": "rendering/bf374f6d9074329ed9d5dd1289bf1d05c3445c0c56015bf15eceb8f6bd0581fe.svg",
+      "stored": "library/assets/sha256/bf/bf374f6d9074329ed9d5dd1289bf1d05c3445c0c56015bf15eceb8f6bd0581fe.svg",
+      "sha256": "bf374f6d9074329ed9d5dd1289bf1d05c3445c0c56015bf15eceb8f6bd0581fe",
+      "originalReferences": [
+        "topviews/new-waveplate-single__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/bf/bf374f6d9074329ed9d5dd1289bf1d05c3445c0c56015bf15eceb8f6bd0581fe.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "crm-1as",
+    "custom-post-metric-25mm-m1",
+    "metric-m1-post-m4x18",
+    "metric-m1-post-pin-d2x8",
+    "new-waveplate-single-adapter-1",
+    "new-waveplate-single-vendor-2"
+  ]
+}

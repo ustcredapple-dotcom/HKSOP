@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-r3-16-r3-adapter",
+  "files": [
+    {
+      "path": "cad/89760767862143fc164f8650b5154f6825774897f0174738ebf4a1946bd8ed41.step",
+      "stored": "library/assets/sha256/89/89760767862143fc164f8650b5154f6825774897f0174738ebf4a1946bd8ed41.step",
+      "sha256": "89760767862143fc164f8650b5154f6825774897f0174738ebf4a1946bd8ed41",
+      "originalReferences": [
+        "step/metric-m1-20261006/16-LENS_METRIC_M1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/89/89760767862143fc164f8650b5154f6825774897f0174738ebf4a1946bd8ed41.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

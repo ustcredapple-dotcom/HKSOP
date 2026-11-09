@@ -1,0 +1,31 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "extension-ed137p5-r1",
+  "files": [
+    {
+      "path": "rendering/1eea847f15be49bf2fb4f1b40df1d182740e8a46fa95e718611211b5d874e39e.svg",
+      "stored": "library/assets/sha256/1e/1eea847f15be49bf2fb4f1b40df1d182740e8a46fa95e718611211b5d874e39e.svg",
+      "sha256": "1eea847f15be49bf2fb4f1b40df1d182740e8a46fa95e718611211b5d874e39e",
+      "originalReferences": [
+        "topviews/extension-ed137p5-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/1e/1eea847f15be49bf2fb4f1b40df1d182740e8a46fa95e718611211b5d874e39e.svg"
+      ]
+    },
+    {
+      "path": "cad/482b6be28db092279e7a7c35406ff083c82cada36407aa4b4befb8475c276571.step",
+      "stored": "library/assets/sha256/48/482b6be28db092279e7a7c35406ff083c82cada36407aa4b4befb8475c276571.step",
+      "sha256": "482b6be28db092279e7a7c35406ff083c82cada36407aa4b4befb8475c276571",
+      "originalReferences": [
+        "step/extension-series-r1/延长137.5√2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/48/482b6be28db092279e7a7c35406ff083c82cada36407aa4b4befb8475c276571.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-extension-ed137p5-r1"
+  ]
+}

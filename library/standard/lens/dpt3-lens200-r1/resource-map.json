@@ -1,0 +1,35 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "dpt3-lens200-r1",
+  "files": [
+    {
+      "path": "rendering/764ddd2558e10ab1ff04e290c2b92fdebf0acd32654d5f52415f68f57231e779.svg",
+      "stored": "library/assets/sha256/76/764ddd2558e10ab1ff04e290c2b92fdebf0acd32654d5f52415f68f57231e779.svg",
+      "sha256": "764ddd2558e10ab1ff04e290c2b92fdebf0acd32654d5f52415f68f57231e779",
+      "originalReferences": [
+        "topviews/dpt3-lens200-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/76/764ddd2558e10ab1ff04e290c2b92fdebf0acd32654d5f52415f68f57231e779.svg"
+      ]
+    },
+    {
+      "path": "cad/fdbaea70d3e72d930740411c01fbefbabf2e271145f47af08bff85c771afb56a.step",
+      "stored": "library/assets/sha256/fd/fdbaea70d3e72d930740411c01fbefbabf2e271145f47af08bff85c771afb56a.step",
+      "sha256": "fdbaea70d3e72d930740411c01fbefbabf2e271145f47af08bff85c771afb56a",
+      "originalReferences": [
+        "step/dipole-trap3-r1/LENS_R200_LOCAL.step"
+      ],
+      "sources": [
+        "library/assets/sha256/fd/fdbaea70d3e72d930740411c01fbefbabf2e271145f47af08bff85c771afb56a.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "dpt3-lens-1in-f200-unselected",
+    "dpt3-lens-support-r1",
+    "it75-r3-m6x20",
+    "new-hardware-f0579b934c7c",
+    "new-lens-filter-vendor-1"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-cm127-a1-r3",
+  "files": [
+    {
+      "path": "cad/6b54c003ad828edcb119fd24ed4201c0d98c98fc6cd8df68c6a79a8d6836e084.step",
+      "stored": "library/assets/sha256/6b/6b54c003ad828edcb119fd24ed4201c0d98c98fc6cd8df68c6a79a8d6836e084.step",
+      "sha256": "6b54c003ad828edcb119fd24ed4201c0d98c98fc6cd8df68c6a79a8d6836e084",
+      "originalReferences": [
+        "step/thin-clamps-r3/CM127-A1_R3.step"
+      ],
+      "sources": [
+        "library/assets/sha256/6b/6b54c003ad828edcb119fd24ed4201c0d98c98fc6cd8df68c6a79a8d6836e084.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "it75-reused-mtl1-b-r1",
+  "name": "MTL1-B-R1 原12.5mm底座（复用）",
+  "model": "MTL1-B-R1",
+  "kind": "standard",
+  "unit": "件",
+  "status": "现有件复用，非新加工/新购",
+  "stepPath": "step/txy1s-fixed-r5/MTL1-B-R1_REUSED_12p5.step",
+  "sourceStepSha256": "531459bdf181f6a2b0a080c34b0a2860ce6fafb6099d5be1b1481f6ccaed2e99",
+  "notes": "沿用原材料与孔型；仅登记复用，不作为新制造要求。原组合中的底座单独计数，避免重复计入整套combo。"
+}

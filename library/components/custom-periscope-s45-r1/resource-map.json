@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-periscope-s45-r1",
+  "files": [
+    {
+      "path": "cad/6c43fd8b388b7e1fa6d1083ae42c2b259f34f5c97115ba8af700dd902c8a522d.step",
+      "stored": "library/assets/sha256/6c/6c43fd8b388b7e1fa6d1083ae42c2b259f34f5c97115ba8af700dd902c8a522d.step",
+      "sha256": "6c43fd8b388b7e1fa6d1083ae42c2b259f34f5c97115ba8af700dd902c8a522d",
+      "originalReferences": [
+        "step/laser308-periscope/27-S45_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/6c/6c43fd8b388b7e1fa6d1083ae42c2b259f34f5c97115ba8af700dd902c8a522d.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

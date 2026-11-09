@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-small-post-50mm-r1",
+  "revision": "B4-R2",
+  "displayName": "小万能柱 50 mm · 底脚4 mm B4 R2",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-small-post-50mm-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

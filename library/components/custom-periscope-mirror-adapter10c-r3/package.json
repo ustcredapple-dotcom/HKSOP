@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-periscope-mirror-adapter10c-r3",
+  "revision": "source-snapshot",
+  "displayName": "1 inch 镜架转接件",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-periscope-mirror-adapter10c-r3.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

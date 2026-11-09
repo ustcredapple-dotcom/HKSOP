@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-mt-am1t-dual-m4-c4",
+  "files": [
+    {
+      "path": "cad/cb6fc6a294ba64216e1f5e143a7e67425bd02da1ef970d1077c61c4b6536a4c4.step",
+      "stored": "library/assets/sha256/cb/cb6fc6a294ba64216e1f5e143a7e67425bd02da1ef970d1077c61c4b6536a4c4.step",
+      "sha256": "cb6fc6a294ba64216e1f5e143a7e67425bd02da1ef970d1077c61c4b6536a4c4",
+      "originalReferences": [
+        "step/mt-dual-m4-compact-r4/32-T1-C4.step"
+      ],
+      "sources": [
+        "library/assets/sha256/cb/cb6fc6a294ba64216e1f5e143a7e67425bd02da1ef970d1077c61c4b6536a4c4.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

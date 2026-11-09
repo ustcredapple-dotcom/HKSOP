@@ -1,0 +1,43 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "xbk-cavity-piezo-h62p5-r1",
+  "revision": "R1-H62p5-AXIAL",
+  "displayName": "XBK Cavity · 压电轴向腔镜整装",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/xbk-cavity-piezo-h62p5-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-cm127-a1-r3",
+    "custom-motor-h2d2-b-r3",
+    "custom-motor-h2d2-l-r2",
+    "custom-motor-h2d2-s-r3",
+    "custom-xbk-b01-h62p5-r1",
+    "custom-xbk-t01-h62p5-r1",
+    "encoder-servo",
+    "ganter-gn9135-m3-3-ku",
+    "hardware-h2-r3-m2x10",
+    "hardware-h2-r3-m4-washer",
+    "hardware-h2-r3-m4x20",
+    "hardware-iso4762-m2x8",
+    "hardware-iso4762-m3x8",
+    "hardware-xbk-cbs2-5-lowhead",
+    "hardware-xbk-iso4762-m6x8",
+    "motor-adapter-m3",
+    "new-r3-vendor-mt-am2s5",
+    "v7-source-m4-nut",
+    "zolix-ls35x-lab-e-purchased-stage"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

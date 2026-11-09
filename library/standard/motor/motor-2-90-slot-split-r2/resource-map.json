@@ -1,0 +1,39 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "motor-2-90-slot-split-r2",
+  "files": [
+    {
+      "path": "cad/3434c396e6bbb060de06aecf9497489ee638f5f0fbca0511dc8542dc7fd223eb.step",
+      "stored": "library/assets/sha256/34/3434c396e6bbb060de06aecf9497489ee638f5f0fbca0511dc8542dc7fd223eb.step",
+      "sha256": "3434c396e6bbb060de06aecf9497489ee638f5f0fbca0511dc8542dc7fd223eb",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/motor-2-90-slot-split-r2__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/34/3434c396e6bbb060de06aecf9497489ee638f5f0fbca0511dc8542dc7fd223eb.step"
+      ]
+    },
+    {
+      "path": "rendering/e22f7bb9a4cfbb8ee64874a47153416567418bb92db1c17e16f92fe8ee7ee376.svg",
+      "stored": "library/assets/sha256/e2/e22f7bb9a4cfbb8ee64874a47153416567418bb92db1c17e16f92fe8ee7ee376.svg",
+      "sha256": "e22f7bb9a4cfbb8ee64874a47153416567418bb92db1c17e16f92fe8ee7ee376",
+      "originalReferences": [
+        "topviews/motor-2-90-slot-split-r2__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/e2/e22f7bb9a4cfbb8ee64874a47153416567418bb92db1c17e16f92fe8ee7ee376.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-motor-adapter-18-s2-r2",
+    "custom-motor-m2s-a-r2",
+    "custom-motor-m2s-h-r2",
+    "custom-motor-m2s-l-r2",
+    "custom-motor-m2s-s-r2",
+    "custom-post-metric-12p5mm-m1",
+    "encoder-servo",
+    "motor-adapter-m3",
+    "new-r3-vendor-mt-am2s5"
+  ]
+}

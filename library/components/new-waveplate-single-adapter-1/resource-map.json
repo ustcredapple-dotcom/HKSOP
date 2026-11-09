@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-waveplate-single-adapter-1",
+  "files": [
+    {
+      "path": "cad/8ac485d9fd76ad601f39063d9ea098acfc6eb574a47d14dab045b6c387179087.step",
+      "stored": "library/assets/sha256/8a/8ac485d9fd76ad601f39063d9ea098acfc6eb574a47d14dab045b6c387179087.step",
+      "sha256": "8ac485d9fd76ad601f39063d9ea098acfc6eb574a47d14dab045b6c387179087",
+      "originalReferences": [
+        "step/metric-m1-20261006/01-WP_METRIC_M1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/8a/8ac485d9fd76ad601f39063d9ea098acfc6eb574a47d14dab045b6c387179087.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

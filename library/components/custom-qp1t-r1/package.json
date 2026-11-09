@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-qp1t-r1",
+  "revision": "R1",
+  "displayName": "QP1T R1 运动侧 AOM 承载板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-qp1t-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

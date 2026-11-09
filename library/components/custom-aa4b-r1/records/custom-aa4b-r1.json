@@ -1,0 +1,77 @@
+{
+  "id": "custom-aa4b-r1",
+  "name": "AA4B AA AOM 共用316L转接件",
+  "model": "AA4B-R1",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R1",
+  "stepPath": "step/combined-r1-20261015/4/AA4B_R1.step",
+  "sourceStepSha256": "783537efdee36f8a2e0b35f07f5afee5d06d209102ab9d06acb22272a9b727b1",
+  "drawingPath": null,
+  "sourceDrawingSha256": "c62dce6c599fcd6e49cc06e15132cb3f85ff95e7248a2aa423e4915df1329fce",
+  "dxfPath": null,
+  "sourceDxfSha256": "615a652504dee54b111d4738aed9032ac4ce8903c45efce5614b12769cc24b4f",
+  "productionReady": false,
+  "drawingStatus": "engineering-review",
+  "status": "工程审核版；未实物试装或制造放行",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "threadClass": "待首件工艺确认",
+    "pinFitClass": "待首件工艺确认",
+    "processDetails": "按同版加工图；编号采用激光打标，不铣刻；不额外加入通用公差与粗糙度。"
+  },
+  "provenance": {
+    "originalDesign": "User-delivered design package; authorship not inferred",
+    "sourcePackageSha256": "c48060e9564ddfa9fdc50ea3d6de70e62414ae0289aa70272d530efea18bd83d",
+    "sourceModelPath": "models/AA4B_R1.step",
+    "importer": "Codex combined release"
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "本版设计已提供与模型对应的独立打标文件。",
+    "notes": "1:1毫米轮廓；未实物打标、未验证工艺可读性。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "drawingPages": [
+    1
+  ],
+  "originalSourceUrl": "",
+  "sourceUrl": "https://cad.onshape.com/documents/d252aa346b87cc8b3b987f3a/v/4e1e09ef673f17dfcdbd1023/e/bd5c300ca5bf205ae2e1f00b",
+  "cloudReference": {
+    "active": false,
+    "current": false,
+    "status": "reviewed-reference-local-precision-source",
+    "documentId": "d252aa346b87cc8b3b987f3a",
+    "workspaceId": "a47b5eaa766cffa6d4fe64a6",
+    "versionId": "4e1e09ef673f17dfcdbd1023",
+    "elementId": "bd5c300ca5bf205ae2e1f00b",
+    "sourceUrl": "https://cad.onshape.com/documents/d252aa346b87cc8b3b987f3a/v/4e1e09ef673f17dfcdbd1023/e/bd5c300ca5bf205ae2e1f00b",
+    "sourceStepSha256": "783537efdee36f8a2e0b35f07f5afee5d06d209102ab9d06acb22272a9b727b1",
+    "strictWholeAssemblyGeometryEquivalent": true,
+    "allPostSolidsStrictGeometryEquivalent": null,
+    "allAssemblyIdentityAndPoseReferencesPassed": false,
+    "actualCloudAcceptanceSha256": "114fba05c1440fcfa3500da1b00538745d589ac484b2f5004fd1e2cfd7678fc9",
+    "authoritativePrecisionSource": "已核验本地完整 STEP；云端静态冻结版供查看。原生自由度、全套整体移动或完整复用协议尚未全部验收。",
+    "physicalTrialPerformed": false
+  },
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "0b1017d6dd0eb7d418ac03f085871d03b047c21c759a9fb08c7ea0b5884f83ad",
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "84874d5db7c661615ace40b65e00bca2af8e3ee6cb67c4f31b07a93c3b821270",
+        "sha256": "c62dce6c599fcd6e49cc06e15132cb3f85ff95e7248a2aa423e4915df1329fce"
+      },
+      {
+        "path": null,
+        "previousSha256": "5df049783dee263f61fb3e8d4269f9374a9cd838e9f83d4a8f290b9b2f1b2b2b",
+        "sha256": "615a652504dee54b111d4738aed9032ac4ce8903c45efce5614b12769cc24b4f"
+      }
+    ]
+  }
+}

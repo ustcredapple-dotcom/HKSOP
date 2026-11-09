@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "v7-source-retaining-washer",
+  "revision": "source-snapshot",
+  "displayName": "V7 压紧垫片 Ø14/Ø4.4×1.2",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/v7-source-retaining-washer.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

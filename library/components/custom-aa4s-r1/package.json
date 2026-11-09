@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-aa4s-r1",
+  "revision": "R1",
+  "displayName": "AA4S AA AOM 共用316L转接件",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-aa4s-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

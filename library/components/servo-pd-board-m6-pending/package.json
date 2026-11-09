@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "servo-pd-board-m6-pending",
+  "revision": "source-snapshot",
+  "displayName": "面包板侧 M6 紧固螺钉",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/servo-pd-board-m6-pending.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

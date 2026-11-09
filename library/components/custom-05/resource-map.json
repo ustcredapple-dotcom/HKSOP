@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-05",
+  "files": [
+    {
+      "path": "cad/fddd458a55189ceb854a57af6ec5e69d673f3bcf1175bfb2cc25b562f4df9254.step",
+      "stored": "library/assets/sha256/fd/fddd458a55189ceb854a57af6ec5e69d673f3bcf1175bfb2cc25b562f4df9254.step",
+      "sha256": "fddd458a55189ceb854a57af6ec5e69d673f3bcf1175bfb2cc25b562f4df9254",
+      "originalReferences": [
+        "step/02_面包板/05_面包板_1530.step"
+      ],
+      "sources": [
+        "library/assets/sha256/fd/fddd458a55189ceb854a57af6ec5e69d673f3bcf1175bfb2cc25b562f4df9254.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

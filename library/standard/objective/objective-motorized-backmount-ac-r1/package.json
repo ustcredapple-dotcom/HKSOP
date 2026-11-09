@@ -1,0 +1,40 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "objective-motorized-backmount-ac-r1",
+  "revision": "AC-R1-B6",
+  "displayName": "MT-AM1T 物镜架 · 背孔双电机",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/objective-motorized-backmount-ac-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-30-obj-m-r2",
+    "custom-obj-v7-side-r1",
+    "custom-post-metric-25mm-m1",
+    "custom-v7-1in-main",
+    "custom-v7-m3-h2",
+    "hardware-iso4762-m6x12",
+    "new-hardware-0cc1a2908550",
+    "new-hardware-d56c7b8035c3",
+    "new-r3-hardware-b7a3ea97ce89",
+    "v7-din7991-m3x10",
+    "v7-pin-d2x6",
+    "v7-source-encoder-servo",
+    "v7-source-m2x10",
+    "v7-source-m4-nut",
+    "v7-source-m4x20-thin",
+    "v7-source-retaining-washer"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

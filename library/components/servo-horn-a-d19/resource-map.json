@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "servo-horn-a-d19",
+  "files": [
+    {
+      "path": "cad/2ba91573fc612f6fbe5d10ca95b25e0ed1c91499ec4dc78bf1f230cb89b5ca4f.step",
+      "stored": "library/assets/sha256/2b/2ba91573fc612f6fbe5d10ca95b25e0ed1c91499ec4dc78bf1f230cb89b5ca4f.step",
+      "sha256": "2ba91573fc612f6fbe5d10ca95b25e0ed1c91499ec4dc78bf1f230cb89b5ca4f",
+      "originalReferences": [
+        "step/servo-detector-gate-r2/HORN_A_SOURCE.step"
+      ],
+      "sources": [
+        "library/assets/sha256/2b/2ba91573fc612f6fbe5d10ca95b25e0ed1c91499ec4dc78bf1f230cb89b5ca4f.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

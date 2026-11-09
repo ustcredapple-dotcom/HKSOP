@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "purchased-camera-a6504-pro",
+  "revision": "source-snapshot",
+  "displayName": "鑫图 A6504-Pro 相机",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/purchased-camera-a6504-pro.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

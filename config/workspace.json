@@ -1,0 +1,13 @@
+{
+  "format": "hksop-workspace-v1",
+  "version": "2026-11-09.hksop-github-local-1",
+  "defaultSnapshot": "web-current",
+  "defaultProfile": "editor",
+  "port": 18945,
+  "sourceRegistry": "library/registry.json",
+  "generatedCatalog": "library/catalog.json",
+  "githubUpload": "authorized",
+  "futureVisibility": "private",
+  "githubRepository": "ustcredapple-dotcom/HKSOP",
+  "githubVisibility": "private"
+}

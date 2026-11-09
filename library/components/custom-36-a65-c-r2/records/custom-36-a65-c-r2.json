@@ -1,0 +1,40 @@
+{
+  "id": "custom-36-a65-c-r2",
+  "name": "36-A65-C 鑫图 A6504-Pro 相机托板",
+  "model": "36-A65-C",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R2",
+  "stepPath": "step/camera-adapters-r2/36-A65-C_R2.step",
+  "drawingPath": null,
+  "dxfPath": null,
+  "sourceStepSha256": "ab9613eefd4ae1123741f6368f2fb37622c5e178c508822f3339364347a387cf",
+  "sourceDrawingSha256": "56799d00db17fece4093c045fdf4a6e7fc94e3a911df1bcd87ff8eed24e71585",
+  "status": "试制审核 · 未实装 · 未加工放行",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "按冻结STEP和孔旁标注加工；编号激光打标，不铣刻。未指定的通用公差、粗糙度、螺纹等级不得自行补为已确认值。"
+  },
+  "manufacturingEvidence": {
+    "revision": "R2",
+    "sourceStepSha256": "ab9613eefd4ae1123741f6368f2fb37622c5e178c508822f3339364347a387cf",
+    "drawingSha256": "56799d00db17fece4093c045fdf4a6e7fc94e3a911df1bcd87ff8eed24e71585",
+    "pageCount": 1,
+    "geometryValidated": true,
+    "pdfVisualReviewPassed": true,
+    "physicalTrialCompleted": false,
+    "sourceReview": "源交付 qa/root_drawing_visual_review.json；本轮完整图册新增页再次检查。"
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "唯一编号，2.5mm实际字高；独立1:1毫米闭合字形DXF和定位PDF。",
+    "files": [],
+    "notes": " 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。"
+  },
+  "notes": "两侧各0.10mm名义间隙按首件配商业薄垫片，不硬拉侧耳。后两相机M4螺丝必须加ISO7089 M4厚0.8平垫；实际夹紧和薄余壁待首件确认。",
+  "sourceUrl": "https://cad.onshape.com/documents/32e8b9ea3f887429aba6d66d/v/369856489fb0db68a2e20c8e/e/336c989bcc75b67a25dbee0f",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "db3646d00abefb439d6af4e83a9fbe2a3153d49766cc916c7cff669680fce56a"
+}

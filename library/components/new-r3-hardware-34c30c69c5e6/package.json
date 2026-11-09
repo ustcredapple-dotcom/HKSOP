@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-r3-hardware-34c30c69c5e6",
+  "revision": "source-snapshot",
+  "displayName": "M4×7 内六角圆柱头螺钉（由M4×8截短）",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-r3-hardware-34c30c69c5e6.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

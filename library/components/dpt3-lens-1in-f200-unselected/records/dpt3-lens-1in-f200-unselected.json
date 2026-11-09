@@ -1,0 +1,23 @@
+{
+  "id": "dpt3-lens-1in-f200-unselected",
+  "name": "1 inch 透镜 · 目标f200 · 型号待选",
+  "kind": "standard",
+  "unit": "片",
+  "model": "Ø25.4 / f200目标，未定型",
+  "notes": "总装沿用BCX10613-A外形作为几何参考，不能按该参考型号采购；实际f200镜片主平面、厚度、镀膜和532nm有效焦距需定型。",
+  "publicationScope": {
+    "website": true,
+    "localEditor": true,
+    "onshapeUploaded": false,
+    "globalMachiningAtlasIncluded": false,
+    "physicalTrial": false
+  },
+  "fastUpload": {
+    "schema": "zzlab-fast-kit-upload-v1",
+    "packageId": "dipole-trap3-complete-module-r2-20261019",
+    "mode": "reviewed-module-intake",
+    "atlasIncluded": false,
+    "onshapeUploaded": false,
+    "sourceZipSha256": "c8e996df594c96d977448942055fb1048de60775c7ba0047fd87a5747283b0d9"
+  }
+}

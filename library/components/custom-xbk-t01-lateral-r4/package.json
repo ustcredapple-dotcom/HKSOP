@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-xbk-t01-lateral-r4",
+  "revision": "R4-X3-FRONT2",
+  "displayName": "XBK-T01 横向三档 / 前伸双档转接件 R4",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-xbk-t01-lateral-r4.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

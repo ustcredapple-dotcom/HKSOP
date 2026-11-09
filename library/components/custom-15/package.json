@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-15",
+  "revision": "source-snapshot",
+  "displayName": "笼式结构12.5",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-15.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

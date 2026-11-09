@@ -1,0 +1,10 @@
+{
+  "id": "new-r6-vendor-iso780-3-1p5w",
+  "name": "法拉第隔离器 · 780 nm",
+  "model": "ISO780-3-1.5W",
+  "kind": "lubang",
+  "unit": "个",
+  "status": "R6原厂装配型号与数量已核对",
+  "sourceUrl": "https://www.lbtek.com/product/244",
+  "notes": "与ISOC1按原厂真实接口安装；其他波长型号不可默认机械兼容。"
+}

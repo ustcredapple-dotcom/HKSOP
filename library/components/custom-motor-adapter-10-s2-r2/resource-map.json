@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-motor-adapter-10-s2-r2",
+  "files": [
+    {
+      "path": "cad/9367959a75eb07c36309bbb25755300a91a32678429cb26f56645ef82983b328.step",
+      "stored": "library/assets/sha256/93/9367959a75eb07c36309bbb25755300a91a32678429cb26f56645ef82983b328.step",
+      "sha256": "9367959a75eb07c36309bbb25755300a91a32678429cb26f56645ef82983b328",
+      "originalReferences": [
+        "step/motor-slot-split-r2/10-S2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/93/9367959a75eb07c36309bbb25755300a91a32678429cb26f56645ef82983b328.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

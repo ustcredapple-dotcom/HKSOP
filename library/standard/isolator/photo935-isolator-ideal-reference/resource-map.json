@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "photo935-isolator-ideal-reference",
+  "files": [
+    {
+      "path": "rendering/8953f0f231ab27280eb559ec415f18a64e1b85d6a4c9d2b613d5fd18e21e0fa1.svg",
+      "stored": "library/assets/sha256/89/8953f0f231ab27280eb559ec415f18a64e1b85d6a4c9d2b613d5fd18e21e0fa1.svg",
+      "sha256": "8953f0f231ab27280eb559ec415f18a64e1b85d6a4c9d2b613d5fd18e21e0fa1",
+      "originalReferences": [
+        "topviews/kit_new-isolator.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/89/8953f0f231ab27280eb559ec415f18a64e1b85d6a4c9d2b613d5fd18e21e0fa1.svg"
+      ]
+    }
+  ],
+  "dependencies": []
+}

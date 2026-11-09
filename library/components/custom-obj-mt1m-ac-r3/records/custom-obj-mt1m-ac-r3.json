@@ -1,0 +1,38 @@
+{
+  "id": "custom-obj-mt1m-ac-r3",
+  "name": "MT1/M物镜 A/C 双电机前伸转接座",
+  "model": "OBJ-MT1M-AC-R3",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R3",
+  "stepPath": "step/xbk-objectives-forward-r3/OBJ-MT1M-AC-R3.step",
+  "sourceStepSha256": "e61bc338d66b819967100795dc22e38492c83e65cc30b158ef4bb9bfdaeb447c",
+  "drawingPath": null,
+  "sourceDrawingSha256": "cec06114d36e6cc677b6896829baa0d80fa9a16857cafcdb3c6fa631c21d3670",
+  "drawingRevision": "R3",
+  "drawingStatus": "engineering-review",
+  "productionReady": false,
+  "status": "工程审核版，未实物试装",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "保持原图孔位、台阶与螺纹。编号激光打标，不铣刻。"
+  },
+  "laserMarking": {
+    "status": "required",
+    "notes": "负Y面，字高2.2mm，按定位PDF。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "e6489f732723965b602131e226560f9ccd7075676d39672da456e5218d1e44a0",
+        "sha256": "cec06114d36e6cc677b6896829baa0d80fa9a16857cafcdb3c6fa631c21d3670"
+      }
+    ]
+  }
+}

@@ -1,0 +1,606 @@
+{
+  "name": "固定反射镜 · 2 inch · −45° · M1",
+  "category": "fixed",
+  "variant": "公制 M1 · 名义光高62.5 mm",
+  "description": "M1真实装配俯视图；保持原安装与光学XY基准，配套公制转接件、正式万能柱及同源加工图。",
+  "sourceUrl": "https://cad.onshape.com/documents/ce8e77762b7598a9ee96789b/v/7d6ea79005cc957bde5aa1a6/e/63c9d8813dc6b51685f0fc95",
+  "sourceOnshapeStatus": "M1_FIXED_VERSION_ASSEMBLY_VERIFIED",
+  "components": [
+    {
+      "componentId": "custom-post-metric-12p5mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r3-17-r3-adapter",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r3-vendor-mt-flf2s",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r3-vendor-lpm20-532-hp",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-m4x12",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-pin-d2x8",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "optic",
+      "label": "反射镜片",
+      "type": "mirror",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 50.8,
+      "replacesComponentId": "new-r3-vendor-lpm20-532-hp"
+    }
+  ],
+  "status": "M1加工审核版",
+  "notes": "原厂镜片S1朝向须按实物镀膜确认。 原镜架自带M4沉孔对接转接件M4螺纹；原厂浅销按图控制插入。柱端M4位于镜架前后方向，预放螺钉后可从外露轴线拧紧。实际S1反射平面保持经过柱轴。 非柱侧安装紧固件仍按孔表与实物选配。  H12.5 B4-R2：普通H12.5柱底脚4 mm，其余普通柱保持各自规格；完整STEP已换柱回读，总高、孔位和全部器件姿态保持；未实物试装。",
+  "releaseStage": "engineering-review",
+  "bundleStatus": "complete",
+  "bundleNote": "冻结M1 STEP、三页加工PDF及可编辑DXF配套；未作实物试装验收。",
+  "layout": {
+    "topViewPath": "topviews/new-mirror-fixed-2inch-45__H12p5_B4_R2.svg",
+    "topViewUrl": "./topviews/new-mirror-fixed-2inch-45__H12p5_B4_R2.svg",
+    "widthMm": 48.354193,
+    "heightMm": 48.354193,
+    "anchorXMm": 18.609761,
+    "anchorYMm": 18.604446,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "basePolygonsMm": [
+      [
+        {
+          "xMm": -17.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": -17.5
+        }
+      ]
+    ],
+    "collisionBoundsMm": {
+      "xMin": -18.004446,
+      "yMin": -29.149747,
+      "xMax": 29.139117,
+      "yMax": 18.004446
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -11.327653,
+          "yMm": -29.121472
+        },
+        {
+          "xMm": -11.686926,
+          "yMm": -29.149747
+        },
+        {
+          "xMm": -12.037353,
+          "yMm": -29.065617
+        },
+        {
+          "xMm": -12.339473,
+          "yMm": -28.880478
+        },
+        {
+          "xMm": -16.022196,
+          "yMm": -25.202137
+        },
+        {
+          "xMm": -16.184225,
+          "yMm": -24.996604
+        },
+        {
+          "xMm": -16.29876,
+          "yMm": -24.748158
+        },
+        {
+          "xMm": -16.354666,
+          "yMm": -24.395184
+        },
+        {
+          "xMm": -16.29876,
+          "yMm": -24.04221
+        },
+        {
+          "xMm": -16.184225,
+          "yMm": -23.793764
+        },
+        {
+          "xMm": -16.022224,
+          "yMm": -23.588266
+        },
+        {
+          "xMm": -14.283557,
+          "yMm": -21.8496
+        },
+        {
+          "xMm": -18.004446,
+          "yMm": -18.12871
+        },
+        {
+          "xMm": -18.004446,
+          "yMm": -17.792314
+        },
+        {
+          "xMm": -17.65,
+          "yMm": -17.437868
+        },
+        {
+          "xMm": -17.65,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 17.437868,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 17.792314,
+          "yMm": 18.004446
+        },
+        {
+          "xMm": 18.12871,
+          "yMm": 18.004446
+        },
+        {
+          "xMm": 21.8496,
+          "yMm": 14.283557
+        },
+        {
+          "xMm": 23.583049,
+          "yMm": 16.017007
+        },
+        {
+          "xMm": 23.795871,
+          "yMm": 16.185977
+        },
+        {
+          "xMm": 24.126285,
+          "yMm": 16.322839
+        },
+        {
+          "xMm": 24.485559,
+          "yMm": 16.351115
+        },
+        {
+          "xMm": 24.835985,
+          "yMm": 16.266985
+        },
+        {
+          "xMm": 25.138144,
+          "yMm": 16.081822
+        },
+        {
+          "xMm": 28.880454,
+          "yMm": 12.339512
+        },
+        {
+          "xMm": 29.064045,
+          "yMm": 12.039919
+        },
+        {
+          "xMm": 29.139117,
+          "yMm": 11.773733
+        },
+        {
+          "xMm": 29.139117,
+          "yMm": 11.419369
+        },
+        {
+          "xMm": 29.063155,
+          "yMm": 11.150027
+        },
+        {
+          "xMm": 28.819828,
+          "yMm": 10.788605
+        },
+        {
+          "xMm": 19.781312,
+          "yMm": 1.750089
+        },
+        {
+          "xMm": 24.593806,
+          "yMm": -3.062404
+        },
+        {
+          "xMm": 25.114851,
+          "yMm": -3.67247
+        },
+        {
+          "xMm": 25.537135,
+          "yMm": -4.361575
+        },
+        {
+          "xMm": 25.846421,
+          "yMm": -5.108256
+        },
+        {
+          "xMm": 26.035091,
+          "yMm": -5.894127
+        },
+        {
+          "xMm": 26.098502,
+          "yMm": -6.699837
+        },
+        {
+          "xMm": 26.035091,
+          "yMm": -7.505547
+        },
+        {
+          "xMm": 25.846421,
+          "yMm": -8.291418
+        },
+        {
+          "xMm": 25.537135,
+          "yMm": -9.038098
+        },
+        {
+          "xMm": 25.114581,
+          "yMm": -9.727644
+        },
+        {
+          "xMm": 24.635327,
+          "yMm": -10.28106
+        },
+        {
+          "xMm": 26.375083,
+          "yMm": -12.020815
+        },
+        {
+          "xMm": 12.020815,
+          "yMm": -26.375083
+        },
+        {
+          "xMm": 10.28106,
+          "yMm": -24.635327
+        },
+        {
+          "xMm": 9.727644,
+          "yMm": -25.114581
+        },
+        {
+          "xMm": 9.038098,
+          "yMm": -25.537135
+        },
+        {
+          "xMm": 8.291418,
+          "yMm": -25.846421
+        },
+        {
+          "xMm": 7.505547,
+          "yMm": -26.035091
+        },
+        {
+          "xMm": 6.699837,
+          "yMm": -26.098502
+        },
+        {
+          "xMm": 5.894127,
+          "yMm": -26.035091
+        },
+        {
+          "xMm": 5.108256,
+          "yMm": -25.846421
+        },
+        {
+          "xMm": 4.361575,
+          "yMm": -25.537135
+        },
+        {
+          "xMm": 3.67247,
+          "yMm": -25.114851
+        },
+        {
+          "xMm": 3.062404,
+          "yMm": -24.593806
+        },
+        {
+          "xMm": -1.750089,
+          "yMm": -19.781312
+        },
+        {
+          "xMm": -10.789633,
+          "yMm": -28.820856
+        },
+        {
+          "xMm": -10.997482,
+          "yMm": -28.984711
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "metric-m1-2026-10-06",
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "placementAllowed": true,
+    "status": "M1 STEP实际俯视投影与安装孔已核验",
+    "note": "实际 STEP 俯视投影；碰撞轮廓按 CAD 投影细分并保留 0.15 mm 余量；按底座真实安装孔吸附。",
+    "nominalOpticalHeightMm": 62.5,
+    "opticalGeometryEvidence": {
+      "coordinateFrame": "world X right / Y up / Z height",
+      "sourceDatumHeightMm": 62.5,
+      "opticalCenterMm": {
+        "xMm": 0.0,
+        "yMm": 0.0
+      },
+      "geometricReferenceOnly": true,
+      "planeNormalWorld": [
+        0.70710678,
+        -0.70710678,
+        0.0
+      ],
+      "opticalSurfaceAngleDeg": 45.0,
+      "sourceLeaf": "LPM20-532-HP_front_S1_assigned_x0",
+      "axisCylinder": {
+        "radiusMm": 25.4,
+        "axisPointWorldMm": [
+          0.0,
+          0.0,
+          62.5
+        ],
+        "axisWorld": [
+          0.70710678,
+          -0.70710678,
+          0.0
+        ],
+        "axisPointLayoutMm": [
+          0.0,
+          0.0,
+          62.5
+        ],
+        "axisLayout": [
+          0.70710678,
+          -0.70710678,
+          0.0
+        ],
+        "boundsWorldMm": [
+          -17.85444622,
+          -26.3397276,
+          62.5,
+          26.3397276,
+          17.85444622,
+          87.9
+        ]
+      },
+      "referencePointWorldMm": [
+        0.0,
+        0.0,
+        62.5
+      ],
+      "cadPlane": {
+        "areaMm2": 2002.9616662043431,
+        "centerWorldMm": [
+          -0.0,
+          -0.0,
+          62.5
+        ],
+        "normalWorld": [
+          -0.70710678,
+          0.70710678,
+          0.0
+        ],
+        "centerLayoutMm": [
+          -0.0,
+          -0.0,
+          62.5
+        ],
+        "normalLayout": [
+          -0.70710678,
+          0.70710678,
+          0.0
+        ],
+        "boundsWorldMm": [
+          -17.85444622,
+          -17.85444622,
+          37.25,
+          17.85444622,
+          17.85444622,
+          87.75
+        ]
+      },
+      "simulationType": "mirror",
+      "referenceKind": "source-assigned front S1 surface",
+      "coatingIdentityVerified": false,
+      "note": "CAD 指定 S1 前表面通过柱心；实物镀膜面身份仍需核对。",
+      "migrationEvidence": {
+        "sourceSha256": "76e48b003306ed09f97488270aa5d4bb574dd50632bdf82a1b7ddd14585c0290",
+        "providerReadbackStatus": "PASS_REPLACEMENT_READBACK_FINAL_POST_SOURCE_CHECK_REQUIRED_SEPARATELY",
+        "supplierTranslationMm": [
+          0,
+          0,
+          -1
+        ],
+        "measuredAgainstFrozenM1": true,
+        "physicalTrialCompleted": false
+      }
+    },
+    "geometryEvidence": {
+      "sourceStep": "step/standard-post-h12p5-b4-r2/assemblies/new-mirror-fixed-2inch-45__H12p5_B4_R2.step",
+      "sourceSha256": "2e7a87f18d76ed71f7c18a7e51adecfdb845bf7d6261ce1f78702c43a52d7a93",
+      "partCount": 8,
+      "postCount": 1,
+      "imageSha256": "bcd7fba8dddbccabd6a35908d1a5f379ee333306a2ab123923d02854bced426d",
+      "faceColoursPreserved": true,
+      "excludedReferenceCount": 0,
+      "guardMm": 0.15,
+      "meshDeflectionMm": 0.035,
+      "axes": "world X right / Y up / Z height",
+      "referenceAssembly": {
+        "assetKind": "assembly-reference-not-manufacturing-part",
+        "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/new-mirror-fixed-2inch-45__H12p5_B4_R2.step",
+        "sha256": "2e7a87f18d76ed71f7c18a7e51adecfdb845bf7d6261ce1f78702c43a52d7a93"
+      },
+      "previousProjectionSource": {
+        "sourceStep": null,
+        "sourceSha256": "76e48b003306ed09f97488270aa5d4bb574dd50632bdf82a1b7ddd14585c0290",
+        "imageSha256": "25fc0059b2501b9808b836c99264e9c417608191621efa3f252d2f062eebb7c5",
+        "partCount": 8,
+        "meshDeflectionMm": 0.04
+      },
+      "triangleCount": 45629,
+      "postBaseRevision": {
+        "revision": "H12p5-B4-R2",
+        "componentIds": [
+          "custom-post-metric-12p5mm-m1"
+        ],
+        "baseThicknessByComponentId": {
+          "custom-post-metric-12p5mm-m1": 4
+        },
+        "nominalAndOpticalHeightsPreserved": true,
+        "geometryStatus": "passed",
+        "physicalAssemblyAccepted": false,
+        "previousAssemblySha256": "acb48b5d8861d6d7321b76a3c26bd1b2ec117afc888d9ed87d9e2f7df851d3dd",
+        "currentAssemblySha256": "2e7a87f18d76ed71f7c18a7e51adecfdb845bf7d6261ce1f78702c43a52d7a93",
+        "replacementReportSha256": "158ad3cdd361c52335fcade9a1abed545819baeed313de94b86639827f07bf97",
+        "originalEntitiesAndPosesPreserved": true
+      },
+      "sourceStepSha256": "2e7a87f18d76ed71f7c18a7e51adecfdb845bf7d6261ce1f78702c43a52d7a93",
+      "baseThicknessByComponentId": {
+        "custom-post-metric-12p5mm-m1": 4
+      }
+    },
+    "opticalType": "mirror",
+    "opticalSurfaceAngleDeg": 45.0,
+    "opticalAxisHeightMm": 62.5,
+    "opticalCenterMm": {
+      "xMm": 0.0,
+      "yMm": 0.0
+    },
+    "opticalDatumVerified": true,
+    "opticalAxisHeightSource": "冻结M1总装、正式公制柱及商用件实际刚体变换已回读；名义光高62.5 mm。",
+    "opticalSimulationNote": "CAD 指定 S1 前表面通过柱心；实物镀膜面身份仍需核对。",
+    "sourceUrl": "https://cad.onshape.com/documents/ce8e77762b7598a9ee96789b/v/7d6ea79005cc957bde5aa1a6/e/63c9d8813dc6b51685f0fc95",
+    "opticalDefaults": {
+      "elementType": "mirror",
+      "inserted": true,
+      "configured": true,
+      "mirror": {
+        "mode": "data",
+        "model": "LPM20-532-HP",
+        "samples": []
+      }
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "2e7a87f18d76ed71f7c18a7e51adecfdb845bf7d6261ce1f78702c43a52d7a93",
+      "imageSha256": "bcd7fba8dddbccabd6a35908d1a5f379ee333306a2ab123923d02854bced426d",
+      "revision": "H12p5-B4-R2",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null,
+      "projectionReportSha256": "612aa0921982614fe0b23bdf4d77ee88603c9143630db9dab7ae4dee14e5bd23"
+    }
+  },
+  "optionalNotes": [
+    "M1柱侧螺钉与销钉已按同源BOM计入；其余安装紧固件按孔表和实测有效牙深选配。"
+  ],
+  "manufacturingRevision": "M1",
+  "manufacturingEvidence": {
+    "sourceAssembly": {
+      "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/new-mirror-fixed-2inch-45__H12p5_B4_R2.step",
+      "sha256": "2e7a87f18d76ed71f7c18a7e51adecfdb845bf7d6261ce1f78702c43a52d7a93"
+    },
+    "sourceVersionId": "4931897f80d530bffcf46a4e",
+    "customCodes": [
+      "17-MIR-F"
+    ],
+    "hardwarePolicy": "M1 supplied column-side screws and pins included; other mounting fasteners remain optional pending selection.",
+    "topViewVisualReviewPassed": true,
+    "physicalTrialCompleted": false
+  },
+  "metricRevision": {
+    "revision": "M1",
+    "nativeAssemblySha256": "76e48b003306ed09f97488270aa5d4bb574dd50632bdf82a1b7ddd14585c0290",
+    "nominalAxisHeightMm": 62.5,
+    "sourceVersionId": "4931897f80d530bffcf46a4e",
+    "preservedInstanceXY": true
+  },
+  "postBaseRevision": {
+    "revision": "H12p5-B4-R2",
+    "componentIds": [
+      "custom-post-metric-12p5mm-m1"
+    ],
+    "baseThicknessByComponentId": {
+      "custom-post-metric-12p5mm-m1": 4
+    },
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "physicalAssemblyAccepted": false,
+    "previousAssemblySha256": "acb48b5d8861d6d7321b76a3c26bd1b2ec117afc888d9ed87d9e2f7df851d3dd",
+    "currentAssemblySha256": "2e7a87f18d76ed71f7c18a7e51adecfdb845bf7d6261ce1f78702c43a52d7a93",
+    "replacementReportSha256": "158ad3cdd361c52335fcade9a1abed545819baeed313de94b86639827f07bf97",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "assemblyReference": {
+    "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/new-mirror-fixed-2inch-45__H12p5_B4_R2.step",
+    "sourceStepSha256": "2e7a87f18d76ed71f7c18a7e51adecfdb845bf7d6261ce1f78702c43a52d7a93",
+    "revision": "CURRENT-B6R1-H12p5B4R2",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "cloudUrl": "https://cad.onshape.com/documents/ce8e77762b7598a9ee96789b/v/7d6ea79005cc957bde5aa1a6/e/63c9d8813dc6b51685f0fc95",
+    "cloudStatus": "frozen-independent-assembly-readback-pending"
+  },
+  "cloudReference": {
+    "batch": 1,
+    "documentId": "ce8e77762b7598a9ee96789b",
+    "workspaceId": "5a3ed02bf0c0c7618eda5a86",
+    "sourceUrl": "https://cad.onshape.com/documents/ce8e77762b7598a9ee96789b/v/7d6ea79005cc957bde5aa1a6/e/63c9d8813dc6b51685f0fc95",
+    "status": "frozen-independent-assembly-readback-pending",
+    "observation": "Onshape notification panel and folder list via IAB",
+    "strictReadbackComplete": false,
+    "active": false,
+    "current": true,
+    "sourceStepSha256": "2e7a87f18d76ed71f7c18a7e51adecfdb845bf7d6261ce1f78702c43a52d7a93",
+    "automaticCloudReuseAllowed": false,
+    "independentAssemblyElementVerified": true,
+    "physicalAssemblyAccepted": false,
+    "versionId": "7d6ea79005cc957bde5aa1a6",
+    "elementId": "63c9d8813dc6b51685f0fc95",
+    "elementType": "Assembly",
+    "versionFrozen": true,
+    "uiEvidence": {
+      "path": null,
+      "sha256": "abcb83c96fd7d08b84a432fdc21ecba021d440d34cb6aa03990c541a7140572d"
+    },
+    "checkedAt": "2026-10-28T01:54:56.736608+08:00"
+  },
+  "id": "new-mirror-fixed-2inch-45"
+}

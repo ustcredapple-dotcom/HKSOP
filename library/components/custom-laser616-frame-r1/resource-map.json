@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-laser616-frame-r1",
+  "files": [
+    {
+      "path": "cad/3d135eaa53f47db4bbdabc807886764744e32507ab995f54062c7c171e057fe6.step",
+      "stored": "library/assets/sha256/3d/3d135eaa53f47db4bbdabc807886764744e32507ab995f54062c7c171e057fe6.step",
+      "sha256": "3d135eaa53f47db4bbdabc807886764744e32507ab995f54062c7c171e057fe6",
+      "originalReferences": [
+        "step/laser616-periscope-r1/LF616-frame.step"
+      ],
+      "sources": [
+        "library/assets/sha256/3d/3d135eaa53f47db4bbdabc807886764744e32507ab995f54062c7c171e057fe6.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

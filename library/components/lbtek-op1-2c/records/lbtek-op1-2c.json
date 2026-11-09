@@ -1,0 +1,12 @@
+{
+  "id": "lbtek-op1-2c",
+  "name": "Ø25 mm 光学调整垫片 · 2 mm",
+  "model": "OP1-2C",
+  "kind": "lubang",
+  "unit": "片",
+  "sourceUrl": "https://www.lbtek.com/product/264#OP1-2C",
+  "status": "已核对",
+  "notes": "垫高材料；有效高度 2 mm；单片型号，不是五片装。中心 M6 光壁通孔。",
+  "heightMm": 2.0,
+  "piecesPerOrderUnit": 1
+}

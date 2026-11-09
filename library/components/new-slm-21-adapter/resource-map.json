@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-slm-21-adapter",
+  "files": [
+    {
+      "path": "cad/f663bd480a1fbe079d5b0087dbeba69e022b48bd70f828e7428ecc0fd169004b.step",
+      "stored": "library/assets/sha256/f6/f663bd480a1fbe079d5b0087dbeba69e022b48bd70f828e7428ecc0fd169004b.step",
+      "sha256": "f663bd480a1fbe079d5b0087dbeba69e022b48bd70f828e7428ecc0fd169004b",
+      "originalReferences": [
+        "step/metric-m1-20261006/21-SLM_METRIC_M1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/f6/f663bd480a1fbe079d5b0087dbeba69e022b48bd70f828e7428ecc0fd169004b.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

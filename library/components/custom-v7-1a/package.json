@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-v7-1a",
+  "revision": "V7-R1",
+  "displayName": "V7 1英寸电动镜架 万能柱转接块",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-v7-1a.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-laser308-periscope-vertical28-g58-r3",
+  "files": [
+    {
+      "path": "cad/e1451b9ad6ac5b9f7deed4f846b7bd093963edc4158ae9d363302f064a68579f.step",
+      "stored": "library/assets/sha256/e1/e1451b9ad6ac5b9f7deed4f846b7bd093963edc4158ae9d363302f064a68579f.step",
+      "sha256": "e1451b9ad6ac5b9f7deed4f846b7bd093963edc4158ae9d363302f064a68579f",
+      "originalReferences": [
+        "step/periscope-standard-r3/28-V3_R3_CENTERED.step"
+      ],
+      "sources": [
+        "library/assets/sha256/e1/e1451b9ad6ac5b9f7deed4f846b7bd093963edc4158ae9d363302f064a68579f.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

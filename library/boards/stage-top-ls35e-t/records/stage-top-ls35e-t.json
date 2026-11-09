@@ -1,0 +1,344 @@
+{
+  "id": "stage-top-ls35e-t",
+  "name": "LS35x.Lab.E 上面包板 · 位移模块专用",
+  "revision": "R1",
+  "stageOnly": true,
+  "widthMm": 75,
+  "heightMm": 50,
+  "thicknessMm": 7,
+  "pitchMm": 12.5,
+  "edgeOffsetMm": 12.5,
+  "outlineMm": [
+    {
+      "xMm": 0,
+      "yMm": 0
+    },
+    {
+      "xMm": 75,
+      "yMm": 0
+    },
+    {
+      "xMm": 75,
+      "yMm": 50
+    },
+    {
+      "xMm": 0,
+      "yMm": 50
+    }
+  ],
+  "cutoutsMm": [],
+  "holesMm": [
+    {
+      "id": "T01",
+      "xMm": 12.5,
+      "yMm": 12.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true,
+      "effectiveThreadDepthMm": 6.5,
+      "maximumScrewInsertionMm": 6,
+      "entryFace": "top",
+      "role": "output-thread",
+      "usable": true
+    },
+    {
+      "id": "T02",
+      "xMm": 12.5,
+      "yMm": 25,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true,
+      "effectiveThreadDepthMm": 6.5,
+      "maximumScrewInsertionMm": 6,
+      "entryFace": "top",
+      "role": "output-thread",
+      "usable": true
+    },
+    {
+      "id": "T03",
+      "xMm": 12.5,
+      "yMm": 37.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true,
+      "effectiveThreadDepthMm": 6.5,
+      "maximumScrewInsertionMm": 6,
+      "entryFace": "top",
+      "role": "output-thread",
+      "usable": true
+    },
+    {
+      "id": "T04",
+      "xMm": 25.0,
+      "yMm": 25,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true,
+      "effectiveThreadDepthMm": 6.5,
+      "maximumScrewInsertionMm": 6,
+      "entryFace": "top",
+      "role": "output-thread",
+      "usable": true
+    },
+    {
+      "id": "T05",
+      "xMm": 37.5,
+      "yMm": 12.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true,
+      "effectiveThreadDepthMm": 6.5,
+      "maximumScrewInsertionMm": 6,
+      "entryFace": "top",
+      "role": "output-thread",
+      "usable": true
+    },
+    {
+      "id": "T06",
+      "xMm": 37.5,
+      "yMm": 25,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true,
+      "effectiveThreadDepthMm": 6.5,
+      "maximumScrewInsertionMm": 6,
+      "entryFace": "top",
+      "role": "output-thread",
+      "usable": true
+    },
+    {
+      "id": "T07",
+      "xMm": 37.5,
+      "yMm": 37.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true,
+      "effectiveThreadDepthMm": 6.5,
+      "maximumScrewInsertionMm": 6,
+      "entryFace": "top",
+      "role": "output-thread",
+      "usable": true
+    },
+    {
+      "id": "T08",
+      "xMm": 50.0,
+      "yMm": 25,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true,
+      "effectiveThreadDepthMm": 6.5,
+      "maximumScrewInsertionMm": 6,
+      "entryFace": "top",
+      "role": "output-thread",
+      "usable": true
+    },
+    {
+      "id": "T09",
+      "xMm": 62.5,
+      "yMm": 12.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true,
+      "effectiveThreadDepthMm": 6.5,
+      "maximumScrewInsertionMm": 6,
+      "entryFace": "top",
+      "role": "output-thread",
+      "usable": true
+    },
+    {
+      "id": "T10",
+      "xMm": 62.5,
+      "yMm": 25,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true,
+      "effectiveThreadDepthMm": 6.5,
+      "maximumScrewInsertionMm": 6,
+      "entryFace": "top",
+      "role": "output-thread",
+      "usable": true
+    },
+    {
+      "id": "T11",
+      "xMm": 62.5,
+      "yMm": 37.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true,
+      "effectiveThreadDepthMm": 6.5,
+      "maximumScrewInsertionMm": 6,
+      "entryFace": "top",
+      "role": "output-thread",
+      "usable": true
+    },
+    {
+      "id": "F01",
+      "xMm": 22.5,
+      "yMm": 10,
+      "type": "counterbore",
+      "diameterMm": 2.2,
+      "drillDiameterMm": 2.2,
+      "through": true,
+      "counterboreDiameterMm": 4.4,
+      "counterboreDepthMm": 2,
+      "entryFace": "top",
+      "role": "stage-fixing",
+      "usable": false
+    },
+    {
+      "id": "F02",
+      "xMm": 22.5,
+      "yMm": 40,
+      "type": "counterbore",
+      "diameterMm": 2.2,
+      "drillDiameterMm": 2.2,
+      "through": true,
+      "counterboreDiameterMm": 4.4,
+      "counterboreDepthMm": 2,
+      "entryFace": "top",
+      "role": "stage-fixing",
+      "usable": false
+    },
+    {
+      "id": "F03",
+      "xMm": 52.5,
+      "yMm": 10,
+      "type": "counterbore",
+      "diameterMm": 2.2,
+      "drillDiameterMm": 2.2,
+      "through": true,
+      "counterboreDiameterMm": 4.4,
+      "counterboreDepthMm": 2,
+      "entryFace": "top",
+      "role": "stage-fixing",
+      "usable": false
+    },
+    {
+      "id": "F04",
+      "xMm": 52.5,
+      "yMm": 40,
+      "type": "counterbore",
+      "diameterMm": 2.2,
+      "drillDiameterMm": 2.2,
+      "through": true,
+      "counterboreDiameterMm": 4.4,
+      "counterboreDepthMm": 2,
+      "entryFace": "top",
+      "role": "stage-fixing",
+      "usable": false
+    }
+  ],
+  "mountingHoleIds": [
+    "F01",
+    "F02",
+    "F03",
+    "F04"
+  ],
+  "minimumAlignedMountingHoles": 4,
+  "topViewPath": "topviews/kit_ls35x-lab-e-r1-moving.svg",
+  "stepPath": "step/ls35x-lab-e-r1/31-LS35-T_R1.step",
+  "drawingPath": null,
+  "dxfPath": null,
+  "sourceMaterial": "6061 铝合金",
+  "sourceSurfaceTreatment": "黑色阳极氧化",
+  "manufacturingStatus": "review-required",
+  "sourceEvidence": {
+    "stepSha256": "874faaf374d1f5aafab61b3d72bc168a6a5a2da1add9da03acb66d723f105335",
+    "topViewSha256": "45f8ef3aa25bf288be13d8610b407e0a6706d03cac890501c8f5d2294819355d",
+    "source": "本任务设计 R1；真实STEP回读/孔表和真实投影。厂商共享源装配限制保留。",
+    "cadToRegisteredBoardDatum": {
+      "xyOffsetMm": [
+        37.5,
+        25
+      ],
+      "cadBottomZMm": 0,
+      "cadTopZMm": 7
+    },
+    "physicalAcceptance": "not-performed"
+  },
+  "notes": "仅随完整位移模块使用。M2固定孔和删去四网格点不作为附件螺孔。M6附件旋入≤6 mm。官方当前 LS35x.Lab 共享 STEP 为 22 实体参考源，产品选型含 .Lab.E；E 实物型号/编码器零点/中位孔网未验。底部四安装孔中 native(15,-10) 对应原厂实体22未提供完整 Ø4 入口，标准 M2 头和工具路径在共享源中受阻；不得据本候选宣称四孔装配通过。",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "22c38acf31a3fc2816e0024ca11dc9c3f23f4d2dad959a0a442645dbac81c293",
+  "sourceDrawingSha256": "8d557b08f9ed3246df6a75730c3039b379559d18d2ec456e78a5c8e55642873f",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "ccc29b1df7fe72cf65ed0440054ad6ba25ddc8a76daddb3f5f9f9bb3c0b8b37c",
+      "currentPdfSha256": "e7f5d777639c6e38d7e90ac140f9e5c634c09f27485cc1fa47847d5915cd4d24",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "4f50685a363588bfdb284fa6fa973183a7171fb6f69de748feb41e074831b485",
+      "currentPdfSha256": "22c38acf31a3fc2816e0024ca11dc9c3f23f4d2dad959a0a442645dbac81c293",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "760a1702ce31d1e18dec791a2e9912c758324e85d3af228667e2ec12b6da12d3",
+        "sha256": "8d557b08f9ed3246df6a75730c3039b379559d18d2ec456e78a5c8e55642873f"
+      },
+      {
+        "path": null,
+        "previousSha256": "5fc6e625dc753906bb15133b6f9bc39f717443c76a1ecae41383d7932fc51c10",
+        "sha256": "22c38acf31a3fc2816e0024ca11dc9c3f23f4d2dad959a0a442645dbac81c293"
+      },
+      {
+        "path": null,
+        "previousSha256": "a9e08c97edb0ce78ffcdc521b33dcf3b28842a40a292ace09fe101633cd75ee4",
+        "sha256": "594b8211996d84142283c78565d65a6963014042c005878a949b366c8c65c8d6"
+      }
+    ]
+  }
+}

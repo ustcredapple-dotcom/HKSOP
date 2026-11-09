@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "lbtek-pbs621-purchased",
+  "files": [
+    {
+      "path": "cad/8ea7acf535fad0334e6d673897d872ec0755f8133f23b3ffa756bcf048566c12.step",
+      "stored": "library/assets/sha256/8e/8ea7acf535fad0334e6d673897d872ec0755f8133f23b3ffa756bcf048566c12.step",
+      "sha256": "8ea7acf535fad0334e6d673897d872ec0755f8133f23b3ffa756bcf048566c12",
+      "originalReferences": [
+        "step/mt-cube-size-family-r2/PBS621-vendor.step"
+      ],
+      "sources": [
+        "library/assets/sha256/8e/8ea7acf535fad0334e6d673897d872ec0755f8133f23b3ffa756bcf048566c12.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

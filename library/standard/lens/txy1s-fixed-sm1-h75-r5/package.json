@@ -1,0 +1,35 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "txy1s-fixed-sm1-h75-r5",
+  "revision": "R5",
+  "displayName": "TXY1S · 固定套筒200 mm透镜整装 · H75 R5 · 单后止挡",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/txy1s-fixed-sm1-h75-r5.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-txp75-r5",
+    "hardware-txyfixed-iso4762-m4x12",
+    "hardware-txyfixed-iso4762-m6x10",
+    "hardware-txyfixed-iso4762-m6x20",
+    "hardware-txyfixed-iso4762-m6x25",
+    "it75-reused-mtl1-b-r1",
+    "lbtek-sm1-12p5a",
+    "lbtek-sm1-50a",
+    "lbtek-sm1-8a",
+    "lbtek-txy1s",
+    "thorlabs-mt1m-purchased-stage"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

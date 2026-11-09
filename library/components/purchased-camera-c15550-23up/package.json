@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "purchased-camera-c15550-23up",
+  "revision": "source-snapshot",
+  "displayName": "滨松 C15550-23UP 相机",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/purchased-camera-c15550-23up.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

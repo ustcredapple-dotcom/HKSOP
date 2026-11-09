@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "stage-top-pt1-t",
+  "revision": "R1-A7075",
+  "displayName": "PT1/M 上面包板 · 位移模块专用",
+  "records": [
+    {
+      "kind": "registeredBoards",
+      "path": "records/stage-top-pt1-t.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

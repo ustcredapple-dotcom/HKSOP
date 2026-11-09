@@ -1,0 +1,32 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "dpt3-mirror250-r1",
+  "revision": "source-snapshot",
+  "displayName": "Dipole Trap 3 · 起点1inch反射镜向下",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/dpt3-mirror250-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-13",
+    "dpt3-pin-d2x5",
+    "dpt3-post25-r1",
+    "hardware-h2-r3-m4x20",
+    "hardware-iso4762-m6x16",
+    "mt-flf1s",
+    "new-hardware-f0579b934c7c",
+    "v7-pin-d2x8"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

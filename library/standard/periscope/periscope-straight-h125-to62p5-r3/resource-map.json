@@ -1,0 +1,60 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "periscope-straight-h125-to62p5-r3",
+  "files": [
+    {
+      "path": "cad/98896e83436414628af7bcc99d61ee6bca0415f47e6185b9dc5da4c0303f80f9.step",
+      "stored": "library/assets/sha256/98/98896e83436414628af7bcc99d61ee6bca0415f47e6185b9dc5da4c0303f80f9.step",
+      "sha256": "98896e83436414628af7bcc99d61ee6bca0415f47e6185b9dc5da4c0303f80f9",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/periscope-straight-h125-to62p5-r3__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/98/98896e83436414628af7bcc99d61ee6bca0415f47e6185b9dc5da4c0303f80f9.step"
+      ]
+    },
+    {
+      "path": "cad/a0453f654821a79242f416d0d6e1e8860df01642f8716be0dc5a7e60adfbec9c.step",
+      "stored": "library/assets/sha256/a0/a0453f654821a79242f416d0d6e1e8860df01642f8716be0dc5a7e60adfbec9c.step",
+      "sha256": "a0453f654821a79242f416d0d6e1e8860df01642f8716be0dc5a7e60adfbec9c",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/periscope-straight-h125-to62p5-r3__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/a0/a0453f654821a79242f416d0d6e1e8860df01642f8716be0dc5a7e60adfbec9c.step"
+      ]
+    },
+    {
+      "path": "rendering/b803f191151fb7c39dae1d17c25dbc3b5c29d0a8323e54a1b9874f54f0a78259.svg",
+      "stored": "library/assets/sha256/b8/b803f191151fb7c39dae1d17c25dbc3b5c29d0a8323e54a1b9874f54f0a78259.svg",
+      "sha256": "b803f191151fb7c39dae1d17c25dbc3b5c29d0a8323e54a1b9874f54f0a78259",
+      "originalReferences": [
+        "topviews/periscope-straight-h125-to62p5-r3__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/b8/b803f191151fb7c39dae1d17c25dbc3b5c29d0a8323e54a1b9874f54f0a78259.svg"
+      ]
+    },
+    {
+      "path": "rendering/cd59b3d2a505153ac3143d4f024ca50048ccdb2811f0fc50ba25880af9c4aa52.svg",
+      "stored": "library/assets/sha256/cd/cd59b3d2a505153ac3143d4f024ca50048ccdb2811f0fc50ba25880af9c4aa52.svg",
+      "sha256": "cd59b3d2a505153ac3143d4f024ca50048ccdb2811f0fc50ba25880af9c4aa52",
+      "originalReferences": [
+        "topviews/periscope-straight-h125-to62p5-r3-optical-side.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/cd/cd59b3d2a505153ac3143d4f024ca50048ccdb2811f0fc50ba25880af9c4aa52.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-periscope-mirror-adapter10c-r3",
+    "custom-periscope-straight-25s3-r3",
+    "custom-post-metric-12p5mm-m1",
+    "mt-am1s5",
+    "new-hardware-d56c7b8035c3",
+    "periscope-d2x8-pin",
+    "periscope-m4x14-screw",
+    "periscope-m6x12-screw"
+  ]
+}

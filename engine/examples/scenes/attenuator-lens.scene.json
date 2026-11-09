@@ -1,0 +1,54 @@
+{
+  "bounds": {"xMin": -200, "yMin": -200, "xMax": 500, "yMax": 500},
+  "elements": [
+    {
+      "id": "synthetic-source",
+      "center": {"x": 0, "y": 0},
+      "axisHeightMm": 62.5,
+      "rotationDeg": 0,
+      "opticalInteraction": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {
+          "direction": {"angleDeg": 0, "halfAngleDeg": 0, "bidirectional": false},
+          "wavelengthNm": {"min": 532, "max": 532, "onMismatch": "block"}
+        }
+      },
+      "optics": {
+        "elementType": "source", "configured": true, "inserted": true,
+        "source": {
+          "enabled": true, "directionAngleDeg": 0,
+          "wavelengthNm": 532, "powerMw": 10, "beamDiameterMm": 2,
+          "polarizationType": "elliptical", "polarizationAngleDeg": 31,
+          "ellipticityDeg": 17, "wavefrontRadiusMm": null, "beamQualityM2": 1
+        }
+      }
+    },
+    {
+      "id": "synthetic-attenuator-lens",
+      "center": {"x": 100, "y": 0},
+      "axisHeightMm": 62.5,
+      "rotationDeg": 0,
+      "opticalInteraction": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "heightToleranceMm": 0.1,
+        "onNoMatch": "block",
+        "inputs": [
+          {
+            "id": "bidirectional-532",
+            "direction": {"angleDeg": 0, "halfAngleDeg": 2, "bidirectional": true},
+            "wavelengthNm": {"min": 532, "max": 532, "onMismatch": "block"},
+            "steps": [{"op": "attenuate", "transmission": 0.8}, {"op": "lens", "focalLengthMm": 50}]
+          }
+        ]
+      },
+      "optics": {
+        "elementType": "lens", "configured": true, "inserted": true,
+        "surfaceAngleDeg": 90, "clearApertureMm": 25.4
+      }
+    }
+  ]
+}

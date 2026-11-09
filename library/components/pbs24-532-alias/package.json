@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "pbs24-532-alias",
+  "revision": "source-snapshot",
+  "displayName": "偏振分束立方体（装配别名待核对）",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/pbs24-532-alias.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

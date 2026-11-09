@@ -1,0 +1,81 @@
+{
+  "id": "it399-motor2-post-r1",
+  "name": "399 折转镜 · 改孔专用柱 R1",
+  "model": "IT75-M2-P_R1",
+  "kind": "custom",
+  "unit": "件",
+  "stepPath": "step/iontrap-it399-r6-motor2/IT75-M2-P_R1.step",
+  "sourceStepSha256": "2796648dd52954600a0a36d1d01333e968f3a2f614200bc1350295f9e385ad9d",
+  "drawingPath": null,
+  "sourceDrawingSha256": "93e223aca87cdf6b843548ab3d7cb081a442567ca7383e4dbd507ab01fa63cc2",
+  "drawingRevision": "IT75-M2-P_R1",
+  "drawingStatus": "engineering-review",
+  "productionReady": false,
+  "status": "源CAD与加工审核图；尚未实装或加工放行",
+  "notes": "35×35×6 mm底座、总高12.5 mm；只改柱顶孔组，与柱底相对-135°。A面定向，先装四颗M6×16，再装镜架M4×16及两根Ø2×8定位销。",
+  "manufacturingSpec": {
+    "material": "316L",
+    "surfaceTreatment": "去磁、喷砂（保留源柱要求）"
+  },
+  "referenceFiles": [
+    {
+      "label": "源加工视图",
+      "dxfPath": null,
+      "sha256": "d636c6997cfc29054e1835835d70178061cf97f72a9950bc1f0d3b1e239db915"
+    },
+    {
+      "label": "源加工视图",
+      "dxfPath": null,
+      "sha256": "b93212f711b837b5ac004c32196b11173419cc5f7f5e72d19f921c5d15f4c153"
+    },
+    {
+      "label": "源加工视图",
+      "dxfPath": null,
+      "sha256": "7ee6086f8ad7c7140ddc4dda728d4782685fa264afaa5cdedfa1372213bcb549"
+    },
+    {
+      "label": "源加工视图",
+      "dxfPath": null,
+      "sha256": "0029beb514c11bc7d29a57dc477704bdee9e8c5d1531a07bc798b54d0de267c6"
+    }
+  ],
+  "laserMarking": {
+    "status": "required",
+    "reason": "新加工件编号与方向标识",
+    "notes": "源1:1激光文件；不铣刻。按源定位图装夹。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "sourceReport": {
+    "kind": "user-cad-package",
+    "revision": "R6+MOTOR2-R1/INSTALL-20261019",
+    "packageSha256": "4f55d6d940388da8fb589ed455ab160cacf0486720412682a3a227c114b75654",
+    "boardPackageSha256": "7652d9a920b5be3cd6cbc9500ebba81990aa19acfa445ecccae0b0c519b3d5e9"
+  },
+  "publicationScope": {
+    "website": true,
+    "localEditor": true,
+    "atlasIncluded": false,
+    "onshapeUploaded": false,
+    "physicalTrial": false
+  },
+  "fastUpload": {
+    "schema": "zzlab-fast-kit-upload-v1",
+    "packageId": "it399-r6-motor2-replacement-20261019",
+    "mode": "reviewed-module-replacement",
+    "atlasIncluded": false,
+    "onshapeUploaded": false,
+    "sourceZipSha256": "4f55d6d940388da8fb589ed455ab160cacf0486720412682a3a227c114b75654"
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "5764a5f06318fe580c90fb8ae5bd3e2b2fee62a1ea394e0b58102c690417abda",
+        "sha256": "93e223aca87cdf6b843548ab3d7cb081a442567ca7383e4dbd507ab01fa63cc2"
+      }
+    ]
+  }
+}

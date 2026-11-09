@@ -1,0 +1,20 @@
+{
+  "id": "zolix-ls35x-lab-e-purchased-stage",
+  "name": "卓立汉光 / MultiFields LS35x.Lab.E 惯性压电线性位移台",
+  "model": "LS35x.Lab.E",
+  "kind": "lubang",
+  "unit": "台",
+  "revision": "R1",
+  "manufacturer": "MultiFields；卓立汉光销售/选型页",
+  "sourceUrl": "https://zolix.com.cn/index.php/Product_desc/1257_1769.html",
+  "status": "用户指定型号；当前共享源几何已核对，E实物接口待核对",
+  "stepPath": "step/ls35x-lab-e-r1/vendor/LS35x.Lab_WebUser.step",
+  "sourceStepSha256": "937fc7353cb051fdc482a7a2851fcdd66e9f52727f3493f45df221832613131f",
+  "drawingPath": null,
+  "sourceDrawingSha256": "c6060eb7d3e9b99dc1d7edddbe23dc55db84a069bfe614f4a5d79540982ac3ff",
+  "drawingPages": [
+    12
+  ],
+  "modelSourceStatus": "common-lab-step-reference-not-e-as-built",
+  "notes": "官方当前 LS35x.Lab 共享 STEP 为 22 实体参考源，产品选型含 .Lab.E；E 实物型号/编码器零点/中位孔网未验。底部四安装孔中 native(15,-10) 对应原厂实体22未提供完整 Ø4 入口，标准 M2 头和工具路径在共享源中受阻；不得据本候选宣称四孔装配通过。 kind=lubang 为当前库外购件枚举，不表示厂家为麓邦。原厂源不修改，不属于自制件加工模型。"
+}

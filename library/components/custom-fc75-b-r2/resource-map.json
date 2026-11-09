@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-fc75-b-r2",
+  "files": [
+    {
+      "path": "cad/a462f9f2ea3cffb09fbd3ba17ce2168b5b3c29bd8e95bc6f0cb856a45250d76b.step",
+      "stored": "library/assets/sha256/a4/a462f9f2ea3cffb09fbd3ba17ce2168b5b3c29bd8e95bc6f0cb856a45250d76b.step",
+      "sha256": "a462f9f2ea3cffb09fbd3ba17ce2168b5b3c29bd8e95bc6f0cb856a45250d76b",
+      "originalReferences": [
+        "step/flir-focus-h75-r2/FC75-B_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/a4/a462f9f2ea3cffb09fbd3ba17ce2168b5b3c29bd8e95bc6f0cb856a45250d76b.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

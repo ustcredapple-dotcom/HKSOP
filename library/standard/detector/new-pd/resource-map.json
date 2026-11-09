@@ -1,0 +1,35 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-pd",
+  "files": [
+    {
+      "path": "rendering/b0946a99f68aa40543910c73d34b65a0c0d8b8744111759aad055a9a19ff9038.svg",
+      "stored": "library/assets/sha256/b0/b0946a99f68aa40543910c73d34b65a0c0d8b8744111759aad055a9a19ff9038.svg",
+      "sha256": "b0946a99f68aa40543910c73d34b65a0c0d8b8744111759aad055a9a19ff9038",
+      "originalReferences": [
+        "topviews/new-pd__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/b0/b0946a99f68aa40543910c73d34b65a0c0d8b8744111759aad055a9a19ff9038.svg"
+      ]
+    },
+    {
+      "path": "cad/cf2a71c693d5bdf935bf6ddfc5ccbbdeee1532b6093560700a6a49a0cfcff4c9.step",
+      "stored": "library/assets/sha256/cf/cf2a71c693d5bdf935bf6ddfc5ccbbdeee1532b6093560700a6a49a0cfcff4c9.step",
+      "sha256": "cf2a71c693d5bdf935bf6ddfc5ccbbdeee1532b6093560700a6a49a0cfcff4c9",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/new-pd__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/cf/cf2a71c693d5bdf935bf6ddfc5ccbbdeee1532b6093560700a6a49a0cfcff4c9.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-post-metric-25mm-m1",
+    "metric-m1-post-m4x14",
+    "metric-m1-post-pin-d2x8",
+    "new-pd-adapter-1",
+    "new-pd-vendor-1"
+  ]
+}

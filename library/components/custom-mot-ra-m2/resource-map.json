@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-mot-ra-m2",
+  "files": [
+    {
+      "path": "cad/d7a0b37893eec427409aa3bd571fbf677c5b531346b7b2046e467d9e5f55a66f.step",
+      "stored": "library/assets/sha256/d7/d7a0b37893eec427409aa3bd571fbf677c5b531346b7b2046e467d9e5f55a66f.step",
+      "sha256": "d7a0b37893eec427409aa3bd571fbf677c5b531346b7b2046e467d9e5f55a66f",
+      "originalReferences": [
+        "step/mot-ra-m2-r2/MOT-RA-M2_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/d7/d7a0b37893eec427409aa3bd571fbf677c5b531346b7b2046e467d9e5f55a66f.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

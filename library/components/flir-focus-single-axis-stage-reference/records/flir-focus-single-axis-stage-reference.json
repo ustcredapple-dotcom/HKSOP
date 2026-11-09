@@ -1,0 +1,11 @@
+{
+  "id": "flir-focus-single-axis-stage-reference",
+  "name": "现有 Suruga 单轴台（拆台复用）",
+  "model": "BSS16-40C 接口参考；实物型号待核",
+  "kind": "standard",
+  "unit": "套",
+  "status": "复用参考件；采购型号未确认",
+  "notes": "来自原XYZ台的单轴台，设计按40×40×16 mm、32×32 M3接口及±6.5 mm行程参考。非完整原厂CAD；实际旋钮、行程和底部固定螺钉待实测；不得按此参考型号直接下单。",
+  "drawingPath": null,
+  "sourceDrawingSha256": "685c8ca693e3886c445ebdf38c72238ad2e204ea4c969c0f55d16ea9fae438d7"
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "lbtek-ls75-50c",
+  "revision": "source-snapshot",
+  "displayName": "麓邦 LS75-50C · 50 mm行程位移台",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/lbtek-ls75-50c.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

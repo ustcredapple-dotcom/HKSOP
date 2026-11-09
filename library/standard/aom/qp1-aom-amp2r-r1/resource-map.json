@@ -1,0 +1,41 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "qp1-aom-amp2r-r1",
+  "files": [
+    {
+      "path": "cad/51122b815c1bfcf2cd01bcd45f6406b1c562a171735b5cf0ae41fa5aa08bf68c.step",
+      "stored": "library/assets/sha256/51/51122b815c1bfcf2cd01bcd45f6406b1c562a171735b5cf0ae41fa5aa08bf68c.step",
+      "sha256": "51122b815c1bfcf2cd01bcd45f6406b1c562a171735b5cf0ae41fa5aa08bf68c",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/qp1-aom-amp2r-r1__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/51/51122b815c1bfcf2cd01bcd45f6406b1c562a171735b5cf0ae41fa5aa08bf68c.step"
+      ]
+    },
+    {
+      "path": "rendering/727dd0060b63abf42797616f2245929ddb7694eb811725f2e98fcadc33e0db9c.svg",
+      "stored": "library/assets/sha256/72/727dd0060b63abf42797616f2245929ddb7694eb811725f2e98fcadc33e0db9c.svg",
+      "sha256": "727dd0060b63abf42797616f2245929ddb7694eb811725f2e98fcadc33e0db9c",
+      "originalReferences": [
+        "topviews/qp1-aom-amp2r-r1__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/72/727dd0060b63abf42797616f2245929ddb7694eb811725f2e98fcadc33e0db9c.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-post-metric-12p5mm-m1",
+    "custom-qp1b-r1",
+    "custom-qp1t-r1",
+    "hardware-dowel-d2x6",
+    "hardware-iso4762-m3x8",
+    "hardware-iso4762-m6x12",
+    "lbtek-amp-2r",
+    "new-hardware-1d23c1ca342d",
+    "new-hardware-f0579b934c7c",
+    "new-r3-hardware-b63ea2222bac",
+    "qp1-aom-user-supplied"
+  ]
+}

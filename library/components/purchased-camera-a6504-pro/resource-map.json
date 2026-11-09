@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "purchased-camera-a6504-pro",
+  "files": [
+    {
+      "path": "cad/3962ef32a674ba69f119daf253b9f495c21b300d4d6572d99e0e1bcc48bdb6cc.step",
+      "stored": "library/assets/sha256/39/3962ef32a674ba69f119daf253b9f495c21b300d4d6572d99e0e1bcc48bdb6cc.step",
+      "sha256": "3962ef32a674ba69f119daf253b9f495c21b300d4d6572d99e0e1bcc48bdb6cc",
+      "originalReferences": [
+        "step/camera-actual-r4/36-A65_R4_USER_SUPPLIED_ACTUAL_CAMERA.step"
+      ],
+      "sources": [
+        "library/assets/sha256/39/3962ef32a674ba69f119daf253b9f495c21b300d4d6572d99e0e1bcc48bdb6cc.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

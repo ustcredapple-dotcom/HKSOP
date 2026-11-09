@@ -1,0 +1,43 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "kungshu-louc1-ll-motorized-45-r1",
+  "files": [
+    {
+      "path": "cad/3273b5b5abb0f14e8de43d3c4e5451373f3c835a7f6922a63a4600fdeddd2f9e.step",
+      "stored": "library/assets/sha256/32/3273b5b5abb0f14e8de43d3c4e5451373f3c835a7f6922a63a4600fdeddd2f9e.step",
+      "sha256": "3273b5b5abb0f14e8de43d3c4e5451373f3c835a7f6922a63a4600fdeddd2f9e",
+      "originalReferences": [
+        "step/kungshu-compact-r2/assemblies/kungshu-louc1-ll-motorized-45-r2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/32/3273b5b5abb0f14e8de43d3c4e5451373f3c835a7f6922a63a4600fdeddd2f9e.step"
+      ]
+    },
+    {
+      "path": "rendering/d36a243b5bbc11c837b89ee12b8382d26480423fe0b7a3d978e1d8813e3cbb74.svg",
+      "stored": "library/assets/sha256/d3/d36a243b5bbc11c837b89ee12b8382d26480423fe0b7a3d978e1d8813e3cbb74.svg",
+      "sha256": "d36a243b5bbc11c837b89ee12b8382d26480423fe0b7a3d978e1d8813e3cbb74",
+      "originalReferences": [
+        "topviews/kungshu-louc1-ll-motorized-45-r2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/d3/d36a243b5bbc11c837b89ee12b8382d26480423fe0b7a3d978e1d8813e3cbb74.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-kungshu-34-ll-m01-r1",
+    "custom-kungshu-34-ll-m02-r1",
+    "custom-kungshu-34-ll-m03-r1",
+    "custom-kungshu-34-ll-r1",
+    "custom-post-metric-25mm-m1",
+    "encoder-servo",
+    "hardware-h2-r3-m2x10",
+    "hardware-iso4762-m3x8",
+    "kungshu-louc1-ll",
+    "motor-adapter-m3",
+    "new-hardware-d56c7b8035c3",
+    "new-hardware-ff9fb49c865c",
+    "periscope-m4x14-screw"
+  ]
+}

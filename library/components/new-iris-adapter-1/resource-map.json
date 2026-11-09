@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-iris-adapter-1",
+  "files": [
+    {
+      "path": "cad/8f779ab4f84e314298f56b253567486733fb5aa032bf7a6e75d20d69c07f873b.step",
+      "stored": "library/assets/sha256/8f/8f779ab4f84e314298f56b253567486733fb5aa032bf7a6e75d20d69c07f873b.step",
+      "sha256": "8f779ab4f84e314298f56b253567486733fb5aa032bf7a6e75d20d69c07f873b",
+      "originalReferences": [
+        "step/metric-m1-20261006/06-IRIS-L_METRIC_M1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/8f/8f779ab4f84e314298f56b253567486733fb5aa032bf7a6e75d20d69c07f873b.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-xbk-t01-h62p5-r1",
+  "revision": "R1",
+  "displayName": "XBK-T01 腔镜一体上转接件",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-xbk-t01-h62p5-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

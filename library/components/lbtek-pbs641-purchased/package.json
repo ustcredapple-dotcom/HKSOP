@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "lbtek-pbs641-purchased",
+  "revision": "source-snapshot",
+  "displayName": "PBS641 可见光裸立方偏振分束镜",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/lbtek-pbs641-purchased.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

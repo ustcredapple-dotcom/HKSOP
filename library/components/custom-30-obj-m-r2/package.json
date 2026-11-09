@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-30-obj-m-r2",
+  "revision": "R2",
+  "displayName": "30-OBJ-M 一体式物镜柱转接件",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-30-obj-m-r2.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

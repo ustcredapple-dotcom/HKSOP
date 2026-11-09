@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "motor-adapter-28",
+  "files": [
+    {
+      "path": "cad/e8e37a26fd5774b7260cf47db5de0e54bcd889e99de3cbc7bb700065557951e0.step",
+      "stored": "library/assets/sha256/e8/e8e37a26fd5774b7260cf47db5de0e54bcd889e99de3cbc7bb700065557951e0.step",
+      "sha256": "e8e37a26fd5774b7260cf47db5de0e54bcd889e99de3cbc7bb700065557951e0",
+      "originalReferences": [
+        "step/09_电动镜架/28mmM3toH2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/e8/e8e37a26fd5774b7260cf47db5de0e54bcd889e99de3cbc7bb700065557951e0.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

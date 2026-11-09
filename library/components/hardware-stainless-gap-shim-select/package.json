@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "hardware-stainless-gap-shim-select",
+  "revision": "source-snapshot",
+  "displayName": "不锈钢薄垫片 · 按间隙选配",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/hardware-stainless-gap-shim-select.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

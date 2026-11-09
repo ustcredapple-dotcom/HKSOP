@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-r3-hardware-eb2e220803c7",
+  "revision": "source-snapshot",
+  "displayName": "DIN7984 / Bossard BN2844 M4×8 低头内六角螺钉",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-r3-hardware-eb2e220803c7.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

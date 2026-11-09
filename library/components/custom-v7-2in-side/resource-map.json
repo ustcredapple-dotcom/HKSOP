@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-v7-2in-side",
+  "files": [
+    {
+      "path": "cad/51596210b4a51415c0e2403bf8b1670e59b4a85d0f24aa336bcafdab18be68fb.step",
+      "stored": "library/assets/sha256/51/51596210b4a51415c0e2403bf8b1670e59b4a85d0f24aa336bcafdab18be68fb.step",
+      "sha256": "51596210b4a51415c0e2403bf8b1670e59b4a85d0f24aa336bcafdab18be68fb",
+      "originalReferences": [
+        "step/motorized-v7-r1/custom-v7-2in-side.step"
+      ],
+      "sources": [
+        "library/assets/sha256/51/51596210b4a51415c0e2403bf8b1670e59b4a85d0f24aa336bcafdab18be68fb.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

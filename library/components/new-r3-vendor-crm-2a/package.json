@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-r3-vendor-crm-2a",
+  "revision": "source-snapshot",
+  "displayName": "2 inch 旋转波片架",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-r3-vendor-crm-2a.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

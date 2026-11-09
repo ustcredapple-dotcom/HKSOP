@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "dpt3-lens-support-r1",
+  "revision": "R1",
+  "displayName": "Dipole Trap 3 · R200透镜一体支架",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/dpt3-lens-support-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

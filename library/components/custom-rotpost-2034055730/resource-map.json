@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-rotpost-2034055730",
+  "files": [
+    {
+      "path": "cad/4b2249ce0ea5bca4594a7c2d79e1d4a66886a093eac9e3c13afd07ce109a0344.step",
+      "stored": "library/assets/sha256/4b/4b2249ce0ea5bca4594a7c2d79e1d4a66886a093eac9e3c13afd07ce109a0344.step",
+      "sha256": "4b2249ce0ea5bca4594a7c2d79e1d4a66886a093eac9e3c13afd07ce109a0344",
+      "originalReferences": [
+        "step/custom-rotation/UP25R+45.000-F57D99/特制万能柱_原生.step"
+      ],
+      "sources": [
+        "library/assets/sha256/4b/4b2249ce0ea5bca4594a7c2d79e1d4a66886a093eac9e3c13afd07ce109a0344.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

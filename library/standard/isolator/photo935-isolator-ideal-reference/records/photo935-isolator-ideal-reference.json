@@ -1,0 +1,249 @@
+{
+  "category": "isolator",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/2ed7fb2849af8aa467c0db11/e/cf0e57507c276dc043212e41",
+  "layout": {
+    "topViewPath": "topviews/kit_new-isolator.svg",
+    "topViewUrl": "./topviews/kit_new-isolator.svg",
+    "widthMm": 136.5,
+    "heightMm": 66.5,
+    "anchorXMm": 68.25,
+    "anchorYMm": 33.25,
+    "baseBoundsMm": {
+      "xMin": -67.5,
+      "yMin": -17.5,
+      "xMax": 67.5,
+      "yMax": 17.5
+    },
+    "collisionBoundsMm": {
+      "xMin": -67.65,
+      "yMin": -32.65,
+      "xMax": 67.65,
+      "yMax": 32.65
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -50.562132,
+          "yMm": -32.65
+        },
+        {
+          "xMm": -51.15,
+          "yMm": -32.062132
+        },
+        {
+          "xMm": -51.15,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -67.65,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -67.65,
+          "yMm": 17.65
+        },
+        {
+          "xMm": -51.15,
+          "yMm": 17.65
+        },
+        {
+          "xMm": -51.15,
+          "yMm": 32.062132
+        },
+        {
+          "xMm": -50.562132,
+          "yMm": 32.65
+        },
+        {
+          "xMm": 50.562132,
+          "yMm": 32.65
+        },
+        {
+          "xMm": 51.15,
+          "yMm": 32.062132
+        },
+        {
+          "xMm": 51.15,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 67.65,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 67.65,
+          "yMm": -17.65
+        },
+        {
+          "xMm": 51.15,
+          "yMm": -17.65
+        },
+        {
+          "xMm": 51.15,
+          "yMm": -32.062132
+        },
+        {
+          "xMm": 50.562132,
+          "yMm": -32.65
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "cad-projection-2026-10-04-r6.1",
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -62.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -62.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": -37.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -37.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 37.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 37.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 62.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 62.5,
+        "yMm": 12.5
+      }
+    ],
+    "placementAllowed": true,
+    "status": "ISOC1外形参考 · 935 nm内芯未知 · 理想前向路径预览",
+    "note": "理想前向直通只用于看清路径；有效计算平面定义在外形中心。它不是实际法拉第作用面的测量。前向透过率暂取1，仅为无损路径预览；偏振变化、隔离度、反向漏光不在本模型内。外形引用既有ISOC1支架；不进入采购或制造清单。光高沿用在线历史目录63.5 mm，不宣称完成62.5 mm改制。",
+    "geometryEvidence": {
+      "sourceStep": null,
+      "originalSourceStep": null,
+      "sourceSha256": "9da9125e1a14b9be32b47980200bb3f4ef4a4a002a5568665c4ff51ef959b961",
+      "partCount": 48,
+      "postCount": 2,
+      "imageSha256": "8953f0f231ab27280eb559ec415f18a64e1b85d6a4c9d2b613d5fd18e21e0fa1",
+      "triangleCount": 219774,
+      "axes": "world X right / Y up / Z height",
+      "guardMm": 0.15,
+      "meshDeflectionMm": 0.04,
+      "faceColoursPreserved": true,
+      "mountingGridAudit": [
+        {
+          "pitchMm": 12.5,
+          "maxSimultaneouslyAlignedHoleCount": 8,
+          "totalMountingHoles": 8
+        },
+        {
+          "pitchMm": 25,
+          "maxSimultaneouslyAlignedHoleCount": 8,
+          "totalMountingHoles": 8
+        }
+      ],
+      "excludedReferenceCount": 0
+    },
+    "opticalType": "empty",
+    "opticalSurfaceAngleDeg": 90.0,
+    "opticalAxisHeightMm": 62.5,
+    "opticalCenterMm": {
+      "xMm": 0.0,
+      "yMm": 0.0
+    },
+    "opticalAxisHeightSource": "理想前向路径参考的公制设计高度62.5 mm；并非935nm实物测量。",
+    "mountingHoleRadiusMm": 3.2,
+    "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/2ed7fb2849af8aa467c0db11/e/cf0e57507c276dc043212e41",
+    "basePolygonsMm": [
+      [
+        {
+          "xMm": -67.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": -32.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": -32.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -67.5,
+          "yMm": -17.5
+        }
+      ],
+      [
+        {
+          "xMm": 32.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 67.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 67.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": 32.5,
+          "yMm": -17.5
+        }
+      ]
+    ],
+    "opticalDatumStatus": "synthetic-equivalent-plane: casing midpoint by definition, not measured Faraday plane",
+    "opticalDefaults": {
+      "elementType": "empty",
+      "inserted": true,
+      "configured": true,
+      "surfaceAngleDeg": 90,
+      "clearApertureMm": 10
+    },
+    "opticalInteraction": {
+      "format": "zzlab-optical-interaction",
+      "version": 1,
+      "model": "planar",
+      "onNoMatch": "block",
+      "inputs": [
+        {
+          "id": "forward-path-only",
+          "direction": {
+            "angleDeg": 180,
+            "halfAngleDeg": 5,
+            "bidirectional": false
+          },
+          "wavelengthNm": {
+            "min": 930,
+            "max": 940,
+            "onMismatch": "block"
+          },
+          "steps": [
+            {
+              "op": "pass"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "name": "935 nm 隔离器 · 前向路径示意",
+  "variant": "照片935光路 · 明确理想模型 · 非实物标定",
+  "description": "为照片重建定义的薄元件前向直通参考模型。外形复用ISOC1安装罩参考，不将780 nm内芯认定为935 nm实物。",
+  "status": "仅路径示意；935 nm内芯型号、损耗、隔离度和实际作用面未测",
+  "notes": "理想前向直通只用于看清路径；有效计算平面定义在外形中心。它不是实际法拉第作用面的测量。前向透过率暂取1，仅为无损路径预览；偏振变化、隔离度、反向漏光不在本模型内。外形引用既有ISOC1支架；不进入采购或制造清单。参考计算高度采用62.5 mm；不宣称935nm实物或内芯完成标定。",
+  "components": [],
+  "opticalSlots": [],
+  "bomPolicy": "reference-only",
+  "releaseStage": "layout-reference",
+  "bundleNote": "仅可导出空BOM的参考配置归档；不含采购行、制造零件或加工文件，不表示935 nm实物性能已核验。",
+  "id": "photo935-isolator-ideal-reference"
+}

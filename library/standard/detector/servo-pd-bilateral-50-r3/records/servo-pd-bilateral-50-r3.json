@@ -1,0 +1,359 @@
+{
+  "name": "舵机双侧探测器 · 臂长50 mm · R3",
+  "category": "detector",
+  "variant": "左右间距100 mm / H62.5 / 默认向上收起",
+  "revision": "R3-H12p5B4R2",
+  "description": "左右检测基准均对齐12.5 mm孔网；默认向上收起，两路通光。PD真实感光深度仍待实测。",
+  "components": [
+    {
+      "componentId": "hx-30hm-10hm-servo",
+      "quantity": 1
+    },
+    {
+      "componentId": "servo-horn-a-d19",
+      "quantity": 1
+    },
+    {
+      "componentId": "pd-module-37p3-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "servo-pd-ug01-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "servo-pd-ug02-50-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-post-metric-12p5mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-iso4762-m4x16",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-pin-d2x8",
+      "quantity": 2
+    },
+    {
+      "componentId": "servo-pd-rear-screws-pending",
+      "quantity": 4
+    },
+    {
+      "componentId": "servo-pd-horn-center-screw-pending",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-iso4762-m2x5",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-iso4762-m3x8",
+      "quantity": 4
+    },
+    {
+      "componentId": "servo-pd-m3-washer-0p5",
+      "quantity": 4
+    },
+    {
+      "componentId": "servo-pd-board-m6-pending",
+      "quantity": 4
+    }
+  ],
+  "opticalSlots": [],
+  "layout": {
+    "topViewPath": "topviews/servo-pd-bilateral-50-r3__H12p5_B4_R2.svg",
+    "topViewUrl": "./topviews/servo-pd-bilateral-50-r3__H12p5_B4_R2.svg",
+    "widthMm": 70,
+    "heightMm": 50,
+    "anchorXMm": 45,
+    "anchorYMm": 25,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      }
+    ],
+    "mountingHoleRadiusMm": 3.2,
+    "collisionBoundsMm": {
+      "xMin": -38.1,
+      "yMin": -72.43379319487165,
+      "xMax": 17.750000000000007,
+      "yMax": 72.43379319487165
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -38.1,
+          "yMm": -72.43379319487165
+        },
+        {
+          "xMm": 17.750000000000007,
+          "yMm": -72.43379319487165
+        },
+        {
+          "xMm": 17.750000000000007,
+          "yMm": 72.43379319487165
+        },
+        {
+          "xMm": -38.1,
+          "yMm": 72.43379319487165
+        }
+      ]
+    ],
+    "placementAllowed": true,
+    "status": "R3 真CAD收起俯视；保守连续运动区域",
+    "opticalType": "unsupported",
+    "opticalDatumVerified": false,
+    "opticalCenterMm": null,
+    "opticalAxisHeightMm": 62.5,
+    "nominalOpticalHeightMm": 62.5,
+    "opticalSurfaceAngleDeg": 90,
+    "opticalSimulationNote": "左右检测时名义光高62.5mm；感光面基准仍是估算，未实现探测响应及运动状态的光路仿真。",
+    "note": "柱轴XY0、实际支承底面Z0。默认向上收起，检测中心分别在Y±臂长；碰撞区域为真实CAD边界连续旋转所得保守矩形并加0.25mm，不是收起外形，不含未知外接线缆。",
+    "geometryEvidence": {
+      "sourceStepSha256": "d979f2370c94bca7dc7c27c99aa4f6852b715c2248420c37a8ebd2637aba5cf1",
+      "partCount": 40,
+      "leafCount": 18,
+      "postBaseThicknessMm": 6,
+      "postHeightMm": 12.5,
+      "topViewPoseDeg": 0,
+      "imageSha256": "8bb9463d1db60174c5a1361788344b4dc32dd01da14bd0e79edf8e0ed258565f",
+      "physicalTrialCompleted": false,
+      "continuousSweepBoundsMm": [
+        -37.85,
+        -72.18379319487165,
+        -1e-07,
+        17.500000000000007,
+        72.18379319487165,
+        134.68379319487164
+      ],
+      "referenceAssembly": {
+        "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/servo-pd-bilateral-50-r3__H12p5_B4_R2.step",
+        "sha256": "d979f2370c94bca7dc7c27c99aa4f6852b715c2248420c37a8ebd2637aba5cf1"
+      },
+      "sourceStep": "step/standard-post-h12p5-b4-r2/assemblies/servo-pd-bilateral-50-r3__H12p5_B4_R2.step",
+      "sourceSha256": "d979f2370c94bca7dc7c27c99aa4f6852b715c2248420c37a8ebd2637aba5cf1",
+      "postBaseRevision": {
+        "revision": "H12p5-B4-R2",
+        "componentIds": [
+          "custom-post-metric-12p5mm-m1"
+        ],
+        "baseThicknessByComponentId": {
+          "custom-post-metric-12p5mm-m1": 4
+        },
+        "nominalAndOpticalHeightsPreserved": true,
+        "geometryStatus": "passed",
+        "physicalAssemblyAccepted": false,
+        "previousAssemblySha256": "7467010ae529f7ef4f517565d8ee98c8047c2fb399de490eeca027d7c8803a62",
+        "currentAssemblySha256": "d979f2370c94bca7dc7c27c99aa4f6852b715c2248420c37a8ebd2637aba5cf1",
+        "replacementReportSha256": "9127faf31a56e5b6b3202cee40770df716d0944256121a4ce831a47c0434dc72",
+        "originalEntitiesAndPosesPreserved": true
+      },
+      "baseThicknessByComponentId": {
+        "custom-post-metric-12p5mm-m1": 4
+      }
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "d979f2370c94bca7dc7c27c99aa4f6852b715c2248420c37a8ebd2637aba5cf1",
+      "imageSha256": "8bb9463d1db60174c5a1361788344b4dc32dd01da14bd0e79edf8e0ed258565f",
+      "revision": "H12p5-B4-R2",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null,
+      "projectionReportSha256": "dd93611a9df1f9c9b6d0e0739d0b4b9ca2aa4af655f6b55a0cc6e63d60c62646"
+    },
+    "rasterPreview": {
+      "topViewPath": "topviews/servo-pd-bilateral-50-r3.png"
+    },
+    "sourceUrl": "https://cad.onshape.com/documents/6e58c9cce55d2925e9e4e840/v/437700e874b02419d6267c3d/e/2c70381ed4aef8f3c2900810"
+  },
+  "mechanicalConfiguration": "stowed-up-0deg",
+  "assemblyReference": {
+    "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/servo-pd-bilateral-50-r3__H12p5_B4_R2.step",
+    "sha256": "d979f2370c94bca7dc7c27c99aa4f6852b715c2248420c37a8ebd2637aba5cf1",
+    "sourceStepSha256": "d979f2370c94bca7dc7c27c99aa4f6852b715c2248420c37a8ebd2637aba5cf1",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "revision": "R3-H12p5B4R2",
+    "drawingPath": null,
+    "sourceDrawingSha256": "9b3fc20eae76e3d58b04da4850f78cd6fe618f08fd57a0454b8180ded5dc5ae7",
+    "cloudUrl": "https://cad.onshape.com/documents/6e58c9cce55d2925e9e4e840/v/437700e874b02419d6267c3d/e/2c70381ed4aef8f3c2900810",
+    "cloudStatus": "frozen-independent-assembly-readback-pending"
+  },
+  "assemblyAssets": [
+    {
+      "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/asset-servo-pd-bilateral-50-r3-0__H12p5_B4_R2.step",
+      "sha256": "22f8a55405e99a10b2dabbf5bb0f9842c0605ff04e7a8df0333e2e82c34f9685",
+      "poseDeg": -90,
+      "role": "left-detection",
+      "solidCount": 40,
+      "includesStandardFastenerSolids": false
+    },
+    {
+      "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/servo-pd-bilateral-50-r3__H12p5_B4_R2.step",
+      "sha256": "d979f2370c94bca7dc7c27c99aa4f6852b715c2248420c37a8ebd2637aba5cf1",
+      "poseDeg": 0,
+      "role": "stowed-up",
+      "solidCount": 40,
+      "includesStandardFastenerSolids": false
+    },
+    {
+      "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/asset-servo-pd-bilateral-50-r3-2__H12p5_B4_R2.step",
+      "sha256": "e71f7bb999c78a4d813ff5a03434fbb9e43a6c81ad94ada88615e66b6be0aa59",
+      "poseDeg": 90,
+      "role": "right-detection",
+      "solidCount": 40,
+      "includesStandardFastenerSolids": false
+    }
+  ],
+  "assemblyPoseRecipe": {
+    "version": 1,
+    "defaultPoseDeg": 0,
+    "axisKit": [
+      1,
+      0,
+      0
+    ],
+    "pivotKitMm": [
+      -49.4479804,
+      0,
+      62.5
+    ],
+    "leftDeg": -90,
+    "stowedDeg": 0,
+    "rightDeg": 90,
+    "geometryStates": [
+      {
+        "angleDeg": -90,
+        "estimatedSensitivePointKitMm": [
+          -37.5,
+          50,
+          62.5
+        ]
+      },
+      {
+        "angleDeg": 0,
+        "estimatedSensitivePointKitMm": [
+          -37.5,
+          0,
+          112.5
+        ]
+      },
+      {
+        "angleDeg": 90,
+        "estimatedSensitivePointKitMm": [
+          -37.5,
+          -50,
+          62.5
+        ]
+      }
+    ],
+    "sourceUnit": "mm",
+    "runtimeMotionAdapter": "not-implemented"
+  },
+  "opticalReferencePositions": {
+    "nominalHeightMm": 62.5,
+    "leftMm": [
+      -37.5,
+      50,
+      62.5
+    ],
+    "rightMm": [
+      -37.5,
+      -50,
+      62.5
+    ],
+    "stowedMm": [
+      -37.5,
+      0,
+      112.5
+    ],
+    "actualSensitiveDepthConfirmed": false
+  },
+  "status": "工程审阅版；未实装",
+  "releaseStage": "engineering-review",
+  "productionReady": false,
+  "bundleStatus": "complete",
+  "bundleNote": "R3定制件STEP、两页加工图、普通DXF转换PDF和激光资料；全套九姿态与安装说明另见完整交付包。云端验收独立登记。",
+  "notes": "臂长三选一，每台仅1个固定座和1个载臂。37角度离散几何检查沿用源记录；商用源牙型、阴花键、PD深度、实际角度/回差/线缆/力矩均待实物确认。 H12.5 B4-R2：普通H12.5柱底脚4 mm，其余普通柱保持各自规格；完整STEP已换柱回读，总高、孔位和全部器件姿态保持；未实物试装。",
+  "optionalNotes": [
+    "M4×16、M2×5按名义装配链选作候选；后壁4螺钉、舵盘中心螺钉和板侧M6长度待实物核定。",
+    "网页静态俯视采用0°向上收起；光高62.5mm指左右检测位置，不是收起时的感光点高度。"
+  ],
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "299f15a284deb6f7b53f3dd4637be1539800b3842c89b0f7cdb3a42315bf32bf",
+        "sha256": "9b3fc20eae76e3d58b04da4850f78cd6fe618f08fd57a0454b8180ded5dc5ae7"
+      }
+    ]
+  },
+  "postBaseRevision": {
+    "revision": "H12p5-B4-R2",
+    "componentIds": [
+      "custom-post-metric-12p5mm-m1"
+    ],
+    "baseThicknessByComponentId": {
+      "custom-post-metric-12p5mm-m1": 4
+    },
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "physicalAssemblyAccepted": false,
+    "previousAssemblySha256": "7467010ae529f7ef4f517565d8ee98c8047c2fb399de490eeca027d7c8803a62",
+    "currentAssemblySha256": "d979f2370c94bca7dc7c27c99aa4f6852b715c2248420c37a8ebd2637aba5cf1",
+    "replacementReportSha256": "9127faf31a56e5b6b3202cee40770df716d0944256121a4ce831a47c0434dc72",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "cloudReference": {
+    "batch": 5,
+    "documentId": "6e58c9cce55d2925e9e4e840",
+    "workspaceId": "b482368ffdc22b2fb9daff0c",
+    "sourceUrl": "https://cad.onshape.com/documents/6e58c9cce55d2925e9e4e840/v/437700e874b02419d6267c3d/e/2c70381ed4aef8f3c2900810",
+    "status": "frozen-independent-assembly-readback-pending",
+    "observation": "Onshape notification panel and folder list via IAB",
+    "strictReadbackComplete": false,
+    "active": false,
+    "current": true,
+    "sourceStepSha256": "d979f2370c94bca7dc7c27c99aa4f6852b715c2248420c37a8ebd2637aba5cf1",
+    "automaticCloudReuseAllowed": false,
+    "independentAssemblyElementVerified": true,
+    "physicalAssemblyAccepted": false,
+    "versionId": "437700e874b02419d6267c3d",
+    "elementId": "2c70381ed4aef8f3c2900810",
+    "elementType": "Assembly",
+    "versionFrozen": true,
+    "uiEvidence": {
+      "path": null,
+      "sha256": "111070afdf1f7cfd83ecc7bf45897a424b5d8e31f4e01cf6a1d68eae2dbec7bd"
+    },
+    "checkedAt": "2026-10-28T01:54:56.736608+08:00"
+  },
+  "sourceUrl": "https://cad.onshape.com/documents/6e58c9cce55d2925e9e4e840/v/437700e874b02419d6267c3d/e/2c70381ed4aef8f3c2900810",
+  "id": "servo-pd-bilateral-50-r3"
+}

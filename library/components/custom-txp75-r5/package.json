@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-txp75-r5",
+  "revision": "R5",
+  "displayName": "TXP75-R5 · TXY1S固定套筒定制板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-txp75-r5.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

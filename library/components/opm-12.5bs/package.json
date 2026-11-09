@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "opm-12.5bs",
+  "revision": "source-snapshot",
+  "displayName": "30 mm 同轴安装板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/opm-12.5bs.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

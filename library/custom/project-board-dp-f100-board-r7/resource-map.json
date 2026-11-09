@@ -1,0 +1,29 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "project-board-dp-f100-board-r7",
+  "files": [
+    {
+      "path": "cad/25aa1fdec59f4cef7759138945a8026dcf7e887d2e2d9186d2ed563039f36cbc.step",
+      "stored": "library/assets/sha256/25/25aa1fdec59f4cef7759138945a8026dcf7e887d2e2d9186d2ed563039f36cbc.step",
+      "sha256": "25aa1fdec59f4cef7759138945a8026dcf7e887d2e2d9186d2ed563039f36cbc",
+      "originalReferences": [
+        "sha256/25/25aa1fdec59f4cef7759138945a8026dcf7e887d2e2d9186d2ed563039f36cbc.step"
+      ],
+      "sources": [
+        "library/assets/sha256/25/25aa1fdec59f4cef7759138945a8026dcf7e887d2e2d9186d2ed563039f36cbc.step"
+      ]
+    },
+    {
+      "path": "rendering/7a4d3851d15fc91f48bcb0ad2b8e36f05251fc0deff1dc3166b5474527478c1d.svg",
+      "stored": "library/assets/sha256/7a/7a4d3851d15fc91f48bcb0ad2b8e36f05251fc0deff1dc3166b5474527478c1d.svg",
+      "sha256": "7a4d3851d15fc91f48bcb0ad2b8e36f05251fc0deff1dc3166b5474527478c1d",
+      "originalReferences": [
+        "sha256/7a/7a4d3851d15fc91f48bcb0ad2b8e36f05251fc0deff1dc3166b5474527478c1d.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/7a/7a4d3851d15fc91f48bcb0ad2b8e36f05251fc0deff1dc3166b5474527478c1d.svg"
+      ]
+    }
+  ],
+  "dependencies": []
+}

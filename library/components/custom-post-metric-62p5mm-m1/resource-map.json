@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-post-metric-62p5mm-m1",
+  "files": [
+    {
+      "path": "cad/be4e7569ed0ce0adf4a1b1c0a8dde20a849fa4cca6a372c614340ec49adbd4d6.step",
+      "stored": "library/assets/sha256/be/be4e7569ed0ce0adf4a1b1c0a8dde20a849fa4cca6a372c614340ec49adbd4d6.step",
+      "sha256": "be4e7569ed0ce0adf4a1b1c0a8dde20a849fa4cca6a372c614340ec49adbd4d6",
+      "originalReferences": [
+        "step/universal-post-b6-r1/万能柱_H62.5mm_B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/be/be4e7569ed0ce0adf4a1b1c0a8dde20a849fa4cca6a372c614340ec49adbd4d6.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

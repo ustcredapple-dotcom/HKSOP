@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-p20-u-r1",
+  "files": [
+    {
+      "path": "cad/a242931405f48a18fed647957866576db20aee129cad4d64b73db3c534a3cc35.step",
+      "stored": "library/assets/sha256/a2/a242931405f48a18fed647957866576db20aee129cad4d64b73db3c534a3cc35.step",
+      "sha256": "a242931405f48a18fed647957866576db20aee129cad4d64b73db3c534a3cc35",
+      "originalReferences": [
+        "step/pbs20-r1/P20-U-R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/a2/a242931405f48a18fed647957866576db20aee129cad4d64b73db3c534a3cc35.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

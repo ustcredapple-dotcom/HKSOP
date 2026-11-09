@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "servo-detector-sg02-r2",
+  "files": [
+    {
+      "path": "cad/68598f3abd7608ed1f0dda68b612248ddc478a76a707d8d3faaa9514d61af82f.step",
+      "stored": "library/assets/sha256/68/68598f3abd7608ed1f0dda68b612248ddc478a76a707d8d3faaa9514d61af82f.step",
+      "sha256": "68598f3abd7608ed1f0dda68b612248ddc478a76a707d8d3faaa9514d61af82f",
+      "originalReferences": [
+        "step/servo-detector-gate-r2/SG02_PD_CARRIER_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/68/68598f3abd7608ed1f0dda68b612248ddc478a76a707d8d3faaa9514d61af82f.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

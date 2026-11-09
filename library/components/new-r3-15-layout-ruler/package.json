@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-r3-15-layout-ruler",
+  "revision": "source-snapshot",
+  "displayName": "方位短尺",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-r3-15-layout-ruler.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

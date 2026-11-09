@@ -1,0 +1,91 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "objective-post-ls30-6l1-r3",
+  "files": [
+    {
+      "path": "rendering/0779c85112a4c0cb0cdc2b33599ee6f0f61e77bd443a68245ffcb4b39c69ae7b.svg",
+      "stored": "library/assets/sha256/07/0779c85112a4c0cb0cdc2b33599ee6f0f61e77bd443a68245ffcb4b39c69ae7b.svg",
+      "sha256": "0779c85112a4c0cb0cdc2b33599ee6f0f61e77bd443a68245ffcb4b39c69ae7b",
+      "originalReferences": [
+        "topviews/kit_objective-stage-reference-r3-lbtek-ls30-6l1-fixed.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/07/0779c85112a4c0cb0cdc2b33599ee6f0f61e77bd443a68245ffcb4b39c69ae7b.svg"
+      ]
+    },
+    {
+      "path": "rendering/5d1ce716e1365afb15f03cdd9f1895d1cd5bde4cf5f23c5fb90419d021ae5226.svg",
+      "stored": "library/assets/sha256/5d/5d1ce716e1365afb15f03cdd9f1895d1cd5bde4cf5f23c5fb90419d021ae5226.svg",
+      "sha256": "5d1ce716e1365afb15f03cdd9f1895d1cd5bde4cf5f23c5fb90419d021ae5226",
+      "originalReferences": [
+        "topviews/kit_objective-stage-reference-r3-lbtek-ls30-6l1-complete.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/5d/5d1ce716e1365afb15f03cdd9f1895d1cd5bde4cf5f23c5fb90419d021ae5226.svg"
+      ]
+    },
+    {
+      "path": "cad/82a85b5640e79ff7f8475f2900fa831e6000d957992a3a9b2907857b38c4bfe2.step",
+      "stored": "library/assets/sha256/82/82a85b5640e79ff7f8475f2900fa831e6000d957992a3a9b2907857b38c4bfe2.step",
+      "sha256": "82a85b5640e79ff7f8475f2900fa831e6000d957992a3a9b2907857b38c4bfe2",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/objective-post-ls30-6l1-r3__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/82/82a85b5640e79ff7f8475f2900fa831e6000d957992a3a9b2907857b38c4bfe2.step"
+      ]
+    },
+    {
+      "path": "rendering/abdb8ea1ad7b98fb1e3d3bb104b2f822388c0ead27b3447fda14feb6d7e1b1cc.svg",
+      "stored": "library/assets/sha256/ab/abdb8ea1ad7b98fb1e3d3bb104b2f822388c0ead27b3447fda14feb6d7e1b1cc.svg",
+      "sha256": "abdb8ea1ad7b98fb1e3d3bb104b2f822388c0ead27b3447fda14feb6d7e1b1cc",
+      "originalReferences": [
+        "topviews/kit_objective-stage-reference-r3-lbtek-ls30-6l1-upper.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/ab/abdb8ea1ad7b98fb1e3d3bb104b2f822388c0ead27b3447fda14feb6d7e1b1cc.svg"
+      ]
+    },
+    {
+      "path": "cad/d112f542c26a866417b8c2bbbd874c7252dfe830bd87e45247186636bb30b17b.step",
+      "stored": "library/assets/sha256/d1/d112f542c26a866417b8c2bbbd874c7252dfe830bd87e45247186636bb30b17b.step",
+      "sha256": "d112f542c26a866417b8c2bbbd874c7252dfe830bd87e45247186636bb30b17b",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/asset-objective-shared-module__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/d1/d112f542c26a866417b8c2bbbd874c7252dfe830bd87e45247186636bb30b17b.step"
+      ]
+    },
+    {
+      "path": "rendering/fbcd01bcedea64e51046d921d713c643f2c66434bb1655110741f399cd47bcbc.svg",
+      "stored": "library/assets/sha256/fb/fbcd01bcedea64e51046d921d713c643f2c66434bb1655110741f399cd47bcbc.svg",
+      "sha256": "fbcd01bcedea64e51046d921d713c643f2c66434bb1655110741f399cd47bcbc",
+      "originalReferences": [
+        "topviews/kit_objective-stage-reference-r3-lbtek-ls30-6l1-moving.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/fb/fbcd01bcedea64e51046d921d713c643f2c66434bb1655110741f399cd47bcbc.svg"
+      ]
+    },
+    {
+      "path": "rendering/ff0db72d2390b7ad3fa923c4a7313999ca4fa576de8f1a7dd6f1102831e8c16d.svg",
+      "stored": "library/assets/sha256/ff/ff0db72d2390b7ad3fa923c4a7313999ca4fa576de8f1a7dd6f1102831e8c16d.svg",
+      "sha256": "ff0db72d2390b7ad3fa923c4a7313999ca4fa576de8f1a7dd6f1102831e8c16d",
+      "originalReferences": [
+        "topviews/objective-post-ls30-6l1-r3__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/ff/ff0db72d2390b7ad3fa923c4a7313999ca4fa576de8f1a7dd6f1102831e8c16d.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-30-obj-m-r2",
+    "custom-post-metric-25mm-m1",
+    "hardware-iso4762-m6x12",
+    "new-hardware-0cc1a2908550",
+    "new-hardware-d56c7b8035c3",
+    "new-r3-hardware-b7a3ea97ce89"
+  ]
+}

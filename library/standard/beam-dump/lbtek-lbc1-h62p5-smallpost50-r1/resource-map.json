@@ -1,0 +1,44 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "lbtek-lbc1-h62p5-smallpost50-r1",
+  "files": [
+    {
+      "path": "cad/468c8517896a3fee5f8371825fd17872d60768c9beedd5a839b8db96618968d3.step",
+      "stored": "library/assets/sha256/46/468c8517896a3fee5f8371825fd17872d60768c9beedd5a839b8db96618968d3.step",
+      "sha256": "468c8517896a3fee5f8371825fd17872d60768c9beedd5a839b8db96618968d3",
+      "originalReferences": [
+        "step/lbtek-lbc1-r1/lbtek-lbc1-h62p5-smallpost50-r1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/46/468c8517896a3fee5f8371825fd17872d60768c9beedd5a839b8db96618968d3.step"
+      ]
+    },
+    {
+      "path": "rendering/a6221a3ba80788c605fcbfc5ee6cf28c59d6a4d36288788541d7d51e4b12c8b3.svg",
+      "stored": "library/assets/sha256/a6/a6221a3ba80788c605fcbfc5ee6cf28c59d6a4d36288788541d7d51e4b12c8b3.svg",
+      "sha256": "a6221a3ba80788c605fcbfc5ee6cf28c59d6a4d36288788541d7d51e4b12c8b3",
+      "originalReferences": [
+        "topviews/lbtek-lbc1-h62p5-smallpost50-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/a6/a6221a3ba80788c605fcbfc5ee6cf28c59d6a4d36288788541d7d51e4b12c8b3.svg"
+      ]
+    },
+    {
+      "path": "cad/f0c6e7f66b4932336ffd44467874eaa65b4b38d4509377fbd8b37435e2b332ee.step",
+      "stored": "library/assets/sha256/f0/f0c6e7f66b4932336ffd44467874eaa65b4b38d4509377fbd8b37435e2b332ee.step",
+      "sha256": "f0c6e7f66b4932336ffd44467874eaa65b4b38d4509377fbd8b37435e2b332ee",
+      "originalReferences": [
+        "step/lbtek-lbc1-r1/lbtek-lbc1-head-installed.step"
+      ],
+      "sources": [
+        "library/assets/sha256/f0/f0c6e7f66b4932336ffd44467874eaa65b4b38d4509377fbd8b37435e2b332ee.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-small-post-50mm-r1",
+    "hardware-iso4762-m6x16",
+    "lbtek-lbc1"
+  ]
+}

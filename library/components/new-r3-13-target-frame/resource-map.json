@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-r3-13-target-frame",
+  "files": [
+    {
+      "path": "cad/5562af5b4c76b2d1aba54eb1c6422193f94ee2378f47857663025a94a3884bfa.step",
+      "stored": "library/assets/sha256/55/5562af5b4c76b2d1aba54eb1c6422193f94ee2378f47857663025a94a3884bfa.step",
+      "sha256": "5562af5b4c76b2d1aba54eb1c6422193f94ee2378f47857663025a94a3884bfa",
+      "originalReferences": [
+        "step/metric-m1-20261006/13-TGT-B_METRIC_M1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/55/5562af5b4c76b2d1aba54eb1c6422193f94ee2378f47857663025a94a3884bfa.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "periscope-m6x12-screw",
+  "revision": "source-snapshot",
+  "displayName": "内六角圆柱头螺钉 M6×12",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/periscope-m6x12-screw.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

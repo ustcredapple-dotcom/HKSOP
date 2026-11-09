@@ -1,0 +1,16 @@
+{
+  "format": "zzlab-optical-interaction",
+  "version": 1,
+  "model": "planar",
+  "onNoMatch": "block",
+  "inputs": [
+    {
+      "id": "main",
+      "steps": [
+        {
+          "op": "pass"
+        }
+      ]
+    }
+  ]
+}

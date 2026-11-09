@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "servo-horn-a-d19",
+  "revision": "SOURCE-FROZEN-R1",
+  "displayName": "舵盘 A · Ø19",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/servo-horn-a-d19.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

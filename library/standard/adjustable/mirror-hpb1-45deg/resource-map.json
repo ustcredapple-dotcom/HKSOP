@@ -1,0 +1,37 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "mirror-hpb1-45deg",
+  "files": [
+    {
+      "path": "rendering/42f4e87f2233063d1f4a20280ba8ed41cd47a74dfe7fcde06fe8bd15dff31eca.svg",
+      "stored": "library/assets/sha256/42/42f4e87f2233063d1f4a20280ba8ed41cd47a74dfe7fcde06fe8bd15dff31eca.svg",
+      "sha256": "42f4e87f2233063d1f4a20280ba8ed41cd47a74dfe7fcde06fe8bd15dff31eca",
+      "originalReferences": [
+        "topviews/mirror-hpb1-45deg.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/42/42f4e87f2233063d1f4a20280ba8ed41cd47a74dfe7fcde06fe8bd15dff31eca.svg"
+      ]
+    },
+    {
+      "path": "cad/c93640ace4c9c807e1a1a15f8d217afc13bd21e32220ab216390ba6f65b11eeb.step",
+      "stored": "library/assets/sha256/c9/c93640ace4c9c807e1a1a15f8d217afc13bd21e32220ab216390ba6f65b11eeb.step",
+      "sha256": "c93640ace4c9c807e1a1a15f8d217afc13bd21e32220ab216390ba6f65b11eeb",
+      "originalReferences": [
+        "step/cs30kz-hpb-shared-r2/HPB1_45deg_ASSEMBLY_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/c9/c93640ace4c9c807e1a1a15f8d217afc13bd21e32220ab216390ba6f65b11eeb.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-hpb1-a",
+    "custom-post-metric-25mm-m1",
+    "hpb-1-2",
+    "metric-m1-post-m4x16",
+    "metric-m1-post-pin-d2x8",
+    "v7-iso4762-m4x12",
+    "v7-pin-d2x6"
+  ]
+}

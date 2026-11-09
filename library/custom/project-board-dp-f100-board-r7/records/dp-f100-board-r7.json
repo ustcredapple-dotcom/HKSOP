@@ -1,0 +1,1539 @@
+{
+  "id": "dp-f100-board-r7",
+  "name": "Double Pass f100 · 425×150 · 25mm基础孔阵 R7",
+  "revision": "R7-20261106",
+  "widthMm": 425,
+  "heightMm": 150,
+  "thicknessMm": 12.5,
+  "pitchMm": 12.5,
+  "edgeOffsetMm": 12.5,
+  "outlineMm": [
+    {
+      "xMm": 0,
+      "yMm": 0
+    },
+    {
+      "xMm": 425,
+      "yMm": 0
+    },
+    {
+      "xMm": 425,
+      "yMm": 150
+    },
+    {
+      "xMm": 0,
+      "yMm": 150
+    }
+  ],
+  "cutoutsMm": [],
+  "holesMm": [
+    {
+      "id": "T001",
+      "xMm": 12.5,
+      "yMm": 12.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T002",
+      "xMm": 37.5,
+      "yMm": 12.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T003",
+      "xMm": 62.5,
+      "yMm": 12.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T004",
+      "xMm": 87.5,
+      "yMm": 12.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T005",
+      "xMm": 112.5,
+      "yMm": 12.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T006",
+      "xMm": 137.5,
+      "yMm": 12.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T007",
+      "xMm": 162.5,
+      "yMm": 12.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T008",
+      "xMm": 187.5,
+      "yMm": 12.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T009",
+      "xMm": 212.5,
+      "yMm": 12.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T010",
+      "xMm": 237.5,
+      "yMm": 12.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T011",
+      "xMm": 262.5,
+      "yMm": 12.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T012",
+      "xMm": 287.5,
+      "yMm": 12.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T013",
+      "xMm": 312.5,
+      "yMm": 12.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T014",
+      "xMm": 337.5,
+      "yMm": 12.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T015",
+      "xMm": 362.5,
+      "yMm": 12.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T016",
+      "xMm": 387.5,
+      "yMm": 12.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T017",
+      "xMm": 412.5,
+      "yMm": 12.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T018",
+      "xMm": 12.5,
+      "yMm": 37.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T019",
+      "xMm": 37.5,
+      "yMm": 37.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T020",
+      "xMm": 62.5,
+      "yMm": 37.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T021",
+      "xMm": 87.5,
+      "yMm": 37.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T022",
+      "xMm": 112.5,
+      "yMm": 37.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T023",
+      "xMm": 137.5,
+      "yMm": 37.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T024",
+      "xMm": 162.5,
+      "yMm": 37.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T025",
+      "xMm": 187.5,
+      "yMm": 37.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T026",
+      "xMm": 212.5,
+      "yMm": 37.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T027",
+      "xMm": 237.5,
+      "yMm": 37.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T028",
+      "xMm": 262.5,
+      "yMm": 37.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T029",
+      "xMm": 287.5,
+      "yMm": 37.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T030",
+      "xMm": 312.5,
+      "yMm": 37.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T031",
+      "xMm": 337.5,
+      "yMm": 37.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T032",
+      "xMm": 362.5,
+      "yMm": 37.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T033",
+      "xMm": 387.5,
+      "yMm": 37.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T034",
+      "xMm": 412.5,
+      "yMm": 37.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T035",
+      "xMm": 162.5,
+      "yMm": 50.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T036",
+      "xMm": 187.5,
+      "yMm": 50.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T037",
+      "xMm": 237.5,
+      "yMm": 50.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T038",
+      "xMm": 262.5,
+      "yMm": 50.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T039",
+      "xMm": 387.5,
+      "yMm": 50.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T040",
+      "xMm": 412.5,
+      "yMm": 50.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T041",
+      "xMm": 12.5,
+      "yMm": 62.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T042",
+      "xMm": 37.5,
+      "yMm": 62.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T043",
+      "xMm": 62.5,
+      "yMm": 62.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T044",
+      "xMm": 87.5,
+      "yMm": 62.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T045",
+      "xMm": 112.5,
+      "yMm": 62.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T046",
+      "xMm": 137.5,
+      "yMm": 62.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T047",
+      "xMm": 162.5,
+      "yMm": 62.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T048",
+      "xMm": 187.5,
+      "yMm": 62.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T049",
+      "xMm": 212.5,
+      "yMm": 62.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T050",
+      "xMm": 237.5,
+      "yMm": 62.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T051",
+      "xMm": 262.5,
+      "yMm": 62.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T052",
+      "xMm": 287.5,
+      "yMm": 62.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T053",
+      "xMm": 312.5,
+      "yMm": 62.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T054",
+      "xMm": 337.5,
+      "yMm": 62.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T055",
+      "xMm": 362.5,
+      "yMm": 62.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T056",
+      "xMm": 387.5,
+      "yMm": 62.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T057",
+      "xMm": 412.5,
+      "yMm": 62.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T058",
+      "xMm": 162.5,
+      "yMm": 75.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T059",
+      "xMm": 187.5,
+      "yMm": 75.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T060",
+      "xMm": 237.5,
+      "yMm": 75.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T061",
+      "xMm": 262.5,
+      "yMm": 75.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T062",
+      "xMm": 387.5,
+      "yMm": 75.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T063",
+      "xMm": 412.5,
+      "yMm": 75.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T064",
+      "xMm": 12.5,
+      "yMm": 87.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T065",
+      "xMm": 37.5,
+      "yMm": 87.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T066",
+      "xMm": 62.5,
+      "yMm": 87.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T067",
+      "xMm": 87.5,
+      "yMm": 87.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T068",
+      "xMm": 112.5,
+      "yMm": 87.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T069",
+      "xMm": 137.5,
+      "yMm": 87.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T070",
+      "xMm": 162.5,
+      "yMm": 87.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T071",
+      "xMm": 187.5,
+      "yMm": 87.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T072",
+      "xMm": 200.0,
+      "yMm": 87.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T073",
+      "xMm": 212.5,
+      "yMm": 87.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T074",
+      "xMm": 225.0,
+      "yMm": 87.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T075",
+      "xMm": 237.5,
+      "yMm": 87.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T076",
+      "xMm": 250.0,
+      "yMm": 87.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T077",
+      "xMm": 262.5,
+      "yMm": 87.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T078",
+      "xMm": 287.5,
+      "yMm": 87.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T079",
+      "xMm": 312.5,
+      "yMm": 87.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T080",
+      "xMm": 337.5,
+      "yMm": 87.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T081",
+      "xMm": 362.5,
+      "yMm": 87.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T082",
+      "xMm": 387.5,
+      "yMm": 87.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T083",
+      "xMm": 412.5,
+      "yMm": 87.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T084",
+      "xMm": 187.5,
+      "yMm": 100.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T085",
+      "xMm": 200.0,
+      "yMm": 100.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T086",
+      "xMm": 212.5,
+      "yMm": 100.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T087",
+      "xMm": 225.0,
+      "yMm": 100.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T088",
+      "xMm": 237.5,
+      "yMm": 100.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T089",
+      "xMm": 250.0,
+      "yMm": 100.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T090",
+      "xMm": 262.5,
+      "yMm": 100.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T091",
+      "xMm": 12.5,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T092",
+      "xMm": 37.5,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T093",
+      "xMm": 62.5,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T094",
+      "xMm": 87.5,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T095",
+      "xMm": 112.5,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T096",
+      "xMm": 137.5,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T097",
+      "xMm": 162.5,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T098",
+      "xMm": 187.5,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T099",
+      "xMm": 200.0,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T100",
+      "xMm": 212.5,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T101",
+      "xMm": 225.0,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T102",
+      "xMm": 237.5,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T103",
+      "xMm": 250.0,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T104",
+      "xMm": 262.5,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T105",
+      "xMm": 287.5,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T106",
+      "xMm": 312.5,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T107",
+      "xMm": 325.0,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T108",
+      "xMm": 337.5,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T109",
+      "xMm": 350.0,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T110",
+      "xMm": 362.5,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T111",
+      "xMm": 387.5,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T112",
+      "xMm": 412.5,
+      "yMm": 112.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T113",
+      "xMm": 187.5,
+      "yMm": 125.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T114",
+      "xMm": 200.0,
+      "yMm": 125.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T115",
+      "xMm": 212.5,
+      "yMm": 125.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T116",
+      "xMm": 225.0,
+      "yMm": 125.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T117",
+      "xMm": 237.5,
+      "yMm": 125.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T118",
+      "xMm": 250.0,
+      "yMm": 125.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T119",
+      "xMm": 262.5,
+      "yMm": 125.0,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T120",
+      "xMm": 12.5,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T121",
+      "xMm": 37.5,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T122",
+      "xMm": 62.5,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T123",
+      "xMm": 87.5,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T124",
+      "xMm": 112.5,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T125",
+      "xMm": 137.5,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T126",
+      "xMm": 162.5,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T127",
+      "xMm": 187.5,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T128",
+      "xMm": 200.0,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T129",
+      "xMm": 212.5,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T130",
+      "xMm": 225.0,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T131",
+      "xMm": 237.5,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T132",
+      "xMm": 250.0,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T133",
+      "xMm": 262.5,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T134",
+      "xMm": 287.5,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T135",
+      "xMm": 312.5,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T136",
+      "xMm": 325.0,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T137",
+      "xMm": 337.5,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T138",
+      "xMm": 350.0,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T139",
+      "xMm": 362.5,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T140",
+      "xMm": 387.5,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "T141",
+      "xMm": 412.5,
+      "yMm": 137.5,
+      "type": "thread",
+      "diameterMm": 6,
+      "drillDiameterMm": 5,
+      "thread": "M6x1.0",
+      "through": true
+    },
+    {
+      "id": "H1",
+      "xMm": 25,
+      "yMm": 12.5,
+      "type": "counterbore",
+      "diameterMm": 6.6,
+      "counterboreDiameterMm": 11,
+      "counterboreDepthMm": 6.5,
+      "through": true
+    },
+    {
+      "id": "H2",
+      "xMm": 400,
+      "yMm": 12.5,
+      "type": "counterbore",
+      "diameterMm": 6.6,
+      "counterboreDiameterMm": 11,
+      "counterboreDepthMm": 6.5,
+      "through": true
+    },
+    {
+      "id": "H3",
+      "xMm": 12.5,
+      "yMm": 25,
+      "type": "counterbore",
+      "diameterMm": 6.6,
+      "counterboreDiameterMm": 11,
+      "counterboreDepthMm": 6.5,
+      "through": true
+    },
+    {
+      "id": "H4",
+      "xMm": 412.5,
+      "yMm": 25,
+      "type": "counterbore",
+      "diameterMm": 6.6,
+      "counterboreDiameterMm": 11,
+      "counterboreDepthMm": 6.5,
+      "through": true
+    },
+    {
+      "id": "H5",
+      "xMm": 375,
+      "yMm": 87.5,
+      "type": "counterbore",
+      "diameterMm": 6.6,
+      "counterboreDiameterMm": 11,
+      "counterboreDepthMm": 6.5,
+      "through": true
+    },
+    {
+      "id": "H6",
+      "xMm": 37.5,
+      "yMm": 100,
+      "type": "counterbore",
+      "diameterMm": 6.6,
+      "counterboreDiameterMm": 11,
+      "counterboreDepthMm": 6.5,
+      "through": true
+    },
+    {
+      "id": "H7",
+      "xMm": 337.5,
+      "yMm": 100,
+      "type": "counterbore",
+      "diameterMm": 6.6,
+      "counterboreDiameterMm": 11,
+      "counterboreDepthMm": 6.5,
+      "through": true
+    },
+    {
+      "id": "H8",
+      "xMm": 50,
+      "yMm": 137.5,
+      "type": "counterbore",
+      "diameterMm": 6.6,
+      "counterboreDiameterMm": 11,
+      "counterboreDepthMm": 6.5,
+      "through": true
+    }
+  ],
+  "mountingHoleIds": [
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "H8"
+  ],
+  "minimumAlignedMountingHoles": 4,
+  "topViewPath": "static/topviews/7a4d3851d15fc91f48bcb0ad2b8e36f05251fc0deff1dc3166b5474527478c1d.svg",
+  "stepPath": "sha256/25/25aa1fdec59f4cef7759138945a8026dcf7e887d2e2d9186d2ed563039f36cbc.step",
+  "drawingPath": null,
+  "material": "6061 铝合金",
+  "surfaceTreatment": "黑色阳极氧化",
+  "status": "本地加工审核版",
+  "notes": "25mm基础孔阵补齐；原安装孔/AOM密孔与8固定沉孔保持，共141 M6+8沉孔。用户2026-11-06新指令。"
+}

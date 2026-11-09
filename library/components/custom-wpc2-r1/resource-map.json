@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-wpc2-r1",
+  "files": [
+    {
+      "path": "cad/3ade68e2904a847c69d310b9aa3edbc2e557e552239708897a5a57493a637caf.step",
+      "stored": "library/assets/sha256/3a/3ade68e2904a847c69d310b9aa3edbc2e557e552239708897a5a57493a637caf.step",
+      "sha256": "3ade68e2904a847c69d310b9aa3edbc2e557e552239708897a5a57493a637caf",
+      "originalReferences": [
+        "step/wpc2-r1/WPC2-R1_adapter.step"
+      ],
+      "sources": [
+        "library/assets/sha256/3a/3ade68e2904a847c69d310b9aa3edbc2e557e552239708897a5a57493a637caf.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,25 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "extension-ed62p5-r1",
+  "revision": "source-snapshot",
+  "displayName": "延长块 62.5√2 mm",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/extension-ed62p5-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-extension-ed62p5-r1"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "not-declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

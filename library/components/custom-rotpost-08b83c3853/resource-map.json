@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-rotpost-08b83c3853",
+  "files": [
+    {
+      "path": "cad/5b2ee39834959d1159ccf153e2b0e3610f5c2b993e1803280e65d5963cd71758.step",
+      "stored": "library/assets/sha256/5b/5b2ee39834959d1159ccf153e2b0e3610f5c2b993e1803280e65d5963cd71758.step",
+      "sha256": "5b2ee39834959d1159ccf153e2b0e3610f5c2b993e1803280e65d5963cd71758",
+      "originalReferences": [
+        "step/custom-rotation/UP12p5R+45.000-8918CA/特制万能柱_原生.step"
+      ],
+      "sources": [
+        "library/assets/sha256/5b/5b2ee39834959d1159ccf153e2b0e3610f5c2b993e1803280e65d5963cd71758.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

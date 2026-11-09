@@ -1,0 +1,12 @@
+{
+  "format": "hksop-project-v2",
+  "name": "基础反射示例",
+  "currentEngineering": {
+    "path": "project.zzoptics.json",
+    "sha256": "31f89510553a32ea2afb6fb9628b76ebeed9275d1adadc59fed8c77d4e441a9d"
+  },
+  "modules": [],
+  "history": [],
+  "results": "results/index.json",
+  "acceptance": "Example only; original physical/manufacturing limits retained."
+}

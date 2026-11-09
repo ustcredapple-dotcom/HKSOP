@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-09",
+  "revision": "source-snapshot",
+  "displayName": "可调PBS 1inch",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-09.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

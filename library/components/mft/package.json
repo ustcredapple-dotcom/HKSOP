@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "mft",
+  "revision": "source-snapshot",
+  "displayName": "Z 轴位移台",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/mft.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

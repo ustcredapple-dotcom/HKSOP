@@ -1,0 +1,31 @@
+{
+  "id": "custom-txp75-r5",
+  "name": "TXP75-R5 · TXY1S固定套筒定制板",
+  "model": "TXP75-R5",
+  "revision": "R5",
+  "kind": "custom",
+  "unit": "件",
+  "stepPath": "step/txy1s-fixed-r5/TXP75-R5_STOP_SEAT_11p926_316L.step",
+  "sourceStepSha256": "8cbf559496f436889ca9a328b56c79f54c1e72b58e9a861e4fce95b066ca144a",
+  "drawingStatus": "missing",
+  "productionReady": false,
+  "status": "仅CAD几何审核；加工图及打标文件待补",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "50×44，有效厚11.926，单后止挡3×10×4。四顶面M6直壁沉孔Ø11.25深6.5；底面M4直壁沉孔Ø8.25深4.5"
+  },
+  "manufacturingEvidence": {
+    "geometryValidated": true,
+    "pdfVisualReviewPassed": false,
+    "physicalAssemblyTested": false,
+    "engineeringReleaseApproved": false
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "源设计预留编号TXP75-R5",
+    "notes": "原包未提供DXF及定位PDF；不做铣刻 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "notes": "原包明确未出加工工程图。不可据此放行加工；不得沿用旧板图。"
+}

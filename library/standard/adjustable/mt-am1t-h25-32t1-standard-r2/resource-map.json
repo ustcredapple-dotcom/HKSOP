@@ -1,0 +1,37 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "mt-am1t-h25-32t1-standard-r2",
+  "files": [
+    {
+      "path": "rendering/5dc55b90e09fe0c7e211edca2aa2d6c1a28400d9f5abf298abd2ead8ed51fa2a.svg",
+      "stored": "library/assets/sha256/5d/5dc55b90e09fe0c7e211edca2aa2d6c1a28400d9f5abf298abd2ead8ed51fa2a.svg",
+      "sha256": "5dc55b90e09fe0c7e211edca2aa2d6c1a28400d9f5abf298abd2ead8ed51fa2a",
+      "originalReferences": [
+        "topviews/mt-am1t-h25-32t1-standard-r2__DUAL_M4_R4.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/5d/5dc55b90e09fe0c7e211edca2aa2d6c1a28400d9f5abf298abd2ead8ed51fa2a.svg"
+      ]
+    },
+    {
+      "path": "cad/a0ce48dd25c3752ad47ac23fe296d65bfd14fcb1911e5ee8c173792acac825a1.step",
+      "stored": "library/assets/sha256/a0/a0ce48dd25c3752ad47ac23fe296d65bfd14fcb1911e5ee8c173792acac825a1.step",
+      "sha256": "a0ce48dd25c3752ad47ac23fe296d65bfd14fcb1911e5ee8c173792acac825a1",
+      "originalReferences": [
+        "step/mt-dual-m4-compact-r4/MT-AM1T_H25_COMPACT_R4_0deg.step"
+      ],
+      "sources": [
+        "library/assets/sha256/a0/a0ce48dd25c3752ad47ac23fe296d65bfd14fcb1911e5ee8c173792acac825a1.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-mt-am1t-dual-m4-c4",
+    "custom-post-metric-25mm-m1",
+    "hardware-iso4762-m6x12",
+    "lbtek-mt-am1t-purchased",
+    "metric-m1-post-m4x14",
+    "metric-m1-post-pin-d2x8",
+    "new-r3-hardware-b7a3ea97ce89"
+  ]
+}

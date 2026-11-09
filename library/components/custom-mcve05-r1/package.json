@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-mcve05-r1",
+  "revision": "R1",
+  "displayName": "MCVE05-R1 PBS 半英寸电动竖直版加工件",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-mcve05-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

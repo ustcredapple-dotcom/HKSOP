@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-motor-h2d2-s-r3",
+  "revision": "source-snapshot",
+  "displayName": "H2D2-S R3 · 内缩竖槽侧板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-motor-h2d2-s-r3.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

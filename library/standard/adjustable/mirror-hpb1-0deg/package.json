@@ -1,0 +1,31 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "mirror-hpb1-0deg",
+  "revision": "R2",
+  "displayName": "HPB-1-2反射镜架 0°",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/mirror-hpb1-0deg.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-hpb1-a",
+    "custom-post-metric-25mm-m1",
+    "hpb-1-2",
+    "metric-m1-post-m4x16",
+    "metric-m1-post-pin-d2x8",
+    "v7-iso4762-m4x12",
+    "v7-pin-d2x6"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

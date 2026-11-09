@@ -1,0 +1,95 @@
+{
+  "id": "custom-laser308-periscope-vertical28-g58-r3",
+  "name": "308 爬架竖板",
+  "model": "28-V3 R3",
+  "kind": "custom",
+  "unit": "件",
+  "stepPath": "step/periscope-standard-r3/28-V3_R3_CENTERED.step",
+  "sourceStepSha256": "e1451b9ad6ac5b9f7deed4f846b7bd093963edc4158ae9d363302f064a68579f",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "仅按冻结孔表加工；通用公差和粗糙度依用户要求有意省略。螺纹规格依图纸，不从底孔直径推断。"
+  },
+  "status": "名义CAD工程审核；实物刚度、夹紧和重复定位未实测",
+  "notes": "原有柱及商业MT-AM1S5未改；旧custom10保留历史，本R3使用独立10-C校正件。镜片几何盘不代表已选光学型号。",
+  "sourceOwnership": {
+    "originalSystem": "用户原有模块与原厂家参考组件",
+    "currentRevision": "本任务获准R3结构修订",
+    "role": "新增定制件；不归属复用商用品原设计"
+  },
+  "drawingPath": null,
+  "sourceDrawingSha256": "ed91237865a76dfa99d03901fc0817a7c04e00d196ec8e9aed45259eee60f0f3",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "dxfPath": null,
+  "manufacturingEvidence": {
+    "sourceStepSha256": "e1451b9ad6ac5b9f7deed4f846b7bd093963edc4158ae9d363302f064a68579f",
+    "drawingSha256": "ed91237865a76dfa99d03901fc0817a7c04e00d196ec8e9aed45259eee60f0f3",
+    "dxfSha256": "dd97feacbf4079abe9a5921629ad68ac644720455eac251408aa39333cd0db02",
+    "pageCount": 3,
+    "specPath": "source-project/periscope_standard_r3_20261006/turn90_cad/centered/308/specs/28-V3.json",
+    "specSHA256": "91456f751bb6602d74510d8e0213f9e623ecfc03ab5635cdae69546e6d346305",
+    "geometryReview": "library/reviews/periscope-standard-r3-20261006/evidence/package_review.json",
+    "releaseScope": "nominal CAD/drawing engineering review; no physical manufacturing qualification"
+  },
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/13e796b6399c6c09085aa668/e/166f63d0e83a0f45f83e3e7d",
+  "drawingSourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/13e796b6399c6c09085aa668/e/cddcbe73c3f1fecba836ff14",
+  "drawingSourceUrlRole": "frozen imported machining PDF; local SHA-bound PDF remains manufacturing document",
+  "sourcePartName": "308四输出竖板",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "ff93b1a1da4352776ac1080cfeef925b3f2b9d12a53281587b089cb7ba1b1b14",
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "42a2b47eba6221753d795adba21b069ba32adf915fbbe477d20ab5bbe65fa7c0",
+      "currentPdfSha256": "7486d10199bda580078696e792cf461830d6b9024569cdc4fb1d90685a7acb40",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "d87ce8effd79a156ffb77eb2876543a258256ea0af47dd880f88719f95cd9325",
+      "currentPdfSha256": "ff93b1a1da4352776ac1080cfeef925b3f2b9d12a53281587b089cb7ba1b1b14",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "编号面保持；高度/试制文字按精确原字形补齐，OUT仅横移3mm避孔，高度坐标不变。",
+    "notes": "激光打标，不铣刻。主体STEP及孔位保持；原凹深仅显示。实物已有相同标识不重复；参数须首件试样确认。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "199ed389e9fb8497b4593cb430faeb7103fb889d6d16076df9278cbf44e6f740",
+        "sha256": "ed91237865a76dfa99d03901fc0817a7c04e00d196ec8e9aed45259eee60f0f3"
+      },
+      {
+        "path": null,
+        "previousSha256": "b9583d9463be61d41974b1bca4a6c7bf8c627573a07d716458e43055200865c3",
+        "sha256": "dd97feacbf4079abe9a5921629ad68ac644720455eac251408aa39333cd0db02"
+      }
+    ]
+  }
+}

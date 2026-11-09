@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "mt-am05s5",
+  "revision": "source-snapshot",
+  "displayName": "0.5 inch 可调镜架",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/mt-am05s5.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

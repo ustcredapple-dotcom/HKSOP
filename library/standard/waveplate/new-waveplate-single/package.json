@@ -1,0 +1,30 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-waveplate-single",
+  "revision": "CURRENT-B6R1",
+  "displayName": "单波片 · CRM-1AS",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/new-waveplate-single.json"
+    }
+  ],
+  "componentDependencies": [
+    "crm-1as",
+    "custom-post-metric-25mm-m1",
+    "metric-m1-post-m4x18",
+    "metric-m1-post-pin-d2x8",
+    "new-waveplate-single-adapter-1",
+    "new-waveplate-single-vendor-2"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

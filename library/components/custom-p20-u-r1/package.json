@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-p20-u-r1",
+  "revision": "source-snapshot",
+  "displayName": "运动侧上转接板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-p20-u-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

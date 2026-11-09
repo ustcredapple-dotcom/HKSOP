@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1670" height="1002" viewBox="-244 -60 1670 1002" role="img" aria-labelledby="title desc">
+  <title id="title">HKSOP — Hong Kong Standard Optical Protocol</title>
+  <desc id="desc">r9：在r6无T横向版基础上删除中心圆点左右两条短横；保留圆点、双C、三个不完整加号L及右上加号，字形与排版保持。纯矢量轮廓。</desc>
+  <g id="original-core">
+    <path id="green-c" fill="#4EBD88" d="M562.793 270.207 A307.29 307.29 0 1 0 561.875 613.875 L485.333 537.333 A202.72 202.72 0 1 1 486.111 346.889 Z" />
+    <path id="blue-c" fill="#4097DB" d="M622.867 269.867 A307.41 307.41 0 1 1 624.208 614.792 L699.037 539.963 A202.63 202.63 0 1 0 697.839 344.839 Z" />
+    <circle id="center" cx="591.55" cy="438.41" r="69.89" fill="#4097DB" />
+    <path id="brand-plus" fill="#4097DB" d="M1199.55 -1.59 L1263.55 -1.59 L1263.55 101.41 L1366.55 101.41 L1366.55 165.41 L1263.55 165.41 L1263.55 268.41 L1199.55 268.41 L1199.55 165.41 L1096.55 165.41 L1096.55 101.41 L1199.55 101.41 Z" />
+  </g>
+  <g id="standard-interfaces">
+    <path id="corner-top-left" fill="#4EBD88" d="M-80.45 101.41 L86.55 101.41 L86.55 165.41 L-16.45 165.41 L-16.45 268.41 L-80.45 268.41 Z" />
+    <path id="corner-bottom-left" fill="#4EBD88" d="M-80.45 608.41 L-16.45 608.41 L-16.45 711.41 L86.55 711.41 L86.55 775.41 L-80.45 775.41 Z" />
+    <path id="corner-bottom-right" fill="#4097DB" d="M1199.55 608.41 L1263.55 608.41 L1263.55 775.41 L1096.55 775.41 L1096.55 711.41 L1199.55 711.41 Z" />
+  </g>
+</svg>

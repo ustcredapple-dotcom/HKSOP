@@ -1,0 +1,64 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "camera-a6504-adapter-r2",
+  "files": [
+    {
+      "path": "rendering/0949f4ed65fedd38796fb73cc3567880f0a39067e97f0e57740701c3132ee943.svg",
+      "stored": "library/assets/sha256/09/0949f4ed65fedd38796fb73cc3567880f0a39067e97f0e57740701c3132ee943.svg",
+      "sha256": "0949f4ed65fedd38796fb73cc3567880f0a39067e97f0e57740701c3132ee943",
+      "originalReferences": [
+        "topviews/camera-a6504-adapter-r2__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/09/0949f4ed65fedd38796fb73cc3567880f0a39067e97f0e57740701c3132ee943.svg"
+      ]
+    },
+    {
+      "path": "cad/12d056e858d075df78d3611b130d0485b74c52242edd1230a4d9882ae471792b.step",
+      "stored": "library/assets/sha256/12/12d056e858d075df78d3611b130d0485b74c52242edd1230a4d9882ae471792b.step",
+      "sha256": "12d056e858d075df78d3611b130d0485b74c52242edd1230a4d9882ae471792b",
+      "originalReferences": [
+        "step/camera-actual-r4/36-A65_R4_ACTUAL_CAMERA_FULL_ASSEMBLY.step"
+      ],
+      "sources": [
+        "library/assets/sha256/12/12d056e858d075df78d3611b130d0485b74c52242edd1230a4d9882ae471792b.step"
+      ]
+    },
+    {
+      "path": "cad/3962ef32a674ba69f119daf253b9f495c21b300d4d6572d99e0e1bcc48bdb6cc.step",
+      "stored": "library/assets/sha256/39/3962ef32a674ba69f119daf253b9f495c21b300d4d6572d99e0e1bcc48bdb6cc.step",
+      "sha256": "3962ef32a674ba69f119daf253b9f495c21b300d4d6572d99e0e1bcc48bdb6cc",
+      "originalReferences": [
+        "step/camera-actual-r4/36-A65_R4_USER_SUPPLIED_ACTUAL_CAMERA.step"
+      ],
+      "sources": [
+        "library/assets/sha256/39/3962ef32a674ba69f119daf253b9f495c21b300d4d6572d99e0e1bcc48bdb6cc.step"
+      ]
+    },
+    {
+      "path": "cad/a0c0e1aad2e19206aa0258d685c99e7d38406e4413a4f1d26f94abbfc0984a13.step",
+      "stored": "library/assets/sha256/a0/a0c0e1aad2e19206aa0258d685c99e7d38406e4413a4f1d26f94abbfc0984a13.step",
+      "sha256": "a0c0e1aad2e19206aa0258d685c99e7d38406e4413a4f1d26f94abbfc0984a13",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/camera-a6504-adapter-r2__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/a0/a0c0e1aad2e19206aa0258d685c99e7d38406e4413a4f1d26f94abbfc0984a13.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-36-a65-b-r2",
+    "custom-36-a65-c-r2",
+    "custom-post-metric-12p5mm-m1",
+    "hardware-dowel-d2x10",
+    "hardware-iso7089-m4",
+    "hardware-m6-board-length-select",
+    "hardware-stainless-gap-shim-select",
+    "new-hardware-aee748b5031c",
+    "new-hardware-f0579b934c7c",
+    "new-hardware-ff9fb49c865c",
+    "new-r3-hardware-b63ea2222bac",
+    "purchased-camera-a6504-pro"
+  ]
+}

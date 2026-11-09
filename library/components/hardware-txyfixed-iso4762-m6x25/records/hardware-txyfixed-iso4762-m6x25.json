@@ -1,0 +1,8 @@
+{
+  "id": "hardware-txyfixed-iso4762-m6x25",
+  "name": "ISO4762 M6×25",
+  "model": "ISO4762 M6×25",
+  "kind": "standard",
+  "unit": "颗",
+  "notes": "MT1/M固定原底座，名义旋入10.649。 按源BOM指定，标准紧固件未详模；采用普通圆柱头内六角螺钉，顶板不使用锥形沉头。"
+}

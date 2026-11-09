@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "it399-motor2-post-r1",
+  "files": [
+    {
+      "path": "cad/2796648dd52954600a0a36d1d01333e968f3a2f614200bc1350295f9e385ad9d.step",
+      "stored": "library/assets/sha256/27/2796648dd52954600a0a36d1d01333e968f3a2f614200bc1350295f9e385ad9d.step",
+      "sha256": "2796648dd52954600a0a36d1d01333e968f3a2f614200bc1350295f9e385ad9d",
+      "originalReferences": [
+        "step/iontrap-it399-r6-motor2/IT75-M2-P_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/27/2796648dd52954600a0a36d1d01333e968f3a2f614200bc1350295f9e385ad9d.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

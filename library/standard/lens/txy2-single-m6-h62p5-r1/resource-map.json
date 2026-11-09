@@ -1,0 +1,37 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "txy2-single-m6-h62p5-r1",
+  "files": [
+    {
+      "path": "rendering/1c6a72e20a3423d660df64768dfff6929edc1d07fdd4e565af82058c401dfa6e.svg",
+      "stored": "library/assets/sha256/1c/1c6a72e20a3423d660df64768dfff6929edc1d07fdd4e565af82058c401dfa6e.svg",
+      "sha256": "1c6a72e20a3423d660df64768dfff6929edc1d07fdd4e565af82058c401dfa6e",
+      "originalReferences": [
+        "topviews/txy2-single-m6-h62p5-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/1c/1c6a72e20a3423d660df64768dfff6929edc1d07fdd4e565af82058c401dfa6e.svg"
+      ]
+    },
+    {
+      "path": "cad/5b468483734943ef8b789ca705c3a4a04650ca1cea9f54b020dc66f73ec8acd2.step",
+      "stored": "library/assets/sha256/5b/5b468483734943ef8b789ca705c3a4a04650ca1cea9f54b020dc66f73ec8acd2.step",
+      "sha256": "5b468483734943ef8b789ca705c3a4a04650ca1cea9f54b020dc66f73ec8acd2",
+      "originalReferences": [
+        "step/txy2-r1/TXY2_KIT_H62p5_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/5b/5b468483734943ef8b789ca705c3a4a04650ca1cea9f54b020dc66f73ec8acd2.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-post-metric-12p5mm-m1",
+    "custom-txy2-a1-r1",
+    "hardware-din7984-m6x6-a4",
+    "hardware-post-b4-board-m6-select",
+    "lbtek-txy2-single-m6",
+    "metric-m1-post-m4x8",
+    "v7-pin-d2x6"
+  ]
+}

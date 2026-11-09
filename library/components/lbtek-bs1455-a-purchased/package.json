@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "lbtek-bs1455-a-purchased",
+  "revision": "source-snapshot",
+  "displayName": "BS1455-A 可见光50:50名义裸立方分束镜",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/lbtek-bs1455-a-purchased.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

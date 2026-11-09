@@ -1,0 +1,111 @@
+{
+  "id": "custom-motor-h2d2-l-r2",
+  "name": "H2D2-L · 低位加长 M3→H2 一体杆",
+  "model": "H2D2-L",
+  "kind": "custom",
+  "unit": "件",
+  "stepPath": "step/motor-h2-direct-hex-r2/H2D2-L.step",
+  "drawingPath": null,
+  "sourceStepSha256": "1b6c45eade5707698ce0ee76ec550abc8d10634f599193d3c76d16beffe7b09e",
+  "sourceDrawingSha256": "824470030dbf0175dd3415f94a2b511014788f5c2ed958d771fdc539a809a6a5",
+  "drawingRevision": "H2-Direct-Hex-R2",
+  "drawingStatus": "engineering-review",
+  "productionReady": false,
+  "status": "V2内六角直连R2工程审核件；配合、公差与实物试装待核实",
+  "notes": "一体H2驱动保留原精密调节螺钉；不使用独立套筒、套盖和导向。原高位11mm转接杆由原motor-adapter-m3提供，不重复加工。",
+  "manufacturingSpec": {
+    "material": "316L stainless steel, demagnetize and passivate",
+    "surfaceTreatment": "demagnetize and passivate",
+    "profileId": "otherCustom",
+    "threadClass": "待工艺确认",
+    "policyVersion": "source-specific-h2-direct-hex-r2"
+  },
+  "manufacturingEvidence": {
+    "revision": "H2-Direct-Hex-R2",
+    "drawingPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "drawingSha256": "824470030dbf0175dd3415f94a2b511014788f5c2ed958d771fdc539a809a6a5",
+    "sourceStepSha256": "1b6c45eade5707698ce0ee76ec550abc8d10634f599193d3c76d16beffe7b09e",
+    "singleSolid": true,
+    "physicalTrialCompleted": false,
+    "parametersSha256": "63b770ece5e65fbc74073afc3ca69daa23fdf4d732ece2d2f95038d0a9eebfd6",
+    "mechanicalManifestSha256": "25e0efeaa5f558d39a0eab095c09999dbae298ce5410b4848cc876e968841987",
+    "mechanicalAcceptanceSha256": "9fe887fd5e93f7b8d61253a203346b2b9a8d489a1c42e3fb5eb8fad790f4d13e",
+    "nominalGeometry": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 239.71349164276097,
+      "boundsMm": [
+        0.0,
+        0.0,
+        -0.0,
+        4.0000002,
+        4.0000002,
+        64.0000002
+      ]
+    },
+    "localToAssemblyTranslationMm": [
+      -28.5000001,
+      -32.07375911,
+      51.78567119
+    ],
+    "roundtripVolumeDifferenceMm3": 7.105427357601002e-12,
+    "engraving": {
+      "text": "H2D2L",
+      "centerAssemblyMm": [
+        -26.6411279458951,
+        -29.093869777899304,
+        106.78567129
+      ],
+      "xDirection": [
+        0,
+        0,
+        1
+      ],
+      "outwardNormal": [
+        -0.14255348182293953,
+        0.98978710075458,
+        -4.266552066124189e-16
+      ],
+      "heightMm": 0.65,
+      "depthMm": 0.05,
+      "removedVolumeMm3": 0.015178078117202176
+    },
+    "manufacturingReady": false
+  },
+  "drawingPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "1540b2f481f662126faf6ca5417cabff16d3d698710764dc178ebf31b6bd34b3",
+      "currentPdfSha256": "e9b0f334eb9035e047314f06221f5531024c67de9d2e19f0acfa5108e8880b9a",
+      "annotatedPages": [
+        2,
+        3
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

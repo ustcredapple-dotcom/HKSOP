@@ -1,0 +1,32 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "mt-cube-pbs-2inch-m1-r2",
+  "revision": "M1-R2-B6R1-H12p5B4R2",
+  "displayName": "MT立方体PBS模块 · 2 inch · H12.5 · M1-R2",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/mt-cube-pbs-2inch-m1-r2.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-mt-cube-adapter-2inch-m1-r2",
+    "custom-post-metric-12p5mm-m1",
+    "hardware-iso4762-m6x12",
+    "lbtek-csb2-purchased",
+    "lbtek-mt-am2-purchased",
+    "metric-m1-post-pin-d2x8",
+    "new-r3-hardware-b7a3ea97ce89",
+    "v7-iso4762-m4x12"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

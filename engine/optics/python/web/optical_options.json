@@ -1,0 +1,212 @@
+[
+  {
+    "model": "BDM05-A",
+    "name": "宽带介质膜平面反射镜",
+    "type": "mirror",
+    "opticalType": null,
+    "diameterMm": 12.7,
+    "wavelengthRange": [
+      400,
+      750
+    ],
+    "sourceUrl": "https://www.lbtek.com/product/77",
+    "kind": "lubang",
+    "unit": "片"
+  },
+  {
+    "model": "BDM05-B",
+    "name": "宽带介质膜平面反射镜",
+    "type": "mirror",
+    "opticalType": null,
+    "diameterMm": 12.7,
+    "wavelengthRange": [
+      750,
+      1100
+    ],
+    "sourceUrl": "https://www.lbtek.com/product/77",
+    "kind": "lubang",
+    "unit": "片"
+  },
+  {
+    "model": "BDM1-A",
+    "name": "宽带介质膜平面反射镜",
+    "type": "mirror",
+    "opticalType": null,
+    "diameterMm": 25.4,
+    "wavelengthRange": [
+      400,
+      750
+    ],
+    "sourceUrl": "https://www.lbtek.com/product/77",
+    "kind": "lubang",
+    "unit": "片"
+  },
+  {
+    "model": "BDM1-B",
+    "name": "宽带介质膜平面反射镜",
+    "type": "mirror",
+    "opticalType": null,
+    "diameterMm": 25.4,
+    "wavelengthRange": [
+      750,
+      1100
+    ],
+    "sourceUrl": "https://www.lbtek.com/product/77",
+    "kind": "lubang",
+    "unit": "片"
+  },
+  {
+    "model": "HWP13-405A",
+    "name": "聚合物真零级半波片（未安装外壳）",
+    "type": "waveplate",
+    "opticalType": "半波片",
+    "diameterMm": 12.7,
+    "wavelengthNm": 405,
+    "sourceUrl": "https://www.lbtek.com/product/659",
+    "kind": "lubang",
+    "unit": "片"
+  },
+  {
+    "model": "HWP13-532A",
+    "name": "聚合物真零级半波片（未安装外壳）",
+    "type": "waveplate",
+    "opticalType": "半波片",
+    "diameterMm": 12.7,
+    "wavelengthNm": 532,
+    "sourceUrl": "https://www.lbtek.com/product/659",
+    "kind": "lubang",
+    "unit": "片"
+  },
+  {
+    "model": "HWP13-780A",
+    "name": "聚合物真零级半波片（未安装外壳）",
+    "type": "waveplate",
+    "opticalType": "半波片",
+    "diameterMm": 12.7,
+    "wavelengthNm": 780,
+    "sourceUrl": "https://www.lbtek.com/product/659",
+    "kind": "lubang",
+    "unit": "片"
+  },
+  {
+    "model": "HWP13-1064A",
+    "name": "聚合物真零级半波片（未安装外壳）",
+    "type": "waveplate",
+    "opticalType": "半波片",
+    "diameterMm": 12.7,
+    "wavelengthNm": 1064,
+    "sourceUrl": "https://www.lbtek.com/product/659",
+    "kind": "lubang",
+    "unit": "片"
+  },
+  {
+    "model": "HWP25-405A",
+    "name": "聚合物真零级半波片（未安装外壳）",
+    "type": "waveplate",
+    "opticalType": "半波片",
+    "diameterMm": 25.4,
+    "wavelengthNm": 405,
+    "sourceUrl": "https://www.lbtek.com/product/659",
+    "kind": "lubang",
+    "unit": "片"
+  },
+  {
+    "model": "HWP25-532A",
+    "name": "聚合物真零级半波片（未安装外壳）",
+    "type": "waveplate",
+    "opticalType": "半波片",
+    "diameterMm": 25.4,
+    "wavelengthNm": 532,
+    "sourceUrl": "https://www.lbtek.com/product/659",
+    "kind": "lubang",
+    "unit": "片"
+  },
+  {
+    "model": "HWP25-780A",
+    "name": "聚合物真零级半波片（未安装外壳）",
+    "type": "waveplate",
+    "opticalType": "半波片",
+    "diameterMm": 25.4,
+    "wavelengthNm": 780,
+    "sourceUrl": "https://www.lbtek.com/product/659",
+    "kind": "lubang",
+    "unit": "片"
+  },
+  {
+    "model": "HWP25-1064A",
+    "name": "聚合物真零级半波片（未安装外壳）",
+    "type": "waveplate",
+    "opticalType": "半波片",
+    "diameterMm": 25.4,
+    "wavelengthNm": 1064,
+    "sourceUrl": "https://www.lbtek.com/product/659",
+    "kind": "lubang",
+    "unit": "片"
+  },
+  {
+    "model": "QWP13-532A",
+    "name": "聚合物真零级四分之一波片（未安装外壳）",
+    "type": "waveplate",
+    "opticalType": "四分之一波片",
+    "diameterMm": 12.7,
+    "wavelengthNm": 532,
+    "sourceUrl": "https://www.lbtek.com/product/660",
+    "kind": "lubang",
+    "unit": "片"
+  },
+  {
+    "model": "QWP13-780A",
+    "name": "聚合物真零级四分之一波片（未安装外壳）",
+    "type": "waveplate",
+    "opticalType": "四分之一波片",
+    "diameterMm": 12.7,
+    "wavelengthNm": 780,
+    "sourceUrl": "https://www.lbtek.com/product/660",
+    "kind": "lubang",
+    "unit": "片"
+  },
+  {
+    "model": "QWP13-1064A",
+    "name": "聚合物真零级四分之一波片（未安装外壳）",
+    "type": "waveplate",
+    "opticalType": "四分之一波片",
+    "diameterMm": 12.7,
+    "wavelengthNm": 1064,
+    "sourceUrl": "https://www.lbtek.com/product/660",
+    "kind": "lubang",
+    "unit": "片"
+  },
+  {
+    "model": "QWP25-532A",
+    "name": "聚合物真零级四分之一波片（未安装外壳）",
+    "type": "waveplate",
+    "opticalType": "四分之一波片",
+    "diameterMm": 25.4,
+    "wavelengthNm": 532,
+    "sourceUrl": "https://www.lbtek.com/product/660",
+    "kind": "lubang",
+    "unit": "片"
+  },
+  {
+    "model": "QWP25-780A",
+    "name": "聚合物真零级四分之一波片（未安装外壳）",
+    "type": "waveplate",
+    "opticalType": "四分之一波片",
+    "diameterMm": 25.4,
+    "wavelengthNm": 780,
+    "sourceUrl": "https://www.lbtek.com/product/660",
+    "kind": "lubang",
+    "unit": "片"
+  },
+  {
+    "model": "QWP25-1064A",
+    "name": "聚合物真零级四分之一波片（未安装外壳）",
+    "type": "waveplate",
+    "opticalType": "四分之一波片",
+    "diameterMm": 25.4,
+    "wavelengthNm": 1064,
+    "sourceUrl": "https://www.lbtek.com/product/660",
+    "kind": "lubang",
+    "unit": "片"
+  }
+]

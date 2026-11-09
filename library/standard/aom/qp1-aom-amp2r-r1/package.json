@@ -1,0 +1,35 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "qp1-aom-amp2r-r1",
+  "revision": "R1-H12p5B4R2",
+  "displayName": "QP1 AOM · AMP-2R 可调支架 R1",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/qp1-aom-amp2r-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-post-metric-12p5mm-m1",
+    "custom-qp1b-r1",
+    "custom-qp1t-r1",
+    "hardware-dowel-d2x6",
+    "hardware-iso4762-m3x8",
+    "hardware-iso4762-m6x12",
+    "lbtek-amp-2r",
+    "new-hardware-1d23c1ca342d",
+    "new-hardware-f0579b934c7c",
+    "new-r3-hardware-b63ea2222bac",
+    "qp1-aom-user-supplied"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

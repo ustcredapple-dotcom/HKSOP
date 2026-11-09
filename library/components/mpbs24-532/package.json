@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "mpbs24-532",
+  "revision": "source-snapshot",
+  "displayName": "带安装座偏振分束立方体",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/mpbs24-532.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "lbtek-sm1-8a",
+  "files": [
+    {
+      "path": "cad/9bea69316bc73972d221cd46cdbe04139dea7078c54a245f932cbed936bbf803.step",
+      "stored": "library/assets/sha256/9b/9bea69316bc73972d221cd46cdbe04139dea7078c54a245f932cbed936bbf803.step",
+      "sha256": "9bea69316bc73972d221cd46cdbe04139dea7078c54a245f932cbed936bbf803",
+      "originalReferences": [
+        "step/txy1s-fixed-r5/vendor/SM1-8A.step"
+      ],
+      "sources": [
+        "library/assets/sha256/9b/9bea69316bc73972d221cd46cdbe04139dea7078c54a245f932cbed936bbf803.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

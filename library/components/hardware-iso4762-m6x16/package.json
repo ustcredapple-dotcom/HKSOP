@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "hardware-iso4762-m6x16",
+  "revision": "R1-A7075",
+  "displayName": "ISO 4762 M6x16 内六角圆柱头螺钉",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/hardware-iso4762-m6x16.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "metric-m1-post-pin-d2x8",
+  "revision": "source-snapshot",
+  "displayName": "柱侧定位销 Ø2×8",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/metric-m1-post-pin-d2x8.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

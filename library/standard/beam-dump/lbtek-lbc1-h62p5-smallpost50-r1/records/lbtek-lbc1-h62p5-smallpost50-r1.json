@@ -1,0 +1,242 @@
+{
+  "name": "LBC1 刀片挡光器 · H62.5 小万能柱",
+  "category": "beam-dump",
+  "variant": "R1 · 小万能柱 H50 B4 R2",
+  "revision": "R1",
+  "description": "真实 LBC1 原厂刀片头直接安装现有50 mm小万能柱；板面上62.5 mm处作为单向理想终止面。",
+  "sourceUrl": "https://www.lbtek.com/product/578#LBC1",
+  "components": [
+    {
+      "componentId": "lbtek-lbc1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-small-post-50mm-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-iso4762-m6x16",
+      "quantity": 1
+    }
+  ],
+  "opticalSlots": [],
+  "layout": {
+    "topViewPath": "topviews/lbtek-lbc1-h62p5-smallpost50-r1.svg",
+    "topViewUrl": "./topviews/lbtek-lbc1-h62p5-smallpost50-r1.svg",
+    "widthMm": 35.15,
+    "heightMm": 45.4,
+    "anchorXMm": 12.45,
+    "anchorYMm": 22.7,
+    "baseBoundsMm": {
+      "xMin": -6.250000099999999,
+      "yMin": -7.0,
+      "xMax": 21.7,
+      "yMax": 7.0
+    },
+    "collisionBoundsMm": {
+      "xMin": -11.45,
+      "yMin": -21.7,
+      "xMax": 21.7,
+      "yMax": 21.7
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -11.15,
+          "yMm": -21.7
+        },
+        {
+          "xMm": -11.15,
+          "yMm": -21.7
+        },
+        {
+          "xMm": -11.45,
+          "yMm": -21.4
+        },
+        {
+          "xMm": -11.45,
+          "yMm": 21.4
+        },
+        {
+          "xMm": -11.15,
+          "yMm": 21.7
+        },
+        {
+          "xMm": -11.15,
+          "yMm": 21.7
+        },
+        {
+          "xMm": 11.15,
+          "yMm": 21.7
+        },
+        {
+          "xMm": 11.15,
+          "yMm": 21.7
+        },
+        {
+          "xMm": 11.45,
+          "yMm": 21.4
+        },
+        {
+          "xMm": 11.45,
+          "yMm": 6.65567282
+        },
+        {
+          "xMm": 21.7,
+          "yMm": 6.25
+        },
+        {
+          "xMm": 21.7,
+          "yMm": -6.25
+        },
+        {
+          "xMm": 11.45,
+          "yMm": -6.65567282
+        },
+        {
+          "xMm": 11.45,
+          "yMm": -21.4
+        },
+        {
+          "xMm": 11.15,
+          "yMm": -21.7
+        },
+        {
+          "xMm": 11.15,
+          "yMm": -21.7
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": 0,
+        "yMm": 0
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 0
+      }
+    ],
+    "mountingHoleRadiusMm": 3.2,
+    "mountingConfirmed": true,
+    "placementAllowed": true,
+    "opticalType": "unsupported",
+    "opticalCenterMm": {
+      "xMm": -11,
+      "yMm": 0
+    },
+    "opticalAxisHeightMm": 62.5,
+    "nominalOpticalHeightMm": 62.5,
+    "opticalDatumVerified": true,
+    "opticalDirectionDeg": 0,
+    "opticalSurfaceAngleDeg": 90,
+    "opticalInteraction": {
+      "format": "zzlab-optical-interaction",
+      "version": 1,
+      "model": "planar",
+      "heightToleranceMm": 0.1,
+      "onNoMatch": "block",
+      "inputs": [
+        {
+          "id": "front-normal-incidence",
+          "direction": {
+            "angleDeg": 0,
+            "halfAngleDeg": 1,
+            "bidirectional": false
+          },
+          "wavelengthNm": {
+            "min": 400,
+            "max": 2000,
+            "onMismatch": "warn"
+          },
+          "steps": [
+            {
+              "op": "absorb",
+              "reason": "LBC1 理想几何终止；保留到达功率，不代表实测吸收率/热性能；399/369 nm 超出厂家波段。"
+            }
+          ]
+        }
+      ]
+    },
+    "opticalDefaults": {
+      "elementType": "unsupported",
+      "inserted": true,
+      "configured": true,
+      "surfaceAngleDeg": 90,
+      "clearApertureMm": 12.0
+    },
+    "opticalAxisHeightSource": "H50 小万能柱支撑面 Z50；前缘刀刃包络 Z50.85..68.55；指定光轴 Z62.5，未缩放或增加垫片。",
+    "opticalSimulationNote": "按真实刀片入口包络作单向理想吸收终止，非热/散射/吸收率模型。1° 接受半角为本数据的数值使用限制，不是厂家实测接受角。399/369 nm 必须显示超波段警告。12.0 mm 是围绕62.5 mm选点的保守内接圆，不是实际圆孔。",
+    "status": "真实 CAD/毫米图框/安装基准已核对；未实物试装",
+    "note": "定位销(0,0)，单个M6夹紧点(12.5,0)；两点不是两颗螺钉。适用12.5 mm网格、M6孔底径约5 mm的配套小板；不直接兼容25 mm孔距普通平台。",
+    "geometryEvidence": {
+      "sourceSha256": "468c8517896a3fee5f8371825fd17872d60768c9beedd5a839b8db96618968d3",
+      "partCount": 186,
+      "postCount": 1,
+      "imageSha256": "a6221a3ba80788c605fcbfc5ee6cf28c59d6a4d36288788541d7d51e4b12c8b3",
+      "axes": "X right; Y up; Z height; mounting origin at post seat",
+      "referenceAssembly": {
+        "stepPath": "step/lbtek-lbc1-r1/lbtek-lbc1-h62p5-smallpost50-r1.step",
+        "assetKind": "assembly-reference-not-manufacturing-part"
+      },
+      "physicalAssemblyTested": false
+    },
+    "opticalGeometryEvidence": {
+      "referenceKind": "front knife-edge envelope; ideal termination plane",
+      "referencePointWorldMm": [
+        -11,
+        0,
+        62.5
+      ],
+      "planeNormalWorld": [
+        -1,
+        0,
+        0
+      ],
+      "opticalDatumVerified": true,
+      "windowWidthMm": 36.4,
+      "windowHeightMm": 17.7,
+      "selectedAxisIsWindowMidpoint": false
+    }
+  },
+  "status": "工程审核版；未实物/承功率验收",
+  "releaseStage": "design-review",
+  "bundleStatus": "blocked",
+  "bundleNote": "总装、主加工图及打标已核对；复用小柱顶板DXF未登记配套附图PDF，完整生产包仍由现有规则拦截。完整独立审核资料可从原NAS交付ZIP取得；未放行加工。",
+  "assemblyReference": {
+    "stepPath": "step/lbtek-lbc1-r1/lbtek-lbc1-h62p5-smallpost50-r1.step",
+    "sourceStepSha256": "468c8517896a3fee5f8371825fd17872d60768c9beedd5a839b8db96618968d3",
+    "revision": "R1",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "includeInBundle": true,
+    "drawingPath": null,
+    "sourceDrawingSha256": "a796fe38175965b6d2fd68a7fa525ce25caf13cdd4f09ae22cac9db490326ce1"
+  },
+  "installedHeadReference": {
+    "stepPath": "step/lbtek-lbc1-r1/lbtek-lbc1-head-installed.step"
+  },
+  "assemblyGuide": {
+    "drawingPath": null
+  },
+  "fastUpload": {
+    "requested": true,
+    "onshapeUploaded": false,
+    "machiningAtlasIncluded": false,
+    "physicalAssemblyAccepted": false,
+    "schema": "zzlab-fast-kit-upload-v1",
+    "archiveSha256": "265ae903e44c38241f9d663183fbbf941b8242724a146f77f615a32ec4075405",
+    "atlas": "excluded-by-user-scope",
+    "onshape": "excluded-by-user-scope"
+  },
+  "mechanicalConfiguration": {
+    "id": "h62p5-smallpost-h50-b4r2",
+    "postId": "custom-small-post-50mm-r1",
+    "postRevision": "B4-R2",
+    "supportHeightMm": 50,
+    "selectedAxisHeightMm": 62.5,
+    "originalOp75Removed": true
+  },
+  "notes": "采用用户确认的当前 LBC1，不把BC1作为已核实别名。先将裸小柱在小板上夹紧，再用原中央M4x25从头部顶部装上LBC1；拆卸按反序。只以原配M4螺钉夹紧，不新增头部定位销；方向需装配时对准。M6x16在4 mm底脚上名义旋入12 mm，23.5 mm配套板有余量；实际牙深、夹紧、热性能待试装。 复用小柱的补充PDF登记缺项保留，不修改旧柱身份或伪造附图。",
+  "id": "lbtek-lbc1-h62p5-smallpost50-r1"
+}

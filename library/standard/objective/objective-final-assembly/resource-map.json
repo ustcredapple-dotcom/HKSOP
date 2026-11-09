@@ -1,0 +1,29 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "objective-final-assembly",
+  "files": [
+    {
+      "path": "rendering/27723192fe6fa2a4fe424a8b99e9ded056373855a9daa72f0edf16f35882c920.svg",
+      "stored": "library/assets/sha256/27/27723192fe6fa2a4fe424a8b99e9ded056373855a9daa72f0edf16f35882c920.svg",
+      "sha256": "27723192fe6fa2a4fe424a8b99e9ded056373855a9daa72f0edf16f35882c920",
+      "originalReferences": [
+        "topviews/kit_objective-final-assembly-side.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/27/27723192fe6fa2a4fe424a8b99e9ded056373855a9daa72f0edf16f35882c920.svg"
+      ]
+    },
+    {
+      "path": "rendering/60425cba1a8067021ca102915a3714d1d51242cbcc43692d85ae46eb76bfd64d.svg",
+      "stored": "library/assets/sha256/60/60425cba1a8067021ca102915a3714d1d51242cbcc43692d85ae46eb76bfd64d.svg",
+      "sha256": "60425cba1a8067021ca102915a3714d1d51242cbcc43692d85ae46eb76bfd64d",
+      "originalReferences": [
+        "topviews/kit_objective-final-assembly.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/60/60425cba1a8067021ca102915a3714d1d51242cbcc43692d85ae46eb76bfd64d.svg"
+      ]
+    }
+  ],
+  "dependencies": []
+}

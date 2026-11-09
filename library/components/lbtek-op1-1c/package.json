@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "lbtek-op1-1c",
+  "revision": "source-snapshot",
+  "displayName": "Ø25 mm 光学调整垫片 · 1 mm",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/lbtek-op1-1c.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

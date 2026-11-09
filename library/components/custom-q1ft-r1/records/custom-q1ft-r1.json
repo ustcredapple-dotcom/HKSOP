@@ -1,0 +1,63 @@
+{
+  "id": "custom-q1ft-r1",
+  "name": "Q1FT R1 前伸薄转接板",
+  "model": "Q1FT R1",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R1",
+  "status": "工程审核版；未实物试装或加工放行",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "按当前图纸加工，激光打标，不铣刻；配合与载荷待首件确认。"
+  },
+  "stepPath": "step/batch-20261020/custom-q1ft-r1/R1/Q1FT_R1.step",
+  "sourceStepSha256": "55f9ac97b2999fcafa185dbf574578f451ace12d408347e1c8ef902e07f988d5",
+  "drawingPath": null,
+  "sourceDrawingSha256": "eb9d27183980d3eba1ded89d1024b661a65ed1656958b45cdb4954364ddb95ff",
+  "dxfPath": null,
+  "sourceDxfSha256": "79b5d7a008ed1da148c4c8455d9b8d1c0a436a9916a1e0ea06a6bb6533f52da5",
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前修订编号识别",
+    "notes": "真实毫米1:1字形，按定位PDF装夹。圆柱肩部按展开加工；工艺参数待试样确认。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "manufacturingEvidence": {
+    "sourceStepSha256": "55f9ac97b2999fcafa185dbf574578f451ace12d408347e1c8ef902e07f988d5",
+    "drawingSha256": "eb9d27183980d3eba1ded89d1024b661a65ed1656958b45cdb4954364ddb95ff",
+    "geometryValidated": true,
+    "physicalTrialCompleted": false,
+    "reviewScope": "Single valid closed solid independently read; unchanged source drawing pages and design checks retained."
+  },
+  "dxfPdfPath": null,
+  "sourceDxfPdfSha256": "eb9d27183980d3eba1ded89d1024b661a65ed1656958b45cdb4954364ddb95ff",
+  "sourceUrl": "https://cad.onshape.com/documents/b8480fd422af2f962e9e81a1/v/bd3d5eb410ca6e2d925b7ec0/e/2921b1de2192d5ab5c4e9bb3",
+  "cloudReference": {
+    "url": "https://cad.onshape.com/documents/b8480fd422af2f962e9e81a1/v/bd3d5eb410ca6e2d925b7ec0/e/2921b1de2192d5ab5c4e9bb3",
+    "versionId": "bd3d5eb410ca6e2d925b7ec0",
+    "reviewedAt": "2026-10-20T23:30:14.574588+08:00",
+    "status": "geometry-reviewed",
+    "strictGeometryIdentity": true,
+    "automaticCloudReuseAllowed": true,
+    "sourceStepSha256": "55f9ac97b2999fcafa185dbf574578f451ace12d408347e1c8ef902e07f988d5",
+    "readbackSha256": "82825d70c74ca2f3b481c02175fc3d751ffae701efe5810d5c4043b8106dfe39",
+    "allSolidsValid": true,
+    "internalMotionTested": false,
+    "physicalTrialCompleted": false
+  },
+  "notes": "云端已冻结并完成几何回读；实物试装与加工放行仍待确认。",
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "f853147c820536a4e38163ed34fc9ca03e96d409d6e07f61478eac2ceff1e8bf",
+        "sha256": "eb9d27183980d3eba1ded89d1024b661a65ed1656958b45cdb4954364ddb95ff"
+      }
+    ]
+  }
+}

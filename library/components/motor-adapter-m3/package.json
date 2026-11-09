@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "motor-adapter-m3",
+  "revision": "source-snapshot",
+  "displayName": "转接螺纹 m3toh2",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/motor-adapter-m3.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

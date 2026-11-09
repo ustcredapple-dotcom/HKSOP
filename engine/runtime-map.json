@@ -1,0 +1,544 @@
+{
+  "web": {
+    "access_settings.py": {
+      "source": "engine/apps/python/web/access_settings.py",
+      "sha256": "77adb3b32da617da63fc47b1f3a27bff5cf337686074a4c67bc23a987e1e6661"
+    },
+    "app.py": {
+      "source": "engine/apps/python/web/app.py",
+      "sha256": "1f9aea3c69983177fc5be92d32b763b92b484eadc95b9f9fdfd2967e183153a5"
+    },
+    "bom.py": {
+      "source": "engine/exports/python/web/bom.py",
+      "sha256": "86d61f9a22daa865da65da01d8c64edaa3dcc9598737d482554fdcd24fa804c0"
+    },
+    "breadboard.py": {
+      "source": "engine/cad/python/web/breadboard.py",
+      "sha256": "f82a007e52f0c3715277b046a192a248a9dcf327723338d4a1567f89a9302a6e"
+    },
+    "breadboard_worker.py": {
+      "source": "engine/cad/python/web/breadboard_worker.py",
+      "sha256": "7cfce821018330753c9ffa6ca9d7cdc3e9d394b20e6a04ff6fc7fd099e78a48f"
+    },
+    "cart.py": {
+      "source": "engine/apps/python/web/cart.py",
+      "sha256": "4ad0f8f99167189241d45a57a464734653f9aa894ba06e62877fc232bdbc0310"
+    },
+    "collision_overrides.py": {
+      "source": "engine/layout/python/web/collision_overrides.py",
+      "sha256": "66e0e2e5f2137a5718167288e257fd7c365c10c283af39714c7728ee80cd11e3"
+    },
+    "deploy_support.py": {
+      "source": "engine/compatibility/web/deploy_support.py",
+      "sha256": "83e5b942d81c2b3f390f469584757894f9e137646a5d55e435d95dd1cc3bea9a"
+    },
+    "elevation.py": {
+      "source": "engine/layout/python/web/elevation.py",
+      "sha256": "e827051521c68348884f335bbacee0858e981409da41a43444cfd0b8392dc22a"
+    },
+    "exports.py": {
+      "source": "engine/exports/python/web/exports.py",
+      "sha256": "47659501088fd532cc987920ad2473fd0b23de61b9f86a6a73a8b82273a16222"
+    },
+    "fast-release.json": {
+      "source": "engine/compatibility/web/fast-release.json",
+      "sha256": "dc59badfac66d84ea949b2f64f7e33b4867e1b4f742d31a02ff8e9470609a85c"
+    },
+    "laser_adapter.py": {
+      "source": "engine/cad/python/web/laser_adapter.py",
+      "sha256": "25690289eddb51f7ad004d1bc5aebebbf8f5e53236316015c65d897a3a517403"
+    },
+    "laser_adapter_artifacts.py": {
+      "source": "engine/cad/python/web/laser_adapter_artifacts.py",
+      "sha256": "3d8179ae7e142e34b6d54cbadef18598fc4212c14a85150b6ab7210ab9243e2c"
+    },
+    "laser_adapter_worker.py": {
+      "source": "engine/cad/python/web/laser_adapter_worker.py",
+      "sha256": "069d9f98e14442b1f05ab6137d2bd836ab4220e35ebea6c527259f9b26eacc65"
+    },
+    "layout.py": {
+      "source": "engine/layout/python/web/layout.py",
+      "sha256": "414b32534dc47e58403e3c8e6cdeffb32a7acca5cf83b1ba3a1a7e0059f0b209"
+    },
+    "manual_source_mount.py": {
+      "source": "engine/layout/python/web/manual_source_mount.py",
+      "sha256": "9afd35bcb6b9e07315a0a20657b89ddf0364e34d4ffb7896d4d3f5130af5cb14"
+    },
+    "manufacturing_specs.json": {
+      "source": "engine/compatibility/web/manufacturing_specs.json",
+      "sha256": "adc144e4e38a69901853798e89299ccc25f12bbe6870ebe3d7600a36588742be"
+    },
+    "metric_migration.py": {
+      "source": "engine/layout/python/web/metric_migration.py",
+      "sha256": "a83815375f3b9f28a61d9679d3dd58cfa123b3f7830dfebe1c1b8734cccaad86"
+    },
+    "moving_stages.py": {
+      "source": "engine/layout/python/web/moving_stages.py",
+      "sha256": "4303e213b1da7673e29de5104f86f2f9ee3d58183d6a24b2ffe648e440c21d40"
+    },
+    "optical_interaction.py": {
+      "source": "engine/optics/python/web/optical_interaction.py",
+      "sha256": "5a357726d82724df21749ef92c40596462839507738bbad2142a2971185b67d0",
+      "currentAdaptation": "v4 passive lens support from current DoublePass delivery"
+    },
+    "optical_options.json": {
+      "source": "engine/optics/python/web/optical_options.json",
+      "sha256": "f9fa85e371789b15e7230cac441da92420b50f547ee08dc110523df0f89c669c"
+    },
+    "optics_settings.py": {
+      "source": "engine/optics/python/web/optics_settings.py",
+      "sha256": "ab493eef0e3fe6af9b05e625505d519d1f83371fa28ecc52317d1742b4c1854b",
+      "currentAdaptation": "v4 current passive lens/waveplate contract"
+    },
+    "registered_boards.py": {
+      "source": "engine/layout/python/web/registered_boards.py",
+      "sha256": "1945b23012c95aa4d7bd52dff187f1765b615fdc2fb2e087ea764e1b39e74797"
+    },
+    "requirements-cad.txt": {
+      "source": "engine/compatibility/web/requirements-cad.txt",
+      "sha256": "aab062a3b068b8fe00582e194a99c18c7a0b3925342338ae0de0cfeadde52be7"
+    },
+    "requirements.txt": {
+      "source": "engine/compatibility/web/requirements.txt",
+      "sha256": "3948fa61e8d3e925442db7e4939d6efde89cf6a04392aeacdc21cc1bc7c00cff"
+    },
+    "shared_kits.py": {
+      "source": "engine/apps/python/web/shared_kits.py",
+      "sha256": "c4fb51b84e5cbbcc970fb59bfef5ceb137ef139979b9c9472e2e9f18167316c7"
+    },
+    "stacked_layout.py": {
+      "source": "engine/layout/python/web/stacked_layout.py",
+      "sha256": "d6443ee421f5dd03d68acbd20176d012304c2f0f929ec855b90d2dbd3a5afb07"
+    },
+    "static/access-management.js": {
+      "source": "engine/apps/frontend/web/access-management.js",
+      "sha256": "02b2b092515962f045adac7bdc85ee406a4717f7f0291b54ed538dc71055df9b"
+    },
+    "static/app.css": {
+      "source": "engine/apps/frontend/web/app.css",
+      "sha256": "d7e0c15e29cbd03e55ec9e5407e0516888e2ebd6b4230ab4e59ca6ea02c7ad62"
+    },
+    "static/app.js": {
+      "source": "engine/apps/frontend/web/app.js",
+      "sha256": "c5349418dd5e99a9bdf681cfcb1d979695a4e406071464fe024ab61da469aac3"
+    },
+    "static/canvas-workspace.css": {
+      "source": "engine/apps/frontend/web/canvas-workspace.css",
+      "sha256": "d4110474a414fa336d7d2e8b7982efbc8f01c38d00cea321629b5bb1bb424b40"
+    },
+    "static/canvas-workspace.js": {
+      "source": "engine/apps/frontend/web/canvas-workspace.js",
+      "sha256": "1e4e33ef533dc9bfd247ff1cee89b65dba002975cf830c5aa40e062417e5c2a1"
+    },
+    "static/collision-engine.js": {
+      "source": "engine/layout/javascript/web/collision-engine.js",
+      "sha256": "b8342182cb3f9befdd608633f9b67c2d3379770fc53ce3184afc708b8de2a7fa"
+    },
+    "static/collision-overrides.js": {
+      "source": "engine/layout/javascript/web/collision-overrides.js",
+      "sha256": "bfcff2a9729ce8b954e2db32cc2db6b59be3a72a8638abe937cb66bbd0ef0785"
+    },
+    "static/elevation.js": {
+      "source": "engine/layout/javascript/web/elevation.js",
+      "sha256": "e5c6e895170f3ba3e533616c9b691440d4e93114dfb004b05eca23ddaa3c161d"
+    },
+    "static/fixed-board-optics.js": {
+      "source": "engine/rendering/javascript/web/fixed-board-optics.js",
+      "sha256": "1c84b95720f09744d49d57273f159f8c37b139fcb20ff91c847305edb5409e1b"
+    },
+    "static/global-height.js": {
+      "source": "engine/layout/javascript/web/global-height.js",
+      "sha256": "22387cdc1b75b8ef7cf311016c333ba8edd1dc8be17c9604b7d24926775842d6"
+    },
+    "static/index.html": {
+      "source": "engine/apps/frontend/web/index.html",
+      "sha256": "1e4f7fe8f03984eeee3b49c38cd551a338bc8fb4f05c60a1952d0d5e6f31d95d"
+    },
+    "static/laser-adapter.js": {
+      "source": "engine/layout/javascript/web/laser-adapter.js",
+      "sha256": "33742f84a41048d8abcd5699fd0dfd187930e7fdaee569e244d0d90923b7848a"
+    },
+    "static/layout.css": {
+      "source": "engine/apps/frontend/web/layout.css",
+      "sha256": "3f8d2027b75e188e482fba8e167ba733fef1fac0ad80596fa9ccdeafd1394df2"
+    },
+    "static/layout.js": {
+      "source": "engine/layout/javascript/web/layout.js",
+      "sha256": "a100ada1ca8365ce4767701359585513d9ee77b2d3bc7706029e70fc05664bc6"
+    },
+    "static/manual-source-mount.js": {
+      "source": "engine/layout/javascript/web/manual-source-mount.js",
+      "sha256": "b60933bd692e9fb8fd396a1069dda323cfb961c7ec11a7e52708f73f1cd17b28"
+    },
+    "static/measurement.js": {
+      "source": "engine/layout/javascript/web/measurement.js",
+      "sha256": "be2142c71dc4927597b1b9ddb48e7203226e6a9505822e391611ba690c41ddc9"
+    },
+    "static/metric-migration.js": {
+      "source": "engine/apps/frontend/web/metric-migration.js",
+      "sha256": "05d697f4570ee071c3381cf3a7d70b3cdb0f1fed493bea55253ded0473e72799"
+    },
+    "static/moving-stages.js": {
+      "source": "engine/layout/javascript/web/moving-stages.js",
+      "sha256": "c9a4dbf28ca0cf3583f6fcb7098bb288990cf27742afbbc1c59a972339911581"
+    },
+    "static/objective-sideview.js": {
+      "source": "engine/apps/frontend/web/objective-sideview.js",
+      "sha256": "c9544d80cbcd4cc9d8b1eabdceab2c9e0e5a8de6a995195a85bae5b0c4d8a4e0",
+      "currentAdaptation": "v4 current passive lens/waveplate contract"
+    },
+    "static/optical-assembly-engine.js": {
+      "source": "engine/optics/javascript/web/optical-assembly-engine.js",
+      "sha256": "21772eed0a6a8e181392d1cb9c97231ff0bff27903e02b775a6244dd3b0a4a17",
+      "currentAdaptation": "v4 passive lens support from current DoublePass delivery"
+    },
+    "static/optical-engine.js": {
+      "source": "engine/optics/javascript/web/optical-engine.js",
+      "sha256": "04d7dc4459070cedb1af028431d7612f39fa502c8c9992e5154ee2be992fe1c6",
+      "currentAdaptation": "v4 passive lens support from current DoublePass delivery"
+    },
+    "static/optical-hole-probe.js": {
+      "source": "engine/apps/frontend/web/optical-hole-probe.js",
+      "sha256": "a634cebe9f907ec6afd1f71515a36def85cf6a2c27e8fdd794de9ddd08e51d7e"
+    },
+    "static/optical-interaction-language.js": {
+      "source": "engine/optics/javascript/web/optical-interaction-language.js",
+      "sha256": "869b1fbbc7e3b377786201aff2b985f57a87f4e202534b5e7524093e4ccd913f"
+    },
+    "static/optical-renderer.css": {
+      "source": "engine/rendering/javascript/web/optical-renderer.css",
+      "sha256": "14b8f35def205a365bb694d6a68d9396c8c927ee89b1da8c079aad70b5a9f68c"
+    },
+    "static/optical-renderer.js": {
+      "source": "engine/rendering/javascript/web/optical-renderer.js",
+      "sha256": "a4400e5823342902114845fdb8f9f35c7327586537891a1ae2f4e227f67df83d"
+    },
+    "static/periscope-properties.js": {
+      "source": "engine/layout/javascript/web/periscope-properties.js",
+      "sha256": "417ad48aaee0df5b6b826c858c66454603bf72336c821895c196f90bf9b5774e"
+    },
+    "static/project-file.js": {
+      "source": "engine/apps/frontend/web/project-file.js",
+      "sha256": "2a5a4b6e56ec2668b686978707d54b977bf00f206554370d1eadd50c5dc875d3"
+    },
+    "static/project.css": {
+      "source": "engine/apps/frontend/web/project.css",
+      "sha256": "73b0d1b6e17460d94a2f0965671a7becaccb007c7c2129c544db8f3696e1026e"
+    },
+    "static/registered-boards.js": {
+      "source": "engine/layout/javascript/web/registered-boards.js",
+      "sha256": "9391ec472bb43bb34ec143d4c27106f3db661497ca584df4d5f828cb06ebd121"
+    },
+    "static/shared-kits.css": {
+      "source": "engine/apps/frontend/web/shared-kits.css",
+      "sha256": "389cf0c12f03a6c508dc2604964d073d765d53a623dc1dac968add1e3aad29dc"
+    },
+    "static/shared-kits.js": {
+      "source": "engine/apps/frontend/web/shared-kits.js",
+      "sha256": "9ece9eae3eb9f8701ce43483912dbce88835861962c839b1ed476af556dee814"
+    },
+    "static/shared-project.js": {
+      "source": "engine/apps/frontend/web/shared-project.js",
+      "sha256": "259aadb37e16ffd5a8d3cb486dec9d9803205a8f91f7597c491530466b4d06ee"
+    },
+    "static/stacked-boards.js": {
+      "source": "engine/layout/javascript/web/stacked-boards.js",
+      "sha256": "690358426f3c49c99fea0af5962d0d4c73fb2fd2da01667db8e6c7721535da7e"
+    },
+    "static/table-mode.css": {
+      "source": "engine/apps/frontend/web/table-mode.css",
+      "sha256": "b3a00d094b81c3afb6a64661b985f07da484ba21a28db9251e8c03ba025d5887"
+    },
+    "static/table-mode.js": {
+      "source": "engine/apps/frontend/web/table-mode.js",
+      "sha256": "71c1154664f1118bcb2bd7cddf93b1d160379610fca6994d0a1c155fc9a0b72e"
+    },
+    "tools/build-interaction-index.cjs": {
+      "source": "engine/tools/web/build-interaction-index.cjs",
+      "sha256": "c08f6ac553d4f2f341b00d70f5d80d5144677888ee21c6db543bf7c66e533913"
+    },
+    "tools/build-interaction-index.py": {
+      "source": "engine/tools/web/build-interaction-index.py",
+      "sha256": "8b2502cba2dc7a6dac375c579344936801d974c3c203d5afe25c6265e1d64e48"
+    },
+    "tools/fast-kit-templates.json": {
+      "source": "engine/tools/web/fast-kit-templates.json",
+      "sha256": "260c53b6659b83e3b2c637297e51a962cdcc885f294182e3a307787a8de19f21"
+    },
+    "tools/fast_kit_publish.py": {
+      "source": "engine/tools/web/fast_kit_publish.py",
+      "sha256": "4de067aef67570a0bfe8714803264dabe687596bf6af342f0c1a329afc06237f"
+    },
+    "tools/fast_kit_render.py": {
+      "source": "engine/tools/web/fast_kit_render.py",
+      "sha256": "1d99ae3d46f880388424e06e9d506ca4aa9117b82ff09d9a0cf78dae92dce4f8"
+    },
+    "tools/fast_kit_upload.py": {
+      "source": "engine/tools/web/fast_kit_upload.py",
+      "sha256": "09583b6fbd9a9cbde159c959d9ccbfdbca5b740198561ea93421a370f7d558c5"
+    },
+    "tools/library.py": {
+      "source": "engine/tools/web/library.py",
+      "sha256": "2bfc1b549b18d2cd161411011661e0d0a65df34ec26fe072f710f99981a27b27"
+    },
+    "tools/trace-optical-scene.cjs": {
+      "source": "engine/tools/web/trace-optical-scene.cjs",
+      "sha256": "cb13187eb385860699803663a02552ea94b0c092aaea24145da607731a4dfc60"
+    },
+    "local_board_library.py": {
+      "source": "engine/apps/python/editor/local_board_library.py",
+      "sha256": "e5dc209589e2c2cae4aad8ce54e0c1a57b6388bdcd86b64dbab360b962ff194a"
+    },
+    "static/board-accessories.js": {
+      "source": "engine/apps/frontend/editor/board-accessories.js",
+      "sha256": "1e9a45fc0d24f7a087bffb830f57c3c380fee89e5716ac5977ba421ee89c3cb7"
+    }
+  },
+  "editor": {
+    "bom.py": {
+      "source": "engine/exports/python/editor/bom.py",
+      "sha256": "c0fcf1e15ff94cded54383989713d1bf45d158046c95717945f24b038168638b"
+    },
+    "breadboard.py": {
+      "source": "engine/cad/python/editor/breadboard.py",
+      "sha256": "8f17c18333a58ecd99570b41773625cfd97c87688d034be0bd3379339e4945a9"
+    },
+    "collision_overrides.py": {
+      "source": "engine/layout/python/web/collision_overrides.py",
+      "sha256": "66e0e2e5f2137a5718167288e257fd7c365c10c283af39714c7728ee80cd11e3"
+    },
+    "elevation.py": {
+      "source": "engine/layout/python/editor/elevation.py",
+      "sha256": "e2718b9b7d82e37916fd1bbe1fe10fe867cdeb365bf5d34a45dbd825cc1d8421"
+    },
+    "exports.py": {
+      "source": "engine/exports/python/editor/exports.py",
+      "sha256": "177dbe87274bdbc16a081f3397b399be18369e9b4abd244480f8350ba14a446e"
+    },
+    "laser_adapter.py": {
+      "source": "engine/cad/python/web/laser_adapter.py",
+      "sha256": "25690289eddb51f7ad004d1bc5aebebbf8f5e53236316015c65d897a3a517403"
+    },
+    "layout.py": {
+      "source": "engine/layout/python/web/layout.py",
+      "sha256": "414b32534dc47e58403e3c8e6cdeffb32a7acca5cf83b1ba3a1a7e0059f0b209"
+    },
+    "local_board_library.py": {
+      "source": "engine/apps/python/editor/local_board_library.py",
+      "sha256": "e5dc209589e2c2cae4aad8ce54e0c1a57b6388bdcd86b64dbab360b962ff194a"
+    },
+    "local_expert.py": {
+      "source": "engine/apps/python/editor/local_expert.py",
+      "sha256": "bb41c76a4f95db67ead3b1e3e4de2a2d6be04876ca30275827742f7853449e9a"
+    },
+    "manual_source_mount.py": {
+      "source": "engine/layout/python/web/manual_source_mount.py",
+      "sha256": "9afd35bcb6b9e07315a0a20657b89ddf0364e34d4ffb7896d4d3f5130af5cb14"
+    },
+    "manufacturing_specs.json": {
+      "source": "engine/compatibility/web/manufacturing_specs.json",
+      "sha256": "adc144e4e38a69901853798e89299ccc25f12bbe6870ebe3d7600a36588742be"
+    },
+    "metric_migration.py": {
+      "source": "engine/layout/python/web/metric_migration.py",
+      "sha256": "a83815375f3b9f28a61d9679d3dd58cfa123b3f7830dfebe1c1b8734cccaad86"
+    },
+    "moving_stages.py": {
+      "source": "engine/layout/python/web/moving_stages.py",
+      "sha256": "4303e213b1da7673e29de5104f86f2f9ee3d58183d6a24b2ffe648e440c21d40"
+    },
+    "optical_interaction.py": {
+      "source": "engine/optics/python/web/optical_interaction.py",
+      "sha256": "5a357726d82724df21749ef92c40596462839507738bbad2142a2971185b67d0",
+      "currentAdaptation": "v4 passive lens support from current DoublePass delivery"
+    },
+    "optics_settings.py": {
+      "source": "engine/optics/python/editor/optics_settings.py",
+      "sha256": "1e41e0ca11c1bfb2c64b129f41cc64b275444490deaeff10266388c60df5c091",
+      "currentAdaptation": "v4 current passive lens/waveplate contract"
+    },
+    "project_library.py": {
+      "source": "engine/apps/python/editor/project_library.py",
+      "sha256": "75ebea9099ed761137b25deac32e220851a3f96c1c6433fbe4f7da4d39f41d8c"
+    },
+    "registered_boards.py": {
+      "source": "engine/layout/python/editor/registered_boards.py",
+      "sha256": "1945b23012c95aa4d7bd52dff187f1765b615fdc2fb2e087ea764e1b39e74797"
+    },
+    "server.py": {
+      "source": "engine/apps/python/editor/server.py",
+      "sha256": "91e6862dcd345bada298c2aa9be9653a2190077b6768e018eb491fa61db68052"
+    },
+    "stacked_layout.py": {
+      "source": "engine/layout/python/editor/stacked_layout.py",
+      "sha256": "46cf1c72c5dba95a62f5d867917cf2e131d1ff4432f2d54c23a00e95add62fab"
+    },
+    "start.py": {
+      "source": "engine/apps/python/editor/start.py",
+      "sha256": "13ebb02b1be664ef241066f87eb6947d550aa6599c8771c057fbb00dec595822"
+    },
+    "static/app.css": {
+      "source": "engine/apps/frontend/web/app.css",
+      "sha256": "d7e0c15e29cbd03e55ec9e5407e0516888e2ebd6b4230ab4e59ca6ea02c7ad62"
+    },
+    "static/app.js": {
+      "source": "engine/apps/frontend/editor/app.js",
+      "sha256": "0379e9705390b0007955dbfa038c6ec7dd9ec014f78c404c012cd9da6a0c1515"
+    },
+    "static/board-accessories.js": {
+      "source": "engine/apps/frontend/editor/board-accessories.js",
+      "sha256": "1e9a45fc0d24f7a087bffb830f57c3c380fee89e5716ac5977ba421ee89c3cb7"
+    },
+    "static/canvas-workspace.css": {
+      "source": "engine/apps/frontend/web/canvas-workspace.css",
+      "sha256": "d4110474a414fa336d7d2e8b7982efbc8f01c38d00cea321629b5bb1bb424b40"
+    },
+    "static/canvas-workspace.js": {
+      "source": "engine/apps/frontend/web/canvas-workspace.js",
+      "sha256": "1e4e33ef533dc9bfd247ff1cee89b65dba002975cf830c5aa40e062417e5c2a1"
+    },
+    "static/collision-engine.js": {
+      "source": "engine/layout/javascript/web/collision-engine.js",
+      "sha256": "b8342182cb3f9befdd608633f9b67c2d3379770fc53ce3184afc708b8de2a7fa"
+    },
+    "static/collision-overrides.js": {
+      "source": "engine/layout/javascript/web/collision-overrides.js",
+      "sha256": "bfcff2a9729ce8b954e2db32cc2db6b59be3a72a8638abe937cb66bbd0ef0785"
+    },
+    "static/elevation.js": {
+      "source": "engine/layout/javascript/editor/elevation.js",
+      "sha256": "cbe8e0a9f7ae1926bedbc5c9829cba6925ceb818bcce1cad5c6f6622f3b93f2b"
+    },
+    "static/fixed-board-optics.js": {
+      "source": "engine/rendering/javascript/editor/fixed-board-optics.js",
+      "sha256": "1c84b95720f09744d49d57273f159f8c37b139fcb20ff91c847305edb5409e1b"
+    },
+    "static/glass-chamber.js": {
+      "source": "engine/apps/frontend/editor/glass-chamber.js",
+      "sha256": "a686a244f2d52ccf05790ee0ffab32d7b4a24dcf62eca0bda542ecb914ac3cfb"
+    },
+    "static/global-height.js": {
+      "source": "engine/layout/javascript/editor/global-height.js",
+      "sha256": "e0840f2767fe99fd28a1971a870df2d366da46876034de9721e29ceac370d803"
+    },
+    "static/index.html": {
+      "source": "engine/apps/frontend/editor/index.html",
+      "sha256": "7af24821c5841e825c59daeab47f2e4686304b26b34ad6e149b86260a6c33f4d"
+    },
+    "static/laser-adapter.js": {
+      "source": "engine/layout/javascript/web/laser-adapter.js",
+      "sha256": "33742f84a41048d8abcd5699fd0dfd187930e7fdaee569e244d0d90923b7848a"
+    },
+    "static/layout.css": {
+      "source": "engine/apps/frontend/web/layout.css",
+      "sha256": "3f8d2027b75e188e482fba8e167ba733fef1fac0ad80596fa9ccdeafd1394df2"
+    },
+    "static/layout.js": {
+      "source": "engine/layout/javascript/web/layout.js",
+      "sha256": "a100ada1ca8365ce4767701359585513d9ee77b2d3bc7706029e70fc05664bc6"
+    },
+    "static/local-expert-mode.js": {
+      "source": "engine/apps/frontend/editor/local-expert-mode.js",
+      "sha256": "2d93a5a9f40fb79509678f6443e3ade80ba6d83c766c2ae3762479cf7788045d"
+    },
+    "static/local-mode.css": {
+      "source": "engine/apps/frontend/editor/local-mode.css",
+      "sha256": "92e0363f94f0296ea21792d836f1498a13a4eedf15cf38d7488818afc820f2be"
+    },
+    "static/local-mode.js": {
+      "source": "engine/apps/frontend/editor/local-mode.js",
+      "sha256": "8c9d0c8654e75053a7e6a5f8fed8dfa955ab2f59d09c21d148ebd43de1ab564c"
+    },
+    "static/manual-source-mount.js": {
+      "source": "engine/layout/javascript/web/manual-source-mount.js",
+      "sha256": "b60933bd692e9fb8fd396a1069dda323cfb961c7ec11a7e52708f73f1cd17b28"
+    },
+    "static/measurement.js": {
+      "source": "engine/layout/javascript/web/measurement.js",
+      "sha256": "be2142c71dc4927597b1b9ddb48e7203226e6a9505822e391611ba690c41ddc9"
+    },
+    "static/metric-migration.js": {
+      "source": "engine/apps/frontend/web/metric-migration.js",
+      "sha256": "05d697f4570ee071c3381cf3a7d70b3cdb0f1fed493bea55253ded0473e72799"
+    },
+    "static/moving-stages.js": {
+      "source": "engine/layout/javascript/web/moving-stages.js",
+      "sha256": "c9a4dbf28ca0cf3583f6fcb7098bb288990cf27742afbbc1c59a972339911581"
+    },
+    "static/objective-sideview.js": {
+      "source": "engine/apps/frontend/web/objective-sideview.js",
+      "sha256": "c9544d80cbcd4cc9d8b1eabdceab2c9e0e5a8de6a995195a85bae5b0c4d8a4e0",
+      "currentAdaptation": "v4 current passive lens/waveplate contract"
+    },
+    "static/optical-assembly-engine.js": {
+      "source": "engine/optics/javascript/web/optical-assembly-engine.js",
+      "sha256": "21772eed0a6a8e181392d1cb9c97231ff0bff27903e02b775a6244dd3b0a4a17",
+      "currentAdaptation": "v4 passive lens support from current DoublePass delivery"
+    },
+    "static/optical-engine.js": {
+      "source": "engine/optics/javascript/editor/optical-engine.js",
+      "sha256": "2667705c10abb8fa61786c4aca83f6d1d7a15dfe5b483fdb40374318c445758f",
+      "currentAdaptation": "v4 passive lens support from current DoublePass delivery"
+    },
+    "static/optical-hole-probe.js": {
+      "source": "engine/apps/frontend/web/optical-hole-probe.js",
+      "sha256": "a634cebe9f907ec6afd1f71515a36def85cf6a2c27e8fdd794de9ddd08e51d7e"
+    },
+    "static/optical-interaction-language.js": {
+      "source": "engine/optics/javascript/web/optical-interaction-language.js",
+      "sha256": "869b1fbbc7e3b377786201aff2b985f57a87f4e202534b5e7524093e4ccd913f"
+    },
+    "static/optical-renderer.css": {
+      "source": "engine/rendering/javascript/web/optical-renderer.css",
+      "sha256": "14b8f35def205a365bb694d6a68d9396c8c927ee89b1da8c079aad70b5a9f68c"
+    },
+    "static/optical-renderer.js": {
+      "source": "engine/rendering/javascript/editor/optical-renderer.js",
+      "sha256": "1af06c270c506ac58c13817ce3668d33d923461491716c9e6eb72a25d5df0125"
+    },
+    "static/periscope-properties.js": {
+      "source": "engine/layout/javascript/web/periscope-properties.js",
+      "sha256": "417ad48aaee0df5b6b826c858c66454603bf72336c821895c196f90bf9b5774e"
+    },
+    "static/project-drop.js": {
+      "source": "engine/apps/frontend/editor/project-drop.js",
+      "sha256": "ae5f88b02e815197c004eee8f16f6ae08ebcccf89f58a6cbb472b01ae01c4cc7"
+    },
+    "static/project-file.js": {
+      "source": "engine/apps/frontend/editor/project-file.js",
+      "sha256": "05dadeeccf66adc4a6e7f23d6c280360041af5b7118cd493b592461863a4f1ca"
+    },
+    "static/project.css": {
+      "source": "engine/apps/frontend/web/project.css",
+      "sha256": "73b0d1b6e17460d94a2f0965671a7becaccb007c7c2129c544db8f3696e1026e"
+    },
+    "static/registered-boards.js": {
+      "source": "engine/layout/javascript/editor/registered-boards.js",
+      "sha256": "e1a65431cd0f46bdd6ae78baffdfffdd6fc8cf758cec8e9c1ea10f4392cc75b9"
+    },
+    "static/shared-kits.css": {
+      "source": "engine/apps/frontend/web/shared-kits.css",
+      "sha256": "389cf0c12f03a6c508dc2604964d073d765d53a623dc1dac968add1e3aad29dc"
+    },
+    "static/shared-project.js": {
+      "source": "engine/apps/frontend/web/shared-project.js",
+      "sha256": "259aadb37e16ffd5a8d3cb486dec9d9803205a8f91f7597c491530466b4d06ee"
+    },
+    "static/stacked-boards.js": {
+      "source": "engine/layout/javascript/editor/stacked-boards.js",
+      "sha256": "11db6095628f85b9cfc0f87b8e4b9d1ed200563fcd5f7de165d44314aad04fd9"
+    },
+    "static/table-mode.css": {
+      "source": "engine/apps/frontend/web/table-mode.css",
+      "sha256": "b3a00d094b81c3afb6a64661b985f07da484ba21a28db9251e8c03ba025d5887"
+    },
+    "static/table-mode.js": {
+      "source": "engine/apps/frontend/web/table-mode.js",
+      "sha256": "71c1154664f1118bcb2bd7cddf93b1d160379610fca6994d0a1c155fc9a0b72e"
+    },
+    "sync_library.py": {
+      "source": "engine/apps/python/editor/sync_library.py",
+      "sha256": "db517a40f7d33af496abf092dbd1c891708aa1a67af3d54fa6fd0a781c1d7768"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+# Architecture
+
+本地精选副本沿用HKSOP的engine/library/skills/projects架构。库源定义为独立元件包，由registry统一登记；catalog、entity-index、package-index、HTML目录和runtime由编译器生成。
+
+标准包采用现有standard/modules分类；采购件取已发布共用components目录。按结构化BOM、板型和共同协议参数收齐依赖，再加入一分三和DoublePass实例引用的定义。custom目录不按整目录复制，保留集合见selection.json。
+
+STEP和俯视图按SHA256去重，包内只建立根目录内部相对链接。项目示例引用元件库，不重复保存项目模型、加工包和历史JSON。
+
+图纸缺省是本次分发范围，不等于原设计没有图纸或已经具备完整加工交付。未提供的图纸路径不作为可下载资源发布。
+
+本地生成的runtime、_build和解释器配置不作为后续Git源文件。GitHub分发保持私有，STEP和俯视渲染随源文件提交。

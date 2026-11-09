@@ -1,0 +1,46 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "it399-motor2-fold-r1",
+  "files": [
+    {
+      "path": "cad/33760b720b366e1a52dc3631b93fdc92f9f759b7aa9afba987f1d7ab0ffa56d2.step",
+      "stored": "library/assets/sha256/33/33760b720b366e1a52dc3631b93fdc92f9f759b7aa9afba987f1d7ab0ffa56d2.step",
+      "sha256": "33760b720b366e1a52dc3631b93fdc92f9f759b7aa9afba987f1d7ab0ffa56d2",
+      "originalReferences": [
+        "step/iontrap-it399-r6-motor2/IT75_MOTOR2_SETTING_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/33/33760b720b366e1a52dc3631b93fdc92f9f759b7aa9afba987f1d7ab0ffa56d2.step"
+      ]
+    },
+    {
+      "path": "rendering/fc7486ce0f9cbdabfcf8347a55d39f5144699624fe1ea514f3a1d047b8f411d8.svg",
+      "stored": "library/assets/sha256/fc/fc7486ce0f9cbdabfcf8347a55d39f5144699624fe1ea514f3a1d047b8f411d8.svg",
+      "sha256": "fc7486ce0f9cbdabfcf8347a55d39f5144699624fe1ea514f3a1d047b8f411d8",
+      "originalReferences": [
+        "topviews/it399-r6-motor.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/fc/fc7486ce0f9cbdabfcf8347a55d39f5144699624fe1ea514f3a1d047b8f411d8.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-motor-adapter-18-s2-r2",
+    "custom-motor-h2d2-b-r3",
+    "custom-motor-h2d2-l-r2",
+    "custom-motor-h2d2-s-r3",
+    "encoder-servo",
+    "hardware-h2-r3-m2x10",
+    "hardware-h2-r3-m4-washer",
+    "hardware-h2-r3-m4x20",
+    "hardware-iso4762-m3x8",
+    "hardware-iso4762-m6x16",
+    "it399-motor2-post-r1",
+    "motor-adapter-m3",
+    "new-hardware-f1da242532cf",
+    "new-hardware-ff9fb49c865c",
+    "new-r3-vendor-mt-am2s5",
+    "v7-source-m4-nut"
+  ]
+}

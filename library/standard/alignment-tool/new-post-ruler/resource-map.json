@@ -1,0 +1,34 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-post-ruler",
+  "files": [
+    {
+      "path": "cad/029740fbfda543d4190c9401ed99aceea32fff2944e7d5bd4b34f4af8d2133d4.step",
+      "stored": "library/assets/sha256/02/029740fbfda543d4190c9401ed99aceea32fff2944e7d5bd4b34f4af8d2133d4.step",
+      "sha256": "029740fbfda543d4190c9401ed99aceea32fff2944e7d5bd4b34f4af8d2133d4",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/new-post-ruler__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/02/029740fbfda543d4190c9401ed99aceea32fff2944e7d5bd4b34f4af8d2133d4.step"
+      ]
+    },
+    {
+      "path": "rendering/d5a477b2cd3e9107b2a9bbaf361714ae08b314ba4cfa7ac4d78688efb8316d09.svg",
+      "stored": "library/assets/sha256/d5/d5a477b2cd3e9107b2a9bbaf361714ae08b314ba4cfa7ac4d78688efb8316d09.svg",
+      "sha256": "d5a477b2cd3e9107b2a9bbaf361714ae08b314ba4cfa7ac4d78688efb8316d09",
+      "originalReferences": [
+        "topviews/new-post-ruler__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/d5/d5a477b2cd3e9107b2a9bbaf361714ae08b314ba4cfa7ac4d78688efb8316d09.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-post-metric-50mm-m1",
+    "metric-m1-post-m4x14",
+    "metric-m1-post-pin-d2x8",
+    "new-r3-15-layout-ruler"
+  ]
+}

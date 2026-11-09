@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-36-a65-c-r2",
+  "files": [
+    {
+      "path": "cad/ab9613eefd4ae1123741f6368f2fb37622c5e178c508822f3339364347a387cf.step",
+      "stored": "library/assets/sha256/ab/ab9613eefd4ae1123741f6368f2fb37622c5e178c508822f3339364347a387cf.step",
+      "sha256": "ab9613eefd4ae1123741f6368f2fb37622c5e178c508822f3339364347a387cf",
+      "originalReferences": [
+        "step/camera-adapters-r2/36-A65-C_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/ab/ab9613eefd4ae1123741f6368f2fb37622c5e178c508822f3339364347a387cf.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

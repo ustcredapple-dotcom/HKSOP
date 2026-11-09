@@ -1,0 +1,14 @@
+{
+  "format": "hksop-retention-policy-v1",
+  "engine": "current-only",
+  "componentLibrary": "current-only",
+  "currentProjects": "current-final-deliverables",
+  "projectHistory": "finalized-engineering-json-only",
+  "historicalCad": false,
+  "historicalDrawings": false,
+  "historicalDeliveryPackages": false,
+  "historicalLibrarySnapshots": false,
+  "temporaryRollback": "delete-after-successful-transaction",
+  "backups": "same-retained-set",
+  "changedAt": "2026-11-08"
+}

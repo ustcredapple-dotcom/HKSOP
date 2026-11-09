@@ -1,0 +1,46 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "mt-cube-pbs-0p5inch-motorized-r1",
+  "files": [
+    {
+      "path": "rendering/be90c78cfce21e6eda6b6cf7ab0a379123f8502a3761874d9ed8f8a07abded08.svg",
+      "stored": "library/assets/sha256/be/be90c78cfce21e6eda6b6cf7ab0a379123f8502a3761874d9ed8f8a07abded08.svg",
+      "sha256": "be90c78cfce21e6eda6b6cf7ab0a379123f8502a3761874d9ed8f8a07abded08",
+      "originalReferences": [
+        "topviews/mt-cube-pbs-0p5inch-motorized-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/be/be90c78cfce21e6eda6b6cf7ab0a379123f8502a3761874d9ed8f8a07abded08.svg"
+      ]
+    },
+    {
+      "path": "cad/c430808fef6fd8af179121caf4f85ca209efded3ee3628ca85c737abdfa12b96.step",
+      "stored": "library/assets/sha256/c4/c430808fef6fd8af179121caf4f85ca209efded3ee3628ca85c737abdfa12b96.step",
+      "sha256": "c430808fef6fd8af179121caf4f85ca209efded3ee3628ca85c737abdfa12b96",
+      "originalReferences": [
+        "step/combined-r1-20261015/0/PBS_MOTOR_0p5inch_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/c4/c430808fef6fd8af179121caf4f85ca209efded3ee3628ca85c737abdfa12b96.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-mcve05-r1",
+    "custom-mv05-dh-r1",
+    "custom-mv05-dl-r1",
+    "custom-mv05-s1-r1",
+    "custom-post-metric-37p5mm-m1",
+    "encoder-servo",
+    "hardware-h2-r3-m2x10",
+    "hardware-iso4762-m6x12",
+    "hardware-pbs-mv05-m2x12",
+    "lbtek-mt-csb05-purchased",
+    "metric-m1-post-pin-d2x8",
+    "motor-bracket-21",
+    "mt-am05s5",
+    "new-r3-hardware-b7a3ea97ce89",
+    "new-r3-hardware-eb2e220803c7",
+    "v7-iso4762-m4x12"
+  ]
+}

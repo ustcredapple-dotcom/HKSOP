@@ -1,0 +1,32 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-pbs-adjustable-05",
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "displayName": "可调 PBS · 0.5 inch · AMP-1R",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/new-pbs-adjustable-05.json"
+    }
+  ],
+  "componentDependencies": [
+    "amp-1r",
+    "custom-post-metric-12p5mm-m1",
+    "metric-m1-post-m4x12",
+    "metric-m1-post-pin-d2x8",
+    "new-pbs-05-vendor-1",
+    "new-pbs-05-vendor-2",
+    "new-r3-11-pbs-lower",
+    "new-r3-11-pbs-upper"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-pd-adapter-1",
+  "files": [
+    {
+      "path": "cad/e81155ef71b495079c515b5d04cb150b86b388e615f7b8cf285220e1331f9381.step",
+      "stored": "library/assets/sha256/e8/e81155ef71b495079c515b5d04cb150b86b388e615f7b8cf285220e1331f9381.step",
+      "sha256": "e81155ef71b495079c515b5d04cb150b86b388e615f7b8cf285220e1331f9381",
+      "originalReferences": [
+        "step/metric-m1-20261006/03-PD_METRIC_M1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/e8/e81155ef71b495079c515b5d04cb150b86b388e615f7b8cf285220e1331f9381.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

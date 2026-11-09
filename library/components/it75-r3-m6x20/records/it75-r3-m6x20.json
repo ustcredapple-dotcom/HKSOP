@@ -1,0 +1,13 @@
+{
+  "id": "it75-r3-m6x20",
+  "name": "M6×20 内六角圆柱头螺钉",
+  "model": "M6×20 ISO4762",
+  "kind": "standard",
+  "unit": "颗",
+  "status": "源安装包指定；实物牙深待核对",
+  "standardSpec": {
+    "thread": "M6x1.0",
+    "lengthMm": 20
+  },
+  "notes": "直接安装，不追加垫片；原combo底板→新板；名义旋入13.5mm。"
+}

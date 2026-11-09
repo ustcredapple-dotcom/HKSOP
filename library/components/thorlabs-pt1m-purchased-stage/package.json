@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "thorlabs-pt1m-purchased-stage",
+  "revision": "R1-A7075",
+  "displayName": "Thorlabs PT1/M 手动单轴位移台",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/thorlabs-pt1m-purchased-stage.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

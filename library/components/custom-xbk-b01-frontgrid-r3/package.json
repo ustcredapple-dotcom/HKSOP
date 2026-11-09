@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-xbk-b01-frontgrid-r3",
+  "revision": "R3-FRONT-GRID",
+  "displayName": "XBK-B01 紧凑圆孔/短槽底板 R3",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-xbk-b01-frontgrid-r3.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

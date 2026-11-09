@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "dpt3-post25-r1",
+  "files": [
+    {
+      "path": "cad/f7be40e94bf1d9cb018f2a837fb2932b9957ecc3fd0357dd8d71a7723177b5f1.step",
+      "stored": "library/assets/sha256/f7/f7be40e94bf1d9cb018f2a837fb2932b9957ecc3fd0357dd8d71a7723177b5f1.step",
+      "sha256": "f7be40e94bf1d9cb018f2a837fb2932b9957ecc3fd0357dd8d71a7723177b5f1",
+      "originalReferences": [
+        "step/dipole-trap3-r1/DPT3-M25-R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/f7/f7be40e94bf1d9cb018f2a837fb2932b9957ecc3fd0357dd8d71a7723177b5f1.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

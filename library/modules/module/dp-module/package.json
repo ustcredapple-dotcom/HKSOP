@@ -1,0 +1,53 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "dp-module",
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "displayName": "DP 模块",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/dp-module.json"
+    }
+  ],
+  "componentDependencies": [
+    "amp-1r",
+    "crm-1as",
+    "cs30-xy1d",
+    "custom-05",
+    "custom-06",
+    "custom-07",
+    "custom-08",
+    "custom-09",
+    "custom-10",
+    "custom-11",
+    "custom-13",
+    "custom-15",
+    "custom-post-metric-12p5mm-m1",
+    "custom-post-metric-25mm-m1",
+    "custom-post-metric-37p5mm-m1",
+    "encoder-servo",
+    "mft",
+    "mop-50",
+    "motor-adapter-28",
+    "motor-adapter-9",
+    "motor-bracket-21",
+    "motor-bracket-22",
+    "mpbs24-532",
+    "mt-am05s5",
+    "mt-am1s5",
+    "mt-flf1s",
+    "opm-12.5bs",
+    "pbs24-532-alias",
+    "pcms1"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "not-declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

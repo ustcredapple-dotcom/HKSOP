@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "pd-module-37p3-r1",
+  "revision": "SOURCE-FROZEN-R1",
+  "displayName": "探测器模块 · 37.3 mm 图片外形",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/pd-module-37p3-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

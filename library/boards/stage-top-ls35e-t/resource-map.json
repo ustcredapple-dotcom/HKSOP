@@ -1,0 +1,29 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "stage-top-ls35e-t",
+  "files": [
+    {
+      "path": "rendering/45f8ef3aa25bf288be13d8610b407e0a6706d03cac890501c8f5d2294819355d.svg",
+      "stored": "library/assets/sha256/45/45f8ef3aa25bf288be13d8610b407e0a6706d03cac890501c8f5d2294819355d.svg",
+      "sha256": "45f8ef3aa25bf288be13d8610b407e0a6706d03cac890501c8f5d2294819355d",
+      "originalReferences": [
+        "topviews/kit_ls35x-lab-e-r1-moving.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/45/45f8ef3aa25bf288be13d8610b407e0a6706d03cac890501c8f5d2294819355d.svg"
+      ]
+    },
+    {
+      "path": "cad/874faaf374d1f5aafab61b3d72bc168a6a5a2da1add9da03acb66d723f105335.step",
+      "stored": "library/assets/sha256/87/874faaf374d1f5aafab61b3d72bc168a6a5a2da1add9da03acb66d723f105335.step",
+      "sha256": "874faaf374d1f5aafab61b3d72bc168a6a5a2da1add9da03acb66d723f105335",
+      "originalReferences": [
+        "step/ls35x-lab-e-r1/31-LS35-T_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/87/874faaf374d1f5aafab61b3d72bc168a6a5a2da1add9da03acb66d723f105335.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

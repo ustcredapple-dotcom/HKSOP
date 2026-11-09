@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "pd-module-37p3-r1",
+  "files": [
+    {
+      "path": "cad/61b68240e9b9223e633f0be739b736ffe8d41aa3e54fb1938e9cf027a8451bef.step",
+      "stored": "library/assets/sha256/61/61b68240e9b9223e633f0be739b736ffe8d41aa3e54fb1938e9cf027a8451bef.step",
+      "sha256": "61b68240e9b9223e633f0be739b736ffe8d41aa3e54fb1938e9cf027a8451bef",
+      "originalReferences": [
+        "step/servo-detector-gate-r2/DETECTOR_SOURCE.step"
+      ],
+      "sources": [
+        "library/assets/sha256/61/61b68240e9b9223e633f0be739b736ffe8d41aa3e54fb1938e9cf027a8451bef.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

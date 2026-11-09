@@ -1,0 +1,24 @@
+{
+  "id": "custom-fc75-p-r2",
+  "name": "FLIR 调焦特种万能柱 H25",
+  "model": "FC75-P_R2",
+  "kind": "custom",
+  "unit": "件",
+  "stepPath": "step/flir-focus-h75-r2/FC75-P_R2.step",
+  "sourceStepSha256": "9c9197a91523b98ae4f7b4abc0fc16e3d1954348298584c9501a7eaa5851e85f",
+  "drawingPath": null,
+  "sourceDrawingSha256": "0abefd40357c921bbbe0033d12df514f85fb3ab4ebcac45fc1c4c98859e6bdc3",
+  "status": "工程审核版；未实物试装",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L",
+    "surfaceTreatment": "去磁、钝化"
+  },
+  "notes": "FC75 R2新件；图纸与STEP同源。底板64×64×9，特柱底脚44×44×6、总高25；真实拆台接口待实测。",
+  "laserMarking": {
+    "status": "required",
+    "reason": "激光标识；不铣刻",
+    "files": [],
+    "notes": " 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。"
+  }
+}

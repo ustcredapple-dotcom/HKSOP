@@ -1,0 +1,32 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "periscope-straight-h187p5-to62p5-r3",
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "displayName": "标准 直向爬架 · 187.5→62.5 · R3",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/periscope-straight-h187p5-to62p5-r3.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-periscope-mirror-adapter10c-r3",
+    "custom-periscope-straight-25s3-r3",
+    "custom-post-metric-12p5mm-m1",
+    "mt-am1s5",
+    "new-hardware-d56c7b8035c3",
+    "periscope-d2x8-pin",
+    "periscope-m4x14-screw",
+    "periscope-m6x12-screw"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

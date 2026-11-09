@@ -1,0 +1,29 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-camera-flir-45",
+  "revision": "CURRENT-B6R1",
+  "displayName": "FLIR 相机 · BFS-U3-16S2-CS · −45°",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/new-camera-flir-45.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-post-metric-37p5mm-m1",
+    "metric-m1-post-m4x12",
+    "metric-m1-post-pin-d2x8",
+    "new-r6-20-camera-cs-adapter",
+    "new-r6-camera-flir-bfs-u3-16s2-cs"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

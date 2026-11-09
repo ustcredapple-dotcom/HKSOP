@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-lens-filter-adapter-1",
+  "files": [
+    {
+      "path": "cad/20269646456e7b655f99108b61d988d55067ec70455889f9f8b450b642930083.step",
+      "stored": "library/assets/sha256/20/20269646456e7b655f99108b61d988d55067ec70455889f9f8b450b642930083.step",
+      "sha256": "20269646456e7b655f99108b61d988d55067ec70455889f9f8b450b642930083",
+      "originalReferences": [
+        "step/metric-m1-20261006/05-LENS-L_METRIC_M1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/20/20269646456e7b655f99108b61d988d55067ec70455889f9f8b450b642930083.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

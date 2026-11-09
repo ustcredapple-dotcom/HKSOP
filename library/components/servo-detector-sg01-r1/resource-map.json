@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "servo-detector-sg01-r1",
+  "files": [
+    {
+      "path": "cad/cc360de571cf5fc2d1e8bdd2e8b0d7d89397a76c57af9ec22c322e8bca4c77b4.step",
+      "stored": "library/assets/sha256/cc/cc360de571cf5fc2d1e8bdd2e8b0d7d89397a76c57af9ec22c322e8bca4c77b4.step",
+      "sha256": "cc360de571cf5fc2d1e8bdd2e8b0d7d89397a76c57af9ec22c322e8bca4c77b4",
+      "originalReferences": [
+        "step/servo-detector-gate-r2/SG01_FIXED_MOUNT_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/cc/cc360de571cf5fc2d1e8bdd2e8b0d7d89397a76c57af9ec22c322e8bca4c77b4.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

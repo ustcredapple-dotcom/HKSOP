@@ -1,0 +1,15 @@
+*.step -text
+*.stp -text
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.svg text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.md text eol=lf
+# Canonical engine and content-addressed assets must retain their exact bytes.
+engine/** -text
+library/assets/** -text
+*.step -diff -text
+*.stp -diff -text

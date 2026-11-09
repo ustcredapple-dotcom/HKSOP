@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-36-a65-b-r2",
+  "revision": "R2",
+  "displayName": "36-A65-B 鑫图 A6504-Pro 固定底座",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-36-a65-b-r2.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

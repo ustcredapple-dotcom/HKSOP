@@ -1,0 +1,171 @@
+/* The canvas uses the available screen; side panels are independent view preferences. */
+.page-shell{max-width:none}
+.canvas-display-controls{display:flex;align-items:center;gap:12px;position:sticky;top:0;z-index:30;padding:10px 0;background:var(--bg);margin:0 0 8px;min-width:0}
+.canvas-display-label{font-size:11px;color:#75877f;white-space:nowrap}
+.canvas-panel-switches,.canvas-display-actions{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.canvas-display-actions{margin-left:auto;flex-shrink:0}
+.canvas-display-controls button{border:1px solid #cbdcd2;border-radius:7px;background:#fff;color:#355f51;font-size:11px;padding:8px 11px;min-height:34px;white-space:nowrap}
+.canvas-display-controls button:hover{background:#e8f3ec;border-color:#7da99a}
+.canvas-display-controls button[aria-expanded=false]{color:#647d71;background:transparent;border-style:dashed}
+.canvas-display-controls a{font-size:11px;padding:8px;white-space:nowrap}
+.canvas-display-controls #canvas-focus-toggle{background:#16736f;border-color:#16736f;color:white;font-weight:600}
+.canvas-display-controls #canvas-focus-toggle:hover{background:#105b58}
+.canvas-display-controls #canvas-focus-toggle span{font-size:16px;margin-right:4px;line-height:1}
+.canvas-parameters{min-height:0}
+.workspace{--canvas-library-width:224px;--canvas-inspector-width:280px;--canvas-gap:16px}
+.board-viewport{height:clamp(440px,calc(100dvh - 240px),920px)}
+.board-toolbar>div{min-width:0}
+.optical-workbench-heading,.optical-actions{flex-wrap:wrap}
+.optical-actions{flex-shrink:1}
+
+@media(min-width:1050px){
+  .workspace{display:grid;grid-template-columns:var(--canvas-library-width) minmax(0,1fr) var(--canvas-inspector-width);gap:var(--canvas-gap)}
+  .workspace>.catalog-panel{grid-column:1;grid-row:1}
+  .workspace>.layout-panel{grid-column:2;grid-row:1}
+  .workspace>.plan-panel{grid-column:3;grid-row:1}
+  .workspace.canvas-hide-catalog{grid-template-columns:minmax(0,1fr) var(--canvas-inspector-width)}
+  .workspace.canvas-hide-catalog>.layout-panel{grid-column:1}
+  .workspace.canvas-hide-catalog>.plan-panel{grid-column:2}
+  .workspace.canvas-hide-inspector{grid-template-columns:var(--canvas-library-width) minmax(0,1fr)}
+  .workspace.canvas-hide-catalog.canvas-hide-inspector{grid-template-columns:minmax(0,1fr)}
+}
+@media(min-width:751px) and (max-width:1049px){
+  .workspace{grid-template-columns:205px minmax(0,1fr)}
+  .workspace>.catalog-panel{grid-column:1;grid-row:1 / 3}
+  .workspace>.layout-panel{grid-column:2;grid-row:1}
+  .workspace>.plan-panel{grid-column:2;grid-row:2;position:static}
+  .workspace.canvas-hide-catalog{grid-template-columns:minmax(0,1fr)}
+  .workspace.canvas-hide-catalog>.layout-panel,.workspace.canvas-hide-catalog>.plan-panel{grid-column:1}
+}
+
+/* Focus mode is part of the page, so native dialogs and fixed context menus
+   retain their coordinate system and stay above the canvas. */
+body.canvas-focused{overflow:hidden}
+body.canvas-focused>.site-header,body.canvas-focused .intro,body.canvas-focused .workspace-navigation,
+body.canvas-focused .extras-section,body.canvas-focused .results,body.canvas-focused .page-footer{display:none}
+body.canvas-focused .page-shell{height:100dvh;display:flex;flex-direction:column;padding:0 12px 12px;min-height:0}
+body.canvas-focused .canvas-display-controls{flex:none;position:relative;margin:0;padding:8px 0}
+body.canvas-focused .canvas-display-label{color:#16736f}
+body.canvas-focused .workspace{position:relative;flex:1;min-height:0;align-items:stretch}
+body.canvas-focused .layout-panel{display:flex;flex-direction:column;height:100%;min-height:0}
+body.canvas-focused .layout-panel> *{flex-shrink:0}
+body.canvas-focused .layout-heading{padding:8px 12px}
+body.canvas-focused .layout-heading p{display:none}
+body.canvas-focused .canvas-parameters{flex:0 1 auto;max-height:32dvh;overflow:auto;padding-top:7px}
+body.canvas-focused .layout-panel>.board-viewport{flex:1 1 180px;min-height:160px;height:auto}
+body.canvas-focused .canvas-modules{padding:5px 12px;max-height:17dvh;overflow:auto}
+body.canvas-focused .canvas-modules #stack-active-label,body.canvas-focused .canvas-modules #stack-status:empty{display:none}
+body.canvas-focused .workspace.canvas-hide-settings #stack-pose,
+body.canvas-focused .workspace.canvas-hide-settings #stack-save-module,
+body.canvas-focused .workspace.canvas-hide-settings #stack-auto-all,
+body.canvas-focused .workspace.canvas-hide-settings #stack-status:not(.invalid){display:none}
+body.canvas-focused .canvas-context{gap:5px}
+body.canvas-focused .canvas-context select{min-height:28px}
+body.canvas-focused .canvas-context button{padding:4px 7px;min-height:28px}
+body.canvas-focused .layout-legend{padding-bottom:6px}
+body.canvas-focused .optical-workbench{max-height:24dvh;overflow:auto;padding:9px 12px;flex:0 1 auto}
+body.canvas-focused .optical-workbench-heading strong{font-size:12px}
+body.canvas-focused .optical-workbench p{font-size:10px}
+body.canvas-focused .optical-workbench .optical-actions button{font-size:10px;min-height:30px;padding:6px 9px}
+body.canvas-focused .optical-workbench-heading{gap:8px}
+body.canvas-focused .optical-workbench-heading>div:first-child{flex:1 1 170px;min-width:0}
+body.canvas-focused .optical-actions{gap:4px}
+body.canvas-optical-compact .optical-workbench{padding:7px 10px}
+body.canvas-optical-compact #optical-instructions,
+body.canvas-optical-compact .optical-workbench>:not(.optical-workbench-heading):not(#optical-probe){display:none}
+body.canvas-optical-compact .optical-workbench-heading{align-items:center}
+body.canvas-optical-compact #optical-status{font-size:11px;line-height:1.6}
+body.canvas-focused #canvas-optical-details-toggle.has-optical-notice{background:#fff3db;border-color:#d4b176;color:#805a20}
+body.canvas-focused #optical-probe{padding:7px 9px;font-size:11px;line-height:1.7;margin-top:7px}
+body.canvas-focused #optical-probe>div{display:flex;gap:3px 9px;flex-wrap:wrap}
+body.canvas-focused #optical-probe br{display:none}
+body.canvas-focused #optical-probe span{margin-right:0}
+body.canvas-focused .measurement-bar,body.canvas-focused .optical-passive-info,body.canvas-focused .mounting-manual-bar{max-height:24dvh;overflow:auto;margin:5px 10px;padding:8px 10px;flex:0 1 auto}
+body.canvas-focused .layout-hint,body.canvas-focused .layout-save-row>span{display:none}
+body.canvas-focused .layout-warning{max-height:18dvh;overflow:auto;margin:5px 10px;flex:0 1 auto}
+body.canvas-focused .layout-warning ul{max-height:none}
+body.canvas-focused .layout-save-row{padding:5px 9px;justify-content:flex-end}
+body.canvas-focused .layout-save-row>div{flex-wrap:wrap}
+body.canvas-focused .board-status{padding:5px 10px}
+body.canvas-focused .catalog-panel{height:100%;max-height:none;position:relative;top:auto;grid-row:1;overflow:auto}
+body.canvas-focused .plan-panel{height:100%;max-height:none;position:relative;top:auto;grid-row:1;display:flex;flex-direction:column}
+body.canvas-focused .plan-heading,body.canvas-focused .plan-footer{flex:none}
+body.canvas-focused .plan-body{flex:1;min-height:0;max-height:none;display:block;overflow:auto}
+body.canvas-focused .placed-list{margin-top:0}
+body.canvas-focused .placed-list-heading{padding-top:13px;border-top:1px solid #e9eee4}
+body.canvas-focused .plan-footer{display:block}
+body.canvas-focused .generate-button{width:100%}
+body.canvas-focused .plan-total{margin-bottom:9px}
+
+/* Readouts are persistent canvas overlays: selecting another point never changes
+   the SVG's size. Result lists scroll inside their own panel. */
+.canvas-readout-panel{position:absolute;z-index:18;right:8px;bottom:8px;width:min(350px,calc(100% - 16px));max-height:calc(100% - 16px);display:flex;flex-direction:column;border:1px solid #b4cfc2;border-radius:10px;background:#fffffffa;box-shadow:0 4px 19px #233d3529;color:#244b40;overflow:hidden}
+.canvas-readout-header{display:flex;align-items:center;gap:10px;background:#edf5f0;border-bottom:1px solid #d3e3d9;min-height:35px;padding:4px 7px 4px 11px;flex:none}
+.canvas-readout-handle{flex:1;cursor:grab;user-select:none;touch-action:none;font-size:12px;font-weight:600;padding:4px 0}
+.canvas-readout-handle:active{cursor:grabbing}
+.canvas-readout-header button{border:1px solid #c5dbcf;border-radius:5px;color:#276b57;background:white;font-size:10px;padding:4px 9px;min-height:25px}
+.canvas-readout-panel.is-collapsed{width:182px}
+.canvas-readout-panel.is-collapsed .canvas-readout-header{border-bottom:0}
+.canvas-readout-body{height:265px;max-height:min(48dvh,calc(100dvh - 180px));overflow:auto;overscroll-behavior:contain;min-height:0;padding:8px 10px}
+.canvas-readout-body .measurement-bar,.canvas-readout-body .optical-probe,
+body.canvas-focused .canvas-readout-body .measurement-bar,body.canvas-focused .canvas-readout-body .optical-probe,
+body.canvas-focused .canvas-readout-body #optical-probe{padding:0;margin:0;border:0;border-radius:0;background:transparent;max-height:none;overflow:visible;font-size:11px;line-height:1.7}
+.canvas-readout-body .measurement-bar:not([hidden])+div:not([hidden]),.canvas-readout-body .optical-passive-info:not([hidden]){border-top:1px solid #dfebe3;padding-top:8px;margin-top:8px}
+.canvas-readout-body .measurement-values{gap:7px 15px;margin:7px 0}
+.canvas-readout-body .measurement-values b{font-size:19px}
+.canvas-readout-body .measurement-bar p{font-size:11px;line-height:1.65;overflow-wrap:anywhere}
+.canvas-readout-body .measurement-footer{align-items:flex-start;gap:6px}
+.canvas-readout-body .measurement-footer small{font-size:10px}
+.canvas-readout-body .optical-probe>div{padding:5px 0;border-bottom:1px solid #e5eee8;overflow-wrap:anywhere}
+.canvas-overlay-ready>.optical-workbench,
+body.canvas-focused .canvas-overlay-ready>.optical-workbench{position:absolute;z-index:16;left:8px;top:8px;width:min(850px,calc(100% - 16px));max-height:min(48dvh,calc(100% - 16px));overflow:auto;margin:0;padding:9px 11px;border:1px solid #b6d2c5;border-radius:9px;background:#f1faf6f7;box-shadow:0 3px 16px #25463a1c}
+.canvas-optical-compact .canvas-overlay-ready>.optical-workbench{padding:7px 10px}
+.canvas-overlay-ready .optical-workbench-heading{align-items:center;gap:6px 12px}
+.canvas-overlay-ready .optical-workbench-heading>div:first-child{flex:1 1 170px;min-width:0}
+.canvas-overlay-ready .optical-workbench-heading strong{font-size:11px;line-height:1.6}
+.canvas-overlay-ready .optical-actions{gap:4px;flex-shrink:1}
+.canvas-overlay-ready .optical-actions button{min-height:29px;padding:5px 8px;font-size:10px}
+.canvas-overlay-ready #canvas-optical-details-toggle.has-optical-notice{background:#fff3db;border-color:#d4b176;color:#805a20}
+
+@media(max-width:1049px){
+  body.canvas-focused .workspace{display:flex;flex-direction:row;gap:0}
+  body.canvas-focused .layout-panel{width:100%;flex:1;order:0}
+  body.canvas-focused .catalog-panel,body.canvas-focused .plan-panel{position:absolute;top:0;bottom:0;width:min(310px,78vw);height:100%;z-index:25;box-shadow:0 6px 26px #24473538;background:#fff}
+  body.canvas-focused .catalog-panel{left:0}
+  body.canvas-focused .plan-panel{right:0}
+  body.canvas-focused .catalog-panel .kit-grid{display:grid;grid-template-columns:1fr;max-height:none;overflow:visible}
+  body.canvas-focused .catalog-panel .kit-card{width:100%;min-width:0}
+}
+@media(max-width:750px){
+  .canvas-display-controls{align-items:flex-start;flex-wrap:wrap;gap:6px;padding:8px 0}
+  .canvas-display-label{display:none}
+  .canvas-panel-switches{gap:5px;flex:1}
+  .canvas-display-controls button{font-size:10px;padding:7px 8px;min-height:33px}
+  .canvas-display-actions{gap:0}
+  .canvas-display-actions a{font-size:10px;padding:8px 5px}
+  .board-viewport{height:clamp(420px,65dvh,720px)}
+  body.canvas-focused .page-shell{padding:0 6px 6px}
+  body.canvas-focused .canvas-display-controls{gap:5px;padding:5px 0}
+  body.canvas-focused .canvas-display-actions{width:100%;justify-content:flex-end}
+  body.canvas-focused .board-toolbar{max-height:23dvh;overflow:auto;flex:0 1 auto;justify-content:flex-start}
+  body.canvas-focused .board-toolbar button{font-size:10px;min-height:29px;height:29px}
+  body.canvas-focused .canvas-parameters{max-height:28dvh}
+  body.canvas-focused .layout-panel>.board-viewport{min-height:120px}
+  body.canvas-focused .optical-workbench{max-height:22dvh}
+  body.canvas-focused .layout-heading{padding:6px 10px}
+  body.canvas-focused .layout-heading h2{font-size:14px}
+  body.canvas-focused .canvas-modules{max-height:16dvh}
+}
+@media(max-height:520px){
+  body.canvas-focused .layout-panel{overflow-y:auto}
+  body.canvas-focused .layout-panel>.board-viewport{flex:0 0 55dvh;min-height:150px}
+}
+@media print{
+  .canvas-readout-panel,.canvas-overlay-ready>.optical-workbench{display:none!important}
+  .canvas-display-controls{display:none!important}
+  body.canvas-focused{overflow:visible}
+  body.canvas-focused .page-shell{display:block;height:auto;padding:0}
+  body.canvas-focused .layout-panel{display:block;height:auto;overflow:visible}
+  body.canvas-focused .layout-panel>.board-viewport{height:180mm}
+  body.canvas-focused .workspace{display:block;height:auto}
+}

@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "lbtek-lbc1",
+  "files": [
+    {
+      "path": "cad/fe3767cb1b04688f9d381e7856532df293af8cc93e6312ecc40170fc30c99b83.step",
+      "stored": "library/assets/sha256/fe/fe3767cb1b04688f9d381e7856532df293af8cc93e6312ecc40170fc30c99b83.step",
+      "sha256": "fe3767cb1b04688f9d381e7856532df293af8cc93e6312ecc40170fc30c99b83",
+      "originalReferences": [
+        "step/lbtek-lbc1-r1/LBC1_OEM_full.step"
+      ],
+      "sources": [
+        "library/assets/sha256/fe/fe3767cb1b04688f9d381e7856532df293af8cc93e6312ecc40170fc30c99b83.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

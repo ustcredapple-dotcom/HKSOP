@@ -1,0 +1,28 @@
+{
+  "id": "custom-p20-l-r1",
+  "name": "固定侧下转接座",
+  "model": "P20-L-R1",
+  "kind": "custom",
+  "unit": "件",
+  "stepPath": "step/pbs20-r1/P20-L-R1.step",
+  "sourceStepSha256": "20181beae6bbd8d4579abd49c0fe3096439f87cfd27ba1f6aeabaa613bb79d2d",
+  "drawingPath": null,
+  "sourceDrawingSha256": "cb27b4c5d6b3808d45e35a0b1261818d6ae0481f9cc0c2f163f9794efc6cd21b",
+  "dxfPath": null,
+  "sourceDxfSha256": "8f5124fd2c37e58f78e543e187f3ca4e67acde3952a98836c6e035b9d9508f60",
+  "dxfPdfPath": null,
+  "sourceDxfPdfSha256": "cb27b4c5d6b3808d45e35a0b1261818d6ae0481f9cc0c2f163f9794efc6cd21b",
+  "status": "工程审核版；未实物试装",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L",
+    "surfaceTreatment": "去磁及钝化"
+  },
+  "notes": "同版四页PDF第2页为本件加工图；第4页为打标定位。加工DXF为纸面比例工程图，不是1:1切割文件。",
+  "laserMarking": {
+    "status": "required",
+    "reason": "仅激光标识，不铣刻",
+    "files": [],
+    "notes": " 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。"
+  }
+}

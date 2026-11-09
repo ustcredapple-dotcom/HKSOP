@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "amp-1r",
+  "revision": "source-snapshot",
+  "displayName": "可调平台",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/amp-1r.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

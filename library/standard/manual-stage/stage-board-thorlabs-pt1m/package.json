@@ -1,0 +1,28 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "stage-board-thorlabs-pt1m",
+  "revision": "R2-A7075-DIRECT-MOUNT",
+  "displayName": "索雷博 PT1/M 位移小面包板",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/stage-board-thorlabs-pt1m.json"
+    }
+  ],
+  "componentDependencies": [
+    "PT1-T",
+    "hardware-iso4762-m6x16",
+    "hardware-nbk-snss-m6x10-sd",
+    "thorlabs-pt1m-purchased-stage"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "not-declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,37 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "fixed-dichroic-2inch-0-r1",
+  "files": [
+    {
+      "path": "rendering/36cb1bf0c696fa91b3efa31f84fa910391e51e95fd5902115f2a556f3fa93f53.svg",
+      "stored": "library/assets/sha256/36/36cb1bf0c696fa91b3efa31f84fa910391e51e95fd5902115f2a556f3fa93f53.svg",
+      "sha256": "36cb1bf0c696fa91b3efa31f84fa910391e51e95fd5902115f2a556f3fa93f53",
+      "originalReferences": [
+        "topviews/fixed-dichroic-2inch-0-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/36/36cb1bf0c696fa91b3efa31f84fa910391e51e95fd5902115f2a556f3fa93f53.svg"
+      ]
+    },
+    {
+      "path": "cad/f0056858f19928706f6b5618c8f444e90f2b334ac1da5458010fa05b9b6152e9.step",
+      "stored": "library/assets/sha256/f0/f0056858f19928706f6b5618c8f444e90f2b334ac1da5458010fa05b9b6152e9.step",
+      "sha256": "f0056858f19928706f6b5618c8f444e90f2b334ac1da5458010fa05b9b6152e9",
+      "originalReferences": [
+        "step/fixed-dichroic-r1/DC2-F_R1_0deg_assembly.step"
+      ],
+      "sources": [
+        "library/assets/sha256/f0/f0056858f19928706f6b5618c8f444e90f2b334ac1da5458010fa05b9b6152e9.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-dc2-f-r1",
+    "custom-post-metric-12p5mm-m1",
+    "metric-m1-post-m4x12",
+    "metric-m1-post-pin-d2x8",
+    "new-hardware-d56c7b8035c3",
+    "new-hardware-f0579b934c7c",
+    "new-r3-vendor-mt-flf2s"
+  ]
+}

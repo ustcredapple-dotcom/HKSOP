@@ -1,0 +1,36 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "waveplate-double-05-m1",
+  "files": [
+    {
+      "path": "cad/ad4b5d8299a228c9d97dd24977cb00701bdc5809178c7264f79522db16204db5.step",
+      "stored": "library/assets/sha256/ad/ad4b5d8299a228c9d97dd24977cb00701bdc5809178c7264f79522db16204db5.step",
+      "sha256": "ad4b5d8299a228c9d97dd24977cb00701bdc5809178c7264f79522db16204db5",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/waveplate-double-05-m1__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/ad/ad4b5d8299a228c9d97dd24977cb00701bdc5809178c7264f79522db16204db5.step"
+      ]
+    },
+    {
+      "path": "rendering/d94ada161ddcdb792eb5139d71416bb7397f22bfc1ff274141aa1170dde9b9d5.svg",
+      "stored": "library/assets/sha256/d9/d94ada161ddcdb792eb5139d71416bb7397f22bfc1ff274141aa1170dde9b9d5.svg",
+      "sha256": "d94ada161ddcdb792eb5139d71416bb7397f22bfc1ff274141aa1170dde9b9d5",
+      "originalReferences": [
+        "topviews/waveplate-double-05-m1__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/d9/d94ada161ddcdb792eb5139d71416bb7397f22bfc1ff274141aa1170dde9b9d5.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "cmrm05s",
+    "custom-post-metric-37p5mm-m1",
+    "custom-waveplate-double-05-m1",
+    "new-hardware-1d23c1ca342d",
+    "new-hardware-f0579b934c7c",
+    "new-hardware-ff9fb49c865c"
+  ]
+}

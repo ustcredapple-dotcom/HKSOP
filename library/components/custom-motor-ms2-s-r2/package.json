@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-motor-ms2-s-r2",
+  "revision": "source-snapshot",
+  "displayName": "MS2-S · V2电动镜架独立加工件",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-motor-ms2-s-r2.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

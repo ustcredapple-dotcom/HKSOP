@@ -1,0 +1,29 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "suruga-xyz-grid-reference-r1",
+  "revision": "R1-ZPANEL-R2",
+  "displayName": "Suruga 三轴位移台",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/suruga-xyz-grid-reference-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-suruga-xyz-base-r1",
+    "custom-suruga-xyz-zpanel-r1",
+    "hardware-iso4762-m3x10",
+    "hardware-iso4762-m3x8",
+    "hardware-iso4762-m6x16"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

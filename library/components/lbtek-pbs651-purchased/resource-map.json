@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "lbtek-pbs651-purchased",
+  "files": [
+    {
+      "path": "cad/1976555bdc5a244808151c1a9d80da2494068f8ac43add605fb6a0ff3fbe7a87.step",
+      "stored": "library/assets/sha256/19/1976555bdc5a244808151c1a9d80da2494068f8ac43add605fb6a0ff3fbe7a87.step",
+      "sha256": "1976555bdc5a244808151c1a9d80da2494068f8ac43add605fb6a0ff3fbe7a87",
+      "originalReferences": [
+        "step/mt-cube-size-family-r2/PBS651-vendor.step"
+      ],
+      "sources": [
+        "library/assets/sha256/19/1976555bdc5a244808151c1a9d80da2494068f8ac43add605fb6a0ff3fbe7a87.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

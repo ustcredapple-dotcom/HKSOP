@@ -1,0 +1,1197 @@
+{
+  "name": "电动反射镜 · 2 inch · H2直连",
+  "category": "motor",
+  "variant": "2 inch / H2 direct-hex compact R3",
+  "description": "保持长H2驱动杆及双电机共面，只将后桥板和侧支撑缩入舵机下方19mm。桥板5mm，局部2.0mm浅避让；M3×8圆柱沉孔齐平；后通光孔、光高及安装基准保持。",
+  "sourceUrl": "https://cad.onshape.com/documents/6e58c9cce55d2925e9e4e840/v/437700e874b02419d6267c3d/e/07b0aa8327195024495092ad",
+  "components": [
+    {
+      "componentId": "custom-post-metric-12p5mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-adapter-18-s2-r2",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r3-vendor-mt-am2s5",
+      "quantity": 1
+    },
+    {
+      "componentId": "encoder-servo",
+      "quantity": 2
+    },
+    {
+      "componentId": "motor-adapter-m3",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-h2d2-b-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-h2d2-s-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-h2d2-l-r2",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-h2-r3-m2x10",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-iso4762-m3x8",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-h2-r3-m4x20",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-h2-r3-m4-washer",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-source-m4-nut",
+      "quantity": 1
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "mirror",
+      "label": "反射镜",
+      "type": "mirror",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 50.8
+    }
+  ],
+  "status": "紧凑后支撑R3名义CAD与工程审核图；未完成实物及带电全行程验收",
+  "productionReady": false,
+  "layout": {
+    "topViewPath": "topviews/motor-2-90-h2-coplanar-r1__H12p5_B4_R2.svg",
+    "widthMm": 88.0999999993,
+    "heightMm": 83.07375901,
+    "anchorXMm": 39.2499999993,
+    "anchorYMm": 17.75,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "collisionBoundsMm": {
+      "xMin": -39.2499999993,
+      "yMin": -65.32375901,
+      "xMax": 48.85,
+      "yMax": 17.75
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -39.2499999993,
+          "yMm": -65.32375900757
+        },
+        {
+          "xMm": -39.2499999993,
+          "yMm": -19.82375900757
+        },
+        {
+          "xMm": -34.25,
+          "yMm": -19.82375900757
+        },
+        {
+          "xMm": -34.2442286156541,
+          "yMm": -17.751152512062355
+        },
+        {
+          "xMm": -34.10262433624193,
+          "yMm": -17.28437149681452
+        },
+        {
+          "xMm": -33.884054786976336,
+          "yMm": -16.98966285488063
+        },
+        {
+          "xMm": -33.589347571962,
+          "yMm": -16.77109181185798
+        },
+        {
+          "xMm": -33.24388261025545,
+          "yMm": -16.647481750410634
+        },
+        {
+          "xMm": -31.51155379701756,
+          "yMm": -16.62375900532
+        },
+        {
+          "xMm": -31.51181670494502,
+          "yMm": -15.705038501873732
+        },
+        {
+          "xMm": -31.112230664202155,
+          "yMm": -15.30436290225
+        },
+        {
+          "xMm": -29.87911609298233,
+          "yMm": -15.30436290225
+        },
+        {
+          "xMm": -29.923319871081986,
+          "yMm": -14.675832277234122
+        },
+        {
+          "xMm": -29.848860448742144,
+          "yMm": -14.03075193187298
+        },
+        {
+          "xMm": -29.68132709108662,
+          "yMm": -13.478291538791934
+        },
+        {
+          "xMm": -29.47429436691815,
+          "yMm": -13.05
+        },
+        {
+          "xMm": -31.045035698560827,
+          "yMm": -13.046157187418013
+        },
+        {
+          "xMm": -31.986978148919327,
+          "yMm": -12.952901555658526
+        },
+        {
+          "xMm": -32.466496128673654,
+          "yMm": -12.593182874219153
+        },
+        {
+          "xMm": -32.72627730640083,
+          "yMm": -12.043921722079107
+        },
+        {
+          "xMm": -32.75,
+          "yMm": -1.0938628444727592
+        },
+        {
+          "xMm": -32.69646393633194,
+          "yMm": -0.7370566328574091
+        },
+        {
+          "xMm": -32.539587702732334,
+          "yMm": -0.40536970479007656
+        },
+        {
+          "xMm": -32.08938804673227,
+          "yMm": 0.00266747891866149
+        },
+        {
+          "xMm": -31.50163672697172,
+          "yMm": 0.15
+        },
+        {
+          "xMm": -17.75,
+          "yMm": 0.15
+        },
+        {
+          "xMm": -17.75,
+          "yMm": 17.75
+        },
+        {
+          "xMm": 17.75,
+          "yMm": 17.75
+        },
+        {
+          "xMm": 17.75,
+          "yMm": 0.15
+        },
+        {
+          "xMm": 33.006137155527234,
+          "yMm": 0.15
+        },
+        {
+          "xMm": 33.478469669173535,
+          "yMm": 0.05512796450293061
+        },
+        {
+          "xMm": 33.79318287421994,
+          "yMm": -0.13350387132699507
+        },
+        {
+          "xMm": 34.10266747891845,
+          "yMm": -0.5106119532673424
+        },
+        {
+          "xMm": 34.25,
+          "yMm": -1.0938628444727072
+        },
+        {
+          "xMm": 34.22627730640064,
+          "yMm": -12.043921722080077
+        },
+        {
+          "xMm": 34.102667478918455,
+          "yMm": -12.389388046732659
+        },
+        {
+          "xMm": 33.88409666855378,
+          "yMm": -12.684096668553737
+        },
+        {
+          "xMm": 33.5893880467327,
+          "yMm": -12.902667478918431
+        },
+        {
+          "xMm": 33.243921722080124,
+          "yMm": -13.02627730640063
+        },
+        {
+          "xMm": 29.681980515334924,
+          "yMm": -13.05
+        },
+        {
+          "xMm": 29.594862842917866,
+          "yMm": -13.13711767241632
+        },
+        {
+          "xMm": 29.87243884253002,
+          "yMm": -13.668522986400252
+        },
+        {
+          "xMm": 30.0798429726343,
+          "yMm": -14.352347465855786
+        },
+        {
+          "xMm": 30.138563620460037,
+          "yMm": -15.30436290225
+        },
+        {
+          "xMm": 31.112230664202162,
+          "yMm": -15.30436290225
+        },
+        {
+          "xMm": 31.511816704945048,
+          "yMm": -15.705038501873725
+        },
+        {
+          "xMm": 31.511553797017587,
+          "yMm": -16.62375900532
+        },
+        {
+          "xMm": 34.72255097749327,
+          "yMm": -16.629478049662815
+        },
+        {
+          "xMm": 35.294630295209515,
+          "yMm": -16.834171302587396
+        },
+        {
+          "xMm": 35.639587702732584,
+          "yMm": -17.179128710110454
+        },
+        {
+          "xMm": 35.82627730640064,
+          "yMm": -17.62983728323992
+        },
+        {
+          "xMm": 35.85,
+          "yMm": -19.82375900757
+        },
+        {
+          "xMm": 39.250000000694,
+          "yMm": -19.82375900757
+        },
+        {
+          "xMm": 39.250000000694,
+          "yMm": -21.62375900532
+        },
+        {
+          "xMm": 40.85,
+          "yMm": -21.62375900532
+        },
+        {
+          "xMm": 40.85,
+          "yMm": -22.125157686316328
+        },
+        {
+          "xMm": 41.65,
+          "yMm": -22.125157686316328
+        },
+        {
+          "xMm": 41.65,
+          "yMm": -22.583563276981483
+        },
+        {
+          "xMm": 44.85,
+          "yMm": -22.583563276981483
+        },
+        {
+          "xMm": 44.85,
+          "yMm": -24.624380641318368
+        },
+        {
+          "xMm": 48.85,
+          "yMm": -24.624380641318368
+        },
+        {
+          "xMm": 48.85,
+          "yMm": -29.123137369321633
+        },
+        {
+          "xMm": 44.85,
+          "yMm": -29.123137369321633
+        },
+        {
+          "xMm": 44.85,
+          "yMm": -31.163954733658517
+        },
+        {
+          "xMm": 41.65,
+          "yMm": -31.163954733658517
+        },
+        {
+          "xMm": 41.65,
+          "yMm": -31.622360324323672
+        },
+        {
+          "xMm": 40.85,
+          "yMm": -31.622360324323672
+        },
+        {
+          "xMm": 40.85,
+          "yMm": -48.82375901
+        },
+        {
+          "xMm": 41.85,
+          "yMm": -48.82375901
+        },
+        {
+          "xMm": 41.85,
+          "yMm": -65.32375901
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "placementAllowed": true,
+    "opticalAxisHeightMm": 62.5,
+    "opticalAxisHeightSource": "保留真实后座和指定名义12 mm厚度计算的前光面；不是镜片实体包含证明、实测镜厚或光学校准。",
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalSurfaceAngleDeg": 0,
+    "opticalType": "mirror",
+    "collisionGeometryVersion": "actual-step-triangle-projection-h2-compact-support-r3",
+    "status": "真实STEP投影/确定性渲染；含声明五金；光孔核验体不作为物理器件",
+    "geometryEvidence": {
+      "method": "actual STEP tessellation XY projection, 0.25mm conservative margin, inner voids filled; plain geometry SVG is intermediate audit view; use shaded renderer for published assets",
+      "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/motor-2-90-h2-coplanar-r1__H12p5_B4_R2.step",
+      "stepSha256": "e98789cf0aa861ed0fe46d9bd568987869a89fbd8760c0ef5a7bb25de557ec01",
+      "sourceLeavesIncluded": 27,
+      "normalAssemblyLeaves": 27,
+      "topViewSha256": "680d697e6d0bcff344966c0b163ade80b0ba0ecbdf2584abe66601cc43f5ff34",
+      "tessellationDeflectionMm": 0.15,
+      "simplificationMm": 0.04,
+      "collisionMarginMm": 0.25,
+      "innerVoidsConservativelyFilled": true,
+      "precisionIsNotManufacturingTolerance": true,
+      "projectionReportSha256": "1bfd59eab6974baab98c7e146fc5d928685f54f740bcb202d5fcd27b201f1fff",
+      "displayStyle": "zzlab-shaded-metal-v1",
+      "renderReportSha256": "a3ae061acd03722e382f4d077789b32eb7dd88995857019e7f66776fcc4dee3c",
+      "sourceFrameSha256": "bffa57ee04d345c002219cd40d636c38688f813cb01e74343293886d30253247",
+      "previousProjectionSource": {
+        "sourceLeavesIncluded": 42,
+        "normalAssemblyLeaves": 27
+      },
+      "sourceStep": "step/standard-post-h12p5-b4-r2/assemblies/motor-2-90-h2-coplanar-r1__H12p5_B4_R2.step",
+      "sourceSha256": "e98789cf0aa861ed0fe46d9bd568987869a89fbd8760c0ef5a7bb25de557ec01",
+      "imageSha256": "ae95a3023823030707ac28b8d4ba942730cc8b68476116f4f3a02e310831f095",
+      "partCount": 27,
+      "triangleCount": 169876,
+      "meshDeflectionMm": 0.035,
+      "postBaseRevision": {
+        "revision": "H12p5-B4-R2",
+        "componentIds": [
+          "custom-post-metric-12p5mm-m1"
+        ],
+        "baseThicknessByComponentId": {
+          "custom-post-metric-12p5mm-m1": 4
+        },
+        "nominalAndOpticalHeightsPreserved": true,
+        "geometryStatus": "passed",
+        "physicalAssemblyAccepted": false,
+        "previousAssemblySha256": "28b3829668208d5d7ceae16c7bba5abe2d3d1c7cdf8709fc4806df963e304569",
+        "currentAssemblySha256": "e98789cf0aa861ed0fe46d9bd568987869a89fbd8760c0ef5a7bb25de557ec01",
+        "replacementReportSha256": "0fe9914c50f3fd659587fb68368965f8653e4a8c0578558f6cd48aaf37ff119d",
+        "originalEntitiesAndPosesPreserved": true
+      },
+      "sha256": "e98789cf0aa861ed0fe46d9bd568987869a89fbd8760c0ef5a7bb25de557ec01",
+      "preB6HardwareReviewSource": {
+        "originalStepPath": "step/motor-h2-compact-support-r3/review/motor-2-90-h2-compact-support-r3-hardware-review.step",
+        "originalStepSha256": "e9db65c16bde4eb9ec30a5dfbf34ddcaa1e807f465067020b5ae6cf02eeade52",
+        "current": false,
+        "active": false,
+        "scope": "Immutable pre-B6 projection/hardware-review provenance; retained in the revision archive, never a current downloadable assembly."
+      },
+      "currentHardwareReviewReference": {
+        "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/motor-2-90-h2-coplanar-r1__H12p5_B4_R2.step",
+        "sha256": "e98789cf0aa861ed0fe46d9bd568987869a89fbd8760c0ef5a7bb25de557ec01",
+        "scope": "B6 complete current M4 assembly; retired old M6 review is not a current substitute."
+      },
+      "sourceStepSha256": "e98789cf0aa861ed0fe46d9bd568987869a89fbd8760c0ef5a7bb25de557ec01",
+      "baseThicknessByComponentId": {
+        "custom-post-metric-12p5mm-m1": 4
+      }
+    },
+    "topViewUrl": "./topviews/motor-2-90-h2-coplanar-r1__H12p5_B4_R2.svg",
+    "opticalClearApertureVerified": false,
+    "postThreadAdapterAccepted": true,
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "e98789cf0aa861ed0fe46d9bd568987869a89fbd8760c0ef5a7bb25de557ec01",
+      "imageSha256": "ae95a3023823030707ac28b8d4ba942730cc8b68476116f4f3a02e310831f095",
+      "revision": "H12p5-B4-R2",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null,
+      "projectionReportSha256": "9a94b0e7ec5f21a3cfe827d29c3ad2ac52564e1b40ba38e5eace597822c68ef8"
+    },
+    "displayEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "renderReportSha256": "a3ae061acd03722e382f4d077789b32eb7dd88995857019e7f66776fcc4dee3c",
+      "sourceStepSha256": "e9db65c16bde4eb9ec30a5dfbf34ddcaa1e807f465067020b5ae6cf02eeade52",
+      "topViewSha256": "680d697e6d0bcff344966c0b163ade80b0ba0ecbdf2584abe66601cc43f5ff34",
+      "geometryModified": true,
+      "scope": "R3 changed support geometry; fixed CAD-derived frame. Appearance generated deterministically from complete frozen review STEP, excluding declared nonphysical keepout cylinder."
+    },
+    "sourceUrl": "https://cad.onshape.com/documents/6e58c9cce55d2925e9e4e840/v/437700e874b02419d6267c3d/e/07b0aa8327195024495092ad"
+  },
+  "notes": "H2直连紧凑支撑R3，仅新造B/S四件；保留R2 L身份与冻结制造资料。舵机CAD为近似：2mm槽按约1mm源模型下凸预留名义1mm净距，余板厚3mm；按Ø5.68最大M3头的名义横向侧隙1.26mm；2inch低位H2杆整周六角外包圆相对Ø50后孔的保守名义径向余量约0.357mm，以上须实装核对。每套外加4颗M2×10、2颗ISO4762 M3×8、1颗M4×20及1件垫圈/螺母，源镜架内部五金不重复采购。完整行程与实际接线/刚度待实装。  H12.5 B4-R2：普通H12.5柱底脚4 mm，其余普通柱保持各自规格；完整STEP已换柱回读，总高、孔位和全部器件姿态保持；未实物试装。",
+  "assemblyAssets": [
+    {
+      "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/motor-2-90-h2-coplanar-r1__H12p5_B4_R2.step",
+      "sha256": "e98789cf0aa861ed0fe46d9bd568987869a89fbd8760c0ef5a7bb25de557ec01",
+      "role": "nominal-CAD-reference-assembly",
+      "assemblyLeafCount": 27,
+      "includesPhysicalMirror": false,
+      "includesNominal6mmMirror": false,
+      "includesDeclaredFastenerSolids": false,
+      "manufacturingUse": "R3 B/S独立STEP与审核图；R2 L按原冻结源复用，productionReady=false"
+    }
+  ],
+  "reviewAssemblyAssets": [],
+  "donorSource": {
+    "kitId": "motor-2-90-slot-split-r2",
+    "sourceAssemblyPath": "source/reference/motor-2-90-slot-split-r2.step",
+    "sourceAssemblySha256": "d2a546559dc05d6e963929d3f40780b3d40c119522873e81cd0d7b7251b3a707",
+    "baselineCatalogSha256": "19a66788ee46e19364b4ce449bf2b2a9b0de0dab2dac30992f372e6d7775316f",
+    "newCloudImportPerformed": false
+  },
+  "mechanicalRevision": {
+    "revision": "H2-Compact-Support-R3",
+    "assemblySha256": "368282df4f42c5293e18b2a20c921ab2e9e0d57c9c2c7779f25abef2116f838a",
+    "parametersSha256": "547183bdd2a23a65a07de26827cb6646ba00cc285cc842c4206d0824de110843",
+    "acceptanceSha256": "78d87c4ab386696ff333ac6fee73400b51bf579dbe2e8f785bd6f6f993548e29",
+    "acceptanceStatus": "passed-nominal-static",
+    "acceptanceScope": "真实STEP回读、全物理叶与五金/工具/旋转扫圆及前后孔检查；不等同实物或制造放行",
+    "frontPointBoardMm": [
+      0,
+      0,
+      62.5
+    ],
+    "normalBoard": [
+      0,
+      1,
+      0
+    ],
+    "mirrorTangentBoard": [
+      1,
+      0,
+      0
+    ],
+    "mirrorThicknessMm": 12,
+    "mirrorThicknessBasis": "沿用用户名义6/12mm，不代表STEP含实体镜片",
+    "commonServoMountPlaneZmm": 116.28567129,
+    "originalServoMountPlaneZmm": [
+      63.28567129,
+      116.28567129
+    ],
+    "lowServoLiftMm": 52.99999999999999,
+    "highServoLiftMm": 0,
+    "driveAxesXYMm": [
+      [
+        -26.5,
+        -30.07375901
+      ],
+      [
+        26.5,
+        -30.07375901
+      ]
+    ],
+    "drives": [
+      {
+        "name": "LOW_LONG",
+        "axisXYMm": [
+          -26.5,
+          -30.07375901
+        ],
+        "rodTipZmm": 51.78567119,
+        "sourceSocketMouthZmm": 53.58567119,
+        "sourceSocketFloorZmm": 50.58567119,
+        "nominalInsertionMm": 1.8,
+        "nominalBottomClearanceMm": 1.2,
+        "settingWindowMm": [
+          -0.7,
+          0.8
+        ],
+        "setups": [
+          {
+            "relativeSocketTravelMm": -0.7,
+            "insertionMm": 1.1,
+            "bottomClearanceMm": 1.9
+          },
+          {
+            "relativeSocketTravelMm": 0,
+            "insertionMm": 1.8,
+            "bottomClearanceMm": 1.2
+          },
+          {
+            "relativeSocketTravelMm": 0.8,
+            "insertionMm": 2.6,
+            "bottomClearanceMm": 0.3999999999999999
+          }
+        ],
+        "hexAfMm": 1.98,
+        "hexCircularSweepRadiusMm": 1.143153532995459,
+        "sourceClockingPreserved": true
+      },
+      {
+        "name": "HIGH_SOURCE_11MM",
+        "axisXYMm": [
+          26.5,
+          -30.07375901
+        ],
+        "rodTipZmm": 104.78567129,
+        "sourceSocketMouthZmm": 106.58567129,
+        "sourceSocketFloorZmm": 103.58567129,
+        "nominalInsertionMm": 1.8,
+        "nominalBottomClearanceMm": 1.2,
+        "settingWindowMm": [
+          -0.7,
+          0.8
+        ],
+        "setups": [
+          {
+            "relativeSocketTravelMm": -0.7,
+            "insertionMm": 1.1,
+            "bottomClearanceMm": 1.9
+          },
+          {
+            "relativeSocketTravelMm": 0,
+            "insertionMm": 1.8,
+            "bottomClearanceMm": 1.2
+          },
+          {
+            "relativeSocketTravelMm": 0.8,
+            "insertionMm": 2.6,
+            "bottomClearanceMm": 0.3999999999999999
+          }
+        ],
+        "hexAfMm": 1.98,
+        "hexCircularSweepRadiusMm": 1.143153532995459,
+        "sourceClockingPreserved": true
+      }
+    ],
+    "rearMechanicalChannel": {
+      "radiusMm": 25,
+      "realRearOuterFaceYmm": -36.87375911,
+      "testedYRangeMm": [
+        -75.07375911,
+        -36.87375911
+      ],
+      "frontLimitRadiusMm": 24.4,
+      "frontLimitTestedYRangeMm": [
+        -36.87375911,
+        20
+      ]
+    },
+    "normalLeafNames": [
+      "MT_AM2S5_source_leaf_02",
+      "MT_AM2S5_source_leaf_03",
+      "MT_AM2S5_source_leaf_04",
+      "MT_AM2S5_source_leaf_05",
+      "MT_AM2S5_source_leaf_06",
+      "MT_AM2S5_source_leaf_07",
+      "MT_AM2S5_source_leaf_08",
+      "MT_AM2S5_source_leaf_09",
+      "MT_AM2S5_source_leaf_10",
+      "MT_AM2S5_source_leaf_11",
+      "MT_AM2S5_source_leaf_12",
+      "MT_AM2S5_source_leaf_13",
+      "MT_AM2S5_source_leaf_14",
+      "MT_AM2S5_source_leaf_15",
+      "MT_AM2S5_source_leaf_16",
+      "MT_AM2S5_source_leaf_17",
+      "MT_AM2S5_source_leaf_18",
+      "MT_AM2S5_source_leaf_19",
+      "MT_AM2S5_source_leaf_20",
+      "18-S2",
+      "Formal_H12p5_source",
+      "SERVO_LOW",
+      "SERVO_HIGH",
+      "SOURCE_HIGH_SHAFT_11MM",
+      "H2D2-B",
+      "H2D2-S",
+      "H2D2-L"
+    ],
+    "physicalMirrorLeafNames": [],
+    "fastenerEnvelopeSchedule": [
+      {
+        "name": "M2x10_servo_1",
+        "purpose": "servo mount 5mm plate and 5mm nominal pilot engagement",
+        "partners": [
+          "H2D2-B",
+          "SERVO_LOW",
+          "SERVO_HIGH"
+        ],
+        "boundsMm": [
+          -18.4,
+          -64.47375901,
+          109.28567129,
+          -14.6,
+          -60.67375901,
+          121.28567129
+        ],
+        "rearOverlapMm3": 0.0,
+        "frontLimitOverlapMm3": 0.0
+      },
+      {
+        "name": "M2x10_servo_2",
+        "purpose": "servo mount 5mm plate and 5mm nominal pilot engagement",
+        "partners": [
+          "H2D2-B",
+          "SERVO_LOW",
+          "SERVO_HIGH"
+        ],
+        "boundsMm": [
+          -18.4,
+          -39.47375901,
+          109.28567129,
+          -14.6,
+          -35.67375901,
+          121.28567129
+        ],
+        "rearOverlapMm3": 0.0,
+        "frontLimitOverlapMm3": 0.0
+      },
+      {
+        "name": "M2x10_servo_3",
+        "purpose": "servo mount 5mm plate and 5mm nominal pilot engagement",
+        "partners": [
+          "H2D2-B",
+          "SERVO_LOW",
+          "SERVO_HIGH"
+        ],
+        "boundsMm": [
+          14.6,
+          -64.47375901,
+          109.28567129,
+          18.4,
+          -60.67375901,
+          121.28567129
+        ],
+        "rearOverlapMm3": 0.0,
+        "frontLimitOverlapMm3": 0.0
+      },
+      {
+        "name": "M2x10_servo_4",
+        "purpose": "servo mount 5mm plate and 5mm nominal pilot engagement",
+        "partners": [
+          "H2D2-B",
+          "SERVO_LOW",
+          "SERVO_HIGH"
+        ],
+        "boundsMm": [
+          14.6,
+          -39.47375901,
+          109.28567129,
+          18.4,
+          -35.67375901,
+          121.28567129
+        ],
+        "rearOverlapMm3": 0.0,
+        "frontLimitOverlapMm3": 0.0
+      },
+      {
+        "name": "M3x8_bridge_5",
+        "purpose": "flush OD5.68(max)x3 head in OD6.5x3 counterbore, 2mm bridge web and 6mm nominal tapped-side engagement; preassemble before high servo",
+        "partners": [
+          "H2D2-B",
+          "H2D2-S"
+        ],
+        "boundsMm": [
+          35.26,
+          -63.41375901,
+          105.28567129,
+          40.94,
+          -57.73375901,
+          116.28567129
+        ],
+        "rearOverlapMm3": 0.0,
+        "frontLimitOverlapMm3": 0.0
+      },
+      {
+        "name": "M3x8_bridge_6",
+        "purpose": "flush OD5.68(max)x3 head in OD6.5x3 counterbore, 2mm bridge web and 6mm nominal tapped-side engagement; preassemble before high servo",
+        "partners": [
+          "H2D2-B",
+          "H2D2-S"
+        ],
+        "boundsMm": [
+          35.26,
+          -56.41375901,
+          105.28567129,
+          40.94,
+          -50.73375901,
+          116.28567129
+        ],
+        "rearOverlapMm3": 0.0,
+        "frontLimitOverlapMm3": 0.0
+      },
+      {
+        "name": "M4x20_side_clamp",
+        "purpose": "source horizontal clearance, 5mm side slot, washer and nut",
+        "partners": [
+          "H2D2-S"
+        ],
+        "boundsMm": [
+          24.6,
+          -30.37375901,
+          59.0,
+          48.6,
+          -23.37375901,
+          66.0
+        ],
+        "rearOverlapMm3": 0.0,
+        "frontLimitOverlapMm3": 0.0
+      },
+      {
+        "name": "M4_washer",
+        "purpose": "4.3x9x0.8 nominal washer",
+        "partners": [
+          "H2D2-S"
+        ],
+        "boundsMm": [
+          40.6,
+          -31.37375901,
+          58.0,
+          41.4,
+          -22.37375901,
+          67.0
+        ],
+        "rearOverlapMm3": 0.0,
+        "frontLimitOverlapMm3": 0.0
+      },
+      {
+        "name": "M4_nut_AF7_envelope",
+        "purpose": "M4 AF7 3.2mm nut envelope",
+        "partners": [
+          "H2D2-S"
+        ],
+        "boundsMm": [
+          41.4,
+          -30.91521089,
+          58.45854812,
+          44.6,
+          -22.83230712,
+          66.54145188
+        ],
+        "rearOverlapMm3": 0.0,
+        "frontLimitOverlapMm3": 0.0
+      },
+      {
+        "name": "existing_M4x16_post",
+        "purpose": "retained source post/vendor fixing",
+        "partners": [
+          "MT_AM2S5_source_leaf_02",
+          "MT_AM2S5_source_leaf_03",
+          "MT_AM2S5_source_leaf_04",
+          "MT_AM2S5_source_leaf_05",
+          "MT_AM2S5_source_leaf_06",
+          "MT_AM2S5_source_leaf_07",
+          "MT_AM2S5_source_leaf_08",
+          "MT_AM2S5_source_leaf_09",
+          "MT_AM2S5_source_leaf_10",
+          "MT_AM2S5_source_leaf_11",
+          "MT_AM2S5_source_leaf_12",
+          "MT_AM2S5_source_leaf_13",
+          "MT_AM2S5_source_leaf_14",
+          "MT_AM2S5_source_leaf_15",
+          "MT_AM2S5_source_leaf_16",
+          "MT_AM2S5_source_leaf_17",
+          "MT_AM2S5_source_leaf_18",
+          "MT_AM2S5_source_leaf_19",
+          "MT_AM2S5_source_leaf_20",
+          "18-S2",
+          "Formal_H12p5_source"
+        ],
+        "boundsMm": [
+          -3.5,
+          5.0,
+          6.9,
+          3.5,
+          12.0,
+          26.9
+        ],
+        "rearOverlapMm3": 0.0,
+        "frontLimitOverlapMm3": 0.0
+      },
+      {
+        "name": "existing_M4x12_vendor",
+        "purpose": "retained source post/vendor fixing",
+        "partners": [
+          "MT_AM2S5_source_leaf_02",
+          "MT_AM2S5_source_leaf_03",
+          "MT_AM2S5_source_leaf_04",
+          "MT_AM2S5_source_leaf_05",
+          "MT_AM2S5_source_leaf_06",
+          "MT_AM2S5_source_leaf_07",
+          "MT_AM2S5_source_leaf_08",
+          "MT_AM2S5_source_leaf_09",
+          "MT_AM2S5_source_leaf_10",
+          "MT_AM2S5_source_leaf_11",
+          "MT_AM2S5_source_leaf_12",
+          "MT_AM2S5_source_leaf_13",
+          "MT_AM2S5_source_leaf_14",
+          "MT_AM2S5_source_leaf_15",
+          "MT_AM2S5_source_leaf_16",
+          "MT_AM2S5_source_leaf_17",
+          "MT_AM2S5_source_leaf_18",
+          "MT_AM2S5_source_leaf_19",
+          "MT_AM2S5_source_leaf_20",
+          "18-S2",
+          "Formal_H12p5_source"
+        ],
+        "boundsMm": [
+          -3.5,
+          -30.37375901,
+          21.9,
+          3.5,
+          -23.37375901,
+          37.9
+        ],
+        "rearOverlapMm3": 0.0,
+        "frontLimitOverlapMm3": 0.0
+      },
+      {
+        "name": "existing_dowel_post_-5",
+        "purpose": "retained source pin",
+        "partners": [
+          "MT_AM2S5_source_leaf_02",
+          "MT_AM2S5_source_leaf_03",
+          "MT_AM2S5_source_leaf_04",
+          "MT_AM2S5_source_leaf_05",
+          "MT_AM2S5_source_leaf_06",
+          "MT_AM2S5_source_leaf_07",
+          "MT_AM2S5_source_leaf_08",
+          "MT_AM2S5_source_leaf_09",
+          "MT_AM2S5_source_leaf_10",
+          "MT_AM2S5_source_leaf_11",
+          "MT_AM2S5_source_leaf_12",
+          "MT_AM2S5_source_leaf_13",
+          "MT_AM2S5_source_leaf_14",
+          "MT_AM2S5_source_leaf_15",
+          "MT_AM2S5_source_leaf_16",
+          "MT_AM2S5_source_leaf_17",
+          "MT_AM2S5_source_leaf_18",
+          "MT_AM2S5_source_leaf_19",
+          "MT_AM2S5_source_leaf_20",
+          "18-S2",
+          "Formal_H12p5_source"
+        ],
+        "boundsMm": [
+          -6.0,
+          -1.0,
+          8.5,
+          -4.0,
+          1.0,
+          16.5
+        ],
+        "rearOverlapMm3": 0.0,
+        "frontLimitOverlapMm3": 0.0
+      },
+      {
+        "name": "existing_dowel_vendor_-5",
+        "purpose": "retained source pin",
+        "partners": [
+          "MT_AM2S5_source_leaf_02",
+          "MT_AM2S5_source_leaf_03",
+          "MT_AM2S5_source_leaf_04",
+          "MT_AM2S5_source_leaf_05",
+          "MT_AM2S5_source_leaf_06",
+          "MT_AM2S5_source_leaf_07",
+          "MT_AM2S5_source_leaf_08",
+          "MT_AM2S5_source_leaf_09",
+          "MT_AM2S5_source_leaf_10",
+          "MT_AM2S5_source_leaf_11",
+          "MT_AM2S5_source_leaf_12",
+          "MT_AM2S5_source_leaf_13",
+          "MT_AM2S5_source_leaf_14",
+          "MT_AM2S5_source_leaf_15",
+          "MT_AM2S5_source_leaf_16",
+          "MT_AM2S5_source_leaf_17",
+          "MT_AM2S5_source_leaf_18",
+          "MT_AM2S5_source_leaf_19",
+          "MT_AM2S5_source_leaf_20",
+          "18-S2",
+          "Formal_H12p5_source"
+        ],
+        "boundsMm": [
+          -6.0,
+          -27.87375901,
+          23.5,
+          -4.0,
+          -25.87375901,
+          28.5
+        ],
+        "rearOverlapMm3": 0.0,
+        "frontLimitOverlapMm3": 0.0
+      },
+      {
+        "name": "existing_dowel_post_5",
+        "purpose": "retained source pin",
+        "partners": [
+          "MT_AM2S5_source_leaf_02",
+          "MT_AM2S5_source_leaf_03",
+          "MT_AM2S5_source_leaf_04",
+          "MT_AM2S5_source_leaf_05",
+          "MT_AM2S5_source_leaf_06",
+          "MT_AM2S5_source_leaf_07",
+          "MT_AM2S5_source_leaf_08",
+          "MT_AM2S5_source_leaf_09",
+          "MT_AM2S5_source_leaf_10",
+          "MT_AM2S5_source_leaf_11",
+          "MT_AM2S5_source_leaf_12",
+          "MT_AM2S5_source_leaf_13",
+          "MT_AM2S5_source_leaf_14",
+          "MT_AM2S5_source_leaf_15",
+          "MT_AM2S5_source_leaf_16",
+          "MT_AM2S5_source_leaf_17",
+          "MT_AM2S5_source_leaf_18",
+          "MT_AM2S5_source_leaf_19",
+          "MT_AM2S5_source_leaf_20",
+          "18-S2",
+          "Formal_H12p5_source"
+        ],
+        "boundsMm": [
+          4.0,
+          -1.0,
+          8.5,
+          6.0,
+          1.0,
+          16.5
+        ],
+        "rearOverlapMm3": 0.0,
+        "frontLimitOverlapMm3": 0.0
+      },
+      {
+        "name": "existing_dowel_vendor_5",
+        "purpose": "retained source pin",
+        "partners": [
+          "MT_AM2S5_source_leaf_02",
+          "MT_AM2S5_source_leaf_03",
+          "MT_AM2S5_source_leaf_04",
+          "MT_AM2S5_source_leaf_05",
+          "MT_AM2S5_source_leaf_06",
+          "MT_AM2S5_source_leaf_07",
+          "MT_AM2S5_source_leaf_08",
+          "MT_AM2S5_source_leaf_09",
+          "MT_AM2S5_source_leaf_10",
+          "MT_AM2S5_source_leaf_11",
+          "MT_AM2S5_source_leaf_12",
+          "MT_AM2S5_source_leaf_13",
+          "MT_AM2S5_source_leaf_14",
+          "MT_AM2S5_source_leaf_15",
+          "MT_AM2S5_source_leaf_16",
+          "MT_AM2S5_source_leaf_17",
+          "MT_AM2S5_source_leaf_18",
+          "MT_AM2S5_source_leaf_19",
+          "MT_AM2S5_source_leaf_20",
+          "18-S2",
+          "Formal_H12p5_source"
+        ],
+        "boundsMm": [
+          4.0,
+          -27.87375901,
+          23.5,
+          6.0,
+          -25.87375901,
+          28.5
+        ],
+        "rearOverlapMm3": 0.0,
+        "frontLimitOverlapMm3": 0.0
+      }
+    ],
+    "limitations": [
+      "Only source V2 nominal static and -0.7/0/+0.8mm relative socket settings verified; full powered angular travel not verified.",
+      "M3 male and source servo pilot are nominal thread envelopes, not modeled helical threads.",
+      "No optical mirror leaf; 6/12mm are installation thickness conditions.",
+      "Manufacturing tolerances, torque, vibration, fatigue and physical measurement remain open."
+    ],
+    "physicalMeasurementPerformed": false,
+    "poweredMotionPerformed": false,
+    "FEMPerformed": false,
+    "cloudImportPerformed": false,
+    "compactSupport": {
+      "bridgeRearYmm": -65.07375901,
+      "sideRearYmm": -65.07375901,
+      "servoRearYmm": -65.07375901,
+      "previousRearYmm": -84.07375901,
+      "rearRetractionMm": 19,
+      "bridgeXYOutlineAssemblyMm": [
+        [
+          -19,
+          -65.07375901
+        ],
+        [
+          41.6,
+          -65.07375901
+        ],
+        [
+          41.6,
+          -49.07375901
+        ],
+        [
+          19,
+          -49.07375901
+        ],
+        [
+          19,
+          -34.07375901
+        ],
+        [
+          -19,
+          -34.07375901
+        ]
+      ],
+      "sideYZOutlineAssemblyMm": [
+        [
+          -65.07375901,
+          42.285671285087
+        ],
+        [
+          -21.873759005323002,
+          42.285671285087
+        ],
+        [
+          -21.873759005323002,
+          73.5
+        ],
+        [
+          -49.07375901,
+          73.5
+        ],
+        [
+          -49.07375901,
+          111.28567129
+        ],
+        [
+          -65.07375901,
+          111.28567129
+        ]
+      ],
+      "bridgeThicknessMm": 5,
+      "sideThicknessMm": 5,
+      "relief": {
+        "xRangeAssemblyMm": [
+          19,
+          34.0
+        ],
+        "yRangeAssemblyMm": [
+          -65.07375901,
+          -49.07375901
+        ],
+        "entryZmm": 116.28567129,
+        "depthMm": 2.0,
+        "remainingThicknessMm": 3.0,
+        "sourceMotorProjectionBelowMountMm": 1,
+        "nominalMotorReliefGapMm": 1.0,
+        "reliefMarginBasis": "User states servo CAD is not particularly accurate; 1mm is design reserve, not physical measurement"
+      },
+      "m3Fastener": "M3x8 socket head OD5.68(max) head height3",
+      "m3ScrewHeadFlushToPlaneMm": 116.28567129,
+      "bridgeSideAssemblyOrder": "Preassemble bridge to side with flush M3x8. Then install servo pair from above and tighten M2 from underside. Mounted servo masks M3 top access; remove servo to service bridge-side screws."
+    }
+  },
+  "sourceNote": "本次 R3仅更换B/S后支撑，两个稳定kit ID、柱中心/四安装孔、光面和6/12mm名义镜厚保持。低长H2杆复用R2原ID及源STEP/PDF；不重复制造或采购。保留高位原11mm杆与商业镜架/电机。正常STEP不含实体镜片或新增五金；review-only体用于核验。",
+  "postBaseRevision": {
+    "revision": "H12p5-B4-R2",
+    "componentIds": [
+      "custom-post-metric-12p5mm-m1"
+    ],
+    "baseThicknessByComponentId": {
+      "custom-post-metric-12p5mm-m1": 4
+    },
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "physicalAssemblyAccepted": false,
+    "previousAssemblySha256": "28b3829668208d5d7ceae16c7bba5abe2d3d1c7cdf8709fc4806df963e304569",
+    "currentAssemblySha256": "e98789cf0aa861ed0fe46d9bd568987869a89fbd8760c0ef5a7bb25de557ec01",
+    "replacementReportSha256": "0fe9914c50f3fd659587fb68368965f8653e4a8c0578558f6cd48aaf37ff119d",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "assemblyReference": {
+    "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/motor-2-90-h2-coplanar-r1__H12p5_B4_R2.step",
+    "sourceStepSha256": "e98789cf0aa861ed0fe46d9bd568987869a89fbd8760c0ef5a7bb25de557ec01",
+    "revision": "CURRENT-B6R1-H12p5B4R2",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "cloudUrl": "https://cad.onshape.com/documents/6e58c9cce55d2925e9e4e840/v/437700e874b02419d6267c3d/e/07b0aa8327195024495092ad",
+    "cloudStatus": "frozen-independent-assembly-readback-pending"
+  },
+  "retiredReferenceNotice": "旧M6柱硬件审核参考随4mm旧版归档；当前以本套M4+B6完整主总装及对应BOM为准。",
+  "cloudReference": {
+    "batch": 5,
+    "documentId": "6e58c9cce55d2925e9e4e840",
+    "workspaceId": "b482368ffdc22b2fb9daff0c",
+    "sourceUrl": "https://cad.onshape.com/documents/6e58c9cce55d2925e9e4e840/v/437700e874b02419d6267c3d/e/07b0aa8327195024495092ad",
+    "status": "frozen-independent-assembly-readback-pending",
+    "observation": "Onshape notification panel and folder list via IAB",
+    "strictReadbackComplete": false,
+    "active": false,
+    "current": true,
+    "sourceStepSha256": "e98789cf0aa861ed0fe46d9bd568987869a89fbd8760c0ef5a7bb25de557ec01",
+    "automaticCloudReuseAllowed": false,
+    "independentAssemblyElementVerified": true,
+    "physicalAssemblyAccepted": false,
+    "versionId": "437700e874b02419d6267c3d",
+    "elementId": "07b0aa8327195024495092ad",
+    "elementType": "Assembly",
+    "versionFrozen": true,
+    "uiEvidence": {
+      "path": null,
+      "sha256": "111070afdf1f7cfd83ecc7bf45897a424b5d8e31f4e01cf6a1d68eae2dbec7bd"
+    },
+    "checkedAt": "2026-10-28T01:54:56.736608+08:00"
+  },
+  "id": "motor-2-90-h2-coplanar-r1"
+}

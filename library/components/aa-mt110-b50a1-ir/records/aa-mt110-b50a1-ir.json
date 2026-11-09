@@ -1,0 +1,10 @@
+{
+  "id": "aa-mt110-b50a1-ir",
+  "name": "AA Opto-Electronic MT110-B50A1-IR AOM",
+  "model": "MT110-B50A1-IR",
+  "kind": "standard",
+  "unit": "个",
+  "sourceUrl": "https://aaoptoelectronic.com/mt110-b50a1-ir/",
+  "status": "官方二维IN PRO 004接口参考；非原厂三维模型",
+  "notes": "声光作用区、实际RF接头及热性能未验证；同机械封装共用AA4B/AA4S。"
+}

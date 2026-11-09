@@ -1,0 +1,50 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "fiber-coupling-cs30kz-xy-r1",
+  "files": [
+    {
+      "path": "rendering/85fe1a0c0be39dfb47f8c29dec1beeb61f90129780b1554690aab4cb958636ad.png",
+      "stored": "library/assets/sha256/85/85fe1a0c0be39dfb47f8c29dec1beeb61f90129780b1554690aab4cb958636ad.png",
+      "sha256": "85fe1a0c0be39dfb47f8c29dec1beeb61f90129780b1554690aab4cb958636ad",
+      "originalReferences": [
+        "topviews/fiber-coupling-cs30kz-xy-r1.png"
+      ],
+      "sources": [
+        "library/assets/sha256/85/85fe1a0c0be39dfb47f8c29dec1beeb61f90129780b1554690aab4cb958636ad.png"
+      ]
+    },
+    {
+      "path": "rendering/d050563ba944c95d6f0f7a0e6f1811c207c6c67e76166df5548d31fd8580d625.svg",
+      "stored": "library/assets/sha256/d0/d050563ba944c95d6f0f7a0e6f1811c207c6c67e76166df5548d31fd8580d625.svg",
+      "sha256": "d050563ba944c95d6f0f7a0e6f1811c207c6c67e76166df5548d31fd8580d625",
+      "originalReferences": [
+        "topviews/fiber-coupling-cs30kz-xy-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/d0/d050563ba944c95d6f0f7a0e6f1811c207c6c67e76166df5548d31fd8580d625.svg"
+      ]
+    },
+    {
+      "path": "cad/e78cad6a31a00023bae3d039a820a4131d3fd66069639b2ab55c4a61e91d20da.step",
+      "stored": "library/assets/sha256/e7/e78cad6a31a00023bae3d039a820a4131d3fd66069639b2ab55c4a61e91d20da.step",
+      "sha256": "e78cad6a31a00023bae3d039a820a4131d3fd66069639b2ab55c4a61e91d20da",
+      "originalReferences": [
+        "step/fiber-rear-dual-r3/FC_KZ_REVERSED_R3.step"
+      ],
+      "sources": [
+        "library/assets/sha256/e7/e78cad6a31a00023bae3d039a820a4131d3fd66069639b2ab55c4a61e91d20da.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "cs30-kz",
+    "cs30-xy1d",
+    "custom-fc-kz-r3-a",
+    "custom-post-metric-25mm-m1",
+    "mop-50",
+    "new-hardware-1d23c1ca342d",
+    "new-hardware-2675b0c6a8c3",
+    "new-hardware-f0579b934c7c",
+    "new-hardware-ff9fb49c865c"
+  ]
+}

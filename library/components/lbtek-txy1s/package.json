@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "lbtek-txy1s",
+  "revision": "source-snapshot",
+  "displayName": "麓邦 TXY1S",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/lbtek-txy1s.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

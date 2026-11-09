@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-fc-kz-r3-a",
+  "files": [
+    {
+      "path": "cad/121d25c198b06fb03eadc640cdfc8a06e6247d76ca06d8f43ca8a0a64691614b.step",
+      "stored": "library/assets/sha256/12/121d25c198b06fb03eadc640cdfc8a06e6247d76ca06d8f43ca8a0a64691614b.step",
+      "sha256": "121d25c198b06fb03eadc640cdfc8a06e6247d76ca06d8f43ca8a0a64691614b",
+      "originalReferences": [
+        "step/fiber-rear-dual-r3/FC-KZ-R3-A.step"
+      ],
+      "sources": [
+        "library/assets/sha256/12/121d25c198b06fb03eadc640cdfc8a06e6247d76ca06d8f43ca8a0a64691614b.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

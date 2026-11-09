@@ -1,0 +1,9 @@
+{
+  "id": "hardware-post-b4-board-m6-select",
+  "name": "B4柱底固定M6螺钉 · 长度按母板牙深选择",
+  "model": "M6×1（长度待实配）",
+  "kind": "standard",
+  "unit": "颗",
+  "status": "长度待实配",
+  "notes": "4mm底脚柱每根4颗；按母板有效牙深和沉孔承压面选择实际长度。不是TXY2中央M6×6。"
+}

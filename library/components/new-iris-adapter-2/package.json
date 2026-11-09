@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-iris-adapter-2",
+  "revision": "source-snapshot",
+  "displayName": "可变光阑上板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-iris-adapter-2.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

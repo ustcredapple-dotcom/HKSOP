@@ -1,0 +1,56 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "stage-board-thorlabs-mt1m",
+  "files": [
+    {
+      "path": "rendering/2f61e1501c0ae3798b329b7116378788288935c3ca6d298170efa273713ca965.svg",
+      "stored": "library/assets/sha256/2f/2f61e1501c0ae3798b329b7116378788288935c3ca6d298170efa273713ca965.svg",
+      "sha256": "2f61e1501c0ae3798b329b7116378788288935c3ca6d298170efa273713ca965",
+      "originalReferences": [
+        "topviews/kit_manual-stage-thorlabs-mt1m-fixed.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/2f/2f61e1501c0ae3798b329b7116378788288935c3ca6d298170efa273713ca965.svg"
+      ]
+    },
+    {
+      "path": "cad/a3a945b8fc89e87df827ed0fee44d54a4c6e6f5b5285dc915fb267d0b303fab9.step",
+      "stored": "library/assets/sha256/a3/a3a945b8fc89e87df827ed0fee44d54a4c6e6f5b5285dc915fb267d0b303fab9.step",
+      "sha256": "a3a945b8fc89e87df827ed0fee44d54a4c6e6f5b5285dc915fb267d0b303fab9",
+      "originalReferences": [
+        "step/manual-stage-r1-a7075/assemblies/thorlabs-mt1m-assembly.step"
+      ],
+      "sources": [
+        "library/assets/sha256/a3/a3a945b8fc89e87df827ed0fee44d54a4c6e6f5b5285dc915fb267d0b303fab9.step"
+      ]
+    },
+    {
+      "path": "rendering/aab56b703b4994aa58649801ea7d340afd06f33f22a7b6681f9e524344ee5096.svg",
+      "stored": "library/assets/sha256/aa/aab56b703b4994aa58649801ea7d340afd06f33f22a7b6681f9e524344ee5096.svg",
+      "sha256": "aab56b703b4994aa58649801ea7d340afd06f33f22a7b6681f9e524344ee5096",
+      "originalReferences": [
+        "topviews/kit_manual-stage-thorlabs-mt1m-moving.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/aa/aab56b703b4994aa58649801ea7d340afd06f33f22a7b6681f9e524344ee5096.svg"
+      ]
+    },
+    {
+      "path": "rendering/ff8bc19200aa4a74df6fa454ba058ffe516cb91e4f23537f6f092bb6ec5e8331.svg",
+      "stored": "library/assets/sha256/ff/ff8bc19200aa4a74df6fa454ba058ffe516cb91e4f23537f6f092bb6ec5e8331.svg",
+      "sha256": "ff8bc19200aa4a74df6fa454ba058ffe516cb91e4f23537f6f092bb6ec5e8331",
+      "originalReferences": [
+        "topviews/kit_manual-stage-thorlabs-mt1m-complete.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/ff/ff8bc19200aa4a74df6fa454ba058ffe516cb91e4f23537f6f092bb6ec5e8331.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "MT1-T",
+    "hardware-iso4762-m6x12",
+    "hardware-iso4762-m6x16",
+    "thorlabs-mt1m-purchased-stage"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "suruga-xyz-motor-2in-left-r2",
+  "revision": "R2-ZPANEL-R2-B6R1-H12p5B4R2",
+  "displayName": "Suruga XYZ · 左四孔 · 电动 2 inch V7 全口径镜架",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/suruga-xyz-motor-2in-left-r2.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-post-metric-12p5mm-m1",
+    "custom-suruga-xyz-base-r1",
+    "custom-suruga-xyz-zpanel-r1",
+    "custom-v7-2a",
+    "custom-v7-2in-main",
+    "custom-v7-2in-side",
+    "custom-v7-m3-h2",
+    "hardware-iso4762-m3x10",
+    "hardware-iso4762-m3x8",
+    "hardware-iso4762-m6x12",
+    "hardware-iso4762-m6x16",
+    "hardware-iso7089-m4",
+    "v7-din7991-m3x10",
+    "v7-iso4762-m4x12",
+    "v7-iso4762-m4x16",
+    "v7-pin-d2x6",
+    "v7-pin-d2x8",
+    "v7-source-encoder-servo",
+    "v7-source-m2x10",
+    "v7-source-m4-nut",
+    "v7-source-m4x20-thin",
+    "v7-source-mt-am2",
+    "v7-source-retaining-washer"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "not-declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

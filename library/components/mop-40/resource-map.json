@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "mop-40",
+  "files": [
+    {
+      "path": "cad/2c2b97c3e8c44e0d341be188f86b39f88b879003bae57fce62929d6b5868149b.step",
+      "stored": "library/assets/sha256/2c/2c2b97c3e8c44e0d341be188f86b39f88b879003bae57fce62929d6b5868149b.step",
+      "sha256": "2c2b97c3e8c44e0d341be188f86b39f88b879003bae57fce62929d6b5868149b",
+      "originalReferences": [
+        "step/mot-ra-m2-r2/MOP-40_OEM.step"
+      ],
+      "sources": [
+        "library/assets/sha256/2c/2c2b97c3e8c44e0d341be188f86b39f88b879003bae57fce62929d6b5868149b.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

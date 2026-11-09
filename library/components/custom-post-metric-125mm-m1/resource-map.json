@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-post-metric-125mm-m1",
+  "files": [
+    {
+      "path": "cad/b49da36ffd863e5dd6bc7c6883b8937e1d8b33a4a57191eff43be40bd770563a.step",
+      "stored": "library/assets/sha256/b4/b49da36ffd863e5dd6bc7c6883b8937e1d8b33a4a57191eff43be40bd770563a.step",
+      "sha256": "b49da36ffd863e5dd6bc7c6883b8937e1d8b33a4a57191eff43be40bd770563a",
+      "originalReferences": [
+        "step/universal-post-b6-r1/万能柱_H125mm_B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/b4/b49da36ffd863e5dd6bc7c6883b8937e1d8b33a4a57191eff43be40bd770563a.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

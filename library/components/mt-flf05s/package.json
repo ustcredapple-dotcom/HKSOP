@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "mt-flf05s",
+  "revision": "source-snapshot",
+  "displayName": "0.5 inch 固定镜架",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/mt-flf05s.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

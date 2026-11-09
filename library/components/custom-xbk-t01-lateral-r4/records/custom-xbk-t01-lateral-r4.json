@@ -1,0 +1,53 @@
+{
+  "id": "custom-xbk-t01-lateral-r4",
+  "name": "XBK-T01 横向三档 / 前伸双档转接件 R4",
+  "model": "XBK-T01 R4",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R4-X3-FRONT2",
+  "stepPath": "step/xbk-lateral-fixed-r4/XBK-T01_R4_X3_FRONT25_37p5_316L.step",
+  "sourceStepSha256": "63e0d617f61850eb946f3f43caaf895699a05fe34e9bff0118756ebb2b60ff35",
+  "drawingPath": null,
+  "sourceDrawingSha256": "5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60",
+  "drawingPages": [
+    1
+  ],
+  "manufacturingEvidence": {
+    "drawingPages": [
+      1
+    ],
+    "sourceStepSha256": "63e0d617f61850eb946f3f43caaf895699a05fe34e9bff0118756ebb2b60ff35",
+    "drawingSha256": "5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60",
+    "physicalTrialCompleted": false,
+    "geometryChecks": "library/reviews/xbk-lateral-fixed-r4-standard-20261023/evidence/design-checks.json",
+    "cloudExactReadback": false
+  },
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "螺纹以攻丝底孔表达，按图纸孔旁规格及深度加工。通用公差与粗糙度按用户协议不标。"
+  },
+  "productionReady": false,
+  "manufacturingStatus": "engineering-review",
+  "status": "用户认可名义建模；尚未放行加工",
+  "notes": "42×40×6.9；6×M4及8×Ø2.01盲销孔。中间档用双销，左右各一枚外销加M4夹紧；不加工X±7.5内销孔。台面4×M2孔保持。换档后重新对光，非精密重复定位机构。",
+  "laserMarking": {
+    "status": "required",
+    "reason": "背侧编号面；激光打标。",
+    "notes": "定位图见审核图册第4页。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "sourceUrl": "https://cad.onshape.com/documents/34ff21a050385527e5ee9e7f/v/f0b58a0aace51ca76a3b050a/e/97e925d418c3fa8ce4aa20c7",
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "6029e5035262a432753afaea7c1fbee6ba999b8432a12e0dcc772960b0bc7089",
+        "sha256": "5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60"
+      }
+    ]
+  }
+}

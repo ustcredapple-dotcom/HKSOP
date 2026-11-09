@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-extension-ex62p5-r1",
+  "files": [
+    {
+      "path": "cad/9693cfb782640416c5b6758b501633d309001d173e6cca200130c06653087344.step",
+      "stored": "library/assets/sha256/96/9693cfb782640416c5b6758b501633d309001d173e6cca200130c06653087344.step",
+      "sha256": "9693cfb782640416c5b6758b501633d309001d173e6cca200130c06653087344",
+      "originalReferences": [
+        "step/extension-series-r1/延长62.5.step"
+      ],
+      "sources": [
+        "library/assets/sha256/96/9693cfb782640416c5b6758b501633d309001d173e6cca200130c06653087344.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

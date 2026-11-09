@@ -1,0 +1,60 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "motor-05",
+  "files": [
+    {
+      "path": "cad/4ca385676df76dddfa62b9f9f860dba8ae00fdb66689bceb9fb0a27080b19d12.step",
+      "stored": "library/assets/sha256/4c/4ca385676df76dddfa62b9f9f860dba8ae00fdb66689bceb9fb0a27080b19d12.step",
+      "sha256": "4ca385676df76dddfa62b9f9f860dba8ae00fdb66689bceb9fb0a27080b19d12",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/motor-05-45__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/4c/4ca385676df76dddfa62b9f9f860dba8ae00fdb66689bceb9fb0a27080b19d12.step"
+      ]
+    },
+    {
+      "path": "rendering/7cf6ff31d7ee7543c9c4b24c0d7c63898b1f6ee85ecb989fdc1fa0a3ed030615.svg",
+      "stored": "library/assets/sha256/7c/7cf6ff31d7ee7543c9c4b24c0d7c63898b1f6ee85ecb989fdc1fa0a3ed030615.svg",
+      "sha256": "7cf6ff31d7ee7543c9c4b24c0d7c63898b1f6ee85ecb989fdc1fa0a3ed030615",
+      "originalReferences": [
+        "topviews/motor-05-45__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/7c/7cf6ff31d7ee7543c9c4b24c0d7c63898b1f6ee85ecb989fdc1fa0a3ed030615.svg"
+      ]
+    },
+    {
+      "path": "rendering/bffc595004dea374b5e6097ff79e1d3cd53cdbae2dcb075fe4a7f25305aa51a4.svg",
+      "stored": "library/assets/sha256/bf/bffc595004dea374b5e6097ff79e1d3cd53cdbae2dcb075fe4a7f25305aa51a4.svg",
+      "sha256": "bffc595004dea374b5e6097ff79e1d3cd53cdbae2dcb075fe4a7f25305aa51a4",
+      "originalReferences": [
+        "topviews/motor-05-90__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/bf/bffc595004dea374b5e6097ff79e1d3cd53cdbae2dcb075fe4a7f25305aa51a4.svg"
+      ]
+    },
+    {
+      "path": "cad/d9096cfe01f70e7ba5fe34c6d936aafeac2278cf18a11eac8818ffeb743fe3ee.step",
+      "stored": "library/assets/sha256/d9/d9096cfe01f70e7ba5fe34c6d936aafeac2278cf18a11eac8818ffeb743fe3ee.step",
+      "sha256": "d9096cfe01f70e7ba5fe34c6d936aafeac2278cf18a11eac8818ffeb743fe3ee",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/motor-05-90__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/d9/d9096cfe01f70e7ba5fe34c6d936aafeac2278cf18a11eac8818ffeb743fe3ee.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-11",
+    "custom-post-metric-37p5mm-m1",
+    "encoder-servo",
+    "motor-adapter-28",
+    "motor-adapter-9",
+    "motor-bracket-21",
+    "motor-bracket-22",
+    "mt-am05s5"
+  ]
+}

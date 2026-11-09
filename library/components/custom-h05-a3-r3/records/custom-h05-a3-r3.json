@@ -1,0 +1,65 @@
+{
+  "id": "custom-h05-a3-r3",
+  "name": "半英寸薄型胶头镜架",
+  "model": "H05-A3",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R3",
+  "productionReady": false,
+  "drawingStatus": "engineering-review",
+  "status": "加工审核版；保持力和光学应力待试装",
+  "sourceUrl": "https://cad.onshape.com/documents/10c8e5c8e9710143cb15d1ab/v/6e2be70a92a934705469593a/e/a24eaf20f04230d83c2ddb81",
+  "stepPath": "step/thin-clamps-r3/H05-A3_R3.step",
+  "drawingPath": null,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "镜头厚4.3 mm；Ø12.7×3 mm镜片，真实前反射面X0；本体光高37.5 mm。M3×0.5胶头机米直接夹紧；装配后保持力、销配合和光学应力需首件验证。"
+  },
+  "notes": "原提供方加工图保留；316L本体去磁钝化不代表外购AISI303顶丝无磁。",
+  "manufacturingEvidence": {
+    "sourceStepSha256": "ef06385d487784a06429b551d7b78e86cf3debf474a315463033e24499236168",
+    "drawingSha256": "a9840b5d14eef4b02f1bb6cde2673fa72f36393a2346e7cfc4c2d6d5445c14ed",
+    "sourceVersionId": "6e2be70a92a934705469593a",
+    "physicalAssemblyTested": false,
+    "engineeringReleaseApproved": false
+  },
+  "sourceDrawingSha256": "a9840b5d14eef4b02f1bb6cde2673fa72f36393a2346e7cfc4c2d6d5445c14ed",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "7531328c6ad84567e2d557ad18d0e0cb3eb6cdf6f2d32b4f5098d3f97cd2602a",
+      "currentPdfSha256": "a9840b5d14eef4b02f1bb6cde2673fa72f36393a2346e7cfc4c2d6d5445c14ed",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "H05-A3当前源字形和方向已绑定；1:1 DXF及定位PDF补齐。",
+    "notes": "激光打标，不铣刻。主体STEP及孔位保持；原凹深仅显示。实物已有相同标识不重复；参数须首件试样确认。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "452cef2f77d61860a4819bb036a77f26fe8614225e23e806aa97606d571ccba7",
+        "sha256": "a9840b5d14eef4b02f1bb6cde2673fa72f36393a2346e7cfc4c2d6d5445c14ed"
+      }
+    ]
+  }
+}

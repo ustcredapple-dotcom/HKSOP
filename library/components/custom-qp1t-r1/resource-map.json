@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-qp1t-r1",
+  "files": [
+    {
+      "path": "cad/1298c123811e7f8b2f9fb2f62631bc5e3a9471eaf6896b0d05681006c1729bb1.step",
+      "stored": "library/assets/sha256/12/1298c123811e7f8b2f9fb2f62631bc5e3a9471eaf6896b0d05681006c1729bb1.step",
+      "sha256": "1298c123811e7f8b2f9fb2f62631bc5e3a9471eaf6896b0d05681006c1729bb1",
+      "originalReferences": [
+        "step/qp1-aom-amp2r-r1/QP1T_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/12/1298c123811e7f8b2f9fb2f62631bc5e3a9471eaf6896b0d05681006c1729bb1.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

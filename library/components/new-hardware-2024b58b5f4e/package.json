@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-hardware-2024b58b5f4e",
+  "revision": "source-snapshot",
+  "displayName": "导热界面层（名义0.05mm）",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-hardware-2024b58b5f4e.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

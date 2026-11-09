@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-fz-kz-br-r1",
+  "files": [
+    {
+      "path": "cad/044ccf8e498400fdb388d3994c7050d3b42fcae94e35954c138b8886f8a29b9c.step",
+      "stored": "library/assets/sha256/04/044ccf8e498400fdb388d3994c7050d3b42fcae94e35954c138b8886f8a29b9c.step",
+      "sha256": "044ccf8e498400fdb388d3994c7050d3b42fcae94e35954c138b8886f8a29b9c",
+      "originalReferences": [
+        "step/fiber-motor-z-r1/FZ-KZ-BR-R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/04/044ccf8e498400fdb388d3994c7050d3b42fcae94e35954c138b8886f8a29b9c.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

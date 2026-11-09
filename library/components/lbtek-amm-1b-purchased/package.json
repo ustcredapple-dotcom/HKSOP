@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "lbtek-amm-1b-purchased",
+  "revision": "source-snapshot",
+  "displayName": "麓邦 AMM-1B 调整镜架",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/lbtek-amm-1b-purchased.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

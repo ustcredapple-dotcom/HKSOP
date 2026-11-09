@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-txp75-r5",
+  "files": [
+    {
+      "path": "cad/8cbf559496f436889ca9a328b56c79f54c1e72b58e9a861e4fce95b066ca144a.step",
+      "stored": "library/assets/sha256/8c/8cbf559496f436889ca9a328b56c79f54c1e72b58e9a861e4fce95b066ca144a.step",
+      "sha256": "8cbf559496f436889ca9a328b56c79f54c1e72b58e9a861e4fce95b066ca144a",
+      "originalReferences": [
+        "step/txy1s-fixed-r5/TXP75-R5_STOP_SEAT_11p926_316L.step"
+      ],
+      "sources": [
+        "library/assets/sha256/8c/8cbf559496f436889ca9a328b56c79f54c1e72b58e9a861e4fce95b066ca144a.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

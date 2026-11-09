@@ -1,0 +1,1576 @@
+{
+  "name": "XBK MT1/M · 物镜右移12.5 · A/C双电机固定整装",
+  "category": "motor",
+  "variant": "H62.5 / 右移12.5 / 原R3转接座",
+  "revision": "R3-RIGHT12p5-H62p5",
+  "description": "MT1/M台体固定，上部物镜、镜架、双电机和原转接座整体向右12.5mm；俯视前向-X、右向+Y。",
+  "components": [
+    {
+      "componentId": "custom-v7-1in-main",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-obj-v7-side-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-v7-m3-h2",
+      "quantity": 2
+    },
+    {
+      "componentId": "v7-source-encoder-servo",
+      "quantity": 2
+    },
+    {
+      "componentId": "v7-source-m2x10",
+      "quantity": 4
+    },
+    {
+      "componentId": "v7-source-m4-nut",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-source-m4x20-thin",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-source-retaining-washer",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-pin-d2x6",
+      "quantity": 2
+    },
+    {
+      "componentId": "v7-din7991-m3x10",
+      "quantity": 2
+    },
+    {
+      "componentId": "custom-obj-mt1m-ac-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "thorlabs-mt1m-purchased-stage",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-iso4762-m6x16",
+      "quantity": 2
+    },
+    {
+      "componentId": "dpt3-pin-d2x5",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-iso4762-m6x12",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [],
+  "layout": {
+    "placementAllowed": true,
+    "widthMm": 186,
+    "heightMm": 114,
+    "anchorXMm": 95,
+    "anchorYMm": 70,
+    "topViewPath": "topviews/xbk-objective-mt1m-ac-right12p5-h62p5-r3.svg",
+    "topViewUrl": "./topviews/xbk-objective-mt1m-ac-right12p5-h62p5-r3.svg",
+    "baseBoundsMm": {
+      "xMin": -30.479999600000014,
+      "xMax": 30.48000039999998,
+      "yMin": -30.73400000000001,
+      "yMax": 30.479999999999993
+    },
+    "collisionBoundsMm": {
+      "xMin": -92.65,
+      "yMin": -41.9888,
+      "xMax": 88.8025734308733,
+      "yMax": 67.67530000000001
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -92.48808,
+          "yMm": 27.416461
+        },
+        {
+          "xMm": -92.23584,
+          "yMm": 27.86821
+        },
+        {
+          "xMm": -92.02434,
+          "yMm": 28.115929
+        },
+        {
+          "xMm": -91.768463,
+          "yMm": 28.335698
+        },
+        {
+          "xMm": -91.470768,
+          "yMm": 28.518136
+        },
+        {
+          "xMm": -91.169935,
+          "yMm": 28.642722
+        },
+        {
+          "xMm": -90.662826,
+          "yMm": 28.743583
+        },
+        {
+          "xMm": -55.6,
+          "yMm": 28.75
+        },
+        {
+          "xMm": -55.501207,
+          "yMm": 28.710925
+        },
+        {
+          "xMm": -55.096731,
+          "yMm": 29.114644
+        },
+        {
+          "xMm": -54.598493,
+          "yMm": 29.542634
+        },
+        {
+          "xMm": -54.5,
+          "yMm": 29.5795
+        },
+        {
+          "xMm": -41.4,
+          "yMm": 29.5795
+        },
+        {
+          "xMm": -41.301583,
+          "yMm": 29.542699
+        },
+        {
+          "xMm": -40.803481,
+          "yMm": 29.114788
+        },
+        {
+          "xMm": -40.437868,
+          "yMm": 28.75
+        },
+        {
+          "xMm": -30.6486,
+          "yMm": 28.75
+        },
+        {
+          "xMm": -30.6486,
+          "yMm": 30.4704
+        },
+        {
+          "xMm": -30.604666,
+          "yMm": 30.576466
+        },
+        {
+          "xMm": -30.537403,
+          "yMm": 30.618582
+        },
+        {
+          "xMm": -25.15,
+          "yMm": 30.63
+        },
+        {
+          "xMm": -25.15,
+          "yMm": 45.0
+        },
+        {
+          "xMm": -25.106066,
+          "yMm": 45.106066
+        },
+        {
+          "xMm": -25.0,
+          "yMm": 45.15
+        },
+        {
+          "xMm": 25.057403,
+          "yMm": 45.138582
+        },
+        {
+          "xMm": 25.15,
+          "yMm": 45.0
+        },
+        {
+          "xMm": 25.15,
+          "yMm": 31.6904
+        },
+        {
+          "xMm": 26.7092,
+          "yMm": 31.6904
+        },
+        {
+          "xMm": 26.720618,
+          "yMm": 32.456503
+        },
+        {
+          "xMm": 26.801797,
+          "yMm": 32.537682
+        },
+        {
+          "xMm": 27.2092,
+          "yMm": 32.5491
+        },
+        {
+          "xMm": 27.2092,
+          "yMm": 32.6001
+        },
+        {
+          "xMm": 25.3592,
+          "yMm": 32.6001
+        },
+        {
+          "xMm": 25.220618,
+          "yMm": 32.692697
+        },
+        {
+          "xMm": 25.2092,
+          "yMm": 36.5486
+        },
+        {
+          "xMm": 25.253134,
+          "yMm": 36.654666
+        },
+        {
+          "xMm": 25.3592,
+          "yMm": 36.6986
+        },
+        {
+          "xMm": 27.2092,
+          "yMm": 36.6986
+        },
+        {
+          "xMm": 27.2092,
+          "yMm": 56.5077
+        },
+        {
+          "xMm": 25.3592,
+          "yMm": 56.5077
+        },
+        {
+          "xMm": 25.220618,
+          "yMm": 56.600297
+        },
+        {
+          "xMm": 25.2092,
+          "yMm": 60.4562
+        },
+        {
+          "xMm": 25.253134,
+          "yMm": 60.562266
+        },
+        {
+          "xMm": 25.3592,
+          "yMm": 60.6062
+        },
+        {
+          "xMm": 27.2092,
+          "yMm": 60.6062
+        },
+        {
+          "xMm": 27.220618,
+          "yMm": 60.863203
+        },
+        {
+          "xMm": 27.3592,
+          "yMm": 60.9558
+        },
+        {
+          "xMm": 31.2092,
+          "yMm": 60.9558
+        },
+        {
+          "xMm": 31.2092,
+          "yMm": 66.0635
+        },
+        {
+          "xMm": 31.253134,
+          "yMm": 66.169566
+        },
+        {
+          "xMm": 31.3592,
+          "yMm": 66.2135
+        },
+        {
+          "xMm": 32.2092,
+          "yMm": 66.2135
+        },
+        {
+          "xMm": 32.2092,
+          "yMm": 67.5253
+        },
+        {
+          "xMm": 32.253134,
+          "yMm": 67.631366
+        },
+        {
+          "xMm": 32.3592,
+          "yMm": 67.6753
+        },
+        {
+          "xMm": 64.3592,
+          "yMm": 67.6753
+        },
+        {
+          "xMm": 64.465266,
+          "yMm": 67.631366
+        },
+        {
+          "xMm": 64.5092,
+          "yMm": 67.5253
+        },
+        {
+          "xMm": 64.5092,
+          "yMm": 66.2135
+        },
+        {
+          "xMm": 66.3592,
+          "yMm": 66.2135
+        },
+        {
+          "xMm": 66.465266,
+          "yMm": 66.169566
+        },
+        {
+          "xMm": 66.5092,
+          "yMm": 66.0635
+        },
+        {
+          "xMm": 66.5092,
+          "yMm": 35.9023
+        },
+        {
+          "xMm": 66.465266,
+          "yMm": 35.796234
+        },
+        {
+          "xMm": 66.3592,
+          "yMm": 35.7523
+        },
+        {
+          "xMm": 64.5092,
+          "yMm": 35.7523
+        },
+        {
+          "xMm": 64.497782,
+          "yMm": 31.469497
+        },
+        {
+          "xMm": 64.3592,
+          "yMm": 31.3769
+        },
+        {
+          "xMm": 63.0092,
+          "yMm": 31.3769
+        },
+        {
+          "xMm": 62.997782,
+          "yMm": 17.124897
+        },
+        {
+          "xMm": 62.8592,
+          "yMm": 17.0323
+        },
+        {
+          "xMm": 33.801797,
+          "yMm": 17.043718
+        },
+        {
+          "xMm": 33.7092,
+          "yMm": 17.1823
+        },
+        {
+          "xMm": 33.7092,
+          "yMm": 27.2507
+        },
+        {
+          "xMm": 32.5092,
+          "yMm": 27.2507
+        },
+        {
+          "xMm": 32.5092,
+          "yMm": 10.183
+        },
+        {
+          "xMm": 51.054,
+          "yMm": 10.183
+        },
+        {
+          "xMm": 51.192582,
+          "yMm": 10.090403
+        },
+        {
+          "xMm": 51.204,
+          "yMm": 9.7596
+        },
+        {
+          "xMm": 62.8592,
+          "yMm": 9.7596
+        },
+        {
+          "xMm": 62.965266,
+          "yMm": 9.715666
+        },
+        {
+          "xMm": 63.0092,
+          "yMm": 9.6096
+        },
+        {
+          "xMm": 63.0092,
+          "yMm": 6.1825
+        },
+        {
+          "xMm": 71.5102,
+          "yMm": 6.1825
+        },
+        {
+          "xMm": 71.554134,
+          "yMm": 6.352066
+        },
+        {
+          "xMm": 71.808134,
+          "yMm": 6.606066
+        },
+        {
+          "xMm": 71.9142,
+          "yMm": 6.65
+        },
+        {
+          "xMm": 84.2332,
+          "yMm": 6.65
+        },
+        {
+          "xMm": 84.339266,
+          "yMm": 6.606066
+        },
+        {
+          "xMm": 84.593266,
+          "yMm": 6.352066
+        },
+        {
+          "xMm": 84.6372,
+          "yMm": 6.246
+        },
+        {
+          "xMm": 84.6372,
+          "yMm": 3.6056
+        },
+        {
+          "xMm": 87.881089,
+          "yMm": 3.604998
+        },
+        {
+          "xMm": 88.019321,
+          "yMm": 3.511332
+        },
+        {
+          "xMm": 88.36001,
+          "yMm": 2.667614
+        },
+        {
+          "xMm": 88.592621,
+          "yMm": 1.80658
+        },
+        {
+          "xMm": 88.751475,
+          "yMm": 0.916805
+        },
+        {
+          "xMm": 88.802573,
+          "yMm": 0.008241
+        },
+        {
+          "xMm": 88.751473,
+          "yMm": -0.916817
+        },
+        {
+          "xMm": 88.594773,
+          "yMm": -1.796117
+        },
+        {
+          "xMm": 88.36001,
+          "yMm": -2.667614
+        },
+        {
+          "xMm": 88.019321,
+          "yMm": -3.511332
+        },
+        {
+          "xMm": 87.938544,
+          "yMm": -3.59323
+        },
+        {
+          "xMm": 84.6372,
+          "yMm": -3.6056
+        },
+        {
+          "xMm": 84.6372,
+          "yMm": -6.246
+        },
+        {
+          "xMm": 84.593266,
+          "yMm": -6.352066
+        },
+        {
+          "xMm": 84.290603,
+          "yMm": -6.638582
+        },
+        {
+          "xMm": 71.9142,
+          "yMm": -6.65
+        },
+        {
+          "xMm": 71.808134,
+          "yMm": -6.606066
+        },
+        {
+          "xMm": 71.554134,
+          "yMm": -6.352066
+        },
+        {
+          "xMm": 71.5102,
+          "yMm": -6.1825
+        },
+        {
+          "xMm": 64.5092,
+          "yMm": -6.1825
+        },
+        {
+          "xMm": 64.5092,
+          "yMm": -8.2846
+        },
+        {
+          "xMm": 66.3592,
+          "yMm": -8.2846
+        },
+        {
+          "xMm": 66.465266,
+          "yMm": -8.328534
+        },
+        {
+          "xMm": 66.5092,
+          "yMm": -8.4346
+        },
+        {
+          "xMm": 66.5092,
+          "yMm": -39.2636
+        },
+        {
+          "xMm": 66.465266,
+          "yMm": -39.369666
+        },
+        {
+          "xMm": 66.3592,
+          "yMm": -39.4136
+        },
+        {
+          "xMm": 64.5092,
+          "yMm": -39.4136
+        },
+        {
+          "xMm": 64.5092,
+          "yMm": -41.8388
+        },
+        {
+          "xMm": 64.465266,
+          "yMm": -41.944866
+        },
+        {
+          "xMm": 64.3592,
+          "yMm": -41.9888
+        },
+        {
+          "xMm": 32.3592,
+          "yMm": -41.9888
+        },
+        {
+          "xMm": 32.253134,
+          "yMm": -41.944866
+        },
+        {
+          "xMm": 32.2092,
+          "yMm": -41.8388
+        },
+        {
+          "xMm": 32.2092,
+          "yMm": -39.4136
+        },
+        {
+          "xMm": 31.3592,
+          "yMm": -39.4136
+        },
+        {
+          "xMm": 31.253134,
+          "yMm": -39.369666
+        },
+        {
+          "xMm": 31.2092,
+          "yMm": -39.2636
+        },
+        {
+          "xMm": 31.2092,
+          "yMm": -31.345
+        },
+        {
+          "xMm": 27.3592,
+          "yMm": -31.345
+        },
+        {
+          "xMm": 27.220618,
+          "yMm": -31.252403
+        },
+        {
+          "xMm": 27.2092,
+          "yMm": -30.884
+        },
+        {
+          "xMm": 19.2,
+          "yMm": -30.884
+        },
+        {
+          "xMm": 19.188582,
+          "yMm": -31.172403
+        },
+        {
+          "xMm": 19.107403,
+          "yMm": -31.253582
+        },
+        {
+          "xMm": 18.0951,
+          "yMm": -31.265
+        },
+        {
+          "xMm": 18.081555,
+          "yMm": -31.774179
+        },
+        {
+          "xMm": 17.965257,
+          "yMm": -32.132225
+        },
+        {
+          "xMm": 17.681822,
+          "yMm": -32.487952
+        },
+        {
+          "xMm": 17.295026,
+          "yMm": -32.704626
+        },
+        {
+          "xMm": 16.9291,
+          "yMm": -32.7636
+        },
+        {
+          "xMm": 13.5509,
+          "yMm": -32.7636
+        },
+        {
+          "xMm": 13.273088,
+          "yMm": -32.729898
+        },
+        {
+          "xMm": 13.016275,
+          "yMm": -32.633757
+        },
+        {
+          "xMm": 12.798178,
+          "yMm": -32.487952
+        },
+        {
+          "xMm": 12.611148,
+          "yMm": -32.287722
+        },
+        {
+          "xMm": 12.415891,
+          "yMm": -31.864109
+        },
+        {
+          "xMm": 12.3849,
+          "yMm": -31.265
+        },
+        {
+          "xMm": 2.8551,
+          "yMm": -31.265
+        },
+        {
+          "xMm": 2.841555,
+          "yMm": -31.774179
+        },
+        {
+          "xMm": 2.725257,
+          "yMm": -32.132225
+        },
+        {
+          "xMm": 2.441822,
+          "yMm": -32.487952
+        },
+        {
+          "xMm": 2.055026,
+          "yMm": -32.704626
+        },
+        {
+          "xMm": 1.6891,
+          "yMm": -32.7636
+        },
+        {
+          "xMm": -1.7077,
+          "yMm": -32.7636
+        },
+        {
+          "xMm": -1.974209,
+          "yMm": -32.732609
+        },
+        {
+          "xMm": -2.231735,
+          "yMm": -32.639105
+        },
+        {
+          "xMm": -2.460422,
+          "yMm": -32.487952
+        },
+        {
+          "xMm": -2.647352,
+          "yMm": -32.287722
+        },
+        {
+          "xMm": -2.842709,
+          "yMm": -31.864109
+        },
+        {
+          "xMm": -2.8737,
+          "yMm": -31.265
+        },
+        {
+          "xMm": -12.3849,
+          "yMm": -31.265
+        },
+        {
+          "xMm": -12.398445,
+          "yMm": -31.774179
+        },
+        {
+          "xMm": -12.514743,
+          "yMm": -32.132225
+        },
+        {
+          "xMm": -12.798178,
+          "yMm": -32.487952
+        },
+        {
+          "xMm": -13.184974,
+          "yMm": -32.704626
+        },
+        {
+          "xMm": -13.5509,
+          "yMm": -32.7636
+        },
+        {
+          "xMm": -16.9291,
+          "yMm": -32.7636
+        },
+        {
+          "xMm": -17.206996,
+          "yMm": -32.729874
+        },
+        {
+          "xMm": -17.463725,
+          "yMm": -32.633757
+        },
+        {
+          "xMm": -17.681822,
+          "yMm": -32.487952
+        },
+        {
+          "xMm": -17.868852,
+          "yMm": -32.287722
+        },
+        {
+          "xMm": -18.064109,
+          "yMm": -31.864109
+        },
+        {
+          "xMm": -18.0951,
+          "yMm": -31.265
+        },
+        {
+          "xMm": -19.107403,
+          "yMm": -31.253582
+        },
+        {
+          "xMm": -19.188582,
+          "yMm": -31.172403
+        },
+        {
+          "xMm": -19.2,
+          "yMm": -30.884
+        },
+        {
+          "xMm": -30.537403,
+          "yMm": -30.872582
+        },
+        {
+          "xMm": -30.618582,
+          "yMm": -30.791403
+        },
+        {
+          "xMm": -30.6486,
+          "yMm": -30.4896
+        },
+        {
+          "xMm": -30.6486,
+          "yMm": -3.75
+        },
+        {
+          "xMm": -40.437868,
+          "yMm": -3.75
+        },
+        {
+          "xMm": -40.803269,
+          "yMm": -4.114644
+        },
+        {
+          "xMm": -41.301583,
+          "yMm": -4.542699
+        },
+        {
+          "xMm": -41.4,
+          "yMm": -4.5795
+        },
+        {
+          "xMm": -54.5,
+          "yMm": -4.5795
+        },
+        {
+          "xMm": -54.598493,
+          "yMm": -4.542634
+        },
+        {
+          "xMm": -55.097047,
+          "yMm": -4.114376
+        },
+        {
+          "xMm": -55.501207,
+          "yMm": -3.710925
+        },
+        {
+          "xMm": -55.6,
+          "yMm": -3.75
+        },
+        {
+          "xMm": -90.5,
+          "yMm": -3.7499
+        },
+        {
+          "xMm": -91.007628,
+          "yMm": -3.688965
+        },
+        {
+          "xMm": -91.481349,
+          "yMm": -3.512743
+        },
+        {
+          "xMm": -91.768463,
+          "yMm": -3.335698
+        },
+        {
+          "xMm": -92.016029,
+          "yMm": -3.12424
+        },
+        {
+          "xMm": -92.336207,
+          "yMm": -2.718135
+        },
+        {
+          "xMm": -92.488542,
+          "yMm": -2.417082
+        },
+        {
+          "xMm": -92.589072,
+          "yMm": -2.107503
+        },
+        {
+          "xMm": -92.649884,
+          "yMm": -1.605408
+        },
+        {
+          "xMm": -92.65,
+          "yMm": 26.6
+        },
+        {
+          "xMm": -92.622509,
+          "yMm": 26.942007
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": 0
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 0
+      }
+    ],
+    "minimumAlignedMountingHoles": 2,
+    "opticalType": "unsupported",
+    "opticalDefaults": {
+      "elementType": "unsupported",
+      "inserted": true,
+      "configured": true
+    },
+    "opticalCenterMm": {
+      "xMm": -12.5,
+      "yMm": 12.5
+    },
+    "opticalAxisHeightMm": 62.5,
+    "opticalDatumVerified": false,
+    "opticalClearApertureVerified": false,
+    "opticalSimulationNote": "仅追到物镜后端机械基准；内部光学主平面、出瞳和装配通光口径未核，不按理想薄透镜计算。",
+    "opticalSurfaceAngleDeg": 90,
+    "mountingDatumVerified": true,
+    "fullObjectiveEnvelopeModeled": true,
+    "geometryEvidence": {
+      "sourceStepSha256": "933482b216cac4ac905adfd11696aedde43a499c71c91dbb27aa7209d14582cf",
+      "imageSha256": "276cd0866505f8815283b774806dd4aa25ff317de7752c8f7ddc0bfc16ce6687",
+      "leafCount": 110,
+      "nativeBottomBoreCentersMm": [
+        [
+          -12.5,
+          0.0
+        ],
+        [
+          12.5,
+          0.0
+        ]
+      ],
+      "hostM6ScrewAxesMm": [
+        [
+          -12.5,
+          0
+        ],
+        [
+          12.5,
+          0
+        ]
+      ],
+      "maxNominalShaftAxisEccentricityMm": 0.0,
+      "minimumNominalShaftRadialClearanceMm": 0.3655,
+      "physicalTrial": false,
+      "mountingOffsetMeaning": "host threaded hole/screw axes; original PT1 native bores are 25.4mm apart, never changed to 25mm",
+      "sourceToKit": {
+        "matrixRows": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "translationMm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "nominalPoseOnly": true,
+      "collisionProjectionBufferMm": 0.15,
+      "cadFrameAlreadyKitLocal": true,
+      "sourceReview": "library/reviews/xbk-lateral-fixed-r4-standard-20261023/evidence/design-checks.json",
+      "stagePoseUnchanged": true,
+      "lateralOffsetMm": 12.5
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "933482b216cac4ac905adfd11696aedde43a499c71c91dbb27aa7209d14582cf",
+      "imageSha256": "276cd0866505f8815283b774806dd4aa25ff317de7752c8f7ddc0bfc16ce6687"
+    },
+    "note": "舞台/底板锚点不动；上件横向换位。软件以完整固定套件摆放；机械换孔须松螺钉重新安装并对光。",
+    "measurementPointsMm": [
+      {
+        "id": "rear-mechanical-exit",
+        "label": "物镜后端机械出口",
+        "xMm": -12.5,
+        "yMm": 12.5,
+        "zMm": 62.5,
+        "verified": true,
+        "definition": "mechanical rear exit, not principal plane"
+      },
+      {
+        "id": "front-mechanical-end",
+        "label": "物镜前端面",
+        "xMm": -92.50000446,
+        "yMm": 12.5,
+        "zMm": 62.5,
+        "verified": true,
+        "definition": "front mechanical face"
+      }
+    ],
+    "status": "真实STEP固定构型；名义安装与62.5光高已核"
+  },
+  "assemblyReference": {
+    "stepPath": "step/xbk-lateral-fixed-r4/XBK_MT1M_OBJECTIVE_AC_R3_RIGHT12p5_H62p5.step",
+    "sourceStepSha256": "933482b216cac4ac905adfd11696aedde43a499c71c91dbb27aa7209d14582cf",
+    "sha256": "933482b216cac4ac905adfd11696aedde43a499c71c91dbb27aa7209d14582cf",
+    "revision": "R3-RIGHT12p5-H62p5",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "includeInBundle": true,
+    "drawingPath": null,
+    "sourceDrawingSha256": "5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60",
+    "note": "110叶件完整固定总装；台体原位；未重建运动配合。",
+    "onshapeUrl": "https://cad.onshape.com/documents/a05bdf063019cd8dcf188e9d/v/b6528131338cea8dca376874/e/d9e35b77cf820b2bf41cb947",
+    "leafCount": 110
+  },
+  "assemblyAssets": [
+    {
+      "stepPath": "step/xbk-lateral-fixed-r4/XBK_MT1M_OBJECTIVE_AC_R3_RIGHT12p5_H62p5.step",
+      "sha256": "933482b216cac4ac905adfd11696aedde43a499c71c91dbb27aa7209d14582cf",
+      "role": "reviewed-complete-nominal-assembly",
+      "assemblyLeafCount": 110
+    }
+  ],
+  "sourceUrl": "https://cad.onshape.com/documents/a05bdf063019cd8dcf188e9d/v/b6528131338cea8dca376874/e/d9e35b77cf820b2bf41cb947",
+  "productionReady": false,
+  "releaseStage": "engineering-review",
+  "status": "工程审核版 · 固定安装构型 · 未实装",
+  "notes": "保留原厂底面接口。PT1/M采用已登记薄头M6偏心直锁方案，原生孔距25.4mm，必须实测归中；MT1/M底孔25mm。换档后重新对光，实物承载、全行程及电机扫角未验。 本固定构型仅移动上部46叶件+12.5Y；原台体64叶件及全部原孔不变；选用A,C两颗M6固定。",
+  "mountedExistingHardware": [
+    {
+      "componentId": "lbtek-mt-am1t-purchased",
+      "quantity": 1,
+      "procurement": "existing-excluded"
+    },
+    {
+      "identity": "用户已有Mitutoyo M Plan Apo NIR 20X/0.40物镜",
+      "quantity": 1,
+      "procurement": "existing-excluded",
+      "exactOrderNumber": null
+    },
+    {
+      "identity": "原厂附送M4×14",
+      "quantity": 1,
+      "procurement": "existing-excluded"
+    }
+  ],
+  "objectiveSpecification": {
+    "format": "zzlab-objective-specification-v1",
+    "manufacturer": "Mitutoyo",
+    "model": "M Plan Apo NIR 20× / 0.40",
+    "identification": "Photo confirms standard NIR, 20×, NA 0.40, infinity/0, f=200; not NIR B, HR or LCD. Physical order-number suffix not visible.",
+    "catalogReferenceOrderNumber": "378-824-16",
+    "physicalOrderNumber": null,
+    "magnification": 20,
+    "numericalAperture": 0.4,
+    "focalLengthMm": 10,
+    "focalLengthReferenceWavelengthNm": 550,
+    "workingDistanceMm": 20,
+    "workingDistanceDatum": "front mechanical face to nominal in-focus specimen plane",
+    "tubeLensFocalLengthMm": 200,
+    "infinityCorrected": true,
+    "coverGlassThicknessMm": 0,
+    "correctionWavelengthNm": {
+      "min": 480,
+      "max": 1800
+    },
+    "parfocalDistanceMm": 95,
+    "parfocalDatum": "mounting shoulder to nominal in-focus specimen plane",
+    "frontFaceFromShoulderMm": 75,
+    "rearThreadProjectionMm": 5,
+    "derivedPupilDiameterMm": 8,
+    "pupilDerivation": "2 × NA × f; nominal pupil, NOT verified mechanical clear aperture",
+    "nominalRearThreadEndToFocusMm": 100,
+    "nominalFocusDerivation": "5 mm thread projection + 95 mm parfocal distance; equivalent to 80 mm body length + 20 mm WD",
+    "nominalFocusInKitMm": {
+      "xMm": -112.5,
+      "yMm": 12.5,
+      "zMm": 62.5
+    },
+    "nominalFocusBasis": "R3 right12.5 mechanical rear [-12.5,12.5,62.5]; inherited nominal WD, not measured focus.",
+    "sourceUrl": "https://www.mitutoyo.co.jp/products/sensors-and-devices-incorporated-units/built-in-optical-instruments/tube-and-objective-lenses-and-eyepiece/nir/378-824-16/",
+    "catalogUrl": "https://www2.mitutoyo.co.jp/eng/support/service/catalog/04/E14020.pdf",
+    "catalogPdfPages": [
+      16,
+      22
+    ],
+    "retrievedAt": "2026-10-07",
+    "sourcePdfSha256": "52809eda5ae160735d173f87a40b5ff01e717cda6464a80cea48301f4b69ff81",
+    "photoSha256": "8e97cd59d0e6239cdac872605eaa91df5ec1f0b05ee67fa2775447522b8b4f3e",
+    "simulationStatus": "reference-parameters-only",
+    "notes": "官方名义参数：20×、NA 0.40、焦距10 mm（550 nm）、工作距离20 mm；f=200是配套管镜焦距。波长补偿范围480–1800 nm，不是保证全波段透过率或损伤阈值。超过1100 nm时，官方提示焦点相对可见光可能偏移。",
+    "simulationLimit": "工作距离从物镜前端面量起；焦距从主平面量起，两者不能混用。尚无完整光学处方、已核实装配通光口径和波长响应；本次登记名义焦点参考，不把柱轴或镜架表面当作薄透镜。"
+  },
+  "motorization": {
+    "motorCount": 2,
+    "axesRearView": [
+      "upper-left-A",
+      "lower-right-C"
+    ],
+    "manualRearViewAxis": "lower-left-B",
+    "nominalSocketInsertionMm": 1.8,
+    "socketDepthMm": 3,
+    "bottomClearanceMm": 1.2,
+    "relativeAxialSetupSamplesMm": [
+      -0.75,
+      0,
+      0.75
+    ],
+    "sourceV7GeometryReused": true,
+    "fullPoweredMotionValidated": false,
+    "motorElectricalSkuConfirmed": false,
+    "inheritedBomOnlyHardwareCount": null
+  },
+  "mechanicalConfiguration": {
+    "defaultPose": {
+      "coarseOffsetMm": [
+        0,
+        12.5
+      ],
+      "fineTranslationMm": 0,
+      "selectedHoles": [
+        "A",
+        "C"
+      ],
+      "payloadSourceTranslationMm": [
+        -12.5,
+        12.5,
+        0
+      ],
+      "adapterLocalTranslationMm": [
+        -12.5,
+        12.5,
+        20.574
+      ]
+    },
+    "coarseInstallation": {
+      "pitchMm": 12.5,
+      "rearCentersXmm": [
+        -12.5,
+        0.0,
+        12.5
+      ],
+      "rearCentersYmm": [
+        -12.5,
+        0,
+        12.5
+      ],
+      "minimumFasteners": 2,
+      "fastener": "ISO4762 M6x16",
+      "positions": [
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            0,
+            -12.5
+          ],
+          "opticalRearCenterMm": [
+            -12.5,
+            -12.5,
+            62.5
+          ],
+          "usedHoleIds": [
+            "C",
+            "E"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              25
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              -12.51857219516841,
+              -12.509552197821034
+            ],
+            [
+              -12.51857219516841,
+              12.490447802178966
+            ]
+          ],
+          "screwSpacingMm": 25.0,
+          "maxRadialAxisResidualMm": 0.020884705326761854,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            0,
+            0
+          ],
+          "opticalRearCenterMm": [
+            -12.5,
+            0,
+            62.5
+          ],
+          "usedHoleIds": [
+            "B",
+            "D"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              -12.5
+            ],
+            [
+              0,
+              12.5
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              -12.51857219516841,
+              -12.509552197821034
+            ],
+            [
+              -12.51857219516841,
+              12.490447802178966
+            ]
+          ],
+          "screwSpacingMm": 25.0,
+          "maxRadialAxisResidualMm": 0.020884705326761854,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            0,
+            12.5
+          ],
+          "opticalRearCenterMm": [
+            -12.5,
+            12.5,
+            62.5
+          ],
+          "usedHoleIds": [
+            "A",
+            "C"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              -25
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              -12.51857219516841,
+              -12.509552197821034
+            ],
+            [
+              -12.51857219516841,
+              12.490447802178966
+            ]
+          ],
+          "screwSpacingMm": 25.0,
+          "maxRadialAxisResidualMm": 0.020884705326761854,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            12.5,
+            -12.5
+          ],
+          "opticalRearCenterMm": [
+            0.0,
+            -12.5,
+            62.5
+          ],
+          "usedHoleIds": [
+            "C",
+            "E"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              25
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              -0.018572195168410133,
+              -12.509552197821034
+            ],
+            [
+              -0.018572195168410133,
+              12.490447802178966
+            ]
+          ],
+          "screwSpacingMm": 25.0,
+          "maxRadialAxisResidualMm": 0.020884705326761854,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            12.5,
+            0
+          ],
+          "opticalRearCenterMm": [
+            0.0,
+            0,
+            62.5
+          ],
+          "usedHoleIds": [
+            "B",
+            "D"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              -12.5
+            ],
+            [
+              0,
+              12.5
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              -0.018572195168410133,
+              -12.509552197821034
+            ],
+            [
+              -0.018572195168410133,
+              12.490447802178966
+            ]
+          ],
+          "screwSpacingMm": 25.0,
+          "maxRadialAxisResidualMm": 0.020884705326761854,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            12.5,
+            12.5
+          ],
+          "opticalRearCenterMm": [
+            0.0,
+            12.5,
+            62.5
+          ],
+          "usedHoleIds": [
+            "A",
+            "C"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              -25
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              -0.018572195168410133,
+              -12.509552197821034
+            ],
+            [
+              -0.018572195168410133,
+              12.490447802178966
+            ]
+          ],
+          "screwSpacingMm": 25.0,
+          "maxRadialAxisResidualMm": 0.020884705326761854,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            25,
+            -12.5
+          ],
+          "opticalRearCenterMm": [
+            12.5,
+            -12.5,
+            62.5
+          ],
+          "usedHoleIds": [
+            "C",
+            "E"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              25
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              12.48142780483159,
+              -12.509552197821034
+            ],
+            [
+              12.48142780483159,
+              12.490447802178966
+            ]
+          ],
+          "screwSpacingMm": 25.0,
+          "maxRadialAxisResidualMm": 0.020884705326761854,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            25,
+            0
+          ],
+          "opticalRearCenterMm": [
+            12.5,
+            0,
+            62.5
+          ],
+          "usedHoleIds": [
+            "B",
+            "D"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              -12.5
+            ],
+            [
+              0,
+              12.5
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              12.48142780483159,
+              -12.509552197821034
+            ],
+            [
+              12.48142780483159,
+              12.490447802178966
+            ]
+          ],
+          "screwSpacingMm": 25.0,
+          "maxRadialAxisResidualMm": 0.020884705326761854,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        },
+        {
+          "kind": "grid-hole-fit",
+          "gridOffsetMm": [
+            25,
+            12.5
+          ],
+          "opticalRearCenterMm": [
+            12.5,
+            12.5,
+            62.5
+          ],
+          "usedHoleIds": [
+            "A",
+            "C"
+          ],
+          "usedLocalHoleXYmm": [
+            [
+              0,
+              -25
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "actualStageAxesMm": [
+            [
+              12.48142780483159,
+              -12.509552197821034
+            ],
+            [
+              12.48142780483159,
+              12.490447802178966
+            ]
+          ],
+          "screwSpacingMm": 25.0,
+          "maxRadialAxisResidualMm": 0.020884705326761854,
+          "M6ClearanceRadialMm": 0.2,
+          "passed": true
+        }
+      ],
+      "method": "Move adapter and full upper payload together; remove upper assembly to access M6 as needed; reattach using M4 and two dowels; realign optics.",
+      "precision": "Nominal grid matching only; screw clearance does not guarantee precision repeatability."
+    },
+    "fineMotion": {
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "rangeCheckedMm": [
+        -6.35,
+        6.35
+      ],
+      "sourceCadTravelZeroCalibrated": false,
+      "STEPKinematics": "rigid static nominal assembly; source mates not reconstructed",
+      "checkMethod": "source CAD kept in nominal pose; additional payload shifts checked conservatively against entire stationary OEM envelope; no detailed bearing kinematic simulation"
+    },
+    "runtimeControl": "rigid whole-kit canvas movement; internal coarse/fine poses documented, not animated",
+    "fixedKitVariant": "right12p5",
+    "originalCenteredKitId": "xbk-objective-mt1m-ac-r3"
+  },
+  "manufacturingDrawingPath": null,
+  "pendingRequirements": [
+    {
+      "id": "physical",
+      "label": "实装承载/重复定位及完整电机运动待验收"
+    },
+    {
+      "id": "cloud",
+      "label": "云端导入状态见来源记录；尚未完成全部精确回读与原生配合验收"
+    }
+  ],
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "6029e5035262a432753afaea7c1fbee6ba999b8432a12e0dcc772960b0bc7089",
+        "sha256": "5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60"
+      }
+    ]
+  },
+  "id": "xbk-objective-mt1m-ac-right12p5-h62p5-r3"
+}

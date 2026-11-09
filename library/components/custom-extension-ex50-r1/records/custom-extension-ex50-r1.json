@@ -1,0 +1,539 @@
+{
+  "id": "custom-extension-ex50-r1",
+  "name": "延长块 50 mm",
+  "model": "EX50-R1",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R1",
+  "seriesId": "extension-series-r1",
+  "status": "加工审核版；销孔配合待确认",
+  "stepPath": "step/extension-series-r1/延长50.step",
+  "drawingPath": null,
+  "dxfPath": null,
+  "sourceStepSha256": "2e97689393171b5f38d17077293e037426fa13a82da556d46ea3097da379b4f1",
+  "sourceDrawingSha256": "5a069ecb2e548903bf414ff8f889b726c9fc611758ee7e95642c49d3943741f0",
+  "sourceDxfSha256": "5df077170731d5a03f42187c66746c9f480ea2c0d4604fcb3759ca85ecf68344",
+  "drawingStatus": "engineering-review",
+  "drawingRevision": "R1",
+  "productionReady": false,
+  "notes": "L 为两端孔群中心距，外形总长 L+25 mm；保留原沉孔开边及沉孔/销孔局部相通。共用四页参数图册，按型号查第4页长度表；DXF是 EX25 参数主图，其他长度按表读取，不能当作该款1:1展开图。安装螺钉和定位销需按实际接口选配。",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "threadClass": "待确认",
+    "profileId": "post316L",
+    "policyVersion": "extension-series-r1-source",
+    "processDetails": "材料处理采用该系列交付清单；销孔配合及专用尺寸/孔位控制待工艺确认。通用公差和粗糙度按用户要求不新增到网站清单。"
+  },
+  "manufacturingEvidence": {
+    "sourcePackageSha256": "91873ae72ec5894d2c03e9997d887a5e0aba0efb95b1bfa781b2ed0e38d57f7a",
+    "sourceManifestSha256": "e65f31d7d2e949985c6c3e27b5f111c6a9f2cb92088ec9ee3b878ee469d91dc4",
+    "independentReportSha256": "296fad7a6c5ea6ddf42604a4502f87eb105eaf97bb95151cfe6644970ba47b39",
+    "drawingPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "physicalAssemblyValidated": false,
+    "singleSolid": true,
+    "threadGeometry": "M4×0.7由原PDF支持，STEP为Ø3.3简化底孔",
+    "sourceBoundsMm": [
+      -12.25000000000248,
+      -12.5000001,
+      -62.5,
+      12.250000000002478,
+      1e-07,
+      12.500000000000075
+    ]
+  },
+  "mechanicalInterface": {
+    "centerDistanceMm": 50.0,
+    "exactExpression": "50 mm",
+    "overallLengthMm": 75.0,
+    "widthMm": 24.5,
+    "thicknessMm": 12.5,
+    "datumASourceXYZMm": [
+      0,
+      0,
+      0
+    ],
+    "datumBSourceXYZMm": [
+      0,
+      0,
+      -50.0
+    ],
+    "sourceToDisplayRotation": [
+      [
+        0,
+        0,
+        -1
+      ],
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "holes": [
+      {
+        "kind": "locating-pin-blind",
+        "sourceXZMm": [
+          5.0,
+          0.0
+        ],
+        "displayXYMm": [
+          -0.0,
+          -5.0
+        ],
+        "nominalDiameterMm": 2.01,
+        "thread": null,
+        "cylindricalDepthMm": 4.2,
+        "counterboreDiameterMm": null,
+        "counterboreDepthMm": null
+      },
+      {
+        "kind": "locating-pin-blind",
+        "sourceXZMm": [
+          -5.0,
+          0.0
+        ],
+        "displayXYMm": [
+          -0.0,
+          5.0
+        ],
+        "nominalDiameterMm": 2.01,
+        "thread": null,
+        "cylindricalDepthMm": 4.2,
+        "counterboreDiameterMm": null,
+        "counterboreDepthMm": null
+      },
+      {
+        "kind": "locating-pin-blind",
+        "sourceXZMm": [
+          3.535533905933,
+          -46.46446609406
+        ],
+        "displayXYMm": [
+          46.46446609406,
+          -3.535533905933
+        ],
+        "nominalDiameterMm": 2.01,
+        "thread": null,
+        "cylindricalDepthMm": 4.2,
+        "counterboreDiameterMm": null,
+        "counterboreDepthMm": null
+      },
+      {
+        "kind": "locating-pin-blind",
+        "sourceXZMm": [
+          -3.535533905933,
+          -46.46446609406
+        ],
+        "displayXYMm": [
+          46.46446609406,
+          3.535533905933
+        ],
+        "nominalDiameterMm": 2.01,
+        "thread": null,
+        "cylindricalDepthMm": 4.2,
+        "counterboreDiameterMm": null,
+        "counterboreDepthMm": null
+      },
+      {
+        "kind": "locating-pin-blind",
+        "sourceXZMm": [
+          -5.0,
+          -50.0
+        ],
+        "displayXYMm": [
+          50.0,
+          5.0
+        ],
+        "nominalDiameterMm": 2.01,
+        "thread": null,
+        "cylindricalDepthMm": 4.2,
+        "counterboreDiameterMm": null,
+        "counterboreDepthMm": null
+      },
+      {
+        "kind": "locating-pin-blind",
+        "sourceXZMm": [
+          5.0,
+          -50.0
+        ],
+        "displayXYMm": [
+          50.0,
+          -5.0
+        ],
+        "nominalDiameterMm": 2.01,
+        "thread": null,
+        "cylindricalDepthMm": 4.2,
+        "counterboreDiameterMm": null,
+        "counterboreDepthMm": null
+      },
+      {
+        "kind": "locating-pin-blind",
+        "sourceXZMm": [
+          -3.535533905933,
+          -53.53553390593
+        ],
+        "displayXYMm": [
+          53.53553390593,
+          3.535533905933
+        ],
+        "nominalDiameterMm": 2.01,
+        "thread": null,
+        "cylindricalDepthMm": 4.2,
+        "counterboreDiameterMm": null,
+        "counterboreDepthMm": null
+      },
+      {
+        "kind": "locating-pin-blind",
+        "sourceXZMm": [
+          0.0,
+          -55.0
+        ],
+        "displayXYMm": [
+          55.0,
+          -0.0
+        ],
+        "nominalDiameterMm": 2.01,
+        "thread": null,
+        "cylindricalDepthMm": 4.2,
+        "counterboreDiameterMm": null,
+        "counterboreDepthMm": null
+      },
+      {
+        "kind": "locating-pin-blind",
+        "sourceXZMm": [
+          0.0,
+          -45.0
+        ],
+        "displayXYMm": [
+          45.0,
+          -0.0
+        ],
+        "nominalDiameterMm": 2.01,
+        "thread": null,
+        "cylindricalDepthMm": 4.2,
+        "counterboreDiameterMm": null,
+        "counterboreDepthMm": null
+      },
+      {
+        "kind": "locating-pin-blind",
+        "sourceXZMm": [
+          3.535533905933,
+          -53.53553390593
+        ],
+        "displayXYMm": [
+          53.53553390593,
+          -3.535533905933
+        ],
+        "nominalDiameterMm": 2.01,
+        "thread": null,
+        "cylindricalDepthMm": 4.2,
+        "counterboreDiameterMm": null,
+        "counterboreDepthMm": null
+      },
+      {
+        "kind": "counterbored-M4-clearance",
+        "sourceXZMm": [
+          0.0,
+          0.0
+        ],
+        "displayXYMm": [
+          -0.0,
+          -0.0
+        ],
+        "nominalDiameterMm": 4.3,
+        "thread": null,
+        "cylindricalDepthMm": 12.5,
+        "counterboreDiameterMm": 8.25,
+        "counterboreDepthMm": 4
+      },
+      {
+        "kind": "counterbored-M4-clearance",
+        "sourceXZMm": [
+          8.673617379884e-16,
+          -8.838834764832
+        ],
+        "displayXYMm": [
+          8.838834764832,
+          -8.673617379884e-16
+        ],
+        "nominalDiameterMm": 4.3,
+        "thread": null,
+        "cylindricalDepthMm": 12.5,
+        "counterboreDiameterMm": 8.25,
+        "counterboreDepthMm": 4
+      },
+      {
+        "kind": "counterbored-M4-clearance",
+        "sourceXZMm": [
+          -8.838834764832,
+          -8.838834764832
+        ],
+        "displayXYMm": [
+          8.838834764832,
+          8.838834764832
+        ],
+        "nominalDiameterMm": 4.3,
+        "thread": null,
+        "cylindricalDepthMm": 12.5,
+        "counterboreDiameterMm": 8.25,
+        "counterboreDepthMm": 4
+      },
+      {
+        "kind": "counterbored-M4-clearance",
+        "sourceXZMm": [
+          8.838834764832,
+          -8.838834764832
+        ],
+        "displayXYMm": [
+          8.838834764832,
+          -8.838834764832
+        ],
+        "nominalDiameterMm": 4.3,
+        "thread": null,
+        "cylindricalDepthMm": 12.5,
+        "counterboreDiameterMm": 8.25,
+        "counterboreDepthMm": 4
+      },
+      {
+        "kind": "counterbored-M4-clearance",
+        "sourceXZMm": [
+          0.0,
+          8.5
+        ],
+        "displayXYMm": [
+          -8.5,
+          -0.0
+        ],
+        "nominalDiameterMm": 4.3,
+        "thread": null,
+        "cylindricalDepthMm": 12.5,
+        "counterboreDiameterMm": 8.25,
+        "counterboreDepthMm": 4
+      },
+      {
+        "kind": "M4x0.7-through",
+        "sourceXZMm": [
+          6.010407640086,
+          -43.98959235991
+        ],
+        "displayXYMm": [
+          43.98959235991,
+          -6.010407640086
+        ],
+        "nominalDiameterMm": 3.3,
+        "thread": "M4×0.7",
+        "cylindricalDepthMm": 12.5,
+        "counterboreDiameterMm": null,
+        "counterboreDepthMm": null
+      },
+      {
+        "kind": "M4x0.7-through",
+        "sourceXZMm": [
+          -6.010407640086,
+          -43.98959235991
+        ],
+        "displayXYMm": [
+          43.98959235991,
+          6.010407640086
+        ],
+        "nominalDiameterMm": 3.3,
+        "thread": "M4×0.7",
+        "cylindricalDepthMm": 12.5,
+        "counterboreDiameterMm": null,
+        "counterboreDepthMm": null
+      },
+      {
+        "kind": "M4x0.7-through",
+        "sourceXZMm": [
+          6.010407640086,
+          -56.01040764008
+        ],
+        "displayXYMm": [
+          56.01040764008,
+          -6.010407640086
+        ],
+        "nominalDiameterMm": 3.3,
+        "thread": "M4×0.7",
+        "cylindricalDepthMm": 12.5,
+        "counterboreDiameterMm": null,
+        "counterboreDepthMm": null
+      },
+      {
+        "kind": "M4x0.7-through",
+        "sourceXZMm": [
+          8.5,
+          -50.0
+        ],
+        "displayXYMm": [
+          50.0,
+          -8.5
+        ],
+        "nominalDiameterMm": 3.3,
+        "thread": "M4×0.7",
+        "cylindricalDepthMm": 12.5,
+        "counterboreDiameterMm": null,
+        "counterboreDepthMm": null
+      },
+      {
+        "kind": "M4x0.7-through",
+        "sourceXZMm": [
+          -8.5,
+          -50.0
+        ],
+        "displayXYMm": [
+          50.0,
+          8.5
+        ],
+        "nominalDiameterMm": 3.3,
+        "thread": "M4×0.7",
+        "cylindricalDepthMm": 12.5,
+        "counterboreDiameterMm": null,
+        "counterboreDepthMm": null
+      },
+      {
+        "kind": "M4x0.7-through",
+        "sourceXZMm": [
+          0.0,
+          -50.0
+        ],
+        "displayXYMm": [
+          50.0,
+          -0.0
+        ],
+        "nominalDiameterMm": 3.3,
+        "thread": "M4×0.7",
+        "cylindricalDepthMm": 12.5,
+        "counterboreDiameterMm": null,
+        "counterboreDepthMm": null
+      },
+      {
+        "kind": "M4x0.7-through",
+        "sourceXZMm": [
+          0.0,
+          -58.5
+        ],
+        "displayXYMm": [
+          58.5,
+          -0.0
+        ],
+        "nominalDiameterMm": 3.3,
+        "thread": "M4×0.7",
+        "cylindricalDepthMm": 12.5,
+        "counterboreDiameterMm": null,
+        "counterboreDepthMm": null
+      },
+      {
+        "kind": "M4x0.7-through",
+        "sourceXZMm": [
+          0.0,
+          -41.5
+        ],
+        "displayXYMm": [
+          41.5,
+          -0.0
+        ],
+        "nominalDiameterMm": 3.3,
+        "thread": "M4×0.7",
+        "cylindricalDepthMm": 12.5,
+        "counterboreDiameterMm": null,
+        "counterboreDepthMm": null
+      },
+      {
+        "kind": "M4x0.7-through",
+        "sourceXZMm": [
+          -6.010407640086,
+          -56.01040764008
+        ],
+        "displayXYMm": [
+          56.01040764008,
+          6.010407640086
+        ],
+        "nominalDiameterMm": 3.3,
+        "thread": "M4×0.7",
+        "cylindricalDepthMm": 12.5,
+        "counterboreDiameterMm": null,
+        "counterboreDepthMm": null
+      }
+    ],
+    "directM6BreadboardMountVerified": false,
+    "assemblyMateDefinitionVerified": false
+  },
+  "ownership": {
+    "originalDesign": "用户提供的延长25 STEP及原图纸",
+    "revisionActor": "其他任务交付的本地长度系列 R1；接收端未修改模型",
+    "importScope": "机械配件资料与出单，不替换现有器件或用户实例"
+  },
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "3b5062639924a6f513739130527929dbf035d262bc0a4ceedd313a419a64174c",
+  "drawingPages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "8ce9e89271a9efc954a2e0b39c4ff50d5ce5d136baffd78e904da62f35dfc4c5",
+      "currentPdfSha256": "12022e4d567cb231d52adeb6fdca8ab754b0237a60610322ebd9f4604c5b10d4",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "1b046953b8882c41daff958007b31f2c8443004159ea2bffb5ee41bc06d8fdcd",
+      "currentPdfSha256": "3b5062639924a6f513739130527929dbf035d262bc0a4ceedd313a419a64174c",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "83c9b39548d9d9ee1065f339ab6bf3aa7c7fe6fbe5e4240981fc3f3c1820cb5f",
+        "sha256": "5a069ecb2e548903bf414ff8f889b726c9fc611758ee7e95642c49d3943741f0"
+      },
+      {
+        "path": null,
+        "previousSha256": "3a4f070ce3fd2f05a976a0153e105210887fda6bf437837c5fedb64867ec52f1",
+        "sha256": "3b5062639924a6f513739130527929dbf035d262bc0a4ceedd313a419a64174c"
+      },
+      {
+        "path": null,
+        "previousSha256": "5e8a5054b187e74bea935e66a1f9d22fe8c853c8ae7c365fbf00834b2a192f35",
+        "sha256": "5df077170731d5a03f42187c66746c9f480ea2c0d4604fcb3759ca85ecf68344"
+      }
+    ]
+  }
+}

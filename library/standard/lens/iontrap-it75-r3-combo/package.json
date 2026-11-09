@@ -1,0 +1,27 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "iontrap-it75-r3-combo",
+  "revision": "source-snapshot",
+  "displayName": "399 成像透镜与位移台 · 短托板 R6",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/iontrap-it75-r3-combo.json"
+    }
+  ],
+  "componentDependencies": [
+    "it399-short-tray-r6",
+    "it75-r3-m6x20",
+    "it75-r3-reused-combo"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

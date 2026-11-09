@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "aa-mt110-b50a1-ir",
+  "revision": "source-snapshot",
+  "displayName": "AA Opto-Electronic MT110-B50A1-IR AOM",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/aa-mt110-b50a1-ir.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

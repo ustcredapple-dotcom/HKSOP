@@ -1,0 +1,507 @@
+{
+  "name": "麓邦 LS30-6L1 位移小面包板 · 外露固定孔",
+  "category": "manual-stage",
+  "variant": "LS30-6L1 / R3-A7075-TABLE-MOUNT",
+  "description": "单轴手动位移小面包板；固定基座保持不动，上板与内部元件共同移动。顶面名义高度 37.5 mm；自制板采用7075铝合金、黑色阳极氧化。",
+  "stageModuleId": "stage-board-lbtek-ls30-6l1-r3",
+  "stageRuntime": {
+    "kitId": "stage-board-lbtek-ls30-6l1-r3",
+    "topBoardId": "stage-top-ls30-t-r3-doc",
+    "topBoardRevision": "R2-A7075",
+    "revision": "R3-A7075-TABLE-MOUNT",
+    "topViewPath": "topviews/kit_manual-stage-r3-lbtek-ls30-6l1-complete.svg",
+    "fixedTopView": {
+      "src": "./topviews/kit_manual-stage-r3-lbtek-ls30-6l1-fixed.svg",
+      "topViewPath": "topviews/kit_manual-stage-r3-lbtek-ls30-6l1-fixed.svg",
+      "sha256": "3d2d4fc1fc779235269afc0c054ae089cfce662cfe2949eaed3a6401a6a389e8",
+      "widthMm": 62.2,
+      "heightMm": 100.5,
+      "anchorXMm": 36.95,
+      "anchorYMm": 50.25
+    },
+    "movingTopView": {
+      "src": "./topviews/kit_manual-stage-r3-lbtek-ls30-6l1-moving.svg",
+      "topViewPath": "topviews/kit_manual-stage-r3-lbtek-ls30-6l1-moving.svg",
+      "sha256": "663ef15621073df0f6bc2fac4846e2d03181a3646b41fdf5be64299bb8cfefe9",
+      "widthMm": 50.5,
+      "heightMm": 50.5,
+      "anchorXMm": 25.25,
+      "anchorYMm": 25.25
+    },
+    "baseBoundsMm": {
+      "xMin": -25,
+      "xMax": 25,
+      "yMin": -50,
+      "yMax": 50
+    },
+    "baseBoundsEvidence": "R3真实LS30-B 50×100×12底板；顶板R2及OEM接口不变",
+    "vendorMotionRepresentation": "cad-derived-fixed-and-moving-rigid-groups",
+    "userMaterialOverride": {
+      "revision": "R2-A7075",
+      "geometryRevision": "R2",
+      "evidence": "library/reviews/manual-moving-stage-r1-a7075-import-20261006/evidence/user-material-override-20261006.json"
+    },
+    "motionGeometryEvidence": "library/reviews/ls30-table-mount-r3-install-20261007/evidence/review.json",
+    "motionGeometryGroups": {
+      "moving": [
+        "LS30-T-R3-doc",
+        "OEM_MOVING_CARRIAGE (source solid index 1)"
+      ],
+      "fixedReference": "25 other OEM bodies plus LS30-B",
+      "limits": "Other OEM internals retain source pose; not a full internal kinematic model."
+    }
+  },
+  "components": [
+    {
+      "componentId": "lbtek-ls30-6l1-purchased-stage",
+      "quantity": 1
+    },
+    {
+      "componentId": "LS30-T-R3-doc",
+      "quantity": 1
+    },
+    {
+      "componentId": "LS30-B-R3",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-iso4762-m3x10",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-iso4762-m3x8",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-iso4762-m6x12",
+      "quantity": 4
+    }
+  ],
+  "opticalSlots": [],
+  "layout": {
+    "widthMm": 62.2,
+    "heightMm": 100.5,
+    "anchorXMm": 36.95,
+    "anchorYMm": 50.25,
+    "topViewPath": "topviews/kit_manual-stage-r3-lbtek-ls30-6l1-complete.svg",
+    "topViewUrl": "./topviews/kit_manual-stage-r3-lbtek-ls30-6l1-complete.svg",
+    "placementAllowed": false,
+    "baseBoundsMm": {
+      "xMin": -25,
+      "xMax": 25,
+      "yMin": -50,
+      "yMax": 50
+    },
+    "collisionBoundsMm": {
+      "xMin": -39.98257871558342,
+      "yMin": -50.04,
+      "xMax": 28.29,
+      "yMax": 50.04
+    },
+    "opticalType": "empty",
+    "opticalDefaults": {
+      "elementType": "empty",
+      "inserted": false,
+      "configured": true
+    },
+    "note": "专用运动小面包板入口；不得作为普通静态光学器件放置。",
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -39.982579,
+          "yMm": 20.462433
+        },
+        {
+          "xMm": -39.95869,
+          "yMm": 20.730858
+        },
+        {
+          "xMm": -39.917225,
+          "yMm": 21.108399
+        },
+        {
+          "xMm": -39.872308,
+          "yMm": 21.369706
+        },
+        {
+          "xMm": -39.783164,
+          "yMm": 21.732748
+        },
+        {
+          "xMm": -39.720942,
+          "yMm": 21.981952
+        },
+        {
+          "xMm": -39.509269,
+          "yMm": 22.558191
+        },
+        {
+          "xMm": -39.383292,
+          "yMm": 22.838829
+        },
+        {
+          "xMm": -37.79,
+          "yMm": 22.838829
+        },
+        {
+          "xMm": -37.79,
+          "yMm": 23.022455
+        },
+        {
+          "xMm": -37.79,
+          "yMm": 23.654707
+        },
+        {
+          "xMm": -37.79,
+          "yMm": 23.824471
+        },
+        {
+          "xMm": -37.79,
+          "yMm": 23.971889
+        },
+        {
+          "xMm": -37.79,
+          "yMm": 24.363663
+        },
+        {
+          "xMm": -37.26656,
+          "yMm": 24.886735
+        },
+        {
+          "xMm": -30.050003,
+          "yMm": 24.886735
+        },
+        {
+          "xMm": -28.29,
+          "yMm": 24.886735
+        },
+        {
+          "xMm": -28.29,
+          "yMm": 25.04
+        },
+        {
+          "xMm": -25.04,
+          "yMm": 25.04
+        },
+        {
+          "xMm": -25.04,
+          "yMm": 50.04
+        },
+        {
+          "xMm": 25.04,
+          "yMm": 50.04
+        },
+        {
+          "xMm": 25.04,
+          "yMm": 25.04
+        },
+        {
+          "xMm": 28.29,
+          "yMm": 25.04
+        },
+        {
+          "xMm": 28.29,
+          "yMm": -25.04
+        },
+        {
+          "xMm": 25.04,
+          "yMm": -25.04
+        },
+        {
+          "xMm": 25.04,
+          "yMm": -50.04
+        },
+        {
+          "xMm": -25.04,
+          "yMm": -50.04
+        },
+        {
+          "xMm": -25.04,
+          "yMm": -25.04
+        },
+        {
+          "xMm": -28.29,
+          "yMm": -25.04
+        },
+        {
+          "xMm": -28.29,
+          "yMm": 15.513265
+        },
+        {
+          "xMm": -30.050003,
+          "yMm": 15.513265
+        },
+        {
+          "xMm": -37.26656,
+          "yMm": 15.513265
+        },
+        {
+          "xMm": -37.79,
+          "yMm": 16.036337
+        },
+        {
+          "xMm": -37.79,
+          "yMm": 16.309072
+        },
+        {
+          "xMm": -37.79,
+          "yMm": 16.434309
+        },
+        {
+          "xMm": -37.79,
+          "yMm": 17.561171
+        },
+        {
+          "xMm": -39.383253,
+          "yMm": 17.561171
+        },
+        {
+          "xMm": -39.519009,
+          "yMm": 17.862495
+        },
+        {
+          "xMm": -39.743907,
+          "yMm": 18.494385
+        },
+        {
+          "xMm": -39.896824,
+          "yMm": 19.145229
+        },
+        {
+          "xMm": -39.976321,
+          "yMm": 19.804679
+        },
+        {
+          "xMm": -39.982579,
+          "yMm": 20.462433
+        }
+      ]
+    ],
+    "basePolygonsMm": [
+      [
+        {
+          "xMm": -19.89,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -20.0,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -20.11,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -25.0,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -25.0,
+          "yMm": 50.0
+        },
+        {
+          "xMm": 25.0,
+          "yMm": 50.0
+        },
+        {
+          "xMm": 25.0,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -5.59,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -5.614104,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -5.7,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -5.81,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -5.959131,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -6.014104,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -6.1,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -6.152869,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -7.39,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -7.5,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -7.61,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -8.2,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -10.0,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -10.59,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -10.7,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -10.81,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -12.39,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -12.5,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -12.61,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -13.09,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -13.2,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -13.31,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -15.0,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -15.59,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -15.7,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -15.81,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -17.39,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -17.5,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -17.61,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -18.2,
+          "yMm": -50.0
+        },
+        {
+          "xMm": -19.89,
+          "yMm": -50.0
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -37.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 37.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -37.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 37.5
+      }
+    ],
+    "geometryEvidence": {
+      "path": "library/reviews/ls30-table-mount-r3-install-20261007/evidence/review.json",
+      "sourceStepSha256": "7b872b576a9680dc79f73bdda288f231f34f0db64eb7602d67641788573f27ea",
+      "physicalAcceptance": "not-performed"
+    }
+  },
+  "sourceUrl": "https://www.lbtek.com/api/v1/product/show?list_id=1164&product_id=18112",
+  "status": "名义尺寸已核对；待工艺及实物归中验收",
+  "notes": "50×100×12 mm，7075铝合金、黑色阳极氧化。S01/S02为M3×0.5盲螺纹：有效牙深6，Ø2.5圆柱钻深8加0.751076钻尖；STEP为攻牙底孔，不是销孔。四个外露B孔为Ø6.4通孔、Ø11.25顶面沉孔深6，装配坐标(±12.5,±37.5)，保持原25mm网格相位。4×M6×12无垫圈，名义旋入台面6；公制25mm孔距M6台面有效牙深至少8。完整模块可在台外组装，再直接从上方锁四个外露M6孔；拆移仅拆四颗M6，无需拆上板或位移台。台底2×M3×8名义旋入下板4。实际工具孔同轴、物理零点和承载仍须实装验收。 上板仍为R2，2×M3×10名义旋入厂家台面4.5；六个M6输出孔、上板基准/光高/工作范围保持。q=0是来源名义对孔姿态。主随动台与上板同动，其余OEM内部体保留源姿态，未完整模拟。",
+  "assemblyReference": {
+    "stepPath": "step/manual-stage-r3-table-mount/assemblies/lbtek-ls30-6l1-assembly.step",
+    "sourceStepSha256": "7b872b576a9680dc79f73bdda288f231f34f0db64eb7602d67641788573f27ea",
+    "note": "R3下板外露台面安装完整参考总装；上板R2、厂家几何、37.5mm顶面与名义q=0坐标保持。不是完整内部机构运动或实物验收。",
+    "referenceViews": {
+      "complete": {
+        "src": "./topviews/kit_manual-stage-r3-lbtek-ls30-6l1-complete.svg",
+        "topViewPath": "topviews/kit_manual-stage-r3-lbtek-ls30-6l1-complete.svg",
+        "sha256": "115c38098f3346b10a1a9f3014a5234d48430dcd77ec2d078a56d9883018ce38",
+        "widthMm": 62.2,
+        "heightMm": 100.5,
+        "anchorXMm": 36.95,
+        "anchorYMm": 50.25
+      },
+      "fixed": {
+        "src": "./topviews/kit_manual-stage-r3-lbtek-ls30-6l1-fixed.svg",
+        "topViewPath": "topviews/kit_manual-stage-r3-lbtek-ls30-6l1-fixed.svg",
+        "sha256": "3d2d4fc1fc779235269afc0c054ae089cfce662cfe2949eaed3a6401a6a389e8",
+        "widthMm": 62.2,
+        "heightMm": 100.5,
+        "anchorXMm": 36.95,
+        "anchorYMm": 50.25
+      },
+      "moving": {
+        "src": "./topviews/kit_manual-stage-r3-lbtek-ls30-6l1-moving.svg",
+        "topViewPath": "topviews/kit_manual-stage-r3-lbtek-ls30-6l1-moving.svg",
+        "sha256": "663ef15621073df0f6bc2fac4846e2d03181a3646b41fdf5be64299bb8cfefe9",
+        "widthMm": 50.5,
+        "heightMm": 50.5,
+        "anchorXMm": 25.25,
+        "anchorYMm": 25.25
+      },
+      "upper": {
+        "src": "./topviews/kit_manual-stage-r3-lbtek-ls30-6l1-upper.svg",
+        "topViewPath": "topviews/kit_manual-stage-r3-lbtek-ls30-6l1-upper.svg",
+        "sha256": "d5863b5a4778ad5c5d5387913897422c3a64a3b51fd7ea8b91be4eec24a66e5a",
+        "widthMm": 50.5,
+        "heightMm": 50.5,
+        "anchorXMm": 25.25,
+        "anchorYMm": 25.25
+      }
+    }
+  },
+  "id": "stage-board-lbtek-ls30-6l1-r3"
+}

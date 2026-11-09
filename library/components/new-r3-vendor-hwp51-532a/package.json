@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-r3-vendor-hwp51-532a",
+  "revision": "source-snapshot",
+  "displayName": "聚合物真零级半波片 · Ø50.8 mm · 532 nm",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-r3-vendor-hwp51-532a.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

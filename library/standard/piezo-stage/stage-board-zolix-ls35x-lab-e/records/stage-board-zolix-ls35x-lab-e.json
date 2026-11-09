@@ -1,0 +1,139 @@
+{
+  "name": "LS35x.Lab.E 标准压电位移面包板",
+  "category": "piezo-stage",
+  "variant": "LS35x.Lab.E / R1",
+  "description": "25 mm名义总高；75×50 mm专用上板，11个M6输出孔；Y向连续±10 mm。原厂共享源一处安装入口待核对。",
+  "stageModuleId": "stage-board-zolix-ls35x-lab-e",
+  "stageRuntime": {
+    "kitId": "stage-board-zolix-ls35x-lab-e",
+    "topBoardId": "stage-top-ls35e-t",
+    "topBoardRevision": "R1",
+    "revision": "R1",
+    "topViewPath": "topviews/kit_ls35x-lab-e-r1-complete.svg",
+    "baseBoundsMm": {
+      "xMin": -37.5,
+      "xMax": 37.5,
+      "yMin": -25,
+      "yMax": 25
+    },
+    "baseBoundsEvidence": "真实下板 STEP 75×50外形；非悬出上板范围",
+    "vendorMotionRepresentation": "source-partitioned-moving-solids-with-conservative-full-travel-keepout; inter-layer live occlusion approximate",
+    "fixedTopView": {
+      "src": "./topviews/kit_ls35x-lab-e-r1-fixed.svg",
+      "topViewPath": "topviews/kit_ls35x-lab-e-r1-fixed.svg",
+      "widthMm": 76,
+      "heightMm": 51,
+      "anchorXMm": 38,
+      "anchorYMm": 25.5,
+      "sha256": "ee2de1b5d62e1ef04dc795c62fcb01897dc4f1153bc226e224bff1c4191aa564"
+    },
+    "movingTopView": {
+      "src": "./topviews/kit_ls35x-lab-e-r1-moving.svg",
+      "topViewPath": "topviews/kit_ls35x-lab-e-r1-moving.svg",
+      "widthMm": 76,
+      "heightMm": 51,
+      "anchorXMm": 38,
+      "anchorYMm": 25.5,
+      "sha256": "45f8ef3aa25bf288be13d8610b407e0a6706d03cac890501c8f5d2294819355d"
+    }
+  },
+  "components": [
+    {
+      "componentId": "zolix-ls35x-lab-e-purchased-stage",
+      "quantity": 1
+    },
+    {
+      "componentId": "LS35E-B",
+      "quantity": 1
+    },
+    {
+      "componentId": "LS35E-T",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-iso4762-m2x5",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-iso4762-m2x8",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-iso4762-m6x12",
+      "quantity": 4
+    }
+  ],
+  "opticalSlots": [],
+  "layout": {
+    "widthMm": 76,
+    "heightMm": 51,
+    "anchorXMm": 38,
+    "anchorYMm": 25.5,
+    "topViewPath": "topviews/kit_ls35x-lab-e-r1-complete.svg",
+    "topViewUrl": "./topviews/kit_ls35x-lab-e-r1-complete.svg",
+    "placementAllowed": false,
+    "baseBoundsMm": {
+      "xMin": -37.5,
+      "xMax": 37.5,
+      "yMin": -25,
+      "yMax": 25
+    },
+    "collisionBoundsMm": {
+      "xMin": -37.5,
+      "xMax": 37.5,
+      "yMin": -27.50000010000001,
+      "yMax": 27.499999999999996
+    },
+    "opticalType": "empty",
+    "opticalDefaults": {
+      "elementType": "empty",
+      "inserted": false,
+      "configured": true
+    },
+    "note": "经位移模块入口生成运动子板，不能当静态光学实例放置。",
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "d1a62c3a442f9039bc57b9b4ba2bb5d3858b88a11e5ad434af10cc7f87ea1eaa",
+      "imageSha256": "05d2ae3986f5c0397490c6c4dcc3a2dd6b7461b8d013d5857425fa6ae9cc2960",
+      "dimensionsAndAnchorPreserved": true,
+      "geometryChanged": false,
+      "excludedLeaves": [],
+      "evidencePackageId": "topview-shaded-metal-20261008"
+    }
+  },
+  "sourceUrl": "https://zolix.com.cn/index.php/Product_desc/1257_1769.html",
+  "status": "标准数据候选已建；原厂孔入口及实装验收未完成",
+  "notes": "官方当前 LS35x.Lab 共享 STEP 为 22 实体参考源，产品选型含 .Lab.E；E 实物型号/编码器零点/中位孔网未验。底部四安装孔中 native(15,-10) 对应原厂实体22未提供完整 Ø4 入口，标准 M2 头和工具路径在共享源中受阻；不得据本候选宣称四孔装配通过。 自制底6＋厂家台12＋上7=25。标定中位孔网12.5；q连续移动后不保持与母板孔重合。固定底座和母板螺钉保持不动。",
+  "pendingRequirements": [
+    {
+      "id": "supplier-foot-head-entry",
+      "label": "厂家核对 native(15,-10) 安装脚入口、螺钉头及工具路径；当前共享STEP实体22遮挡"
+    },
+    {
+      "id": "e-model-as-built",
+      "label": "核对实物为LS35x.Lab.E，验证共享源与实物底/顶接口相符"
+    },
+    {
+      "id": "midpoint-grid-calibration",
+      "label": "标定机械中位、编码器读数与母板/上板孔网；当前未实测"
+    }
+  ],
+  "assemblyReference": {
+    "stepPath": "step/ls35x-lab-e-r1/assemblies/31-LS35-ASM_R1_q+0mm.step",
+    "sourceStepSha256": "d1a62c3a442f9039bc57b9b4ba2bb5d3858b88a11e5ad434af10cc7f87ea1eaa",
+    "drawingPath": null
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "d7f5df0800925e448d33871ad71fe981f27399e15ab9c255d313759b45a35166",
+        "sha256": "156f58679a17b304accaa3f3a96000b60a699f4754221d282732fa2f093b7645"
+      }
+    ]
+  },
+  "id": "stage-board-zolix-ls35x-lab-e"
+}

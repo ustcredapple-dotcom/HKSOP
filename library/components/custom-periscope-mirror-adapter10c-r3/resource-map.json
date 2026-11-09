@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-periscope-mirror-adapter10c-r3",
+  "files": [
+    {
+      "path": "cad/43dd9408332c8017c962d40677cbbac0589fb97f4c20c7da3678ebd38a21bc96.step",
+      "stored": "library/assets/sha256/43/43dd9408332c8017c962d40677cbbac0589fb97f4c20c7da3678ebd38a21bc96.step",
+      "sha256": "43dd9408332c8017c962d40677cbbac0589fb97f4c20c7da3678ebd38a21bc96",
+      "originalReferences": [
+        "step/periscope-standard-r3/10-C_R3.step"
+      ],
+      "sources": [
+        "library/assets/sha256/43/43dd9408332c8017c962d40677cbbac0589fb97f4c20c7da3678ebd38a21bc96.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

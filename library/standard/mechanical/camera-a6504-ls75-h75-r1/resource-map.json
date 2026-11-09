@@ -1,0 +1,36 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "camera-a6504-ls75-h75-r1",
+  "files": [
+    {
+      "path": "rendering/8acaa2392f7dad1ccf15510a8f3058a2c4da2e07495e23f2f0285fb7355f728d.svg",
+      "stored": "library/assets/sha256/8a/8acaa2392f7dad1ccf15510a8f3058a2c4da2e07495e23f2f0285fb7355f728d.svg",
+      "sha256": "8acaa2392f7dad1ccf15510a8f3058a2c4da2e07495e23f2f0285fb7355f728d",
+      "originalReferences": [
+        "topviews/camera-a6504-ls75-h75-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/8a/8acaa2392f7dad1ccf15510a8f3058a2c4da2e07495e23f2f0285fb7355f728d.svg"
+      ]
+    },
+    {
+      "path": "cad/9ec8c67c3cac775dca29cd7a8a2151bf6e965b950d9e75714891b4068b485fb6.step",
+      "stored": "library/assets/sha256/9e/9ec8c67c3cac775dca29cd7a8a2151bf6e965b950d9e75714891b4068b485fb6.step",
+      "sha256": "9ec8c67c3cac775dca29cd7a8a2151bf6e965b950d9e75714891b4068b485fb6",
+      "originalReferences": [
+        "step/camera-ls75-h75-r2/36-LS75-A_H75_R1_ASSEMBLY.step"
+      ],
+      "sources": [
+        "library/assets/sha256/9e/9ec8c67c3cac775dca29cd7a8a2151bf6e965b950d9e75714891b4068b485fb6.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-36-ls75-a-r1",
+    "hardware-ls75-board-m6-length-select",
+    "hardware-xbk-iso4762-m6x8",
+    "lbtek-ls75-50c",
+    "new-hardware-0cc1a2908550",
+    "purchased-camera-a6504-pro"
+  ]
+}

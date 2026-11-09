@@ -1,0 +1,29 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "dpt3-lens200-r1",
+  "revision": "source-snapshot",
+  "displayName": "Dipole Trap 3 · R200透镜直装",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/dpt3-lens200-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "dpt3-lens-1in-f200-unselected",
+    "dpt3-lens-support-r1",
+    "it75-r3-m6x20",
+    "new-hardware-f0579b934c7c",
+    "new-lens-filter-vendor-1"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

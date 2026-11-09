@@ -1,0 +1,35 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "qp1-aom-amp1r-forward-r1",
+  "revision": "R1-H12p5B4R2",
+  "displayName": "QP1 AOM · AMP-1R 前伸薄板 R1",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/qp1-aom-amp1r-forward-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "amp-1r",
+    "custom-post-metric-12p5mm-m1",
+    "custom-q1fb-r1",
+    "custom-q1ft-r1",
+    "hardware-dowel-d2x6",
+    "hardware-iso4762-m3x8",
+    "hardware-iso4762-m6x12",
+    "new-hardware-0cc1a2908550",
+    "new-hardware-f0579b934c7c",
+    "qp1-aom-user-supplied",
+    "servo-pd-m3-washer-0p5"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

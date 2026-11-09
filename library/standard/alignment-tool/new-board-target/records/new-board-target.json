@@ -1,0 +1,231 @@
+{
+  "name": "面包板双位高度靶 · 间距50 mm",
+  "category": "alignment-tool",
+  "variant": "公制 M1 · 名义光高62.5 mm",
+  "description": "M1真实装配俯视图；保持原安装与光学XY基准，配套公制转接件、正式万能柱及同源加工图。",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/c45c5438693733e160f099f2",
+  "sourceOnshapeStatus": "M1_FIXED_VERSION_ASSEMBLY_VERIFIED",
+  "components": [
+    {
+      "componentId": "new-r3-14-height-frame",
+      "quantity": 2
+    },
+    {
+      "componentId": "new-r3-13-14-common-target",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [],
+  "status": "M1加工审核版",
+  "notes": "辅助对准件仅作名义几何参考，不作激光承受或精密标定认证。 两只支架分别接到原面包板，靶片共用13-TGT单件；装配中A/B站距50mm。参考面包板不降低，支架高度与靶片接口改到62.5。 非柱侧安装紧固件仍按孔表与实物选配。",
+  "releaseStage": "engineering-review",
+  "bundleStatus": "complete",
+  "bundleNote": "冻结M1 STEP、三页加工PDF及可编辑DXF配套；未作实物试装验收。",
+  "layout": {
+    "topViewPath": "topviews/kit_new-board-target_M1.svg",
+    "topViewUrl": "./topviews/kit_new-board-target_M1.svg",
+    "widthMm": 73.15411765,
+    "heightMm": 28.2,
+    "anchorXMm": 8.57705882,
+    "anchorYMm": 14.1,
+    "baseBoundsMm": {
+      "xMin": -8.0,
+      "yMin": -13.35,
+      "xMax": 64.0,
+      "yMax": 13.35
+    },
+    "basePolygonsMm": [
+      [
+        {
+          "xMm": -8.0,
+          "yMm": 13.35
+        },
+        {
+          "xMm": 14.0,
+          "yMm": 13.35
+        },
+        {
+          "xMm": 14.0,
+          "yMm": -13.35
+        },
+        {
+          "xMm": -8.0,
+          "yMm": -13.35
+        }
+      ],
+      [
+        {
+          "xMm": 42.0,
+          "yMm": 13.35
+        },
+        {
+          "xMm": 64.0,
+          "yMm": 13.35
+        },
+        {
+          "xMm": 64.0,
+          "yMm": -13.35
+        },
+        {
+          "xMm": 42.0,
+          "yMm": -13.35
+        }
+      ]
+    ],
+    "collisionBoundsMm": {
+      "xMin": -8.15,
+      "yMin": -13.5,
+      "xMax": 64.15,
+      "yMax": 13.5
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": 41.85,
+          "yMm": 13.5
+        },
+        {
+          "xMm": 64.15,
+          "yMm": 13.5
+        },
+        {
+          "xMm": 64.15,
+          "yMm": -13.5
+        },
+        {
+          "xMm": 41.85,
+          "yMm": -13.5
+        }
+      ],
+      [
+        {
+          "xMm": -8.15,
+          "yMm": 13.5
+        },
+        {
+          "xMm": 14.15,
+          "yMm": 13.5
+        },
+        {
+          "xMm": 14.15,
+          "yMm": -13.5
+        },
+        {
+          "xMm": -8.15,
+          "yMm": -13.5
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "metric-m1-2026-10-06",
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": 0.0,
+        "yMm": -6.25
+      },
+      {
+        "xMm": 0.0,
+        "yMm": 6.25
+      },
+      {
+        "xMm": 50.0,
+        "yMm": -6.25
+      },
+      {
+        "xMm": 50.0,
+        "yMm": 6.25
+      }
+    ],
+    "placementAllowed": true,
+    "status": "M1 STEP实际俯视投影与安装孔已核验",
+    "note": "实际 STEP 俯视投影；碰撞轮廓按 CAD 投影细分并保留 0.15 mm 余量；按底座真实安装孔吸附。已去除非生产参考面包板；两个独立支脚的实际安装孔在 12.5 mm 网格全部对齐，在 25 mm 网格最多对齐两孔。",
+    "nominalOpticalHeightMm": 62.5,
+    "opticalGeometryEvidence": {
+      "coordinateFrame": "world X right / Y up / Z height",
+      "sourceDatumHeightMm": 62.5,
+      "opticalCenterMm": {
+        "xMm": 0.0,
+        "yMm": 0.0
+      },
+      "geometricReferenceOnly": true,
+      "simulationType": "unsupported",
+      "referenceKind": "temporary alignment / layout tool",
+      "note": "辅助对光靶或布局尺；未定义透射、吸收或其它光学响应，不作为光源。",
+      "targetCentersWorldMm": [
+        [
+          0,
+          0,
+          62.5
+        ],
+        [
+          50,
+          0,
+          62.5
+        ]
+      ],
+      "migrationEvidence": {
+        "sourceSha256": "8f67bb7ae08922c206f9794d9b621ecb7d8bfc91b4183c7eb922010907726665",
+        "providerReadbackStatus": "PASS_REPLACEMENT_READBACK_FINAL_POST_SOURCE_CHECK_REQUIRED_SEPARATELY",
+        "supplierTranslationMm": [
+          0,
+          0,
+          -1
+        ],
+        "measuredAgainstFrozenM1": true,
+        "physicalTrialCompleted": false
+      }
+    },
+    "geometryEvidence": {
+      "sourceStep": null,
+      "sourceSha256": "8f67bb7ae08922c206f9794d9b621ecb7d8bfc91b4183c7eb922010907726665",
+      "partCount": 4,
+      "postCount": 0,
+      "imageSha256": "01a2328e4f854ca4c34b8dd003074756bc189164957d3f626ed83ae9b0f883cf",
+      "faceColoursPreserved": true,
+      "excludedReferenceCount": 1,
+      "guardMm": 0.15,
+      "meshDeflectionMm": 0.04,
+      "axes": "world X right / Y up / Z height",
+      "referenceAssembly": {
+        "assetKind": "assembly-reference-not-manufacturing-part",
+        "stepPath": "step/metric-m1-20261006/14_M1_METRIC_zero_ASSEM.step"
+      }
+    },
+    "opticalType": "unsupported",
+    "opticalSurfaceAngleDeg": 90.0,
+    "opticalAxisHeightMm": 62.5,
+    "opticalCenterMm": {
+      "xMm": 0.0,
+      "yMm": 0.0
+    },
+    "opticalDatumVerified": true,
+    "opticalAxisHeightSource": "冻结M1总装、正式公制柱及商用件实际刚体变换已回读；名义光高62.5 mm。",
+    "opticalSimulationNote": "辅助对光靶或布局尺；未定义透射、吸收或其它光学响应，不作为光源。",
+    "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/2ed7fb2849af8aa467c0db11/e/c45c5438693733e160f099f2"
+  },
+  "optionalNotes": [
+    "M1柱侧螺钉与销钉已按同源BOM计入；其余安装紧固件按孔表和实测有效牙深选配。"
+  ],
+  "manufacturingRevision": "M1",
+  "manufacturingEvidence": {
+    "sourceAssembly": {
+      "stepPath": "step/metric-m1-20261006/14_M1_METRIC_zero_ASSEM.step",
+      "sha256": "8f67bb7ae08922c206f9794d9b621ecb7d8bfc91b4183c7eb922010907726665"
+    },
+    "sourceVersionId": "4931897f80d530bffcf46a4e",
+    "customCodes": [
+      "14-TGT-B",
+      "13-TGT"
+    ],
+    "hardwarePolicy": "M1 supplied column-side screws and pins included; other mounting fasteners remain optional pending selection.",
+    "topViewVisualReviewPassed": true,
+    "physicalTrialCompleted": false
+  },
+  "metricRevision": {
+    "revision": "M1",
+    "nativeAssemblySha256": "8f67bb7ae08922c206f9794d9b621ecb7d8bfc91b4183c7eb922010907726665",
+    "nominalAxisHeightMm": 62.5,
+    "sourceVersionId": "4931897f80d530bffcf46a4e",
+    "preservedInstanceXY": true
+  },
+  "id": "new-board-target"
+}

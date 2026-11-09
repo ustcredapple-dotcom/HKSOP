@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-motor-m2s-a-r2",
+  "files": [
+    {
+      "path": "cad/7c6d9bf7b31a16f17d50b0f0b08f5384b61db3b9a23190af6982cd9ede5d07b1.step",
+      "stored": "library/assets/sha256/7c/7c6d9bf7b31a16f17d50b0f0b08f5384b61db3b9a23190af6982cd9ede5d07b1.step",
+      "sha256": "7c6d9bf7b31a16f17d50b0f0b08f5384b61db3b9a23190af6982cd9ede5d07b1",
+      "originalReferences": [
+        "step/motor-slot-split-r2/M2S-A.step"
+      ],
+      "sources": [
+        "library/assets/sha256/7c/7c6d9bf7b31a16f17d50b0f0b08f5384b61db3b9a23190af6982cd9ede5d07b1.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

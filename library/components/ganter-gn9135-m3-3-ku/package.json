@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "ganter-gn9135-m3-3-ku",
+  "revision": "source-snapshot",
+  "displayName": "M3×3 POM胶头机米",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/ganter-gn9135-m3-3-ku.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

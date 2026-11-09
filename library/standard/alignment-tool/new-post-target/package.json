@@ -1,0 +1,29 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-post-target",
+  "revision": "CURRENT-B6R1",
+  "displayName": "柱顶可拆孔靶 · 62.5 mm",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/new-post-target.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-post-metric-37p5mm-m1",
+    "metric-m1-post-m4x8",
+    "metric-m1-post-pin-d2x8",
+    "new-r3-13-14-common-target",
+    "new-r3-13-target-frame"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

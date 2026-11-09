@@ -1,0 +1,30 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "d-mirror-dm1f-45-r1",
+  "revision": "R1",
+  "displayName": "DM1F-R1 · 固定式D形反射镜竖直刀口 · 45°",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/d-mirror-dm1f-45-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-dm1f-r1",
+    "custom-post-metric-25mm-m1",
+    "lbtek-dfm1",
+    "metric-m1-post-m4x16",
+    "metric-m1-post-m4x8",
+    "metric-m1-post-pin-d2x8"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

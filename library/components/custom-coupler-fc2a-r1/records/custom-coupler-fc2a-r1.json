@@ -1,0 +1,121 @@
+{
+  "id": "custom-coupler-fc2a-r1",
+  "name": "双波片耦合头 FC2A 转接块",
+  "model": "FC2A",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R1",
+  "productionReady": false,
+  "drawingStatus": "engineering-review",
+  "status": "名义CAD与加工审核图；公差待工程发布",
+  "sourceUrl": "https://cad.onshape.com/documents/3a3c1d8089df865b8b4e822a/w/751844d84c1560d9a3edb630/e/7cd902e15cbc2b104464e37c",
+  "sourceAssembly": {
+    "sourceUrl": "https://cad.onshape.com/documents/3a3c1d8089df865b8b4e822a/w/751844d84c1560d9a3edb630/e/7cd902e15cbc2b104464e37c",
+    "title": "光路模块化 | 光纤耦合",
+    "downloadedAt": "2026-10-06T17:15:03.3961036+08:00",
+    "format": "STEP AP242",
+    "exportOptions": {
+      "individualParts": false,
+      "includeHidden": false,
+      "yAxisUp": false
+    },
+    "localPath": "source/mechanical/fiber-coupling-source-20261006.step",
+    "bytes": 4341984,
+    "sha256": "5b94f47a2d3deff597195f3d5bcd7867b9afa6a6bc4fac68f912f5ed3a920f66",
+    "status": "read-only assembly export from public shared document"
+  },
+  "stepPath": "step/03_耦合/coupler-dual-waveplate-r1/FC2A-adapter.step",
+  "drawingPath": null,
+  "dxfPath": null,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "threadClass": "待确认",
+    "processDetails": "有效转接厚10mm；外廓30×60.05×13mm。孔位、沉孔与止挡按冻结CAD和审核图；粗糙度/配合公差待工程发布。"
+  },
+  "notes": "保留正式H25的退磁喷砂；FC2A独立去磁钝化。装配螺钉与销为待确认候选，参见套件待补充需求。",
+  "manufacturingEvidence": {
+    "revision": "R1",
+    "sourceStepSha256": "6fd10776a9763a56f661d2a06d96fada8590e8f1f852bce0d8f0f95af719c1cd",
+    "drawingSha256": "e7d2ec89afef12751c06bc5e5069de8704295c01d256f40aa541f4feceb8fe6e",
+    "dxfSha256": "f58313c42498c820203162b0e5d2a94d10e136896be751f0801f56a0f7e8e9af",
+    "evidence": [
+      {
+        "path": "mechanical/parameters.json",
+        "sha256": "8d8d6055768b1b9f696ff591e9cd86473c04c995216f5f5f4aa8b614817409ec"
+      },
+      {
+        "path": "mechanical/FC2-dual-waveplate-62p5-assembly.step",
+        "sha256": "7bc4e74a029329eb88f07b3f4eebd8dad74bd3edd1185309a0eea8919f450dbe"
+      },
+      {
+        "path": "research/mechanical/cad-verification.json",
+        "sha256": "63afed66fabc3ec49d72526ccb1be10603f9dfd06aca1d3d5b40ecf62570f010"
+      }
+    ],
+    "physicalAssemblyTested": false,
+    "engineeringReleaseApproved": false,
+    "supportingSections": [
+      {
+        "dxfPath": null,
+        "sha256": "244387efec9d743e35f147d277676e7df7bf860b6f999cca8356a2d831b52b87",
+        "dxfPdfPath": null,
+        "dxfPdfSha256": "efa6bb3736cc01e6723df1fae617e2259047cce5971ce736e31905228a7327b1"
+      }
+    ],
+    "assemblyReviewRevision": "R2 (component geometry stays R1; original manufacturing page 2 retained)"
+  },
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "c3dc13462626e34bb77ec2cf3554bafcb04a30bc69e35118fdd3ece94f216341",
+  "sourceDrawingSha256": "e7d2ec89afef12751c06bc5e5069de8704295c01d256f40aa541f4feceb8fe6e",
+  "drawingPages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "35e4783aec3fc9e7e8b8af51c04c260ae46ecca7220cec2a147003871e1d0413",
+      "currentPdfSha256": "e7d2ec89afef12751c06bc5e5069de8704295c01d256f40aa541f4feceb8fe6e",
+      "annotatedPages": [
+        2
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "e1ac3cdb6f58b8705c976058b30b8e3521ea6e9ed6bb4c871251c19f206c55cd",
+      "currentPdfSha256": "c3dc13462626e34bb77ec2cf3554bafcb04a30bc69e35118fdd3ece94f216341",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/manufacturingEvidence/supportingSections/0/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "dd7da18f6c319908de5a56b5f63b6610446111d6a544507b89b186ef9641e014",
+      "currentPdfSha256": "efa6bb3736cc01e6723df1fae617e2259047cce5971ce736e31905228a7327b1",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前 STEP 原字形及功能文字改用激光打标，完整轮廓与位置已提取核验。",
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

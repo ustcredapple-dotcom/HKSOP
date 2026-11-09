@@ -1,0 +1,2820 @@
+{
+  "format": "zzlab-optical-interaction-validation-fixtures",
+  "version": 1,
+  "cases": [
+    {
+      "id": "minimal-planar",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "source-no-constraint",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {}
+      }
+    },
+    {
+      "id": "numeric-version-one-point-zero",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1.0,
+        "model": "source",
+        "emission": {}
+      },
+      "normalized": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {}
+      }
+    },
+    {
+      "id": "constrained-source",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {
+          "direction": {
+            "angleDeg": -45,
+            "halfAngleDeg": 5,
+            "bidirectional": true
+          },
+          "wavelengthNm": {
+            "min": 400,
+            "max": 700,
+            "onMismatch": "warn"
+          }
+        },
+        "heightToleranceMm": 0.5
+      }
+    },
+    {
+      "id": "constrained-planar",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ],
+            "direction": {
+              "angleDeg": -45,
+              "halfAngleDeg": 5,
+              "bidirectional": true
+            },
+            "wavelengthNm": {
+              "min": 400,
+              "max": 700,
+              "onMismatch": "warn"
+            }
+          }
+        ],
+        "onNoMatch": "pass"
+      }
+    },
+    {
+      "id": "minimal-op-pass",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "minimal-op-pbs",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pbs"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "minimal-op-mirror",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "mirror"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "minimal-op-waveplate",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "waveplate"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "minimal-op-lens",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "lens"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "minimal-op-coupler",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "coupler"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "minimal-op-absorb",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "absorb"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "block-reason",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "block",
+                "reason": "缺少已核对数据"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "absorb-reason",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "absorb",
+                "reason": "已耦合进入光纤"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "attenuate-zero",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "attenuate",
+                "transmission": 0
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "attenuate-one",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "attenuate",
+                "transmission": 1
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "mirror-ideal",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "mirror",
+                "mirror": {
+                  "mode": "ideal",
+                  "samples": []
+                }
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "mirror-partial-phase",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "mirror",
+                "mirror": {
+                  "mode": "data",
+                  "model": "BDM1-A",
+                  "samples": [
+                    {
+                      "wavelengthNm": 532,
+                      "incidenceAngleDeg": 45,
+                      "reflectanceP": 0.9,
+                      "reflectanceS": 0.95,
+                      "phaseDifferenceDeg": null
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "dual-waveplates",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "waveplate",
+                "waveplates": [
+                  {
+                    "inserted": true,
+                    "fastAxisDeg": 22.5,
+                    "retardanceDeg": 180,
+                    "designWavelengthNm": 532
+                  },
+                  {
+                    "inserted": false
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "lens-boundary--1000000.0",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "lens",
+                "focalLengthMm": -1000000.0
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "lens-boundary--1e-06",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "lens",
+                "focalLengthMm": -1e-06
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "lens-boundary-1e-06",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "lens",
+                "focalLengthMm": 1e-06
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "lens-boundary-1000000.0",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "lens",
+                "focalLengthMm": 1000000.0
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "coupler-boundary-0",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "coupler",
+                "halfAngleDeg": 0
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "coupler-boundary-90",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "coupler",
+                "halfAngleDeg": 90
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "array-upper-boundaries",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "0",
+            "steps": [
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "1",
+            "steps": [
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "steps": [
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "steps": [
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "4",
+            "steps": [
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "5",
+            "steps": [
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "6",
+            "steps": [
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "7",
+            "steps": [
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "8",
+            "steps": [
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "9",
+            "steps": [
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "10",
+            "steps": [
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "11",
+            "steps": [
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "12",
+            "steps": [
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "13",
+            "steps": [
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "14",
+            "steps": [
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "15",
+            "steps": [
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "height-boundary-0",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {},
+        "heightToleranceMm": 0
+      }
+    },
+    {
+      "id": "height-boundary-100",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {},
+        "heightToleranceMm": 100
+      }
+    },
+    {
+      "id": "preserve-identifier-and-reason-whitespace",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": " x ",
+            "steps": [
+              {
+                "op": "block",
+                "reason": " x "
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "wrong-program-type-None",
+      "valid": false,
+      "program": null
+    },
+    {
+      "id": "wrong-program-type-[]",
+      "valid": false,
+      "program": []
+    },
+    {
+      "id": "wrong-program-type-True",
+      "valid": false,
+      "program": true
+    },
+    {
+      "id": "wrong-program-type-program",
+      "valid": false,
+      "program": "program"
+    },
+    {
+      "id": "wrong-program-type-1",
+      "valid": false,
+      "program": 1
+    },
+    {
+      "id": "missing-format",
+      "valid": false,
+      "program": {
+        "version": 1,
+        "model": "source",
+        "emission": {}
+      }
+    },
+    {
+      "id": "missing-version",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "model": "source",
+        "emission": {}
+      }
+    },
+    {
+      "id": "missing-model",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "emission": {}
+      }
+    },
+    {
+      "id": "bad-top-format-other",
+      "valid": false,
+      "program": {
+        "format": "other",
+        "version": 1,
+        "model": "source",
+        "emission": {}
+      }
+    },
+    {
+      "id": "bad-top-version-2",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 2,
+        "model": "source",
+        "emission": {}
+      }
+    },
+    {
+      "id": "bad-top-version-True",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": true,
+        "model": "source",
+        "emission": {}
+      }
+    },
+    {
+      "id": "bad-top-version-1",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": "1",
+        "model": "source",
+        "emission": {}
+      }
+    },
+    {
+      "id": "bad-top-model-3d",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "3d",
+        "emission": {}
+      }
+    },
+    {
+      "id": "bad-top-model-[]",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": [],
+        "emission": {}
+      }
+    },
+    {
+      "id": "bad-top-code-return ray",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {},
+        "code": "return ray"
+      }
+    },
+    {
+      "id": "bad-top-heightToleranceMm-True",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {},
+        "heightToleranceMm": true
+      }
+    },
+    {
+      "id": "bad-top-heightToleranceMm--1",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {},
+        "heightToleranceMm": -1
+      }
+    },
+    {
+      "id": "bad-top-heightToleranceMm-101",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {},
+        "heightToleranceMm": 101
+      }
+    },
+    {
+      "id": "bad-top-heightToleranceMm-1",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {},
+        "heightToleranceMm": "1"
+      }
+    },
+    {
+      "id": "source-forbidden-inputs",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {},
+        "inputs": []
+      }
+    },
+    {
+      "id": "source-forbidden-onNoMatch",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {},
+        "onNoMatch": "pass"
+      }
+    },
+    {
+      "id": "source-missing-emission",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source"
+      }
+    },
+    {
+      "id": "source-unknown-emission-field",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {
+          "outputPower": 2
+        }
+      }
+    },
+    {
+      "id": "planar-missing-inputs",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "planar-missing-onNoMatch",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "planar-bad-emission-{}",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block",
+        "emission": {}
+      }
+    },
+    {
+      "id": "planar-bad-inputs-[]",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "planar-bad-inputs-{}",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": {},
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "planar-bad-onNoMatch-warn",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "warn"
+      }
+    },
+    {
+      "id": "too-many-inputs",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "duplicate-input-id",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          },
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-input-id-",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-input-id-  ",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "  ",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-input-id-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-input-id-1",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": 1,
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-input-steps-[]",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": []
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-input-steps-[{'op': 'pass'}, {'op': 'pass'}, {'op': ",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              },
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-input-steps-{}",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": {}
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-input-geometry-{}",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ],
+            "geometry": {}
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "missing-input-id",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "missing-input-steps",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main"
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-direction-angleDeg-True",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {
+          "direction": {
+            "angleDeg": true,
+            "halfAngleDeg": 5,
+            "bidirectional": true
+          }
+        }
+      }
+    },
+    {
+      "id": "bad-direction-angleDeg-3601",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {
+          "direction": {
+            "angleDeg": 3601,
+            "halfAngleDeg": 5,
+            "bidirectional": true
+          }
+        }
+      }
+    },
+    {
+      "id": "bad-direction-halfAngleDeg--1",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {
+          "direction": {
+            "angleDeg": -45,
+            "halfAngleDeg": -1,
+            "bidirectional": true
+          }
+        }
+      }
+    },
+    {
+      "id": "bad-direction-halfAngleDeg-91",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {
+          "direction": {
+            "angleDeg": -45,
+            "halfAngleDeg": 91,
+            "bidirectional": true
+          }
+        }
+      }
+    },
+    {
+      "id": "bad-direction-bidirectional-1",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {
+          "direction": {
+            "angleDeg": -45,
+            "halfAngleDeg": 5,
+            "bidirectional": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "bad-direction-unknown-0",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {
+          "direction": {
+            "angleDeg": -45,
+            "halfAngleDeg": 5,
+            "bidirectional": true,
+            "unknown": 0
+          }
+        }
+      }
+    },
+    {
+      "id": "missing-direction-angleDeg",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {
+          "direction": {
+            "halfAngleDeg": 5,
+            "bidirectional": true
+          }
+        }
+      }
+    },
+    {
+      "id": "missing-direction-halfAngleDeg",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {
+          "direction": {
+            "angleDeg": -45,
+            "bidirectional": true
+          }
+        }
+      }
+    },
+    {
+      "id": "missing-direction-bidirectional",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {
+          "direction": {
+            "angleDeg": -45,
+            "halfAngleDeg": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "bad-wavelength-min-0",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {
+          "wavelengthNm": {
+            "min": 0,
+            "max": 700,
+            "onMismatch": "warn"
+          }
+        }
+      }
+    },
+    {
+      "id": "bad-wavelength-max-1000001.0",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {
+          "wavelengthNm": {
+            "min": 400,
+            "max": 1000001.0,
+            "onMismatch": "warn"
+          }
+        }
+      }
+    },
+    {
+      "id": "bad-wavelength-min-True",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {
+          "wavelengthNm": {
+            "min": true,
+            "max": 700,
+            "onMismatch": "warn"
+          }
+        }
+      }
+    },
+    {
+      "id": "bad-wavelength-max-399",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {
+          "wavelengthNm": {
+            "min": 400,
+            "max": 399,
+            "onMismatch": "warn"
+          }
+        }
+      }
+    },
+    {
+      "id": "bad-wavelength-onMismatch-pass",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {
+          "wavelengthNm": {
+            "min": 400,
+            "max": 700,
+            "onMismatch": "pass"
+          }
+        }
+      }
+    },
+    {
+      "id": "bad-wavelength-extra-1",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "source",
+        "emission": {
+          "wavelengthNm": {
+            "min": 400,
+            "max": 700,
+            "onMismatch": "warn",
+            "extra": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "bad-step-85",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "script"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-86",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pass",
+                "reason": "x"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-87",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "pbs",
+                "transmission": 0.5
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-88",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "mirror",
+                "coating": {}
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-89",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "mirror",
+                "mirror": {
+                  "mode": "data",
+                  "samples": [
+                    {
+                      "wavelengthNm": 532,
+                      "incidenceAngleDeg": 45,
+                      "reflectanceP": 0.9,
+                      "reflectanceS": 0.95,
+                      "phaseDifferenceDeg": null
+                    },
+                    {
+                      "wavelengthNm": 532,
+                      "incidenceAngleDeg": 45,
+                      "reflectanceP": 0.9,
+                      "reflectanceS": 0.95,
+                      "phaseDifferenceDeg": null
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-90",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "mirror",
+                "mirror": {
+                  "mode": "ideal"
+                }
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-91",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "waveplate",
+                "waveplates": []
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-92",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "waveplate",
+                "waveplates": [
+                  {
+                    "inserted": true
+                  },
+                  {
+                    "inserted": true
+                  },
+                  {
+                    "inserted": true
+                  },
+                  {
+                    "inserted": true
+                  },
+                  {
+                    "inserted": true
+                  },
+                  {
+                    "inserted": true
+                  },
+                  {
+                    "inserted": true
+                  },
+                  {
+                    "inserted": true
+                  },
+                  {
+                    "inserted": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-93",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "waveplate",
+                "waveplates": [
+                  {
+                    "inserted": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-94",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "lens",
+                "focalLengthMm": 0
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-95",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "lens",
+                "focalLengthMm": null
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-96",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "lens",
+                "focalLengthMm": true
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-97",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "lens",
+                "focalLengthMm": 1e-07
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-98",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "coupler",
+                "halfAngleDeg": 91
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-99",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "attenuate"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-100",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "attenuate",
+                "transmission": true
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-101",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "attenuate",
+                "transmission": 1.01
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-102",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "block"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-103",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "block",
+                "reason": "  "
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-104",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "absorb",
+                "reason": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-105",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "absorb",
+                "reason": 1
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-106",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              null
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bad-step-107",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              []
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "reserved-__proto__",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "__proto__",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "reserved-constructor",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "constructor",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "reserved-prototype",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "prototype",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "control-id-nul",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "\u0000",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "control-reason-nul",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "block",
+                "reason": "\u0000"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "control-id-newline",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "a\nb",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "control-reason-newline",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "block",
+                "reason": "a\nb"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "control-id-del",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "control-reason-del",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "block",
+                "reason": ""
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "unicode-id-80-codepoints",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "unicode-id-81-codepoints",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "unicode-reason-500-codepoints",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "block",
+                "reason": "🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "unicode-reason-501-codepoints",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "main",
+            "steps": [
+              {
+                "op": "block",
+                "reason": "🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "bom-whitespace-only-id",
+      "valid": false,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "﻿",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    },
+    {
+      "id": "nel-id-ecmascript-not-whitespace",
+      "valid": true,
+      "program": {
+        "format": "zzlab-optical-interaction",
+        "version": 1,
+        "model": "planar",
+        "inputs": [
+          {
+            "id": "",
+            "steps": [
+              {
+                "op": "pass"
+              }
+            ]
+          }
+        ],
+        "onNoMatch": "block"
+      }
+    }
+  ]
+}

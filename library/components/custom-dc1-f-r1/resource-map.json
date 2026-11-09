@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-dc1-f-r1",
+  "files": [
+    {
+      "path": "cad/1dab33cdf1c8d434d44ab0db9f1b6bf020705cd9ed18f59e6a4479320ac94899.step",
+      "stored": "library/assets/sha256/1d/1dab33cdf1c8d434d44ab0db9f1b6bf020705cd9ed18f59e6a4479320ac94899.step",
+      "sha256": "1dab33cdf1c8d434d44ab0db9f1b6bf020705cd9ed18f59e6a4479320ac94899",
+      "originalReferences": [
+        "step/fixed-dichroic-r1/DC1-F_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/1d/1dab33cdf1c8d434d44ab0db9f1b6bf020705cd9ed18f59e6a4479320ac94899.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

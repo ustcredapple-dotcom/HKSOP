@@ -1,0 +1,61 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "motor-1",
+  "files": [
+    {
+      "path": "cad/ac5685abb016b2b76b687e929d79c0b8f83f2a21e65b59720ecd92ec53629892.step",
+      "stored": "library/assets/sha256/ac/ac5685abb016b2b76b687e929d79c0b8f83f2a21e65b59720ecd92ec53629892.step",
+      "sha256": "ac5685abb016b2b76b687e929d79c0b8f83f2a21e65b59720ecd92ec53629892",
+      "originalReferences": [
+        "step/ms2-r3-thru-20261020/motor-1-45__MS2-A_R3-THRU_B6.step"
+      ],
+      "sources": [
+        "library/assets/sha256/ac/ac5685abb016b2b76b687e929d79c0b8f83f2a21e65b59720ecd92ec53629892.step"
+      ]
+    },
+    {
+      "path": "rendering/b608cf37b3d853df5109f9686b0c2889291b6158beeb08307ca0b566a5ea1f41.svg",
+      "stored": "library/assets/sha256/b6/b608cf37b3d853df5109f9686b0c2889291b6158beeb08307ca0b566a5ea1f41.svg",
+      "sha256": "b608cf37b3d853df5109f9686b0c2889291b6158beeb08307ca0b566a5ea1f41",
+      "originalReferences": [
+        "topviews/motor-1-45-ms2-r3-thru.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/b6/b608cf37b3d853df5109f9686b0c2889291b6158beeb08307ca0b566a5ea1f41.svg"
+      ]
+    },
+    {
+      "path": "cad/d012d61f5238ee3f42838420f8dfa4d8b83ca858cdc1f60f26ba576d2225d1fc.step",
+      "stored": "library/assets/sha256/d0/d012d61f5238ee3f42838420f8dfa4d8b83ca858cdc1f60f26ba576d2225d1fc.step",
+      "sha256": "d012d61f5238ee3f42838420f8dfa4d8b83ca858cdc1f60f26ba576d2225d1fc",
+      "originalReferences": [
+        "step/ms2-r3-thru-20261020/motor-1-90__MS2-A_R3-THRU_B6.step"
+      ],
+      "sources": [
+        "library/assets/sha256/d0/d012d61f5238ee3f42838420f8dfa4d8b83ca858cdc1f60f26ba576d2225d1fc.step"
+      ]
+    },
+    {
+      "path": "rendering/e9d3257b8698ac149e71d7b0bb05d571c60c4f8cc475fba80c8333c9b9d66b9c.svg",
+      "stored": "library/assets/sha256/e9/e9d3257b8698ac149e71d7b0bb05d571c60c4f8cc475fba80c8333c9b9d66b9c.svg",
+      "sha256": "e9d3257b8698ac149e71d7b0bb05d571c60c4f8cc475fba80c8333c9b9d66b9c",
+      "originalReferences": [
+        "topviews/motor-1-90-ms2-r3-thru.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/e9/e9d3257b8698ac149e71d7b0bb05d571c60c4f8cc475fba80c8333c9b9d66b9c.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-motor-adapter-10-s2-r2",
+    "custom-motor-ms2-a-r3-thru",
+    "custom-motor-ms2-h-r2",
+    "custom-motor-ms2-l-r2",
+    "custom-motor-ms2-s-r2",
+    "custom-post-metric-25mm-m1",
+    "encoder-servo",
+    "motor-adapter-m3",
+    "mt-am1s5"
+  ]
+}

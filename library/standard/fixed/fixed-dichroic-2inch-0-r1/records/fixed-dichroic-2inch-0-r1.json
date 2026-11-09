@@ -1,0 +1,361 @@
+{
+  "name": "固定双色镜 · 2 inch · 0° · R1",
+  "category": "fixed",
+  "variant": "MT-FLF2S · Ø50.8×5 · H62.5",
+  "revision": "R1",
+  "description": "真实双色镜厚度补偿转接板，0°/45°为机械安装朝向。",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/w/d67de20d807c6dd6e1db6440/e/db96c464961567ceaf619ef9",
+  "components": [
+    {
+      "componentId": "custom-post-metric-12p5mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-dc2-f-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r3-vendor-mt-flf2s",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-m4x12",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-hardware-f0579b934c7c",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-pin-d2x8",
+      "quantity": 2
+    },
+    {
+      "componentId": "new-hardware-d56c7b8035c3",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "dichroic",
+      "label": "双色镜片（波段/型号待选）",
+      "type": "optic",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 50.8
+    }
+  ],
+  "status": "极速入库 · 工程审核版 · 未实物试装",
+  "releaseStage": "fast-upload",
+  "productionReady": false,
+  "notes": "复用MT-FLF2S，镜厚补偿7 mm；前侧膜面穿柱轴，名义光高62.5。0/45°是机械朝向，镜片额定AOI45°；镀膜型号、截止波长及P/S系数相位待选，不假设理想分光。底部M6螺钉长度按实际面包板选配。紧固件按设计说明，通用螺钉/销未重复建模。原厂未加载夹紧形态保留，实装和制造放行未完成。",
+  "assemblyReference": {
+    "stepPath": "step/fixed-dichroic-r1/DC2-F_R1_0deg_assembly.step",
+    "sourceStepSha256": "f0056858f19928706f6b5618c8f444e90f2b334ac1da5458010fa05b9b6152e9",
+    "sourceExact": true,
+    "revision": "R1-0deg",
+    "includeInBundle": true,
+    "nominalFixedPositionAssembly": true,
+    "drawingPath": null,
+    "sourceDrawingSha256": "5f6fcad7b0984f90c5a330c98dd3f6bdcdd1353ec5e42d0afdc42fc300323cf3",
+    "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/w/d67de20d807c6dd6e1db6440/e/db96c464961567ceaf619ef9",
+    "cloudStatus": "producer-uploaded-not-rechecked-fast-scope"
+  },
+  "fastUpload": {
+    "schema": "zzlab-fast-kit-upload-v1",
+    "archiveSha256": "59be94ab8936edd15444e467f82191ba3e922b4814bdb5ef66326fb75db9f03a",
+    "atlas": "excluded-by-user-scope",
+    "onshape": "existing-producer-upload-links-retained-not-rechecked",
+    "physicalAssemblyValidated": false,
+    "productionApprovalGranted": false
+  },
+  "layout": {
+    "topViewPath": "topviews/fixed-dichroic-2inch-0-r1.svg",
+    "topViewUrl": "./topviews/fixed-dichroic-2inch-0-r1.svg",
+    "widthMm": 40,
+    "heightMm": 60,
+    "anchorXMm": 19,
+    "anchorYMm": 30,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "minimumAlignedMountingHoles": 4,
+    "mountingConfirmed": true,
+    "placementAllowed": true,
+    "status": "完整R1真实STEP投影；固定柱脚孔网与上装45°分别登记",
+    "note": "柱心锚点，25 mm孔距；0/45为机械朝向。镜片按AOI45°布置入光。",
+    "collisionBoundsMm": {
+      "xMin": -17.65,
+      "yMin": -29.145864744009398,
+      "xMax": 20.15,
+      "yMax": 29.15
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -1.65,
+          "yMm": 17.65
+        },
+        {
+          "xMm": -1.65,
+          "yMm": 27.9983
+        },
+        {
+          "xMm": -1.616779,
+          "yMm": 28.271378
+        },
+        {
+          "xMm": -1.483488,
+          "yMm": 28.592848
+        },
+        {
+          "xMm": -1.317196,
+          "yMm": 28.806177
+        },
+        {
+          "xMm": -1.105925,
+          "yMm": 28.974561
+        },
+        {
+          "xMm": -0.860935,
+          "yMm": 29.089022
+        },
+        {
+          "xMm": -0.589742,
+          "yMm": 29.143678
+        },
+        {
+          "xMm": 4.6,
+          "yMm": 29.15
+        },
+        {
+          "xMm": 4.960935,
+          "yMm": 29.089022
+        },
+        {
+          "xMm": 5.271225,
+          "yMm": 28.930861
+        },
+        {
+          "xMm": 5.526835,
+          "yMm": 28.677817
+        },
+        {
+          "xMm": 5.691799,
+          "yMm": 28.358298
+        },
+        {
+          "xMm": 5.746783,
+          "yMm": 28.081626
+        },
+        {
+          "xMm": 5.75,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 17.557403,
+          "yMm": 17.638582
+        },
+        {
+          "xMm": 17.65,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.65,
+          "yMm": 10.768236
+        },
+        {
+          "xMm": 17.697171,
+          "yMm": 10.15
+        },
+        {
+          "xMm": 20.0,
+          "yMm": 10.15
+        },
+        {
+          "xMm": 20.106066,
+          "yMm": 10.106066
+        },
+        {
+          "xMm": 20.15,
+          "yMm": 10.0
+        },
+        {
+          "xMm": 20.15,
+          "yMm": -10.0
+        },
+        {
+          "xMm": 20.106066,
+          "yMm": -10.106066
+        },
+        {
+          "xMm": 20.0,
+          "yMm": -10.15
+        },
+        {
+          "xMm": 17.697171,
+          "yMm": -10.15
+        },
+        {
+          "xMm": 17.65,
+          "yMm": -10.768159
+        },
+        {
+          "xMm": 17.638582,
+          "yMm": -17.557403
+        },
+        {
+          "xMm": 17.5,
+          "yMm": -17.65
+        },
+        {
+          "xMm": 5.75,
+          "yMm": -17.65
+        },
+        {
+          "xMm": 5.745879,
+          "yMm": -28.095973
+        },
+        {
+          "xMm": 5.660099,
+          "yMm": -28.445547
+        },
+        {
+          "xMm": 5.417284,
+          "yMm": -28.808882
+        },
+        {
+          "xMm": 5.116847,
+          "yMm": -29.027199
+        },
+        {
+          "xMm": 4.773993,
+          "yMm": -29.136665
+        },
+        {
+          "xMm": -0.596093,
+          "yMm": -29.145865
+        },
+        {
+          "xMm": -0.860935,
+          "yMm": -29.091822
+        },
+        {
+          "xMm": -1.171093,
+          "yMm": -28.933749
+        },
+        {
+          "xMm": -1.370584,
+          "yMm": -28.751182
+        },
+        {
+          "xMm": -1.521879,
+          "yMm": -28.527285
+        },
+        {
+          "xMm": -1.616779,
+          "yMm": -28.274078
+        },
+        {
+          "xMm": -1.65,
+          "yMm": -28.0
+        },
+        {
+          "xMm": -1.65,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -17.5,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -17.606066,
+          "yMm": -17.606066
+        },
+        {
+          "xMm": -17.65,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -17.638582,
+          "yMm": 17.557403
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 17.65
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "dc-r1-20261107",
+    "opticalType": "dichroic",
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalAxisHeightMm": 62.5,
+    "nominalOpticalHeightMm": 62.5,
+    "opticalAxisHeightSource": "冻结R1 STEP与原设计all-four-angles验收；前膜面通过柱轴",
+    "opticalSurfaceAngleDeg": 90,
+    "opticalDatumVerified": true,
+    "opticalSimulationNote": "前膜面几何已确认；实际镀膜及波段未选，无系数时停止传播。薄面模型不包含基片折射侧移。",
+    "opticalDefaults": {
+      "elementType": "dichroic",
+      "inserted": false,
+      "configured": false,
+      "dichroic": {
+        "mode": "data",
+        "model": "",
+        "samples": []
+      }
+    },
+    "opticalGeometryEvidence": {
+      "referencePointWorldMm": [
+        0,
+        0,
+        62.5
+      ],
+      "surfaceAngleDeg": 90,
+      "mirrorThicknessMm": 5,
+      "source": "R1 all-four-angles and supplier-seat compensated thickness",
+      "physicalTrialCompleted": false
+    },
+    "geometryEvidence": {
+      "sourceStep": "step/fixed-dichroic-r1/DC2-F_R1_0deg_assembly.step",
+      "sourceSha256": "f0056858f19928706f6b5618c8f444e90f2b334ac1da5458010fa05b9b6152e9",
+      "imageSha256": "36cb1bf0c696fa91b3efa31f84fa910391e51e95fd5902115f2a556f3fa93f53",
+      "partCount": 8,
+      "triangleCount": 44484,
+      "guardMm": 0.15,
+      "meshDeflectionMm": 0.035
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "f0056858f19928706f6b5618c8f444e90f2b334ac1da5458010fa05b9b6152e9",
+      "imageSha256": "36cb1bf0c696fa91b3efa31f84fa910391e51e95fd5902115f2a556f3fa93f53",
+      "renderRole": "complete",
+      "revision": "R1"
+    }
+  },
+  "id": "fixed-dichroic-2inch-0-r1"
+}

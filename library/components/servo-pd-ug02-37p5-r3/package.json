@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "servo-pd-ug02-37p5-r3",
+  "revision": "R3",
+  "displayName": "UG02-37p5-R3 37.5 mm 双侧探测载臂",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/servo-pd-ug02-37p5-r3.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

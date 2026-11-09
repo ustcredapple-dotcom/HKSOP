@@ -1,0 +1,30 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "kungshu-louc1-ll-manual-0-r1",
+  "revision": "R2-COMPACT-2B-B6R1",
+  "displayName": "kungshu-LOUC1-LL-Manual · 0° · 紧凑双螺钉",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/kungshu-louc1-ll-manual-0-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-kungshu-34-ll-r1",
+    "custom-post-metric-25mm-m1",
+    "kungshu-louc1-ll",
+    "new-hardware-d56c7b8035c3",
+    "new-hardware-ff9fb49c865c",
+    "periscope-m4x14-screw"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

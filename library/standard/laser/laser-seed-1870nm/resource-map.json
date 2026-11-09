@@ -1,0 +1,29 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "laser-seed-1870nm",
+  "files": [
+    {
+      "path": "rendering/78e59517de85ba18bcba064b6103d6f87ca82858153b4c64c8224e13554a2a86.svg",
+      "stored": "library/assets/sha256/78/78e59517de85ba18bcba064b6103d6f87ca82858153b4c64c8224e13554a2a86.svg",
+      "sha256": "78e59517de85ba18bcba064b6103d6f87ca82858153b4c64c8224e13554a2a86",
+      "originalReferences": [
+        "topviews/kit_laser-seed-1870nm.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/78/78e59517de85ba18bcba064b6103d6f87ca82858153b4c64c8224e13554a2a86.svg"
+      ]
+    },
+    {
+      "path": "cad/79ad238f4da3bd5c01f5084c071926f171f788a929ec12ac06b895edf95cc825.step",
+      "stored": "library/assets/sha256/79/79ad238f4da3bd5c01f5084c071926f171f788a929ec12ac06b895edf95cc825.step",
+      "sha256": "79ad238f4da3bd5c01f5084c071926f171f788a929ec12ac06b895edf95cc825",
+      "originalReferences": [
+        "step/laser_installation_reference_20261006/LASER_1870_RACK_BODY_REFERENCE_NO_PORT.step"
+      ],
+      "sources": [
+        "library/assets/sha256/79/79ad238f4da3bd5c01f5084c071926f171f788a929ec12ac06b895edf95cc825.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

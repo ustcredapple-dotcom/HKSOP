@@ -1,0 +1,24 @@
+# Generated catalogs and runtime
+runtime/
+library/_build/
+library/catalog.json
+library/entity-index.json
+library/package-index.json
+library/index.html
+library/snapshots/web-current/catalog.json.gz
+# Machine state
+config/local-environment.json
+PROJECT_LOG.md
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+*.sqlite*
+.env
+.env.*
+# Excluded by the current distribution scope
+*.[pP][dD][fF]
+*.[dD][xX][fF]
+*.[dD][wW][gG]
+*.[zZ][iI][pP]
+*.[7][zZ]

@@ -1,0 +1,55 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "adjustable-05",
+  "files": [
+    {
+      "path": "cad/030c5c129fdd276770aacfe74a8a7c070d142741e135f121ebac493f26e3e78f.step",
+      "stored": "library/assets/sha256/03/030c5c129fdd276770aacfe74a8a7c070d142741e135f121ebac493f26e3e78f.step",
+      "sha256": "030c5c129fdd276770aacfe74a8a7c070d142741e135f121ebac493f26e3e78f",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/adjustable-05-90__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/03/030c5c129fdd276770aacfe74a8a7c070d142741e135f121ebac493f26e3e78f.step"
+      ]
+    },
+    {
+      "path": "cad/5b646b2941b0605777972856cbc7203abb1e661d839d1f7e0927fe3b8044a5d3.step",
+      "stored": "library/assets/sha256/5b/5b646b2941b0605777972856cbc7203abb1e661d839d1f7e0927fe3b8044a5d3.step",
+      "sha256": "5b646b2941b0605777972856cbc7203abb1e661d839d1f7e0927fe3b8044a5d3",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/adjustable-05-45__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/5b/5b646b2941b0605777972856cbc7203abb1e661d839d1f7e0927fe3b8044a5d3.step"
+      ]
+    },
+    {
+      "path": "rendering/906661c689775a78674116529a2a2b99001d234c8bba57f07d2543db5d84e5ff.svg",
+      "stored": "library/assets/sha256/90/906661c689775a78674116529a2a2b99001d234c8bba57f07d2543db5d84e5ff.svg",
+      "sha256": "906661c689775a78674116529a2a2b99001d234c8bba57f07d2543db5d84e5ff",
+      "originalReferences": [
+        "topviews/adjustable-05-90__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/90/906661c689775a78674116529a2a2b99001d234c8bba57f07d2543db5d84e5ff.svg"
+      ]
+    },
+    {
+      "path": "rendering/dd1bc94d4631d5bbb9e6d065ba45a881ba795767a966e8640f42d6adea9a5a2c.svg",
+      "stored": "library/assets/sha256/dd/dd1bc94d4631d5bbb9e6d065ba45a881ba795767a966e8640f42d6adea9a5a2c.svg",
+      "sha256": "dd1bc94d4631d5bbb9e6d065ba45a881ba795767a966e8640f42d6adea9a5a2c",
+      "originalReferences": [
+        "topviews/adjustable-05-45__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/dd/dd1bc94d4631d5bbb9e6d065ba45a881ba795767a966e8640f42d6adea9a5a2c.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-12",
+    "custom-post-metric-37p5mm-m1",
+    "mt-am05s5"
+  ]
+}

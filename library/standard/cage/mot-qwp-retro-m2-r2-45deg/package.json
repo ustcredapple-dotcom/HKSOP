@@ -1,0 +1,33 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "mot-qwp-retro-m2-r2-45deg",
+  "revision": "R2",
+  "displayName": "MOT 反射镜＋波片 · 45° · R2",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/mot-qwp-retro-m2-r2-45deg.json"
+    }
+  ],
+  "componentDependencies": [
+    "amc-1b",
+    "crm-1as",
+    "custom-mot-ra-m2",
+    "custom-post-metric-25mm-m1",
+    "hardware-iso4762-m3x5",
+    "hardware-iso4762-m6x12",
+    "metric-m1-post-m4x8",
+    "metric-m1-post-pin-d2x8",
+    "mop-40"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

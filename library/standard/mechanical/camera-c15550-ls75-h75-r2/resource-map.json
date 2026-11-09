@@ -1,0 +1,36 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "camera-c15550-ls75-h75-r2",
+  "files": [
+    {
+      "path": "rendering/11fe8107a3432202287cd3157802c2a5bb5f8e3ac3bed8b1de911c7c79bf0dfa.svg",
+      "stored": "library/assets/sha256/11/11fe8107a3432202287cd3157802c2a5bb5f8e3ac3bed8b1de911c7c79bf0dfa.svg",
+      "sha256": "11fe8107a3432202287cd3157802c2a5bb5f8e3ac3bed8b1de911c7c79bf0dfa",
+      "originalReferences": [
+        "topviews/camera-c15550-ls75-h75-r2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/11/11fe8107a3432202287cd3157802c2a5bb5f8e3ac3bed8b1de911c7c79bf0dfa.svg"
+      ]
+    },
+    {
+      "path": "cad/c29337e1123e3c1e967e437606a35accc017f1076e6a2fe9175428cfdadbfd70.step",
+      "stored": "library/assets/sha256/c2/c29337e1123e3c1e967e437606a35accc017f1076e6a2fe9175428cfdadbfd70.step",
+      "sha256": "c29337e1123e3c1e967e437606a35accc017f1076e6a2fe9175428cfdadbfd70",
+      "originalReferences": [
+        "step/camera-ls75-h75-r2/35-LS75-H_H75_R2_ASSEMBLY.step"
+      ],
+      "sources": [
+        "library/assets/sha256/c2/c29337e1123e3c1e967e437606a35accc017f1076e6a2fe9175428cfdadbfd70.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-35-ls75-h-r2",
+    "hardware-iso4762-m6x10",
+    "hardware-ls75-board-m6-length-select",
+    "hardware-xbk-iso4762-m6x8",
+    "lbtek-ls75-50c",
+    "purchased-camera-c15550-23up"
+  ]
+}

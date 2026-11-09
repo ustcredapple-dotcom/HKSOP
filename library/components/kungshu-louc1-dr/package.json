@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "kungshu-louc1-dr",
+  "revision": "source-snapshot",
+  "displayName": "LOUC1-DR 原厂镜架",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/kungshu-louc1-dr.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

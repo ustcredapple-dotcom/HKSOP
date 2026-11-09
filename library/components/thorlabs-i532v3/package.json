@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "thorlabs-i532v3",
+  "revision": "source-snapshot",
+  "displayName": "Thorlabs I532V3 · 532 nm 隔离器",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/thorlabs-i532v3.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

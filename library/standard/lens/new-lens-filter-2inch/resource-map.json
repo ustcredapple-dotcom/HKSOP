@@ -1,0 +1,36 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-lens-filter-2inch",
+  "files": [
+    {
+      "path": "rendering/13a70ee1f8fe8069f78a9e02c1a41e400d5ac010e2b6912684ed607774764bd2.svg",
+      "stored": "library/assets/sha256/13/13a70ee1f8fe8069f78a9e02c1a41e400d5ac010e2b6912684ed607774764bd2.svg",
+      "sha256": "13a70ee1f8fe8069f78a9e02c1a41e400d5ac010e2b6912684ed607774764bd2",
+      "originalReferences": [
+        "topviews/new-lens-filter-2inch__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/13/13a70ee1f8fe8069f78a9e02c1a41e400d5ac010e2b6912684ed607774764bd2.svg"
+      ]
+    },
+    {
+      "path": "cad/ddad6c19a0ba075af4b7b083112a2c386d0426129a9eaadce4320e1e634fd481.step",
+      "stored": "library/assets/sha256/dd/ddad6c19a0ba075af4b7b083112a2c386d0426129a9eaadce4320e1e634fd481.step",
+      "sha256": "ddad6c19a0ba075af4b7b083112a2c386d0426129a9eaadce4320e1e634fd481",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/new-lens-filter-2inch__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/dd/ddad6c19a0ba075af4b7b083112a2c386d0426129a9eaadce4320e1e634fd481.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-post-metric-12p5mm-m1",
+    "metric-m1-post-m4x12",
+    "metric-m1-post-pin-d2x8",
+    "new-r3-16-r3-adapter",
+    "new-r3-vendor-bcx10819-a",
+    "new-r3-vendor-flft2a"
+  ]
+}

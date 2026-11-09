@@ -1,0 +1,31 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "extension-ed37p5-r1",
+  "files": [
+    {
+      "path": "rendering/c93fdbde60a5d773762d52b8a0a3c638c370b571df989219ad8c4156cac50bec.svg",
+      "stored": "library/assets/sha256/c9/c93fdbde60a5d773762d52b8a0a3c638c370b571df989219ad8c4156cac50bec.svg",
+      "sha256": "c93fdbde60a5d773762d52b8a0a3c638c370b571df989219ad8c4156cac50bec",
+      "originalReferences": [
+        "topviews/extension-ed37p5-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/c9/c93fdbde60a5d773762d52b8a0a3c638c370b571df989219ad8c4156cac50bec.svg"
+      ]
+    },
+    {
+      "path": "cad/f3c3946089fab3633547b6174a068ea201a4ad804c93d92f66149c7f7842fd61.step",
+      "stored": "library/assets/sha256/f3/f3c3946089fab3633547b6174a068ea201a4ad804c93d92f66149c7f7842fd61.step",
+      "sha256": "f3c3946089fab3633547b6174a068ea201a4ad804c93d92f66149c7f7842fd61",
+      "originalReferences": [
+        "step/extension-series-r1/延长37.5√2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/f3/f3c3946089fab3633547b6174a068ea201a4ad804c93d92f66149c7f7842fd61.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-extension-ed37p5-r1"
+  ]
+}

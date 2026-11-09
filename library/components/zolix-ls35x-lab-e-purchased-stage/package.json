@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "zolix-ls35x-lab-e-purchased-stage",
+  "revision": "R1",
+  "displayName": "卓立汉光 / MultiFields LS35x.Lab.E 惯性压电线性位移台",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/zolix-ls35x-lab-e-purchased-stage.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

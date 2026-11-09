@@ -1,0 +1,38 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "mt-cube-pbs-0p5inch-m1-r2",
+  "files": [
+    {
+      "path": "rendering/9f941575690d928d93abc2e23744457771f369a16cc13029d4fb639b45b6766f.svg",
+      "stored": "library/assets/sha256/9f/9f941575690d928d93abc2e23744457771f369a16cc13029d4fb639b45b6766f.svg",
+      "sha256": "9f941575690d928d93abc2e23744457771f369a16cc13029d4fb639b45b6766f",
+      "originalReferences": [
+        "topviews/mt-cube-pbs-0p5inch-m1-r2__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/9f/9f941575690d928d93abc2e23744457771f369a16cc13029d4fb639b45b6766f.svg"
+      ]
+    },
+    {
+      "path": "cad/ad38a80e84da077f2fb98cc806d249667952bcf1ec5343f4d5fd8c8b37cf6684.step",
+      "stored": "library/assets/sha256/ad/ad38a80e84da077f2fb98cc806d249667952bcf1ec5343f4d5fd8c8b37cf6684.step",
+      "sha256": "ad38a80e84da077f2fb98cc806d249667952bcf1ec5343f4d5fd8c8b37cf6684",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/mt-cube-pbs-0p5inch-m1-r2__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/ad/ad38a80e84da077f2fb98cc806d249667952bcf1ec5343f4d5fd8c8b37cf6684.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-mt-cube-adapter-0p5inch-m1-r2",
+    "custom-post-metric-37p5mm-m1",
+    "hardware-iso4762-m6x12",
+    "lbtek-mt-am05-purchased",
+    "lbtek-mt-csb05-purchased",
+    "metric-m1-post-pin-d2x8",
+    "new-r3-hardware-b7a3ea97ce89",
+    "v7-iso4762-m4x12"
+  ]
+}

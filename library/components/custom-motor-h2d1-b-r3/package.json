@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-motor-h2d1-b-r3",
+  "revision": "source-snapshot",
+  "displayName": "H2D1-B R3 · 舵机下紧凑共面桥板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-motor-h2d1-b-r3.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

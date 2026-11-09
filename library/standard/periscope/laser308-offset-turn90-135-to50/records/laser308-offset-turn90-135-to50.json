@@ -1,0 +1,1276 @@
+{
+  "sourceUrl": "https://cad.onshape.com/documents/ce8e77762b7598a9ee96789b/v/7d6ea79005cc957bde5aa1a6/e/e68df363c98c99bb0568b2fb",
+  "name": "308 G58 90°爬架 · 135→50 · R3",
+  "category": "periscope",
+  "variant": "28-BY3 + 28-V3 + 27-S45/下横柱",
+  "description": "按真实三孔相位安装，所有输出档位以真实镜面为基准；未装片/未知膜层保持阻断。",
+  "components": [
+    {
+      "componentId": "custom-laser308-periscope-base28-yfoot-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-laser308-periscope-vertical28-g58-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-post-metric-12p5mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-periscope-mirror-adapter10c-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "mt-am1s5",
+      "quantity": 2
+    },
+    {
+      "componentId": "periscope-m6x12-screw",
+      "quantity": 11
+    },
+    {
+      "componentId": "periscope-m4x14-screw",
+      "quantity": 3
+    },
+    {
+      "componentId": "periscope-d2x8-pin",
+      "quantity": 4
+    },
+    {
+      "componentId": "new-hardware-d56c7b8035c3",
+      "quantity": 2
+    },
+    {
+      "componentId": "custom-periscope-s45-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "periscope-d2x4-pin",
+      "quantity": 2
+    },
+    {
+      "componentId": "periscope-m4x16-screw",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "upper-mirror-optic",
+      "label": "上镜 · Ø25.4×6mm / 45°；型号及膜层待选",
+      "type": "mirror",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 25.4,
+      "thicknessMm": 6,
+      "requiredAOIDeg": 45,
+      "wavelengthNm": 308.366,
+      "note": "几何参考盘不计固定采购；实片清孔/镀膜面/Rp/Rs/相位待确认。"
+    },
+    {
+      "id": "lower-mirror-optic",
+      "label": "下镜 · Ø25.4×6mm / 45°；型号及膜层待选",
+      "type": "mirror",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 25.4,
+      "thicknessMm": 6,
+      "requiredAOIDeg": 45,
+      "wavelengthNm": 308.366,
+      "note": "几何参考盘不计固定采购；实片清孔/镀膜面/Rp/Rs/相位待确认。"
+    }
+  ],
+  "layout": {
+    "placementAllowed": true,
+    "topViewPath": "topviews/laser308-offset-turn90-135-to50__H12p5_B4_R2.svg",
+    "topViewUrl": "./topviews/laser308-offset-turn90-135-to50__H12p5_B4_R2.svg",
+    "widthMm": 101.52589682219171,
+    "heightMm": 110.67987112583195,
+    "anchorXMm": 66.97210376109585,
+    "anchorYMm": 75.75,
+    "baseBoundsMm": {
+      "xMin": -66.25,
+      "yMin": -25,
+      "xMax": -16.25,
+      "yMax": 75
+    },
+    "collisionBoundsMm": {
+      "xMin": -66.4,
+      "yMin": -34.32987112583195,
+      "xMax": 33.9816893,
+      "yMax": 75.15
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -35.745821,
+          "yMm": -25.540694
+        },
+        {
+          "xMm": -36.266494,
+          "yMm": -25.393601
+        },
+        {
+          "xMm": -36.636249,
+          "yMm": -25.15
+        },
+        {
+          "xMm": -66.4,
+          "yMm": -25.15
+        },
+        {
+          "xMm": -66.4,
+          "yMm": 75.15
+        },
+        {
+          "xMm": -16.1,
+          "yMm": 75.15
+        },
+        {
+          "xMm": -16.1,
+          "yMm": 30.050033
+        },
+        {
+          "xMm": 5.058166,
+          "yMm": 30.046713
+        },
+        {
+          "xMm": 5.483305,
+          "yMm": 30.018858
+        },
+        {
+          "xMm": 5.962771,
+          "yMm": 29.934696
+        },
+        {
+          "xMm": 6.433703,
+          "yMm": 29.798459
+        },
+        {
+          "xMm": 6.892059,
+          "yMm": 29.611718
+        },
+        {
+          "xMm": 7.33376,
+          "yMm": 29.37674
+        },
+        {
+          "xMm": 7.715483,
+          "yMm": 29.125531
+        },
+        {
+          "xMm": 8.120043,
+          "yMm": 28.805515
+        },
+        {
+          "xMm": 8.397494,
+          "yMm": 28.542096
+        },
+        {
+          "xMm": 12.76346,
+          "yMm": 28.541549
+        },
+        {
+          "xMm": 13.506369,
+          "yMm": 28.413645
+        },
+        {
+          "xMm": 13.90149,
+          "yMm": 28.280151
+        },
+        {
+          "xMm": 14.28077,
+          "yMm": 28.105598
+        },
+        {
+          "xMm": 14.644281,
+          "yMm": 27.890966
+        },
+        {
+          "xMm": 14.991333,
+          "yMm": 27.637085
+        },
+        {
+          "xMm": 15.583363,
+          "yMm": 27.069694
+        },
+        {
+          "xMm": 16.097132,
+          "yMm": 26.389162
+        },
+        {
+          "xMm": 16.519264,
+          "yMm": 25.618447
+        },
+        {
+          "xMm": 16.840514,
+          "yMm": 24.782593
+        },
+        {
+          "xMm": 16.963089,
+          "yMm": 24.351088
+        },
+        {
+          "xMm": 17.13191,
+          "yMm": 23.465707
+        },
+        {
+          "xMm": 17.200218,
+          "yMm": 22.551307
+        },
+        {
+          "xMm": 17.155903,
+          "yMm": 21.659504
+        },
+        {
+          "xMm": 17.684877,
+          "yMm": 21.698609
+        },
+        {
+          "xMm": 18.148003,
+          "yMm": 21.6977
+        },
+        {
+          "xMm": 19.057762,
+          "yMm": 21.619231
+        },
+        {
+          "xMm": 19.94146,
+          "yMm": 21.439875
+        },
+        {
+          "xMm": 20.802144,
+          "yMm": 21.155828
+        },
+        {
+          "xMm": 21.604068,
+          "yMm": 20.769131
+        },
+        {
+          "xMm": 22.323732,
+          "yMm": 20.287226
+        },
+        {
+          "xMm": 22.939679,
+          "yMm": 19.720181
+        },
+        {
+          "xMm": 23.430583,
+          "yMm": 19.083475
+        },
+        {
+          "xMm": 23.639765,
+          "yMm": 18.714674
+        },
+        {
+          "xMm": 23.806972,
+          "yMm": 18.333312
+        },
+        {
+          "xMm": 23.931712,
+          "yMm": 17.939963
+        },
+        {
+          "xMm": 24.012428,
+          "yMm": 17.53817
+        },
+        {
+          "xMm": 24.047943,
+          "yMm": 17.133448
+        },
+        {
+          "xMm": 24.047943,
+          "yMm": 13.800597
+        },
+        {
+          "xMm": 28.182645,
+          "yMm": 13.775711
+        },
+        {
+          "xMm": 28.616618,
+          "yMm": 13.687156
+        },
+        {
+          "xMm": 29.003674,
+          "yMm": 13.533882
+        },
+        {
+          "xMm": 29.368965,
+          "yMm": 13.298202
+        },
+        {
+          "xMm": 29.625942,
+          "yMm": 13.052139
+        },
+        {
+          "xMm": 29.807323,
+          "yMm": 12.801105
+        },
+        {
+          "xMm": 29.962435,
+          "yMm": 12.469163
+        },
+        {
+          "xMm": 30.05,
+          "yMm": 11.946024
+        },
+        {
+          "xMm": 30.05,
+          "yMm": 4.980305
+        },
+        {
+          "xMm": 32.362122,
+          "yMm": 4.981673
+        },
+        {
+          "xMm": 32.55,
+          "yMm": 4.793679
+        },
+        {
+          "xMm": 32.55,
+          "yMm": 3.980167
+        },
+        {
+          "xMm": 33.293711,
+          "yMm": 3.980188
+        },
+        {
+          "xMm": 33.981689,
+          "yMm": 3.293912
+        },
+        {
+          "xMm": 33.981689,
+          "yMm": -1.630011
+        },
+        {
+          "xMm": 33.293827,
+          "yMm": -2.31798
+        },
+        {
+          "xMm": 32.55,
+          "yMm": -2.31797
+        },
+        {
+          "xMm": 32.55,
+          "yMm": -3.129718
+        },
+        {
+          "xMm": 32.362122,
+          "yMm": -3.317712
+        },
+        {
+          "xMm": 30.05,
+          "yMm": -3.316344
+        },
+        {
+          "xMm": 30.05,
+          "yMm": -7.166648
+        },
+        {
+          "xMm": 30.010471,
+          "yMm": -7.521802
+        },
+        {
+          "xMm": 29.891475,
+          "yMm": -7.86927
+        },
+        {
+          "xMm": 29.627448,
+          "yMm": -8.27619
+        },
+        {
+          "xMm": 29.267039,
+          "yMm": -8.601204
+        },
+        {
+          "xMm": 28.880088,
+          "yMm": -8.817052
+        },
+        {
+          "xMm": 28.45937,
+          "yMm": -8.953724
+        },
+        {
+          "xMm": 27.908265,
+          "yMm": -9.015445
+        },
+        {
+          "xMm": 17.333497,
+          "yMm": -9.000116
+        },
+        {
+          "xMm": 16.216243,
+          "yMm": -8.876642
+        },
+        {
+          "xMm": 15.667607,
+          "yMm": -8.768725
+        },
+        {
+          "xMm": 15.112233,
+          "yMm": -8.625182
+        },
+        {
+          "xMm": 14.306328,
+          "yMm": -8.343473
+        },
+        {
+          "xMm": 12.995446,
+          "yMm": -9.270407
+        },
+        {
+          "xMm": 11.939344,
+          "yMm": -9.96089
+        },
+        {
+          "xMm": 10.779687,
+          "yMm": -10.607666
+        },
+        {
+          "xMm": 9.586084,
+          "yMm": -11.172358
+        },
+        {
+          "xMm": 8.333924,
+          "yMm": -11.669206
+        },
+        {
+          "xMm": 6.973558,
+          "yMm": -12.107642
+        },
+        {
+          "xMm": 4.6729,
+          "yMm": -15.361264
+        },
+        {
+          "xMm": 4.334693,
+          "yMm": -15.772318
+        },
+        {
+          "xMm": 3.900678,
+          "yMm": -16.148881
+        },
+        {
+          "xMm": 3.456963,
+          "yMm": -16.412142
+        },
+        {
+          "xMm": 2.985472,
+          "yMm": -16.582262
+        },
+        {
+          "xMm": 2.648238,
+          "yMm": -16.649342
+        },
+        {
+          "xMm": -1.594965,
+          "yMm": -16.667887
+        },
+        {
+          "xMm": -2.081846,
+          "yMm": -16.626268
+        },
+        {
+          "xMm": -2.411683,
+          "yMm": -16.545211
+        },
+        {
+          "xMm": -2.678283,
+          "yMm": -16.444101
+        },
+        {
+          "xMm": -3.124415,
+          "yMm": -16.197711
+        },
+        {
+          "xMm": -3.568173,
+          "yMm": -15.832304
+        },
+        {
+          "xMm": -4.057561,
+          "yMm": -15.226114
+        },
+        {
+          "xMm": -4.519703,
+          "yMm": -14.412105
+        },
+        {
+          "xMm": -4.77566,
+          "yMm": -14.159136
+        },
+        {
+          "xMm": -4.992864,
+          "yMm": -14.061978
+        },
+        {
+          "xMm": -5.75,
+          "yMm": -13.954563
+        },
+        {
+          "xMm": -5.75,
+          "yMm": -20.32566
+        },
+        {
+          "xMm": -3.437878,
+          "yMm": -20.324292
+        },
+        {
+          "xMm": -3.25,
+          "yMm": -20.512286
+        },
+        {
+          "xMm": -3.25,
+          "yMm": -21.325801
+        },
+        {
+          "xMm": -2.437979,
+          "yMm": -21.325778
+        },
+        {
+          "xMm": -1.75,
+          "yMm": -22.012053
+        },
+        {
+          "xMm": -1.75,
+          "yMm": -26.935976
+        },
+        {
+          "xMm": -2.437862,
+          "yMm": -27.623945
+        },
+        {
+          "xMm": -3.25,
+          "yMm": -27.623935
+        },
+        {
+          "xMm": -3.25,
+          "yMm": -28.435683
+        },
+        {
+          "xMm": -3.437878,
+          "yMm": -28.623677
+        },
+        {
+          "xMm": -5.75,
+          "yMm": -28.62231
+        },
+        {
+          "xMm": -5.75,
+          "yMm": -31.049942
+        },
+        {
+          "xMm": -5.789529,
+          "yMm": -31.405096
+        },
+        {
+          "xMm": -5.908525,
+          "yMm": -31.752564
+        },
+        {
+          "xMm": -6.172552,
+          "yMm": -32.159484
+        },
+        {
+          "xMm": -6.532961,
+          "yMm": -32.484499
+        },
+        {
+          "xMm": -6.919912,
+          "yMm": -32.700346
+        },
+        {
+          "xMm": -7.3386,
+          "yMm": -32.836359
+        },
+        {
+          "xMm": -7.755491,
+          "yMm": -32.894996
+        },
+        {
+          "xMm": -11.535321,
+          "yMm": -32.898721
+        },
+        {
+          "xMm": -12.385591,
+          "yMm": -32.968511
+        },
+        {
+          "xMm": -13.160131,
+          "yMm": -33.165439
+        },
+        {
+          "xMm": -14.121432,
+          "yMm": -33.58987
+        },
+        {
+          "xMm": -15.144796,
+          "yMm": -33.948959
+        },
+        {
+          "xMm": -15.705551,
+          "yMm": -34.091732
+        },
+        {
+          "xMm": -16.812486,
+          "yMm": -34.272596
+        },
+        {
+          "xMm": -17.945167,
+          "yMm": -34.329871
+        },
+        {
+          "xMm": -18.517936,
+          "yMm": -34.311478
+        },
+        {
+          "xMm": -19.638869,
+          "yMm": -34.181812
+        },
+        {
+          "xMm": -20.718382,
+          "yMm": -33.93067
+        },
+        {
+          "xMm": -21.264417,
+          "yMm": -33.752197
+        },
+        {
+          "xMm": -22.239605,
+          "yMm": -33.328096
+        },
+        {
+          "xMm": -22.728166,
+          "yMm": -33.055587
+        },
+        {
+          "xMm": -23.545628,
+          "yMm": -32.478082
+        },
+        {
+          "xMm": -23.944729,
+          "yMm": -32.12483
+        },
+        {
+          "xMm": -24.305503,
+          "yMm": -31.745037
+        },
+        {
+          "xMm": -24.625531,
+          "yMm": -31.340462
+        },
+        {
+          "xMm": -24.87674,
+          "yMm": -30.958739
+        },
+        {
+          "xMm": -25.111718,
+          "yMm": -30.517038
+        },
+        {
+          "xMm": -25.298459,
+          "yMm": -30.058681
+        },
+        {
+          "xMm": -25.434696,
+          "yMm": -29.587749
+        },
+        {
+          "xMm": -25.51938,
+          "yMm": -29.105305
+        },
+        {
+          "xMm": -25.546053,
+          "yMm": -28.05
+        },
+        {
+          "xMm": -25.833331,
+          "yMm": -28.05
+        },
+        {
+          "xMm": -25.833389,
+          "yMm": -28.793879
+        },
+        {
+          "xMm": -26.522022,
+          "yMm": -29.481689
+        },
+        {
+          "xMm": -31.44445,
+          "yMm": -29.481689
+        },
+        {
+          "xMm": -32.132118,
+          "yMm": -28.793807
+        },
+        {
+          "xMm": -32.132114,
+          "yMm": -28.05
+        },
+        {
+          "xMm": -32.944574,
+          "yMm": -28.05
+        },
+        {
+          "xMm": -33.132437,
+          "yMm": -27.862072
+        },
+        {
+          "xMm": -33.130773,
+          "yMm": -25.549194
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -25,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -25,
+        "yMm": 12.5
+      },
+      {
+        "xMm": -50,
+        "yMm": 62.5
+      }
+    ],
+    "minimumAlignedMountingHoles": 3,
+    "mountingHoleRadiusMm": 3.2,
+    "collisionGeometryVersion": "periscope-r3-frozen-20261006-308",
+    "opticalAxisHeightMm": null,
+    "opticalType": "empty",
+    "opticalDefaults": {
+      "elementType": "empty",
+      "inserted": true,
+      "configured": true
+    },
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 4.5
+    },
+    "fixedUniversalPostComponentIds": [
+      "custom-post-metric-12p5mm-m1"
+    ],
+    "opticalAssembly": {
+      "verified": true,
+      "bounds": {
+        "min": [
+          -66.25,
+          -34.17985575972405,
+          0.0
+        ],
+        "max": [
+          33.83168942763846,
+          75.0,
+          173.6798557596968
+        ]
+      },
+      "nodes": [
+        {
+          "id": "upper-mirror",
+          "name": "上镜 · 光学片待选",
+          "type": "mirror",
+          "centerMm": [
+            -2.1213203435401904,
+            4.500000000006999,
+            137.12132034349938
+          ],
+          "normal": [
+            0.7071067811865036,
+            0.0,
+            -0.7071067811865918
+          ],
+          "radiusMm": 12.7,
+          "geometryConfirmed": true,
+          "coatingFaceIndex": null,
+          "clearApertureConfirmed": false,
+          "faces": [
+            {
+              "centerMm": [
+                1.9320545163736824e-11,
+                4.500000000006999,
+                134.9999999999396
+              ],
+              "normal": [
+                0.7071067811865036,
+                0.0,
+                -0.7071067811865918
+              ],
+              "radiusMm": 12.7
+            },
+            {
+              "centerMm": [
+                -4.242640687099701,
+                4.500000000006999,
+                139.24264068705915
+              ],
+              "normal": [
+                -0.7071067811865036,
+                -0.0,
+                0.7071067811865918
+              ],
+              "radiusMm": 12.7
+            }
+          ],
+          "note": "真实三后肩+指定6mm名义盘；实际镀膜面、有效口径、Rp/Rs及相位未知。"
+        },
+        {
+          "id": "lower-mirror",
+          "name": "下镜 · 光学片待选",
+          "type": "mirror",
+          "centerMm": [
+            1.501441656604106e-11,
+            2.37867965644734,
+            47.87867965643067
+          ],
+          "normal": [
+            4.403298851525474e-14,
+            0.7071067811867809,
+            0.7071067811863144
+          ],
+          "radiusMm": 12.7,
+          "geometryConfirmed": true,
+          "coatingFaceIndex": null,
+          "clearApertureConfirmed": false,
+          "faces": [
+            {
+              "centerMm": [
+                1.5146515531586828e-11,
+                4.500000000007683,
+                49.99999999998961
+              ],
+              "normal": [
+                4.403298851525474e-14,
+                0.7071067811867809,
+                0.7071067811863144
+              ],
+              "radiusMm": 12.7
+            },
+            {
+              "centerMm": [
+                1.48823176004953e-11,
+                0.2573593128869973,
+                45.75735931287173
+              ],
+              "normal": [
+                -4.403298851525474e-14,
+                -0.7071067811867809,
+                -0.7071067811863144
+              ],
+              "radiusMm": 12.7
+            }
+          ],
+          "note": "真实三后肩+指定6mm名义盘；实际镀膜面、有效口径、Rp/Rs及相位未知。"
+        }
+      ],
+      "internalElements": [
+        {
+          "id": "upper-mirror",
+          "name": "上镜 · 光学片待选",
+          "type": "mirror",
+          "slotId": "upper-mirror-optic",
+          "existingInAssembly": false,
+          "opticalDefaults": {
+            "elementType": "mirror",
+            "inserted": true,
+            "configured": false,
+            "coatingFaceIndex": null,
+            "mirror": {
+              "mode": "data",
+              "model": "",
+              "samples": []
+            }
+          },
+          "sidePointMm": {
+            "xMm": 42.87867965645981,
+            "yMm": 137.12132034349938
+          },
+          "candidateFaces": [
+            {
+              "index": 0,
+              "sidePointMm": {
+                "xMm": 45.00000000001932,
+                "yMm": 134.9999999999396
+              }
+            },
+            {
+              "index": 1,
+              "sidePointMm": {
+                "xMm": 40.7573593129003,
+                "yMm": 139.24264068705915
+              }
+            }
+          ]
+        },
+        {
+          "id": "lower-mirror",
+          "name": "下镜 · 光学片待选",
+          "type": "mirror",
+          "slotId": "lower-mirror-optic",
+          "existingInAssembly": false,
+          "opticalDefaults": {
+            "elementType": "mirror",
+            "inserted": true,
+            "configured": false,
+            "coatingFaceIndex": null,
+            "mirror": {
+              "mode": "data",
+              "model": "",
+              "samples": []
+            }
+          },
+          "sidePointMm": {
+            "xMm": 45.000000000015014,
+            "yMm": 47.87867965643067
+          },
+          "candidateFaces": [
+            {
+              "index": 0,
+              "sidePointMm": {
+                "xMm": 45.00000000001515,
+                "yMm": 49.99999999998961
+              }
+            },
+            {
+              "index": 1,
+              "sidePointMm": {
+                "xMm": 45.00000000001488,
+                "yMm": 45.75735931287173
+              }
+            }
+          ]
+        }
+      ],
+      "externalAxisHeightsMm": [
+        135,
+        50
+      ],
+      "sideView": {
+        "path": "topviews/laser308-offset-turn90-135-to50-optical-side.svg",
+        "topViewPath": "topviews/laser308-offset-turn90-135-to50-optical-side.svg",
+        "widthMm": 90,
+        "heightMm": 182,
+        "xMin": -45,
+        "zMin": 0
+      },
+      "note": "固定横柱不得换柱。名义镜面来自实际后肩+6mm；未知膜层阻断。上下两光高不得当成单光高自动配平。"
+    },
+    "geometryEvidence": {
+      "source": "frozen-step-independent-readback",
+      "sourceStepSha256": "973d43085fd95bcec57b1af9fe7f1e3fcb209b298cbda1d33a33c4340ce8335a",
+      "referencePose": {
+        "inputHeightMm": 135,
+        "outputHeightMm": 62.5
+      },
+      "actualModuleLeafCount": 63,
+      "referenceBoardExcluded": true,
+      "temporaryLocatorsExcluded": true,
+      "collisionGuardMm": 0.15,
+      "allHeightVariantsSameXYProjection": true,
+      "nominalPoseRule": "Upper group Z += H-referenceH; lower group Z += O-referenceO; structure fixed.",
+      "review": "library/reviews/periscope-standard-r3-20261006/evidence/package_review.json",
+      "previousProjectionSource": {},
+      "sourceStep": "step/standard-post-h12p5-b4-r2/assemblies/laser308-offset-turn90-135-to50__H12p5_B4_R2.step",
+      "sourceSha256": "973d43085fd95bcec57b1af9fe7f1e3fcb209b298cbda1d33a33c4340ce8335a",
+      "imageSha256": "73b516c0b34ebd35cf0546efe9de6dbf714d7e6a7bb01f3d85eadcdb7d0c0d01",
+      "partCount": 63,
+      "triangleCount": 1218395,
+      "meshDeflectionMm": 0.035,
+      "postBaseRevision": {
+        "revision": "H12p5-B4-R2",
+        "componentIds": [
+          "custom-post-metric-12p5mm-m1"
+        ],
+        "baseThicknessByComponentId": {
+          "custom-post-metric-12p5mm-m1": 4
+        },
+        "nominalAndOpticalHeightsPreserved": true,
+        "geometryStatus": "passed",
+        "physicalAssemblyAccepted": false,
+        "previousAssemblySha256": "d0c7832545e0ef243cb017ac12d835ff7d879d98824626a52cdef54499dd0f7f",
+        "currentAssemblySha256": "973d43085fd95bcec57b1af9fe7f1e3fcb209b298cbda1d33a33c4340ce8335a",
+        "replacementReportSha256": "bad2686320ff5dc34bde2e84f20bf8b35b8b1f699ff4a94d55f4d3103535fdb9",
+        "originalEntitiesAndPosesPreserved": true
+      },
+      "baseThicknessByComponentId": {
+        "custom-post-metric-12p5mm-m1": 4
+      }
+    },
+    "note": "真实CAD锚点(0,0)保持；三个实际夹孔必须全部对齐。308相位(0,12.5)，仅输出X0孔列；G58及激光绝对孔基准仍为可修正试制。",
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "973d43085fd95bcec57b1af9fe7f1e3fcb209b298cbda1d33a33c4340ce8335a",
+      "imageSha256": "73b516c0b34ebd35cf0546efe9de6dbf714d7e6a7bb01f3d85eadcdb7d0c0d01",
+      "revision": "H12p5-B4-R2",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null,
+      "projectionReportSha256": "485a64887d4c555a25581a8680e557b5ab745578d1267cc4145177db5cf5f8a3"
+    },
+    "sourceUrl": "https://cad.onshape.com/documents/ce8e77762b7598a9ee96789b/v/7d6ea79005cc957bde5aa1a6/e/e68df363c98c99bb0568b2fb"
+  },
+  "status": "G58可修正试制",
+  "notes": "厂家内部弹簧曲面跨内核警告与新定制件分别判定。每10-C镜组两颗M4×14；柱端两根Ø2×8，厂家端两根Ø2×6（埋4.5/露1.5）。27侧座销Ø2×4两根。308板接头另两颗M4×16/两根Ø2×8。22阶梯销是共享安装工具不计每套。连续微调、手握空间、夹紧刚度与重复定位未实测。  H12.5 B4-R2：普通H12.5柱底脚4 mm，其余普通柱保持各自规格；完整STEP已换柱回读，总高、孔位和全部器件姿态保持；未实物试装。",
+  "mechanicalConfiguration": {
+    "inputHeightMm": 135,
+    "outputHeightMm": 50,
+    "family": "308",
+    "bodyCode": "28-BY3/28-V3",
+    "uniqueOpticalStatePolicy": "308条件G58四档，源输入135。"
+  },
+  "sourceOwnership": {
+    "newCustomParts": "当前R3用户授权修订",
+    "reusedParts": "原用户正式万能柱及厂家MT-AM1S5保留；27-S45几何不变。旧custom10不替换历史，只在本R3 BOM使用新10-C。"
+  },
+  "designRequirements": {
+    "referenceMirrorDiameterMm": 25.4,
+    "referenceMirrorThicknessMm": 6,
+    "opticalCoatingsSelected": false,
+    "conditionalGapMm": 58,
+    "actualSourceMountingDatumVerified": false,
+    "userApprovedCorrectableG58Prototype": true
+  },
+  "assemblyPoseRecipe": {
+    "role": "本态B6完整冻结STEP；原位姿recipe已物化，不重复位移",
+    "basisSource": {
+      "stepPath": "step/universal-post-b6-r1/assemblies/laser308-offset-turn90-135-to50__B6_R1.step",
+      "sha256": "d0c7832545e0ef243cb017ac12d835ff7d879d98824626a52cdef54499dd0f7f",
+      "inputHeightMm": 135,
+      "outputHeightMm": 50,
+      "sourceLeafCount": 63,
+      "excludedReferenceNames": []
+    },
+    "targetHeightsMm": {
+      "input": 135,
+      "output": 50
+    },
+    "sameAsExportedBasisState": true,
+    "coordinateFrame": "Actual CAD world mm; anchor(0,0); X right/Y up/Z height",
+    "groups": [
+      {
+        "id": "structure",
+        "leafNames": [
+          "28-BY3_R3",
+          "28-V3_R3"
+        ],
+        "rotationMatrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "translationMm": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "lower",
+        "leafNames": [
+          "LOWER_FORMAL_POST_12p5mm",
+          "10-C",
+          "LOWER_MT_AM1S5_SOURCE_02",
+          "LOWER_MT_AM1S5_SOURCE_03",
+          "LOWER_MT_AM1S5_SOURCE_04",
+          "LOWER_MT_AM1S5_SOURCE_05",
+          "LOWER_MT_AM1S5_SOURCE_06",
+          "LOWER_MT_AM1S5_SOURCE_07",
+          "LOWER_MT_AM1S5_SOURCE_08",
+          "LOWER_MT_AM1S5_SOURCE_09",
+          "LOWER_MT_AM1S5_SOURCE_10",
+          "LOWER_MT_AM1S5_SOURCE_11",
+          "LOWER_MT_AM1S5_SOURCE_12",
+          "LOWER_MT_AM1S5_SOURCE_13",
+          "LOWER_MT_AM1S5_SOURCE_14",
+          "LOWER_MT_AM1S5_SOURCE_15",
+          "LOWER_MT_AM1S5_SOURCE_16",
+          "LOWER_MT_AM1S5_SOURCE_17",
+          "LOWER_MT_AM1S5_SOURCE_18",
+          "LOWER_MT_AM1S5_SOURCE_19",
+          "LOWER_MT_AM1S5_SOURCE_20",
+          "LOWER_MT_AM1S5_SOURCE_21",
+          "LOWER_MT_AM1S5_SOURCE_22",
+          "LOWER_MT_AM1S5_SOURCE_23",
+          "LOWER_MT_AM1S5_SOURCE_24",
+          "LOWER_MT_AM1S5_SOURCE_25",
+          "LOWER_MT_AM1S5_SOURCE_26",
+          "LOWER_MT_AM1S5_SOURCE_27",
+          "LOWER_MT_AM1S5_SOURCE_28",
+          "LOWER_MT_AM1S5_SOURCE_29",
+          "LOWER_MIRROR_D25p4_T6_GEOMETRIC_REFERENCE"
+        ],
+        "rotationMatrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "translationMm": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "upper",
+        "leafNames": [
+          "UPPER_REUSED_27_S45",
+          "UPPER_MT_AM1S5_SOURCE_02",
+          "UPPER_MT_AM1S5_SOURCE_03",
+          "UPPER_MT_AM1S5_SOURCE_04",
+          "UPPER_MT_AM1S5_SOURCE_05",
+          "UPPER_MT_AM1S5_SOURCE_06",
+          "UPPER_MT_AM1S5_SOURCE_07",
+          "UPPER_MT_AM1S5_SOURCE_08",
+          "UPPER_MT_AM1S5_SOURCE_09",
+          "UPPER_MT_AM1S5_SOURCE_10",
+          "UPPER_MT_AM1S5_SOURCE_11",
+          "UPPER_MT_AM1S5_SOURCE_12",
+          "UPPER_MT_AM1S5_SOURCE_13",
+          "UPPER_MT_AM1S5_SOURCE_14",
+          "UPPER_MT_AM1S5_SOURCE_15",
+          "UPPER_MT_AM1S5_SOURCE_16",
+          "UPPER_MT_AM1S5_SOURCE_17",
+          "UPPER_MT_AM1S5_SOURCE_18",
+          "UPPER_MT_AM1S5_SOURCE_19",
+          "UPPER_MT_AM1S5_SOURCE_20",
+          "UPPER_MT_AM1S5_SOURCE_21",
+          "UPPER_MT_AM1S5_SOURCE_22",
+          "UPPER_MT_AM1S5_SOURCE_23",
+          "UPPER_MT_AM1S5_SOURCE_24",
+          "UPPER_MT_AM1S5_SOURCE_25",
+          "UPPER_MT_AM1S5_SOURCE_26",
+          "UPPER_MT_AM1S5_SOURCE_27",
+          "UPPER_MT_AM1S5_SOURCE_28",
+          "UPPER_MT_AM1S5_SOURCE_29",
+          "UPPER_D25p4_T6_TRUE_REAR_SEAT_REFERENCE_NOT_COATING_SPEC"
+        ],
+        "rotationMatrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "translationMm": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "frontSurfaceCentersMm": [
+      [
+        1.9320545163736824e-11,
+        4.500000000006999,
+        134.9999999999396
+      ],
+      [
+        1.5146515531586828e-11,
+        4.500000000007683,
+        49.99999999998961
+      ]
+    ],
+    "supplierShapesDeformed": false
+  },
+  "revisionMigration": {
+    "from": "308 R2 mixed-phase three-hole base",
+    "to": "R3 actual Yfoot phase(0,12.5)",
+    "savedInstancePositionsRewritten": false,
+    "mustRevalidateMounting": true,
+    "newExamplePeriscopeAnchorMm": [
+      137.5,
+      250
+    ],
+    "newExampleLaserAnchorMm": [
+      554,
+      187.5
+    ],
+    "note": "旧实例锚点不静默平移；25mm网需按新实际孔组重新摆放。旧购物快照不得静默替换加工修订。"
+  },
+  "sourceUrlRole": "family representative frozen assembly; target state defined by assemblyPoseRecipe, not necessarily this exported H/O",
+  "postBaseRevision": {
+    "revision": "H12p5-B4-R2",
+    "componentIds": [
+      "custom-post-metric-12p5mm-m1"
+    ],
+    "baseThicknessByComponentId": {
+      "custom-post-metric-12p5mm-m1": 4
+    },
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "physicalAssemblyAccepted": false,
+    "previousAssemblySha256": "d0c7832545e0ef243cb017ac12d835ff7d879d98824626a52cdef54499dd0f7f",
+    "currentAssemblySha256": "973d43085fd95bcec57b1af9fe7f1e3fcb209b298cbda1d33a33c4340ce8335a",
+    "replacementReportSha256": "bad2686320ff5dc34bde2e84f20bf8b35b8b1f699ff4a94d55f4d3103535fdb9",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "assemblyReference": {
+    "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/laser308-offset-turn90-135-to50__H12p5_B4_R2.step",
+    "sourceStepSha256": "973d43085fd95bcec57b1af9fe7f1e3fcb209b298cbda1d33a33c4340ce8335a",
+    "revision": "CURRENT-B6R1-H12p5B4R2",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "cloudUrl": "https://cad.onshape.com/documents/ce8e77762b7598a9ee96789b/v/7d6ea79005cc957bde5aa1a6/e/e68df363c98c99bb0568b2fb",
+    "cloudStatus": "frozen-independent-assembly-readback-pending"
+  },
+  "cloudReference": {
+    "batch": 1,
+    "documentId": "ce8e77762b7598a9ee96789b",
+    "workspaceId": "5a3ed02bf0c0c7618eda5a86",
+    "sourceUrl": "https://cad.onshape.com/documents/ce8e77762b7598a9ee96789b/v/7d6ea79005cc957bde5aa1a6/e/e68df363c98c99bb0568b2fb",
+    "status": "frozen-independent-assembly-readback-pending",
+    "observation": "Onshape notification panel and folder list via IAB",
+    "strictReadbackComplete": false,
+    "active": false,
+    "current": true,
+    "sourceStepSha256": "973d43085fd95bcec57b1af9fe7f1e3fcb209b298cbda1d33a33c4340ce8335a",
+    "automaticCloudReuseAllowed": false,
+    "independentAssemblyElementVerified": true,
+    "physicalAssemblyAccepted": false,
+    "versionId": "7d6ea79005cc957bde5aa1a6",
+    "elementId": "e68df363c98c99bb0568b2fb",
+    "elementType": "Assembly",
+    "versionFrozen": true,
+    "uiEvidence": {
+      "path": null,
+      "sha256": "abcb83c96fd7d08b84a432fdc21ecba021d440d34cb6aa03990c541a7140572d"
+    },
+    "checkedAt": "2026-10-28T01:54:56.736608+08:00"
+  },
+  "id": "laser308-offset-turn90-135-to50"
+}

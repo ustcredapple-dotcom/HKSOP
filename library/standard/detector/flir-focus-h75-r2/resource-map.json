@@ -1,0 +1,40 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "flir-focus-h75-r2",
+  "files": [
+    {
+      "path": "cad/482da1ce6176d51c54dce1df829328a8216d144c5cab788a80351e8dc38954d6.step",
+      "stored": "library/assets/sha256/48/482da1ce6176d51c54dce1df829328a8216d144c5cab788a80351e8dc38954d6.step",
+      "sha256": "482da1ce6176d51c54dce1df829328a8216d144c5cab788a80351e8dc38954d6",
+      "originalReferences": [
+        "step/flir-focus-h75-r2/FC75_R2_MID_REFERENCE_ASSEMBLY.step"
+      ],
+      "sources": [
+        "library/assets/sha256/48/482da1ce6176d51c54dce1df829328a8216d144c5cab788a80351e8dc38954d6.step"
+      ]
+    },
+    {
+      "path": "rendering/8f2500ef4f92b8b64b67a1444b0aea52512a4821177ce75047ff3f8c37c5cce6.svg",
+      "stored": "library/assets/sha256/8f/8f2500ef4f92b8b64b67a1444b0aea52512a4821177ce75047ff3f8c37c5cce6.svg",
+      "sha256": "8f2500ef4f92b8b64b67a1444b0aea52512a4821177ce75047ff3f8c37c5cce6",
+      "originalReferences": [
+        "topviews/flir-focus-h75-r2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/8f/8f2500ef4f92b8b64b67a1444b0aea52512a4821177ce75047ff3f8c37c5cce6.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-fc75-b-r2",
+    "custom-fc75-p-r2",
+    "flir-focus-iso4762-m3x4",
+    "flir-focus-single-axis-stage-reference",
+    "hardware-iso4762-m6x10",
+    "metric-m1-post-m4x12",
+    "metric-m1-post-pin-d2x8",
+    "new-hardware-8bfe2c119c79",
+    "new-r6-20-camera-cs-adapter",
+    "new-r6-camera-flir-bfs-u3-16s2-cs"
+  ]
+}

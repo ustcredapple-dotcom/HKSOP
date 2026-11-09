@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-r3-18-r3-adapter",
+  "files": [
+    {
+      "path": "cad/a2068ee356bb1496c28eb70e9811c9fbd03383023e7e220f49d152f0448bfcfb.step",
+      "stored": "library/assets/sha256/a2/a2068ee356bb1496c28eb70e9811c9fbd03383023e7e220f49d152f0448bfcfb.step",
+      "sha256": "a2068ee356bb1496c28eb70e9811c9fbd03383023e7e220f49d152f0448bfcfb",
+      "originalReferences": [
+        "step/metric-m1-20261006/18-MIR-A_METRIC_M1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/a2/a2068ee356bb1496c28eb70e9811c9fbd03383023e7e220f49d152f0448bfcfb.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

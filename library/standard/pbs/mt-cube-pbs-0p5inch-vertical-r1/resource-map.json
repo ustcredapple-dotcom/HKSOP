@@ -1,0 +1,38 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "mt-cube-pbs-0p5inch-vertical-r1",
+  "files": [
+    {
+      "path": "rendering/3447e2b58a216c6deb61a50f0c44a68a015b0237480e1a6ee47eb5146e8e6abc.svg",
+      "stored": "library/assets/sha256/34/3447e2b58a216c6deb61a50f0c44a68a015b0237480e1a6ee47eb5146e8e6abc.svg",
+      "sha256": "3447e2b58a216c6deb61a50f0c44a68a015b0237480e1a6ee47eb5146e8e6abc",
+      "originalReferences": [
+        "topviews/mt-cube-pbs-0p5inch-vertical-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/34/3447e2b58a216c6deb61a50f0c44a68a015b0237480e1a6ee47eb5146e8e6abc.svg"
+      ]
+    },
+    {
+      "path": "cad/c693a94c183568aa679590b16e5295eb6876e390bbb1899c0f89d2825f66f1bf.step",
+      "stored": "library/assets/sha256/c6/c693a94c183568aa679590b16e5295eb6876e390bbb1899c0f89d2825f66f1bf.step",
+      "sha256": "c693a94c183568aa679590b16e5295eb6876e390bbb1899c0f89d2825f66f1bf",
+      "originalReferences": [
+        "step/combined-r1-20261015/1/MCV05-R1_PBS_VERTICAL_ASSEMBLY.step"
+      ],
+      "sources": [
+        "library/assets/sha256/c6/c693a94c183568aa679590b16e5295eb6876e390bbb1899c0f89d2825f66f1bf.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-mcv05-r1",
+    "custom-post-metric-37p5mm-m1",
+    "hardware-iso4762-m6x12",
+    "lbtek-mt-csb05-purchased",
+    "metric-m1-post-pin-d2x8",
+    "mt-am05s5",
+    "new-r3-hardware-b7a3ea97ce89",
+    "v7-iso4762-m4x12"
+  ]
+}

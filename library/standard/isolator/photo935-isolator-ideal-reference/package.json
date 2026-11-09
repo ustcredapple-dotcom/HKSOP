@@ -1,0 +1,23 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "photo935-isolator-ideal-reference",
+  "revision": "source-snapshot",
+  "displayName": "935 nm 隔离器 · 前向路径示意",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/photo935-isolator-ideal-reference.json"
+    }
+  ],
+  "componentDependencies": [],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

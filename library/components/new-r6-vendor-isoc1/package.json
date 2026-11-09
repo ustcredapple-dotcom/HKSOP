@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-r6-vendor-isoc1",
+  "revision": "source-snapshot",
+  "displayName": "隔离器带罩安装座",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-r6-vendor-isoc1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

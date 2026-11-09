@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "cs30-kz",
+  "revision": "source-snapshot",
+  "displayName": "30 mm笼式Z调整架",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/cs30-kz.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

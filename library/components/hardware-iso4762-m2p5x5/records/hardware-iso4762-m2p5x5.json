@@ -1,0 +1,14 @@
+{
+  "id": "hardware-iso4762-m2p5x5",
+  "name": "ISO 4762 M2.5×5 内六角圆柱头螺钉",
+  "model": "M2.5×5",
+  "kind": "standard",
+  "unit": "颗",
+  "standardSpec": {
+    "thread": "M2.5",
+    "lengthMm": 5,
+    "standard": "ISO4762"
+  },
+  "status": "名义规格；实际材料与接口待确认",
+  "notes": "AA底鞋+TIM名义夹持3mm，名义入2mm；不额外加垫片。"
+}

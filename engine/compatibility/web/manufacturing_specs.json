@@ -1,0 +1,56 @@
+{
+  "version": "materials-2026-09-24.2",
+  "confirmedSource": "用户在当前任务中指定",
+  "profiles": {
+    "post316L": {
+      "material": "316L 不锈钢",
+      "surfaceTreatment": "退磁、喷砂",
+      "threadClass": "待确认"
+    },
+    "otherCustom": {
+      "material": "6061 铝合金",
+      "surfaceTreatment": "黑色阳极氧化",
+      "threadClass": "待确认"
+    },
+    "breadboard": {
+      "material": "6061 铝合金",
+      "surfaceTreatment": "黑色阳极氧化",
+      "threadClass": "待确认"
+    }
+  },
+  "componentProfiles": {
+    "custom-01": "post316L",
+    "custom-02": "post316L",
+    "custom-03": "post316L",
+    "custom-04": "breadboard",
+    "custom-05": "breadboard",
+    "custom-06": "post316L",
+    "custom-07": "post316L",
+    "custom-08": "post316L",
+    "custom-09": "post316L",
+    "custom-10": "post316L",
+    "custom-11": "post316L",
+    "custom-12": "post316L",
+    "custom-13": "post316L",
+    "custom-14": "post316L",
+    "custom-15": "post316L",
+    "motor-bracket-21": "otherCustom",
+    "motor-bracket-22": "otherCustom",
+    "motor-bracket-23": "otherCustom",
+    "motor-bracket-1": "otherCustom",
+    "motor-adapter-9": "otherCustom",
+    "motor-adapter-28": "otherCustom",
+    "motor-adapter-m3": "otherCustom"
+  },
+  "generatedBoardProfile": "breadboard",
+  "scopeNotes": {
+    "post316L": "万能柱及光学器件到万能柱的转接块；包含名称带电动的custom-11主转接块。",
+    "otherCustom": "用户已确认：电机支架等其余自制件采用6061铝合金及黑色阳极氧化。驱动杆不属于万能柱转接件，归此组。",
+    "breadboard": "用户已确认面包板同样采用6061铝合金及黑色阳极氧化，适用于归档板及新参数板。"
+  },
+  "confirmedAt": "2026-09-24",
+  "drawingOmissions": [
+    "generalTolerance",
+    "roughness"
+  ]
+}

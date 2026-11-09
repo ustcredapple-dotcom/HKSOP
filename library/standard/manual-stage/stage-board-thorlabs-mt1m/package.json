@@ -1,0 +1,28 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "stage-board-thorlabs-mt1m",
+  "revision": "source-snapshot",
+  "displayName": "索雷博 MT1/M 位移小面包板",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/stage-board-thorlabs-mt1m.json"
+    }
+  ],
+  "componentDependencies": [
+    "MT1-T",
+    "hardware-iso4762-m6x12",
+    "hardware-iso4762-m6x16",
+    "thorlabs-mt1m-purchased-stage"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "not-declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-dm1v-r1",
+  "revision": "R1",
+  "displayName": "DM1V-R1 · D镜竖直刀口一体转接板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-dm1v-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

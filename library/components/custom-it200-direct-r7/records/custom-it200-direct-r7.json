@@ -1,0 +1,26 @@
+{
+  "id": "custom-it200-direct-r7",
+  "name": "IT200-DIRECT R7 上下三点直装支架",
+  "model": "IT200-DIRECT R7",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R7",
+  "status": "设计审核版",
+  "productionReady": false,
+  "stepPath": "step/iontrap-it200-direct-r7/IT200-DIRECT_R7.step",
+  "sourceStepSha256": "f9fd5c9eb90541ad1caa68f942b7b3fd7980e8f91678f388d66e179883e891f7",
+  "drawingPath": null,
+  "sourceDrawingSha256": "6fc29e72d2bfb4002827fcdff2eca634c19e2b0b1db80563da219a62f7a19d83",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "按R7图纸加工；编号激光打标。无通用公差/粗糙度附加要求；首件试装后放行。"
+  },
+  "notes": "仅计一件定制支架。图纸同时含FLFT1A及FOR安装参考；标准镜架、压圈、螺钉和真实透镜不计入此条目的生产数量。底部线束间隙及现有腿M6螺纹须实装核对。",
+  "laserMarking": {
+    "status": "required",
+    "reason": "R7定制支架唯一编号",
+    "notes": "原1:1激光文件与装夹定位图；仅激光打标，不铣刻。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

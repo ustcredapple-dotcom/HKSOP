@@ -1,0 +1,9 @@
+{
+  "id": "aa-inpro004-tim-unselected",
+  "name": "AA AOM 导热界面层（待选）",
+  "model": "压紧后名义厚0.05mm，材料待选",
+  "kind": "standard",
+  "unit": "片",
+  "status": "未选型，热性能与压缩厚度待测",
+  "notes": "按AOM底面裁切并避孔；模型名义厚度不能替代采购规格或热验收。"
+}

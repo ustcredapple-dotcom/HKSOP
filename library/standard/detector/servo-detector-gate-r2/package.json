@@ -1,0 +1,32 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "servo-detector-gate-r2",
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "displayName": "舵机摆入式探测器 · 紧凑 R2",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/servo-detector-gate-r2.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-post-metric-12p5mm-m1",
+    "hx-30hm-10hm-servo",
+    "metric-m1-post-m4x8",
+    "metric-m1-post-pin-d2x8",
+    "pd-module-37p3-r1",
+    "servo-detector-sg01-r1",
+    "servo-detector-sg02-r2",
+    "servo-horn-a-d19"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "lbtek-op1-200b6",
+  "name": "Ø25 mm 无基座 M6 光学接杆 · 200 mm",
+  "model": "OP1-200B6",
+  "kind": "lubang",
+  "unit": "根",
+  "sourceUrl": "https://www.lbtek.com/product/264#OP1-200B6",
+  "status": "已核对",
+  "notes": "垫高材料；有效高度 200 mm；单根型号，不是五片装。顶部与底部 M6 螺纹孔。",
+  "heightMm": 200.0,
+  "piecesPerOrderUnit": 1
+}

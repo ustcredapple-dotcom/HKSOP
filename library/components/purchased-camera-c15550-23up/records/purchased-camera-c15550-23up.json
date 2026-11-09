@@ -1,0 +1,20 @@
+{
+  "id": "purchased-camera-c15550-23up",
+  "name": "滨松 C15550-23UP 相机",
+  "model": "C15550-23UP",
+  "kind": "standard",
+  "unit": "台",
+  "status": "采购件 · 用户提供实际CAD",
+  "stepPath": "step/camera-actual-r4/35-HQ_R4_USER_SUPPLIED_ACTUAL_CAMERA.step",
+  "sourceStepSha256": "afbd9ea9e0135799cfddd4de3386f2589910055afe016f531aaedd14d49fa75d",
+  "notes": "采购与库存单件；R4采用用户提供实际相机CAD，原始字节冻结。感光硅面位置、线缆水管和实装仍待核实。实际原底板M6孔轴为(±25,57.774)，底面Z24.5；实际前端面比旧外形代理前移0.020mm，真实硅面轴向位置仍待确认。",
+  "cameraReference": {
+    "revision": "R4",
+    "sourceType": "user-supplied-actual-camera-CAD",
+    "isOemCad": null,
+    "isReconstructed": false,
+    "manufacturingUse": false,
+    "originalFilename": "C2061400-00 3D-CAD C15550-23UP(1).STEP",
+    "sourceNativeCoordinateFrame": "mm; original supplier CAD axes retained in single camera file; sourceToWorld stored on kit."
+  }
+}

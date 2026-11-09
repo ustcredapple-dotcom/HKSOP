@@ -1,0 +1,23 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "laser-ecdl-1030nm",
+  "revision": "source-snapshot",
+  "displayName": "ECDL / CatEye · 1030 nm · 光纤输出",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/laser-ecdl-1030nm.json"
+    }
+  ],
+  "componentDependencies": [],
+  "capabilities": {
+    "display": "available",
+    "placement": "not-declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

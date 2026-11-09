@@ -1,0 +1,86 @@
+{
+  "id": "new-r3-11-pbs-upper",
+  "name": "可调半英寸PBS上板",
+  "model": "11-PBS-U-M1",
+  "kind": "custom",
+  "unit": "件",
+  "status": "M1公制加工审核图；PDF、DXF与STEP同源",
+  "notes": "M1公制修订；原架角调不绕柱心，完整调整范围和小间隙不构成公差保证。。实物试装未完成。",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/6cade52197cf090acd64e129",
+  "stepPath": "step/metric-m1-20261006/11-PBS-U_METRIC_M1.step",
+  "drawingPath": null,
+  "sourceStepSha256": "3ea268ecddf705c9c7dbf0ec469e58b12da45a129b26a0e351f09558bbba0b6f",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "threadClass": "待确认",
+    "profileId": "r6_316L_passivated",
+    "policyVersion": "supplied-manufacturing-M1-2026-10-05",
+    "processDetails": "本件均为间隙沉孔，无自制M4螺纹。 主板底支承面为Z0；底定位键伸至Z=-2.5。"
+  },
+  "drawingRevision": "M1",
+  "drawingStatus": "engineering-review",
+  "dxfPath": null,
+  "manufacturingEvidence": {
+    "sourcePackage": null,
+    "sourceCode": "11-PBS-U",
+    "sourceStepSha256": "3ea268ecddf705c9c7dbf0ec469e58b12da45a129b26a0e351f09558bbba0b6f",
+    "drawingSha256": "e3a1fb129767c7bf0f4951cc7eb9bbd2c9924195306700e65b3364c1a5a28210",
+    "dxfSha256": "81a3fcbdd093a37ec6eb0e046b0c822eed2b1762c05bb5aa9280ddba609d5811",
+    "pageCount": 3,
+    "metricMigration": {
+      "post_height_old_mm": 12.7,
+      "post_height_new_mm": 12.5,
+      "selected_height_delta_mm": 0,
+      "world_bottom_delta_mm": -1,
+      "supplier_translation_mm": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "physicalTrialCompleted": false
+  },
+  "sourceDrawingSha256": "e3a1fb129767c7bf0f4951cc7eb9bbd2c9924195306700e65b3364c1a5a28210",
+  "sourceDxfSha256": "81a3fcbdd093a37ec6eb0e046b0c822eed2b1762c05bb5aa9280ddba609d5811",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "4a634effbce33153d05dcde7ecf01c922994edb23fc5efbbe16fa8a86fe3959c",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "9ed12093c79b4edc72eb666700dbaa99b099ac0da97622d2906b627125391871",
+      "currentPdfSha256": "2ca2e3c6e7833ac8121b4784bf57222958feed236905d3a1324f4b73c73af4c9",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "312ca05c143e5c5cd02ab30b8be5c86e0cb39d234608974b1633c4fdfc1f5ce9",
+      "currentPdfSha256": "4a634effbce33153d05dcde7ecf01c922994edb23fc5efbbe16fa8a86fe3959c",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": "custom-periscope-straight-25s3-r3",
+  "name": "直向爬架",
+  "model": "25-S3 R3",
+  "kind": "custom",
+  "unit": "件",
+  "stepPath": "step/periscope-standard-r3/25-S3_R3.step",
+  "sourceStepSha256": "6efaee3d4b687653629eb10f50d07ddefe0910eba3e5e382418097a6d9a902d0",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "仅按冻结孔表加工；通用公差和粗糙度依用户要求有意省略。螺纹规格依图纸，不从底孔直径推断。"
+  },
+  "status": "名义CAD工程审核；实物刚度、夹紧和重复定位未实测",
+  "notes": "原有柱及商业MT-AM1S5未改；旧custom10保留历史，本R3使用独立10-C校正件。镜片几何盘不代表已选光学型号。",
+  "sourceOwnership": {
+    "originalSystem": "用户原有模块与原厂家参考组件",
+    "currentRevision": "本任务获准R3结构修订",
+    "role": "新增定制件；不归属复用商用品原设计"
+  },
+  "drawingPath": null,
+  "sourceDrawingSha256": "88ca906020c5705d75c1ef317d1266c3f6af0bdcdbd9044ae9f09596f0e822db",
+  "drawingPages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "dxfPath": null,
+  "manufacturingEvidence": {
+    "sourceStepSha256": "6efaee3d4b687653629eb10f50d07ddefe0910eba3e5e382418097a6d9a902d0",
+    "drawingSha256": "88ca906020c5705d75c1ef317d1266c3f6af0bdcdbd9044ae9f09596f0e822db",
+    "dxfSha256": "65dd61e8afb539b45e1fece8bf04e578dc1322affa9b7728ee60b2e658e4f217",
+    "pageCount": 4,
+    "specPath": "source-project/periscope_standard_r3_20261006/straight_s3/specs/25-S3.json",
+    "specSHA256": "bad2803ee5647fa692ea87179d84e49f7b148f9b5ad7f89fc3b224096cfff91c",
+    "geometryReview": "library/reviews/periscope-standard-r3-20261006/evidence/package_review.json",
+    "releaseScope": "nominal CAD/drawing engineering review; no physical manufacturing qualification"
+  },
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/13e796b6399c6c09085aa668/e/c1cd3e503b1f1093c4d7dbdb",
+  "drawingSourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/13e796b6399c6c09085aa668/e/27fed123f318b4c9b2d99bfc",
+  "drawingSourceUrlRole": "frozen imported machining PDF; local SHA-bound PDF remains manufacturing document",
+  "sourcePartName": "公制直向多档一体爬架_25-S3",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "4b88a58d04aa7c3db59df79a5ca1fe3f088f61b66849b963be092c418e931db0",
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "c759f6d0b30d6042c90c063f5b22c65eb357440038ec7ecd60d6eb973405e97d",
+      "currentPdfSha256": "5236857d0b8ec746bffe69ca344c75c601b07df787febcbdaefcf31aed49c9b0",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "31db7439cfbd6456171846b7558c6bc8b56bed795317f5ece12abd3249af1dff",
+      "currentPdfSha256": "4b88a58d04aa7c3db59df79a5ca1fe3f088f61b66849b963be092c418e931db0",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "f93d6d89b92b819065b60b1d2708f033b3ff9a0edd30204f9c7bd981e383c919",
+        "sha256": "88ca906020c5705d75c1ef317d1266c3f6af0bdcdbd9044ae9f09596f0e822db"
+      },
+      {
+        "path": null,
+        "previousSha256": "6aef363ac178b9e22819f26cb1a6a44db03f033468e2f17ab936c03e06bf240e",
+        "sha256": "65dd61e8afb539b45e1fece8bf04e578dc1322affa9b7728ee60b2e658e4f217"
+      }
+    ]
+  }
+}

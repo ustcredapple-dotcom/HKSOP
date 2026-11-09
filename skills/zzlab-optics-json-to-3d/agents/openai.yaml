@@ -1,0 +1,4 @@
+interface:
+  display_name: "ZZLab JSON 分层三维装配"
+  short_description: "把 ZZOptics 布局转成保留完整子装配的三维模型，并查询最新正式成果"
+  default_prompt: "使用 $zzlab-optics-json-to-3d 将 ZZOptics JSON 转成分层三维总装，并记录最新模型位置和验收状态。"

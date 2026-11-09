@@ -1,0 +1,390 @@
+{
+  "name": "一体式物镜柱式连接套件 · PT1/M",
+  "category": "objective",
+  "variant": "25 mm公制柱 / R2 / PT1/M",
+  "revision": "R2-B6R1",
+  "sourceUrl": "https://cad.onshape.com/documents/9366703df3e39ee0154715df/v/9a91a1d63272fc599d1d1196/e/519dd65bed4eb9f21aa7a77d",
+  "description": "现有物镜夹具经一体连接件固定到万能柱，再固定到位移台上板；后端面位置由固定偏距A及实际保留接口决定。",
+  "components": [
+    {
+      "componentId": "custom-30-obj-m-r2",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-post-metric-25mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-hardware-0cc1a2908550",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-iso4762-m6x12",
+      "quantity": 4
+    },
+    {
+      "componentId": "new-hardware-d56c7b8035c3",
+      "quantity": 2
+    },
+    {
+      "componentId": "new-r3-hardware-b7a3ea97ce89",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [],
+  "layout": {
+    "widthMm": 54.659249,
+    "heightMm": 51.0,
+    "anchorXMm": 17.5,
+    "anchorYMm": 25.5,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "xMax": 17.5,
+      "yMin": -17.5,
+      "yMax": 17.5
+    },
+    "collisionBoundsMm": {
+      "xMin": -17.5,
+      "xMax": 37.159249,
+      "yMin": -25.5,
+      "yMax": 25.5
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -14.0,
+          "yMm": 25.2
+        },
+        {
+          "xMm": -13.7,
+          "yMm": 25.5
+        },
+        {
+          "xMm": 35.487363,
+          "yMm": 25.5
+        },
+        {
+          "xMm": 35.590067,
+          "yMm": 25.397296
+        },
+        {
+          "xMm": 36.659249,
+          "yMm": 25.397296
+        },
+        {
+          "xMm": 36.909249,
+          "yMm": 25.149872
+        },
+        {
+          "xMm": 37.159249,
+          "yMm": 24.899876
+        },
+        {
+          "xMm": 37.159249,
+          "yMm": 10.900124
+        },
+        {
+          "xMm": 36.909249,
+          "yMm": 10.650129
+        },
+        {
+          "xMm": 36.909249,
+          "yMm": 10.650128
+        },
+        {
+          "xMm": 36.659249,
+          "yMm": 10.402704
+        },
+        {
+          "xMm": 35.787363,
+          "yMm": 10.402704
+        },
+        {
+          "xMm": 35.787363,
+          "yMm": -10.402704
+        },
+        {
+          "xMm": 36.659249,
+          "yMm": -10.402704
+        },
+        {
+          "xMm": 36.909247,
+          "yMm": -10.650126
+        },
+        {
+          "xMm": 36.909249,
+          "yMm": -10.650128
+        },
+        {
+          "xMm": 37.159249,
+          "yMm": -10.900124
+        },
+        {
+          "xMm": 37.159249,
+          "yMm": -24.899876
+        },
+        {
+          "xMm": 36.909249,
+          "yMm": -25.149871
+        },
+        {
+          "xMm": 36.909249,
+          "yMm": -25.149872
+        },
+        {
+          "xMm": 36.909247,
+          "yMm": -25.149873
+        },
+        {
+          "xMm": 36.659249,
+          "yMm": -25.397296
+        },
+        {
+          "xMm": 35.590067,
+          "yMm": -25.397296
+        },
+        {
+          "xMm": 35.487363,
+          "yMm": -25.5
+        },
+        {
+          "xMm": -13.7,
+          "yMm": -25.5
+        },
+        {
+          "xMm": -14.0,
+          "yMm": -25.2
+        },
+        {
+          "xMm": -14.0,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -17.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": -14.0,
+          "yMm": 17.5
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "topViewPath": "topviews/objective-post-pt1m-r2__B6_R1.svg",
+    "topViewUrl": "./topviews/objective-post-pt1m-r2__B6_R1.svg",
+    "placementAllowed": true,
+    "minimumAlignedMountingHoles": 4,
+    "opticalType": "unsupported",
+    "opticalCenterMm": null,
+    "opticalDatumVerified": false,
+    "opticalAxisHeightMm": 62.5,
+    "opticalAxisHeightSource": "公制柱25 + 一体转接件12.1 + 原厂轴高25.4 =62.5；相对小板顶面。",
+    "mountingDatumVerified": true,
+    "supportDatumVerified": true,
+    "opticalClearApertureVerified": false,
+    "fullObjectiveEnvelopeModeled": false,
+    "collisionGeometryScope": "冻结STEP包含正式柱、一体连接件和原厂镜架；物镜本体官方STEP未取得，其外伸及工作空间需按实物和原厂尺寸另行检查。",
+    "geometryEvidence": {
+      "path": "evidence/cad/projection.json",
+      "sourceStepSha256": "0966dbd25e76bb7fec42d4339a0491a299fd3bde374b40fe3fa805244c73f42f",
+      "physicalAcceptance": "not-performed",
+      "previousProjectionSource": {},
+      "sourceStep": "step/universal-post-b6-r1/assemblies/asset-objective-shared-module__B6_R1.step",
+      "sourceSha256": "d112f542c26a866417b8c2bbbd874c7252dfe830bd87e45247186636bb30b17b",
+      "imageSha256": "8dfe9fdf6b6907890940ece97bde8c3139344bd50ff0f3c6dc89e249267b0091",
+      "partCount": 31,
+      "triangleCount": 482718,
+      "meshDeflectionMm": 0.035,
+      "postBaseRevision": {
+        "revision": "B6-R1",
+        "sourceRole": "complete",
+        "xyFootprintAndFunctionalDatumsPreserved": true,
+        "projectionReportSha256": "18687608e2ec946d1e749b921d15a8ec9508a6e0aa33c7e5e1b257e891646370",
+        "displayTransform": null,
+        "sourceGeometryChangedByRenderer": false
+      }
+    },
+    "opticalSimulationNote": "官方焦距10 mm、工作距离20 mm及名义焦点参考已收录。装配通光口径和内部传播模型尚未核实，光束在这里暂停；请在下方查看物镜官方参数。",
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "d112f542c26a866417b8c2bbbd874c7252dfe830bd87e45247186636bb30b17b",
+      "imageSha256": "8dfe9fdf6b6907890940ece97bde8c3139344bd50ff0f3c6dc89e249267b0091",
+      "revision": "B6-R1",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null
+    }
+  },
+  "status": "固定后端基准由现有肩面贴合与原厂尺寸推导；名义CAD装配核验，待实装验收",
+  "bundleStatus": "engineering-review",
+  "releaseStage": "engineering-review",
+  "notes": "仅新连接件与安装五金进入BOM；用户已有物镜、MT-AM1T、原M4×14不重复采购；不添加SM1-M26A或其他转接环。位移台模块BOM由stageMotion独立展开一次。Ø2×5既有组件的旧插入说明仅对应其原方案，本批按专用接口表安装。 B6 R1：万能柱底座6 mm，原标称总高和光学基准保持；当前完整STEP已实际换柱，未实物试装。",
+  "optionalNotes": [
+    "物镜后机械端固定偏距A=−F−5=18.287362902251 mm；L=A+80为派生量，没有称为实测。沿用肩面直接贴合的现有接口，保持镜架名义零俯仰/零偏摆位，实装复核基准。",
+    "本文固定名义光高100/112.5 mm；使用现有柱高替换功能须重新核实螺钉可达、承载及光路。"
+  ],
+  "assemblyReference": {
+    "stepPath": "step/universal-post-b6-r1/assemblies/objective-post-pt1m-r2__B6_R1.step",
+    "sourceStepSha256": "99b2dba9871aed1b9ddfc723804bc8b9b27c89a37bc8fb7ee8ef3d487f7ee328",
+    "note": "固定导入位置的参考总装；不是单件制造STEP或带可运动原生配合的总装。",
+    "revision": "R2-B6R1",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "sha256": "99b2dba9871aed1b9ddfc723804bc8b9b27c89a37bc8fb7ee8ef3d487f7ee328"
+  },
+  "attachmentReference": {
+    "stepPath": "step/universal-post-b6-r1/assemblies/asset-objective-shared-module__B6_R1.step",
+    "sourceStepSha256": "d112f542c26a866417b8c2bbbd874c7252dfe830bd87e45247186636bb30b17b",
+    "sha256": "d112f542c26a866417b8c2bbbd874c7252dfe830bd87e45247186636bb30b17b"
+  },
+  "installationCompatibility": {
+    "stageModuleId": "stage-board-thorlabs-pt1m",
+    "stageModuleRevision": "R1-A7075",
+    "registeredBoardId": "stage-top-pt1-t",
+    "registeredBoardRevision": "R1-A7075",
+    "nominalPostAxisBoardMm": {
+      "xMm": 50,
+      "yMm": 37.5
+    },
+    "nominalWorldAxisHeightMm": 112.5,
+    "scope": "匹配四个当前实际M6输出螺孔；运行时未知元数据不构成自动限制安装板的执行能力。"
+  },
+  "mechanicalRearDatum": {
+    "definition": "rear threaded mechanical end center, 5 mm behind mounting shoulder",
+    "frontDistanceLmm": 98.287362902251,
+    "mountAxisOffsetAmm": 18.287362902251004,
+    "rearOffsetDmm": -18.287362902251004,
+    "targetCenterMm": [
+      0,
+      0,
+      62.5
+    ],
+    "status": "source-derived-seated-interface-nominal-geometry",
+    "frontDistanceClassification": "derived-not-measured",
+    "noExtraAdapter": true,
+    "sourceEvidence": {
+      "path": "evidence/source/datum/rear-datum-input.json",
+      "sha256": "bcaf6e1b53807cfdcfd91b95a0047cc2a6ce83b9e1b7c40e4d1f37471cd7c0ab"
+    },
+    "physicalAcceptance": "not-performed"
+  },
+  "mountedExistingHardware": [
+    {
+      "componentId": "lbtek-mt-am1t-purchased",
+      "quantity": 1,
+      "procurement": "existing-excluded"
+    },
+    {
+      "identity": "用户已有Mitutoyo M Plan Apo NIR 20X/0.40物镜",
+      "quantity": 1,
+      "procurement": "existing-excluded",
+      "exactOrderNumber": null
+    },
+    {
+      "identity": "原厂附送M4×14",
+      "quantity": 1,
+      "procurement": "existing-excluded"
+    }
+  ],
+  "objectiveSpecification": {
+    "format": "zzlab-objective-specification-v1",
+    "manufacturer": "Mitutoyo",
+    "model": "M Plan Apo NIR 20× / 0.40",
+    "identification": "Photo confirms standard NIR, 20×, NA 0.40, infinity/0, f=200; not NIR B, HR or LCD. Physical order-number suffix not visible.",
+    "catalogReferenceOrderNumber": "378-824-16",
+    "physicalOrderNumber": null,
+    "magnification": 20,
+    "numericalAperture": 0.4,
+    "focalLengthMm": 10,
+    "focalLengthReferenceWavelengthNm": 550,
+    "workingDistanceMm": 20,
+    "workingDistanceDatum": "front mechanical face to nominal in-focus specimen plane",
+    "tubeLensFocalLengthMm": 200,
+    "infinityCorrected": true,
+    "coverGlassThicknessMm": 0,
+    "correctionWavelengthNm": {
+      "min": 480,
+      "max": 1800
+    },
+    "parfocalDistanceMm": 95,
+    "parfocalDatum": "mounting shoulder to nominal in-focus specimen plane",
+    "frontFaceFromShoulderMm": 75,
+    "rearThreadProjectionMm": 5,
+    "derivedPupilDiameterMm": 8,
+    "pupilDerivation": "2 × NA × f; nominal pupil, NOT verified mechanical clear aperture",
+    "nominalRearThreadEndToFocusMm": 100,
+    "nominalFocusDerivation": "5 mm thread projection + 95 mm parfocal distance; equivalent to 80 mm body length + 20 mm WD",
+    "nominalFocusInKitMm": {
+      "xMm": -100,
+      "yMm": 0,
+      "zMm": 62.5
+    },
+    "nominalFocusBasis": "R2 source-derived rear mechanical datum [0,0,62.5], objective pointing local -X, zero tip/tilt; not a measured focus or exact Gaussian waist.",
+    "sourceUrl": "https://www.mitutoyo.co.jp/products/sensors-and-devices-incorporated-units/built-in-optical-instruments/tube-and-objective-lenses-and-eyepiece/nir/378-824-16/",
+    "catalogUrl": "https://www2.mitutoyo.co.jp/eng/support/service/catalog/04/E14020.pdf",
+    "catalogPdfPages": [
+      16,
+      22
+    ],
+    "retrievedAt": "2026-10-07",
+    "sourcePdfSha256": "52809eda5ae160735d173f87a40b5ff01e717cda6464a80cea48301f4b69ff81",
+    "photoSha256": "8e97cd59d0e6239cdac872605eaa91df5ec1f0b05ee67fa2775447522b8b4f3e",
+    "simulationStatus": "reference-parameters-only",
+    "notes": "官方名义参数：20×、NA 0.40、焦距10 mm（550 nm）、工作距离20 mm；f=200是配套管镜焦距。波长补偿范围480–1800 nm，不是保证全波段透过率或损伤阈值。超过1100 nm时，官方提示焦点相对可见光可能偏移。",
+    "simulationLimit": "工作距离从物镜前端面量起；焦距从主平面量起，两者不能混用。尚无完整光学处方、已核实装配通光口径和波长响应；本次登记名义焦点参考，不把柱轴或镜架表面当作薄透镜。"
+  },
+  "libraryVisibility": "compatibility-only",
+  "canonicalKitId": "objective-post-ls30-6l1-r2",
+  "compatibilityNote": "仅供既有工程和购物车读取历史稳定ID；新放置统一使用一体式物镜柱式连接套件。不作为单独的库选型入口。",
+  "postBaseRevision": {
+    "revision": "B6-R1",
+    "baseThicknessMm": 6,
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "cloudStatus": "pending",
+    "physicalAssemblyAccepted": false,
+    "previousSourceUrl": "",
+    "sourceAssemblySha256": "2a18938e6027f1f875dafc941965751a68beb0b605864294750a330273426290",
+    "currentAssemblySha256": "99b2dba9871aed1b9ddfc723804bc8b9b27c89a37bc8fb7ee8ef3d487f7ee328",
+    "replacementReportSha256": "ac525320c4247a6f4c543c5a226db2edb0dd2ae9c2f0f08f1433e12591f442f1",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "cloudReference": {
+    "active": false,
+    "current": false,
+    "status": "reviewed-reference-local-precision-source",
+    "documentId": "9366703df3e39ee0154715df",
+    "versionId": "9a91a1d63272fc599d1d1196",
+    "elementId": "519dd65bed4eb9f21aa7a77d",
+    "sourceUrl": "https://cad.onshape.com/documents/9366703df3e39ee0154715df/v/9a91a1d63272fc599d1d1196/e/519dd65bed4eb9f21aa7a77d",
+    "sourceStepSha256": "99b2dba9871aed1b9ddfc723804bc8b9b27c89a37bc8fb7ee8ef3d487f7ee328",
+    "strictWholeAssemblyGeometryEquivalent": false,
+    "allPostSolidsStrictGeometryEquivalent": true,
+    "allAssemblyIdentityAndPoseReferencesPassed": false,
+    "actualCloudAcceptanceSha256": "d989a799138415a93cf804a8080ad2712f38479d94a6e4d5dfb2f8121d4fb567",
+    "cloudMapSha256": "d989a799138415a93cf804a8080ad2712f38479d94a6e4d5dfb2f8121d4fb567",
+    "authoritativePrecisionSource": "当前已核验本地 B6 完整 STEP。云端 BRep 仅为回读参考；原生层级/运动及原厂转译差异未全部通过，不能用于自动精密复用。"
+  },
+  "id": "objective-post-pt1m-r2"
+}

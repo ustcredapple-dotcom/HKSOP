@@ -1,0 +1,86 @@
+{
+  "id": "new-aom-adapter-3",
+  "name": "AOM两只相同压桥",
+  "model": "08C-M1",
+  "kind": "custom",
+  "unit": "件",
+  "status": "M1公制加工审核图；PDF、DXF与STEP同源",
+  "notes": "M1公制修订；AOM采用已说明的原厂外形简化参考，晶体作用区不明；热性能与微调后的光轴待验证。。实物试装未完成。",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/c9d59009e1d6f30166ba57ee",
+  "stepPath": "step/metric-m1-20261006/08C_METRIC_M1.step",
+  "drawingPath": null,
+  "sourceStepSha256": "6f9ff23879804f69347695894767269fd4fea84d574e98cf8b56379702b63b1d",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "threadClass": "待确认",
+    "profileId": "r6_316L_passivated",
+    "policyVersion": "supplied-manufacturing-M1-2026-10-05",
+    "processDetails": "同一零件用2只；顶面沉孔另沿Y开通成U形头座。 成品保留底层厚2；勿将上部薄唇补回。"
+  },
+  "drawingRevision": "M1",
+  "drawingStatus": "engineering-review",
+  "dxfPath": null,
+  "manufacturingEvidence": {
+    "sourcePackage": null,
+    "sourceCode": "08C",
+    "sourceStepSha256": "6f9ff23879804f69347695894767269fd4fea84d574e98cf8b56379702b63b1d",
+    "drawingSha256": "0eb87f30080bc69f1e561b963ff58f300017564f625191e6cab0af1e667fd7f8",
+    "dxfSha256": "788bfe57e3cc39aee9378a58c965c62bb22ca3f09ee01f1aea9713f795324c78",
+    "pageCount": 3,
+    "metricMigration": {
+      "post_height_old_mm": 12.7,
+      "post_height_new_mm": 12.5,
+      "selected_height_delta_mm": 0,
+      "world_bottom_delta_mm": -1,
+      "supplier_translation_mm": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "physicalTrialCompleted": false
+  },
+  "sourceDrawingSha256": "0eb87f30080bc69f1e561b963ff58f300017564f625191e6cab0af1e667fd7f8",
+  "sourceDxfSha256": "788bfe57e3cc39aee9378a58c965c62bb22ca3f09ee01f1aea9713f795324c78",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "c2dcd241a8689e6c673899079131803674c07cc12ae506e8da3477071540ea6b",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "41322e965776f466a160e89926bcb5a69f62a3c747907a43596d72a03b678509",
+      "currentPdfSha256": "160c276d4f4f3f7a887b538b4abf0d665ea1e044ba9911f448309ecb8059a097",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "1cd502fee8fba650c77affa65d39543ff3f2c9ccfdbbfdad1b6f86ff9f5b6847",
+      "currentPdfSha256": "c2dcd241a8689e6c673899079131803674c07cc12ae506e8da3477071540ea6b",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

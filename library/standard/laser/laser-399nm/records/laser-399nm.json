@@ -1,0 +1,507 @@
+{
+  "name": "399 nm 激光器 · 频准激光",
+  "category": "laser",
+  "variant": "1.21 W · 光口位置与高度待实测",
+  "description": "按原厂手册445×215 mm激光头绘制俯视图，含侧调节件；399主口及798监视口分开标记。",
+  "sourceUrl": "",
+  "components": [
+    {
+      "componentId": "laser-399nm",
+      "quantity": 1
+    }
+  ],
+  "opticalSlots": [],
+  "status": "型号与报告已核对；主光口位置/高度待实测",
+  "notes": "频准激光 FL-SF-399-1-CW，报告PLP-2025-08-005658-01。外购399 nm连续激光头，实测398.90264 nm、1.21 W（1210 mW）；准直直径0.802 mm、M²1.048、线偏振。手册主壳445×215×118 mm，侧调节件外伸56.5 mm。399 nm主口与798 nm监视口已辨认；主口横向坐标及光轴高度未标注，待实测后用于精确光路。俯视图局部细节和安装孔组绝对偏移按正投影估读；仅供布局，不生成自制STEP或加工图。",
+  "layout": {
+    "topViewPath": "topviews/kit_laser-399nm.svg",
+    "topViewUrl": "./topviews/kit_laser-399nm.svg",
+    "widthMm": 568,
+    "heightMm": 312,
+    "anchorXMm": 270,
+    "anchorYMm": 132,
+    "baseBoundsMm": {
+      "xMin": -234,
+      "yMin": -118.5,
+      "xMax": 222.5,
+      "yMax": 118.5
+    },
+    "collisionBoundsMm": {
+      "xMin": -234,
+      "yMin": -164,
+      "xMax": 285.5,
+      "yMax": 118.5
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -222.5,
+          "yMm": -107.5
+        },
+        {
+          "xMm": 222.5,
+          "yMm": -107.5
+        },
+        {
+          "xMm": 222.5,
+          "yMm": 107.5
+        },
+        {
+          "xMm": -222.5,
+          "yMm": 107.5
+        }
+      ],
+      [
+        {
+          "xMm": 66.5,
+          "yMm": 106
+        },
+        {
+          "xMm": 128.5,
+          "yMm": 106
+        },
+        {
+          "xMm": 128.5,
+          "yMm": 118.5
+        },
+        {
+          "xMm": 66.5,
+          "yMm": 118.5
+        }
+      ],
+      [
+        {
+          "xMm": 66.5,
+          "yMm": -118.5
+        },
+        {
+          "xMm": 128.5,
+          "yMm": -118.5
+        },
+        {
+          "xMm": 128.5,
+          "yMm": -106
+        },
+        {
+          "xMm": 66.5,
+          "yMm": -106
+        }
+      ],
+      [
+        {
+          "xMm": -234,
+          "yMm": -18.5
+        },
+        {
+          "xMm": -221,
+          "yMm": -18.5
+        },
+        {
+          "xMm": -221,
+          "yMm": 43.5
+        },
+        {
+          "xMm": -234,
+          "yMm": 43.5
+        }
+      ],
+      [
+        {
+          "xMm": -227.5,
+          "yMm": 50
+        },
+        {
+          "xMm": -222.5,
+          "yMm": 50
+        },
+        {
+          "xMm": -222.5,
+          "yMm": 95
+        },
+        {
+          "xMm": -227.5,
+          "yMm": 95
+        }
+      ],
+      [
+        {
+          "xMm": -227.5,
+          "yMm": -78
+        },
+        {
+          "xMm": -222.5,
+          "yMm": -78
+        },
+        {
+          "xMm": -222.5,
+          "yMm": -35
+        },
+        {
+          "xMm": -227.5,
+          "yMm": -35
+        }
+      ],
+      [
+        {
+          "xMm": -141,
+          "yMm": -164
+        },
+        {
+          "xMm": -82,
+          "yMm": -164
+        },
+        {
+          "xMm": -82,
+          "yMm": -107.5
+        },
+        {
+          "xMm": -141,
+          "yMm": -107.5
+        }
+      ],
+      [
+        {
+          "xMm": 222.5,
+          "yMm": 77
+        },
+        {
+          "xMm": 247.5,
+          "yMm": 77
+        },
+        {
+          "xMm": 247.5,
+          "yMm": 99
+        },
+        {
+          "xMm": 222.5,
+          "yMm": 99
+        }
+      ],
+      [
+        {
+          "xMm": 222.5,
+          "yMm": 52
+        },
+        {
+          "xMm": 236.5,
+          "yMm": 52
+        },
+        {
+          "xMm": 236.5,
+          "yMm": 75
+        },
+        {
+          "xMm": 222.5,
+          "yMm": 75
+        }
+      ],
+      [
+        {
+          "xMm": 222.5,
+          "yMm": -2
+        },
+        {
+          "xMm": 285.5,
+          "yMm": -2
+        },
+        {
+          "xMm": 285.5,
+          "yMm": 24
+        },
+        {
+          "xMm": 222.5,
+          "yMm": 24
+        }
+      ],
+      [
+        {
+          "xMm": 222.5,
+          "yMm": -70
+        },
+        {
+          "xMm": 285.5,
+          "yMm": -70
+        },
+        {
+          "xMm": 285.5,
+          "yMm": -45
+        },
+        {
+          "xMm": 222.5,
+          "yMm": -45
+        }
+      ],
+      [
+        {
+          "xMm": 222.5,
+          "yMm": -99
+        },
+        {
+          "xMm": 247.5,
+          "yMm": -99
+        },
+        {
+          "xMm": 247.5,
+          "yMm": -78
+        },
+        {
+          "xMm": 222.5,
+          "yMm": -78
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": 72.5,
+        "yMm": -112.5
+      },
+      {
+        "xMm": 72.5,
+        "yMm": 112.5
+      },
+      {
+        "xMm": 122.5,
+        "yMm": -112.5
+      },
+      {
+        "xMm": 122.5,
+        "yMm": 112.5
+      }
+    ],
+    "mountingHoleRadiusMm": 3.2,
+    "minimumAlignedMountingHoles": 2,
+    "opticalPortsMm": [
+      {
+        "id": "output",
+        "xMm": -227.5,
+        "yMm": 72.5,
+        "directionX": -1,
+        "directionY": 0,
+        "wavelengthNm": 398.90264,
+        "beamHeightMm": null,
+        "positionVerified": false,
+        "positionStatus": "illustrative-awaiting-measurement"
+      }
+    ],
+    "opticalAxisHeightMm": null,
+    "opticalAxisHeightSource": "手册未标注主光轴高度，待实测；不采用其他机型高度",
+    "opticalType": "source",
+    "opticalDirectionDeg": 180,
+    "opticalDatumVerified": false,
+    "opticalSimulationNote": "399 nm主口横向位置与光轴高度待实测，图中十字仅示意；出厂报告参数已登记。",
+    "opticalDefaults": {
+      "elementType": "source",
+      "inserted": true,
+      "source": {
+        "enabled": false,
+        "wavelengthNm": 398.90264,
+        "powerMw": 1210,
+        "beamDiameterMm": 0.802,
+        "beamQualityM2": 1.048,
+        "polarizationType": "linear",
+        "polarizationAngleDeg": 0,
+        "ellipticityDeg": 0,
+        "wavefrontRadiusMm": null,
+        "directionAngleDeg": 180
+      }
+    },
+    "sourceReport": {
+      "title": "频准激光出厂测试报告",
+      "reportId": "PLP-2025-08-005658-01",
+      "reportDate": "2025-11-19",
+      "summary": [
+        "报告第3–5页：FL-SF-399-1-CW；398.90264 nm；连续准直自由空间输出；稳功率测试点1.21 W（1210 mW）。",
+        "报告第3、13页：准直直径0.802 mm、M²1.048；D4σ高斯等效近似。",
+        "报告第8页：线偏振、消光比25 dB；未给相对板面偏振方向。",
+        "手册第7–10页：主壳445×215×118 mm，侧调节件外伸56.5 mm；399 nm主口与798 nm监视口不同。光轴高度和横向位置待实测。"
+      ],
+      "simulationNotes": [
+        "默认功率对应13.3–13.1 A稳功率测试点；普通模式13.3 A为1.30 W，不能混用。",
+        "主光口横向位置及高度未定标，图中光口仅示意，需实测后才能作精确光路。",
+        "窗面q参数未标定；报告直径采用圆对称高斯等效、平波前近似，不与另一组传播测点拼接。",
+        "偏振角0°仅为初始假设，请按实物设置；PER只作参考，不由它推断相位、S3或偏振度。",
+        "798 nm监视口测试功率7.23 mW不是主光束；暂不作为第二个可渲染光源。"
+      ],
+      "reportedParameters": {
+        "wavelengthNm": 398.90264,
+        "powerMw": 1210,
+        "beamDiameterMm": 0.802,
+        "beamQualityM2": 1.048,
+        "polarizationType": "linear",
+        "extinctionRatioDb": 25,
+        "beamDiameterDefinition": "D4σ; Gaussian-equivalent simulation",
+        "axisRelativeToBoardDeg": null,
+        "windowWavefrontRadiusMm": null
+      },
+      "applyFields": [
+        "wavelengthNm",
+        "powerMw",
+        "beamDiameterMm",
+        "beamQualityM2",
+        "polarizationType"
+      ],
+      "sourceFiles": [
+        {
+          "id": 1,
+          "name": "频准激光_798nm399nm双波长激光器用户手册.pdf",
+          "path": null,
+          "sha256": "c8077ff7d66546418fdecc041a450b8d612d8771e4de64876f17e3344d4848f6",
+          "pages": 25
+        },
+        {
+          "id": 2,
+          "name": "频准激光_FL-SF-399-1-CW_测试报告_202508005658.pdf",
+          "path": null,
+          "sha256": "6503f2c49e7d2b82498cd0184568c34718ec6267f5964d313d7582f018707f97",
+          "pages": 13
+        }
+      ]
+    },
+    "placementAllowed": true,
+    "status": "手册外形尺寸已核对；主光口位置/高度待实测",
+    "note": "主壳445×215×118 mm；侧面调节件另伸56.5 mm。6×Ø6.4通孔，侧四孔按50×225 mm孔距吸附，至少对齐两孔。前端两孔在图中示意，不参与吸附；孔组绝对位置、脚边及接头形状为估读。左端399主光口和798监视口均已标记，主口精确横向位置与高度待实测。",
+    "sourceUrl": "",
+    "collisionGeometryVersion": "manual-399nm-2026-10-05.1",
+    "calibration": {
+      "source": "Precilasers 798nm/399nm用户手册 PDF第10页尺寸图；第7–8页窗口照片",
+      "sourceFiles": [
+        {
+          "id": 1,
+          "name": "频准激光_798nm399nm双波长激光器用户手册.pdf",
+          "path": null,
+          "sha256": "c8077ff7d66546418fdecc041a450b8d612d8771e4de64876f17e3344d4848f6",
+          "pages": 25
+        },
+        {
+          "id": 2,
+          "name": "频准激光_FL-SF-399-1-CW_测试报告_202508005658.pdf",
+          "path": null,
+          "sha256": "6503f2c49e7d2b82498cd0184568c34718ec6267f5964d313d7582f018707f97",
+          "pages": 13
+        }
+      ],
+      "dimensionPage": {
+        "sourceId": 1,
+        "path": null,
+        "sha256": "c8077ff7d66546418fdecc041a450b8d612d8771e4de64876f17e3344d4848f6",
+        "pdfPage": 10,
+        "printedPage": 8,
+        "figure": "3.1 Dimensions"
+      },
+      "portIdentityPage": {
+        "sourceId": 1,
+        "path": null,
+        "sha256": "c8077ff7d66546418fdecc041a450b8d612d8771e4de64876f17e3344d4848f6",
+        "pdfPage": 7,
+        "printedPage": 5,
+        "figure": "2.3 Output cavity d.399nm / f.798nm"
+      },
+      "datum": "主壳中心；X向右、Y向上，左侧短端面为光口，侧调节件向Y负方向伸出",
+      "housingLengthMm": 445,
+      "housingWidthMm": 215,
+      "bodyHeightMm": 118,
+      "sideProtrusionMm": 56.5,
+      "sideMountRowSpacingMm": 225,
+      "sideMountPairSpacingMm": 50,
+      "frontHoleToFirstSideHoleLongitudinalMm": 300,
+      "frontLowerHoleFromLowerSideRowMm": 100,
+      "mountingHoleDiameterMm": 6.4,
+      "mountingHoleCount": 6,
+      "estimatedSidePatternOriginMm": {
+        "xMm": 72.5,
+        "yMm": -112.5
+      },
+      "estimatedFrontHoleOffsetsMm": [
+        {
+          "xMm": -227.5,
+          "yMm": 37.5
+        },
+        {
+          "xMm": -227.5,
+          "yMm": -12.5
+        }
+      ],
+      "estimatedFrontMountCenterBeyondHousingMm": 5,
+      "mainApertureTransverseOffsetMm": null,
+      "beamHeightMm": null,
+      "illustrativeMainPortMm": {
+        "xMm": -227.5,
+        "yMm": 72.5
+      },
+      "illustrativeMonitorPortMm": {
+        "xMm": -227.5,
+        "yMm": -57.5
+      },
+      "opticalDatumVerified": false,
+      "estimateOnlyAudit": {
+        "mainApertureOffsetFromUpperBodySideMm": 35,
+        "mainApertureHeightMm": 80,
+        "method": "Unlabelled orthographic front-view pixel ratio scaled to the labelled 215 mm width and 118 mm height; not an engineering dimension.",
+        "errorSources": [
+          "Raster line width and low original resolution",
+          "Undimensioned optical window/collar centre versus actual beam axis",
+          "Unconfirmed support-plane relation",
+          "Cannot assign a defensible dimensional tolerance from this manual"
+        ],
+        "useForOpticalSimulation": false
+      },
+      "unconfirmed": [
+        "主光口横向位置与光轴高度待实测，当前十字仅示意",
+        "主口沿X方向外伸、前端两孔与壳体的绝对偏移",
+        "侧四孔组相对主壳绝对位置含估读，50×225 mm孔距有标注",
+        "安装脚外沿、接头后伸量、侧调节件纵向位置及顶盖接缝为估读"
+      ],
+      "usage": "用于外购整机布局与清单；非加工图；主口定标前不提供精确光路"
+    }
+  },
+  "bundleStatus": "complete",
+  "installationPackageReview": {
+    "revision": "REFERENCE_HANDOFF_20261006",
+    "protocol": "zzlab-optics-library-v1",
+    "baselineVersion": "2026-10-06.5-waveplate05-m1",
+    "mechanicalMountStatus": "not-released-measurements-required",
+    "evidence": {
+      "path": "evidence/install/laser-399nm.json"
+    },
+    "sourceDocuments": [
+      {
+        "originalFileName": null,
+        "sha256": "c8077ff7d66546418fdecc041a450b8d612d8771e4de64876f17e3344d4848f6",
+        "externalEvidenceArchive": "laser-original-evidence-20261006.zip",
+        "externalEvidenceArchiveSha256": "1c9eb61cbc7e21200296476ea6d2d39d7605f961a504a581f3daa67f51d92f7e",
+        "archiveFile": null
+      },
+      {
+        "originalFileName": null,
+        "sha256": "6503f2c49e7d2b82498cd0184568c34718ec6267f5964d313d7582f018707f97",
+        "externalEvidenceArchive": "laser-original-evidence-20261006.zip",
+        "externalEvidenceArchiveSha256": "1c9eb61cbc7e21200296476ea6d2d39d7605f961a504a581f3daa67f51d92f7e",
+        "archiveFile": null
+      }
+    ],
+    "unchangedRuntimeSemantics": [
+      "BOM",
+      "mounting holes",
+      "minimum hole count",
+      "optical ports",
+      "simulation",
+      "placement permission"
+    ],
+    "limits": {
+      "manufacturingMount": "No verified manufacturing mount found in current catalog or reviewed package.",
+      "feet": "SixØ6.4 and side50×225 relative pattern; absolute side/front positions estimated.",
+      "port": "399 main versus798 monitor identified; main XYZ not dimensioned. Runtime Z null; diagram point is illustrative.",
+      "next": "Measure support-to-beam height and transverse beam datum, all foot centers and contact plane."
+    },
+    "referenceCad": {
+      "stepPath": "step/laser_installation_reference_20261006/LASER_399_HEAD_REFERENCE_WITH_DATUM.step",
+      "sha256": "a2a2ab759e503ed33a80f5e7b73aa2e31c2206fd6044500b92ed755e7e94cf4b",
+      "role": "DIMENSION_REFERENCE_ONLY_NOT_MANUFACTURER_CAD_NOT_MACHINING_MODEL",
+      "opticalDatumSymbolIsNonphysical": true,
+      "holesModeled": false,
+      "manufacturerCADVersion": null,
+      "canReleaseManufacturingMount": false
+    }
+  },
+  "id": "laser-399nm"
+}

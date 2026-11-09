@@ -1,0 +1,35 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "fiber-coupling",
+  "files": [
+    {
+      "path": "rendering/2d5aa2694648882e9b948808d72c171bcdb8c17c2ef4671fe281632bd90cc5ce.svg",
+      "stored": "library/assets/sha256/2d/2d5aa2694648882e9b948808d72c171bcdb8c17c2ef4671fe281632bd90cc5ce.svg",
+      "sha256": "2d5aa2694648882e9b948808d72c171bcdb8c17c2ef4671fe281632bd90cc5ce",
+      "originalReferences": [
+        "topviews/fiber-coupling__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/2d/2d5aa2694648882e9b948808d72c171bcdb8c17c2ef4671fe281632bd90cc5ce.svg"
+      ]
+    },
+    {
+      "path": "cad/e9f11466649080be701bd9952dfd78a36a535ef75c4bb958e575c43c3f0fa9af.step",
+      "stored": "library/assets/sha256/e9/e9f11466649080be701bd9952dfd78a36a535ef75c4bb958e575c43c3f0fa9af.step",
+      "sha256": "e9f11466649080be701bd9952dfd78a36a535ef75c4bb958e575c43c3f0fa9af",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/fiber-coupling__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/e9/e9f11466649080be701bd9952dfd78a36a535ef75c4bb958e575c43c3f0fa9af.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "cs30-xy1d",
+    "custom-06",
+    "custom-post-metric-25mm-m1",
+    "mft",
+    "mop-50"
+  ]
+}

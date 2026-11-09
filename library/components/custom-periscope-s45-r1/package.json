@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-periscope-s45-r1",
+  "revision": "source-snapshot",
+  "displayName": "27-S45 一体45°镜架侧装基座",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-periscope-s45-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

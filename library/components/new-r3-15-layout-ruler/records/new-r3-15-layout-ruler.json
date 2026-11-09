@@ -1,0 +1,86 @@
+{
+  "id": "new-r3-15-layout-ruler",
+  "name": "方位短尺",
+  "model": "15-RULER-M1",
+  "kind": "custom",
+  "unit": "件",
+  "status": "M1公制加工审核图；PDF、DXF与STEP同源",
+  "notes": "M1公制修订；仅名义机械对准，实物装配和未注公差仍须验收。。实物试装未完成。",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/7f22f8d7da1bfff76203eea7",
+  "stepPath": "step/metric-m1-20261006/15-RULER_METRIC_M1.step",
+  "drawingPath": null,
+  "sourceStepSha256": "3da9677180ac3472134deb68d65fb3dc784ef62aaeed59c36b2a9e1d726d3be4",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "threadClass": "待确认",
+    "profileId": "r6_316L_passivated",
+    "policyVersion": "supplied-manufacturing-M1-2026-10-05",
+    "processDetails": "原刻线及数字深0.1，识别编号深0.2。 主中台厚12.7、两翼厚2；刻距1，参考尺未作计量校准。"
+  },
+  "drawingRevision": "M1",
+  "drawingStatus": "engineering-review",
+  "dxfPath": null,
+  "manufacturingEvidence": {
+    "sourcePackage": null,
+    "sourceCode": "15-RULER",
+    "sourceStepSha256": "3da9677180ac3472134deb68d65fb3dc784ef62aaeed59c36b2a9e1d726d3be4",
+    "drawingSha256": "cf17781b8b9f2061b3aa7e26eab0ee8177063754e492aa7261cc4a27139d0e22",
+    "dxfSha256": "aa8267649e9d076bbe980adcc15b2a2fa296e4d90efcd3eb6164537f05ab5361",
+    "pageCount": 3,
+    "metricMigration": {
+      "post_height_old_mm": 50.8,
+      "post_height_new_mm": 50,
+      "selected_height_delta_mm": -0.2,
+      "world_bottom_delta_mm": -0.8,
+      "supplier_translation_mm": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "physicalTrialCompleted": false
+  },
+  "sourceDrawingSha256": "cf17781b8b9f2061b3aa7e26eab0ee8177063754e492aa7261cc4a27139d0e22",
+  "sourceDxfSha256": "aa8267649e9d076bbe980adcc15b2a2fa296e4d90efcd3eb6164537f05ab5361",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "1c24ef58072d5aa5d1258f7a204e64ff39eb740ca4efce31d6ad04bf02f140f2",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "4b18cffb57f410d4ed833e891f0ee08b0e3ef6899a8e064d30b6734ba150abb8",
+      "currentPdfSha256": "8edd68817e1336c963321ddca2aac468861e03737abc81a373f6ab8d26aa3968",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "5d3b73539f4d3f2399bafcd952367d9dbc79fd8e4f1a9aebd1ea53eb70091f93",
+      "currentPdfSha256": "1c24ef58072d5aa5d1258f7a204e64ff39eb740ca4efce31d6ad04bf02f140f2",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

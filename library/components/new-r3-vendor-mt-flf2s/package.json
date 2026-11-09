@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-r3-vendor-mt-flf2s",
+  "revision": "source-snapshot",
+  "displayName": "2 inch 固定反射镜架",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-r3-vendor-mt-flf2s.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

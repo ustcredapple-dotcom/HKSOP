@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "lbtek-mop-12p5",
+  "files": [
+    {
+      "path": "cad/05c7f018c17f9e84fa50eeb3d02247156880cd6c07503f42de04b515d7657e04.step",
+      "stored": "library/assets/sha256/05/05c7f018c17f9e84fa50eeb3d02247156880cd6c07503f42de04b515d7657e04.step",
+      "sha256": "05c7f018c17f9e84fa50eeb3d02247156880cd6c07503f42de04b515d7657e04",
+      "originalReferences": [
+        "step/bd1-r2/MOP-12.5_official.step"
+      ],
+      "sources": [
+        "library/assets/sha256/05/05c7f018c17f9e84fa50eeb3d02247156880cd6c07503f42de04b515d7657e04.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

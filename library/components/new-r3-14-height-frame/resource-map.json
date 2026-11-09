@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-r3-14-height-frame",
+  "files": [
+    {
+      "path": "cad/00bad525900275a56ca0856c52740bdc28d446ec488566679f5ded29f48229b8.step",
+      "stored": "library/assets/sha256/00/00bad525900275a56ca0856c52740bdc28d446ec488566679f5ded29f48229b8.step",
+      "sha256": "00bad525900275a56ca0856c52740bdc28d446ec488566679f5ded29f48229b8",
+      "originalReferences": [
+        "step/metric-m1-20261006/14-TGT-B_METRIC_M1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/00/00bad525900275a56ca0856c52740bdc28d446ec488566679f5ded29f48229b8.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "thorlabs-pt1m-purchased-stage",
+  "files": [
+    {
+      "path": "cad/a79d2e37803e5f287a693332e9dca5f5fd824560a2fed65273705b75c69e2338.step",
+      "stored": "library/assets/sha256/a7/a79d2e37803e5f287a693332e9dca5f5fd824560a2fed65273705b75c69e2338.step",
+      "sha256": "a79d2e37803e5f287a693332e9dca5f5fd824560a2fed65273705b75c69e2338",
+      "originalReferences": [
+        "step/manual-stage-r1-a7075/vendor/thorlabs-pt1m-purchased-stage/2864-E0W.step"
+      ],
+      "sources": [
+        "library/assets/sha256/a7/a79d2e37803e5f287a693332e9dca5f5fd824560a2fed65273705b75c69e2338.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

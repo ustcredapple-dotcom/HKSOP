@@ -1,0 +1,68 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "objective-motorized-backmount-ac-r1",
+  "files": [
+    {
+      "path": "cad/1cb4d1ee48491f7970764cdf3f95d6f4e1f6c736eec71642459e7b98d8327d31.step",
+      "stored": "library/assets/sha256/1c/1cb4d1ee48491f7970764cdf3f95d6f4e1f6c736eec71642459e7b98d8327d31.step",
+      "sha256": "1cb4d1ee48491f7970764cdf3f95d6f4e1f6c736eec71642459e7b98d8327d31",
+      "originalReferences": [
+        "step/objective-mounted-r3/TTN189223-E0W.step"
+      ],
+      "sources": [
+        "library/assets/sha256/1c/1cb4d1ee48491f7970764cdf3f95d6f4e1f6c736eec71642459e7b98d8327d31.step"
+      ]
+    },
+    {
+      "path": "rendering/c86869eb79d09e543fa5d553e731a420cc9f32ebb88b17e2406ea2e56de9ae66.svg",
+      "stored": "library/assets/sha256/c8/c86869eb79d09e543fa5d553e731a420cc9f32ebb88b17e2406ea2e56de9ae66.svg",
+      "sha256": "c86869eb79d09e543fa5d553e731a420cc9f32ebb88b17e2406ea2e56de9ae66",
+      "originalReferences": [
+        "topviews/objective-motorized-backmount-ac-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/c8/c86869eb79d09e543fa5d553e731a420cc9f32ebb88b17e2406ea2e56de9ae66.svg"
+      ]
+    },
+    {
+      "path": "cad/ca5ea4ee301e22009c6ca31368e2f41a1dc1ae6e5bbff4e2ab10980075ad16d0.step",
+      "stored": "library/assets/sha256/ca/ca5ea4ee301e22009c6ca31368e2f41a1dc1ae6e5bbff4e2ab10980075ad16d0.step",
+      "sha256": "ca5ea4ee301e22009c6ca31368e2f41a1dc1ae6e5bbff4e2ab10980075ad16d0",
+      "originalReferences": [
+        "step/objective-ac-r1/OBJ_MTAM1T_AC_R1_COMPLETE.step"
+      ],
+      "sources": [
+        "library/assets/sha256/ca/ca5ea4ee301e22009c6ca31368e2f41a1dc1ae6e5bbff4e2ab10980075ad16d0.step"
+      ]
+    },
+    {
+      "path": "cad/d8fa0892d0d4fdb2843743630b6b16ccdcdaa026ca485c677115637d0b1a1310.step",
+      "stored": "library/assets/sha256/d8/d8fa0892d0d4fdb2843743630b6b16ccdcdaa026ca485c677115637d0b1a1310.step",
+      "sha256": "d8fa0892d0d4fdb2843743630b6b16ccdcdaa026ca485c677115637d0b1a1310",
+      "originalReferences": [
+        "step/objective-ac-r1/OBJ_MTAM1T_AC_R1_RETROFIT_REAR.step"
+      ],
+      "sources": [
+        "library/assets/sha256/d8/d8fa0892d0d4fdb2843743630b6b16ccdcdaa026ca485c677115637d0b1a1310.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-30-obj-m-r2",
+    "custom-obj-v7-side-r1",
+    "custom-post-metric-25mm-m1",
+    "custom-v7-1in-main",
+    "custom-v7-m3-h2",
+    "hardware-iso4762-m6x12",
+    "new-hardware-0cc1a2908550",
+    "new-hardware-d56c7b8035c3",
+    "new-r3-hardware-b7a3ea97ce89",
+    "v7-din7991-m3x10",
+    "v7-pin-d2x6",
+    "v7-source-encoder-servo",
+    "v7-source-m2x10",
+    "v7-source-m4-nut",
+    "v7-source-m4x20-thin",
+    "v7-source-retaining-washer"
+  ]
+}

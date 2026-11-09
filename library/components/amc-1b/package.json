@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "amc-1b",
+  "revision": "source-snapshot",
+  "displayName": "30 mm 笼式可调反射镜架",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/amc-1b.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

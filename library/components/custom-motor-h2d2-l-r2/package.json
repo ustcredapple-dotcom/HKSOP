@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-motor-h2d2-l-r2",
+  "revision": "source-snapshot",
+  "displayName": "H2D2-L · 低位加长 M3→H2 一体杆",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-motor-h2d2-l-r2.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

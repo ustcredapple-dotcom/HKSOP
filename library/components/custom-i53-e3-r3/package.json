@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-i53-e3-r3",
+  "revision": "R3",
+  "displayName": "I53-E3 · Ø10 窗口端板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-i53-e3-r3.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

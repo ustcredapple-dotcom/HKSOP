@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "lbtek-mop-12p5",
+  "revision": "source-snapshot",
+  "displayName": "麓邦 MOP-12.5 · 入射侧同轴接杆",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/lbtek-mop-12p5.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

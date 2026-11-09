@@ -1,0 +1,35 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "camera-c15550-adapter-r2",
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "displayName": "滨松 C15550-23UP 相机与双柱转接套件",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/camera-c15550-adapter-r2.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-35-hq-b-r2",
+    "custom-35-hq-c-r2",
+    "custom-post-metric-12p5mm-m1",
+    "hardware-dowel-d2x10",
+    "hardware-m6-board-length-select",
+    "hardware-m6x8-camera-trial",
+    "hardware-stainless-gap-shim-select",
+    "new-hardware-1d23c1ca342d",
+    "new-hardware-f0579b934c7c",
+    "new-hardware-ff9fb49c865c",
+    "purchased-camera-c15550-23up"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-fz-mft-br-r1",
+  "files": [
+    {
+      "path": "cad/52bb669ef98197b805282096b783c5429a8cd6d2a6ed1927c4801a6c5ac0aa33.step",
+      "stored": "library/assets/sha256/52/52bb669ef98197b805282096b783c5429a8cd6d2a6ed1927c4801a6c5ac0aa33.step",
+      "sha256": "52bb669ef98197b805282096b783c5429a8cd6d2a6ed1927c4801a6c5ac0aa33",
+      "originalReferences": [
+        "step/batch-20261020/custom-fz-mft-br-r1/R2/FZ-MFT-BR-R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/52/52bb669ef98197b805282096b783c5429a8cd6d2a6ed1927c4801a6c5ac0aa33.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

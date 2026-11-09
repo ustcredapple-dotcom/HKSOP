@@ -1,0 +1,30 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "stage-board-zolix-ls35x-lab-e",
+  "revision": "source-snapshot",
+  "displayName": "LS35x.Lab.E 标准压电位移面包板",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/stage-board-zolix-ls35x-lab-e.json"
+    }
+  ],
+  "componentDependencies": [
+    "LS35E-B",
+    "LS35E-T",
+    "hardware-iso4762-m2x5",
+    "hardware-iso4762-m2x8",
+    "hardware-iso4762-m6x12",
+    "zolix-ls35x-lab-e-purchased-stage"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "not-declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

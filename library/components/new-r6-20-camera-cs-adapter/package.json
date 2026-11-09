@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-r6-20-camera-cs-adapter",
+  "revision": "source-snapshot",
+  "displayName": "CS口相机侧置转接块（传感器基准待确认）",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-r6-20-camera-cs-adapter.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

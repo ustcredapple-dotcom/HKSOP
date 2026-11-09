@@ -1,0 +1,86 @@
+{
+  "id": "new-r3-14-height-frame",
+  "name": "面包板靶架",
+  "model": "14-TGT-B-M1",
+  "kind": "custom",
+  "unit": "件",
+  "status": "M1公制加工审核图；PDF、DXF与STEP同源",
+  "notes": "M1公制修订；仅名义机械对准，实物装配和未注公差仍须验收。。实物试装未完成。",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/c45c5438693733e160f099f2",
+  "stepPath": "step/metric-m1-20261006/14-TGT-B_METRIC_M1.step",
+  "drawingPath": null,
+  "sourceStepSha256": "00bad525900275a56ca0856c52740bdc28d446ec488566679f5ded29f48229b8",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "threadClass": "待确认",
+    "profileId": "r6_316L_passivated",
+    "policyVersion": "supplied-manufacturing-M1-2026-10-05",
+    "processDetails": "底部两M6间隙沉孔中心距12.5。 高度尺原刻线/数字深0.1，编号深0.2；参考尺未作计量校准。"
+  },
+  "drawingRevision": "M1",
+  "drawingStatus": "engineering-review",
+  "dxfPath": null,
+  "manufacturingEvidence": {
+    "sourcePackage": null,
+    "sourceCode": "14-TGT-B",
+    "sourceStepSha256": "00bad525900275a56ca0856c52740bdc28d446ec488566679f5ded29f48229b8",
+    "drawingSha256": "42027866d329fc547a1765d577e55331fa65eefff2f2de202d4830481684f00b",
+    "dxfSha256": "19811de124b16507c209045a615b9465b6b570f84954ebd942075bdf579803d3",
+    "pageCount": 3,
+    "metricMigration": {
+      "post_height_old_mm": 0,
+      "post_height_new_mm": 0,
+      "selected_height_delta_mm": -1,
+      "world_bottom_delta_mm": 0,
+      "supplier_translation_mm": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "physicalTrialCompleted": false
+  },
+  "sourceDrawingSha256": "42027866d329fc547a1765d577e55331fa65eefff2f2de202d4830481684f00b",
+  "sourceDxfSha256": "19811de124b16507c209045a615b9465b6b570f84954ebd942075bdf579803d3",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "7d07c654ad00f3a160d8b1a147daebde1bc0baf16199e864fa166828bf1bb9ff",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "aa01db2db238adf6d48aa8a25495ea857fe19924602ccb8771acb05ab5eab8a3",
+      "currentPdfSha256": "101a9634fded0e40ab5bb5aa75082344cc3ec3c6b23c29071f9f587f2f0e2cb6",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "1f92060e6887f15d295c6074e6000c2df4dbce92c7b90699d899d940d2895605",
+      "currentPdfSha256": "7d07c654ad00f3a160d8b1a147daebde1bc0baf16199e864fa166828bf1bb9ff",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

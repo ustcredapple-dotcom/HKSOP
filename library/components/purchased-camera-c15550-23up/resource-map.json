@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "purchased-camera-c15550-23up",
+  "files": [
+    {
+      "path": "cad/afbd9ea9e0135799cfddd4de3386f2589910055afe016f531aaedd14d49fa75d.step",
+      "stored": "library/assets/sha256/af/afbd9ea9e0135799cfddd4de3386f2589910055afe016f531aaedd14d49fa75d.step",
+      "sha256": "afbd9ea9e0135799cfddd4de3386f2589910055afe016f531aaedd14d49fa75d",
+      "originalReferences": [
+        "step/camera-actual-r4/35-HQ_R4_USER_SUPPLIED_ACTUAL_CAMERA.step"
+      ],
+      "sources": [
+        "library/assets/sha256/af/afbd9ea9e0135799cfddd4de3386f2589910055afe016f531aaedd14d49fa75d.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

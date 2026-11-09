@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "v7-source-m4x20-thin",
+  "revision": "source-snapshot",
+  "displayName": "V7 M4×20 薄头侧板夹紧螺钉",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/v7-source-m4x20-thin.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,32 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-board-target",
+  "files": [
+    {
+      "path": "rendering/01a2328e4f854ca4c34b8dd003074756bc189164957d3f626ed83ae9b0f883cf.svg",
+      "stored": "library/assets/sha256/01/01a2328e4f854ca4c34b8dd003074756bc189164957d3f626ed83ae9b0f883cf.svg",
+      "sha256": "01a2328e4f854ca4c34b8dd003074756bc189164957d3f626ed83ae9b0f883cf",
+      "originalReferences": [
+        "topviews/kit_new-board-target_M1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/01/01a2328e4f854ca4c34b8dd003074756bc189164957d3f626ed83ae9b0f883cf.svg"
+      ]
+    },
+    {
+      "path": "cad/8f67bb7ae08922c206f9794d9b621ecb7d8bfc91b4183c7eb922010907726665.step",
+      "stored": "library/assets/sha256/8f/8f67bb7ae08922c206f9794d9b621ecb7d8bfc91b4183c7eb922010907726665.step",
+      "sha256": "8f67bb7ae08922c206f9794d9b621ecb7d8bfc91b4183c7eb922010907726665",
+      "originalReferences": [
+        "step/metric-m1-20261006/14_M1_METRIC_zero_ASSEM.step"
+      ],
+      "sources": [
+        "library/assets/sha256/8f/8f67bb7ae08922c206f9794d9b621ecb7d8bfc91b4183c7eb922010907726665.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "new-r3-13-14-common-target",
+    "new-r3-14-height-frame"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "lbtek-dfm1",
+  "name": "麓邦 DFM1 · D形反射镜固定架",
+  "model": "DFM1",
+  "kind": "lubang",
+  "unit": "个",
+  "sourceUrl": "https://www.lbtek.com/product/266?fid=36&sid=103&tid=104",
+  "stepPath": "step/dm1f-r1/DFM1_official.step",
+  "drawingPath": null,
+  "sourceDrawingSha256": "e5c232877ec5144717a080299659efc51203a1dd3a7c6afd498e34577cb1e16d",
+  "sourceStepSha256": "51b3d0eba16d0d73944f79030f9d092d11d8726277518e385c9b553bfdf135e6",
+  "status": "原厂几何参考；未实物试装",
+  "notes": "固定架本体44×22×10.8，支持Ø25.4镜片厚≤6.1；本包6mm参考D镜。原厂PDF由公开分销镜像取得，原厂标题栏及尺寸匹配；两只胶头螺钉后退0.1 mm。有效M4牙深需实测≥4.5 mm；CAD圆柱6.5深不是牙深证明。"
+}

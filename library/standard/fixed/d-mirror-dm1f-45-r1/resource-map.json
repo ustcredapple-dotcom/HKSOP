@@ -1,0 +1,36 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "d-mirror-dm1f-45-r1",
+  "files": [
+    {
+      "path": "rendering/5ac3f6d39d75a9b538d0108001793eea0814ea432c2c5f3106bc6dc6d3d2a51f.svg",
+      "stored": "library/assets/sha256/5a/5ac3f6d39d75a9b538d0108001793eea0814ea432c2c5f3106bc6dc6d3d2a51f.svg",
+      "sha256": "5ac3f6d39d75a9b538d0108001793eea0814ea432c2c5f3106bc6dc6d3d2a51f",
+      "originalReferences": [
+        "topviews/d-mirror-dm1f-45-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/5a/5ac3f6d39d75a9b538d0108001793eea0814ea432c2c5f3106bc6dc6d3d2a51f.svg"
+      ]
+    },
+    {
+      "path": "cad/d1ff9695525f94894f8fc0dbb96ee62ef6bb39bac6c6805331878f74b7f6d567.step",
+      "stored": "library/assets/sha256/d1/d1ff9695525f94894f8fc0dbb96ee62ef6bb39bac6c6805331878f74b7f6d567.step",
+      "sha256": "d1ff9695525f94894f8fc0dbb96ee62ef6bb39bac6c6805331878f74b7f6d567",
+      "originalReferences": [
+        "step/dm1f-r1/DM1F-R1_ASM_45deg.step"
+      ],
+      "sources": [
+        "library/assets/sha256/d1/d1ff9695525f94894f8fc0dbb96ee62ef6bb39bac6c6805331878f74b7f6d567.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-dm1f-r1",
+    "custom-post-metric-25mm-m1",
+    "lbtek-dfm1",
+    "metric-m1-post-m4x16",
+    "metric-m1-post-m4x8",
+    "metric-m1-post-pin-d2x8"
+  ]
+}

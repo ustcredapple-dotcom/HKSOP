@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "i532v3-m3x6",
+  "revision": "source-snapshot",
+  "displayName": "M3×6 内六角圆柱头螺钉 · 钛材候选",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/i532v3-m3x6.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

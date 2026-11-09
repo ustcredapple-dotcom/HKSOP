@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "thorlabs-sm1rc-m",
+  "files": [
+    {
+      "path": "cad/450e910c727a8757c8d028ad94a89a6a8f97b0b05044c01d3304e92db5046244.step",
+      "stored": "library/assets/sha256/45/450e910c727a8757c8d028ad94a89a6a8f97b0b05044c01d3304e92db5046244.step",
+      "sha256": "450e910c727a8757c8d028ad94a89a6a8f97b0b05044c01d3304e92db5046244",
+      "originalReferences": [
+        "step/i532v3-r3/SM1RC_M.step"
+      ],
+      "sources": [
+        "library/assets/sha256/45/450e910c727a8757c8d028ad94a89a6a8f97b0b05044c01d3304e92db5046244.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,31 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "kit-laser-935nm",
+  "files": [
+    {
+      "path": "rendering/287d6eb63bf7e896a49e7a1dd7c800e47f01f2ccafe6fbcfcfbfff2b46b802f9.svg",
+      "stored": "library/assets/sha256/28/287d6eb63bf7e896a49e7a1dd7c800e47f01f2ccafe6fbcfcfbfff2b46b802f9.svg",
+      "sha256": "287d6eb63bf7e896a49e7a1dd7c800e47f01f2ccafe6fbcfcfbfff2b46b802f9",
+      "originalReferences": [
+        "topviews/kit_laser-935nm_manual_mount_r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/28/287d6eb63bf7e896a49e7a1dd7c800e47f01f2ccafe6fbcfcfbfff2b46b802f9.svg"
+      ]
+    },
+    {
+      "path": "cad/eda6dfc8e96c01111896ffd585df30f6a3b190cbc78eb9665639a5e33b4acf96.step",
+      "stored": "library/assets/sha256/ed/eda6dfc8e96c01111896ffd585df30f6a3b190cbc78eb9665639a5e33b4acf96.step",
+      "sha256": "eda6dfc8e96c01111896ffd585df30f6a3b190cbc78eb9665639a5e33b4acf96",
+      "originalReferences": [
+        "step/laser_installation_reference_20261006/LASER_935_HEAD_REFERENCE_WITH_DATUM.step"
+      ],
+      "sources": [
+        "library/assets/sha256/ed/eda6dfc8e96c01111896ffd585df30f6a3b190cbc78eb9665639a5e33b4acf96.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "laser-935nm"
+  ]
+}

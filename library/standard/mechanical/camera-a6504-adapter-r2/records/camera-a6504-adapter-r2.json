@@ -1,0 +1,528 @@
+{
+  "name": "鑫图 A6504-Pro 相机与双柱转接套件",
+  "category": "mechanical",
+  "variant": "62.5 mm 名义光高 / R4实际机身 / R2加工件",
+  "description": "双柱支撑、侧面锁紧；整装包含用户提供的实际相机CAD。",
+  "components": [
+    {
+      "componentId": "custom-36-a65-b-r2",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-36-a65-c-r2",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-post-metric-12p5mm-m1",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-dowel-d2x10",
+      "quantity": 2
+    },
+    {
+      "componentId": "new-hardware-ff9fb49c865c",
+      "quantity": 2
+    },
+    {
+      "componentId": "new-hardware-f0579b934c7c",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-stainless-gap-shim-select",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-m6-board-length-select",
+      "quantity": 8
+    },
+    {
+      "componentId": "new-r3-hardware-b63ea2222bac",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-iso7089-m4",
+      "quantity": 2
+    },
+    {
+      "componentId": "new-hardware-aee748b5031c",
+      "quantity": 4
+    },
+    {
+      "componentId": "purchased-camera-a6504-pro",
+      "quantity": 1
+    }
+  ],
+  "opticalSlots": [],
+  "layout": {
+    "topViewPath": "topviews/camera-a6504-adapter-r2__H12p5_B4_R2.svg",
+    "topViewUrl": "./topviews/camera-a6504-adapter-r2__H12p5_B4_R2.svg",
+    "widthMm": 86,
+    "heightMm": 140,
+    "anchorXMm": 43,
+    "anchorYMm": 120,
+    "placementAllowed": true,
+    "mechanicalOnly": true,
+    "opticalDatumVerified": false,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "xMax": 17.5,
+      "yMin": -17.5,
+      "yMax": 117.5
+    },
+    "collisionBoundsMm": {
+      "xMin": -40.000000100448624,
+      "yMin": -17.50000010125643,
+      "xMax": 40.00000010044882,
+      "yMax": 117.5
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -40.0,
+          "yMm": -10.470502
+        },
+        {
+          "xMm": -40.0,
+          "yMm": 2.5
+        },
+        {
+          "xMm": -39.700001,
+          "yMm": 2.5
+        },
+        {
+          "xMm": -39.700001,
+          "yMm": 3.3
+        },
+        {
+          "xMm": -38.950001,
+          "yMm": 3.3
+        },
+        {
+          "xMm": -38.950001,
+          "yMm": 3.5
+        },
+        {
+          "xMm": -40.0,
+          "yMm": 3.5
+        },
+        {
+          "xMm": -40.0,
+          "yMm": 83.5
+        },
+        {
+          "xMm": -38.950001,
+          "yMm": 83.5
+        },
+        {
+          "xMm": -38.950001,
+          "yMm": 83.699997
+        },
+        {
+          "xMm": -39.700001,
+          "yMm": 83.699997
+        },
+        {
+          "xMm": -39.700001,
+          "yMm": 84.5
+        },
+        {
+          "xMm": -40.0,
+          "yMm": 84.5
+        },
+        {
+          "xMm": -40.0,
+          "yMm": 90.0
+        },
+        {
+          "xMm": -39.5,
+          "yMm": 90.5
+        },
+        {
+          "xMm": -33.099998,
+          "yMm": 90.5
+        },
+        {
+          "xMm": -33.099998,
+          "yMm": 115.0
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 115.0
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 117.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": 117.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": 115.0
+        },
+        {
+          "xMm": 33.099998,
+          "yMm": 115.0
+        },
+        {
+          "xMm": 33.099998,
+          "yMm": 90.5
+        },
+        {
+          "xMm": 39.5,
+          "yMm": 90.5
+        },
+        {
+          "xMm": 40.0,
+          "yMm": 90.0
+        },
+        {
+          "xMm": 40.0,
+          "yMm": 84.5
+        },
+        {
+          "xMm": 39.700001,
+          "yMm": 84.5
+        },
+        {
+          "xMm": 39.700001,
+          "yMm": 83.699997
+        },
+        {
+          "xMm": 38.950001,
+          "yMm": 83.699997
+        },
+        {
+          "xMm": 38.950001,
+          "yMm": 83.5
+        },
+        {
+          "xMm": 40.0,
+          "yMm": 83.5
+        },
+        {
+          "xMm": 40.0,
+          "yMm": 3.5
+        },
+        {
+          "xMm": 38.950001,
+          "yMm": 3.5
+        },
+        {
+          "xMm": 38.950001,
+          "yMm": 3.3
+        },
+        {
+          "xMm": 39.700001,
+          "yMm": 3.3
+        },
+        {
+          "xMm": 39.700001,
+          "yMm": 2.5
+        },
+        {
+          "xMm": 40.0,
+          "yMm": 2.5
+        },
+        {
+          "xMm": 40.0,
+          "yMm": -10.47048
+        },
+        {
+          "xMm": 39.632107,
+          "yMm": -10.969599
+        },
+        {
+          "xMm": 37.64249,
+          "yMm": -11.5
+        },
+        {
+          "xMm": 33.099998,
+          "yMm": -11.5
+        },
+        {
+          "xMm": 33.099998,
+          "yMm": -13.0
+        },
+        {
+          "xMm": 31.482738,
+          "yMm": -13.0
+        },
+        {
+          "xMm": 31.482738,
+          "yMm": -17.0
+        },
+        {
+          "xMm": 30.99996,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -31.00004,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -31.50004,
+          "yMm": -17.0
+        },
+        {
+          "xMm": -31.50004,
+          "yMm": -13.0
+        },
+        {
+          "xMm": -33.099998,
+          "yMm": -13.0
+        },
+        {
+          "xMm": -33.099998,
+          "yMm": -11.5
+        },
+        {
+          "xMm": -37.64257,
+          "yMm": -11.5
+        },
+        {
+          "xMm": -39.632107,
+          "yMm": -10.969621
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 87.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 87.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 112.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 112.5
+      }
+    ],
+    "mountingHoleRadiusMm": 3.2,
+    "status": "真实STEP俯视 · R4实际相机",
+    "note": "R4采用用户提供的A6504-Pro / Aries 6504实际CAD机身；保留R2加工件、H12.5 M2正式双柱及100mm柱距。名义光高62.5mm，保持正放。实际前后底部M4孔轴为(±20,-4.3/87.2)，底面Z22.5；后两M4×6继续配0.8mm平垫。源文件名Aries 6504 V1-50，按用户指定关联当前A6504-Pro；厂家型号等同与硅面位置未独立确认。源CAD一个后部小零件保留原有局部拓扑方向警告，不影响本次安装孔与支撑接触。已核CAD安装接口与机身/支撑无新增实体干涉；未含线缆、水管和实测操作空间，仍为试制审核，尚未实装与加工放行。",
+    "geometryEvidence": {
+      "sourceStep": "step/standard-post-h12p5-b4-r2/assemblies/camera-a6504-adapter-r2__H12p5_B4_R2.step",
+      "sourceSha256": "a0c0e1aad2e19206aa0258d685c99e7d38406e4413a4f1d26f94abbfc0984a13",
+      "partCount": 128,
+      "postCount": 2,
+      "postRevision": "M2",
+      "coordinateFrame": "mm; front post axis XY0,0; board top Z0; +Y rear; back post Y100; +Z height",
+      "referenceAssembly": {
+        "assetKind": "actual-camera-full-assembly",
+        "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/camera-a6504-adapter-r2__H12p5_B4_R2.step",
+        "sha256": "a0c0e1aad2e19206aa0258d685c99e7d38406e4413a4f1d26f94abbfc0984a13"
+      },
+      "physicalTrialCompleted": false,
+      "cameraBodyIncluded": true,
+      "imageSha256": "0949f4ed65fedd38796fb73cc3567880f0a39067e97f0e57740701c3132ee943",
+      "solidCount": 128,
+      "cameraBodyIsOemCad": null,
+      "outlineAccuracy": "Actual supplied STEP projection,0.035mm mesh and0.02mm contour simplification; cables/hoses not included.",
+      "cameraBodyIsReconstructed": false,
+      "sourceType": "user-supplied-actual-camera-CAD",
+      "previousProjectionSource": {
+        "sourceStep": "step/camera-actual-r4/36-A65_R4_ACTUAL_CAMERA_FULL_ASSEMBLY.step",
+        "sourceSha256": "12d056e858d075df78d3611b130d0485b74c52242edd1230a4d9882ae471792b",
+        "imageSha256": "5e2f6f89177a8b3f284c75d5c55bf78ca899ec8fc156e14f495561f5196fac06",
+        "partCount": 128
+      },
+      "triangleCount": 1227179,
+      "meshDeflectionMm": 0.035,
+      "postBaseRevision": {
+        "revision": "H12p5-B4-R2",
+        "componentIds": [
+          "custom-post-metric-12p5mm-m1"
+        ],
+        "baseThicknessByComponentId": {
+          "custom-post-metric-12p5mm-m1": 4
+        },
+        "nominalAndOpticalHeightsPreserved": true,
+        "geometryStatus": "passed",
+        "physicalAssemblyAccepted": false,
+        "previousAssemblySha256": "f58d6eac4a56e6c0a90b11e8bbd6427c216ddba33e40e35f532d4902a966c72a",
+        "currentAssemblySha256": "a0c0e1aad2e19206aa0258d685c99e7d38406e4413a4f1d26f94abbfc0984a13",
+        "replacementReportSha256": "8535bed9b2883e6726b7081ea1ff8c37752bd761957bccdd7c2a382d999a95b0",
+        "originalEntitiesAndPosesPreserved": true
+      },
+      "sourceStepSha256": "a0c0e1aad2e19206aa0258d685c99e7d38406e4413a4f1d26f94abbfc0984a13",
+      "baseThicknessByComponentId": {
+        "custom-post-metric-12p5mm-m1": 4
+      }
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "a0c0e1aad2e19206aa0258d685c99e7d38406e4413a4f1d26f94abbfc0984a13",
+      "imageSha256": "0949f4ed65fedd38796fb73cc3567880f0a39067e97f0e57740701c3132ee943",
+      "revision": "H12p5-B4-R2",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null,
+      "projectionReportSha256": "1445c65fe87d46a05672e438753ec609d68602ac61969afe96eb71b683221cec"
+    },
+    "sourceUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/7068c23de15ce8d6fc624cb6"
+  },
+  "mechanicalConfiguration": "upright-camera-reference-0deg",
+  "mechanicalRevision": {
+    "revision": "R4-ACTUAL-CAMERA-CAD",
+    "manufacturingRevision": "R2",
+    "assemblySha256": "12d056e858d075df78d3611b130d0485b74c52242edd1230a4d9882ae471792b",
+    "acceptanceStatus": "actual-cad-interface-reviewed",
+    "physicalTrialCompleted": false
+  },
+  "assemblyReference": {
+    "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/camera-a6504-adapter-r2__H12p5_B4_R2.step",
+    "sha256": "a0c0e1aad2e19206aa0258d685c99e7d38406e4413a4f1d26f94abbfc0984a13",
+    "sourceStepSha256": "a0c0e1aad2e19206aa0258d685c99e7d38406e4413a4f1d26f94abbfc0984a13",
+    "revision": "CURRENT-B6R1-H12p5B4R2",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "cloudUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/7068c23de15ce8d6fc624cb6",
+    "cloudStatus": "frozen-independent-assembly-readback-pending"
+  },
+  "assemblyAssets": [
+    {
+      "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/camera-a6504-adapter-r2__H12p5_B4_R2.step",
+      "sha256": "a0c0e1aad2e19206aa0258d685c99e7d38406e4413a4f1d26f94abbfc0984a13",
+      "role": "actual-camera-and-support-assembly",
+      "leafCount": 128,
+      "solidCount": 128,
+      "includesStandardFastenerSolids": false,
+      "includesOemCamera": null,
+      "includesUserSuppliedActualCamera": true,
+      "includesReconstructedCameraBody": false,
+      "sourceValidityWarnings": [
+        {
+          "leafIndex": 25,
+          "name": "36-A65_R4_ACTUAL_CAMERA_FULL_ASSEMBLY/36-A65_ACTUAL_CAMERA_CAD/USER_SUPPLIED_ACTUAL_CAMERA/=>[0:1:1:29]",
+          "sourceValid": false,
+          "readbackValid": false
+        }
+      ],
+      "manufacturingUse": "相机采用用户实际CAD用于装配参考；自制件使用独立R2加工文件。"
+    }
+  ],
+  "cameraCompatibility": {
+    "model": "鑫图 A6504-Pro",
+    "nominalOpticalHeightMm": 62.5,
+    "actualSensorPositionVerified": false,
+    "cameraBodyCadAvailable": true,
+    "nominalSensorPointMm": [
+      0,
+      0,
+      62.5
+    ],
+    "datumStatus": "manufacturer-nominal-interface-chain-not-measured",
+    "cameraBodyCadSource": "user-supplied-actual-camera-CAD",
+    "cameraReferenceRevision": "R4",
+    "cameraBodyIsOemCad": null,
+    "cameraBodyIsReconstructed": false,
+    "sourceCameraStep": "step/camera-actual-r4/36-A65_R4_USER_SUPPLIED_ACTUAL_CAMERA.step",
+    "sourceCameraSha256": "3962ef32a674ba69f119daf253b9f495c21b300d4d6572d99e0e1bcc48bdb6cc",
+    "modelIdentityBasis": "用户指定；文件标题和制造商认证未独立核实",
+    "sourceToWorld": [
+      [
+        -1,
+        0,
+        0,
+        -4e-05
+      ],
+      [
+        0,
+        0,
+        1,
+        -17.5
+      ],
+      [
+        0,
+        1,
+        0,
+        62.5
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "status": "试制审核 · 未实装 · 未加工放行",
+  "releaseStage": "engineering-review",
+  "productionReady": false,
+  "bundleStatus": "complete",
+  "bundleNote": "R4实际相机完整整装、原始CAD与4个R2加工件及打标资料；未实装、未加工放行。",
+  "notes": "R4采用用户提供的A6504-Pro / Aries 6504实际CAD机身；保留R2加工件、H12.5 M2正式双柱及100mm柱距。名义光高62.5mm，保持正放。实际前后底部M4孔轴为(±20,-4.3/87.2)，底面Z22.5；后两M4×6继续配0.8mm平垫。源文件名Aries 6504 V1-50，按用户指定关联当前A6504-Pro；厂家型号等同与硅面位置未独立确认。源CAD一个后部小零件保留原有局部拓扑方向警告，不影响本次安装孔与支撑接触。已核CAD安装接口与机身/支撑无新增实体干涉；未含线缆、水管和实测操作空间，仍为试制审核，尚未实装与加工放行。  H12.5 B4-R2：普通H12.5柱底脚4 mm，其余普通柱保持各自规格；完整STEP已换柱回读，总高、孔位和全部器件姿态保持；未实物试装。",
+  "optionalNotes": [
+    "板侧M6螺丝按8孔记录，实际数量及长度按所用面包板选配；所有头部/长度/销配合须首件核对。",
+    "前销Ø2×10、后销Ø2×8不可混用。两侧0.10mm名义间隙逐处配不锈钢薄垫片。",
+    "相机外形已替换为用户提供实际CAD；线缆、水管、真实硅面与实物装配尚未核实。"
+  ],
+  "cloudReference": {
+    "batch": 4,
+    "documentId": "66b198de06cefdf0be97875b",
+    "workspaceId": "048790c4e7cccc432b78d839",
+    "sourceUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/7068c23de15ce8d6fc624cb6",
+    "status": "frozen-independent-assembly-readback-pending",
+    "observation": "Onshape notification panel and folder list via IAB",
+    "strictReadbackComplete": false,
+    "active": false,
+    "current": true,
+    "sourceStepSha256": "a0c0e1aad2e19206aa0258d685c99e7d38406e4413a4f1d26f94abbfc0984a13",
+    "automaticCloudReuseAllowed": false,
+    "independentAssemblyElementVerified": true,
+    "physicalAssemblyAccepted": false,
+    "versionId": "f7760018eec7aecfe4fe9762",
+    "elementId": "7068c23de15ce8d6fc624cb6",
+    "elementType": "Assembly",
+    "versionFrozen": true,
+    "uiEvidence": {
+      "path": null,
+      "sha256": "9572a243eaa463b4784ac014b7247c4c8d819942ef561ffeba484bd117acfb5f"
+    },
+    "checkedAt": "2026-10-28T01:54:56.736608+08:00"
+  },
+  "sourceUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/7068c23de15ce8d6fc624cb6",
+  "postBaseRevision": {
+    "revision": "H12p5-B4-R2",
+    "componentIds": [
+      "custom-post-metric-12p5mm-m1"
+    ],
+    "baseThicknessByComponentId": {
+      "custom-post-metric-12p5mm-m1": 4
+    },
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "physicalAssemblyAccepted": false,
+    "previousAssemblySha256": "f58d6eac4a56e6c0a90b11e8bbd6427c216ddba33e40e35f532d4902a966c72a",
+    "currentAssemblySha256": "a0c0e1aad2e19206aa0258d685c99e7d38406e4413a4f1d26f94abbfc0984a13",
+    "replacementReportSha256": "8535bed9b2883e6726b7081ea1ff8c37752bd761957bccdd7c2a382d999a95b0",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "id": "camera-a6504-adapter-r2"
+}

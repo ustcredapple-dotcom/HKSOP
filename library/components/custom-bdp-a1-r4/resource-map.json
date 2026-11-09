@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-bdp-a1-r4",
+  "files": [
+    {
+      "path": "cad/87f59e1c3eb1d033d982cbd12a75f7c65ce35b48a39df2d69b193e25c751a1f6.step",
+      "stored": "library/assets/sha256/87/87f59e1c3eb1d033d982cbd12a75f7c65ce35b48a39df2d69b193e25c751a1f6.step",
+      "sha256": "87f59e1c3eb1d033d982cbd12a75f7c65ce35b48a39df2d69b193e25c751a1f6",
+      "originalReferences": [
+        "step/bd1-pd-r4/BDP-A1_R4.step"
+      ],
+      "sources": [
+        "library/assets/sha256/87/87f59e1c3eb1d033d982cbd12a75f7c65ce35b48a39df2d69b193e25c751a1f6.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

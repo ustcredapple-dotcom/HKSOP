@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "servo-detector-sg02-r2",
+  "revision": "R2",
+  "displayName": "SG02 直连舵盘探测器薄框",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/servo-detector-sg02-r2.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

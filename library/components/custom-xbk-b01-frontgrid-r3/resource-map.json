@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-xbk-b01-frontgrid-r3",
+  "files": [
+    {
+      "path": "cad/901ad04016b647c00c91f1e13c561b2703a57b3f33d77282c3d1f850e765cee3.step",
+      "stored": "library/assets/sha256/90/901ad04016b647c00c91f1e13c561b2703a57b3f33d77282c3d1f850e765cee3.step",
+      "sha256": "901ad04016b647c00c91f1e13c561b2703a57b3f33d77282c3d1f850e765cee3",
+      "originalReferences": [
+        "step/xbk-cavity-frontgrid-r3/XBK-B01_R3_COMPACT_P25_316L.step"
+      ],
+      "sources": [
+        "library/assets/sha256/90/901ad04016b647c00c91f1e13c561b2703a57b3f33d77282c3d1f850e765cee3.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

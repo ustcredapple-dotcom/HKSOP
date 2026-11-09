@@ -1,0 +1,650 @@
+{
+  "name": "MT立方体PBS模块 · 2 inch · 电动竖直驱动 · R1",
+  "category": "pbs",
+  "variant": "motorized-vertical-R1",
+  "revision": "R1-H12p5B4R2",
+  "description": "光高62.5mm；当前H12.5 B4-R2柱；原镜架式及手动版本保留。厂家附薄头夹紧螺钉不重复采购。仅名义CAD与离散姿态检查，未实装、未做完整行程或通电测试。 舵机沿用已接受的近似模型，实际型号/线缆/扭矩待测；H2杆按配套版本。",
+  "components": [
+    {
+      "componentId": "custom-post-metric-12p5mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r3-vendor-mt-am2s5",
+      "quantity": 1
+    },
+    {
+      "componentId": "lbtek-csb2-purchased",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-iso4762-m4x12",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-pin-d2x8",
+      "quantity": 2
+    },
+    {
+      "componentId": "new-r3-hardware-b7a3ea97ce89",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-iso4762-m6x12",
+      "quantity": 4
+    },
+    {
+      "componentId": "encoder-servo",
+      "quantity": 2
+    },
+    {
+      "componentId": "custom-mcv2-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-h2d2-b-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-h2d2-s-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-h2d2-l-r2",
+      "quantity": 1
+    },
+    {
+      "componentId": "motor-adapter-m3",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-h2-r3-m2x10",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-iso4762-m3x8",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-h2-r3-m4x20",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-h2-r3-m4-washer",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-source-m4-nut",
+      "quantity": 1
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "cube",
+      "label": "PBS651裸立方光学件",
+      "type": "pbs",
+      "quantity": 1,
+      "unit": "个",
+      "referenceComponentId": "lbtek-pbs651-purchased",
+      "referenceModel": "PBS651",
+      "cubeEdgeMm": 50.8,
+      "notes": "50.8为立方边长。厂家玻璃在名义总装中；采购需显式选配，未选择不计固定购买量。光学响应仍unsupported。"
+    }
+  ],
+  "status": "工程审核版；未实物试装",
+  "releaseStage": "engineering-review",
+  "bundleStatus": "engineering-review",
+  "bundleNote": null,
+  "notes": "光高62.5mm；当前H12.5 B4-R2柱；原镜架式及手动版本保留。厂家附薄头夹紧螺钉不重复采购。仅名义CAD与离散姿态检查，未实装、未做完整行程或通电测试。 舵机沿用已接受的近似模型，实际型号/线缆/扭矩待测；H2杆按配套版本。 H12.5 B4-R2：普通H12.5柱底脚4 mm，其余普通柱保持各自规格；完整STEP已换柱回读，总高、孔位和全部器件姿态保持；未实物试装。",
+  "layout": {
+    "placementAllowed": true,
+    "opticalType": "unsupported",
+    "opticalAxisHeightMm": 62.5,
+    "nominalOpticalHeightMm": 62.5,
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalSurfaceAngleDeg": 135,
+    "opticalDatumVerified": false,
+    "opticalDatumScope": "nominal CAD reference only; physical calibration not performed",
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "basePolygonsMm": [
+      [
+        {
+          "xMm": -17.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": -17.5
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "mountingHoleRadiusMm": 3.3,
+    "note": "真实STEP正交俯视；柱底四孔为安装基准；工程审核状态。",
+    "opticalSimulationNote": "未提供P/S透反率与相位，沿用原PBS的unsupported交互。",
+    "topViewPath": "topviews/mt-cube-pbs-2inch-motorized-r1__H12p5_B4_R2.svg",
+    "topViewUrl": "./topviews/mt-cube-pbs-2inch-motorized-r1__H12p5_B4_R2.svg",
+    "widthMm": 85,
+    "heightMm": 125,
+    "anchorXMm": 41,
+    "anchorYMm": 28,
+    "collisionBoundsMm": {
+      "xMin": -39.05,
+      "yMin": -94.41999397662556,
+      "xMax": 41.65,
+      "yMax": 25.45
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -34.05,
+          "yMm": -49.3238
+        },
+        {
+          "xMm": -34.046861,
+          "yMm": -47.093327
+        },
+        {
+          "xMm": -33.9979,
+          "yMm": -46.847367
+        },
+        {
+          "xMm": -33.850583,
+          "yMm": -46.558236
+        },
+        {
+          "xMm": -33.741027,
+          "yMm": -46.429972
+        },
+        {
+          "xMm": -33.550294,
+          "yMm": -46.279537
+        },
+        {
+          "xMm": -33.399933,
+          "yMm": -46.203
+        },
+        {
+          "xMm": -33.166145,
+          "yMm": -46.137059
+        },
+        {
+          "xMm": -31.3125,
+          "yMm": -46.1238
+        },
+        {
+          "xMm": -31.308692,
+          "yMm": -45.089261
+        },
+        {
+          "xMm": -31.043748,
+          "yMm": -44.819038
+        },
+        {
+          "xMm": -29.634579,
+          "yMm": -44.8044
+        },
+        {
+          "xMm": -29.720395,
+          "yMm": -44.167501
+        },
+        {
+          "xMm": -29.703762,
+          "yMm": -43.677894
+        },
+        {
+          "xMm": -29.665119,
+          "yMm": -43.430355
+        },
+        {
+          "xMm": -29.528084,
+          "yMm": -42.93916
+        },
+        {
+          "xMm": -29.390668,
+          "yMm": -42.617429
+        },
+        {
+          "xMm": -29.101903,
+          "yMm": -42.15
+        },
+        {
+          "xMm": -30.998867,
+          "yMm": -42.147557
+        },
+        {
+          "xMm": -31.919198,
+          "yMm": -42.060788
+        },
+        {
+          "xMm": -32.11877,
+          "yMm": -41.948254
+        },
+        {
+          "xMm": -32.299654,
+          "yMm": -41.78037
+        },
+        {
+          "xMm": -32.4364,
+          "yMm": -41.574949
+        },
+        {
+          "xMm": -32.520526,
+          "yMm": -41.346959
+        },
+        {
+          "xMm": -32.55,
+          "yMm": -41.1
+        },
+        {
+          "xMm": -32.55,
+          "yMm": -30.4
+        },
+        {
+          "xMm": -32.521441,
+          "yMm": -30.156855
+        },
+        {
+          "xMm": -32.4693,
+          "yMm": -29.996351
+        },
+        {
+          "xMm": -32.299654,
+          "yMm": -29.71963
+        },
+        {
+          "xMm": -32.115564,
+          "yMm": -29.549417
+        },
+        {
+          "xMm": -31.826312,
+          "yMm": -29.401993
+        },
+        {
+          "xMm": -31.584364,
+          "yMm": -29.353445
+        },
+        {
+          "xMm": -25.45,
+          "yMm": -29.35
+        },
+        {
+          "xMm": -25.45,
+          "yMm": 25.2
+        },
+        {
+          "xMm": -25.373767,
+          "yMm": 25.317725
+        },
+        {
+          "xMm": -25.2,
+          "yMm": 25.45
+        },
+        {
+          "xMm": 25.2,
+          "yMm": 25.45
+        },
+        {
+          "xMm": 25.380939,
+          "yMm": 25.3086
+        },
+        {
+          "xMm": 25.435355,
+          "yMm": 25.293955
+        },
+        {
+          "xMm": 25.45,
+          "yMm": -29.35
+        },
+        {
+          "xMm": 33.080473,
+          "yMm": -29.353139
+        },
+        {
+          "xMm": 33.322559,
+          "yMm": -29.400774
+        },
+        {
+          "xMm": 33.478477,
+          "yMm": -29.465401
+        },
+        {
+          "xMm": 33.683327,
+          "yMm": -29.602872
+        },
+        {
+          "xMm": 33.850583,
+          "yMm": -29.784436
+        },
+        {
+          "xMm": 33.999226,
+          "yMm": -30.077441
+        },
+        {
+          "xMm": 34.05,
+          "yMm": -30.4
+        },
+        {
+          "xMm": 34.05,
+          "yMm": -41.1
+        },
+        {
+          "xMm": 34.020526,
+          "yMm": -41.346959
+        },
+        {
+          "xMm": 33.896214,
+          "yMm": -41.64695
+        },
+        {
+          "xMm": 33.741027,
+          "yMm": -41.843828
+        },
+        {
+          "xMm": 33.474949,
+          "yMm": -42.0364
+        },
+        {
+          "xMm": 33.166145,
+          "yMm": -42.136741
+        },
+        {
+          "xMm": 29.599116,
+          "yMm": -42.15
+        },
+        {
+          "xMm": 29.338414,
+          "yMm": -42.408261
+        },
+        {
+          "xMm": 29.573187,
+          "yMm": -42.79776
+        },
+        {
+          "xMm": 29.686603,
+          "yMm": -43.043359
+        },
+        {
+          "xMm": 29.854979,
+          "yMm": -43.561172
+        },
+        {
+          "xMm": 29.939461,
+          "yMm": -44.096733
+        },
+        {
+          "xMm": 29.949961,
+          "yMm": -44.367366
+        },
+        {
+          "xMm": 29.920733,
+          "yMm": -44.8044
+        },
+        {
+          "xMm": 31.043748,
+          "yMm": -44.819038
+        },
+        {
+          "xMm": 31.308692,
+          "yMm": -45.089261
+        },
+        {
+          "xMm": 31.3125,
+          "yMm": -46.1238
+        },
+        {
+          "xMm": 34.680409,
+          "yMm": -46.126836
+        },
+        {
+          "xMm": 34.922559,
+          "yMm": -46.174574
+        },
+        {
+          "xMm": 35.146901,
+          "yMm": -46.277458
+        },
+        {
+          "xMm": 35.341027,
+          "yMm": -46.429972
+        },
+        {
+          "xMm": 35.450583,
+          "yMm": -46.558236
+        },
+        {
+          "xMm": 35.5708,
+          "yMm": -46.773767
+        },
+        {
+          "xMm": 35.636741,
+          "yMm": -47.007555
+        },
+        {
+          "xMm": 35.65,
+          "yMm": -49.3238
+        },
+        {
+          "xMm": 39.019134,
+          "yMm": -49.327606
+        },
+        {
+          "xMm": 39.05,
+          "yMm": -49.3738
+        },
+        {
+          "xMm": 39.05,
+          "yMm": -51.1238
+        },
+        {
+          "xMm": 40.6,
+          "yMm": -51.1238
+        },
+        {
+          "xMm": 40.646194,
+          "yMm": -51.154666
+        },
+        {
+          "xMm": 40.65,
+          "yMm": -78.3238
+        },
+        {
+          "xMm": 41.6,
+          "yMm": -78.3238
+        },
+        {
+          "xMm": 41.65,
+          "yMm": -78.3738
+        },
+        {
+          "xMm": 41.635355,
+          "yMm": -94.409155
+        },
+        {
+          "xMm": -39.019134,
+          "yMm": -94.419994
+        },
+        {
+          "xMm": -39.05,
+          "yMm": -94.3738
+        },
+        {
+          "xMm": -39.05,
+          "yMm": -49.3738
+        },
+        {
+          "xMm": -39.0,
+          "yMm": -49.3238
+        }
+      ]
+    ],
+    "geometryEvidence": {
+      "source": "SHA-bound delivered STEP triangulation and B6 post planar-face audit",
+      "stepSha256": "610f6eb2967852b2c656d58f8a841035fd93aac81148ff2943802f2662be6b6b",
+      "topViewSha256": "20e5034fecf059eca6874647c1cd42678ecca554f7d90381b7d3b62bdd76e184",
+      "leafCount": 12,
+      "solidCount": 30,
+      "mountingDatum": "35 mm B6 post footprint at world XY origin; nominal M6-hole offsets ±12.5 mm",
+      "sourcePoseUnchanged": true,
+      "physicalTrial": false,
+      "knownOEMValidityWarnings": 0,
+      "sourceStep": "step/standard-post-h12p5-b4-r2/assemblies/mt-cube-pbs-2inch-motorized-r1__H12p5_B4_R2.step",
+      "sourceStepSha256": "610f6eb2967852b2c656d58f8a841035fd93aac81148ff2943802f2662be6b6b",
+      "sourceSha256": "610f6eb2967852b2c656d58f8a841035fd93aac81148ff2943802f2662be6b6b",
+      "imageSha256": "f0d406c3db569346d36485fabb4d4698c962e9a0209e04c607cd7b7b70d511ef",
+      "postBaseRevision": {
+        "revision": "H12p5-B4-R2",
+        "componentIds": [
+          "custom-post-metric-12p5mm-m1"
+        ],
+        "baseThicknessByComponentId": {
+          "custom-post-metric-12p5mm-m1": 4
+        },
+        "nominalAndOpticalHeightsPreserved": true,
+        "geometryStatus": "passed",
+        "physicalAssemblyAccepted": false,
+        "previousAssemblySha256": "75fb24c1fde6b8e62bb2e1a70beb36d524606faa2432e2e618d58f45ec808758",
+        "currentAssemblySha256": "610f6eb2967852b2c656d58f8a841035fd93aac81148ff2943802f2662be6b6b",
+        "replacementReportSha256": "aed6ac37780264991a64872b7cb06da5cbc737b94910d62a332875f5aaf84f17",
+        "originalEntitiesAndPosesPreserved": true
+      },
+      "baseThicknessByComponentId": {
+        "custom-post-metric-12p5mm-m1": 4
+      }
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "610f6eb2967852b2c656d58f8a841035fd93aac81148ff2943802f2662be6b6b",
+      "imageSha256": "f0d406c3db569346d36485fabb4d4698c962e9a0209e04c607cd7b7b70d511ef",
+      "revision": "H12p5-B4-R2",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null,
+      "projectionReportSha256": "887d6641d436e5b2065d180727a96b3ed1de50d0ef182454c29cf33ad5f2b20d"
+    },
+    "sourceUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/3f199911648c1c68b3ad7aa6"
+  },
+  "assemblyReference": {
+    "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/mt-cube-pbs-2inch-motorized-r1__H12p5_B4_R2.step",
+    "sourceStepSha256": "610f6eb2967852b2c656d58f8a841035fd93aac81148ff2943802f2662be6b6b",
+    "sha256": "610f6eb2967852b2c656d58f8a841035fd93aac81148ff2943802f2662be6b6b",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "containsSimplifiedManufacturerReference": true,
+    "note": "完整设计参考总装；外加标准五金按BOM，未把检验包络虚报为精细螺钉实体。",
+    "drawingPath": null,
+    "sourceDrawingSha256": "d02431197ed22e6cb67edd876abaf0bfee42e4b24ced46e27de12a6baf851d51",
+    "revision": "R1-H12p5B4R2",
+    "cloudUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/3f199911648c1c68b3ad7aa6",
+    "cloudStatus": "frozen-independent-assembly-readback-pending"
+  },
+  "assemblyAssets": [
+    {
+      "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/mt-cube-pbs-2inch-motorized-r1__H12p5_B4_R2.step",
+      "sha256": "610f6eb2967852b2c656d58f8a841035fd93aac81148ff2943802f2662be6b6b",
+      "role": "nominal-CAD-reference-assembly",
+      "additionalStandardFastenerCADIncluded": false
+    }
+  ],
+  "mechanicalConfiguration": {
+    "id": "motorized-vertical-R1",
+    "source": "exact delivered assembly, fixed nominal state"
+  },
+  "capabilities": {
+    "layout": true,
+    "mounting": "nominal CAD checked; physical confirmation pending",
+    "opticalSimulation": false,
+    "productionApproval": false
+  },
+  "sourceUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/3f199911648c1c68b3ad7aa6",
+  "mechanical": {
+    "heightChainMm": [
+      12.5,
+      14.399999999999999,
+      35.6
+    ],
+    "opticalCenterMm": [
+      1.7763568394002505e-15,
+      3.552713678800501e-15,
+      62.5
+    ],
+    "fixedPositionStep": true,
+    "physicalAssemblyTested": false,
+    "includedOEMClampNotRepurchased": true
+  },
+  "originalSourceUrl": "https://www.lbtek.com/product/1267",
+  "cloudReference": {
+    "batch": 4,
+    "documentId": "66b198de06cefdf0be97875b",
+    "workspaceId": "048790c4e7cccc432b78d839",
+    "sourceUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/3f199911648c1c68b3ad7aa6",
+    "status": "frozen-independent-assembly-readback-pending",
+    "observation": "Onshape notification panel and folder list via IAB",
+    "strictReadbackComplete": false,
+    "active": false,
+    "current": true,
+    "sourceStepSha256": "610f6eb2967852b2c656d58f8a841035fd93aac81148ff2943802f2662be6b6b",
+    "automaticCloudReuseAllowed": false,
+    "independentAssemblyElementVerified": true,
+    "physicalAssemblyAccepted": false,
+    "versionId": "f7760018eec7aecfe4fe9762",
+    "elementId": "3f199911648c1c68b3ad7aa6",
+    "elementType": "Assembly",
+    "versionFrozen": true,
+    "uiEvidence": {
+      "path": null,
+      "sha256": "9572a243eaa463b4784ac014b7247c4c8d819942ef561ffeba484bd117acfb5f"
+    },
+    "checkedAt": "2026-10-28T01:54:56.736608+08:00"
+  },
+  "postBaseRevision": {
+    "revision": "H12p5-B4-R2",
+    "componentIds": [
+      "custom-post-metric-12p5mm-m1"
+    ],
+    "baseThicknessByComponentId": {
+      "custom-post-metric-12p5mm-m1": 4
+    },
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "physicalAssemblyAccepted": false,
+    "previousAssemblySha256": "75fb24c1fde6b8e62bb2e1a70beb36d524606faa2432e2e618d58f45ec808758",
+    "currentAssemblySha256": "610f6eb2967852b2c656d58f8a841035fd93aac81148ff2943802f2662be6b6b",
+    "replacementReportSha256": "aed6ac37780264991a64872b7cb06da5cbc737b94910d62a332875f5aaf84f17",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "id": "mt-cube-pbs-2inch-motorized-r1"
+}

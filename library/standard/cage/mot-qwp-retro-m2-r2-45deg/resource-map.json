@@ -1,0 +1,50 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "mot-qwp-retro-m2-r2-45deg",
+  "files": [
+    {
+      "path": "rendering/599d78e1fb45840f1d8fb95db930e6be2cff687755f49fa396932bcf8a86c357.svg",
+      "stored": "library/assets/sha256/59/599d78e1fb45840f1d8fb95db930e6be2cff687755f49fa396932bcf8a86c357.svg",
+      "sha256": "599d78e1fb45840f1d8fb95db930e6be2cff687755f49fa396932bcf8a86c357",
+      "originalReferences": [
+        "topviews/mot-qwp-retro-m2-r2-45deg-side.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/59/599d78e1fb45840f1d8fb95db930e6be2cff687755f49fa396932bcf8a86c357.svg"
+      ]
+    },
+    {
+      "path": "cad/69d30f0c5a52761b76d560bb5a99b625b0e231e45eea73745af3e64dcbc8d686.step",
+      "stored": "library/assets/sha256/69/69d30f0c5a52761b76d560bb5a99b625b0e231e45eea73745af3e64dcbc8d686.step",
+      "sha256": "69d30f0c5a52761b76d560bb5a99b625b0e231e45eea73745af3e64dcbc8d686",
+      "originalReferences": [
+        "step/mot-ra-m2-r2/MOT_RA_M2_R2_45deg.step"
+      ],
+      "sources": [
+        "library/assets/sha256/69/69d30f0c5a52761b76d560bb5a99b625b0e231e45eea73745af3e64dcbc8d686.step"
+      ]
+    },
+    {
+      "path": "rendering/8c20f5848624fda0aa3c28bb41a278ff98eab5061ae2618649d15d891f3b4dca.svg",
+      "stored": "library/assets/sha256/8c/8c20f5848624fda0aa3c28bb41a278ff98eab5061ae2618649d15d891f3b4dca.svg",
+      "sha256": "8c20f5848624fda0aa3c28bb41a278ff98eab5061ae2618649d15d891f3b4dca",
+      "originalReferences": [
+        "topviews/mot-qwp-retro-m2-r2-45deg.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/8c/8c20f5848624fda0aa3c28bb41a278ff98eab5061ae2618649d15d891f3b4dca.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "amc-1b",
+    "crm-1as",
+    "custom-mot-ra-m2",
+    "custom-post-metric-25mm-m1",
+    "hardware-iso4762-m3x5",
+    "hardware-iso4762-m6x12",
+    "metric-m1-post-m4x8",
+    "metric-m1-post-pin-d2x8",
+    "mop-40"
+  ]
+}

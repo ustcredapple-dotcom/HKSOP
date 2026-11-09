@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "dpt3-lens-support-r1",
+  "files": [
+    {
+      "path": "cad/045e743c60abe45fc3aa75017d28d793026611a122c207054a3b1c720abe34f5.step",
+      "stored": "library/assets/sha256/04/045e743c60abe45fc3aa75017d28d793026611a122c207054a3b1c720abe34f5.step",
+      "sha256": "045e743c60abe45fc3aa75017d28d793026611a122c207054a3b1c720abe34f5",
+      "originalReferences": [
+        "step/dipole-trap3-r1/DPT3-L200-R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/04/045e743c60abe45fc3aa75017d28d793026611a122c207054a3b1c720abe34f5.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

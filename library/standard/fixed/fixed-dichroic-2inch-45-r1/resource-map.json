@@ -1,0 +1,37 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "fixed-dichroic-2inch-45-r1",
+  "files": [
+    {
+      "path": "cad/6e3f9e038a5347143a4dc0f86205f2615c6f8b86e2005b085e658240dde15a08.step",
+      "stored": "library/assets/sha256/6e/6e3f9e038a5347143a4dc0f86205f2615c6f8b86e2005b085e658240dde15a08.step",
+      "sha256": "6e3f9e038a5347143a4dc0f86205f2615c6f8b86e2005b085e658240dde15a08",
+      "originalReferences": [
+        "step/fixed-dichroic-r1/DC2-F_R1_45deg_assembly.step"
+      ],
+      "sources": [
+        "library/assets/sha256/6e/6e3f9e038a5347143a4dc0f86205f2615c6f8b86e2005b085e658240dde15a08.step"
+      ]
+    },
+    {
+      "path": "rendering/c922b49c0b0fc3b9cb46fef7a6762d32369174da0e3f5c87dde98595fb9d6103.svg",
+      "stored": "library/assets/sha256/c9/c922b49c0b0fc3b9cb46fef7a6762d32369174da0e3f5c87dde98595fb9d6103.svg",
+      "sha256": "c922b49c0b0fc3b9cb46fef7a6762d32369174da0e3f5c87dde98595fb9d6103",
+      "originalReferences": [
+        "topviews/fixed-dichroic-2inch-45-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/c9/c922b49c0b0fc3b9cb46fef7a6762d32369174da0e3f5c87dde98595fb9d6103.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-dc2-f-r1",
+    "custom-post-metric-12p5mm-m1",
+    "metric-m1-post-m4x12",
+    "metric-m1-post-pin-d2x8",
+    "new-hardware-d56c7b8035c3",
+    "new-hardware-f0579b934c7c",
+    "new-r3-vendor-mt-flf2s"
+  ]
+}

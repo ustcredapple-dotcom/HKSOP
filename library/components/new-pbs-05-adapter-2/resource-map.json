@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-pbs-05-adapter-2",
+  "files": [
+    {
+      "path": "cad/6a13e4bcf3fc92a7e3d0f9f6346f017966a31af678a33b1b463db1785162e3b3.step",
+      "stored": "library/assets/sha256/6a/6a13e4bcf3fc92a7e3d0f9f6346f017966a31af678a33b1b463db1785162e3b3.step",
+      "sha256": "6a13e4bcf3fc92a7e3d0f9f6346f017966a31af678a33b1b463db1785162e3b3",
+      "originalReferences": [
+        "step/metric-m1-20261006/02-PBS-U_METRIC_M1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/6a/6a13e4bcf3fc92a7e3d0f9f6346f017966a31af678a33b1b463db1785162e3b3.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,121 @@
+{
+  "id": "custom-laser616-frame-r1",
+  "name": "616 nm 侧光口爬架 LF616",
+  "model": "LF616",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R1",
+  "productionReady": false,
+  "drawingStatus": "engineering-review",
+  "status": "名义CAD与加工审核图；未批准投产",
+  "stepPath": "step/laser616-periscope-r1/LF616-frame.step",
+  "drawingPath": null,
+  "dxfPath": null,
+  "sourceUrl": "",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "尺寸/孔/螺纹按冻结CAD和审核图。按用户规范不写通用公差与粗糙度；未做实物装配及加工放行。"
+  },
+  "manufacturingEvidence": {
+    "sourceStepSha256": "3d135eaa53f47db4bbdabc807886764744e32507ab995f54062c7c171e057fe6",
+    "drawingSha256": "db33665c8f6ee2a66165bb2c04bd53a101053b4183f70f8bae16b5b9017aa58a",
+    "dxfSha256": "233ecadc61f07dfc74f3687500f0fb7ea1610c67ab6eff42646aa14546a133c8",
+    "evidence": [
+      {
+        "path": "mechanical/parameters.json",
+        "sha256": "6a00d495b51fd16be6bc98bd748dfee21b028fc50ac756a45b8fd70e2a060b1c"
+      },
+      {
+        "path": "research/mechanical/cad-exports.json",
+        "sha256": "3bd420e7c67182a4725c09111999d8076f2279f0bf7abb362a3feb83e6b1842a"
+      },
+      {
+        "path": "research/mechanical/final-interface-verification.json",
+        "sha256": "4b01ffd9a59286e8951ce2877225e0bcb21a0dc470cef038ae8f105fa106b446"
+      },
+      {
+        "path": "mechanical/assembly-placements.json",
+        "sha256": "8a2f469062e0201aa5ee2b2919e4ffbba166a2570bdd42267bcae2baf0dcea5d"
+      }
+    ],
+    "physicalAssemblyTested": false,
+    "engineeringReleaseApproved": false,
+    "supportingSections": [
+      {
+        "dxfPath": null,
+        "sha256": "46786569b35d82723898982a8038c522ae256db3a50bcd631470130bdf6ae0ea",
+        "dxfPdfPath": null,
+        "dxfPdfSha256": "df691dc9d405ea95d55af90d931cb75386967ec41930d66ca0b3cd7249f5a77d"
+      }
+    ]
+  },
+  "notes": "本轮独立本地修订。原正式H12.5保留退磁喷砂，27-S45原STEP精确复用，不改变商业镜架几何。",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "31b0e06bcd52d3ecec5bf28b095f4c3616707c8cc6fcd76a198f0b196d34444a",
+  "sourceDrawingSha256": "db33665c8f6ee2a66165bb2c04bd53a101053b4183f70f8bae16b5b9017aa58a",
+  "drawingPages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "7e89cd14ec146e81fdbbee634c04a952855e64593ad4ad629d4583e4f5e54a2a",
+      "currentPdfSha256": "db33665c8f6ee2a66165bb2c04bd53a101053b4183f70f8bae16b5b9017aa58a",
+      "annotatedPages": [
+        2,
+        3
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "9ac07ec83669b4849dda25f2b6cf720f22ff315081de8e0d55ae0ff393c245b7",
+      "currentPdfSha256": "31b0e06bcd52d3ecec5bf28b095f4c3616707c8cc6fcd76a198f0b196d34444a",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/manufacturingEvidence/supportingSections/0/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "927786525a33b9c9041a5a14d01d92e9620864ac30ed0d392e67e5d893340faf",
+      "currentPdfSha256": "df691dc9d405ea95d55af90d931cb75386967ec41930d66ca0b3cd7249f5a77d",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前 STEP 原字形及功能文字改用激光打标，完整轮廓与位置已提取核验。",
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "28510f5fbf11db8eb2e1ce1fd73726d3ca67439bdf984ad2beb7fef2e59db2af",
+        "sha256": "db33665c8f6ee2a66165bb2c04bd53a101053b4183f70f8bae16b5b9017aa58a"
+      }
+    ]
+  }
+}

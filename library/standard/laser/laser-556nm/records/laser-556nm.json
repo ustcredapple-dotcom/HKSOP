@@ -1,0 +1,450 @@
+{
+  "name": "556 nm 激光器 · 频准激光",
+  "category": "laser",
+  "variant": "报告参数 · 1.54 W · 光轴高37 mm",
+  "description": "375×90mm窄长输出腔；右端主光口；带侧散热器和可调夹脚。主壳毫米校准，滑槽位置待补。",
+  "sourceUrl": "",
+  "components": [
+    {
+      "componentId": "laser-556nm",
+      "quantity": 1
+    }
+  ],
+  "opticalSlots": [],
+  "status": "型号与出厂报告已核对；安装定位待确认",
+  "notes": "频准激光FL-SF-556-1.5-CW，报告PLP-2025-09-005910-01。555.80335nm、稳功率1.54W、M²1.020、线偏振；窗面Gaussian参数依据报告束腰推算。外购整机1台，俯视图只表示光学输出腔。滑槽孔位未标注，未加入自动孔吸附。",
+  "bundleStatus": "complete",
+  "layout": {
+    "topViewPath": "topviews/kit_laser-556nm.svg",
+    "topViewUrl": "./topviews/kit_laser-556nm.svg",
+    "widthMm": 520,
+    "heightMm": 200,
+    "anchorXMm": 270,
+    "anchorYMm": 100,
+    "baseBoundsMm": {
+      "xMin": -187.5,
+      "yMin": -78,
+      "xMax": 187.5,
+      "yMax": 77.5
+    },
+    "collisionBoundsMm": {
+      "xMin": -252.5,
+      "yMin": -78,
+      "xMax": 192.5,
+      "yMax": 77.5
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -187.5,
+          "yMm": -45
+        },
+        {
+          "xMm": 187.5,
+          "yMm": -45
+        },
+        {
+          "xMm": 187.5,
+          "yMm": 45
+        },
+        {
+          "xMm": -187.5,
+          "yMm": 45
+        }
+      ],
+      [
+        {
+          "xMm": -205,
+          "yMm": -9
+        },
+        {
+          "xMm": -187.5,
+          "yMm": -9
+        },
+        {
+          "xMm": -187.5,
+          "yMm": 9
+        },
+        {
+          "xMm": -205,
+          "yMm": 9
+        }
+      ],
+      [
+        {
+          "xMm": -252.5,
+          "yMm": -6
+        },
+        {
+          "xMm": -205,
+          "yMm": -8
+        },
+        {
+          "xMm": -205,
+          "yMm": 8
+        },
+        {
+          "xMm": -252.5,
+          "yMm": 6
+        }
+      ],
+      [
+        {
+          "xMm": 187.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": 192.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": 192.5,
+          "yMm": 19.5
+        },
+        {
+          "xMm": 187.5,
+          "yMm": 19.5
+        }
+      ],
+      [
+        {
+          "xMm": 32.5,
+          "yMm": -75
+        },
+        {
+          "xMm": 132.5,
+          "yMm": -75
+        },
+        {
+          "xMm": 132.5,
+          "yMm": -45
+        },
+        {
+          "xMm": 32.5,
+          "yMm": -45
+        }
+      ],
+      [
+        {
+          "xMm": -87.5,
+          "yMm": 45
+        },
+        {
+          "xMm": -67.5,
+          "yMm": 45
+        },
+        {
+          "xMm": -67.5,
+          "yMm": 63.5
+        },
+        {
+          "xMm": -87.5,
+          "yMm": 63.5
+        }
+      ],
+      [
+        {
+          "xMm": -87.5,
+          "yMm": -63.5
+        },
+        {
+          "xMm": -67.5,
+          "yMm": -63.5
+        },
+        {
+          "xMm": -67.5,
+          "yMm": -45
+        },
+        {
+          "xMm": -87.5,
+          "yMm": -45
+        }
+      ],
+      [
+        {
+          "xMm": 82.5,
+          "yMm": 45
+        },
+        {
+          "xMm": 112.5,
+          "yMm": 45
+        },
+        {
+          "xMm": 112.5,
+          "yMm": 77.5
+        },
+        {
+          "xMm": 82.5,
+          "yMm": 77.5
+        }
+      ],
+      [
+        {
+          "xMm": 82.5,
+          "yMm": -78
+        },
+        {
+          "xMm": 112.5,
+          "yMm": -78
+        },
+        {
+          "xMm": 112.5,
+          "yMm": -45
+        },
+        {
+          "xMm": 82.5,
+          "yMm": -45
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [],
+    "mountingGeometryStatus": "adjustable-slots-unmeasured",
+    "opticalPortsMm": [
+      {
+        "id": "output",
+        "xMm": 187.5,
+        "yMm": 1,
+        "directionX": 1,
+        "directionY": 0,
+        "wavelengthNm": 555.80335,
+        "beamHeightMm": 37
+      }
+    ],
+    "opticalAxisHeightMm": 37,
+    "opticalAxisHeightSource": "手册PDF第8页：端面主光轴距支承底面37 mm",
+    "opticalDirectionDeg": 0,
+    "opticalType": "source",
+    "opticalDefaults": {
+      "elementType": "source",
+      "inserted": true,
+      "source": {
+        "enabled": false,
+        "wavelengthNm": 555.80335,
+        "powerMw": 1540,
+        "beamDiameterMm": 0.714748649208415,
+        "beamQualityM2": 1.02,
+        "polarizationType": "linear",
+        "polarizationAngleDeg": 0,
+        "ellipticityDeg": 0,
+        "wavefrontRadiusMm": -3028.828355272296,
+        "directionAngleDeg": 0
+      }
+    },
+    "sourceReport": {
+      "title": "频准激光出厂测试报告与窗面等效模型",
+      "reportId": "PLP-2025-09-005910-01",
+      "reportDateText": "08/12/2025",
+      "summary": [
+        "报告PDF第3–5页：FL-SF-556-1.5-CW；中心波长555.80335 nm；CW准直自由空间主输出；稳功率1.54 W（1540 mW，泵浦电流11.6–11.4 A）。",
+        "报告PDF第3、9、13页：M² 1.020；线偏振，30分钟最差消光比25 dB；未标定偏振主轴相对板面方向。",
+        "报告PDF第10页：理论束腰位于窗口之后156.815 mm、直径0.696 mm；原拟合全角发散1.016 mrad。0.696 mm不是窗面直径。",
+        "窗面等效推算：直径0.714748649 mm，波前半径-3028.828355 mm（负号表示会聚）；与实测M²构成自洽Gaussian模型。",
+        "手册PDF第7、8页：556 nm主光口位于输出腔前端；主壳375×90×73 mm，光轴高37 mm、距端面右侧边44 mm。1112 nm监视口属于独立放大控制箱。"
+      ],
+      "simulationNotes": [
+        "窗面直径与波前为推算值，依据报告束腰位置和直径并采用M² 1.020；不是直接窗面标定。",
+        "此等效模型全角发散1.037104 mrad，较报告近M²=1的原拟合1.016 mrad高约2.1%；保留两组数据差异，不将M²附录测试架坐标当作窗口坐标。",
+        "二维渲染将近圆椭圆光斑作圆对称等效近似；光斑椭圆率不等于偏振椭圆率。",
+        "偏振角0°是初始假设，请按实物设置；PER只作报告参考，不能由其推断完整Stokes或偏振度。",
+        "光口标记取前端端面投影，窗口沿光轴内缩或外凸量未标注。固定滑槽的孔径、绝对坐标与调整范围待补，未注册精确孔吸附。"
+      ],
+      "reportedParameters": {
+        "wavelengthNm": 555.80335,
+        "powerMw": 1540,
+        "waistDiameterMm": 0.696,
+        "waistDistanceAfterWindowMm": 156.815,
+        "beamQualityM2": 1.02,
+        "polarizationType": "linear",
+        "extinctionRatioDb": 25,
+        "axisRelativeToBoardDeg": null,
+        "windowBeamDiameterMm": null,
+        "windowWavefrontRadiusMm": null,
+        "diameterDefinition": "D4σ from beam profiler; equivalent Gaussian intensity diameter in simulation",
+        "reportedFitFullAngleDivergenceMrad": 1.016,
+        "reportedFitRayleighRangeMm": 685.315,
+        "reportedFitWaistRadiusUm": 348.263
+      },
+      "derivedParameters": {
+        "method": "Circular Gaussian-equivalent beam using the stated post-window waist position and diameter plus measured M².",
+        "classification": "derived_model_approximation",
+        "wavelengthNm": 555.80335,
+        "beamQualityM2": 1.02,
+        "waistDiameterMm": 0.696,
+        "waistDistanceAfterWindowMm": 156.815,
+        "qAtWindowMm": {
+          "re": -156.815,
+          "im": 671.0996753888538
+        },
+        "beamDiameterMm": 0.714748649208415,
+        "wavefrontRadiusMm": -3028.828355272296,
+        "equivalentFullAngleDivergenceMrad": 1.03710376494627,
+        "reportedFitFullAngleDivergenceMrad": 1.016,
+        "fullAngleDifferencePercent": 2.077142219121053,
+        "formulae": {
+          "zR": "pi * (d0/2)^2 / (M2 * lambda_mm)",
+          "qWindow": "-z0 + i*zR",
+          "dWindow": "d0 * sqrt(1 + (z0/zR)^2)",
+          "RWindow": "-z0 * (1 + (zR/z0)^2)"
+        },
+        "sourcePdfPages": [
+          3,
+          10,
+          13
+        ],
+        "caveat": "Appendix 2 theoretical fit and Appendix 3 measured M² are separate datasets. The combined equivalent model differs from the published fit divergence by about 2.1%; it is not a new window-plane measurement."
+      },
+      "applyFields": [
+        "wavelengthNm",
+        "powerMw",
+        "beamDiameterMm",
+        "beamQualityM2",
+        "polarizationType",
+        "wavefrontRadiusMm"
+      ],
+      "sourceFiles": [
+        {
+          "id": 1,
+          "name": "频准激光_1112nm-556nm倍频系统用户手册.pdf",
+          "path": null,
+          "sha256": "a91a701e4a3e70db22738f7c2cc4a6572ed958802e2a36e739881f0aa66eb572",
+          "pages": 18
+        },
+        {
+          "id": 2,
+          "name": "频准激光_FL-SF-556-1.5-CW_测试报告_202509005910.pdf",
+          "path": null,
+          "sha256": "8ebd5b9c909a9b64d69c91e32676c14bbeb8353a1638e171154bdaa781511b6a",
+          "pages": 13
+        }
+      ]
+    },
+    "placementAllowed": true,
+    "status": "主壳与光轴已校准；可调安装槽位置待确认",
+    "note": "主壳375×90×73 mm；右端556nm主光口，光轴高37mm、Y=+1mm。左端为连接线，非出光口。夹脚、散热器及接头轮廓按尺寸图比例估读；手册未标安装槽孔径与定位，不能声明与板孔对齐。可用于桌面布局；面包板安装需补充实际固定孔。图中不含独立放大控制箱。",
+    "sourceUrl": "",
+    "collisionGeometryVersion": "manual-556nm-2026-10-05.1",
+    "calibration": {
+      "source": "频准激光1112nm-556nm倍频系统用户手册PDF第8页，输出腔三视图",
+      "sourceFile": null,
+      "sourceSha256": "a91a701e4a3e70db22738f7c2cc4a6572ed958802e2a36e739881f0aa66eb572",
+      "pdfPage": 8,
+      "outputIdentityPdfPage": 7,
+      "datum": "主壳几何中心；X向图中右侧（556nm主光口），Y向图中上侧。",
+      "housingLengthMm": 375,
+      "housingWidthMm": 90,
+      "bodyHeightMm": 73,
+      "beamHeightMm": 37,
+      "opticalPortSideOffsetMm": 44,
+      "opticalPortSideDatum": "正看出光端面，右侧主壳外缘",
+      "derivedOpticalPortYMm": 1,
+      "derivation": "Y=90/2-44=+1 mm; top-view heat-sink side is negative Y.",
+      "opticalOriginAxialDatum": "前端壳体端面；窗口沿X的内缩/凸出量未标注",
+      "mountingPatternConfirmed": false,
+      "estimatedAccessoryBoundsMm": {
+        "rearConnector": [
+          -252.5,
+          -9,
+          -187.5,
+          9
+        ],
+        "outputCollar": [
+          187.5,
+          -17.5,
+          192.5,
+          19.5
+        ],
+        "heatsink": [
+          32.5,
+          -75,
+          132.5,
+          -45
+        ],
+        "smallClamps": [
+          [
+            -87.5,
+            45,
+            -67.5,
+            63.5
+          ],
+          [
+            -87.5,
+            -63.5,
+            -67.5,
+            -45
+          ]
+        ],
+        "largeClamps": [
+          [
+            82.5,
+            45,
+            112.5,
+            77.5
+          ],
+          [
+            82.5,
+            -78,
+            112.5,
+            -45
+          ]
+        ]
+      },
+      "estimatedGeometryMethod": "按同页正交俯视图已标375×90主壳校准比例，配件外形取近似毫米数。底部右夹脚被散热器部分遮挡。",
+      "unconfirmed": [
+        "可调夹脚/长槽的孔径、间距、绝对位置及滑轨调整范围",
+        "后端接头外伸长度和外径",
+        "前端光窗环的外伸与玻璃窗实际轴向位置",
+        "侧散热器、夹脚的外伸尺寸及被遮挡的底脚细节"
+      ],
+      "usage": "主壳及光轴位置校准的布局图；配件轮廓估读，不用于加工。独立放大控制箱不含在图中。"
+    }
+  },
+  "installationPackageReview": {
+    "revision": "REFERENCE_HANDOFF_20261006",
+    "protocol": "zzlab-optics-library-v1",
+    "baselineVersion": "2026-10-06.5-waveplate05-m1",
+    "mechanicalMountStatus": "not-released-measurements-required",
+    "evidence": {
+      "path": "evidence/install/laser-556nm.json"
+    },
+    "sourceDocuments": [
+      {
+        "originalFileName": null,
+        "sha256": "a91a701e4a3e70db22738f7c2cc4a6572ed958802e2a36e739881f0aa66eb572",
+        "externalEvidenceArchive": "laser-original-evidence-20261006.zip",
+        "externalEvidenceArchiveSha256": "1c9eb61cbc7e21200296476ea6d2d39d7605f961a504a581f3daa67f51d92f7e",
+        "archiveFile": null
+      },
+      {
+        "originalFileName": null,
+        "sha256": "8ebd5b9c909a9b64d69c91e32676c14bbeb8353a1638e171154bdaa781511b6a",
+        "externalEvidenceArchive": "laser-original-evidence-20261006.zip",
+        "externalEvidenceArchiveSha256": "1c9eb61cbc7e21200296476ea6d2d39d7605f961a504a581f3daa67f51d92f7e",
+        "archiveFile": null
+      }
+    ],
+    "unchangedRuntimeSemantics": [
+      "BOM",
+      "mounting holes",
+      "minimum hole count",
+      "optical ports",
+      "simulation",
+      "placement permission"
+    ],
+    "limits": {
+      "manufacturingMount": "No verified manufacturing mount.",
+      "feet": "Adjustable clamp/slot positions, widths, range and foot contact faces unknown; current holes array empty.",
+      "port": "AxisY1/Z37 dimensioned; +187.5 is housing end, window setback unknown.",
+      "next": "Measure mounting slots/clamps and support plane, actual window reference."
+    },
+    "referenceCad": {
+      "stepPath": "step/laser_installation_reference_20261006/LASER_556_HEAD_REFERENCE_WITH_DATUM.step",
+      "sha256": "9d20e1ef2b446dc037757808690a1f276ddd3f4d0ebde8177a91eed9d2444c33",
+      "role": "DIMENSION_REFERENCE_ONLY_NOT_MANUFACTURER_CAD_NOT_MACHINING_MODEL",
+      "opticalDatumSymbolIsNonphysical": true,
+      "holesModeled": false,
+      "manufacturerCADVersion": null,
+      "canReleaseManufacturingMount": false
+    }
+  },
+  "id": "laser-556nm"
+}

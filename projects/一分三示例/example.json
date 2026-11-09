@@ -1,0 +1,75 @@
+{
+  "sourceProject": "一分三光路",
+  "sourceSha256": "9e23893fc51255f9b03cdd8d70ec39329169739f9c63564562b80745d2039737",
+  "layoutAndOpticalRenderingUnchanged": true,
+  "displaySelectionCompatibilityEdits": [
+    {
+      "field": "optical.placed-muwfevaz-z-57fzq::wave-1.diameterMm",
+      "retainedAs": "notes",
+      "value": 12.7
+    },
+    {
+      "field": "optical.placed-muwfevaz-z-57fzq::wave-2.diameterMm",
+      "retainedAs": "notes",
+      "value": 25.4
+    },
+    {
+      "field": "optical.placed-muwfewko-10-051s9::wave-1.diameterMm",
+      "retainedAs": "notes",
+      "value": 12.7
+    },
+    {
+      "field": "optical.placed-muwfewko-10-051s9::wave-2.diameterMm",
+      "retainedAs": "notes",
+      "value": 25.4
+    },
+    {
+      "field": "optical.placed-muwfeysr-11-lsrhr::wave-1.diameterMm",
+      "retainedAs": "notes",
+      "value": 12.7
+    },
+    {
+      "field": "optical.placed-muwfeysr-11-lsrhr::wave-2.diameterMm",
+      "retainedAs": "notes",
+      "value": 25.4
+    },
+    {
+      "field": "optical.placed-muwfezv6-12-z6ey9::wave-1.diameterMm",
+      "retainedAs": "notes",
+      "value": 12.7
+    },
+    {
+      "field": "optical.placed-muwfezv6-12-z6ey9::wave-2.diameterMm",
+      "retainedAs": "notes",
+      "value": 25.4
+    },
+    {
+      "field": "optical.placed-muwff16s-13-mlrpp::wave-1.diameterMm",
+      "retainedAs": "notes",
+      "value": 12.7
+    },
+    {
+      "field": "optical.placed-muwff16s-13-mlrpp::wave-2.diameterMm",
+      "retainedAs": "notes",
+      "value": 25.4
+    }
+  ],
+  "metadataCompatibilityEdits": [
+    {
+      "field": "metadata.operatingWavelengthNm",
+      "original": 399,
+      "retainedAs": "metadata.notes and example.json"
+    },
+    {
+      "field": "metadata.mechanicalAttachmentManifest",
+      "original": "assembly_config.json",
+      "retainedAs": "metadata.notes and example.json"
+    },
+    {
+      "field": "metadata.updatedAt",
+      "original": "2026-11-03T13:40:16.128655+08:00",
+      "value": "2026-11-03T13:40:16.128+08:00",
+      "reason": "Current codec accepts at most millisecond precision; source timestamp retained here."
+    }
+  ]
+}

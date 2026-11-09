@@ -1,0 +1,26 @@
+{
+  "id": "lbtek-lbc1",
+  "name": "麓邦刀片型挡光器 LBC1（升级）",
+  "model": "LBC1",
+  "kind": "lubang",
+  "unit": "套",
+  "sourceUrl": "https://www.lbtek.com/product/578#LBC1",
+  "status": "厂家型号、原始 STEP 与 Rev B 图纸已核对；未实测",
+  "stepPath": "step/lbtek-lbc1-r1/LBC1_OEM_full.step",
+  "sourceStepSha256": "fe3767cb1b04688f9d381e7856532df293af8cc93e6312ecc40170fc30c99b83",
+  "drawingPath": null,
+  "sourceDrawingSha256": "b5da7a78f2b9ac4e5a8eae29bba9d0d5a66f6e0e24014d9d6d0f5e7c0da5ccaa",
+  "notes": "按用户确认采用当前 LBC1；不将旧 BC1 与 LBC1 当成同一型号。采购完整 LBC1 含 OP-75；本套安装卸下 OP-75 留作备件，复用原中央 M4x25。",
+  "specifications": {
+    "wavelengthMinNm": 400,
+    "wavelengthMaxNm": 2000,
+    "maximumCwPowerW": 10,
+    "specificationSource": "LBTEK product 578; checked 2026-11-04",
+    "pulsedDamageThreshold": null,
+    "measuredAbsorption": null
+  },
+  "includedItems": [
+    "LBC1 刀片吸收头及原配五金",
+    "OP-75 原配接杆（本套不安装）"
+  ]
+}

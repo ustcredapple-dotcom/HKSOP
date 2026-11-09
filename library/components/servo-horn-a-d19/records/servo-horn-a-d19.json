@@ -1,0 +1,21 @@
+{
+  "id": "servo-horn-a-d19",
+  "name": "舵盘 A · Ø19",
+  "model": "舵盘 A（用户指定配套）",
+  "kind": "standard",
+  "unit": "件",
+  "stepPath": "step/servo-detector-gate-r2/HORN_A_SOURCE.step",
+  "sourceStepSha256": "2ba91573fc612f6fbe5d10ca95b25e0ed1c91499ec4dc78bf1f230cb89b5ca4f",
+  "status": "来源冻结 · 实物接口待核",
+  "notes": "用户指定与舵机配套并提供内花键实拍。源STEP简化内孔、未表达内花键；真实齿数/螺纹待实装。",
+  "sourceUrl": "",
+  "revision": "SOURCE-FROZEN-R1",
+  "supplier": null,
+  "productionReady": false,
+  "geometryEvidence": {
+    "sourceKind": "user-supplied-CAD",
+    "sourceStepSha256": "2ba91573fc612f6fbe5d10ca95b25e0ed1c91499ec4dc78bf1f230cb89b5ca4f",
+    "nativeSolidCount": 1,
+    "sourceUnmodified": true
+  }
+}

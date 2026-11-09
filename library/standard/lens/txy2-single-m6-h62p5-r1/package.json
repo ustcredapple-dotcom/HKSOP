@@ -1,0 +1,31 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "txy2-single-m6-h62p5-r1",
+  "revision": "R1",
+  "displayName": "TXY2 · 单M6底孔XY调节架 · H62.5 R1",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/txy2-single-m6-h62p5-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-post-metric-12p5mm-m1",
+    "custom-txy2-a1-r1",
+    "hardware-din7984-m6x6-a4",
+    "hardware-post-b4-board-m6-select",
+    "lbtek-txy2-single-m6",
+    "metric-m1-post-m4x8",
+    "v7-pin-d2x6"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

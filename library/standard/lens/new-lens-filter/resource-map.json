@@ -1,0 +1,37 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-lens-filter",
+  "files": [
+    {
+      "path": "rendering/55fa1ca95b1aa12ed4770d69676194dcf6ee73774b53129e6b2dd5d78727f7db.svg",
+      "stored": "library/assets/sha256/55/55fa1ca95b1aa12ed4770d69676194dcf6ee73774b53129e6b2dd5d78727f7db.svg",
+      "sha256": "55fa1ca95b1aa12ed4770d69676194dcf6ee73774b53129e6b2dd5d78727f7db",
+      "originalReferences": [
+        "topviews/new-lens-filter__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/55/55fa1ca95b1aa12ed4770d69676194dcf6ee73774b53129e6b2dd5d78727f7db.svg"
+      ]
+    },
+    {
+      "path": "cad/acdfacb02a0cd6d6af8a9a76ae41af0597c2da9b50e0cd8c920797ee860ba932.step",
+      "stored": "library/assets/sha256/ac/acdfacb02a0cd6d6af8a9a76ae41af0597c2da9b50e0cd8c920797ee860ba932.step",
+      "sha256": "acdfacb02a0cd6d6af8a9a76ae41af0597c2da9b50e0cd8c920797ee860ba932",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/new-lens-filter__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/ac/acdfacb02a0cd6d6af8a9a76ae41af0597c2da9b50e0cd8c920797ee860ba932.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-post-metric-25mm-m1",
+    "metric-m1-post-m4x8",
+    "metric-m1-post-pin-d2x8",
+    "new-lens-filter-adapter-1",
+    "new-lens-filter-adapter-2",
+    "new-lens-filter-vendor-1",
+    "new-lens-filter-vendor-2"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-hardware-87563e9f7b30",
+  "revision": "source-snapshot",
+  "displayName": "M3×12 内六角圆柱头螺钉",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-hardware-87563e9f7b30.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

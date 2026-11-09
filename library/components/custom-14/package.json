@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-14",
+  "revision": "C",
+  "displayName": "固定反射镜 0.5inch",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-14.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

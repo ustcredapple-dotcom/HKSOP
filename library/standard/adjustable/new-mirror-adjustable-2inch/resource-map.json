@@ -1,0 +1,36 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-mirror-adjustable-2inch",
+  "files": [
+    {
+      "path": "rendering/1a8eb18c9af0c186d3e665a3ab2e73a705c4f7b0006bfe32c476c981e7fc5378.svg",
+      "stored": "library/assets/sha256/1a/1a8eb18c9af0c186d3e665a3ab2e73a705c4f7b0006bfe32c476c981e7fc5378.svg",
+      "sha256": "1a8eb18c9af0c186d3e665a3ab2e73a705c4f7b0006bfe32c476c981e7fc5378",
+      "originalReferences": [
+        "topviews/new-mirror-adjustable-2inch__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/1a/1a8eb18c9af0c186d3e665a3ab2e73a705c4f7b0006bfe32c476c981e7fc5378.svg"
+      ]
+    },
+    {
+      "path": "cad/6baa0665f9ce8e5d0726438558b2b61ec893af2b097c444fa42c82dc9d65e55f.step",
+      "stored": "library/assets/sha256/6b/6baa0665f9ce8e5d0726438558b2b61ec893af2b097c444fa42c82dc9d65e55f.step",
+      "sha256": "6baa0665f9ce8e5d0726438558b2b61ec893af2b097c444fa42c82dc9d65e55f",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/new-mirror-adjustable-2inch__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/6b/6baa0665f9ce8e5d0726438558b2b61ec893af2b097c444fa42c82dc9d65e55f.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-post-metric-12p5mm-m1",
+    "metric-m1-post-m4x16",
+    "metric-m1-post-pin-d2x8",
+    "new-r3-18-r3-adapter",
+    "new-r3-vendor-lpm20-532-hp",
+    "new-r3-vendor-mt-am2s5"
+  ]
+}

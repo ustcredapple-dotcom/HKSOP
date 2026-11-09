@@ -1,0 +1,42 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "iontrap-it200-direct-r7-reference",
+  "files": [
+    {
+      "path": "cad/16428214c2b3986c9531806d5dc3eb4a6eba0eb5dc26fd9ca5ad2c3878d79977.step",
+      "stored": "library/assets/sha256/16/16428214c2b3986c9531806d5dc3eb4a6eba0eb5dc26fd9ca5ad2c3878d79977.step",
+      "sha256": "16428214c2b3986c9531806d5dc3eb4a6eba0eb5dc26fd9ca5ad2c3878d79977",
+      "originalReferences": [
+        "step/iontrap-it200-direct-r7/IT200_DIRECT_R7_INSTALLED_CONTEXT.step"
+      ],
+      "sources": [
+        "library/assets/sha256/16/16428214c2b3986c9531806d5dc3eb4a6eba0eb5dc26fd9ca5ad2c3878d79977.step"
+      ]
+    },
+    {
+      "path": "cad/3f720b452ccdef62929783d4b1b9b151e23d782038e5c60c89207cd619507651.step",
+      "stored": "library/assets/sha256/3f/3f720b452ccdef62929783d4b1b9b151e23d782038e5c60c89207cd619507651.step",
+      "sha256": "3f720b452ccdef62929783d4b1b9b151e23d782038e5c60c89207cd619507651",
+      "originalReferences": [
+        "step/iontrap-it200-direct-r7/IT200_DIRECT_R7_ASSEMBLY.step"
+      ],
+      "sources": [
+        "library/assets/sha256/3f/3f720b452ccdef62929783d4b1b9b151e23d782038e5c60c89207cd619507651.step"
+      ]
+    },
+    {
+      "path": "rendering/beed276093707610d30772a30659327e8eb4b4ee06568cf882bd087f16d613cf.svg",
+      "stored": "library/assets/sha256/be/beed276093707610d30772a30659327e8eb4b4ee06568cf882bd087f16d613cf.svg",
+      "sha256": "beed276093707610d30772a30659327e8eb4b4ee06568cf882bd087f16d613cf",
+      "originalReferences": [
+        "topviews/iontrap-it200-direct-r7-reference.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/be/beed276093707610d30772a30659327e8eb4b4ee06568cf882bd087f16d613cf.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-it200-direct-r7"
+  ]
+}

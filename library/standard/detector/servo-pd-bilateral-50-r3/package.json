@@ -1,0 +1,38 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "servo-pd-bilateral-50-r3",
+  "revision": "R3-H12p5B4R2",
+  "displayName": "舵机双侧探测器 · 臂长50 mm · R3",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/servo-pd-bilateral-50-r3.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-post-metric-12p5mm-m1",
+    "hardware-iso4762-m2x5",
+    "hardware-iso4762-m3x8",
+    "hx-30hm-10hm-servo",
+    "metric-m1-post-pin-d2x8",
+    "pd-module-37p3-r1",
+    "servo-horn-a-d19",
+    "servo-pd-board-m6-pending",
+    "servo-pd-horn-center-screw-pending",
+    "servo-pd-m3-washer-0p5",
+    "servo-pd-rear-screws-pending",
+    "servo-pd-ug01-r3",
+    "servo-pd-ug02-50-r3",
+    "v7-iso4762-m4x16"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

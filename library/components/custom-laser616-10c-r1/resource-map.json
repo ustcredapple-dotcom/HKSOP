@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-laser616-10c-r1",
+  "files": [
+    {
+      "path": "cad/8f8895ca4a595a973c003de15c4ee5f4da6513a265f5f62a47df7a09c628b9dc.step",
+      "stored": "library/assets/sha256/8f/8f8895ca4a595a973c003de15c4ee5f4da6513a265f5f62a47df7a09c628b9dc.step",
+      "sha256": "8f8895ca4a595a973c003de15c4ee5f4da6513a265f5f62a47df7a09c628b9dc",
+      "originalReferences": [
+        "step/laser616-periscope-r1/10-C616-adapter.step"
+      ],
+      "sources": [
+        "library/assets/sha256/8f/8f8895ca4a595a973c003de15c4ee5f4da6513a265f5f62a47df7a09c628b9dc.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

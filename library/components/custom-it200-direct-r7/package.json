@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-it200-direct-r7",
+  "revision": "R7",
+  "displayName": "IT200-DIRECT R7 上下三点直装支架",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-it200-direct-r7.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,29 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "cavity-mirror-127-r3",
+  "revision": "R3-B6R1-H12p5B4R2",
+  "displayName": "半英寸腔镜架",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/cavity-mirror-127-r3.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-cm127-a1-r3",
+    "custom-post-metric-12p5mm-m1",
+    "ganter-gn9135-m3-3-ku",
+    "new-r3-18-r3-adapter",
+    "new-r3-vendor-mt-am2s5"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

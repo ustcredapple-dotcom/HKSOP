@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-motor-ms2-a-r3-thru",
+  "revision": "R3-THRU",
+  "displayName": "MS2-A R3-THRU · 两孔贯通螺纹支架",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-motor-ms2-a-r3-thru.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

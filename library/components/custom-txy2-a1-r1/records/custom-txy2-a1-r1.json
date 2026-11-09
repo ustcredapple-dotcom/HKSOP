@@ -1,0 +1,34 @@
+{
+  "id": "custom-txy2-a1-r1",
+  "name": "TXY2-A1 R1 · 单M6底孔防转转接板",
+  "model": "TXY2-A1",
+  "revision": "R1",
+  "kind": "custom",
+  "unit": "件",
+  "stepPath": "step/txy2-r1/TXY2-A1_R1.step",
+  "sourceStepSha256": "acabbae867f091cfc0af6ff1423d5afb43ed3c133e8b8afa370b44bf98e19e28",
+  "drawingPath": null,
+  "sourceDrawingSha256": "c0039d561a6662e0d91b8f2d613dcff42e28b987746d557ae4d7d2a754ac1f70",
+  "productionReady": false,
+  "drawingStatus": "engineering-review",
+  "status": "加工审核版；未实物试装",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "32×31；板厚6，挡边高2，总高8。底面M6低头专用沉孔Ø11.25深4.2，承压壁1.8；不得改用高头M6或自行加深。"
+  },
+  "manufacturingEvidence": {
+    "geometryValidated": true,
+    "pdfVisualReviewPassed": true,
+    "sourceReview": "Producer frozen feature/geometry/visual reports reused in fast intake",
+    "physicalAssemblyTested": false,
+    "engineeringReleaseApproved": false
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "自制件编号",
+    "notes": "实际字高2.2mm，左下X=-9、Z=2.5；激光打标，不铣刻。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "notes": "先在柱外从底面装M6×6低头，后用两根Ø2×6销及M4×8上柱。M6名义旋入4.2mm，首次装配实测有效牙深。完整加工以PDF及同源STEP为准。"
+}

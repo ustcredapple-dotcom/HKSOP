@@ -1,0 +1,938 @@
+{
+  "name": "V7 2英寸电动镜架 / 0° · 公制柱 R1",
+  "category": "motor",
+  "variant": "2 inch / 0° / 光高62.5 mm",
+  "description": "原 V7 两件式电动镜架 + 独立转接 + 正式公制万能柱；固定名义光面登记。",
+  "sourceUrl": "https://cad.onshape.com/documents/6e58c9cce55d2925e9e4e840/v/437700e874b02419d6267c3d/e/64fda71b1e8c554e92f81c9b",
+  "components": [
+    {
+      "componentId": "custom-post-metric-12p5mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-v7-2a",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-v7-2in-main",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-v7-2in-side",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-v7-m3-h2",
+      "quantity": 2
+    },
+    {
+      "componentId": "v7-din7991-m3x10",
+      "quantity": 2
+    },
+    {
+      "componentId": "v7-iso4762-m4x12",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-iso4762-m6x12",
+      "quantity": 4
+    },
+    {
+      "componentId": "v7-iso4762-m4x16",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-pin-d2x6",
+      "quantity": 4
+    },
+    {
+      "componentId": "v7-pin-d2x8",
+      "quantity": 2
+    },
+    {
+      "componentId": "v7-source-encoder-servo",
+      "quantity": 2
+    },
+    {
+      "componentId": "v7-source-m2x10",
+      "quantity": 4
+    },
+    {
+      "componentId": "v7-source-m4-nut",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-source-m4x20-thin",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-source-mt-am2",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-source-retaining-washer",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-iso7089-m4",
+      "quantity": 1
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "mirror",
+      "label": "2英寸反射镜片（厚12 mm）",
+      "type": "mirror",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 50.8,
+      "thicknessMm": 12
+    }
+  ],
+  "status": "R1 加工审核；实物与电控标定未执行",
+  "releaseStage": "engineering-review",
+  "productionReady": false,
+  "notes": "镜片材质/镀膜型号和响应数据待选择；二维引擎只处理名义静态镜面。0°/45°是装配朝向，不是电机指令或可用摆角。实际装配中销外露与螺钉啮合须测量核对。  当前M4贯穿柱接口采用M4×16加Ø4.3/Ø9×0.8平垫1件；2A原Ø6.4通孔及Ø11.25深6.2沉孔保持，夹厚8.2，名义啮合7。仅几何适配审核，实物与承载放行待确认。标准五金仍按BOM提供，源CAD未建五金不冒称已建。 H12.5 B4-R2：普通H12.5柱底脚4 mm，其余普通柱保持各自规格；完整STEP已换柱回读，总高、孔位和全部器件姿态保持；未实物试装。",
+  "layout": {
+    "widthMm": 128.90469988619148,
+    "heightMm": 110.86544369368613,
+    "anchorXMm": 63.34640073024958,
+    "anchorYMm": 19.50000010000001,
+    "collisionBoundsMm": {
+      "xMin": -61.49640063024,
+      "yMin": -89.50924886812001,
+      "xMax": 63.708299055939,
+      "yMax": 17.65
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -61.49640063024,
+          "yMm": -87.50924886812001
+        },
+        {
+          "xMm": -61.49640063024,
+          "yMm": -55.20924886812
+        },
+        {
+          "xMm": -58.28246258181,
+          "yMm": -55.20924886812
+        },
+        {
+          "xMm": -58.28246258181,
+          "yMm": -54.20924886812
+        },
+        {
+          "xMm": -48.28844042331,
+          "yMm": -54.20924886812
+        },
+        {
+          "xMm": -48.28844042331,
+          "yMm": -50.20924886812
+        },
+        {
+          "xMm": -47.01771792583866,
+          "yMm": -50.20924886812
+        },
+        {
+          "xMm": -47.01771792583866,
+          "yMm": -48.20924886812
+        },
+        {
+          "xMm": -42.9185683045,
+          "yMm": -48.20924886812
+        },
+        {
+          "xMm": -42.9185683045,
+          "yMm": -50.20924886812
+        },
+        {
+          "xMm": -40.75,
+          "yMm": -50.20924886812
+        },
+        {
+          "xMm": -40.75,
+          "yMm": -31.92375900531
+        },
+        {
+          "xMm": -41.949999999999996,
+          "yMm": -31.92375900531
+        },
+        {
+          "xMm": -41.949999999999996,
+          "yMm": -28.42375900531
+        },
+        {
+          "xMm": -45.15,
+          "yMm": -28.42375900531
+        },
+        {
+          "xMm": -45.15,
+          "yMm": -26.922863869877006
+        },
+        {
+          "xMm": -48.75,
+          "yMm": -26.922863869877006
+        },
+        {
+          "xMm": -48.75,
+          "yMm": -22.623759005310003
+        },
+        {
+          "xMm": -45.15,
+          "yMm": -22.623759005310003
+        },
+        {
+          "xMm": -45.15,
+          "yMm": -21.123759005310003
+        },
+        {
+          "xMm": -41.949999999999996,
+          "yMm": -21.123759005310003
+        },
+        {
+          "xMm": -41.949999999999996,
+          "yMm": -17.626891979325478
+        },
+        {
+          "xMm": -40.45,
+          "yMm": -17.626891979325478
+        },
+        {
+          "xMm": -40.45,
+          "yMm": -18.123759005310003
+        },
+        {
+          "xMm": -35.73987235547546,
+          "yMm": -18.123759005310003
+        },
+        {
+          "xMm": -35.62773426804449,
+          "yMm": -17.757611456367563
+        },
+        {
+          "xMm": -35.43652586463797,
+          "yMm": -17.484537556170228
+        },
+        {
+          "xMm": -35.11614754894238,
+          "yMm": -17.24602473726548
+        },
+        {
+          "xMm": -34.79970642824771,
+          "yMm": -17.14116756948108
+        },
+        {
+          "xMm": -29.64980711308422,
+          "yMm": -17.12375900532
+        },
+        {
+          "xMm": -29.64980711308422,
+          "yMm": -16.12929391243788
+        },
+        {
+          "xMm": -29.315298316542226,
+          "yMm": -15.547753841562885
+        },
+        {
+          "xMm": -29.247806830106946,
+          "yMm": -15.362310530203562
+        },
+        {
+          "xMm": -29.22320724777301,
+          "yMm": -14.005219273587716
+        },
+        {
+          "xMm": -29.156729077912146,
+          "yMm": -13.862648290689195
+        },
+        {
+          "xMm": -29.018962398742218,
+          "yMm": -13.78812871388364
+        },
+        {
+          "xMm": -28.978077893417783,
+          "yMm": -13.515673518816856
+        },
+        {
+          "xMm": -29.084081042650553,
+          "yMm": -13.453319858196531
+        },
+        {
+          "xMm": -29.31066017156763,
+          "yMm": -13.679898987531336
+        },
+        {
+          "xMm": -29.640559159089637,
+          "yMm": -13.35
+        },
+        {
+          "xMm": -33.18607761811839,
+          "yMm": -13.332589654016097
+        },
+        {
+          "xMm": -33.502417321587764,
+          "yMm": -13.227723203859627
+        },
+        {
+          "xMm": -33.77539387047747,
+          "yMm": -13.03650476169627
+        },
+        {
+          "xMm": -33.9820736419209,
+          "yMm": -12.775008627975277
+        },
+        {
+          "xMm": -34.10509865166371,
+          "yMm": -12.465209431644153
+        },
+        {
+          "xMm": -34.136021053354035,
+          "yMm": -12.202180918749894
+        },
+        {
+          "xMm": -34.13602105335404,
+          "yMm": -1.4978190812580667
+        },
+        {
+          "xMm": -34.0667587502235,
+          "yMm": -1.1066737392347117
+        },
+        {
+          "xMm": -33.908612609648046,
+          "yMm": -0.8132533885069172
+        },
+        {
+          "xMm": -33.72543772044381,
+          "yMm": -0.6190197537459536
+        },
+        {
+          "xMm": -33.502417321587565,
+          "yMm": -0.4722767961482987
+        },
+        {
+          "xMm": -33.05328211110453,
+          "yMm": -0.3518823972862398
+        },
+        {
+          "xMm": -25.549999999999997,
+          "yMm": -0.350000000008
+        },
+        {
+          "xMm": -25.549999999999997,
+          "yMm": 0.15
+        },
+        {
+          "xMm": -17.65,
+          "yMm": 0.15
+        },
+        {
+          "xMm": -17.65,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 17.65,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 17.65,
+          "yMm": 0.15
+        },
+        {
+          "xMm": 25.538631780000983,
+          "yMm": 0.15
+        },
+        {
+          "xMm": 25.538631780000983,
+          "yMm": -0.350000000008
+        },
+        {
+          "xMm": 33.19200429816856,
+          "yMm": -0.3518822481852291
+        },
+        {
+          "xMm": 33.518474289621686,
+          "yMm": -0.4192941377357435
+        },
+        {
+          "xMm": 33.86437053538438,
+          "yMm": -0.619001148334742
+        },
+        {
+          "xMm": 34.12110352714688,
+          "yMm": -0.9249693129577813
+        },
+        {
+          "xMm": 34.25770801344018,
+          "yMm": -1.300294045722359
+        },
+        {
+          "xMm": 34.2751162111304,
+          "yMm": -12.202181774476927
+        },
+        {
+          "xMm": 34.18112496511261,
+          "yMm": -12.655515936092245
+        },
+        {
+          "xMm": 34.006121233819336,
+          "yMm": -12.939245497096291
+        },
+        {
+          "xMm": 33.81189514432526,
+          "yMm": -13.122491790119598
+        },
+        {
+          "xMm": 33.518474289622226,
+          "yMm": -13.280705862272063
+        },
+        {
+          "xMm": 33.2586473464685,
+          "yMm": -13.342287131148094
+        },
+        {
+          "xMm": 28.938386933295305,
+          "yMm": -13.35
+        },
+        {
+          "xMm": 29.01849159913661,
+          "yMm": -13.788031495330987
+        },
+        {
+          "xMm": 29.156729077923895,
+          "yMm": -13.86264829068569
+        },
+        {
+          "xMm": 29.221099273020567,
+          "yMm": -13.99082732326665
+        },
+        {
+          "xMm": 29.247806830122368,
+          "yMm": -15.362310530205157
+        },
+        {
+          "xMm": 29.315298316558785,
+          "yMm": -15.547753841565898
+        },
+        {
+          "xMm": 29.649807113099257,
+          "yMm": -16.129293912437852
+        },
+        {
+          "xMm": 29.649807113099257,
+          "yMm": -17.12375900532
+        },
+        {
+          "xMm": 32.99932821091516,
+          "yMm": -17.12375900532
+        },
+        {
+          "xMm": 33.262281433888255,
+          "yMm": -17.154698989342094
+        },
+        {
+          "xMm": 33.571982290034,
+          "yMm": -17.27778903895057
+        },
+        {
+          "xMm": 33.833374401730595,
+          "yMm": -17.484561452616713
+        },
+        {
+          "xMm": 34.02449906586825,
+          "yMm": -17.757635054023797
+        },
+        {
+          "xMm": 34.12930628326982,
+          "yMm": -18.07406366636646
+        },
+        {
+          "xMm": 34.14482494250446,
+          "yMm": -31.34062543415523
+        },
+        {
+          "xMm": 34.05275844646979,
+          "yMm": -31.729253893275764
+        },
+        {
+          "xMm": 33.8778295772053,
+          "yMm": -32.01298073387949
+        },
+        {
+          "xMm": 33.62889957724394,
+          "yMm": -32.23460644166905
+        },
+        {
+          "xMm": 33.27874312668917,
+          "yMm": -32.388406186049714
+        },
+        {
+          "xMm": 34.02459275976625,
+          "yMm": -32.829597457431
+        },
+        {
+          "xMm": 34.02459275976625,
+          "yMm": -33.717920553208934
+        },
+        {
+          "xMm": 32.844926256659875,
+          "yMm": -34.42375900532
+        },
+        {
+          "xMm": 29.649807113099257,
+          "yMm": -34.42375900532
+        },
+        {
+          "xMm": 29.649807113099257,
+          "yMm": -39.50924876813
+        },
+        {
+          "xMm": 33.559249001922645,
+          "yMm": -39.50924876813
+        },
+        {
+          "xMm": 34.148095087468,
+          "yMm": -40.09738505094504
+        },
+        {
+          "xMm": 34.148095087468,
+          "yMm": -47.221112485314954
+        },
+        {
+          "xMm": 33.559249001922645,
+          "yMm": -47.80924876813
+        },
+        {
+          "xMm": 27.747028781651,
+          "yMm": -47.80924876813
+        },
+        {
+          "xMm": 27.747028781651,
+          "yMm": -48.20924886812
+        },
+        {
+          "xMm": 31.334224501561998,
+          "yMm": -48.20924886812
+        },
+        {
+          "xMm": 31.334224501561998,
+          "yMm": -50.20924886812
+        },
+        {
+          "xMm": 50.07371132128834,
+          "yMm": -50.20924886812
+        },
+        {
+          "xMm": 50.07371132128834,
+          "yMm": -48.20924886812
+        },
+        {
+          "xMm": 54.172860942627,
+          "yMm": -48.20924886812
+        },
+        {
+          "xMm": 54.172860942627,
+          "yMm": -50.20924886812
+        },
+        {
+          "xMm": 54.522118742805084,
+          "yMm": -50.20924886812
+        },
+        {
+          "xMm": 54.522118742805084,
+          "yMm": -54.20924886812
+        },
+        {
+          "xMm": 61.67461584056,
+          "yMm": -54.20924886812
+        },
+        {
+          "xMm": 61.67461584056,
+          "yMm": -55.20924886812
+        },
+        {
+          "xMm": 63.708299055939,
+          "yMm": -55.20924886812
+        },
+        {
+          "xMm": 63.708299055939,
+          "yMm": -87.50924886812001
+        },
+        {
+          "xMm": 61.67461584056,
+          "yMm": -87.50924886812001
+        },
+        {
+          "xMm": 61.67461584056,
+          "yMm": -89.50924886812001
+        },
+        {
+          "xMm": 30.650536554778,
+          "yMm": -89.50924886812001
+        },
+        {
+          "xMm": 30.650536554778,
+          "yMm": -87.50924886812001
+        },
+        {
+          "xMm": 25.833519249766002,
+          "yMm": -87.50924886812001
+        },
+        {
+          "xMm": 25.833519249766002,
+          "yMm": -86.00924886812001
+        },
+        {
+          "xMm": 12.130337385126,
+          "yMm": -86.00924886812001
+        },
+        {
+          "xMm": 12.130337385126,
+          "yMm": -56.70924886812
+        },
+        {
+          "xMm": 23.35,
+          "yMm": -56.70924886812
+        },
+        {
+          "xMm": 23.35,
+          "yMm": -55.50924886812
+        },
+        {
+          "xMm": -22.14537709451,
+          "yMm": -55.50924886812
+        },
+        {
+          "xMm": -22.14537709451,
+          "yMm": -56.70924886812
+        },
+        {
+          "xMm": -10.65471044772,
+          "yMm": -56.70924886812
+        },
+        {
+          "xMm": -10.65471044772,
+          "yMm": -86.00924886812001
+        },
+        {
+          "xMm": -22.14537709451,
+          "yMm": -86.00924886812001
+        },
+        {
+          "xMm": -22.14537709451,
+          "yMm": -87.50924886812001
+        },
+        {
+          "xMm": -27.693252217300003,
+          "yMm": -87.50924886812001
+        },
+        {
+          "xMm": -27.693252217300003,
+          "yMm": -89.50924886812001
+        },
+        {
+          "xMm": -58.28246258181,
+          "yMm": -89.50924886812001
+        },
+        {
+          "xMm": -58.28246258181,
+          "yMm": -87.50924886812001
+        }
+      ]
+    ],
+    "topViewPath": "topviews/motor-v7-2in-0__H12p5_B4_R2.svg",
+    "topViewUrl": "./topviews/motor-v7-2in-0__H12p5_B4_R2.svg",
+    "placementAllowed": true,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "xMax": 17.5,
+      "yMin": -17.5,
+      "yMax": 17.5
+    },
+    "basePolygonsMm": [
+      [
+        {
+          "xMm": -17.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 17.5
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "minimumAlignedMountingHoles": 4,
+    "mountingConfirmed": true,
+    "opticalType": "mirror",
+    "opticalDatumVerified": true,
+    "opticalAxisHeightMm": 62.5,
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalSurfaceAngleDeg": 0,
+    "opticalClearApertureMm": 48.8,
+    "collisionGeometryVersion": "cad-projection-v7-r1-static",
+    "opticalAxisHeightSource": "正式柱 + 转接 + 原 V7 保存姿态；用户确认镜厚，CAD 名义前表面通过柱轴。",
+    "opticalGeometryEvidence": {
+      "mirrorDatum": {
+        "seatCenterMm": [
+          0.0,
+          -12.0,
+          62.5
+        ],
+        "frontCenterMm": [
+          0,
+          0,
+          62.5
+        ],
+        "outwardNormal": [
+          0.0,
+          1.0,
+          0
+        ],
+        "mirrorThicknessMm": 12,
+        "postAxisPointMm": [
+          0,
+          0,
+          0
+        ],
+        "postAxisDirection": [
+          0,
+          0,
+          1
+        ],
+        "axisHeightMm": 62.5
+      },
+      "coatingIdentityVerified": false,
+      "physicalCenteringVerified": false,
+      "pose": "source-nominal-static",
+      "frontSurfaceDerivation": "seatCenter + mirrorThickness * outwardNormal",
+      "checks": {
+        "normalFullEffectiveAperture": {
+          "diameterMm": 48.8,
+          "sourceV7Hits": [],
+          "newAdapterOverlapMm3": 0.0,
+          "postOverlapMm3": 0.0
+        },
+        "frontReflectionBranches": [
+          {
+            "directionAwayFromSurface": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "diameterMm": 32,
+            "frontHalfSpaceOnly": true,
+            "sourceV7Hits": [],
+            "newAdapterOverlapMm3": 0.0,
+            "postOverlapMm3": 0.0,
+            "footprintSemiMajorMm": 16.0,
+            "usableRadiusMm": 24.4,
+            "footprintInsideEffectiveCircle": true
+          }
+        ],
+        "scope": "Nominal mid-position, stated circular beam diameters; no glass/refraction/oblique transmission or dynamic optical sweep certification."
+      }
+    },
+    "geometryEvidence": {
+      "sourceSha256": "2a2cca1bef30605a87e874a3ef341d66a52164388ab5d1578fa01e2c40daa2cc",
+      "imageSha256": "3167d3cb7c6f25931e006b1b34e46feeeabe5a5a7cf20640177c58dd4d8b0957",
+      "partCount": 4,
+      "meshDeflectionMm": 0.035,
+      "guardMm": 0.15,
+      "referenceAssembly": {
+        "assetKind": "assembly-reference-not-manufacturing-part",
+        "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/motor-v7-2in-0__H12p5_B4_R2.step",
+        "sha256": "2a2cca1bef30605a87e874a3ef341d66a52164388ab5d1578fa01e2c40daa2cc"
+      },
+      "coordinateFrame": "world X right / Y up / Z height; post-axis XY=0; no applied transform",
+      "projectionScope": [
+        "Nominal static assembly only; no motor travel envelope or cable clearance guarantee.",
+        "Filled polygon interiors conservatively cover enclosed projection holes; open concavities are retained.",
+        "SVG uses actual projected solid silhouettes layered by maximum height, not a hidden-surface render. Colours do not specify materials; datum cross is annotation.",
+        "Optical mirror datum, parent mounting holes and post base geometry must come from the separately verified mechanical interface record."
+      ],
+      "previousProjectionSource": {
+        "sourceSha256": "b72e42efeeaf447b1e0e35e29f1dce32a284213f64e3236fb4cb71114afb0b92",
+        "imageSha256": "ece5d901a08eca83d484e002fd6a7cc4a80ed28c50eed99ed9d3541675afb712",
+        "partCount": 41,
+        "meshDeflectionMm": 0.05
+      },
+      "sourceStep": "step/standard-post-h12p5-b4-r2/assemblies/motor-v7-2in-0__H12p5_B4_R2.step",
+      "triangleCount": 177187,
+      "postBaseRevision": {
+        "revision": "H12p5-B4-R2",
+        "componentIds": [
+          "custom-post-metric-12p5mm-m1"
+        ],
+        "baseThicknessByComponentId": {
+          "custom-post-metric-12p5mm-m1": 4
+        },
+        "nominalAndOpticalHeightsPreserved": true,
+        "geometryStatus": "passed",
+        "physicalAssemblyAccepted": false,
+        "previousAssemblySha256": "d4634277b8320bac9c4299eff802b500033f1cc8594b9097f95efe27b226360b",
+        "currentAssemblySha256": "2a2cca1bef30605a87e874a3ef341d66a52164388ab5d1578fa01e2c40daa2cc",
+        "replacementReportSha256": "a81eef7cff85123939b8e9b861527bb4fb992c047daa5b266835c587e574783b",
+        "originalEntitiesAndPosesPreserved": true
+      },
+      "sourceStepSha256": "2a2cca1bef30605a87e874a3ef341d66a52164388ab5d1578fa01e2c40daa2cc",
+      "baseThicknessByComponentId": {
+        "custom-post-metric-12p5mm-m1": 4
+      }
+    },
+    "opticalDefaults": {
+      "elementType": "mirror",
+      "inserted": false,
+      "configured": false,
+      "clearApertureMm": 48.8,
+      "mirror": {
+        "mode": "data",
+        "model": "",
+        "samples": []
+      }
+    },
+    "opticalInteraction": {
+      "format": "zzlab-optical-interaction",
+      "version": 1,
+      "model": "planar",
+      "onNoMatch": "block",
+      "inputs": [
+        {
+          "id": "nominal-mirror-plane",
+          "steps": [
+            {
+              "op": "mirror"
+            }
+          ]
+        }
+      ]
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "2a2cca1bef30605a87e874a3ef341d66a52164388ab5d1578fa01e2c40daa2cc",
+      "imageSha256": "3167d3cb7c6f25931e006b1b34e46feeeabe5a5a7cf20640177c58dd4d8b0957",
+      "revision": "H12p5-B4-R2",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null,
+      "projectionReportSha256": "1758c97e8ad8b6aa1c1a4a719e34841007049285d52832c78a0ccf40ff28becb"
+    },
+    "sourceUrl": "https://cad.onshape.com/documents/6e58c9cce55d2925e9e4e840/v/437700e874b02419d6267c3d/e/64fda71b1e8c554e92f81c9b"
+  },
+  "motorCapability": {
+    "schema": "zzlab-motor-capability-boundary-v1",
+    "mechanicalActuatorCount": 2,
+    "electricalControlImplemented": false,
+    "actuatorToMirrorNormalCalibration": "unavailable",
+    "actuatorCommandLimits": null,
+    "dynamicTravelEnvelope": "not-certified",
+    "planarOpticalRuntime": "nominal-static-pose-only",
+    "outOfPlaneTiltSupported": false,
+    "referenceMotorBodyAnglesAreNotTiltLimits": true
+  },
+  "mechanicalConfiguration": {
+    "orientationDeg": 0,
+    "postClockDeg": 0,
+    "pinFamily": [
+      "H004",
+      "H009"
+    ],
+    "mirrorThicknessMm": 12,
+    "postHeightMm": 12.5,
+    "adapterHeightMm": 14.4,
+    "nominalOpticalHeightMm": 62.5,
+    "originalV7FastenersPreserved": true,
+    "originalReferencePostExcluded": true,
+    "newFastenersModeled": false
+  },
+  "manufacturingEvidence": {
+    "referenceAssemblySha256": "b72e42efeeaf447b1e0e35e29f1dce32a284213f64e3236fb4cb71114afb0b92",
+    "partsSpecSha256": "a0b75860775b96cf4d0cc3f08f5be09f4e726e3fe0aba1aade0a3270184491c1",
+    "manufacturedSingleParts": [
+      "custom-v7-2a",
+      "custom-v7-2in-main",
+      "custom-v7-2in-side",
+      "custom-v7-m3-h2",
+      "custom-post-metric-12p5mm-m1"
+    ]
+  },
+  "postBaseRevision": {
+    "revision": "H12p5-B4-R2",
+    "componentIds": [
+      "custom-post-metric-12p5mm-m1"
+    ],
+    "baseThicknessByComponentId": {
+      "custom-post-metric-12p5mm-m1": 4
+    },
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "physicalAssemblyAccepted": false,
+    "previousAssemblySha256": "d4634277b8320bac9c4299eff802b500033f1cc8594b9097f95efe27b226360b",
+    "currentAssemblySha256": "2a2cca1bef30605a87e874a3ef341d66a52164388ab5d1578fa01e2c40daa2cc",
+    "replacementReportSha256": "a81eef7cff85123939b8e9b861527bb4fb992c047daa5b266835c587e574783b",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "assemblyReference": {
+    "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/motor-v7-2in-0__H12p5_B4_R2.step",
+    "sourceStepSha256": "2a2cca1bef30605a87e874a3ef341d66a52164388ab5d1578fa01e2c40daa2cc",
+    "revision": "CURRENT-B6R1-H12p5B4R2",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "cloudUrl": "https://cad.onshape.com/documents/6e58c9cce55d2925e9e4e840/v/437700e874b02419d6267c3d/e/64fda71b1e8c554e92f81c9b",
+    "cloudStatus": "frozen-independent-assembly-readback-pending"
+  },
+  "cloudReference": {
+    "batch": 5,
+    "documentId": "6e58c9cce55d2925e9e4e840",
+    "workspaceId": "b482368ffdc22b2fb9daff0c",
+    "sourceUrl": "https://cad.onshape.com/documents/6e58c9cce55d2925e9e4e840/v/437700e874b02419d6267c3d/e/64fda71b1e8c554e92f81c9b",
+    "status": "frozen-independent-assembly-readback-pending",
+    "observation": "Onshape notification panel and folder list via IAB",
+    "strictReadbackComplete": false,
+    "active": false,
+    "current": true,
+    "sourceStepSha256": "2a2cca1bef30605a87e874a3ef341d66a52164388ab5d1578fa01e2c40daa2cc",
+    "automaticCloudReuseAllowed": false,
+    "independentAssemblyElementVerified": true,
+    "physicalAssemblyAccepted": false,
+    "versionId": "437700e874b02419d6267c3d",
+    "elementId": "64fda71b1e8c554e92f81c9b",
+    "elementType": "Assembly",
+    "versionFrozen": true,
+    "uiEvidence": {
+      "path": null,
+      "sha256": "111070afdf1f7cfd83ecc7bf45897a424b5d8e31f4e01cf6a1d68eae2dbec7bd"
+    },
+    "checkedAt": "2026-10-28T01:54:56.736608+08:00"
+  },
+  "id": "motor-v7-2in-0"
+}

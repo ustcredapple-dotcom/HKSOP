@@ -1,0 +1,16 @@
+{
+  "id": "lbtek-ls30-6r1-purchased-stage",
+  "name": "LBTEK LS30-6R1 手动单轴位移台",
+  "model": "LS30-6R1",
+  "kind": "lubang",
+  "unit": "台",
+  "revision": "R1-A7075",
+  "manufacturer": "LBTEK",
+  "sourceUrl": "https://www.lbtek.com/api/v1/product/show?list_id=1164&product_id=18111",
+  "status": "型号已确认；实物验收未执行",
+  "notes": "厂家真实参考件，保持原尺寸及接口；不作为自制加工件。",
+  "drawingPath": null,
+  "sourceDrawingSha256": "09a87ac324c9a7d21fd4d64399a59898a8a021062b35bf80d6664db6df5666c5",
+  "stepPath": "step/manual-stage-r1-a7075/vendor/lbtek-ls30-6r1-purchased-stage/LS30-6R1.step",
+  "sourceStepSha256": "4b1075a0ec2840509a85c7a42633c996cf52c275d81d5fc32932660821a258d0"
+}

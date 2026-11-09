@@ -1,0 +1,4 @@
+interface:
+  display_name: "ZZLab 电动镜架设计"
+  short_description: "自动设计镜架电机支撑与H2驱动杆，检查通光避让并生成可交接元件包"
+  default_prompt: "请用 $zzlab-motorized-mirror-design，根据原厂镜架和电机资料设计共面驱动模块，并核验后通光孔与加工装配。"

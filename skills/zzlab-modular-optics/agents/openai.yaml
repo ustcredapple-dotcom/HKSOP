@@ -1,0 +1,4 @@
+interface:
+  display_name: "ZZLab 模块化光路设计"
+  short_description: "按万能柱、公制光高和真实光学基准制作转接件、总装与加工图"
+  default_prompt: "使用 $zzlab-modular-optics 制作或修改 ZZLab 模块化光路元件，并按当前接口核验装配与加工图。"

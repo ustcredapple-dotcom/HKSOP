@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-extension-ex162p5-r1",
+  "files": [
+    {
+      "path": "cad/790bbc231605eb9cec63a726fa049fd09c1562fa70a0507553c759deef26465d.step",
+      "stored": "library/assets/sha256/79/790bbc231605eb9cec63a726fa049fd09c1562fa70a0507553c759deef26465d.step",
+      "sha256": "790bbc231605eb9cec63a726fa049fd09c1562fa70a0507553c759deef26465d",
+      "originalReferences": [
+        "step/extension-series-r1/延长162.5.step"
+      ],
+      "sources": [
+        "library/assets/sha256/79/790bbc231605eb9cec63a726fa049fd09c1562fa70a0507553c759deef26465d.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

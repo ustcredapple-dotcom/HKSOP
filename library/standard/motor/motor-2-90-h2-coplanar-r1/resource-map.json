@@ -1,0 +1,54 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "motor-2-90-h2-coplanar-r1",
+  "files": [
+    {
+      "path": "rendering/ae95a3023823030707ac28b8d4ba942730cc8b68476116f4f3a02e310831f095.svg",
+      "stored": "library/assets/sha256/ae/ae95a3023823030707ac28b8d4ba942730cc8b68476116f4f3a02e310831f095.svg",
+      "sha256": "ae95a3023823030707ac28b8d4ba942730cc8b68476116f4f3a02e310831f095",
+      "originalReferences": [
+        "topviews/motor-2-90-h2-coplanar-r1__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/ae/ae95a3023823030707ac28b8d4ba942730cc8b68476116f4f3a02e310831f095.svg"
+      ]
+    },
+    {
+      "path": "cad/e98789cf0aa861ed0fe46d9bd568987869a89fbd8760c0ef5a7bb25de557ec01.step",
+      "stored": "library/assets/sha256/e9/e98789cf0aa861ed0fe46d9bd568987869a89fbd8760c0ef5a7bb25de557ec01.step",
+      "sha256": "e98789cf0aa861ed0fe46d9bd568987869a89fbd8760c0ef5a7bb25de557ec01",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/motor-2-90-h2-coplanar-r1__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/e9/e98789cf0aa861ed0fe46d9bd568987869a89fbd8760c0ef5a7bb25de557ec01.step"
+      ]
+    },
+    {
+      "path": "cad/e9db65c16bde4eb9ec30a5dfbf34ddcaa1e807f465067020b5ae6cf02eeade52.step",
+      "stored": "library/assets/sha256/e9/e9db65c16bde4eb9ec30a5dfbf34ddcaa1e807f465067020b5ae6cf02eeade52.step",
+      "sha256": "e9db65c16bde4eb9ec30a5dfbf34ddcaa1e807f465067020b5ae6cf02eeade52",
+      "originalReferences": [
+        "step/motor-h2-compact-support-r3/review/motor-2-90-h2-compact-support-r3-hardware-review.step"
+      ],
+      "sources": [
+        "library/assets/sha256/e9/e9db65c16bde4eb9ec30a5dfbf34ddcaa1e807f465067020b5ae6cf02eeade52.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-motor-adapter-18-s2-r2",
+    "custom-motor-h2d2-b-r3",
+    "custom-motor-h2d2-l-r2",
+    "custom-motor-h2d2-s-r3",
+    "custom-post-metric-12p5mm-m1",
+    "encoder-servo",
+    "hardware-h2-r3-m2x10",
+    "hardware-h2-r3-m4-washer",
+    "hardware-h2-r3-m4x20",
+    "hardware-iso4762-m3x8",
+    "motor-adapter-m3",
+    "new-r3-vendor-mt-am2s5",
+    "v7-source-m4-nut"
+  ]
+}

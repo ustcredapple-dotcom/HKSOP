@@ -1,0 +1,10 @@
+{
+  "id": "v7-source-m4x20-thin",
+  "name": "V7 M4×20 薄头侧板夹紧螺钉",
+  "kind": "standard",
+  "unit": "件",
+  "sourceUrl": "https://chatgpt.com/s/cx_6ac4918366588191ab1b8ae22e6f925b",
+  "standardSpec": "source-V7",
+  "status": "按指定尺寸选配并实测装配",
+  "notes": "保留原 V7；头径7、头高2。不得用普通圆柱头等同替换。"
+}

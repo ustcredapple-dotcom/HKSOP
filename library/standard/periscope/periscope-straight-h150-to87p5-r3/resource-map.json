@@ -1,0 +1,60 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "periscope-straight-h150-to87p5-r3",
+  "files": [
+    {
+      "path": "rendering/046d331f024e2abedac6321a223abef389ee7b91ec1fb20328458c84f62e212d.svg",
+      "stored": "library/assets/sha256/04/046d331f024e2abedac6321a223abef389ee7b91ec1fb20328458c84f62e212d.svg",
+      "sha256": "046d331f024e2abedac6321a223abef389ee7b91ec1fb20328458c84f62e212d",
+      "originalReferences": [
+        "topviews/periscope-straight-h150-to87p5-r3__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/04/046d331f024e2abedac6321a223abef389ee7b91ec1fb20328458c84f62e212d.svg"
+      ]
+    },
+    {
+      "path": "cad/839284a4aa57e86d1e2de4a486cced17e49426d7ecdcc9b654b59ba4554b9d77.step",
+      "stored": "library/assets/sha256/83/839284a4aa57e86d1e2de4a486cced17e49426d7ecdcc9b654b59ba4554b9d77.step",
+      "sha256": "839284a4aa57e86d1e2de4a486cced17e49426d7ecdcc9b654b59ba4554b9d77",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/periscope-straight-h150-to87p5-r3__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/83/839284a4aa57e86d1e2de4a486cced17e49426d7ecdcc9b654b59ba4554b9d77.step"
+      ]
+    },
+    {
+      "path": "rendering/baf880d9908a25f66d5b3418685c50303e550149c0d8ae36fdd2c71ce1ba1d71.svg",
+      "stored": "library/assets/sha256/ba/baf880d9908a25f66d5b3418685c50303e550149c0d8ae36fdd2c71ce1ba1d71.svg",
+      "sha256": "baf880d9908a25f66d5b3418685c50303e550149c0d8ae36fdd2c71ce1ba1d71",
+      "originalReferences": [
+        "topviews/periscope-straight-h150-to87p5-r3-optical-side.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/ba/baf880d9908a25f66d5b3418685c50303e550149c0d8ae36fdd2c71ce1ba1d71.svg"
+      ]
+    },
+    {
+      "path": "cad/f56eb1b4b8770ee03ed7ed2ec34807838c3ce984b7c9046e7a824bb0bdc59899.step",
+      "stored": "library/assets/sha256/f5/f56eb1b4b8770ee03ed7ed2ec34807838c3ce984b7c9046e7a824bb0bdc59899.step",
+      "sha256": "f56eb1b4b8770ee03ed7ed2ec34807838c3ce984b7c9046e7a824bb0bdc59899",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/periscope-straight-h150-to87p5-r3__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/f5/f56eb1b4b8770ee03ed7ed2ec34807838c3ce984b7c9046e7a824bb0bdc59899.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-periscope-mirror-adapter10c-r3",
+    "custom-periscope-straight-25s3-r3",
+    "custom-post-metric-12p5mm-m1",
+    "mt-am1s5",
+    "new-hardware-d56c7b8035c3",
+    "periscope-d2x8-pin",
+    "periscope-m4x14-screw",
+    "periscope-m6x12-screw"
+  ]
+}

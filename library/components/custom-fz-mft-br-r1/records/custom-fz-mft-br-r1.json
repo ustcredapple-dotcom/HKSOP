@@ -1,0 +1,68 @@
+{
+  "id": "custom-fz-mft-br-r1",
+  "name": "FZ-MFT-BR-R2 双笼杆电机支架",
+  "model": "FZ-MFT-BR-R2",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R2",
+  "status": "工程审核版；未实物试装或加工放行",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "按当前图纸加工，激光打标，不铣刻；配合与载荷待首件确认。"
+  },
+  "stepPath": "step/batch-20261020/custom-fz-mft-br-r1/R2/FZ-MFT-BR-R2.step",
+  "sourceStepSha256": "52bb669ef98197b805282096b783c5429a8cd6d2a6ed1927c4801a6c5ac0aa33",
+  "drawingPath": null,
+  "sourceDrawingSha256": "38512a316e77b178b9470d0c42fd37ff9a1c78436f7b63596e9a85268b151ae7",
+  "dxfPath": null,
+  "sourceDxfSha256": "4550416d556fe25a889efefa0e7237fab9000101988303c3b715adab96d75e43",
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前修订编号识别",
+    "notes": "真实毫米1:1字形，按定位PDF装夹。圆柱肩部按展开加工；工艺参数待试样确认。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "manufacturingEvidence": {
+    "sourceStepSha256": "52bb669ef98197b805282096b783c5429a8cd6d2a6ed1927c4801a6c5ac0aa33",
+    "drawingSha256": "38512a316e77b178b9470d0c42fd37ff9a1c78436f7b63596e9a85268b151ae7",
+    "geometryValidated": true,
+    "physicalTrialCompleted": false,
+    "reviewScope": "Single valid closed solid independently read; unchanged source drawing pages and design checks retained."
+  },
+  "dxfPdfPath": null,
+  "sourceDxfPdfSha256": "38512a316e77b178b9470d0c42fd37ff9a1c78436f7b63596e9a85268b151ae7",
+  "sourceUrl": "https://cad.onshape.com/documents/b3a1cfc88083ee9a1230d2f9/v/87b7d71e3c128ff8c5d34b8c/e/7732deb8ec4e043d4890c6dc",
+  "cloudReference": {
+    "url": "https://cad.onshape.com/documents/b3a1cfc88083ee9a1230d2f9/v/87b7d71e3c128ff8c5d34b8c/e/7732deb8ec4e043d4890c6dc",
+    "versionId": "87b7d71e3c128ff8c5d34b8c",
+    "reviewedAt": "2026-10-20T23:30:14.574588+08:00",
+    "status": "static-reference-with-geometric-findings",
+    "strictGeometryIdentity": false,
+    "automaticCloudReuseAllowed": false,
+    "sourceStepSha256": "52bb669ef98197b805282096b783c5429a8cd6d2a6ed1927c4801a6c5ac0aa33",
+    "readbackSha256": "1f74e3eb3bf59169cfa1c402a87b1ec129520189549697a81d59b161c113b3c3",
+    "allSolidsValid": true,
+    "internalMotionTested": false,
+    "physicalTrialCompleted": false
+  },
+  "notes": "云端已冻结并完成静态复核，严格几何比较仍有差异，仅供装配参考；加工以本库原审核 STEP 和图纸为准。",
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "ff2ffed42785161c51cf4aeb07597d6595617358104e02b8ba80e0ca1d1e9846",
+        "sha256": "38512a316e77b178b9470d0c42fd37ff9a1c78436f7b63596e9a85268b151ae7"
+      },
+      {
+        "path": null,
+        "previousSha256": "c23f75436dcccb64088863de128f1a8c968106750a1f2cf089edceb64ab8e7e0",
+        "sha256": "4550416d556fe25a889efefa0e7237fab9000101988303c3b715adab96d75e43"
+      }
+    ]
+  }
+}

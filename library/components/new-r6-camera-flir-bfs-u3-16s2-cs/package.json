@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-r6-camera-flir-bfs-u3-16s2-cs",
+  "revision": "source-snapshot",
+  "displayName": "FLIR Blackfly S 相机 · CS接口",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-r6-camera-flir-bfs-u3-16s2-cs.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

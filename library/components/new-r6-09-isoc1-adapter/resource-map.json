@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-r6-09-isoc1-adapter",
+  "files": [
+    {
+      "path": "cad/79dbacf41a7d7db905cc520f65f067d0e8e1c6e931094e11ed1a80fa9fe68603.step",
+      "stored": "library/assets/sha256/79/79dbacf41a7d7db905cc520f65f067d0e8e1c6e931094e11ed1a80fa9fe68603.step",
+      "sha256": "79dbacf41a7d7db905cc520f65f067d0e8e1c6e931094e11ed1a80fa9fe68603",
+      "originalReferences": [
+        "step/metric-m1-20261006/09-ISO-C_METRIC_M1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/79/79dbacf41a7d7db905cc520f65f067d0e8e1c6e931094e11ed1a80fa9fe68603.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

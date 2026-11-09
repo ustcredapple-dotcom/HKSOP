@@ -1,0 +1,38 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "aa-mt80-amp1r-r1",
+  "revision": "R1-H12p5B4R2",
+  "displayName": "AA MT80-B30A1-IR · AMP-1R 共用转接方案",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/aa-mt80-amp1r-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "aa-inpro004-tim-unselected",
+    "aa-mt80-b30a1-ir",
+    "amp-1r",
+    "custom-aa4b-r1",
+    "custom-aa4s-r1",
+    "custom-post-metric-12p5mm-m1",
+    "hardware-iso4762-m2p5x5",
+    "hardware-iso4762-m3x8",
+    "hardware-iso4762-m6x12",
+    "metric-m1-post-m4x16",
+    "metric-m1-post-pin-d2x8",
+    "new-aom-adapter-1",
+    "new-hardware-f0579b934c7c",
+    "new-r3-hardware-b63ea2222bac"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

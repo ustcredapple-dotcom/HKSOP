@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#16736f">
+  <meta name="description" content="选择光路功能套件，组合实验方案，生成麓邦采购单与自制零件生产清单。">
+  <title>光路套件 · ZZLab</title>
+  <link rel="stylesheet" href="./app.css">
+  <link rel="stylesheet" href="./layout.css">
+  <link rel="stylesheet" href="./project.css">
+  <link rel="stylesheet" href="./shared-kits.css">
+  <link rel="stylesheet" href="./optical-renderer.css">
+  <link rel="stylesheet" href="./canvas-workspace.css">
+  <link rel="stylesheet" href="./table-mode.css">
+  <script src="./collision-engine.js" defer></script>
+  <script src="./registered-boards.js" defer></script>
+  <script src="./manual-source-mount.js" defer></script>
+  <script src="./layout.js" defer></script>
+  <script src="./stacked-boards.js" defer></script>
+  <script src="./elevation.js" defer></script>
+  <script src="./laser-adapter.js" defer></script>
+  <script src="./measurement.js" defer></script>
+  <script src="./optical-assembly-engine.js" defer></script>
+  <script src="./optical-interaction-language.js" defer></script>
+  <script src="./optical-engine.js" defer></script>
+  <script src="./optical-hole-probe.js" defer></script>
+  <script src="./optical-renderer.js" defer></script>
+  <script src="./objective-sideview.js" defer></script>
+  <script src="./metric-migration.js" defer></script>
+  <script src="./project-file.js" defer></script>
+  <script src="./shared-project.js" defer></script>
+  <script src="./shared-kits.js" defer></script>
+  <script src="./access-management.js" defer></script>
+  <script src="./canvas-workspace.js" defer></script>
+  <script src="./table-mode.js" defer></script>
+  <script src="./moving-stages.js" defer></script>
+  <script src="./collision-overrides.js" defer></script>
+  <script src="./global-height.js" defer></script>
+  <script src="./periscope-properties.js" defer></script>
+  <script src="./fixed-board-optics.js" defer></script>
+  <script src="./board-accessories.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#catalog">跳到套件列表</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/" aria-label="返回 ZZLab 首页"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><strong>ZZLab</strong><span class="brand-divider"></span><span>光路套件</span></a>
+      <div class="header-actions"><div id="access-status" class="access-status" role="status"><span id="access-status-text">正在确认登录状态…</span><a id="access-login" href="/auth/login?next=%2Foptics-kits%2F" hidden>登录</a></div><button id="guest-access-open" class="text-button access-management-open" type="button" hidden>访问管理</button><a class="back-link" href="/"><span aria-hidden="true">↗</span> 返回实验室</a></div>
+    </div>
+  </header>
+  <main class="page-shell">
+    <section class="intro" aria-labelledby="page-title">
+      <div class="intro-copy"><p class="eyebrow"><span></span> 模块化光路 · 方案工作台</p><h1 id="page-title">在面包板上，<br class="mobile-break">摆出你的光路。</h1><p class="intro-description">设定面包板尺寸，把套件拖到安装格点。完成一个方案后加入账号购物车，再继续准备下一个画布。</p></div>
+      <div class="intro-aside" aria-label="操作步骤"><div><span>01</span>建画布</div><i aria-hidden="true">→</i><div><span>02</span>摆光路</div><i aria-hidden="true">→</i><div><span>03</span>加入购物车</div></div>
+    </section>
+    <nav class="workspace-navigation" aria-label="画布、购物车与图册"><a href="#layout-panel">光路画布</a><a href="#results">购物车 <span id="cart-navigation-count">0</span></a><a id="machining-atlas-download" href="./api/machining-atlas">标准库图册（不含极速上传）</a></nav>
+    <div id="canvas-display-controls" class="canvas-display-controls" role="group" aria-label="画布空间" hidden>
+      <span class="canvas-display-label">画布空间</span>
+      <div class="canvas-panel-switches">
+        <button id="canvas-toggle-catalog" type="button" aria-expanded="true" aria-controls="catalog">收起套件库</button>
+        <button id="canvas-toggle-settings" type="button" aria-expanded="true" aria-controls="canvas-parameters">收起面包板参数</button>
+        <button id="canvas-toggle-inspector" type="button" aria-expanded="true" aria-controls="plan-panel">收起器件属性</button>
+      </div>
+      <div class="canvas-display-actions"><button id="global-height-open" type="button">整体光高 · 62.5 mm</button><a id="canvas-cart-link" href="#results">购物车</a><a id="canvas-machining-atlas" href="./api/machining-atlas" target="_blank" rel="noopener">图册</a><button id="canvas-focus-toggle" type="button" aria-pressed="false" aria-controls="layout-panel"><span aria-hidden="true">⛶</span> 专注画布</button></div>
+    </div>
+    <div class="workspace">
+      <section id="catalog" class="catalog-panel" aria-labelledby="catalog-title" tabindex="-1">
+        <div class="section-heading"><div><h2 id="catalog-title">套件库 <span id="catalog-count" class="count-tag">—</span></h2><p>按功能挑选，也可以直接搜索名称。</p></div><span id="catalog-updated" class="quiet"></span></div>
+        <details id="shared-kits-region" class="shared-kits-region">
+          <summary><span><strong>共享套件</strong><span id="shared-kits-count" class="shared-count">—</span><small>团队发布的固定光路</small></span><span class="shared-chevron" aria-hidden="true">⌄</span></summary>
+          <div class="shared-library-content">
+            <p class="shared-library-intro">共享模块可连同小面包板装入当前画布，或下载资料；游客访问由管理员控制。</p>
+            <div class="shared-search-row"><label class="sr-only" for="shared-kit-search">搜索共享套件</label><input id="shared-kit-search" type="search" autocomplete="off" placeholder="搜索名称、说明或作者…"><button id="shared-kits-refresh" type="button" class="text-button">刷新</button></div>
+            <p id="shared-kits-status" class="shared-list-status" role="status" aria-live="polite">正在读取共享套件…</p>
+            <div id="shared-kits-recovery" class="shared-recovery" aria-live="polite" hidden></div>
+            <div id="shared-kit-list" class="shared-kit-list"></div>
+            <button id="shared-kits-more" type="button" class="secondary-button shared-more" hidden>显示更多</button>
+          </div>
+        </details>
+        <div class="search-wrap"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.7" cy="10.7" r="6.6"></circle><path d="m16 16 4.3 4.3"></path></svg><label class="sr-only" for="kit-search">搜索套件名称、型号或零件</label><input id="kit-search" type="search" placeholder="搜索套件、型号或零件…" autocomplete="off"><button id="search-clear" class="search-clear" type="button" aria-label="清除搜索" hidden>×</button></div>
+        <div id="category-filters" class="filters" role="group" aria-label="按功能筛选"></div>
+        <div class="catalog-meta"><span id="filter-result" role="status">正在读取套件库…</span><span class="drag-tip"><svg aria-hidden="true" viewBox="0 0 16 16"><circle cx="5" cy="3" r="1"></circle><circle cx="11" cy="3" r="1"></circle><circle cx="5" cy="8" r="1"></circle><circle cx="11" cy="8" r="1"></circle><circle cx="5" cy="13" r="1"></circle><circle cx="11" cy="13" r="1"></circle></svg>拖入画布，吸附格点</span></div>
+        <div id="catalog-message" class="message-card" role="status"><span class="loader" aria-hidden="true"></span><p>正在读取套件信息</p></div>
+        <div id="kit-grid" class="kit-grid"></div>
+      </section>
+      <section id="layout-panel" class="layout-panel" aria-labelledby="layout-title">
+        <div class="layout-heading"><div><h2 id="layout-title">光路画布</h2><p>普通元件与小板模块共用画布 · 右键小板可编辑模块</p></div><span id="layout-validity" class="canvas-tag">布局可用</span></div>
+        <section id="stack-workspace" class="canvas-modules" aria-label="模块编辑工具" hidden>
+          <div class="canvas-context"><label>当前编辑 <select id="stack-active" aria-label="当前编辑的面包板"></select></label><button id="stack-edit-module" type="button" class="text-button">编辑小板模块</button><button id="stack-finish-edit" type="button" class="secondary-button">完成模块编辑</button><button id="stack-save-module" type="button" class="text-button">保存小板模块</button><button id="stack-auto-all" type="button" class="text-button">全部小板自动选孔</button></div>
+          <div id="stack-pose" class="stack-pose" hidden><label>模块名称<input id="stack-name" maxlength="160"></label><label>X（mm）<input id="stack-x" type="number" step="12.5"></label><label>Y（mm）<input id="stack-y" type="number" step="12.5"></label><button id="stack-rotate" type="button" class="text-button">旋转 90°</button><button id="stack-remove" type="button" class="text-button">移除模块</button></div><p id="stack-active-label"></p><p id="stack-status" role="status"></p>
+        </section>
+        <div id="canvas-parameters" class="canvas-parameters">
+        <div class="base-mode-controls"><label for="base-mode">主面包板／桌面<select id="base-mode"><option value="breadboard">自定义面包板</option><option value="table">桌子／无大板（仅作参考）</option></select></label><button id="base-size-settings" type="button" class="text-button">设置大板尺寸</button><p id="base-mode-note">大面包板参与安装孔对齐，并在加入购物车时计入生产清单和加工资料。</p></div>
+        <div class="project-details"><label for="project-name">工程名称<input id="project-name" maxlength="120" value="未命名光路工程" autocomplete="off"></label><details><summary>工程备注</summary><textarea id="project-notes" maxlength="10000" rows="3" aria-label="工程备注" placeholder="记录任务目标、待办或当前进展，下次打开工程继续。"></textarea></details></div>
+        <details id="stack-create" class="board-settings"><summary>把当前布局打包到小板</summary><div class="stack-current-board"><button id="stack-use-current" type="button" class="secondary-button">将当前面包板设为大板</button><p>保留当前板及其器件，在上面安装独立的小板模块。也可直接拖入共享模块，或点击画布工具栏的“新建小板”。</p></div><div class="stack-create-fields"><label>新大板宽（mm）<input id="stack-width" type="number" min="25" max="3000" value="600"></label><label>新大板高（mm）<input id="stack-height" type="number" min="25" max="3000" value="450"></label><label>大板孔距<select id="stack-pitch"><option value="25">25 mm</option><option value="12.5">12.5 mm</option></select></label><button id="stack-create-button" type="button" class="secondary-button">另建大板，将当前画布作为小板</button><p>此操作额外创建一块大板；当前画布成为小板，器件、选配与原沉孔完整保留。</p></div></details>
+        <details id="board-settings" class="board-settings"><summary><span id="board-settings-summary">350 × 225 × 12.5 mm · M6 通螺纹</span><span>修改面包板参数</span></summary>
+        <p id="registered-board-note" class="registered-board-note" hidden></p>
+            <form id="board-form" class="board-form"><label>宽（mm）<input id="board-width" type="number" min="25" max="3000" step="0.5" value="350" required></label><label>高（mm）<input id="board-height" type="number" min="25" max="3000" step="0.5" value="225" required></label><label>厚（mm）<input id="board-thickness" type="number" min="3" max="50" step="0.1" value="12.5" required></label><label>孔距（mm）<input id="board-pitch" type="number" min="3" max="100" step="0.5" value="12.5" required></label><label>首孔边距（mm）<input id="board-offset" type="number" min="2.5" max="100" step="0.5" value="12.5" required></label><label class="board-hole-kind">孔类型<select id="board-hole-type"><option value="M6_through">M6 × 1 通螺纹</option><option value="plain_through">普通通孔</option></select></label><label id="board-hole-diameter-field" hidden>孔径（mm）<input id="board-hole-diameter" type="number" min="1" max="20" step="0.1" value="6" required></label><button class="secondary-button" type="submit">更新面包板</button><p id="board-draft-note" class="board-draft-note" hidden>板参数已修改，更新面包板后再保存或生成清单。</p></form>
+        </details>
+        <details id="mounting-settings" class="board-settings mounting-settings"><summary><span id="mounting-settings-summary">四角安装沉孔 · 尚未设置</span><span>自动 / 手动选孔</span></summary><div class="mounting-content"><p class="mounting-explanation">M6 圆柱头螺钉安装：Ø6.6 通孔 + Ø11 沉孔深 6.5 mm，从板顶面加工。板厚至少 8.5 mm。</p><div class="mounting-controls"><label>孔数<select id="mounting-count"><option value="4">四孔</option><option value="8">奇偶双组 · 共8孔</option></select></label><label for="mounting-row-parity">行号<select id="mounting-row-parity" aria-label="行号"><option value="any">自动选择奇偶</option><option value="odd">只用奇数行</option><option value="even">只用偶数行</option></select></label><label for="mounting-column-parity">列号<select id="mounting-column-parity" aria-label="列号"><option value="any">自动选择奇偶</option><option value="odd">只用奇数列</option><option value="even">只用偶数列</option></select></label><button id="mounting-auto" type="button" class="secondary-button">自动选择四角孔</button><button id="mounting-manual" type="button" class="secondary-button" aria-pressed="false">手动选孔</button><button id="mounting-clear" type="button" class="text-button" disabled>清除</button></div><p class="mounting-index-note">最下方为第 1 行，最左侧为第 1 列；每组四孔的 X、Y 坐标差均为25 mm整数倍；八孔是奇偶相反的两组，组间可相差半格。</p><p id="mounting-error" class="mounting-error" role="alert" hidden></p><div id="mounting-results" aria-live="polite"><p>自动避开器件，寻找靠近四角的孔位。未设置时不加工安装沉孔。</p></div></div></details>
+        <div class="layout-legend" aria-label="边界图例"><span><i class="legend-collision"></i>器件轮廓</span><span><i class="legend-base"></i>底座位置</span><span><i class="legend-invalid"></i>交汇 / 底座越界 · 不可用</span><span><i class="legend-mounting"></i>安装沉孔</span></div>
+        </div>
+        <div class="board-toolbar" role="toolbar" aria-label="画布工具"><div><button id="stack-add" type="button" title="在当前画布中新建可整体移动的小板模块">＋ 小板</button><label class="stack-import" title="连同小板装入已保存的模块">装入模块<input id="stack-import-file" type="file" accept=".json,.zzoptics.json" hidden></label><span class="toolbar-divider"></span><button id="layout-undo" type="button" title="撤销（⌘ / Ctrl Z）" aria-label="撤销摆放" disabled>↶</button><button id="layout-redo" type="button" title="重做（⌘ / Ctrl Shift Z）" aria-label="重做摆放" disabled>↷</button><span class="toolbar-divider"></span><button id="rotate-part" type="button" title="旋转 90°（R）" disabled>↻ <span>90°</span></button><button id="select-all-parts" type="button" title="全选（⌘ / Ctrl A）">全选</button><button id="copy-selection" type="button" title="复制选中器件（⌘ / Ctrl C）" disabled>复制</button><button id="paste-selection" type="button" title="粘贴器件（⌘ / Ctrl V）" disabled>粘贴</button><button id="duplicate-part" type="button" title="复制并立即粘贴（⌘ / Ctrl D）" disabled>复制一份</button><button id="delete-part" type="button" title="删除选中器件（Delete）" disabled>删除</button></div><div><button id="collision-pick" type="button" aria-pressed="false">点选解除碰撞</button><button id="collision-allow-selected" type="button" disabled>解除所选两件</button><details id="collision-overrides-panel" class="collision-overrides-panel"><summary id="collision-overrides-summary">碰撞豁免 · 0</summary><div class="collision-overrides-popover"><p>仅解除指定两个器件之间的碰撞；板边、孔位、光高及位移机构检查仍有效。</p><strong>已人工豁免</strong><ul id="collision-overrides-list"></ul><strong>当前器件碰撞</strong><ul id="collision-candidates"></ul></div></details><span class="toolbar-divider"></span><button id="layout-optics" type="button" aria-pressed="false">光路渲染</button><button id="layout-optical-visible" type="button" aria-pressed="true" disabled>隐藏光线</button><button id="layout-measure" type="button" aria-pressed="false">测量模式</button><span class="toolbar-divider"></span><button id="layout-zoom-out" type="button" aria-label="缩小">−</button><span id="layout-zoom-label">100%</span><button id="layout-zoom-in" type="button" aria-label="放大">＋</button><button id="layout-fit" type="button">适合窗口</button></div></div>
+        <div id="measurement-bar" class="measurement-bar" hidden><strong id="measurement-status" role="status" aria-live="polite"></strong><p id="measurement-points" class="measurement-points"></p><div id="measurement-values" class="measurement-values" hidden><span>X 方向距离 <b id="measurement-x">—</b></span><span>Y 方向距离 <b id="measurement-y">—</b></span></div><p id="measurement-direction"></p><div class="measurement-footer"><small id="measurement-basis"></small><button id="measurement-reset" type="button" class="text-button">重新测量</button></div></div>
+        <div id="mounting-manual-bar" class="mounting-manual-bar" hidden><div><strong id="mounting-manual-status" role="status" aria-live="polite">手动选孔 · 已选 0 / 4</strong><p>直接点孔位选择，再点取消；选满所选数量后应用。按住空格拖动画布，滚轮缩放。</p></div><div class="manual-mounting-actions"><button id="mounting-manual-apply" type="button" class="secondary-button" disabled>应用所选孔位</button><button id="mounting-manual-reset" type="button" class="text-button">重选</button><button id="mounting-manual-cancel" type="button" class="text-button">取消</button></div></div><section id="optical-workbench" class="optical-workbench" aria-label="光路渲染" hidden>
+          <div class="optical-workbench-heading"><div><strong id="optical-status" role="status" aria-live="polite">点击耦合头或激光器设置出光</strong><p id="optical-instructions">自动完成已配置的光路，缺少参数时暂停并提示；空格拖动平移，滚轮缩放。</p></div><div class="optical-actions"><button id="optical-auto" class="primary-button" type="button">一键渲染</button><button id="optical-auto-stop" class="secondary-button" type="button" hidden>停止</button><button id="optical-restart" class="secondary-button" type="button">重新渲染</button><button id="optical-step" class="text-button" type="button">逐步检查</button><button id="optical-exit" class="text-button" type="button">返回布局</button><button id="canvas-optical-details-toggle" class="secondary-button" type="button" aria-expanded="false" aria-controls="optical-pending optical-auto-problems optical-branches optical-warnings" hidden>展开光路详情</button></div></div>
+          <div class="optical-spectrum-legend"><i aria-hidden="true"></i><span>380–780 nm 可见光连续示意色 · 紫外为紫色、红外为玫红色，并标明波段</span></div><div id="optical-breadcrumb" class="optical-breadcrumb"></div><div id="optical-pending" class="optical-pending"></div><div id="optical-auto-problems" class="optical-auto-problems" hidden></div><div id="optical-probe" class="optical-probe" aria-live="polite" hidden></div>
+          <details class="optical-details"><summary>光束与模型说明 <span id="optical-branch-count"></span></summary><div id="optical-branches"></div><p>采用理想偏振元件与近轴高斯光束。PBS 透射 P、反射 S；波片按快轴与相位延迟转换偏振。光斑直径为 1/e² 强度直径；自由传播和薄透镜通过 q 参数计算，标记束腰位置。这里只追踪各束的功率与偏振，不叠加相干干涉；实际镀膜、材料色散和耦合效率需实测。</p><p>光程读数为沿折线路径累计的几何距离；点击高亮的真实 M6 螺纹孔或光学器件读取。工程会保存光学参数和渲染偏好，重新打开时自动计算光路。布局或参数改变后会重算；断路和缺少参数会单独提示。</p></details><div id="optical-warnings" class="optical-warnings" hidden></div>
+        </section><div id="optical-passive-info" class="optical-probe optical-passive-info" aria-live="polite" hidden></div><div id="board-viewport" class="board-viewport"><svg id="board-svg" xmlns="http://www.w3.org/2000/svg" role="application" aria-label="光学布局画布，可直接拖入普通元件和小板模块，右键小板编辑模块，Ctrl 或 Command 点选多选" tabindex="0"></svg><div class="board-empty-guide" id="board-empty-guide"><span>＋</span><strong>从左侧拖入第一个套件</strong><p>也可点「放置」，再点格点</p></div></div>
+        <div id="module-context-menu" class="module-context-menu" role="menu" aria-label="小板模块操作" hidden><button type="button" role="menuitem" data-module-action="edit">编辑小板模块</button><button type="button" role="menuitem" data-module-action="settings">小板设置</button><button type="button" role="menuitem" data-module-action="finish">完成模块编辑</button><button type="button" role="menuitem" data-module-action="rotate">旋转模块 90°</button><button type="button" role="menuitem" data-module-action="remove">移除小板模块</button></div>
+        <div id="component-context-menu" class="module-context-menu" role="menu" aria-label="元件操作" hidden><button type="button" role="menuitem" data-optical-property>光学属性与偏振</button><button type="button" role="menuitem" data-optical-history>光路设置／回退…</button></div>
+        <div id="optical-context-menu" class="module-context-menu optical-context-menu" role="menu" aria-label="光路操作" hidden></div><div class="board-status"><span id="layout-board-label">350 × 225 mm</span><span id="layout-coordinate">左下角为坐标原点</span><span id="layout-instance-count">0 个套件</span></div>
+        <p id="layout-hint" class="layout-hint">Ctrl / ⌘ / Shift 点选多选 · Shift 拖空白处框选 · 拖动空白处平移 · 滚轮缩放</p>
+        <details id="layout-warning" class="layout-warning" hidden></details>
+        <div class="layout-save-row"><span>工程文件 .zzoptics.json 保存面包板、器件、选配与备注；下次打开可继续编辑。</span><div><button id="save-layout-json" class="text-button" type="button">保存工程</button><button id="shared-publish-open" class="text-button shared-publish-open" type="button" disabled hidden>发布为共享套件</button><a id="shared-publish-login" class="text-button shared-publish-open" href="/auth/login?next=%2Foptics-kits%2F" hidden>登录后继续</a><span id="shared-publish-access-note" class="shared-publish-access-note" hidden></span><label class="text-button import-layout" for="import-layout">打开工程<input id="import-layout" type="file" accept="application/json,.json" hidden></label><button id="save-layout-svg" class="text-button" type="button">下载总俯视图</button></div></div>
+      </section>
+      <aside id="plan-panel" class="plan-panel" aria-labelledby="plan-title">
+        <div class="plan-heading"><div class="plan-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 5h10M7 5V3h10v2M7 5H5v16h14V5h-2M8 10h8M8 14h8M8 18h5"></path></svg></div><div><h2 id="plan-title">画布上的器件 <span id="plan-count" class="count-tag">0</span></h2><p id="save-status">选择器件，查看位置与选配</p></div><button id="clear-plan" class="text-button" type="button" disabled>清空</button></div>
+        <div id="restore-notice" class="restore-notice" hidden></div>
+        <div id="plan-body" class="plan-body"><div class="empty-plan"><div class="empty-plan-icon" aria-hidden="true"><svg viewBox="0 0 80 68"><path d="m14 20 26-13 26 13-26 14zM14 20v29l26 13 26-13V20M40 34v28"></path><path d="M40 17v14m-7-7h14"></path></svg></div><h3>把下一束光的路径<br>放进这里</h3><p>点击套件上的「添加」，<br>或把卡片拖到此处。</p></div></div>
+        <div class="plan-footer"><div class="plan-total"><span id="plan-board-count">1 块面包板</span><span><strong id="plan-total">0</strong> 套 <i>·</i> <span id="plan-types">0</span> 种套件</span></div><button id="generate" class="primary-button generate-button" type="button" disabled><span>加入购物车</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"></path></svg></button><p class="plan-footnote">每次加入都会累加当前方案；清空画布可继续下一份工程。</p></div>
+      </aside>
+    </div>
+    <section class="extras-section" aria-label="可选补充器件">
+      <details id="extras-details" class="extras-details"><summary><span><span class="optional-tag">可选</span> 补充螺钉与其他器件 <span id="extras-count"></span></span><span class="details-hint">按每套或整个方案添加 <i aria-hidden="true">＋</i></span></summary>
+        <div class="extras-content"><p class="extras-intro">光学片与螺钉可留空。选择画布器件可按实例选配；完整模块在卡片中选配。「当前生成的整个方案」补充项会随画布清单或当前完整模块清单计入，也可限定到某类套件。</p><div id="elevation-accessories"></div><div id="extras-list"></div>
+          <form id="extras-form" class="extras-form"><div class="form-field"><label for="extra-scope">计入范围</label><select id="extra-scope"><option value="">整个方案</option></select></div><div class="form-field"><label for="extra-kind">采购分类</label><select id="extra-kind"><option value="lubang">麓邦采购</option><option value="standard">其他采购</option></select></div><div class="form-field"><label for="extra-name">器件名称 <span aria-hidden="true">*</span></label><input id="extra-name" required maxlength="120" placeholder="如：安装螺钉"></div><div class="form-field"><label for="extra-model">型号</label><input id="extra-model" maxlength="160" placeholder="可留空，后续确认"></div><div class="form-field"><label for="extra-quantity" id="extra-quantity-label">总数量 <span aria-hidden="true">*</span></label><input id="extra-quantity" type="number" min="1" max="9999" step="1" value="1" required inputmode="numeric"></div><div class="form-field"><label for="extra-unit">单位</label><input id="extra-unit" maxlength="16" value="个"></div><div class="form-field extra-notes"><label for="extra-notes">备注</label><input id="extra-notes" maxlength="500" placeholder="可填写规格或选配说明"></div><div class="extra-form-actions"><button id="extra-cancel" class="text-button" type="button" hidden>取消编辑</button><button id="extra-save" class="secondary-button" type="submit">＋ 添加补充器件</button></div></form>
+        </div>
+      </details>
+    </section>
+    <datalist id="wavelengths"><option value="405"><option value="488"><option value="532"><option value="633"><option value="780"><option value="852"><option value="1064"><option value="1550"></datalist>
+    <section id="results" class="results" aria-labelledby="results-title">
+      <div class="results-heading"><div><p class="eyebrow"><span></span> 账号购物车</p><h2 id="results-title" tabindex="-1">我的购物车</h2><p id="results-summary"></p></div><button class="primary-button" data-export="bundle" type="button"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m-4-4 4 4 4-4M5 16v5h14v-5"></path></svg><span>结算并导出所选资料包</span><span class="file-type">ZIP</span></button></div>
+      <div class="cart-account-bar"><p id="cart-save-status" role="status" aria-live="polite">正在读取账号购物车…</p><div><button id="cart-retry-add" type="button" class="secondary-button" hidden>重试上次加入</button><button id="cart-reload" type="button" class="text-button" hidden>重新载入购物车</button><button id="cart-clear" type="button" class="text-button checkout-remove" disabled>清空购物车</button></div></div>
+      <p id="cart-empty" class="cart-empty">购物车还是空的。在画布或套件卡片上点击“加入购物车”，可以把多份方案汇总到这里。</p>
+      <div id="result-scope-note" class="notice module-scope-note" hidden></div>
+      <div id="stale-notice" class="notice" hidden>方案已调整，请重新生成清单后下载。</div>
+      <div class="checkout-toolbar" aria-label="导出清单选择">
+        <div class="checkout-toolbar-main"><label class="checkout-all"><input id="checkout-select-all" type="checkbox" data-checkout-control> 全选</label><strong id="checkout-summary" role="status" aria-live="polite"></strong><div class="checkout-actions"><button type="button" class="text-button checkout-remove" data-checkout-control data-checkout-action="remove-selected">移除已勾选</button><button type="button" class="text-button" data-checkout-control data-checkout-action="defaults">恢复默认清单</button></div></div>
+        <p id="checkout-persistence-note">勾选、数量和移除操作自动保存到当前账号。画布修改不影响已加入购物车的内容。</p>
+        <p id="checkout-error" class="checkout-error" role="alert" hidden></p>
+        <details id="checkout-removed" class="checkout-removed" hidden><summary id="checkout-removed-count">已移除的器件</summary><ul id="checkout-removed-list"></ul><button type="button" class="text-button" data-checkout-control data-checkout-action="restore-all">恢复所有已移除器件</button></details>
+      </div>
+      <p id="manufacturing-download-access-note" class="notice" role="status" hidden>管理员已关闭游客的图纸和三维模型下载。仍可下载采购清单、生产清单表格、工程文件和总俯视图；需要完整资料包请先登录。</p>
+      <div id="bundle-blocked-note" class="notice warning-notice" hidden></div>
+      <div id="result-warnings" class="review-notice" hidden></div>
+      <div class="result-table-card"><div class="table-heading"><div><span class="table-index">01</span><h3>麓邦购物车导入表</h3><span id="lubang-count" class="table-count"></span></div><button class="secondary-button" data-export="lubang" type="button"><span>下载麓邦导入表</span><span class="file-type">XLSX</span><span aria-hidden="true">↓</span></button></div><div id="lubang-import-note" class="lubang-import-note" role="status" aria-live="polite"><p>按麓邦网站的购物车导入模板生成。未确认型号需补充或取消勾选；完整资料包会将待确认采购另列。</p></div><div id="lubang-table" class="table-scroll" tabindex="0" aria-label="麓邦采购单，窄屏可左右滚动"></div></div>
+      <div class="result-table-card"><div class="table-heading"><div><span class="table-index">02</span><h3>自制生产清单</h3><span id="manufacturing-count" class="table-count"></span></div><button class="secondary-button" data-export="manufacturing" type="button"><span>导出所选生产清单</span><span class="file-type">XLSX</span><span aria-hidden="true">↓</span></button></div><div id="manufacturing-table" class="table-scroll" tabindex="0" aria-label="自制生产清单，窄屏可左右滚动"></div></div>
+      <div id="standard-section" class="result-table-card" hidden><div class="table-heading"><div><span class="table-index">03</span><h3>其他配套件</h3><span id="standard-count" class="table-count"></span></div></div><div id="standard-table" class="table-scroll" tabindex="0" aria-label="其他配套件清单，窄屏可左右滚动"></div></div>
+      <p class="results-note">相同零件已合并数量。表格与 ZIP 中的零件文件按本次勾选和填写数量导出；画布及工程文件保留原方案。标有「待确认」的项目，请结合来源核对后再采购或投产。</p>
+    </section>
+    <footer class="page-footer"><span>ZZLab <i>/</i> 光路套件</span><span>让实验准备，更有条理。</span></footer>
+  </main>
+  <dialog id="optical-dialog" class="shared-publish-dialog optical-dialog" aria-labelledby="optical-dialog-title">
+    <form id="optical-form"><div class="shared-dialog-heading"><div><p>光路渲染参数</p><h2 id="optical-dialog-title">光学属性</h2></div><button id="optical-dialog-close" class="text-button" type="button" aria-label="关闭光学属性">×</button></div>
+    <p id="optical-dialog-note" class="optical-dialog-note"></p><div id="optical-dialog-fields"></div><div id="optical-purchase-fields"></div><p id="optical-dialog-error" class="shared-form-error" role="alert" hidden></p><div class="shared-dialog-footer"><button id="optical-dialog-cancel" type="button" class="text-button">取消</button><button id="optical-dialog-empty" type="button" class="secondary-button">不装光学片，直通</button><button id="optical-dialog-save" type="submit" class="primary-button">保存设置</button></div></form>
+  </dialog>
+  <dialog id="guest-access-dialog" class="shared-publish-dialog guest-access-dialog" aria-labelledby="guest-access-title" aria-describedby="guest-access-description">
+    <form id="guest-access-form">
+      <div class="shared-dialog-heading"><div><p>管理员设置</p><h2 id="guest-access-title">访问管理</h2></div><button id="guest-access-close" class="text-button" type="button" aria-label="关闭访问管理">×</button></div>
+      <p id="guest-access-description" class="shared-publish-visibility">游客访问开启后，未登录游客可编辑光路、导入和下载工程、生成和下载清单，以及查看和使用共享套件。图纸和三维模型下载由下方独立开关控制。游客不能发布或管理共享套件。关闭游客访问后需登录使用；已登录账号（包括只读账号）权限保持不变。</p>
+      <p id="guest-access-status" class="guest-access-status" role="status" aria-live="polite">正在读取设置…</p>
+      <fieldset id="guest-access-fields" class="guest-access-fields" disabled hidden><label for="guest-access-enabled"><input id="guest-access-enabled" type="checkbox"><span><strong>允许游客访问</strong><small>关闭后，未登录游客需要先登录。</small></span></label><label for="guest-access-manufacturing-downloads-enabled"><input id="guest-access-manufacturing-downloads-enabled" type="checkbox"><span><strong>允许游客下载图纸和三维模型</strong><small>关闭后，游客不能下载图纸、STEP 等模型或包含它们的完整资料包；仍可使用画布、共享工程及清单表格。两个开关点击“保存设置”后生效。</small></span></label><p id="guest-access-updated" class="guest-access-updated"></p></fieldset>
+      <p id="guest-access-error" class="shared-form-error" role="alert" hidden></p>
+      <div class="shared-dialog-footer"><button id="guest-access-reload" type="button" class="text-button" hidden>重新载入</button><button id="guest-access-cancel" type="button" class="text-button">取消</button><button id="guest-access-save" type="submit" class="primary-button" disabled>保存设置</button></div>
+    </form>
+  </dialog>
+  <dialog id="shared-publish-dialog" class="shared-publish-dialog" aria-labelledby="shared-publish-title" aria-describedby="shared-publish-visibility">
+    <form id="shared-publish-form">
+      <div class="shared-dialog-heading"><div><p>共享给实验室</p><h2 id="shared-publish-title">发布为共享套件</h2></div><button id="shared-publish-close" type="button" class="text-button" aria-label="关闭发布窗口">×</button></div>
+      <p id="shared-publish-visibility" class="shared-publish-visibility">发布后，所有已登录账号（包括只读账号）均可查看和下载；若管理员开启游客访问，未登录游客也可查看和使用，图纸与模型下载另由管理员授权。发布的是当前工程的固定快照，不会跟随后续修改。</p>
+      <label class="shared-field" for="shared-publish-name">套件名称 <span aria-hidden="true">*</span><input id="shared-publish-name" name="name" maxlength="120" required autocomplete="off" placeholder="例如：532 nm 偏振检测光路"></label>
+      <label class="shared-field" for="shared-publish-description">说明 <span class="shared-optional">选填</span><textarea id="shared-publish-description" name="description" maxlength="2000" rows="3" placeholder="用途、适用条件，或使用时需要留意的事项。"></textarea></label>
+      <label class="shared-field" for="shared-publish-scope">发布范围<select id="shared-publish-scope" name="scope"><option value="all">整个画布</option><option id="shared-publish-board" value="board" disabled>当前小板模块（含原沉孔）</option><option id="shared-publish-selection" value="selection" disabled>选中的器件（尚未选择）</option></select></label>
+      <p id="shared-publish-scope-note" class="shared-scope-note"></p>
+      <p id="shared-publish-error" class="shared-form-error" role="alert" hidden></p>
+      <div class="shared-dialog-footer"><button id="shared-publish-cancel" class="text-button" type="button">取消</button><button id="shared-publish-submit" class="primary-button" type="submit" disabled>发布共享套件</button></div>
+    </form>
+  </dialog>
+  <button id="mobile-plan-jump" class="mobile-plan-jump" type="button" hidden><span>查看画布上的器件</span><strong id="mobile-plan-total">0 套</strong><span aria-hidden="true">↓</span></button>
+  <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+  <noscript><div class="noscript">请启用浏览器的 JavaScript，以选择套件和生成清单。</div></noscript>
+</body>
+</html>

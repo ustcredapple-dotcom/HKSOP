@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-bd1-a1-r2",
+  "revision": "R2",
+  "displayName": "BD1-A1 R2 · 紧凑光阱直角台阶转接板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-bd1-a1-r2.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

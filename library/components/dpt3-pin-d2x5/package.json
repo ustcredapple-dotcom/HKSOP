@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "dpt3-pin-d2x5",
+  "revision": "source-snapshot",
+  "displayName": "圆柱定位销 Ø2×5",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/dpt3-pin-d2x5.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

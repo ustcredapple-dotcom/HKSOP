@@ -1,0 +1,186 @@
+{
+  "id": "custom-motor-h2d2-s-r3",
+  "name": "H2D2-S R3 · 内缩竖槽侧板",
+  "model": "H2D2-S_R3",
+  "kind": "custom",
+  "unit": "件",
+  "stepPath": "step/motor-h2-compact-support-r3/H2D2-S_R3.step",
+  "drawingPath": null,
+  "sourceStepSha256": "607b68fbc67e7210b3a1f1afb25e867de94daa5259ca6f328a1635cb130b509c",
+  "sourceDrawingSha256": "46dbe39931597c1d8cfb7ff4e2854c2462b980835cb0f85bf6c25ed1bc8d1367",
+  "drawingRevision": "H2-Compact-Support-R3",
+  "drawingStatus": "engineering-review",
+  "productionReady": false,
+  "status": "名义CAD及加工审核图；实装、带电全行程和加工放行未完成",
+  "notes": "R3仅改后支撑；长H2杆、高位原11mm杆、电机和镜架位置保持。先桥板侧板预装，再装舵机；桥侧沉孔改用M3×8。",
+  "manufacturingSpec": {
+    "material": "6061 aluminium, black anodize",
+    "surfaceTreatment": "black anodize, source V2",
+    "profileId": "al6061",
+    "threadClass": "待工艺确认",
+    "policyVersion": "source-specific-h2-compact-support-r3"
+  },
+  "manufacturingEvidence": {
+    "revision": "H2-Compact-Support-R3",
+    "drawingPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "drawingSha256": "46dbe39931597c1d8cfb7ff4e2854c2462b980835cb0f85bf6c25ed1bc8d1367",
+    "dxfSha256": "8ab023cb8e6a628127c776b5536f41869b8fb4a640697f1e314de37327afc393",
+    "sourceStepSha256": "607b68fbc67e7210b3a1f1afb25e867de94daa5259ca6f328a1635cb130b509c",
+    "singleSolid": true,
+    "physicalTrialCompleted": false,
+    "parametersSha256": "547183bdd2a23a65a07de26827cb6646ba00cc285cc842c4206d0824de110843",
+    "nominalGeometry": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 9484.262690126301,
+      "boundsMm": [
+        0.0,
+        -0.0,
+        -0.0,
+        5.0000001,
+        43.2000002,
+        69.0000002
+      ]
+    },
+    "localToAssemblyTranslationMm": [
+      35.6,
+      -65.07375911,
+      42.28567119
+    ],
+    "roundtripVolumeDifferenceMm3": -6.002665031701326e-11,
+    "engraving": {
+      "text": "H2D2S3",
+      "centerAssemblyMm": [
+        40.6,
+        -57.07375901,
+        54.285671285087
+      ],
+      "xDirection": [
+        0,
+        1,
+        0
+      ],
+      "outwardNormal": [
+        1,
+        0,
+        0
+      ],
+      "heightMm": 2,
+      "depthMm": 0.2,
+      "removedVolumeMm3": 0.7361396789583523
+    },
+    "manufacturingReady": false,
+    "holes": [
+      {
+        "part": "H2D2-S",
+        "kind": "M3x0.5 blind tap",
+        "axis": [
+          0,
+          0,
+          -1
+        ],
+        "entryMm": [
+          38.1,
+          -60.57375901,
+          111.28567129
+        ],
+        "pilotDiameterMm": 2.5,
+        "nominalEngagementMm": 6,
+        "effectiveThreadDepthMm": 6,
+        "drillCylinderDepthMm": 8,
+        "pilotBottomReserveMm": 2,
+        "drillBottomType": "cylindrical modeled floor; drill point additional depth to be selected and checked"
+      },
+      {
+        "part": "H2D2-S",
+        "kind": "M3x0.5 blind tap",
+        "axis": [
+          0,
+          0,
+          -1
+        ],
+        "entryMm": [
+          38.1,
+          -53.57375901,
+          111.28567129
+        ],
+        "pilotDiameterMm": 2.5,
+        "nominalEngagementMm": 6,
+        "effectiveThreadDepthMm": 6,
+        "drillCylinderDepthMm": 8,
+        "pilotBottomReserveMm": 2,
+        "drillBottomType": "cylindrical modeled floor; drill point additional depth to be selected and checked"
+      },
+      {
+        "part": "H2D2-S",
+        "kind": "M4 vertical slot",
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "entryMm": [
+          35.6,
+          -26.873759005323002,
+          62.5
+        ],
+        "widthMm": 4.3,
+        "overallLengthMm": 10.3,
+        "throughThicknessMm": 5,
+        "locatorPins": 0
+      }
+    ]
+  },
+  "dxfPath": null,
+  "sourceDxfSha256": "8ab023cb8e6a628127c776b5536f41869b8fb4a640697f1e314de37327afc393",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "a02bc2bf2d9f96c18dd0b1958a1f81cb7effbe9860760221f34cdbedaca56c2f",
+  "drawingPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "79e7c41742e3b6d18e32ffcc39dd14ebaebd0231730be5a9e5e7679cdec09927",
+      "currentPdfSha256": "3a8d3436ef3bff8231150c9f27b4fd20b2f2a562a9a92b1f6ec214351ac63890",
+      "annotatedPages": [
+        2,
+        3
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "714f47b1ae0c09089ad7213c818d5b3b695d5745013d7844f89030e28de6ae73",
+      "currentPdfSha256": "a02bc2bf2d9f96c18dd0b1958a1f81cb7effbe9860760221f34cdbedaca56c2f",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "lbtek-mt-am1t-purchased",
+  "revision": "source-snapshot",
+  "displayName": "麓邦 MT-AM1T 物镜调整架（用户已有）",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/lbtek-mt-am1t-purchased.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

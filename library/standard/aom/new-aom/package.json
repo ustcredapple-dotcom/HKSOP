@@ -1,0 +1,33 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-aom",
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "displayName": "可调 AOM · AMP-1R · M1 RF180",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/new-aom.json"
+    }
+  ],
+  "componentDependencies": [
+    "amp-1r",
+    "custom-aom-heatspreader08-rf180-r1",
+    "custom-post-metric-12p5mm-m1",
+    "metric-m1-post-m4x16",
+    "metric-m1-post-pin-d2x8",
+    "new-aom-adapter-1",
+    "new-aom-adapter-3",
+    "new-aom-vendor-2",
+    "new-hardware-2024b58b5f4e"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "custom-p20-u-r1",
+  "name": "运动侧上转接板",
+  "model": "P20-U-R1",
+  "kind": "custom",
+  "unit": "件",
+  "stepPath": "step/pbs20-r1/P20-U-R1.step",
+  "sourceStepSha256": "a242931405f48a18fed647957866576db20aee129cad4d64b73db3c534a3cc35",
+  "drawingPath": null,
+  "sourceDrawingSha256": "cb27b4c5d6b3808d45e35a0b1261818d6ae0481f9cc0c2f163f9794efc6cd21b",
+  "dxfPath": null,
+  "sourceDxfSha256": "18ff8c0bf72dba46f2fc3348586bc7905b2b4000083bc5fa3309fd9063f7569b",
+  "dxfPdfPath": null,
+  "sourceDxfPdfSha256": "cb27b4c5d6b3808d45e35a0b1261818d6ae0481f9cc0c2f163f9794efc6cd21b",
+  "status": "工程审核版；未实物试装",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L",
+    "surfaceTreatment": "去磁及钝化"
+  },
+  "notes": "同版四页PDF第3页为本件加工图；第4页为打标定位。加工DXF为纸面比例工程图，不是1:1切割文件。",
+  "laserMarking": {
+    "status": "required",
+    "reason": "仅激光标识，不铣刻",
+    "files": [],
+    "notes": " 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。"
+  }
+}

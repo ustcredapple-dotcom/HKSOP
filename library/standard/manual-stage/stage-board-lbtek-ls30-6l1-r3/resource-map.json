@@ -1,0 +1,69 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "stage-board-lbtek-ls30-6l1-r3",
+  "files": [
+    {
+      "path": "rendering/115c38098f3346b10a1a9f3014a5234d48430dcd77ec2d078a56d9883018ce38.svg",
+      "stored": "library/assets/sha256/11/115c38098f3346b10a1a9f3014a5234d48430dcd77ec2d078a56d9883018ce38.svg",
+      "sha256": "115c38098f3346b10a1a9f3014a5234d48430dcd77ec2d078a56d9883018ce38",
+      "originalReferences": [
+        "topviews/kit_manual-stage-r3-lbtek-ls30-6l1-complete.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/11/115c38098f3346b10a1a9f3014a5234d48430dcd77ec2d078a56d9883018ce38.svg"
+      ]
+    },
+    {
+      "path": "rendering/3d2d4fc1fc779235269afc0c054ae089cfce662cfe2949eaed3a6401a6a389e8.svg",
+      "stored": "library/assets/sha256/3d/3d2d4fc1fc779235269afc0c054ae089cfce662cfe2949eaed3a6401a6a389e8.svg",
+      "sha256": "3d2d4fc1fc779235269afc0c054ae089cfce662cfe2949eaed3a6401a6a389e8",
+      "originalReferences": [
+        "topviews/kit_manual-stage-r3-lbtek-ls30-6l1-fixed.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/3d/3d2d4fc1fc779235269afc0c054ae089cfce662cfe2949eaed3a6401a6a389e8.svg"
+      ]
+    },
+    {
+      "path": "rendering/663ef15621073df0f6bc2fac4846e2d03181a3646b41fdf5be64299bb8cfefe9.svg",
+      "stored": "library/assets/sha256/66/663ef15621073df0f6bc2fac4846e2d03181a3646b41fdf5be64299bb8cfefe9.svg",
+      "sha256": "663ef15621073df0f6bc2fac4846e2d03181a3646b41fdf5be64299bb8cfefe9",
+      "originalReferences": [
+        "topviews/kit_manual-stage-r3-lbtek-ls30-6l1-moving.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/66/663ef15621073df0f6bc2fac4846e2d03181a3646b41fdf5be64299bb8cfefe9.svg"
+      ]
+    },
+    {
+      "path": "cad/7b872b576a9680dc79f73bdda288f231f34f0db64eb7602d67641788573f27ea.step",
+      "stored": "library/assets/sha256/7b/7b872b576a9680dc79f73bdda288f231f34f0db64eb7602d67641788573f27ea.step",
+      "sha256": "7b872b576a9680dc79f73bdda288f231f34f0db64eb7602d67641788573f27ea",
+      "originalReferences": [
+        "step/manual-stage-r3-table-mount/assemblies/lbtek-ls30-6l1-assembly.step"
+      ],
+      "sources": [
+        "library/assets/sha256/7b/7b872b576a9680dc79f73bdda288f231f34f0db64eb7602d67641788573f27ea.step"
+      ]
+    },
+    {
+      "path": "rendering/d5863b5a4778ad5c5d5387913897422c3a64a3b51fd7ea8b91be4eec24a66e5a.svg",
+      "stored": "library/assets/sha256/d5/d5863b5a4778ad5c5d5387913897422c3a64a3b51fd7ea8b91be4eec24a66e5a.svg",
+      "sha256": "d5863b5a4778ad5c5d5387913897422c3a64a3b51fd7ea8b91be4eec24a66e5a",
+      "originalReferences": [
+        "topviews/kit_manual-stage-r3-lbtek-ls30-6l1-upper.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/d5/d5863b5a4778ad5c5d5387913897422c3a64a3b51fd7ea8b91be4eec24a66e5a.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "LS30-B-R3",
+    "LS30-T-R3-doc",
+    "hardware-iso4762-m3x10",
+    "hardware-iso4762-m3x8",
+    "hardware-iso4762-m6x12",
+    "lbtek-ls30-6l1-purchased-stage"
+  ]
+}

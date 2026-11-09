@@ -1,0 +1,613 @@
+{
+  "name": "舵机摆入式探测器 · 紧凑 R2",
+  "category": "detector",
+  "variant": "62.5 mm / 90°收起俯视 / H12.5 M2柱",
+  "description": "A舵盘直接连接2.5mm薄框，探测器用3mm一体短支柱固定；沿光束方向55.2mm。0°截光，90°收起通光。",
+  "components": [
+    {
+      "componentId": "hx-30hm-10hm-servo",
+      "quantity": 1
+    },
+    {
+      "componentId": "servo-horn-a-d19",
+      "quantity": 1
+    },
+    {
+      "componentId": "pd-module-37p3-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "servo-detector-sg01-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "servo-detector-sg02-r2",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-post-metric-12p5mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-m4x8",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-pin-d2x8",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [],
+  "layout": {
+    "topViewPath": "topviews/servo-detector-gate-r2__H12p5_B4_R2.svg",
+    "topViewUrl": "./topviews/servo-detector-gate-r2__H12p5_B4_R2.svg",
+    "widthMm": 60,
+    "heightMm": 100,
+    "anchorXMm": 38.5,
+    "anchorYMm": 29,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      }
+    ],
+    "collisionBoundsMm": {
+      "xMin": -36.1520196,
+      "yMin": -69.8487380640622,
+      "xMax": 19.550003,
+      "yMax": 25.25
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -30.15202,
+          "yMm": -68.753467
+        },
+        {
+          "xMm": -30.15202,
+          "yMm": -53.511683
+        },
+        {
+          "xMm": -36.15202,
+          "yMm": -53.511683
+        },
+        {
+          "xMm": -36.15202,
+          "yMm": -8.5
+        },
+        {
+          "xMm": -30.15202,
+          "yMm": -8.5
+        },
+        {
+          "xMm": -30.15202,
+          "yMm": 3.9
+        },
+        {
+          "xMm": -28.55202,
+          "yMm": 3.9
+        },
+        {
+          "xMm": -28.55202,
+          "yMm": 6.726732
+        },
+        {
+          "xMm": -22.55202,
+          "yMm": 6.726732
+        },
+        {
+          "xMm": -22.55202,
+          "yMm": -1.314971
+        },
+        {
+          "xMm": -18.867588,
+          "yMm": -1.314971
+        },
+        {
+          "xMm": -18.860452,
+          "yMm": 18.740049
+        },
+        {
+          "xMm": -18.777084,
+          "yMm": 18.970452
+        },
+        {
+          "xMm": -18.607379,
+          "yMm": 19.116413
+        },
+        {
+          "xMm": -16.75,
+          "yMm": 19.88544
+        },
+        {
+          "xMm": -16.75,
+          "yMm": 25.25
+        },
+        {
+          "xMm": 19.550003,
+          "yMm": 25.25
+        },
+        {
+          "xMm": 19.550003,
+          "yMm": -25.25
+        },
+        {
+          "xMm": 11.175007,
+          "yMm": -25.25
+        },
+        {
+          "xMm": 3.124401,
+          "yMm": -25.359769
+        },
+        {
+          "xMm": 3.124399,
+          "yMm": -25.365734
+        },
+        {
+          "xMm": 2.8615,
+          "yMm": -25.363354
+        },
+        {
+          "xMm": 2.724401,
+          "yMm": -25.365223
+        },
+        {
+          "xMm": 2.724402,
+          "yMm": -25.362112
+        },
+        {
+          "xMm": -9.655961,
+          "yMm": -25.25
+        },
+        {
+          "xMm": -16.75,
+          "yMm": -25.25
+        },
+        {
+          "xMm": -16.75,
+          "yMm": -18.209401
+        },
+        {
+          "xMm": -17.052011,
+          "yMm": -18.209401
+        },
+        {
+          "xMm": -17.052011,
+          "yMm": -28.435029
+        },
+        {
+          "xMm": -17.05202,
+          "yMm": -61.753252
+        },
+        {
+          "xMm": -22.55202,
+          "yMm": -61.753252
+        },
+        {
+          "xMm": -22.55202,
+          "yMm": -69.848738
+        },
+        {
+          "xMm": -28.55202,
+          "yMm": -69.848738
+        },
+        {
+          "xMm": -28.55202,
+          "yMm": -68.753467
+        }
+      ]
+    ],
+    "placementAllowed": true,
+    "status": "90°收起 · 当前M2万能柱 · 真CAD正交俯视",
+    "note": "柱轴为kit局部原点；+X右/+Y上。正式碰撞区域覆盖fixed+moving连续0°–90°解析保守扫掠并外加0.25mm余量；90°真实CAD轮廓单列证据；光电探测仿真unsupported，收起模型不代表empty光学算子。探测面为图像估算、舵盘接口以用户指定配套为依据，待实装。",
+    "opticalType": "unsupported",
+    "opticalDatumVerified": false,
+    "opticalCenterMm": {
+      "xMm": -35.5520196,
+      "yMm": -15.0
+    },
+    "opticalAxisHeightMm": 62.5,
+    "nominalOpticalHeightMm": 62.5,
+    "opticalSurfaceAngleDeg": 90,
+    "mountingHoleRadiusMm": 3.2,
+    "opticalSimulationNote": "运动探测器的光敏面/功率响应和运行时状态交互尚未确认或实现；布局及可动CAD可用，不使用empty或理想absorber冒充已验仿真。",
+    "geometryEvidence": {
+      "sourceStep": "step/standard-post-h12p5-b4-r2/assemblies/servo-detector-gate-r2__H12p5_B4_R2.step",
+      "sourceSha256": "edfa8ef7ffa975c5d17e8cefd86cc2e12f7e0ce08a6bbb4eb02f3ddbf1dd3db1",
+      "referenceAssembly": {
+        "assetKind": "assembly-reference-not-manufacturing-part",
+        "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/servo-detector-gate-r2__H12p5_B4_R2.step",
+        "sha256": "edfa8ef7ffa975c5d17e8cefd86cc2e12f7e0ce08a6bbb4eb02f3ddbf1dd3db1"
+      },
+      "partCount": 18,
+      "postCount": 1,
+      "topViewPoseDeg": 90,
+      "postRevision": "M2",
+      "imageSha256": "50896030ec1b18fff219d935840c8f7bde0b2d57954609919c857029743a6eed",
+      "coordinateFrame": "kit-local mm: universal-post axis XY=0, mounting bottom Z=0, +X right/+Y up/+Z height",
+      "guardMm": 0.25,
+      "opticalDatumVerified": false,
+      "physicalTrialCompleted": false,
+      "previousProjectionSource": {
+        "sourceStep": "step/servo-detector-gate-r2/SERVO_PD_GATE_R2_STOWED_KIT_LOCAL.step",
+        "sourceSha256": "909ed92c516c6a2c2b635595bb4029107537731789b999d3bf377f1a8cd01e1b",
+        "imageSha256": "2a179ac9fb17cf3afa13ab843e8f0b1a60007690e59d9d96f72a361ae49c62d3",
+        "partCount": 40
+      },
+      "triangleCount": 122102,
+      "meshDeflectionMm": 0.035,
+      "postBaseRevision": {
+        "revision": "H12p5-B4-R2",
+        "componentIds": [
+          "custom-post-metric-12p5mm-m1"
+        ],
+        "baseThicknessByComponentId": {
+          "custom-post-metric-12p5mm-m1": 4
+        },
+        "nominalAndOpticalHeightsPreserved": true,
+        "geometryStatus": "passed",
+        "physicalAssemblyAccepted": false,
+        "previousAssemblySha256": "2bcdad7ba9660a09b665e10412554e28e1cce36dbe55731554ddab8086e70342",
+        "currentAssemblySha256": "edfa8ef7ffa975c5d17e8cefd86cc2e12f7e0ce08a6bbb4eb02f3ddbf1dd3db1",
+        "replacementReportSha256": "9e5893313560ee62116c802e1b055521d0c1069a883348ae6b5e1c22d146241e",
+        "originalEntitiesAndPosesPreserved": true
+      },
+      "sourceStepSha256": "edfa8ef7ffa975c5d17e8cefd86cc2e12f7e0ce08a6bbb4eb02f3ddbf1dd3db1",
+      "baseThicknessByComponentId": {
+        "custom-post-metric-12p5mm-m1": 4
+      }
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "edfa8ef7ffa975c5d17e8cefd86cc2e12f7e0ce08a6bbb4eb02f3ddbf1dd3db1",
+      "imageSha256": "50896030ec1b18fff219d935840c8f7bde0b2d57954609919c857029743a6eed",
+      "revision": "H12p5-B4-R2",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null,
+      "projectionReportSha256": "eb8b8fb1c78d4b5dbdba4ff47ef64f03fb1a465ab3e73262b25d061638a2e2c8"
+    },
+    "sourceUrl": "https://cad.onshape.com/documents/6e58c9cce55d2925e9e4e840/v/437700e874b02419d6267c3d/e/1821ad3d439fbe35eb09042a"
+  },
+  "mechanicalConfiguration": "stowed-90deg",
+  "mechanicalRevision": {
+    "revision": "R2-M2POST",
+    "parametersSha256": "f5eea4e5cc9bb53afbce4f88f19dbaa142f1db6cc14e86334c798d7563f42558",
+    "assemblySha256": "909ed92c516c6a2c2b635595bb4029107537731789b999d3bf377f1a8cd01e1b",
+    "acceptanceStatus": "passed-local-discrete-motion-geometry",
+    "physicalTrialCompleted": false
+  },
+  "assemblyReference": {
+    "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/servo-detector-gate-r2__H12p5_B4_R2.step",
+    "sha256": "edfa8ef7ffa975c5d17e8cefd86cc2e12f7e0ce08a6bbb4eb02f3ddbf1dd3db1",
+    "sourceStepSha256": "edfa8ef7ffa975c5d17e8cefd86cc2e12f7e0ce08a6bbb4eb02f3ddbf1dd3db1",
+    "revision": "CURRENT-B6R1-H12p5B4R2",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "cloudUrl": "https://cad.onshape.com/documents/6e58c9cce55d2925e9e4e840/v/437700e874b02419d6267c3d/e/1821ad3d439fbe35eb09042a",
+    "cloudStatus": "frozen-independent-assembly-readback-pending"
+  },
+  "assemblyAssets": [
+    {
+      "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/servo-detector-gate-r2__H12p5_B4_R2.step",
+      "sha256": "edfa8ef7ffa975c5d17e8cefd86cc2e12f7e0ce08a6bbb4eb02f3ddbf1dd3db1",
+      "poseDeg": 90,
+      "role": "complete-reference-assembly",
+      "solidCount": 40,
+      "includesStandardFastenerSolids": false,
+      "manufacturingUse": "自制件独立STEP与加工图；整体是机械参考装配"
+    },
+    {
+      "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/asset-servo-detector-gate-r2-1__H12p5_B4_R2.step",
+      "sha256": "f4f75e448db346ffec185c547537728004a8993c663686a86f35357eeade97dc",
+      "poseDeg": 0,
+      "role": "complete-reference-assembly",
+      "solidCount": 40,
+      "includesStandardFastenerSolids": false,
+      "manufacturingUse": "自制件独立STEP与加工图；整体是机械参考装配"
+    }
+  ],
+  "assemblyGroupAssets": [
+    {
+      "stepPath": "step/universal-post-b6-r1/assemblies/asset-servo-gate-fixed-group__B6_R1.step",
+      "sha256": "f219fa28308f1708fbe6710b5478ea3e979d3a4aaa7b563b4aad3c4f9502f489",
+      "role": "fixed",
+      "solidCount": 16
+    },
+    {
+      "stepPath": "step/servo-detector-gate-r2/SG00_MOVING_GROUP_KIT_LOCAL_R2.step",
+      "sha256": "f29e6a5be31a9ff384d43d7627b8f0395878b21dc1c47f89c0d82b2aefc8463b",
+      "role": "moving",
+      "solidCount": 24
+    }
+  ],
+  "assemblyPoseRecipe": {
+    "version": 1,
+    "defaultPoseDeg": 90,
+    "axisKit": [
+      1,
+      0,
+      0
+    ],
+    "pivotKitMm": [
+      -47.5,
+      -15,
+      31.0022334
+    ],
+    "physicalHornMatePointKitMm": [
+      -22.8020196,
+      -15,
+      31.0022334
+    ],
+    "interceptDeg": 0,
+    "stowedDeg": 90,
+    "sourceToKitMatrices": {
+      "servo_source_to_world": [
+        [
+          0.99999994597269,
+          -7.954444085819522e-10,
+          -0.000328716620743909,
+          -297.23719759553035
+        ],
+        [
+          -0.00032871662074390897,
+          -5.0487095206462667e-29,
+          -0.99999994597269,
+          91.4949353509175
+        ],
+        [
+          7.954443656062305e-10,
+          1.0,
+          -2.6147579797869654e-13,
+          -32.97020659159047
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "horn_source_to_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -20.052015436
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -5.499999900000001
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          31.0022334
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pd_source_to_world": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          -29.902019600000003
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -15.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          62.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "post_source_to_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "custom_parts_source_to_kit": [
+        [
+          1,
+          0,
+          0,
+          -47.5
+        ],
+        [
+          0,
+          1,
+          0,
+          -15
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "rigidGroups": {
+      "fixed": [
+        "SERVO_SOURCE",
+        "SG01_FIXED_MOUNT_R1",
+        "FORMAL_POST_H12p5_M2_SOURCE"
+      ],
+      "moving": [
+        "HORN_A_SOURCE",
+        "SG02_PD_CARRIER_R2",
+        "DETECTOR_SOURCE"
+      ]
+    },
+    "geometryStates": [
+      {
+        "angleDeg": 0,
+        "estimatedSensitivePointKitMm": [
+          -35.5520196,
+          -15,
+          62.5
+        ]
+      },
+      {
+        "angleDeg": 90,
+        "estimatedSensitivePointKitMm": [
+          -35.5520196,
+          -46.4977666,
+          31.0022334
+        ]
+      }
+    ],
+    "nativeUnitNote": "STEP source units are respected by importer; source-to-kit transforms act on resolved millimetres, no scale factor is embedded."
+  },
+  "topviewLayers": {
+    "fixed": {
+      "topViewPath": "topviews/servo-detector-gate-r2-fixed__H12p5_B4_R2.svg",
+      "sourceStepSha256": "f219fa28308f1708fbe6710b5478ea3e979d3a4aaa7b563b4aad3c4f9502f489",
+      "imageSha256": "6a8d25cfa1edd7e50c659d0698e4e0f7a2f6264b2780c0edf164977bab8768ad"
+    },
+    "moving": {
+      "topViewPath": "topviews/servo-detector-gate-r2-moving.svg"
+    },
+    "poseDeg": 90,
+    "runtimeMotionAdapter": "not-implemented"
+  },
+  "appearanceAssets": [
+    {
+      "topViewPath": "topviews/servo-detector-gate-r2__B6_R1.png",
+      "role": "complete-raster"
+    },
+    {
+      "topViewPath": "topviews/servo-detector-gate-r2-fixed__B6_R1.png",
+      "role": "fixed-raster"
+    },
+    {
+      "topViewPath": "topviews/servo-detector-gate-r2-moving.png",
+      "role": "moving-raster"
+    }
+  ],
+  "status": "完整本地安装资料 · 工程审核版 · 未实装",
+  "releaseStage": "engineering-review",
+  "productionReady": false,
+  "bundleStatus": "complete",
+  "bundleNote": "两姿态完整有效CAD、自制件STEP/PDF、激光DXF/定位PDF、BOM与真实收起俯视齐全；云端和总图册状态由旁置验收单分别记录。",
+  "notes": "采用当前H12.5 M2正式柱。19个5°角度样本无额外交叠；90°与Ø2示意束竖直净空10.998mm，不是连续运动认证。PD敏感面估算，源舵盘未表达内花键。  H12.5 B4-R2：普通H12.5柱底脚4 mm，其余普通柱保持各自规格；完整STEP已换柱回读，总高、孔位和全部器件姿态保持；未实物试装。",
+  "optionalNotes": [
+    "另需4颗舵机后壁螺钉、4颗舵盘连接螺钉、4套PD穿螺钉/螺母以及板侧紧固件；外部真实牙型/有效牙深和长度按实物核定，待核项单列不猜采购SKU。",
+    "先把SG01锁到柱，再装舵机；柱側M4×8名义旋入6.35955mm，小于偏置M4深8。两Ø2×8销两侧名义各4mm。",
+    "标准螺钉/Ø2销不另建详细实体；源商用件内部五金随原源保留。"
+  ],
+  "stepFormatRevision": {
+    "revision": "REAL-LEXICAL-FIX-20261014",
+    "mechanicalRevisionUnchanged": true,
+    "scope": "仅装配坐标和方向的STEP REAL词法修正：整数补小数点、小写指数改大写；几何数值、实体、层级和姿态不变。",
+    "nativeReadback": "6 models: exact solid metric, topology, cylinder and assembly transform equality",
+    "browserImport": "6 models read directly without compatibility preprocessing; 40/40/16/24 source solids retained"
+  },
+  "postBaseRevision": {
+    "revision": "H12p5-B4-R2",
+    "componentIds": [
+      "custom-post-metric-12p5mm-m1"
+    ],
+    "baseThicknessByComponentId": {
+      "custom-post-metric-12p5mm-m1": 4
+    },
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "physicalAssemblyAccepted": false,
+    "previousAssemblySha256": "2bcdad7ba9660a09b665e10412554e28e1cce36dbe55731554ddab8086e70342",
+    "currentAssemblySha256": "edfa8ef7ffa975c5d17e8cefd86cc2e12f7e0ce08a6bbb4eb02f3ddbf1dd3db1",
+    "replacementReportSha256": "9e5893313560ee62116c802e1b055521d0c1069a883348ae6b5e1c22d146241e",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "sourceUrl": "https://cad.onshape.com/documents/6e58c9cce55d2925e9e4e840/v/437700e874b02419d6267c3d/e/1821ad3d439fbe35eb09042a",
+  "cloudReference": {
+    "batch": 5,
+    "documentId": "6e58c9cce55d2925e9e4e840",
+    "workspaceId": "b482368ffdc22b2fb9daff0c",
+    "sourceUrl": "https://cad.onshape.com/documents/6e58c9cce55d2925e9e4e840/v/437700e874b02419d6267c3d/e/1821ad3d439fbe35eb09042a",
+    "status": "frozen-independent-assembly-readback-pending",
+    "observation": "Onshape notification panel and folder list via IAB",
+    "strictReadbackComplete": false,
+    "active": false,
+    "current": true,
+    "sourceStepSha256": "edfa8ef7ffa975c5d17e8cefd86cc2e12f7e0ce08a6bbb4eb02f3ddbf1dd3db1",
+    "automaticCloudReuseAllowed": false,
+    "independentAssemblyElementVerified": true,
+    "physicalAssemblyAccepted": false,
+    "versionId": "437700e874b02419d6267c3d",
+    "elementId": "1821ad3d439fbe35eb09042a",
+    "elementType": "Assembly",
+    "versionFrozen": true,
+    "uiEvidence": {
+      "path": null,
+      "sha256": "111070afdf1f7cfd83ecc7bf45897a424b5d8e31f4e01cf6a1d68eae2dbec7bd"
+    },
+    "checkedAt": "2026-10-28T01:54:56.736608+08:00"
+  },
+  "id": "servo-detector-gate-r2"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "custom-xbk-t01-h62p5-r1",
+  "name": "XBK-T01 腔镜一体上转接件",
+  "model": "XBK-T01 R1",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R1",
+  "stepPath": "step/xbk-cavity-piezo-h62p5-r1/XBK-T01_R1_MONOLITHIC_H62p5_316L.step",
+  "sourceStepSha256": "8bb7ccfb819ff72f39a66a48603380b586cea2fbc89bedbc2b8534e5189f2f9a",
+  "drawingPath": null,
+  "sourceDrawingSha256": "13d5e5e4548ef7c46c5bca059e56e067dae1736d30a7632931929c6d563bdc41",
+  "drawingPages": [
+    3,
+    4
+  ],
+  "manufacturingEvidence": {
+    "drawingPages": [
+      3,
+      4
+    ],
+    "sourceStepSha256": "8bb7ccfb819ff72f39a66a48603380b586cea2fbc89bedbc2b8534e5189f2f9a",
+    "physicalTrialCompleted": false,
+    "geometryChecks": "library/reviews/xbk-cavity-piezo-h62p5-r1-20261021/evidence/final_axis_and_height.json"
+  },
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "螺纹以攻丝底孔表达，按图纸孔旁规格及深度加工。通用公差与粗糙度按用户协议不标。"
+  },
+  "productionReady": false,
+  "manufacturingStatus": "engineering-review",
+  "status": "用户认可名义建模；尚未放行加工",
+  "notes": "厚6.9；四M2沉孔、一M4通牙及两Ø2.01定位盲孔；STEP采用整装坐标，底面Z=20。",
+  "laserMarking": {
+    "status": "review",
+    "reason": "原审核模型无已核定打标面或位置；本次打包不修改实体。",
+    "files": [],
+    "notes": " 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。"
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "ee81077239c645c66fbd2d00675b2774c0c4628d8d6aa953524529d985ff7170",
+        "sha256": "13d5e5e4548ef7c46c5bca059e56e067dae1736d30a7632931929c6d563bdc41"
+      }
+    ]
+  }
+}

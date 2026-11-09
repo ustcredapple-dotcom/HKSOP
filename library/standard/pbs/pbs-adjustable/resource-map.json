@@ -1,0 +1,35 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "pbs-adjustable",
+  "files": [
+    {
+      "path": "cad/4b0440058b7909e53c601191b8f6527686edb3917f98a8b6ed40f3ac40a51cc5.step",
+      "stored": "library/assets/sha256/4b/4b0440058b7909e53c601191b8f6527686edb3917f98a8b6ed40f3ac40a51cc5.step",
+      "sha256": "4b0440058b7909e53c601191b8f6527686edb3917f98a8b6ed40f3ac40a51cc5",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/pbs-adjustable__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/4b/4b0440058b7909e53c601191b8f6527686edb3917f98a8b6ed40f3ac40a51cc5.step"
+      ]
+    },
+    {
+      "path": "rendering/7aa65c32656cf0c8ba9e551abe34c4388f308802d543cd707f5c142a9bf98a33.svg",
+      "stored": "library/assets/sha256/7a/7aa65c32656cf0c8ba9e551abe34c4388f308802d543cd707f5c142a9bf98a33.svg",
+      "sha256": "7aa65c32656cf0c8ba9e551abe34c4388f308802d543cd707f5c142a9bf98a33",
+      "originalReferences": [
+        "topviews/pbs-adjustable__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/7a/7aa65c32656cf0c8ba9e551abe34c4388f308802d543cd707f5c142a9bf98a33.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "amp-1r",
+    "custom-09",
+    "custom-post-metric-12p5mm-m1",
+    "pbs24-532-alias",
+    "pcms1"
+  ]
+}

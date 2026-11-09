@@ -1,0 +1,30 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "d-mirror-dm1v-0-r1",
+  "revision": "R1",
+  "displayName": "DM1V-R1 · D形反射镜竖直刀口 · 0°",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/d-mirror-dm1v-0-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-dm1v-r1",
+    "custom-post-metric-25mm-m1",
+    "lbtek-amm3-1dr",
+    "metric-m1-post-m4x8",
+    "metric-m1-post-pin-d2x8",
+    "new-hardware-f0579b934c7c"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "it399-short-tray-r6",
+  "revision": "source-snapshot",
+  "displayName": "399 R6 · 缩短3.9 mm透镜托板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/it399-short-tray-r6.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

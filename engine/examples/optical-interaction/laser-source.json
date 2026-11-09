@@ -1,0 +1,17 @@
+{
+  "format": "zzlab-optical-interaction",
+  "version": 1,
+  "model": "source",
+  "emission": {
+    "direction": {
+      "angleDeg": 0,
+      "halfAngleDeg": 0,
+      "bidirectional": false
+    },
+    "wavelengthNm": {
+      "min": 532,
+      "max": 532,
+      "onMismatch": "block"
+    }
+  }
+}

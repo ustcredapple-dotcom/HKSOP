@@ -1,0 +1,86 @@
+{
+  "id": "new-r3-17-r3-adapter",
+  "name": "二英寸固定镜转接块",
+  "model": "17-MIR-F-M1",
+  "kind": "custom",
+  "unit": "件",
+  "status": "M1公制加工审核图；PDF、DXF与STEP同源",
+  "notes": "M1公制修订；原厂镜片S1朝向须按实物镀膜确认。。实物试装未完成。",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/2d9c1b53fcf6411c214c5a6c",
+  "stepPath": "step/metric-m1-20261006/17-MIR-F_METRIC_M1.step",
+  "drawingPath": null,
+  "sourceStepSha256": "8f3314b2c4fa9e21269044022f1968502117e2a718d41030aab45f94d5f5158c",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "threadClass": "待确认",
+    "profileId": "r6_316L_passivated",
+    "policyVersion": "supplied-manufacturing-M1-2026-10-05",
+    "processDetails": "商业M4为本件盲牙，配原厂镜架沉孔。 光学S1迎光面经柱心，商业孔轴不能移至零点。"
+  },
+  "drawingRevision": "M1",
+  "drawingStatus": "engineering-review",
+  "dxfPath": null,
+  "manufacturingEvidence": {
+    "sourcePackage": null,
+    "sourceCode": "17-MIR-F",
+    "sourceStepSha256": "8f3314b2c4fa9e21269044022f1968502117e2a718d41030aab45f94d5f5158c",
+    "drawingSha256": "36fb7d003c9b45c5e71600a99ff03ba7d30d692f540f519ca36253cd6acda8a9",
+    "dxfSha256": "2c475b8ce61bce40aa75646e3a5ffbb245fd7d0f2143b64cbd3c74665350190e",
+    "pageCount": 3,
+    "metricMigration": {
+      "post_height_old_mm": 12.7,
+      "post_height_new_mm": 12.5,
+      "selected_height_delta_mm": -0.8,
+      "world_bottom_delta_mm": -0.2,
+      "supplier_translation_mm": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "physicalTrialCompleted": false
+  },
+  "sourceDrawingSha256": "36fb7d003c9b45c5e71600a99ff03ba7d30d692f540f519ca36253cd6acda8a9",
+  "sourceDxfSha256": "2c475b8ce61bce40aa75646e3a5ffbb245fd7d0f2143b64cbd3c74665350190e",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "0ef0eb652c33810e39c291da94a118bc44887a49637f1dfa39513cbd09f5de57",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "ad148acf5f765c42d5aa483ee295d11669c111106a2acb2744b1b600e6e91050",
+      "currentPdfSha256": "133303add9d1d9753f9e98e0e064c4c2c089033d4acab7c5d680ebaa6f5df249",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "7d9f4cde445b25bcd49e3389180242bfd6a8a5196030465759e6bb3650317e5d",
+      "currentPdfSha256": "0ef0eb652c33810e39c291da94a118bc44887a49637f1dfa39513cbd09f5de57",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

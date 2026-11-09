@@ -1,0 +1,154 @@
+{
+  "id": "LS30-B-R3",
+  "name": "LS30 左/右型共用外露台面安装下板",
+  "model": "LS30-B-R3",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R3-A7075-TABLE-MOUNT",
+  "productionReady": false,
+  "manufacturingStatus": "review-required",
+  "manufacturingSpec": {
+    "material": "7075 铝合金",
+    "surfaceTreatment": "黑色阳极氧化",
+    "processDetails": "保持侧面LS30-B刻字；S01/S02顶面攻M3×0.5有效牙深6，Ø2.5直钻8加钻尖；B01-B04为Ø6.4通、Ø11.25顶面圆柱沉孔深6。去毛刺，非基准锐边轻倒钝≤0.2；不标通用公差和粗糙度。"
+  },
+  "status": "R3名义孔位与操作通道核验；待工艺及实装验收",
+  "notes": "50×100×12 mm，7075铝合金、黑色阳极氧化。S01/S02为M3×0.5盲螺纹：有效牙深6，Ø2.5圆柱钻深8加0.751076钻尖；STEP为攻牙底孔，不是销孔。四个外露B孔为Ø6.4通孔、Ø11.25顶面沉孔深6，装配坐标(±12.5,±37.5)，保持原25mm网格相位。4×M6×12无垫圈，名义旋入台面6；公制25mm孔距M6台面有效牙深至少8。完整模块可在台外组装，再直接从上方锁四个外露M6孔；拆移仅拆四颗M6，无需拆上板或位移台。台底2×M3×8名义旋入下板4。实际工具孔同轴、物理零点和承载仍须实装验收。",
+  "stepPath": "step/manual-stage-r3-table-mount/LS30-B.step",
+  "sourceStepSha256": "f6a21026771e56c079d6579af4307062474e7ba368af4e33cc768ca9b931fbaa",
+  "drawingPath": null,
+  "sourceDrawingSha256": "a10da4ceaa8d0aa7a4c26fc1326eb16daa2dea3bfdbe6d5d26604df8dbae87ff",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "dxfPath": null,
+  "sourceDxfSha256": "f4ccf1ac22b1b304807f8be23e8be15bce28e06d8247644fcaed94ab3c6dce61",
+  "manufacturingEvidence": {
+    "geometryRevision": "R3",
+    "materialRevision": "R3-A7075-TABLE-MOUNT",
+    "userOverride": "library/reviews/manual-moving-stage-r1-a7075-import-20261006/evidence/user-material-override-20261006.json",
+    "geometryUnchanged": false,
+    "previousRevision": "R2-A7075",
+    "previousStepSha256": "d089f410fd8027ffffa46459fe04f07a0d6621fa3de00531b694e857195e13fe",
+    "sourceStepSha256": "f6a21026771e56c079d6579af4307062474e7ba368af4e33cc768ca9b931fbaa",
+    "drawingSha256": "a10da4ceaa8d0aa7a4c26fc1326eb16daa2dea3bfdbe6d5d26604df8dbae87ff",
+    "dxfSha256": "f4ccf1ac22b1b304807f8be23e8be15bce28e06d8247644fcaed94ab3c6dce61",
+    "threadRepresentation": "tap-drill-geometry-with-explicit-thread-callouts",
+    "revisionEvidence": "library/reviews/ls30-table-mount-r3-install-20261007/evidence/review.json",
+    "threadedHoles": [
+      {
+        "id": "S01",
+        "xMm": 19.35,
+        "yMm": 50,
+        "entryFace": "top",
+        "thread": "M3x0.5",
+        "drillDiameterMm": 2.5,
+        "effectiveThreadDepthMm": 6,
+        "drillDepthMm": 8,
+        "drillPointDepthMm": 0.751076,
+        "role": "stage-attachment-thread"
+      },
+      {
+        "id": "S02",
+        "xMm": 30.65,
+        "yMm": 50,
+        "entryFace": "top",
+        "thread": "M3x0.5",
+        "drillDiameterMm": 2.5,
+        "effectiveThreadDepthMm": 6,
+        "drillDepthMm": 8,
+        "drillPointDepthMm": 0.751076,
+        "role": "stage-attachment-thread"
+      }
+    ],
+    "sourceDocumentSha256": "5c8cbb73597e2c4fe5f0a99e54d746539eed6f21ab80e95f55d270d0688cf0b2",
+    "documentationChange": "原R3下板图前两页保持，仅限定页3参考来源为已有柱/镜架/附件结构，光学物镜本体未建模。",
+    "externalSizeMm": [
+      50,
+      100,
+      12
+    ],
+    "tableFixing": {
+      "localCentersMm": [
+        [
+          12.5,
+          12.5
+        ],
+        [
+          12.5,
+          87.5
+        ],
+        [
+          37.5,
+          12.5
+        ],
+        [
+          37.5,
+          87.5
+        ]
+      ],
+      "assemblyCentersMm": [
+        [
+          -12.5,
+          -37.5
+        ],
+        [
+          -12.5,
+          37.5
+        ],
+        [
+          12.5,
+          -37.5
+        ],
+        [
+          12.5,
+          37.5
+        ]
+      ],
+      "throughDiameterMm": 6.4,
+      "counterboreDiameterMm": 11.25,
+      "counterboreDepthMm": 6,
+      "oldCounterboreDepthMm": 6.2,
+      "screw": "M6x12",
+      "nominalTableEngagementMm": 6,
+      "washers": false,
+      "minimumUsableTableThreadDepthMm": 8
+    }
+  },
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "9a9867e5d077e1a1b8f0a4539e88b386fd30e1ef6e394751ad3b3e11855094a0",
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "beb78342d0e6990372b505b507819651a5256fcfc02f17fe092bdaa39e9c5296",
+      "currentPdfSha256": "6f9fa2846107b988e2897baaaea0270d07c9a3a9f11b286f6976e67955afafb4",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "12fa5f36da41a97ab6437036524f135055762dc5135a22abe48f94b751c08c4c",
+      "currentPdfSha256": "9a9867e5d077e1a1b8f0a4539e88b386fd30e1ef6e394751ad3b3e11855094a0",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

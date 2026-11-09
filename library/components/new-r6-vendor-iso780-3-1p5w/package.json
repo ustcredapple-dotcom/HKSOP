@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "new-r6-vendor-iso780-3-1p5w",
+  "revision": "source-snapshot",
+  "displayName": "法拉第隔离器 · 780 nm",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/new-r6-vendor-iso780-3-1p5w.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

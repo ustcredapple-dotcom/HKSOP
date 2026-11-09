@@ -1,0 +1,55 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "cage",
+  "files": [
+    {
+      "path": "cad/586ee45e4a46de115ccc354b94b81640c45ab033718b9ec3b50854c7bc50a41e.step",
+      "stored": "library/assets/sha256/58/586ee45e4a46de115ccc354b94b81640c45ab033718b9ec3b50854c7bc50a41e.step",
+      "sha256": "586ee45e4a46de115ccc354b94b81640c45ab033718b9ec3b50854c7bc50a41e",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/cage-90__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/58/586ee45e4a46de115ccc354b94b81640c45ab033718b9ec3b50854c7bc50a41e.step"
+      ]
+    },
+    {
+      "path": "rendering/7790793af48ff6f1af0ce8e6b76a42dbc4f639a36cf0f9e5b9978da59cbe3bae.svg",
+      "stored": "library/assets/sha256/77/7790793af48ff6f1af0ce8e6b76a42dbc4f639a36cf0f9e5b9978da59cbe3bae.svg",
+      "sha256": "7790793af48ff6f1af0ce8e6b76a42dbc4f639a36cf0f9e5b9978da59cbe3bae",
+      "originalReferences": [
+        "topviews/cage-45__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/77/7790793af48ff6f1af0ce8e6b76a42dbc4f639a36cf0f9e5b9978da59cbe3bae.svg"
+      ]
+    },
+    {
+      "path": "cad/92ee638932d1f15401849f533143b387bb8878f3ea00b29e8b968d72e2275ba8.step",
+      "stored": "library/assets/sha256/92/92ee638932d1f15401849f533143b387bb8878f3ea00b29e8b968d72e2275ba8.step",
+      "sha256": "92ee638932d1f15401849f533143b387bb8878f3ea00b29e8b968d72e2275ba8",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/cage-45__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/92/92ee638932d1f15401849f533143b387bb8878f3ea00b29e8b968d72e2275ba8.step"
+      ]
+    },
+    {
+      "path": "rendering/af41acd461c466b9bb3b63f8474fdbe66382cf314864368e74fdc85b53001a63.svg",
+      "stored": "library/assets/sha256/af/af41acd461c466b9bb3b63f8474fdbe66382cf314864368e74fdc85b53001a63.svg",
+      "sha256": "af41acd461c466b9bb3b63f8474fdbe66382cf314864368e74fdc85b53001a63",
+      "originalReferences": [
+        "topviews/cage-90__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/af/af41acd461c466b9bb3b63f8474fdbe66382cf314864368e74fdc85b53001a63.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-15",
+    "custom-post-metric-25mm-m1",
+    "opm-12.5bs"
+  ]
+}

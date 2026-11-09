@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-v7-m3-h2",
+  "revision": "V7-R1",
+  "displayName": "V7 M3–H2 电机联接轴",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-v7-m3-h2.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

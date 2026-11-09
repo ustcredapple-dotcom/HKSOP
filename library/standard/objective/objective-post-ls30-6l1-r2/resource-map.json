@@ -1,0 +1,47 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "objective-post-ls30-6l1-r2",
+  "files": [
+    {
+      "path": "cad/1cb4d1ee48491f7970764cdf3f95d6f4e1f6c736eec71642459e7b98d8327d31.step",
+      "stored": "library/assets/sha256/1c/1cb4d1ee48491f7970764cdf3f95d6f4e1f6c736eec71642459e7b98d8327d31.step",
+      "sha256": "1cb4d1ee48491f7970764cdf3f95d6f4e1f6c736eec71642459e7b98d8327d31",
+      "originalReferences": [
+        "step/objective-mounted-r3/TTN189223-E0W.step"
+      ],
+      "sources": [
+        "library/assets/sha256/1c/1cb4d1ee48491f7970764cdf3f95d6f4e1f6c736eec71642459e7b98d8327d31.step"
+      ]
+    },
+    {
+      "path": "rendering/3b8145c72bed230d0c3d4baef9c41ab28676a4e9d202c9b105215c49df683ef3.svg",
+      "stored": "library/assets/sha256/3b/3b8145c72bed230d0c3d4baef9c41ab28676a4e9d202c9b105215c49df683ef3.svg",
+      "sha256": "3b8145c72bed230d0c3d4baef9c41ab28676a4e9d202c9b105215c49df683ef3",
+      "originalReferences": [
+        "topviews/objective-post-ls30-6l1-r2__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/3b/3b8145c72bed230d0c3d4baef9c41ab28676a4e9d202c9b105215c49df683ef3.svg"
+      ]
+    },
+    {
+      "path": "cad/77b1e899a3fbbb0b927cf253d4420bae3348424c11d1e9a7926cfe5ebe3ea588.step",
+      "stored": "library/assets/sha256/77/77b1e899a3fbbb0b927cf253d4420bae3348424c11d1e9a7926cfe5ebe3ea588.step",
+      "sha256": "77b1e899a3fbbb0b927cf253d4420bae3348424c11d1e9a7926cfe5ebe3ea588",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/objective-post-ls30-6l1-r2__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/77/77b1e899a3fbbb0b927cf253d4420bae3348424c11d1e9a7926cfe5ebe3ea588.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-30-obj-m-r2",
+    "custom-post-metric-25mm-m1",
+    "hardware-iso4762-m6x12",
+    "new-hardware-0cc1a2908550",
+    "new-hardware-d56c7b8035c3",
+    "new-r3-hardware-b7a3ea97ce89"
+  ]
+}

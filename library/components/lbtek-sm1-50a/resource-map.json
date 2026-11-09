@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "lbtek-sm1-50a",
+  "files": [
+    {
+      "path": "cad/3758e9a9e65f2eb15fc2f9b0ee4c52add57107e06a2f8f30d9a45d2814387faa.step",
+      "stored": "library/assets/sha256/37/3758e9a9e65f2eb15fc2f9b0ee4c52add57107e06a2f8f30d9a45d2814387faa.step",
+      "sha256": "3758e9a9e65f2eb15fc2f9b0ee4c52add57107e06a2f8f30d9a45d2814387faa",
+      "originalReferences": [
+        "step/txy1s-fixed-r5/vendor/SM1-50A.step"
+      ],
+      "sources": [
+        "library/assets/sha256/37/3758e9a9e65f2eb15fc2f9b0ee4c52add57107e06a2f8f30d9a45d2814387faa.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

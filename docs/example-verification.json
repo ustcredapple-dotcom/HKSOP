@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "actualEditorBoardValidation": true,
+  "projectCount": 3,
+  "compatibleProjectFiles": 3,
+  "blockedProjectFiles": 0,
+  "projectResults": [
+    {
+      "project": "基础反射示例",
+      "file": "project.zzoptics.json",
+      "compatible": true,
+      "instances": 1,
+      "warnings": []
+    },
+    {
+      "project": "一分三示例",
+      "file": "project.zzoptics.json",
+      "compatible": true,
+      "instances": 18,
+      "warnings": []
+    },
+    {
+      "project": "DoublePass示例",
+      "file": "project.zzoptics.json",
+      "compatible": true,
+      "instances": 12,
+      "warnings": []
+    }
+  ],
+  "v4Results": [
+    {
+      "profile": "web",
+      "normalization": true,
+      "passiveEmitterRejected": true,
+      "missingSettingsRejected": true,
+      "forwardAndReverseTrace": true,
+      "gaussianLensTransform": true,
+      "missingFocalLengthBlocked": true
+    },
+    {
+      "profile": "editor",
+      "normalization": true,
+      "passiveEmitterRejected": true,
+      "missingSettingsRejected": true,
+      "forwardAndReverseTrace": true,
+      "gaussianLensTransform": true,
+      "missingFocalLengthBlocked": true
+    }
+  ]
+}

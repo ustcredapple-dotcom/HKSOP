@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-mcve05-r1",
+  "files": [
+    {
+      "path": "cad/368f829c2c84d5e613f58a3c1be942181b4f65f367a1cff9d98d065f0a7e762b.step",
+      "stored": "library/assets/sha256/36/368f829c2c84d5e613f58a3c1be942181b4f65f367a1cff9d98d065f0a7e762b.step",
+      "sha256": "368f829c2c84d5e613f58a3c1be942181b4f65f367a1cff9d98d065f0a7e762b",
+      "originalReferences": [
+        "step/combined-r1-20261015/0/MCVE05-R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/36/368f829c2c84d5e613f58a3c1be942181b4f65f367a1cff9d98d065f0a7e762b.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

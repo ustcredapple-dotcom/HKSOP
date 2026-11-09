@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "lbtek-mopc-5p6-p4",
+  "files": [
+    {
+      "path": "cad/d401f8ac61077aa93848f675f7dd57b82cac030f06a9fd99b980f6fccb1ef653.step",
+      "stored": "library/assets/sha256/d4/d401f8ac61077aa93848f675f7dd57b82cac030f06a9fd99b980f6fccb1ef653.step",
+      "sha256": "d401f8ac61077aa93848f675f7dd57b82cac030f06a9fd99b980f6fccb1ef653",
+      "originalReferences": [
+        "step/bd1-r2/MOPC-5.6_official.step"
+      ],
+      "sources": [
+        "library/assets/sha256/d4/d401f8ac61077aa93848f675f7dd57b82cac030f06a9fd99b980f6fccb1ef653.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

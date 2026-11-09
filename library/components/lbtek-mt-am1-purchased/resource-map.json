@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "lbtek-mt-am1-purchased",
+  "files": [
+    {
+      "path": "cad/e153e583a86c2539335b44aaf453f9ee7f1e90066426ab2de85d665c42dd829a.step",
+      "stored": "library/assets/sha256/e1/e153e583a86c2539335b44aaf453f9ee7f1e90066426ab2de85d665c42dd829a.step",
+      "sha256": "e153e583a86c2539335b44aaf453f9ee7f1e90066426ab2de85d665c42dd829a",
+      "originalReferences": [
+        "step/mt-cube-module-r1/MT-AM1-vendor.step"
+      ],
+      "sources": [
+        "library/assets/sha256/e1/e153e583a86c2539335b44aaf453f9ee7f1e90066426ab2de85d665c42dd829a.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

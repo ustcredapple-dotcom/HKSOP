@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "laser-ecdl-1030nm",
+  "files": [
+    {
+      "path": "rendering/a31bf398da47e8d813f2a44a9f9141435a4919e2e2c5b6342c337b596acea49f.svg",
+      "stored": "library/assets/sha256/a3/a31bf398da47e8d813f2a44a9f9141435a4919e2e2c5b6342c337b596acea49f.svg",
+      "sha256": "a31bf398da47e8d813f2a44a9f9141435a4919e2e2c5b6342c337b596acea49f",
+      "originalReferences": [
+        "topviews/kit_laser-ecdl-1030nm.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/a3/a31bf398da47e8d813f2a44a9f9141435a4919e2e2c5b6342c337b596acea49f.svg"
+      ]
+    }
+  ],
+  "dependencies": []
+}

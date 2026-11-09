@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-aom-heatspreader08-rf180-r1",
+  "files": [
+    {
+      "path": "cad/3b0bf1385ec892cdd253ab845670e3933a5088bb8e9a3495c1260aeee3220dcb.step",
+      "stored": "library/assets/sha256/3b/3b0bf1385ec892cdd253ab845670e3933a5088bb8e9a3495c1260aeee3220dcb.step",
+      "sha256": "3b0bf1385ec892cdd253ab845670e3933a5088bb8e9a3495c1260aeee3220dcb",
+      "originalReferences": [
+        "step/aom-rf180-metric/08-AOM-HR_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/3b/3b0bf1385ec892cdd253ab845670e3933a5088bb8e9a3495c1260aeee3220dcb.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

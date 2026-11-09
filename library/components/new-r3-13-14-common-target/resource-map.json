@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-r3-13-14-common-target",
+  "files": [
+    {
+      "path": "cad/81a72f66320ecfeccd79025ed7918dac2ff6bfd1aa613668dce331349ff1aabe.step",
+      "stored": "library/assets/sha256/81/81a72f66320ecfeccd79025ed7918dac2ff6bfd1aa613668dce331349ff1aabe.step",
+      "sha256": "81a72f66320ecfeccd79025ed7918dac2ff6bfd1aa613668dce331349ff1aabe",
+      "originalReferences": [
+        "step/metric-m1-20261006/13-TGT_METRIC_M1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/81/81a72f66320ecfeccd79025ed7918dac2ff6bfd1aa613668dce331349ff1aabe.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

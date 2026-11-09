@@ -1,0 +1,78 @@
+{
+  "id": "custom-periscope-s45-r1",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/6c60a0fd2c8010c62a6dc997/e/575e6fc0d1ce4a46ba1041c9",
+  "name": "27-S45 一体45°镜架侧装基座",
+  "model": "27-S45 R1",
+  "kind": "custom",
+  "unit": "件",
+  "stepPath": "step/laser308-periscope/27-S45_R1.step",
+  "drawingPath": null,
+  "dxfPath": null,
+  "sourceStepSha256": "6c43fd8b388b7e1fa6d1083ae42c2b259f34f5c97115ba8af700dd902c8a522d",
+  "sourceDrawingSha256": "b10984871c8c6d3b22488586b2b75f3905d501762cb611d6e99a44587516358b",
+  "drawingPages": [
+    9,
+    10,
+    11,
+    12
+  ],
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "单体整块加工；孔/深度/局部要求见冻结图。未添加通用公差或粗糙度。"
+  },
+  "status": "复用冻结27-S45 R1；不改实体",
+  "notes": "定制件名义CAD已审；M6间隙螺钉不当作实测精密定位。",
+  "drawingSourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/6c60a0fd2c8010c62a6dc997/e/7752908a3801caa1fe337bfd",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "2f76f8160a10671ac185487ad21e93a17e35375b221d003de3d7566dac8f533b",
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "4f75a0809b29e44650927d40d586731334cb477505724d1ef6ae77e82b9fa33d",
+      "currentPdfSha256": "bbc48b84684bd761cf5ccfaa88653ecbe53eaf37125a84624d2c2c719c98bcb4",
+      "annotatedPages": [
+        1,
+        4,
+        9,
+        10
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "3473ea52e059b7fe5514f06d25748a5f261696f90e3fe9a15ec98966a9e4fd40",
+      "currentPdfSha256": "2f76f8160a10671ac185487ad21e93a17e35375b221d003de3d7566dac8f533b",
+      "annotatedPages": [
+        1,
+        2
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "f81fe1fc14beb1d6f99963ac14231b21ac41807f8c586a8221d79df54bb5531b",
+        "sha256": "b10984871c8c6d3b22488586b2b75f3905d501762cb611d6e99a44587516358b"
+      }
+    ]
+  }
+}

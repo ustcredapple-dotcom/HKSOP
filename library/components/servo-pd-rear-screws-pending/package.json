@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "servo-pd-rear-screws-pending",
+  "revision": "source-snapshot",
+  "displayName": "舵机后侧螺钉（4颗/套）",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/servo-pd-rear-screws-pending.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

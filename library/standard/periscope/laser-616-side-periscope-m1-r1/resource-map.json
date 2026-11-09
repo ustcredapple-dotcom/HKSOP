@@ -1,0 +1,68 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "laser-616-side-periscope-m1-r1",
+  "files": [
+    {
+      "path": "rendering/21005815eda877690bcb9502f8de7d0eac3bf2d8d18f5c3db1e56ea7442e626a.svg",
+      "stored": "library/assets/sha256/21/21005815eda877690bcb9502f8de7d0eac3bf2d8d18f5c3db1e56ea7442e626a.svg",
+      "sha256": "21005815eda877690bcb9502f8de7d0eac3bf2d8d18f5c3db1e56ea7442e626a",
+      "originalReferences": [
+        "topviews/laser616-nominal-optical-side.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/21/21005815eda877690bcb9502f8de7d0eac3bf2d8d18f5c3db1e56ea7442e626a.svg"
+      ]
+    },
+    {
+      "path": "cad/4b3a9d9fcda29de3f61665cef0bc302ae3ab983c21c21904738690097e2741ad.step",
+      "stored": "library/assets/sha256/4b/4b3a9d9fcda29de3f61665cef0bc302ae3ab983c21c21904738690097e2741ad.step",
+      "sha256": "4b3a9d9fcda29de3f61665cef0bc302ae3ab983c21c21904738690097e2741ad",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/asset-laser-616-side-periscope-m1-r1-1__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/4b/4b3a9d9fcda29de3f61665cef0bc302ae3ab983c21c21904738690097e2741ad.step"
+      ]
+    },
+    {
+      "path": "cad/4c16a1e434593cf9f756c13ce24e98a247a44e696c075a31dcb6a59e2771b239.step",
+      "stored": "library/assets/sha256/4c/4c16a1e434593cf9f756c13ce24e98a247a44e696c075a31dcb6a59e2771b239.step",
+      "sha256": "4c16a1e434593cf9f756c13ce24e98a247a44e696c075a31dcb6a59e2771b239",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/laser-616-side-periscope-m1-r1__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/4c/4c16a1e434593cf9f756c13ce24e98a247a44e696c075a31dcb6a59e2771b239.step"
+      ]
+    },
+    {
+      "path": "rendering/e9295579f7b355631bd259a18829178324d42e249a33ab276d82d3f7bd433519.svg",
+      "stored": "library/assets/sha256/e9/e9295579f7b355631bd259a18829178324d42e249a33ab276d82d3f7bd433519.svg",
+      "sha256": "e9295579f7b355631bd259a18829178324d42e249a33ab276d82d3f7bd433519",
+      "originalReferences": [
+        "topviews/laser-616-side-periscope-m1-r1__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/e9/e9295579f7b355631bd259a18829178324d42e249a33ab276d82d3f7bd433519.svg"
+      ]
+    },
+    {
+      "path": "cad/ec7d407aa84e6c51ccd300ba90fb1823c48ff3de053560d1d5db3b3e8da790f3.step",
+      "stored": "library/assets/sha256/ec/ec7d407aa84e6c51ccd300ba90fb1823c48ff3de053560d1d5db3b3e8da790f3.step",
+      "sha256": "ec7d407aa84e6c51ccd300ba90fb1823c48ff3de053560d1d5db3b3e8da790f3",
+      "originalReferences": [
+        "step/laser616-periscope-r1/MT-AM1S5-reference-normalized.step"
+      ],
+      "sources": [
+        "library/assets/sha256/ec/ec7d407aa84e6c51ccd300ba90fb1823c48ff3de053560d1d5db3b3e8da790f3.step"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-laser616-10c-r1",
+    "custom-laser616-frame-r1",
+    "custom-periscope-s45-r1",
+    "custom-post-metric-12p5mm-m1",
+    "mt-am1s5"
+  ]
+}

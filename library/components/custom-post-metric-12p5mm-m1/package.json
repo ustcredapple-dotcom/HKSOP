@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-post-metric-12p5mm-m1",
+  "revision": "B4-R2",
+  "displayName": "万能柱 12.5 mm · 底脚4 mm B4 R2 · M4",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-post-metric-12p5mm-m1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

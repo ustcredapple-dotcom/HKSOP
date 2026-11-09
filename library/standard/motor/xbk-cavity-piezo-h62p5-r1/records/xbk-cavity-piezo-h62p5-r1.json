@@ -1,0 +1,496 @@
+{
+  "name": "XBK Cavity · 压电轴向腔镜整装",
+  "category": "motor",
+  "variant": "H62.5 / 一体上件 / 双沉槽 / R1",
+  "revision": "R1-H62p5-AXIAL",
+  "description": "双转接件、LS35压电台、2英寸电动镜架及三爪腔镜作为一个完整套件。光高62.5mm，光轴沿Y；双槽前后粗调±12.5mm。",
+  "components": [
+    {
+      "componentId": "new-r3-vendor-mt-am2s5",
+      "quantity": 1
+    },
+    {
+      "componentId": "encoder-servo",
+      "quantity": 2
+    },
+    {
+      "componentId": "motor-adapter-m3",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-h2d2-b-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-h2d2-s-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-h2d2-l-r2",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-h2-r3-m2x10",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-iso4762-m3x8",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-h2-r3-m4x20",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-h2-r3-m4-washer",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-source-m4-nut",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-xbk-b01-h62p5-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-xbk-t01-h62p5-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "zolix-ls35x-lab-e-purchased-stage",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-cm127-a1-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "ganter-gn9135-m3-3-ku",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-xbk-cbs2-5-lowhead",
+      "quantity": 3
+    },
+    {
+      "componentId": "hardware-iso4762-m2x8",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-xbk-iso4762-m6x8",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "cavity-mirror",
+      "label": "现有Ø12.7 R20腔镜（随整装保留，型号待补）",
+      "type": "mirror",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 12.7,
+      "defaultExisting": true,
+      "notes": "几何参考镜片随STEP保留；不自动重复采购，镀膜/基片参数未知。"
+    }
+  ],
+  "sourceUrl": "https://cad.onshape.com/documents/2960bcecbaa1e9d8271fb116/w/934e7e3b1303a62130202a43/e/39ee702668859b773d695027",
+  "layout": {
+    "placementAllowed": true,
+    "widthMm": 85,
+    "heightMm": 96,
+    "anchorXMm": 41,
+    "anchorYMm": 25,
+    "topViewPath": "topviews/xbk-cavity-piezo-h62p5-r1.svg",
+    "topViewUrl": "./topviews/xbk-cavity-piezo-h62p5-r1.svg",
+    "baseBoundsMm": {
+      "xMin": -35,
+      "xMax": 35,
+      "yMin": -22.5,
+      "yMax": 22.5
+    },
+    "collisionBoundsMm": {
+      "xMin": -39.15,
+      "yMin": -68.74910000000001,
+      "xMax": 41.75,
+      "yMax": 22.638581929876693
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -34.15,
+          "yMm": -23.4491
+        },
+        {
+          "xMm": -34.15,
+          "yMm": -22.65
+        },
+        {
+          "xMm": -35.0,
+          "yMm": -22.65
+        },
+        {
+          "xMm": -35.106066,
+          "yMm": -22.606066
+        },
+        {
+          "xMm": -35.15,
+          "yMm": -22.5
+        },
+        {
+          "xMm": -35.15,
+          "yMm": 22.5
+        },
+        {
+          "xMm": -35.057403,
+          "yMm": 22.638582
+        },
+        {
+          "xMm": 35.057403,
+          "yMm": 22.638582
+        },
+        {
+          "xMm": 35.15,
+          "yMm": 22.5
+        },
+        {
+          "xMm": 35.15,
+          "yMm": -20.389921
+        },
+        {
+          "xMm": 35.351182,
+          "yMm": -20.528516
+        },
+        {
+          "xMm": 35.533749,
+          "yMm": -20.728007
+        },
+        {
+          "xMm": 35.664622,
+          "yMm": -20.964465
+        },
+        {
+          "xMm": 35.734824,
+          "yMm": -21.213366
+        },
+        {
+          "xMm": 35.75,
+          "yMm": -23.4491
+        },
+        {
+          "xMm": 39.057403,
+          "yMm": -23.460518
+        },
+        {
+          "xMm": 39.15,
+          "yMm": -23.5991
+        },
+        {
+          "xMm": 39.15,
+          "yMm": -25.2491
+        },
+        {
+          "xMm": 40.6,
+          "yMm": -25.2491
+        },
+        {
+          "xMm": 40.706066,
+          "yMm": -25.293034
+        },
+        {
+          "xMm": 40.75,
+          "yMm": -25.3991
+        },
+        {
+          "xMm": 40.75,
+          "yMm": -52.4491
+        },
+        {
+          "xMm": 41.6,
+          "yMm": -52.4491
+        },
+        {
+          "xMm": 41.706066,
+          "yMm": -52.493034
+        },
+        {
+          "xMm": 41.75,
+          "yMm": -52.5991
+        },
+        {
+          "xMm": 41.738582,
+          "yMm": -68.656503
+        },
+        {
+          "xMm": 41.6,
+          "yMm": -68.7491
+        },
+        {
+          "xMm": -39.057403,
+          "yMm": -68.737682
+        },
+        {
+          "xMm": -39.15,
+          "yMm": -68.5991
+        },
+        {
+          "xMm": -39.15,
+          "yMm": -23.5991
+        },
+        {
+          "xMm": -39.106066,
+          "yMm": -23.493034
+        },
+        {
+          "xMm": -39.0,
+          "yMm": -23.4491
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -25,
+        "yMm": 0
+      },
+      {
+        "xMm": 25,
+        "yMm": 0
+      }
+    ],
+    "minimumAlignedMountingHoles": 2,
+    "opticalAxisHeightMm": 62.5,
+    "nominalOpticalHeightMm": 62.5,
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalSurfaceAngleDeg": 0,
+    "opticalDatumVerified": true,
+    "opticalAxisHeightSource": "实际R20球面顶点；高度链8+12+6.9+35.6=62.5",
+    "opticalType": "unsupported",
+    "opticalSimulationNote": "曲面腔镜R20，镀膜/折射率及腔参数未给；现有引擎不支持本曲面厚基片追迹，不按理想平面镜计算。",
+    "opticalDefaults": {
+      "elementType": "unsupported",
+      "inserted": true,
+      "configured": true,
+      "clearApertureMm": 11.7
+    },
+    "opticalInteraction": {
+      "format": "zzlab-optical-interaction",
+      "version": 1,
+      "model": "planar",
+      "onNoMatch": "block",
+      "heightToleranceMm": 0.1,
+      "inputs": [
+        {
+          "id": "cavity",
+          "steps": [
+            {
+              "op": "block",
+              "reason": "曲面腔镜R20，镀膜/折射率及腔参数未给；现有引擎不支持本曲面厚基片追迹，不按理想平面镜计算。"
+            }
+          ]
+        }
+      ]
+    },
+    "geometryEvidence": {
+      "sourceStepSha256": "90b433a35565b78bb88fab77a0f3ead2db214cb9754a331d1022b0be23cff658",
+      "leafCount": 53,
+      "preservedLeafCount": 51,
+      "newSolidCount": 2,
+      "cadFrameAlreadyKitLocal": true,
+      "sourceToKit": {
+        "matrixRows": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "translationMm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "collisionProjectionBufferMm": 0.15,
+      "nominalPoseOnly": true
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "90b433a35565b78bb88fab77a0f3ead2db214cb9754a331d1022b0be23cff658",
+      "imageSha256": "a90931764e0fd6e3542363765801294398d49ecf5474338a25ccdbac4c3b75a1"
+    },
+    "opticalGeometryEvidence": {
+      "referencePointWorldMm": [
+        0,
+        0,
+        62.5
+      ],
+      "normalWorld": [
+        0,
+        1,
+        0
+      ],
+      "referenceKind": "actual concave spherical vertex R20; not back plane",
+      "coatingIdentityVerified": false,
+      "sourceStepSha256": "90b433a35565b78bb88fab77a0f3ead2db214cb9754a331d1022b0be23cff658",
+      "physicalTrialCompleted": false
+    },
+    "status": "真实STEP名义中位整装；安装/光学基准已核",
+    "note": "槽中点以X=±25,Y=0登记名义安装相位；两个点均在真实通槽内，不把槽冒充圆孔。底座原点取实际25mm母板孔网，名义光学XYZ为12.5倍数。粗调/压电为连续位移，不承诺调节后仍落格。当前编辑器显示q=0快照，无专用滑块；完整运动语义见mechanicalKinematics。"
+  },
+  "assemblyReference": {
+    "stepPath": "step/xbk-cavity-piezo-h62p5-r1/XBK_Cavity_H62p5_R1_ASSEMBLY.step",
+    "sourceStepSha256": "90b433a35565b78bb88fab77a0f3ead2db214cb9754a331d1022b0be23cff658",
+    "sha256": "90b433a35565b78bb88fab77a0f3ead2db214cb9754a331d1022b0be23cff658",
+    "revision": "R1-H62p5-AXIAL",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "leafCount": 53,
+    "note": "完整保留51源叶件与2新件。原台体22叶、镜架/腔镜29叶。固定名义姿态文件；未建立Onshape运动mates。",
+    "includeInBundle": true,
+    "drawingPath": null,
+    "sourceDrawingSha256": "13d5e5e4548ef7c46c5bca059e56e067dae1736d30a7632931929c6d563bdc41"
+  },
+  "assemblyAssets": [
+    {
+      "stepPath": "step/xbk-cavity-piezo-h62p5-r1/XBK_Cavity_H62p5_R1_ASSEMBLY.step",
+      "sha256": "90b433a35565b78bb88fab77a0f3ead2db214cb9754a331d1022b0be23cff658",
+      "role": "reviewed-complete-nominal-assembly",
+      "assemblyLeafCount": 53
+    }
+  ],
+  "mechanicalConfiguration": {
+    "coarseOffsetMm": 0,
+    "stageOffsetMm": 0,
+    "mirrorTipTilt": "source nominal"
+  },
+  "mechanicalKinematics": {
+    "axis": [
+      0,
+      1,
+      0
+    ],
+    "baseCoarseTravelMm": [
+      -12.5,
+      12.5
+    ],
+    "stageNominalTravelMm": [
+      -10,
+      10
+    ],
+    "nominalOpticalVertexMm": [
+      0,
+      0,
+      62.5
+    ],
+    "opticalVertexFormula": "[0, coarseOffsetMm + stageOffsetMm, 62.5]",
+    "movingLeaves": [
+      "SupplierSolid02_MOVING",
+      "SupplierSolid13_MOVING",
+      "SupplierSolid06_MOVING",
+      "SupplierSolid15_MOVING",
+      "SupplierSolid05_MOVING",
+      "SupplierSolid04_MOVING",
+      "SupplierSolid11_MOVING",
+      "SupplierSolid14_MOVING",
+      "SupplierSolid12_MOVING",
+      "SupplierSolid10_MOVING",
+      "XBK-T01_R1_MONOLITHIC_H62p5_316L",
+      "SERVO_HIGH",
+      "MT_AM2S5_source_leaf_17",
+      "MT_AM2S5_source_leaf_15",
+      "MT_AM2S5_source_leaf_19",
+      "MT_AM2S5_source_leaf_04",
+      "MT_AM2S5_source_leaf_03",
+      "MT_AM2S5_source_leaf_13",
+      "MT_AM2S5_source_leaf_18",
+      "SERVO_LOW",
+      "MT_AM2S5_source_leaf_20",
+      "H2D2-S",
+      "MT_AM2S5_source_leaf_07",
+      "MT_AM2S5_source_leaf_16",
+      "SOURCE_HIGH_SHAFT_11MM",
+      "MT_AM2S5_source_leaf_02",
+      "H2D2-L",
+      "MT_AM2S5_source_leaf_08",
+      "MT_AM2S5_source_leaf_11",
+      "MT_AM2S5_source_leaf_09",
+      "MT_AM2S5_source_leaf_05",
+      "MT_AM2S5_source_leaf_12",
+      "H2D2-B",
+      "MT_AM2S5_source_leaf_10",
+      "MT_AM2S5_source_leaf_06",
+      "MT_AM2S5_source_leaf_14",
+      "CM127-A1 | R3 SINGLE PIECE Al6061-T6",
+      "Cavity_mirror_D12p7_R20_ET4_flatband0p5",
+      "GN913.5 M3x3 KU | nominal stainless body | NO INTERNAL SPRING",
+      "GN913.5 POM soft tip | nominal projection0.8"
+    ],
+    "fixedLeaves": [
+      "XBK-B01_R1_P25_BOTTOM_316L",
+      "SupplierSolid16_FIXED",
+      "SupplierSolid08_FIXED",
+      "SupplierSolid17_FIXED",
+      "SupplierSolid09_FIXED",
+      "SupplierSolid22_FIXED",
+      "SupplierSolid01_FIXED",
+      "SupplierSolid19_FIXED",
+      "SupplierSolid07_FIXED",
+      "SupplierSolid18_FIXED",
+      "SupplierSolid21_FIXED",
+      "SupplierSolid03_FIXED",
+      "SupplierSolid20_FIXED"
+    ],
+    "mirrorAngularRange": null,
+    "stageTravelBasis": "inherited nominal CAD/LS35 source; actual .E model and powered travel unverified",
+    "editorDynamicMotionSupported": false
+  },
+  "manufacturingDrawingPath": null,
+  "productionReady": false,
+  "releaseStage": "engineering-review",
+  "status": "用户认可建模；三点固定/实物接口及加工放行待确认",
+  "notes": "源台体第四孔遮挡，采用3×M2×5低头；采购台体只计1套，内部22实体不重复采购。旧上下转接板/万能柱/18-S2不纳入。曲面腔镜不按平面镜模拟。保留SupplierSolid22_FIXED云端导入警告。",
+  "pendingRequirements": [
+    {
+      "id": "three-point-load",
+      "label": "确认三点固定承载与实际.E台体接口"
+    },
+    {
+      "id": "source-cloud-warning",
+      "label": "保留原台体SupplierSolid22_FIXED导入警告；新件本地有效"
+    },
+    {
+      "id": "fastening-to-mount",
+      "label": "现有M4/定位销实际装配长度与防松待实核"
+    },
+    {
+      "id": "motion-and-optics",
+      "label": "实物、通电全行程、镜架调角包络与镀膜参数待验"
+    }
+  ],
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "ee81077239c645c66fbd2d00675b2774c0c4628d8d6aa953524529d985ff7170",
+        "sha256": "13d5e5e4548ef7c46c5bca059e56e067dae1736d30a7632931929c6d563bdc41"
+      }
+    ]
+  },
+  "id": "xbk-cavity-piezo-h62p5-r1"
+}

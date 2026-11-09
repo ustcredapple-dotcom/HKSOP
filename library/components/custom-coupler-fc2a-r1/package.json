@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-coupler-fc2a-r1",
+  "revision": "R1",
+  "displayName": "双波片耦合头 FC2A 转接块",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-coupler-fc2a-r1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-laser308-periscope-base28-yfoot-r3",
+  "files": [
+    {
+      "path": "cad/0d6c81510dcae922560d559e891954e4a1389af1c931380ea519b8f326104420.step",
+      "stored": "library/assets/sha256/0d/0d6c81510dcae922560d559e891954e4a1389af1c931380ea519b8f326104420.step",
+      "sha256": "0d6c81510dcae922560d559e891954e4a1389af1c931380ea519b8f326104420",
+      "originalReferences": [
+        "step/periscope-standard-r3/28-BY3_R3.step"
+      ],
+      "sources": [
+        "library/assets/sha256/0d/0d6c81510dcae922560d559e891954e4a1389af1c931380ea519b8f326104420.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

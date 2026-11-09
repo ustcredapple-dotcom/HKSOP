@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-mt-cube-adapter-2inch-m1-r2",
+  "files": [
+    {
+      "path": "cad/25ace3712449ba5e9e1fd6d6a2a780ed6c3978bd5fb09d6f1299af1acc87e83c.step",
+      "stored": "library/assets/sha256/25/25ace3712449ba5e9e1fd6d6a2a780ed6c3978bd5fb09d6f1299af1acc87e83c.step",
+      "sha256": "25ace3712449ba5e9e1fd6d6a2a780ed6c3978bd5fb09d6f1299af1acc87e83c",
+      "originalReferences": [
+        "step/mt-cube-size-family-r2/MCB-2R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/25/25ace3712449ba5e9e1fd6d6a2a780ed6c3978bd5fb09d6f1299af1acc87e83c.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "it75-r3-reused-combo",
+  "revision": "source-snapshot",
+  "displayName": "原透镜combo底板、位移台与镜架（复用）",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/it75-r3-reused-combo.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

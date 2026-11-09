@@ -1,0 +1,37 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "kungshu-louc1-dr-motorized-0-r1",
+  "revision": "R2-COMPACT-2B-B6R1",
+  "displayName": "kungshu-LOUC1-DR-Motorized · 0° · 紧凑双螺钉",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/kungshu-louc1-dr-motorized-0-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-kungshu-33-dr-m01-r1",
+    "custom-kungshu-33-dr-m02-r1",
+    "custom-kungshu-33-dr-m03-r1",
+    "custom-kungshu-33-dr-r1",
+    "custom-post-metric-25mm-m1",
+    "encoder-servo",
+    "hardware-h2-r3-m2x10",
+    "hardware-iso4762-m3x8",
+    "kungshu-louc1-dr",
+    "motor-adapter-m3",
+    "new-hardware-d56c7b8035c3",
+    "new-hardware-ff9fb49c865c",
+    "periscope-m4x14-screw"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

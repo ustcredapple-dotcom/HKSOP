@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-motor-adapter-18-s2-r2",
+  "files": [
+    {
+      "path": "cad/96ce39527f31fdda2e714defbd578d65d6d3df6d9373da7ede5af3fca3349a16.step",
+      "stored": "library/assets/sha256/96/96ce39527f31fdda2e714defbd578d65d6d3df6d9373da7ede5af3fca3349a16.step",
+      "sha256": "96ce39527f31fdda2e714defbd578d65d6d3df6d9373da7ede5af3fca3349a16",
+      "originalReferences": [
+        "step/motor-slot-split-r2/18-S2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/96/96ce39527f31fdda2e714defbd578d65d6d3df6d9373da7ede5af3fca3349a16.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

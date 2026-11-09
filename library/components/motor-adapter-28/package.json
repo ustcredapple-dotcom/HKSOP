@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "motor-adapter-28",
+  "revision": "source-snapshot",
+  "displayName": "28mmM3toH2",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/motor-adapter-28.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

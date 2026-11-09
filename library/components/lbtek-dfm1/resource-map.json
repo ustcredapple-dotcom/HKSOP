@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "lbtek-dfm1",
+  "files": [
+    {
+      "path": "cad/51b3d0eba16d0d73944f79030f9d092d11d8726277518e385c9b553bfdf135e6.step",
+      "stored": "library/assets/sha256/51/51b3d0eba16d0d73944f79030f9d092d11d8726277518e385c9b553bfdf135e6.step",
+      "sha256": "51b3d0eba16d0d73944f79030f9d092d11d8726277518e385c9b553bfdf135e6",
+      "originalReferences": [
+        "step/dm1f-r1/DFM1_official.step"
+      ],
+      "sources": [
+        "library/assets/sha256/51/51b3d0eba16d0d73944f79030f9d092d11d8726277518e385c9b553bfdf135e6.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

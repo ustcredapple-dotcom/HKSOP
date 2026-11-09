@@ -1,0 +1,40 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "motor-v7-1in-0",
+  "revision": "CURRENT-B6R1",
+  "displayName": "V7 1英寸电动镜架 / 0° · 公制柱 R1",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/motor-v7-1in-0.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-post-metric-25mm-m1",
+    "custom-v7-1a",
+    "custom-v7-1in-main",
+    "custom-v7-1in-side",
+    "custom-v7-m3-h2",
+    "hardware-iso4762-m6x12",
+    "v7-din7991-m3x10",
+    "v7-iso4762-m4x16",
+    "v7-pin-d2x6",
+    "v7-pin-d2x8",
+    "v7-source-encoder-servo",
+    "v7-source-m2x10",
+    "v7-source-m4-nut",
+    "v7-source-m4x20-thin",
+    "v7-source-mt-am1",
+    "v7-source-retaining-washer"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

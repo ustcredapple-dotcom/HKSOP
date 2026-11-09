@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "lbtek-csb2-purchased",
+  "files": [
+    {
+      "path": "cad/b569878e4b0f08bec41be81e205296ef50b027a51c2646ec74cfcac5426786bc.step",
+      "stored": "library/assets/sha256/b5/b569878e4b0f08bec41be81e205296ef50b027a51c2646ec74cfcac5426786bc.step",
+      "sha256": "b569878e4b0f08bec41be81e205296ef50b027a51c2646ec74cfcac5426786bc",
+      "originalReferences": [
+        "step/mt-cube-size-family-r2/CSB2-vendor.step"
+      ],
+      "sources": [
+        "library/assets/sha256/b5/b569878e4b0f08bec41be81e205296ef50b027a51c2646ec74cfcac5426786bc.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,29 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "laser-616-side-periscope-m1-r1",
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "displayName": "616 nm 侧光口双镜爬架 · LF616 / 10-C616 R1",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/laser-616-side-periscope-m1-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-laser616-10c-r1",
+    "custom-laser616-frame-r1",
+    "custom-periscope-s45-r1",
+    "custom-post-metric-12p5mm-m1",
+    "mt-am1s5"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "declared-model",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

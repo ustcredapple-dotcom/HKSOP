@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "i532v3-pin-d2x8",
+  "revision": "source-snapshot",
+  "displayName": "Ø2×8 非铁磁定位销",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/i532v3-pin-d2x8.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

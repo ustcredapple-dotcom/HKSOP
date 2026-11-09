@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-waveplate-double-05-m1",
+  "revision": "M1",
+  "displayName": "24-WP05-D 半英寸双波片一体转接块",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-waveplate-double-05-m1.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

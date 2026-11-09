@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "motor-bracket-22",
+  "files": [
+    {
+      "path": "cad/78a7448998625e8016147bb4f1c02cf177ec86e6ca98648ebd0f22f1fc6304a1.step",
+      "stored": "library/assets/sha256/78/78a7448998625e8016147bb4f1c02cf177ec86e6ca98648ebd0f22f1fc6304a1.step",
+      "sha256": "78a7448998625e8016147bb4f1c02cf177ec86e6ca98648ebd0f22f1fc6304a1",
+      "originalReferences": [
+        "step/09_电动镜架/支架2-2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/78/78a7448998625e8016147bb4f1c02cf177ec86e6ca98648ebd0f22f1fc6304a1.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

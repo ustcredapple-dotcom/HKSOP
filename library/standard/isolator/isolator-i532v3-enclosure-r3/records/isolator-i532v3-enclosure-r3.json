@@ -1,0 +1,432 @@
+{
+  "name": "532 nm 隔离器 · I532V3 · 螺丝拼板遮光罩 R3",
+  "category": "isolator",
+  "variant": "I532V3 / 6061-T6 黑色阳极氧化 / H25 / 光高62.5 mm",
+  "revision": "R3",
+  "sourceUrl": "https://www.thorlabs.com/zh/item/I532V3",
+  "components": [
+    {
+      "componentId": "custom-i53-a3-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-i53-s3-r3",
+      "quantity": 2
+    },
+    {
+      "componentId": "custom-i53-e3-r3",
+      "quantity": 2
+    },
+    {
+      "componentId": "custom-i53-t3-r3",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-i53-l3-r3",
+      "quantity": 2
+    },
+    {
+      "componentId": "thorlabs-i532v3",
+      "quantity": 1
+    },
+    {
+      "componentId": "thorlabs-sm1rc-m",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-post-metric-25mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "i532v3-m3x10",
+      "quantity": 18
+    },
+    {
+      "componentId": "i532v3-m3x6",
+      "quantity": 4
+    },
+    {
+      "componentId": "i532v3-m4x8",
+      "quantity": 2
+    },
+    {
+      "componentId": "i532v3-pin-d2x8",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [],
+  "layout": {
+    "topViewPath": "topviews/isolator-i532v3-enclosure-r3.svg",
+    "topViewUrl": "./topviews/isolator-i532v3-enclosure-r3.svg",
+    "widthMm": 121.2,
+    "heightMm": 71.2,
+    "anchorXMm": 60.6,
+    "anchorYMm": 35.6,
+    "placementAllowed": true,
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "minimumAlignedMountingHoles": 4,
+    "mountingHoleRadiusMm": 3.2,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "collisionBoundsMm": {
+      "xMin": -60.175,
+      "yMin": -35.175,
+      "xMax": 60.175,
+      "yMax": 35.175
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -60.0,
+          "yMm": -35.175
+        },
+        {
+          "xMm": -60.01715,
+          "yMm": -35.17416
+        },
+        {
+          "xMm": -60.03414,
+          "yMm": -35.17164
+        },
+        {
+          "xMm": -60.0508,
+          "yMm": -35.16746
+        },
+        {
+          "xMm": -60.06697,
+          "yMm": -35.16168
+        },
+        {
+          "xMm": -60.08249,
+          "yMm": -35.15434
+        },
+        {
+          "xMm": -60.09722,
+          "yMm": -35.14551
+        },
+        {
+          "xMm": -60.11102,
+          "yMm": -35.13528
+        },
+        {
+          "xMm": -60.12374,
+          "yMm": -35.12374
+        },
+        {
+          "xMm": -60.13528,
+          "yMm": -35.11102
+        },
+        {
+          "xMm": -60.14551,
+          "yMm": -35.09722
+        },
+        {
+          "xMm": -60.15434,
+          "yMm": -35.08249
+        },
+        {
+          "xMm": -60.16168,
+          "yMm": -35.06697
+        },
+        {
+          "xMm": -60.16746,
+          "yMm": -35.0508
+        },
+        {
+          "xMm": -60.17164,
+          "yMm": -35.03414
+        },
+        {
+          "xMm": -60.17416,
+          "yMm": -35.01715
+        },
+        {
+          "xMm": -60.175,
+          "yMm": -35.0
+        },
+        {
+          "xMm": -60.175,
+          "yMm": 35.0
+        },
+        {
+          "xMm": -60.17416,
+          "yMm": 35.01715
+        },
+        {
+          "xMm": -60.17164,
+          "yMm": 35.03414
+        },
+        {
+          "xMm": -60.16746,
+          "yMm": 35.0508
+        },
+        {
+          "xMm": -60.16168,
+          "yMm": 35.06697
+        },
+        {
+          "xMm": -60.15434,
+          "yMm": 35.08249
+        },
+        {
+          "xMm": -60.14551,
+          "yMm": 35.09722
+        },
+        {
+          "xMm": -60.13528,
+          "yMm": 35.11102
+        },
+        {
+          "xMm": -60.12374,
+          "yMm": 35.12374
+        },
+        {
+          "xMm": -60.11102,
+          "yMm": 35.13528
+        },
+        {
+          "xMm": -60.09722,
+          "yMm": 35.14551
+        },
+        {
+          "xMm": -60.08249,
+          "yMm": 35.15434
+        },
+        {
+          "xMm": -60.06697,
+          "yMm": 35.16168
+        },
+        {
+          "xMm": -60.0508,
+          "yMm": 35.16746
+        },
+        {
+          "xMm": -60.03414,
+          "yMm": 35.17164
+        },
+        {
+          "xMm": -60.01715,
+          "yMm": 35.17416
+        },
+        {
+          "xMm": -60.0,
+          "yMm": 35.175
+        },
+        {
+          "xMm": 60.0,
+          "yMm": 35.175
+        },
+        {
+          "xMm": 60.01715,
+          "yMm": 35.17416
+        },
+        {
+          "xMm": 60.03414,
+          "yMm": 35.17164
+        },
+        {
+          "xMm": 60.0508,
+          "yMm": 35.16746
+        },
+        {
+          "xMm": 60.06697,
+          "yMm": 35.16168
+        },
+        {
+          "xMm": 60.08249,
+          "yMm": 35.15434
+        },
+        {
+          "xMm": 60.09722,
+          "yMm": 35.14551
+        },
+        {
+          "xMm": 60.11102,
+          "yMm": 35.13528
+        },
+        {
+          "xMm": 60.12374,
+          "yMm": 35.12374
+        },
+        {
+          "xMm": 60.13528,
+          "yMm": 35.11102
+        },
+        {
+          "xMm": 60.14551,
+          "yMm": 35.09722
+        },
+        {
+          "xMm": 60.15434,
+          "yMm": 35.08249
+        },
+        {
+          "xMm": 60.16168,
+          "yMm": 35.06697
+        },
+        {
+          "xMm": 60.16746,
+          "yMm": 35.0508
+        },
+        {
+          "xMm": 60.17164,
+          "yMm": 35.03414
+        },
+        {
+          "xMm": 60.17416,
+          "yMm": 35.01715
+        },
+        {
+          "xMm": 60.175,
+          "yMm": 35.0
+        },
+        {
+          "xMm": 60.175,
+          "yMm": -35.0
+        },
+        {
+          "xMm": 60.17416,
+          "yMm": -35.01715
+        },
+        {
+          "xMm": 60.17164,
+          "yMm": -35.03414
+        },
+        {
+          "xMm": 60.16746,
+          "yMm": -35.0508
+        },
+        {
+          "xMm": 60.16168,
+          "yMm": -35.06697
+        },
+        {
+          "xMm": 60.15434,
+          "yMm": -35.08249
+        },
+        {
+          "xMm": 60.14551,
+          "yMm": -35.09722
+        },
+        {
+          "xMm": 60.13528,
+          "yMm": -35.11102
+        },
+        {
+          "xMm": 60.12374,
+          "yMm": -35.12374
+        },
+        {
+          "xMm": 60.11102,
+          "yMm": -35.13528
+        },
+        {
+          "xMm": 60.09722,
+          "yMm": -35.14551
+        },
+        {
+          "xMm": 60.08249,
+          "yMm": -35.15434
+        },
+        {
+          "xMm": 60.06697,
+          "yMm": -35.16168
+        },
+        {
+          "xMm": 60.0508,
+          "yMm": -35.16746
+        },
+        {
+          "xMm": 60.03414,
+          "yMm": -35.17164
+        },
+        {
+          "xMm": 60.01715,
+          "yMm": -35.17416
+        },
+        {
+          "xMm": 60.0,
+          "yMm": -35.175
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "i532v3-r3-20261103",
+    "geometryEvidence": {
+      "sourceStep": "step/i532v3-r3/I532V3_R3_H62p5_CLOSED.step",
+      "sourceStepSha256": "9735eaec1511006e16d380f1ed905e5c4ec1a75aa58a22fbe96588360b52dc45",
+      "sourceSha256": "9735eaec1511006e16d380f1ed905e5c4ec1a75aa58a22fbe96588360b52dc45",
+      "imageSha256": "8b8135b86b8353d9491bd65b9c5fe70ad462a271d67bb1c77a3317cee25c82d1",
+      "meshDeflectionMm": 0.035,
+      "guardMm": 0.175,
+      "axes": "world X right / Y up / Z height; column axis XY=0",
+      "collisionMethod": "actual frozen CAD XY triangle union; excludes unmodeled screw heads and service envelope",
+      "sourcePostSha256": "b6729cdb0b48cf2269883aa92d1d10b6489f250f6f4796ae54313e948b1e6778",
+      "physicalAssemblyTested": false
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "9735eaec1511006e16d380f1ed905e5c4ec1a75aa58a22fbe96588360b52dc45",
+      "imageSha256": "8b8135b86b8353d9491bd65b9c5fe70ad462a271d67bb1c77a3317cee25c82d1",
+      "revision": "R3",
+      "renderRole": "complete",
+      "displayTransform": null
+    },
+    "opticalType": "unsupported",
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalAxisHeightMm": 62.5,
+    "nominalOpticalHeightMm": 62.5,
+    "opticalSurfaceAngleDeg": 90,
+    "opticalDatumVerified": false,
+    "opticalSimulationNote": "名义机械光轴沿X、Y=0、Z=62.5；柱轴上方是机械参考点，内部法拉第作用面未知。仅支持布局与BOM，未实现隔离器非互易传播、透过率及吸光温升。Ø10仅为罩体窗口，不作为隔离器有效口径。",
+    "status": "真实闭合总装俯视图；试制审核版"
+  },
+  "assemblyReference": {
+    "stepPath": "step/i532v3-r3/I532V3_R3_H62p5_CLOSED.step",
+    "sourceStepSha256": "9735eaec1511006e16d380f1ed905e5c4ec1a75aa58a22fbe96588360b52dc45",
+    "sha256": "9735eaec1511006e16d380f1ed905e5c4ec1a75aa58a22fbe96588360b52dc45",
+    "drawingPath": null,
+    "sourceDrawingSha256": "67c1ec54ad42def2e4652fbe4d086ecc589d04a91f1ab3a01d1638430f484369",
+    "sourceExact": true,
+    "includeInBundle": true,
+    "revision": "R3",
+    "nominalFixedPositionAssembly": true,
+    "standardScrewsAndPinsDetailedModels": false
+  },
+  "fastUpload": {
+    "schema": "zzlab-fast-kit-upload-v1",
+    "archiveSha256": "4dea57426c276017fe1a40351d50d60b25f3f27e5841f631badbc91117812a8d",
+    "atlas": "excluded-by-user-scope",
+    "onshape": "excluded-by-user-scope",
+    "physicalAssemblyValidated": false,
+    "productionApprovalGranted": false
+  },
+  "releaseStage": "engineering-review",
+  "bundleStatus": "complete",
+  "status": "极速入库 · 试制审核版 · 未实物验收",
+  "notes": "闭罩整组摆放，五片罩板含可拆顶板。前后Ø10窗口；取消高侧挡块。8件新制件分5种，其中2片铜内衬的涂层与温升待验证。夹具有效牙深、标准柱近磁体材料兼容待确认；螺钉为钛材候选。柱底4颗M6按实际板厚选长，安装时先锁柱底再装上部。总装未绘制独立螺钉/销钉；投影不含其头部与拆装空间。",
+  "id": "isolator-i532v3-enclosure-r3"
+}

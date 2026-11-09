@@ -1,0 +1,64 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "laser308-offset-turn90-135-to62p5",
+  "files": [
+    {
+      "path": "rendering/3de3a42ff6e2199dfcbaa71e73deabe378171fff74819b4e02830cdab3010d6c.svg",
+      "stored": "library/assets/sha256/3d/3de3a42ff6e2199dfcbaa71e73deabe378171fff74819b4e02830cdab3010d6c.svg",
+      "sha256": "3de3a42ff6e2199dfcbaa71e73deabe378171fff74819b4e02830cdab3010d6c",
+      "originalReferences": [
+        "topviews/laser308-offset-turn90-135-to62p5-optical-side.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/3d/3de3a42ff6e2199dfcbaa71e73deabe378171fff74819b4e02830cdab3010d6c.svg"
+      ]
+    },
+    {
+      "path": "cad/4d10f6368e28347c44bf07c502ab3289602a3deed942d70c49ac9b24343f75c8.step",
+      "stored": "library/assets/sha256/4d/4d10f6368e28347c44bf07c502ab3289602a3deed942d70c49ac9b24343f75c8.step",
+      "sha256": "4d10f6368e28347c44bf07c502ab3289602a3deed942d70c49ac9b24343f75c8",
+      "originalReferences": [
+        "step/standard-post-h12p5-b4-r2/assemblies/laser308-offset-turn90-135-to62p5__H12p5_B4_R2.step"
+      ],
+      "sources": [
+        "library/assets/sha256/4d/4d10f6368e28347c44bf07c502ab3289602a3deed942d70c49ac9b24343f75c8.step"
+      ]
+    },
+    {
+      "path": "cad/cdf9cb27004e6055cf3019121511ca7655cf890b847b1e8532686930a2c9cbbb.step",
+      "stored": "library/assets/sha256/cd/cdf9cb27004e6055cf3019121511ca7655cf890b847b1e8532686930a2c9cbbb.step",
+      "sha256": "cdf9cb27004e6055cf3019121511ca7655cf890b847b1e8532686930a2c9cbbb",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/laser308-offset-turn90-135-to62p5__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/cd/cdf9cb27004e6055cf3019121511ca7655cf890b847b1e8532686930a2c9cbbb.step"
+      ]
+    },
+    {
+      "path": "rendering/f29f3cda89a13ccea084814af4cfd8f46dcc63c353f484523dc70f52c3bce1d7.svg",
+      "stored": "library/assets/sha256/f2/f29f3cda89a13ccea084814af4cfd8f46dcc63c353f484523dc70f52c3bce1d7.svg",
+      "sha256": "f29f3cda89a13ccea084814af4cfd8f46dcc63c353f484523dc70f52c3bce1d7",
+      "originalReferences": [
+        "topviews/laser308-offset-turn90-135-to62p5__H12p5_B4_R2.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/f2/f29f3cda89a13ccea084814af4cfd8f46dcc63c353f484523dc70f52c3bce1d7.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-laser308-periscope-base28-yfoot-r3",
+    "custom-laser308-periscope-vertical28-g58-r3",
+    "custom-periscope-mirror-adapter10c-r3",
+    "custom-periscope-s45-r1",
+    "custom-post-metric-12p5mm-m1",
+    "mt-am1s5",
+    "new-hardware-d56c7b8035c3",
+    "periscope-d2x4-pin",
+    "periscope-d2x8-pin",
+    "periscope-m4x14-screw",
+    "periscope-m4x16-screw",
+    "periscope-m6x12-screw"
+  ]
+}

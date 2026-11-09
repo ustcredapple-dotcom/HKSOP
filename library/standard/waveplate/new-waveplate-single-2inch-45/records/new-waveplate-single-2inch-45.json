@@ -1,0 +1,499 @@
+{
+  "name": "单波片旋转架 · 2 inch · −45° · M1",
+  "category": "waveplate",
+  "variant": "公制 M1 · 名义光高62.5 mm",
+  "description": "M1真实装配俯视图；保持原安装与光学XY基准，配套公制转接件、正式万能柱及同源加工图。",
+  "sourceUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/a48b4cacb5cff76780094078",
+  "sourceOnshapeStatus": "M1_FIXED_VERSION_ASSEMBLY_VERIFIED",
+  "components": [
+    {
+      "componentId": "custom-post-metric-12p5mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r3-19-r3-adapter",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r3-vendor-crm-2a",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r3-vendor-hwp51-532a",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-m4x12",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-pin-d2x8",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "optic",
+      "label": "波片",
+      "type": "waveplate",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 50.8,
+      "replacesComponentId": "new-r3-vendor-hwp51-532a"
+    }
+  ],
+  "status": "M1加工审核版",
+  "notes": "波片功能面按原批准轴向偏移；原厂简化螺纹配合例外仍保留。 先离柱从底部固定商用旋转波片架，后平面靠短挡，再接柱。保留已允许的波片功能面轴向+5.4mm，名义中心高62.5mm；无侧长臂。商业与柱端各用一颗M4，入口方向相反。 非柱侧安装紧固件仍按孔表与实物选配。  H12.5 B4-R2：普通H12.5柱底脚4 mm，其余普通柱保持各自规格；完整STEP已换柱回读，总高、孔位和全部器件姿态保持；未实物试装。",
+  "releaseStage": "engineering-review",
+  "bundleStatus": "complete",
+  "bundleNote": "冻结M1 STEP、三页加工PDF及可编辑DXF配套；未作实物试装验收。",
+  "layout": {
+    "topViewPath": "topviews/new-waveplate-single-2inch-45__H12p5_B4_R2.svg",
+    "topViewUrl": "./topviews/new-waveplate-single-2inch-45__H12p5_B4_R2.svg",
+    "widthMm": 65.350264,
+    "heightMm": 65.350264,
+    "anchorXMm": 28.297645,
+    "anchorYMm": 28.296695,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "basePolygonsMm": [
+      [
+        {
+          "xMm": -17.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": -17.5
+        }
+      ]
+    ],
+    "collisionBoundsMm": {
+      "xMin": -27.698595,
+      "yMin": -36.453569,
+      "xMax": 36.453569,
+      "yMax": 27.696695
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -27.5169,
+          "yMm": -26.435347
+        },
+        {
+          "xMm": -27.651779,
+          "yMm": -26.233487
+        },
+        {
+          "xMm": -27.698595,
+          "yMm": -25.937904
+        },
+        {
+          "xMm": -27.629435,
+          "yMm": -25.692682
+        },
+        {
+          "xMm": -27.514801,
+          "yMm": -25.534902
+        },
+        {
+          "xMm": -17.65,
+          "yMm": -15.670101
+        },
+        {
+          "xMm": -17.65,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 15.670101,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 25.537001,
+          "yMm": 27.5169
+        },
+        {
+          "xMm": 25.733769,
+          "yMm": 27.648376
+        },
+        {
+          "xMm": 25.935029,
+          "yMm": 27.696695
+        },
+        {
+          "xMm": 26.14137,
+          "yMm": 27.680455
+        },
+        {
+          "xMm": 26.367154,
+          "yMm": 27.576367
+        },
+        {
+          "xMm": 34.592172,
+          "yMm": 19.360091
+        },
+        {
+          "xMm": 34.755632,
+          "yMm": 19.068212
+        },
+        {
+          "xMm": 34.741778,
+          "yMm": 18.715597
+        },
+        {
+          "xMm": 34.590075,
+          "yMm": 18.468041
+        },
+        {
+          "xMm": 29.674797,
+          "yMm": 13.552762
+        },
+        {
+          "xMm": 29.703081,
+          "yMm": 13.524478
+        },
+        {
+          "xMm": 31.113782,
+          "yMm": 14.935179
+        },
+        {
+          "xMm": 34.775337,
+          "yMm": 11.218146
+        },
+        {
+          "xMm": 36.453569,
+          "yMm": 9.558355
+        },
+        {
+          "xMm": 36.453569,
+          "yMm": 9.229958
+        },
+        {
+          "xMm": 17.65,
+          "yMm": -9.573611
+        },
+        {
+          "xMm": 17.65,
+          "yMm": -17.65
+        },
+        {
+          "xMm": 9.573611,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -9.229958,
+          "yMm": -36.453569
+        },
+        {
+          "xMm": -9.558355,
+          "yMm": -36.453569
+        },
+        {
+          "xMm": -11.218146,
+          "yMm": -34.775337
+        },
+        {
+          "xMm": -14.935174,
+          "yMm": -31.113777
+        },
+        {
+          "xMm": -13.524478,
+          "yMm": -29.703081
+        },
+        {
+          "xMm": -13.552853,
+          "yMm": -29.674706
+        },
+        {
+          "xMm": -18.538483,
+          "yMm": -34.651772
+        },
+        {
+          "xMm": -18.863649,
+          "yMm": -34.771732
+        },
+        {
+          "xMm": -19.203644,
+          "yMm": -34.704103
+        },
+        {
+          "xMm": -19.366378,
+          "yMm": -34.585869
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "metric-m1-2026-10-06",
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "placementAllowed": true,
+    "status": "M1 STEP实际俯视投影与安装孔已核验",
+    "note": "实际 STEP 俯视投影；碰撞轮廓按 CAD 投影细分并保留 0.15 mm 余量；按底座真实安装孔吸附。",
+    "nominalOpticalHeightMm": 62.5,
+    "opticalGeometryEvidence": {
+      "coordinateFrame": "world X right / Y up / Z height",
+      "sourceDatumHeightMm": 62.5,
+      "opticalCenterMm": {
+        "xMm": 3.81837662,
+        "yMm": -3.81837662
+      },
+      "referencePointWorldMm": [
+        3.81837662,
+        -3.81837662,
+        62.5
+      ],
+      "planeNormalWorld": [
+        0.70710678,
+        -0.70710678,
+        0.0
+      ],
+      "opticalSurfaceAngleDeg": 45.0,
+      "simulationType": "waveplate",
+      "referenceKind": "actual two-substrate interface and circular axis",
+      "axisCylinder": {
+        "radiusMm": 25.4,
+        "axisPointWorldMm": [
+          3.81837662,
+          -3.81837662,
+          62.5
+        ],
+        "axisWorld": [
+          -0.70710678,
+          0.70710678,
+          0.0
+        ],
+        "axisPointLayoutMm": [
+          3.81837662,
+          -3.81837662,
+          62.5
+        ],
+        "axisLayout": [
+          -0.70710678,
+          0.70710678,
+          0.0
+        ],
+        "boundsWorldMm": [
+          -15.27350647,
+          -21.77888886,
+          62.5,
+          21.77888886,
+          15.27350647,
+          87.9
+        ]
+      },
+      "sourceLeaf": "HWP51_532A_substrate_1_nominal_interface_x0",
+      "cadPlane": {
+        "areaMm2": 2000.2705000910412,
+        "centerWorldMm": [
+          3.81837662,
+          -3.81837662,
+          62.82136216
+        ],
+        "normalWorld": [
+          0.70710678,
+          -0.70710678,
+          0.0
+        ],
+        "centerLayoutMm": [
+          3.81837662,
+          -3.81837662,
+          62.82136216
+        ],
+        "normalLayout": [
+          0.70710678,
+          -0.70710678,
+          0.0
+        ],
+        "boundsWorldMm": [
+          -14.14213562,
+          -21.77888886,
+          39.1,
+          21.77888886,
+          14.14213562,
+          87.9
+        ]
+      },
+      "geometricReferenceOnly": true,
+      "note": "两块原厂基片名义接合面距柱轴沿法向 +5.4 mm；按真实圆柱轴线定位，不采用削边基片面质心；快轴相对刻度仍须实测确认。",
+      "migrationEvidence": {
+        "sourceSha256": "ea7d0f4244d624d4644e6fa7e687812e3fea4209ee60c615ad18d5558c7d3f37",
+        "providerReadbackStatus": "PASS_REPLACEMENT_READBACK_FINAL_POST_SOURCE_CHECK_REQUIRED_SEPARATELY",
+        "supplierTranslationMm": [
+          0,
+          0,
+          -1
+        ],
+        "measuredAgainstFrozenM1": true,
+        "physicalTrialCompleted": false
+      }
+    },
+    "geometryEvidence": {
+      "sourceStep": "step/standard-post-h12p5-b4-r2/assemblies/new-waveplate-single-2inch-45__H12p5_B4_R2.step",
+      "sourceSha256": "884c1ec85b1b1e043465cc917e05dd944ea3a5c2f7d899fa2fbdbfa28b14588e",
+      "partCount": 17,
+      "postCount": 1,
+      "imageSha256": "6b8c22a1d9f89dca29d44e2839caa21c8fabec4d9688f3fdec3874abe6f24bb5",
+      "faceColoursPreserved": true,
+      "excludedReferenceCount": 0,
+      "guardMm": 0.15,
+      "meshDeflectionMm": 0.035,
+      "axes": "world X right / Y up / Z height",
+      "referenceAssembly": {
+        "assetKind": "assembly-reference-not-manufacturing-part",
+        "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/new-waveplate-single-2inch-45__H12p5_B4_R2.step",
+        "sha256": "884c1ec85b1b1e043465cc917e05dd944ea3a5c2f7d899fa2fbdbfa28b14588e"
+      },
+      "previousProjectionSource": {
+        "sourceStep": null,
+        "sourceSha256": "ea7d0f4244d624d4644e6fa7e687812e3fea4209ee60c615ad18d5558c7d3f37",
+        "imageSha256": "880f16a93eb032b9eca40e94401a2988560c184cf2704e210b372a286ab7522e",
+        "partCount": 17,
+        "meshDeflectionMm": 0.04
+      },
+      "triangleCount": 146338,
+      "postBaseRevision": {
+        "revision": "H12p5-B4-R2",
+        "componentIds": [
+          "custom-post-metric-12p5mm-m1"
+        ],
+        "baseThicknessByComponentId": {
+          "custom-post-metric-12p5mm-m1": 4
+        },
+        "nominalAndOpticalHeightsPreserved": true,
+        "geometryStatus": "passed",
+        "physicalAssemblyAccepted": false,
+        "previousAssemblySha256": "b507a564e844a7cf65c3e3e863aa6e722754740b82d226f3b834b828844ae75f",
+        "currentAssemblySha256": "884c1ec85b1b1e043465cc917e05dd944ea3a5c2f7d899fa2fbdbfa28b14588e",
+        "replacementReportSha256": "32a6c8dd4f00c2abbbe8a7d340d855e74034fa7d6124e575eac4686701ab59d7",
+        "originalEntitiesAndPosesPreserved": true
+      },
+      "sourceStepSha256": "884c1ec85b1b1e043465cc917e05dd944ea3a5c2f7d899fa2fbdbfa28b14588e",
+      "baseThicknessByComponentId": {
+        "custom-post-metric-12p5mm-m1": 4
+      }
+    },
+    "opticalType": "waveplate",
+    "opticalSurfaceAngleDeg": 45.0,
+    "opticalAxisHeightMm": 62.5,
+    "opticalCenterMm": {
+      "xMm": 3.81837662,
+      "yMm": -3.81837662
+    },
+    "opticalDatumVerified": true,
+    "opticalAxisHeightSource": "冻结M1总装、正式公制柱及商用件实际刚体变换已回读；名义光高62.5 mm。",
+    "opticalSimulationNote": "两块原厂基片名义接合面距柱轴沿法向 +5.4 mm；按真实圆柱轴线定位，不采用削边基片面质心；快轴相对刻度仍须实测确认。",
+    "sourceUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/a48b4cacb5cff76780094078",
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "884c1ec85b1b1e043465cc917e05dd944ea3a5c2f7d899fa2fbdbfa28b14588e",
+      "imageSha256": "6b8c22a1d9f89dca29d44e2839caa21c8fabec4d9688f3fdec3874abe6f24bb5",
+      "revision": "H12p5-B4-R2",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null,
+      "projectionReportSha256": "0b664d5d07f97375364d39278688db31f33c25b2995c0898dd2147111c7f9f87"
+    }
+  },
+  "optionalNotes": [
+    "M1柱侧螺钉与销钉已按同源BOM计入；其余安装紧固件按孔表和实测有效牙深选配。"
+  ],
+  "manufacturingRevision": "M1",
+  "manufacturingEvidence": {
+    "sourceAssembly": {
+      "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/new-waveplate-single-2inch-45__H12p5_B4_R2.step",
+      "sha256": "884c1ec85b1b1e043465cc917e05dd944ea3a5c2f7d899fa2fbdbfa28b14588e"
+    },
+    "sourceVersionId": "4931897f80d530bffcf46a4e",
+    "customCodes": [
+      "19-WP"
+    ],
+    "hardwarePolicy": "M1 supplied column-side screws and pins included; other mounting fasteners remain optional pending selection.",
+    "topViewVisualReviewPassed": true,
+    "physicalTrialCompleted": false
+  },
+  "metricRevision": {
+    "revision": "M1",
+    "nativeAssemblySha256": "ea7d0f4244d624d4644e6fa7e687812e3fea4209ee60c615ad18d5558c7d3f37",
+    "nominalAxisHeightMm": 62.5,
+    "sourceVersionId": "4931897f80d530bffcf46a4e",
+    "preservedInstanceXY": true
+  },
+  "postBaseRevision": {
+    "revision": "H12p5-B4-R2",
+    "componentIds": [
+      "custom-post-metric-12p5mm-m1"
+    ],
+    "baseThicknessByComponentId": {
+      "custom-post-metric-12p5mm-m1": 4
+    },
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "physicalAssemblyAccepted": false,
+    "previousAssemblySha256": "b507a564e844a7cf65c3e3e863aa6e722754740b82d226f3b834b828844ae75f",
+    "currentAssemblySha256": "884c1ec85b1b1e043465cc917e05dd944ea3a5c2f7d899fa2fbdbfa28b14588e",
+    "replacementReportSha256": "32a6c8dd4f00c2abbbe8a7d340d855e74034fa7d6124e575eac4686701ab59d7",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "assemblyReference": {
+    "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/new-waveplate-single-2inch-45__H12p5_B4_R2.step",
+    "sourceStepSha256": "884c1ec85b1b1e043465cc917e05dd944ea3a5c2f7d899fa2fbdbfa28b14588e",
+    "revision": "CURRENT-B6R1-H12p5B4R2",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "cloudUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/a48b4cacb5cff76780094078",
+    "cloudStatus": "frozen-independent-assembly-readback-pending"
+  },
+  "cloudReference": {
+    "batch": 4,
+    "documentId": "66b198de06cefdf0be97875b",
+    "workspaceId": "048790c4e7cccc432b78d839",
+    "sourceUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/a48b4cacb5cff76780094078",
+    "status": "frozen-independent-assembly-readback-pending",
+    "observation": "Onshape notification panel and folder list via IAB",
+    "strictReadbackComplete": false,
+    "active": false,
+    "current": true,
+    "sourceStepSha256": "884c1ec85b1b1e043465cc917e05dd944ea3a5c2f7d899fa2fbdbfa28b14588e",
+    "automaticCloudReuseAllowed": false,
+    "independentAssemblyElementVerified": true,
+    "physicalAssemblyAccepted": false,
+    "versionId": "f7760018eec7aecfe4fe9762",
+    "elementId": "a48b4cacb5cff76780094078",
+    "elementType": "Assembly",
+    "versionFrozen": true,
+    "uiEvidence": {
+      "path": null,
+      "sha256": "9572a243eaa463b4784ac014b7247c4c8d819942ef561ffeba484bd117acfb5f"
+    },
+    "checkedAt": "2026-10-28T01:54:56.736608+08:00"
+  },
+  "id": "new-waveplate-single-2inch-45"
+}

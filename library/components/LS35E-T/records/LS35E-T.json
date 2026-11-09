@@ -1,0 +1,94 @@
+{
+  "id": "LS35E-T",
+  "name": "LS35x.Lab.E 上面包板",
+  "model": "31-LS35-T",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R1",
+  "productionReady": false,
+  "manufacturingStatus": "review-required",
+  "status": "自制名义几何已复建；原厂安装入口及工艺、实装待验",
+  "manufacturingSpec": {
+    "material": "6061 铝合金",
+    "surfaceTreatment": "黑色阳极氧化",
+    "processDetails": "按本版孔表、剖面与孔深加工；螺纹在 STEP 以攻丝底孔表示。两板保留真实凹刻短编号。通用公差和粗糙度按既有协议省略。"
+  },
+  "stepPath": "step/ls35x-lab-e-r1/31-LS35-T_R1.step",
+  "sourceStepSha256": "874faaf374d1f5aafab61b3d72bc168a6a5a2da1add9da03acb66d723f105335",
+  "drawingPath": null,
+  "sourceDrawingSha256": "8d557b08f9ed3246df6a75730c3039b379559d18d2ec456e78a5c8e55642873f",
+  "dxfPath": null,
+  "sourceDxfSha256": "594b8211996d84142283c78565d65a6963014042c005878a949b366c8c65c8d6",
+  "manufacturingEvidence": {
+    "geometryRevision": "R1",
+    "sourceStepSha256": "874faaf374d1f5aafab61b3d72bc168a6a5a2da1add9da03acb66d723f105335",
+    "drawingSha256": "8d557b08f9ed3246df6a75730c3039b379559d18d2ec456e78a5c8e55642873f",
+    "dxfSha256": "594b8211996d84142283c78565d65a6963014042c005878a949b366c8c65c8d6",
+    "designManifest": "library/reviews/ls35x-lab-e-r1-20261007/evidence/design_manifest.json",
+    "supplierLimitation": "library/reviews/ls35x-lab-e-r1-20261007/evidence/manufacturer_endpoint_tool_access.json",
+    "physicalAcceptance": "not-performed"
+  },
+  "coordinateDatum": "STEP 板中心 XY、底面 Z=0；登记板左下孔坐标加 (37.5,25)。",
+  "notes": "官方当前 LS35x.Lab 共享 STEP 为 22 实体参考源，产品选型含 .Lab.E；E 实物型号/编码器零点/中位孔网未验。底部四安装孔中 native(15,-10) 对应原厂实体22未提供完整 Ø4 入口，标准 M2 头和工具路径在共享源中受阻；不得据本候选宣称四孔装配通过。 上板75×50×7；4个顶入 Ø4.4深2/Ø2.2通沉孔配M2×8，名义旋入3。11个M6×1通牙有效6.5，附件旋入≤6，不得穿出底面。",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "22c38acf31a3fc2816e0024ca11dc9c3f23f4d2dad959a0a442645dbac81c293",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "ccc29b1df7fe72cf65ed0440054ad6ba25ddc8a76daddb3f5f9f9bb3c0b8b37c",
+      "currentPdfSha256": "e7f5d777639c6e38d7e90ac140f9e5c634c09f27485cc1fa47847d5915cd4d24",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "4f50685a363588bfdb284fa6fa973183a7171fb6f69de748feb41e074831b485",
+      "currentPdfSha256": "22c38acf31a3fc2816e0024ca11dc9c3f23f4d2dad959a0a442645dbac81c293",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "760a1702ce31d1e18dec791a2e9912c758324e85d3af228667e2ec12b6da12d3",
+        "sha256": "8d557b08f9ed3246df6a75730c3039b379559d18d2ec456e78a5c8e55642873f"
+      },
+      {
+        "path": null,
+        "previousSha256": "5fc6e625dc753906bb15133b6f9bc39f717443c76a1ecae41383d7932fc51c10",
+        "sha256": "22c38acf31a3fc2816e0024ca11dc9c3f23f4d2dad959a0a442645dbac81c293"
+      },
+      {
+        "path": null,
+        "previousSha256": "a9e08c97edb0ce78ffcdc521b33dcf3b28842a40a292ace09fe101633cd75ee4",
+        "sha256": "594b8211996d84142283c78565d65a6963014042c005878a949b366c8c65c8d6"
+      }
+    ]
+  }
+}

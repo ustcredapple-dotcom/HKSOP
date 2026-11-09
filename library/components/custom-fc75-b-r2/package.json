@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-fc75-b-r2",
+  "revision": "source-snapshot",
+  "displayName": "FLIR 调焦孔距转换底板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-fc75-b-r2.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

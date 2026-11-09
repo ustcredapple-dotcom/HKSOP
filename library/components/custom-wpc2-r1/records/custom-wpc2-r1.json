@@ -1,0 +1,30 @@
+{
+  "id": "custom-wpc2-r1",
+  "name": "居中双波片转接件",
+  "model": "WPC2-R1",
+  "kind": "custom",
+  "unit": "件",
+  "stepPath": "step/wpc2-r1/WPC2-R1_adapter.step",
+  "drawingPath": null,
+  "sourceStepSha256": "3ade68e2904a847c69d310b9aa3edbc2e557e552239708897a5a57493a637caf",
+  "sourceDrawingSha256": "c76be0b746af83ab91c137822f4a07df615626fc8cd13faba84902378ee2ddfc",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L",
+    "surfaceTreatment": "去磁及钝化"
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "源图要求WPC2-R1侧面识别编号；激光打标，不铣刻。",
+    "files": [],
+    "notes": " 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。"
+  },
+  "status": "加工审核版；未实物试装",
+  "drawingStatus": "engineering-review",
+  "manufacturingEvidence": {
+    "geometryValidated": true,
+    "pdfVisualReviewPassed": true,
+    "physicalAssemblyTested": false,
+    "engineeringReleaseApproved": false
+  }
+}

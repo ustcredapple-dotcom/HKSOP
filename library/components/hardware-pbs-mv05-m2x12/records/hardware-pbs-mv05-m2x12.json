@@ -1,0 +1,14 @@
+{
+  "id": "hardware-pbs-mv05-m2x12",
+  "name": "PBS 半英寸竖直电动版 M2×12 舵机螺钉",
+  "model": "M2×12",
+  "kind": "standard",
+  "unit": "颗",
+  "standardSpec": {
+    "thread": "M2",
+    "lengthMm": 12,
+    "standard": null
+  },
+  "status": "名义规格；实际材料与接口待确认",
+  "notes": "按设计中舵机安装包络；头型及实物舵机接口待确认。"
+}

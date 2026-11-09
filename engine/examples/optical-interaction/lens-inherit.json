@@ -1,0 +1,21 @@
+{
+  "format": "zzlab-optical-interaction",
+  "version": 1,
+  "model": "planar",
+  "onNoMatch": "block",
+  "inputs": [
+    {
+      "id": "main",
+      "direction": {
+        "angleDeg": 0,
+        "halfAngleDeg": 5,
+        "bidirectional": true
+      },
+      "steps": [
+        {
+          "op": "lens"
+        }
+      ]
+    }
+  ]
+}

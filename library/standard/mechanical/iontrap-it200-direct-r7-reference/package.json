@@ -1,0 +1,25 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "iontrap-it200-direct-r7-reference",
+  "revision": "source-snapshot",
+  "displayName": "离子阱 200 mm 镜架 R7 · 参考器件",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/iontrap-it200-direct-r7-reference.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-it200-direct-r7"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "not-declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

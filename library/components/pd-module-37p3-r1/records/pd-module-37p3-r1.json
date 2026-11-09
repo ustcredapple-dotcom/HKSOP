@@ -1,0 +1,21 @@
+{
+  "id": "pd-module-37p3-r1",
+  "name": "探测器模块 · 37.3 mm 图片外形",
+  "model": "37.3×37.3 mm 模块（型号未知）",
+  "kind": "standard",
+  "unit": "件",
+  "stepPath": "step/servo-detector-gate-r2/DETECTOR_SOURCE.step",
+  "sourceStepSha256": "61b68240e9b9223e633f0be739b736ffe8d41aa3e54fb1938e9cf027a8451bef",
+  "status": "来源冻结 · 实物接口待核",
+  "notes": "按用户尺寸图建立的简化外形；孔距30×30、4×Ø3.6。缺失外形尺寸按图估算；真实敏感面和电气/功率响应未知。",
+  "sourceUrl": "",
+  "revision": "SOURCE-FROZEN-R1",
+  "supplier": null,
+  "productionReady": false,
+  "geometryEvidence": {
+    "sourceKind": "image-derived-simplified-CAD",
+    "sourceStepSha256": "61b68240e9b9223e633f0be739b736ffe8d41aa3e54fb1938e9cf027a8451bef",
+    "nativeSolidCount": 22,
+    "sourceUnmodified": true
+  }
+}

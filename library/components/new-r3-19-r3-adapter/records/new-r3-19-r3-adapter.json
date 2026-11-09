@@ -1,0 +1,86 @@
+{
+  "id": "new-r3-19-r3-adapter",
+  "name": "二英寸波片转接块",
+  "model": "19-WP-M1",
+  "kind": "custom",
+  "unit": "件",
+  "status": "M1公制加工审核图；PDF、DXF与STEP同源",
+  "notes": "M1公制修订；波片功能面按原批准轴向偏移；原厂简化螺纹配合例外仍保留。。实物试装未完成。",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/bddb62500b2efb2b81f8f819",
+  "stepPath": "step/metric-m1-20261006/19-WP_METRIC_M1.step",
+  "drawingPath": null,
+  "sourceStepSha256": "84805167026a228aed7253c54e0b7f65b9f90aa7c88fe98f0c7e43cefd52ac4f",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "threadClass": "待确认",
+    "profileId": "r6_316L_passivated",
+    "policyVersion": "supplied-manufacturing-M1-2026-10-05",
+    "processDetails": "顶/底M4沉孔分别用于柱与商业架；入口方向不得颠倒。 保留短平行后挡，不加侧长臂。"
+  },
+  "drawingRevision": "M1",
+  "drawingStatus": "engineering-review",
+  "dxfPath": null,
+  "manufacturingEvidence": {
+    "sourcePackage": null,
+    "sourceCode": "19-WP",
+    "sourceStepSha256": "84805167026a228aed7253c54e0b7f65b9f90aa7c88fe98f0c7e43cefd52ac4f",
+    "drawingSha256": "f754c576101d9543019f254bf9ee0718ff7eb350e46ebba20f268e64c999dc39",
+    "dxfSha256": "9164350acd5055917daac78969a1529ed1f346130d002a78fdee414be7f65870",
+    "pageCount": 3,
+    "metricMigration": {
+      "post_height_old_mm": 12.7,
+      "post_height_new_mm": 12.5,
+      "selected_height_delta_mm": -0.8,
+      "world_bottom_delta_mm": -0.2,
+      "supplier_translation_mm": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "physicalTrialCompleted": false
+  },
+  "sourceDrawingSha256": "f754c576101d9543019f254bf9ee0718ff7eb350e46ebba20f268e64c999dc39",
+  "sourceDxfSha256": "9164350acd5055917daac78969a1529ed1f346130d002a78fdee414be7f65870",
+  "dxfPdfPath": null,
+  "dxfPdfSha256": "9c7c6897e7970ce5b091fcce31c67a95afcc2a7c60e397ff853e08db44a651b8",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "31a0e149f33d68ccb808d80cc1aeba6d900774b3c490d1d4e8a6445cc06d95c8",
+      "currentPdfSha256": "2d1c4cbbf7f667d06a2168f69ff219005d617a5309bcbb4ef390ed1b7d5b0cc7",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "68b496032a765af0d68725ac449d85c8518489bf100b888f9930172dbb4d0c4d",
+      "currentPdfSha256": "9c7c6897e7970ce5b091fcce31c67a95afcc2a7c60e397ff853e08db44a651b8",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "release": "20261107-175130-fast",
+  "fullBaseRelease": "20261107-165008",
+  "deltaChain": [
+    "20261107-175130-fast"
+  ],
+  "effectiveCatalogSha256": "4364832c771a8993c44840c8ba93b10e4ead09bc0f099bb95e6d37f11fccca44",
+  "restoration": "Clone releases/fullBaseRelease, then apply each deltas/id/files in order; verify each delta previous/new SHA. Never delete the base while this chain is current."
+}

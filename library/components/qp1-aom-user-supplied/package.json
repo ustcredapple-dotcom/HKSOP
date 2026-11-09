@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "qp1-aom-user-supplied",
+  "revision": "source-snapshot",
+  "displayName": "QP1 AOM 本体及原 RF 引线",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/qp1-aom-user-supplied.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

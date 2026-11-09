@@ -1,0 +1,14 @@
+{
+  "id": "lbtek-mt-am1t-purchased",
+  "name": "麓邦 MT-AM1T 物镜调整架（用户已有）",
+  "model": "MT-AM1T",
+  "kind": "lubang",
+  "unit": "个",
+  "sourceUrl": "https://www.lbtek.com/product/1262",
+  "status": "照片铭牌及原厂机械接口已核验",
+  "notes": "用户已有；单独登记身份，未加入本批新增采购BOM。附送M4×14原螺钉沿用。按用户最新确认沿用物镜肩面直接贴合镜架前端面的现有接口；内部配合螺纹不重制，不增购转接环。",
+  "sourceEvidence": {
+    "path": "evidence/source/objective-holder/MT-AM1T_interface_summary.json",
+    "originalStepSha256": "fc2a11794cfa03e78b5918a180d8bbc87757cab7c5ea68b84fe96a77d3a9d759"
+  }
+}

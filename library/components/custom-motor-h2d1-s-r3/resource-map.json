@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-motor-h2d1-s-r3",
+  "files": [
+    {
+      "path": "cad/01185595ca28e0111383359eeb35895a4ae26905c33ce6f86c1a3c133721eff3.step",
+      "stored": "library/assets/sha256/01/01185595ca28e0111383359eeb35895a4ae26905c33ce6f86c1a3c133721eff3.step",
+      "sha256": "01185595ca28e0111383359eeb35895a4ae26905c33ce6f86c1a3c133721eff3",
+      "originalReferences": [
+        "step/motor-h2-compact-support-r3/H2D1-S_R3.step"
+      ],
+      "sources": [
+        "library/assets/sha256/01/01185595ca28e0111383359eeb35895a4ae26905c33ce6f86c1a3c133721eff3.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

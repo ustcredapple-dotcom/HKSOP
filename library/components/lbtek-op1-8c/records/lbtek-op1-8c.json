@@ -1,0 +1,12 @@
+{
+  "id": "lbtek-op1-8c",
+  "name": "Ø25 mm 光学调整垫片 · 8 mm",
+  "model": "OP1-8C",
+  "kind": "lubang",
+  "unit": "片",
+  "sourceUrl": "https://www.lbtek.com/product/264#OP1-8C",
+  "status": "已核对",
+  "notes": "垫高材料；有效高度 8 mm；单片型号，不是五片装。中心 M6 光壁通孔。",
+  "heightMm": 8.0,
+  "piecesPerOrderUnit": 1
+}

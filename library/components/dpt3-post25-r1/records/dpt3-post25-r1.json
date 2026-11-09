@@ -1,0 +1,54 @@
+{
+  "id": "dpt3-post25-r1",
+  "name": "Dipole Trap 3 · H25定向万能柱",
+  "kind": "custom",
+  "unit": "件",
+  "model": "DPT3-M25-R1",
+  "revision": "R1",
+  "stepPath": "step/dipole-trap3-r1/DPT3-M25-R1.step",
+  "drawingPath": null,
+  "sourceStepSha256": "f7be40e94bf1d9cb018f2a837fb2932b9957ecc3fd0357dd8d71a7723177b5f1",
+  "sourceDrawingSha256": "c9e6828db4d0d51ca782ee79a2f3a9cf24daea2fca0cbf9c60d7fd6ef8f2a915",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "退磁、喷砂",
+    "threadClass": "源未另指定，未补充通用公差",
+    "profileId": "custom316L"
+  },
+  "productionReady": false,
+  "drawingStatus": "engineering-review",
+  "status": "CAD回读和工具入口已核验；未实物试装",
+  "laserMarking": {
+    "status": "required",
+    "reason": "唯一零件编号及指定光路名称",
+    "notes": "仅激光打标，不铣刻；定位见图册末两页。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "files": []
+  },
+  "publicationScope": {
+    "website": true,
+    "localEditor": true,
+    "onshapeUploaded": false,
+    "globalMachiningAtlasIncluded": false,
+    "physicalTrial": false
+  },
+  "fastUpload": {
+    "schema": "zzlab-fast-kit-upload-v1",
+    "packageId": "dipole-trap3-complete-module-r2-20261019",
+    "mode": "reviewed-module-intake",
+    "atlasIncluded": false,
+    "onshapeUploaded": false,
+    "sourceZipSha256": "c8e996df594c96d977448942055fb1048de60775c7ba0047fd87a5747283b0d9"
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": null,
+        "previousSha256": "d682005a95af7fcba7ac162e2a412d02cef623f4ba1d7b8068636be415bd1ec3",
+        "sha256": "c9e6828db4d0d51ca782ee79a2f3a9cf24daea2fca0cbf9c60d7fd6ef8f2a915"
+      }
+    ]
+  }
+}

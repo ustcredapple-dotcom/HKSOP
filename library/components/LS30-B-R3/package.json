@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "LS30-B-R3",
+  "revision": "R3-A7075-TABLE-MOUNT",
+  "displayName": "LS30 左/右型共用外露台面安装下板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/LS30-B-R3.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

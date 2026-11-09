@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-bdp-a1-r4",
+  "revision": "R4",
+  "displayName": "BDP-A1 R4 · 后置PD光阱双螺钉转接板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-bdp-a1-r4.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

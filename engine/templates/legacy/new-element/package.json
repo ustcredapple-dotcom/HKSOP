@@ -1,0 +1,65 @@
+{
+  "protocolVersion": "zzlab-optics-library-v1",
+  "packageId": "TODO-unique-package-id",
+  "baseCatalogSha256": "TODO-filled-by-package-template-command",
+  "records": [
+    {
+      "type": "components",
+      "id": "TODO-new-component-id",
+      "path": "records/example-component.json",
+      "mode": "add"
+    }
+  ],
+  "assets": [],
+  "metadataPatch": {
+    "version": "TODO-new-catalog-version",
+    "updatedAt": "TODO-YYYY-MM-DD"
+  },
+  "reviews": {
+    "sourceReviewed": {
+      "status": "TODO-reviewed-or-not-applicable",
+      "reviewer": "TODO human/AI reviewer identity",
+      "reason": "TODO explain checked source/dimensions/behavior/BOM, or why not applicable",
+      "evidence": [
+        {
+          "path": "evidence/review.txt",
+          "sha256": "TODO-SHA256-of-final-evidence-file"
+        }
+      ]
+    },
+    "geometryReviewed": {
+      "status": "TODO-reviewed-or-not-applicable",
+      "reviewer": "TODO human/AI reviewer identity",
+      "reason": "TODO explain checked source/dimensions/behavior/BOM, or why not applicable",
+      "evidence": [
+        {
+          "path": "evidence/review.txt",
+          "sha256": "TODO-SHA256-of-final-evidence-file"
+        }
+      ]
+    },
+    "interactionReviewed": {
+      "status": "TODO-reviewed-or-not-applicable",
+      "reviewer": "TODO human/AI reviewer identity",
+      "reason": "TODO explain checked source/dimensions/behavior/BOM, or why not applicable",
+      "evidence": [
+        {
+          "path": "evidence/review.txt",
+          "sha256": "TODO-SHA256-of-final-evidence-file"
+        }
+      ]
+    },
+    "bomReviewed": {
+      "status": "TODO-reviewed-or-not-applicable",
+      "reviewer": "TODO human/AI reviewer identity",
+      "reason": "TODO explain checked source/dimensions/behavior/BOM, or why not applicable",
+      "evidence": [
+        {
+          "path": "evidence/review.txt",
+          "sha256": "TODO-SHA256-of-final-evidence-file"
+        }
+      ]
+    }
+  },
+  "notes": "Do not mark review complete until evidence exists. Use separate kits/boards descriptors if needed."
+}

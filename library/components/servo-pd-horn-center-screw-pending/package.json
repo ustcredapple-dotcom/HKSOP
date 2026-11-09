@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "servo-pd-horn-center-screw-pending",
+  "revision": "source-snapshot",
+  "displayName": "舵盘中心固定螺钉",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/servo-pd-horn-center-screw-pending.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

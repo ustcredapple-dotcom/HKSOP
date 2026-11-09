@@ -1,0 +1,10 @@
+{
+  "id": "new-aom-vendor-2",
+  "name": "可调 AOM（型号待选）",
+  "model": "",
+  "kind": "lubang",
+  "unit": "个",
+  "status": "采购型号待确认",
+  "sourceUrl": "",
+  "notes": "采购选型待确认；三型号仅机械外壳共享，不代表光谱或RF参数互换。只计一个实际选型，不计三个。"
+}

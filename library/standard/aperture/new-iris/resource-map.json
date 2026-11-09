@@ -1,0 +1,36 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-iris",
+  "files": [
+    {
+      "path": "cad/3b9685bc3ecda0a4c41df0bb47298f06d44ed3137485a472f521d768414da1be.step",
+      "stored": "library/assets/sha256/3b/3b9685bc3ecda0a4c41df0bb47298f06d44ed3137485a472f521d768414da1be.step",
+      "sha256": "3b9685bc3ecda0a4c41df0bb47298f06d44ed3137485a472f521d768414da1be",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/new-iris__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/3b/3b9685bc3ecda0a4c41df0bb47298f06d44ed3137485a472f521d768414da1be.step"
+      ]
+    },
+    {
+      "path": "rendering/dd8fa91c758a28be0ec19638b79545d2d9e88f1f01e08e57d84fdb52be2d421c.svg",
+      "stored": "library/assets/sha256/dd/dd8fa91c758a28be0ec19638b79545d2d9e88f1f01e08e57d84fdb52be2d421c.svg",
+      "sha256": "dd8fa91c758a28be0ec19638b79545d2d9e88f1f01e08e57d84fdb52be2d421c",
+      "originalReferences": [
+        "topviews/new-iris__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/dd/dd8fa91c758a28be0ec19638b79545d2d9e88f1f01e08e57d84fdb52be2d421c.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-post-metric-25mm-m1",
+    "metric-m1-post-m4x16",
+    "metric-m1-post-pin-d2x8",
+    "new-iris-adapter-1",
+    "new-iris-adapter-2",
+    "new-iris-vendor-1"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "new-beam-dump",
+  "files": [
+    {
+      "path": "cad/b1b206d6069b5c2b4cfff156a6cddbe42917a045a592894d6bec410444041980.step",
+      "stored": "library/assets/sha256/b1/b1b206d6069b5c2b4cfff156a6cddbe42917a045a592894d6bec410444041980.step",
+      "sha256": "b1b206d6069b5c2b4cfff156a6cddbe42917a045a592894d6bec410444041980",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/new-beam-dump__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/b1/b1b206d6069b5c2b4cfff156a6cddbe42917a045a592894d6bec410444041980.step"
+      ]
+    },
+    {
+      "path": "rendering/fe3e791b35c3f9f90a059f4a7792f3548040915da52ee3c70eb18fb273642903.svg",
+      "stored": "library/assets/sha256/fe/fe3e791b35c3f9f90a059f4a7792f3548040915da52ee3c70eb18fb273642903.svg",
+      "sha256": "fe3e791b35c3f9f90a059f4a7792f3548040915da52ee3c70eb18fb273642903",
+      "originalReferences": [
+        "topviews/new-beam-dump__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/fe/fe3e791b35c3f9f90a059f4a7792f3548040915da52ee3c70eb18fb273642903.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-post-metric-25mm-m1",
+    "metric-m1-post-m4x14",
+    "metric-m1-post-pin-d2x8",
+    "new-beam-dump-adapter-1",
+    "new-beam-dump-vendor-1"
+  ]
+}

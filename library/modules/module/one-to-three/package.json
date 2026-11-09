@@ -1,0 +1,47 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "one-to-three",
+  "revision": "CURRENT-B6R1-H12p5B4R2",
+  "displayName": "一分三模块",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/one-to-three.json"
+    }
+  ],
+  "componentDependencies": [
+    "amp-1r",
+    "crm-1as",
+    "cs30-xy1d",
+    "custom-04",
+    "custom-06",
+    "custom-07",
+    "custom-09",
+    "custom-11",
+    "custom-13",
+    "custom-post-metric-12p5mm-m1",
+    "custom-post-metric-25mm-m1",
+    "custom-post-metric-37p5mm-m1",
+    "encoder-servo",
+    "mft",
+    "mop-50",
+    "motor-adapter-28",
+    "motor-adapter-9",
+    "motor-bracket-21",
+    "motor-bracket-22",
+    "mt-am05s5",
+    "mt-flf1s",
+    "pbs24-532-alias",
+    "pcms1"
+  ],
+  "capabilities": {
+    "display": "available",
+    "placement": "not-declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

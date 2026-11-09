@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "custom-kungshu-33-dr-m03-r1",
+  "files": [
+    {
+      "path": "cad/b79f176b92ddb273f06e6e1fe616b219e55dcab073ad17de8d9d0c862a36b0b2.step",
+      "stored": "library/assets/sha256/b7/b79f176b92ddb273f06e6e1fe616b219e55dcab073ad17de8d9d0c862a36b0b2.step",
+      "sha256": "b79f176b92ddb273f06e6e1fe616b219e55dcab073ad17de8d9d0c862a36b0b2",
+      "originalReferences": [
+        "step/kungshu-r1-20261012/33-DR-M03_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/b7/b79f176b92ddb273f06e6e1fe616b219e55dcab073ad17de8d9d0c862a36b0b2.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

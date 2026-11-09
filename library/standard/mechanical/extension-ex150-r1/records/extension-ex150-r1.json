@@ -1,0 +1,71 @@
+{
+  "name": "延长块 150 mm",
+  "category": "mechanical",
+  "variant": "直列系列",
+  "description": "孔群中心距 150.000 mm；外形 175.000 × 24.5 × 12.5 mm。316L，去磁钝化。",
+  "status": "加工审核版",
+  "sourceReport": {
+    "kind": "user-cad-package",
+    "revision": "R1",
+    "packageSha256": "91873ae72ec5894d2c03e9997d887a5e0aba0efb95b1bfa781b2ed0e38d57f7a"
+  },
+  "components": [
+    {
+      "componentId": "custom-extension-ex150-r1",
+      "quantity": 1
+    }
+  ],
+  "opticalSlots": [],
+  "productionReady": false,
+  "notes": "L 为两端孔群中心距，外形总长 L+25 mm；保留原沉孔开边及沉孔/销孔局部相通。共用四页参数图册，按型号查第4页长度表；DXF是 EX25 参数主图，其他长度按表读取，不能当作该款1:1展开图。安装螺钉和定位销需按实际接口选配。",
+  "pendingRequirements": [
+    {
+      "id": "assembly-hardware",
+      "label": "安装螺钉与定位销按实际接口选配"
+    }
+  ],
+  "layout": {
+    "placementAllowed": false,
+    "opticalType": "empty",
+    "topViewPath": "topviews/extension-ex150-r1.svg",
+    "topViewUrl": "./topviews/extension-ex150-r1.svg",
+    "widthMm": 176.0,
+    "heightMm": 25.5,
+    "anchorXMm": 13,
+    "anchorYMm": 12.75,
+    "geometryStatus": "verified-mechanical-accessory",
+    "note": "M4/定位销接口机械配件，可按件加入购物车；尚未定义与现有器件的装配关系，不直接吸附到M6面包板。",
+    "sourceStepPath": "step/extension-series-r1/延长150.step",
+    "geometryEvidence": {
+      "method": "Complete STEP shaded orthographic projection after documented proper rigid registration; original source solid unmodified",
+      "stepSha256": "4086e0c6d3bb45e812ab4216c169da958054515803548c386379b92871efd382",
+      "topViewSha256": "155d0da032f049d118ff87c73ef32db2bb932d58f12386c76c4a146f5d1b2f75",
+      "displayStyle": "zzlab-shaded-metal-v1",
+      "sourceToDisplayRotation": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "boundsMm": [
+        -13,
+        -12.75,
+        163.0,
+        12.75
+      ],
+      "independentGeometryReportSha256": "296fad7a6c5ea6ddf42604a4502f87eb105eaf97bb95151cfe6644970ba47b39"
+    }
+  },
+  "id": "extension-ex150-r1"
+}

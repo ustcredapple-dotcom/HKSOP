@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "LS30-T",
+  "revision": "R2-A7075",
+  "displayName": "LS30 左/右型共用上面包板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/LS30-T.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

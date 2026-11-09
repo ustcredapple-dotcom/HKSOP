@@ -1,0 +1,14 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "custom-i53-a3-r3",
+  "revision": "R3",
+  "displayName": "I53-A3 · 独立转接板",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-i53-a3-r3.json"
+    }
+  ],
+  "origin": "current-published-catalog",
+  "distribution": "step-and-topviews-no-drawings"
+}

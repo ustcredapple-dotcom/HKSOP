@@ -1,0 +1,18 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "lbtek-vam-05f-purchased",
+  "files": [
+    {
+      "path": "cad/f753d6ae42f83082b53fd1603cc63e757601fc38d46a05ae20d242b0a397ef95.step",
+      "stored": "library/assets/sha256/f7/f753d6ae42f83082b53fd1603cc63e757601fc38d46a05ae20d242b0a397ef95.step",
+      "sha256": "f753d6ae42f83082b53fd1603cc63e757601fc38d46a05ae20d242b0a397ef95",
+      "originalReferences": [
+        "step/vam05f-r1/VAM-05F_vendor.step"
+      ],
+      "sources": [
+        "library/assets/sha256/f7/f753d6ae42f83082b53fd1603cc63e757601fc38d46a05ae20d242b0a397ef95.step"
+      ]
+    }
+  ],
+  "dependencies": []
+}

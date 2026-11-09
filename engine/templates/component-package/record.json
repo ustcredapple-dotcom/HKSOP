@@ -1,0 +1,10 @@
+{
+  "id": "replace-with-unique-id",
+  "name": "填写元件名称",
+  "unit": "piece",
+  "kind": "standard",
+  "model": "填写厂家型号",
+  "status": "draft",
+  "sourceUrl": "",
+  "notes": "模板仅创建物料记录；填写真实来源后入库。可摆放元件另需 kits 记录及真实安装和光学定义。"
+}

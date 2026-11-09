@@ -1,0 +1,48 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "mt-cube-pbs-1inch-motorized-r1",
+  "files": [
+    {
+      "path": "cad/35894efb38eedd1ce289dd93f6bc8b3b2d985f5e54147c9a8d1b69654e57e6ae.step",
+      "stored": "library/assets/sha256/35/35894efb38eedd1ce289dd93f6bc8b3b2d985f5e54147c9a8d1b69654e57e6ae.step",
+      "sha256": "35894efb38eedd1ce289dd93f6bc8b3b2d985f5e54147c9a8d1b69654e57e6ae",
+      "originalReferences": [
+        "step/combined-r1-20261015/0/PBS_MOTOR_1inch_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/35/35894efb38eedd1ce289dd93f6bc8b3b2d985f5e54147c9a8d1b69654e57e6ae.step"
+      ]
+    },
+    {
+      "path": "rendering/76e688c2b26c43908f74939746149fae8705df42d41a3b7605c481e13ec5dc44.svg",
+      "stored": "library/assets/sha256/76/76e688c2b26c43908f74939746149fae8705df42d41a3b7605c481e13ec5dc44.svg",
+      "sha256": "76e688c2b26c43908f74939746149fae8705df42d41a3b7605c481e13ec5dc44",
+      "originalReferences": [
+        "topviews/mt-cube-pbs-1inch-motorized-r1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/76/76e688c2b26c43908f74939746149fae8705df42d41a3b7605c481e13ec5dc44.svg"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-mcv1-r1",
+    "custom-motor-h2d1-b-r3",
+    "custom-motor-h2d1-l-r2",
+    "custom-motor-h2d1-s-r3",
+    "custom-post-metric-25mm-m1",
+    "encoder-servo",
+    "hardware-h2-r3-m2x10",
+    "hardware-h2-r3-m4-washer",
+    "hardware-h2-r3-m4x20",
+    "hardware-iso4762-m3x8",
+    "hardware-iso4762-m6x12",
+    "lbtek-mt-csb1-purchased",
+    "metric-m1-post-pin-d2x8",
+    "motor-adapter-m3",
+    "mt-am1s5",
+    "new-r3-hardware-b7a3ea97ce89",
+    "v7-iso4762-m4x12",
+    "v7-source-m4-nut"
+  ]
+}

@@ -21,3 +21,5 @@ description: 使用 HKSOP 标准光学协议工作区进行元件、光路项目
 元件设计交给 hksop-component-design；本库登记交给 hksop-component-upload；加工和客户交付分别使用 hksop-manufacturing-package、hksop-customer-package。布局转三维继续使用 zzlab-optics-json-to-3d 的变换和核验要求。
 
 使用根目录 hksop.py 生成总清单与运行目录；不要在 skill 中维护另一份支持元件表。项目的真实机械/光学验收、云端状态和本地编译状态分别说明。
+
+AI 已验证的设计入库默认按 [验收复用与最小入库流程](../zzlab-optics-library/references/acceptance-reuse.md) 直接继承结论，只检查新增、变更及其影响；不重复设计验收或事务已完成的构建。

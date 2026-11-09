@@ -18,7 +18,7 @@ description: 在 HKSOP 入库或更新独立光学元件包，生成统一元件
 
 先读 [工作区适配](../HKSOP_CONTEXT.md) 与 ../../docs/component-intake.md。按 package.json 归集零件、套件、板型及资源，不手工同时修改多个总表。
 
-在库外准备候选。执行 package check、package stage；检查完整报告后执行 package adopt，再 catalog check 和 runtime build。用户已授权入库时，正常完成这些步骤，无需再人为增加确认环节。
+在库外准备候选，AI 已经验证过的设计直接复用验收。按 [验收复用与最小入库流程](../zzlab-optics-library/references/acceptance-reuse.md) 只补新增、变更及受影响的未覆盖检查。执行 package check、package stage；读取事务报告后执行 package adopt。事务已完成的校验和 catalog/runtime 构建直接复用，仅缺少产物或相关输入改变时补一次必要构建。用户已授权入库时直接完成，无需重复确认。
 
 不同配置共享完全相同的数据；稳定 ID 不因显示名改变而变化。新文件记录 SHA256，变更内容使用新文件名。列出未通过的能力，不将示意图当作真实接口或制造证据。
 

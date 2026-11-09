@@ -116,9 +116,9 @@ python hksop.py runtime build --profile editor
 python hksop.py serve --profile editor --port 18945
 ```
 
-启动后，用浏览器打开 **http://localhost:18945**，导入 `projects/` 下示例目录中的 `project.zzoptics.json`。第一次可以先用基础反射示例熟悉导入、拖动和旋转，再看一分三与 DoublePass 的组合布局。
+启动后，用浏览器打开 **[http://localhost:18945](http://localhost:18945)**，导入 `projects/` 下示例目录中的 `project.zzoptics.json`。第一次可以先用基础反射示例熟悉导入、拖动和旋转，再看一分三与 DoublePass 的组合布局。
 
-Open **http://localhost:18945** and import a `project.zzoptics.json` from `projects/`. Start with Basic Reflection to try importing and manipulating a kit, then explore the larger 1-to-3 and DoublePass layouts.
+Open **[http://localhost:18945](http://localhost:18945)** and import a `project.zzoptics.json` from `projects/`. Start with Basic Reflection to try importing and manipulating a kit, then explore the larger 1-to-3 and DoublePass layouts.
 
 <details>
 <summary><strong>可选：三维 CAD 环境与本机路径 / Optional: CAD environment and local paths</strong></summary>

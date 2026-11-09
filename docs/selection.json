@@ -14,12 +14,12 @@
     "threeViewAndManufacturingDrawings": true,
     "projectHistory": false,
     "githubUpload": "authorized",
-    "futureVisibility": "private",
+    "futureVisibility": "public",
     "githubRepository": "ustcredapple-dotcom/HKSOP",
-    "githubVisibility": "private",
+    "githubVisibility": "public",
     "currentComponentCad": true,
     "laserMarkingFiles": true,
-    "scopeUpdatedAt": "2026-11-09T14:09:11+08:00"
+    "scopeUpdatedAt": "2026-11-09T14:46:37+08:00"
   },
   "packages": 694,
   "counts": {

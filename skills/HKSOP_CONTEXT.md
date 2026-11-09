@@ -4,7 +4,7 @@
 
 本目录上一级是工作区根目录。业务 skill 在本副本中优先遵守根目录 AGENTS.md、config/distribution.json 和用户当次要求。
 
-当前范围是标准元件及一分三/DoublePass 所需依赖、现用 STEP、俯视资源、配套三视图/加工图/打标文件与三个 JSON 示例。用户于 2026-11-09 明确允许补入现用图纸并直接更新 GitHub；目标为 ustcredapple-dotcom/HKSOP 私有仓库，覆盖此前不含图纸的分发限制。未要求公开发布。
+当前范围是标准元件及一分三/DoublePass 所需依赖、现用 STEP、俯视资源、配套三视图/加工图/打标文件与三个 JSON 示例。用户于 2026-11-09 明确允许补入现用图纸并直接更新 GitHub；目标为 ustcredapple-dotcom/HKSOP，覆盖此前不含图纸的分发限制。用户随后明确要求仓库公开；public 是当前分发目标，覆盖此前私有限制。
 
 仅保留当前引擎和元件库。此精选副本不带项目历史；旁边 HKSOP 是完整本机来源，不为适配此副本而修改它。新入库使用 hksop.py package check/stage/adopt 与 catalog build。
 

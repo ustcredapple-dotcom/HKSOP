@@ -19,4 +19,4 @@ python3 hksop.py package adopt runtime/staging/<stage-id>
 
 当前精选范围已经包含所选元件的现用配套图纸。某件资料不全或制造尚未验收时，继续保留该条目的真实状态，不能用文件复制代替验收。
 
-GitHub 目标为私有仓库 ustcredapple-dotcom/HKSOP。config/local-environment.json 仅记录本机解释器路径，换电脑时按 example 配置；缺省使用当前 Python，命令行追迹从 PATH 查找 Node.js。
+GitHub 目标为公开仓库 ustcredapple-dotcom/HKSOP。config/local-environment.json 仅记录本机解释器路径，换电脑时按 example 配置；缺省使用当前 Python，命令行追迹从 PATH 查找 Node.js。

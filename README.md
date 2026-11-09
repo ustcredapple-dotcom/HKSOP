@@ -2,18 +2,18 @@
   <img src="docs/assets/hksop-cover.svg" alt="HKSOP — Hong Kong Standard Optical Protocol. A unified component library and layout tool for modular tabletop optics." width="100%">
 </p>
 
-<h1 align="center">HKSOP · 模块化实验光路设计与管理工具</h1>
+<h1 align="center">HKSOP · Modular Tabletop Optics</h1>
 
 <p align="center">A practical toolset for designing, checking, and building tabletop optical setups.</p>
 
 <p align="center">
-  <a href="#overview">项目介绍 Overview</a> ·
-  <a href="#design">设计思路 How It Works</a> ·
-  <a href="#layout">目录说明 Repository Tour</a> ·
-  <a href="#quick-start">快速上手 Quick Start</a> ·
-  <a href="#workflows">使用方法 Workflows</a> ·
-  <a href="#examples">示例光路 Examples</a> ·
-  <a href="#documentation">相关文档 Docs</a>
+  <a href="#overview">Overview</a> ·
+  <a href="#design">How It Works</a> ·
+  <a href="#layout">Repository Tour</a> ·
+  <a href="#quick-start">Quick Start</a> ·
+  <a href="#workflows">Workflows</a> ·
+  <a href="#examples">Examples</a> ·
+  <a href="#documentation">Documentation</a>
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@
 
 **HKSOP（Hong Kong Standard Optical Protocol）的设计来自香港大学 HKU Ultracold Atom Lab（ZZLab）**。我们把常用元件的厂家型号、安装孔位、真实光学面的坐标、二维俯视图和三维 STEP 模型，组织成统一格式的元件包。网页编辑器、光路计算、三维装配复建和 BOM 导出使用同一套定义：二维布局确定后，可以按元件已支持的交互规则检查光线与高斯光束传播，再用配套脚本复建三维子装配和总装，整理采购需求。
 
-这个私有仓库是我们自用的精选版本。当前有 **694 个元件包**，包含 **432 条零件记录、263 条装配套件记录和 6 种底板定义**，配套 **584 份去重 STEP、376 份俯视资源、539 份 PDF 和 349 份 DXF**，以及基础反射、一分三和 DoublePass 三个工程 JSON 示例。一个包可以包含多条记录，包数与记录数不是同一个统计口径。当前资料版本为 `2026-11-09.hksop-github-cad-2`。
+这个仓库是面向公开分享的精选版本。当前有 **694 个元件包**，包含 **432 条零件记录、263 条装配套件记录和 6 种底板定义**，配套 **584 份去重 STEP、376 份俯视资源、539 份 PDF 和 349 份 DXF**，以及基础反射、一分三和 DoublePass 三个工程 JSON 示例。一个包可以包含多条记录，包数与记录数不是同一个统计口径。当前资料版本为 `2026-11-09.hksop-github-cad-2`。
 
 元件对应的现用三视图、加工图和激光打标资料也随库提供，按内容哈希去重，沿用原记录中的修订和验收状态。具体文件及覆盖范围可查[收录范围](docs/selection.json)、[资源清单](docs/asset-manifest.json)和[图纸恢复记录](docs/cad-restoration.json)。具体项目的历史三维成果和整套交付压缩包不在这个精选版本中。
 
@@ -36,7 +36,7 @@ Building a tabletop optical setup usually involves several separate files: part 
 
 **HKSOP was developed at the HKU Ultracold Atom Lab (ZZLab), The University of Hong Kong.** It brings part numbers, mounting hole coordinates, optical reference surfaces, top-view assets, and STEP models into a common component package format. The web editor, optical calculations, 3D assembly rebuild, and BOM export use these definitions. After arranging a layout, you can check ray paths and Gaussian beam propagation for supported elements, reconstruct sub-assemblies and the full assembly with the CAD workflow, and prepare the purchasing BOM.
 
-This private, curated edition contains the package and asset counts listed above, including current component drawings and laser-marking files. Package counts and record counts measure different things: one package may contain several records. Asset revisions and existing verification states are preserved. See the [scope](docs/selection.json), [asset manifest](docs/asset-manifest.json), and [drawing restoration record](docs/cad-restoration.json) for the exact contents; historical project assemblies and complete delivery archives are outside this edition.
+This curated edition contains the package and asset counts listed above, including current component drawings and laser-marking files. Package counts and record counts measure different things: one package may contain several records. Asset revisions and existing verification states are preserved. See the [scope](docs/selection.json), [asset manifest](docs/asset-manifest.json), and [drawing restoration record](docs/cad-restoration.json) for the exact contents; historical project assemblies and complete delivery archives are outside this edition.
 
 <a id="design"></a>
 ## 设计思路 / How It Works
@@ -92,14 +92,14 @@ In the library, `components` are individual purchased or machined parts, `kits` 
 <a id="quick-start"></a>
 ## 快速上手 / Quick Start
 
-仓库使用相对符号链接共享资源，以下步骤适用于 macOS 或 Linux，克隆时需要保留这些链接。准备好 Git 和 Python 3，并配置有权访问这个私有仓库的 GitHub SSH 账号。命令行光学追迹另外需要 Node.js。
+仓库使用相对符号链接共享资源，以下步骤适用于 macOS 或 Linux，克隆时需要保留这些链接。准备好 Git 和 Python 3；公开仓库可通过 HTTPS 克隆，无需 GitHub 登录。命令行光学追迹另外需要 Node.js。
 
-The repository uses relative symlinks for shared assets. The commands below target macOS or Linux with symlink support, Git, Python 3, and SSH access to this private repository. Node.js is also needed for CLI optical tracing.
+The repository uses relative symlinks for shared assets. The commands below target macOS or Linux with symlink support, Git, and Python 3. You can clone the public repository over HTTPS without a GitHub account. Node.js is also needed for CLI optical tracing.
 
 **下载并安装依赖 / Clone and install**
 
 ```bash
-git clone git@github.com:ustcredapple-dotcom/HKSOP.git
+git clone https://github.com/ustcredapple-dotcom/HKSOP.git
 cd HKSOP
 
 python3 -m venv .venv

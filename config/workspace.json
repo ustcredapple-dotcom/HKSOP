@@ -7,7 +7,7 @@
   "sourceRegistry": "library/registry.json",
   "generatedCatalog": "library/catalog.json",
   "githubUpload": "authorized",
-  "futureVisibility": "private",
+  "futureVisibility": "public",
   "githubRepository": "ustcredapple-dotcom/HKSOP",
-  "githubVisibility": "private"
+  "githubVisibility": "public"
 }

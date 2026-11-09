@@ -4,7 +4,7 @@
 
 The parent of this directory is the workspace root. Business skills follow the root AGENTS.md, config/distribution.json, and the user's current instructions first.
 
-This curated edition contains active standard components and dependencies used by the 1-to-3/DoublePass examples, current STEP and top-view assets, supporting orthographic/shop/laser-marking files, and three project JSON examples. On 2026-11-09 the user explicitly authorized adding current drawings and updating the private ustcredapple-dotcom/HKSOP GitHub repository. This supersedes the earlier drawing exclusion. Public release has not been requested.
+This curated edition contains active standard components and dependencies used by the 1-to-3/DoublePass examples, current STEP and top-view assets, supporting orthographic/shop/laser-marking files, and three project JSON examples. On 2026-11-09 the user explicitly authorized adding current drawings and updating the ustcredapple-dotcom/HKSOP GitHub repository. This supersedes the earlier drawing exclusion. The user subsequently requested public visibility, which supersedes the previous private-only scope.
 
 Keep the current engine and library only. This edition contains no project history. The sibling HKSOP remains the full local source and is not modified to adapt this copy. New intake uses hksop.py package check/stage/adopt and catalog build.
 

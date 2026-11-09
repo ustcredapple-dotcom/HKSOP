@@ -19,4 +19,4 @@ Replace `<stage-id>` with the value returned by stage. Use standard instead of c
 
 The current distribution includes existing drawings for the selected components. Preserve incomplete or unverified manufacturing states for individual parts; copying files is not an acceptance test.
 
-The GitHub destination is the private ustcredapple-dotcom/HKSOP repository. config/local-environment.json only stores machine-local interpreter paths. Configure it from the example on another machine, or use the active Python and Node.js from PATH for CLI tracing.
+The GitHub destination is the public ustcredapple-dotcom/HKSOP repository. config/local-environment.json only stores machine-local interpreter paths. Configure it from the example on another machine, or use the active Python and Node.js from PATH for CLI tracing.

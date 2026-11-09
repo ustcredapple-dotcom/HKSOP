@@ -20,8 +20,8 @@
     "processDetails": "顶面2个M4沉孔、主底面2个M6沉孔，方向相反。 本件无螺纹孔；100mm双柱间距不等于两M6孔25mm间距。"
   },
   "stepPath": "step/metric-m1-20261006/09-ISO-C_METRIC_M1.step",
-  "drawingPath": null,
-  "dxfPath": null,
+  "drawingPath": "drawings/metric-m1-20261006/09-ISO-C_M1_加工工程图.pdf",
+  "dxfPath": "drawings/metric-m1-20261006/09-ISO-C_M1_加工工程图.dxf",
   "manufacturingEvidence": {
     "sourcePackage": null,
     "sourceCode": "09-ISO-C",
@@ -44,7 +44,7 @@
   },
   "sourceDrawingSha256": "a51a3783ed9a337eb00a85a254f2e89cd893635323cd0036308baca8de450b46",
   "sourceDxfSha256": "d31aad0e2a5c165c80b2f8c56fad3d48dabdcb8ad9734d59deead84786e1361f",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/metric-m1-20261006/09-ISO-C_M1_加工工程图_DXF.pdf",
   "dxfPdfSha256": "bc5498d9b9320b1df5989a26355ab391eedd21ffaea730ce1fb1e719f80ffb82",
   "drawingPages": [
     1,
@@ -80,7 +80,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "09-ISO-C",
+        "dxfPath": "drawings/laser-marking/new-r6-09-isoc1-adapter/编号面_-Y.dxf",
+        "sha256": "3596f3380ccd113a55c6f46d59a959a14e8472f484c41708b961a71eb5ff6aea",
+        "setupPdfPath": "drawings/laser-marking/new-r6-09-isoc1-adapter/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "f8170213eab2b8ca2b4e27476afc7acda1239d6024faab084e2045d9ee8755a7"
+      }
+    ]
   }
 }

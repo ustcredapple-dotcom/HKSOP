@@ -3,6 +3,28 @@
   "packageId": "custom-kungshu-33-dr-m02-r1",
   "files": [
     {
+      "path": "drawings/3e3cca1df5b1a54ff2e8b7eb375ba4aada0b6424bfb4dac2b7e1c536dd042ddc.pdf",
+      "stored": "library/assets/sha256/3e/3e3cca1df5b1a54ff2e8b7eb375ba4aada0b6424bfb4dac2b7e1c536dd042ddc.pdf",
+      "sha256": "3e3cca1df5b1a54ff2e8b7eb375ba4aada0b6424bfb4dac2b7e1c536dd042ddc",
+      "originalReferences": [
+        "drawings/kungshu-r1-20261012/33-DR-M02_R1_加工图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/3e/3e3cca1df5b1a54ff2e8b7eb375ba4aada0b6424bfb4dac2b7e1c536dd042ddc.pdf"
+      ]
+    },
+    {
+      "path": "drawings/7e4de61ae66ae138c33a7ef37ce9d0bd03dd724625e0f5cfc8921c055679ce7a.pdf",
+      "stored": "library/assets/sha256/7e/7e4de61ae66ae138c33a7ef37ce9d0bd03dd724625e0f5cfc8921c055679ce7a.pdf",
+      "sha256": "7e4de61ae66ae138c33a7ef37ce9d0bd03dd724625e0f5cfc8921c055679ce7a",
+      "originalReferences": [
+        "drawings/laser-marking/custom-kungshu-33-dr-m02-r1/33-DR-M02_R1_激光定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/7e/7e4de61ae66ae138c33a7ef37ce9d0bd03dd724625e0f5cfc8921c055679ce7a.pdf"
+      ]
+    },
+    {
       "path": "cad/b2974a8e21de14df59cc777a89af5cfe763732d9fe59703534fa64931dc98c1a.step",
       "stored": "library/assets/sha256/b2/b2974a8e21de14df59cc777a89af5cfe763732d9fe59703534fa64931dc98c1a.step",
       "sha256": "b2974a8e21de14df59cc777a89af5cfe763732d9fe59703534fa64931dc98c1a",
@@ -11,6 +33,17 @@
       ],
       "sources": [
         "library/assets/sha256/b2/b2974a8e21de14df59cc777a89af5cfe763732d9fe59703534fa64931dc98c1a.step"
+      ]
+    },
+    {
+      "path": "drawings/ec4c67242222b70aacb118f47d4360a4a955485c992bf913e1a4154e455478bd.dxf",
+      "stored": "library/assets/sha256/ec/ec4c67242222b70aacb118f47d4360a4a955485c992bf913e1a4154e455478bd.dxf",
+      "sha256": "ec4c67242222b70aacb118f47d4360a4a955485c992bf913e1a4154e455478bd",
+      "originalReferences": [
+        "drawings/laser-marking/custom-kungshu-33-dr-m02-r1/33-DR-M02_Yplus_1to1_mm.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/ec/ec4c67242222b70aacb118f47d4360a4a955485c992bf913e1a4154e455478bd.dxf"
       ]
     }
   ],

@@ -454,7 +454,7 @@
     "leafCount": 53,
     "note": "53叶件完整总装，51原厂/原设计叶件保留。固定名义姿态STEP；源件导入警告保留，未建立原生运动配合。",
     "includeInBundle": true,
-    "drawingPath": null,
+    "drawingPath": "drawings/xbk-cavity-frontgrid-r3/XBK_Cavity_H62p5_R3_审核图册_TN1_20261026.pdf",
     "sourceDrawingSha256": "ac1aeebc4ecfebef30c6fc247532eeb3d63c02cd521e2f453413348555a251e6",
     "onshapeUrl": "https://cad.onshape.com/documents/3317d27b2b157a1b479f8aad/v/4d404b3d4822937206f8cc0b/e/351ea6173bd0aba5f83fde89"
   },
@@ -558,7 +558,7 @@
     "roundHoleModeGridPitchMm": 12.5,
     "alternativeKitId": "xbk-cavity-front37p5-h62p5-r3"
   },
-  "manufacturingDrawingPath": null,
+  "manufacturingDrawingPath": "drawings/xbk-cavity-frontgrid-r3/XBK_Cavity_H62p5_R3_审核图册_TN1_20261026.pdf",
   "productionReady": false,
   "releaseStage": "engineering-review",
   "status": "工程审核版 · 名义安装已核 · 整套拖放",
@@ -583,7 +583,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/xbk-cavity-frontgrid-r3/XBK_Cavity_H62p5_R3_审核图册_TN1_20261026.pdf",
         "previousSha256": "18fd64199c84ef68cc71fffb994b9ee7dd7491701b3e9e523c3f76bec3ef7d7b",
         "sha256": "ac1aeebc4ecfebef30c6fc247532eeb3d63c02cd521e2f453413348555a251e6"
       }

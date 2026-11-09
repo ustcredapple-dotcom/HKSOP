@@ -3,6 +3,17 @@
   "packageId": "custom-wpc2-r1",
   "files": [
     {
+      "path": "drawings/0aba2b4b06c7b5f4ead9ecee84c340d1057af0e56688a19820b8d41afc6928a1.pdf",
+      "stored": "library/assets/sha256/0a/0aba2b4b06c7b5f4ead9ecee84c340d1057af0e56688a19820b8d41afc6928a1.pdf",
+      "sha256": "0aba2b4b06c7b5f4ead9ecee84c340d1057af0e56688a19820b8d41afc6928a1",
+      "originalReferences": [
+        "drawings/wpc2-r1/WPC2-R1_激光打标定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/0a/0aba2b4b06c7b5f4ead9ecee84c340d1057af0e56688a19820b8d41afc6928a1.pdf"
+      ]
+    },
+    {
       "path": "cad/3ade68e2904a847c69d310b9aa3edbc2e557e552239708897a5a57493a637caf.step",
       "stored": "library/assets/sha256/3a/3ade68e2904a847c69d310b9aa3edbc2e557e552239708897a5a57493a637caf.step",
       "sha256": "3ade68e2904a847c69d310b9aa3edbc2e557e552239708897a5a57493a637caf",
@@ -11,6 +22,28 @@
       ],
       "sources": [
         "library/assets/sha256/3a/3ade68e2904a847c69d310b9aa3edbc2e557e552239708897a5a57493a637caf.step"
+      ]
+    },
+    {
+      "path": "drawings/79bff199033021f1980c69ee496e5e2b8d7f1b0e618c274495f4a33de816fc5d.dxf",
+      "stored": "library/assets/sha256/79/79bff199033021f1980c69ee496e5e2b8d7f1b0e618c274495f4a33de816fc5d.dxf",
+      "sha256": "79bff199033021f1980c69ee496e5e2b8d7f1b0e618c274495f4a33de816fc5d",
+      "originalReferences": [
+        "drawings/wpc2-r1/WPC2-R1_侧面打标_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/79/79bff199033021f1980c69ee496e5e2b8d7f1b0e618c274495f4a33de816fc5d.dxf"
+      ]
+    },
+    {
+      "path": "drawings/c76be0b746af83ab91c137822f4a07df615626fc8cd13faba84902378ee2ddfc.pdf",
+      "stored": "library/assets/sha256/c7/c76be0b746af83ab91c137822f4a07df615626fc8cd13faba84902378ee2ddfc.pdf",
+      "sha256": "c76be0b746af83ab91c137822f4a07df615626fc8cd13faba84902378ee2ddfc",
+      "originalReferences": [
+        "drawings/wpc2-r1/WPC2-R1_加工图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/c7/c76be0b746af83ab91c137822f4a07df615626fc8cd13faba84902378ee2ddfc.pdf"
       ]
     }
   ],

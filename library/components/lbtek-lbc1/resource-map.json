@@ -3,6 +3,17 @@
   "packageId": "lbtek-lbc1",
   "files": [
     {
+      "path": "drawings/b5da7a78f2b9ac4e5a8eae29bba9d0d5a66f6e0e24014d9d6d0f5e7c0da5ccaa.pdf",
+      "stored": "library/assets/sha256/b5/b5da7a78f2b9ac4e5a8eae29bba9d0d5a66f6e0e24014d9d6d0f5e7c0da5ccaa.pdf",
+      "sha256": "b5da7a78f2b9ac4e5a8eae29bba9d0d5a66f6e0e24014d9d6d0f5e7c0da5ccaa",
+      "originalReferences": [
+        "drawings/lbtek-lbc1-r1/LBC1_OEM_RevB.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/b5/b5da7a78f2b9ac4e5a8eae29bba9d0d5a66f6e0e24014d9d6d0f5e7c0da5ccaa.pdf"
+      ]
+    },
+    {
       "path": "cad/fe3767cb1b04688f9d381e7856532df293af8cc93e6312ecc40170fc30c99b83.step",
       "stored": "library/assets/sha256/fe/fe3767cb1b04688f9d381e7856532df293af8cc93e6312ecc40170fc30c99b83.step",
       "sha256": "fe3767cb1b04688f9d381e7856532df293af8cc93e6312ecc40170fc30c99b83",

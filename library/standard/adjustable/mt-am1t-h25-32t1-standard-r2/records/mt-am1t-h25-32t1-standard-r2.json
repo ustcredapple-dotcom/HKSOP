@@ -558,7 +558,7 @@
     "stepPath": "step/mt-dual-m4-compact-r4/MT-AM1T_H25_COMPACT_R4_0deg.step",
     "sourceStepSha256": "a0ce48dd25c3752ad47ac23fe296d65bfd14fcb1911e5ee8c173792acac825a1",
     "sha256": "a0ce48dd25c3752ad47ac23fe296d65bfd14fcb1911e5ee8c173792acac825a1",
-    "drawingPath": null,
+    "drawingPath": "drawings/mt-dual-m4-compact-r4/mt-am1t-h25-32t1-standard-r2_assembly.pdf",
     "sourceDrawingSha256": "b76464c4e59637b9c7911e60d7a99db28eb17b7446ce0a6b4adcee5d25b310cb",
     "revision": "DUAL-M4-R4",
     "sourceExact": true,

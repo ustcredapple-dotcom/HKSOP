@@ -3,6 +3,72 @@
   "packageId": "it399-short-tray-r6",
   "files": [
     {
+      "path": "drawings/14a10aa9a2faca6a5cad5a2e2fc8b1c7137cd6c4b01db85e5a1f55a06874415e.dxf",
+      "stored": "library/assets/sha256/14/14a10aa9a2faca6a5cad5a2e2fc8b1c7137cd6c4b01db85e5a1f55a06874415e.dxf",
+      "sha256": "14a10aa9a2faca6a5cad5a2e2fc8b1c7137cd6c4b01db85e5a1f55a06874415e",
+      "originalReferences": [
+        "drawings/iontrap-it399-r6-motor2/MTL1-U75-R6_bottom_projection_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/14/14a10aa9a2faca6a5cad5a2e2fc8b1c7137cd6c4b01db85e5a1f55a06874415e.dxf"
+      ]
+    },
+    {
+      "path": "drawings/1844d0943a5c09db88a7872003baa141cb01f049f52ac485260c765d7cf5ca69.dxf",
+      "stored": "library/assets/sha256/18/1844d0943a5c09db88a7872003baa141cb01f049f52ac485260c765d7cf5ca69.dxf",
+      "sha256": "1844d0943a5c09db88a7872003baa141cb01f049f52ac485260c765d7cf5ca69",
+      "originalReferences": [
+        "drawings/iontrap-it399-r6-motor2/MTL1-U75-R6_top_projection_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/18/1844d0943a5c09db88a7872003baa141cb01f049f52ac485260c765d7cf5ca69.dxf"
+      ]
+    },
+    {
+      "path": "drawings/36569746616f645be9a2483767493fb5ce06174cfdde90a02cbb1c9819732bf4.dxf",
+      "stored": "library/assets/sha256/36/36569746616f645be9a2483767493fb5ce06174cfdde90a02cbb1c9819732bf4.dxf",
+      "sha256": "36569746616f645be9a2483767493fb5ce06174cfdde90a02cbb1c9819732bf4",
+      "originalReferences": [
+        "drawings/iontrap-it399-r6-motor2/MTL1-U75-R6_right_projection_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/36/36569746616f645be9a2483767493fb5ce06174cfdde90a02cbb1c9819732bf4.dxf"
+      ]
+    },
+    {
+      "path": "drawings/54f7b57355b53dfc65dbb09e2bc2583853d0f46ada78f016de2b71205ca37fd1.dxf",
+      "stored": "library/assets/sha256/54/54f7b57355b53dfc65dbb09e2bc2583853d0f46ada78f016de2b71205ca37fd1.dxf",
+      "sha256": "54f7b57355b53dfc65dbb09e2bc2583853d0f46ada78f016de2b71205ca37fd1",
+      "originalReferences": [
+        "drawings/iontrap-it399-r6-motor2/laser/MTL1-U75-R6_SIDE_MINUS_V_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/54/54f7b57355b53dfc65dbb09e2bc2583853d0f46ada78f016de2b71205ca37fd1.dxf"
+      ]
+    },
+    {
+      "path": "drawings/7d760f8b19b219d787b94dee20ba0290176cc6101f1def8b8bef0293c932c116.pdf",
+      "stored": "library/assets/sha256/7d/7d760f8b19b219d787b94dee20ba0290176cc6101f1def8b8bef0293c932c116.pdf",
+      "sha256": "7d760f8b19b219d787b94dee20ba0290176cc6101f1def8b8bef0293c932c116",
+      "originalReferences": [
+        "drawings/iontrap-it399-r6-motor2/IT75_R6_长窄板与短托板加工图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/7d/7d760f8b19b219d787b94dee20ba0290176cc6101f1def8b8bef0293c932c116.pdf"
+      ]
+    },
+    {
+      "path": "drawings/7e50de48404d6b8f0113c9c3e9aa462dec4921f56a7552f736609c88d57abb8f.dxf",
+      "stored": "library/assets/sha256/7e/7e50de48404d6b8f0113c9c3e9aa462dec4921f56a7552f736609c88d57abb8f.dxf",
+      "sha256": "7e50de48404d6b8f0113c9c3e9aa462dec4921f56a7552f736609c88d57abb8f",
+      "originalReferences": [
+        "drawings/iontrap-it399-r6-motor2/MTL1-U75-R6_front_projection_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/7e/7e50de48404d6b8f0113c9c3e9aa462dec4921f56a7552f736609c88d57abb8f.dxf"
+      ]
+    },
+    {
       "path": "cad/e12d5d18c70a611bd872faf9d949044d918d5febbfaadfdc49dfd9270365d257.step",
       "stored": "library/assets/sha256/e1/e12d5d18c70a611bd872faf9d949044d918d5febbfaadfdc49dfd9270365d257.step",
       "sha256": "e12d5d18c70a611bd872faf9d949044d918d5febbfaadfdc49dfd9270365d257",

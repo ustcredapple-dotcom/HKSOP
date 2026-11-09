@@ -15,15 +15,24 @@
   "notes": "MFT 专用，台阶3.5mm；孔径、深度及沉孔方向按原交付图。M4与定位销有效啮合需首件确认。",
   "stepPath": "step/fiber-rear-dual-r3/FC-MFT-R3-A.step",
   "sourceStepSha256": "a94e6f76548ff38970195690ea8b81c072cc066b1131f1980eadcf5711487e21",
-  "drawingPath": null,
+  "drawingPath": "drawings/fiber-rear-dual-r3/FC-MFT-R3-A_machining.pdf",
   "sourceDrawingSha256": "64e14934cbb2dc5a60855dcc051fb40ad1073f5dac2b5a4ed7de2297ec541777",
-  "dxfPath": null,
+  "dxfPath": "drawings/fiber-rear-dual-r3/FC-MFT-R3-A_加工审核图.dxf",
   "sourceDxfSha256": "3d66b3319dff92159fa76abd81110c72b3851b6dbcd7179c6c82f1285147a450",
   "laserMarking": {
     "status": "required",
     "reason": "当前R3唯一加工件编号",
-    "notes": "在Y=-15前端面激光编号，字高2mm；不铣刻，激光参数待材料试样确认。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "在Y=-15前端面激光编号，字高2mm；不铣刻，激光参数待材料试样确认。",
+    "files": [
+      {
+        "face": "编号面",
+        "text": "FC-MFT-R3-A",
+        "dxfPath": "drawings/fiber-rear-dual-r3/laser-marking/FC-MFT-R3-A/编号面_1比1.dxf",
+        "sha256": "82c933eae9f79c61ba45234577cac7dde1898ba1523f80d4ee52a8484a4ae2a9",
+        "setupPdfPath": "drawings/fiber-rear-dual-r3/laser-marking/FC-MFT-R3-A/编号面_定位.pdf",
+        "setupPdfSha256": "249670622b24e30cce68a1fe7b167c0fb394276d45cdcac6bf0ab9cf325285db"
+      }
+    ]
   },
   "manufacturingEvidence": {
     "sourceStepSha256": "a94e6f76548ff38970195690ea8b81c072cc066b1131f1980eadcf5711487e21",
@@ -37,7 +46,7 @@
     "originalDxfSha256": "62cd9f168d1370cbdec37a86034775590f894e19c3c3fd8379c83a5202286874",
     "dxfLayoutOnlyChange": "Move six header notes up12mm; original source retained, geometry and dimensions unchanged"
   },
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/fiber-rear-dual-r3/dxf-pdf/custom-fc-mft-r3-a_DXF.pdf",
   "dxfPdfSha256": "6833e417cc8722bc1315b6d375ceafa854f44d57b02cf6ef40ce902353a86bb0",
   "drawingLayoutRevision": "R3-note-spacing1"
 }

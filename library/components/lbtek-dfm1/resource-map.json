@@ -12,6 +12,17 @@
       "sources": [
         "library/assets/sha256/51/51b3d0eba16d0d73944f79030f9d092d11d8726277518e385c9b553bfdf135e6.step"
       ]
+    },
+    {
+      "path": "drawings/e5c232877ec5144717a080299659efc51203a1dd3a7c6afd498e34577cb1e16d.pdf",
+      "stored": "library/assets/sha256/e5/e5c232877ec5144717a080299659efc51203a1dd3a7c6afd498e34577cb1e16d.pdf",
+      "sha256": "e5c232877ec5144717a080299659efc51203a1dd3a7c6afd498e34577cb1e16d",
+      "originalReferences": [
+        "drawings/dm1f-r1/DFM1_official.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/e5/e5c232877ec5144717a080299659efc51203a1dd3a7c6afd498e34577cb1e16d.pdf"
+      ]
     }
   ],
   "dependencies": []

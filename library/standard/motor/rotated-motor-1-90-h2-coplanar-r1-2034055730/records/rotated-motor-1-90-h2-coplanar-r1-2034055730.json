@@ -78,7 +78,7 @@
     "origin": "locally-generated-parametric-variant",
     "cloudStatus": "static-reference-reviewed-with-findings",
     "coordinateFrame": "source assembly world; see rotation matrices",
-    "drawingPath": null,
+    "drawingPath": "drawings/h2-45-r1/rotated-motor-1-90-h2-coplanar-r1-2034055730_装配.pdf",
     "sourceDrawingSha256": "0cb59e766b48a37263e8f35308603dd09d1f8e6a065e49f154a03f1c7c82fa7c",
     "includeInBundle": true,
     "cloudUrl": "https://cad.onshape.com/documents/66a20ae858ce694752e2c3ba/v/eaa96f953f1255d2c857f791/e/b72263db1029ac41b3da171f"

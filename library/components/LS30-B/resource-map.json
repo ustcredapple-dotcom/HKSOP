@@ -3,6 +3,28 @@
   "packageId": "LS30-B",
   "files": [
     {
+      "path": "drawings/241da1141075f95e068b83934d887036df5364f92831b7a783b46919198ccad4.pdf",
+      "stored": "library/assets/sha256/24/241da1141075f95e068b83934d887036df5364f92831b7a783b46919198ccad4.pdf",
+      "sha256": "241da1141075f95e068b83934d887036df5364f92831b7a783b46919198ccad4",
+      "originalReferences": [
+        "drawings/laser-marking/LS30-B/编号面_-Y_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/24/241da1141075f95e068b83934d887036df5364f92831b7a783b46919198ccad4.pdf"
+      ]
+    },
+    {
+      "path": "drawings/c155e32a8fd5bf394a0fe0aa93955baa5a8f232cb6ee24dec76ed915fb86f54c.pdf",
+      "stored": "library/assets/sha256/c1/c155e32a8fd5bf394a0fe0aa93955baa5a8f232cb6ee24dec76ed915fb86f54c.pdf",
+      "sha256": "c155e32a8fd5bf394a0fe0aa93955baa5a8f232cb6ee24dec76ed915fb86f54c",
+      "originalReferences": [
+        "drawings/manual-stage-r2-a7075/LS30_R2-A7075_上下转接板工程图与安装说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/c1/c155e32a8fd5bf394a0fe0aa93955baa5a8f232cb6ee24dec76ed915fb86f54c.pdf"
+      ]
+    },
+    {
       "path": "cad/d089f410fd8027ffffa46459fe04f07a0d6621fa3de00531b694e857195e13fe.step",
       "stored": "library/assets/sha256/d0/d089f410fd8027ffffa46459fe04f07a0d6621fa3de00531b694e857195e13fe.step",
       "sha256": "d089f410fd8027ffffa46459fe04f07a0d6621fa3de00531b694e857195e13fe",
@@ -11,6 +33,39 @@
       ],
       "sources": [
         "library/assets/sha256/d0/d089f410fd8027ffffa46459fe04f07a0d6621fa3de00531b694e857195e13fe.step"
+      ]
+    },
+    {
+      "path": "drawings/e6a285c22be76d4f6f1d318640187d27ee3364c2ee8f907a0d296536ae29a9c2.dxf",
+      "stored": "library/assets/sha256/e6/e6a285c22be76d4f6f1d318640187d27ee3364c2ee8f907a0d296536ae29a9c2.dxf",
+      "sha256": "e6a285c22be76d4f6f1d318640187d27ee3364c2ee8f907a0d296536ae29a9c2",
+      "originalReferences": [
+        "drawings/manual-stage-r2-a7075/LS30-B.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/e6/e6a285c22be76d4f6f1d318640187d27ee3364c2ee8f907a0d296536ae29a9c2.dxf"
+      ]
+    },
+    {
+      "path": "drawings/ebbc2262d60d21c80ff2989f1b9143df457b0293ed4121ee17e82a13b47c19f5.pdf",
+      "stored": "library/assets/sha256/eb/ebbc2262d60d21c80ff2989f1b9143df457b0293ed4121ee17e82a13b47c19f5.pdf",
+      "sha256": "ebbc2262d60d21c80ff2989f1b9143df457b0293ed4121ee17e82a13b47c19f5",
+      "originalReferences": [
+        "drawings/manual-stage-r2-a7075/LS30-B_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/eb/ebbc2262d60d21c80ff2989f1b9143df457b0293ed4121ee17e82a13b47c19f5.pdf"
+      ]
+    },
+    {
+      "path": "drawings/fff7fe1b3643b8c7753318a1d41c856457ebe26234de25f6571907fba9bfea61.dxf",
+      "stored": "library/assets/sha256/ff/fff7fe1b3643b8c7753318a1d41c856457ebe26234de25f6571907fba9bfea61.dxf",
+      "sha256": "fff7fe1b3643b8c7753318a1d41c856457ebe26234de25f6571907fba9bfea61",
+      "originalReferences": [
+        "drawings/laser-marking/LS30-B/编号面_-Y.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/ff/fff7fe1b3643b8c7753318a1d41c856457ebe26234de25f6571907fba9bfea61.dxf"
       ]
     }
   ],

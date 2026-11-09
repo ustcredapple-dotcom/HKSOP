@@ -23,6 +23,17 @@
       "sources": [
         "library/assets/sha256/ac/acf61f26977809876fd90d7b23f1cb2cabd9d767fa78b939be314591c155cb11.step"
       ]
+    },
+    {
+      "path": "drawings/e41af3cfe201e23a27c9b3759045bbb166364904b9c208d8fdf1e36146cc59d8.pdf",
+      "stored": "library/assets/sha256/e4/e41af3cfe201e23a27c9b3759045bbb166364904b9c208d8fdf1e36146cc59d8.pdf",
+      "sha256": "e41af3cfe201e23a27c9b3759045bbb166364904b9c208d8fdf1e36146cc59d8",
+      "originalReferences": [
+        "drawings/kungshu-compact-r2/工术DR_LL_R2_装配与加工图册.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/e4/e41af3cfe201e23a27c9b3759045bbb166364904b9c208d8fdf1e36146cc59d8.pdf"
+      ]
     }
   ],
   "dependencies": [

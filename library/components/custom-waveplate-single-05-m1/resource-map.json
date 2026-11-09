@@ -3,6 +3,50 @@
   "packageId": "custom-waveplate-single-05-m1",
   "files": [
     {
+      "path": "drawings/05f2a90914b2e1fb2b04b772acf176a34a7899eb23d06abf9bab1ae810196aac.dxf",
+      "stored": "library/assets/sha256/05/05f2a90914b2e1fb2b04b772acf176a34a7899eb23d06abf9bab1ae810196aac.dxf",
+      "sha256": "05f2a90914b2e1fb2b04b772acf176a34a7899eb23d06abf9bab1ae810196aac",
+      "originalReferences": [
+        "drawings/waveplate05-m1/23-WP05-S_M1_加工工程图.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/05/05f2a90914b2e1fb2b04b772acf176a34a7899eb23d06abf9bab1ae810196aac.dxf"
+      ]
+    },
+    {
+      "path": "drawings/191c5cbae5cecd20aee6f4de0ad51edcfc8cb6870a004d918f35575675e3b38f.pdf",
+      "stored": "library/assets/sha256/19/191c5cbae5cecd20aee6f4de0ad51edcfc8cb6870a004d918f35575675e3b38f.pdf",
+      "sha256": "191c5cbae5cecd20aee6f4de0ad51edcfc8cb6870a004d918f35575675e3b38f",
+      "originalReferences": [
+        "drawings/laser-marking/custom-waveplate-single-05-m1/编号面_-Y_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/19/191c5cbae5cecd20aee6f4de0ad51edcfc8cb6870a004d918f35575675e3b38f.pdf"
+      ]
+    },
+    {
+      "path": "drawings/3cc4ea985b3b64e09177e6b79fc60896e3ec02f3641a630704b035b32504d86a.dxf",
+      "stored": "library/assets/sha256/3c/3cc4ea985b3b64e09177e6b79fc60896e3ec02f3641a630704b035b32504d86a.dxf",
+      "sha256": "3cc4ea985b3b64e09177e6b79fc60896e3ec02f3641a630704b035b32504d86a",
+      "originalReferences": [
+        "drawings/laser-marking/custom-waveplate-single-05-m1/编号面_-Y.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/3c/3cc4ea985b3b64e09177e6b79fc60896e3ec02f3641a630704b035b32504d86a.dxf"
+      ]
+    },
+    {
+      "path": "drawings/52eaba811660cbdeaaefb2bb333c1b32f416fa070dc4e3232e4638f236953106.pdf",
+      "stored": "library/assets/sha256/52/52eaba811660cbdeaaefb2bb333c1b32f416fa070dc4e3232e4638f236953106.pdf",
+      "sha256": "52eaba811660cbdeaaefb2bb333c1b32f416fa070dc4e3232e4638f236953106",
+      "originalReferences": [
+        "drawings/waveplate05-m1/23-WP05-S_M1_加工工程图_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/52/52eaba811660cbdeaaefb2bb333c1b32f416fa070dc4e3232e4638f236953106.pdf"
+      ]
+    },
+    {
       "path": "cad/625f1d4e5d3c2bdb0676130979e5f3b9955fb76f19301da4ecbdc88f503d0b2a.step",
       "stored": "library/assets/sha256/62/625f1d4e5d3c2bdb0676130979e5f3b9955fb76f19301da4ecbdc88f503d0b2a.step",
       "sha256": "625f1d4e5d3c2bdb0676130979e5f3b9955fb76f19301da4ecbdc88f503d0b2a",
@@ -11,6 +55,17 @@
       ],
       "sources": [
         "library/assets/sha256/62/625f1d4e5d3c2bdb0676130979e5f3b9955fb76f19301da4ecbdc88f503d0b2a.step"
+      ]
+    },
+    {
+      "path": "drawings/debb14bb1bdc33d036f33005a0b057e0eae16382f6b79b41b8333cf3c6b5a4da.pdf",
+      "stored": "library/assets/sha256/de/debb14bb1bdc33d036f33005a0b057e0eae16382f6b79b41b8333cf3c6b5a4da.pdf",
+      "sha256": "debb14bb1bdc33d036f33005a0b057e0eae16382f6b79b41b8333cf3c6b5a4da",
+      "originalReferences": [
+        "drawings/waveplate05-m1/23-WP05-S_M1_加工工程图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/de/debb14bb1bdc33d036f33005a0b057e0eae16382f6b79b41b8333cf3c6b5a4da.pdf"
       ]
     }
   ],

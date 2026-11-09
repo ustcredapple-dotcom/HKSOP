@@ -3,6 +3,17 @@
   "packageId": "custom-q1ft-r1",
   "files": [
     {
+      "path": "drawings/3f8c9ddc8a851ca7497fe882ffd2137e92f574e1a236fd4e033c42fb46ca94ff.pdf",
+      "stored": "library/assets/sha256/3f/3f8c9ddc8a851ca7497fe882ffd2137e92f574e1a236fd4e033c42fb46ca94ff.pdf",
+      "sha256": "3f8c9ddc8a851ca7497fe882ffd2137e92f574e1a236fd4e033c42fb46ca94ff",
+      "originalReferences": [
+        "drawings/batch-20261020/custom-q1ft-r1/R1/laser/Q1FT_front_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/3f/3f8c9ddc8a851ca7497fe882ffd2137e92f574e1a236fd4e033c42fb46ca94ff.pdf"
+      ]
+    },
+    {
       "path": "cad/55f9ac97b2999fcafa185dbf574578f451ace12d408347e1c8ef902e07f988d5.step",
       "stored": "library/assets/sha256/55/55f9ac97b2999fcafa185dbf574578f451ace12d408347e1c8ef902e07f988d5.step",
       "sha256": "55f9ac97b2999fcafa185dbf574578f451ace12d408347e1c8ef902e07f988d5",
@@ -11,6 +22,39 @@
       ],
       "sources": [
         "library/assets/sha256/55/55f9ac97b2999fcafa185dbf574578f451ace12d408347e1c8ef902e07f988d5.step"
+      ]
+    },
+    {
+      "path": "drawings/79b5d7a008ed1da148c4c8455d9b8d1c0a436a9916a1e0ea06a6bb6533f52da5.dxf",
+      "stored": "library/assets/sha256/79/79b5d7a008ed1da148c4c8455d9b8d1c0a436a9916a1e0ea06a6bb6533f52da5.dxf",
+      "sha256": "79b5d7a008ed1da148c4c8455d9b8d1c0a436a9916a1e0ea06a6bb6533f52da5",
+      "originalReferences": [
+        "drawings/batch-20261020/custom-q1ft-r1/R1/Q1FT_平面交换.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/79/79b5d7a008ed1da148c4c8455d9b8d1c0a436a9916a1e0ea06a6bb6533f52da5.dxf"
+      ]
+    },
+    {
+      "path": "drawings/9239890d0f7873f74a3da5b8d0bc47cfd794e7c4c3c58b578adb779e88e7849a.dxf",
+      "stored": "library/assets/sha256/92/9239890d0f7873f74a3da5b8d0bc47cfd794e7c4c3c58b578adb779e88e7849a.dxf",
+      "sha256": "9239890d0f7873f74a3da5b8d0bc47cfd794e7c4c3c58b578adb779e88e7849a",
+      "originalReferences": [
+        "drawings/batch-20261020/custom-q1ft-r1/R1/laser/Q1FT_front.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/92/9239890d0f7873f74a3da5b8d0bc47cfd794e7c4c3c58b578adb779e88e7849a.dxf"
+      ]
+    },
+    {
+      "path": "drawings/eb9d27183980d3eba1ded89d1024b661a65ed1656958b45cdb4954364ddb95ff.pdf",
+      "stored": "library/assets/sha256/eb/eb9d27183980d3eba1ded89d1024b661a65ed1656958b45cdb4954364ddb95ff.pdf",
+      "sha256": "eb9d27183980d3eba1ded89d1024b661a65ed1656958b45cdb4954364ddb95ff",
+      "originalReferences": [
+        "drawings/batch-20261020/custom-q1ft-r1/R1/Q1FT_R1_加工图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/eb/eb9d27183980d3eba1ded89d1024b661a65ed1656958b45cdb4954364ddb95ff.pdf"
       ]
     }
   ],

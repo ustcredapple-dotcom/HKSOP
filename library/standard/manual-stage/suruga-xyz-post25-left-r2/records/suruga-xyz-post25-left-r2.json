@@ -186,7 +186,7 @@
   "assemblyReference": {
     "stepPath": "step/universal-post-b6-r1/assemblies/suruga-xyz-post25-left-r2__B6_R1.step",
     "sourceStepSha256": "a08e2d1ceeb9fa55634fd63515ab07ebbd74d80220bc99c1d8d29c3c417c70ff",
-    "drawingPath": null,
+    "drawingPath": "drawings/standard-post-h12p5-b4-r2/assemblies/XYZ三轴位移台_总装与安装说明_20261015_TN1_20261026_H12p5B4R2.pdf",
     "sourceDrawingSha256": "1593100511b0af9b5cd87c3eb59a9b8649760c25d1c827b93fa90f82347c7088",
     "note": "Independent complete assembly reference; not a single-part machining model or certified motion assembly.",
     "revision": "R2-ZPANEL-R2-B6R1",
@@ -195,7 +195,7 @@
     "sha256": "a08e2d1ceeb9fa55634fd63515ab07ebbd74d80220bc99c1d8d29c3c417c70ff"
   },
   "updateAtlasReference": {
-    "drawingPath": null,
+    "drawingPath": "drawings/xyz-left-and-standard-mt-r2/32_本次更新图册_R2.pdf",
     "sourceDrawingSha256": "f29ed779ecd33744f4d88e104bf2d329372cf2d58c9bc50580fd0d9eaf2894c6",
     "scope": "This-delivery update atlas; new items documented independently from the existing full library."
   },
@@ -356,7 +356,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/combined-r1-20261015/2/XYZ三轴位移台_总装与安装说明_20261015_TN1_20261026.pdf",
         "previousSha256": "404fff35ed8760978fc02bc5557389b63fcf1ca91078ab3791ca9ea6bf537324",
         "sha256": "1593100511b0af9b5cd87c3eb59a9b8649760c25d1c827b93fa90f82347c7088"
       }

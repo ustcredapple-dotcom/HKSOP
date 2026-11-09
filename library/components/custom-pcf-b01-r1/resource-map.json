@@ -3,6 +3,28 @@
   "packageId": "custom-pcf-b01-r1",
   "files": [
     {
+      "path": "drawings/46b706efa88bb69e0b17161f33b5e41f64202d59534e79eedfb11553de2c8594.dxf",
+      "stored": "library/assets/sha256/46/46b706efa88bb69e0b17161f33b5e41f64202d59534e79eedfb11553de2c8594.dxf",
+      "sha256": "46b706efa88bb69e0b17161f33b5e41f64202d59534e79eedfb11553de2c8594",
+      "originalReferences": [
+        "drawings/pcf-fixed-base-h62p5-r1/PCF-B01_R1_正交投影_配合PDF使用.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/46/46b706efa88bb69e0b17161f33b5e41f64202d59534e79eedfb11553de2c8594.dxf"
+      ]
+    },
+    {
+      "path": "drawings/856183936448f59e2edd083582dd9806f79d6993b1962b83ea2ad913fa00d29a.pdf",
+      "stored": "library/assets/sha256/85/856183936448f59e2edd083582dd9806f79d6993b1962b83ea2ad913fa00d29a.pdf",
+      "sha256": "856183936448f59e2edd083582dd9806f79d6993b1962b83ea2ad913fa00d29a",
+      "originalReferences": [
+        "drawings/pcf-fixed-base-h62p5-r1/PCF-B01_R1_打标定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/85/856183936448f59e2edd083582dd9806f79d6993b1962b83ea2ad913fa00d29a.pdf"
+      ]
+    },
+    {
       "path": "cad/99efa7b65a84c72a976e732d7f4ef60bc999bcc70af2fb13a110453917c6b0f8.step",
       "stored": "library/assets/sha256/99/99efa7b65a84c72a976e732d7f4ef60bc999bcc70af2fb13a110453917c6b0f8.step",
       "sha256": "99efa7b65a84c72a976e732d7f4ef60bc999bcc70af2fb13a110453917c6b0f8",
@@ -11,6 +33,28 @@
       ],
       "sources": [
         "library/assets/sha256/99/99efa7b65a84c72a976e732d7f4ef60bc999bcc70af2fb13a110453917c6b0f8.step"
+      ]
+    },
+    {
+      "path": "drawings/b018236a0eae1ca080db29b8dcae9e1b663fa3ba8eb1e0207a7b49627a93727d.dxf",
+      "stored": "library/assets/sha256/b0/b018236a0eae1ca080db29b8dcae9e1b663fa3ba8eb1e0207a7b49627a93727d.dxf",
+      "sha256": "b018236a0eae1ca080db29b8dcae9e1b663fa3ba8eb1e0207a7b49627a93727d",
+      "originalReferences": [
+        "drawings/pcf-fixed-base-h62p5-r1/PCF-B01_R1_激光_ONLY.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/b0/b018236a0eae1ca080db29b8dcae9e1b663fa3ba8eb1e0207a7b49627a93727d.dxf"
+      ]
+    },
+    {
+      "path": "drawings/bfac3f892171c3e023cfc51dcbb40c774a6af4964b112481fe59666c80ed00a4.pdf",
+      "stored": "library/assets/sha256/bf/bfac3f892171c3e023cfc51dcbb40c774a6af4964b112481fe59666c80ed00a4.pdf",
+      "sha256": "bfac3f892171c3e023cfc51dcbb40c774a6af4964b112481fe59666c80ed00a4",
+      "originalReferences": [
+        "drawings/pcf-fixed-base-h62p5-r1/PCF-B01_R1_加工与装配图册.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/bf/bfac3f892171c3e023cfc51dcbb40c774a6af4964b112481fe59666c80ed00a4.pdf"
       ]
     }
   ],

@@ -3,6 +3,17 @@
   "packageId": "mt-am1t-h25-dual-m4-45-r4",
   "files": [
     {
+      "path": "drawings/149660dd06bd881e37f4bb10006126244a7f8796d6bfb2d5dd5909de8182151a.pdf",
+      "stored": "library/assets/sha256/14/149660dd06bd881e37f4bb10006126244a7f8796d6bfb2d5dd5909de8182151a.pdf",
+      "sha256": "149660dd06bd881e37f4bb10006126244a7f8796d6bfb2d5dd5909de8182151a",
+      "originalReferences": [
+        "drawings/mt-dual-m4-compact-r4/mt-am1t-h25-dual-m4-45-r4_assembly.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/14/149660dd06bd881e37f4bb10006126244a7f8796d6bfb2d5dd5909de8182151a.pdf"
+      ]
+    },
+    {
       "path": "rendering/a8016058909b0ea10c26d4ea41117f6b08ce49e406a38e3c82958a9ee4c72f30.svg",
       "stored": "library/assets/sha256/a8/a8016058909b0ea10c26d4ea41117f6b08ce49e406a38e3c82958a9ee4c72f30.svg",
       "sha256": "a8016058909b0ea10c26d4ea41117f6b08ce49e406a38e3c82958a9ee4c72f30",

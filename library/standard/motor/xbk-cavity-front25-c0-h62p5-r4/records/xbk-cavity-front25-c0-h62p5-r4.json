@@ -456,7 +456,7 @@
     "leafCount": 53,
     "note": "53叶件完整固定总装；台体原位；未重建运动配合。",
     "includeInBundle": true,
-    "drawingPath": null,
+    "drawingPath": "drawings/xbk-lateral-fixed-r4/XBK_R4_横向三档及物镜右移_审核图册_TN1_20261026.pdf",
     "sourceDrawingSha256": "5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60",
     "onshapeUrl": "https://cad.onshape.com/documents/a05bdf063019cd8dcf188e9d/v/b6528131338cea8dca376874/e/75b8f697efb50fa73c8b7f93"
   },
@@ -589,7 +589,7 @@
       "xbk-cavity-front37p5-r12p5-h62p5-r4"
     ]
   },
-  "manufacturingDrawingPath": null,
+  "manufacturingDrawingPath": "drawings/xbk-lateral-fixed-r4/XBK_R4_横向三档及物镜右移_审核图册_TN1_20261026.pdf",
   "productionReady": false,
   "releaseStage": "engineering-review",
   "status": "工程审核版 · 固定安装构型 · 未实装",
@@ -610,7 +610,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/xbk-lateral-fixed-r4/XBK_R4_横向三档及物镜右移_审核图册_TN1_20261026.pdf",
         "previousSha256": "6029e5035262a432753afaea7c1fbee6ba999b8432a12e0dcc772960b0bc7089",
         "sha256": "5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60"
       }

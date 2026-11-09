@@ -9,7 +9,7 @@
   "productionReady": false,
   "stepPath": "step/qp1-aom-amp2r-r1/QP1B_R1.step",
   "sourceStepSha256": "4f44a7658f3213ba1d2789941fa5c7751b5c27b7796a243cfff8a3168de1ece0",
-  "drawingPath": null,
+  "drawingPath": "drawings/qp1-aom-amp2r-r1/QP1_R1_加工图_TN1_20261026.pdf",
   "sourceDrawingSha256": "0481404cb4efa78c5c52843e422fb2d16383b813524e294520723fafe22329f4",
   "drawingPages": [
     1
@@ -32,8 +32,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "新加工件 R1 编号",
-    "notes": "前侧面 Y=0，字右+X/字顶+Z；字高2.2mm；首件工艺待试样。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "前侧面 Y=0，字右+X/字顶+Z；字高2.2mm；首件工艺待试样。",
+    "files": [
+      {
+        "face": "前侧面 Y=0",
+        "text": "QP1B R1",
+        "dxfPath": "drawings/qp1-aom-amp2r-r1/laser-marking/QP1B_front.dxf",
+        "sha256": "bbaa5e28a455c5f913232473ac654fa909b3beb7fc2f4158f5d20161454e419c",
+        "setupPdfPath": "drawings/qp1-aom-amp2r-r1/laser-marking/QP1B_front_定位.pdf",
+        "setupPdfSha256": "6287d04eeeb6ed47b756b27b574ab4fd813ac3ada7483a9d0dccdcc40de3a881"
+      }
+    ]
   },
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -41,7 +50,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/qp1-aom-amp2r-r1/QP1_R1_加工图_TN1_20261026.pdf",
         "previousSha256": "e6843ad2bc890f43db982f61aeb7c75a4aba011a82624db950e78071eb628745",
         "sha256": "0481404cb4efa78c5c52843e422fb2d16383b813524e294520723fafe22329f4"
       }

@@ -1,0 +1,20 @@
+# 腔镜一体转接件
+
+[English](README.en.md)
+
+包 ID：`custom-cm127-a1-r3`。定义入口：[package.json](package.json)。本目录保存当前元件包的记录和资源入口。
+
+## 记录
+
+- [腔镜一体转接件](records/custom-cm127-a1-r3.json) — `components` / `custom-cm127-a1-r3`
+
+## 模型、显示与图纸
+
+- [CM127-AM2S5_R3_胶头机米加工与装配图_TN1_20261026.pdf](../../assets/sha256/5e/5e3c43b807b774d73a46a95634cf9d8206b2edb86ee2ae673531a9be6939cc56.pdf) · `PDF`
+- [CM127-A1_R3.step](../../assets/sha256/6b/6b54c003ad828edcb119fd24ed4201c0d98c98fc6cd8df68c6a79a8d6836e084.step) · `STEP`
+- [编号面_-Z_定位说明.pdf](../../assets/sha256/8b/8bc94063edfaeb5072f3cb4f15cf0882968fbc7762f915d7246b862b09357652.pdf) · `PDF`
+- [编号面_-Z.dxf](../../assets/sha256/f8/f873224980b1f63e01377aed410ce2f82318e7881695ab967208bf7fc27a5724.dxf) · `DXF`
+
+资源映射与内容哈希见 [resource-map.json](resource-map.json)。能力状态与证据以包和记录中的实际声明为准。
+
+返回[元件库](../../README.md)。

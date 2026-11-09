@@ -7,9 +7,9 @@
   "revision": "R1",
   "stepPath": "step/combined-r1-20261015/4/AA4S_R1.step",
   "sourceStepSha256": "fa29889c5484dbc169b1d7102a300b8bf8303218d44df745de6f10fc53feabab",
-  "drawingPath": null,
+  "drawingPath": "drawings/combined-r1-20261015/4/AA4B_AA4S_R1_MACHINING_TN1_20261026.pdf",
   "sourceDrawingSha256": "c62dce6c599fcd6e49cc06e15132cb3f85ff95e7248a2aa423e4915df1329fce",
-  "dxfPath": null,
+  "dxfPath": "drawings/combined-r1-20261015/4/AA4S_R1_MACHINING.dxf",
   "sourceDxfSha256": "37478f5008cf9fa2a1cd30d221682ee5e369965abfb78c72ff925803373d7508",
   "productionReady": false,
   "drawingStatus": "engineering-review",
@@ -30,8 +30,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "本版设计已提供与模型对应的独立打标文件。",
-    "notes": "1:1毫米轮廓；未实物打标、未验证工艺可读性。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "1:1毫米轮廓；未实物打标、未验证工艺可读性。",
+    "files": [
+      {
+        "face": "+Z",
+        "text": "AA4S",
+        "dxfPath": "drawings/combined-r1-20261015/4/AA4S_R1_LASER_AA4S_1to1mm.dxf",
+        "sha256": "e1972beca2a8f941e4e92f400253f3824a9c75aac2d8d1ae0da14f2537bc10d7",
+        "setupPdfPath": "drawings/combined-r1-20261015/4/AA4B_AA4S_R1_LASER_POSITION.pdf",
+        "setupPdfSha256": "eae4e940a415afce28a89d658e5c0da00ab15ceb7b67fa365da5a59d35b50f4f"
+      }
+    ]
   },
   "drawingPages": [
     2
@@ -55,7 +64,7 @@
     "authoritativePrecisionSource": "已核验本地完整 STEP；云端静态冻结版供查看。原生自由度、全套整体移动或完整复用协议尚未全部验收。",
     "physicalTrialPerformed": false
   },
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/combined-r1-20261015/dxf-pdf/custom-aa4s-r1_DXF.pdf",
   "dxfPdfSha256": "4394067a3e46de416ba3e1e96dcd5acb577ca6dc7d376af5fecfb8dcce73f60b",
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -63,7 +72,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/combined-r1-20261015/4/AA4B_AA4S_R1_MACHINING_TN1_20261026.pdf",
         "previousSha256": "84874d5db7c661615ace40b65e00bca2af8e3ee6cb67c4f31b07a93c3b821270",
         "sha256": "c62dce6c599fcd6e49cc06e15132cb3f85ff95e7248a2aa423e4915df1329fce"
       }

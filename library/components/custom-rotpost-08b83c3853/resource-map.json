@@ -3,6 +3,17 @@
   "packageId": "custom-rotpost-08b83c3853",
   "files": [
     {
+      "path": "drawings/28a658448ce00da00c2123f495384a38c61eb31948775a76dfdebdd3971c228a.dxf",
+      "stored": "library/assets/sha256/28/28a658448ce00da00c2123f495384a38c61eb31948775a76dfdebdd3971c228a.dxf",
+      "sha256": "28a658448ce00da00c2123f495384a38c61eb31948775a76dfdebdd3971c228a",
+      "originalReferences": [
+        "drawings/custom-rotation/UP12p5R+45.000-8918CA/laser/底座侧面.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/28/28a658448ce00da00c2123f495384a38c61eb31948775a76dfdebdd3971c228a.dxf"
+      ]
+    },
+    {
       "path": "cad/5b2ee39834959d1159ccf153e2b0e3610f5c2b993e1803280e65d5963cd71758.step",
       "stored": "library/assets/sha256/5b/5b2ee39834959d1159ccf153e2b0e3610f5c2b993e1803280e65d5963cd71758.step",
       "sha256": "5b2ee39834959d1159ccf153e2b0e3610f5c2b993e1803280e65d5963cd71758",
@@ -11,6 +22,28 @@
       ],
       "sources": [
         "library/assets/sha256/5b/5b2ee39834959d1159ccf153e2b0e3610f5c2b993e1803280e65d5963cd71758.step"
+      ]
+    },
+    {
+      "path": "drawings/d54695255bd4e65d3e0808eac1715fcdc412d4bafb8766e630ceb8055ba09af7.pdf",
+      "stored": "library/assets/sha256/d5/d54695255bd4e65d3e0808eac1715fcdc412d4bafb8766e630ceb8055ba09af7.pdf",
+      "sha256": "d54695255bd4e65d3e0808eac1715fcdc412d4bafb8766e630ceb8055ba09af7",
+      "originalReferences": [
+        "drawings/custom-rotation/UP12p5R+45.000-8918CA/特制万能柱_加工审核图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/d5/d54695255bd4e65d3e0808eac1715fcdc412d4bafb8766e630ceb8055ba09af7.pdf"
+      ]
+    },
+    {
+      "path": "drawings/eda1fe24d68261bd48d3c5391b4ad0604484f676db04f4742caf977ed69cc26b.pdf",
+      "stored": "library/assets/sha256/ed/eda1fe24d68261bd48d3c5391b4ad0604484f676db04f4742caf977ed69cc26b.pdf",
+      "sha256": "eda1fe24d68261bd48d3c5391b4ad0604484f676db04f4742caf977ed69cc26b",
+      "originalReferences": [
+        "drawings/custom-rotation/UP12p5R+45.000-8918CA/laser/底座侧面_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/ed/eda1fe24d68261bd48d3c5391b4ad0604484f676db04f4742caf977ed69cc26b.pdf"
       ]
     }
   ],

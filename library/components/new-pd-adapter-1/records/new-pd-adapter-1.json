@@ -8,7 +8,7 @@
   "notes": "M1公制修订；真实光敏面位置及底螺孔有效牙深待实物确认。。实物试装未完成。",
   "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/e19fd6119eda6fc84ad8ab1c",
   "stepPath": "step/metric-m1-20261006/03-PD_METRIC_M1.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/metric-m1-20261006/03-PD_M1_加工工程图.pdf",
   "sourceStepSha256": "e81155ef71b495079c515b5d04cb150b86b388e615f7b8cf285220e1331f9381",
   "productionReady": false,
   "manufacturingSpec": {
@@ -21,7 +21,7 @@
   },
   "drawingRevision": "M1",
   "drawingStatus": "engineering-review",
-  "dxfPath": null,
+  "dxfPath": "drawings/metric-m1-20261006/03-PD_M1_加工工程图.dxf",
   "manufacturingEvidence": {
     "sourcePackage": null,
     "sourceCode": "03-PD",
@@ -44,7 +44,7 @@
   },
   "sourceDrawingSha256": "aaa5118df3a9c1d742e127feb1755c28c0134e5a4198dfe6a083206cd620ed5b",
   "sourceDxfSha256": "981941b288759a1b0a3a230947693a0b333178a53faa5b8b9093412e47bb3412",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/metric-m1-20261006/03-PD_M1_加工工程图_DXF.pdf",
   "dxfPdfSha256": "b8b5e810b0c551b1fad6dc526d0cf396f63915cf3796733f508ba231aef07068",
   "drawingPages": [
     1,
@@ -80,7 +80,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "03-PD",
+        "dxfPath": "drawings/laser-marking/new-pd-adapter-1/编号面_-Y.dxf",
+        "sha256": "43e8fe8cb9a6994b26978333c54a9a13d1977b93f7e3eecabf96ac314b865398",
+        "setupPdfPath": "drawings/laser-marking/new-pd-adapter-1/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "a2074c3df5f94b8897fb215f3358f483134bc92914d359132c7e16837f58fbba"
+      }
+    ]
   }
 }

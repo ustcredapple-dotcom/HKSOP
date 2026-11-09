@@ -12,6 +12,28 @@
       "sources": [
         "library/assets/sha256/87/87f59e1c3eb1d033d982cbd12a75f7c65ce35b48a39df2d69b193e25c751a1f6.step"
       ]
+    },
+    {
+      "path": "drawings/950790810c6a8a65fd5264277598606b015e9f50514d3caf4e97c1f6864f8e90.pdf",
+      "stored": "library/assets/sha256/95/950790810c6a8a65fd5264277598606b015e9f50514d3caf4e97c1f6864f8e90.pdf",
+      "sha256": "950790810c6a8a65fd5264277598606b015e9f50514d3caf4e97c1f6864f8e90",
+      "originalReferences": [
+        "drawings/bd1-pd-r4/BD1_PD_R4_加工与装配.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/95/950790810c6a8a65fd5264277598606b015e9f50514d3caf4e97c1f6864f8e90.pdf"
+      ]
+    },
+    {
+      "path": "drawings/99e066995aef35bf9b40e9861bd8071f03a27f761bbecacc5241cbe49c701b7b.dxf",
+      "stored": "library/assets/sha256/99/99e066995aef35bf9b40e9861bd8071f03a27f761bbecacc5241cbe49c701b7b.dxf",
+      "sha256": "99e066995aef35bf9b40e9861bd8071f03a27f761bbecacc5241cbe49c701b7b",
+      "originalReferences": [
+        "drawings/laser-marking/bd1-pd-r4/BDP-A1_R4_laser.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/99/99e066995aef35bf9b40e9861bd8071f03a27f761bbecacc5241cbe49c701b7b.dxf"
+      ]
     }
   ],
   "dependencies": []

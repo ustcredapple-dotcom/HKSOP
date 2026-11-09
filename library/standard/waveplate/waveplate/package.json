@@ -23,5 +23,5 @@
     "note": "Migration preserves source claims; no new physical acceptance is implied."
   },
   "origin": "current-published-catalog",
-  "distribution": "step-and-topviews-no-drawings"
+  "distribution": "current-cad-topviews-and-drawings"
 }

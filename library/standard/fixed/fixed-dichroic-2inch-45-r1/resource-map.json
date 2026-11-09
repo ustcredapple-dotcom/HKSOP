@@ -3,6 +3,17 @@
   "packageId": "fixed-dichroic-2inch-45-r1",
   "files": [
     {
+      "path": "drawings/5f6fcad7b0984f90c5a330c98dd3f6bdcdd1353ec5e42d0afdc42fc300323cf3.pdf",
+      "stored": "library/assets/sha256/5f/5f6fcad7b0984f90c5a330c98dd3f6bdcdd1353ec5e42d0afdc42fc300323cf3.pdf",
+      "sha256": "5f6fcad7b0984f90c5a330c98dd3f6bdcdd1353ec5e42d0afdc42fc300323cf3",
+      "originalReferences": [
+        "drawings/fixed-dichroic-r1/加工清单.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/5f/5f6fcad7b0984f90c5a330c98dd3f6bdcdd1353ec5e42d0afdc42fc300323cf3.pdf"
+      ]
+    },
+    {
       "path": "cad/6e3f9e038a5347143a4dc0f86205f2615c6f8b86e2005b085e658240dde15a08.step",
       "stored": "library/assets/sha256/6e/6e3f9e038a5347143a4dc0f86205f2615c6f8b86e2005b085e658240dde15a08.step",
       "sha256": "6e3f9e038a5347143a4dc0f86205f2615c6f8b86e2005b085e658240dde15a08",

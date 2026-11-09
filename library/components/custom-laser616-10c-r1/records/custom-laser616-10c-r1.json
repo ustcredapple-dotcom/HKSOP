@@ -9,8 +9,8 @@
   "drawingStatus": "engineering-review",
   "status": "名义CAD与加工审核图；未批准投产",
   "stepPath": "step/laser616-periscope-r1/10-C616-adapter.step",
-  "drawingPath": null,
-  "dxfPath": null,
+  "drawingPath": "drawings/laser616-periscope-r1/616-periscope-mechanical-review_TN1_20261026.pdf",
+  "dxfPath": "drawings/laser616-periscope-r1/10-C616-top-section.dxf",
   "sourceUrl": "",
   "manufacturingSpec": {
     "material": "316L 不锈钢",
@@ -43,9 +43,9 @@
     "engineeringReleaseApproved": false,
     "supportingSections": [
       {
-        "dxfPath": null,
+        "dxfPath": "drawings/laser616-periscope-r1/10-C616-bottom-section.dxf",
         "sha256": "8b72bd03c9748c7e3fa19a333cb54c9e60ecf359589ec1cc83f421b424d4aff5",
-        "dxfPdfPath": null,
+        "dxfPdfPath": "drawings/laser616-periscope-r1/10-C616-bottom-section_DXF_TN1_20261026.pdf",
         "dxfPdfSha256": "e33d797a3638152b96ad9abfda0b2adc4df68800fc4cfe48a7c73eaa58e7ea78"
       }
     ]
@@ -57,7 +57,7 @@
     "claimOriginalPublishedR3": false,
     "recipePath": "source/periscope-reference/project/work/periscope_standard_r3_20261006/corrected10_cad/spec.json"
   },
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/laser616-periscope-r1/10-C616-top-section_DXF_TN1_20261026.pdf",
   "dxfPdfSha256": "243ab2edf92d2fd7a593f92045bfee7401879a19288482fa4ff6f4968927a6c5",
   "sourceDrawingSha256": "db33665c8f6ee2a66165bb2c04bd53a101053b4183f70f8bae16b5b9017aa58a",
   "drawingPages": [
@@ -109,8 +109,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前 STEP 原字形及功能文字改用激光打标，完整轮廓与位置已提取核验。",
-    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。",
+    "files": [
+      {
+        "dxfPath": "drawings/laser-marking/lm1-20261015/custom-laser616-10c-r1/编号面.dxf",
+        "sha256": "2695dd16007ca3a13081da7c64b5869c01bdc1136e3d5f6b62dff14db7c64057",
+        "setupPdfPath": "drawings/laser-marking/lm1-20261015/custom-laser616-10c-r1/编号面_定位.pdf",
+        "setupPdfSha256": "b3213874bf72ba3e4e890ec8059241743d52097f9ef8040d105f78ac4cf5085d",
+        "face": "编号面",
+        "text": "10-C616"
+      }
+    ]
   },
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -118,17 +127,17 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/laser616-periscope-r1/616-periscope-mechanical-review_TN1_20261026.pdf",
         "previousSha256": "28510f5fbf11db8eb2e1ce1fd73726d3ca67439bdf984ad2beb7fef2e59db2af",
         "sha256": "db33665c8f6ee2a66165bb2c04bd53a101053b4183f70f8bae16b5b9017aa58a"
       },
       {
-        "path": null,
+        "path": "assets/drawings/laser616-periscope-r1/10-C616-bottom-section_DXF_TN1_20261026.pdf",
         "previousSha256": "72c3ca572d558eed31484dd9482315106ed6e5ab5a141765ceb035087565b953",
         "sha256": "e33d797a3638152b96ad9abfda0b2adc4df68800fc4cfe48a7c73eaa58e7ea78"
       },
       {
-        "path": null,
+        "path": "assets/drawings/laser616-periscope-r1/10-C616-top-section_DXF_TN1_20261026.pdf",
         "previousSha256": "4e48c67e8f962261b74e5caa2aa8115cf43ae373faa8cf3f465dc7b2b61fc197",
         "sha256": "243ab2edf92d2fd7a593f92045bfee7401879a19288482fa4ff6f4968927a6c5"
       }

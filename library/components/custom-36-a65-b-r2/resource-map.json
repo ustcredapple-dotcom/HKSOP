@@ -3,6 +3,50 @@
   "packageId": "custom-36-a65-b-r2",
   "files": [
     {
+      "path": "drawings/29cb0d921f3ff75ab846aea175d486656c6f2a8eed4e9ef5f067f4efa6cb7d95.pdf",
+      "stored": "library/assets/sha256/29/29cb0d921f3ff75ab846aea175d486656c6f2a8eed4e9ef5f067f4efa6cb7d95.pdf",
+      "sha256": "29cb0d921f3ff75ab846aea175d486656c6f2a8eed4e9ef5f067f4efa6cb7d95",
+      "originalReferences": [
+        "drawings/camera-adapters-r2/36-A65-B_R2_MACHINING_A3.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/29/29cb0d921f3ff75ab846aea175d486656c6f2a8eed4e9ef5f067f4efa6cb7d95.pdf"
+      ]
+    },
+    {
+      "path": "drawings/403b996ebd23aed9251a9dea2bb4539af6c850c1fbbc1e00ccfb1edaac746776.dxf",
+      "stored": "library/assets/sha256/40/403b996ebd23aed9251a9dea2bb4539af6c850c1fbbc1e00ccfb1edaac746776.dxf",
+      "sha256": "403b996ebd23aed9251a9dea2bb4539af6c850c1fbbc1e00ccfb1edaac746776",
+      "originalReferences": [
+        "drawings/camera-adapters-r2/36-A65-B_R2_MACHINING_EDITABLE_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/40/403b996ebd23aed9251a9dea2bb4539af6c850c1fbbc1e00ccfb1edaac746776.dxf"
+      ]
+    },
+    {
+      "path": "drawings/51f9ad201c85160791e7bd1e1578fa97ef7e8b0206272455eb33a1be791d4b37.pdf",
+      "stored": "library/assets/sha256/51/51f9ad201c85160791e7bd1e1578fa97ef7e8b0206272455eb33a1be791d4b37.pdf",
+      "sha256": "51f9ad201c85160791e7bd1e1578fa97ef7e8b0206272455eb33a1be791d4b37",
+      "originalReferences": [
+        "drawings/camera-adapters-r2/36-A65-B_R2_MACHINING_EDITABLE_1to1_PDF_PREVIEW.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/51/51f9ad201c85160791e7bd1e1578fa97ef7e8b0206272455eb33a1be791d4b37.pdf"
+      ]
+    },
+    {
+      "path": "drawings/74fe5d1dc155eb78c673217ec23b3b473b157448c5f9b94a3b4f8a03bfba4434.dxf",
+      "stored": "library/assets/sha256/74/74fe5d1dc155eb78c673217ec23b3b473b157448c5f9b94a3b4f8a03bfba4434.dxf",
+      "sha256": "74fe5d1dc155eb78c673217ec23b3b473b157448c5f9b94a3b4f8a03bfba4434",
+      "originalReferences": [
+        "drawings/camera-adapters-r2/laser-marking/36-A65-B_R2_Xplus_LASER_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/74/74fe5d1dc155eb78c673217ec23b3b473b157448c5f9b94a3b4f8a03bfba4434.dxf"
+      ]
+    },
+    {
       "path": "cad/758c2994fa32343dba4794695494d69df8a110aeea8ab6c8cd935864ac14fa06.step",
       "stored": "library/assets/sha256/75/758c2994fa32343dba4794695494d69df8a110aeea8ab6c8cd935864ac14fa06.step",
       "sha256": "758c2994fa32343dba4794695494d69df8a110aeea8ab6c8cd935864ac14fa06",
@@ -11,6 +55,17 @@
       ],
       "sources": [
         "library/assets/sha256/75/758c2994fa32343dba4794695494d69df8a110aeea8ab6c8cd935864ac14fa06.step"
+      ]
+    },
+    {
+      "path": "drawings/cba9b08fd213ebdea030df1901ab269eba7754037f1e38de7ae7dd973a64018e.pdf",
+      "stored": "library/assets/sha256/cb/cba9b08fd213ebdea030df1901ab269eba7754037f1e38de7ae7dd973a64018e.pdf",
+      "sha256": "cba9b08fd213ebdea030df1901ab269eba7754037f1e38de7ae7dd973a64018e",
+      "originalReferences": [
+        "drawings/camera-adapters-r2/laser-marking/36-A65-B_R2_Xplus_LASER_SETUP.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/cb/cba9b08fd213ebdea030df1901ab269eba7754037f1e38de7ae7dd973a64018e.pdf"
       ]
     }
   ],

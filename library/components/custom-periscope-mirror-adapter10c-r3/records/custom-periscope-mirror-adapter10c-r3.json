@@ -19,14 +19,14 @@
     "currentRevision": "本任务获准R3结构修订",
     "role": "新增定制件；不归属复用商用品原设计"
   },
-  "drawingPath": null,
+  "drawingPath": "drawings/periscope-standard-r3/10-C_R3_加工工程图_TN1_20261026.pdf",
   "sourceDrawingSha256": "959ffdc8e0e66896827eafa7fafdf26ba2a8140e27922a995c1ba9032c9ff664",
   "drawingPages": [
     1,
     2,
     3
   ],
-  "dxfPath": null,
+  "dxfPath": "drawings/periscope-standard-r3/10-C_R3_加工工程图_TN1_20261026.dxf",
   "manufacturingEvidence": {
     "sourceStepSha256": "43dd9408332c8017c962d40677cbbac0589fb97f4c20c7da3678ebd38a21bc96",
     "drawingSha256": "959ffdc8e0e66896827eafa7fafdf26ba2a8140e27922a995c1ba9032c9ff664",
@@ -41,7 +41,7 @@
   "drawingSourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/13e796b6399c6c09085aa668/e/19b6da67e3cd85eefcd79b21",
   "drawingSourceUrlRole": "frozen imported machining PDF; local SHA-bound PDF remains manufacturing document",
   "sourcePartName": "原1inch可调镜架真承镜面校正转接件",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/periscope-standard-r3/10-C_R3_加工工程图_DXF.pdf",
   "dxfPdfSha256": "0fb5ce02cdaeacccb56e5c4c4e1c177070761fb3b6cc3b112781bd2e33be1627",
   "drawingAnnotationEvidence": {
     "/drawingPath": {
@@ -72,8 +72,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-X",
+        "text": "10-C",
+        "dxfPath": "drawings/laser-marking/custom-periscope-mirror-adapter10c-r3/编号面_-X.dxf",
+        "sha256": "38936f00bf6e8861584a8a4c779c8f0ad09b16e251193959a1bee22abcd57434",
+        "setupPdfPath": "drawings/laser-marking/custom-periscope-mirror-adapter10c-r3/编号面_-X_定位说明.pdf",
+        "setupPdfSha256": "97ad73042fc330ac431ecde44914304f791c53cabbc78dd4d59ec14a37d2fce6"
+      }
+    ]
   },
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -81,12 +90,12 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/periscope-standard-r3/10-C_R3_加工工程图_TN1_20261026.pdf",
         "previousSha256": "3fc74ff72708f8b0c8054c230a5dd019c632bcec643210ac21924e84fcbbe15c",
         "sha256": "959ffdc8e0e66896827eafa7fafdf26ba2a8140e27922a995c1ba9032c9ff664"
       },
       {
-        "path": null,
+        "path": "assets/drawings/periscope-standard-r3/10-C_R3_加工工程图_TN1_20261026.dxf",
         "previousSha256": "63c39279b41f32ec9dbe25ce78c4495ce6ee58e650870b43046ddc1b31d03b9e",
         "sha256": "e6657b4856fbc85f48137544623c7e52f3cbfe9b4d7c3fdf36007438cf1ab7d6"
       }

@@ -3,6 +3,17 @@
   "packageId": "custom-coupler-fc2a-r1",
   "files": [
     {
+      "path": "drawings/244387efec9d743e35f147d277676e7df7bf860b6f999cca8356a2d831b52b87.dxf",
+      "stored": "library/assets/sha256/24/244387efec9d743e35f147d277676e7df7bf860b6f999cca8356a2d831b52b87.dxf",
+      "sha256": "244387efec9d743e35f147d277676e7df7bf860b6f999cca8356a2d831b52b87",
+      "originalReferences": [
+        "drawings/03_耦合/coupler-dual-waveplate-r1/FC2A-bottom-section.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/24/244387efec9d743e35f147d277676e7df7bf860b6f999cca8356a2d831b52b87.dxf"
+      ]
+    },
+    {
       "path": "cad/6fd10776a9763a56f661d2a06d96fada8590e8f1f852bce0d8f0f95af719c1cd.step",
       "stored": "library/assets/sha256/6f/6fd10776a9763a56f661d2a06d96fada8590e8f1f852bce0d8f0f95af719c1cd.step",
       "sha256": "6fd10776a9763a56f661d2a06d96fada8590e8f1f852bce0d8f0f95af719c1cd",
@@ -11,6 +22,72 @@
       ],
       "sources": [
         "library/assets/sha256/6f/6fd10776a9763a56f661d2a06d96fada8590e8f1f852bce0d8f0f95af719c1cd.step"
+      ]
+    },
+    {
+      "path": "drawings/973b0927a8c78a83cf68de70fb786356be3ba9ef7927343442250ce6855ad80d.dxf",
+      "stored": "library/assets/sha256/97/973b0927a8c78a83cf68de70fb786356be3ba9ef7927343442250ce6855ad80d.dxf",
+      "sha256": "973b0927a8c78a83cf68de70fb786356be3ba9ef7927343442250ce6855ad80d",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-coupler-fc2a-r1/编号面.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/97/973b0927a8c78a83cf68de70fb786356be3ba9ef7927343442250ce6855ad80d.dxf"
+      ]
+    },
+    {
+      "path": "drawings/c3dc13462626e34bb77ec2cf3554bafcb04a30bc69e35118fdd3ece94f216341.pdf",
+      "stored": "library/assets/sha256/c3/c3dc13462626e34bb77ec2cf3554bafcb04a30bc69e35118fdd3ece94f216341.pdf",
+      "sha256": "c3dc13462626e34bb77ec2cf3554bafcb04a30bc69e35118fdd3ece94f216341",
+      "originalReferences": [
+        "drawings/03_耦合/coupler-dual-waveplate-r1/FC2A-counterbore-section_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/c3/c3dc13462626e34bb77ec2cf3554bafcb04a30bc69e35118fdd3ece94f216341.pdf"
+      ]
+    },
+    {
+      "path": "drawings/cac6f43e27719399de9fd3735e4975d72af3a00c18f1eb911e7ebeae5213f970.pdf",
+      "stored": "library/assets/sha256/ca/cac6f43e27719399de9fd3735e4975d72af3a00c18f1eb911e7ebeae5213f970.pdf",
+      "sha256": "cac6f43e27719399de9fd3735e4975d72af3a00c18f1eb911e7ebeae5213f970",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-coupler-fc2a-r1/编号面_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/ca/cac6f43e27719399de9fd3735e4975d72af3a00c18f1eb911e7ebeae5213f970.pdf"
+      ]
+    },
+    {
+      "path": "drawings/e7d2ec89afef12751c06bc5e5069de8704295c01d256f40aa541f4feceb8fe6e.pdf",
+      "stored": "library/assets/sha256/e7/e7d2ec89afef12751c06bc5e5069de8704295c01d256f40aa541f4feceb8fe6e.pdf",
+      "sha256": "e7d2ec89afef12751c06bc5e5069de8704295c01d256f40aa541f4feceb8fe6e",
+      "originalReferences": [
+        "drawings/03_耦合/coupler-dual-waveplate-r2/双波片耦合头_装配与加工审核_R2.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/e7/e7d2ec89afef12751c06bc5e5069de8704295c01d256f40aa541f4feceb8fe6e.pdf"
+      ]
+    },
+    {
+      "path": "drawings/efa6bb3736cc01e6723df1fae617e2259047cce5971ce736e31905228a7327b1.pdf",
+      "stored": "library/assets/sha256/ef/efa6bb3736cc01e6723df1fae617e2259047cce5971ce736e31905228a7327b1.pdf",
+      "sha256": "efa6bb3736cc01e6723df1fae617e2259047cce5971ce736e31905228a7327b1",
+      "originalReferences": [
+        "drawings/03_耦合/coupler-dual-waveplate-r1/FC2A-bottom-section_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/ef/efa6bb3736cc01e6723df1fae617e2259047cce5971ce736e31905228a7327b1.pdf"
+      ]
+    },
+    {
+      "path": "drawings/f58313c42498c820203162b0e5d2a94d10e136896be751f0801f56a0f7e8e9af.dxf",
+      "stored": "library/assets/sha256/f5/f58313c42498c820203162b0e5d2a94d10e136896be751f0801f56a0f7e8e9af.dxf",
+      "sha256": "f58313c42498c820203162b0e5d2a94d10e136896be751f0801f56a0f7e8e9af",
+      "originalReferences": [
+        "drawings/03_耦合/coupler-dual-waveplate-r1/FC2A-counterbore-section.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/f5/f58313c42498c820203162b0e5d2a94d10e136896be751f0801f56a0f7e8e9af.dxf"
       ]
     }
   ],

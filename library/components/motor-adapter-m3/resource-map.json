@@ -3,6 +3,17 @@
   "packageId": "motor-adapter-m3",
   "files": [
     {
+      "path": "drawings/2266d58c33851230a7960b9276b0e07ab1d75224de3b22fdb1cdaebeec6dd4e3.pdf",
+      "stored": "library/assets/sha256/22/2266d58c33851230a7960b9276b0e07ab1d75224de3b22fdb1cdaebeec6dd4e3.pdf",
+      "sha256": "2266d58c33851230a7960b9276b0e07ab1d75224de3b22fdb1cdaebeec6dd4e3",
+      "originalReferences": [
+        "drawings/09_电动镜架/转接螺纹 m3toh2_材料工艺更新.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/22/2266d58c33851230a7960b9276b0e07ab1d75224de3b22fdb1cdaebeec6dd4e3.pdf"
+      ]
+    },
+    {
       "path": "cad/87960d0af1526a2b8210c56b2f5d030200d03dd233a805bce82bcf2fc0bbaf64.step",
       "stored": "library/assets/sha256/87/87960d0af1526a2b8210c56b2f5d030200d03dd233a805bce82bcf2fc0bbaf64.step",
       "sha256": "87960d0af1526a2b8210c56b2f5d030200d03dd233a805bce82bcf2fc0bbaf64",
@@ -11,6 +22,28 @@
       ],
       "sources": [
         "library/assets/sha256/87/87960d0af1526a2b8210c56b2f5d030200d03dd233a805bce82bcf2fc0bbaf64.step"
+      ]
+    },
+    {
+      "path": "drawings/9a8b6c7429bf1ef797009cf10771127652521901fd69b36d5ef5cc27753cb3f0.pdf",
+      "stored": "library/assets/sha256/9a/9a8b6c7429bf1ef797009cf10771127652521901fd69b36d5ef5cc27753cb3f0.pdf",
+      "sha256": "9a8b6c7429bf1ef797009cf10771127652521901fd69b36d5ef5cc27753cb3f0",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/motor-adapter-m3/圆柱肩部_展开_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/9a/9a8b6c7429bf1ef797009cf10771127652521901fd69b36d5ef5cc27753cb3f0.pdf"
+      ]
+    },
+    {
+      "path": "drawings/b2fba38a2467c3fd698640ab7e7b4f7c04ef30d4d3731ae72909fead9a5481d9.dxf",
+      "stored": "library/assets/sha256/b2/b2fba38a2467c3fd698640ab7e7b4f7c04ef30d4d3731ae72909fead9a5481d9.dxf",
+      "sha256": "b2fba38a2467c3fd698640ab7e7b4f7c04ef30d4d3731ae72909fead9a5481d9",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/motor-adapter-m3/圆柱肩部_展开.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/b2/b2fba38a2467c3fd698640ab7e7b4f7c04ef30d4d3731ae72909fead9a5481d9.dxf"
       ]
     }
   ],

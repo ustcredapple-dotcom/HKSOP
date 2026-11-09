@@ -12,6 +12,61 @@
       "sources": [
         "library/assets/sha256/00/00a2dce01dfbf52492be01c4f7b6deebfdca6692ae9232903898aeda85af624c.step"
       ]
+    },
+    {
+      "path": "drawings/11468befb15cd58ec4a15b802d5664c6fd19eeb18d15283edfd76fc6d8f48d64.dxf",
+      "stored": "library/assets/sha256/11/11468befb15cd58ec4a15b802d5664c6fd19eeb18d15283edfd76fc6d8f48d64.dxf",
+      "sha256": "11468befb15cd58ec4a15b802d5664c6fd19eeb18d15283edfd76fc6d8f48d64",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-motor-ms2-s-r2/编号面.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/11/11468befb15cd58ec4a15b802d5664c6fd19eeb18d15283edfd76fc6d8f48d64.dxf"
+      ]
+    },
+    {
+      "path": "drawings/432c2f1771a253216e5d96d92e48cf917e25f79e76295d33014a4bda6d9da218.pdf",
+      "stored": "library/assets/sha256/43/432c2f1771a253216e5d96d92e48cf917e25f79e76295d33014a4bda6d9da218.pdf",
+      "sha256": "432c2f1771a253216e5d96d92e48cf917e25f79e76295d33014a4bda6d9da218",
+      "originalReferences": [
+        "drawings/motor-slot-split-r2/V2-1inch-MS2-r2-mechanical-review_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/43/432c2f1771a253216e5d96d92e48cf917e25f79e76295d33014a4bda6d9da218.pdf"
+      ]
+    },
+    {
+      "path": "drawings/479cb8395ce15bd526a49589096827bb35295ebd70a1001d9e3298788c0cf8bb.dxf",
+      "stored": "library/assets/sha256/47/479cb8395ce15bd526a49589096827bb35295ebd70a1001d9e3298788c0cf8bb.dxf",
+      "sha256": "479cb8395ce15bd526a49589096827bb35295ebd70a1001d9e3298788c0cf8bb",
+      "originalReferences": [
+        "drawings/motor-slot-split-r2/MS2-S.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/47/479cb8395ce15bd526a49589096827bb35295ebd70a1001d9e3298788c0cf8bb.dxf"
+      ]
+    },
+    {
+      "path": "drawings/601b8fd430305cc5dd48e6cfa58a73765101286a0c111369eb250b5a7e663586.pdf",
+      "stored": "library/assets/sha256/60/601b8fd430305cc5dd48e6cfa58a73765101286a0c111369eb250b5a7e663586.pdf",
+      "sha256": "601b8fd430305cc5dd48e6cfa58a73765101286a0c111369eb250b5a7e663586",
+      "originalReferences": [
+        "drawings/motor-slot-split-r2/MS2-S_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/60/601b8fd430305cc5dd48e6cfa58a73765101286a0c111369eb250b5a7e663586.pdf"
+      ]
+    },
+    {
+      "path": "drawings/7dc208ed4b851ec4d5ce321d14edc094de193acac3896258d41daeadadb94677.pdf",
+      "stored": "library/assets/sha256/7d/7dc208ed4b851ec4d5ce321d14edc094de193acac3896258d41daeadadb94677.pdf",
+      "sha256": "7dc208ed4b851ec4d5ce321d14edc094de193acac3896258d41daeadadb94677",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-motor-ms2-s-r2/编号面_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/7d/7dc208ed4b851ec4d5ce321d14edc094de193acac3896258d41daeadadb94677.pdf"
+      ]
     }
   ],
   "dependencies": []

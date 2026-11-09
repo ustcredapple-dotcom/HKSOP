@@ -995,7 +995,7 @@
     "revision": "R3",
     "sourceExact": true,
     "nominalFixedPositionAssembly": true,
-    "drawingPath": null,
+    "drawingPath": "drawings/fiber-rear-dual-r3/FC-KZ-R3-A_assembly.pdf",
     "sourceDrawingSha256": "e4cabe91945fb254c04fd85c3c51ac9e7829bb257dc75189dbc4e9f9140210ac"
   },
   "mechanicalConfiguration": {

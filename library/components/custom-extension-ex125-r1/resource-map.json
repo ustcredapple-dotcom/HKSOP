@@ -3,6 +3,61 @@
   "packageId": "custom-extension-ex125-r1",
   "files": [
     {
+      "path": "drawings/3b5062639924a6f513739130527929dbf035d262bc0a4ceedd313a419a64174c.pdf",
+      "stored": "library/assets/sha256/3b/3b5062639924a6f513739130527929dbf035d262bc0a4ceedd313a419a64174c.pdf",
+      "sha256": "3b5062639924a6f513739130527929dbf035d262bc0a4ceedd313a419a64174c",
+      "originalReferences": [
+        "drawings/extension-series-r1/延长块系列参数图_R1_DXF_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/3b/3b5062639924a6f513739130527929dbf035d262bc0a4ceedd313a419a64174c.pdf"
+      ]
+    },
+    {
+      "path": "drawings/422209bc31dfbd2711319fe61e08d2757122a9a66b68b9009176953c6bd731ae.dxf",
+      "stored": "library/assets/sha256/42/422209bc31dfbd2711319fe61e08d2757122a9a66b68b9009176953c6bd731ae.dxf",
+      "sha256": "422209bc31dfbd2711319fe61e08d2757122a9a66b68b9009176953c6bd731ae",
+      "originalReferences": [
+        "drawings/laser-marking/custom-extension-ex125-r1/编号面_+X.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/42/422209bc31dfbd2711319fe61e08d2757122a9a66b68b9009176953c6bd731ae.dxf"
+      ]
+    },
+    {
+      "path": "drawings/45b181b211f3ae15089b028ae53ef9eacc988e545ce5c5c3b225a35cd351c7e7.pdf",
+      "stored": "library/assets/sha256/45/45b181b211f3ae15089b028ae53ef9eacc988e545ce5c5c3b225a35cd351c7e7.pdf",
+      "sha256": "45b181b211f3ae15089b028ae53ef9eacc988e545ce5c5c3b225a35cd351c7e7",
+      "originalReferences": [
+        "drawings/laser-marking/custom-extension-ex125-r1/编号面_+X_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/45/45b181b211f3ae15089b028ae53ef9eacc988e545ce5c5c3b225a35cd351c7e7.pdf"
+      ]
+    },
+    {
+      "path": "drawings/5a069ecb2e548903bf414ff8f889b726c9fc611758ee7e95642c49d3943741f0.pdf",
+      "stored": "library/assets/sha256/5a/5a069ecb2e548903bf414ff8f889b726c9fc611758ee7e95642c49d3943741f0.pdf",
+      "sha256": "5a069ecb2e548903bf414ff8f889b726c9fc611758ee7e95642c49d3943741f0",
+      "originalReferences": [
+        "drawings/extension-series-r1/延长块系列加工图册_R1_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/5a/5a069ecb2e548903bf414ff8f889b726c9fc611758ee7e95642c49d3943741f0.pdf"
+      ]
+    },
+    {
+      "path": "drawings/5df077170731d5a03f42187c66746c9f480ea2c0d4604fcb3759ca85ecf68344.dxf",
+      "stored": "library/assets/sha256/5d/5df077170731d5a03f42187c66746c9f480ea2c0d4604fcb3759ca85ecf68344.dxf",
+      "sha256": "5df077170731d5a03f42187c66746c9f480ea2c0d4604fcb3759ca85ecf68344",
+      "originalReferences": [
+        "drawings/extension-series-r1/延长块系列参数图_R1_TN1_20261026.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/5d/5df077170731d5a03f42187c66746c9f480ea2c0d4604fcb3759ca85ecf68344.dxf"
+      ]
+    },
+    {
       "path": "cad/da7fa1ddbe5b4abadda964d7de21f12eacf25a963fb4761318d502872b3b34ad.step",
       "stored": "library/assets/sha256/da/da7fa1ddbe5b4abadda964d7de21f12eacf25a963fb4761318d502872b3b34ad.step",
       "sha256": "da7fa1ddbe5b4abadda964d7de21f12eacf25a963fb4761318d502872b3b34ad",

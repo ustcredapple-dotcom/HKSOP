@@ -5,7 +5,7 @@
   "kind": "custom",
   "unit": "件",
   "stepPath": "step/motor-h2-compact-support-r3/H2D2-S_R3.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/motor-h2-compact-support-r3/motor-2-90-h2-compact-support-r3-manufacturing-review.pdf",
   "sourceStepSha256": "607b68fbc67e7210b3a1f1afb25e867de94daa5259ca6f328a1635cb130b509c",
   "sourceDrawingSha256": "46dbe39931597c1d8cfb7ff4e2854c2462b980835cb0f85bf6c25ed1bc8d1367",
   "drawingRevision": "H2-Compact-Support-R3",
@@ -138,9 +138,9 @@
       }
     ]
   },
-  "dxfPath": null,
+  "dxfPath": "drawings/motor-h2-compact-support-r3/H2D2-S_R3.dxf",
   "sourceDxfSha256": "8ab023cb8e6a628127c776b5536f41869b8fb4a640697f1e314de37327afc393",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/motor-h2-compact-support-r3/H2D2-S_R3_DXF.pdf",
   "dxfPdfSha256": "a02bc2bf2d9f96c18dd0b1958a1f81cb7effbe9860760221f34cdbedaca56c2f",
   "drawingPages": [
     1,
@@ -180,7 +180,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_+X",
+        "text": "H2D2S3",
+        "dxfPath": "drawings/laser-marking/custom-motor-h2d2-s-r3/编号面_+X.dxf",
+        "sha256": "f5d1970201e68f797b0d731537a9c8e190f6fbb7382dc5dfcb4b8a0ceda37f5b",
+        "setupPdfPath": "drawings/laser-marking/custom-motor-h2d2-s-r3/编号面_+X_定位说明.pdf",
+        "setupPdfSha256": "30eed7f25f3887a761f81d66dd221aab78bfdf235d230adcf087f5a3fce8816d"
+      }
+    ]
   }
 }

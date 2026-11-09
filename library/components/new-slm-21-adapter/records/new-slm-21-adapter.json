@@ -8,8 +8,8 @@
   "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/e99174f48fca11822c613456",
   "notes": "M1公制修订；背孔高24±0.15、反射面深14.2±0.3；光学中心高24适用厂家未注±1。M6深4的有效牙深及公差需实测。。实物试装未完成。",
   "stepPath": "step/metric-m1-20261006/21-SLM_METRIC_M1.step",
-  "drawingPath": null,
-  "dxfPath": null,
+  "drawingPath": "drawings/metric-m1-20261006/21-SLM_M1_加工工程图.pdf",
+  "dxfPath": "drawings/metric-m1-20261006/21-SLM_M1_加工工程图.dxf",
   "sourceStepSha256": "f663bd480a1fbe079d5b0087dbeba69e022b48bd70f828e7428ecc0fd169004b",
   "sourceDrawingSha256": "3f252c0f1c1fd2ecc1bad3c8e28d1236ee89451f63c81e5fed24296e24734cc2",
   "sourceDxfSha256": "85e6914cd23e01c30704f138b1182cecde2788c23118bf56d8a66c244c86ce52",
@@ -45,7 +45,7 @@
     },
     "physicalTrialCompleted": false
   },
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/metric-m1-20261006/21-SLM_M1_加工工程图_DXF.pdf",
   "dxfPdfSha256": "d73b1707c4cd488d932372ab8c4952ff28255cc49833f8400de99d2d73372624",
   "drawingPages": [
     1,
@@ -81,7 +81,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-X",
+        "text": "21-SLM",
+        "dxfPath": "drawings/laser-marking/new-slm-21-adapter/编号面_-X.dxf",
+        "sha256": "50291b72733181f40b1c5d564a7e332b549e35711c33fc60ee7f367c64910e9a",
+        "setupPdfPath": "drawings/laser-marking/new-slm-21-adapter/编号面_-X_定位说明.pdf",
+        "setupPdfSha256": "100001d095f09801d71aef68781f4796a94b4284323b69d195913cef84054738"
+      }
+    ]
   }
 }

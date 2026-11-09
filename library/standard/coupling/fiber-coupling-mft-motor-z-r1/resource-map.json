@@ -23,6 +23,17 @@
       "sources": [
         "library/assets/sha256/ac/aca97f5e7900dcbdcd072b42208a426ec2b2e4509dd66e28c50d22fa3d0cb5be.svg"
       ]
+    },
+    {
+      "path": "drawings/f4f0ea8d3f56d333b5557e931149dfb70303c3822b5687c1edef448742f7af58.pdf",
+      "stored": "library/assets/sha256/f4/f4f0ea8d3f56d333b5557e931149dfb70303c3822b5687c1edef448742f7af58.pdf",
+      "sha256": "f4f0ea8d3f56d333b5557e931149dfb70303c3822b5687c1edef448742f7af58",
+      "originalReferences": [
+        "drawings/fiber-motor-z-r2/MFT_R2_装配说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/f4/f4f0ea8d3f56d333b5557e931149dfb70303c3822b5687c1edef448742f7af58.pdf"
+      ]
     }
   ],
   "dependencies": [

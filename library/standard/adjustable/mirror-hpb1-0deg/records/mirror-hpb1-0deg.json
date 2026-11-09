@@ -730,7 +730,7 @@
     "sourceStepSha256": "6de442a0cabc55d57d1c8f9d0baa1195fd4c9b5185172f42cad472524772020f",
     "revision": "R2",
     "nominalFixedPositionAssembly": true,
-    "drawingPath": null,
+    "drawingPath": "drawings/cs30kz-hpb-shared-r2/三套器件_装配与核验.pdf",
     "sourceDrawingSha256": "45b0fb862579f06747d74ed64585534ad5420bd4c92d42932a86739fc15eb066",
     "sha256": "6de442a0cabc55d57d1c8f9d0baa1195fd4c9b5185172f42cad472524772020f",
     "sourceExact": true,

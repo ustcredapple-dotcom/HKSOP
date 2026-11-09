@@ -3,6 +3,28 @@
   "packageId": "custom-kungshu-33-dr-m01-r1",
   "files": [
     {
+      "path": "drawings/07d5cb2f606efcfbd4ea5c031564979d63bcffbfdb8604ba2f0922b256ef1403.dxf",
+      "stored": "library/assets/sha256/07/07d5cb2f606efcfbd4ea5c031564979d63bcffbfdb8604ba2f0922b256ef1403.dxf",
+      "sha256": "07d5cb2f606efcfbd4ea5c031564979d63bcffbfdb8604ba2f0922b256ef1403",
+      "originalReferences": [
+        "drawings/laser-marking/custom-kungshu-33-dr-m01-r1/33-DR-M01_top_1to1_mm.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/07/07d5cb2f606efcfbd4ea5c031564979d63bcffbfdb8604ba2f0922b256ef1403.dxf"
+      ]
+    },
+    {
+      "path": "drawings/831890a19b325148a7d0474051b7af104eee58da8464f0e3477c82901ff1c82d.pdf",
+      "stored": "library/assets/sha256/83/831890a19b325148a7d0474051b7af104eee58da8464f0e3477c82901ff1c82d.pdf",
+      "sha256": "831890a19b325148a7d0474051b7af104eee58da8464f0e3477c82901ff1c82d",
+      "originalReferences": [
+        "drawings/laser-marking/custom-kungshu-33-dr-m01-r1/33-DR-M01_R1_激光定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/83/831890a19b325148a7d0474051b7af104eee58da8464f0e3477c82901ff1c82d.pdf"
+      ]
+    },
+    {
       "path": "cad/bb95f58203cfff56f6a92bef6c53cb77d1098edecb5d63f93b8f0bbc1bbce185.step",
       "stored": "library/assets/sha256/bb/bb95f58203cfff56f6a92bef6c53cb77d1098edecb5d63f93b8f0bbc1bbce185.step",
       "sha256": "bb95f58203cfff56f6a92bef6c53cb77d1098edecb5d63f93b8f0bbc1bbce185",
@@ -11,6 +33,17 @@
       ],
       "sources": [
         "library/assets/sha256/bb/bb95f58203cfff56f6a92bef6c53cb77d1098edecb5d63f93b8f0bbc1bbce185.step"
+      ]
+    },
+    {
+      "path": "drawings/c0eb0d3b9ab9f6c16e76a5e54f848dd678c4d93d98d02d3a7de8000beb8e02ce.pdf",
+      "stored": "library/assets/sha256/c0/c0eb0d3b9ab9f6c16e76a5e54f848dd678c4d93d98d02d3a7de8000beb8e02ce.pdf",
+      "sha256": "c0eb0d3b9ab9f6c16e76a5e54f848dd678c4d93d98d02d3a7de8000beb8e02ce",
+      "originalReferences": [
+        "drawings/kungshu-r1-20261012/33-DR-M01_R1_加工图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/c0/c0eb0d3b9ab9f6c16e76a5e54f848dd678c4d93d98d02d3a7de8000beb8e02ce.pdf"
       ]
     }
   ],

@@ -3,6 +3,17 @@
   "packageId": "custom-kungshu-33-dr-m03-r1",
   "files": [
     {
+      "path": "drawings/0f95bb2bcff0afbc362b597ba31291e25691966715a1fd876e99dbe4c092ac1d.dxf",
+      "stored": "library/assets/sha256/0f/0f95bb2bcff0afbc362b597ba31291e25691966715a1fd876e99dbe4c092ac1d.dxf",
+      "sha256": "0f95bb2bcff0afbc362b597ba31291e25691966715a1fd876e99dbe4c092ac1d",
+      "originalReferences": [
+        "drawings/laser-marking/custom-kungshu-33-dr-m03-r1/33-DR-M03_hex_face_1to1_mm.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/0f/0f95bb2bcff0afbc362b597ba31291e25691966715a1fd876e99dbe4c092ac1d.dxf"
+      ]
+    },
+    {
       "path": "cad/b79f176b92ddb273f06e6e1fe616b219e55dcab073ad17de8d9d0c862a36b0b2.step",
       "stored": "library/assets/sha256/b7/b79f176b92ddb273f06e6e1fe616b219e55dcab073ad17de8d9d0c862a36b0b2.step",
       "sha256": "b79f176b92ddb273f06e6e1fe616b219e55dcab073ad17de8d9d0c862a36b0b2",
@@ -11,6 +22,28 @@
       ],
       "sources": [
         "library/assets/sha256/b7/b79f176b92ddb273f06e6e1fe616b219e55dcab073ad17de8d9d0c862a36b0b2.step"
+      ]
+    },
+    {
+      "path": "drawings/d5cd3a46f59ed23c58287d90489282bafbdb1737371b75ed40afcbe5eb1a08d9.pdf",
+      "stored": "library/assets/sha256/d5/d5cd3a46f59ed23c58287d90489282bafbdb1737371b75ed40afcbe5eb1a08d9.pdf",
+      "sha256": "d5cd3a46f59ed23c58287d90489282bafbdb1737371b75ed40afcbe5eb1a08d9",
+      "originalReferences": [
+        "drawings/kungshu-r1-20261012/33-DR-M03_R1_加工图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/d5/d5cd3a46f59ed23c58287d90489282bafbdb1737371b75ed40afcbe5eb1a08d9.pdf"
+      ]
+    },
+    {
+      "path": "drawings/f12fb245d743b38d7551b35434be7800c604eb4addce5bb544c4f97cd5697daf.pdf",
+      "stored": "library/assets/sha256/f1/f12fb245d743b38d7551b35434be7800c604eb4addce5bb544c4f97cd5697daf.pdf",
+      "sha256": "f12fb245d743b38d7551b35434be7800c604eb4addce5bb544c4f97cd5697daf",
+      "originalReferences": [
+        "drawings/laser-marking/custom-kungshu-33-dr-m03-r1/33-DR-M03_R1_激光定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/f1/f12fb245d743b38d7551b35434be7800c604eb4addce5bb544c4f97cd5697daf.pdf"
       ]
     }
   ],

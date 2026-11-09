@@ -3,6 +3,39 @@
   "packageId": "LS35E-B",
   "files": [
     {
+      "path": "drawings/3134dbfb296ba3247c3202598ad173dad5f170cc31b8333e2741078f7d3cac37.dxf",
+      "stored": "library/assets/sha256/31/3134dbfb296ba3247c3202598ad173dad5f170cc31b8333e2741078f7d3cac37.dxf",
+      "sha256": "3134dbfb296ba3247c3202598ad173dad5f170cc31b8333e2741078f7d3cac37",
+      "originalReferences": [
+        "drawings/ls35x-lab-e-r1/31-LS35-B_R1_加工工程图_TN1_20261026.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/31/3134dbfb296ba3247c3202598ad173dad5f170cc31b8333e2741078f7d3cac37.dxf"
+      ]
+    },
+    {
+      "path": "drawings/4315ca7a8630e68910c68c096da9b0e6fc443d163ccbae11c5e1d80dcdf37eaa.pdf",
+      "stored": "library/assets/sha256/43/4315ca7a8630e68910c68c096da9b0e6fc443d163ccbae11c5e1d80dcdf37eaa.pdf",
+      "sha256": "4315ca7a8630e68910c68c096da9b0e6fc443d163ccbae11c5e1d80dcdf37eaa",
+      "originalReferences": [
+        "drawings/ls35x-lab-e-r1/31-LS35-B_R1_加工工程图_DXF_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/43/4315ca7a8630e68910c68c096da9b0e6fc443d163ccbae11c5e1d80dcdf37eaa.pdf"
+      ]
+    },
+    {
+      "path": "drawings/714ce6ab19a080929404ee986d4b6d578c08d354a542e02294c76325364403e4.pdf",
+      "stored": "library/assets/sha256/71/714ce6ab19a080929404ee986d4b6d578c08d354a542e02294c76325364403e4.pdf",
+      "sha256": "714ce6ab19a080929404ee986d4b6d578c08d354a542e02294c76325364403e4",
+      "originalReferences": [
+        "drawings/laser-marking/LS35E-B/编号面_-Y_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/71/714ce6ab19a080929404ee986d4b6d578c08d354a542e02294c76325364403e4.pdf"
+      ]
+    },
+    {
       "path": "cad/a1033185487042f500408a64e89406735ebb43fe94dcfaafabf47148095cde97.step",
       "stored": "library/assets/sha256/a1/a1033185487042f500408a64e89406735ebb43fe94dcfaafabf47148095cde97.step",
       "sha256": "a1033185487042f500408a64e89406735ebb43fe94dcfaafabf47148095cde97",
@@ -11,6 +44,28 @@
       ],
       "sources": [
         "library/assets/sha256/a1/a1033185487042f500408a64e89406735ebb43fe94dcfaafabf47148095cde97.step"
+      ]
+    },
+    {
+      "path": "drawings/df55abbf6755bf4a5b9f594383b59b98169bcd7d16acacf13d02281f076c23e1.dxf",
+      "stored": "library/assets/sha256/df/df55abbf6755bf4a5b9f594383b59b98169bcd7d16acacf13d02281f076c23e1.dxf",
+      "sha256": "df55abbf6755bf4a5b9f594383b59b98169bcd7d16acacf13d02281f076c23e1",
+      "originalReferences": [
+        "drawings/laser-marking/LS35E-B/编号面_-Y.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/df/df55abbf6755bf4a5b9f594383b59b98169bcd7d16acacf13d02281f076c23e1.dxf"
+      ]
+    },
+    {
+      "path": "drawings/f519ef81fd7525a0ba93bc6e8cc95ee3d97578c320400109990fa211de422184.pdf",
+      "stored": "library/assets/sha256/f5/f519ef81fd7525a0ba93bc6e8cc95ee3d97578c320400109990fa211de422184.pdf",
+      "sha256": "f519ef81fd7525a0ba93bc6e8cc95ee3d97578c320400109990fa211de422184",
+      "originalReferences": [
+        "drawings/ls35x-lab-e-r1/31-LS35-B_R1_加工工程图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/f5/f519ef81fd7525a0ba93bc6e8cc95ee3d97578c320400109990fa211de422184.pdf"
       ]
     }
   ],

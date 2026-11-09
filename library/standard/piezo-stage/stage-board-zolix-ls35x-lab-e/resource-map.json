@@ -14,6 +14,17 @@
       ]
     },
     {
+      "path": "drawings/156f58679a17b304accaa3f3a96000b60a699f4754221d282732fa2f093b7645.pdf",
+      "stored": "library/assets/sha256/15/156f58679a17b304accaa3f3a96000b60a699f4754221d282732fa2f093b7645.pdf",
+      "sha256": "156f58679a17b304accaa3f3a96000b60a699f4754221d282732fa2f093b7645",
+      "originalReferences": [
+        "drawings/ls35x-lab-e-r1/31-LS35_R1_工程图册_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/15/156f58679a17b304accaa3f3a96000b60a699f4754221d282732fa2f093b7645.pdf"
+      ]
+    },
+    {
       "path": "rendering/45f8ef3aa25bf288be13d8610b407e0a6706d03cac890501c8f5d2294819355d.svg",
       "stored": "library/assets/sha256/45/45f8ef3aa25bf288be13d8610b407e0a6706d03cac890501c8f5d2294819355d.svg",
       "sha256": "45f8ef3aa25bf288be13d8610b407e0a6706d03cac890501c8f5d2294819355d",

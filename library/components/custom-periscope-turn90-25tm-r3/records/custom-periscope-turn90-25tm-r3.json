@@ -19,14 +19,14 @@
     "currentRevision": "本任务获准R3结构修订",
     "role": "新增定制件；不归属复用商用品原设计"
   },
-  "drawingPath": null,
+  "drawingPath": "drawings/periscope-standard-r3/25-TM_R3_加工工程图_TN1_20261026.pdf",
   "sourceDrawingSha256": "dcbf6781baa4027953b2216fe0714df73299d94688791d84a0639d18a7149a91",
   "drawingPages": [
     1,
     2,
     3
   ],
-  "dxfPath": null,
+  "dxfPath": "drawings/periscope-standard-r3/25-TM_R3_加工工程图_TN1_20261026.dxf",
   "manufacturingEvidence": {
     "sourceStepSha256": "e9518541d26c1f5a05bac105a1f176fdfdb1be98d968b9fec2379d8112d8a59b",
     "drawingSha256": "dcbf6781baa4027953b2216fe0714df73299d94688791d84a0639d18a7149a91",
@@ -41,7 +41,7 @@
   "drawingSourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/13e796b6399c6c09085aa668/e/75cd1028ddfee7cdbde3b75e",
   "drawingSourceUrlRole": "frozen imported machining PDF; local SHA-bound PDF remains manufacturing document",
   "sourcePartName": "公制90度多档紧凑一体爬架_25-TM",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/periscope-standard-r3/25-TM_R3_加工工程图_DXF.pdf",
   "dxfPdfSha256": "7b7c8b3d2123747b7e7e6b85f2e710e9f91928204565ff26d44efda6d31b2bd1",
   "drawingAnnotationEvidence": {
     "/drawingPath": {
@@ -72,8 +72,25 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_+X",
+        "text": "25-TM R3",
+        "dxfPath": "drawings/laser-marking/custom-periscope-turn90-25tm-r3/编号面_+X.dxf",
+        "sha256": "c6e15963437b6f353209e9e376139c4833cab6ca4f85c8ebe3b3588c7d27b0a9",
+        "setupPdfPath": "drawings/laser-marking/custom-periscope-turn90-25tm-r3/编号面_+X_定位说明.pdf",
+        "setupPdfSha256": "67697b51c37e2b39eeed257efb5979f83f69096c3d8c4d01ed4e8f9b1b465ff9"
+      },
+      {
+        "face": "高度标识面_+X",
+        "text": "IN 200；IN 187.5；IN 175；IN 162.5；IN 150；IN 137.5；IN 125；OUT 87.5；OUT 75；OUT 62.5；OUT 50",
+        "dxfPath": "drawings/laser-marking/custom-periscope-turn90-25tm-r3/高度标识面_+X.dxf",
+        "sha256": "fac16fd111af7eb47cba76eb92e29a5d5b713ae462c0369728f38ad889ce059f",
+        "setupPdfPath": "drawings/laser-marking/custom-periscope-turn90-25tm-r3/高度标识面_+X_定位说明.pdf",
+        "setupPdfSha256": "3d1e4481d1569d1019f9153ca3c08732c29782fd1325c8f325926c1a09bdc134"
+      }
+    ]
   },
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -81,12 +98,12 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/periscope-standard-r3/25-TM_R3_加工工程图_TN1_20261026.pdf",
         "previousSha256": "c2f6612af4e59382c60d246277c99e6ec7adaafe00ecbb000fb4c22792b24502",
         "sha256": "dcbf6781baa4027953b2216fe0714df73299d94688791d84a0639d18a7149a91"
       },
       {
-        "path": null,
+        "path": "assets/drawings/periscope-standard-r3/25-TM_R3_加工工程图_TN1_20261026.dxf",
         "previousSha256": "76ac174cbc9ae642a3fc4552284e0c99f56c007974e789dd94f16e3b9001ebdd",
         "sha256": "c22f6408a558c53e63fca09852072466cd7de83377fd6df79528676bd228b54f"
       }

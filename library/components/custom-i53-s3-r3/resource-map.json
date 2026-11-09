@@ -3,6 +3,28 @@
   "packageId": "custom-i53-s3-r3",
   "files": [
     {
+      "path": "drawings/67c1ec54ad42def2e4652fbe4d086ecc589d04a91f1ab3a01d1638430f484369.pdf",
+      "stored": "library/assets/sha256/67/67c1ec54ad42def2e4652fbe4d086ecc589d04a91f1ab3a01d1638430f484369.pdf",
+      "sha256": "67c1ec54ad42def2e4652fbe4d086ecc589d04a91f1ab3a01d1638430f484369",
+      "originalReferences": [
+        "drawings/i532v3-r3/I532V3_R3_五片螺丝拼板遮光外壳图册.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/67/67c1ec54ad42def2e4652fbe4d086ecc589d04a91f1ab3a01d1638430f484369.pdf"
+      ]
+    },
+    {
+      "path": "drawings/68f26417be2454e5654c35bf2b5e326b0cb4c95581bd3e339d813e78cba5667b.dxf",
+      "stored": "library/assets/sha256/68/68f26417be2454e5654c35bf2b5e326b0cb4c95581bd3e339d813e78cba5667b.dxf",
+      "sha256": "68f26417be2454e5654c35bf2b5e326b0cb4c95581bd3e339d813e78cba5667b",
+      "originalReferences": [
+        "drawings/laser-marking/i532v3-r3/I53-S3_R3_MARK.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/68/68f26417be2454e5654c35bf2b5e326b0cb4c95581bd3e339d813e78cba5667b.dxf"
+      ]
+    },
+    {
       "path": "cad/a902e578fc6c37252bb9abc0a81f1301e30bf10c75af5f84fa0afcb259f11c9e.step",
       "stored": "library/assets/sha256/a9/a902e578fc6c37252bb9abc0a81f1301e30bf10c75af5f84fa0afcb259f11c9e.step",
       "sha256": "a902e578fc6c37252bb9abc0a81f1301e30bf10c75af5f84fa0afcb259f11c9e",
@@ -11,6 +33,17 @@
       ],
       "sources": [
         "library/assets/sha256/a9/a902e578fc6c37252bb9abc0a81f1301e30bf10c75af5f84fa0afcb259f11c9e.step"
+      ]
+    },
+    {
+      "path": "drawings/aebd49e622f95d5a8d5bff66b5a125d3cfff5c3f4ed293213fd8835a419e44e6.pdf",
+      "stored": "library/assets/sha256/ae/aebd49e622f95d5a8d5bff66b5a125d3cfff5c3f4ed293213fd8835a419e44e6.pdf",
+      "sha256": "aebd49e622f95d5a8d5bff66b5a125d3cfff5c3f4ed293213fd8835a419e44e6",
+      "originalReferences": [
+        "drawings/laser-marking/i532v3-r3/I53-S3_R3_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/ae/aebd49e622f95d5a8d5bff66b5a125d3cfff5c3f4ed293213fd8835a419e44e6.pdf"
       ]
     }
   ],

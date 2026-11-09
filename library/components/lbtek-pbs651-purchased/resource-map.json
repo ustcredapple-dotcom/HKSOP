@@ -12,6 +12,17 @@
       "sources": [
         "library/assets/sha256/19/1976555bdc5a244808151c1a9d80da2494068f8ac43add605fb6a0ff3fbe7a87.step"
       ]
+    },
+    {
+      "path": "drawings/785849a1c10acf2ac907fdbde2e617a43384294de68e2ce2662ff9812cddffb7.pdf",
+      "stored": "library/assets/sha256/78/785849a1c10acf2ac907fdbde2e617a43384294de68e2ce2662ff9812cddffb7.pdf",
+      "sha256": "785849a1c10acf2ac907fdbde2e617a43384294de68e2ce2662ff9812cddffb7",
+      "originalReferences": [
+        "drawings/mt-cube-size-family-r2/PBS651-vendor.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/78/785849a1c10acf2ac907fdbde2e617a43384294de68e2ce2662ff9812cddffb7.pdf"
+      ]
     }
   ],
   "dependencies": []

@@ -12,6 +12,17 @@
       "sources": [
         "library/assets/sha256/0d/0d8fdf11b2b2113d097b215a31466af45a965b1487a31c90ab1cd3e0c2fc80a9.step"
       ]
+    },
+    {
+      "path": "drawings/9f4bc802c6a529f0a4ede90b4a4c271669aeae4ffa294787a44065dc793ec784.pdf",
+      "stored": "library/assets/sha256/9f/9f4bc802c6a529f0a4ede90b4a4c271669aeae4ffa294787a44065dc793ec784.pdf",
+      "sha256": "9f4bc802c6a529f0a4ede90b4a4c271669aeae4ffa294787a44065dc793ec784",
+      "originalReferences": [
+        "drawings/mt-cube-size-family-r2/MT-AM2-vendor.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/9f/9f4bc802c6a529f0a4ede90b4a4c271669aeae4ffa294787a44065dc793ec784.pdf"
+      ]
     }
   ],
   "dependencies": []

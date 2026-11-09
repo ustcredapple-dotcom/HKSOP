@@ -1,6 +1,6 @@
 {
   "format": "hksop-library-registry-v1",
-  "catalogVersion": "2026-11-09.hksop-github-local-1",
+  "catalogVersion": "2026-11-09.hksop-github-cad-2",
   "packages": [
     "library/components/custom-04/package.json",
     "library/components/custom-05/package.json",

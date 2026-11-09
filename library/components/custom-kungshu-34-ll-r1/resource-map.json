@@ -12,6 +12,39 @@
       "sources": [
         "library/assets/sha256/22/228a4deba2d6f2352d84ab8d972fdb48ee1a75795fe149a1c54917e3e9e81bde.step"
       ]
+    },
+    {
+      "path": "drawings/2ffccf948c76f373d357cc598ff84fa396969ea895e023b180318e481abbbda1.dxf",
+      "stored": "library/assets/sha256/2f/2ffccf948c76f373d357cc598ff84fa396969ea895e023b180318e481abbbda1.dxf",
+      "sha256": "2ffccf948c76f373d357cc598ff84fa396969ea895e023b180318e481abbbda1",
+      "originalReferences": [
+        "drawings/laser-marking/kungshu-compact-r2/34-LL_R2_激光打标.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/2f/2ffccf948c76f373d357cc598ff84fa396969ea895e023b180318e481abbbda1.dxf"
+      ]
+    },
+    {
+      "path": "drawings/415e181db96e5bee9b6dff21683d7d723b7b5953ed9f6ca6867ec06fedd5aeab.pdf",
+      "stored": "library/assets/sha256/41/415e181db96e5bee9b6dff21683d7d723b7b5953ed9f6ca6867ec06fedd5aeab.pdf",
+      "sha256": "415e181db96e5bee9b6dff21683d7d723b7b5953ed9f6ca6867ec06fedd5aeab",
+      "originalReferences": [
+        "drawings/laser-marking/kungshu-compact-r2/34-LL_R2_激光定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/41/415e181db96e5bee9b6dff21683d7d723b7b5953ed9f6ca6867ec06fedd5aeab.pdf"
+      ]
+    },
+    {
+      "path": "drawings/a83e58391d4c3429c768ce4556e027435fab0fa800e77cd66d8a8ff309c2c2f9.pdf",
+      "stored": "library/assets/sha256/a8/a83e58391d4c3429c768ce4556e027435fab0fa800e77cd66d8a8ff309c2c2f9.pdf",
+      "sha256": "a83e58391d4c3429c768ce4556e027435fab0fa800e77cd66d8a8ff309c2c2f9",
+      "originalReferences": [
+        "drawings/kungshu-compact-r2/34-LL_R2_加工图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/a8/a83e58391d4c3429c768ce4556e027435fab0fa800e77cd66d8a8ff309c2c2f9.pdf"
+      ]
     }
   ],
   "dependencies": []

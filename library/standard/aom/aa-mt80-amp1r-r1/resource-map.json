@@ -3,6 +3,28 @@
   "packageId": "aa-mt80-amp1r-r1",
   "files": [
     {
+      "path": "drawings/01ca8b06b9ef80c8585c62158f1bdfd226c2eeb199922dc40084399c6913c184.pdf",
+      "stored": "library/assets/sha256/01/01ca8b06b9ef80c8585c62158f1bdfd226c2eeb199922dc40084399c6913c184.pdf",
+      "sha256": "01ca8b06b9ef80c8585c62158f1bdfd226c2eeb199922dc40084399c6913c184",
+      "originalReferences": [
+        "drawings/standard-post-h12p5-b4-r2/assemblies/AA_AOM_R1_ASSEMBLY_INSTRUCTIONS_TN1_20261026_H12p5B4R2.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/01/01ca8b06b9ef80c8585c62158f1bdfd226c2eeb199922dc40084399c6913c184.pdf"
+      ]
+    },
+    {
+      "path": "drawings/0886e6d6bd6b16742bb51b7cda4653aa7ba2b7bfafb9d9dd8a071e2d17f5cfae.pdf",
+      "stored": "library/assets/sha256/08/0886e6d6bd6b16742bb51b7cda4653aa7ba2b7bfafb9d9dd8a071e2d17f5cfae.pdf",
+      "sha256": "0886e6d6bd6b16742bb51b7cda4653aa7ba2b7bfafb9d9dd8a071e2d17f5cfae",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/4/AA_AOM_R1_ASSEMBLY_INSTRUCTIONS_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/08/0886e6d6bd6b16742bb51b7cda4653aa7ba2b7bfafb9d9dd8a071e2d17f5cfae.pdf"
+      ]
+    },
+    {
       "path": "rendering/2460877bf17e4a90900e52309a06a60591e26cda2a06b0a41d994b462c9c8a96.svg",
       "stored": "library/assets/sha256/24/2460877bf17e4a90900e52309a06a60591e26cda2a06b0a41d994b462c9c8a96.svg",
       "sha256": "2460877bf17e4a90900e52309a06a60591e26cda2a06b0a41d994b462c9c8a96",

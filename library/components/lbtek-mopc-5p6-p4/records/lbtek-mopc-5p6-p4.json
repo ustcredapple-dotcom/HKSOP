@@ -6,7 +6,7 @@
   "unit": "包",
   "sourceUrl": "https://www.lbtek.com/product/118",
   "stepPath": "step/bd1-r2/MOPC-5.6_official.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/bd1-r2/MOPC-5.6_official.pdf",
   "sourceStepSha256": "d401f8ac61077aa93848f675f7dd57b82cac030f06a9fd99b980f6fccb1ef653",
   "sourceDrawingSha256": "95846c8940341769502baadd91bfe74e28a07c785b3b5e14a06af7852fcd8b4b",
   "status": "原厂参考；未实物验收",

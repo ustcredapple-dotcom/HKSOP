@@ -6,11 +6,11 @@
   "unit": "件",
   "stepPath": "step/pbs20-r1/P20-U-R1.step",
   "sourceStepSha256": "a242931405f48a18fed647957866576db20aee129cad4d64b73db3c534a3cc35",
-  "drawingPath": null,
+  "drawingPath": "drawings/pbs20-r1/PBS20_R1_加工审核与装配图.pdf",
   "sourceDrawingSha256": "cb27b4c5d6b3808d45e35a0b1261818d6ae0481f9cc0c2f163f9794efc6cd21b",
-  "dxfPath": null,
+  "dxfPath": "drawings/pbs20-r1/P20-U-R1_加工审核图.dxf",
   "sourceDxfSha256": "18ff8c0bf72dba46f2fc3348586bc7905b2b4000083bc5fa3309fd9063f7569b",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/pbs20-r1/PBS20_R1_加工审核与装配图.pdf",
   "sourceDxfPdfSha256": "cb27b4c5d6b3808d45e35a0b1261818d6ae0481f9cc0c2f163f9794efc6cd21b",
   "status": "工程审核版；未实物试装",
   "productionReady": false,
@@ -22,7 +22,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "仅激光标识，不铣刻",
-    "files": [],
-    "notes": " 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。"
+    "files": [
+      {
+        "face": "上板前侧Y=-16",
+        "text": "P20-U-R1",
+        "dxfPath": "drawings/pbs20-r1/P20-U-R1_激光轮廓_毫米.dxf",
+        "sha256": "7543b4c9e166242903fde4adf545344cd0ac2ba35a8bb869d4419ad9d38b968f",
+        "setupPdfPath": "drawings/pbs20-r1/PBS20_R1_加工审核与装配图.pdf",
+        "setupPdfSha256": "cb27b4c5d6b3808d45e35a0b1261818d6ae0481f9cc0c2f163f9794efc6cd21b"
+      }
+    ],
+    "notes": ""
   }
 }

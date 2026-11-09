@@ -19,14 +19,14 @@
     "currentRevision": "本任务获准R3结构修订",
     "role": "新增定制件；不归属复用商用品原设计"
   },
-  "drawingPath": null,
+  "drawingPath": "drawings/periscope-standard-r3/28-BY3_R3_加工工程图.pdf",
   "sourceDrawingSha256": "25d76e086d18ebfe16389a0c52f31a0fec19ab9498f7f15a381a79ce72e3a3a1",
   "drawingPages": [
     1,
     2,
     3
   ],
-  "dxfPath": null,
+  "dxfPath": "drawings/periscope-standard-r3/28-BY3_R3_加工工程图.dxf",
   "manufacturingEvidence": {
     "sourceStepSha256": "0d6c81510dcae922560d559e891954e4a1389af1c931380ea519b8f326104420",
     "drawingSha256": "25d76e086d18ebfe16389a0c52f31a0fec19ab9498f7f15a381a79ce72e3a3a1",
@@ -41,7 +41,7 @@
   "drawingSourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/13e796b6399c6c09085aa668/e/359faae7d9437a843c853e71",
   "drawingSourceUrlRole": "frozen imported machining PDF; local SHA-bound PDF remains manufacturing document",
   "sourcePartName": "308向Y短横板",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/periscope-standard-r3/28-BY3_R3_加工工程图_DXF.pdf",
   "dxfPdfSha256": "32f4ffb9235da3fee6c473b6a02dbc893f44ec4bc95c82dfdc6e5123aeeb1d24",
   "drawingAnnotationEvidence": {
     "/drawingPath": {
@@ -72,7 +72,24 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_+X",
+        "text": "28-BY3 R3",
+        "dxfPath": "drawings/laser-marking/custom-laser308-periscope-base28-yfoot-r3/编号面_+X.dxf",
+        "sha256": "72f8e1c90bca43b273817a2df5bc8afd87a31c6aba888d82bc8c52379f43a1b5",
+        "setupPdfPath": "drawings/laser-marking/custom-laser308-periscope-base28-yfoot-r3/编号面_+X_定位说明.pdf",
+        "setupPdfSha256": "5f6922873438052c3ac96fffc9ebb3e45007623f4f9f5abc0936446a0bd0a5d5"
+      },
+      {
+        "face": "试制与高度标识面_+X",
+        "text": "PROTO g58",
+        "dxfPath": "drawings/laser-marking/custom-laser308-periscope-base28-yfoot-r3/试制与高度标识面_+X.dxf",
+        "sha256": "f9a1607fbba7d0343f7cb8b58904e91af8ddf9f57c712c8a1b730ce1e09416fe",
+        "setupPdfPath": "drawings/laser-marking/custom-laser308-periscope-base28-yfoot-r3/试制与高度标识面_+X_定位说明.pdf",
+        "setupPdfSha256": "419d1f57a4545f30266ebdc5ed669794205ba272fc6c19faa1d51a56ff2c7be5"
+      }
+    ]
   }
 }

@@ -3,6 +3,17 @@
   "packageId": "custom-aom-heatspreader08-rf180-r1",
   "files": [
     {
+      "path": "drawings/2628e1cdae7aab399e731f8951d10f3f2490827bdfd768d7ada08548027cf249.dxf",
+      "stored": "library/assets/sha256/26/2628e1cdae7aab399e731f8951d10f3f2490827bdfd768d7ada08548027cf249.dxf",
+      "sha256": "2628e1cdae7aab399e731f8951d10f3f2490827bdfd768d7ada08548027cf249",
+      "originalReferences": [
+        "drawings/laser-marking/custom-aom-heatspreader08-rf180-r1/编号面_+Y.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/26/2628e1cdae7aab399e731f8951d10f3f2490827bdfd768d7ada08548027cf249.dxf"
+      ]
+    },
+    {
       "path": "cad/3b0bf1385ec892cdd253ab845670e3933a5088bb8e9a3495c1260aeee3220dcb.step",
       "stored": "library/assets/sha256/3b/3b0bf1385ec892cdd253ab845670e3933a5088bb8e9a3495c1260aeee3220dcb.step",
       "sha256": "3b0bf1385ec892cdd253ab845670e3933a5088bb8e9a3495c1260aeee3220dcb",
@@ -11,6 +22,50 @@
       ],
       "sources": [
         "library/assets/sha256/3b/3b0bf1385ec892cdd253ab845670e3933a5088bb8e9a3495c1260aeee3220dcb.step"
+      ]
+    },
+    {
+      "path": "drawings/95601ee4414575b31c929ca2dca78534628665dc6bcc1069b3f7f8619be534ca.pdf",
+      "stored": "library/assets/sha256/95/95601ee4414575b31c929ca2dca78534628665dc6bcc1069b3f7f8619be534ca.pdf",
+      "sha256": "95601ee4414575b31c929ca2dca78534628665dc6bcc1069b3f7f8619be534ca",
+      "originalReferences": [
+        "drawings/aom-rf180-metric/08-AOM-HR_R1_RF180_加工工程图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/95/95601ee4414575b31c929ca2dca78534628665dc6bcc1069b3f7f8619be534ca.pdf"
+      ]
+    },
+    {
+      "path": "drawings/d982f1916282b647fcb4f4d1f8751d7f2bc8e30be209f8d6662b5723c8d7d556.pdf",
+      "stored": "library/assets/sha256/d9/d982f1916282b647fcb4f4d1f8751d7f2bc8e30be209f8d6662b5723c8d7d556.pdf",
+      "sha256": "d982f1916282b647fcb4f4d1f8751d7f2bc8e30be209f8d6662b5723c8d7d556",
+      "originalReferences": [
+        "drawings/laser-marking/custom-aom-heatspreader08-rf180-r1/编号面_+Y_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/d9/d982f1916282b647fcb4f4d1f8751d7f2bc8e30be209f8d6662b5723c8d7d556.pdf"
+      ]
+    },
+    {
+      "path": "drawings/db06b7a957f2002cb989378852cf6c131fec4dcb8fe1611b3ee48326721460aa.pdf",
+      "stored": "library/assets/sha256/db/db06b7a957f2002cb989378852cf6c131fec4dcb8fe1611b3ee48326721460aa.pdf",
+      "sha256": "db06b7a957f2002cb989378852cf6c131fec4dcb8fe1611b3ee48326721460aa",
+      "originalReferences": [
+        "drawings/aom-rf180-metric/08-AOM-HR_R1_RF180_加工工程图_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/db/db06b7a957f2002cb989378852cf6c131fec4dcb8fe1611b3ee48326721460aa.pdf"
+      ]
+    },
+    {
+      "path": "drawings/e32edb496c28189a6c907b0aa6d8034d8aa5c6e76486827557cdf089db4be82e.dxf",
+      "stored": "library/assets/sha256/e3/e32edb496c28189a6c907b0aa6d8034d8aa5c6e76486827557cdf089db4be82e.dxf",
+      "sha256": "e32edb496c28189a6c907b0aa6d8034d8aa5c6e76486827557cdf089db4be82e",
+      "originalReferences": [
+        "drawings/aom-rf180-metric/08-AOM-HR_R1_RF180_加工工程图.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/e3/e32edb496c28189a6c907b0aa6d8034d8aa5c6e76486827557cdf089db4be82e.dxf"
       ]
     }
   ],

@@ -3,6 +3,17 @@
   "packageId": "custom-cm127-a1-r3",
   "files": [
     {
+      "path": "drawings/5e3c43b807b774d73a46a95634cf9d8206b2edb86ee2ae673531a9be6939cc56.pdf",
+      "stored": "library/assets/sha256/5e/5e3c43b807b774d73a46a95634cf9d8206b2edb86ee2ae673531a9be6939cc56.pdf",
+      "sha256": "5e3c43b807b774d73a46a95634cf9d8206b2edb86ee2ae673531a9be6939cc56",
+      "originalReferences": [
+        "drawings/thin-clamps-r3/CM127-AM2S5_R3_胶头机米加工与装配图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/5e/5e3c43b807b774d73a46a95634cf9d8206b2edb86ee2ae673531a9be6939cc56.pdf"
+      ]
+    },
+    {
       "path": "cad/6b54c003ad828edcb119fd24ed4201c0d98c98fc6cd8df68c6a79a8d6836e084.step",
       "stored": "library/assets/sha256/6b/6b54c003ad828edcb119fd24ed4201c0d98c98fc6cd8df68c6a79a8d6836e084.step",
       "sha256": "6b54c003ad828edcb119fd24ed4201c0d98c98fc6cd8df68c6a79a8d6836e084",
@@ -11,6 +22,28 @@
       ],
       "sources": [
         "library/assets/sha256/6b/6b54c003ad828edcb119fd24ed4201c0d98c98fc6cd8df68c6a79a8d6836e084.step"
+      ]
+    },
+    {
+      "path": "drawings/8bc94063edfaeb5072f3cb4f15cf0882968fbc7762f915d7246b862b09357652.pdf",
+      "stored": "library/assets/sha256/8b/8bc94063edfaeb5072f3cb4f15cf0882968fbc7762f915d7246b862b09357652.pdf",
+      "sha256": "8bc94063edfaeb5072f3cb4f15cf0882968fbc7762f915d7246b862b09357652",
+      "originalReferences": [
+        "drawings/laser-marking/custom-cm127-a1-r3/编号面_-Z_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/8b/8bc94063edfaeb5072f3cb4f15cf0882968fbc7762f915d7246b862b09357652.pdf"
+      ]
+    },
+    {
+      "path": "drawings/f873224980b1f63e01377aed410ce2f82318e7881695ab967208bf7fc27a5724.dxf",
+      "stored": "library/assets/sha256/f8/f873224980b1f63e01377aed410ce2f82318e7881695ab967208bf7fc27a5724.dxf",
+      "sha256": "f873224980b1f63e01377aed410ce2f82318e7881695ab967208bf7fc27a5724",
+      "originalReferences": [
+        "drawings/laser-marking/custom-cm127-a1-r3/编号面_-Z.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/f8/f873224980b1f63e01377aed410ce2f82318e7881695ab967208bf7fc27a5724.dxf"
       ]
     }
   ],

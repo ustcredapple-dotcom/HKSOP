@@ -3,6 +3,28 @@
   "packageId": "new-waveplate-single-adapter-1",
   "files": [
     {
+      "path": "drawings/367083cb6a225537c92270815680b26aef327262e06462a32e3ab8d8f34240f1.pdf",
+      "stored": "library/assets/sha256/36/367083cb6a225537c92270815680b26aef327262e06462a32e3ab8d8f34240f1.pdf",
+      "sha256": "367083cb6a225537c92270815680b26aef327262e06462a32e3ab8d8f34240f1",
+      "originalReferences": [
+        "drawings/laser-marking/new-waveplate-single-adapter-1/编号面_-Y_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/36/367083cb6a225537c92270815680b26aef327262e06462a32e3ab8d8f34240f1.pdf"
+      ]
+    },
+    {
+      "path": "drawings/71a0426a4de5ae7935916726cca2463b3f1557e78d9459e01bf2ba7bca806347.pdf",
+      "stored": "library/assets/sha256/71/71a0426a4de5ae7935916726cca2463b3f1557e78d9459e01bf2ba7bca806347.pdf",
+      "sha256": "71a0426a4de5ae7935916726cca2463b3f1557e78d9459e01bf2ba7bca806347",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/01-WP_M1_加工工程图_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/71/71a0426a4de5ae7935916726cca2463b3f1557e78d9459e01bf2ba7bca806347.pdf"
+      ]
+    },
+    {
       "path": "cad/8ac485d9fd76ad601f39063d9ea098acfc6eb574a47d14dab045b6c387179087.step",
       "stored": "library/assets/sha256/8a/8ac485d9fd76ad601f39063d9ea098acfc6eb574a47d14dab045b6c387179087.step",
       "sha256": "8ac485d9fd76ad601f39063d9ea098acfc6eb574a47d14dab045b6c387179087",
@@ -11,6 +33,39 @@
       ],
       "sources": [
         "library/assets/sha256/8a/8ac485d9fd76ad601f39063d9ea098acfc6eb574a47d14dab045b6c387179087.step"
+      ]
+    },
+    {
+      "path": "drawings/a1883af3ce975eef29a613dd549905385ca1ee18c08941a1983caa9e6a64d35e.dxf",
+      "stored": "library/assets/sha256/a1/a1883af3ce975eef29a613dd549905385ca1ee18c08941a1983caa9e6a64d35e.dxf",
+      "sha256": "a1883af3ce975eef29a613dd549905385ca1ee18c08941a1983caa9e6a64d35e",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/01-WP_M1_加工工程图.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/a1/a1883af3ce975eef29a613dd549905385ca1ee18c08941a1983caa9e6a64d35e.dxf"
+      ]
+    },
+    {
+      "path": "drawings/c6dc088b8188e0d3d8ebb468d1ae533c929519da8d211b7b2a6cade359dea5d9.pdf",
+      "stored": "library/assets/sha256/c6/c6dc088b8188e0d3d8ebb468d1ae533c929519da8d211b7b2a6cade359dea5d9.pdf",
+      "sha256": "c6dc088b8188e0d3d8ebb468d1ae533c929519da8d211b7b2a6cade359dea5d9",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/01-WP_M1_加工工程图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/c6/c6dc088b8188e0d3d8ebb468d1ae533c929519da8d211b7b2a6cade359dea5d9.pdf"
+      ]
+    },
+    {
+      "path": "drawings/d6b3528e8144ff2314dd24f24cb4e3a438aa89a3c77224ed909143691eb7b93b.dxf",
+      "stored": "library/assets/sha256/d6/d6b3528e8144ff2314dd24f24cb4e3a438aa89a3c77224ed909143691eb7b93b.dxf",
+      "sha256": "d6b3528e8144ff2314dd24f24cb4e3a438aa89a3c77224ed909143691eb7b93b",
+      "originalReferences": [
+        "drawings/laser-marking/new-waveplate-single-adapter-1/编号面_-Y.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/d6/d6b3528e8144ff2314dd24f24cb4e3a438aa89a3c77224ed909143691eb7b93b.dxf"
       ]
     }
   ],

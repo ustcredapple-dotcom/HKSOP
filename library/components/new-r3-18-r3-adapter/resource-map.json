@@ -3,6 +3,50 @@
   "packageId": "new-r3-18-r3-adapter",
   "files": [
     {
+      "path": "drawings/343a64fc2dfd964a624863ab29d3e50f3cc34cdea24e827de41b519b0fcd0640.pdf",
+      "stored": "library/assets/sha256/34/343a64fc2dfd964a624863ab29d3e50f3cc34cdea24e827de41b519b0fcd0640.pdf",
+      "sha256": "343a64fc2dfd964a624863ab29d3e50f3cc34cdea24e827de41b519b0fcd0640",
+      "originalReferences": [
+        "drawings/laser-marking/new-r3-18-r3-adapter/编号面_-Y_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/34/343a64fc2dfd964a624863ab29d3e50f3cc34cdea24e827de41b519b0fcd0640.pdf"
+      ]
+    },
+    {
+      "path": "drawings/36ea956f26124da97def65ebef4ff80f148282de9a42dd3f696606c1fd2d0db7.pdf",
+      "stored": "library/assets/sha256/36/36ea956f26124da97def65ebef4ff80f148282de9a42dd3f696606c1fd2d0db7.pdf",
+      "sha256": "36ea956f26124da97def65ebef4ff80f148282de9a42dd3f696606c1fd2d0db7",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/18-MIR-A_M1_加工工程图_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/36/36ea956f26124da97def65ebef4ff80f148282de9a42dd3f696606c1fd2d0db7.pdf"
+      ]
+    },
+    {
+      "path": "drawings/3d48fa1f8dd48dfd00d6aec39ba2ea0b89c1a661d457aba8b067ab5696159aec.pdf",
+      "stored": "library/assets/sha256/3d/3d48fa1f8dd48dfd00d6aec39ba2ea0b89c1a661d457aba8b067ab5696159aec.pdf",
+      "sha256": "3d48fa1f8dd48dfd00d6aec39ba2ea0b89c1a661d457aba8b067ab5696159aec",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/18-MIR-A_M1_加工工程图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/3d/3d48fa1f8dd48dfd00d6aec39ba2ea0b89c1a661d457aba8b067ab5696159aec.pdf"
+      ]
+    },
+    {
+      "path": "drawings/8db0b275686f06f5de0e00cf976bdf39ccf71360a42b272775ab33fdb318e413.dxf",
+      "stored": "library/assets/sha256/8d/8db0b275686f06f5de0e00cf976bdf39ccf71360a42b272775ab33fdb318e413.dxf",
+      "sha256": "8db0b275686f06f5de0e00cf976bdf39ccf71360a42b272775ab33fdb318e413",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/18-MIR-A_M1_加工工程图.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/8d/8db0b275686f06f5de0e00cf976bdf39ccf71360a42b272775ab33fdb318e413.dxf"
+      ]
+    },
+    {
       "path": "cad/a2068ee356bb1496c28eb70e9811c9fbd03383023e7e220f49d152f0448bfcfb.step",
       "stored": "library/assets/sha256/a2/a2068ee356bb1496c28eb70e9811c9fbd03383023e7e220f49d152f0448bfcfb.step",
       "sha256": "a2068ee356bb1496c28eb70e9811c9fbd03383023e7e220f49d152f0448bfcfb",
@@ -11,6 +55,17 @@
       ],
       "sources": [
         "library/assets/sha256/a2/a2068ee356bb1496c28eb70e9811c9fbd03383023e7e220f49d152f0448bfcfb.step"
+      ]
+    },
+    {
+      "path": "drawings/de79d4ebf85d74faf6dc18e8a2444a7e5d36026f04b6cb2b6917ea361d194077.dxf",
+      "stored": "library/assets/sha256/de/de79d4ebf85d74faf6dc18e8a2444a7e5d36026f04b6cb2b6917ea361d194077.dxf",
+      "sha256": "de79d4ebf85d74faf6dc18e8a2444a7e5d36026f04b6cb2b6917ea361d194077",
+      "originalReferences": [
+        "drawings/laser-marking/new-r3-18-r3-adapter/编号面_-Y.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/de/de79d4ebf85d74faf6dc18e8a2444a7e5d36026f04b6cb2b6917ea361d194077.dxf"
       ]
     }
   ],

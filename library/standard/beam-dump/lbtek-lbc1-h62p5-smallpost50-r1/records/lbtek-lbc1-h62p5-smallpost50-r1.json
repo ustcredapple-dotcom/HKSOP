@@ -210,14 +210,14 @@
     "sourceExact": true,
     "nominalFixedPositionAssembly": true,
     "includeInBundle": true,
-    "drawingPath": null,
+    "drawingPath": "drawings/lbtek-lbc1-r1/LBC1_R1_装配与基准说明.pdf",
     "sourceDrawingSha256": "a796fe38175965b6d2fd68a7fa525ce25caf13cdd4f09ae22cac9db490326ce1"
   },
   "installedHeadReference": {
     "stepPath": "step/lbtek-lbc1-r1/lbtek-lbc1-head-installed.step"
   },
   "assemblyGuide": {
-    "drawingPath": null
+    "drawingPath": "drawings/lbtek-lbc1-r1/LBC1_R1_装配与基准说明.pdf"
   },
   "fastUpload": {
     "requested": true,

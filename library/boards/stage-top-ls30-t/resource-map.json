@@ -3,6 +3,39 @@
   "packageId": "stage-top-ls30-t",
   "files": [
     {
+      "path": "drawings/4dbd62c5aa40514c8de0989a0a4f15a029c18872e2838f05a8aacdb884f82eff.pdf",
+      "stored": "library/assets/sha256/4d/4dbd62c5aa40514c8de0989a0a4f15a029c18872e2838f05a8aacdb884f82eff.pdf",
+      "sha256": "4dbd62c5aa40514c8de0989a0a4f15a029c18872e2838f05a8aacdb884f82eff",
+      "originalReferences": [
+        "drawings/laser-marking/LS30-T/编号面_-Y_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/4d/4dbd62c5aa40514c8de0989a0a4f15a029c18872e2838f05a8aacdb884f82eff.pdf"
+      ]
+    },
+    {
+      "path": "drawings/ae8c1251eae9352f4eccb0256cb871d1ed075900bd593f45ae28023b50ec2f72.dxf",
+      "stored": "library/assets/sha256/ae/ae8c1251eae9352f4eccb0256cb871d1ed075900bd593f45ae28023b50ec2f72.dxf",
+      "sha256": "ae8c1251eae9352f4eccb0256cb871d1ed075900bd593f45ae28023b50ec2f72",
+      "originalReferences": [
+        "drawings/laser-marking/LS30-T/编号面_-Y.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/ae/ae8c1251eae9352f4eccb0256cb871d1ed075900bd593f45ae28023b50ec2f72.dxf"
+      ]
+    },
+    {
+      "path": "drawings/c155e32a8fd5bf394a0fe0aa93955baa5a8f232cb6ee24dec76ed915fb86f54c.pdf",
+      "stored": "library/assets/sha256/c1/c155e32a8fd5bf394a0fe0aa93955baa5a8f232cb6ee24dec76ed915fb86f54c.pdf",
+      "sha256": "c155e32a8fd5bf394a0fe0aa93955baa5a8f232cb6ee24dec76ed915fb86f54c",
+      "originalReferences": [
+        "drawings/manual-stage-r2-a7075/LS30_R2-A7075_上下转接板工程图与安装说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/c1/c155e32a8fd5bf394a0fe0aa93955baa5a8f232cb6ee24dec76ed915fb86f54c.pdf"
+      ]
+    },
+    {
       "path": "cad/c2817caae94e20465a3d7a93fc8c5f3a738293abcd5689669a6f193bbc0e423a.step",
       "stored": "library/assets/sha256/c2/c2817caae94e20465a3d7a93fc8c5f3a738293abcd5689669a6f193bbc0e423a.step",
       "sha256": "c2817caae94e20465a3d7a93fc8c5f3a738293abcd5689669a6f193bbc0e423a",
@@ -11,6 +44,28 @@
       ],
       "sources": [
         "library/assets/sha256/c2/c2817caae94e20465a3d7a93fc8c5f3a738293abcd5689669a6f193bbc0e423a.step"
+      ]
+    },
+    {
+      "path": "drawings/d2530c76b6054bebd768bcf46d29731b2b284114e35d9c8208e673e034f61685.dxf",
+      "stored": "library/assets/sha256/d2/d2530c76b6054bebd768bcf46d29731b2b284114e35d9c8208e673e034f61685.dxf",
+      "sha256": "d2530c76b6054bebd768bcf46d29731b2b284114e35d9c8208e673e034f61685",
+      "originalReferences": [
+        "drawings/manual-stage-r2-a7075/LS30-T_TN1_20261026.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/d2/d2530c76b6054bebd768bcf46d29731b2b284114e35d9c8208e673e034f61685.dxf"
+      ]
+    },
+    {
+      "path": "drawings/e930821b932c8b7aeef853c991c54335f48baa6dc84b74aa70c1a459d9d29a6a.pdf",
+      "stored": "library/assets/sha256/e9/e930821b932c8b7aeef853c991c54335f48baa6dc84b74aa70c1a459d9d29a6a.pdf",
+      "sha256": "e930821b932c8b7aeef853c991c54335f48baa6dc84b74aa70c1a459d9d29a6a",
+      "originalReferences": [
+        "drawings/manual-stage-r2-a7075/LS30-T_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/e9/e930821b932c8b7aeef853c991c54335f48baa6dc84b74aa70c1a459d9d29a6a.pdf"
       ]
     },
     {

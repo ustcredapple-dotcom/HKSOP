@@ -3,6 +3,17 @@
   "packageId": "lbtek-pbs621-purchased",
   "files": [
     {
+      "path": "drawings/8a1420a4226771b3d190fa2e8115395483dba97c0944378f0ffa5e7669cfbb8f.pdf",
+      "stored": "library/assets/sha256/8a/8a1420a4226771b3d190fa2e8115395483dba97c0944378f0ffa5e7669cfbb8f.pdf",
+      "sha256": "8a1420a4226771b3d190fa2e8115395483dba97c0944378f0ffa5e7669cfbb8f",
+      "originalReferences": [
+        "drawings/mt-cube-size-family-r2/PBS621-vendor.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/8a/8a1420a4226771b3d190fa2e8115395483dba97c0944378f0ffa5e7669cfbb8f.pdf"
+      ]
+    },
+    {
       "path": "cad/8ea7acf535fad0334e6d673897d872ec0755f8133f23b3ffa756bcf048566c12.step",
       "stored": "library/assets/sha256/8e/8ea7acf535fad0334e6d673897d872ec0755f8133f23b3ffa756bcf048566c12.step",
       "sha256": "8ea7acf535fad0334e6d673897d872ec0755f8133f23b3ffa756bcf048566c12",

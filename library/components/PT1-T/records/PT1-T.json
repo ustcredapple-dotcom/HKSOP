@@ -16,13 +16,13 @@
   "notes": null,
   "stepPath": "step/manual-stage-r1-a7075/PT1-T.step",
   "sourceStepSha256": "4b434550cb5b75128e29accea0864d90f7e65ad9aa87017f9bbeaa6b2af6ad12",
-  "drawingPath": null,
+  "drawingPath": "drawings/pt1m-direct-mount-r2/PT1-T_R1-A7075_manufacturing.pdf",
   "sourceDrawingSha256": "bfc2cca4ead3c668df91d4175f5623cce7792e15b10df6926269d6a87786e7e0",
   "drawingPages": [
     1,
     2
   ],
-  "dxfPath": null,
+  "dxfPath": "drawings/manual-stage-r1-a7075/PT1-T.dxf",
   "sourceDxfSha256": "49ed5e5c920b5eb5b96e402e7341f566a7c54b458b8b29fa6fb81d849314cd97",
   "manufacturingEvidence": {
     "geometryRevision": "R1",
@@ -30,7 +30,7 @@
     "userOverride": "library/reviews/manual-moving-stage-r1-a7075-import-20261006/evidence/user-material-override-20261006.json",
     "geometryUnchanged": true
   },
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/manual-stage-r1-a7075/PT1-T_DXF.pdf",
   "dxfPdfSha256": "f1213d9dbfa0076c484d27be88dc6ae4dfb241ad9c2efefff0ab24404537c6e9",
   "documentRevision": "R2-DIRECT-MOUNT-DOC",
   "documentEvidence": {
@@ -41,7 +41,7 @@
     ],
     "extractedDrawingSha256": "1e90bcd20606bbf2c33245e15cbc900abb855de6fa74a98a8c3029fb880a7816",
     "geometryChanged": false,
-    "installationDrawingPath": null,
+    "installationDrawingPath": "drawings/pt1m-direct-mount-r2/PT1M_DIRECT_R2_installation.pdf",
     "installationNoteCorrected": true
   },
   "drawingAnnotationEvidence": {
@@ -73,7 +73,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "PT1-T",
+        "dxfPath": "drawings/laser-marking/PT1-T/编号面_-Y.dxf",
+        "sha256": "e37955d7c8c8f938afe3009ad851fd0fd8f0088c1b55a4e87e136960d7c3b413",
+        "setupPdfPath": "drawings/laser-marking/PT1-T/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "e35adae1a8c946792ddf3401e6e5d3e59ac5320d8e0e9f9c1a2355b5fb6f227c"
+      }
+    ]
   }
 }

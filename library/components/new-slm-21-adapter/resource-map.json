@@ -3,6 +3,61 @@
   "packageId": "new-slm-21-adapter",
   "files": [
     {
+      "path": "drawings/100001d095f09801d71aef68781f4796a94b4284323b69d195913cef84054738.pdf",
+      "stored": "library/assets/sha256/10/100001d095f09801d71aef68781f4796a94b4284323b69d195913cef84054738.pdf",
+      "sha256": "100001d095f09801d71aef68781f4796a94b4284323b69d195913cef84054738",
+      "originalReferences": [
+        "drawings/laser-marking/new-slm-21-adapter/编号面_-X_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/10/100001d095f09801d71aef68781f4796a94b4284323b69d195913cef84054738.pdf"
+      ]
+    },
+    {
+      "path": "drawings/3f252c0f1c1fd2ecc1bad3c8e28d1236ee89451f63c81e5fed24296e24734cc2.pdf",
+      "stored": "library/assets/sha256/3f/3f252c0f1c1fd2ecc1bad3c8e28d1236ee89451f63c81e5fed24296e24734cc2.pdf",
+      "sha256": "3f252c0f1c1fd2ecc1bad3c8e28d1236ee89451f63c81e5fed24296e24734cc2",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/21-SLM_M1_加工工程图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/3f/3f252c0f1c1fd2ecc1bad3c8e28d1236ee89451f63c81e5fed24296e24734cc2.pdf"
+      ]
+    },
+    {
+      "path": "drawings/50291b72733181f40b1c5d564a7e332b549e35711c33fc60ee7f367c64910e9a.dxf",
+      "stored": "library/assets/sha256/50/50291b72733181f40b1c5d564a7e332b549e35711c33fc60ee7f367c64910e9a.dxf",
+      "sha256": "50291b72733181f40b1c5d564a7e332b549e35711c33fc60ee7f367c64910e9a",
+      "originalReferences": [
+        "drawings/laser-marking/new-slm-21-adapter/编号面_-X.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/50/50291b72733181f40b1c5d564a7e332b549e35711c33fc60ee7f367c64910e9a.dxf"
+      ]
+    },
+    {
+      "path": "drawings/85e6914cd23e01c30704f138b1182cecde2788c23118bf56d8a66c244c86ce52.dxf",
+      "stored": "library/assets/sha256/85/85e6914cd23e01c30704f138b1182cecde2788c23118bf56d8a66c244c86ce52.dxf",
+      "sha256": "85e6914cd23e01c30704f138b1182cecde2788c23118bf56d8a66c244c86ce52",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/21-SLM_M1_加工工程图.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/85/85e6914cd23e01c30704f138b1182cecde2788c23118bf56d8a66c244c86ce52.dxf"
+      ]
+    },
+    {
+      "path": "drawings/d73b1707c4cd488d932372ab8c4952ff28255cc49833f8400de99d2d73372624.pdf",
+      "stored": "library/assets/sha256/d7/d73b1707c4cd488d932372ab8c4952ff28255cc49833f8400de99d2d73372624.pdf",
+      "sha256": "d73b1707c4cd488d932372ab8c4952ff28255cc49833f8400de99d2d73372624",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/21-SLM_M1_加工工程图_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/d7/d73b1707c4cd488d932372ab8c4952ff28255cc49833f8400de99d2d73372624.pdf"
+      ]
+    },
+    {
       "path": "cad/f663bd480a1fbe079d5b0087dbeba69e022b48bd70f828e7428ecc0fd169004b.step",
       "stored": "library/assets/sha256/f6/f663bd480a1fbe079d5b0087dbeba69e022b48bd70f828e7428ecc0fd169004b.step",
       "sha256": "f663bd480a1fbe079d5b0087dbeba69e022b48bd70f828e7428ecc0fd169004b",

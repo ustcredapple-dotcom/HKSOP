@@ -3,6 +3,28 @@
   "packageId": "custom-mt-am1t-dual-m4-c4",
   "files": [
     {
+      "path": "drawings/260b1ce39246022ef881ccbe30c5b0bbada387f48b2353189ec3085321be421e.dxf",
+      "stored": "library/assets/sha256/26/260b1ce39246022ef881ccbe30c5b0bbada387f48b2353189ec3085321be421e.dxf",
+      "sha256": "260b1ce39246022ef881ccbe30c5b0bbada387f48b2353189ec3085321be421e",
+      "originalReferences": [
+        "drawings/mt-dual-m4-compact-r4/32-T1-C4_marking.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/26/260b1ce39246022ef881ccbe30c5b0bbada387f48b2353189ec3085321be421e.dxf"
+      ]
+    },
+    {
+      "path": "drawings/c22e4998b62c27697c610ac49833eafa87d877742f64e1a31f1dbee699d7c887.pdf",
+      "stored": "library/assets/sha256/c2/c22e4998b62c27697c610ac49833eafa87d877742f64e1a31f1dbee699d7c887.pdf",
+      "sha256": "c22e4998b62c27697c610ac49833eafa87d877742f64e1a31f1dbee699d7c887",
+      "originalReferences": [
+        "drawings/mt-dual-m4-compact-r4/32-T1-C4_marking.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/c2/c22e4998b62c27697c610ac49833eafa87d877742f64e1a31f1dbee699d7c887.pdf"
+      ]
+    },
+    {
       "path": "cad/cb6fc6a294ba64216e1f5e143a7e67425bd02da1ef970d1077c61c4b6536a4c4.step",
       "stored": "library/assets/sha256/cb/cb6fc6a294ba64216e1f5e143a7e67425bd02da1ef970d1077c61c4b6536a4c4.step",
       "sha256": "cb6fc6a294ba64216e1f5e143a7e67425bd02da1ef970d1077c61c4b6536a4c4",
@@ -11,6 +33,17 @@
       ],
       "sources": [
         "library/assets/sha256/cb/cb6fc6a294ba64216e1f5e143a7e67425bd02da1ef970d1077c61c4b6536a4c4.step"
+      ]
+    },
+    {
+      "path": "drawings/eb49174f90a85d43aeb572bd8997b940736e27b300bfc09d3b741941639b19a5.pdf",
+      "stored": "library/assets/sha256/eb/eb49174f90a85d43aeb572bd8997b940736e27b300bfc09d3b741941639b19a5.pdf",
+      "sha256": "eb49174f90a85d43aeb572bd8997b940736e27b300bfc09d3b741941639b19a5",
+      "originalReferences": [
+        "drawings/mt-dual-m4-compact-r4/32-T1-C4_machining.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/eb/eb49174f90a85d43aeb572bd8997b940736e27b300bfc09d3b741941639b19a5.pdf"
       ]
     }
   ],

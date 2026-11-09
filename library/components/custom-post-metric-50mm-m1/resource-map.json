@@ -3,6 +3,39 @@
   "packageId": "custom-post-metric-50mm-m1",
   "files": [
     {
+      "path": "drawings/4921107f5b1bb22e76f5e84fe74a7d7d369dd0cb149db34ac6b5df6e8c837fc1.dxf",
+      "stored": "library/assets/sha256/49/4921107f5b1bb22e76f5e84fe74a7d7d369dd0cb149db34ac6b5df6e8c837fc1.dxf",
+      "sha256": "4921107f5b1bb22e76f5e84fe74a7d7d369dd0cb149db34ac6b5df6e8c837fc1",
+      "originalReferences": [
+        "drawings/laser-marking/post-b6-r1/custom-post-metric-50mm-m1/custom-post-metric-50mm-m1_B6R1_side_laser.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/49/4921107f5b1bb22e76f5e84fe74a7d7d369dd0cb149db34ac6b5df6e8c837fc1.dxf"
+      ]
+    },
+    {
+      "path": "drawings/6f8b602f396d60af8db5e325933001bac7aaf3129748e8e3778106fcdc391e14.pdf",
+      "stored": "library/assets/sha256/6f/6f8b602f396d60af8db5e325933001bac7aaf3129748e8e3778106fcdc391e14.pdf",
+      "sha256": "6f8b602f396d60af8db5e325933001bac7aaf3129748e8e3778106fcdc391e14",
+      "originalReferences": [
+        "drawings/universal-post-b6-r1/万能柱_H50mm_B6_R1_加工审核图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/6f/6f8b602f396d60af8db5e325933001bac7aaf3129748e8e3778106fcdc391e14.pdf"
+      ]
+    },
+    {
+      "path": "drawings/bb32a061e31f81f014f751fa285e31f5ea48b3750151abd463b647aec498af18.pdf",
+      "stored": "library/assets/sha256/bb/bb32a061e31f81f014f751fa285e31f5ea48b3750151abd463b647aec498af18.pdf",
+      "sha256": "bb32a061e31f81f014f751fa285e31f5ea48b3750151abd463b647aec498af18",
+      "originalReferences": [
+        "drawings/laser-marking/post-b6-r1/custom-post-metric-50mm-m1/custom-post-metric-50mm-m1_B6R1_side_laser_setup.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/bb/bb32a061e31f81f014f751fa285e31f5ea48b3750151abd463b647aec498af18.pdf"
+      ]
+    },
+    {
       "path": "cad/fe0405c387a46d642f6ea240c55e400c634f990179850441adf7f7517729fc6d.step",
       "stored": "library/assets/sha256/fe/fe0405c387a46d642f6ea240c55e400c634f990179850441adf7f7517729fc6d.step",
       "sha256": "fe0405c387a46d642f6ea240c55e400c634f990179850441adf7f7517729fc6d",

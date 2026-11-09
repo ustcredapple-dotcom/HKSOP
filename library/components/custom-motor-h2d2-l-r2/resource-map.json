@@ -12,6 +12,39 @@
       "sources": [
         "library/assets/sha256/1b/1b6c45eade5707698ce0ee76ec550abc8d10634f599193d3c76d16beffe7b09e.step"
       ]
+    },
+    {
+      "path": "drawings/294dbe04f573c9c40b760be43293f10e38700d0c44254c7f8c10ee3ed5242a84.dxf",
+      "stored": "library/assets/sha256/29/294dbe04f573c9c40b760be43293f10e38700d0c44254c7f8c10ee3ed5242a84.dxf",
+      "sha256": "294dbe04f573c9c40b760be43293f10e38700d0c44254c7f8c10ee3ed5242a84",
+      "originalReferences": [
+        "drawings/laser-marking/custom-motor-h2d2-l-r2/编号面_oblique face.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/29/294dbe04f573c9c40b760be43293f10e38700d0c44254c7f8c10ee3ed5242a84.dxf"
+      ]
+    },
+    {
+      "path": "drawings/5e8053578aa07f96a27518321b9474d98acca8b7d5dd338a4b175e198dcab5d3.pdf",
+      "stored": "library/assets/sha256/5e/5e8053578aa07f96a27518321b9474d98acca8b7d5dd338a4b175e198dcab5d3.pdf",
+      "sha256": "5e8053578aa07f96a27518321b9474d98acca8b7d5dd338a4b175e198dcab5d3",
+      "originalReferences": [
+        "drawings/laser-marking/custom-motor-h2d2-l-r2/编号面_oblique face_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/5e/5e8053578aa07f96a27518321b9474d98acca8b7d5dd338a4b175e198dcab5d3.pdf"
+      ]
+    },
+    {
+      "path": "drawings/824470030dbf0175dd3415f94a2b511014788f5c2ed958d771fdc539a809a6a5.pdf",
+      "stored": "library/assets/sha256/82/824470030dbf0175dd3415f94a2b511014788f5c2ed958d771fdc539a809a6a5.pdf",
+      "sha256": "824470030dbf0175dd3415f94a2b511014788f5c2ed958d771fdc539a809a6a5",
+      "originalReferences": [
+        "drawings/motor-h2-direct-hex-r2/motor-2-90-h2-direct-hex-r2-manufacturing-review.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/82/824470030dbf0175dd3415f94a2b511014788f5c2ed958d771fdc539a809a6a5.pdf"
+      ]
     }
   ],
   "dependencies": []

@@ -751,7 +751,7 @@
     "nominalFixedPositionAssembly": true,
     "containsSimplifiedManufacturerReference": true,
     "note": "完整设计参考总装；外加标准五金按BOM，未把检验包络虚报为精细螺钉实体。",
-    "drawingPath": null,
+    "drawingPath": "drawings/standard-post-h12p5-b4-r2/assemblies/AA_AOM_R1_ASSEMBLY_INSTRUCTIONS_TN1_20261026_H12p5B4R2.pdf",
     "sourceDrawingSha256": "01ca8b06b9ef80c8585c62158f1bdfd226c2eeb199922dc40084399c6913c184",
     "revision": "R1-H12p5B4R2",
     "cloudUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/da6ef8a66f6c41c7321c7694",
@@ -807,7 +807,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/combined-r1-20261015/4/AA_AOM_R1_ASSEMBLY_INSTRUCTIONS_TN1_20261026.pdf",
         "previousSha256": "24ca9f64a0d0c4eb9131eda64d37581672d59cc3222bfd100f91cb50a5815207",
         "sha256": "01ca8b06b9ef80c8585c62158f1bdfd226c2eeb199922dc40084399c6913c184"
       }

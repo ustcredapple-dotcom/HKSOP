@@ -3,6 +3,28 @@
   "packageId": "custom-15",
   "files": [
     {
+      "path": "drawings/0dacb509c1e6289482864c068145132a8127abfd29288a5d3a4027d11dca470c.pdf",
+      "stored": "library/assets/sha256/0d/0dacb509c1e6289482864c068145132a8127abfd29288a5d3a4027d11dca470c.pdf",
+      "sha256": "0dacb509c1e6289482864c068145132a8127abfd29288a5d3a4027d11dca470c",
+      "originalReferences": [
+        "drawings/original-metric-m1-20261006/custom-15_M1_公制加工审核图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/0d/0dacb509c1e6289482864c068145132a8127abfd29288a5d3a4027d11dca470c.pdf"
+      ]
+    },
+    {
+      "path": "drawings/49b1284962e7aa1120dcbc7df5ae16bbcfff2eaba1fafb3f617d1cfd61b7e584.dxf",
+      "stored": "library/assets/sha256/49/49b1284962e7aa1120dcbc7df5ae16bbcfff2eaba1fafb3f617d1cfd61b7e584.dxf",
+      "sha256": "49b1284962e7aa1120dcbc7df5ae16bbcfff2eaba1fafb3f617d1cfd61b7e584",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-15/编号面.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/49/49b1284962e7aa1120dcbc7df5ae16bbcfff2eaba1fafb3f617d1cfd61b7e584.dxf"
+      ]
+    },
+    {
       "path": "cad/8c59063aa3c182887709ac412ce2ab68efea39a31cfb90cb91525ab315e99107.step",
       "stored": "library/assets/sha256/8c/8c59063aa3c182887709ac412ce2ab68efea39a31cfb90cb91525ab315e99107.step",
       "sha256": "8c59063aa3c182887709ac412ce2ab68efea39a31cfb90cb91525ab315e99107",
@@ -11,6 +33,17 @@
       ],
       "sources": [
         "library/assets/sha256/8c/8c59063aa3c182887709ac412ce2ab68efea39a31cfb90cb91525ab315e99107.step"
+      ]
+    },
+    {
+      "path": "drawings/fdaf5f718a31067b681ee8b03855d59ccf888051a5f20d919a21fd295a9c87dc.pdf",
+      "stored": "library/assets/sha256/fd/fdaf5f718a31067b681ee8b03855d59ccf888051a5f20d919a21fd295a9c87dc.pdf",
+      "sha256": "fdaf5f718a31067b681ee8b03855d59ccf888051a5f20d919a21fd295a9c87dc",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-15/编号面_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/fd/fdaf5f718a31067b681ee8b03855d59ccf888051a5f20d919a21fd295a9c87dc.pdf"
       ]
     }
   ],

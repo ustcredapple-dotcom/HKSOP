@@ -6,7 +6,7 @@
   "unit": "件",
   "stepPath": "step/iontrap-it399-r6-motor2/IT75-M2-P_R1.step",
   "sourceStepSha256": "2796648dd52954600a0a36d1d01333e968f3a2f614200bc1350295f9e385ad9d",
-  "drawingPath": null,
+  "drawingPath": "drawings/iontrap-it399-r6-motor2/IT75_MOTOR2_R1_加工与安装图_TN1_20261026.pdf",
   "sourceDrawingSha256": "93e223aca87cdf6b843548ab3d7cb081a442567ca7383e4dbd507ab01fa63cc2",
   "drawingRevision": "IT75-M2-P_R1",
   "drawingStatus": "engineering-review",
@@ -20,30 +20,39 @@
   "referenceFiles": [
     {
       "label": "源加工视图",
-      "dxfPath": null,
+      "dxfPath": "drawings/iontrap-it399-r6-motor2/IT75-M2-P_R1_bottom_projection.dxf",
       "sha256": "d636c6997cfc29054e1835835d70178061cf97f72a9950bc1f0d3b1e239db915"
     },
     {
       "label": "源加工视图",
-      "dxfPath": null,
+      "dxfPath": "drawings/iontrap-it399-r6-motor2/IT75-M2-P_R1_front_projection.dxf",
       "sha256": "b93212f711b837b5ac004c32196b11173419cc5f7f5e72d19f921c5d15f4c153"
     },
     {
       "label": "源加工视图",
-      "dxfPath": null,
+      "dxfPath": "drawings/iontrap-it399-r6-motor2/IT75-M2-P_R1_right_projection.dxf",
       "sha256": "7ee6086f8ad7c7140ddc4dda728d4782685fa264afaa5cdedfa1372213bcb549"
     },
     {
       "label": "源加工视图",
-      "dxfPath": null,
+      "dxfPath": "drawings/iontrap-it399-r6-motor2/IT75-M2-P_R1_top_projection.dxf",
       "sha256": "0029beb514c11bc7d29a57dc477704bdee9e8c5d1531a07bc798b54d0de267c6"
     }
   ],
   "laserMarking": {
     "status": "required",
     "reason": "新加工件编号与方向标识",
-    "notes": "源1:1激光文件；不铣刻。按源定位图装夹。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "源1:1激光文件；不铣刻。按源定位图装夹。",
+    "files": [
+      {
+        "face": "A面",
+        "text": "IT75-M2-P R1 / A",
+        "dxfPath": "drawings/iontrap-it399-r6-motor2/laser/IT75-M2-P_R1_FACE_A_laser.dxf",
+        "sha256": "7b66da5f8c18d3edafd96cf0b3e3b8dd9ee2dd1b52d7f9063335d0e0d00e5fc7",
+        "setupPdfPath": "drawings/iontrap-it399-r6-motor2/IT75-M2-P_R1_FACE_A_打标定位.pdf",
+        "setupPdfSha256": "3b1d1efcfc07dbe8ba33e8e00921ff1dcb3c4f621a4f8eb84fbb34890ed5e55e"
+      }
+    ]
   },
   "sourceReport": {
     "kind": "user-cad-package",
@@ -72,7 +81,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/iontrap-it399-r6-motor2/IT75_MOTOR2_R1_加工与安装图_TN1_20261026.pdf",
         "previousSha256": "5764a5f06318fe580c90fb8ae5bd3e2b2fee62a1ea394e0b58102c690417abda",
         "sha256": "93e223aca87cdf6b843548ab3d7cb081a442567ca7383e4dbd507ab01fa63cc2"
       }

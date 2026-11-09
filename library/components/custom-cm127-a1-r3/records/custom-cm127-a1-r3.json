@@ -10,7 +10,7 @@
   "status": "加工审核版；保持力和光学应力待试装",
   "sourceUrl": "https://cad.onshape.com/documents/10c8e5c8e9710143cb15d1ab/v/6e2be70a92a934705469593a/e/a95faa0ccb804002bb3fb36f",
   "stepPath": "step/thin-clamps-r3/CM127-A1_R3.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/thin-clamps-r3/CM127-AM2S5_R3_胶头机米加工与装配图_TN1_20261026.pdf",
   "manufacturingSpec": {
     "material": "6061-T6 铝合金",
     "surfaceTreatment": "黑色阳极氧化",
@@ -47,8 +47,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Z",
+        "text": "CM127-A1 R3",
+        "dxfPath": "drawings/laser-marking/custom-cm127-a1-r3/编号面_-Z.dxf",
+        "sha256": "f873224980b1f63e01377aed410ce2f82318e7881695ab967208bf7fc27a5724",
+        "setupPdfPath": "drawings/laser-marking/custom-cm127-a1-r3/编号面_-Z_定位说明.pdf",
+        "setupPdfSha256": "8bc94063edfaeb5072f3cb4f15cf0882968fbc7762f915d7246b862b09357652"
+      }
+    ]
   },
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -56,7 +65,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/thin-clamps-r3/CM127-AM2S5_R3_胶头机米加工与装配图_TN1_20261026.pdf",
         "previousSha256": "12ac431416bbccdb2c0d538e234bc029f4f56e7ff33a3a0e4010e540fa3385fe",
         "sha256": "5e3c43b807b774d73a46a95634cf9d8206b2edb86ee2ae673531a9be6939cc56"
       }

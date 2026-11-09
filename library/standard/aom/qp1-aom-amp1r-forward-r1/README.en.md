@@ -1,0 +1,19 @@
+# qp1-aom-amp1r-forward-r1
+
+[中文](README.md)
+
+Display name: **QP1 AOM · AMP-1R 前伸薄板 R1**. The [package manifest](package.json) registers this package's current records and assets.
+
+## Records
+
+- [QP1 AOM · AMP-1R 前伸薄板 R1](records/qp1-aom-amp1r-forward-r1.json) — `kits` / `qp1-aom-amp1r-forward-r1`
+
+## Models, views, and drawings
+
+- [QP1_AMP1R_装配说明_H12p5B4R2.pdf](../../../assets/sha256/05/05a89db7f2babf115eeae53f54e5c3bfdfecc3817e51c0f13083159b068ce63a.pdf) · `PDF`
+- [qp1-aom-amp1r-forward-r1__H12p5_B4_R2.step](../../../assets/sha256/af/af729fcede7fb343424b9e77706bbf20d44585e0050836c03b8f91a890a91149.step) · `STEP`
+- [qp1-aom-amp1r-forward-r1__H12p5_B4_R2.svg](../../../assets/sha256/c2/c201287d10116e7f09e63f17b9b54f315e516e7bb861c4131b653a2d7ef4b9ae.svg) · `SVG`
+
+See [resource-map.json](resource-map.json) for asset mappings and content hashes. Readiness and evidence are recorded in the manifest and records.
+
+Return to the [library guide](../../../README.en.md).

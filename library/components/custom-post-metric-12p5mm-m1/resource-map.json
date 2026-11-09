@@ -3,6 +3,28 @@
   "packageId": "custom-post-metric-12p5mm-m1",
   "files": [
     {
+      "path": "drawings/4025809a7bb2419eb66921f983159378f89f0521d064a5e081faf10b44b822da.dxf",
+      "stored": "library/assets/sha256/40/4025809a7bb2419eb66921f983159378f89f0521d064a5e081faf10b44b822da.dxf",
+      "sha256": "4025809a7bb2419eb66921f983159378f89f0521d064a5e081faf10b44b822da",
+      "originalReferences": [
+        "drawings/laser-marking/standard-post-h12p5-b4-r2/custom-post-metric-12p5mm-m1_B4R2_side_laser.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/40/4025809a7bb2419eb66921f983159378f89f0521d064a5e081faf10b44b822da.dxf"
+      ]
+    },
+    {
+      "path": "drawings/79d2373f5667daf643de82ea4f747a00eb8f6f9f065a9821508b6e96aecfaf3c.pdf",
+      "stored": "library/assets/sha256/79/79d2373f5667daf643de82ea4f747a00eb8f6f9f065a9821508b6e96aecfaf3c.pdf",
+      "sha256": "79d2373f5667daf643de82ea4f747a00eb8f6f9f065a9821508b6e96aecfaf3c",
+      "originalReferences": [
+        "drawings/standard-post-h12p5-b4-r2/万能柱_H12.5mm_B4_R2_加工审核图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/79/79d2373f5667daf643de82ea4f747a00eb8f6f9f065a9821508b6e96aecfaf3c.pdf"
+      ]
+    },
+    {
       "path": "cad/f8cc6a4451f8fa882365df56e03011e65c3cfc5c17658500756fed69cea412dd.step",
       "stored": "library/assets/sha256/f8/f8cc6a4451f8fa882365df56e03011e65c3cfc5c17658500756fed69cea412dd.step",
       "sha256": "f8cc6a4451f8fa882365df56e03011e65c3cfc5c17658500756fed69cea412dd",
@@ -11,6 +33,17 @@
       ],
       "sources": [
         "library/assets/sha256/f8/f8cc6a4451f8fa882365df56e03011e65c3cfc5c17658500756fed69cea412dd.step"
+      ]
+    },
+    {
+      "path": "drawings/fdf121cde21b6dd2f86bbec03b1ce130e233ea70c43fae7073223b71d758999b.pdf",
+      "stored": "library/assets/sha256/fd/fdf121cde21b6dd2f86bbec03b1ce130e233ea70c43fae7073223b71d758999b.pdf",
+      "sha256": "fdf121cde21b6dd2f86bbec03b1ce130e233ea70c43fae7073223b71d758999b",
+      "originalReferences": [
+        "drawings/laser-marking/standard-post-h12p5-b4-r2/custom-post-metric-12p5mm-m1_B4R2_side_laser_setup.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/fd/fdf121cde21b6dd2f86bbec03b1ce130e233ea70c43fae7073223b71d758999b.pdf"
       ]
     }
   ],

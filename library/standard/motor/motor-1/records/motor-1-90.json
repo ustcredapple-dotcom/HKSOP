@@ -520,7 +520,7 @@
     "sourceExact": false,
     "sourceDerivedByVerifiedSinglePartReplacement": true,
     "nominalFixedPositionAssembly": true,
-    "drawingPath": null,
+    "drawingPath": "drawings/ms2-r3-thru-20261020/motor-1-90_装配变更说明_TN1_20261026.pdf",
     "sourceDrawingSha256": "8297d4bcdc80c787f684227f185af20326727a973cd74a2c1d287ddac07cecbb",
     "includeInBundle": true,
     "cloudStatus": "static-reference-reviewed-with-findings",
@@ -551,7 +551,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/ms2-r3-thru-20261020/motor-1-90_装配变更说明_TN1_20261026.pdf",
         "previousSha256": "d1f1322369a2867e7c802246d51c4f5344f628ba8229cd8fb01d6a25d6fd04b1",
         "sha256": "8297d4bcdc80c787f684227f185af20326727a973cd74a2c1d287ddac07cecbb"
       }

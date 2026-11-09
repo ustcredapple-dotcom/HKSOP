@@ -19,14 +19,14 @@
     "currentRevision": "本任务获准R3结构修订",
     "role": "新增定制件；不归属复用商用品原设计"
   },
-  "drawingPath": null,
+  "drawingPath": "drawings/periscope-standard-r3/28-V3_R3_加工工程图_TN1_20261026.pdf",
   "sourceDrawingSha256": "ed91237865a76dfa99d03901fc0817a7c04e00d196ec8e9aed45259eee60f0f3",
   "drawingPages": [
     1,
     2,
     3
   ],
-  "dxfPath": null,
+  "dxfPath": "drawings/periscope-standard-r3/28-V3_R3_加工工程图_TN1_20261026.dxf",
   "manufacturingEvidence": {
     "sourceStepSha256": "e1451b9ad6ac5b9f7deed4f846b7bd093963edc4158ae9d363302f064a68579f",
     "drawingSha256": "ed91237865a76dfa99d03901fc0817a7c04e00d196ec8e9aed45259eee60f0f3",
@@ -41,7 +41,7 @@
   "drawingSourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/13e796b6399c6c09085aa668/e/cddcbe73c3f1fecba836ff14",
   "drawingSourceUrlRole": "frozen imported machining PDF; local SHA-bound PDF remains manufacturing document",
   "sourcePartName": "308四输出竖板",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/periscope-standard-r3/28-V3_R3_加工工程图_DXF.pdf",
   "dxfPdfSha256": "ff93b1a1da4352776ac1080cfeef925b3f2b9d12a53281587b089cb7ba1b1b14",
   "drawingAnnotationEvidence": {
     "/drawingPath": {
@@ -72,8 +72,25 @@
   "laserMarking": {
     "status": "required",
     "reason": "编号面保持；高度/试制文字按精确原字形补齐，OUT仅横移3mm避孔，高度坐标不变。",
-    "notes": "激光打标，不铣刻。主体STEP及孔位保持；原凹深仅显示。实物已有相同标识不重复；参数须首件试样确认。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻。主体STEP及孔位保持；原凹深仅显示。实物已有相同标识不重复；参数须首件试样确认。",
+    "files": [
+      {
+        "face": "编号面_-X",
+        "text": "28-V3 R3",
+        "dxfPath": "drawings/laser-marking/custom-laser308-periscope-vertical28-g58-r3/编号面_-X.dxf",
+        "sha256": "4a04368d91338befad2f297a07918d58083bfd8754b9b13c42b65c85b6cd16c6",
+        "setupPdfPath": "drawings/laser-marking/custom-laser308-periscope-vertical28-g58-r3/编号面_-X_定位说明.pdf",
+        "setupPdfSha256": "d8dd41d2c6f94c90469057bef5feafb1dd002caff22debaf980d3900ecc7c63d"
+      },
+      {
+        "face": "高度与试制标识面_LM1",
+        "text": "PROTO g58；IN 135；OUT 50；OUT 62.5；OUT 75；OUT 87.5",
+        "dxfPath": "drawings/laser-marking/custom-laser308-periscope-vertical28-g58-r3/LM1_补齐.dxf",
+        "sha256": "3cd7a144e442d2337899ecef3cb9b1ac21ee1409a77c0a08bafba090a027ced7",
+        "setupPdfPath": "drawings/laser-marking/custom-laser308-periscope-vertical28-g58-r3/LM1_补齐_定位.pdf",
+        "setupPdfSha256": "288eb1bcd78bd44f1c56e4f494b4786a1d6c4f134fd4a85ca696b7f38ee7649c"
+      }
+    ]
   },
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -81,12 +98,12 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/periscope-standard-r3/28-V3_R3_加工工程图_TN1_20261026.pdf",
         "previousSha256": "199ed389e9fb8497b4593cb430faeb7103fb889d6d16076df9278cbf44e6f740",
         "sha256": "ed91237865a76dfa99d03901fc0817a7c04e00d196ec8e9aed45259eee60f0f3"
       },
       {
-        "path": null,
+        "path": "assets/drawings/periscope-standard-r3/28-V3_R3_加工工程图_TN1_20261026.dxf",
         "previousSha256": "b9583d9463be61d41974b1bca4a6c7bf8c627573a07d716458e43055200865c3",
         "sha256": "dd97feacbf4079abe9a5921629ad68ac644720455eac251408aa39333cd0db02"
       }

@@ -259,8 +259,8 @@
   "minimumAlignedMountingHoles": 4,
   "topViewPath": "topviews/kit_ls35x-lab-e-r1-moving.svg",
   "stepPath": "step/ls35x-lab-e-r1/31-LS35-T_R1.step",
-  "drawingPath": null,
-  "dxfPath": null,
+  "drawingPath": "drawings/ls35x-lab-e-r1/31-LS35-T_R1_加工工程图_TN1_20261026.pdf",
+  "dxfPath": "drawings/ls35x-lab-e-r1/31-LS35-T_R1_加工工程图_TN1_20261026.dxf",
   "sourceMaterial": "6061 铝合金",
   "sourceSurfaceTreatment": "黑色阳极氧化",
   "manufacturingStatus": "review-required",
@@ -279,7 +279,7 @@
     "physicalAcceptance": "not-performed"
   },
   "notes": "仅随完整位移模块使用。M2固定孔和删去四网格点不作为附件螺孔。M6附件旋入≤6 mm。官方当前 LS35x.Lab 共享 STEP 为 22 实体参考源，产品选型含 .Lab.E；E 实物型号/编码器零点/中位孔网未验。底部四安装孔中 native(15,-10) 对应原厂实体22未提供完整 Ø4 入口，标准 M2 头和工具路径在共享源中受阻；不得据本候选宣称四孔装配通过。",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/ls35x-lab-e-r1/31-LS35-T_R1_加工工程图_DXF_TN1_20261026.pdf",
   "dxfPdfSha256": "22c38acf31a3fc2816e0024ca11dc9c3f23f4d2dad959a0a442645dbac81c293",
   "sourceDrawingSha256": "8d557b08f9ed3246df6a75730c3039b379559d18d2ec456e78a5c8e55642873f",
   "drawingPages": [
@@ -316,8 +316,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "31-LS35-T",
+        "dxfPath": "drawings/laser-marking/LS35E-T/编号面_-Y.dxf",
+        "sha256": "6e977653883bb74347f5bce9c6efb108a2a726e692332a29f57170bfc09a37d2",
+        "setupPdfPath": "drawings/laser-marking/LS35E-T/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "eb578d93dc96cda44eb9727feba550c961e38e8bcb8b6298c7bdab7a49087ad9"
+      }
+    ]
   },
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -325,17 +334,17 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/ls35x-lab-e-r1/31-LS35-T_R1_加工工程图_TN1_20261026.pdf",
         "previousSha256": "760a1702ce31d1e18dec791a2e9912c758324e85d3af228667e2ec12b6da12d3",
         "sha256": "8d557b08f9ed3246df6a75730c3039b379559d18d2ec456e78a5c8e55642873f"
       },
       {
-        "path": null,
+        "path": "assets/drawings/ls35x-lab-e-r1/31-LS35-T_R1_加工工程图_DXF_TN1_20261026.pdf",
         "previousSha256": "5fc6e625dc753906bb15133b6f9bc39f717443c76a1ecae41383d7932fc51c10",
         "sha256": "22c38acf31a3fc2816e0024ca11dc9c3f23f4d2dad959a0a442645dbac81c293"
       },
       {
-        "path": null,
+        "path": "assets/drawings/ls35x-lab-e-r1/31-LS35-T_R1_加工工程图_TN1_20261026.dxf",
         "previousSha256": "a9e08c97edb0ce78ffcdc521b33dcf3b28842a40a292ace09fe101633cd75ee4",
         "sha256": "594b8211996d84142283c78565d65a6963014042c005878a949b366c8c65c8d6"
       }

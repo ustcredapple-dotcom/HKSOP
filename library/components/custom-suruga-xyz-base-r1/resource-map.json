@@ -3,6 +3,28 @@
   "packageId": "custom-suruga-xyz-base-r1",
   "files": [
     {
+      "path": "drawings/27f0bab58058841ad6a92c7b8daed66be91b21edd44fb080ee38107283a25ec5.dxf",
+      "stored": "library/assets/sha256/27/27f0bab58058841ad6a92c7b8daed66be91b21edd44fb080ee38107283a25ec5.dxf",
+      "sha256": "27f0bab58058841ad6a92c7b8daed66be91b21edd44fb080ee38107283a25ec5",
+      "originalReferences": [
+        "drawings/laser-marking/custom-suruga-xyz-base-r1/编号面_-Y.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/27/27f0bab58058841ad6a92c7b8daed66be91b21edd44fb080ee38107283a25ec5.dxf"
+      ]
+    },
+    {
+      "path": "drawings/32415f7c084632751a3d3bbe2ef433096d77fabfd88a866369d0a781aa35344b.dxf",
+      "stored": "library/assets/sha256/32/32415f7c084632751a3d3bbe2ef433096d77fabfd88a866369d0a781aa35344b.dxf",
+      "sha256": "32415f7c084632751a3d3bbe2ef433096d77fabfd88a866369d0a781aa35344b",
+      "originalReferences": [
+        "drawings/suruga-xyz-r1/32-XYZ-B_R1_加工工程图.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/32/32415f7c084632751a3d3bbe2ef433096d77fabfd88a866369d0a781aa35344b.dxf"
+      ]
+    },
+    {
       "path": "cad/8aaa2ec0e2a620992263843594455b57b5222e6714d3c0af154faf5825bfcde0.step",
       "stored": "library/assets/sha256/8a/8aaa2ec0e2a620992263843594455b57b5222e6714d3c0af154faf5825bfcde0.step",
       "sha256": "8aaa2ec0e2a620992263843594455b57b5222e6714d3c0af154faf5825bfcde0",
@@ -11,6 +33,39 @@
       ],
       "sources": [
         "library/assets/sha256/8a/8aaa2ec0e2a620992263843594455b57b5222e6714d3c0af154faf5825bfcde0.step"
+      ]
+    },
+    {
+      "path": "drawings/aaebcc09e0256c18dafaeb5b843e3866fb150c4ee3039514e8c5cca55e662ee0.pdf",
+      "stored": "library/assets/sha256/aa/aaebcc09e0256c18dafaeb5b843e3866fb150c4ee3039514e8c5cca55e662ee0.pdf",
+      "sha256": "aaebcc09e0256c18dafaeb5b843e3866fb150c4ee3039514e8c5cca55e662ee0",
+      "originalReferences": [
+        "drawings/laser-marking/custom-suruga-xyz-base-r1/编号面_-Y_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/aa/aaebcc09e0256c18dafaeb5b843e3866fb150c4ee3039514e8c5cca55e662ee0.pdf"
+      ]
+    },
+    {
+      "path": "drawings/ae6242bf9cf8fcb134b036780b144fd1170749114c28b1d915a320e145dcc740.pdf",
+      "stored": "library/assets/sha256/ae/ae6242bf9cf8fcb134b036780b144fd1170749114c28b1d915a320e145dcc740.pdf",
+      "sha256": "ae6242bf9cf8fcb134b036780b144fd1170749114c28b1d915a320e145dcc740",
+      "originalReferences": [
+        "drawings/suruga-xyz-r1/32-XYZ-B_R1_加工工程图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/ae/ae6242bf9cf8fcb134b036780b144fd1170749114c28b1d915a320e145dcc740.pdf"
+      ]
+    },
+    {
+      "path": "drawings/aed07943abf2ecae407ab2b944bd6b926685f0d7e058e8e517141b1893f2433d.pdf",
+      "stored": "library/assets/sha256/ae/aed07943abf2ecae407ab2b944bd6b926685f0d7e058e8e517141b1893f2433d.pdf",
+      "sha256": "aed07943abf2ecae407ab2b944bd6b926685f0d7e058e8e517141b1893f2433d",
+      "originalReferences": [
+        "drawings/suruga-xyz-r1/32-XYZ-B_R1_加工工程图_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/ae/aed07943abf2ecae407ab2b944bd6b926685f0d7e058e8e517141b1893f2433d.pdf"
       ]
     }
   ],

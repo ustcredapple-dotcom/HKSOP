@@ -7,7 +7,7 @@
   "sourceUrl": "https://www.lbtek.com/product/287",
   "stepPath": "step/txy2-r1/TXY2_official_singleM6.step",
   "sourceStepSha256": "5b11a6d3c222cec28b79fd377d3209dc542670862345d36f59b639f54dc6f822",
-  "drawingPath": null,
+  "drawingPath": "drawings/txy2-r1/TXY2_official_RevB_reference.pdf",
   "sourceDrawingSha256": "de32b8a47c6c599d024d68d3521d6ef1f1b705dc48a048ae58e41cc2a6678a44",
   "notes": "用户确认单中央M6底孔硬件；附原厂RevB图有3孔，仅借用中央孔/主体尺寸，不采用侧孔。50.8mm光学件，SM2接口、SM2R压圈随架；XY各±2mm。原厂STEP内运动环偏移约(-0.024758,+0.024758)mm，实际须调中心；不含镜片。"
 }

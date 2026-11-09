@@ -8,7 +8,7 @@
   "notes": "M1公制修订；厚透镜的几何对称中面不是光学主平面。。实物试装未完成。",
   "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/45acd22ae10c019b5a66f07c",
   "stepPath": "step/metric-m1-20261006/05-LENS-L_METRIC_M1.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/metric-m1-20261006/05-LENS-L_M1_加工工程图_TN1_20261026.pdf",
   "sourceStepSha256": "20269646456e7b655f99108b61d988d55067ec70455889f9f8b450b642930083",
   "productionReady": false,
   "manufacturingSpec": {
@@ -21,7 +21,7 @@
   },
   "drawingRevision": "M1",
   "drawingStatus": "engineering-review",
-  "dxfPath": null,
+  "dxfPath": "drawings/metric-m1-20261006/05-LENS-L_M1_加工工程图_TN1_20261026.dxf",
   "manufacturingEvidence": {
     "sourcePackage": null,
     "sourceCode": "05-LENS-L",
@@ -44,7 +44,7 @@
   },
   "sourceDrawingSha256": "dc1f3528c96746610774522b5af871153e9944b7b86cc65d455a2b9e89ae2585",
   "sourceDxfSha256": "b205cbdc75e59d2bef8fd3ea562165477ef22808060abcc088978fdb97e628fd",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/metric-m1-20261006/05-LENS-L_M1_加工工程图_DXF_TN1_20261026.pdf",
   "dxfPdfSha256": "582d134878954012abfd6cb831f91789bb067cee1f36848e774604cead281676",
   "drawingPages": [
     1,
@@ -80,8 +80,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "05-LENS-L",
+        "dxfPath": "drawings/laser-marking/new-lens-filter-adapter-1/编号面_-Y.dxf",
+        "sha256": "c73df107b6f6fc90440f431b65594f3969d188cf1a4e7056610d8f51e351c8c3",
+        "setupPdfPath": "drawings/laser-marking/new-lens-filter-adapter-1/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "bf8c2776cbcc26d5c7dbf65a99fce3ceb6a79f17e26515b4de3c25317bf8e9e8"
+      }
+    ]
   },
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -89,27 +98,27 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/metric-m1-20261006/05-LENS-L_M1_加工工程图_TN1_20261026.pdf",
         "previousSha256": "b927a30a61f7e6d0e4db72233dae82ea51aea27fc10cfb1361d1902af569eaa6",
         "sha256": "dc1f3528c96746610774522b5af871153e9944b7b86cc65d455a2b9e89ae2585"
       },
       {
-        "path": null,
+        "path": "assets/drawings/2026-10-04_R6定制件/05-LENS-L_R6_加工工程图_TN1_20261026.pdf",
         "previousSha256": "ab602a174275024e1196f8b171be06044ec2c7a371194a373e3cf3f3d4b25100",
         "sha256": "d7f66758675bbab2fa5b6292206ff9017c337929f55276fc915bc7abc2f330a9"
       },
       {
-        "path": null,
+        "path": "assets/drawings/metric-m1-20261006/05-LENS-L_M1_加工工程图_DXF_TN1_20261026.pdf",
         "previousSha256": "464a96709764e5f1592a23ec959feb1571c8c85ef88daace376117f6386f6a90",
         "sha256": "582d134878954012abfd6cb831f91789bb067cee1f36848e774604cead281676"
       },
       {
-        "path": null,
+        "path": "assets/drawings/metric-m1-20261006/05-LENS-L_M1_加工工程图_TN1_20261026.dxf",
         "previousSha256": "57a5f8630589efb98624e1d28c49c7be23581641c390575bd285a5cc27b351dd",
         "sha256": "b205cbdc75e59d2bef8fd3ea562165477ef22808060abcc088978fdb97e628fd"
       },
       {
-        "path": null,
+        "path": "assets/drawings/2026-10-04_R6定制件/05-LENS-L_R6_加工工程图_TN1_20261026.dxf",
         "previousSha256": "f27c2b6c3175a510e09cfba5c0aaa063304ca649352ead0891c07276b1087e92",
         "sha256": "23f6df97c9a03cbb28de2b3e7e4177f191aa90c3ed173b7d2c2376491f5c1177"
       }

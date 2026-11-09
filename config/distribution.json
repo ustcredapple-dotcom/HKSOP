@@ -6,10 +6,13 @@
   ],
   "step": true,
   "topViewRendering": true,
-  "threeViewAndManufacturingDrawings": false,
+  "threeViewAndManufacturingDrawings": true,
   "projectHistory": false,
   "githubUpload": "authorized",
   "futureVisibility": "private",
   "githubRepository": "ustcredapple-dotcom/HKSOP",
-  "githubVisibility": "private"
+  "githubVisibility": "private",
+  "currentComponentCad": true,
+  "laserMarkingFiles": true,
+  "scopeUpdatedAt": "2026-11-09T14:09:11+08:00"
 }

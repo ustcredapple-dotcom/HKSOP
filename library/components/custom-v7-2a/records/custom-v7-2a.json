@@ -26,11 +26,11 @@
     "drawingScope": "R1 new adapter detailed review drawings",
     "dxfSha256": "d795258ec2fe60d96cfa6b98f9612922b9d83f9d12b6b85b564c7a392193e928"
   },
-  "drawingPath": null,
+  "drawingPath": "drawings/standard-post-h12p5-b4-r2/assemblies/custom-v7-2a_B6_R1_安装及原加工图_TN1_20261026_H12p5B4R2.pdf",
   "sourceDrawingSha256": "f17dee5adcff22e1b4fc2a27c271e0a1c4265c8827c93232c03d631aff591f4f",
-  "dxfPath": null,
+  "dxfPath": "drawings/motorized-v7-r1/custom-v7-2a.dxf",
   "sourceDxfSha256": "d795258ec2fe60d96cfa6b98f9612922b9d83f9d12b6b85b564c7a392193e928",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/motorized-v7-r1/custom-v7-2a_DXF.pdf",
   "dxfPdfSha256": "e2fcc8d4d0b62f01f0e9fdfa9fd85502f96d6da298393399408be6e8250f1cc4",
   "drawingPages": [
     1,
@@ -81,8 +81,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "V7-2A",
+        "dxfPath": "drawings/laser-marking/custom-v7-2a/编号面_-Y.dxf",
+        "sha256": "768209872b9610f279aba8dcad8668c1f1eb5369c8c6fc549b62608b2a17e7cb",
+        "setupPdfPath": "drawings/laser-marking/custom-v7-2a/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "f320acf47ce2072ebe5431cf0fd7f4f2c28b24f7d8abb8bd6b207ed2af33d649"
+      }
+    ]
   },
   "drawingRevision": "CURRENT-H12p5B4R2-INSTALL",
   "installationRevision": {
@@ -99,7 +108,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/installation-b6-r1/custom-v7-2a_B6_R1_安装及原加工图_TN1_20261026.pdf",
         "previousSha256": "76d6f0ccd1684ff21f768b06c9ea0bc5da93692b067abe2d4fc0b5be7565e3a7",
         "sha256": "f17dee5adcff22e1b4fc2a27c271e0a1c4265c8827c93232c03d631aff591f4f"
       }

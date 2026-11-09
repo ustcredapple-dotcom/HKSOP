@@ -430,8 +430,8 @@
   "minimumAlignedMountingHoles": 4,
   "topViewPath": "topviews/kit_manual-stage-thorlabs-mt1m-moving.svg",
   "stepPath": "step/manual-stage-r1-a7075/MT1-T.step",
-  "drawingPath": null,
-  "dxfPath": null,
+  "drawingPath": "drawings/manual-stage-r1-a7075/ZZLab_手动位移台模块化小面包板_工程图册_R1-A7075.pdf",
+  "dxfPath": "drawings/manual-stage-r1-a7075/MT1-T.dxf",
   "drawingPages": [
     10,
     11
@@ -448,7 +448,7 @@
     "userOverride": "library/reviews/manual-moving-stage-r1-a7075-import-20261006/evidence/user-material-override-20261006.json"
   },
   "notes": "专属运动上板，仅随完整位移模块使用；螺纹孔之外的固定孔与预留位置不作为附件安装孔。 盲螺纹孔，按图纸有效牙深选螺钉。",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/manual-stage-r1-a7075/MT1-T_DXF.pdf",
   "dxfPdfSha256": "b152994b58f194fce2d41c09e49525cb30f01ec60dfc2bbcca526df1c9826a65",
   "sourceDrawingSha256": "97e4af3b88bcca294fe1c1b23d6a61e1f5b5a3412bc8ba785825420f0f12ff62",
   "drawingAnnotationEvidence": {
@@ -482,7 +482,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "MT1-T",
+        "dxfPath": "drawings/laser-marking/MT1-T/编号面_-Y.dxf",
+        "sha256": "90a816ba6c7f0d067403ba4d77626b7f6968b96a9d4c948426f66e5381116ba8",
+        "setupPdfPath": "drawings/laser-marking/MT1-T/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "025ff3450d92ef1e9c462d8c17bea57ec789d1a31e3a2531e2c4bbd1d4cacf91"
+      }
+    ]
   }
 }

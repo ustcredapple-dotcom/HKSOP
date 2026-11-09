@@ -1,0 +1,20 @@
+# 万能柱 75 mm · 底座6 mm B6 R1
+
+[English](README.en.md)
+
+包 ID：`custom-post-metric-75mm-m1`。定义入口：[package.json](package.json)。本目录保存当前元件包的记录和资源入口。
+
+## 记录
+
+- [万能柱 75 mm · 底座6 mm B6 R1](records/custom-post-metric-75mm-m1.json) — `components` / `custom-post-metric-75mm-m1`
+
+## 模型、显示与图纸
+
+- [custom-post-metric-75mm-m1_B6R1_side_laser_setup.pdf](../../assets/sha256/42/42047d8b6033e38d7cada39f61c20aebd713bdd058093d892d26f95295bd1874.pdf) · `PDF`
+- [万能柱_H75mm_B6_R1.step](../../assets/sha256/68/68b997a5b5d49e4cb65ec3b9abec66e40800aee9c7e12fd61ca3fc69db0e5c4b.step) · `STEP`
+- [custom-post-metric-75mm-m1_B6R1_side_laser.dxf](../../assets/sha256/a9/a94fba5c6bc564ba56bedd5fa64e293a2a5d8826962c256b7257e94439a146d3.dxf) · `DXF`
+- [万能柱_H75mm_B6_R1_加工审核图.pdf](../../assets/sha256/f0/f0f31ad08b89d3110efd1bcffd675927aadb68e8cd65ba54a6689c88d58522c4.pdf) · `PDF`
+
+资源映射与内容哈希见 [resource-map.json](resource-map.json)。能力状态与证据以包和记录中的实际声明为准。
+
+返回[元件库](../../README.md)。

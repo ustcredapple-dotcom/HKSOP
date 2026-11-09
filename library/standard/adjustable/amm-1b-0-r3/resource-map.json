@@ -23,6 +23,17 @@
       "sources": [
         "library/assets/sha256/33/33b1d55cfcb95006f9f556aa7f36bdf2f78d07e197c98e8da6be06fbc8cbb72d.svg"
       ]
+    },
+    {
+      "path": "drawings/f8c502bca3d177c972cc0b95b0df87b7d8c824103dd95884a856d803c80d79d3.pdf",
+      "stored": "library/assets/sha256/f8/f8c502bca3d177c972cc0b95b0df87b7d8c824103dd95884a856d803c80d79d3.pdf",
+      "sha256": "f8c502bca3d177c972cc0b95b0df87b7d8c824103dd95884a856d803c80d79d3",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/3/AM1B_R3_装配说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/f8/f8c502bca3d177c972cc0b95b0df87b7d8c824103dd95884a856d803c80d79d3.pdf"
+      ]
     }
   ],
   "dependencies": [

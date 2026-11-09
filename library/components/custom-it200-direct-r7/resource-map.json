@@ -3,6 +3,39 @@
   "packageId": "custom-it200-direct-r7",
   "files": [
     {
+      "path": "drawings/33e1ef266f5904a8534f04bc55be5d0f987c0d7f1b4bf28626e391bb083fe1da.dxf",
+      "stored": "library/assets/sha256/33/33e1ef266f5904a8534f04bc55be5d0f987c0d7f1b4bf28626e391bb083fe1da.dxf",
+      "sha256": "33e1ef266f5904a8534f04bc55be5d0f987c0d7f1b4bf28626e391bb083fe1da",
+      "originalReferences": [
+        "drawings/iontrap-it200-direct-r7/laser-marking/IT200-DIRECT_R7_TOP_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/33/33e1ef266f5904a8534f04bc55be5d0f987c0d7f1b4bf28626e391bb083fe1da.dxf"
+      ]
+    },
+    {
+      "path": "drawings/6fc29e72d2bfb4002827fcdff2eca634c19e2b0b1db80563da219a62f7a19d83.pdf",
+      "stored": "library/assets/sha256/6f/6fc29e72d2bfb4002827fcdff2eca634c19e2b0b1db80563da219a62f7a19d83.pdf",
+      "sha256": "6fc29e72d2bfb4002827fcdff2eca634c19e2b0b1db80563da219a62f7a19d83",
+      "originalReferences": [
+        "drawings/iontrap-it200-direct-r7/IT200-DIRECT_R7_正面直装设计图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/6f/6fc29e72d2bfb4002827fcdff2eca634c19e2b0b1db80563da219a62f7a19d83.pdf"
+      ]
+    },
+    {
+      "path": "drawings/d405c14252d498ce91e345de7b81c5793aa96e71ef089f6e12eb4d1af2fd7891.pdf",
+      "stored": "library/assets/sha256/d4/d405c14252d498ce91e345de7b81c5793aa96e71ef089f6e12eb4d1af2fd7891.pdf",
+      "sha256": "d405c14252d498ce91e345de7b81c5793aa96e71ef089f6e12eb4d1af2fd7891",
+      "originalReferences": [
+        "drawings/iontrap-it200-direct-r7/laser-marking/IT200-DIRECT_R7_打标定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/d4/d405c14252d498ce91e345de7b81c5793aa96e71ef089f6e12eb4d1af2fd7891.pdf"
+      ]
+    },
+    {
       "path": "cad/f9fd5c9eb90541ad1caa68f942b7b3fd7980e8f91678f388d66e179883e891f7.step",
       "stored": "library/assets/sha256/f9/f9fd5c9eb90541ad1caa68f942b7b3fd7980e8f91678f388d66e179883e891f7.step",
       "sha256": "f9fd5c9eb90541ad1caa68f942b7b3fd7980e8f91678f388d66e179883e891f7",

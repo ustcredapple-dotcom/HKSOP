@@ -13,3 +13,8 @@ engine/** -text
 library/assets/** -text
 *.step -diff -text
 *.stp -diff -text
+
+# Drawings retain exact bytes and avoid textual diffs.
+*.pdf -diff -text
+*.dxf -diff -text
+*.dwg -diff -text

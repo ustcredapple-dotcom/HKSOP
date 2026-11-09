@@ -3,6 +3,17 @@
   "packageId": "custom-fz-kz-br-r1",
   "files": [
     {
+      "path": "drawings/03ebe9bfb945b8f43add3707a875048e83d7b288316e775a8ff32858aca54a7b.pdf",
+      "stored": "library/assets/sha256/03/03ebe9bfb945b8f43add3707a875048e83d7b288316e775a8ff32858aca54a7b.pdf",
+      "sha256": "03ebe9bfb945b8f43add3707a875048e83d7b288316e775a8ff32858aca54a7b",
+      "originalReferences": [
+        "drawings/fiber-motor-z-r1/FZ-KZ-BR-R1_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/03/03ebe9bfb945b8f43add3707a875048e83d7b288316e775a8ff32858aca54a7b.pdf"
+      ]
+    },
+    {
       "path": "cad/044ccf8e498400fdb388d3994c7050d3b42fcae94e35954c138b8886f8a29b9c.step",
       "stored": "library/assets/sha256/04/044ccf8e498400fdb388d3994c7050d3b42fcae94e35954c138b8886f8a29b9c.step",
       "sha256": "044ccf8e498400fdb388d3994c7050d3b42fcae94e35954c138b8886f8a29b9c",
@@ -11,6 +22,50 @@
       ],
       "sources": [
         "library/assets/sha256/04/044ccf8e498400fdb388d3994c7050d3b42fcae94e35954c138b8886f8a29b9c.step"
+      ]
+    },
+    {
+      "path": "drawings/91062f2361b2e61b124f72ed354944704ba044fe4bc15011eeff072cbc9fe440.dxf",
+      "stored": "library/assets/sha256/91/91062f2361b2e61b124f72ed354944704ba044fe4bc15011eeff072cbc9fe440.dxf",
+      "sha256": "91062f2361b2e61b124f72ed354944704ba044fe4bc15011eeff072cbc9fe440",
+      "originalReferences": [
+        "drawings/fiber-motor-z-r1/laser-marking/FZ-KZ-BR-R1/编号_展开1比1_mm.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/91/91062f2361b2e61b124f72ed354944704ba044fe4bc15011eeff072cbc9fe440.dxf"
+      ]
+    },
+    {
+      "path": "drawings/cec36766b98ff66b23e49ae23776af6bbe147e1829c7b49a9c214693e8a0b77b.dxf",
+      "stored": "library/assets/sha256/ce/cec36766b98ff66b23e49ae23776af6bbe147e1829c7b49a9c214693e8a0b77b.dxf",
+      "sha256": "cec36766b98ff66b23e49ae23776af6bbe147e1829c7b49a9c214693e8a0b77b",
+      "originalReferences": [
+        "drawings/fiber-motor-z-r1/FZ-KZ-BR-R1_加工审核图_TN1_20261026.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/ce/cec36766b98ff66b23e49ae23776af6bbe147e1829c7b49a9c214693e8a0b77b.dxf"
+      ]
+    },
+    {
+      "path": "drawings/cf0b07b2410173a13859316514721ebbce2611200f63053855ef55c516986eb0.pdf",
+      "stored": "library/assets/sha256/cf/cf0b07b2410173a13859316514721ebbce2611200f63053855ef55c516986eb0.pdf",
+      "sha256": "cf0b07b2410173a13859316514721ebbce2611200f63053855ef55c516986eb0",
+      "originalReferences": [
+        "drawings/fiber-motor-z-r1/dxf-pdf/custom-fz-kz-br-r1_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/cf/cf0b07b2410173a13859316514721ebbce2611200f63053855ef55c516986eb0.pdf"
+      ]
+    },
+    {
+      "path": "drawings/f7d09c5550b5a92298d258fff7d7fb0d3a2240be5fa274d5ccae48724d6c768a.pdf",
+      "stored": "library/assets/sha256/f7/f7d09c5550b5a92298d258fff7d7fb0d3a2240be5fa274d5ccae48724d6c768a.pdf",
+      "sha256": "f7d09c5550b5a92298d258fff7d7fb0d3a2240be5fa274d5ccae48724d6c768a",
+      "originalReferences": [
+        "drawings/fiber-motor-z-r1/laser-marking/FZ-KZ-BR-R1/定位图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/f7/f7d09c5550b5a92298d258fff7d7fb0d3a2240be5fa274d5ccae48724d6c768a.pdf"
       ]
     }
   ],

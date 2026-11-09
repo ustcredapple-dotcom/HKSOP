@@ -8,7 +8,7 @@
   "notes": "M1公制修订；仅名义机械对准，实物装配和未注公差仍须验收。。实物试装未完成。",
   "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/7f22f8d7da1bfff76203eea7",
   "stepPath": "step/metric-m1-20261006/15-RULER_METRIC_M1.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/metric-m1-20261006/15-RULER_M1_加工工程图.pdf",
   "sourceStepSha256": "3da9677180ac3472134deb68d65fb3dc784ef62aaeed59c36b2a9e1d726d3be4",
   "productionReady": false,
   "manufacturingSpec": {
@@ -21,7 +21,7 @@
   },
   "drawingRevision": "M1",
   "drawingStatus": "engineering-review",
-  "dxfPath": null,
+  "dxfPath": "drawings/metric-m1-20261006/15-RULER_M1_加工工程图.dxf",
   "manufacturingEvidence": {
     "sourcePackage": null,
     "sourceCode": "15-RULER",
@@ -44,7 +44,7 @@
   },
   "sourceDrawingSha256": "cf17781b8b9f2061b3aa7e26eab0ee8177063754e492aa7261cc4a27139d0e22",
   "sourceDxfSha256": "aa8267649e9d076bbe980adcc15b2a2fa296e4d90efcd3eb6164537f05ab5361",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/metric-m1-20261006/15-RULER_M1_加工工程图_DXF.pdf",
   "dxfPdfSha256": "1c24ef58072d5aa5d1258f7a204e64ff39eb740ca4efce31d6ad04bf02f140f2",
   "drawingPages": [
     1,
@@ -80,7 +80,24 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "15-RULER",
+        "dxfPath": "drawings/laser-marking/new-r3-15-layout-ruler/编号面_-Y.dxf",
+        "sha256": "794b0a6f22deb5c591e8c94b9b014b50640c693ce6439103b1a340ee1fcc43a3",
+        "setupPdfPath": "drawings/laser-marking/new-r3-15-layout-ruler/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "95e3e9e6a5a923257f7a2ae4bb6b3e2a9b2d34acc7af86f65b989318410d2019"
+      },
+      {
+        "face": "functional_scale_+Z",
+        "text": "20；10；0；10；20",
+        "dxfPath": "drawings/laser-marking/new-r3-15-layout-ruler/functional_scale_+Z.dxf",
+        "sha256": "14a602f5d1c23f07607c4ffd386cc3527a1ad22ca31933dc0fc814204d336148",
+        "setupPdfPath": "drawings/laser-marking/new-r3-15-layout-ruler/functional_scale_+Z_定位说明.pdf",
+        "setupPdfSha256": "7c587a89d8c8e0c09e56bea6e7eb2d722f435a56cce8cb33de3b618e3c5235c9"
+      }
+    ]
   }
 }

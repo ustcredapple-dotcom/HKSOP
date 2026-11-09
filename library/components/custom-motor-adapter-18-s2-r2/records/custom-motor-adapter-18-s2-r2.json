@@ -7,8 +7,8 @@
   "status": "真实STEP及加工审核图；未投产",
   "notes": "独立18-S2补偿真实镜后座加名义12mm厚度的0.4mm偏差；原custom-10保留。实体、孔与刻字已作CAD审核；加工公差、实物工具、舵机牙型与摩擦锁紧仍待实验确认。",
   "stepPath": "step/motor-slot-split-r2/18-S2.step",
-  "drawingPath": null,
-  "dxfPath": null,
+  "drawingPath": "drawings/motor-slot-split-r2/V2style-2inch-M2S-r2-mechanical-review.pdf",
+  "dxfPath": "drawings/motor-slot-split-r2/18-S2.dxf",
   "sourceStepSha256": "96ce39527f31fdda2e714defbd578d65d6d3df6d9373da7ede5af3fca3349a16",
   "sourceDrawingSha256": "42f65f90180d6ebef3726e9e0057027cb1787bc02348beb66363f1fa9db22cd0",
   "sourceDxfSha256": "237920760042b0de979ea5a42d546425f3d00066d62b4577866773c2f01c4c9a",
@@ -38,7 +38,7 @@
       "mechanicalManifestSha256": "428e9f6d542bc6d3454303cdb147995a49717949e0e622040bf3e6e69ded0c85"
     }
   },
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/motor-slot-split-r2/18-S2_DXF.pdf",
   "dxfPdfSha256": "9d3e451fbff879d9345d8b3e07eb7838c87dedb0c4b4c6d81be12904b3de0a0e",
   "drawingPages": [
     1,
@@ -82,7 +82,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前 STEP 原字形及功能文字改用激光打标，完整轮廓与位置已提取核验。",
-    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。",
+    "files": [
+      {
+        "dxfPath": "drawings/laser-marking/lm1-20261015/custom-motor-adapter-18-s2-r2/编号面.dxf",
+        "sha256": "44fa29be84ca08e160706d448f91de52dd00bd86bf3871d731e865d68af20a5e",
+        "setupPdfPath": "drawings/laser-marking/lm1-20261015/custom-motor-adapter-18-s2-r2/编号面_定位.pdf",
+        "setupPdfSha256": "a8105c14ed892cbaf98aed291ace8b90f811dc542374f43b2c291de5d0e3fce9",
+        "face": "编号面",
+        "text": "18-S2"
+      }
+    ]
   }
 }

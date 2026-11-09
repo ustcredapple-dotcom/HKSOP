@@ -3,6 +3,39 @@
   "packageId": "custom-fc75-p-r2",
   "files": [
     {
+      "path": "drawings/0abefd40357c921bbbe0033d12df514f85fb3ab4ebcac45fc1c4c98859e6bdc3.pdf",
+      "stored": "library/assets/sha256/0a/0abefd40357c921bbbe0033d12df514f85fb3ab4ebcac45fc1c4c98859e6bdc3.pdf",
+      "sha256": "0abefd40357c921bbbe0033d12df514f85fb3ab4ebcac45fc1c4c98859e6bdc3",
+      "originalReferences": [
+        "drawings/flir-focus-h75-r2/FC75-P_R2_加工审核图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/0a/0abefd40357c921bbbe0033d12df514f85fb3ab4ebcac45fc1c4c98859e6bdc3.pdf"
+      ]
+    },
+    {
+      "path": "drawings/75febae0d1b81461701a592b2aa1fa7046d01259c9e1b2b4a31a433f13e757bd.dxf",
+      "stored": "library/assets/sha256/75/75febae0d1b81461701a592b2aa1fa7046d01259c9e1b2b4a31a433f13e757bd.dxf",
+      "sha256": "75febae0d1b81461701a592b2aa1fa7046d01259c9e1b2b4a31a433f13e757bd",
+      "originalReferences": [
+        "drawings/flir-focus-h75-r2/FC75-P_R2_激光_1比1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/75/75febae0d1b81461701a592b2aa1fa7046d01259c9e1b2b4a31a433f13e757bd.dxf"
+      ]
+    },
+    {
+      "path": "drawings/80d1bbabb4107b98f39a3ae28041a688206f5bb1d7a04c472ab58ab0cdc12231.pdf",
+      "stored": "library/assets/sha256/80/80d1bbabb4107b98f39a3ae28041a688206f5bb1d7a04c472ab58ab0cdc12231.pdf",
+      "sha256": "80d1bbabb4107b98f39a3ae28041a688206f5bb1d7a04c472ab58ab0cdc12231",
+      "originalReferences": [
+        "drawings/flir-focus-h75-r2/FC75-P_R2_激光定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/80/80d1bbabb4107b98f39a3ae28041a688206f5bb1d7a04c472ab58ab0cdc12231.pdf"
+      ]
+    },
+    {
       "path": "cad/9c9197a91523b98ae4f7b4abc0fc16e3d1954348298584c9501a7eaa5851e85f.step",
       "stored": "library/assets/sha256/9c/9c9197a91523b98ae4f7b4abc0fc16e3d1954348298584c9501a7eaa5851e85f.step",
       "sha256": "9c9197a91523b98ae4f7b4abc0fc16e3d1954348298584c9501a7eaa5851e85f",

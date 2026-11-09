@@ -8,7 +8,7 @@
   "status": "厂家型号、原始 STEP 与 Rev B 图纸已核对；未实测",
   "stepPath": "step/lbtek-lbc1-r1/LBC1_OEM_full.step",
   "sourceStepSha256": "fe3767cb1b04688f9d381e7856532df293af8cc93e6312ecc40170fc30c99b83",
-  "drawingPath": null,
+  "drawingPath": "drawings/lbtek-lbc1-r1/LBC1_OEM_RevB.pdf",
   "sourceDrawingSha256": "b5da7a78f2b9ac4e5a8eae29bba9d0d5a66f6e0e24014d9d6d0f5e7c0da5ccaa",
   "notes": "按用户确认采用当前 LBC1；不将旧 BC1 与 LBC1 当成同一型号。采购完整 LBC1 含 OP-75；本套安装卸下 OP-75 留作备件，复用原中央 M4x25。",
   "specifications": {

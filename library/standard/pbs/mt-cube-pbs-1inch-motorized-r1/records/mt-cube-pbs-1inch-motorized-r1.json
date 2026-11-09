@@ -520,7 +520,7 @@
     "nominalFixedPositionAssembly": true,
     "containsSimplifiedManufacturerReference": true,
     "note": "完整设计参考总装；外加标准五金按BOM，未把检验包络虚报为精细螺钉实体。",
-    "drawingPath": null,
+    "drawingPath": "drawings/standard-post-h12p5-b4-r2/assemblies/三尺寸PBS_电动版_装配说明_H12p5B4R2.pdf",
     "sourceDrawingSha256": "d02431197ed22e6cb67edd876abaf0bfee42e4b24ced46e27de12a6baf851d51"
   },
   "assemblyAssets": [

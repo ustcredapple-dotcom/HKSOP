@@ -8,7 +8,7 @@
   "notes": "图纸为加工审核版。",
   "sourceUrl": "https://cad.onshape.com/documents/3a3c1d8089df865b8b4e822a/w/751844d84c1560d9a3edb630/e/bbc9f96a4f32cc84bf638af7",
   "stepPath": "step/02_面包板/04_面包板_350225.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/02_面包板/04_面包板_350225_加工审核图.pdf",
   "manufacturingSpec": {
     "material": "6061 铝合金",
     "surfaceTreatment": "黑色阳极氧化",
@@ -38,7 +38,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "按本轮补齐要求增加识别编号；已核当前 STEP 外表面位置。",
-    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。",
+    "files": [
+      {
+        "dxfPath": "drawings/laser-marking/lm1-20261015/custom-04/编号面.dxf",
+        "sha256": "7f862ddd8c1da6ebb9a4c36500529b58e45fa585744e9cd84ba89d2f9b14ddf4",
+        "setupPdfPath": "drawings/laser-marking/lm1-20261015/custom-04/编号面_定位.pdf",
+        "setupPdfSha256": "aa28f85979ab07b47c8ed4934f70e329977d63afeb7db88b8ae517b2a4b4e439",
+        "face": "编号面",
+        "text": "ZZ-04"
+      }
+    ]
   }
 }

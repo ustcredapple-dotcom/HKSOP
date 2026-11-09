@@ -12,6 +12,61 @@
       "sources": [
         "library/assets/sha256/44/44f849803b821d2c28ea127dac447121b2a415379b8f976441e46937c965ef22.step"
       ]
+    },
+    {
+      "path": "drawings/6ecde1a8c5ec267d763b2885b6afd12a856b6747ba4f48bf00ac1dd1660d3eed.dxf",
+      "stored": "library/assets/sha256/6e/6ecde1a8c5ec267d763b2885b6afd12a856b6747ba4f48bf00ac1dd1660d3eed.dxf",
+      "sha256": "6ecde1a8c5ec267d763b2885b6afd12a856b6747ba4f48bf00ac1dd1660d3eed",
+      "originalReferences": [
+        "drawings/cs30kz-hpb-shared-r2/HPB1-A-R2_加工图.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/6e/6ecde1a8c5ec267d763b2885b6afd12a856b6747ba4f48bf00ac1dd1660d3eed.dxf"
+      ]
+    },
+    {
+      "path": "drawings/acfafccd5cd5faceeb6d61164e904e240369f4c80d7489b0dee9d930e8b51b5f.pdf",
+      "stored": "library/assets/sha256/ac/acfafccd5cd5faceeb6d61164e904e240369f4c80d7489b0dee9d930e8b51b5f.pdf",
+      "sha256": "acfafccd5cd5faceeb6d61164e904e240369f4c80d7489b0dee9d930e8b51b5f",
+      "originalReferences": [
+        "drawings/cs30kz-hpb-shared-r2/HPB1-A-R2_打标定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/ac/acfafccd5cd5faceeb6d61164e904e240369f4c80d7489b0dee9d930e8b51b5f.pdf"
+      ]
+    },
+    {
+      "path": "drawings/c84205a4de5dd89cac123eb9e0b873cd217eafc066b5a6ca92e5b75b8e1c653f.dxf",
+      "stored": "library/assets/sha256/c8/c84205a4de5dd89cac123eb9e0b873cd217eafc066b5a6ca92e5b75b8e1c653f.dxf",
+      "sha256": "c84205a4de5dd89cac123eb9e0b873cd217eafc066b5a6ca92e5b75b8e1c653f",
+      "originalReferences": [
+        "drawings/cs30kz-hpb-shared-r2/HPB1-A-R2_激光打标_1比1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/c8/c84205a4de5dd89cac123eb9e0b873cd217eafc066b5a6ca92e5b75b8e1c653f.dxf"
+      ]
+    },
+    {
+      "path": "drawings/e28ec1e1f235067fe65638b9eaafa4d5f31dd8f7d5598d5018d00d8d60766f05.pdf",
+      "stored": "library/assets/sha256/e2/e28ec1e1f235067fe65638b9eaafa4d5f31dd8f7d5598d5018d00d8d60766f05.pdf",
+      "sha256": "e28ec1e1f235067fe65638b9eaafa4d5f31dd8f7d5598d5018d00d8d60766f05",
+      "originalReferences": [
+        "drawings/cs30kz-hpb-shared-r2/dxf-pdf/custom-hpb1-a_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/e2/e28ec1e1f235067fe65638b9eaafa4d5f31dd8f7d5598d5018d00d8d60766f05.pdf"
+      ]
+    },
+    {
+      "path": "drawings/fef272aa01d4a74e60f44aa788937d1a5ac568a01c6128ede443f95e1852a5d5.pdf",
+      "stored": "library/assets/sha256/fe/fef272aa01d4a74e60f44aa788937d1a5ac568a01c6128ede443f95e1852a5d5.pdf",
+      "sha256": "fef272aa01d4a74e60f44aa788937d1a5ac568a01c6128ede443f95e1852a5d5",
+      "originalReferences": [
+        "drawings/cs30kz-hpb-shared-r2/HPB1-A-R2_加工审核图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/fe/fef272aa01d4a74e60f44aa788937d1a5ac568a01c6128ede443f95e1852a5d5.pdf"
+      ]
     }
   ],
   "dependencies": []

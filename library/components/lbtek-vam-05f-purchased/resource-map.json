@@ -3,6 +3,17 @@
   "packageId": "lbtek-vam-05f-purchased",
   "files": [
     {
+      "path": "drawings/84d470fb662322d30174bccf18fd81246d21e496e560dd0fa0be4d6457f71e4f.pdf",
+      "stored": "library/assets/sha256/84/84d470fb662322d30174bccf18fd81246d21e496e560dd0fa0be4d6457f71e4f.pdf",
+      "sha256": "84d470fb662322d30174bccf18fd81246d21e496e560dd0fa0be4d6457f71e4f",
+      "originalReferences": [
+        "drawings/vam05f-r1/VAM-05F_vendor_reference.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/84/84d470fb662322d30174bccf18fd81246d21e496e560dd0fa0be4d6457f71e4f.pdf"
+      ]
+    },
+    {
       "path": "cad/f753d6ae42f83082b53fd1603cc63e757601fc38d46a05ae20d242b0a397ef95.step",
       "stored": "library/assets/sha256/f7/f753d6ae42f83082b53fd1603cc63e757601fc38d46a05ae20d242b0a397ef95.step",
       "sha256": "f753d6ae42f83082b53fd1603cc63e757601fc38d46a05ae20d242b0a397ef95",

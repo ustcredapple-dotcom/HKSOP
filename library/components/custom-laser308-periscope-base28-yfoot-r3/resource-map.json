@@ -12,6 +12,83 @@
       "sources": [
         "library/assets/sha256/0d/0d6c81510dcae922560d559e891954e4a1389af1c931380ea519b8f326104420.step"
       ]
+    },
+    {
+      "path": "drawings/25d76e086d18ebfe16389a0c52f31a0fec19ab9498f7f15a381a79ce72e3a3a1.pdf",
+      "stored": "library/assets/sha256/25/25d76e086d18ebfe16389a0c52f31a0fec19ab9498f7f15a381a79ce72e3a3a1.pdf",
+      "sha256": "25d76e086d18ebfe16389a0c52f31a0fec19ab9498f7f15a381a79ce72e3a3a1",
+      "originalReferences": [
+        "drawings/periscope-standard-r3/28-BY3_R3_加工工程图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/25/25d76e086d18ebfe16389a0c52f31a0fec19ab9498f7f15a381a79ce72e3a3a1.pdf"
+      ]
+    },
+    {
+      "path": "drawings/32f4ffb9235da3fee6c473b6a02dbc893f44ec4bc95c82dfdc6e5123aeeb1d24.pdf",
+      "stored": "library/assets/sha256/32/32f4ffb9235da3fee6c473b6a02dbc893f44ec4bc95c82dfdc6e5123aeeb1d24.pdf",
+      "sha256": "32f4ffb9235da3fee6c473b6a02dbc893f44ec4bc95c82dfdc6e5123aeeb1d24",
+      "originalReferences": [
+        "drawings/periscope-standard-r3/28-BY3_R3_加工工程图_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/32/32f4ffb9235da3fee6c473b6a02dbc893f44ec4bc95c82dfdc6e5123aeeb1d24.pdf"
+      ]
+    },
+    {
+      "path": "drawings/419d1f57a4545f30266ebdc5ed669794205ba272fc6c19faa1d51a56ff2c7be5.pdf",
+      "stored": "library/assets/sha256/41/419d1f57a4545f30266ebdc5ed669794205ba272fc6c19faa1d51a56ff2c7be5.pdf",
+      "sha256": "419d1f57a4545f30266ebdc5ed669794205ba272fc6c19faa1d51a56ff2c7be5",
+      "originalReferences": [
+        "drawings/laser-marking/custom-laser308-periscope-base28-yfoot-r3/试制与高度标识面_+X_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/41/419d1f57a4545f30266ebdc5ed669794205ba272fc6c19faa1d51a56ff2c7be5.pdf"
+      ]
+    },
+    {
+      "path": "drawings/5f6922873438052c3ac96fffc9ebb3e45007623f4f9f5abc0936446a0bd0a5d5.pdf",
+      "stored": "library/assets/sha256/5f/5f6922873438052c3ac96fffc9ebb3e45007623f4f9f5abc0936446a0bd0a5d5.pdf",
+      "sha256": "5f6922873438052c3ac96fffc9ebb3e45007623f4f9f5abc0936446a0bd0a5d5",
+      "originalReferences": [
+        "drawings/laser-marking/custom-laser308-periscope-base28-yfoot-r3/编号面_+X_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/5f/5f6922873438052c3ac96fffc9ebb3e45007623f4f9f5abc0936446a0bd0a5d5.pdf"
+      ]
+    },
+    {
+      "path": "drawings/72f8e1c90bca43b273817a2df5bc8afd87a31c6aba888d82bc8c52379f43a1b5.dxf",
+      "stored": "library/assets/sha256/72/72f8e1c90bca43b273817a2df5bc8afd87a31c6aba888d82bc8c52379f43a1b5.dxf",
+      "sha256": "72f8e1c90bca43b273817a2df5bc8afd87a31c6aba888d82bc8c52379f43a1b5",
+      "originalReferences": [
+        "drawings/laser-marking/custom-laser308-periscope-base28-yfoot-r3/编号面_+X.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/72/72f8e1c90bca43b273817a2df5bc8afd87a31c6aba888d82bc8c52379f43a1b5.dxf"
+      ]
+    },
+    {
+      "path": "drawings/801a7ecb98a6164bce0667e9808477d8378d9e9e90553cca302436756afd321e.dxf",
+      "stored": "library/assets/sha256/80/801a7ecb98a6164bce0667e9808477d8378d9e9e90553cca302436756afd321e.dxf",
+      "sha256": "801a7ecb98a6164bce0667e9808477d8378d9e9e90553cca302436756afd321e",
+      "originalReferences": [
+        "drawings/periscope-standard-r3/28-BY3_R3_加工工程图.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/80/801a7ecb98a6164bce0667e9808477d8378d9e9e90553cca302436756afd321e.dxf"
+      ]
+    },
+    {
+      "path": "drawings/f9a1607fbba7d0343f7cb8b58904e91af8ddf9f57c712c8a1b730ce1e09416fe.dxf",
+      "stored": "library/assets/sha256/f9/f9a1607fbba7d0343f7cb8b58904e91af8ddf9f57c712c8a1b730ce1e09416fe.dxf",
+      "sha256": "f9a1607fbba7d0343f7cb8b58904e91af8ddf9f57c712c8a1b730ce1e09416fe",
+      "originalReferences": [
+        "drawings/laser-marking/custom-laser308-periscope-base28-yfoot-r3/试制与高度标识面_+X.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/f9/f9a1607fbba7d0343f7cb8b58904e91af8ddf9f57c712c8a1b730ce1e09416fe.dxf"
+      ]
     }
   ],
   "dependencies": []

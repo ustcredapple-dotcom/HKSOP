@@ -14,18 +14,27 @@
   "productionReady": false,
   "drawingStatus": "engineering-review",
   "stepPath": "step/cs30kz-hpb-shared-r2/HPB1-A-R2.step",
-  "drawingPath": null,
-  "dxfPath": null,
+  "drawingPath": "drawings/cs30kz-hpb-shared-r2/HPB1-A-R2_加工审核图.pdf",
+  "dxfPath": "drawings/cs30kz-hpb-shared-r2/HPB1-A-R2_加工图.dxf",
   "sourceStepSha256": "44f849803b821d2c28ea127dac447121b2a415379b8f976441e46937c965ef22",
   "sourceDrawingSha256": "fef272aa01d4a74e60f44aa788937d1a5ac568a01c6128ede443f95e1852a5d5",
   "laserMarking": {
     "status": "required",
     "reason": "通用转接件标识",
-    "notes": "激光打标，不铣刻；按实物表面试样确认参数。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；按实物表面试样确认参数。",
+    "files": [
+      {
+        "face": "+Y",
+        "text": "HPB1-A-R2",
+        "dxfPath": "drawings/cs30kz-hpb-shared-r2/HPB1-A-R2_激光打标_1比1.dxf",
+        "sha256": "c84205a4de5dd89cac123eb9e0b873cd217eafc066b5a6ca92e5b75b8e1c653f",
+        "setupPdfPath": "drawings/cs30kz-hpb-shared-r2/HPB1-A-R2_打标定位.pdf",
+        "setupPdfSha256": "acfafccd5cd5faceeb6d61164e904e240369f4c80d7489b0dee9d930e8b51b5f"
+      }
+    ]
   },
   "sourceDxfSha256": "6ecde1a8c5ec267d763b2885b6afd12a856b6747ba4f48bf00ac1dd1660d3eed",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/cs30kz-hpb-shared-r2/dxf-pdf/custom-hpb1-a_DXF.pdf",
   "dxfPdfSha256": "e28ec1e1f235067fe65638b9eaafa4d5f31dd8f7d5598d5018d00d8d60766f05",
   "sourceUrl": "https://cad.onshape.com/documents/261124301e8d5f2181f63196/v/4969531b990121e460dec4d7/e/34598f190ac03c216c46e6fc"
 }

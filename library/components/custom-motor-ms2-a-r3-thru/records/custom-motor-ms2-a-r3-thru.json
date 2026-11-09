@@ -7,8 +7,8 @@
   "status": "真实STEP及加工审核图；未投产",
   "notes": "J1/J2改M3×0.5贯通螺纹，底面钻攻；取消方槽与薄边，沿用原外轮廓和原M3×10。名义旋入5.1 mm。标识仍为MS2-A，修订写于文件；未实物试装。 云端已冻结并完成静态复核，严格几何比较仍有差异，仅供装配参考；加工以本库原审核 STEP 和图纸为准。",
   "stepPath": "step/ms2-r3-thru-20261020/MS2-A_R3-THRU.step",
-  "drawingPath": null,
-  "dxfPath": null,
+  "drawingPath": "drawings/ms2-r3-thru-20261020/MS2-A_R3-THRU_加工与装配图_TN1_20261026.pdf",
+  "dxfPath": "drawings/ms2-r3-thru-20261020/MS2-A_R3-THRU_三视图_1to1_TN1_20261026.dxf",
   "sourceStepSha256": "571c26418670aa06c18188dc534bfd6e97304a7d4a9cb30354d59d7ad0081436",
   "sourceDrawingSha256": "d94fc4e991dd17b70d66939fadd9eaa82eeddb3e71a9fce5dcca07bfabb5e372",
   "sourceDxfSha256": "44fad22b90b2f1dda3fc68ee98fd9208410502b6db3dce8be90d66c9ef55477f",
@@ -33,12 +33,21 @@
     "materialBasis": "继承6061黑阳极；源设计专用规范",
     "twoHolesExtendedOnly": true
   },
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/ms2-r3-thru-20261020/MS2-A_R3-THRU_加工与装配图_TN1_20261026.pdf",
   "laserMarking": {
     "status": "required",
     "reason": "当前 STEP 原字形及功能文字改用激光打标，完整轮廓与位置已提取核验。",
-    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。",
+    "files": [
+      {
+        "face": "编号面",
+        "text": "MS2-A",
+        "dxfPath": "drawings/laser-marking/lm1-20261015/custom-motor-ms2-a-r2/编号面.dxf",
+        "sha256": "3b43e12847f156fb53d5a518d3310fa87a3e8ef8673fcba15a63a968ab7b8d9d",
+        "setupPdfPath": "drawings/ms2-r3-thru-20261020/MS2-A_R3-THRU_激光定位_TN1_20261026.pdf",
+        "setupPdfSha256": "6f0e96385f03eaa63475cf21b844357bc478ebafb2d9f1c6bd871d845b05f484"
+      }
+    ]
   },
   "revision": "R3-THRU",
   "sourceDxfPdfSha256": "d94fc4e991dd17b70d66939fadd9eaa82eeddb3e71a9fce5dcca07bfabb5e372",
@@ -62,17 +71,17 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/ms2-r3-thru-20261020/MS2-A_R3-THRU_加工与装配图_TN1_20261026.pdf",
         "previousSha256": "a989767bb46edd859210e513d89bbc1c39efbd2326a86f4eb17c0bf6ac8aa51d",
         "sha256": "d94fc4e991dd17b70d66939fadd9eaa82eeddb3e71a9fce5dcca07bfabb5e372"
       },
       {
-        "path": null,
+        "path": "assets/drawings/ms2-r3-thru-20261020/MS2-A_R3-THRU_激光定位_TN1_20261026.pdf",
         "previousSha256": "4b54f2922d43f27d956daade561f09d68a8cfe3fd086586dee1bb617c032c115",
         "sha256": "6f0e96385f03eaa63475cf21b844357bc478ebafb2d9f1c6bd871d845b05f484"
       },
       {
-        "path": null,
+        "path": "assets/drawings/ms2-r3-thru-20261020/MS2-A_R3-THRU_三视图_1to1_TN1_20261026.dxf",
         "previousSha256": "08379d84dec41feb2c61f7dda87b0312e4a8fba6a8951c4f54733659d5d9f47c",
         "sha256": "44fad22b90b2f1dda3fc68ee98fd9208410502b6db3dce8be90d66c9ef55477f"
       }

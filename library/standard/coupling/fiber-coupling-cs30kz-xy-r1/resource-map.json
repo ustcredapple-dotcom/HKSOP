@@ -25,6 +25,17 @@
       ]
     },
     {
+      "path": "drawings/e4cabe91945fb254c04fd85c3c51ac9e7829bb257dc75189dbc4e9f9140210ac.pdf",
+      "stored": "library/assets/sha256/e4/e4cabe91945fb254c04fd85c3c51ac9e7829bb257dc75189dbc4e9f9140210ac.pdf",
+      "sha256": "e4cabe91945fb254c04fd85c3c51ac9e7829bb257dc75189dbc4e9f9140210ac",
+      "originalReferences": [
+        "drawings/fiber-rear-dual-r3/FC-KZ-R3-A_assembly.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/e4/e4cabe91945fb254c04fd85c3c51ac9e7829bb257dc75189dbc4e9f9140210ac.pdf"
+      ]
+    },
+    {
       "path": "cad/e78cad6a31a00023bae3d039a820a4131d3fd66069639b2ab55c4a61e91d20da.step",
       "stored": "library/assets/sha256/e7/e78cad6a31a00023bae3d039a820a4131d3fd66069639b2ab55c4a61e91d20da.step",
       "sha256": "e78cad6a31a00023bae3d039a820a4131d3fd66069639b2ab55c4a61e91d20da",

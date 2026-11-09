@@ -1050,7 +1050,7 @@
     "revision": "R1-H12p5B4R2",
     "sourceExact": true,
     "nominalFixedPositionAssembly": true,
-    "drawingPath": null,
+    "drawingPath": "drawings/standard-post-h12p5-b4-r2/assemblies/QP1_AMP1R_装配说明_H12p5B4R2.pdf",
     "sourceDrawingSha256": "05a89db7f2babf115eeae53f54e5c3bfdfecc3817e51c0f13083159b068ce63a",
     "note": "源34实体名义零位；新增紧固件按BOM，非原生参数化机构。",
     "includeInBundle": true,

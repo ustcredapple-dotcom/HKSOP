@@ -408,7 +408,7 @@
     "stepPath": "step/i532v3-r3/I532V3_R3_H62p5_CLOSED.step",
     "sourceStepSha256": "9735eaec1511006e16d380f1ed905e5c4ec1a75aa58a22fbe96588360b52dc45",
     "sha256": "9735eaec1511006e16d380f1ed905e5c4ec1a75aa58a22fbe96588360b52dc45",
-    "drawingPath": null,
+    "drawingPath": "drawings/i532v3-r3/I532V3_R3_五片螺丝拼板遮光外壳图册.pdf",
     "sourceDrawingSha256": "67c1ec54ad42def2e4652fbe4d086ecc589d04a91f1ab3a01d1638430f484369",
     "sourceExact": true,
     "includeInBundle": true,

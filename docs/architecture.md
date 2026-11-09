@@ -1,11 +1,13 @@
-# Architecture
+# 架构说明
 
-本地精选副本沿用HKSOP的engine/library/skills/projects架构。库源定义为独立元件包，由registry统一登记；catalog、entity-index、package-index、HTML目录和runtime由编译器生成。
+[English](architecture.en.md)
 
-标准包采用现有standard/modules分类；采购件取已发布共用components目录。按结构化BOM、板型和共同协议参数收齐依赖，再加入一分三和DoublePass实例引用的定义。custom目录不按整目录复制，保留集合见selection.json。
+本精选副本沿用 HKSOP 的 engine/library/skills/projects 架构。元件定义放在独立包中，由 registry 登记；catalog、entity-index、package-index、HTML 目录和 runtime 由编译器生成。
 
-STEP和俯视图按SHA256去重，包内只建立根目录内部相对链接。项目示例引用元件库，不重复保存项目模型、加工包和历史JSON。
+标准包沿用 standard/modules 分类，共用采购与制造件放在 components。按结构化 BOM、板型和共同协议参数收齐依赖，并加入一分三和 DoublePass 示例需要的定制定义；不是整目录复制所有 custom 内容。准确范围见 selection.json。
 
-图纸缺省是本次分发范围，不等于原设计没有图纸或已经具备完整加工交付。未提供的图纸路径不作为可下载资源发布。
+当前元件的 STEP、俯视图、三视图、加工图和打标资料按 SHA256 去重，包内提供根目录内部相对链接。项目示例引用库资源，不重复保存整套项目模型、加工包和历史工程。
 
-本地生成的runtime、_build和解释器配置不作为后续Git源文件。GitHub分发保持私有，STEP和俯视渲染随源文件提交。
+2026-11-09 用户扩大了分发范围，允许把所选元件对应的现用图纸加入私有仓库。资料沿用原修订与验收状态；复制和哈希校验不等于新完成制造审图。当前恢复范围见 cad-restoration.json。
+
+本机 runtime、_build 和解释器配置不作为 Git 源文件。GitHub 仓库保持私有，当前元件的模型、俯视资源和配套图纸随源码提交。

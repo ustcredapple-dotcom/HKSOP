@@ -1,5 +1,7 @@
 # 新元件入库
 
+[English](component-intake.en.md)
+
 1. 在独立工作目录准备一个包。用稳定英文 packageId；名称、厂家、型号可以中文。标准和定制使用同一外壳协议，内部参数仍必须如实声明。
 2. 填写 package.json，登记 components、kits 或 registeredBoards 的记录。零件描述采购/制造信息；套件引用零件 BOM，保存机械接口、真实光学面、摆放和交互；板型保存真实孔位及版本。
 3. 同一器件的多种安装角度使用 common.json 与 variants。公共数据只合并逐字段完全相同的内容；不同底座、接口或真实光学面不能靠旋转示意图替代。

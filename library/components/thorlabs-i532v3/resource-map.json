@@ -12,6 +12,17 @@
       "sources": [
         "library/assets/sha256/48/48f9ef62a04a3ada018d0b2dbe0a219b36b35a94f1c64c6d08c39b4a4864698d.step"
       ]
+    },
+    {
+      "path": "drawings/cd913f1f068a62893a898dc944d8501e2fa4d759497864dc3b175365e69623f8.pdf",
+      "stored": "library/assets/sha256/cd/cd913f1f068a62893a898dc944d8501e2fa4d759497864dc3b175365e69623f8.pdf",
+      "sha256": "cd913f1f068a62893a898dc944d8501e2fa4d759497864dc3b175365e69623f8",
+      "originalReferences": [
+        "drawings/i532v3-r3/I532V3-E0W.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/cd/cd913f1f068a62893a898dc944d8501e2fa4d759497864dc3b175365e69623f8.pdf"
+      ]
     }
   ],
   "dependencies": []

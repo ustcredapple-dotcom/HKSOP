@@ -796,7 +796,7 @@
     "sourceExact": true,
     "nominalFixedPositionAssembly": true,
     "includeInBundle": true,
-    "drawingPath": null,
+    "drawingPath": "drawings/xbk-objectives-forward-r3/XBK_R3_前伸总装审核图册_TN1_20261026.pdf",
     "sourceDrawingSha256": "acff68e3f1457a9c59bea72dca484703c20a9e71fbfe12e4039755ea945024ae",
     "note": "110叶件完整总装；原厂台64叶件、上部46叶件；新安装五金按BOM，不伪造原生运动配合。"
   },
@@ -1332,7 +1332,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/xbk-objectives-forward-r3/XBK_R3_前伸总装审核图册_TN1_20261026.pdf",
         "previousSha256": "d9d8dedda390b092e3897cab6bcb575f7b58c754eaba6a92a2dac7cd046c6d8e",
         "sha256": "acff68e3f1457a9c59bea72dca484703c20a9e71fbfe12e4039755ea945024ae"
       }

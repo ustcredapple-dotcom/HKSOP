@@ -14,6 +14,17 @@
       ]
     },
     {
+      "path": "drawings/97e4af3b88bcca294fe1c1b23d6a61e1f5b5a3412bc8ba785825420f0f12ff62.pdf",
+      "stored": "library/assets/sha256/97/97e4af3b88bcca294fe1c1b23d6a61e1f5b5a3412bc8ba785825420f0f12ff62.pdf",
+      "sha256": "97e4af3b88bcca294fe1c1b23d6a61e1f5b5a3412bc8ba785825420f0f12ff62",
+      "originalReferences": [
+        "drawings/manual-stage-r1-a7075/ZZLab_手动位移台模块化小面包板_工程图册_R1-A7075.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/97/97e4af3b88bcca294fe1c1b23d6a61e1f5b5a3412bc8ba785825420f0f12ff62.pdf"
+      ]
+    },
+    {
       "path": "cad/a3a945b8fc89e87df827ed0fee44d54a4c6e6f5b5285dc915fb267d0b303fab9.step",
       "stored": "library/assets/sha256/a3/a3a945b8fc89e87df827ed0fee44d54a4c6e6f5b5285dc915fb267d0b303fab9.step",
       "sha256": "a3a945b8fc89e87df827ed0fee44d54a4c6e6f5b5285dc915fb267d0b303fab9",

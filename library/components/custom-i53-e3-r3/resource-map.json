@@ -12,6 +12,39 @@
       "sources": [
         "library/assets/sha256/38/3898a8b2dc190449ce59680eb50bbaad9dc7935513bd4abf3c4253a9df8671a6.step"
       ]
+    },
+    {
+      "path": "drawings/4f1100b41c397772cc50a4c3200bb55a06c63ea2c3cc9422453d16c786ee1d2c.dxf",
+      "stored": "library/assets/sha256/4f/4f1100b41c397772cc50a4c3200bb55a06c63ea2c3cc9422453d16c786ee1d2c.dxf",
+      "sha256": "4f1100b41c397772cc50a4c3200bb55a06c63ea2c3cc9422453d16c786ee1d2c",
+      "originalReferences": [
+        "drawings/laser-marking/i532v3-r3/I53-E3_R3_MARK.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/4f/4f1100b41c397772cc50a4c3200bb55a06c63ea2c3cc9422453d16c786ee1d2c.dxf"
+      ]
+    },
+    {
+      "path": "drawings/67c1ec54ad42def2e4652fbe4d086ecc589d04a91f1ab3a01d1638430f484369.pdf",
+      "stored": "library/assets/sha256/67/67c1ec54ad42def2e4652fbe4d086ecc589d04a91f1ab3a01d1638430f484369.pdf",
+      "sha256": "67c1ec54ad42def2e4652fbe4d086ecc589d04a91f1ab3a01d1638430f484369",
+      "originalReferences": [
+        "drawings/i532v3-r3/I532V3_R3_五片螺丝拼板遮光外壳图册.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/67/67c1ec54ad42def2e4652fbe4d086ecc589d04a91f1ab3a01d1638430f484369.pdf"
+      ]
+    },
+    {
+      "path": "drawings/9994045e07b6d1bd1d940fd5c406437f22ff351396c057bcace4a3c4ca06e94f.pdf",
+      "stored": "library/assets/sha256/99/9994045e07b6d1bd1d940fd5c406437f22ff351396c057bcace4a3c4ca06e94f.pdf",
+      "sha256": "9994045e07b6d1bd1d940fd5c406437f22ff351396c057bcace4a3c4ca06e94f",
+      "originalReferences": [
+        "drawings/laser-marking/i532v3-r3/I53-E3_R3_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/99/9994045e07b6d1bd1d940fd5c406437f22ff351396c057bcace4a3c4ca06e94f.pdf"
+      ]
     }
   ],
   "dependencies": []

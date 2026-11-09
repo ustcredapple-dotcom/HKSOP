@@ -8,7 +8,7 @@
   "notes": "M1公制修订；虹膜叶片缺失于厂家CAD，叶片作用面待确认。。实物试装未完成。",
   "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/f67a7160b86c862038086176",
   "stepPath": "step/metric-m1-20261006/06-IRIS-L_METRIC_M1.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/metric-m1-20261006/06-IRIS-L_M1_加工工程图_TN1_20261026.pdf",
   "sourceStepSha256": "8f779ab4f84e314298f56b253567486733fb5aa032bf7a6e75d20d69c07f873b",
   "productionReady": false,
   "manufacturingSpec": {
@@ -21,7 +21,7 @@
   },
   "drawingRevision": "M1",
   "drawingStatus": "engineering-review",
-  "dxfPath": null,
+  "dxfPath": "drawings/metric-m1-20261006/06-IRIS-L_M1_加工工程图_TN1_20261026.dxf",
   "manufacturingEvidence": {
     "sourcePackage": null,
     "sourceCode": "06-IRIS-L",
@@ -44,7 +44,7 @@
   },
   "sourceDrawingSha256": "c9d2d76a33d67163c00061e834c288d7fb774150425dd9402d45a35dfc8378af",
   "sourceDxfSha256": "0c63b379640921694c3e2c17835a96b259da9e7c62fbd62001436d91bc23ab69",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/metric-m1-20261006/06-IRIS-L_M1_加工工程图_DXF_TN1_20261026.pdf",
   "dxfPdfSha256": "a30dc0c3276ff4d34ce386feda147e5d5a72862354c50292e7702843082efaee",
   "drawingPages": [
     1,
@@ -80,8 +80,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "06-IRIS-L",
+        "dxfPath": "drawings/laser-marking/new-iris-adapter-1/编号面_-Y.dxf",
+        "sha256": "fc121aaa31d98ae7d9302dc5ef3095f3ce25ac2260426461be7c3f09cc7d4a06",
+        "setupPdfPath": "drawings/laser-marking/new-iris-adapter-1/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "b277431c7368782dee256bba7d24078b299d9fee03160eae3b1dd241cd369125"
+      }
+    ]
   },
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -89,27 +98,27 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/metric-m1-20261006/06-IRIS-L_M1_加工工程图_TN1_20261026.pdf",
         "previousSha256": "33aeeddb68dc03d713a19f324ed39427234a72df22443d652c1ff0b1b06267e9",
         "sha256": "c9d2d76a33d67163c00061e834c288d7fb774150425dd9402d45a35dfc8378af"
       },
       {
-        "path": null,
+        "path": "assets/drawings/2026-10-04_R6定制件/06-IRIS-L_R6_加工工程图_TN1_20261026.pdf",
         "previousSha256": "6acd2876a62abd160f7f447473c126bd0dc41d4bf0a96c805edda65921fa21c3",
         "sha256": "19732996eff0348240040a8247997c91b98417e5c328b7daac37d16af3711bd7"
       },
       {
-        "path": null,
+        "path": "assets/drawings/metric-m1-20261006/06-IRIS-L_M1_加工工程图_DXF_TN1_20261026.pdf",
         "previousSha256": "48d3c686a410a0455da2eea59337beaac908f9e9ad9747daa954191a04b025eb",
         "sha256": "a30dc0c3276ff4d34ce386feda147e5d5a72862354c50292e7702843082efaee"
       },
       {
-        "path": null,
+        "path": "assets/drawings/metric-m1-20261006/06-IRIS-L_M1_加工工程图_TN1_20261026.dxf",
         "previousSha256": "c0d09f14ef4f6ea23295ed29459cb1793b7e8bb79a825e5991f3eb5489f95fb6",
         "sha256": "0c63b379640921694c3e2c17835a96b259da9e7c62fbd62001436d91bc23ab69"
       },
       {
-        "path": null,
+        "path": "assets/drawings/2026-10-04_R6定制件/06-IRIS-L_R6_加工工程图_TN1_20261026.dxf",
         "previousSha256": "e30e3a0cb8c11fec24369e6ea45688ca40d056e39da9773f59255db476db0d94",
         "sha256": "f82262ffae83811a014febbd291706b0af3e7134b4c77295c95fadadda1a610e"
       }

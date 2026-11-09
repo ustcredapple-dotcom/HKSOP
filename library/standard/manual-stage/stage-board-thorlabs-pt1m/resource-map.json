@@ -3,6 +3,17 @@
   "packageId": "stage-board-thorlabs-pt1m",
   "files": [
     {
+      "path": "drawings/288b9d682ff7137397e93d9d893b75dd5da378cbf4e6040f96f3aab6ae10e634.pdf",
+      "stored": "library/assets/sha256/28/288b9d682ff7137397e93d9d893b75dd5da378cbf4e6040f96f3aab6ae10e634.pdf",
+      "sha256": "288b9d682ff7137397e93d9d893b75dd5da378cbf4e6040f96f3aab6ae10e634",
+      "originalReferences": [
+        "drawings/pt1m-direct-mount-r2/PT1M_DIRECT_R2_installation.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/28/288b9d682ff7137397e93d9d893b75dd5da378cbf4e6040f96f3aab6ae10e634.pdf"
+      ]
+    },
+    {
       "path": "rendering/378385a0daee98ab350b6610705af8f1a53770cda59c015f917eeb54c266cd00.svg",
       "stored": "library/assets/sha256/37/378385a0daee98ab350b6610705af8f1a53770cda59c015f917eeb54c266cd00.svg",
       "sha256": "378385a0daee98ab350b6610705af8f1a53770cda59c015f917eeb54c266cd00",

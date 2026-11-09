@@ -12,6 +12,17 @@
       "sources": [
         "library/assets/sha256/14/142cac65dd0c2b5434aa82e619aefa7e7708aeae6c9e5ccc27080a95e161af00.step"
       ]
+    },
+    {
+      "path": "drawings/4dd337188e211cc089bc92d27ccd0a0be9e8957ce1f068185c6d1beb4bdff65f.pdf",
+      "stored": "library/assets/sha256/4d/4dd337188e211cc089bc92d27ccd0a0be9e8957ce1f068185c6d1beb4bdff65f.pdf",
+      "sha256": "4dd337188e211cc089bc92d27ccd0a0be9e8957ce1f068185c6d1beb4bdff65f",
+      "originalReferences": [
+        "drawings/txy1s-fixed-r5/vendor/TXY1S.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/4d/4dd337188e211cc089bc92d27ccd0a0be9e8957ce1f068185c6d1beb4bdff65f.pdf"
+      ]
     }
   ],
   "dependencies": []

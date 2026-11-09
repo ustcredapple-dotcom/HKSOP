@@ -1925,7 +1925,7 @@
   "assemblyReference": {
     "stepPath": "step/standard-post-h12p5-b4-r2/assemblies/suruga-xyz-motor-2in-left-r2__H12p5_B4_R2.step",
     "sourceStepSha256": "77b049cc082381d7cbc55ad2e2d799f45f5d38eb220c10b1b65f26ba3c43f968",
-    "drawingPath": null,
+    "drawingPath": "drawings/standard-post-h12p5-b4-r2/assemblies/XYZ三轴位移台_总装与安装说明_20261015_TN1_20261026_H12p5B4R2.pdf",
     "sourceDrawingSha256": "1593100511b0af9b5cd87c3eb59a9b8649760c25d1c827b93fa90f82347c7088",
     "note": "Independent complete assembly reference; not a single-part machining model or certified motion assembly.",
     "revision": "R2-ZPANEL-R2-B6R1-H12p5B4R2",
@@ -1936,7 +1936,7 @@
     "cloudStatus": "frozen-independent-assembly-readback-pending"
   },
   "updateAtlasReference": {
-    "drawingPath": null,
+    "drawingPath": "drawings/xyz-left-and-standard-mt-r2/32_本次更新图册_R2.pdf",
     "sourceDrawingSha256": "f29ed779ecd33744f4d88e104bf2d329372cf2d58c9bc50580fd0d9eaf2894c6",
     "scope": "This-delivery update atlas; new items documented independently from the existing full library."
   },
@@ -2125,7 +2125,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/combined-r1-20261015/2/XYZ三轴位移台_总装与安装说明_20261015_TN1_20261026.pdf",
         "previousSha256": "404fff35ed8760978fc02bc5557389b63fcf1ca91078ab3791ca9ea6bf537324",
         "sha256": "1593100511b0af9b5cd87c3eb59a9b8649760c25d1c827b93fa90f82347c7088"
       }

@@ -16,9 +16,6 @@ __pycache__/
 *.sqlite*
 .env
 .env.*
-# Excluded by the current distribution scope
-*.[pP][dD][fF]
-*.[dD][xX][fF]
-*.[dD][wW][gG]
+# Full project delivery archives remain outside this curated edition
 *.[zZ][iI][pP]
 *.[7][zZ]

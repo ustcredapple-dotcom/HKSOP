@@ -7,19 +7,19 @@
   "unit": "件",
   "stepPath": "step/camera-ls75-h75-r2/36-LS75-A_R1.step",
   "sourceStepSha256": "1512675d1b464036e407d6afdaf4e39175daca309ff5fc576a985e8a578b85f9",
-  "drawingPath": null,
+  "drawingPath": "drawings/camera-ls75-h75-r2/两相机_LS75_H75_R2_加工与装配审核.pdf",
   "sourceDrawingSha256": "14838a95a1f83e6492de3009aa60ded0aae8cc87f1e65465f398ee8f4779002e",
   "drawingPage": 1,
   "drawingViews": [
     {
       "view": "36-LS75-A_R1_TOP_1to1",
-      "dxfPath": null,
-      "dxfPdfPath": null,
+      "dxfPath": "drawings/camera-ls75-h75-r2/36-LS75-A_R1_TOP_1to1.dxf",
+      "dxfPdfPath": "drawings/camera-ls75-h75-r2/两相机_LS75_H75_R2_加工与装配审核.pdf",
       "notes": "1:1几何投影；完整尺寸及工艺以同修订PDF指定页为准。"
     }
   ],
-  "dxfPath": null,
-  "dxfPdfPath": null,
+  "dxfPath": "drawings/camera-ls75-h75-r2/36-LS75-A_R1_TOP_1to1.dxf",
+  "dxfPdfPath": "drawings/camera-ls75-h75-r2/两相机_LS75_H75_R2_加工与装配审核.pdf",
   "dxfPdfSha256": "14838a95a1f83e6492de3009aa60ded0aae8cc87f1e65465f398ee8f4779002e",
   "productionReady": false,
   "drawingStatus": "engineering-review",
@@ -40,8 +40,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "自制件身份标识",
-    "notes": "字高2.5，图示局部左下(-14,-68)。HQ局部Z8/世界Z34，A65局部Z9/世界Z35；A65冻结单件STEP本身Z26..35，不改变源坐标。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "字高2.5，图示局部左下(-14,-68)。HQ局部Z8/世界Z34，A65局部Z9/世界Z35；A65冻结单件STEP本身Z26..35，不改变源坐标。",
+    "files": [
+      {
+        "text": "36-LS75-A",
+        "face": "顶面；具体面见同修订加工图第1页",
+        "dxfPath": "drawings/laser-marking/camera-ls75-h75-r2/36-LS75-A_R1_激光_1to1.dxf",
+        "sha256": "5c9e4a6ecb7bbfb35cf4f401551410fcc3e1cca721293ee43f80e6eec54f4095",
+        "setupPdfPath": "drawings/camera-ls75-h75-r2/两相机_LS75_H75_R2_加工与装配审核.pdf",
+        "setupPdfSha256": "14838a95a1f83e6492de3009aa60ded0aae8cc87f1e65465f398ee8f4779002e"
+      }
+    ]
   },
   "notes": "鑫图75.7×140×9平板；4×M4×8从底面锁相机；原双柱方案后垫片不用于本套。 图纸PDF第1页；DXF为未带完整标注的几何投影，不替代PDF加工图。"
 }

@@ -3,6 +3,39 @@
   "packageId": "new-aom-adapter-1",
   "files": [
     {
+      "path": "drawings/22810694139ccb6c9ecf9738e1fc8819b0ce926523985f709481b470d70149c4.dxf",
+      "stored": "library/assets/sha256/22/22810694139ccb6c9ecf9738e1fc8819b0ce926523985f709481b470d70149c4.dxf",
+      "sha256": "22810694139ccb6c9ecf9738e1fc8819b0ce926523985f709481b470d70149c4",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/08-AOM-B_M1_加工工程图.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/22/22810694139ccb6c9ecf9738e1fc8819b0ce926523985f709481b470d70149c4.dxf"
+      ]
+    },
+    {
+      "path": "drawings/4cc9a1065f10e6edf6dc65f404bef3b3f818f02899d2e41b2199d743d4245b2b.dxf",
+      "stored": "library/assets/sha256/4c/4cc9a1065f10e6edf6dc65f404bef3b3f818f02899d2e41b2199d743d4245b2b.dxf",
+      "sha256": "4cc9a1065f10e6edf6dc65f404bef3b3f818f02899d2e41b2199d743d4245b2b",
+      "originalReferences": [
+        "drawings/laser-marking/new-aom-adapter-1/编号面_-Y.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/4c/4cc9a1065f10e6edf6dc65f404bef3b3f818f02899d2e41b2199d743d4245b2b.dxf"
+      ]
+    },
+    {
+      "path": "drawings/5378dcb2760b5257e7789c3d04f5b80590fd1d27d6f31a5776954a56ca7ff5e0.pdf",
+      "stored": "library/assets/sha256/53/5378dcb2760b5257e7789c3d04f5b80590fd1d27d6f31a5776954a56ca7ff5e0.pdf",
+      "sha256": "5378dcb2760b5257e7789c3d04f5b80590fd1d27d6f31a5776954a56ca7ff5e0",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/08-AOM-B_M1_加工工程图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/53/5378dcb2760b5257e7789c3d04f5b80590fd1d27d6f31a5776954a56ca7ff5e0.pdf"
+      ]
+    },
+    {
       "path": "cad/724b16df042c5174282972d24cc76565caf1d12fc37d46428e243dc86cb7ab21.step",
       "stored": "library/assets/sha256/72/724b16df042c5174282972d24cc76565caf1d12fc37d46428e243dc86cb7ab21.step",
       "sha256": "724b16df042c5174282972d24cc76565caf1d12fc37d46428e243dc86cb7ab21",
@@ -11,6 +44,28 @@
       ],
       "sources": [
         "library/assets/sha256/72/724b16df042c5174282972d24cc76565caf1d12fc37d46428e243dc86cb7ab21.step"
+      ]
+    },
+    {
+      "path": "drawings/88387da2821236b608361537b93277d74b0b3dc9e86934fb318c9360f6d57ca5.pdf",
+      "stored": "library/assets/sha256/88/88387da2821236b608361537b93277d74b0b3dc9e86934fb318c9360f6d57ca5.pdf",
+      "sha256": "88387da2821236b608361537b93277d74b0b3dc9e86934fb318c9360f6d57ca5",
+      "originalReferences": [
+        "drawings/laser-marking/new-aom-adapter-1/编号面_-Y_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/88/88387da2821236b608361537b93277d74b0b3dc9e86934fb318c9360f6d57ca5.pdf"
+      ]
+    },
+    {
+      "path": "drawings/e42d981150a7d04cfeea99d49287f2e88a895a1d43b2ec1926293daac9163d54.pdf",
+      "stored": "library/assets/sha256/e4/e42d981150a7d04cfeea99d49287f2e88a895a1d43b2ec1926293daac9163d54.pdf",
+      "sha256": "e42d981150a7d04cfeea99d49287f2e88a895a1d43b2ec1926293daac9163d54",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/08-AOM-B_M1_加工工程图_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/e4/e42d981150a7d04cfeea99d49287f2e88a895a1d43b2ec1926293daac9163d54.pdf"
       ]
     }
   ],

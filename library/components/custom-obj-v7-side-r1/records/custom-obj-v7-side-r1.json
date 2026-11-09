@@ -11,7 +11,7 @@
   "manufacturingStatus": "review-required",
   "stepPath": "step/objective-ac-r1/OBJ-V7-S_R1.step",
   "sourceStepSha256": "ba79ef50cb49c60deec50a0c86a341a5b5e5de4b851d72fbc7c0b4d92765efb4",
-  "drawingPath": null,
+  "drawingPath": "drawings/objective-ac-r1/OBJ-V7-S_R1.pdf",
   "sourceDrawingSha256": "32f2adbd0b00e75a994577aee5ba6b7bb26642a827e0c1513d3b5fcc5f5bafe1",
   "drawingPages": [
     1
@@ -23,8 +23,17 @@
   },
   "laserMarking": {
     "status": "required",
-    "notes": "激光打标；图面U=19.5-Y，V=Z，字高1.6；无铣刻深度。工艺待首件确认。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标；图面U=19.5-Y，V=Z，字高1.6；无铣刻深度。工艺待首件确认。",
+    "files": [
+      {
+        "face": "外侧面 local X=0",
+        "text": "OBJ-V7-S R1",
+        "dxfPath": "drawings/objective-ac-r1/OBJ-V7-S_R1_laser.dxf",
+        "sha256": "d6085d7b4ac66afc4d04bbb9eba7134cdcc9ed9c63a463ccbb9eb9cfc6d1d329",
+        "setupPdfPath": "drawings/objective-ac-r1/OBJ-V7-S_R1_laser.pdf",
+        "setupPdfSha256": "383c0a326829be424403feae979e0b7ecd382450d9e7802b6d725cdbf65668c6"
+      }
+    ]
   },
   "notes": "仅本新板为新增加工件；不得用原V7高度侧板替换。"
 }

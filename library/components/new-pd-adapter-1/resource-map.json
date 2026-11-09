@@ -3,6 +3,61 @@
   "packageId": "new-pd-adapter-1",
   "files": [
     {
+      "path": "drawings/43e8fe8cb9a6994b26978333c54a9a13d1977b93f7e3eecabf96ac314b865398.dxf",
+      "stored": "library/assets/sha256/43/43e8fe8cb9a6994b26978333c54a9a13d1977b93f7e3eecabf96ac314b865398.dxf",
+      "sha256": "43e8fe8cb9a6994b26978333c54a9a13d1977b93f7e3eecabf96ac314b865398",
+      "originalReferences": [
+        "drawings/laser-marking/new-pd-adapter-1/编号面_-Y.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/43/43e8fe8cb9a6994b26978333c54a9a13d1977b93f7e3eecabf96ac314b865398.dxf"
+      ]
+    },
+    {
+      "path": "drawings/981941b288759a1b0a3a230947693a0b333178a53faa5b8b9093412e47bb3412.dxf",
+      "stored": "library/assets/sha256/98/981941b288759a1b0a3a230947693a0b333178a53faa5b8b9093412e47bb3412.dxf",
+      "sha256": "981941b288759a1b0a3a230947693a0b333178a53faa5b8b9093412e47bb3412",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/03-PD_M1_加工工程图.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/98/981941b288759a1b0a3a230947693a0b333178a53faa5b8b9093412e47bb3412.dxf"
+      ]
+    },
+    {
+      "path": "drawings/a2074c3df5f94b8897fb215f3358f483134bc92914d359132c7e16837f58fbba.pdf",
+      "stored": "library/assets/sha256/a2/a2074c3df5f94b8897fb215f3358f483134bc92914d359132c7e16837f58fbba.pdf",
+      "sha256": "a2074c3df5f94b8897fb215f3358f483134bc92914d359132c7e16837f58fbba",
+      "originalReferences": [
+        "drawings/laser-marking/new-pd-adapter-1/编号面_-Y_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/a2/a2074c3df5f94b8897fb215f3358f483134bc92914d359132c7e16837f58fbba.pdf"
+      ]
+    },
+    {
+      "path": "drawings/aaa5118df3a9c1d742e127feb1755c28c0134e5a4198dfe6a083206cd620ed5b.pdf",
+      "stored": "library/assets/sha256/aa/aaa5118df3a9c1d742e127feb1755c28c0134e5a4198dfe6a083206cd620ed5b.pdf",
+      "sha256": "aaa5118df3a9c1d742e127feb1755c28c0134e5a4198dfe6a083206cd620ed5b",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/03-PD_M1_加工工程图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/aa/aaa5118df3a9c1d742e127feb1755c28c0134e5a4198dfe6a083206cd620ed5b.pdf"
+      ]
+    },
+    {
+      "path": "drawings/b8b5e810b0c551b1fad6dc526d0cf396f63915cf3796733f508ba231aef07068.pdf",
+      "stored": "library/assets/sha256/b8/b8b5e810b0c551b1fad6dc526d0cf396f63915cf3796733f508ba231aef07068.pdf",
+      "sha256": "b8b5e810b0c551b1fad6dc526d0cf396f63915cf3796733f508ba231aef07068",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/03-PD_M1_加工工程图_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/b8/b8b5e810b0c551b1fad6dc526d0cf396f63915cf3796733f508ba231aef07068.pdf"
+      ]
+    },
+    {
       "path": "cad/e81155ef71b495079c515b5d04cb150b86b388e615f7b8cf285220e1331f9381.step",
       "stored": "library/assets/sha256/e8/e81155ef71b495079c515b5d04cb150b86b388e615f7b8cf285220e1331f9381.step",
       "sha256": "e81155ef71b495079c515b5d04cb150b86b388e615f7b8cf285220e1331f9381",

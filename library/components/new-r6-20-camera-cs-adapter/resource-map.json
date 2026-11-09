@@ -3,6 +3,61 @@
   "packageId": "new-r6-20-camera-cs-adapter",
   "files": [
     {
+      "path": "drawings/1f4c7655a0660ce7d5bc5b5e7f7a59668e899eeeec355e8050081ef8fc9717c9.dxf",
+      "stored": "library/assets/sha256/1f/1f4c7655a0660ce7d5bc5b5e7f7a59668e899eeeec355e8050081ef8fc9717c9.dxf",
+      "sha256": "1f4c7655a0660ce7d5bc5b5e7f7a59668e899eeeec355e8050081ef8fc9717c9",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/20-CAM-CS_M1_加工工程图.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/1f/1f4c7655a0660ce7d5bc5b5e7f7a59668e899eeeec355e8050081ef8fc9717c9.dxf"
+      ]
+    },
+    {
+      "path": "drawings/32a5a6b8cc28d5f9b5a7565a7451310cc244452f9b20129b73114a6e61d7f501.dxf",
+      "stored": "library/assets/sha256/32/32a5a6b8cc28d5f9b5a7565a7451310cc244452f9b20129b73114a6e61d7f501.dxf",
+      "sha256": "32a5a6b8cc28d5f9b5a7565a7451310cc244452f9b20129b73114a6e61d7f501",
+      "originalReferences": [
+        "drawings/laser-marking/new-r6-20-camera-cs-adapter/编号面_-Y.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/32/32a5a6b8cc28d5f9b5a7565a7451310cc244452f9b20129b73114a6e61d7f501.dxf"
+      ]
+    },
+    {
+      "path": "drawings/40386f7ea346f1915047506760ac9ac99dfa9991b3391fbed13649f8f9aeab6d.pdf",
+      "stored": "library/assets/sha256/40/40386f7ea346f1915047506760ac9ac99dfa9991b3391fbed13649f8f9aeab6d.pdf",
+      "sha256": "40386f7ea346f1915047506760ac9ac99dfa9991b3391fbed13649f8f9aeab6d",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/20-CAM-CS_M1_加工工程图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/40/40386f7ea346f1915047506760ac9ac99dfa9991b3391fbed13649f8f9aeab6d.pdf"
+      ]
+    },
+    {
+      "path": "drawings/4f8e6787e1d4282e1bf7f8bec492c912371238ac57923a175303e8c713e27493.pdf",
+      "stored": "library/assets/sha256/4f/4f8e6787e1d4282e1bf7f8bec492c912371238ac57923a175303e8c713e27493.pdf",
+      "sha256": "4f8e6787e1d4282e1bf7f8bec492c912371238ac57923a175303e8c713e27493",
+      "originalReferences": [
+        "drawings/laser-marking/new-r6-20-camera-cs-adapter/编号面_-Y_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/4f/4f8e6787e1d4282e1bf7f8bec492c912371238ac57923a175303e8c713e27493.pdf"
+      ]
+    },
+    {
+      "path": "drawings/aed0d9a9482959e91587a297dd82fca7d741df2552dd22cebd748f95646bf6a9.pdf",
+      "stored": "library/assets/sha256/ae/aed0d9a9482959e91587a297dd82fca7d741df2552dd22cebd748f95646bf6a9.pdf",
+      "sha256": "aed0d9a9482959e91587a297dd82fca7d741df2552dd22cebd748f95646bf6a9",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/20-CAM-CS_M1_加工工程图_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/ae/aed0d9a9482959e91587a297dd82fca7d741df2552dd22cebd748f95646bf6a9.pdf"
+      ]
+    },
+    {
       "path": "cad/cb6e3e7ce6f7bf9e68e91f56b8a5985a55cb6bfc80f8bfa33e7828e6c37c37e0.step",
       "stored": "library/assets/sha256/cb/cb6e3e7ce6f7bf9e68e91f56b8a5985a55cb6bfc80f8bfa33e7828e6c37c37e0.step",
       "sha256": "cb6e3e7ce6f7bf9e68e91f56b8a5985a55cb6bfc80f8bfa33e7828e6c37c37e0",

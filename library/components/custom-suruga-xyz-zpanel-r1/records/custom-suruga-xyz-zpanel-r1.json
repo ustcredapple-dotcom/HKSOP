@@ -7,7 +7,7 @@
   "revision": "R2",
   "sourceUrl": "https://cad.onshape.com/documents/f27c450358652a0f5e13d2c6/v/d6ce1946cacbcb3d0517a374/e/510f20d0648132a2ba1fa6e5",
   "stepPath": "step/suruga-xyz-zpanel-r2/32-XYZ-Z_R2.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/suruga-xyz-zpanel-r2/32-XYZ-Z_R2_加工工程图_TN1_20261026.pdf",
   "drawingPages": [
     1,
     2,
@@ -52,8 +52,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "32-XYZ-Z",
+        "dxfPath": "drawings/laser-marking/custom-suruga-xyz-zpanel-r1/编号面_-Y.dxf",
+        "sha256": "839df5d8f61a4f20a7c89d7c0cae05b03f07491d6eb9a270252e04db4873afc8",
+        "setupPdfPath": "drawings/laser-marking/custom-suruga-xyz-zpanel-r1/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "80897154ef3dfb29f9c1b779b35945d87e0f918caa46b08033bdb2aa13215ebc"
+      }
+    ]
   },
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -61,7 +70,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/suruga-xyz-zpanel-r2/32-XYZ-Z_R2_加工工程图_TN1_20261026.pdf",
         "previousSha256": "9b257f3ddbffd6b696ea5aa643cca397f12511641fbbc29810a4038c66c17699",
         "sha256": "cb07b15912cb42febe1b12a3f5a7b8ff95bf14c29f0b20a65ea29a0821cb9866"
       }

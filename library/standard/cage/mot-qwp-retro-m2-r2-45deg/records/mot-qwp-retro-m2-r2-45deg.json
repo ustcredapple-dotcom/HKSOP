@@ -971,7 +971,7 @@
     "nominalFixedPositionAssembly": true,
     "note": "51叶件完整静态总装；镜片为名义参考；4颗柱底M6在安装BOM中，未实体建入本独立总装。",
     "includeInBundle": true,
-    "drawingPath": null,
+    "drawingPath": "drawings/mot-ra-m2-r2/MOT-RA-M2_R2_两态装配说明.pdf",
     "sourceDrawingSha256": "4a261a257c5b6dff59781a0391e961828649c09fd7d3a8cf2344a97034b321ab"
   },
   "assemblyAssets": [],

@@ -10,7 +10,7 @@
   "status": "用户指定型号；当前共享源几何已核对，E实物接口待核对",
   "stepPath": "step/ls35x-lab-e-r1/vendor/LS35x.Lab_WebUser.step",
   "sourceStepSha256": "937fc7353cb051fdc482a7a2851fcdd66e9f52727f3493f45df221832613131f",
-  "drawingPath": null,
+  "drawingPath": "drawings/ls35x-lab-e-r1/vendor/MultiFields_RT_motion_manual_current.pdf",
   "sourceDrawingSha256": "c6060eb7d3e9b99dc1d7edddbe23dc55db84a069bfe614f4a5d79540982ac3ff",
   "drawingPages": [
     12

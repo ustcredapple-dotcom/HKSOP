@@ -25,6 +25,28 @@
       ]
     },
     {
+      "path": "drawings/5601046af153220f863531bb825d7cde234c004bc5e744be373d5d04c0166925.dxf",
+      "stored": "library/assets/sha256/56/5601046af153220f863531bb825d7cde234c004bc5e744be373d5d04c0166925.dxf",
+      "sha256": "5601046af153220f863531bb825d7cde234c004bc5e744be373d5d04c0166925",
+      "originalReferences": [
+        "drawings/iontrap-it200-direct-r7/IT200-DIRECT_R7_top_projection_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/56/5601046af153220f863531bb825d7cde234c004bc5e744be373d5d04c0166925.dxf"
+      ]
+    },
+    {
+      "path": "drawings/94ca4cf27fb86a1c92f9684966a8ccec47ac92b822b5017931a9871a81f4994c.dxf",
+      "stored": "library/assets/sha256/94/94ca4cf27fb86a1c92f9684966a8ccec47ac92b822b5017931a9871a81f4994c.dxf",
+      "sha256": "94ca4cf27fb86a1c92f9684966a8ccec47ac92b822b5017931a9871a81f4994c",
+      "originalReferences": [
+        "drawings/iontrap-it200-direct-r7/IT200-DIRECT_R7_bottom_projection_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/94/94ca4cf27fb86a1c92f9684966a8ccec47ac92b822b5017931a9871a81f4994c.dxf"
+      ]
+    },
+    {
       "path": "rendering/beed276093707610d30772a30659327e8eb4b4ee06568cf882bd087f16d613cf.svg",
       "stored": "library/assets/sha256/be/beed276093707610d30772a30659327e8eb4b4ee06568cf882bd087f16d613cf.svg",
       "sha256": "beed276093707610d30772a30659327e8eb4b4ee06568cf882bd087f16d613cf",
@@ -33,6 +55,28 @@
       ],
       "sources": [
         "library/assets/sha256/be/beed276093707610d30772a30659327e8eb4b4ee06568cf882bd087f16d613cf.svg"
+      ]
+    },
+    {
+      "path": "drawings/ced8920e7dcdcc54521a49a8f258ef94564085c622e2165450037f246d3619cd.dxf",
+      "stored": "library/assets/sha256/ce/ced8920e7dcdcc54521a49a8f258ef94564085c622e2165450037f246d3619cd.dxf",
+      "sha256": "ced8920e7dcdcc54521a49a8f258ef94564085c622e2165450037f246d3619cd",
+      "originalReferences": [
+        "drawings/iontrap-it200-direct-r7/IT200-DIRECT_R7_front_projection_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/ce/ced8920e7dcdcc54521a49a8f258ef94564085c622e2165450037f246d3619cd.dxf"
+      ]
+    },
+    {
+      "path": "drawings/d749c96b756074be6edd4d676aca095e9abb3bc7aecb39da78ff471b5de7870f.dxf",
+      "stored": "library/assets/sha256/d7/d749c96b756074be6edd4d676aca095e9abb3bc7aecb39da78ff471b5de7870f.dxf",
+      "sha256": "d749c96b756074be6edd4d676aca095e9abb3bc7aecb39da78ff471b5de7870f",
+      "originalReferences": [
+        "drawings/iontrap-it200-direct-r7/IT200-DIRECT_R7_right_projection_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/d7/d749c96b756074be6edd4d676aca095e9abb3bc7aecb39da78ff471b5de7870f.dxf"
       ]
     }
   ],

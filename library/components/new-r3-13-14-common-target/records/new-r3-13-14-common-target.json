@@ -8,7 +8,7 @@
   "notes": "M1公制修订；仅名义机械对准，实物装配和未注公差仍须验收。。实物试装未完成。",
   "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/d309fba8e88852ca6a4bcd32",
   "stepPath": "step/metric-m1-20261006/13-TGT_METRIC_M1.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/metric-m1-20261006/13-TGT_M1_加工工程图.pdf",
   "sourceStepSha256": "81a72f66320ecfeccd79025ed7918dac2ff6bfd1aa613668dce331349ff1aabe",
   "productionReady": false,
   "manufacturingSpec": {
@@ -21,7 +21,7 @@
   },
   "drawingRevision": "M1",
   "drawingStatus": "engineering-review",
-  "dxfPath": null,
+  "dxfPath": "drawings/metric-m1-20261006/13-TGT_M1_加工工程图.dxf",
   "manufacturingEvidence": {
     "sourcePackage": null,
     "sourceCode": "13-TGT",
@@ -44,7 +44,7 @@
   },
   "sourceDrawingSha256": "a1430fae7bdd7ad2b48ded789ad8331fcc44538d2ff886ccfb3de1c8a18b2138",
   "sourceDxfSha256": "7982cc97f7c3616ae73daedf058980db3a5760279912f00660013edcafcc221e",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/metric-m1-20261006/13-TGT_M1_加工工程图_DXF.pdf",
   "dxfPdfSha256": "36d1d7452e5b74b1420278d75c618e494dc715baa44b7e96dfa00fa3bcc90c10",
   "drawingPages": [
     1,
@@ -80,7 +80,24 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "13-TGT",
+        "dxfPath": "drawings/laser-marking/new-r3-13-14-common-target/编号面_-Y.dxf",
+        "sha256": "dccbff4e8f6700e3136afeb3ed2a364784f475f26a3e1d959b3e70294fc4f478",
+        "setupPdfPath": "drawings/laser-marking/new-r3-13-14-common-target/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "422ce7f8145cee480f03c6757263d4071597cf8a5ce49472610ce6f5ac8558b1"
+      },
+      {
+        "face": "functional_scale_-X",
+        "text": "62.5",
+        "dxfPath": "drawings/laser-marking/new-r3-13-14-common-target/functional_scale_-X.dxf",
+        "sha256": "339794896c336b6f271e2070576638ffb17fdd6dd6b25e34f7f4337ae9fa060a",
+        "setupPdfPath": "drawings/laser-marking/new-r3-13-14-common-target/functional_scale_-X_定位说明.pdf",
+        "setupPdfSha256": "3f73f6f48abeaa48a7dc10632a3eb49ffc6a2c091b798dece3a8a8250d54c481"
+      }
+    ]
   }
 }

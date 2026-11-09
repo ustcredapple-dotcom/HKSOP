@@ -3,6 +3,39 @@
   "packageId": "custom-06",
   "files": [
     {
+      "path": "drawings/16a0663f5547917e917f24ad82a92a784ea1a3ba64e94b91fcff86963995797e.dxf",
+      "stored": "library/assets/sha256/16/16a0663f5547917e917f24ad82a92a784ea1a3ba64e94b91fcff86963995797e.dxf",
+      "sha256": "16a0663f5547917e917f24ad82a92a784ea1a3ba64e94b91fcff86963995797e",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-06/编号面.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/16/16a0663f5547917e917f24ad82a92a784ea1a3ba64e94b91fcff86963995797e.dxf"
+      ]
+    },
+    {
+      "path": "drawings/1c29b8e6c754561bd9b43df74d6b4847d23c1fd6e8432dab3bc372642a2bbeaf.pdf",
+      "stored": "library/assets/sha256/1c/1c29b8e6c754561bd9b43df74d6b4847d23c1fd6e8432dab3bc372642a2bbeaf.pdf",
+      "sha256": "1c29b8e6c754561bd9b43df74d6b4847d23c1fd6e8432dab3bc372642a2bbeaf",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-06/编号面_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/1c/1c29b8e6c754561bd9b43df74d6b4847d23c1fd6e8432dab3bc372642a2bbeaf.pdf"
+      ]
+    },
+    {
+      "path": "drawings/29d069c0c46627e582691ffea6df4cdb648cb7cdf6e38cda8e772a8ccfc7e8f9.pdf",
+      "stored": "library/assets/sha256/29/29d069c0c46627e582691ffea6df4cdb648cb7cdf6e38cda8e772a8ccfc7e8f9.pdf",
+      "sha256": "29d069c0c46627e582691ffea6df4cdb648cb7cdf6e38cda8e772a8ccfc7e8f9",
+      "originalReferences": [
+        "drawings/original-metric-m1-20261006/custom-06_M1_公制加工审核图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/29/29d069c0c46627e582691ffea6df4cdb648cb7cdf6e38cda8e772a8ccfc7e8f9.pdf"
+      ]
+    },
+    {
       "path": "cad/300591dd76b0ca2547bc551ca868358eb6aea958bdd3308467ca4ae77511e250.step",
       "stored": "library/assets/sha256/30/300591dd76b0ca2547bc551ca868358eb6aea958bdd3308467ca4ae77511e250.step",
       "sha256": "300591dd76b0ca2547bc551ca868358eb6aea958bdd3308467ca4ae77511e250",

@@ -3,6 +3,17 @@
   "packageId": "custom-post-metric-62p5mm-m1",
   "files": [
     {
+      "path": "drawings/aa261054fe05101230d2fb1bc5bdd5499c76afb722e2dec7576380d97e497aa5.pdf",
+      "stored": "library/assets/sha256/aa/aa261054fe05101230d2fb1bc5bdd5499c76afb722e2dec7576380d97e497aa5.pdf",
+      "sha256": "aa261054fe05101230d2fb1bc5bdd5499c76afb722e2dec7576380d97e497aa5",
+      "originalReferences": [
+        "drawings/laser-marking/post-b6-r1/custom-post-metric-62p5mm-m1/custom-post-metric-62p5mm-m1_B6R1_side_laser_setup.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/aa/aa261054fe05101230d2fb1bc5bdd5499c76afb722e2dec7576380d97e497aa5.pdf"
+      ]
+    },
+    {
       "path": "cad/be4e7569ed0ce0adf4a1b1c0a8dde20a849fa4cca6a372c614340ec49adbd4d6.step",
       "stored": "library/assets/sha256/be/be4e7569ed0ce0adf4a1b1c0a8dde20a849fa4cca6a372c614340ec49adbd4d6.step",
       "sha256": "be4e7569ed0ce0adf4a1b1c0a8dde20a849fa4cca6a372c614340ec49adbd4d6",
@@ -11,6 +22,28 @@
       ],
       "sources": [
         "library/assets/sha256/be/be4e7569ed0ce0adf4a1b1c0a8dde20a849fa4cca6a372c614340ec49adbd4d6.step"
+      ]
+    },
+    {
+      "path": "drawings/bf50dca6ea7927b807dfd2446b0bf69633ffd1acb26d359d1d6da8b18f72a7fa.dxf",
+      "stored": "library/assets/sha256/bf/bf50dca6ea7927b807dfd2446b0bf69633ffd1acb26d359d1d6da8b18f72a7fa.dxf",
+      "sha256": "bf50dca6ea7927b807dfd2446b0bf69633ffd1acb26d359d1d6da8b18f72a7fa",
+      "originalReferences": [
+        "drawings/laser-marking/post-b6-r1/custom-post-metric-62p5mm-m1/custom-post-metric-62p5mm-m1_B6R1_side_laser.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/bf/bf50dca6ea7927b807dfd2446b0bf69633ffd1acb26d359d1d6da8b18f72a7fa.dxf"
+      ]
+    },
+    {
+      "path": "drawings/f78d9b50d1f0c51c044b7da5d99cdd212a68e5be3f88e91e8f5e58f0a21d83ba.pdf",
+      "stored": "library/assets/sha256/f7/f78d9b50d1f0c51c044b7da5d99cdd212a68e5be3f88e91e8f5e58f0a21d83ba.pdf",
+      "sha256": "f78d9b50d1f0c51c044b7da5d99cdd212a68e5be3f88e91e8f5e58f0a21d83ba",
+      "originalReferences": [
+        "drawings/universal-post-b6-r1/万能柱_H62.5mm_B6_R1_加工审核图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/f7/f78d9b50d1f0c51c044b7da5d99cdd212a68e5be3f88e91e8f5e58f0a21d83ba.pdf"
       ]
     }
   ],

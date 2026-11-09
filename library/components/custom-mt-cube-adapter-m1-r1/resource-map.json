@@ -3,6 +3,39 @@
   "packageId": "custom-mt-cube-adapter-m1-r1",
   "files": [
     {
+      "path": "drawings/459335f3adb45d61736dc3664c74f577963e975e226294461a22aa7ec75e2e0f.dxf",
+      "stored": "library/assets/sha256/45/459335f3adb45d61736dc3664c74f577963e975e226294461a22aa7ec75e2e0f.dxf",
+      "sha256": "459335f3adb45d61736dc3664c74f577963e975e226294461a22aa7ec75e2e0f",
+      "originalReferences": [
+        "drawings/mt-cube-module-r1/MCB-1R1-operations.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/45/459335f3adb45d61736dc3664c74f577963e975e226294461a22aa7ec75e2e0f.dxf"
+      ]
+    },
+    {
+      "path": "drawings/75ce1a96d3863a1c8dca1f49ab742aca0a309da039af081c97c5147a47d1d41c.pdf",
+      "stored": "library/assets/sha256/75/75ce1a96d3863a1c8dca1f49ab742aca0a309da039af081c97c5147a47d1d41c.pdf",
+      "sha256": "75ce1a96d3863a1c8dca1f49ab742aca0a309da039af081c97c5147a47d1d41c",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-mt-cube-adapter-m1-r1/编号面_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/75/75ce1a96d3863a1c8dca1f49ab742aca0a309da039af081c97c5147a47d1d41c.pdf"
+      ]
+    },
+    {
+      "path": "drawings/98b05260ecafd93f6b0b1168000770abb2c233023ce854f9bc4e291b0510f6d4.dxf",
+      "stored": "library/assets/sha256/98/98b05260ecafd93f6b0b1168000770abb2c233023ce854f9bc4e291b0510f6d4.dxf",
+      "sha256": "98b05260ecafd93f6b0b1168000770abb2c233023ce854f9bc4e291b0510f6d4",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-mt-cube-adapter-m1-r1/编号面.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/98/98b05260ecafd93f6b0b1168000770abb2c233023ce854f9bc4e291b0510f6d4.dxf"
+      ]
+    },
+    {
       "path": "cad/c689d2bb11fb451dbb4e5506b214e6f9b8a5c09cef5867f28503e93dfc96dc29.step",
       "stored": "library/assets/sha256/c6/c689d2bb11fb451dbb4e5506b214e6f9b8a5c09cef5867f28503e93dfc96dc29.step",
       "sha256": "c689d2bb11fb451dbb4e5506b214e6f9b8a5c09cef5867f28503e93dfc96dc29",
@@ -11,6 +44,28 @@
       ],
       "sources": [
         "library/assets/sha256/c6/c689d2bb11fb451dbb4e5506b214e6f9b8a5c09cef5867f28503e93dfc96dc29.step"
+      ]
+    },
+    {
+      "path": "drawings/cafe99af02f5888035c1255c5c659da5c29ee8c22fd1e4792882ea4e48ca6885.pdf",
+      "stored": "library/assets/sha256/ca/cafe99af02f5888035c1255c5c659da5c29ee8c22fd1e4792882ea4e48ca6885.pdf",
+      "sha256": "cafe99af02f5888035c1255c5c659da5c29ee8c22fd1e4792882ea4e48ca6885",
+      "originalReferences": [
+        "drawings/mt-cube-module-r1/MCB-1R1-operations_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/ca/cafe99af02f5888035c1255c5c659da5c29ee8c22fd1e4792882ea4e48ca6885.pdf"
+      ]
+    },
+    {
+      "path": "drawings/e2dc13977373a34e77df856466bfc8e25d11e96bee046abb74405057ca4765e0.pdf",
+      "stored": "library/assets/sha256/e2/e2dc13977373a34e77df856466bfc8e25d11e96bee046abb74405057ca4765e0.pdf",
+      "sha256": "e2dc13977373a34e77df856466bfc8e25d11e96bee046abb74405057ca4765e0",
+      "originalReferences": [
+        "drawings/mt-cube-module-r1/MCB-1R1-review.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/e2/e2dc13977373a34e77df856466bfc8e25d11e96bee046abb74405057ca4765e0.pdf"
       ]
     }
   ],

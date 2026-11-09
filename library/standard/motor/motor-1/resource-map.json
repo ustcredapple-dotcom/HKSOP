@@ -3,6 +3,17 @@
   "packageId": "motor-1",
   "files": [
     {
+      "path": "drawings/8297d4bcdc80c787f684227f185af20326727a973cd74a2c1d287ddac07cecbb.pdf",
+      "stored": "library/assets/sha256/82/8297d4bcdc80c787f684227f185af20326727a973cd74a2c1d287ddac07cecbb.pdf",
+      "sha256": "8297d4bcdc80c787f684227f185af20326727a973cd74a2c1d287ddac07cecbb",
+      "originalReferences": [
+        "drawings/ms2-r3-thru-20261020/motor-1-45_装配变更说明_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/82/8297d4bcdc80c787f684227f185af20326727a973cd74a2c1d287ddac07cecbb.pdf"
+      ]
+    },
+    {
       "path": "cad/ac5685abb016b2b76b687e929d79c0b8f83f2a21e65b59720ecd92ec53629892.step",
       "stored": "library/assets/sha256/ac/ac5685abb016b2b76b687e929d79c0b8f83f2a21e65b59720ecd92ec53629892.step",
       "sha256": "ac5685abb016b2b76b687e929d79c0b8f83f2a21e65b59720ecd92ec53629892",

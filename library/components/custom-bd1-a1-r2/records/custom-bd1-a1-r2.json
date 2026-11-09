@@ -9,7 +9,7 @@
   "drawingStatus": "engineering-review",
   "status": "工程审核版；未放行加工",
   "stepPath": "step/bd1-r2/BD1-A1_R2.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/bd1-r2/BD1_R2_加工与装配.pdf",
   "sourceStepSha256": "703fe5b5518543e082483ce4f821e7f7169c0d98f45409267173b106737551aa",
   "sourceDrawingSha256": "45568d1e02101eef7bde17fba1c0404a1790fbf2a5d867172b34b3d5c1bc7177",
   "manufacturingSpec": {
@@ -28,8 +28,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "新制件身份标识",
-    "notes": "PDF第3页为打标定位；Y=-21外侧面，字右+X、字顶+Z；DXF本面(X,Z)1:1。模型0.02浅痕仅示意，不要求铣刻。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "PDF第3页为打标定位；Y=-21外侧面，字右+X、字顶+Z；DXF本面(X,Z)1:1。模型0.02浅痕仅示意，不要求铣刻。",
+    "files": [
+      {
+        "face": "Y=-21 外侧面",
+        "text": "BD1-A1",
+        "dxfPath": "drawings/laser-marking/bd1-r2/BD1-A1_R2_laser.dxf",
+        "sha256": "fc5407469c4f7d8cc8d18cde762659f77fd270ab07aaa096b4f892a558f85325",
+        "setupPdfPath": "drawings/bd1-r2/BD1_R2_加工与装配.pdf",
+        "setupPdfSha256": "45568d1e02101eef7bde17fba1c0404a1790fbf2a5d867172b34b3d5c1bc7177"
+      }
+    ]
   },
   "notes": "销孔配合等级、螺纹等级与实物全行程待验。"
 }

@@ -10,7 +10,7 @@
   "status": "加工审核版；保持力和光学应力待试装",
   "sourceUrl": "https://cad.onshape.com/documents/10c8e5c8e9710143cb15d1ab/v/6e2be70a92a934705469593a/e/a24eaf20f04230d83c2ddb81",
   "stepPath": "step/thin-clamps-r3/H05-A3_R3.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/thin-clamps-r3/H05-H37p5_R3_薄头胶头机米加工与装配图_TN1_20261026.pdf",
   "manufacturingSpec": {
     "material": "316L 不锈钢",
     "surfaceTreatment": "去磁、钝化",
@@ -47,8 +47,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "H05-A3当前源字形和方向已绑定；1:1 DXF及定位PDF补齐。",
-    "notes": "激光打标，不铣刻。主体STEP及孔位保持；原凹深仅显示。实物已有相同标识不重复；参数须首件试样确认。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻。主体STEP及孔位保持；原凹深仅显示。实物已有相同标识不重复；参数须首件试样确认。",
+    "files": [
+      {
+        "face": "编号面_LM1",
+        "text": "H05-A3",
+        "dxfPath": "drawings/laser-marking/custom-h05-a3-r3/LM1_补齐.dxf",
+        "sha256": "e770ea3a590f85f4aabfca1511c480de0ee6b1b1f6ce3ecfc8a61c57bcbc7c8b",
+        "setupPdfPath": "drawings/laser-marking/custom-h05-a3-r3/LM1_补齐_定位.pdf",
+        "setupPdfSha256": "7c5e3fcbb32933181cf9be912bb7aae1e34479b12a7751341dd4bbe152dd889c"
+      }
+    ]
   },
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -56,7 +65,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/thin-clamps-r3/H05-H37p5_R3_薄头胶头机米加工与装配图_TN1_20261026.pdf",
         "previousSha256": "452cef2f77d61860a4819bb036a77f26fe8614225e23e806aa97606d571ccba7",
         "sha256": "a9840b5d14eef4b02f1bb6cde2673fa72f36393a2346e7cfc4c2d6d5445c14ed"
       }

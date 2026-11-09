@@ -96,7 +96,7 @@
   "assemblyReference": {
     "stepPath": "step/pt1m-direct-mount-r2/PT1M_DIRECT_R2_ASSEM.step",
     "sourceStepSha256": "f44af11b61f08b62eefb97e0e2288a627f893c864a73199ea3d490dec24bd696",
-    "drawingPath": null,
+    "drawingPath": "drawings/pt1m-direct-mount-r2/PT1M_DIRECT_R2_installation.pdf",
     "drawingPages": [
       1,
       2

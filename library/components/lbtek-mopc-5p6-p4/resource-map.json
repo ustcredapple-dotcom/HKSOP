@@ -3,6 +3,17 @@
   "packageId": "lbtek-mopc-5p6-p4",
   "files": [
     {
+      "path": "drawings/95846c8940341769502baadd91bfe74e28a07c785b3b5e14a06af7852fcd8b4b.pdf",
+      "stored": "library/assets/sha256/95/95846c8940341769502baadd91bfe74e28a07c785b3b5e14a06af7852fcd8b4b.pdf",
+      "sha256": "95846c8940341769502baadd91bfe74e28a07c785b3b5e14a06af7852fcd8b4b",
+      "originalReferences": [
+        "drawings/bd1-r2/MOPC-5.6_official.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/95/95846c8940341769502baadd91bfe74e28a07c785b3b5e14a06af7852fcd8b4b.pdf"
+      ]
+    },
+    {
       "path": "cad/d401f8ac61077aa93848f675f7dd57b82cac030f06a9fd99b980f6fccb1ef653.step",
       "stored": "library/assets/sha256/d4/d401f8ac61077aa93848f675f7dd57b82cac030f06a9fd99b980f6fccb1ef653.step",
       "sha256": "d401f8ac61077aa93848f675f7dd57b82cac030f06a9fd99b980f6fccb1ef653",

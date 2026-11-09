@@ -12,6 +12,17 @@
       "sources": [
         "library/assets/sha256/9b/9bea69316bc73972d221cd46cdbe04139dea7078c54a245f932cbed936bbf803.step"
       ]
+    },
+    {
+      "path": "drawings/e401505f0ca8da04fdd735b8e36335887200f00bb7897344f6ba148fae691d02.pdf",
+      "stored": "library/assets/sha256/e4/e401505f0ca8da04fdd735b8e36335887200f00bb7897344f6ba148fae691d02.pdf",
+      "sha256": "e401505f0ca8da04fdd735b8e36335887200f00bb7897344f6ba148fae691d02",
+      "originalReferences": [
+        "drawings/txy1s-fixed-r5/vendor/SM1-8A.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/e4/e401505f0ca8da04fdd735b8e36335887200f00bb7897344f6ba148fae691d02.pdf"
+      ]
     }
   ],
   "dependencies": []

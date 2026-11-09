@@ -3,6 +3,17 @@
   "packageId": "compact-beam-dump-pd-bd1-r4",
   "files": [
     {
+      "path": "drawings/950790810c6a8a65fd5264277598606b015e9f50514d3caf4e97c1f6864f8e90.pdf",
+      "stored": "library/assets/sha256/95/950790810c6a8a65fd5264277598606b015e9f50514d3caf4e97c1f6864f8e90.pdf",
+      "sha256": "950790810c6a8a65fd5264277598606b015e9f50514d3caf4e97c1f6864f8e90",
+      "originalReferences": [
+        "drawings/bd1-pd-r4/BD1_PD_R4_加工与装配.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/95/950790810c6a8a65fd5264277598606b015e9f50514d3caf4e97c1f6864f8e90.pdf"
+      ]
+    },
+    {
       "path": "rendering/a26b73425d7426f56275169df35f158e6d672a540fa786302e6a928e764797ad.svg",
       "stored": "library/assets/sha256/a2/a26b73425d7426f56275169df35f158e6d672a540fa786302e6a928e764797ad.svg",
       "sha256": "a26b73425d7426f56275169df35f158e6d672a540fa786302e6a928e764797ad",

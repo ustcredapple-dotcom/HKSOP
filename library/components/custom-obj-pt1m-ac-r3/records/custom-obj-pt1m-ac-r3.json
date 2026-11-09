@@ -7,7 +7,7 @@
   "revision": "R3",
   "stepPath": "step/xbk-objectives-forward-r3/OBJ-PT1M-AC-R3.step",
   "sourceStepSha256": "9b97aae51bf2fbd9e03974b6f87dabe042216deb69cb63977c918dd3b3015c51",
-  "drawingPath": null,
+  "drawingPath": "drawings/xbk-objectives-forward-r3/OBJ-PT1M-AC-R3_加工审核图_TN1_20261026.pdf",
   "sourceDrawingSha256": "e098abb9e553334c1fc15c299b74bc5186381aa60321b323215aa995d5546df1",
   "drawingRevision": "R3",
   "drawingStatus": "engineering-review",
@@ -20,8 +20,17 @@
   },
   "laserMarking": {
     "status": "required",
-    "notes": "负Y面，字高2.2mm，按定位PDF。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "负Y面，字高2.2mm，按定位PDF。",
+    "files": [
+      {
+        "face": "-Y",
+        "text": "OBJ-PT1M-AC-R3",
+        "dxfPath": "drawings/xbk-objectives-forward-r3/OBJ-PT1M-AC-R3_激光_NEG_Y_1to1.dxf",
+        "sha256": "853e17ae933fecbe79da712ea9d6e053d55668775ce746a90ce675a4976a0b48",
+        "setupPdfPath": "drawings/xbk-objectives-forward-r3/激光打标定位_审核.pdf",
+        "setupPdfSha256": "100bbca2deb8a12a1ea837808bcb4e0d96d22785fa142626987e0b70ddac4ed6"
+      }
+    ]
   },
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -29,7 +38,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/xbk-objectives-forward-r3/OBJ-PT1M-AC-R3_加工审核图_TN1_20261026.pdf",
         "previousSha256": "7c4f587fd07c94c98cbda596591f9f084bdb3e34f6fa5d275111dfae390fa7c6",
         "sha256": "e098abb9e553334c1fc15c299b74bc5186381aa60321b323215aa995d5546df1"
       }

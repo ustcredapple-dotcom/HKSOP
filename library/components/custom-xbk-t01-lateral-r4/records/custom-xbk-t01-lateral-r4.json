@@ -7,7 +7,7 @@
   "revision": "R4-X3-FRONT2",
   "stepPath": "step/xbk-lateral-fixed-r4/XBK-T01_R4_X3_FRONT25_37p5_316L.step",
   "sourceStepSha256": "63e0d617f61850eb946f3f43caaf895699a05fe34e9bff0118756ebb2b60ff35",
-  "drawingPath": null,
+  "drawingPath": "drawings/xbk-lateral-fixed-r4/XBK_R4_横向三档及物镜右移_审核图册_TN1_20261026.pdf",
   "sourceDrawingSha256": "5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60",
   "drawingPages": [
     1
@@ -34,8 +34,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "背侧编号面；激光打标。",
-    "notes": "定位图见审核图册第4页。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "定位图见审核图册第4页。",
+    "files": [
+      {
+        "face": "背侧编号面",
+        "text": "XBK-T01 R4",
+        "dxfPath": "drawings/xbk-lateral-fixed-r4/XBK-T01_R4_LASER_BACK.dxf",
+        "sha256": "7cc5c6bf488b0ec13fbb7fb0103d19b0f60e6fb88c3d13d8009d0a02afd8a6ab",
+        "setupPdfPath": "drawings/xbk-lateral-fixed-r4/XBK_R4_横向三档及物镜右移_审核图册_TN1_20261026.pdf",
+        "setupPdfSha256": "5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60"
+      }
+    ]
   },
   "sourceUrl": "https://cad.onshape.com/documents/34ff21a050385527e5ee9e7f/v/f0b58a0aace51ca76a3b050a/e/97e925d418c3fa8ce4aa20c7",
   "threadCalloutAnnotationRevision": {
@@ -44,7 +53,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/xbk-lateral-fixed-r4/XBK_R4_横向三档及物镜右移_审核图册_TN1_20261026.pdf",
         "previousSha256": "6029e5035262a432753afaea7c1fbee6ba999b8432a12e0dcc772960b0bc7089",
         "sha256": "5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60"
       }

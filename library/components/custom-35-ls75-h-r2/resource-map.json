@@ -3,6 +3,61 @@
   "packageId": "custom-35-ls75-h-r2",
   "files": [
     {
+      "path": "drawings/02e54c018cfcf067734b8a81f26d2b54e168a741e207350ee647fc7b1a5e0d16.dxf",
+      "stored": "library/assets/sha256/02/02e54c018cfcf067734b8a81f26d2b54e168a741e207350ee647fc7b1a5e0d16.dxf",
+      "sha256": "02e54c018cfcf067734b8a81f26d2b54e168a741e207350ee647fc7b1a5e0d16",
+      "originalReferences": [
+        "drawings/camera-ls75-h75-r2/35-LS75-H_R2_TOP_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/02/02e54c018cfcf067734b8a81f26d2b54e168a741e207350ee647fc7b1a5e0d16.dxf"
+      ]
+    },
+    {
+      "path": "drawings/14838a95a1f83e6492de3009aa60ded0aae8cc87f1e65465f398ee8f4779002e.pdf",
+      "stored": "library/assets/sha256/14/14838a95a1f83e6492de3009aa60ded0aae8cc87f1e65465f398ee8f4779002e.pdf",
+      "sha256": "14838a95a1f83e6492de3009aa60ded0aae8cc87f1e65465f398ee8f4779002e",
+      "originalReferences": [
+        "drawings/camera-ls75-h75-r2/两相机_LS75_H75_R2_加工与装配审核.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/14/14838a95a1f83e6492de3009aa60ded0aae8cc87f1e65465f398ee8f4779002e.pdf"
+      ]
+    },
+    {
+      "path": "drawings/23ccaa589a4e2d003748f77fce231e4b728924edb4c546adfe81a44697852ce8.dxf",
+      "stored": "library/assets/sha256/23/23ccaa589a4e2d003748f77fce231e4b728924edb4c546adfe81a44697852ce8.dxf",
+      "sha256": "23ccaa589a4e2d003748f77fce231e4b728924edb4c546adfe81a44697852ce8",
+      "originalReferences": [
+        "drawings/laser-marking/camera-ls75-h75-r2/35-LS75-H_R2_激光_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/23/23ccaa589a4e2d003748f77fce231e4b728924edb4c546adfe81a44697852ce8.dxf"
+      ]
+    },
+    {
+      "path": "drawings/5472bc85c34c20e86f9bce2e1f0b51b991c59d4f03c763853cbe2a044d57a1dd.dxf",
+      "stored": "library/assets/sha256/54/5472bc85c34c20e86f9bce2e1f0b51b991c59d4f03c763853cbe2a044d57a1dd.dxf",
+      "sha256": "5472bc85c34c20e86f9bce2e1f0b51b991c59d4f03c763853cbe2a044d57a1dd",
+      "originalReferences": [
+        "drawings/camera-ls75-h75-r2/35-LS75-H_R2_LEFT_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/54/5472bc85c34c20e86f9bce2e1f0b51b991c59d4f03c763853cbe2a044d57a1dd.dxf"
+      ]
+    },
+    {
+      "path": "drawings/56a04bd0fa6f7d4cb442d2c95a4c1759f22530934481deff1dae68edef27503a.dxf",
+      "stored": "library/assets/sha256/56/56a04bd0fa6f7d4cb442d2c95a4c1759f22530934481deff1dae68edef27503a.dxf",
+      "sha256": "56a04bd0fa6f7d4cb442d2c95a4c1759f22530934481deff1dae68edef27503a",
+      "originalReferences": [
+        "drawings/camera-ls75-h75-r2/35-LS75-H_R2_FRONT_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/56/56a04bd0fa6f7d4cb442d2c95a4c1759f22530934481deff1dae68edef27503a.dxf"
+      ]
+    },
+    {
       "path": "cad/5f75449e1201077b96c2561a3a6562d02e69a25e2658b659bb7d3048aaba46b2.step",
       "stored": "library/assets/sha256/5f/5f75449e1201077b96c2561a3a6562d02e69a25e2658b659bb7d3048aaba46b2.step",
       "sha256": "5f75449e1201077b96c2561a3a6562d02e69a25e2658b659bb7d3048aaba46b2",

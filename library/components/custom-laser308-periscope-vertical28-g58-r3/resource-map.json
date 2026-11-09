@@ -3,6 +3,61 @@
   "packageId": "custom-laser308-periscope-vertical28-g58-r3",
   "files": [
     {
+      "path": "drawings/288eb1bcd78bd44f1c56e4f494b4786a1d6c4f134fd4a85ca696b7f38ee7649c.pdf",
+      "stored": "library/assets/sha256/28/288eb1bcd78bd44f1c56e4f494b4786a1d6c4f134fd4a85ca696b7f38ee7649c.pdf",
+      "sha256": "288eb1bcd78bd44f1c56e4f494b4786a1d6c4f134fd4a85ca696b7f38ee7649c",
+      "originalReferences": [
+        "drawings/laser-marking/custom-laser308-periscope-vertical28-g58-r3/LM1_补齐_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/28/288eb1bcd78bd44f1c56e4f494b4786a1d6c4f134fd4a85ca696b7f38ee7649c.pdf"
+      ]
+    },
+    {
+      "path": "drawings/3cd7a144e442d2337899ecef3cb9b1ac21ee1409a77c0a08bafba090a027ced7.dxf",
+      "stored": "library/assets/sha256/3c/3cd7a144e442d2337899ecef3cb9b1ac21ee1409a77c0a08bafba090a027ced7.dxf",
+      "sha256": "3cd7a144e442d2337899ecef3cb9b1ac21ee1409a77c0a08bafba090a027ced7",
+      "originalReferences": [
+        "drawings/laser-marking/custom-laser308-periscope-vertical28-g58-r3/LM1_补齐.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/3c/3cd7a144e442d2337899ecef3cb9b1ac21ee1409a77c0a08bafba090a027ced7.dxf"
+      ]
+    },
+    {
+      "path": "drawings/4a04368d91338befad2f297a07918d58083bfd8754b9b13c42b65c85b6cd16c6.dxf",
+      "stored": "library/assets/sha256/4a/4a04368d91338befad2f297a07918d58083bfd8754b9b13c42b65c85b6cd16c6.dxf",
+      "sha256": "4a04368d91338befad2f297a07918d58083bfd8754b9b13c42b65c85b6cd16c6",
+      "originalReferences": [
+        "drawings/laser-marking/custom-laser308-periscope-vertical28-g58-r3/编号面_-X.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/4a/4a04368d91338befad2f297a07918d58083bfd8754b9b13c42b65c85b6cd16c6.dxf"
+      ]
+    },
+    {
+      "path": "drawings/d8dd41d2c6f94c90469057bef5feafb1dd002caff22debaf980d3900ecc7c63d.pdf",
+      "stored": "library/assets/sha256/d8/d8dd41d2c6f94c90469057bef5feafb1dd002caff22debaf980d3900ecc7c63d.pdf",
+      "sha256": "d8dd41d2c6f94c90469057bef5feafb1dd002caff22debaf980d3900ecc7c63d",
+      "originalReferences": [
+        "drawings/laser-marking/custom-laser308-periscope-vertical28-g58-r3/编号面_-X_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/d8/d8dd41d2c6f94c90469057bef5feafb1dd002caff22debaf980d3900ecc7c63d.pdf"
+      ]
+    },
+    {
+      "path": "drawings/dd97feacbf4079abe9a5921629ad68ac644720455eac251408aa39333cd0db02.dxf",
+      "stored": "library/assets/sha256/dd/dd97feacbf4079abe9a5921629ad68ac644720455eac251408aa39333cd0db02.dxf",
+      "sha256": "dd97feacbf4079abe9a5921629ad68ac644720455eac251408aa39333cd0db02",
+      "originalReferences": [
+        "drawings/periscope-standard-r3/28-V3_R3_加工工程图_TN1_20261026.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/dd/dd97feacbf4079abe9a5921629ad68ac644720455eac251408aa39333cd0db02.dxf"
+      ]
+    },
+    {
       "path": "cad/e1451b9ad6ac5b9f7deed4f846b7bd093963edc4158ae9d363302f064a68579f.step",
       "stored": "library/assets/sha256/e1/e1451b9ad6ac5b9f7deed4f846b7bd093963edc4158ae9d363302f064a68579f.step",
       "sha256": "e1451b9ad6ac5b9f7deed4f846b7bd093963edc4158ae9d363302f064a68579f",
@@ -11,6 +66,28 @@
       ],
       "sources": [
         "library/assets/sha256/e1/e1451b9ad6ac5b9f7deed4f846b7bd093963edc4158ae9d363302f064a68579f.step"
+      ]
+    },
+    {
+      "path": "drawings/ed91237865a76dfa99d03901fc0817a7c04e00d196ec8e9aed45259eee60f0f3.pdf",
+      "stored": "library/assets/sha256/ed/ed91237865a76dfa99d03901fc0817a7c04e00d196ec8e9aed45259eee60f0f3.pdf",
+      "sha256": "ed91237865a76dfa99d03901fc0817a7c04e00d196ec8e9aed45259eee60f0f3",
+      "originalReferences": [
+        "drawings/periscope-standard-r3/28-V3_R3_加工工程图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/ed/ed91237865a76dfa99d03901fc0817a7c04e00d196ec8e9aed45259eee60f0f3.pdf"
+      ]
+    },
+    {
+      "path": "drawings/ff93b1a1da4352776ac1080cfeef925b3f2b9d12a53281587b089cb7ba1b1b14.pdf",
+      "stored": "library/assets/sha256/ff/ff93b1a1da4352776ac1080cfeef925b3f2b9d12a53281587b089cb7ba1b1b14.pdf",
+      "sha256": "ff93b1a1da4352776ac1080cfeef925b3f2b9d12a53281587b089cb7ba1b1b14",
+      "originalReferences": [
+        "drawings/periscope-standard-r3/28-V3_R3_加工工程图_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/ff/ff93b1a1da4352776ac1080cfeef925b3f2b9d12a53281587b089cb7ba1b1b14.pdf"
       ]
     }
   ],

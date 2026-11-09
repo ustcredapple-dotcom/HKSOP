@@ -6,7 +6,7 @@
   "model": "DPT3-M25-R1",
   "revision": "R1",
   "stepPath": "step/dipole-trap3-r1/DPT3-M25-R1.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/dipole-trap3-r1/DPT3_R1_加工安装图册_TN1_20261026.pdf",
   "sourceStepSha256": "f7be40e94bf1d9cb018f2a837fb2932b9957ecc3fd0357dd8d71a7723177b5f1",
   "sourceDrawingSha256": "c9e6828db4d0d51ca782ee79a2f3a9cf24daea2fca0cbf9c60d7fd6ef8f2a915",
   "manufacturingSpec": {
@@ -21,8 +21,25 @@
   "laserMarking": {
     "status": "required",
     "reason": "唯一零件编号及指定光路名称",
-    "notes": "仅激光打标，不铣刻；定位见图册末两页。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "仅激光打标，不铣刻；定位见图册末两页。",
+    "files": [
+      {
+        "face": "DPT3-M25-R1_NAME",
+        "text": "Dipole Trap 3",
+        "dxfPath": "drawings/dipole-trap3-r1/DPT3-M25-R1_NAME.dxf",
+        "sha256": "9a15d05d63ad0ea8b8605e876081fce71e8363de2befc8de9eeac4ce638a466f",
+        "setupPdfPath": "drawings/dipole-trap3-r1/DPT3_R1_加工安装图册_TN1_20261026.pdf",
+        "setupPdfSha256": "c9e6828db4d0d51ca782ee79a2f3a9cf24daea2fca0cbf9c60d7fd6ef8f2a915"
+      },
+      {
+        "face": "DPT3-M25-R1_ID",
+        "text": "DPT3-M25-R1",
+        "dxfPath": "drawings/dipole-trap3-r1/DPT3-M25-R1_ID.dxf",
+        "sha256": "3b84b77c18b1c4d4d943d70885660337fcbd1ad2582fe641334cc62b148f4723",
+        "setupPdfPath": "drawings/dipole-trap3-r1/DPT3_R1_加工安装图册_TN1_20261026.pdf",
+        "setupPdfSha256": "c9e6828db4d0d51ca782ee79a2f3a9cf24daea2fca0cbf9c60d7fd6ef8f2a915"
+      }
+    ]
   },
   "publicationScope": {
     "website": true,
@@ -45,7 +62,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/dipole-trap3-r1/DPT3_R1_加工安装图册_TN1_20261026.pdf",
         "previousSha256": "d682005a95af7fcba7ac162e2a412d02cef623f4ba1d7b8068636be415bd1ec3",
         "sha256": "c9e6828db4d0d51ca782ee79a2f3a9cf24daea2fca0cbf9c60d7fd6ef8f2a915"
       }

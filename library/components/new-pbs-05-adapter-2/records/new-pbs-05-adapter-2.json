@@ -8,7 +8,7 @@
   "notes": "M1公制修订；M4×7是名义选型，不能直接用×8替代；应按孔深核实。。实物试装未完成。",
   "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/05b198d8a229b2c028d67b6d",
   "stepPath": "step/metric-m1-20261006/02-PBS-U_METRIC_M1.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/metric-m1-20261006/02-PBS-U_M1_加工工程图.pdf",
   "sourceStepSha256": "6a13e4bcf3fc92a7e3d0f9f6346f017966a31af678a33b1b463db1785162e3b3",
   "productionReady": false,
   "manufacturingSpec": {
@@ -21,7 +21,7 @@
   },
   "drawingRevision": "M1",
   "drawingStatus": "engineering-review",
-  "dxfPath": null,
+  "dxfPath": "drawings/metric-m1-20261006/02-PBS-U_M1_加工工程图.dxf",
   "manufacturingEvidence": {
     "sourcePackage": null,
     "sourceCode": "02-PBS-U",
@@ -44,7 +44,7 @@
   },
   "sourceDrawingSha256": "fae0128213b5b500ba6154e7dfa32734a3abf436034452d8b1a8c7e79925869a",
   "sourceDxfSha256": "fc230d74399803c55dae8c2f2bfad7ba00f7ebc10046d9a43b008f120852bc2a",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/metric-m1-20261006/02-PBS-U_M1_加工工程图_DXF.pdf",
   "dxfPdfSha256": "179d51ae6c1b6eec73be306e4250323b5166381e845f930d0ed4b9c41c21106a",
   "drawingPages": [
     1,
@@ -80,7 +80,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_+Y",
+        "text": "02-PBS-U",
+        "dxfPath": "drawings/laser-marking/new-pbs-05-adapter-2/编号面_+Y.dxf",
+        "sha256": "bed6dee1ba8d0a30b98f281f0afebfa8fc98d5c9b747fb9e8e05b43db24cb04d",
+        "setupPdfPath": "drawings/laser-marking/new-pbs-05-adapter-2/编号面_+Y_定位说明.pdf",
+        "setupPdfSha256": "fb6016c29d1206689ba254023b4e2defe6c8fb6013ac2969b5f884f6ee4392d1"
+      }
+    ]
   }
 }

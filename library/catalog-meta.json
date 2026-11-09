@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-09.hksop-github-local-1",
-  "updatedAt": "2026-11-09T11:21:49+08:00",
+  "version": "2026-11-09.hksop-github-cad-2",
+  "updatedAt": "2026-11-09T14:09:11+08:00",
   "categories": [
     {
       "id": "pbs",
@@ -15741,7 +15741,7 @@
       "notes": "原厂名义λ/2、通光Ø45 mm；快轴相对旋转架刻度须实测。未将其他型号的典型延迟曲线套用到本型号。"
     }
   ],
-  "notes": "HKSOP精选本地副本：标准库与一分三/DoublePass所需定制依赖；STEP和俯视渲染，暂不含三视图/加工图纸；暂不上传GitHub。",
+  "notes": "HKSOP curated private repository: active standard components and dependencies used by the 1-to-3 and DoublePass examples, with current CAD, top views and available drawings. Original engineering acceptance states are retained.",
   "sourceUrl": "https://cad.onshape.com/documents/3a3c1d8089df865b8b4e822a/w/751844d84c1560d9a3edb630/e/e8dbf44c2ddcfe45f20cb2fa",
   "elevationMaterials": {
     "posts": [

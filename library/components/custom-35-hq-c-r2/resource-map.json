@@ -3,6 +3,50 @@
   "packageId": "custom-35-hq-c-r2",
   "files": [
     {
+      "path": "drawings/0de33f5a4f9cf7c577db2e0051daa175376cae90dfbbfd3b3d32bd65215972b2.pdf",
+      "stored": "library/assets/sha256/0d/0de33f5a4f9cf7c577db2e0051daa175376cae90dfbbfd3b3d32bd65215972b2.pdf",
+      "sha256": "0de33f5a4f9cf7c577db2e0051daa175376cae90dfbbfd3b3d32bd65215972b2",
+      "originalReferences": [
+        "drawings/camera-adapters-r2/35-HQ-C_R2-TRIAL_MACHINING_EDITABLE_1to1_PDF_PREVIEW.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/0d/0de33f5a4f9cf7c577db2e0051daa175376cae90dfbbfd3b3d32bd65215972b2.pdf"
+      ]
+    },
+    {
+      "path": "drawings/14c9fbd6b8a0da8d3247cd081f09691e058ccc059cd1acdb6654832adc3d5815.pdf",
+      "stored": "library/assets/sha256/14/14c9fbd6b8a0da8d3247cd081f09691e058ccc059cd1acdb6654832adc3d5815.pdf",
+      "sha256": "14c9fbd6b8a0da8d3247cd081f09691e058ccc059cd1acdb6654832adc3d5815",
+      "originalReferences": [
+        "drawings/camera-adapters-r2/laser-marking/35-HQ-C_R2-TRIAL_Ymin_LASER_SETUP.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/14/14c9fbd6b8a0da8d3247cd081f09691e058ccc059cd1acdb6654832adc3d5815.pdf"
+      ]
+    },
+    {
+      "path": "drawings/4e5a61d739f717d121a58bbbb18a44441f0cd5785005fb936cdaedf61fa87ebc.dxf",
+      "stored": "library/assets/sha256/4e/4e5a61d739f717d121a58bbbb18a44441f0cd5785005fb936cdaedf61fa87ebc.dxf",
+      "sha256": "4e5a61d739f717d121a58bbbb18a44441f0cd5785005fb936cdaedf61fa87ebc",
+      "originalReferences": [
+        "drawings/camera-adapters-r2/35-HQ-C_R2-TRIAL_MACHINING_EDITABLE_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/4e/4e5a61d739f717d121a58bbbb18a44441f0cd5785005fb936cdaedf61fa87ebc.dxf"
+      ]
+    },
+    {
+      "path": "drawings/80b9fcf8a21b074489558f3a497aab90e96883cb5d3ee3221164e81b21438035.dxf",
+      "stored": "library/assets/sha256/80/80b9fcf8a21b074489558f3a497aab90e96883cb5d3ee3221164e81b21438035.dxf",
+      "sha256": "80b9fcf8a21b074489558f3a497aab90e96883cb5d3ee3221164e81b21438035",
+      "originalReferences": [
+        "drawings/camera-adapters-r2/laser-marking/35-HQ-C_R2-TRIAL_Ymin_LASER_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/80/80b9fcf8a21b074489558f3a497aab90e96883cb5d3ee3221164e81b21438035.dxf"
+      ]
+    },
+    {
       "path": "cad/a9f7c7efb5345b0aeacc55848e7d4b59304317641bcd967d6b7accc8467a2112.step",
       "stored": "library/assets/sha256/a9/a9f7c7efb5345b0aeacc55848e7d4b59304317641bcd967d6b7accc8467a2112.step",
       "sha256": "a9f7c7efb5345b0aeacc55848e7d4b59304317641bcd967d6b7accc8467a2112",
@@ -11,6 +55,17 @@
       ],
       "sources": [
         "library/assets/sha256/a9/a9f7c7efb5345b0aeacc55848e7d4b59304317641bcd967d6b7accc8467a2112.step"
+      ]
+    },
+    {
+      "path": "drawings/c992f2e7d2c378a95d7ddfe2e58677a540872267e9757ea9456a58f9672b20e6.pdf",
+      "stored": "library/assets/sha256/c9/c992f2e7d2c378a95d7ddfe2e58677a540872267e9757ea9456a58f9672b20e6.pdf",
+      "sha256": "c992f2e7d2c378a95d7ddfe2e58677a540872267e9757ea9456a58f9672b20e6",
+      "originalReferences": [
+        "drawings/camera-adapters-r2/35-HQ-C_R2-TRIAL_MACHINING_A3.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/c9/c992f2e7d2c378a95d7ddfe2e58677a540872267e9757ea9456a58f9672b20e6.pdf"
       ]
     }
   ],

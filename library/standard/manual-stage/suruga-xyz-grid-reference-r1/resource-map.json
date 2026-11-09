@@ -3,6 +3,17 @@
   "packageId": "suruga-xyz-grid-reference-r1",
   "files": [
     {
+      "path": "drawings/1593100511b0af9b5cd87c3eb59a9b8649760c25d1c827b93fa90f82347c7088.pdf",
+      "stored": "library/assets/sha256/15/1593100511b0af9b5cd87c3eb59a9b8649760c25d1c827b93fa90f82347c7088.pdf",
+      "sha256": "1593100511b0af9b5cd87c3eb59a9b8649760c25d1c827b93fa90f82347c7088",
+      "originalReferences": [
+        "drawings/standard-post-h12p5-b4-r2/assemblies/XYZ三轴位移台_总装与安装说明_20261015_TN1_20261026_H12p5B4R2.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/15/1593100511b0af9b5cd87c3eb59a9b8649760c25d1c827b93fa90f82347c7088.pdf"
+      ]
+    },
+    {
       "path": "cad/537d5e33d2889131fda4054f789710336c6dd239aea1cd6b5433bea37b913a87.step",
       "stored": "library/assets/sha256/53/537d5e33d2889131fda4054f789710336c6dd239aea1cd6b5433bea37b913a87.step",
       "sha256": "537d5e33d2889131fda4054f789710336c6dd239aea1cd6b5433bea37b913a87",
@@ -33,6 +44,17 @@
       ],
       "sources": [
         "library/assets/sha256/ab/abee2da76900b48bd44b74545564cdaf19f9db0c902ee652f5cab6a5508a426f.svg"
+      ]
+    },
+    {
+      "path": "drawings/b26a46d0441f267723cc2f64bce606a25f7123d0f55b264adf5943b7f2df0092.pdf",
+      "stored": "library/assets/sha256/b2/b26a46d0441f267723cc2f64bce606a25f7123d0f55b264adf5943b7f2df0092.pdf",
+      "sha256": "b26a46d0441f267723cc2f64bce606a25f7123d0f55b264adf5943b7f2df0092",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/2/XYZ三轴位移台_总装与安装说明_20261015_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/b2/b26a46d0441f267723cc2f64bce606a25f7123d0f55b264adf5943b7f2df0092.pdf"
       ]
     }
   ],

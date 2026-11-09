@@ -3,6 +3,28 @@
   "packageId": "new-r3-19-r3-adapter",
   "files": [
     {
+      "path": "drawings/0b30b3260036d800d06f179a3f08849b00bf6e9717e57d79cd5b6c83c9bccab8.pdf",
+      "stored": "library/assets/sha256/0b/0b30b3260036d800d06f179a3f08849b00bf6e9717e57d79cd5b6c83c9bccab8.pdf",
+      "sha256": "0b30b3260036d800d06f179a3f08849b00bf6e9717e57d79cd5b6c83c9bccab8",
+      "originalReferences": [
+        "drawings/laser-marking/new-r3-19-r3-adapter/编号面_-Y_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/0b/0b30b3260036d800d06f179a3f08849b00bf6e9717e57d79cd5b6c83c9bccab8.pdf"
+      ]
+    },
+    {
+      "path": "drawings/0bb4f3b5a290951faa57375cc4f78bcc61874f802b6b27d821339a2e4aeae069.dxf",
+      "stored": "library/assets/sha256/0b/0bb4f3b5a290951faa57375cc4f78bcc61874f802b6b27d821339a2e4aeae069.dxf",
+      "sha256": "0bb4f3b5a290951faa57375cc4f78bcc61874f802b6b27d821339a2e4aeae069",
+      "originalReferences": [
+        "drawings/laser-marking/new-r3-19-r3-adapter/编号面_-Y.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/0b/0bb4f3b5a290951faa57375cc4f78bcc61874f802b6b27d821339a2e4aeae069.dxf"
+      ]
+    },
+    {
       "path": "cad/84805167026a228aed7253c54e0b7f65b9f90aa7c88fe98f0c7e43cefd52ac4f.step",
       "stored": "library/assets/sha256/84/84805167026a228aed7253c54e0b7f65b9f90aa7c88fe98f0c7e43cefd52ac4f.step",
       "sha256": "84805167026a228aed7253c54e0b7f65b9f90aa7c88fe98f0c7e43cefd52ac4f",
@@ -11,6 +33,39 @@
       ],
       "sources": [
         "library/assets/sha256/84/84805167026a228aed7253c54e0b7f65b9f90aa7c88fe98f0c7e43cefd52ac4f.step"
+      ]
+    },
+    {
+      "path": "drawings/9164350acd5055917daac78969a1529ed1f346130d002a78fdee414be7f65870.dxf",
+      "stored": "library/assets/sha256/91/9164350acd5055917daac78969a1529ed1f346130d002a78fdee414be7f65870.dxf",
+      "sha256": "9164350acd5055917daac78969a1529ed1f346130d002a78fdee414be7f65870",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/19-WP_M1_加工工程图.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/91/9164350acd5055917daac78969a1529ed1f346130d002a78fdee414be7f65870.dxf"
+      ]
+    },
+    {
+      "path": "drawings/9c7c6897e7970ce5b091fcce31c67a95afcc2a7c60e397ff853e08db44a651b8.pdf",
+      "stored": "library/assets/sha256/9c/9c7c6897e7970ce5b091fcce31c67a95afcc2a7c60e397ff853e08db44a651b8.pdf",
+      "sha256": "9c7c6897e7970ce5b091fcce31c67a95afcc2a7c60e397ff853e08db44a651b8",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/19-WP_M1_加工工程图_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/9c/9c7c6897e7970ce5b091fcce31c67a95afcc2a7c60e397ff853e08db44a651b8.pdf"
+      ]
+    },
+    {
+      "path": "drawings/f754c576101d9543019f254bf9ee0718ff7eb350e46ebba20f268e64c999dc39.pdf",
+      "stored": "library/assets/sha256/f7/f754c576101d9543019f254bf9ee0718ff7eb350e46ebba20f268e64c999dc39.pdf",
+      "sha256": "f754c576101d9543019f254bf9ee0718ff7eb350e46ebba20f268e64c999dc39",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/19-WP_M1_加工工程图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/f7/f754c576101d9543019f254bf9ee0718ff7eb350e46ebba20f268e64c999dc39.pdf"
       ]
     }
   ],

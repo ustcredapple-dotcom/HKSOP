@@ -5,14 +5,14 @@
     {
       "id": "web-current",
       "role": "current-only",
-      "version": "2026-11-09.hksop-github-local-1",
-      "sha256": "2be129462c329b2a3f6ed5491702d83a7ae8c79dcc40254e15f38ce87382c7f7",
+      "version": "2026-11-09.hksop-github-cad-2",
+      "sha256": "07762e7e56699c91b85609ae5f6d4276d20f35b899e5b5001122f133f61b4fec",
       "counts": {
         "components": 432,
         "kits": 263,
         "registeredBoards": 6
       },
-      "assetCount": 960
+      "assetCount": 1860
     }
   ]
 }

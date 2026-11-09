@@ -1,0 +1,29 @@
+{
+  "format": "hksop-current-update-verification-v1",
+  "at": "2026-11-09T14:25:12+08:00",
+  "version": "2026-11-09.hksop-github-cad-2",
+  "passed": true,
+  "catalogContractPassed": true,
+  "counts": {
+    "components": 432,
+    "kits": 263,
+    "registeredBoards": 6
+  },
+  "packageGuidePairs": 694,
+  "localMarkdownLinksChecked": 11441,
+  "brokenMarkdownLinks": [],
+  "updatedResourceSymlinksChecked": 1510,
+  "newAssets": {
+    "pdf": 539,
+    "dxf": 349,
+    "files": 888,
+    "bytes": 619427554,
+    "sha256SourceAndReadbackPassed": true
+  },
+  "exportResolverRestoredAssetChecks": 30,
+  "exampleLayoutsUnchangedExceptCatalogVersion": 3,
+  "coverEnglishOnly": true,
+  "logoPathsUnchanged": true,
+  "engineCodeUnchanged": true,
+  "physicalAndManufacturingAcceptance": "Existing states retained; no new physical or manufacturing acceptance inferred."
+}

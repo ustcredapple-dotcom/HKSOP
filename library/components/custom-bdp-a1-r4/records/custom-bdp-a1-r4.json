@@ -9,7 +9,7 @@
   "drawingStatus": "engineering-review",
   "status": "机械审核版；未放行加工",
   "stepPath": "step/bd1-pd-r4/BDP-A1_R4.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/bd1-pd-r4/BD1_PD_R4_加工与装配.pdf",
   "sourceStepSha256": "87f59e1c3eb1d033d982cbd12a75f7c65ce35b48a39df2d69b193e25c751a1f6",
   "sourceDrawingSha256": "950790810c6a8a65fd5264277598606b015e9f50514d3caf4e97c1f6864f8e90",
   "manufacturingSpec": {
@@ -28,8 +28,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "新制件身份标识",
-    "notes": "PDF第4页打标定位；前托Y=-21外侧面，字右+X、字顶+Z。DXF面坐标(X,Z)，1:1 mm；0.02模型浅痕仅示意，不铣刻。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "PDF第4页打标定位；前托Y=-21外侧面，字右+X、字顶+Z。DXF面坐标(X,Z)，1:1 mm；0.02模型浅痕仅示意，不铣刻。",
+    "files": [
+      {
+        "face": "前托 Y=-21 外侧面",
+        "text": "BDP-A1",
+        "dxfPath": "drawings/laser-marking/bd1-pd-r4/BDP-A1_R4_laser.dxf",
+        "sha256": "99e066995aef35bf9b40e9861bd8071f03a27f761bbecacc5241cbe49c701b7b",
+        "setupPdfPath": "drawings/bd1-pd-r4/BD1_PD_R4_加工与装配.pdf",
+        "setupPdfSha256": "950790810c6a8a65fd5264277598606b015e9f50514d3caf4e97c1f6864f8e90"
+      }
+    ]
   },
   "notes": "H1双M4名义旋入6 mm，H3的PD有效M4牙深待实测；销孔配合等级、实物夹紧和镜架全行程待验。"
 }

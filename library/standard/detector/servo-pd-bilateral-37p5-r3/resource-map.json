@@ -14,6 +14,17 @@
       ]
     },
     {
+      "path": "drawings/67d72a8d2c62632bc8c1417f74af5c1c31f9db3ffcd006cceafa7866a9eb6f1f.pdf",
+      "stored": "library/assets/sha256/67/67d72a8d2c62632bc8c1417f74af5c1c31f9db3ffcd006cceafa7866a9eb6f1f.pdf",
+      "sha256": "67d72a8d2c62632bc8c1417f74af5c1c31f9db3ffcd006cceafa7866a9eb6f1f",
+      "originalReferences": [
+        "drawings/servo-pd-bilateral-r3/安装与孔网说明_R3_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/67/67d72a8d2c62632bc8c1417f74af5c1c31f9db3ffcd006cceafa7866a9eb6f1f.pdf"
+      ]
+    },
+    {
       "path": "rendering/8eeceaefc4c25db7ddb09cadd3153537ac7aeb055926f5111b87710051fc7f22.svg",
       "stored": "library/assets/sha256/8e/8eeceaefc4c25db7ddb09cadd3153537ac7aeb055926f5111b87710051fc7f22.svg",
       "sha256": "8eeceaefc4c25db7ddb09cadd3153537ac7aeb055926f5111b87710051fc7f22",
@@ -22,6 +33,17 @@
       ],
       "sources": [
         "library/assets/sha256/8e/8eeceaefc4c25db7ddb09cadd3153537ac7aeb055926f5111b87710051fc7f22.svg"
+      ]
+    },
+    {
+      "path": "drawings/9b3fc20eae76e3d58b04da4850f78cd6fe618f08fd57a0454b8180ded5dc5ae7.pdf",
+      "stored": "library/assets/sha256/9b/9b3fc20eae76e3d58b04da4850f78cd6fe618f08fd57a0454b8180ded5dc5ae7.pdf",
+      "sha256": "9b3fc20eae76e3d58b04da4850f78cd6fe618f08fd57a0454b8180ded5dc5ae7",
+      "originalReferences": [
+        "drawings/standard-post-h12p5-b4-r2/assemblies/安装与孔网说明_R3_TN1_20261026_H12p5B4R2.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/9b/9b3fc20eae76e3d58b04da4850f78cd6fe618f08fd57a0454b8180ded5dc5ae7.pdf"
       ]
     },
     {

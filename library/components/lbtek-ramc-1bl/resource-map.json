@@ -3,6 +3,17 @@
   "packageId": "lbtek-ramc-1bl",
   "files": [
     {
+      "path": "drawings/66f766c15d6d114c1b37903c1d70a810cf5862af1a83c80399423960cb18b9a5.pdf",
+      "stored": "library/assets/sha256/66/66f766c15d6d114c1b37903c1d70a810cf5862af1a83c80399423960cb18b9a5.pdf",
+      "sha256": "66f766c15d6d114c1b37903c1d70a810cf5862af1a83c80399423960cb18b9a5",
+      "originalReferences": [
+        "drawings/bd1-r2/RAMC-1BL_official.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/66/66f766c15d6d114c1b37903c1d70a810cf5862af1a83c80399423960cb18b9a5.pdf"
+      ]
+    },
+    {
       "path": "cad/79aa4efaf5a504bec05ef94fb236167a7b424caf6c575d8b11f1dc5f30ea9445.step",
       "stored": "library/assets/sha256/79/79aa4efaf5a504bec05ef94fb236167a7b424caf6c575d8b11f1dc5f30ea9445.step",
       "sha256": "79aa4efaf5a504bec05ef94fb236167a7b424caf6c575d8b11f1dc5f30ea9445",

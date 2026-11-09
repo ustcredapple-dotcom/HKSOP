@@ -12,6 +12,28 @@
       "sources": [
         "library/assets/sha256/04/045e743c60abe45fc3aa75017d28d793026611a122c207054a3b1c720abe34f5.step"
       ]
+    },
+    {
+      "path": "drawings/b94261b2004c6f588606cbbfd526265ea471de48f84a2908aa8e9d79ae427800.dxf",
+      "stored": "library/assets/sha256/b9/b94261b2004c6f588606cbbfd526265ea471de48f84a2908aa8e9d79ae427800.dxf",
+      "sha256": "b94261b2004c6f588606cbbfd526265ea471de48f84a2908aa8e9d79ae427800",
+      "originalReferences": [
+        "drawings/dipole-trap3-r1/DPT3-L200-R1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/b9/b94261b2004c6f588606cbbfd526265ea471de48f84a2908aa8e9d79ae427800.dxf"
+      ]
+    },
+    {
+      "path": "drawings/c9e6828db4d0d51ca782ee79a2f3a9cf24daea2fca0cbf9c60d7fd6ef8f2a915.pdf",
+      "stored": "library/assets/sha256/c9/c9e6828db4d0d51ca782ee79a2f3a9cf24daea2fca0cbf9c60d7fd6ef8f2a915.pdf",
+      "sha256": "c9e6828db4d0d51ca782ee79a2f3a9cf24daea2fca0cbf9c60d7fd6ef8f2a915",
+      "originalReferences": [
+        "drawings/dipole-trap3-r1/DPT3_R1_加工安装图册_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/c9/c9e6828db4d0d51ca782ee79a2f3a9cf24daea2fca0cbf9c60d7fd6ef8f2a915.pdf"
+      ]
     }
   ],
   "dependencies": []

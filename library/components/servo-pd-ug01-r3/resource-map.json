@@ -3,6 +3,50 @@
   "packageId": "servo-pd-ug01-r3",
   "files": [
     {
+      "path": "drawings/180d5c690125aac948cb31d365dc37bc588bcfcd8f3957687f3131626858e88f.dxf",
+      "stored": "library/assets/sha256/18/180d5c690125aac948cb31d365dc37bc588bcfcd8f3957687f3131626858e88f.dxf",
+      "sha256": "180d5c690125aac948cb31d365dc37bc588bcfcd8f3957687f3131626858e88f",
+      "originalReferences": [
+        "drawings/servo-pd-bilateral-r3/laser-marking/UG01-R3/UG01-R3_编号面.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/18/180d5c690125aac948cb31d365dc37bc588bcfcd8f3957687f3131626858e88f.dxf"
+      ]
+    },
+    {
+      "path": "drawings/30ad8bf4fe6183ec54d87eedc5b2d9e60545124b70e9942c929383f05ddffb42.pdf",
+      "stored": "library/assets/sha256/30/30ad8bf4fe6183ec54d87eedc5b2d9e60545124b70e9942c929383f05ddffb42.pdf",
+      "sha256": "30ad8bf4fe6183ec54d87eedc5b2d9e60545124b70e9942c929383f05ddffb42",
+      "originalReferences": [
+        "drawings/servo-pd-bilateral-r3/laser-marking/UG01-R3/UG01-R3_编号面_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/30/30ad8bf4fe6183ec54d87eedc5b2d9e60545124b70e9942c929383f05ddffb42.pdf"
+      ]
+    },
+    {
+      "path": "drawings/676c4f8e2af38bce95991e90e0392ac40a3c89b54593210671a6e9d21dfc8780.pdf",
+      "stored": "library/assets/sha256/67/676c4f8e2af38bce95991e90e0392ac40a3c89b54593210671a6e9d21dfc8780.pdf",
+      "sha256": "676c4f8e2af38bce95991e90e0392ac40a3c89b54593210671a6e9d21dfc8780",
+      "originalReferences": [
+        "drawings/servo-pd-bilateral-r3/UG01-R3_加工工程图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/67/676c4f8e2af38bce95991e90e0392ac40a3c89b54593210671a6e9d21dfc8780.pdf"
+      ]
+    },
+    {
+      "path": "drawings/9903378e3358f996aec49b200fedb65ec5d5e43502c43afcf601869967101df5.pdf",
+      "stored": "library/assets/sha256/99/9903378e3358f996aec49b200fedb65ec5d5e43502c43afcf601869967101df5.pdf",
+      "sha256": "9903378e3358f996aec49b200fedb65ec5d5e43502c43afcf601869967101df5",
+      "originalReferences": [
+        "drawings/servo-pd-bilateral-r3/dxf-pdf/servo-pd-ug01-r3_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/99/9903378e3358f996aec49b200fedb65ec5d5e43502c43afcf601869967101df5.pdf"
+      ]
+    },
+    {
       "path": "cad/a9472f05db71349b8fc268b0afe01b7a63f2fd82f83a4df5064ac1406d1df70f.step",
       "stored": "library/assets/sha256/a9/a9472f05db71349b8fc268b0afe01b7a63f2fd82f83a4df5064ac1406d1df70f.step",
       "sha256": "a9472f05db71349b8fc268b0afe01b7a63f2fd82f83a4df5064ac1406d1df70f",
@@ -11,6 +55,28 @@
       ],
       "sources": [
         "library/assets/sha256/a9/a9472f05db71349b8fc268b0afe01b7a63f2fd82f83a4df5064ac1406d1df70f.step"
+      ]
+    },
+    {
+      "path": "drawings/d3597fa000a1e19c18300aadc811dd00747954d1917eadf2e4e3c0c0d976767b.dxf",
+      "stored": "library/assets/sha256/d3/d3597fa000a1e19c18300aadc811dd00747954d1917eadf2e4e3c0c0d976767b.dxf",
+      "sha256": "d3597fa000a1e19c18300aadc811dd00747954d1917eadf2e4e3c0c0d976767b",
+      "originalReferences": [
+        "drawings/servo-pd-bilateral-r3/UG01-R3_标准_可编辑尺寸.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/d3/d3597fa000a1e19c18300aadc811dd00747954d1917eadf2e4e3c0c0d976767b.dxf"
+      ]
+    },
+    {
+      "path": "drawings/fc1aa082354597b2d168f2612be5391787116902dd4cde0c68c1d5f7ac2cac7a.dxf",
+      "stored": "library/assets/sha256/fc/fc1aa082354597b2d168f2612be5391787116902dd4cde0c68c1d5f7ac2cac7a.dxf",
+      "sha256": "fc1aa082354597b2d168f2612be5391787116902dd4cde0c68c1d5f7ac2cac7a",
+      "originalReferences": [
+        "drawings/servo-pd-bilateral-r3/UG01-R3_标准_可编辑尺寸_复核排版.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/fc/fc1aa082354597b2d168f2612be5391787116902dd4cde0c68c1d5f7ac2cac7a.dxf"
       ]
     }
   ],

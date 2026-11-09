@@ -25,8 +25,8 @@
     "status": "read-only assembly export from public shared document"
   },
   "stepPath": "step/03_耦合/coupler-dual-waveplate-r1/FC2A-adapter.step",
-  "drawingPath": null,
-  "dxfPath": null,
+  "drawingPath": "drawings/03_耦合/coupler-dual-waveplate-r2/双波片耦合头_装配与加工审核_R2.pdf",
+  "dxfPath": "drawings/03_耦合/coupler-dual-waveplate-r1/FC2A-counterbore-section.dxf",
   "manufacturingSpec": {
     "material": "316L 不锈钢",
     "surfaceTreatment": "去磁、钝化",
@@ -57,15 +57,15 @@
     "engineeringReleaseApproved": false,
     "supportingSections": [
       {
-        "dxfPath": null,
+        "dxfPath": "drawings/03_耦合/coupler-dual-waveplate-r1/FC2A-bottom-section.dxf",
         "sha256": "244387efec9d743e35f147d277676e7df7bf860b6f999cca8356a2d831b52b87",
-        "dxfPdfPath": null,
+        "dxfPdfPath": "drawings/03_耦合/coupler-dual-waveplate-r1/FC2A-bottom-section_DXF.pdf",
         "dxfPdfSha256": "efa6bb3736cc01e6723df1fae617e2259047cce5971ce736e31905228a7327b1"
       }
     ],
     "assemblyReviewRevision": "R2 (component geometry stays R1; original manufacturing page 2 retained)"
   },
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/03_耦合/coupler-dual-waveplate-r1/FC2A-counterbore-section_DXF.pdf",
   "dxfPdfSha256": "c3dc13462626e34bb77ec2cf3554bafcb04a30bc69e35118fdd3ece94f216341",
   "sourceDrawingSha256": "e7d2ec89afef12751c06bc5e5069de8704295c01d256f40aa541f4feceb8fe6e",
   "drawingPages": [
@@ -115,7 +115,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前 STEP 原字形及功能文字改用激光打标，完整轮廓与位置已提取核验。",
-    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。",
+    "files": [
+      {
+        "dxfPath": "drawings/laser-marking/lm1-20261015/custom-coupler-fc2a-r1/编号面.dxf",
+        "sha256": "973b0927a8c78a83cf68de70fb786356be3ba9ef7927343442250ce6855ad80d",
+        "setupPdfPath": "drawings/laser-marking/lm1-20261015/custom-coupler-fc2a-r1/编号面_定位.pdf",
+        "setupPdfSha256": "cac6f43e27719399de9fd3735e4975d72af3a00c18f1eb911e7ebeae5213f970",
+        "face": "编号面",
+        "text": "FC2A"
+      }
+    ]
   }
 }

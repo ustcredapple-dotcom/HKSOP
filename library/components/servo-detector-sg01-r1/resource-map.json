@@ -3,6 +3,39 @@
   "packageId": "servo-detector-sg01-r1",
   "files": [
     {
+      "path": "drawings/1ca40a6608f2e904fa296788d05708b7ac93ee76bc098467ff4e97dfad60a6b5.dxf",
+      "stored": "library/assets/sha256/1c/1ca40a6608f2e904fa296788d05708b7ac93ee76bc098467ff4e97dfad60a6b5.dxf",
+      "sha256": "1ca40a6608f2e904fa296788d05708b7ac93ee76bc098467ff4e97dfad60a6b5",
+      "originalReferences": [
+        "drawings/servo-detector-gate-r2/laser-marking/SG01_编号面.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/1c/1ca40a6608f2e904fa296788d05708b7ac93ee76bc098467ff4e97dfad60a6b5.dxf"
+      ]
+    },
+    {
+      "path": "drawings/293905d9104e646ef09f1a7c505903bb311e2f67a43d55809ad93244a0ca3586.pdf",
+      "stored": "library/assets/sha256/29/293905d9104e646ef09f1a7c505903bb311e2f67a43d55809ad93244a0ca3586.pdf",
+      "sha256": "293905d9104e646ef09f1a7c505903bb311e2f67a43d55809ad93244a0ca3586",
+      "originalReferences": [
+        "drawings/servo-detector-gate-r2/laser-marking/SG01_编号面_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/29/293905d9104e646ef09f1a7c505903bb311e2f67a43d55809ad93244a0ca3586.pdf"
+      ]
+    },
+    {
+      "path": "drawings/9e0b73899101c5f341574d601489470e35039c539654a2f522e9668f4b944409.pdf",
+      "stored": "library/assets/sha256/9e/9e0b73899101c5f341574d601489470e35039c539654a2f522e9668f4b944409.pdf",
+      "sha256": "9e0b73899101c5f341574d601489470e35039c539654a2f522e9668f4b944409",
+      "originalReferences": [
+        "drawings/servo-detector-gate-r2/SG01_R1_加工工程图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/9e/9e0b73899101c5f341574d601489470e35039c539654a2f522e9668f4b944409.pdf"
+      ]
+    },
+    {
       "path": "cad/cc360de571cf5fc2d1e8bdd2e8b0d7d89397a76c57af9ec22c322e8bca4c77b4.step",
       "stored": "library/assets/sha256/cc/cc360de571cf5fc2d1e8bdd2e8b0d7d89397a76c57af9ec22c322e8bca4c77b4.step",
       "sha256": "cc360de571cf5fc2d1e8bdd2e8b0d7d89397a76c57af9ec22c322e8bca4c77b4",

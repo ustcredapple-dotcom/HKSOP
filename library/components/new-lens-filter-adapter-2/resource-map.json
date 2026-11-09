@@ -12,6 +12,61 @@
       "sources": [
         "library/assets/sha256/0e/0e41c6f4b16b4043e32837769dc292bb014bf3fc7a8b543e75c0e4c7528b15cf.step"
       ]
+    },
+    {
+      "path": "drawings/30630a3e59987381e58a2779741d774ad3767f7074e14ebc08447f2cedcad67c.pdf",
+      "stored": "library/assets/sha256/30/30630a3e59987381e58a2779741d774ad3767f7074e14ebc08447f2cedcad67c.pdf",
+      "sha256": "30630a3e59987381e58a2779741d774ad3767f7074e14ebc08447f2cedcad67c",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/05-LENS-U_M1_加工工程图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/30/30630a3e59987381e58a2779741d774ad3767f7074e14ebc08447f2cedcad67c.pdf"
+      ]
+    },
+    {
+      "path": "drawings/60c300ee5ac4be4dcc82b5c238c685f6bf6fb5e627d5bb6f43dff1c8860ae27b.pdf",
+      "stored": "library/assets/sha256/60/60c300ee5ac4be4dcc82b5c238c685f6bf6fb5e627d5bb6f43dff1c8860ae27b.pdf",
+      "sha256": "60c300ee5ac4be4dcc82b5c238c685f6bf6fb5e627d5bb6f43dff1c8860ae27b",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/05-LENS-U_M1_加工工程图_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/60/60c300ee5ac4be4dcc82b5c238c685f6bf6fb5e627d5bb6f43dff1c8860ae27b.pdf"
+      ]
+    },
+    {
+      "path": "drawings/72aab9927b03963573826d9692df4026869e81150aabf2d0a28743fa30b05358.dxf",
+      "stored": "library/assets/sha256/72/72aab9927b03963573826d9692df4026869e81150aabf2d0a28743fa30b05358.dxf",
+      "sha256": "72aab9927b03963573826d9692df4026869e81150aabf2d0a28743fa30b05358",
+      "originalReferences": [
+        "drawings/laser-marking/new-lens-filter-adapter-2/编号面_-Y.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/72/72aab9927b03963573826d9692df4026869e81150aabf2d0a28743fa30b05358.dxf"
+      ]
+    },
+    {
+      "path": "drawings/918ba1a2e19c98d0543e79ee191a6346b008101fcc17b3239286a68d84f6da22.pdf",
+      "stored": "library/assets/sha256/91/918ba1a2e19c98d0543e79ee191a6346b008101fcc17b3239286a68d84f6da22.pdf",
+      "sha256": "918ba1a2e19c98d0543e79ee191a6346b008101fcc17b3239286a68d84f6da22",
+      "originalReferences": [
+        "drawings/laser-marking/new-lens-filter-adapter-2/编号面_-Y_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/91/918ba1a2e19c98d0543e79ee191a6346b008101fcc17b3239286a68d84f6da22.pdf"
+      ]
+    },
+    {
+      "path": "drawings/d62496665e2c23a408249afbc9cf446401445e320a5a1a7177f04ba66263a865.dxf",
+      "stored": "library/assets/sha256/d6/d62496665e2c23a408249afbc9cf446401445e320a5a1a7177f04ba66263a865.dxf",
+      "sha256": "d62496665e2c23a408249afbc9cf446401445e320a5a1a7177f04ba66263a865",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/05-LENS-U_M1_加工工程图.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/d6/d62496665e2c23a408249afbc9cf446401445e320a5a1a7177f04ba66263a865.dxf"
+      ]
     }
   ],
   "dependencies": []

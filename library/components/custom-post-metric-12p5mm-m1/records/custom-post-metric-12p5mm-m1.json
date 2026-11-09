@@ -8,7 +8,7 @@
   "notes": "B4 R2：普通H12.5柱底脚6→4 mm，总高12.5 mm保持；底脚35×35×4，Ø25柱身露出8.5 mm。4×Ø6.4安装孔、25×25孔距、柱轴、顶面与底面保持；中心M4×0.7，偏置2×M4×0.7深8，4×Ø2.01圆柱深4.2。316L退磁、喷砂，激光打标。相同螺钉和垫片时可旋入长度增加2 mm，仍需核对螺长及接收孔深，未实物试装或放行加工。其他普通柱高度维持各自当前规格。",
   "sourceUrl": "https://cad.onshape.com/documents/894af481abaf8644d053faa3/v/b80473c3aeec82959638c483/e/acf99203257d38bc7ac0ccdc",
   "stepPath": "step/standard-post-h12p5-b4-r2/万能柱_H12.5mm_B4_R2.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/standard-post-h12p5-b4-r2/万能柱_H12.5mm_B4_R2_加工审核图.pdf",
   "manufacturingSpec": {
     "material": "316L 不锈钢",
     "surfaceTreatment": "退磁、喷砂",
@@ -67,8 +67,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "底侧标明H12.5 B4R2，区分6 mm旧版。",
-    "notes": "字高2 mm，上下各1 mm；激光打标，非铣刻。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "字高2 mm，上下各1 mm；激光打标，非铣刻。",
+    "files": [
+      {
+        "face": "底脚侧面",
+        "text": "H12.5 B4R2",
+        "dxfPath": "drawings/laser-marking/standard-post-h12p5-b4-r2/custom-post-metric-12p5mm-m1_B4R2_side_laser.dxf",
+        "sha256": "4025809a7bb2419eb66921f983159378f89f0521d064a5e081faf10b44b822da",
+        "setupPdfPath": "drawings/laser-marking/standard-post-h12p5-b4-r2/custom-post-metric-12p5mm-m1_B4R2_side_laser_setup.pdf",
+        "setupPdfSha256": "fdf121cde21b6dd2f86bbec03b1ce130e233ea70c43fae7073223b71d758999b"
+      }
+    ]
   },
   "mechanicalInterface": {
     "baseThicknessMm": 4,

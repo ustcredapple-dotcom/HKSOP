@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="460" viewBox="0 0 1400 460" role="img" aria-labelledby="cover-title cover-desc">
   <title id="cover-title">HKSOP — Hong Kong Standard Optical Protocol</title>
-  <desc id="cover-desc">ZZLab 标准光学协议。使用已定稿的 r9 黑白矢量标识；右侧光路线条仅作概念示意。</desc>
+  <desc id="cover-desc">HKSOP uses the approved r9 monochrome vector logo. The branching optical lines are illustrative.</desc>
   <defs>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1.3" fill="#dce5eb"/></pattern>
     <clipPath id="cover-clip"><rect width="1400" height="460" rx="22"/></clipPath>
@@ -11,7 +11,7 @@
     <path d="M0 0H1400" stroke="#193b54" stroke-width="10"/>
     <path d="M0 456H1400" stroke="#e2e8ed" stroke-width="2"/>
     <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Microsoft YaHei, Arial, sans-serif">
-      <text x="66" y="58" font-size="17" font-weight="600" letter-spacing="3" fill="#536978">ZZLAB / MODULAR OPTICS</text>
+      <text x="66" y="58" font-size="17" font-weight="600" letter-spacing="3" fill="#536978">ZZLAB · MODULAR OPTICS</text>
       <g transform="translate(18 85) scale(0.475)">
   <g id="symbol">
     <g id="original-core">
@@ -68,8 +68,8 @@
   </g>
 
       </g>
-      <text x="66" y="349" font-size="31" font-weight="650" fill="#183449">让光学设计成为可复用的工程数据</text>
-      <text x="66" y="396" font-size="21" fill="#607585">元件协议 · 光路布局 · 三维装配 · 项目交付</text>
+      <text x="66" y="349" font-size="28" font-weight="600" fill="#183449">A unified component library and layout tool</text>
+      <text x="66" y="396" font-size="26" fill="#607585">for modular tabletop optics</text>
     </g>
     <g fill="none" stroke-linecap="round" stroke-linejoin="round">
       <rect x="996" y="100" width="310" height="260" rx="16" fill="#fbfdfe" stroke="#ccd9e1" stroke-width="2"/>
@@ -83,6 +83,5 @@
       <circle cx="1278" cy="316" r="8" fill="#fbfdfe" stroke="#466eae" stroke-width="4"/>
       <path d="M1016 119h7m-3.5-3.5v7M1279 119h7m-3.5-3.5v7M1016 341h7m-3.5-3.5v7M1279 341h7m-3.5-3.5v7" stroke="#b0c1cc" stroke-width="2"/>
     </g>
-    <text x="1151" y="398" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="14" letter-spacing="2" fill="#718594">DEFINE · COMPOSE · VERIFY</text>
   </g>
 </svg>

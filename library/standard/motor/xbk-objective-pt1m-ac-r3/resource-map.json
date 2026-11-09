@@ -23,6 +23,17 @@
       "sources": [
         "library/assets/sha256/7e/7e8a0c253a21b1b4335c6acb8555d73efde66e0f622e014ed95fa72701c5bdc7.svg"
       ]
+    },
+    {
+      "path": "drawings/acff68e3f1457a9c59bea72dca484703c20a9e71fbfe12e4039755ea945024ae.pdf",
+      "stored": "library/assets/sha256/ac/acff68e3f1457a9c59bea72dca484703c20a9e71fbfe12e4039755ea945024ae.pdf",
+      "sha256": "acff68e3f1457a9c59bea72dca484703c20a9e71fbfe12e4039755ea945024ae",
+      "originalReferences": [
+        "drawings/xbk-objectives-forward-r3/XBK_R3_前伸总装审核图册_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/ac/acff68e3f1457a9c59bea72dca484703c20a9e71fbfe12e4039755ea945024ae.pdf"
+      ]
     }
   ],
   "dependencies": [

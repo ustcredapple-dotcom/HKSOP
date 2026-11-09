@@ -15,15 +15,24 @@
   "notes": "现有编码器舵机机械接口参考；实际杆孔配合、反向防松和实物行程待验证。",
   "stepPath": "step/fiber-motor-z-r1/FZ-KZ-BR-R1.step",
   "sourceStepSha256": "044ccf8e498400fdb388d3994c7050d3b42fcae94e35954c138b8886f8a29b9c",
-  "drawingPath": null,
+  "drawingPath": "drawings/fiber-motor-z-r1/FZ-KZ-BR-R1_TN1_20261026.pdf",
   "sourceDrawingSha256": "03ebe9bfb945b8f43add3707a875048e83d7b288316e775a8ff32858aca54a7b",
-  "dxfPath": null,
+  "dxfPath": "drawings/fiber-motor-z-r1/FZ-KZ-BR-R1_加工审核图_TN1_20261026.dxf",
   "sourceDxfSha256": "cec36766b98ff66b23e49ae23776af6bbe147e1829c7b49a9c214693e8a0b77b",
   "laserMarking": {
     "status": "required",
     "reason": "新件R1唯一编号",
-    "notes": "实际字高1.5mm；按定位PDF装夹，圆柱面按弧长展开；激光打标，不铣刻。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "实际字高1.5mm；按定位PDF装夹，圆柱面按弧长展开；激光打标，不铣刻。",
+    "files": [
+      {
+        "face": "编号面",
+        "text": "FZ-KZ-BR-R1",
+        "dxfPath": "drawings/fiber-motor-z-r1/laser-marking/FZ-KZ-BR-R1/编号_展开1比1_mm.dxf",
+        "sha256": "91062f2361b2e61b124f72ed354944704ba044fe4bc15011eeff072cbc9fe440",
+        "setupPdfPath": "drawings/fiber-motor-z-r1/laser-marking/FZ-KZ-BR-R1/定位图.pdf",
+        "setupPdfSha256": "f7d09c5550b5a92298d258fff7d7fb0d3a2240be5fa274d5ccae48724d6c768a"
+      }
+    ]
   },
   "manufacturingEvidence": {
     "sourceStepSha256": "044ccf8e498400fdb388d3994c7050d3b42fcae94e35954c138b8886f8a29b9c",
@@ -35,7 +44,7 @@
     "physicalTrialCompleted": false,
     "reviewScope": "Independent one-solid validity and assembly-instance identity check; source unchanged dimensioned page."
   },
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/fiber-motor-z-r1/dxf-pdf/custom-fz-kz-br-r1_DXF.pdf",
   "dxfPdfSha256": "cf0b07b2410173a13859316514721ebbce2611200f63053855ef55c516986eb0",
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -43,12 +52,12 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/fiber-motor-z-r1/FZ-KZ-BR-R1_TN1_20261026.pdf",
         "previousSha256": "a92cb0ce1a225ff2e55758b9cbd28d994e9ed383c6c1e01064a3703dc16bf403",
         "sha256": "03ebe9bfb945b8f43add3707a875048e83d7b288316e775a8ff32858aca54a7b"
       },
       {
-        "path": null,
+        "path": "assets/drawings/fiber-motor-z-r1/FZ-KZ-BR-R1_加工审核图_TN1_20261026.dxf",
         "previousSha256": "f786f94086ccd5cf4028efc6a6193f07a064311c26b15f5f51a6c700ce37e29e",
         "sha256": "cec36766b98ff66b23e49ae23776af6bbe147e1829c7b49a9c214693e8a0b77b"
       }

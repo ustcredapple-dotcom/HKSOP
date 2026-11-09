@@ -12,6 +12,17 @@
       "sources": [
         "library/assets/sha256/93/937fc7353cb051fdc482a7a2851fcdd66e9f52727f3493f45df221832613131f.step"
       ]
+    },
+    {
+      "path": "drawings/c6060eb7d3e9b99dc1d7edddbe23dc55db84a069bfe614f4a5d79540982ac3ff.pdf",
+      "stored": "library/assets/sha256/c6/c6060eb7d3e9b99dc1d7edddbe23dc55db84a069bfe614f4a5d79540982ac3ff.pdf",
+      "sha256": "c6060eb7d3e9b99dc1d7edddbe23dc55db84a069bfe614f4a5d79540982ac3ff",
+      "originalReferences": [
+        "drawings/ls35x-lab-e-r1/vendor/MultiFields_RT_motion_manual_current.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/c6/c6060eb7d3e9b99dc1d7edddbe23dc55db84a069bfe614f4a5d79540982ac3ff.pdf"
+      ]
     }
   ],
   "dependencies": []

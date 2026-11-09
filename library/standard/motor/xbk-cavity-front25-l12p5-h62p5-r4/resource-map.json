@@ -3,6 +3,17 @@
   "packageId": "xbk-cavity-front25-l12p5-h62p5-r4",
   "files": [
     {
+      "path": "drawings/5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60.pdf",
+      "stored": "library/assets/sha256/50/5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60.pdf",
+      "sha256": "5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60",
+      "originalReferences": [
+        "drawings/xbk-lateral-fixed-r4/XBK_R4_横向三档及物镜右移_审核图册_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/50/5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60.pdf"
+      ]
+    },
+    {
       "path": "rendering/74f44e0b686a946877e868b1c7d1b4eae0d32b983f0cf11f13aa23ce1990027a.svg",
       "stored": "library/assets/sha256/74/74f44e0b686a946877e868b1c7d1b4eae0d32b983f0cf11f13aa23ce1990027a.svg",
       "sha256": "74f44e0b686a946877e868b1c7d1b4eae0d32b983f0cf11f13aa23ce1990027a",

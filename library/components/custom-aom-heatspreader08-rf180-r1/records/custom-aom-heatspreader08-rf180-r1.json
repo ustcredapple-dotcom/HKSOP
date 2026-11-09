@@ -17,14 +17,14 @@
     "role": "当前定制制造定义；原AMP-1R/AOM参考本体不归为本轮新造"
   },
   "notes": "RF接口改向+Y；AOM本体与AMP-1R保持厂家参考源。",
-  "drawingPath": null,
+  "drawingPath": "drawings/aom-rf180-metric/08-AOM-HR_R1_RF180_加工工程图.pdf",
   "sourceDrawingSha256": "95601ee4414575b31c929ca2dca78534628665dc6bcc1069b3f7f8619be534ca",
   "drawingPages": [
     1,
     2,
     3
   ],
-  "dxfPath": null,
+  "dxfPath": "drawings/aom-rf180-metric/08-AOM-HR_R1_RF180_加工工程图.dxf",
   "manufacturingEvidence": {
     "sourceStepSha256": "3b0bf1385ec892cdd253ab845670e3933a5088bb8e9a3495c1260aeee3220dcb",
     "drawingSha256": "95601ee4414575b31c929ca2dca78534628665dc6bcc1069b3f7f8619be534ca",
@@ -37,7 +37,7 @@
   "drawingSourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/13e796b6399c6c09085aa668/e/37090f0354749afddecee1de",
   "drawingSourceUrlRole": "frozen imported machining PDF; local SHA-bound PDF remains manufacturing document",
   "sourcePartName": "AOM RF180导热承板",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/aom-rf180-metric/08-AOM-HR_R1_RF180_加工工程图_DXF.pdf",
   "dxfPdfSha256": "db06b7a957f2002cb989378852cf6c131fec4dcb8fe1611b3ee48326721460aa",
   "drawingAnnotationEvidence": {
     "/drawingPath": {
@@ -68,7 +68,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_+Y",
+        "text": "08-AOM-HR",
+        "dxfPath": "drawings/laser-marking/custom-aom-heatspreader08-rf180-r1/编号面_+Y.dxf",
+        "sha256": "2628e1cdae7aab399e731f8951d10f3f2490827bdfd768d7ada08548027cf249",
+        "setupPdfPath": "drawings/laser-marking/custom-aom-heatspreader08-rf180-r1/编号面_+Y_定位说明.pdf",
+        "setupPdfSha256": "d982f1916282b647fcb4f4d1f8751d7f2bc8e30be209f8d6662b5723c8d7d556"
+      }
+    ]
   }
 }

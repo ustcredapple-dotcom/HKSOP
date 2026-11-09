@@ -3,6 +3,50 @@
   "packageId": "custom-motor-m2s-h-r2",
   "files": [
     {
+      "path": "drawings/42f65f90180d6ebef3726e9e0057027cb1787bc02348beb66363f1fa9db22cd0.pdf",
+      "stored": "library/assets/sha256/42/42f65f90180d6ebef3726e9e0057027cb1787bc02348beb66363f1fa9db22cd0.pdf",
+      "sha256": "42f65f90180d6ebef3726e9e0057027cb1787bc02348beb66363f1fa9db22cd0",
+      "originalReferences": [
+        "drawings/motor-slot-split-r2/V2style-2inch-M2S-r2-mechanical-review.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/42/42f65f90180d6ebef3726e9e0057027cb1787bc02348beb66363f1fa9db22cd0.pdf"
+      ]
+    },
+    {
+      "path": "drawings/44fac247dd037fd18d734be13e26166d5af83ab556be55ecd71db97567607261.dxf",
+      "stored": "library/assets/sha256/44/44fac247dd037fd18d734be13e26166d5af83ab556be55ecd71db97567607261.dxf",
+      "sha256": "44fac247dd037fd18d734be13e26166d5af83ab556be55ecd71db97567607261",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-motor-m2s-h-r2/编号面.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/44/44fac247dd037fd18d734be13e26166d5af83ab556be55ecd71db97567607261.dxf"
+      ]
+    },
+    {
+      "path": "drawings/45894ca10f416b07ced144460405d4fe09385c5712f4422e87b9d56900f8cc32.pdf",
+      "stored": "library/assets/sha256/45/45894ca10f416b07ced144460405d4fe09385c5712f4422e87b9d56900f8cc32.pdf",
+      "sha256": "45894ca10f416b07ced144460405d4fe09385c5712f4422e87b9d56900f8cc32",
+      "originalReferences": [
+        "drawings/motor-slot-split-r2/M2S-H_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/45/45894ca10f416b07ced144460405d4fe09385c5712f4422e87b9d56900f8cc32.pdf"
+      ]
+    },
+    {
+      "path": "drawings/75c4ca4b7f2b1b395af8c05bc72d6f24cf7c8cde895a80ce85a0358db02dff32.dxf",
+      "stored": "library/assets/sha256/75/75c4ca4b7f2b1b395af8c05bc72d6f24cf7c8cde895a80ce85a0358db02dff32.dxf",
+      "sha256": "75c4ca4b7f2b1b395af8c05bc72d6f24cf7c8cde895a80ce85a0358db02dff32",
+      "originalReferences": [
+        "drawings/motor-slot-split-r2/M2S-H.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/75/75c4ca4b7f2b1b395af8c05bc72d6f24cf7c8cde895a80ce85a0358db02dff32.dxf"
+      ]
+    },
+    {
       "path": "cad/83c2c7ed36487ce2edc510c6976e03160011fbc651d76c2e68092948f7e69746.step",
       "stored": "library/assets/sha256/83/83c2c7ed36487ce2edc510c6976e03160011fbc651d76c2e68092948f7e69746.step",
       "sha256": "83c2c7ed36487ce2edc510c6976e03160011fbc651d76c2e68092948f7e69746",
@@ -11,6 +55,17 @@
       ],
       "sources": [
         "library/assets/sha256/83/83c2c7ed36487ce2edc510c6976e03160011fbc651d76c2e68092948f7e69746.step"
+      ]
+    },
+    {
+      "path": "drawings/f98330d9e62d4401aed7c4a7867c3b7367d2528719eaf58d070a7e6b8d7257de.pdf",
+      "stored": "library/assets/sha256/f9/f98330d9e62d4401aed7c4a7867c3b7367d2528719eaf58d070a7e6b8d7257de.pdf",
+      "sha256": "f98330d9e62d4401aed7c4a7867c3b7367d2528719eaf58d070a7e6b8d7257de",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-motor-m2s-h-r2/编号面_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/f9/f98330d9e62d4401aed7c4a7867c3b7367d2528719eaf58d070a7e6b8d7257de.pdf"
       ]
     }
   ],

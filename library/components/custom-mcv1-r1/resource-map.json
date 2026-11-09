@@ -3,6 +3,61 @@
   "packageId": "custom-mcv1-r1",
   "files": [
     {
+      "path": "drawings/0d4f4ca9cfcca8af48c6d4ec04e84def1355cf4fcb68bf5a7550b440925914e4.dxf",
+      "stored": "library/assets/sha256/0d/0d4f4ca9cfcca8af48c6d4ec04e84def1355cf4fcb68bf5a7550b440925914e4.dxf",
+      "sha256": "0d4f4ca9cfcca8af48c6d4ec04e84def1355cf4fcb68bf5a7550b440925914e4",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/1/MCV1-R1_加工图_毫米.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/0d/0d4f4ca9cfcca8af48c6d4ec04e84def1355cf4fcb68bf5a7550b440925914e4.dxf"
+      ]
+    },
+    {
+      "path": "drawings/3bddfde5b223ac12614491a88d01e43ec3380ee3220707efc89f7af8689bddc8.dxf",
+      "stored": "library/assets/sha256/3b/3bddfde5b223ac12614491a88d01e43ec3380ee3220707efc89f7af8689bddc8.dxf",
+      "sha256": "3bddfde5b223ac12614491a88d01e43ec3380ee3220707efc89f7af8689bddc8",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/1/MCV1-R1_激光打标_1比1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/3b/3bddfde5b223ac12614491a88d01e43ec3380ee3220707efc89f7af8689bddc8.dxf"
+      ]
+    },
+    {
+      "path": "drawings/425418136dd67a3d2cb26820fe62deb90bb1d80b90338404c8c7ae8a82a8ae0a.pdf",
+      "stored": "library/assets/sha256/42/425418136dd67a3d2cb26820fe62deb90bb1d80b90338404c8c7ae8a82a8ae0a.pdf",
+      "sha256": "425418136dd67a3d2cb26820fe62deb90bb1d80b90338404c8c7ae8a82a8ae0a",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/dxf-pdf/custom-mcv1-r1_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/42/425418136dd67a3d2cb26820fe62deb90bb1d80b90338404c8c7ae8a82a8ae0a.pdf"
+      ]
+    },
+    {
+      "path": "drawings/8de273741f5c8d5011e7846e61789b6b884c1a55256208eee72c23262af4870b.pdf",
+      "stored": "library/assets/sha256/8d/8de273741f5c8d5011e7846e61789b6b884c1a55256208eee72c23262af4870b.pdf",
+      "sha256": "8de273741f5c8d5011e7846e61789b6b884c1a55256208eee72c23262af4870b",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/1/MCV1-R1_加工与装配图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/8d/8de273741f5c8d5011e7846e61789b6b884c1a55256208eee72c23262af4870b.pdf"
+      ]
+    },
+    {
+      "path": "drawings/b4a2f62ab3065f51e94b0df18d7bacba932c204679b507580a30c40ce87147a4.pdf",
+      "stored": "library/assets/sha256/b4/b4a2f62ab3065f51e94b0df18d7bacba932c204679b507580a30c40ce87147a4.pdf",
+      "sha256": "b4a2f62ab3065f51e94b0df18d7bacba932c204679b507580a30c40ce87147a4",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/1/MCV1-R1_激光打标_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/b4/b4a2f62ab3065f51e94b0df18d7bacba932c204679b507580a30c40ce87147a4.pdf"
+      ]
+    },
+    {
       "path": "cad/f270a2acbc536fa118e3c9c12b562f49d6e5dadf074658409ee6099c1abf7f7f.step",
       "stored": "library/assets/sha256/f2/f270a2acbc536fa118e3c9c12b562f49d6e5dadf074658409ee6099c1abf7f7f.step",
       "sha256": "f270a2acbc536fa118e3c9c12b562f49d6e5dadf074658409ee6099c1abf7f7f",

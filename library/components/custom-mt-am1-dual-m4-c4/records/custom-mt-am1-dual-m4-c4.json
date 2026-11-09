@@ -10,7 +10,7 @@
   "manufacturingStatus": "engineering-review",
   "status": "本地几何与图模已核；螺纹等级/销孔配合及实物首件待确认",
   "stepPath": "step/mt-dual-m4-compact-r4/V7-1A-C4.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/mt-dual-m4-compact-r4/V7-1A-C4_machining.pdf",
   "sourceStepSha256": "41d4fc7d2422ecb2264b1fd2ba2d16f7b34dbfc08cc78ac364da5140660be718",
   "sourceDrawingSha256": "79c4645929c5d63526744084575c8eede9438af2ec50d38fc198b7560daad44d",
   "drawingPages": [
@@ -31,8 +31,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "新零件唯一编号",
-    "notes": "激光打标，不铣刻；功率按同材试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；功率按同材试样确定。",
+    "files": [
+      {
+        "face": "-Y端面",
+        "text": "V7-1A-C4",
+        "dxfPath": "drawings/mt-dual-m4-compact-r4/V7-1A-C4_marking.dxf",
+        "sha256": "209d45a90473b5a391fc986c783568375259776821e181701e138f019bb3f08c",
+        "setupPdfPath": "drawings/mt-dual-m4-compact-r4/V7-1A-C4_marking.pdf",
+        "setupPdfSha256": "df8f38e30444ac158fbf22228b41f99195dd55df5c72741f065769b3ff898ef9"
+      }
+    ]
   },
   "notes": "本件供MT-AM1直向及45°两种安装共用；不替换其他器件所用旧转接块。",
   "cloudReference": {

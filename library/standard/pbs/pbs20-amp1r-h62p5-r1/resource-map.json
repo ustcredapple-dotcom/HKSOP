@@ -14,6 +14,17 @@
       ]
     },
     {
+      "path": "drawings/cb27b4c5d6b3808d45e35a0b1261818d6ae0481f9cc0c2f163f9794efc6cd21b.pdf",
+      "stored": "library/assets/sha256/cb/cb27b4c5d6b3808d45e35a0b1261818d6ae0481f9cc0c2f163f9794efc6cd21b.pdf",
+      "sha256": "cb27b4c5d6b3808d45e35a0b1261818d6ae0481f9cc0c2f163f9794efc6cd21b",
+      "originalReferences": [
+        "drawings/pbs20-r1/PBS20_R1_加工审核与装配图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/cb/cb27b4c5d6b3808d45e35a0b1261818d6ae0481f9cc0c2f163f9794efc6cd21b.pdf"
+      ]
+    },
+    {
       "path": "cad/cfb2775684b59d9622674865a493f629743860d8735101b7d4882a65b5ac4138.step",
       "stored": "library/assets/sha256/cf/cfb2775684b59d9622674865a493f629743860d8735101b7d4882a65b5ac4138.step",
       "sha256": "cfb2775684b59d9622674865a493f629743860d8735101b7d4882a65b5ac4138",

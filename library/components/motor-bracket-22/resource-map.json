@@ -3,6 +3,17 @@
   "packageId": "motor-bracket-22",
   "files": [
     {
+      "path": "drawings/765de3f6550aea223380658345208dcc4db54c3461ffa14449ac499e991ad013.pdf",
+      "stored": "library/assets/sha256/76/765de3f6550aea223380658345208dcc4db54c3461ffa14449ac499e991ad013.pdf",
+      "sha256": "765de3f6550aea223380658345208dcc4db54c3461ffa14449ac499e991ad013",
+      "originalReferences": [
+        "drawings/09_电动镜架/支架2-2_详细加工审核图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/76/765de3f6550aea223380658345208dcc4db54c3461ffa14449ac499e991ad013.pdf"
+      ]
+    },
+    {
       "path": "cad/78a7448998625e8016147bb4f1c02cf177ec86e6ca98648ebd0f22f1fc6304a1.step",
       "stored": "library/assets/sha256/78/78a7448998625e8016147bb4f1c02cf177ec86e6ca98648ebd0f22f1fc6304a1.step",
       "sha256": "78a7448998625e8016147bb4f1c02cf177ec86e6ca98648ebd0f22f1fc6304a1",
@@ -11,6 +22,28 @@
       ],
       "sources": [
         "library/assets/sha256/78/78a7448998625e8016147bb4f1c02cf177ec86e6ca98648ebd0f22f1fc6304a1.step"
+      ]
+    },
+    {
+      "path": "drawings/a70863fba1298989a96f003630ddf0889afb1472801b4105f4b90ed38a736212.dxf",
+      "stored": "library/assets/sha256/a7/a70863fba1298989a96f003630ddf0889afb1472801b4105f4b90ed38a736212.dxf",
+      "sha256": "a70863fba1298989a96f003630ddf0889afb1472801b4105f4b90ed38a736212",
+      "originalReferences": [
+        "drawings/laser-marking/motor-bracket-22/LM1_补齐.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/a7/a70863fba1298989a96f003630ddf0889afb1472801b4105f4b90ed38a736212.dxf"
+      ]
+    },
+    {
+      "path": "drawings/d50cdbede023c68987a55e5a5802f59ace1c770aabf68e6f50d3bf7bf660c097.pdf",
+      "stored": "library/assets/sha256/d5/d50cdbede023c68987a55e5a5802f59ace1c770aabf68e6f50d3bf7bf660c097.pdf",
+      "sha256": "d50cdbede023c68987a55e5a5802f59ace1c770aabf68e6f50d3bf7bf660c097",
+      "originalReferences": [
+        "drawings/laser-marking/motor-bracket-22/LM1_补齐_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/d5/d50cdbede023c68987a55e5a5802f59ace1c770aabf68e6f50d3bf7bf660c097.pdf"
       ]
     }
   ],

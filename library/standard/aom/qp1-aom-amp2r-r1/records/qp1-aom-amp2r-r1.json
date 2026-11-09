@@ -995,7 +995,7 @@
     "revision": "R1-H12p5B4R2",
     "sourceExact": true,
     "nominalFixedPositionAssembly": true,
-    "drawingPath": null,
+    "drawingPath": "drawings/standard-post-h12p5-b4-r2/assemblies/QP1_R1_装配与选型_H12p5B4R2.pdf",
     "sourceDrawingSha256": "062e2823365fac61d65f386257bbc9788af36e4ad91929744823c6e0acfd6f58",
     "note": "源29实体名义装配；安装螺钉与方向销按BOM，未另建实体；不含原生运动配合。",
     "cloudUrl": "https://cad.onshape.com/documents/66b198de06cefdf0be97875b/v/f7760018eec7aecfe4fe9762/e/bf3909da84f5b8258d4d74f5",

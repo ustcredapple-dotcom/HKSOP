@@ -3,6 +3,17 @@
   "packageId": "custom-v7-m3-h2",
   "files": [
     {
+      "path": "drawings/43d6101ab1d9f522ff98d377878e0ccbc171469f56cfcf3c499685f5b26dbcba.pdf",
+      "stored": "library/assets/sha256/43/43d6101ab1d9f522ff98d377878e0ccbc171469f56cfcf3c499685f5b26dbcba.pdf",
+      "sha256": "43d6101ab1d9f522ff98d377878e0ccbc171469f56cfcf3c499685f5b26dbcba",
+      "originalReferences": [
+        "drawings/motorized-v7-r1/custom-v7-m3-h2.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/43/43d6101ab1d9f522ff98d377878e0ccbc171469f56cfcf3c499685f5b26dbcba.pdf"
+      ]
+    },
+    {
       "path": "cad/828184fc68861ef465b501cbc09f57075279e86be4d3ab6ac34c1e18fac019dc.step",
       "stored": "library/assets/sha256/82/828184fc68861ef465b501cbc09f57075279e86be4d3ab6ac34c1e18fac019dc.step",
       "sha256": "828184fc68861ef465b501cbc09f57075279e86be4d3ab6ac34c1e18fac019dc",
@@ -11,6 +22,28 @@
       ],
       "sources": [
         "library/assets/sha256/82/828184fc68861ef465b501cbc09f57075279e86be4d3ab6ac34c1e18fac019dc.step"
+      ]
+    },
+    {
+      "path": "drawings/c212b51bed7cf9b917776d52ab23d179b7d4f965437c1cd22e4261094890b448.pdf",
+      "stored": "library/assets/sha256/c2/c212b51bed7cf9b917776d52ab23d179b7d4f965437c1cd22e4261094890b448.pdf",
+      "sha256": "c212b51bed7cf9b917776d52ab23d179b7d4f965437c1cd22e4261094890b448",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-v7-m3-h2/圆柱肩部_展开_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/c2/c212b51bed7cf9b917776d52ab23d179b7d4f965437c1cd22e4261094890b448.pdf"
+      ]
+    },
+    {
+      "path": "drawings/fff6d9f7b0fe0fffeb3b71a785a324ef217692a16c4cef2bfb340ab07a632b3f.dxf",
+      "stored": "library/assets/sha256/ff/fff6d9f7b0fe0fffeb3b71a785a324ef217692a16c4cef2bfb340ab07a632b3f.dxf",
+      "sha256": "fff6d9f7b0fe0fffeb3b71a785a324ef217692a16c4cef2bfb340ab07a632b3f",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-v7-m3-h2/圆柱肩部_展开.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/ff/fff6d9f7b0fe0fffeb3b71a785a324ef217692a16c4cef2bfb340ab07a632b3f.dxf"
       ]
     }
   ],

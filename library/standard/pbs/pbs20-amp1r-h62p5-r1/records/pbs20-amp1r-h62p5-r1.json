@@ -58,7 +58,7 @@
     "revision": "R1",
     "nominalFixedPositionAssembly": true,
     "includeInBundle": true,
-    "drawingPath": null,
+    "drawingPath": "drawings/pbs20-r1/PBS20_R1_加工审核与装配图.pdf",
     "sourceDrawingSha256": "cb27b4c5d6b3808d45e35a0b1261818d6ae0481f9cc0c2f163f9794efc6cd21b",
     "cloudStatus": "not-uploaded-fast-scope"
   },

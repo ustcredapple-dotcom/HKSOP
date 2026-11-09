@@ -3,6 +3,28 @@
   "packageId": "custom-obj-v7-side-r1",
   "files": [
     {
+      "path": "drawings/32f2adbd0b00e75a994577aee5ba6b7bb26642a827e0c1513d3b5fcc5f5bafe1.pdf",
+      "stored": "library/assets/sha256/32/32f2adbd0b00e75a994577aee5ba6b7bb26642a827e0c1513d3b5fcc5f5bafe1.pdf",
+      "sha256": "32f2adbd0b00e75a994577aee5ba6b7bb26642a827e0c1513d3b5fcc5f5bafe1",
+      "originalReferences": [
+        "drawings/objective-ac-r1/OBJ-V7-S_R1.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/32/32f2adbd0b00e75a994577aee5ba6b7bb26642a827e0c1513d3b5fcc5f5bafe1.pdf"
+      ]
+    },
+    {
+      "path": "drawings/383c0a326829be424403feae979e0b7ecd382450d9e7802b6d725cdbf65668c6.pdf",
+      "stored": "library/assets/sha256/38/383c0a326829be424403feae979e0b7ecd382450d9e7802b6d725cdbf65668c6.pdf",
+      "sha256": "383c0a326829be424403feae979e0b7ecd382450d9e7802b6d725cdbf65668c6",
+      "originalReferences": [
+        "drawings/objective-ac-r1/OBJ-V7-S_R1_laser.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/38/383c0a326829be424403feae979e0b7ecd382450d9e7802b6d725cdbf65668c6.pdf"
+      ]
+    },
+    {
       "path": "cad/ba79ef50cb49c60deec50a0c86a341a5b5e5de4b851d72fbc7c0b4d92765efb4.step",
       "stored": "library/assets/sha256/ba/ba79ef50cb49c60deec50a0c86a341a5b5e5de4b851d72fbc7c0b4d92765efb4.step",
       "sha256": "ba79ef50cb49c60deec50a0c86a341a5b5e5de4b851d72fbc7c0b4d92765efb4",
@@ -11,6 +33,17 @@
       ],
       "sources": [
         "library/assets/sha256/ba/ba79ef50cb49c60deec50a0c86a341a5b5e5de4b851d72fbc7c0b4d92765efb4.step"
+      ]
+    },
+    {
+      "path": "drawings/d6085d7b4ac66afc4d04bbb9eba7134cdcc9ed9c63a463ccbb9eb9cfc6d1d329.dxf",
+      "stored": "library/assets/sha256/d6/d6085d7b4ac66afc4d04bbb9eba7134cdcc9ed9c63a463ccbb9eb9cfc6d1d329.dxf",
+      "sha256": "d6085d7b4ac66afc4d04bbb9eba7134cdcc9ed9c63a463ccbb9eb9cfc6d1d329",
+      "originalReferences": [
+        "drawings/objective-ac-r1/OBJ-V7-S_R1_laser.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/d6/d6085d7b4ac66afc4d04bbb9eba7134cdcc9ed9c63a463ccbb9eb9cfc6d1d329.dxf"
       ]
     }
   ],

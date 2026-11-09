@@ -3,6 +3,17 @@
   "packageId": "mot-qwp-retro-m2-r2-45deg",
   "files": [
     {
+      "path": "drawings/4a261a257c5b6dff59781a0391e961828649c09fd7d3a8cf2344a97034b321ab.pdf",
+      "stored": "library/assets/sha256/4a/4a261a257c5b6dff59781a0391e961828649c09fd7d3a8cf2344a97034b321ab.pdf",
+      "sha256": "4a261a257c5b6dff59781a0391e961828649c09fd7d3a8cf2344a97034b321ab",
+      "originalReferences": [
+        "drawings/mot-ra-m2-r2/MOT-RA-M2_R2_两态装配说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/4a/4a261a257c5b6dff59781a0391e961828649c09fd7d3a8cf2344a97034b321ab.pdf"
+      ]
+    },
+    {
       "path": "rendering/599d78e1fb45840f1d8fb95db930e6be2cff687755f49fa396932bcf8a86c357.svg",
       "stored": "library/assets/sha256/59/599d78e1fb45840f1d8fb95db930e6be2cff687755f49fa396932bcf8a86c357.svg",
       "sha256": "599d78e1fb45840f1d8fb95db930e6be2cff687755f49fa396932bcf8a86c357",

@@ -3,6 +3,17 @@
   "packageId": "suruga-xyz-motor-2in-left-r2",
   "files": [
     {
+      "path": "drawings/1593100511b0af9b5cd87c3eb59a9b8649760c25d1c827b93fa90f82347c7088.pdf",
+      "stored": "library/assets/sha256/15/1593100511b0af9b5cd87c3eb59a9b8649760c25d1c827b93fa90f82347c7088.pdf",
+      "sha256": "1593100511b0af9b5cd87c3eb59a9b8649760c25d1c827b93fa90f82347c7088",
+      "originalReferences": [
+        "drawings/standard-post-h12p5-b4-r2/assemblies/XYZ三轴位移台_总装与安装说明_20261015_TN1_20261026_H12p5B4R2.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/15/1593100511b0af9b5cd87c3eb59a9b8649760c25d1c827b93fa90f82347c7088.pdf"
+      ]
+    },
+    {
       "path": "rendering/395c52918931dc304445a86d6034b493849c138890836379c82cd2006493831e.svg",
       "stored": "library/assets/sha256/39/395c52918931dc304445a86d6034b493849c138890836379c82cd2006493831e.svg",
       "sha256": "395c52918931dc304445a86d6034b493849c138890836379c82cd2006493831e",
@@ -47,6 +58,17 @@
       ]
     },
     {
+      "path": "drawings/b26a46d0441f267723cc2f64bce606a25f7123d0f55b264adf5943b7f2df0092.pdf",
+      "stored": "library/assets/sha256/b2/b26a46d0441f267723cc2f64bce606a25f7123d0f55b264adf5943b7f2df0092.pdf",
+      "sha256": "b26a46d0441f267723cc2f64bce606a25f7123d0f55b264adf5943b7f2df0092",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/2/XYZ三轴位移台_总装与安装说明_20261015_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/b2/b26a46d0441f267723cc2f64bce606a25f7123d0f55b264adf5943b7f2df0092.pdf"
+      ]
+    },
+    {
       "path": "rendering/b4798a0bd1265f58cf4da6b05c0d7d9213d4bc610a151366c02154123f00eaae.svg",
       "stored": "library/assets/sha256/b4/b4798a0bd1265f58cf4da6b05c0d7d9213d4bc610a151366c02154123f00eaae.svg",
       "sha256": "b4798a0bd1265f58cf4da6b05c0d7d9213d4bc610a151366c02154123f00eaae",
@@ -55,6 +77,17 @@
       ],
       "sources": [
         "library/assets/sha256/b4/b4798a0bd1265f58cf4da6b05c0d7d9213d4bc610a151366c02154123f00eaae.svg"
+      ]
+    },
+    {
+      "path": "drawings/f29ed779ecd33744f4d88e104bf2d329372cf2d58c9bc50580fd0d9eaf2894c6.pdf",
+      "stored": "library/assets/sha256/f2/f29ed779ecd33744f4d88e104bf2d329372cf2d58c9bc50580fd0d9eaf2894c6.pdf",
+      "sha256": "f29ed779ecd33744f4d88e104bf2d329372cf2d58c9bc50580fd0d9eaf2894c6",
+      "originalReferences": [
+        "drawings/xyz-left-and-standard-mt-r2/32_本次更新图册_R2.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/f2/f29ed779ecd33744f4d88e104bf2d329372cf2d58c9bc50580fd0d9eaf2894c6.pdf"
       ]
     }
   ],

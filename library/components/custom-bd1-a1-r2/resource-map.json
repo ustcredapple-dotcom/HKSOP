@@ -3,6 +3,17 @@
   "packageId": "custom-bd1-a1-r2",
   "files": [
     {
+      "path": "drawings/45568d1e02101eef7bde17fba1c0404a1790fbf2a5d867172b34b3d5c1bc7177.pdf",
+      "stored": "library/assets/sha256/45/45568d1e02101eef7bde17fba1c0404a1790fbf2a5d867172b34b3d5c1bc7177.pdf",
+      "sha256": "45568d1e02101eef7bde17fba1c0404a1790fbf2a5d867172b34b3d5c1bc7177",
+      "originalReferences": [
+        "drawings/bd1-r2/BD1_R2_加工与装配.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/45/45568d1e02101eef7bde17fba1c0404a1790fbf2a5d867172b34b3d5c1bc7177.pdf"
+      ]
+    },
+    {
       "path": "cad/703fe5b5518543e082483ce4f821e7f7169c0d98f45409267173b106737551aa.step",
       "stored": "library/assets/sha256/70/703fe5b5518543e082483ce4f821e7f7169c0d98f45409267173b106737551aa.step",
       "sha256": "703fe5b5518543e082483ce4f821e7f7169c0d98f45409267173b106737551aa",
@@ -11,6 +22,17 @@
       ],
       "sources": [
         "library/assets/sha256/70/703fe5b5518543e082483ce4f821e7f7169c0d98f45409267173b106737551aa.step"
+      ]
+    },
+    {
+      "path": "drawings/fc5407469c4f7d8cc8d18cde762659f77fd270ab07aaa096b4f892a558f85325.dxf",
+      "stored": "library/assets/sha256/fc/fc5407469c4f7d8cc8d18cde762659f77fd270ab07aaa096b4f892a558f85325.dxf",
+      "sha256": "fc5407469c4f7d8cc8d18cde762659f77fd270ab07aaa096b4f892a558f85325",
+      "originalReferences": [
+        "drawings/laser-marking/bd1-r2/BD1-A1_R2_laser.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/fc/fc5407469c4f7d8cc8d18cde762659f77fd270ab07aaa096b4f892a558f85325.dxf"
       ]
     }
   ],

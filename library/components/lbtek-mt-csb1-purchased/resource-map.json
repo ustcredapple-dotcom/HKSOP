@@ -3,6 +3,17 @@
   "packageId": "lbtek-mt-csb1-purchased",
   "files": [
     {
+      "path": "drawings/4a86a38ccaa50084c7866493b1735f451bcaab5f56adeb96e71d7393949a5a87.pdf",
+      "stored": "library/assets/sha256/4a/4a86a38ccaa50084c7866493b1735f451bcaab5f56adeb96e71d7393949a5a87.pdf",
+      "sha256": "4a86a38ccaa50084c7866493b1735f451bcaab5f56adeb96e71d7393949a5a87",
+      "originalReferences": [
+        "drawings/mt-cube-module-r1/MT-CSB1-vendor.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/4a/4a86a38ccaa50084c7866493b1735f451bcaab5f56adeb96e71d7393949a5a87.pdf"
+      ]
+    },
+    {
       "path": "cad/97ee64d778e59f96407c771041e26ec059cb999a29e94cee46d7fdaebc9d6aca.step",
       "stored": "library/assets/sha256/97/97ee64d778e59f96407c771041e26ec059cb999a29e94cee46d7fdaebc9d6aca.step",
       "sha256": "97ee64d778e59f96407c771041e26ec059cb999a29e94cee46d7fdaebc9d6aca",

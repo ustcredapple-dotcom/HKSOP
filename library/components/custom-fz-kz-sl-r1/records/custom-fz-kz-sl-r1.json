@@ -15,15 +15,24 @@
   "notes": "现有编码器舵机机械接口参考；实际杆孔配合、反向防松和实物行程待验证。",
   "stepPath": "step/fiber-motor-z-r1/FZ-KZ-SL-R1.step",
   "sourceStepSha256": "a3aefc71a2d3bf503a0bb48e783fe55fdb718f31a5f497993d7cafc3de4b98a6",
-  "drawingPath": null,
+  "drawingPath": "drawings/fiber-motor-z-r1/FZ-KZ-SL-R1_TN1_20261026.pdf",
   "sourceDrawingSha256": "19cac6214ec0e530b58367511b4b5c420fa69d3968eda19d6ddf7383f1bb43ca",
-  "dxfPath": null,
+  "dxfPath": "drawings/fiber-motor-z-r1/FZ-KZ-SL-R1_加工审核图.dxf",
   "sourceDxfSha256": "62a7c6d9f80fd9e92e44f60abd27240baf5ecdcce4008a10d3b5255b2fb3843c",
   "laserMarking": {
     "status": "required",
     "reason": "新件R1唯一编号",
-    "notes": "实际字高1.2mm；按定位PDF装夹，圆柱面按弧长展开；激光打标，不铣刻。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "实际字高1.2mm；按定位PDF装夹，圆柱面按弧长展开；激光打标，不铣刻。",
+    "files": [
+      {
+        "face": "编号面",
+        "text": "FZ-KZ-SL-R1",
+        "dxfPath": "drawings/fiber-motor-z-r1/laser-marking/FZ-KZ-SL-R1/编号_展开1比1_mm.dxf",
+        "sha256": "ecf21970b8ff98bd570912d407f07a15753f6e0c5b45a6f57bdd7b3bab28b903",
+        "setupPdfPath": "drawings/fiber-motor-z-r1/laser-marking/FZ-KZ-SL-R1/定位图.pdf",
+        "setupPdfSha256": "27e41e68ac9b6b7dd5d06feefbf076ecc980a65fab8d8253ddc761346441a00c"
+      }
+    ]
   },
   "manufacturingEvidence": {
     "sourceStepSha256": "a3aefc71a2d3bf503a0bb48e783fe55fdb718f31a5f497993d7cafc3de4b98a6",
@@ -35,7 +44,7 @@
     "physicalTrialCompleted": false,
     "reviewScope": "Independent one-solid validity and assembly-instance identity check; source unchanged dimensioned page."
   },
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/fiber-motor-z-r1/dxf-pdf/custom-fz-kz-sl-r1_DXF.pdf",
   "dxfPdfSha256": "1a412b758f03b31fcf8e05b8fcf191c569a9ba9f174eaf351708d50ff80a015e",
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -43,7 +52,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/fiber-motor-z-r1/FZ-KZ-SL-R1_TN1_20261026.pdf",
         "previousSha256": "9fa601432edf11981da85e001d7d765fe9c9c336877e0e24e334e44f66dc1c8b",
         "sha256": "19cac6214ec0e530b58367511b4b5c420fa69d3968eda19d6ddf7383f1bb43ca"
       }

@@ -9,8 +9,8 @@
   "drawingStatus": "engineering-review",
   "status": "名义CAD与加工审核图；未批准投产",
   "stepPath": "step/laser616-periscope-r1/LF616-frame.step",
-  "drawingPath": null,
-  "dxfPath": null,
+  "drawingPath": "drawings/laser616-periscope-r1/616-periscope-mechanical-review_TN1_20261026.pdf",
+  "dxfPath": "drawings/laser616-periscope-r1/LF616-board-counterbore-section.dxf",
   "sourceUrl": "",
   "manufacturingSpec": {
     "material": "316L 不锈钢",
@@ -43,15 +43,15 @@
     "engineeringReleaseApproved": false,
     "supportingSections": [
       {
-        "dxfPath": null,
+        "dxfPath": "drawings/laser616-periscope-r1/LF616-board-pilot-section.dxf",
         "sha256": "46786569b35d82723898982a8038c522ae256db3a50bcd631470130bdf6ae0ea",
-        "dxfPdfPath": null,
+        "dxfPdfPath": "drawings/laser616-periscope-r1/LF616-board-pilot-section_DXF.pdf",
         "dxfPdfSha256": "df691dc9d405ea95d55af90d931cb75386967ec41930d66ca0b3cd7249f5a77d"
       }
     ]
   },
   "notes": "本轮独立本地修订。原正式H12.5保留退磁喷砂，27-S45原STEP精确复用，不改变商业镜架几何。",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/laser616-periscope-r1/LF616-board-counterbore-section_DXF.pdf",
   "dxfPdfSha256": "31b0e06bcd52d3ecec5bf28b095f4c3616707c8cc6fcd76a198f0b196d34444a",
   "sourceDrawingSha256": "db33665c8f6ee2a66165bb2c04bd53a101053b4183f70f8bae16b5b9017aa58a",
   "drawingPages": [
@@ -103,8 +103,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前 STEP 原字形及功能文字改用激光打标，完整轮廓与位置已提取核验。",
-    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。",
+    "files": [
+      {
+        "dxfPath": "drawings/laser-marking/lm1-20261015/custom-laser616-frame-r1/编号面.dxf",
+        "sha256": "46ed30de7e63a673be4da45268ca0afadd0c8cf7457ff0e2347339340b4854a9",
+        "setupPdfPath": "drawings/laser-marking/lm1-20261015/custom-laser616-frame-r1/编号面_定位.pdf",
+        "setupPdfSha256": "c34ae6f6dbfdbfa66360551a73a0074834076f61747a125f146252af0d6fc248",
+        "face": "编号面",
+        "text": "LF616"
+      }
+    ]
   },
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -112,7 +121,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/laser616-periscope-r1/616-periscope-mechanical-review_TN1_20261026.pdf",
         "previousSha256": "28510f5fbf11db8eb2e1ce1fd73726d3ca67439bdf984ad2beb7fef2e59db2af",
         "sha256": "db33665c8f6ee2a66165bb2c04bd53a101053b4183f70f8bae16b5b9017aa58a"
       }

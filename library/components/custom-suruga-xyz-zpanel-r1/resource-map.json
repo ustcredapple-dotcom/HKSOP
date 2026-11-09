@@ -3,6 +3,39 @@
   "packageId": "custom-suruga-xyz-zpanel-r1",
   "files": [
     {
+      "path": "drawings/80897154ef3dfb29f9c1b779b35945d87e0f918caa46b08033bdb2aa13215ebc.pdf",
+      "stored": "library/assets/sha256/80/80897154ef3dfb29f9c1b779b35945d87e0f918caa46b08033bdb2aa13215ebc.pdf",
+      "sha256": "80897154ef3dfb29f9c1b779b35945d87e0f918caa46b08033bdb2aa13215ebc",
+      "originalReferences": [
+        "drawings/laser-marking/custom-suruga-xyz-zpanel-r1/编号面_-Y_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/80/80897154ef3dfb29f9c1b779b35945d87e0f918caa46b08033bdb2aa13215ebc.pdf"
+      ]
+    },
+    {
+      "path": "drawings/839df5d8f61a4f20a7c89d7c0cae05b03f07491d6eb9a270252e04db4873afc8.dxf",
+      "stored": "library/assets/sha256/83/839df5d8f61a4f20a7c89d7c0cae05b03f07491d6eb9a270252e04db4873afc8.dxf",
+      "sha256": "839df5d8f61a4f20a7c89d7c0cae05b03f07491d6eb9a270252e04db4873afc8",
+      "originalReferences": [
+        "drawings/laser-marking/custom-suruga-xyz-zpanel-r1/编号面_-Y.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/83/839df5d8f61a4f20a7c89d7c0cae05b03f07491d6eb9a270252e04db4873afc8.dxf"
+      ]
+    },
+    {
+      "path": "drawings/cb07b15912cb42febe1b12a3f5a7b8ff95bf14c29f0b20a65ea29a0821cb9866.pdf",
+      "stored": "library/assets/sha256/cb/cb07b15912cb42febe1b12a3f5a7b8ff95bf14c29f0b20a65ea29a0821cb9866.pdf",
+      "sha256": "cb07b15912cb42febe1b12a3f5a7b8ff95bf14c29f0b20a65ea29a0821cb9866",
+      "originalReferences": [
+        "drawings/suruga-xyz-zpanel-r2/32-XYZ-Z_R2_加工工程图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/cb/cb07b15912cb42febe1b12a3f5a7b8ff95bf14c29f0b20a65ea29a0821cb9866.pdf"
+      ]
+    },
+    {
       "path": "cad/fc1a4bc9c75782c74a9ca4a62975f8c659e5c5864e601366b6ac397267239737.step",
       "stored": "library/assets/sha256/fc/fc1a4bc9c75782c74a9ca4a62975f8c659e5c5864e601366b6ac397267239737.step",
       "sha256": "fc1a4bc9c75782c74a9ca4a62975f8c659e5c5864e601366b6ac397267239737",

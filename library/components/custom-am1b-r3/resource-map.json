@@ -3,6 +3,39 @@
   "packageId": "custom-am1b-r3",
   "files": [
     {
+      "path": "drawings/192f5c5ead3d4eaad12bbef5ca330e63ca4f0f2696a891dd64644c126c9b9644.dxf",
+      "stored": "library/assets/sha256/19/192f5c5ead3d4eaad12bbef5ca330e63ca4f0f2696a891dd64644c126c9b9644.dxf",
+      "sha256": "192f5c5ead3d4eaad12bbef5ca330e63ca4f0f2696a891dd64644c126c9b9644",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/3/AM1B_R3_LASER_AM1B_1to1mm.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/19/192f5c5ead3d4eaad12bbef5ca330e63ca4f0f2696a891dd64644c126c9b9644.dxf"
+      ]
+    },
+    {
+      "path": "drawings/9e2e370b17a20e1d6081b25c884ceec418c7f70d51138e95d5d70155e85aee07.dxf",
+      "stored": "library/assets/sha256/9e/9e2e370b17a20e1d6081b25c884ceec418c7f70d51138e95d5d70155e85aee07.dxf",
+      "sha256": "9e2e370b17a20e1d6081b25c884ceec418c7f70d51138e95d5d70155e85aee07",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/3/AM1B_R3_MACHINING.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/9e/9e2e370b17a20e1d6081b25c884ceec418c7f70d51138e95d5d70155e85aee07.dxf"
+      ]
+    },
+    {
+      "path": "drawings/a9d31d619f9dc9c60174ec22edf3bc6a805cacd735edc9f5b6002214f60e4c26.pdf",
+      "stored": "library/assets/sha256/a9/a9d31d619f9dc9c60174ec22edf3bc6a805cacd735edc9f5b6002214f60e4c26.pdf",
+      "sha256": "a9d31d619f9dc9c60174ec22edf3bc6a805cacd735edc9f5b6002214f60e4c26",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/3/AM1B_R3_MACHINING.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/a9/a9d31d619f9dc9c60174ec22edf3bc6a805cacd735edc9f5b6002214f60e4c26.pdf"
+      ]
+    },
+    {
       "path": "cad/af171e0475cda368f354d4ead289b06815db8f1d60c26eab776cf2f38398ff8e.step",
       "stored": "library/assets/sha256/af/af171e0475cda368f354d4ead289b06815db8f1d60c26eab776cf2f38398ff8e.step",
       "sha256": "af171e0475cda368f354d4ead289b06815db8f1d60c26eab776cf2f38398ff8e",
@@ -11,6 +44,28 @@
       ],
       "sources": [
         "library/assets/sha256/af/af171e0475cda368f354d4ead289b06815db8f1d60c26eab776cf2f38398ff8e.step"
+      ]
+    },
+    {
+      "path": "drawings/b739b6f5bf42dada239a39b37877a205896d3af2fbb5f287e6e3603aeb5a79fb.pdf",
+      "stored": "library/assets/sha256/b7/b739b6f5bf42dada239a39b37877a205896d3af2fbb5f287e6e3603aeb5a79fb.pdf",
+      "sha256": "b739b6f5bf42dada239a39b37877a205896d3af2fbb5f287e6e3603aeb5a79fb",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/dxf-pdf/custom-am1b-r3_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/b7/b739b6f5bf42dada239a39b37877a205896d3af2fbb5f287e6e3603aeb5a79fb.pdf"
+      ]
+    },
+    {
+      "path": "drawings/bc72fa9f3ffa42a34ef8014cdf773d49acd8075bcdff301474be671eef69d89f.pdf",
+      "stored": "library/assets/sha256/bc/bc72fa9f3ffa42a34ef8014cdf773d49acd8075bcdff301474be671eef69d89f.pdf",
+      "sha256": "bc72fa9f3ffa42a34ef8014cdf773d49acd8075bcdff301474be671eef69d89f",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/3/AM1B_R3_LASER_POSITION.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/bc/bc72fa9f3ffa42a34ef8014cdf773d49acd8075bcdff301474be671eef69d89f.pdf"
       ]
     }
   ],

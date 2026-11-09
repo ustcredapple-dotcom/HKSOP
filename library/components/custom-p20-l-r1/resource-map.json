@@ -3,6 +3,17 @@
   "packageId": "custom-p20-l-r1",
   "files": [
     {
+      "path": "drawings/021f903c045a09e121cbd01d11c386da101abd380b346fd56ebcc8013faca92d.dxf",
+      "stored": "library/assets/sha256/02/021f903c045a09e121cbd01d11c386da101abd380b346fd56ebcc8013faca92d.dxf",
+      "sha256": "021f903c045a09e121cbd01d11c386da101abd380b346fd56ebcc8013faca92d",
+      "originalReferences": [
+        "drawings/pbs20-r1/P20-L-R1_激光轮廓_毫米.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/02/021f903c045a09e121cbd01d11c386da101abd380b346fd56ebcc8013faca92d.dxf"
+      ]
+    },
+    {
       "path": "cad/20181beae6bbd8d4579abd49c0fe3096439f87cfd27ba1f6aeabaa613bb79d2d.step",
       "stored": "library/assets/sha256/20/20181beae6bbd8d4579abd49c0fe3096439f87cfd27ba1f6aeabaa613bb79d2d.step",
       "sha256": "20181beae6bbd8d4579abd49c0fe3096439f87cfd27ba1f6aeabaa613bb79d2d",
@@ -11,6 +22,28 @@
       ],
       "sources": [
         "library/assets/sha256/20/20181beae6bbd8d4579abd49c0fe3096439f87cfd27ba1f6aeabaa613bb79d2d.step"
+      ]
+    },
+    {
+      "path": "drawings/8f5124fd2c37e58f78e543e187f3ca4e67acde3952a98836c6e035b9d9508f60.dxf",
+      "stored": "library/assets/sha256/8f/8f5124fd2c37e58f78e543e187f3ca4e67acde3952a98836c6e035b9d9508f60.dxf",
+      "sha256": "8f5124fd2c37e58f78e543e187f3ca4e67acde3952a98836c6e035b9d9508f60",
+      "originalReferences": [
+        "drawings/pbs20-r1/P20-L-R1_加工审核图.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/8f/8f5124fd2c37e58f78e543e187f3ca4e67acde3952a98836c6e035b9d9508f60.dxf"
+      ]
+    },
+    {
+      "path": "drawings/cb27b4c5d6b3808d45e35a0b1261818d6ae0481f9cc0c2f163f9794efc6cd21b.pdf",
+      "stored": "library/assets/sha256/cb/cb27b4c5d6b3808d45e35a0b1261818d6ae0481f9cc0c2f163f9794efc6cd21b.pdf",
+      "sha256": "cb27b4c5d6b3808d45e35a0b1261818d6ae0481f9cc0c2f163f9794efc6cd21b",
+      "originalReferences": [
+        "drawings/pbs20-r1/PBS20_R1_加工审核与装配图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/cb/cb27b4c5d6b3808d45e35a0b1261818d6ae0481f9cc0c2f163f9794efc6cd21b.pdf"
       ]
     }
   ],

@@ -3,6 +3,17 @@
   "packageId": "d-mirror-dm1v-0-r1",
   "files": [
     {
+      "path": "drawings/8e73d6a3f642bfda9b5f9155808aba44f4dfc42d48a9d36b09ab45178e79acd1.pdf",
+      "stored": "library/assets/sha256/8e/8e73d6a3f642bfda9b5f9155808aba44f4dfc42d48a9d36b09ab45178e79acd1.pdf",
+      "sha256": "8e73d6a3f642bfda9b5f9155808aba44f4dfc42d48a9d36b09ab45178e79acd1",
+      "originalReferences": [
+        "drawings/dm1v-r1/DM1V-R1_装配说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/8e/8e73d6a3f642bfda9b5f9155808aba44f4dfc42d48a9d36b09ab45178e79acd1.pdf"
+      ]
+    },
+    {
       "path": "cad/9aa1b99844aba8b9db18b95819cc670fedc547e0c91dbc0c0f66aac6f82ee6b1.step",
       "stored": "library/assets/sha256/9a/9aa1b99844aba8b9db18b95819cc670fedc547e0c91dbc0c0f66aac6f82ee6b1.step",
       "sha256": "9aa1b99844aba8b9db18b95819cc670fedc547e0c91dbc0c0f66aac6f82ee6b1",

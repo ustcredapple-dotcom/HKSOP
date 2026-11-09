@@ -26,11 +26,11 @@
     "drawingScope": "Original V7 unchanged single part, dimension review drawing; no manufacturing release",
     "dxfSha256": "54df794da893da72bcf72ebaffd815c481c1d83a37e9a8785bb355778b3c843d"
   },
-  "drawingPath": null,
+  "drawingPath": "drawings/motorized-v7-r1/custom-v7-1in-side.pdf",
   "sourceDrawingSha256": "7cbcc7cb9f4e7777b8c4a20c6102bb1e0503d5dfd129c1d6d139cdba16bb2340",
-  "dxfPath": null,
+  "dxfPath": "drawings/motorized-v7-r1/custom-v7-1in-side.dxf",
   "sourceDxfSha256": "54df794da893da72bcf72ebaffd815c481c1d83a37e9a8785bb355778b3c843d",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/motorized-v7-r1/custom-v7-1in-side_DXF.pdf",
   "dxfPdfSha256": "e37dec709610708233416c7d863075536ae809d92a7133e57b6f27687a74e245",
   "drawingPages": [
     1,
@@ -75,7 +75,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "按本轮补齐要求增加识别编号；已核当前 STEP 外表面位置。",
-    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。",
+    "files": [
+      {
+        "dxfPath": "drawings/laser-marking/lm1-20261015/custom-v7-1in-side/编号面.dxf",
+        "sha256": "05ec87964a66cb8192f02d38b591873b2e43f643fea13ddbb98ad032fdad8bd0",
+        "setupPdfPath": "drawings/laser-marking/lm1-20261015/custom-v7-1in-side/编号面_定位.pdf",
+        "setupPdfSha256": "a4c712900582c6e8f0f3db1172c261d65d8d04bb9ece6314d2545bb2520de0ca",
+        "face": "编号面",
+        "text": "V7-1-S"
+      }
+    ]
   }
 }

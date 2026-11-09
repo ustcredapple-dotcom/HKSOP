@@ -437,7 +437,7 @@
     "nominalFixedPositionAssembly": true,
     "includeInBundle": true,
     "sha256": "2f6a4ba84feaeb1963c40aa80d8f852a5421aa66b45f95ab590e1573b109f28f",
-    "drawingPath": null,
+    "drawingPath": "drawings/wpc2-r1/WPC2-R1_设计与验收.pdf",
     "sourceDrawingSha256": "e7ebcf3097d08900ee166bd859c7659f8794f57772140a43af6590a537a97283"
   },
   "productionReady": false,
@@ -454,7 +454,7 @@
   "revision": "WPC2-R1",
   "status": "极速入库 · 工程审核版 · 未实物试装",
   "assemblyGuide": {
-    "drawingPath": null
+    "drawingPath": "drawings/wpc2-r1/WPC2-R1_设计与验收.pdf"
   },
   "id": "waveplate-centered-dual-1-wpc2-r1"
 }

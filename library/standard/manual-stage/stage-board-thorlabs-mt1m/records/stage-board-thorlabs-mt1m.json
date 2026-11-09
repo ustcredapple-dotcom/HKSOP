@@ -95,7 +95,7 @@
   "assemblyReference": {
     "stepPath": "step/manual-stage-r1-a7075/assemblies/thorlabs-mt1m-assembly.step",
     "sourceStepSha256": "a3a945b8fc89e87df827ed0fee44d54a4c6e6f5b5285dc915fb267d0b303fab9",
-    "drawingPath": null,
+    "drawingPath": "drawings/manual-stage-r1-a7075/ZZLab_手动位移台模块化小面包板_工程图册_R1-A7075.pdf",
     "drawingPages": [
       4
     ],

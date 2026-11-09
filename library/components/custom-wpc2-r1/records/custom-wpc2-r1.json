@@ -5,7 +5,7 @@
   "kind": "custom",
   "unit": "件",
   "stepPath": "step/wpc2-r1/WPC2-R1_adapter.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/wpc2-r1/WPC2-R1_加工图.pdf",
   "sourceStepSha256": "3ade68e2904a847c69d310b9aa3edbc2e557e552239708897a5a57493a637caf",
   "sourceDrawingSha256": "c76be0b746af83ab91c137822f4a07df615626fc8cd13faba84902378ee2ddfc",
   "productionReady": false,
@@ -16,8 +16,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "源图要求WPC2-R1侧面识别编号；激光打标，不铣刻。",
-    "files": [],
-    "notes": " 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。"
+    "files": [
+      {
+        "face": "Y=-12.5侧面",
+        "text": "WPC2-R1",
+        "dxfPath": "drawings/wpc2-r1/WPC2-R1_侧面打标_1to1.dxf",
+        "sha256": "79bff199033021f1980c69ee496e5e2b8d7f1b0e618c274495f4a33de816fc5d",
+        "setupPdfPath": "drawings/wpc2-r1/WPC2-R1_激光打标定位.pdf",
+        "setupPdfSha256": "0aba2b4b06c7b5f4ead9ecee84c340d1057af0e56688a19820b8d41afc6928a1"
+      }
+    ],
+    "notes": ""
   },
   "status": "加工审核版；未实物试装",
   "drawingStatus": "engineering-review",

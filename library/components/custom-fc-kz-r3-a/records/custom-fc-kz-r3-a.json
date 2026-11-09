@@ -15,15 +15,24 @@
   "notes": "CS30-KZ 专用，台阶7.5mm；孔径、深度及沉孔方向按原交付图。M4与定位销有效啮合需首件确认。",
   "stepPath": "step/fiber-rear-dual-r3/FC-KZ-R3-A.step",
   "sourceStepSha256": "121d25c198b06fb03eadc640cdfc8a06e6247d76ca06d8f43ca8a0a64691614b",
-  "drawingPath": null,
+  "drawingPath": "drawings/fiber-rear-dual-r3/FC-KZ-R3-A_machining.pdf",
   "sourceDrawingSha256": "759eb31bea7fbbe60732b9839b8d3a8827d610566ed36fa4fa3a5346be671f41",
-  "dxfPath": null,
+  "dxfPath": "drawings/fiber-rear-dual-r3/FC-KZ-R3-A_加工审核图.dxf",
   "sourceDxfSha256": "f3103231b91ecee1978413a678bcf6d5c411c20710f2cabd836fec9484f8cd3e",
   "laserMarking": {
     "status": "required",
     "reason": "当前R3唯一加工件编号",
-    "notes": "在Y=-15前端面激光编号，字高2mm；不铣刻，激光参数待材料试样确认。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "在Y=-15前端面激光编号，字高2mm；不铣刻，激光参数待材料试样确认。",
+    "files": [
+      {
+        "face": "编号面",
+        "text": "FC-KZ-R3-A",
+        "dxfPath": "drawings/fiber-rear-dual-r3/laser-marking/FC-KZ-R3-A/编号面_1比1.dxf",
+        "sha256": "7a85ed68b01fdec866ed9c5009297daa5360311f7e5cd2b486341ed52bcf5878",
+        "setupPdfPath": "drawings/fiber-rear-dual-r3/laser-marking/FC-KZ-R3-A/编号面_定位.pdf",
+        "setupPdfSha256": "64c4acbdb7cb5110d64d94169872bdad25981a54d3ac7f59120272a2d423f5f7"
+      }
+    ]
   },
   "manufacturingEvidence": {
     "sourceStepSha256": "121d25c198b06fb03eadc640cdfc8a06e6247d76ca06d8f43ca8a0a64691614b",
@@ -37,7 +46,7 @@
     "originalDxfSha256": "50e7f20e0d098507616a03e8030e3a12fff76abbfcd6d5d4743591fa61d9bca3",
     "dxfLayoutOnlyChange": "Move six header notes up12mm; original source retained, geometry and dimensions unchanged"
   },
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/fiber-rear-dual-r3/dxf-pdf/custom-fc-kz-r3-a_DXF.pdf",
   "dxfPdfSha256": "15486a6ec9c0eb45bebd34a8dbd7a6f90efd87b1f9323ab6c569f45f504dea76",
   "drawingLayoutRevision": "R3-note-spacing1"
 }

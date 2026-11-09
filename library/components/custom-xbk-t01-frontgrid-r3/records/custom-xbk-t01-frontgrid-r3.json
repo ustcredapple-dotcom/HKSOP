@@ -7,7 +7,7 @@
   "revision": "R3-FRONT-GRID",
   "stepPath": "step/xbk-cavity-frontgrid-r3/XBK-T01_R3_FRONT25_37p5_316L.step",
   "sourceStepSha256": "535c07c79638ffaa5f11d59944fba6042d9710f1444e865b2987d94d60bbc200",
-  "drawingPath": null,
+  "drawingPath": "drawings/xbk-cavity-frontgrid-r3/XBK_Cavity_H62p5_R3_审核图册_TN1_20261026.pdf",
   "sourceDrawingSha256": "ac1aeebc4ecfebef30c6fc247532eeb3d63c02cd521e2f453413348555a251e6",
   "drawingPages": [
     3
@@ -34,8 +34,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "R3已核定背侧编号面；激光打标，不铣刻。",
-    "notes": "按定位PDF第2页装夹；已有相同标识实物不重复打标。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "按定位PDF第2页装夹；已有相同标识实物不重复打标。",
+    "files": [
+      {
+        "face": "背侧编号面",
+        "text": "XBK-T01 R3",
+        "dxfPath": "drawings/xbk-cavity-frontgrid-r3/XBK-T01_R3_LASER_BACK.dxf",
+        "sha256": "88ff0948d7f8abf8fc70a87595fe4413e9f2ec19be90ac6e40ee2fc3dfd91a9b",
+        "setupPdfPath": "drawings/xbk-cavity-frontgrid-r3/XBK_R3_激光打标定位图.pdf",
+        "setupPdfSha256": "77b890bd1fb574215159ee1672b9e4597db6ede4f92304ce22575e93015d9fc7"
+      }
+    ]
   },
   "sourceUrl": "https://cad.onshape.com/documents/3317d27b2b157a1b479f8aad/v/4d404b3d4822937206f8cc0b/e/6b0a53cc1ef74315780e1248",
   "threadCalloutAnnotationRevision": {
@@ -44,7 +53,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/xbk-cavity-frontgrid-r3/XBK_Cavity_H62p5_R3_审核图册_TN1_20261026.pdf",
         "previousSha256": "18fd64199c84ef68cc71fffb994b9ee7dd7491701b3e9e523c3f76bec3ef7d7b",
         "sha256": "ac1aeebc4ecfebef30c6fc247532eeb3d63c02cd521e2f453413348555a251e6"
       }

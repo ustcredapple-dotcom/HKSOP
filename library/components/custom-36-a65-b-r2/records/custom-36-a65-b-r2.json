@@ -6,8 +6,8 @@
   "unit": "件",
   "revision": "R2",
   "stepPath": "step/camera-adapters-r2/36-A65-B_R2.step",
-  "drawingPath": null,
-  "dxfPath": null,
+  "drawingPath": "drawings/camera-adapters-r2/36-A65-B_R2_MACHINING_A3.pdf",
+  "dxfPath": "drawings/camera-adapters-r2/36-A65-B_R2_MACHINING_EDITABLE_1to1.dxf",
   "sourceStepSha256": "758c2994fa32343dba4794695494d69df8a110aeea8ab6c8cd935864ac14fa06",
   "sourceDrawingSha256": "29cb0d921f3ff75ab846aea175d486656c6f2a8eed4e9ef5f067f4efa6cb7d95",
   "status": "试制审核 · 未实装 · 未加工放行",
@@ -30,11 +30,20 @@
   "laserMarking": {
     "status": "required",
     "reason": "唯一编号，2.5mm实际字高；独立1:1毫米闭合字形DXF和定位PDF。",
-    "files": [],
-    "notes": " 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。"
+    "files": [
+      {
+        "face": "+X 外侧面",
+        "text": "36-A65-B",
+        "dxfPath": "drawings/camera-adapters-r2/laser-marking/36-A65-B_R2_Xplus_LASER_1to1.dxf",
+        "sha256": "74fe5d1dc155eb78c673217ec23b3b473b157448c5f9b94a3b4f8a03bfba4434",
+        "setupPdfPath": "drawings/camera-adapters-r2/laser-marking/36-A65-B_R2_Xplus_LASER_SETUP.pdf",
+        "setupPdfSha256": "cba9b08fd213ebdea030df1901ab269eba7754037f1e38de7ae7dd973a64018e"
+      }
+    ],
+    "notes": ""
   },
   "notes": "两侧各0.10mm名义间隙按首件配商业薄垫片，不硬拉侧耳。后两相机M4螺丝必须加ISO7089 M4厚0.8平垫；实际夹紧和薄余壁待首件确认。",
   "sourceUrl": "https://cad.onshape.com/documents/b1d16e8a80a1ca4b0eaa33e8/v/a961c0e83049cef787b6aaa5/e/5f814e7adaec19e80a8626ea",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/camera-adapters-r2/36-A65-B_R2_MACHINING_EDITABLE_1to1_PDF_PREVIEW.pdf",
   "dxfPdfSha256": "51f9ad201c85160791e7bd1e1578fa97ef7e8b0206272455eb33a1be791d4b37"
 }

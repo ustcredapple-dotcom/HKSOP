@@ -23,6 +23,17 @@
       "sources": [
         "library/assets/sha256/7a/7a4d3851d15fc91f48bcb0ad2b8e36f05251fc0deff1dc3166b5474527478c1d.svg"
       ]
+    },
+    {
+      "path": "drawings/e0e5bd276003a652e8b23f2c40dce01a3807fbcb8b915d614bdbc7946eb43cd2.pdf",
+      "stored": "library/assets/sha256/e0/e0e5bd276003a652e8b23f2c40dce01a3807fbcb8b915d614bdbc7946eb43cd2.pdf",
+      "sha256": "e0e5bd276003a652e8b23f2c40dce01a3807fbcb8b915d614bdbc7946eb43cd2",
+      "originalReferences": [
+        "sha256/e0/e0e5bd276003a652e8b23f2c40dce01a3807fbcb8b915d614bdbc7946eb43cd2.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/e0/e0e5bd276003a652e8b23f2c40dce01a3807fbcb8b915d614bdbc7946eb43cd2.pdf"
+      ]
     }
   ],
   "dependencies": []

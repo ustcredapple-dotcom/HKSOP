@@ -628,7 +628,7 @@
     "stepPath": "step/dm1f-r1/DM1F-R1_ASM_0deg.step",
     "sourceStepSha256": "789cc872a98c99f806515c3a7550edde3f290c471d469582a9af0265d63cec80",
     "sha256": "789cc872a98c99f806515c3a7550edde3f290c471d469582a9af0265d63cec80",
-    "drawingPath": null,
+    "drawingPath": "drawings/dm1f-r1/DM1F-R1_装配说明.pdf",
     "sourceDrawingSha256": "dd0afdf1a4f8c69c03bde9dfd71adc3cecb29968d4331948c06d51a9c9835a66",
     "sourceExact": true,
     "includeInBundle": true,

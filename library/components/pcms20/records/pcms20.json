@@ -8,7 +8,7 @@
   "status": "原厂型号已核对",
   "stepPath": "step/pbs20-r1/PCMS20_OEM.step",
   "sourceStepSha256": "dc7c787bde46de986cf5bfe3ea612b297a72799d5a6561f24e9455601174531e",
-  "drawingPath": null,
+  "drawingPath": "drawings/pbs20-r1/PCMS20_OEM.pdf",
   "sourceDrawingSha256": "5b9f18fb97825f9bb07a4a5f38ea4737289927d1a444ab645014cbc0e4bb61be",
   "notes": "磁体和定位销侧装夹持；20 mm立方，底部M4。随原厂供应的夹紧零件不重复采购。"
 }

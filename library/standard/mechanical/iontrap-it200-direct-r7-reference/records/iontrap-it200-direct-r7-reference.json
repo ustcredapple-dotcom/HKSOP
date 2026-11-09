@@ -53,22 +53,22 @@
     },
     {
       "label": "IT200-DIRECT_R7_bottom_projection_1to1",
-      "dxfPath": null,
+      "dxfPath": "drawings/iontrap-it200-direct-r7/IT200-DIRECT_R7_bottom_projection_1to1.dxf",
       "sha256": "94ca4cf27fb86a1c92f9684966a8ccec47ac92b822b5017931a9871a81f4994c"
     },
     {
       "label": "IT200-DIRECT_R7_front_projection_1to1",
-      "dxfPath": null,
+      "dxfPath": "drawings/iontrap-it200-direct-r7/IT200-DIRECT_R7_front_projection_1to1.dxf",
       "sha256": "ced8920e7dcdcc54521a49a8f258ef94564085c622e2165450037f246d3619cd"
     },
     {
       "label": "IT200-DIRECT_R7_right_projection_1to1",
-      "dxfPath": null,
+      "dxfPath": "drawings/iontrap-it200-direct-r7/IT200-DIRECT_R7_right_projection_1to1.dxf",
       "sha256": "d749c96b756074be6edd4d676aca095e9abb3bc7aecb39da78ff471b5de7870f"
     },
     {
       "label": "顶视1:1 DXF原件，随原交付包保留",
-      "dxfPath": null,
+      "dxfPath": "drawings/iontrap-it200-direct-r7/IT200-DIRECT_R7_top_projection_1to1.dxf",
       "sha256": "5601046af153220f863531bb825d7cde234c004bc5e744be373d5d04c0166925"
     }
   ],

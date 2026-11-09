@@ -1279,7 +1279,7 @@
     "stepPath": "step/bd1-r2/BD1_R2_assembly.step",
     "sourceStepSha256": "9a4a6cd0e7ddfe0eeadbdca292149d4cc4b8e3cab5f82d608420f0e47c583d38",
     "sha256": "9a4a6cd0e7ddfe0eeadbdca292149d4cc4b8e3cab5f82d608420f0e47c583d38",
-    "drawingPath": null,
+    "drawingPath": "drawings/bd1-r2/BD1_R2_加工与装配.pdf",
     "sourceDrawingSha256": "45568d1e02101eef7bde17fba1c0404a1790fbf2a5d867172b34b3d5c1bc7177",
     "sourceExact": true,
     "includeInBundle": true,

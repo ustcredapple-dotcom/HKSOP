@@ -8,7 +8,7 @@
   "notes": "M1公制修订；虹膜叶片缺失于厂家CAD，叶片作用面待确认。。实物试装未完成。",
   "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/f67a7160b86c862038086176",
   "stepPath": "step/metric-m1-20261006/06-IRIS-U_METRIC_M1.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/metric-m1-20261006/06-IRIS-U_M1_加工工程图.pdf",
   "sourceStepSha256": "803520c4de587e5abb1e0a819dc4c27ef049db3e6be982f8ccf99b376d03a5d6",
   "productionReady": false,
   "manufacturingSpec": {
@@ -21,7 +21,7 @@
   },
   "drawingRevision": "M1",
   "drawingStatus": "engineering-review",
-  "dxfPath": null,
+  "dxfPath": "drawings/metric-m1-20261006/06-IRIS-U_M1_加工工程图.dxf",
   "manufacturingEvidence": {
     "sourcePackage": null,
     "sourceCode": "06-IRIS-U",
@@ -44,7 +44,7 @@
   },
   "sourceDrawingSha256": "9862eba0f584bab8dd4a05597855dd0dbcd425f4b52d2a660c668da9b1ca0c31",
   "sourceDxfSha256": "91fa5ded18fbf9b7fb36c674a950a6456640f4795a9954869feced406e213e0c",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/metric-m1-20261006/06-IRIS-U_M1_加工工程图_DXF.pdf",
   "dxfPdfSha256": "b46404b42d1516b33e0096e39057a20b664fa8b327f8182cda93975dc54c1d55",
   "drawingPages": [
     1,
@@ -80,7 +80,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "06-IRIS-U",
+        "dxfPath": "drawings/laser-marking/new-iris-adapter-2/编号面_-Y.dxf",
+        "sha256": "4b95217d033998ccaa1383c7eceb8b8c0a9ebe0dbed493da1fec40a94b5abdec",
+        "setupPdfPath": "drawings/laser-marking/new-iris-adapter-2/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "f2a8f84d7c5ba0aa4b3374022ca042675040f94899552c168b82b630ba75e47a"
+      }
+    ]
   }
 }

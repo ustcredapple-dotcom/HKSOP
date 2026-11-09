@@ -7,9 +7,9 @@
   "revision": "R1",
   "stepPath": "step/combined-r1-20261015/0/MV05-DL-R1.step",
   "sourceStepSha256": "7e6f165071cd0a576e43c88d6a32caf70038adbabe01bb72865950449d255144",
-  "drawingPath": null,
+  "drawingPath": "drawings/combined-r1-20261015/0/MV05-DL-R1_加工图.pdf",
   "sourceDrawingSha256": "c06278296bcab059d970004d7f127200ced5730676f4135fd2169e5917b650ee",
-  "dxfPath": null,
+  "dxfPath": "drawings/combined-r1-20261015/0/MV05-DL-R1_加工图_毫米.dxf",
   "sourceDxfSha256": "1583983827ab95b83f427520b291d62ae64357393e62dd5cb5c44c578057008d",
   "productionReady": false,
   "drawingStatus": "engineering-review",
@@ -30,8 +30,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "本版设计已提供与模型对应的独立打标文件。",
-    "notes": "1:1毫米轮廓；未实物打标、未验证工艺可读性。圆柱肩部须旋转轴展开，不能平面投射。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "1:1毫米轮廓；未实物打标、未验证工艺可读性。圆柱肩部须旋转轴展开，不能平面投射。",
+    "files": [
+      {
+        "face": "圆柱肩部展开",
+        "text": "MV05-DL-R1",
+        "dxfPath": "drawings/combined-r1-20261015/0/MV05-DL-R1_圆柱激光打标_展开1比1.dxf",
+        "sha256": "6d0979ce8dfc20a6a599144271d0a1e0654a05cd5b86f08308ae4bc6b60da8f9",
+        "setupPdfPath": "drawings/combined-r1-20261015/0/MV05-DL-R1_圆柱激光打标_定位说明.pdf",
+        "setupPdfSha256": "e707766ea3da6239032d7dfc8581726209d096dc3ef0450db2b47e258f33332b"
+      }
+    ]
   },
   "originalSourceUrl": "",
   "sourceUrl": "https://cad.onshape.com/documents/d252aa346b87cc8b3b987f3a/v/4e1e09ef673f17dfcdbd1023/e/dc52e05d63b9496ee8cc1537",
@@ -52,6 +61,6 @@
     "authoritativePrecisionSource": "已核验本地完整 STEP；云端静态冻结版供查看。原生自由度、全套整体移动或完整复用协议尚未全部验收。",
     "physicalTrialPerformed": false
   },
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/combined-r1-20261015/dxf-pdf/custom-mv05-dl-r1_DXF.pdf",
   "dxfPdfSha256": "1e196dececbc4e21099d482d056d1a9200c5e4e516430ba23510e91757712169"
 }

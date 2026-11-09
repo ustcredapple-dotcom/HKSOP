@@ -1,6 +1,18 @@
 {
   "format": "hksop-package-resources-v1",
   "packageId": "flir-focus-single-axis-stage-reference",
-  "files": [],
+  "files": [
+    {
+      "path": "drawings/685c8ca693e3886c445ebdf38c72238ad2e204ea4c969c0f55d16ea9fae438d7.pdf",
+      "stored": "library/assets/sha256/68/685c8ca693e3886c445ebdf38c72238ad2e204ea4c969c0f55d16ea9fae438d7.pdf",
+      "sha256": "685c8ca693e3886c445ebdf38c72238ad2e204ea4c969c0f55d16ea9fae438d7",
+      "originalReferences": [
+        "drawings/flir-focus-h75-r2/FC75_R2_设计与装配说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/68/685c8ca693e3886c445ebdf38c72238ad2e204ea4c969c0f55d16ea9fae438d7.pdf"
+      ]
+    }
+  ],
   "dependencies": []
 }

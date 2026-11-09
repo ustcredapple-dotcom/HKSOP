@@ -677,7 +677,7 @@
     "nominalFixedPositionAssembly": true,
     "containsSimplifiedManufacturerReference": false,
     "note": "完整设计参考总装；外加标准五金按BOM，未把检验包络虚报为精细螺钉实体。",
-    "drawingPath": null,
+    "drawingPath": "drawings/combined-r1-20261015/3/AM1B_R3_装配说明.pdf",
     "sourceDrawingSha256": "f8c502bca3d177c972cc0b95b0df87b7d8c824103dd95884a856d803c80d79d3"
   },
   "assemblyAssets": [

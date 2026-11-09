@@ -3,6 +3,17 @@
   "packageId": "pcms20",
   "files": [
     {
+      "path": "drawings/5b9f18fb97825f9bb07a4a5f38ea4737289927d1a444ab645014cbc0e4bb61be.pdf",
+      "stored": "library/assets/sha256/5b/5b9f18fb97825f9bb07a4a5f38ea4737289927d1a444ab645014cbc0e4bb61be.pdf",
+      "sha256": "5b9f18fb97825f9bb07a4a5f38ea4737289927d1a444ab645014cbc0e4bb61be",
+      "originalReferences": [
+        "drawings/pbs20-r1/PCMS20_OEM.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/5b/5b9f18fb97825f9bb07a4a5f38ea4737289927d1a444ab645014cbc0e4bb61be.pdf"
+      ]
+    },
+    {
       "path": "cad/dc7c787bde46de986cf5bfe3ea612b297a72799d5a6561f24e9455601174531e.step",
       "stored": "library/assets/sha256/dc/dc7c787bde46de986cf5bfe3ea612b297a72799d5a6561f24e9455601174531e.step",
       "sha256": "dc7c787bde46de986cf5bfe3ea612b297a72799d5a6561f24e9455601174531e",

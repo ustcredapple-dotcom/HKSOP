@@ -25,6 +25,17 @@
       ]
     },
     {
+      "path": "drawings/a796fe38175965b6d2fd68a7fa525ce25caf13cdd4f09ae22cac9db490326ce1.pdf",
+      "stored": "library/assets/sha256/a7/a796fe38175965b6d2fd68a7fa525ce25caf13cdd4f09ae22cac9db490326ce1.pdf",
+      "sha256": "a796fe38175965b6d2fd68a7fa525ce25caf13cdd4f09ae22cac9db490326ce1",
+      "originalReferences": [
+        "drawings/lbtek-lbc1-r1/LBC1_R1_装配与基准说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/a7/a796fe38175965b6d2fd68a7fa525ce25caf13cdd4f09ae22cac9db490326ce1.pdf"
+      ]
+    },
+    {
       "path": "cad/f0c6e7f66b4932336ffd44467874eaa65b4b38d4509377fbd8b37435e2b332ee.step",
       "stored": "library/assets/sha256/f0/f0c6e7f66b4932336ffd44467874eaa65b4b38d4509377fbd8b37435e2b332ee.step",
       "sha256": "f0c6e7f66b4932336ffd44467874eaa65b4b38d4509377fbd8b37435e2b332ee",

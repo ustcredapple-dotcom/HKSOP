@@ -8,7 +8,7 @@
   "notes": "M1公制修订；波片轴向位置沿用已允许的偏移；未把实际快轴或消光比视作CAD验证。。实物试装未完成。",
   "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/18ac366ce0655ce82eeef78b",
   "stepPath": "step/metric-m1-20261006/01-WP_METRIC_M1.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/metric-m1-20261006/01-WP_M1_加工工程图.pdf",
   "sourceStepSha256": "8ac485d9fd76ad601f39063d9ea098acfc6eb574a47d14dab045b6c387179087",
   "productionReady": false,
   "manufacturingSpec": {
@@ -21,7 +21,7 @@
   },
   "drawingRevision": "M1",
   "drawingStatus": "engineering-review",
-  "dxfPath": null,
+  "dxfPath": "drawings/metric-m1-20261006/01-WP_M1_加工工程图.dxf",
   "manufacturingEvidence": {
     "sourcePackage": null,
     "sourceCode": "01-WP",
@@ -44,7 +44,7 @@
   },
   "sourceDrawingSha256": "c6dc088b8188e0d3d8ebb468d1ae533c929519da8d211b7b2a6cade359dea5d9",
   "sourceDxfSha256": "a1883af3ce975eef29a613dd549905385ca1ee18c08941a1983caa9e6a64d35e",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/metric-m1-20261006/01-WP_M1_加工工程图_DXF.pdf",
   "dxfPdfSha256": "71a0426a4de5ae7935916726cca2463b3f1557e78d9459e01bf2ba7bca806347",
   "drawingPages": [
     1,
@@ -80,7 +80,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "01-WP",
+        "dxfPath": "drawings/laser-marking/new-waveplate-single-adapter-1/编号面_-Y.dxf",
+        "sha256": "d6b3528e8144ff2314dd24f24cb4e3a438aa89a3c77224ed909143691eb7b93b",
+        "setupPdfPath": "drawings/laser-marking/new-waveplate-single-adapter-1/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "367083cb6a225537c92270815680b26aef327262e06462a32e3ab8d8f34240f1"
+      }
+    ]
   }
 }

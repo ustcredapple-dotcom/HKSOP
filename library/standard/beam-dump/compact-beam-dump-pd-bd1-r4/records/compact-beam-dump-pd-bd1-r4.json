@@ -1582,7 +1582,7 @@
     "stepPath": "step/bd1-pd-r4/BD1_PD_R4_assembly.step",
     "sourceStepSha256": "d8e1dc25aa25114f64a057dad2413b55f5cbf93e34fd87c86b91a6f0e3a8f248",
     "sha256": "d8e1dc25aa25114f64a057dad2413b55f5cbf93e34fd87c86b91a6f0e3a8f248",
-    "drawingPath": null,
+    "drawingPath": "drawings/bd1-pd-r4/BD1_PD_R4_加工与装配.pdf",
     "sourceDrawingSha256": "950790810c6a8a65fd5264277598606b015e9f50514d3caf4e97c1f6864f8e90",
     "sourceExact": true,
     "includeInBundle": true,

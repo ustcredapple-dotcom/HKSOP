@@ -12,6 +12,17 @@
       "sources": [
         "library/assets/sha256/05/05c7f018c17f9e84fa50eeb3d02247156880cd6c07503f42de04b515d7657e04.step"
       ]
+    },
+    {
+      "path": "drawings/428501b6529527f0e8ff123350899808df15c4b4e5b0c3b77c345734cfc25526.pdf",
+      "stored": "library/assets/sha256/42/428501b6529527f0e8ff123350899808df15c4b4e5b0c3b77c345734cfc25526.pdf",
+      "sha256": "428501b6529527f0e8ff123350899808df15c4b4e5b0c3b77c345734cfc25526",
+      "originalReferences": [
+        "drawings/bd1-r2/MOP-12.5_official.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/42/428501b6529527f0e8ff123350899808df15c4b4e5b0c3b77c345734cfc25526.pdf"
+      ]
     }
   ],
   "dependencies": []

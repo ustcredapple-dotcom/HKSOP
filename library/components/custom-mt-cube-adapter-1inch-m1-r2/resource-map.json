@@ -3,6 +3,39 @@
   "packageId": "custom-mt-cube-adapter-1inch-m1-r2",
   "files": [
     {
+      "path": "drawings/06f99d78e5e9ef25bdc6941d4fb53198a8b7ef6e43f35be48146ee1ed1f7ce67.pdf",
+      "stored": "library/assets/sha256/06/06f99d78e5e9ef25bdc6941d4fb53198a8b7ef6e43f35be48146ee1ed1f7ce67.pdf",
+      "sha256": "06f99d78e5e9ef25bdc6941d4fb53198a8b7ef6e43f35be48146ee1ed1f7ce67",
+      "originalReferences": [
+        "drawings/installation-b6-r1/MCB-1R2_B6_R1_安装及原加工图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/06/06f99d78e5e9ef25bdc6941d4fb53198a8b7ef6e43f35be48146ee1ed1f7ce67.pdf"
+      ]
+    },
+    {
+      "path": "drawings/20a5e6befb4bd1510b1a6c121cd0e9af826185d677af7965bd34a460a0d508fe.pdf",
+      "stored": "library/assets/sha256/20/20a5e6befb4bd1510b1a6c121cd0e9af826185d677af7965bd34a460a0d508fe.pdf",
+      "sha256": "20a5e6befb4bd1510b1a6c121cd0e9af826185d677af7965bd34a460a0d508fe",
+      "originalReferences": [
+        "drawings/laser-marking/custom-mt-cube-adapter-1inch-m1-r2/编号面_+X_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/20/20a5e6befb4bd1510b1a6c121cd0e9af826185d677af7965bd34a460a0d508fe.pdf"
+      ]
+    },
+    {
+      "path": "drawings/27034bcd7cb4f44fcb593325183e09ece3e710e1e7e4c69bcca1c0bc286e094a.dxf",
+      "stored": "library/assets/sha256/27/27034bcd7cb4f44fcb593325183e09ece3e710e1e7e4c69bcca1c0bc286e094a.dxf",
+      "sha256": "27034bcd7cb4f44fcb593325183e09ece3e710e1e7e4c69bcca1c0bc286e094a",
+      "originalReferences": [
+        "drawings/mt-cube-size-family-r2/MCB-1R2-operations.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/27/27034bcd7cb4f44fcb593325183e09ece3e710e1e7e4c69bcca1c0bc286e094a.dxf"
+      ]
+    },
+    {
       "path": "cad/3c6e03ac664646e14b688bdb2efda5dad312e2321e793641c08037d81f5327ed.step",
       "stored": "library/assets/sha256/3c/3c6e03ac664646e14b688bdb2efda5dad312e2321e793641c08037d81f5327ed.step",
       "sha256": "3c6e03ac664646e14b688bdb2efda5dad312e2321e793641c08037d81f5327ed",
@@ -11,6 +44,28 @@
       ],
       "sources": [
         "library/assets/sha256/3c/3c6e03ac664646e14b688bdb2efda5dad312e2321e793641c08037d81f5327ed.step"
+      ]
+    },
+    {
+      "path": "drawings/5c08b0d0b5338a834102b942bfc79df9172b195eb7902cb4f25aece5ca874422.pdf",
+      "stored": "library/assets/sha256/5c/5c08b0d0b5338a834102b942bfc79df9172b195eb7902cb4f25aece5ca874422.pdf",
+      "sha256": "5c08b0d0b5338a834102b942bfc79df9172b195eb7902cb4f25aece5ca874422",
+      "originalReferences": [
+        "drawings/mt-cube-size-family-r2/MCB-1R2-operations_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/5c/5c08b0d0b5338a834102b942bfc79df9172b195eb7902cb4f25aece5ca874422.pdf"
+      ]
+    },
+    {
+      "path": "drawings/b04817b5425bdcea5a96010147f1231eb3800584cb35c09902e1353121381c06.dxf",
+      "stored": "library/assets/sha256/b0/b04817b5425bdcea5a96010147f1231eb3800584cb35c09902e1353121381c06.dxf",
+      "sha256": "b04817b5425bdcea5a96010147f1231eb3800584cb35c09902e1353121381c06",
+      "originalReferences": [
+        "drawings/laser-marking/custom-mt-cube-adapter-1inch-m1-r2/编号面_+X.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/b0/b04817b5425bdcea5a96010147f1231eb3800584cb35c09902e1353121381c06.dxf"
       ]
     }
   ],

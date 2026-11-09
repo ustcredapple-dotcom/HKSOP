@@ -12,6 +12,83 @@
       "sources": [
         "library/assets/sha256/20/20269646456e7b655f99108b61d988d55067ec70455889f9f8b450b642930083.step"
       ]
+    },
+    {
+      "path": "drawings/23f6df97c9a03cbb28de2b3e7e4177f191aa90c3ed173b7d2c2376491f5c1177.dxf",
+      "stored": "library/assets/sha256/23/23f6df97c9a03cbb28de2b3e7e4177f191aa90c3ed173b7d2c2376491f5c1177.dxf",
+      "sha256": "23f6df97c9a03cbb28de2b3e7e4177f191aa90c3ed173b7d2c2376491f5c1177",
+      "originalReferences": [
+        "drawings/2026-10-04_R6定制件/05-LENS-L_R6_加工工程图_TN1_20261026.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/23/23f6df97c9a03cbb28de2b3e7e4177f191aa90c3ed173b7d2c2376491f5c1177.dxf"
+      ]
+    },
+    {
+      "path": "drawings/582d134878954012abfd6cb831f91789bb067cee1f36848e774604cead281676.pdf",
+      "stored": "library/assets/sha256/58/582d134878954012abfd6cb831f91789bb067cee1f36848e774604cead281676.pdf",
+      "sha256": "582d134878954012abfd6cb831f91789bb067cee1f36848e774604cead281676",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/05-LENS-L_M1_加工工程图_DXF_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/58/582d134878954012abfd6cb831f91789bb067cee1f36848e774604cead281676.pdf"
+      ]
+    },
+    {
+      "path": "drawings/b205cbdc75e59d2bef8fd3ea562165477ef22808060abcc088978fdb97e628fd.dxf",
+      "stored": "library/assets/sha256/b2/b205cbdc75e59d2bef8fd3ea562165477ef22808060abcc088978fdb97e628fd.dxf",
+      "sha256": "b205cbdc75e59d2bef8fd3ea562165477ef22808060abcc088978fdb97e628fd",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/05-LENS-L_M1_加工工程图_TN1_20261026.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/b2/b205cbdc75e59d2bef8fd3ea562165477ef22808060abcc088978fdb97e628fd.dxf"
+      ]
+    },
+    {
+      "path": "drawings/bf8c2776cbcc26d5c7dbf65a99fce3ceb6a79f17e26515b4de3c25317bf8e9e8.pdf",
+      "stored": "library/assets/sha256/bf/bf8c2776cbcc26d5c7dbf65a99fce3ceb6a79f17e26515b4de3c25317bf8e9e8.pdf",
+      "sha256": "bf8c2776cbcc26d5c7dbf65a99fce3ceb6a79f17e26515b4de3c25317bf8e9e8",
+      "originalReferences": [
+        "drawings/laser-marking/new-lens-filter-adapter-1/编号面_-Y_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/bf/bf8c2776cbcc26d5c7dbf65a99fce3ceb6a79f17e26515b4de3c25317bf8e9e8.pdf"
+      ]
+    },
+    {
+      "path": "drawings/c73df107b6f6fc90440f431b65594f3969d188cf1a4e7056610d8f51e351c8c3.dxf",
+      "stored": "library/assets/sha256/c7/c73df107b6f6fc90440f431b65594f3969d188cf1a4e7056610d8f51e351c8c3.dxf",
+      "sha256": "c73df107b6f6fc90440f431b65594f3969d188cf1a4e7056610d8f51e351c8c3",
+      "originalReferences": [
+        "drawings/laser-marking/new-lens-filter-adapter-1/编号面_-Y.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/c7/c73df107b6f6fc90440f431b65594f3969d188cf1a4e7056610d8f51e351c8c3.dxf"
+      ]
+    },
+    {
+      "path": "drawings/d7f66758675bbab2fa5b6292206ff9017c337929f55276fc915bc7abc2f330a9.pdf",
+      "stored": "library/assets/sha256/d7/d7f66758675bbab2fa5b6292206ff9017c337929f55276fc915bc7abc2f330a9.pdf",
+      "sha256": "d7f66758675bbab2fa5b6292206ff9017c337929f55276fc915bc7abc2f330a9",
+      "originalReferences": [
+        "drawings/2026-10-04_R6定制件/05-LENS-L_R6_加工工程图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/d7/d7f66758675bbab2fa5b6292206ff9017c337929f55276fc915bc7abc2f330a9.pdf"
+      ]
+    },
+    {
+      "path": "drawings/dc1f3528c96746610774522b5af871153e9944b7b86cc65d455a2b9e89ae2585.pdf",
+      "stored": "library/assets/sha256/dc/dc1f3528c96746610774522b5af871153e9944b7b86cc65d455a2b9e89ae2585.pdf",
+      "sha256": "dc1f3528c96746610774522b5af871153e9944b7b86cc65d455a2b9e89ae2585",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/05-LENS-L_M1_加工工程图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/dc/dc1f3528c96746610774522b5af871153e9944b7b86cc65d455a2b9e89ae2585.pdf"
+      ]
     }
   ],
   "dependencies": []

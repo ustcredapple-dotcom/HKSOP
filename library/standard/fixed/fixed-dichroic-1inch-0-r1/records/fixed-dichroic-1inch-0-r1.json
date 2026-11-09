@@ -56,7 +56,7 @@
     "revision": "R1-0deg",
     "includeInBundle": true,
     "nominalFixedPositionAssembly": true,
-    "drawingPath": null,
+    "drawingPath": "drawings/fixed-dichroic-r1/加工清单.pdf",
     "sourceDrawingSha256": "5f6fcad7b0984f90c5a330c98dd3f6bdcdd1353ec5e42d0afdc42fc300323cf3",
     "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/w/d67de20d807c6dd6e1db6440/e/59fd4a91553da1b4cae88248",
     "cloudStatus": "producer-uploaded-not-rechecked-fast-scope"

@@ -7,8 +7,8 @@
   "revision": "R2",
   "stepPath": "step/mot-ra-m2-r2/MOT-RA-M2_R2.step",
   "sourceStepSha256": "d7a0b37893eec427409aa3bd571fbf677c5b531346b7b2046e467d9e5f55a66f",
-  "drawingPath": null,
-  "dxfPath": null,
+  "drawingPath": "drawings/mot-ra-m2-r2/MOT-RA-M2_R2_完整加工图.pdf",
+  "dxfPath": "drawings/mot-ra-m2-r2/MOT-RA-M2_R2_加工工程图.dxf",
   "drawingRevision": "R2",
   "drawingStatus": "engineering-review",
   "productionReady": false,
@@ -21,9 +21,18 @@
   },
   "laserMarking": {
     "status": "required",
-    "notes": "仅激光打标；字高2mm、背面中心(U,V)=(0,32)，方向和夹具见定位PDF。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "notes": "仅激光打标；字高2mm、背面中心(U,V)=(0,32)，方向和夹具见定位PDF。",
     "reason": "独立加工316L立板，用于型号与修订识别",
-    "files": []
+    "files": [
+      {
+        "face": "立板背面 Y=23.3",
+        "text": "MOT-RA-M2 R2",
+        "dxfPath": "drawings/mot-ra-m2-r2/MOT-RA-M2_背面_laser_1to1.dxf",
+        "sha256": "0329df9036723fc4b264304176883302d9d29aacd41c60954071998da1aa448a",
+        "setupPdfPath": "drawings/mot-ra-m2-r2/MOT-RA-M2_背面_定位说明.pdf",
+        "setupPdfSha256": "6803a23f0f91fe7ac73252c987b33a066336a9a33d6d0d4b69b292734c2e53b5"
+      }
+    ]
   },
   "manufacturingEvidence": {
     "geometryValidated": true,
@@ -35,5 +44,5 @@
     "productionApprovalGranted": false
   },
   "sourceUrl": "https://cad.onshape.com/documents/2de3fe55a30940f365d1cb32/v/272cb95a19f9cd655dee4f05/e/d4e83e92c4a5eb62c721fb1e",
-  "dxfPdfPath": null
+  "dxfPdfPath": "drawings/mot-ra-m2-r2/MOT-RA-M2_R2_完整加工图.pdf"
 }

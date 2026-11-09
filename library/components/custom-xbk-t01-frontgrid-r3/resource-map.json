@@ -12,6 +12,39 @@
       "sources": [
         "library/assets/sha256/53/535c07c79638ffaa5f11d59944fba6042d9710f1444e865b2987d94d60bbc200.step"
       ]
+    },
+    {
+      "path": "drawings/77b890bd1fb574215159ee1672b9e4597db6ede4f92304ce22575e93015d9fc7.pdf",
+      "stored": "library/assets/sha256/77/77b890bd1fb574215159ee1672b9e4597db6ede4f92304ce22575e93015d9fc7.pdf",
+      "sha256": "77b890bd1fb574215159ee1672b9e4597db6ede4f92304ce22575e93015d9fc7",
+      "originalReferences": [
+        "drawings/xbk-cavity-frontgrid-r3/XBK_R3_激光打标定位图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/77/77b890bd1fb574215159ee1672b9e4597db6ede4f92304ce22575e93015d9fc7.pdf"
+      ]
+    },
+    {
+      "path": "drawings/88ff0948d7f8abf8fc70a87595fe4413e9f2ec19be90ac6e40ee2fc3dfd91a9b.dxf",
+      "stored": "library/assets/sha256/88/88ff0948d7f8abf8fc70a87595fe4413e9f2ec19be90ac6e40ee2fc3dfd91a9b.dxf",
+      "sha256": "88ff0948d7f8abf8fc70a87595fe4413e9f2ec19be90ac6e40ee2fc3dfd91a9b",
+      "originalReferences": [
+        "drawings/xbk-cavity-frontgrid-r3/XBK-T01_R3_LASER_BACK.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/88/88ff0948d7f8abf8fc70a87595fe4413e9f2ec19be90ac6e40ee2fc3dfd91a9b.dxf"
+      ]
+    },
+    {
+      "path": "drawings/ac1aeebc4ecfebef30c6fc247532eeb3d63c02cd521e2f453413348555a251e6.pdf",
+      "stored": "library/assets/sha256/ac/ac1aeebc4ecfebef30c6fc247532eeb3d63c02cd521e2f453413348555a251e6.pdf",
+      "sha256": "ac1aeebc4ecfebef30c6fc247532eeb3d63c02cd521e2f453413348555a251e6",
+      "originalReferences": [
+        "drawings/xbk-cavity-frontgrid-r3/XBK_Cavity_H62p5_R3_审核图册_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/ac/ac1aeebc4ecfebef30c6fc247532eeb3d63c02cd521e2f453413348555a251e6.pdf"
+      ]
     }
   ],
   "dependencies": []

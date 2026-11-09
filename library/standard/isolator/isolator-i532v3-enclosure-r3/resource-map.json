@@ -3,6 +3,17 @@
   "packageId": "isolator-i532v3-enclosure-r3",
   "files": [
     {
+      "path": "drawings/67c1ec54ad42def2e4652fbe4d086ecc589d04a91f1ab3a01d1638430f484369.pdf",
+      "stored": "library/assets/sha256/67/67c1ec54ad42def2e4652fbe4d086ecc589d04a91f1ab3a01d1638430f484369.pdf",
+      "sha256": "67c1ec54ad42def2e4652fbe4d086ecc589d04a91f1ab3a01d1638430f484369",
+      "originalReferences": [
+        "drawings/i532v3-r3/I532V3_R3_五片螺丝拼板遮光外壳图册.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/67/67c1ec54ad42def2e4652fbe4d086ecc589d04a91f1ab3a01d1638430f484369.pdf"
+      ]
+    },
+    {
       "path": "rendering/8b8135b86b8353d9491bd65b9c5fe70ad462a271d67bb1c77a3317cee25c82d1.svg",
       "stored": "library/assets/sha256/8b/8b8135b86b8353d9491bd65b9c5fe70ad462a271d67bb1c77a3317cee25c82d1.svg",
       "sha256": "8b8135b86b8353d9491bd65b9c5fe70ad462a271d67bb1c77a3317cee25c82d1",

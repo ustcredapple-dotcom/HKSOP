@@ -6,8 +6,8 @@
   "unit": "件",
   "revision": "R2-TRIAL",
   "stepPath": "step/camera-adapters-r2/35-HQ-C_R2-TRIAL.step",
-  "drawingPath": null,
-  "dxfPath": null,
+  "drawingPath": "drawings/camera-adapters-r2/35-HQ-C_R2-TRIAL_MACHINING_A3.pdf",
+  "dxfPath": "drawings/camera-adapters-r2/35-HQ-C_R2-TRIAL_MACHINING_EDITABLE_1to1.dxf",
   "sourceStepSha256": "a9f7c7efb5345b0aeacc55848e7d4b59304317641bcd967d6b7accc8467a2112",
   "sourceDrawingSha256": "c992f2e7d2c378a95d7ddfe2e58677a540872267e9757ea9456a58f9672b20e6",
   "status": "试制审核 · 未实装 · 未加工放行",
@@ -30,11 +30,20 @@
   "laserMarking": {
     "status": "required",
     "reason": "唯一编号，2.5mm实际字高；独立1:1毫米闭合字形DXF和定位PDF。",
-    "files": [],
-    "notes": " 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。"
+    "files": [
+      {
+        "face": "−Y 前侧面",
+        "text": "35-HQ-C",
+        "dxfPath": "drawings/camera-adapters-r2/laser-marking/35-HQ-C_R2-TRIAL_Ymin_LASER_1to1.dxf",
+        "sha256": "80b9fcf8a21b074489558f3a497aab90e96883cb5d3ee3221164e81b21438035",
+        "setupPdfPath": "drawings/camera-adapters-r2/laser-marking/35-HQ-C_R2-TRIAL_Ymin_LASER_SETUP.pdf",
+        "setupPdfSha256": "14c9fbd6b8a0da8d3247cd081f09691e058ccc059cd1acdb6654832adc3d5815"
+      }
+    ],
+    "notes": ""
   },
   "notes": "两侧各0.10mm名义间隙按首件配商业薄垫片，不硬拉侧耳。滨松感光面/法兰代理及相机派生Y孔位为明确试制假设，确认后需重算改版。",
   "sourceUrl": "https://cad.onshape.com/documents/d56490b5f08a60723d744c9c/v/5d8bb0d51ff2dda2052adda8/e/def28ab7937c7d9a1989ae44",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/camera-adapters-r2/35-HQ-C_R2-TRIAL_MACHINING_EDITABLE_1to1_PDF_PREVIEW.pdf",
   "dxfPdfSha256": "0de33f5a4f9cf7c577db2e0051daa175376cae90dfbbfd3b3d32bd65215972b2"
 }

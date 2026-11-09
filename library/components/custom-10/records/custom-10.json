@@ -8,7 +8,7 @@
   "notes": "配合公制支撑后的名义光高62.5 mm；保留已核验镜面孔组及孔规格。材料316L不锈钢，退磁、喷砂；尚未实物试装。",
   "sourceUrl": "https://cad.onshape.com/documents/3a3c1d8089df865b8b4e822a/v/6e749963ebef18952db7c82d/e/6f7b83c713f68d978796a8ff",
   "stepPath": "step/original-metric-m1-20261006/custom-10_M1_native.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/original-metric-m1-20261006/custom-10_M1_公制加工审核图_TN1_20261026.pdf",
   "manufacturingSpec": {
     "material": "316L 不锈钢",
     "surfaceTreatment": "退磁、喷砂",
@@ -52,8 +52,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "按本轮补齐要求增加识别编号；已核当前 STEP 外表面位置。",
-    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。",
+    "files": [
+      {
+        "dxfPath": "drawings/laser-marking/lm1-20261015/custom-10/编号面.dxf",
+        "sha256": "bb8792fa1d04b8e84464626509bcc5d3607ff674fdf506ed2f1b437fcf64585a",
+        "setupPdfPath": "drawings/laser-marking/lm1-20261015/custom-10/编号面_定位.pdf",
+        "setupPdfSha256": "89479cb068502e76a9c1772d736c692cff368ddb55866e524dfdaff4d99dd6d2",
+        "face": "编号面",
+        "text": "ZZ-10-M1"
+      }
+    ]
   },
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -61,12 +70,12 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/original-metric-m1-20261006/custom-10_M1_公制加工审核图_TN1_20261026.pdf",
         "previousSha256": "99d65ac958119c47f6bc728ca8a6a7afab7d8c22e8579989486426a360fca824",
         "sha256": "8f43c2ecd26dfd18727334e39514ec33c98b8a0fb088dc292ece29d774bde676"
       },
       {
-        "path": null,
+        "path": "assets/drawings/06_可调节反射镜/10_可调反射镜_1inch_加工审核图_TN1_20261026.pdf",
         "previousSha256": "8449e532abb4665b359051fcc9f8f594a98c308e17dba8957f63fb20e95fa162",
         "sha256": "88ed4eded4c42c0d2f021dc571a76ab455d6c222af4c142c6d039b97757957b8"
       }

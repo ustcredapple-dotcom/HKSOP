@@ -14,6 +14,17 @@
       ]
     },
     {
+      "path": "drawings/8e73d6a3f642bfda9b5f9155808aba44f4dfc42d48a9d36b09ab45178e79acd1.pdf",
+      "stored": "library/assets/sha256/8e/8e73d6a3f642bfda9b5f9155808aba44f4dfc42d48a9d36b09ab45178e79acd1.pdf",
+      "sha256": "8e73d6a3f642bfda9b5f9155808aba44f4dfc42d48a9d36b09ab45178e79acd1",
+      "originalReferences": [
+        "drawings/dm1v-r1/DM1V-R1_装配说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/8e/8e73d6a3f642bfda9b5f9155808aba44f4dfc42d48a9d36b09ab45178e79acd1.pdf"
+      ]
+    },
+    {
       "path": "rendering/af46fad4b05bbce3b2334dad8c74829b31cdccfa0eccd153ca4cba2f35b9b4e5.svg",
       "stored": "library/assets/sha256/af/af46fad4b05bbce3b2334dad8c74829b31cdccfa0eccd153ca4cba2f35b9b4e5.svg",
       "sha256": "af46fad4b05bbce3b2334dad8c74829b31cdccfa0eccd153ca4cba2f35b9b4e5",

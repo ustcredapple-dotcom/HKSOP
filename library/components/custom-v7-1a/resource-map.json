@@ -3,6 +3,61 @@
   "packageId": "custom-v7-1a",
   "files": [
     {
+      "path": "drawings/1865b02d6020ea7aee3d5dafd1b7f7d5bc86c5aebc5c687aafbc53e6e9eae9c6.pdf",
+      "stored": "library/assets/sha256/18/1865b02d6020ea7aee3d5dafd1b7f7d5bc86c5aebc5c687aafbc53e6e9eae9c6.pdf",
+      "sha256": "1865b02d6020ea7aee3d5dafd1b7f7d5bc86c5aebc5c687aafbc53e6e9eae9c6",
+      "originalReferences": [
+        "drawings/standard-post-h12p5-b4-r2/assemblies/custom-v7-1a_B6_R1_安装及原加工图_TN1_20261026_H12p5B4R2.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/18/1865b02d6020ea7aee3d5dafd1b7f7d5bc86c5aebc5c687aafbc53e6e9eae9c6.pdf"
+      ]
+    },
+    {
+      "path": "drawings/49d80e2a597b162c7eb5a8e4c31db5ef025dbbe2331124f97bc3ab6478228189.pdf",
+      "stored": "library/assets/sha256/49/49d80e2a597b162c7eb5a8e4c31db5ef025dbbe2331124f97bc3ab6478228189.pdf",
+      "sha256": "49d80e2a597b162c7eb5a8e4c31db5ef025dbbe2331124f97bc3ab6478228189",
+      "originalReferences": [
+        "drawings/motorized-v7-r1/custom-v7-1a_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/49/49d80e2a597b162c7eb5a8e4c31db5ef025dbbe2331124f97bc3ab6478228189.pdf"
+      ]
+    },
+    {
+      "path": "drawings/6b321faf614a136fd1310bd2a11d6fdc531ea8ae7f4a16b6b9bc02aee8631cf2.dxf",
+      "stored": "library/assets/sha256/6b/6b321faf614a136fd1310bd2a11d6fdc531ea8ae7f4a16b6b9bc02aee8631cf2.dxf",
+      "sha256": "6b321faf614a136fd1310bd2a11d6fdc531ea8ae7f4a16b6b9bc02aee8631cf2",
+      "originalReferences": [
+        "drawings/motorized-v7-r1/custom-v7-1a.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/6b/6b321faf614a136fd1310bd2a11d6fdc531ea8ae7f4a16b6b9bc02aee8631cf2.dxf"
+      ]
+    },
+    {
+      "path": "drawings/8b1f66a13d823c053e03ab5e8b716ea1ebc6316a06ad8431806002408a557a95.pdf",
+      "stored": "library/assets/sha256/8b/8b1f66a13d823c053e03ab5e8b716ea1ebc6316a06ad8431806002408a557a95.pdf",
+      "sha256": "8b1f66a13d823c053e03ab5e8b716ea1ebc6316a06ad8431806002408a557a95",
+      "originalReferences": [
+        "drawings/laser-marking/custom-v7-1a/编号面_-Y_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/8b/8b1f66a13d823c053e03ab5e8b716ea1ebc6316a06ad8431806002408a557a95.pdf"
+      ]
+    },
+    {
+      "path": "drawings/9917f8b2d372496a1436d1da5c648c830b1d35d55103286fe17a50dba05d91f3.dxf",
+      "stored": "library/assets/sha256/99/9917f8b2d372496a1436d1da5c648c830b1d35d55103286fe17a50dba05d91f3.dxf",
+      "sha256": "9917f8b2d372496a1436d1da5c648c830b1d35d55103286fe17a50dba05d91f3",
+      "originalReferences": [
+        "drawings/laser-marking/custom-v7-1a/编号面_-Y.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/99/9917f8b2d372496a1436d1da5c648c830b1d35d55103286fe17a50dba05d91f3.dxf"
+      ]
+    },
+    {
       "path": "cad/ac51ac13853e5c925e5c41d80796d16e382c7f9665282b2af25b33e2fa9085f8.step",
       "stored": "library/assets/sha256/ac/ac51ac13853e5c925e5c41d80796d16e382c7f9665282b2af25b33e2fa9085f8.step",
       "sha256": "ac51ac13853e5c925e5c41d80796d16e382c7f9665282b2af25b33e2fa9085f8",
@@ -11,6 +66,17 @@
       ],
       "sources": [
         "library/assets/sha256/ac/ac51ac13853e5c925e5c41d80796d16e382c7f9665282b2af25b33e2fa9085f8.step"
+      ]
+    },
+    {
+      "path": "drawings/c5b2548f3332c64e662193e9a9950bf5eb2b82a002f56d2bad9932574f886993.pdf",
+      "stored": "library/assets/sha256/c5/c5b2548f3332c64e662193e9a9950bf5eb2b82a002f56d2bad9932574f886993.pdf",
+      "sha256": "c5b2548f3332c64e662193e9a9950bf5eb2b82a002f56d2bad9932574f886993",
+      "originalReferences": [
+        "drawings/installation-b6-r1/custom-v7-2a_B6_R1_安装及原加工图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/c5/c5b2548f3332c64e662193e9a9950bf5eb2b82a002f56d2bad9932574f886993.pdf"
       ]
     }
   ],

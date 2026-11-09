@@ -6,9 +6,9 @@
   "unit": "件",
   "revision": "M1-R2",
   "stepPath": "step/mt-cube-size-family-r2/MCB-2R2.step",
-  "drawingPath": null,
-  "dxfPath": null,
-  "dxfPdfPath": null,
+  "drawingPath": "drawings/standard-post-h12p5-b4-r2/assemblies/MCB-2R2_B6_R1_安装及原加工图_H12p5B4R2.pdf",
+  "dxfPath": "drawings/mt-cube-size-family-r2/MCB-2R2-operations.dxf",
+  "dxfPdfPath": "drawings/mt-cube-size-family-r2/MCB-2R2-operations_DXF.pdf",
   "dxfPdfSha256": "664cb78aee2417a3174a41885a7cf2f90f0efc060553f43dbcd22419dbae9b7e",
   "productionReady": false,
   "drawingStatus": "engineering-review",
@@ -184,8 +184,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_+X",
+        "text": "MCB-2R2",
+        "dxfPath": "drawings/laser-marking/custom-mt-cube-adapter-2inch-m1-r2/编号面_+X.dxf",
+        "sha256": "073224a9e269f93def52a69d1446bb4913f5666a04455e15cccec3b02b0cd9a6",
+        "setupPdfPath": "drawings/laser-marking/custom-mt-cube-adapter-2inch-m1-r2/编号面_+X_定位说明.pdf",
+        "setupPdfSha256": "123eda73be94c481fc4c084bde0d49653f23275681e972e3027a8b56cb1b0d81"
+      }
+    ]
   },
   "drawingRevision": "CURRENT-H12p5B4R2-INSTALL",
   "installationRevision": {

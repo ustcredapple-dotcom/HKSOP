@@ -8,7 +8,7 @@
   "notes": "M1公制修订；原厂镜片S1朝向须按实物镀膜确认。。实物试装未完成。",
   "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/2d9c1b53fcf6411c214c5a6c",
   "stepPath": "step/metric-m1-20261006/17-MIR-F_METRIC_M1.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/metric-m1-20261006/17-MIR-F_M1_加工工程图.pdf",
   "sourceStepSha256": "8f3314b2c4fa9e21269044022f1968502117e2a718d41030aab45f94d5f5158c",
   "productionReady": false,
   "manufacturingSpec": {
@@ -21,7 +21,7 @@
   },
   "drawingRevision": "M1",
   "drawingStatus": "engineering-review",
-  "dxfPath": null,
+  "dxfPath": "drawings/metric-m1-20261006/17-MIR-F_M1_加工工程图.dxf",
   "manufacturingEvidence": {
     "sourcePackage": null,
     "sourceCode": "17-MIR-F",
@@ -44,7 +44,7 @@
   },
   "sourceDrawingSha256": "36fb7d003c9b45c5e71600a99ff03ba7d30d692f540f519ca36253cd6acda8a9",
   "sourceDxfSha256": "2c475b8ce61bce40aa75646e3a5ffbb245fd7d0f2143b64cbd3c74665350190e",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/metric-m1-20261006/17-MIR-F_M1_加工工程图_DXF.pdf",
   "dxfPdfSha256": "0ef0eb652c33810e39c291da94a118bc44887a49637f1dfa39513cbd09f5de57",
   "drawingPages": [
     1,
@@ -80,7 +80,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "17-MIR-F",
+        "dxfPath": "drawings/laser-marking/new-r3-17-r3-adapter/编号面_-Y.dxf",
+        "sha256": "db1af595889fb6cc5de36a7ff148b86bb58325f18dc33927a67e9e0257a69cf8",
+        "setupPdfPath": "drawings/laser-marking/new-r3-17-r3-adapter/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "1b83d2da3b7a51b37ee655860a5430ce7b91c7f45bab6c9a9d8be5e844c25463"
+      }
+    ]
   }
 }

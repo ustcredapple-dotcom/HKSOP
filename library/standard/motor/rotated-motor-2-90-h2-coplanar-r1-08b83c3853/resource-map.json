@@ -25,6 +25,17 @@
       ]
     },
     {
+      "path": "drawings/a32bbe7797a6cefe7e81909272767ad76d2632ca82a5e9497f3126abd7e221c6.pdf",
+      "stored": "library/assets/sha256/a3/a32bbe7797a6cefe7e81909272767ad76d2632ca82a5e9497f3126abd7e221c6.pdf",
+      "sha256": "a32bbe7797a6cefe7e81909272767ad76d2632ca82a5e9497f3126abd7e221c6",
+      "originalReferences": [
+        "drawings/h2-45-r1/rotated-motor-2-90-h2-coplanar-r1-08b83c3853_装配.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/a3/a32bbe7797a6cefe7e81909272767ad76d2632ca82a5e9497f3126abd7e221c6.pdf"
+      ]
+    },
+    {
       "path": "rendering/e27faa9ef3925113025f2d13b35a10a08b915a9a03be20f74039403f6e5ab680.svg",
       "stored": "library/assets/sha256/e2/e27faa9ef3925113025f2d13b35a10a08b915a9a03be20f74039403f6e5ab680.svg",
       "sha256": "e27faa9ef3925113025f2d13b35a10a08b915a9a03be20f74039403f6e5ab680",

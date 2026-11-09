@@ -8,7 +8,7 @@
   "notes": "M1公制修订；单柱悬伸刚度未验证，裸架角度规格不等于本装配全行程保证。。实物试装未完成。",
   "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/11cd9e985363d8af5df6d244",
   "stepPath": "step/metric-m1-20261006/18-MIR-A_METRIC_M1.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/metric-m1-20261006/18-MIR-A_M1_加工工程图.pdf",
   "sourceStepSha256": "a2068ee356bb1496c28eb70e9811c9fbd03383023e7e220f49d152f0448bfcfb",
   "productionReady": false,
   "manufacturingSpec": {
@@ -21,7 +21,7 @@
   },
   "drawingRevision": "M1",
   "drawingStatus": "engineering-review",
-  "dxfPath": null,
+  "dxfPath": "drawings/metric-m1-20261006/18-MIR-A_M1_加工工程图.dxf",
   "manufacturingEvidence": {
     "sourcePackage": null,
     "sourceCode": "18-MIR-A",
@@ -44,7 +44,7 @@
   },
   "sourceDrawingSha256": "3d48fa1f8dd48dfd00d6aec39ba2ea0b89c1a661d457aba8b067ab5696159aec",
   "sourceDxfSha256": "8db0b275686f06f5de0e00cf976bdf39ccf71360a42b272775ab33fdb318e413",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/metric-m1-20261006/18-MIR-A_M1_加工工程图_DXF.pdf",
   "dxfPdfSha256": "36ea956f26124da97def65ebef4ff80f148282de9a42dd3f696606c1fd2d0db7",
   "drawingPages": [
     1,
@@ -80,7 +80,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "18-MIR-A",
+        "dxfPath": "drawings/laser-marking/new-r3-18-r3-adapter/编号面_-Y.dxf",
+        "sha256": "de79d4ebf85d74faf6dc18e8a2444a7e5d36026f04b6cb2b6917ea361d194077",
+        "setupPdfPath": "drawings/laser-marking/new-r3-18-r3-adapter/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "343a64fc2dfd964a624863ab29d3e50f3cc34cdea24e827de41b519b0fcd0640"
+      }
+    ]
   }
 }

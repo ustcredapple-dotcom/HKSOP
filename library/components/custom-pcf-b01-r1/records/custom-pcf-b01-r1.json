@@ -7,12 +7,12 @@
   "revision": "R1",
   "stepPath": "step/pcf-fixed-base-h62p5-r1/PCF-B01_R1.step",
   "sourceStepSha256": "99efa7b65a84c72a976e732d7f4ef60bc999bcc70af2fb13a110453917c6b0f8",
-  "drawingPath": null,
+  "drawingPath": "drawings/pcf-fixed-base-h62p5-r1/PCF-B01_R1_加工与装配图册.pdf",
   "sourceDrawingSha256": "bfac3f892171c3e023cfc51dcbb40c774a6af4964b112481fe59666c80ed00a4",
   "drawingRevision": "R1",
   "drawingStatus": "engineering-review",
-  "dxfPath": null,
-  "dxfPdfPath": null,
+  "dxfPath": "drawings/pcf-fixed-base-h62p5-r1/PCF-B01_R1_正交投影_配合PDF使用.dxf",
+  "dxfPdfPath": "drawings/pcf-fixed-base-h62p5-r1/PCF-B01_R1_加工与装配图册.pdf",
   "dxfPdfSha256": "bfac3f892171c3e023cfc51dcbb40c774a6af4964b112481fe59666c80ed00a4",
   "productionReady": false,
   "status": "加工审核版，未实物试装",
@@ -23,8 +23,17 @@
   },
   "laserMarking": {
     "status": "required",
-    "notes": "零件-Y面，字高2.2mm；1:1闭合字形轮廓。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "零件-Y面，字高2.2mm；1:1闭合字形轮廓。",
+    "files": [
+      {
+        "face": "-Y",
+        "text": "PCF-B01 R1",
+        "dxfPath": "drawings/pcf-fixed-base-h62p5-r1/PCF-B01_R1_激光_ONLY.dxf",
+        "sha256": "b018236a0eae1ca080db29b8dcae9e1b663fa3ba8eb1e0207a7b49627a93727d",
+        "setupPdfPath": "drawings/pcf-fixed-base-h62p5-r1/PCF-B01_R1_打标定位.pdf",
+        "setupPdfSha256": "856183936448f59e2edd083582dd9806f79d6993b1962b83ea2ad913fa00d29a"
+      }
+    ]
   },
   "sourceUrl": "https://cad.onshape.com/documents/4ba0510031bc94aea0398d27/v/8a6fe187d0154e8d6d360850/e/78aa2f1f586f2403cb469e97",
   "cloudReference": {

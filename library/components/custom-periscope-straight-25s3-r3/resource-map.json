@@ -3,6 +3,50 @@
   "packageId": "custom-periscope-straight-25s3-r3",
   "files": [
     {
+      "path": "drawings/01ef4f8e022b4ccfbebfd519ea87f0a8632b3c1aca45fdeefe4fd766729813e5.dxf",
+      "stored": "library/assets/sha256/01/01ef4f8e022b4ccfbebfd519ea87f0a8632b3c1aca45fdeefe4fd766729813e5.dxf",
+      "sha256": "01ef4f8e022b4ccfbebfd519ea87f0a8632b3c1aca45fdeefe4fd766729813e5",
+      "originalReferences": [
+        "drawings/laser-marking/custom-periscope-straight-25s3-r3/高度标识面_+X.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/01/01ef4f8e022b4ccfbebfd519ea87f0a8632b3c1aca45fdeefe4fd766729813e5.dxf"
+      ]
+    },
+    {
+      "path": "drawings/4b88a58d04aa7c3db59df79a5ca1fe3f088f61b66849b963be092c418e931db0.pdf",
+      "stored": "library/assets/sha256/4b/4b88a58d04aa7c3db59df79a5ca1fe3f088f61b66849b963be092c418e931db0.pdf",
+      "sha256": "4b88a58d04aa7c3db59df79a5ca1fe3f088f61b66849b963be092c418e931db0",
+      "originalReferences": [
+        "drawings/periscope-standard-r3/25-S3_R3_加工工程图_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/4b/4b88a58d04aa7c3db59df79a5ca1fe3f088f61b66849b963be092c418e931db0.pdf"
+      ]
+    },
+    {
+      "path": "drawings/524b77af722095fbc25572622fa824c9c5864bbd2e26de7720626fe93fe64288.pdf",
+      "stored": "library/assets/sha256/52/524b77af722095fbc25572622fa824c9c5864bbd2e26de7720626fe93fe64288.pdf",
+      "sha256": "524b77af722095fbc25572622fa824c9c5864bbd2e26de7720626fe93fe64288",
+      "originalReferences": [
+        "drawings/laser-marking/custom-periscope-straight-25s3-r3/高度标识面_+X_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/52/524b77af722095fbc25572622fa824c9c5864bbd2e26de7720626fe93fe64288.pdf"
+      ]
+    },
+    {
+      "path": "drawings/65dd61e8afb539b45e1fece8bf04e578dc1322affa9b7728ee60b2e658e4f217.dxf",
+      "stored": "library/assets/sha256/65/65dd61e8afb539b45e1fece8bf04e578dc1322affa9b7728ee60b2e658e4f217.dxf",
+      "sha256": "65dd61e8afb539b45e1fece8bf04e578dc1322affa9b7728ee60b2e658e4f217",
+      "originalReferences": [
+        "drawings/periscope-standard-r3/25-S3_R3_加工工程图_TN1_20261026.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/65/65dd61e8afb539b45e1fece8bf04e578dc1322affa9b7728ee60b2e658e4f217.dxf"
+      ]
+    },
+    {
       "path": "cad/6efaee3d4b687653629eb10f50d07ddefe0910eba3e5e382418097a6d9a902d0.step",
       "stored": "library/assets/sha256/6e/6efaee3d4b687653629eb10f50d07ddefe0910eba3e5e382418097a6d9a902d0.step",
       "sha256": "6efaee3d4b687653629eb10f50d07ddefe0910eba3e5e382418097a6d9a902d0",
@@ -11,6 +55,39 @@
       ],
       "sources": [
         "library/assets/sha256/6e/6efaee3d4b687653629eb10f50d07ddefe0910eba3e5e382418097a6d9a902d0.step"
+      ]
+    },
+    {
+      "path": "drawings/88ca906020c5705d75c1ef317d1266c3f6af0bdcdbd9044ae9f09596f0e822db.pdf",
+      "stored": "library/assets/sha256/88/88ca906020c5705d75c1ef317d1266c3f6af0bdcdbd9044ae9f09596f0e822db.pdf",
+      "sha256": "88ca906020c5705d75c1ef317d1266c3f6af0bdcdbd9044ae9f09596f0e822db",
+      "originalReferences": [
+        "drawings/periscope-standard-r3/25-S3_R3_加工工程图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/88/88ca906020c5705d75c1ef317d1266c3f6af0bdcdbd9044ae9f09596f0e822db.pdf"
+      ]
+    },
+    {
+      "path": "drawings/9c6ce8e7ee5da0701b624dca7b9d93eea484f432a516a05b2e8b5668fed28de1.dxf",
+      "stored": "library/assets/sha256/9c/9c6ce8e7ee5da0701b624dca7b9d93eea484f432a516a05b2e8b5668fed28de1.dxf",
+      "sha256": "9c6ce8e7ee5da0701b624dca7b9d93eea484f432a516a05b2e8b5668fed28de1",
+      "originalReferences": [
+        "drawings/laser-marking/custom-periscope-straight-25s3-r3/编号面_+X.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/9c/9c6ce8e7ee5da0701b624dca7b9d93eea484f432a516a05b2e8b5668fed28de1.dxf"
+      ]
+    },
+    {
+      "path": "drawings/f4ef907ba906015b6efd1d39a7ce5794e67d97590dbc836aa702801cc5f6b169.pdf",
+      "stored": "library/assets/sha256/f4/f4ef907ba906015b6efd1d39a7ce5794e67d97590dbc836aa702801cc5f6b169.pdf",
+      "sha256": "f4ef907ba906015b6efd1d39a7ce5794e67d97590dbc836aa702801cc5f6b169",
+      "originalReferences": [
+        "drawings/laser-marking/custom-periscope-straight-25s3-r3/编号面_+X_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/f4/f4ef907ba906015b6efd1d39a7ce5794e67d97590dbc836aa702801cc5f6b169.pdf"
       ]
     }
   ],

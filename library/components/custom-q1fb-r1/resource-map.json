@@ -3,6 +3,50 @@
   "packageId": "custom-q1fb-r1",
   "files": [
     {
+      "path": "drawings/0de8d97faff45ff02ada1570ccc578a19af5f0ac814c47cacf37a022f0379ca1.dxf",
+      "stored": "library/assets/sha256/0d/0de8d97faff45ff02ada1570ccc578a19af5f0ac814c47cacf37a022f0379ca1.dxf",
+      "sha256": "0de8d97faff45ff02ada1570ccc578a19af5f0ac814c47cacf37a022f0379ca1",
+      "originalReferences": [
+        "drawings/batch-20261020/custom-q1fb-r1/R1/Q1FB_平面交换.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/0d/0de8d97faff45ff02ada1570ccc578a19af5f0ac814c47cacf37a022f0379ca1.dxf"
+      ]
+    },
+    {
+      "path": "drawings/4a0bc1862b78908baf25338e14745749bdc70ea1f4bcb4081076d6fcf6c9b0a0.pdf",
+      "stored": "library/assets/sha256/4a/4a0bc1862b78908baf25338e14745749bdc70ea1f4bcb4081076d6fcf6c9b0a0.pdf",
+      "sha256": "4a0bc1862b78908baf25338e14745749bdc70ea1f4bcb4081076d6fcf6c9b0a0",
+      "originalReferences": [
+        "drawings/batch-20261020/custom-q1fb-r1/R1/Q1FB_R1_加工图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/4a/4a0bc1862b78908baf25338e14745749bdc70ea1f4bcb4081076d6fcf6c9b0a0.pdf"
+      ]
+    },
+    {
+      "path": "drawings/88f896b2b4a7711c2de2de7cc8fc98ceca6995fcc56dcccfbd65a7b5c43073ff.dxf",
+      "stored": "library/assets/sha256/88/88f896b2b4a7711c2de2de7cc8fc98ceca6995fcc56dcccfbd65a7b5c43073ff.dxf",
+      "sha256": "88f896b2b4a7711c2de2de7cc8fc98ceca6995fcc56dcccfbd65a7b5c43073ff",
+      "originalReferences": [
+        "drawings/batch-20261020/custom-q1fb-r1/R1/laser/Q1FB_front.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/88/88f896b2b4a7711c2de2de7cc8fc98ceca6995fcc56dcccfbd65a7b5c43073ff.dxf"
+      ]
+    },
+    {
+      "path": "drawings/b0c0c2a7e8234dcb96bb9becf13964486124ea42fb391e52869509bce9c37783.pdf",
+      "stored": "library/assets/sha256/b0/b0c0c2a7e8234dcb96bb9becf13964486124ea42fb391e52869509bce9c37783.pdf",
+      "sha256": "b0c0c2a7e8234dcb96bb9becf13964486124ea42fb391e52869509bce9c37783",
+      "originalReferences": [
+        "drawings/batch-20261020/custom-q1fb-r1/R1/laser/Q1FB_front_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/b0/b0c0c2a7e8234dcb96bb9becf13964486124ea42fb391e52869509bce9c37783.pdf"
+      ]
+    },
+    {
       "path": "cad/cbb84cea4558f49d5d8be209cad66b5d52f74d15132a3bf8cdf342e7a4410a36.step",
       "stored": "library/assets/sha256/cb/cbb84cea4558f49d5d8be209cad66b5d52f74d15132a3bf8cdf342e7a4410a36.step",
       "sha256": "cbb84cea4558f49d5d8be209cad66b5d52f74d15132a3bf8cdf342e7a4410a36",

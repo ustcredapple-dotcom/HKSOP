@@ -58,7 +58,7 @@
     "revision": "R2-MID",
     "nominalFixedPositionAssembly": true,
     "includeInBundle": true,
-    "drawingPath": null,
+    "drawingPath": "drawings/flir-focus-h75-r2/FC75_R2_设计与装配说明.pdf",
     "sourceDrawingSha256": "685c8ca693e3886c445ebdf38c72238ad2e204ea4c969c0f55d16ea9fae438d7",
     "cloudStatus": "not-uploaded-fast-scope"
   },

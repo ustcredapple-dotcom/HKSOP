@@ -14,6 +14,17 @@
       ]
     },
     {
+      "path": "drawings/375d2abe10df210870f266b2541afa8812ab4209b61ae30fd73502d952fd489f.pdf",
+      "stored": "library/assets/sha256/37/375d2abe10df210870f266b2541afa8812ab4209b61ae30fd73502d952fd489f.pdf",
+      "sha256": "375d2abe10df210870f266b2541afa8812ab4209b61ae30fd73502d952fd489f",
+      "originalReferences": [
+        "drawings/objective-ac-r1/MT-AM1T_AC_R1_assembly.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/37/375d2abe10df210870f266b2541afa8812ab4209b61ae30fd73502d952fd489f.pdf"
+      ]
+    },
+    {
       "path": "rendering/c86869eb79d09e543fa5d553e731a420cc9f32ebb88b17e2406ea2e56de9ae66.svg",
       "stored": "library/assets/sha256/c8/c86869eb79d09e543fa5d553e731a420cc9f32ebb88b17e2406ea2e56de9ae66.svg",
       "sha256": "c86869eb79d09e543fa5d553e731a420cc9f32ebb88b17e2406ea2e56de9ae66",
@@ -44,6 +55,17 @@
       ],
       "sources": [
         "library/assets/sha256/d8/d8fa0892d0d4fdb2843743630b6b16ccdcdaa026ca485c677115637d0b1a1310.step"
+      ]
+    },
+    {
+      "path": "drawings/f0271ddee913372f5659f0898e31d0da9f191942419bdd4817575cc30005b96f.pdf",
+      "stored": "library/assets/sha256/f0/f0271ddee913372f5659f0898e31d0da9f191942419bdd4817575cc30005b96f.pdf",
+      "sha256": "f0271ddee913372f5659f0898e31d0da9f191942419bdd4817575cc30005b96f",
+      "originalReferences": [
+        "drawings/objective-mounted-r3/TTN189223-E0W.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/f0/f0271ddee913372f5659f0898e31d0da9f191942419bdd4817575cc30005b96f.pdf"
       ]
     }
   ],

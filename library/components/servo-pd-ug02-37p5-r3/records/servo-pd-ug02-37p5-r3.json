@@ -15,15 +15,24 @@
   "notes": "保留原交付尺寸、孔型和有效深度；不以商业源平孔推定实际螺纹。",
   "stepPath": "step/servo-pd-bilateral-r3/UG02_R37p5_R3.step",
   "sourceStepSha256": "04d00e44c7abe81cf2ca1d782d89e04d31b0e994197698c7041d94ac60c2e787",
-  "drawingPath": null,
+  "drawingPath": "drawings/servo-pd-bilateral-r3/UG02-37p5-R3_加工工程图_TN1_20261026.pdf",
   "sourceDrawingSha256": "9ab837c0de9197ea71422d3ac73f7875f9da05020f5dd96736de120398068057",
-  "dxfPath": null,
+  "dxfPath": "drawings/servo-pd-bilateral-r3/UG02-37p5-R3_标准_可编辑尺寸_复核排版_TN1_20261026.dxf",
   "sourceDxfSha256": "a167b79278408fec01026b1c90b465c2341feecae3232dc77d99a1d26db2e817",
   "laserMarking": {
     "status": "required",
     "reason": "唯一短编号；本次冻结R3实体上的独立激光打标",
-    "notes": "激光打标，不铣刻；激光参数待材料试样确认。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；激光参数待材料试样确认。",
+    "files": [
+      {
+        "face": "编号面",
+        "text": "UG02-37p5-R3",
+        "dxfPath": "drawings/servo-pd-bilateral-r3/laser-marking/UG02-37p5-R3/UG02-37p5-R3_编号面.dxf",
+        "sha256": "a09123a7a43952c70a0fa760aa53083c0eccb4e27b0bf8cdc23ebe07988f4263",
+        "setupPdfPath": "drawings/servo-pd-bilateral-r3/laser-marking/UG02-37p5-R3/UG02-37p5-R3_编号面_定位.pdf",
+        "setupPdfSha256": "ed9f89d55935f7cc15ab9e58c3184cc7608c7b00803026c2b05312d675bf8ba3"
+      }
+    ]
   },
   "manufacturingEvidence": {
     "revision": "R3",
@@ -34,13 +43,13 @@
     "physicalTrialCompleted": false,
     "reviewScope": "Source native solid validity and eight original dimensioned pages; external thread and sensor assumptions retained."
   },
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/servo-pd-bilateral-r3/dxf-pdf/servo-pd-ug02-37p5-r3_DXF.pdf",
   "dxfPdfSha256": "64eb533061eb4a589f7729582e1c2f757d6750bddb87ef11deca394ac7dbf992",
-  "originalSourceDxfPath": null,
+  "originalSourceDxfPath": "drawings/servo-pd-bilateral-r3/UG02-37p5-R3_标准_可编辑尺寸_TN1_20261026.dxf",
   "originalSourceDxfSha256": "cabf7cc5cb3aa42922ac7d4aa0354b728c943b54f1be3cba43d8295f426829d9",
   "dxfLayoutRevision": "20261016-review1; annotation positions only; source geometry and dimension endpoints unchanged",
   "originalDxfReference": {
-    "dxfPath": null,
+    "dxfPath": "drawings/servo-pd-bilateral-r3/UG02-37p5-R3_标准_可编辑尺寸_TN1_20261026.dxf",
     "sha256": "6c2e4a5216828a8139b70abd06b7a06db3306454ac6d023ece8cb14347e3b16b",
     "status": "Original annotation layout retained for traceability; use current reviewed dxfPath"
   },
@@ -50,17 +59,17 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/servo-pd-bilateral-r3/UG02-37p5-R3_加工工程图_TN1_20261026.pdf",
         "previousSha256": "7cc4ade38d58bdc4fbcb45ac79dad6aa9d8aca2d59c6b34153e790c930b55df0",
         "sha256": "9ab837c0de9197ea71422d3ac73f7875f9da05020f5dd96736de120398068057"
       },
       {
-        "path": null,
+        "path": "assets/drawings/servo-pd-bilateral-r3/UG02-37p5-R3_标准_可编辑尺寸_复核排版_TN1_20261026.dxf",
         "previousSha256": "c3207d8c7ebc9bcc7fc741aabc47257bb9687ddff51a0e5277db5eb4eb48e3a5",
         "sha256": "a167b79278408fec01026b1c90b465c2341feecae3232dc77d99a1d26db2e817"
       },
       {
-        "path": null,
+        "path": "assets/drawings/servo-pd-bilateral-r3/UG02-37p5-R3_标准_可编辑尺寸_TN1_20261026.dxf",
         "previousSha256": "cabf7cc5cb3aa42922ac7d4aa0354b728c943b54f1be3cba43d8295f426829d9",
         "sha256": "6c2e4a5216828a8139b70abd06b7a06db3306454ac6d023ece8cb14347e3b16b"
       }

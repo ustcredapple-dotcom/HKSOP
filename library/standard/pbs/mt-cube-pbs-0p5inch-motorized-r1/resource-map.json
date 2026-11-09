@@ -23,6 +23,17 @@
       "sources": [
         "library/assets/sha256/c4/c430808fef6fd8af179121caf4f85ca209efded3ee3628ca85c737abdfa12b96.step"
       ]
+    },
+    {
+      "path": "drawings/d02431197ed22e6cb67edd876abaf0bfee42e4b24ced46e27de12a6baf851d51.pdf",
+      "stored": "library/assets/sha256/d0/d02431197ed22e6cb67edd876abaf0bfee42e4b24ced46e27de12a6baf851d51.pdf",
+      "sha256": "d02431197ed22e6cb67edd876abaf0bfee42e4b24ced46e27de12a6baf851d51",
+      "originalReferences": [
+        "drawings/standard-post-h12p5-b4-r2/assemblies/三尺寸PBS_电动版_装配说明_H12p5B4R2.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/d0/d02431197ed22e6cb67edd876abaf0bfee42e4b24ced46e27de12a6baf851d51.pdf"
+      ]
     }
   ],
   "dependencies": [

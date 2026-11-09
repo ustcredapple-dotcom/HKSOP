@@ -2044,7 +2044,7 @@
     "stepPath": "step/dm1v-r1/DM1V-R1_ASM_45deg.step",
     "sourceStepSha256": "585c9d89461ada9ca8b0fc35424f2647e51c2cd3fd66c53c5400b22e636fd663",
     "sha256": "585c9d89461ada9ca8b0fc35424f2647e51c2cd3fd66c53c5400b22e636fd663",
-    "drawingPath": null,
+    "drawingPath": "drawings/dm1v-r1/DM1V-R1_装配说明.pdf",
     "sourceDrawingSha256": "8e73d6a3f642bfda9b5f9155808aba44f4dfc42d48a9d36b09ab45178e79acd1",
     "sourceExact": true,
     "includeInBundle": true,

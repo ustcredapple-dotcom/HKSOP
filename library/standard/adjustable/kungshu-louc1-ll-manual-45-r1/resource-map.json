@@ -14,6 +14,17 @@
       ]
     },
     {
+      "path": "drawings/e41af3cfe201e23a27c9b3759045bbb166364904b9c208d8fdf1e36146cc59d8.pdf",
+      "stored": "library/assets/sha256/e4/e41af3cfe201e23a27c9b3759045bbb166364904b9c208d8fdf1e36146cc59d8.pdf",
+      "sha256": "e41af3cfe201e23a27c9b3759045bbb166364904b9c208d8fdf1e36146cc59d8",
+      "originalReferences": [
+        "drawings/kungshu-compact-r2/工术DR_LL_R2_装配与加工图册.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/e4/e41af3cfe201e23a27c9b3759045bbb166364904b9c208d8fdf1e36146cc59d8.pdf"
+      ]
+    },
+    {
       "path": "rendering/ea1f04bfa017945eda91b5b466058922a52a74089fad5658f735e85980b7104d.svg",
       "stored": "library/assets/sha256/ea/ea1f04bfa017945eda91b5b466058922a52a74089fad5658f735e85980b7104d.svg",
       "sha256": "ea1f04bfa017945eda91b5b466058922a52a74089fad5658f735e85980b7104d",

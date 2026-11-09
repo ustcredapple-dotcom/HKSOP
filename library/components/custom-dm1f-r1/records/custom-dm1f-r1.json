@@ -9,9 +9,9 @@
   "drawingStatus": "engineering-review",
   "status": "加工审核版；销孔配合与镜架有效牙深待确认",
   "stepPath": "step/dm1f-r1/DM1F-R1.step",
-  "drawingPath": null,
-  "dxfPath": null,
-  "dxfPdfPath": null,
+  "drawingPath": "drawings/dm1f-r1/DM1F-R1_加工图.pdf",
+  "dxfPath": "drawings/dm1f-r1/DM1F-R1_加工图.dxf",
+  "dxfPdfPath": "drawings/dm1f-r1/DM1F-R1_加工图.pdf",
   "dxfPdfSha256": "4f00a2d4d9c833d58c5418d56b8233a75a49eaec2c07ef2f3394dfbcabf4df46",
   "sourceStepSha256": "d63ad73f23e3f28b5a12af7f452423b8e61c8908ec0091cd605fd2f0aa02818f",
   "sourceDrawingSha256": "4f00a2d4d9c833d58c5418d56b8233a75a49eaec2c07ef2f3394dfbcabf4df46",
@@ -32,8 +32,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "自制件身份标识",
-    "notes": "顶平面Z=5.5；DM1F-R1字高2.0；仅激光，不铣刻。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "顶平面Z=5.5；DM1F-R1字高2.0；仅激光，不铣刻。",
+    "files": [
+      {
+        "face": "Z=5.5 顶面",
+        "text": "DM1F-R1",
+        "dxfPath": "drawings/laser-marking/dm1f-r1/DM1F-R1_顶面激光.dxf",
+        "sha256": "e1c19fbad129d7097489834d1a7813d92a8c74fc921dfc10a939e271d222425e",
+        "setupPdfPath": "drawings/laser-marking/dm1f-r1/DM1F-R1_激光定位.pdf",
+        "setupPdfSha256": "6e33aca47b5d9f0ff9ede6d816ca942bfe838a23b5d2ee1bc00425565e1ffd59"
+      }
+    ]
   },
   "notes": "0°与45°共用；柱端M4×8、镜架端M4×16（有效牙深须确认≥4.5 mm）、2×Ø2×8销。M4螺纹写作M4×0.7；制造等级及销孔配合待工艺确认。"
 }

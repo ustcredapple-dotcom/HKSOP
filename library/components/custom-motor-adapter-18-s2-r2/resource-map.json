@@ -3,6 +3,39 @@
   "packageId": "custom-motor-adapter-18-s2-r2",
   "files": [
     {
+      "path": "drawings/237920760042b0de979ea5a42d546425f3d00066d62b4577866773c2f01c4c9a.dxf",
+      "stored": "library/assets/sha256/23/237920760042b0de979ea5a42d546425f3d00066d62b4577866773c2f01c4c9a.dxf",
+      "sha256": "237920760042b0de979ea5a42d546425f3d00066d62b4577866773c2f01c4c9a",
+      "originalReferences": [
+        "drawings/motor-slot-split-r2/18-S2.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/23/237920760042b0de979ea5a42d546425f3d00066d62b4577866773c2f01c4c9a.dxf"
+      ]
+    },
+    {
+      "path": "drawings/42f65f90180d6ebef3726e9e0057027cb1787bc02348beb66363f1fa9db22cd0.pdf",
+      "stored": "library/assets/sha256/42/42f65f90180d6ebef3726e9e0057027cb1787bc02348beb66363f1fa9db22cd0.pdf",
+      "sha256": "42f65f90180d6ebef3726e9e0057027cb1787bc02348beb66363f1fa9db22cd0",
+      "originalReferences": [
+        "drawings/motor-slot-split-r2/V2style-2inch-M2S-r2-mechanical-review.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/42/42f65f90180d6ebef3726e9e0057027cb1787bc02348beb66363f1fa9db22cd0.pdf"
+      ]
+    },
+    {
+      "path": "drawings/44fa29be84ca08e160706d448f91de52dd00bd86bf3871d731e865d68af20a5e.dxf",
+      "stored": "library/assets/sha256/44/44fa29be84ca08e160706d448f91de52dd00bd86bf3871d731e865d68af20a5e.dxf",
+      "sha256": "44fa29be84ca08e160706d448f91de52dd00bd86bf3871d731e865d68af20a5e",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-motor-adapter-18-s2-r2/编号面.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/44/44fa29be84ca08e160706d448f91de52dd00bd86bf3871d731e865d68af20a5e.dxf"
+      ]
+    },
+    {
       "path": "cad/96ce39527f31fdda2e714defbd578d65d6d3df6d9373da7ede5af3fca3349a16.step",
       "stored": "library/assets/sha256/96/96ce39527f31fdda2e714defbd578d65d6d3df6d9373da7ede5af3fca3349a16.step",
       "sha256": "96ce39527f31fdda2e714defbd578d65d6d3df6d9373da7ede5af3fca3349a16",
@@ -11,6 +44,28 @@
       ],
       "sources": [
         "library/assets/sha256/96/96ce39527f31fdda2e714defbd578d65d6d3df6d9373da7ede5af3fca3349a16.step"
+      ]
+    },
+    {
+      "path": "drawings/9d3e451fbff879d9345d8b3e07eb7838c87dedb0c4b4c6d81be12904b3de0a0e.pdf",
+      "stored": "library/assets/sha256/9d/9d3e451fbff879d9345d8b3e07eb7838c87dedb0c4b4c6d81be12904b3de0a0e.pdf",
+      "sha256": "9d3e451fbff879d9345d8b3e07eb7838c87dedb0c4b4c6d81be12904b3de0a0e",
+      "originalReferences": [
+        "drawings/motor-slot-split-r2/18-S2_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/9d/9d3e451fbff879d9345d8b3e07eb7838c87dedb0c4b4c6d81be12904b3de0a0e.pdf"
+      ]
+    },
+    {
+      "path": "drawings/a8105c14ed892cbaf98aed291ace8b90f811dc542374f43b2c291de5d0e3fce9.pdf",
+      "stored": "library/assets/sha256/a8/a8105c14ed892cbaf98aed291ace8b90f811dc542374f43b2c291de5d0e3fce9.pdf",
+      "sha256": "a8105c14ed892cbaf98aed291ace8b90f811dc542374f43b2c291de5d0e3fce9",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-motor-adapter-18-s2-r2/编号面_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/a8/a8105c14ed892cbaf98aed291ace8b90f811dc542374f43b2c291de5d0e3fce9.pdf"
       ]
     }
   ],

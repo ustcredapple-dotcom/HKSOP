@@ -3,6 +3,61 @@
   "packageId": "custom-aa4s-r1",
   "files": [
     {
+      "path": "drawings/37478f5008cf9fa2a1cd30d221682ee5e369965abfb78c72ff925803373d7508.dxf",
+      "stored": "library/assets/sha256/37/37478f5008cf9fa2a1cd30d221682ee5e369965abfb78c72ff925803373d7508.dxf",
+      "sha256": "37478f5008cf9fa2a1cd30d221682ee5e369965abfb78c72ff925803373d7508",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/4/AA4S_R1_MACHINING.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/37/37478f5008cf9fa2a1cd30d221682ee5e369965abfb78c72ff925803373d7508.dxf"
+      ]
+    },
+    {
+      "path": "drawings/4394067a3e46de416ba3e1e96dcd5acb577ca6dc7d376af5fecfb8dcce73f60b.pdf",
+      "stored": "library/assets/sha256/43/4394067a3e46de416ba3e1e96dcd5acb577ca6dc7d376af5fecfb8dcce73f60b.pdf",
+      "sha256": "4394067a3e46de416ba3e1e96dcd5acb577ca6dc7d376af5fecfb8dcce73f60b",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/dxf-pdf/custom-aa4s-r1_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/43/4394067a3e46de416ba3e1e96dcd5acb577ca6dc7d376af5fecfb8dcce73f60b.pdf"
+      ]
+    },
+    {
+      "path": "drawings/c62dce6c599fcd6e49cc06e15132cb3f85ff95e7248a2aa423e4915df1329fce.pdf",
+      "stored": "library/assets/sha256/c6/c62dce6c599fcd6e49cc06e15132cb3f85ff95e7248a2aa423e4915df1329fce.pdf",
+      "sha256": "c62dce6c599fcd6e49cc06e15132cb3f85ff95e7248a2aa423e4915df1329fce",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/4/AA4B_AA4S_R1_MACHINING_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/c6/c62dce6c599fcd6e49cc06e15132cb3f85ff95e7248a2aa423e4915df1329fce.pdf"
+      ]
+    },
+    {
+      "path": "drawings/e1972beca2a8f941e4e92f400253f3824a9c75aac2d8d1ae0da14f2537bc10d7.dxf",
+      "stored": "library/assets/sha256/e1/e1972beca2a8f941e4e92f400253f3824a9c75aac2d8d1ae0da14f2537bc10d7.dxf",
+      "sha256": "e1972beca2a8f941e4e92f400253f3824a9c75aac2d8d1ae0da14f2537bc10d7",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/4/AA4S_R1_LASER_AA4S_1to1mm.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/e1/e1972beca2a8f941e4e92f400253f3824a9c75aac2d8d1ae0da14f2537bc10d7.dxf"
+      ]
+    },
+    {
+      "path": "drawings/eae4e940a415afce28a89d658e5c0da00ab15ceb7b67fa365da5a59d35b50f4f.pdf",
+      "stored": "library/assets/sha256/ea/eae4e940a415afce28a89d658e5c0da00ab15ceb7b67fa365da5a59d35b50f4f.pdf",
+      "sha256": "eae4e940a415afce28a89d658e5c0da00ab15ceb7b67fa365da5a59d35b50f4f",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/4/AA4B_AA4S_R1_LASER_POSITION.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/ea/eae4e940a415afce28a89d658e5c0da00ab15ceb7b67fa365da5a59d35b50f4f.pdf"
+      ]
+    },
+    {
       "path": "cad/fa29889c5484dbc169b1d7102a300b8bf8303218d44df745de6f10fc53feabab.step",
       "stored": "library/assets/sha256/fa/fa29889c5484dbc169b1d7102a300b8bf8303218d44df745de6f10fc53feabab.step",
       "sha256": "fa29889c5484dbc169b1d7102a300b8bf8303218d44df745de6f10fc53feabab",

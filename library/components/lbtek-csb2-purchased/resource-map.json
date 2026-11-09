@@ -3,6 +3,17 @@
   "packageId": "lbtek-csb2-purchased",
   "files": [
     {
+      "path": "drawings/3208b2dabfe08418375599f890075d404a62f346fdd1ef5845545eed1dd9740b.pdf",
+      "stored": "library/assets/sha256/32/3208b2dabfe08418375599f890075d404a62f346fdd1ef5845545eed1dd9740b.pdf",
+      "sha256": "3208b2dabfe08418375599f890075d404a62f346fdd1ef5845545eed1dd9740b",
+      "originalReferences": [
+        "drawings/mt-cube-size-family-r2/CSB2-vendor.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/32/3208b2dabfe08418375599f890075d404a62f346fdd1ef5845545eed1dd9740b.pdf"
+      ]
+    },
+    {
       "path": "cad/b569878e4b0f08bec41be81e205296ef50b027a51c2646ec74cfcac5426786bc.step",
       "stored": "library/assets/sha256/b5/b569878e4b0f08bec41be81e205296ef50b027a51c2646ec74cfcac5426786bc.step",
       "sha256": "b569878e4b0f08bec41be81e205296ef50b027a51c2646ec74cfcac5426786bc",

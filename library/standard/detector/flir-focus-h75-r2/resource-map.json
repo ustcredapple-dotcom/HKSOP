@@ -14,6 +14,17 @@
       ]
     },
     {
+      "path": "drawings/685c8ca693e3886c445ebdf38c72238ad2e204ea4c969c0f55d16ea9fae438d7.pdf",
+      "stored": "library/assets/sha256/68/685c8ca693e3886c445ebdf38c72238ad2e204ea4c969c0f55d16ea9fae438d7.pdf",
+      "sha256": "685c8ca693e3886c445ebdf38c72238ad2e204ea4c969c0f55d16ea9fae438d7",
+      "originalReferences": [
+        "drawings/flir-focus-h75-r2/FC75_R2_设计与装配说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/68/685c8ca693e3886c445ebdf38c72238ad2e204ea4c969c0f55d16ea9fae438d7.pdf"
+      ]
+    },
+    {
       "path": "rendering/8f2500ef4f92b8b64b67a1444b0aea52512a4821177ce75047ff3f8c37c5cce6.svg",
       "stored": "library/assets/sha256/8f/8f2500ef4f92b8b64b67a1444b0aea52512a4821177ce75047ff3f8c37c5cce6.svg",
       "sha256": "8f2500ef4f92b8b64b67a1444b0aea52512a4821177ce75047ff3f8c37c5cce6",

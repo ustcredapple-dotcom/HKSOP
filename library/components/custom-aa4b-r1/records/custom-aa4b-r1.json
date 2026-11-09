@@ -7,9 +7,9 @@
   "revision": "R1",
   "stepPath": "step/combined-r1-20261015/4/AA4B_R1.step",
   "sourceStepSha256": "783537efdee36f8a2e0b35f07f5afee5d06d209102ab9d06acb22272a9b727b1",
-  "drawingPath": null,
+  "drawingPath": "drawings/combined-r1-20261015/4/AA4B_AA4S_R1_MACHINING_TN1_20261026.pdf",
   "sourceDrawingSha256": "c62dce6c599fcd6e49cc06e15132cb3f85ff95e7248a2aa423e4915df1329fce",
-  "dxfPath": null,
+  "dxfPath": "drawings/combined-r1-20261015/4/AA4B_R1_MACHINING_TN1_20261026.dxf",
   "sourceDxfSha256": "615a652504dee54b111d4738aed9032ac4ce8903c45efce5614b12769cc24b4f",
   "productionReady": false,
   "drawingStatus": "engineering-review",
@@ -30,8 +30,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "本版设计已提供与模型对应的独立打标文件。",
-    "notes": "1:1毫米轮廓；未实物打标、未验证工艺可读性。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "1:1毫米轮廓；未实物打标、未验证工艺可读性。",
+    "files": [
+      {
+        "face": "-Y",
+        "text": "AA4B",
+        "dxfPath": "drawings/combined-r1-20261015/4/AA4B_R1_LASER_AA4B_1to1mm.dxf",
+        "sha256": "462915ffd06743c3606a7d40487bc913fd73325c7c875ad7ecaef7514f68803a",
+        "setupPdfPath": "drawings/combined-r1-20261015/4/AA4B_AA4S_R1_LASER_POSITION.pdf",
+        "setupPdfSha256": "eae4e940a415afce28a89d658e5c0da00ab15ceb7b67fa365da5a59d35b50f4f"
+      }
+    ]
   },
   "drawingPages": [
     1
@@ -55,7 +64,7 @@
     "authoritativePrecisionSource": "已核验本地完整 STEP；云端静态冻结版供查看。原生自由度、全套整体移动或完整复用协议尚未全部验收。",
     "physicalTrialPerformed": false
   },
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/combined-r1-20261015/dxf-pdf/custom-aa4b-r1_DXF.pdf",
   "dxfPdfSha256": "0b1017d6dd0eb7d418ac03f085871d03b047c21c759a9fb08c7ea0b5884f83ad",
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -63,12 +72,12 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/combined-r1-20261015/4/AA4B_AA4S_R1_MACHINING_TN1_20261026.pdf",
         "previousSha256": "84874d5db7c661615ace40b65e00bca2af8e3ee6cb67c4f31b07a93c3b821270",
         "sha256": "c62dce6c599fcd6e49cc06e15132cb3f85ff95e7248a2aa423e4915df1329fce"
       },
       {
-        "path": null,
+        "path": "assets/drawings/combined-r1-20261015/4/AA4B_R1_MACHINING_TN1_20261026.dxf",
         "previousSha256": "5df049783dee263f61fb3e8d4269f9374a9cd838e9f83d4a8f290b9b2f1b2b2b",
         "sha256": "615a652504dee54b111d4738aed9032ac4ce8903c45efce5614b12769cc24b4f"
       }

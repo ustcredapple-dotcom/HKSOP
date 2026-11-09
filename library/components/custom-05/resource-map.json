@@ -3,6 +3,39 @@
   "packageId": "custom-05",
   "files": [
     {
+      "path": "drawings/0f1ac407d4251323c558df31021c356662c3418bfa0a2ee595311f01a38d32b1.dxf",
+      "stored": "library/assets/sha256/0f/0f1ac407d4251323c558df31021c356662c3418bfa0a2ee595311f01a38d32b1.dxf",
+      "sha256": "0f1ac407d4251323c558df31021c356662c3418bfa0a2ee595311f01a38d32b1",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-05/编号面.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/0f/0f1ac407d4251323c558df31021c356662c3418bfa0a2ee595311f01a38d32b1.dxf"
+      ]
+    },
+    {
+      "path": "drawings/ba621729b0d9a812ce769cb6c5d01b52a7f24f0f313d8ab522e8bdda81422eb7.pdf",
+      "stored": "library/assets/sha256/ba/ba621729b0d9a812ce769cb6c5d01b52a7f24f0f313d8ab522e8bdda81422eb7.pdf",
+      "sha256": "ba621729b0d9a812ce769cb6c5d01b52a7f24f0f313d8ab522e8bdda81422eb7",
+      "originalReferences": [
+        "drawings/02_面包板/05_面包板_1530_加工审核图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/ba/ba621729b0d9a812ce769cb6c5d01b52a7f24f0f313d8ab522e8bdda81422eb7.pdf"
+      ]
+    },
+    {
+      "path": "drawings/e2adad073085ec7dbb200b7f648c061b2570d2a4e36e7da1a1a93122c93e1fb3.pdf",
+      "stored": "library/assets/sha256/e2/e2adad073085ec7dbb200b7f648c061b2570d2a4e36e7da1a1a93122c93e1fb3.pdf",
+      "sha256": "e2adad073085ec7dbb200b7f648c061b2570d2a4e36e7da1a1a93122c93e1fb3",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-05/编号面_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/e2/e2adad073085ec7dbb200b7f648c061b2570d2a4e36e7da1a1a93122c93e1fb3.pdf"
+      ]
+    },
+    {
       "path": "cad/fddd458a55189ceb854a57af6ec5e69d673f3bcf1175bfb2cc25b562f4df9254.step",
       "stored": "library/assets/sha256/fd/fddd458a55189ceb854a57af6ec5e69d673f3bcf1175bfb2cc25b562f4df9254.step",
       "sha256": "fddd458a55189ceb854a57af6ec5e69d673f3bcf1175bfb2cc25b562f4df9254",

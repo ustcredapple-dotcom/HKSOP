@@ -7,7 +7,7 @@
   "status": "自定义角度；本地生成加工审核版",
   "notes": "基于B6-R1；H12.5；相对电动反射镜 · 2 inch · H2直连，俯视逆时针增量+45.000°；底座保持，顶部孔组共同旋转。必须新制并激光打标：UP12p5R+45.000-8918CA；激光打标，不铣刻。原螺纹等级待确认；未实物试装或加工放行。 云端已冻结并完成几何回读；实物试装与加工放行仍待确认。",
   "stepPath": "step/custom-rotation/UP12p5R+45.000-8918CA/特制万能柱_原生.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/custom-rotation/UP12p5R+45.000-8918CA/特制万能柱_加工审核图_TN1_20261026.pdf",
   "manufacturingSpec": {
     "material": "316L 不锈钢",
     "surfaceTreatment": "退磁、喷砂",
@@ -34,8 +34,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "特制顶部孔组必须标识角度与唯一编号",
-    "notes": "激光打标，不铣刻；底板侧面；相对所选原套件俯视逆时针为正 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；底板侧面；相对所选原套件俯视逆时针为正",
+    "files": [
+      {
+        "face": "底座侧面",
+        "text": "UP12p5R+45.000-8918CA / ROT +45.000 DEG",
+        "dxfPath": "drawings/custom-rotation/UP12p5R+45.000-8918CA/laser/底座侧面.dxf",
+        "sha256": "28a658448ce00da00c2123f495384a38c61eb31948775a76dfdebdd3971c228a",
+        "setupPdfPath": "drawings/custom-rotation/UP12p5R+45.000-8918CA/laser/底座侧面_定位.pdf",
+        "setupPdfSha256": "eda1fe24d68261bd48d3c5391b4ad0604484f676db04f4742caf977ed69cc26b"
+      }
+    ]
   },
   "mechanicalInterface": {
     "baseThicknessMm": 6,
@@ -153,7 +162,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/custom-rotation/UP12p5R+45.000-8918CA/特制万能柱_加工审核图_TN1_20261026.pdf",
         "previousSha256": "5cffa8b85538adb135381e4e578c7c847f97433f3e907fd14da8bf59b5ce7d55",
         "sha256": "d54695255bd4e65d3e0808eac1715fcdc412d4bafb8766e630ceb8055ba09af7"
       }

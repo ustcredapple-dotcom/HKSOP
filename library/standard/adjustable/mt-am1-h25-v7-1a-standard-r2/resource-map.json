@@ -23,6 +23,17 @@
       "sources": [
         "library/assets/sha256/29/29c5edf16452f7a0766c26f74424eac239a9178ed8655c858d1419c8d2d25522.svg"
       ]
+    },
+    {
+      "path": "drawings/629f01d04f14fe3e5e11ee245cefa6f6772dcc968871069e0e4b28c528ccf568.pdf",
+      "stored": "library/assets/sha256/62/629f01d04f14fe3e5e11ee245cefa6f6772dcc968871069e0e4b28c528ccf568.pdf",
+      "sha256": "629f01d04f14fe3e5e11ee245cefa6f6772dcc968871069e0e4b28c528ccf568",
+      "originalReferences": [
+        "drawings/mt-dual-m4-compact-r4/mt-am1-h25-v7-1a-standard-r2_assembly.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/62/629f01d04f14fe3e5e11ee245cefa6f6772dcc968871069e0e4b28c528ccf568.pdf"
+      ]
     }
   ],
   "dependencies": [

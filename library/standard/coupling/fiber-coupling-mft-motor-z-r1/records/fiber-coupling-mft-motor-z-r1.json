@@ -627,7 +627,7 @@
     "revision": "R2",
     "sourceExact": true,
     "nominalFixedPositionAssembly": true,
-    "drawingPath": null,
+    "drawingPath": "drawings/fiber-motor-z-r2/MFT_R2_装配说明.pdf",
     "sourceDrawingSha256": "f4f0ea8d3f56d333b5557e931149dfb70303c3822b5687c1edef448742f7af58",
     "includeInBundle": true,
     "cloudStatus": "static-reference-reviewed-with-findings",

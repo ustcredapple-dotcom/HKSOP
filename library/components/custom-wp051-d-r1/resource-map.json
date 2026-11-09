@@ -12,6 +12,39 @@
       "sources": [
         "library/assets/sha256/2b/2bd2f61399f4af4a18f85e41a4104491297821aad3a648b1fbe431f36c2d49a4.step"
       ]
+    },
+    {
+      "path": "drawings/3a66a808f282da13b7de10b08a6591b200b78015f63ee4d75af056478b57152d.dxf",
+      "stored": "library/assets/sha256/3a/3a66a808f282da13b7de10b08a6591b200b78015f63ee4d75af056478b57152d.dxf",
+      "sha256": "3a66a808f282da13b7de10b08a6591b200b78015f63ee4d75af056478b57152d",
+      "originalReferences": [
+        "drawings/laser-marking/custom-wp051-d-r1/Yminus14_编号面_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/3a/3a66a808f282da13b7de10b08a6591b200b78015f63ee4d75af056478b57152d.dxf"
+      ]
+    },
+    {
+      "path": "drawings/5aefd539985e7d287e6d64aee2c560c471ac9fa0bee355420732b1a1f87b0eb8.pdf",
+      "stored": "library/assets/sha256/5a/5aefd539985e7d287e6d64aee2c560c471ac9fa0bee355420732b1a1f87b0eb8.pdf",
+      "sha256": "5aefd539985e7d287e6d64aee2c560c471ac9fa0bee355420732b1a1f87b0eb8",
+      "originalReferences": [
+        "drawings/laser-marking/custom-wp051-d-r1/Yminus14_编号面_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/5a/5aefd539985e7d287e6d64aee2c560c471ac9fa0bee355420732b1a1f87b0eb8.pdf"
+      ]
+    },
+    {
+      "path": "drawings/fff08872e176393c101c5a91314952c73cfce5d96242527e9bfbb2b724d8158d.pdf",
+      "stored": "library/assets/sha256/ff/fff08872e176393c101c5a91314952c73cfce5d96242527e9bfbb2b724d8158d.pdf",
+      "sha256": "fff08872e176393c101c5a91314952c73cfce5d96242527e9bfbb2b724d8158d",
+      "originalReferences": [
+        "drawings/mixed-waveplate-r1-20261012/WP051-D_R1_加工图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/ff/fff08872e176393c101c5a91314952c73cfce5d96242527e9bfbb2b724d8158d.pdf"
+      ]
     }
   ],
   "dependencies": []

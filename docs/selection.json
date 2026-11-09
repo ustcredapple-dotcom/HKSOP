@@ -1,8 +1,8 @@
 {
   "format": "hksop-subset-selection-v1",
-  "at": "2026-11-09T11:38:27+08:00",
-  "version": "2026-11-09.hksop-github-local-1",
-  "sourceVersion": "2026-11-08.hksop-current-1",
+  "at": "2026-11-09T14:09:11+08:00",
+  "version": "2026-11-09.hksop-github-cad-2",
+  "sourceVersion": "hksop-20261109T035720Z-99011cb1",
   "policy": {
     "standardLibrary": true,
     "customProjects": [
@@ -11,10 +11,15 @@
     ],
     "step": true,
     "topViewRendering": true,
-    "threeViewAndManufacturingDrawings": false,
+    "threeViewAndManufacturingDrawings": true,
     "projectHistory": false,
-    "githubUpload": "deferred-by-user",
-    "futureVisibility": "private"
+    "githubUpload": "authorized",
+    "futureVisibility": "private",
+    "githubRepository": "ustcredapple-dotcom/HKSOP",
+    "githubVisibility": "private",
+    "currentComponentCad": true,
+    "laserMarkingFiles": true,
+    "scopeUpdatedAt": "2026-11-09T14:09:11+08:00"
   },
   "packages": 694,
   "counts": {
@@ -748,13 +753,14 @@
     "library/custom/project-part-mop-50-dp-r1/package.json",
     "library/custom/project-board-dp-f100-board-r7/package.json"
   ],
-  "assetCount": 960,
-  "assetBytes": 4844364778,
+  "assetCount": 1848,
+  "assetBytes": 5463792332,
   "stepFiles": 584,
   "renderFiles": 376,
-  "omittedReferenceFields": 941,
-  "githubUploaded": false,
   "largeAssets": [],
   "portableAssetReferencesRepaired": 0,
-  "unusedBytesRemoved": 0
+  "unusedBytesRemoved": 0,
+  "drawingFiles": 888,
+  "pdfFiles": 539,
+  "dxfFiles": 349
 }

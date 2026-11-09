@@ -7,9 +7,9 @@
   "revision": "R3",
   "stepPath": "step/combined-r1-20261015/3/AM1B_R3_ADAPTER.step",
   "sourceStepSha256": "af171e0475cda368f354d4ead289b06815db8f1d60c26eab776cf2f38398ff8e",
-  "drawingPath": null,
+  "drawingPath": "drawings/combined-r1-20261015/3/AM1B_R3_MACHINING.pdf",
   "sourceDrawingSha256": "a9d31d619f9dc9c60174ec22edf3bc6a805cacd735edc9f5b6002214f60e4c26",
-  "dxfPath": null,
+  "dxfPath": "drawings/combined-r1-20261015/3/AM1B_R3_MACHINING.dxf",
   "sourceDxfSha256": "9e2e370b17a20e1d6081b25c884ceec418c7f70d51138e95d5d70155e85aee07",
   "productionReady": false,
   "drawingStatus": "engineering-review",
@@ -30,8 +30,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "本版设计已提供与模型对应的独立打标文件。",
-    "notes": "1:1毫米轮廓；未实物打标、未验证工艺可读性。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "1:1毫米轮廓；未实物打标、未验证工艺可读性。",
+    "files": [
+      {
+        "face": "按定位图的外侧平面",
+        "text": "AM1B",
+        "dxfPath": "drawings/combined-r1-20261015/3/AM1B_R3_LASER_AM1B_1to1mm.dxf",
+        "sha256": "192f5c5ead3d4eaad12bbef5ca330e63ca4f0f2696a891dd64644c126c9b9644",
+        "setupPdfPath": "drawings/combined-r1-20261015/3/AM1B_R3_LASER_POSITION.pdf",
+        "setupPdfSha256": "bc72fa9f3ffa42a34ef8014cdf773d49acd8075bcdff301474be671eef69d89f"
+      }
+    ]
   },
   "originalSourceUrl": "",
   "sourceUrl": "https://cad.onshape.com/documents/d252aa346b87cc8b3b987f3a/v/4e1e09ef673f17dfcdbd1023/e/95e77153ecb001dfaac64ec3",
@@ -52,6 +61,6 @@
     "authoritativePrecisionSource": "已核验本地完整 STEP；云端静态冻结版供查看。原生自由度、全套整体移动或完整复用协议尚未全部验收。",
     "physicalTrialPerformed": false
   },
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/combined-r1-20261015/dxf-pdf/custom-am1b-r3_DXF.pdf",
   "dxfPdfSha256": "b739b6f5bf42dada239a39b37877a205896d3af2fbb5f287e6e3603aeb5a79fb"
 }

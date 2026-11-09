@@ -3,6 +3,17 @@
   "packageId": "mop-75",
   "files": [
     {
+      "path": "drawings/428501b6529527f0e8ff123350899808df15c4b4e5b0c3b77c345734cfc25526.pdf",
+      "stored": "library/assets/sha256/42/428501b6529527f0e8ff123350899808df15c4b4e5b0c3b77c345734cfc25526.pdf",
+      "sha256": "428501b6529527f0e8ff123350899808df15c4b4e5b0c3b77c345734cfc25526",
+      "originalReferences": [
+        "drawings/bd1-r2/MOP-12.5_official.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/42/428501b6529527f0e8ff123350899808df15c4b4e5b0c3b77c345734cfc25526.pdf"
+      ]
+    },
+    {
       "path": "cad/629630fe50b6d05fb7d0f7d37ced119f67669723d4864c2e2abdf760e874ca58.step",
       "stored": "library/assets/sha256/62/629630fe50b6d05fb7d0f7d37ced119f67669723d4864c2e2abdf760e874ca58.step",
       "sha256": "629630fe50b6d05fb7d0f7d37ced119f67669723d4864c2e2abdf760e874ca58",

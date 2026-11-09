@@ -5,7 +5,7 @@
   "kind": "custom",
   "unit": "件",
   "stepPath": "step/motor-h2-direct-hex-r2/H2D1-L.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/motor-h2-direct-hex-r2/motor-1-90-h2-direct-hex-r2-manufacturing-review.pdf",
   "sourceStepSha256": "7d2993a0c46f66bb191375cf02cdeba2cf66211f22ee31f3793a2a1fe25f2444",
   "sourceDrawingSha256": "4600b8850d06f0c1f4b7ae4718d537b990f1a6c77f0a1889a4ec55a5ff3b2932",
   "drawingRevision": "H2-Direct-Hex-R2",
@@ -105,7 +105,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_oblique face",
+        "text": "H2D1L",
+        "dxfPath": "drawings/laser-marking/custom-motor-h2d1-l-r2/编号面_oblique face.dxf",
+        "sha256": "341dfbf4a4fd50792359d7ea4e050888e79c1665dddf51f4ccab5c17f14ac0af",
+        "setupPdfPath": "drawings/laser-marking/custom-motor-h2d1-l-r2/编号面_oblique face_定位说明.pdf",
+        "setupPdfSha256": "f51afe397506ed215b518a24ecdaa787e2eb031ebc77da2cae1b3327c4880589"
+      }
+    ]
   }
 }

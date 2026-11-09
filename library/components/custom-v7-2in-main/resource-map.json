@@ -3,6 +3,17 @@
   "packageId": "custom-v7-2in-main",
   "files": [
     {
+      "path": "drawings/083a62b5274788011a6599cf481e8112304727c1d9b044a7ccee412f7472c0ff.pdf",
+      "stored": "library/assets/sha256/08/083a62b5274788011a6599cf481e8112304727c1d9b044a7ccee412f7472c0ff.pdf",
+      "sha256": "083a62b5274788011a6599cf481e8112304727c1d9b044a7ccee412f7472c0ff",
+      "originalReferences": [
+        "drawings/motorized-v7-r1/custom-v7-2in-main_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/08/083a62b5274788011a6599cf481e8112304727c1d9b044a7ccee412f7472c0ff.pdf"
+      ]
+    },
+    {
       "path": "cad/1f6fb3a3ddd2dc6eb0dba8e2d9000a1dac5766b36b1ab84f5f80819fe670d3bd.step",
       "stored": "library/assets/sha256/1f/1f6fb3a3ddd2dc6eb0dba8e2d9000a1dac5766b36b1ab84f5f80819fe670d3bd.step",
       "sha256": "1f6fb3a3ddd2dc6eb0dba8e2d9000a1dac5766b36b1ab84f5f80819fe670d3bd",
@@ -11,6 +22,50 @@
       ],
       "sources": [
         "library/assets/sha256/1f/1f6fb3a3ddd2dc6eb0dba8e2d9000a1dac5766b36b1ab84f5f80819fe670d3bd.step"
+      ]
+    },
+    {
+      "path": "drawings/2c72775f44463c4cb97d4bed4c22c3519281a771fc375d248df6610c153c5556.dxf",
+      "stored": "library/assets/sha256/2c/2c72775f44463c4cb97d4bed4c22c3519281a771fc375d248df6610c153c5556.dxf",
+      "sha256": "2c72775f44463c4cb97d4bed4c22c3519281a771fc375d248df6610c153c5556",
+      "originalReferences": [
+        "drawings/motorized-v7-r1/custom-v7-2in-main.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/2c/2c72775f44463c4cb97d4bed4c22c3519281a771fc375d248df6610c153c5556.dxf"
+      ]
+    },
+    {
+      "path": "drawings/2f278af654404e8dfa3792a34084304269fe976047ae5af8d5dfdcef3a489913.pdf",
+      "stored": "library/assets/sha256/2f/2f278af654404e8dfa3792a34084304269fe976047ae5af8d5dfdcef3a489913.pdf",
+      "sha256": "2f278af654404e8dfa3792a34084304269fe976047ae5af8d5dfdcef3a489913",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-v7-2in-main/编号面_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/2f/2f278af654404e8dfa3792a34084304269fe976047ae5af8d5dfdcef3a489913.pdf"
+      ]
+    },
+    {
+      "path": "drawings/7cbcc7cb9f4e7777b8c4a20c6102bb1e0503d5dfd129c1d6d139cdba16bb2340.pdf",
+      "stored": "library/assets/sha256/7c/7cbcc7cb9f4e7777b8c4a20c6102bb1e0503d5dfd129c1d6d139cdba16bb2340.pdf",
+      "sha256": "7cbcc7cb9f4e7777b8c4a20c6102bb1e0503d5dfd129c1d6d139cdba16bb2340",
+      "originalReferences": [
+        "drawings/motorized-v7-r1/custom-v7-2in-side.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/7c/7cbcc7cb9f4e7777b8c4a20c6102bb1e0503d5dfd129c1d6d139cdba16bb2340.pdf"
+      ]
+    },
+    {
+      "path": "drawings/e8af5598266c40084ac4cdd473ea10d02508ee738d24aa20b19e79f1623264c4.dxf",
+      "stored": "library/assets/sha256/e8/e8af5598266c40084ac4cdd473ea10d02508ee738d24aa20b19e79f1623264c4.dxf",
+      "sha256": "e8af5598266c40084ac4cdd473ea10d02508ee738d24aa20b19e79f1623264c4",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-v7-2in-main/编号面.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/e8/e8af5598266c40084ac4cdd473ea10d02508ee738d24aa20b19e79f1623264c4.dxf"
       ]
     }
   ],

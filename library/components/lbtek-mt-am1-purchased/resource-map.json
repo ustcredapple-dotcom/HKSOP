@@ -3,6 +3,17 @@
   "packageId": "lbtek-mt-am1-purchased",
   "files": [
     {
+      "path": "drawings/543dc2521d71e4f6f2e3a9a50327273faa9b57a7763702a51beada7b25da3da7.pdf",
+      "stored": "library/assets/sha256/54/543dc2521d71e4f6f2e3a9a50327273faa9b57a7763702a51beada7b25da3da7.pdf",
+      "sha256": "543dc2521d71e4f6f2e3a9a50327273faa9b57a7763702a51beada7b25da3da7",
+      "originalReferences": [
+        "drawings/mt-cube-module-r1/MT-AM1-vendor.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/54/543dc2521d71e4f6f2e3a9a50327273faa9b57a7763702a51beada7b25da3da7.pdf"
+      ]
+    },
+    {
       "path": "cad/e153e583a86c2539335b44aaf453f9ee7f1e90066426ab2de85d665c42dd829a.step",
       "stored": "library/assets/sha256/e1/e153e583a86c2539335b44aaf453f9ee7f1e90066426ab2de85d665c42dd829a.step",
       "sha256": "e153e583a86c2539335b44aaf453f9ee7f1e90066426ab2de85d665c42dd829a",

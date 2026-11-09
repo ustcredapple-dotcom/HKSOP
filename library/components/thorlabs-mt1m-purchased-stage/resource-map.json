@@ -3,6 +3,17 @@
   "packageId": "thorlabs-mt1m-purchased-stage",
   "files": [
     {
+      "path": "drawings/301ccaf1701569e588b415cc80ecdc467c5a82b17c78e16a2f8f8ad228aad7d3.pdf",
+      "stored": "library/assets/sha256/30/301ccaf1701569e588b415cc80ecdc467c5a82b17c78e16a2f8f8ad228aad7d3.pdf",
+      "sha256": "301ccaf1701569e588b415cc80ecdc467c5a82b17c78e16a2f8f8ad228aad7d3",
+      "originalReferences": [
+        "drawings/manual-stage-r1-a7075/vendor/thorlabs-mt1m-purchased-stage/2381-E0W.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/30/301ccaf1701569e588b415cc80ecdc467c5a82b17c78e16a2f8f8ad228aad7d3.pdf"
+      ]
+    },
+    {
       "path": "cad/690a9eb58c178339ee4f6c5d242d8b15be47d8b6b180498e76ba79184d66b8a6.step",
       "stored": "library/assets/sha256/69/690a9eb58c178339ee4f6c5d242d8b15be47d8b6b180498e76ba79184d66b8a6.step",
       "sha256": "690a9eb58c178339ee4f6c5d242d8b15be47d8b6b180498e76ba79184d66b8a6",
@@ -11,6 +22,17 @@
       ],
       "sources": [
         "library/assets/sha256/69/690a9eb58c178339ee4f6c5d242d8b15be47d8b6b180498e76ba79184d66b8a6.step"
+      ]
+    },
+    {
+      "path": "drawings/b888acb9a93151c803962becbccaef1a31694954305a3f00f213016ff1a8d4a6.dxf",
+      "stored": "library/assets/sha256/b8/b888acb9a93151c803962becbccaef1a31694954305a3f00f213016ff1a8d4a6.dxf",
+      "sha256": "b888acb9a93151c803962becbccaef1a31694954305a3f00f213016ff1a8d4a6",
+      "originalReferences": [
+        "drawings/manual-stage-r1-a7075/vendor/thorlabs-mt1m-purchased-stage/2381-E0W.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/b8/b888acb9a93151c803962becbccaef1a31694954305a3f00f213016ff1a8d4a6.dxf"
       ]
     }
   ],

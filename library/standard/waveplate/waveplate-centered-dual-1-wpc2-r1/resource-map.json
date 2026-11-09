@@ -23,6 +23,17 @@
       "sources": [
         "library/assets/sha256/ad/adbf848eee6cc925e2aeb1dd0a0378ee56b89cca70fbac0c2ce754a9940f66fd.svg"
       ]
+    },
+    {
+      "path": "drawings/e7ebcf3097d08900ee166bd859c7659f8794f57772140a43af6590a537a97283.pdf",
+      "stored": "library/assets/sha256/e7/e7ebcf3097d08900ee166bd859c7659f8794f57772140a43af6590a537a97283.pdf",
+      "sha256": "e7ebcf3097d08900ee166bd859c7659f8794f57772140a43af6590a537a97283",
+      "originalReferences": [
+        "drawings/wpc2-r1/WPC2-R1_设计与验收.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/e7/e7ebcf3097d08900ee166bd859c7659f8794f57772140a43af6590a537a97283.pdf"
+      ]
     }
   ],
   "dependencies": [

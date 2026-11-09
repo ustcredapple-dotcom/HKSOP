@@ -9,7 +9,7 @@
   "drawingStatus": "engineering-review",
   "status": "CAD及图纸审核版；未实装、未制造放行",
   "stepPath": "step/kungshu-r1-20261012/33-DR-M01_R1.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/kungshu-r1-20261012/33-DR-M01_R1_加工图.pdf",
   "sourceStepSha256": "bb95f58203cfff56f6a92bef6c53cb77d1098edecb5d63f93b8f0bbc1bbce185",
   "sourceDrawingSha256": "c0eb0d3b9ab9f6c16e76a5e54f848dd678c4d93d98d02d3a7de8000beb8e02ce",
   "manufacturingSpec": {
@@ -26,7 +26,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "源R1编号及逐面打标资料已接收，当前STEP SHA匹配。",
-    "notes": "激光打标，不铣刻。CAD凹深仅显示；实物已有相同编号不重复。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻。CAD凹深仅显示；实物已有相同编号不重复。",
+    "files": [
+      {
+        "face": "33-DR-M01_top_1to1_mm",
+        "text": "33-DR-M01",
+        "dxfPath": "drawings/laser-marking/custom-kungshu-33-dr-m01-r1/33-DR-M01_top_1to1_mm.dxf",
+        "sha256": "07d5cb2f606efcfbd4ea5c031564979d63bcffbfdb8604ba2f0922b256ef1403",
+        "setupPdfPath": "drawings/laser-marking/custom-kungshu-33-dr-m01-r1/33-DR-M01_R1_激光定位.pdf",
+        "setupPdfSha256": "831890a19b325148a7d0474051b7af104eee58da8464f0e3477c82901ff1c82d"
+      }
+    ]
   }
 }

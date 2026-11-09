@@ -7,7 +7,7 @@
   "sourceUrl": "https://www.lbtek.com/product/218",
   "stepPath": "step/txy1s-fixed-r5/vendor/TXY1S.step",
   "sourceStepSha256": "142cac65dd0c2b5434aa82e619aefa7e7708aeae6c9e5ccc27080a95e161af00",
-  "drawingPath": null,
+  "drawingPath": "drawings/txy1s-fixed-r5/vendor/TXY1S.pdf",
   "sourceDrawingSha256": "4dd337188e211cc089bc92d27ccd0a0be9e8957ce1f068185c6d1beb4bdff65f",
   "notes": "厂家资料来自用户冻结包；套筒随附卡环不重复计购。仅前端SM1-8A保留一个SM1R；TXY1S和其余套筒多余卡环拆下。实物螺纹/镜片夹持待核。"
 }

@@ -3,6 +3,28 @@
   "packageId": "new-r3-15-layout-ruler",
   "files": [
     {
+      "path": "drawings/14a602f5d1c23f07607c4ffd386cc3527a1ad22ca31933dc0fc814204d336148.dxf",
+      "stored": "library/assets/sha256/14/14a602f5d1c23f07607c4ffd386cc3527a1ad22ca31933dc0fc814204d336148.dxf",
+      "sha256": "14a602f5d1c23f07607c4ffd386cc3527a1ad22ca31933dc0fc814204d336148",
+      "originalReferences": [
+        "drawings/laser-marking/new-r3-15-layout-ruler/functional_scale_+Z.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/14/14a602f5d1c23f07607c4ffd386cc3527a1ad22ca31933dc0fc814204d336148.dxf"
+      ]
+    },
+    {
+      "path": "drawings/1c24ef58072d5aa5d1258f7a204e64ff39eb740ca4efce31d6ad04bf02f140f2.pdf",
+      "stored": "library/assets/sha256/1c/1c24ef58072d5aa5d1258f7a204e64ff39eb740ca4efce31d6ad04bf02f140f2.pdf",
+      "sha256": "1c24ef58072d5aa5d1258f7a204e64ff39eb740ca4efce31d6ad04bf02f140f2",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/15-RULER_M1_加工工程图_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/1c/1c24ef58072d5aa5d1258f7a204e64ff39eb740ca4efce31d6ad04bf02f140f2.pdf"
+      ]
+    },
+    {
       "path": "cad/3da9677180ac3472134deb68d65fb3dc784ef62aaeed59c36b2a9e1d726d3be4.step",
       "stored": "library/assets/sha256/3d/3da9677180ac3472134deb68d65fb3dc784ef62aaeed59c36b2a9e1d726d3be4.step",
       "sha256": "3da9677180ac3472134deb68d65fb3dc784ef62aaeed59c36b2a9e1d726d3be4",
@@ -11,6 +33,61 @@
       ],
       "sources": [
         "library/assets/sha256/3d/3da9677180ac3472134deb68d65fb3dc784ef62aaeed59c36b2a9e1d726d3be4.step"
+      ]
+    },
+    {
+      "path": "drawings/794b0a6f22deb5c591e8c94b9b014b50640c693ce6439103b1a340ee1fcc43a3.dxf",
+      "stored": "library/assets/sha256/79/794b0a6f22deb5c591e8c94b9b014b50640c693ce6439103b1a340ee1fcc43a3.dxf",
+      "sha256": "794b0a6f22deb5c591e8c94b9b014b50640c693ce6439103b1a340ee1fcc43a3",
+      "originalReferences": [
+        "drawings/laser-marking/new-r3-15-layout-ruler/编号面_-Y.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/79/794b0a6f22deb5c591e8c94b9b014b50640c693ce6439103b1a340ee1fcc43a3.dxf"
+      ]
+    },
+    {
+      "path": "drawings/7c587a89d8c8e0c09e56bea6e7eb2d722f435a56cce8cb33de3b618e3c5235c9.pdf",
+      "stored": "library/assets/sha256/7c/7c587a89d8c8e0c09e56bea6e7eb2d722f435a56cce8cb33de3b618e3c5235c9.pdf",
+      "sha256": "7c587a89d8c8e0c09e56bea6e7eb2d722f435a56cce8cb33de3b618e3c5235c9",
+      "originalReferences": [
+        "drawings/laser-marking/new-r3-15-layout-ruler/functional_scale_+Z_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/7c/7c587a89d8c8e0c09e56bea6e7eb2d722f435a56cce8cb33de3b618e3c5235c9.pdf"
+      ]
+    },
+    {
+      "path": "drawings/95e3e9e6a5a923257f7a2ae4bb6b3e2a9b2d34acc7af86f65b989318410d2019.pdf",
+      "stored": "library/assets/sha256/95/95e3e9e6a5a923257f7a2ae4bb6b3e2a9b2d34acc7af86f65b989318410d2019.pdf",
+      "sha256": "95e3e9e6a5a923257f7a2ae4bb6b3e2a9b2d34acc7af86f65b989318410d2019",
+      "originalReferences": [
+        "drawings/laser-marking/new-r3-15-layout-ruler/编号面_-Y_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/95/95e3e9e6a5a923257f7a2ae4bb6b3e2a9b2d34acc7af86f65b989318410d2019.pdf"
+      ]
+    },
+    {
+      "path": "drawings/aa8267649e9d076bbe980adcc15b2a2fa296e4d90efcd3eb6164537f05ab5361.dxf",
+      "stored": "library/assets/sha256/aa/aa8267649e9d076bbe980adcc15b2a2fa296e4d90efcd3eb6164537f05ab5361.dxf",
+      "sha256": "aa8267649e9d076bbe980adcc15b2a2fa296e4d90efcd3eb6164537f05ab5361",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/15-RULER_M1_加工工程图.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/aa/aa8267649e9d076bbe980adcc15b2a2fa296e4d90efcd3eb6164537f05ab5361.dxf"
+      ]
+    },
+    {
+      "path": "drawings/cf17781b8b9f2061b3aa7e26eab0ee8177063754e492aa7261cc4a27139d0e22.pdf",
+      "stored": "library/assets/sha256/cf/cf17781b8b9f2061b3aa7e26eab0ee8177063754e492aa7261cc4a27139d0e22.pdf",
+      "sha256": "cf17781b8b9f2061b3aa7e26eab0ee8177063754e492aa7261cc4a27139d0e22",
+      "originalReferences": [
+        "drawings/metric-m1-20261006/15-RULER_M1_加工工程图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/cf/cf17781b8b9f2061b3aa7e26eab0ee8177063754e492aa7261cc4a27139d0e22.pdf"
       ]
     }
   ],

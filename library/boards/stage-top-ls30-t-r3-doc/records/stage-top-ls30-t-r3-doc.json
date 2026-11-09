@@ -148,8 +148,8 @@
   "minimumAlignedMountingHoles": 2,
   "topViewPath": "topviews/part_LS30-T_R2-A7075.svg",
   "stepPath": "step/manual-stage-r2-a7075/LS30-T.step",
-  "drawingPath": null,
-  "dxfPath": null,
+  "drawingPath": "drawings/manual-stage-r3-table-mount/LS30-T_R2_上板工程图与R3安装说明.pdf",
+  "dxfPath": "drawings/manual-stage-r2-a7075/LS30-T_TN1_20261026.dxf",
   "drawingPages": [
     1,
     2,
@@ -168,7 +168,7 @@
     "revisionEvidence": "library/reviews/ls30-upper-carriage-r2-20261007/evidence/review.json"
   },
   "notes": "专属运动上板，仅随完整位移模块使用。六个M6输出孔保持原坐标；螺钉旋入≤7.5 mm且不得穿出底面。两固定孔从顶面安装M3×10，沉孔Ø6.5×3.0，名义伸入厂家台面4.5 mm；固定孔不作为附件孔。",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/manual-stage-r2-a7075/LS30-T_DXF.pdf",
   "dxfPdfSha256": "e930821b932c8b7aeef853c991c54335f48baa6dc84b74aa70c1a459d9d29a6a",
   "sourceDrawingSha256": "d361016ef8671fb01f517d28af03b0c18bc300f071204fb2741153e210c0ce5d",
   "drawingAnnotationEvidence": {
@@ -200,8 +200,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "LS30-T",
+        "dxfPath": "drawings/laser-marking/LS30-T/编号面_-Y.dxf",
+        "sha256": "ae8c1251eae9352f4eccb0256cb871d1ed075900bd593f45ae28023b50ec2f72",
+        "setupPdfPath": "drawings/laser-marking/LS30-T/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "4dbd62c5aa40514c8de0989a0a4f15a029c18872e2838f05a8aacdb884f82eff"
+      }
+    ]
   },
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -209,7 +218,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/manual-stage-r2-a7075/LS30-T_TN1_20261026.dxf",
         "previousSha256": "a52c7d764940c88016efbe91899f6676ca2addb254f39aef824f670b92b97655",
         "sha256": "d2530c76b6054bebd768bcf46d29731b2b284114e35d9c8208e673e034f61685"
       }

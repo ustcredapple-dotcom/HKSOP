@@ -3,6 +3,39 @@
   "packageId": "custom-obj-mt1m-ac-r3",
   "files": [
     {
+      "path": "drawings/100bbca2deb8a12a1ea837808bcb4e0d96d22785fa142626987e0b70ddac4ed6.pdf",
+      "stored": "library/assets/sha256/10/100bbca2deb8a12a1ea837808bcb4e0d96d22785fa142626987e0b70ddac4ed6.pdf",
+      "sha256": "100bbca2deb8a12a1ea837808bcb4e0d96d22785fa142626987e0b70ddac4ed6",
+      "originalReferences": [
+        "drawings/xbk-objectives-forward-r3/激光打标定位_审核.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/10/100bbca2deb8a12a1ea837808bcb4e0d96d22785fa142626987e0b70ddac4ed6.pdf"
+      ]
+    },
+    {
+      "path": "drawings/cec06114d36e6cc677b6896829baa0d80fa9a16857cafcdb3c6fa631c21d3670.pdf",
+      "stored": "library/assets/sha256/ce/cec06114d36e6cc677b6896829baa0d80fa9a16857cafcdb3c6fa631c21d3670.pdf",
+      "sha256": "cec06114d36e6cc677b6896829baa0d80fa9a16857cafcdb3c6fa631c21d3670",
+      "originalReferences": [
+        "drawings/xbk-objectives-forward-r3/OBJ-MT1M-AC-R3_加工审核图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/ce/cec06114d36e6cc677b6896829baa0d80fa9a16857cafcdb3c6fa631c21d3670.pdf"
+      ]
+    },
+    {
+      "path": "drawings/e0a8e44676e6d48abbab097c010f876134ddfa5a04f5f94d66ba711b41efc6d5.dxf",
+      "stored": "library/assets/sha256/e0/e0a8e44676e6d48abbab097c010f876134ddfa5a04f5f94d66ba711b41efc6d5.dxf",
+      "sha256": "e0a8e44676e6d48abbab097c010f876134ddfa5a04f5f94d66ba711b41efc6d5",
+      "originalReferences": [
+        "drawings/xbk-objectives-forward-r3/OBJ-MT1M-AC-R3_激光_NEG_Y_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/e0/e0a8e44676e6d48abbab097c010f876134ddfa5a04f5f94d66ba711b41efc6d5.dxf"
+      ]
+    },
+    {
       "path": "cad/e61bc338d66b819967100795dc22e38492c83e65cc30b158ef4bb9bfdaeb447c.step",
       "stored": "library/assets/sha256/e6/e61bc338d66b819967100795dc22e38492c83e65cc30b158ef4bb9bfdaeb447c.step",
       "sha256": "e61bc338d66b819967100795dc22e38492c83e65cc30b158ef4bb9bfdaeb447c",

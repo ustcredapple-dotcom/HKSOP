@@ -14,15 +14,24 @@
   },
   "stepPath": "step/batch-20261020/custom-q1ft-r1/R1/Q1FT_R1.step",
   "sourceStepSha256": "55f9ac97b2999fcafa185dbf574578f451ace12d408347e1c8ef902e07f988d5",
-  "drawingPath": null,
+  "drawingPath": "drawings/batch-20261020/custom-q1ft-r1/R1/Q1FT_R1_加工图_TN1_20261026.pdf",
   "sourceDrawingSha256": "eb9d27183980d3eba1ded89d1024b661a65ed1656958b45cdb4954364ddb95ff",
-  "dxfPath": null,
+  "dxfPath": "drawings/batch-20261020/custom-q1ft-r1/R1/Q1FT_平面交换.dxf",
   "sourceDxfSha256": "79b5d7a008ed1da148c4c8455d9b8d1c0a436a9916a1e0ea06a6bb6533f52da5",
   "laserMarking": {
     "status": "required",
     "reason": "当前修订编号识别",
-    "notes": "真实毫米1:1字形，按定位PDF装夹。圆柱肩部按展开加工；工艺参数待试样确认。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "真实毫米1:1字形，按定位PDF装夹。圆柱肩部按展开加工；工艺参数待试样确认。",
+    "files": [
+      {
+        "face": "编号面",
+        "text": "Q1FT R1",
+        "dxfPath": "drawings/batch-20261020/custom-q1ft-r1/R1/laser/Q1FT_front.dxf",
+        "sha256": "9239890d0f7873f74a3da5b8d0bc47cfd794e7c4c3c58b578adb779e88e7849a",
+        "setupPdfPath": "drawings/batch-20261020/custom-q1ft-r1/R1/laser/Q1FT_front_定位.pdf",
+        "setupPdfSha256": "3f8c9ddc8a851ca7497fe882ffd2137e92f574e1a236fd4e033c42fb46ca94ff"
+      }
+    ]
   },
   "manufacturingEvidence": {
     "sourceStepSha256": "55f9ac97b2999fcafa185dbf574578f451ace12d408347e1c8ef902e07f988d5",
@@ -31,7 +40,7 @@
     "physicalTrialCompleted": false,
     "reviewScope": "Single valid closed solid independently read; unchanged source drawing pages and design checks retained."
   },
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/batch-20261020/custom-q1ft-r1/R1/Q1FT_R1_加工图_TN1_20261026.pdf",
   "sourceDxfPdfSha256": "eb9d27183980d3eba1ded89d1024b661a65ed1656958b45cdb4954364ddb95ff",
   "sourceUrl": "https://cad.onshape.com/documents/b8480fd422af2f962e9e81a1/v/bd3d5eb410ca6e2d925b7ec0/e/2921b1de2192d5ab5c4e9bb3",
   "cloudReference": {
@@ -54,7 +63,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/batch-20261020/custom-q1ft-r1/R1/Q1FT_R1_加工图_TN1_20261026.pdf",
         "previousSha256": "f853147c820536a4e38163ed34fc9ca03e96d409d6e07f61478eac2ceff1e8bf",
         "sha256": "eb9d27183980d3eba1ded89d1024b661a65ed1656958b45cdb4954364ddb95ff"
       }

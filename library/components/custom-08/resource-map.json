@@ -3,6 +3,39 @@
   "packageId": "custom-08",
   "files": [
     {
+      "path": "drawings/53f7dce09ba518ef42b37f26e46fbb831fecfc78ed33ff770f93f0579b3c5816.dxf",
+      "stored": "library/assets/sha256/53/53f7dce09ba518ef42b37f26e46fbb831fecfc78ed33ff770f93f0579b3c5816.dxf",
+      "sha256": "53f7dce09ba518ef42b37f26e46fbb831fecfc78ed33ff770f93f0579b3c5816",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-08/编号面.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/53/53f7dce09ba518ef42b37f26e46fbb831fecfc78ed33ff770f93f0579b3c5816.dxf"
+      ]
+    },
+    {
+      "path": "drawings/7f06b5fccaedf5baa5d8bd1eef6a5c91ec97d5d23860a60784420a8ec5884d5f.pdf",
+      "stored": "library/assets/sha256/7f/7f06b5fccaedf5baa5d8bd1eef6a5c91ec97d5d23860a60784420a8ec5884d5f.pdf",
+      "sha256": "7f06b5fccaedf5baa5d8bd1eef6a5c91ec97d5d23860a60784420a8ec5884d5f",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-08/编号面_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/7f/7f06b5fccaedf5baa5d8bd1eef6a5c91ec97d5d23860a60784420a8ec5884d5f.pdf"
+      ]
+    },
+    {
+      "path": "drawings/d3e2009c88c57d286f5d60b8543b16b47170c63df12b997e64fadc6785026d82.pdf",
+      "stored": "library/assets/sha256/d3/d3e2009c88c57d286f5d60b8543b16b47170c63df12b997e64fadc6785026d82.pdf",
+      "sha256": "d3e2009c88c57d286f5d60b8543b16b47170c63df12b997e64fadc6785026d82",
+      "originalReferences": [
+        "drawings/05_PBS/08_固定式PBS_1inch_加工审核图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/d3/d3e2009c88c57d286f5d60b8543b16b47170c63df12b997e64fadc6785026d82.pdf"
+      ]
+    },
+    {
       "path": "cad/e271185df6c104d52d1381f550e4fd36988c21a42093ad402f9ce94c79922140.step",
       "stored": "library/assets/sha256/e2/e271185df6c104d52d1381f550e4fd36988c21a42093ad402f9ce94c79922140.step",
       "sha256": "e271185df6c104d52d1381f550e4fd36988c21a42093ad402f9ce94c79922140",
@@ -11,6 +44,17 @@
       ],
       "sources": [
         "library/assets/sha256/e2/e271185df6c104d52d1381f550e4fd36988c21a42093ad402f9ce94c79922140.step"
+      ]
+    },
+    {
+      "path": "drawings/ef36ca4ce6d882861f703d791810829f0c9942be6617d17dc16b72515da2341d.pdf",
+      "stored": "library/assets/sha256/ef/ef36ca4ce6d882861f703d791810829f0c9942be6617d17dc16b72515da2341d.pdf",
+      "sha256": "ef36ca4ce6d882861f703d791810829f0c9942be6617d17dc16b72515da2341d",
+      "originalReferences": [
+        "drawings/original-metric-m1-20261006/custom-08_M1_公制加工审核图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/ef/ef36ca4ce6d882861f703d791810829f0c9942be6617d17dc16b72515da2341d.pdf"
       ]
     }
   ],

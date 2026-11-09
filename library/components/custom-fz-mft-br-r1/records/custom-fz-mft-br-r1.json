@@ -14,15 +14,24 @@
   },
   "stepPath": "step/batch-20261020/custom-fz-mft-br-r1/R2/FZ-MFT-BR-R2.step",
   "sourceStepSha256": "52bb669ef98197b805282096b783c5429a8cd6d2a6ed1927c4801a6c5ac0aa33",
-  "drawingPath": null,
+  "drawingPath": "drawings/batch-20261020/custom-fz-mft-br-r1/R2/FZ-MFT-BR-R2_加工图_TN1_20261026.pdf",
   "sourceDrawingSha256": "38512a316e77b178b9470d0c42fd37ff9a1c78436f7b63596e9a85268b151ae7",
-  "dxfPath": null,
+  "dxfPath": "drawings/batch-20261020/custom-fz-mft-br-r1/R2/FZ-MFT-BR-R2_尺寸图_TN1_20261026.dxf",
   "sourceDxfSha256": "4550416d556fe25a889efefa0e7237fab9000101988303c3b715adab96d75e43",
   "laserMarking": {
     "status": "required",
     "reason": "当前修订编号识别",
-    "notes": "真实毫米1:1字形，按定位PDF装夹。圆柱肩部按展开加工；工艺参数待试样确认。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "真实毫米1:1字形，按定位PDF装夹。圆柱肩部按展开加工；工艺参数待试样确认。",
+    "files": [
+      {
+        "face": "编号面",
+        "text": "FZ-MFT-BR-R2",
+        "dxfPath": "drawings/batch-20261020/custom-fz-mft-br-r1/R2/laser/编号_1比1_mm.dxf",
+        "sha256": "426fbb5a52feaf8ce032c442e6b12610777b6f3ee0811377da182a3494bc51a8",
+        "setupPdfPath": "drawings/batch-20261020/custom-fz-mft-br-r1/R2/laser/定位图.pdf",
+        "setupPdfSha256": "0eafe2ed3ce8c702c0cb900ddafe673b705d10830741f325f6492c5675aaed0f"
+      }
+    ]
   },
   "manufacturingEvidence": {
     "sourceStepSha256": "52bb669ef98197b805282096b783c5429a8cd6d2a6ed1927c4801a6c5ac0aa33",
@@ -31,7 +40,7 @@
     "physicalTrialCompleted": false,
     "reviewScope": "Single valid closed solid independently read; unchanged source drawing pages and design checks retained."
   },
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/batch-20261020/custom-fz-mft-br-r1/R2/FZ-MFT-BR-R2_加工图_TN1_20261026.pdf",
   "sourceDxfPdfSha256": "38512a316e77b178b9470d0c42fd37ff9a1c78436f7b63596e9a85268b151ae7",
   "sourceUrl": "https://cad.onshape.com/documents/b3a1cfc88083ee9a1230d2f9/v/87b7d71e3c128ff8c5d34b8c/e/7732deb8ec4e043d4890c6dc",
   "cloudReference": {
@@ -54,12 +63,12 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/batch-20261020/custom-fz-mft-br-r1/R2/FZ-MFT-BR-R2_加工图_TN1_20261026.pdf",
         "previousSha256": "ff2ffed42785161c51cf4aeb07597d6595617358104e02b8ba80e0ca1d1e9846",
         "sha256": "38512a316e77b178b9470d0c42fd37ff9a1c78436f7b63596e9a85268b151ae7"
       },
       {
-        "path": null,
+        "path": "assets/drawings/batch-20261020/custom-fz-mft-br-r1/R2/FZ-MFT-BR-R2_尺寸图_TN1_20261026.dxf",
         "previousSha256": "c23f75436dcccb64088863de128f1a8c968106750a1f2cf089edceb64ab8e7e0",
         "sha256": "4550416d556fe25a889efefa0e7237fab9000101988303c3b715adab96d75e43"
       }

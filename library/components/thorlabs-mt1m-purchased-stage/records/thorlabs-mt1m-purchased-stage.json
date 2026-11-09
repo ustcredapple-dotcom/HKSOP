@@ -9,12 +9,12 @@
   "sourceUrl": "https://media.thorlabs.com/globalassets/items/m/mt/mt1/mt1_m/2381-e0w.pdf?v=0116012826",
   "status": "型号已确认；实物验收未执行",
   "notes": "厂家真实参考件，保持原尺寸及接口；不作为自制加工件。",
-  "drawingPath": null,
+  "drawingPath": "drawings/manual-stage-r1-a7075/vendor/thorlabs-mt1m-purchased-stage/2381-E0W.pdf",
   "sourceDrawingSha256": "301ccaf1701569e588b415cc80ecdc467c5a82b17c78e16a2f8f8ad228aad7d3",
-  "dxfPath": null,
+  "dxfPath": "drawings/manual-stage-r1-a7075/vendor/thorlabs-mt1m-purchased-stage/2381-E0W.dxf",
   "sourceDxfSha256": "b888acb9a93151c803962becbccaef1a31694954305a3f00f213016ff1a8d4a6",
   "stepPath": "step/manual-stage-r1-a7075/vendor/thorlabs-mt1m-purchased-stage/2381-E0W.step",
   "sourceStepSha256": "690a9eb58c178339ee4f6c5d242d8b15be47d8b6b180498e76ba79184d66b8a6",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/manual-stage-r1-a7075/vendor/thorlabs-mt1m-purchased-stage/2381-E0W_DXF.pdf",
   "dxfPdfSha256": "301ccaf1701569e588b415cc80ecdc467c5a82b17c78e16a2f8f8ad228aad7d3"
 }

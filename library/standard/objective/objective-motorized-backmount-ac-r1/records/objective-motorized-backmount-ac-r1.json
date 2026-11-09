@@ -669,7 +669,7 @@
     "nominalFixedPositionAssembly": true,
     "includeInBundle": true,
     "sourceExact": true,
-    "drawingPath": null,
+    "drawingPath": "drawings/objective-ac-r1/MT-AM1T_AC_R1_assembly.pdf",
     "sourceDrawingSha256": "375d2abe10df210870f266b2541afa8812ab4209b61ae30fd73502d952fd489f",
     "note": "47叶件/2子装配；新增支撑五金均建模，沿用模块10个安装紧固件/销为BOM-only；不含原生配合。"
   },
@@ -681,7 +681,7 @@
     "nominalFixedPositionAssembly": true,
     "includeInBundle": true,
     "sourceExact": true,
-    "drawingPath": null,
+    "drawingPath": "drawings/objective-ac-r1/MT-AM1T_AC_R1_assembly.pdf",
     "sourceDrawingSha256": "375d2abe10df210870f266b2541afa8812ab4209b61ae30fd73502d952fd489f",
     "note": "47叶件/2子装配；新增支撑五金均建模，沿用模块10个安装紧固件/销为BOM-only；不含原生配合。"
   },
@@ -801,7 +801,7 @@
       "sourceStepSha256": "1cb4d1ee48491f7970764cdf3f95d6f4e1f6c736eec71642459e7b98d8327d31"
     },
     "drawingAsset": {
-      "drawingPath": null,
+      "drawingPath": "drawings/objective-mounted-r3/TTN189223-E0W.pdf",
       "sourceDrawingSha256": "f0271ddee913372f5659f0898e31d0da9f191942419bdd4817575cc30005b96f"
     },
     "sourceToKit": {
@@ -860,7 +860,7 @@
       "note": "17件电动改装组件；后视坐标，不含原物镜模块。"
     },
     {
-      "drawingPath": null,
+      "drawingPath": "drawings/objective-ac-r1/MT-AM1T_AC_R1_assembly.pdf",
       "sha256": "375d2abe10df210870f266b2541afa8812ab4209b61ae30fd73502d952fd489f",
       "note": "真实后视/侧视、装配顺序与验收边界。"
     }

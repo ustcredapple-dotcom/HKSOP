@@ -23,6 +23,17 @@
       "sources": [
         "library/assets/sha256/64/642222af7b5d69275a7137e08108f4bd7836029b179da885647dc929c3420052.svg"
       ]
+    },
+    {
+      "path": "drawings/ac1aeebc4ecfebef30c6fc247532eeb3d63c02cd521e2f453413348555a251e6.pdf",
+      "stored": "library/assets/sha256/ac/ac1aeebc4ecfebef30c6fc247532eeb3d63c02cd521e2f453413348555a251e6.pdf",
+      "sha256": "ac1aeebc4ecfebef30c6fc247532eeb3d63c02cd521e2f453413348555a251e6",
+      "originalReferences": [
+        "drawings/xbk-cavity-frontgrid-r3/XBK_Cavity_H62p5_R3_审核图册_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/ac/ac1aeebc4ecfebef30c6fc247532eeb3d63c02cd521e2f453413348555a251e6.pdf"
+      ]
     }
   ],
   "dependencies": [

@@ -8,7 +8,7 @@
   "notes": "配合公制支撑后的名义光高62.5 mm；保留已核验镜面孔组及孔规格。材料316L不锈钢，退磁、喷砂；尚未实物试装。",
   "sourceUrl": "https://cad.onshape.com/documents/3a3c1d8089df865b8b4e822a/v/6e749963ebef18952db7c82d/e/dafe20f44590690b7c99479c",
   "stepPath": "step/original-metric-m1-20261006/custom-09_M1_native.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/original-metric-m1-20261006/custom-09_M1_公制加工审核图_TN1_20261026.pdf",
   "manufacturingSpec": {
     "material": "316L 不锈钢",
     "surfaceTreatment": "退磁、喷砂",
@@ -52,8 +52,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "按本轮补齐要求增加识别编号；已核当前 STEP 外表面位置。",
-    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。",
+    "files": [
+      {
+        "dxfPath": "drawings/laser-marking/lm1-20261015/custom-09/编号面.dxf",
+        "sha256": "f85d02f20838661ae2353e5dccff9a1a5b2297a97128569b47f3fbba8ca00b86",
+        "setupPdfPath": "drawings/laser-marking/lm1-20261015/custom-09/编号面_定位.pdf",
+        "setupPdfSha256": "d4ae732fef8755b6c59e969b8594dbe7e0decd4bea52ad8f5b24538fd9bf93a6",
+        "face": "编号面",
+        "text": "ZZ-09-M1"
+      }
+    ]
   },
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -61,12 +70,12 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/original-metric-m1-20261006/custom-09_M1_公制加工审核图_TN1_20261026.pdf",
         "previousSha256": "ac996c42089908b4065ff3383853f02b3ef89602e3d34b5b735a51e08936e72a",
         "sha256": "36f999091e4c97553a96ea14cef6cf012670605ec23eff0da705d54ad5ac0f95"
       },
       {
-        "path": null,
+        "path": "assets/drawings/05_PBS/09_可调PBS_1inch_加工审核图_TN1_20261026.pdf",
         "previousSha256": "600b202696b93a301ac44f63fdc5d3c4b86b9395294f4d19c1dcc997c327107b",
         "sha256": "d2e66dc75508727364ea12b6639fbedc4976caad2d332f9d74bb5d103a188750"
       }

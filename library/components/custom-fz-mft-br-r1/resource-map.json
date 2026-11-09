@@ -3,6 +3,50 @@
   "packageId": "custom-fz-mft-br-r1",
   "files": [
     {
+      "path": "drawings/0eafe2ed3ce8c702c0cb900ddafe673b705d10830741f325f6492c5675aaed0f.pdf",
+      "stored": "library/assets/sha256/0e/0eafe2ed3ce8c702c0cb900ddafe673b705d10830741f325f6492c5675aaed0f.pdf",
+      "sha256": "0eafe2ed3ce8c702c0cb900ddafe673b705d10830741f325f6492c5675aaed0f",
+      "originalReferences": [
+        "drawings/batch-20261020/custom-fz-mft-br-r1/R2/laser/定位图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/0e/0eafe2ed3ce8c702c0cb900ddafe673b705d10830741f325f6492c5675aaed0f.pdf"
+      ]
+    },
+    {
+      "path": "drawings/38512a316e77b178b9470d0c42fd37ff9a1c78436f7b63596e9a85268b151ae7.pdf",
+      "stored": "library/assets/sha256/38/38512a316e77b178b9470d0c42fd37ff9a1c78436f7b63596e9a85268b151ae7.pdf",
+      "sha256": "38512a316e77b178b9470d0c42fd37ff9a1c78436f7b63596e9a85268b151ae7",
+      "originalReferences": [
+        "drawings/batch-20261020/custom-fz-mft-br-r1/R2/FZ-MFT-BR-R2_加工图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/38/38512a316e77b178b9470d0c42fd37ff9a1c78436f7b63596e9a85268b151ae7.pdf"
+      ]
+    },
+    {
+      "path": "drawings/426fbb5a52feaf8ce032c442e6b12610777b6f3ee0811377da182a3494bc51a8.dxf",
+      "stored": "library/assets/sha256/42/426fbb5a52feaf8ce032c442e6b12610777b6f3ee0811377da182a3494bc51a8.dxf",
+      "sha256": "426fbb5a52feaf8ce032c442e6b12610777b6f3ee0811377da182a3494bc51a8",
+      "originalReferences": [
+        "drawings/batch-20261020/custom-fz-mft-br-r1/R2/laser/编号_1比1_mm.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/42/426fbb5a52feaf8ce032c442e6b12610777b6f3ee0811377da182a3494bc51a8.dxf"
+      ]
+    },
+    {
+      "path": "drawings/4550416d556fe25a889efefa0e7237fab9000101988303c3b715adab96d75e43.dxf",
+      "stored": "library/assets/sha256/45/4550416d556fe25a889efefa0e7237fab9000101988303c3b715adab96d75e43.dxf",
+      "sha256": "4550416d556fe25a889efefa0e7237fab9000101988303c3b715adab96d75e43",
+      "originalReferences": [
+        "drawings/batch-20261020/custom-fz-mft-br-r1/R2/FZ-MFT-BR-R2_尺寸图_TN1_20261026.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/45/4550416d556fe25a889efefa0e7237fab9000101988303c3b715adab96d75e43.dxf"
+      ]
+    },
+    {
       "path": "cad/52bb669ef98197b805282096b783c5429a8cd6d2a6ed1927c4801a6c5ac0aa33.step",
       "stored": "library/assets/sha256/52/52bb669ef98197b805282096b783c5429a8cd6d2a6ed1927c4801a6c5ac0aa33.step",
       "sha256": "52bb669ef98197b805282096b783c5429a8cd6d2a6ed1927c4801a6c5ac0aa33",

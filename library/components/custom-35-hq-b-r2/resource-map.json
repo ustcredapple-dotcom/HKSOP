@@ -3,6 +3,50 @@
   "packageId": "custom-35-hq-b-r2",
   "files": [
     {
+      "path": "drawings/3918f6d9aaa629fc56561d5a811c080972080dedefffde6842bc5089dc14e848.pdf",
+      "stored": "library/assets/sha256/39/3918f6d9aaa629fc56561d5a811c080972080dedefffde6842bc5089dc14e848.pdf",
+      "sha256": "3918f6d9aaa629fc56561d5a811c080972080dedefffde6842bc5089dc14e848",
+      "originalReferences": [
+        "drawings/camera-adapters-r2/laser-marking/35-HQ-B_R2-TRIAL_Xplus_LASER_SETUP.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/39/3918f6d9aaa629fc56561d5a811c080972080dedefffde6842bc5089dc14e848.pdf"
+      ]
+    },
+    {
+      "path": "drawings/3e346ee8a2a2df81572d0c5d8575e56a4189accb2726e6e92698cdd242f18332.pdf",
+      "stored": "library/assets/sha256/3e/3e346ee8a2a2df81572d0c5d8575e56a4189accb2726e6e92698cdd242f18332.pdf",
+      "sha256": "3e346ee8a2a2df81572d0c5d8575e56a4189accb2726e6e92698cdd242f18332",
+      "originalReferences": [
+        "drawings/camera-adapters-r2/35-HQ-B_R2-TRIAL_MACHINING_EDITABLE_1to1_PDF_PREVIEW.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/3e/3e346ee8a2a2df81572d0c5d8575e56a4189accb2726e6e92698cdd242f18332.pdf"
+      ]
+    },
+    {
+      "path": "drawings/6791ccda6640e7733181f647e919e7007fb8e6fdf21edae8ab9dea0beac54380.pdf",
+      "stored": "library/assets/sha256/67/6791ccda6640e7733181f647e919e7007fb8e6fdf21edae8ab9dea0beac54380.pdf",
+      "sha256": "6791ccda6640e7733181f647e919e7007fb8e6fdf21edae8ab9dea0beac54380",
+      "originalReferences": [
+        "drawings/camera-adapters-r2/35-HQ-B_R2-TRIAL_MACHINING_A3.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/67/6791ccda6640e7733181f647e919e7007fb8e6fdf21edae8ab9dea0beac54380.pdf"
+      ]
+    },
+    {
+      "path": "drawings/9397c2718cf7f7ebbbf311944f65b00d92508acb6b68a174abafec2c1be880da.dxf",
+      "stored": "library/assets/sha256/93/9397c2718cf7f7ebbbf311944f65b00d92508acb6b68a174abafec2c1be880da.dxf",
+      "sha256": "9397c2718cf7f7ebbbf311944f65b00d92508acb6b68a174abafec2c1be880da",
+      "originalReferences": [
+        "drawings/camera-adapters-r2/35-HQ-B_R2-TRIAL_MACHINING_EDITABLE_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/93/9397c2718cf7f7ebbbf311944f65b00d92508acb6b68a174abafec2c1be880da.dxf"
+      ]
+    },
+    {
       "path": "cad/ec4d55f077843837e239c4b525d3af75d804490d9764bef2ad9019b10289e3c7.step",
       "stored": "library/assets/sha256/ec/ec4d55f077843837e239c4b525d3af75d804490d9764bef2ad9019b10289e3c7.step",
       "sha256": "ec4d55f077843837e239c4b525d3af75d804490d9764bef2ad9019b10289e3c7",
@@ -11,6 +55,17 @@
       ],
       "sources": [
         "library/assets/sha256/ec/ec4d55f077843837e239c4b525d3af75d804490d9764bef2ad9019b10289e3c7.step"
+      ]
+    },
+    {
+      "path": "drawings/ef5a608dbe954bf063798fd1c0aa25089822439017330daa34cd88ac7ab84417.dxf",
+      "stored": "library/assets/sha256/ef/ef5a608dbe954bf063798fd1c0aa25089822439017330daa34cd88ac7ab84417.dxf",
+      "sha256": "ef5a608dbe954bf063798fd1c0aa25089822439017330daa34cd88ac7ab84417",
+      "originalReferences": [
+        "drawings/camera-adapters-r2/laser-marking/35-HQ-B_R2-TRIAL_Xplus_LASER_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/ef/ef5a608dbe954bf063798fd1c0aa25089822439017330daa34cd88ac7ab84417.dxf"
       ]
     }
   ],

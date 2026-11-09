@@ -3,6 +3,28 @@
   "packageId": "custom-obj-pt1m-ac-r3",
   "files": [
     {
+      "path": "drawings/100bbca2deb8a12a1ea837808bcb4e0d96d22785fa142626987e0b70ddac4ed6.pdf",
+      "stored": "library/assets/sha256/10/100bbca2deb8a12a1ea837808bcb4e0d96d22785fa142626987e0b70ddac4ed6.pdf",
+      "sha256": "100bbca2deb8a12a1ea837808bcb4e0d96d22785fa142626987e0b70ddac4ed6",
+      "originalReferences": [
+        "drawings/xbk-objectives-forward-r3/激光打标定位_审核.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/10/100bbca2deb8a12a1ea837808bcb4e0d96d22785fa142626987e0b70ddac4ed6.pdf"
+      ]
+    },
+    {
+      "path": "drawings/853e17ae933fecbe79da712ea9d6e053d55668775ce746a90ce675a4976a0b48.dxf",
+      "stored": "library/assets/sha256/85/853e17ae933fecbe79da712ea9d6e053d55668775ce746a90ce675a4976a0b48.dxf",
+      "sha256": "853e17ae933fecbe79da712ea9d6e053d55668775ce746a90ce675a4976a0b48",
+      "originalReferences": [
+        "drawings/xbk-objectives-forward-r3/OBJ-PT1M-AC-R3_激光_NEG_Y_1to1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/85/853e17ae933fecbe79da712ea9d6e053d55668775ce746a90ce675a4976a0b48.dxf"
+      ]
+    },
+    {
       "path": "cad/9b97aae51bf2fbd9e03974b6f87dabe042216deb69cb63977c918dd3b3015c51.step",
       "stored": "library/assets/sha256/9b/9b97aae51bf2fbd9e03974b6f87dabe042216deb69cb63977c918dd3b3015c51.step",
       "sha256": "9b97aae51bf2fbd9e03974b6f87dabe042216deb69cb63977c918dd3b3015c51",
@@ -11,6 +33,17 @@
       ],
       "sources": [
         "library/assets/sha256/9b/9b97aae51bf2fbd9e03974b6f87dabe042216deb69cb63977c918dd3b3015c51.step"
+      ]
+    },
+    {
+      "path": "drawings/e098abb9e553334c1fc15c299b74bc5186381aa60321b323215aa995d5546df1.pdf",
+      "stored": "library/assets/sha256/e0/e098abb9e553334c1fc15c299b74bc5186381aa60321b323215aa995d5546df1.pdf",
+      "sha256": "e098abb9e553334c1fc15c299b74bc5186381aa60321b323215aa995d5546df1",
+      "originalReferences": [
+        "drawings/xbk-objectives-forward-r3/OBJ-PT1M-AC-R3_加工审核图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/e0/e098abb9e553334c1fc15c299b74bc5186381aa60321b323215aa995d5546df1.pdf"
       ]
     }
   ],

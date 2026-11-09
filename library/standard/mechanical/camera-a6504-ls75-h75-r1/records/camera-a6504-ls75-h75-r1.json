@@ -2465,7 +2465,7 @@
     "stepPath": "step/camera-ls75-h75-r2/36-LS75-A_H75_R1_ASSEMBLY.step",
     "sourceStepSha256": "9ec8c67c3cac775dca29cd7a8a2151bf6e965b950d9e75714891b4068b485fb6",
     "sha256": "9ec8c67c3cac775dca29cd7a8a2151bf6e965b950d9e75714891b4068b485fb6",
-    "drawingPath": null,
+    "drawingPath": "drawings/camera-ls75-h75-r2/两相机_LS75_H75_R2_加工与装配审核.pdf",
     "sourceDrawingSha256": "14838a95a1f83e6492de3009aa60ded0aae8cc87f1e65465f398ee8f4779002e",
     "sourceExact": true,
     "includeInBundle": true,

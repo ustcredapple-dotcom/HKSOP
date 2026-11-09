@@ -3,6 +3,39 @@
   "packageId": "custom-motor-m2s-a-r2",
   "files": [
     {
+      "path": "drawings/095222213f2bc0d995650ba0f62da5d28da3aabbf0dd2f775028ad598188c76c.dxf",
+      "stored": "library/assets/sha256/09/095222213f2bc0d995650ba0f62da5d28da3aabbf0dd2f775028ad598188c76c.dxf",
+      "sha256": "095222213f2bc0d995650ba0f62da5d28da3aabbf0dd2f775028ad598188c76c",
+      "originalReferences": [
+        "drawings/motor-slot-split-r2/M2S-A.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/09/095222213f2bc0d995650ba0f62da5d28da3aabbf0dd2f775028ad598188c76c.dxf"
+      ]
+    },
+    {
+      "path": "drawings/42f65f90180d6ebef3726e9e0057027cb1787bc02348beb66363f1fa9db22cd0.pdf",
+      "stored": "library/assets/sha256/42/42f65f90180d6ebef3726e9e0057027cb1787bc02348beb66363f1fa9db22cd0.pdf",
+      "sha256": "42f65f90180d6ebef3726e9e0057027cb1787bc02348beb66363f1fa9db22cd0",
+      "originalReferences": [
+        "drawings/motor-slot-split-r2/V2style-2inch-M2S-r2-mechanical-review.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/42/42f65f90180d6ebef3726e9e0057027cb1787bc02348beb66363f1fa9db22cd0.pdf"
+      ]
+    },
+    {
+      "path": "drawings/5547e887480d60b734f86245f502f4dd3e8259986ed16516120dd8c81697d46b.pdf",
+      "stored": "library/assets/sha256/55/5547e887480d60b734f86245f502f4dd3e8259986ed16516120dd8c81697d46b.pdf",
+      "sha256": "5547e887480d60b734f86245f502f4dd3e8259986ed16516120dd8c81697d46b",
+      "originalReferences": [
+        "drawings/motor-slot-split-r2/M2S-A_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/55/5547e887480d60b734f86245f502f4dd3e8259986ed16516120dd8c81697d46b.pdf"
+      ]
+    },
+    {
       "path": "cad/7c6d9bf7b31a16f17d50b0f0b08f5384b61db3b9a23190af6982cd9ede5d07b1.step",
       "stored": "library/assets/sha256/7c/7c6d9bf7b31a16f17d50b0f0b08f5384b61db3b9a23190af6982cd9ede5d07b1.step",
       "sha256": "7c6d9bf7b31a16f17d50b0f0b08f5384b61db3b9a23190af6982cd9ede5d07b1",
@@ -11,6 +44,28 @@
       ],
       "sources": [
         "library/assets/sha256/7c/7c6d9bf7b31a16f17d50b0f0b08f5384b61db3b9a23190af6982cd9ede5d07b1.step"
+      ]
+    },
+    {
+      "path": "drawings/bdd836165b45a1b78aac4cdcbbf66f71c99857bc723f0aadd0973adb719a25b7.pdf",
+      "stored": "library/assets/sha256/bd/bdd836165b45a1b78aac4cdcbbf66f71c99857bc723f0aadd0973adb719a25b7.pdf",
+      "sha256": "bdd836165b45a1b78aac4cdcbbf66f71c99857bc723f0aadd0973adb719a25b7",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-motor-m2s-a-r2/编号面_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/bd/bdd836165b45a1b78aac4cdcbbf66f71c99857bc723f0aadd0973adb719a25b7.pdf"
+      ]
+    },
+    {
+      "path": "drawings/eb37eec9b39434d60dfe0b9620386fda7ce9d258561cf17c93d66b8e8910d42c.dxf",
+      "stored": "library/assets/sha256/eb/eb37eec9b39434d60dfe0b9620386fda7ce9d258561cf17c93d66b8e8910d42c.dxf",
+      "sha256": "eb37eec9b39434d60dfe0b9620386fda7ce9d258561cf17c93d66b8e8910d42c",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-motor-m2s-a-r2/编号面.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/eb/eb37eec9b39434d60dfe0b9620386fda7ce9d258561cf17c93d66b8e8910d42c.dxf"
       ]
     }
   ],

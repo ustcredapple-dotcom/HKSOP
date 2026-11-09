@@ -20,8 +20,8 @@
     "processDetails": "感光面按CS法兰后12.7593mm估算；此为可修正试制件，实际感光基准待实测确认。 竖壁三M3孔是间隙沉孔，螺纹位于原厂相机。 盲销孔标注为有效圆柱深；钻尖另计，不得贯穿。"
   },
   "stepPath": "step/metric-m1-20261006/20-CAM-CS_METRIC_M1.step",
-  "drawingPath": null,
-  "dxfPath": null,
+  "drawingPath": "drawings/metric-m1-20261006/20-CAM-CS_M1_加工工程图.pdf",
+  "dxfPath": "drawings/metric-m1-20261006/20-CAM-CS_M1_加工工程图.dxf",
   "manufacturingEvidence": {
     "sourcePackage": null,
     "sourceCode": "20-CAM-CS",
@@ -44,7 +44,7 @@
   },
   "sourceDrawingSha256": "40386f7ea346f1915047506760ac9ac99dfa9991b3391fbed13649f8f9aeab6d",
   "sourceDxfSha256": "1f4c7655a0660ce7d5bc5b5e7f7a59668e899eeeec355e8050081ef8fc9717c9",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/metric-m1-20261006/20-CAM-CS_M1_加工工程图_DXF.pdf",
   "dxfPdfSha256": "aed0d9a9482959e91587a297dd82fca7d741df2552dd22cebd748f95646bf6a9",
   "drawingPages": [
     1,
@@ -80,7 +80,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "20-CAM-CS",
+        "dxfPath": "drawings/laser-marking/new-r6-20-camera-cs-adapter/编号面_-Y.dxf",
+        "sha256": "32a5a6b8cc28d5f9b5a7565a7451310cc244452f9b20129b73114a6e61d7f501",
+        "setupPdfPath": "drawings/laser-marking/new-r6-20-camera-cs-adapter/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "4f8e6787e1d4282e1bf7f8bec492c912371238ac57923a175303e8c713e27493"
+      }
+    ]
   }
 }

@@ -3,6 +3,39 @@
   "packageId": "custom-mt-cube-adapter-2inch-m1-r2",
   "files": [
     {
+      "path": "drawings/073224a9e269f93def52a69d1446bb4913f5666a04455e15cccec3b02b0cd9a6.dxf",
+      "stored": "library/assets/sha256/07/073224a9e269f93def52a69d1446bb4913f5666a04455e15cccec3b02b0cd9a6.dxf",
+      "sha256": "073224a9e269f93def52a69d1446bb4913f5666a04455e15cccec3b02b0cd9a6",
+      "originalReferences": [
+        "drawings/laser-marking/custom-mt-cube-adapter-2inch-m1-r2/编号面_+X.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/07/073224a9e269f93def52a69d1446bb4913f5666a04455e15cccec3b02b0cd9a6.dxf"
+      ]
+    },
+    {
+      "path": "drawings/123eda73be94c481fc4c084bde0d49653f23275681e972e3027a8b56cb1b0d81.pdf",
+      "stored": "library/assets/sha256/12/123eda73be94c481fc4c084bde0d49653f23275681e972e3027a8b56cb1b0d81.pdf",
+      "sha256": "123eda73be94c481fc4c084bde0d49653f23275681e972e3027a8b56cb1b0d81",
+      "originalReferences": [
+        "drawings/laser-marking/custom-mt-cube-adapter-2inch-m1-r2/编号面_+X_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/12/123eda73be94c481fc4c084bde0d49653f23275681e972e3027a8b56cb1b0d81.pdf"
+      ]
+    },
+    {
+      "path": "drawings/254e903d0db6c705657a978862ffdc7413d5a8e7eecd0efd58d8b70d5c73d0e8.dxf",
+      "stored": "library/assets/sha256/25/254e903d0db6c705657a978862ffdc7413d5a8e7eecd0efd58d8b70d5c73d0e8.dxf",
+      "sha256": "254e903d0db6c705657a978862ffdc7413d5a8e7eecd0efd58d8b70d5c73d0e8",
+      "originalReferences": [
+        "drawings/mt-cube-size-family-r2/MCB-2R2-operations.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/25/254e903d0db6c705657a978862ffdc7413d5a8e7eecd0efd58d8b70d5c73d0e8.dxf"
+      ]
+    },
+    {
       "path": "cad/25ace3712449ba5e9e1fd6d6a2a780ed6c3978bd5fb09d6f1299af1acc87e83c.step",
       "stored": "library/assets/sha256/25/25ace3712449ba5e9e1fd6d6a2a780ed6c3978bd5fb09d6f1299af1acc87e83c.step",
       "sha256": "25ace3712449ba5e9e1fd6d6a2a780ed6c3978bd5fb09d6f1299af1acc87e83c",
@@ -11,6 +44,28 @@
       ],
       "sources": [
         "library/assets/sha256/25/25ace3712449ba5e9e1fd6d6a2a780ed6c3978bd5fb09d6f1299af1acc87e83c.step"
+      ]
+    },
+    {
+      "path": "drawings/55c9b5b0ea798dca51e357629322995178c6266281e353e297998ff1d3e364a1.pdf",
+      "stored": "library/assets/sha256/55/55c9b5b0ea798dca51e357629322995178c6266281e353e297998ff1d3e364a1.pdf",
+      "sha256": "55c9b5b0ea798dca51e357629322995178c6266281e353e297998ff1d3e364a1",
+      "originalReferences": [
+        "drawings/standard-post-h12p5-b4-r2/assemblies/MCB-2R2_B6_R1_安装及原加工图_H12p5B4R2.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/55/55c9b5b0ea798dca51e357629322995178c6266281e353e297998ff1d3e364a1.pdf"
+      ]
+    },
+    {
+      "path": "drawings/664cb78aee2417a3174a41885a7cf2f90f0efc060553f43dbcd22419dbae9b7e.pdf",
+      "stored": "library/assets/sha256/66/664cb78aee2417a3174a41885a7cf2f90f0efc060553f43dbcd22419dbae9b7e.pdf",
+      "sha256": "664cb78aee2417a3174a41885a7cf2f90f0efc060553f43dbcd22419dbae9b7e",
+      "originalReferences": [
+        "drawings/mt-cube-size-family-r2/MCB-2R2-operations_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/66/664cb78aee2417a3174a41885a7cf2f90f0efc060553f43dbcd22419dbae9b7e.pdf"
       ]
     }
   ],

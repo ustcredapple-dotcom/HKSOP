@@ -3,6 +3,61 @@
   "packageId": "custom-mcv2-r1",
   "files": [
     {
+      "path": "drawings/02b647683665a7aa2d057bf659617139ed45e779c59c22efff156a5edbbd9b67.pdf",
+      "stored": "library/assets/sha256/02/02b647683665a7aa2d057bf659617139ed45e779c59c22efff156a5edbbd9b67.pdf",
+      "sha256": "02b647683665a7aa2d057bf659617139ed45e779c59c22efff156a5edbbd9b67",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/1/MCV2-R1_激光打标_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/02/02b647683665a7aa2d057bf659617139ed45e779c59c22efff156a5edbbd9b67.pdf"
+      ]
+    },
+    {
+      "path": "drawings/0e2a0d8a939a2befc32007a07b92c8c2d34f3041d34a98d7c13d4b84317d7d49.dxf",
+      "stored": "library/assets/sha256/0e/0e2a0d8a939a2befc32007a07b92c8c2d34f3041d34a98d7c13d4b84317d7d49.dxf",
+      "sha256": "0e2a0d8a939a2befc32007a07b92c8c2d34f3041d34a98d7c13d4b84317d7d49",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/1/MCV2-R1_加工图_毫米.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/0e/0e2a0d8a939a2befc32007a07b92c8c2d34f3041d34a98d7c13d4b84317d7d49.dxf"
+      ]
+    },
+    {
+      "path": "drawings/37ef3a7b1c82f37050a94ffe90c8ad97e58942796a69e7540b416c2ef5a4b545.dxf",
+      "stored": "library/assets/sha256/37/37ef3a7b1c82f37050a94ffe90c8ad97e58942796a69e7540b416c2ef5a4b545.dxf",
+      "sha256": "37ef3a7b1c82f37050a94ffe90c8ad97e58942796a69e7540b416c2ef5a4b545",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/1/MCV2-R1_激光打标_1比1.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/37/37ef3a7b1c82f37050a94ffe90c8ad97e58942796a69e7540b416c2ef5a4b545.dxf"
+      ]
+    },
+    {
+      "path": "drawings/49ed3140921344c016ed2b9cbef413dc01bb0d4244efc353a457e04f9fba4048.pdf",
+      "stored": "library/assets/sha256/49/49ed3140921344c016ed2b9cbef413dc01bb0d4244efc353a457e04f9fba4048.pdf",
+      "sha256": "49ed3140921344c016ed2b9cbef413dc01bb0d4244efc353a457e04f9fba4048",
+      "originalReferences": [
+        "drawings/standard-post-h12p5-b4-r2/assemblies/MCV2-R1_加工与装配图_H12p5B4R2.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/49/49ed3140921344c016ed2b9cbef413dc01bb0d4244efc353a457e04f9fba4048.pdf"
+      ]
+    },
+    {
+      "path": "drawings/81aec2c1046d310e975e3261269489e2f19d92a5b9e22744ef5babe0261d0c33.pdf",
+      "stored": "library/assets/sha256/81/81aec2c1046d310e975e3261269489e2f19d92a5b9e22744ef5babe0261d0c33.pdf",
+      "sha256": "81aec2c1046d310e975e3261269489e2f19d92a5b9e22744ef5babe0261d0c33",
+      "originalReferences": [
+        "drawings/combined-r1-20261015/dxf-pdf/custom-mcv2-r1_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/81/81aec2c1046d310e975e3261269489e2f19d92a5b9e22744ef5babe0261d0c33.pdf"
+      ]
+    },
+    {
       "path": "cad/fad158ce4a7c87f7c96c4560fd893805c1c96c494e19f57d2240dd5886f5884f.step",
       "stored": "library/assets/sha256/fa/fad158ce4a7c87f7c96c4560fd893805c1c96c494e19f57d2240dd5886f5884f.step",
       "sha256": "fad158ce4a7c87f7c96c4560fd893805c1c96c494e19f57d2240dd5886f5884f",

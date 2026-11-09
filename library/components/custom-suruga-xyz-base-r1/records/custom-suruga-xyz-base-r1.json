@@ -7,8 +7,8 @@
   "revision": "R1",
   "sourceUrl": "",
   "stepPath": "step/suruga-xyz-r1/32-XYZ-B_R1.step",
-  "drawingPath": null,
-  "dxfPath": null,
+  "drawingPath": "drawings/suruga-xyz-r1/32-XYZ-B_R1_加工工程图.pdf",
+  "dxfPath": "drawings/suruga-xyz-r1/32-XYZ-B_R1_加工工程图.dxf",
   "drawingPages": [
     1,
     2,
@@ -34,7 +34,7 @@
   "productionReady": false,
   "status": "名义 CAD 几何与接口已核验；加工审核版",
   "notes": "本次定制板；STEP/PDF/DXF 和孔表绑定同修订。实装、承载及工艺批准未由软件校验代替。",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/suruga-xyz-r1/32-XYZ-B_R1_加工工程图_DXF.pdf",
   "dxfPdfSha256": "aed07943abf2ecae407ab2b944bd6b926685f0d7e058e8e517141b1893f2433d",
   "drawingAnnotationEvidence": {
     "/drawingPath": {
@@ -65,7 +65,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "32-XYZ-B",
+        "dxfPath": "drawings/laser-marking/custom-suruga-xyz-base-r1/编号面_-Y.dxf",
+        "sha256": "27f0bab58058841ad6a92c7b8daed66be91b21edd44fb080ee38107283a25ec5",
+        "setupPdfPath": "drawings/laser-marking/custom-suruga-xyz-base-r1/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "aaebcc09e0256c18dafaeb5b843e3866fb150c4ee3039514e8c5cca55e662ee0"
+      }
+    ]
   }
 }

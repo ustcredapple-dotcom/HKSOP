@@ -24,7 +24,7 @@
   "laserMarking": {
     "status": "required",
     "reason": "源设计预留编号TXP75-R5",
-    "notes": "原包未提供DXF及定位PDF；不做铣刻 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
+    "notes": "原包未提供DXF及定位PDF；不做铣刻",
     "files": []
   },
   "notes": "原包明确未出加工工程图。不可据此放行加工；不得沿用旧板图。"

@@ -14,6 +14,17 @@
       ]
     },
     {
+      "path": "drawings/5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60.pdf",
+      "stored": "library/assets/sha256/50/5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60.pdf",
+      "sha256": "5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60",
+      "originalReferences": [
+        "drawings/xbk-lateral-fixed-r4/XBK_R4_横向三档及物镜右移_审核图册_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/50/5029ae2548bf0feca10d7a2846cc3e39fe35eca91c249dd085f22cf3c9efea60.pdf"
+      ]
+    },
+    {
       "path": "cad/933482b216cac4ac905adfd11696aedde43a499c71c91dbb27aa7209d14582cf.step",
       "stored": "library/assets/sha256/93/933482b216cac4ac905adfd11696aedde43a499c71c91dbb27aa7209d14582cf.step",
       "sha256": "933482b216cac4ac905adfd11696aedde43a499c71c91dbb27aa7209d14582cf",

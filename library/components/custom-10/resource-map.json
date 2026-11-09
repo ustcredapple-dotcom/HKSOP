@@ -12,6 +12,50 @@
       "sources": [
         "library/assets/sha256/25/25d6d459b07568db8f5ab438ed7f6ceef13d980ebd1ffc41acac3d24a7b706ac.step"
       ]
+    },
+    {
+      "path": "drawings/88ed4eded4c42c0d2f021dc571a76ab455d6c222af4c142c6d039b97757957b8.pdf",
+      "stored": "library/assets/sha256/88/88ed4eded4c42c0d2f021dc571a76ab455d6c222af4c142c6d039b97757957b8.pdf",
+      "sha256": "88ed4eded4c42c0d2f021dc571a76ab455d6c222af4c142c6d039b97757957b8",
+      "originalReferences": [
+        "drawings/06_可调节反射镜/10_可调反射镜_1inch_加工审核图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/88/88ed4eded4c42c0d2f021dc571a76ab455d6c222af4c142c6d039b97757957b8.pdf"
+      ]
+    },
+    {
+      "path": "drawings/89479cb068502e76a9c1772d736c692cff368ddb55866e524dfdaff4d99dd6d2.pdf",
+      "stored": "library/assets/sha256/89/89479cb068502e76a9c1772d736c692cff368ddb55866e524dfdaff4d99dd6d2.pdf",
+      "sha256": "89479cb068502e76a9c1772d736c692cff368ddb55866e524dfdaff4d99dd6d2",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-10/编号面_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/89/89479cb068502e76a9c1772d736c692cff368ddb55866e524dfdaff4d99dd6d2.pdf"
+      ]
+    },
+    {
+      "path": "drawings/8f43c2ecd26dfd18727334e39514ec33c98b8a0fb088dc292ece29d774bde676.pdf",
+      "stored": "library/assets/sha256/8f/8f43c2ecd26dfd18727334e39514ec33c98b8a0fb088dc292ece29d774bde676.pdf",
+      "sha256": "8f43c2ecd26dfd18727334e39514ec33c98b8a0fb088dc292ece29d774bde676",
+      "originalReferences": [
+        "drawings/original-metric-m1-20261006/custom-10_M1_公制加工审核图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/8f/8f43c2ecd26dfd18727334e39514ec33c98b8a0fb088dc292ece29d774bde676.pdf"
+      ]
+    },
+    {
+      "path": "drawings/bb8792fa1d04b8e84464626509bcc5d3607ff674fdf506ed2f1b437fcf64585a.dxf",
+      "stored": "library/assets/sha256/bb/bb8792fa1d04b8e84464626509bcc5d3607ff674fdf506ed2f1b437fcf64585a.dxf",
+      "sha256": "bb8792fa1d04b8e84464626509bcc5d3607ff674fdf506ed2f1b437fcf64585a",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-10/编号面.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/bb/bb8792fa1d04b8e84464626509bcc5d3607ff674fdf506ed2f1b437fcf64585a.dxf"
+      ]
     }
   ],
   "dependencies": []

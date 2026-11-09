@@ -16,14 +16,14 @@
   "notes": null,
   "stepPath": "step/manual-stage-r2-a7075/LS30-B.step",
   "sourceStepSha256": "d089f410fd8027ffffa46459fe04f07a0d6621fa3de00531b694e857195e13fe",
-  "drawingPath": null,
+  "drawingPath": "drawings/manual-stage-r2-a7075/LS30_R2-A7075_上下转接板工程图与安装说明.pdf",
   "sourceDrawingSha256": "c155e32a8fd5bf394a0fe0aa93955baa5a8f232cb6ee24dec76ed915fb86f54c",
   "drawingPages": [
     4,
     5,
     6
   ],
-  "dxfPath": null,
+  "dxfPath": "drawings/manual-stage-r2-a7075/LS30-B.dxf",
   "sourceDxfSha256": "e6a285c22be76d4f6f1d318640187d27ee3364c2ee8f907a0d296536ae29a9c2",
   "manufacturingEvidence": {
     "geometryRevision": "R1",
@@ -64,7 +64,7 @@
       }
     ]
   },
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/manual-stage-r2-a7075/LS30-B_DXF.pdf",
   "dxfPdfSha256": "ebbc2262d60d21c80ff2989f1b9143df457b0293ed4121ee17e82a13b47c19f5",
   "drawingAnnotationEvidence": {
     "/drawingPath": {
@@ -96,7 +96,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "LS30-B",
+        "dxfPath": "drawings/laser-marking/LS30-B/编号面_-Y.dxf",
+        "sha256": "fff7fe1b3643b8c7753318a1d41c856457ebe26234de25f6571907fba9bfea61",
+        "setupPdfPath": "drawings/laser-marking/LS30-B/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "241da1141075f95e068b83934d887036df5364f92831b7a783b46919198ccad4"
+      }
+    ]
   }
 }

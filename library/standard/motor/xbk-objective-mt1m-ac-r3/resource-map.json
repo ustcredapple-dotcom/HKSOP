@@ -14,6 +14,17 @@
       ]
     },
     {
+      "path": "drawings/acff68e3f1457a9c59bea72dca484703c20a9e71fbfe12e4039755ea945024ae.pdf",
+      "stored": "library/assets/sha256/ac/acff68e3f1457a9c59bea72dca484703c20a9e71fbfe12e4039755ea945024ae.pdf",
+      "sha256": "acff68e3f1457a9c59bea72dca484703c20a9e71fbfe12e4039755ea945024ae",
+      "originalReferences": [
+        "drawings/xbk-objectives-forward-r3/XBK_R3_前伸总装审核图册_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/ac/acff68e3f1457a9c59bea72dca484703c20a9e71fbfe12e4039755ea945024ae.pdf"
+      ]
+    },
+    {
       "path": "cad/ca489255a906c4bb0b1d45d7cb32e97c71caf8d7116389502e162a2450198aba.step",
       "stored": "library/assets/sha256/ca/ca489255a906c4bb0b1d45d7cb32e97c71caf8d7116389502e162a2450198aba.step",
       "sha256": "ca489255a906c4bb0b1d45d7cb32e97c71caf8d7116389502e162a2450198aba",

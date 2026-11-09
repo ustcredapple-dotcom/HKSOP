@@ -3,6 +3,28 @@
   "packageId": "custom-11",
   "files": [
     {
+      "path": "drawings/59489bde8648d8ea0f2f68f5bfcf51d0e36e2eed65c384deaa980c5bb63d8836.pdf",
+      "stored": "library/assets/sha256/59/59489bde8648d8ea0f2f68f5bfcf51d0e36e2eed65c384deaa980c5bb63d8836.pdf",
+      "sha256": "59489bde8648d8ea0f2f68f5bfcf51d0e36e2eed65c384deaa980c5bb63d8836",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-11/编号面_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/59/59489bde8648d8ea0f2f68f5bfcf51d0e36e2eed65c384deaa980c5bb63d8836.pdf"
+      ]
+    },
+    {
+      "path": "drawings/9c939817838450f629541c2cdec731da0635bd8d752955f62e31501e35f792b8.pdf",
+      "stored": "library/assets/sha256/9c/9c939817838450f629541c2cdec731da0635bd8d752955f62e31501e35f792b8.pdf",
+      "sha256": "9c939817838450f629541c2cdec731da0635bd8d752955f62e31501e35f792b8",
+      "originalReferences": [
+        "drawings/06_可调节反射镜/11_可调反射镜_0.5inch_电动_加工审核图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/9c/9c939817838450f629541c2cdec731da0635bd8d752955f62e31501e35f792b8.pdf"
+      ]
+    },
+    {
       "path": "cad/9e0cce088237f01744e69a152385cdc72e87378a5d90b49f876e4ff6fa29daee.step",
       "stored": "library/assets/sha256/9e/9e0cce088237f01744e69a152385cdc72e87378a5d90b49f876e4ff6fa29daee.step",
       "sha256": "9e0cce088237f01744e69a152385cdc72e87378a5d90b49f876e4ff6fa29daee",
@@ -11,6 +33,28 @@
       ],
       "sources": [
         "library/assets/sha256/9e/9e0cce088237f01744e69a152385cdc72e87378a5d90b49f876e4ff6fa29daee.step"
+      ]
+    },
+    {
+      "path": "drawings/a0d52ba4dc21ab6cb0fa3ccbfc9df231b9df271c7f6f59ebbaaec1b4b2a1ab03.pdf",
+      "stored": "library/assets/sha256/a0/a0d52ba4dc21ab6cb0fa3ccbfc9df231b9df271c7f6f59ebbaaec1b4b2a1ab03.pdf",
+      "sha256": "a0d52ba4dc21ab6cb0fa3ccbfc9df231b9df271c7f6f59ebbaaec1b4b2a1ab03",
+      "originalReferences": [
+        "drawings/original-metric-m1-20261006/custom-11_M1_公制加工审核图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/a0/a0d52ba4dc21ab6cb0fa3ccbfc9df231b9df271c7f6f59ebbaaec1b4b2a1ab03.pdf"
+      ]
+    },
+    {
+      "path": "drawings/c467f895bf0aad40340a20b56618aa5f9b29881fb95ad8f0ca4b495c6d11de5f.dxf",
+      "stored": "library/assets/sha256/c4/c467f895bf0aad40340a20b56618aa5f9b29881fb95ad8f0ca4b495c6d11de5f.dxf",
+      "sha256": "c467f895bf0aad40340a20b56618aa5f9b29881fb95ad8f0ca4b495c6d11de5f",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-11/编号面.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/c4/c467f895bf0aad40340a20b56618aa5f9b29881fb95ad8f0ca4b495c6d11de5f.dxf"
       ]
     }
   ],

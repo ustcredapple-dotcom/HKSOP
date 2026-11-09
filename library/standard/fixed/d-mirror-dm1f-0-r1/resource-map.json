@@ -23,6 +23,17 @@
       "sources": [
         "library/assets/sha256/9c/9c4a0232719e1b7fc5544ae65ef6f48b5d2cd1370cbce073a32126ca9af97375.svg"
       ]
+    },
+    {
+      "path": "drawings/dd0afdf1a4f8c69c03bde9dfd71adc3cecb29968d4331948c06d51a9c9835a66.pdf",
+      "stored": "library/assets/sha256/dd/dd0afdf1a4f8c69c03bde9dfd71adc3cecb29968d4331948c06d51a9c9835a66.pdf",
+      "sha256": "dd0afdf1a4f8c69c03bde9dfd71adc3cecb29968d4331948c06d51a9c9835a66",
+      "originalReferences": [
+        "drawings/dm1f-r1/DM1F-R1_装配说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/dd/dd0afdf1a4f8c69c03bde9dfd71adc3cecb29968d4331948c06d51a9c9835a66.pdf"
+      ]
     }
   ],
   "dependencies": [

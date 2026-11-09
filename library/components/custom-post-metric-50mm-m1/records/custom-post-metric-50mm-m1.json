@@ -8,7 +8,7 @@
   "notes": "B6 R1：标称总高50 mm保持，含6 mm底座；底座35×35×6；Ø25柱身露出44 mm；4×Ø6.4贯穿底座，25×25孔距保持。顶中心M4×0.70深12、底中心M6×1深12；2×偏置M4深8、4×Ø2.01定位孔圆柱深4.2。底面、顶面、孔轴与钻尖保持原位置；只在原底座上表面增加2 mm材料。316L退磁、喷砂；激光打标，不铣刻。螺纹等级待确认；未实物试装或加工放行。",
   "sourceUrl": "https://cad.onshape.com/documents/894af481abaf8644d053faa3/v/04f8ec309a2623b8b9552173/e/32849336ffba609abc4e5a1c",
   "stepPath": "step/universal-post-b6-r1/万能柱_H50mm_B6_R1.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/universal-post-b6-r1/万能柱_H50mm_B6_R1_加工审核图.pdf",
   "manufacturingSpec": {
     "material": "316L 不锈钢",
     "surfaceTreatment": "退磁、喷砂",
@@ -66,8 +66,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "B6 R1新制柱底侧面标明柱高、型号系列与修订，区别4 mm旧版。",
-    "notes": "激光打标，不铣刻；配套1:1字形DXF和独立定位PDF；设备参数及首件工艺待试样，不重复打标已有同标识实物。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；配套1:1字形DXF和独立定位PDF；设备参数及首件工艺待试样，不重复打标已有同标识实物。",
+    "files": [
+      {
+        "face": "底板外侧编号面",
+        "text": "H50 B6R1 / ZZPOST",
+        "dxfPath": "drawings/laser-marking/post-b6-r1/custom-post-metric-50mm-m1/custom-post-metric-50mm-m1_B6R1_side_laser.dxf",
+        "sha256": "4921107f5b1bb22e76f5e84fe74a7d7d369dd0cb149db34ac6b5df6e8c837fc1",
+        "setupPdfPath": "drawings/laser-marking/post-b6-r1/custom-post-metric-50mm-m1/custom-post-metric-50mm-m1_B6R1_side_laser_setup.pdf",
+        "setupPdfSha256": "bb32a061e31f81f014f751fa285e31f5ea48b3750151abd463b647aec498af18"
+      }
+    ]
   },
   "mechanicalInterface": {
     "baseThicknessMm": 6,

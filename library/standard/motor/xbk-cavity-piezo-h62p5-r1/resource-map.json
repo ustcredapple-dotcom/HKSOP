@@ -3,6 +3,17 @@
   "packageId": "xbk-cavity-piezo-h62p5-r1",
   "files": [
     {
+      "path": "drawings/13d5e5e4548ef7c46c5bca059e56e067dae1736d30a7632931929c6d563bdc41.pdf",
+      "stored": "library/assets/sha256/13/13d5e5e4548ef7c46c5bca059e56e067dae1736d30a7632931929c6d563bdc41.pdf",
+      "sha256": "13d5e5e4548ef7c46c5bca059e56e067dae1736d30a7632931929c6d563bdc41",
+      "originalReferences": [
+        "drawings/xbk-cavity-piezo-h62p5-r1/XBK_Cavity_H62p5_R1_审核图册_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/13/13d5e5e4548ef7c46c5bca059e56e067dae1736d30a7632931929c6d563bdc41.pdf"
+      ]
+    },
+    {
       "path": "cad/90b433a35565b78bb88fab77a0f3ead2db214cb9754a331d1022b0be23cff658.step",
       "stored": "library/assets/sha256/90/90b433a35565b78bb88fab77a0f3ead2db214cb9754a331d1022b0be23cff658.step",
       "sha256": "90b433a35565b78bb88fab77a0f3ead2db214cb9754a331d1022b0be23cff658",

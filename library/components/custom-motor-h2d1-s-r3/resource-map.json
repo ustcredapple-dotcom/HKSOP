@@ -12,6 +12,61 @@
       "sources": [
         "library/assets/sha256/01/01185595ca28e0111383359eeb35895a4ae26905c33ce6f86c1a3c133721eff3.step"
       ]
+    },
+    {
+      "path": "drawings/073eeac567dfd290990bee5e5a4112ae0bcc4a852562d243697335f8b2a96b69.pdf",
+      "stored": "library/assets/sha256/07/073eeac567dfd290990bee5e5a4112ae0bcc4a852562d243697335f8b2a96b69.pdf",
+      "sha256": "073eeac567dfd290990bee5e5a4112ae0bcc4a852562d243697335f8b2a96b69",
+      "originalReferences": [
+        "drawings/motor-h2-compact-support-r3/H2D1-S_R3_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/07/073eeac567dfd290990bee5e5a4112ae0bcc4a852562d243697335f8b2a96b69.pdf"
+      ]
+    },
+    {
+      "path": "drawings/17523dbf7ee9c00c4936371768f990f782256d5272df33a3433ec210634ee73d.dxf",
+      "stored": "library/assets/sha256/17/17523dbf7ee9c00c4936371768f990f782256d5272df33a3433ec210634ee73d.dxf",
+      "sha256": "17523dbf7ee9c00c4936371768f990f782256d5272df33a3433ec210634ee73d",
+      "originalReferences": [
+        "drawings/laser-marking/custom-motor-h2d1-s-r3/编号面_+X.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/17/17523dbf7ee9c00c4936371768f990f782256d5272df33a3433ec210634ee73d.dxf"
+      ]
+    },
+    {
+      "path": "drawings/20038da4007a4d139ee5d9e722e10ed77f105277079e03d98c964f973e502c7d.pdf",
+      "stored": "library/assets/sha256/20/20038da4007a4d139ee5d9e722e10ed77f105277079e03d98c964f973e502c7d.pdf",
+      "sha256": "20038da4007a4d139ee5d9e722e10ed77f105277079e03d98c964f973e502c7d",
+      "originalReferences": [
+        "drawings/laser-marking/custom-motor-h2d1-s-r3/编号面_+X_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/20/20038da4007a4d139ee5d9e722e10ed77f105277079e03d98c964f973e502c7d.pdf"
+      ]
+    },
+    {
+      "path": "drawings/583ea2d381df69eba57a8c4af31efa31832fe1cf718c781e1efc75d6cdf459d4.dxf",
+      "stored": "library/assets/sha256/58/583ea2d381df69eba57a8c4af31efa31832fe1cf718c781e1efc75d6cdf459d4.dxf",
+      "sha256": "583ea2d381df69eba57a8c4af31efa31832fe1cf718c781e1efc75d6cdf459d4",
+      "originalReferences": [
+        "drawings/motor-h2-compact-support-r3/H2D1-S_R3.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/58/583ea2d381df69eba57a8c4af31efa31832fe1cf718c781e1efc75d6cdf459d4.dxf"
+      ]
+    },
+    {
+      "path": "drawings/b335c34e82abd2e21af4971a2aecdd16671dba90a533a5f94bb7349a979bf367.pdf",
+      "stored": "library/assets/sha256/b3/b335c34e82abd2e21af4971a2aecdd16671dba90a533a5f94bb7349a979bf367.pdf",
+      "sha256": "b335c34e82abd2e21af4971a2aecdd16671dba90a533a5f94bb7349a979bf367",
+      "originalReferences": [
+        "drawings/motor-h2-compact-support-r3/motor-1-90-h2-compact-support-r3-manufacturing-review.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/b3/b335c34e82abd2e21af4971a2aecdd16671dba90a533a5f94bb7349a979bf367.pdf"
+      ]
     }
   ],
   "dependencies": []

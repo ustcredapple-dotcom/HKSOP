@@ -3,6 +3,28 @@
   "packageId": "thorlabs-pt1m-purchased-stage",
   "files": [
     {
+      "path": "drawings/397bf4d45ba1e885052887ea2d0e29f3fc53b96c20d98fe8e3f6470a16d96adb.dxf",
+      "stored": "library/assets/sha256/39/397bf4d45ba1e885052887ea2d0e29f3fc53b96c20d98fe8e3f6470a16d96adb.dxf",
+      "sha256": "397bf4d45ba1e885052887ea2d0e29f3fc53b96c20d98fe8e3f6470a16d96adb",
+      "originalReferences": [
+        "drawings/manual-stage-r1-a7075/vendor/thorlabs-pt1m-purchased-stage/2864-E0W.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/39/397bf4d45ba1e885052887ea2d0e29f3fc53b96c20d98fe8e3f6470a16d96adb.dxf"
+      ]
+    },
+    {
+      "path": "drawings/6704d053ee2b4753bc70de05c4c46ad8497b82c808754d3869052fcb3595770a.pdf",
+      "stored": "library/assets/sha256/67/6704d053ee2b4753bc70de05c4c46ad8497b82c808754d3869052fcb3595770a.pdf",
+      "sha256": "6704d053ee2b4753bc70de05c4c46ad8497b82c808754d3869052fcb3595770a",
+      "originalReferences": [
+        "drawings/manual-stage-r1-a7075/vendor/thorlabs-pt1m-purchased-stage/2864-E0W_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/67/6704d053ee2b4753bc70de05c4c46ad8497b82c808754d3869052fcb3595770a.pdf"
+      ]
+    },
+    {
       "path": "cad/a79d2e37803e5f287a693332e9dca5f5fd824560a2fed65273705b75c69e2338.step",
       "stored": "library/assets/sha256/a7/a79d2e37803e5f287a693332e9dca5f5fd824560a2fed65273705b75c69e2338.step",
       "sha256": "a79d2e37803e5f287a693332e9dca5f5fd824560a2fed65273705b75c69e2338",
@@ -11,6 +33,17 @@
       ],
       "sources": [
         "library/assets/sha256/a7/a79d2e37803e5f287a693332e9dca5f5fd824560a2fed65273705b75c69e2338.step"
+      ]
+    },
+    {
+      "path": "drawings/f00f014074b9ea9259d44f8d4e1c5b38d1322faef7f0a6c1b06eebc0550bb5f0.pdf",
+      "stored": "library/assets/sha256/f0/f00f014074b9ea9259d44f8d4e1c5b38d1322faef7f0a6c1b06eebc0550bb5f0.pdf",
+      "sha256": "f00f014074b9ea9259d44f8d4e1c5b38d1322faef7f0a6c1b06eebc0550bb5f0",
+      "originalReferences": [
+        "drawings/manual-stage-r1-a7075/vendor/thorlabs-pt1m-purchased-stage/2864-E0W.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/f0/f00f014074b9ea9259d44f8d4e1c5b38d1322faef7f0a6c1b06eebc0550bb5f0.pdf"
       ]
     }
   ],

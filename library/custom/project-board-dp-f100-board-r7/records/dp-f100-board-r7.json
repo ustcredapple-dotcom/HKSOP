@@ -1531,7 +1531,7 @@
   "minimumAlignedMountingHoles": 4,
   "topViewPath": "static/topviews/7a4d3851d15fc91f48bcb0ad2b8e36f05251fc0deff1dc3166b5474527478c1d.svg",
   "stepPath": "sha256/25/25aa1fdec59f4cef7759138945a8026dcf7e887d2e2d9186d2ed563039f36cbc.step",
-  "drawingPath": null,
+  "drawingPath": "sha256/e0/e0e5bd276003a652e8b23f2c40dce01a3807fbcb8b915d614bdbc7946eb43cd2.pdf",
   "material": "6061 铝合金",
   "surfaceTreatment": "黑色阳极氧化",
   "status": "本地加工审核版",

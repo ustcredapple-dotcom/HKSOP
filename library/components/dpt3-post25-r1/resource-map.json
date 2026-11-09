@@ -3,6 +3,39 @@
   "packageId": "dpt3-post25-r1",
   "files": [
     {
+      "path": "drawings/3b84b77c18b1c4d4d943d70885660337fcbd1ad2582fe641334cc62b148f4723.dxf",
+      "stored": "library/assets/sha256/3b/3b84b77c18b1c4d4d943d70885660337fcbd1ad2582fe641334cc62b148f4723.dxf",
+      "sha256": "3b84b77c18b1c4d4d943d70885660337fcbd1ad2582fe641334cc62b148f4723",
+      "originalReferences": [
+        "drawings/dipole-trap3-r1/DPT3-M25-R1_ID.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/3b/3b84b77c18b1c4d4d943d70885660337fcbd1ad2582fe641334cc62b148f4723.dxf"
+      ]
+    },
+    {
+      "path": "drawings/9a15d05d63ad0ea8b8605e876081fce71e8363de2befc8de9eeac4ce638a466f.dxf",
+      "stored": "library/assets/sha256/9a/9a15d05d63ad0ea8b8605e876081fce71e8363de2befc8de9eeac4ce638a466f.dxf",
+      "sha256": "9a15d05d63ad0ea8b8605e876081fce71e8363de2befc8de9eeac4ce638a466f",
+      "originalReferences": [
+        "drawings/dipole-trap3-r1/DPT3-M25-R1_NAME.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/9a/9a15d05d63ad0ea8b8605e876081fce71e8363de2befc8de9eeac4ce638a466f.dxf"
+      ]
+    },
+    {
+      "path": "drawings/c9e6828db4d0d51ca782ee79a2f3a9cf24daea2fca0cbf9c60d7fd6ef8f2a915.pdf",
+      "stored": "library/assets/sha256/c9/c9e6828db4d0d51ca782ee79a2f3a9cf24daea2fca0cbf9c60d7fd6ef8f2a915.pdf",
+      "sha256": "c9e6828db4d0d51ca782ee79a2f3a9cf24daea2fca0cbf9c60d7fd6ef8f2a915",
+      "originalReferences": [
+        "drawings/dipole-trap3-r1/DPT3_R1_加工安装图册_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/c9/c9e6828db4d0d51ca782ee79a2f3a9cf24daea2fca0cbf9c60d7fd6ef8f2a915.pdf"
+      ]
+    },
+    {
       "path": "cad/f7be40e94bf1d9cb018f2a837fb2932b9957ecc3fd0357dd8d71a7723177b5f1.step",
       "stored": "library/assets/sha256/f7/f7be40e94bf1d9cb018f2a837fb2932b9957ecc3fd0357dd8d71a7723177b5f1.step",
       "sha256": "f7be40e94bf1d9cb018f2a837fb2932b9957ecc3fd0357dd8d71a7723177b5f1",

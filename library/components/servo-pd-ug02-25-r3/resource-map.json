@@ -3,6 +3,39 @@
   "packageId": "servo-pd-ug02-25-r3",
   "files": [
     {
+      "path": "drawings/03a65614220ad9f29f50c1ef6cf74f522b6ba98685ec8a9e487c38687eab2912.pdf",
+      "stored": "library/assets/sha256/03/03a65614220ad9f29f50c1ef6cf74f522b6ba98685ec8a9e487c38687eab2912.pdf",
+      "sha256": "03a65614220ad9f29f50c1ef6cf74f522b6ba98685ec8a9e487c38687eab2912",
+      "originalReferences": [
+        "drawings/servo-pd-bilateral-r3/dxf-pdf/servo-pd-ug02-25-r3_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/03/03a65614220ad9f29f50c1ef6cf74f522b6ba98685ec8a9e487c38687eab2912.pdf"
+      ]
+    },
+    {
+      "path": "drawings/1d45e3b604eb35e39021bd514df18821b5a01c83b2d18aae2d3af35c06c1e5f2.dxf",
+      "stored": "library/assets/sha256/1d/1d45e3b604eb35e39021bd514df18821b5a01c83b2d18aae2d3af35c06c1e5f2.dxf",
+      "sha256": "1d45e3b604eb35e39021bd514df18821b5a01c83b2d18aae2d3af35c06c1e5f2",
+      "originalReferences": [
+        "drawings/servo-pd-bilateral-r3/laser-marking/UG02-25-R3/UG02-25-R3_编号面.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/1d/1d45e3b604eb35e39021bd514df18821b5a01c83b2d18aae2d3af35c06c1e5f2.dxf"
+      ]
+    },
+    {
+      "path": "drawings/34d1872dfc3d85852ff39b5571bf8aa72e2425ac375a26a746feb1a77b48d864.pdf",
+      "stored": "library/assets/sha256/34/34d1872dfc3d85852ff39b5571bf8aa72e2425ac375a26a746feb1a77b48d864.pdf",
+      "sha256": "34d1872dfc3d85852ff39b5571bf8aa72e2425ac375a26a746feb1a77b48d864",
+      "originalReferences": [
+        "drawings/servo-pd-bilateral-r3/UG02-25-R3_加工工程图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/34/34d1872dfc3d85852ff39b5571bf8aa72e2425ac375a26a746feb1a77b48d864.pdf"
+      ]
+    },
+    {
       "path": "cad/50692df06ca713e14b29bca8d90b66534b71700c3049f1a1d52191fc5726fc4e.step",
       "stored": "library/assets/sha256/50/50692df06ca713e14b29bca8d90b66534b71700c3049f1a1d52191fc5726fc4e.step",
       "sha256": "50692df06ca713e14b29bca8d90b66534b71700c3049f1a1d52191fc5726fc4e",
@@ -11,6 +44,39 @@
       ],
       "sources": [
         "library/assets/sha256/50/50692df06ca713e14b29bca8d90b66534b71700c3049f1a1d52191fc5726fc4e.step"
+      ]
+    },
+    {
+      "path": "drawings/7a51abcedb310bdd273255d69d5080b74fe74d52db820445cf0ce064fce5a27f.dxf",
+      "stored": "library/assets/sha256/7a/7a51abcedb310bdd273255d69d5080b74fe74d52db820445cf0ce064fce5a27f.dxf",
+      "sha256": "7a51abcedb310bdd273255d69d5080b74fe74d52db820445cf0ce064fce5a27f",
+      "originalReferences": [
+        "drawings/servo-pd-bilateral-r3/UG02-25-R3_标准_可编辑尺寸_复核排版_TN1_20261026.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/7a/7a51abcedb310bdd273255d69d5080b74fe74d52db820445cf0ce064fce5a27f.dxf"
+      ]
+    },
+    {
+      "path": "drawings/a7b1dd915bde1950e48c4f85b194334d1897d52eb29b79828f73a6034a4f5b82.pdf",
+      "stored": "library/assets/sha256/a7/a7b1dd915bde1950e48c4f85b194334d1897d52eb29b79828f73a6034a4f5b82.pdf",
+      "sha256": "a7b1dd915bde1950e48c4f85b194334d1897d52eb29b79828f73a6034a4f5b82",
+      "originalReferences": [
+        "drawings/servo-pd-bilateral-r3/laser-marking/UG02-25-R3/UG02-25-R3_编号面_定位.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/a7/a7b1dd915bde1950e48c4f85b194334d1897d52eb29b79828f73a6034a4f5b82.pdf"
+      ]
+    },
+    {
+      "path": "drawings/cfa040f539e41898c26e26b1f297ce960b48ac377f3788ea8dde429a851a1c36.dxf",
+      "stored": "library/assets/sha256/cf/cfa040f539e41898c26e26b1f297ce960b48ac377f3788ea8dde429a851a1c36.dxf",
+      "sha256": "cfa040f539e41898c26e26b1f297ce960b48ac377f3788ea8dde429a851a1c36",
+      "originalReferences": [
+        "drawings/servo-pd-bilateral-r3/UG02-25-R3_标准_可编辑尺寸_TN1_20261026.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/cf/cfa040f539e41898c26e26b1f297ce960b48ac377f3788ea8dde429a851a1c36.dxf"
       ]
     }
   ],

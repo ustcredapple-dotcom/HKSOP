@@ -3,6 +3,61 @@
   "packageId": "LS30-B-R3",
   "files": [
     {
+      "path": "drawings/0a378cd8e9a59ca559081e733486bb68c467dc449360bd075e48cd571f06633e.pdf",
+      "stored": "library/assets/sha256/0a/0a378cd8e9a59ca559081e733486bb68c467dc449360bd075e48cd571f06633e.pdf",
+      "sha256": "0a378cd8e9a59ca559081e733486bb68c467dc449360bd075e48cd571f06633e",
+      "originalReferences": [
+        "drawings/laser-marking/LS30-B-R3/编号面_-Y_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/0a/0a378cd8e9a59ca559081e733486bb68c467dc449360bd075e48cd571f06633e.pdf"
+      ]
+    },
+    {
+      "path": "drawings/9a9867e5d077e1a1b8f0a4539e88b386fd30e1ef6e394751ad3b3e11855094a0.pdf",
+      "stored": "library/assets/sha256/9a/9a9867e5d077e1a1b8f0a4539e88b386fd30e1ef6e394751ad3b3e11855094a0.pdf",
+      "sha256": "9a9867e5d077e1a1b8f0a4539e88b386fd30e1ef6e394751ad3b3e11855094a0",
+      "originalReferences": [
+        "drawings/manual-stage-r3-table-mount/LS30-B_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/9a/9a9867e5d077e1a1b8f0a4539e88b386fd30e1ef6e394751ad3b3e11855094a0.pdf"
+      ]
+    },
+    {
+      "path": "drawings/a10da4ceaa8d0aa7a4c26fc1326eb16daa2dea3bfdbe6d5d26604df8dbae87ff.pdf",
+      "stored": "library/assets/sha256/a1/a10da4ceaa8d0aa7a4c26fc1326eb16daa2dea3bfdbe6d5d26604df8dbae87ff.pdf",
+      "sha256": "a10da4ceaa8d0aa7a4c26fc1326eb16daa2dea3bfdbe6d5d26604df8dbae87ff",
+      "originalReferences": [
+        "drawings/manual-stage-r3-table-mount/LS30-B_R3_下板工程图与安装通道.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/a1/a10da4ceaa8d0aa7a4c26fc1326eb16daa2dea3bfdbe6d5d26604df8dbae87ff.pdf"
+      ]
+    },
+    {
+      "path": "drawings/d74aa7dcfb10c13487a0c032b3c853b7f33c70136155823446aeb8244999b554.dxf",
+      "stored": "library/assets/sha256/d7/d74aa7dcfb10c13487a0c032b3c853b7f33c70136155823446aeb8244999b554.dxf",
+      "sha256": "d74aa7dcfb10c13487a0c032b3c853b7f33c70136155823446aeb8244999b554",
+      "originalReferences": [
+        "drawings/laser-marking/LS30-B-R3/编号面_-Y.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/d7/d74aa7dcfb10c13487a0c032b3c853b7f33c70136155823446aeb8244999b554.dxf"
+      ]
+    },
+    {
+      "path": "drawings/f4ccf1ac22b1b304807f8be23e8be15bce28e06d8247644fcaed94ab3c6dce61.dxf",
+      "stored": "library/assets/sha256/f4/f4ccf1ac22b1b304807f8be23e8be15bce28e06d8247644fcaed94ab3c6dce61.dxf",
+      "sha256": "f4ccf1ac22b1b304807f8be23e8be15bce28e06d8247644fcaed94ab3c6dce61",
+      "originalReferences": [
+        "drawings/manual-stage-r3-table-mount/LS30-B.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/f4/f4ccf1ac22b1b304807f8be23e8be15bce28e06d8247644fcaed94ab3c6dce61.dxf"
+      ]
+    },
+    {
       "path": "cad/f6a21026771e56c079d6579af4307062474e7ba368af4e33cc768ca9b931fbaa.step",
       "stored": "library/assets/sha256/f6/f6a21026771e56c079d6579af4307062474e7ba368af4e33cc768ca9b931fbaa.step",
       "sha256": "f6a21026771e56c079d6579af4307062474e7ba368af4e33cc768ca9b931fbaa",

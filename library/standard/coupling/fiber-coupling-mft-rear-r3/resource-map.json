@@ -3,6 +3,17 @@
   "packageId": "fiber-coupling-mft-rear-r3",
   "files": [
     {
+      "path": "drawings/1190b001bfe56bb9855f373f2248f2d27cdc2e72af74a9df79645f045b9b6447.pdf",
+      "stored": "library/assets/sha256/11/1190b001bfe56bb9855f373f2248f2d27cdc2e72af74a9df79645f045b9b6447.pdf",
+      "sha256": "1190b001bfe56bb9855f373f2248f2d27cdc2e72af74a9df79645f045b9b6447",
+      "originalReferences": [
+        "drawings/fiber-rear-dual-r3/FC-MFT-R3-A_assembly.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/11/1190b001bfe56bb9855f373f2248f2d27cdc2e72af74a9df79645f045b9b6447.pdf"
+      ]
+    },
+    {
       "path": "rendering/23132a12b90f35065a63c9e1cd76969208283c4fb8b9bd48f35c9914c15577df.svg",
       "stored": "library/assets/sha256/23/23132a12b90f35065a63c9e1cd76969208283c4fb8b9bd48f35c9914c15577df.svg",
       "sha256": "23132a12b90f35065a63c9e1cd76969208283c4fb8b9bd48f35c9914c15577df",

@@ -8,7 +8,7 @@
   "notes": "M1公制修订；原架角调不绕柱心，完整调整范围和小间隙不构成公差保证。。实物试装未完成。",
   "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/6cade52197cf090acd64e129",
   "stepPath": "step/metric-m1-20261006/11-PBS-U_METRIC_M1.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/metric-m1-20261006/11-PBS-U_M1_加工工程图.pdf",
   "sourceStepSha256": "3ea268ecddf705c9c7dbf0ec469e58b12da45a129b26a0e351f09558bbba0b6f",
   "productionReady": false,
   "manufacturingSpec": {
@@ -21,7 +21,7 @@
   },
   "drawingRevision": "M1",
   "drawingStatus": "engineering-review",
-  "dxfPath": null,
+  "dxfPath": "drawings/metric-m1-20261006/11-PBS-U_M1_加工工程图.dxf",
   "manufacturingEvidence": {
     "sourcePackage": null,
     "sourceCode": "11-PBS-U",
@@ -44,7 +44,7 @@
   },
   "sourceDrawingSha256": "e3a1fb129767c7bf0f4951cc7eb9bbd2c9924195306700e65b3364c1a5a28210",
   "sourceDxfSha256": "81a3fcbdd093a37ec6eb0e046b0c822eed2b1762c05bb5aa9280ddba609d5811",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/metric-m1-20261006/11-PBS-U_M1_加工工程图_DXF.pdf",
   "dxfPdfSha256": "4a634effbce33153d05dcde7ecf01c922994edb23fc5efbbe16fa8a86fe3959c",
   "drawingPages": [
     1,
@@ -80,7 +80,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "11-PBS-U",
+        "dxfPath": "drawings/laser-marking/new-r3-11-pbs-upper/编号面_-Y.dxf",
+        "sha256": "ffba059e7f5e4c9c4e72ac796e061c52d594ac58a38ed0a0bef5d394f18a3251",
+        "setupPdfPath": "drawings/laser-marking/new-r3-11-pbs-upper/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "74665b60aea3047e23f34d5b04c6214f4cda2a86cbd518d9135d92a5f9e38699"
+      }
+    ]
   }
 }

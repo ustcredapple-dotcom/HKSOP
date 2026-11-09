@@ -14,6 +14,17 @@
       ]
     },
     {
+      "path": "drawings/5f6fcad7b0984f90c5a330c98dd3f6bdcdd1353ec5e42d0afdc42fc300323cf3.pdf",
+      "stored": "library/assets/sha256/5f/5f6fcad7b0984f90c5a330c98dd3f6bdcdd1353ec5e42d0afdc42fc300323cf3.pdf",
+      "sha256": "5f6fcad7b0984f90c5a330c98dd3f6bdcdd1353ec5e42d0afdc42fc300323cf3",
+      "originalReferences": [
+        "drawings/fixed-dichroic-r1/加工清单.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/5f/5f6fcad7b0984f90c5a330c98dd3f6bdcdd1353ec5e42d0afdc42fc300323cf3.pdf"
+      ]
+    },
+    {
       "path": "cad/f0056858f19928706f6b5618c8f444e90f2b334ac1da5458010fa05b9b6152e9.step",
       "stored": "library/assets/sha256/f0/f0056858f19928706f6b5618c8f444e90f2b334ac1da5458010fa05b9b6152e9.step",
       "sha256": "f0056858f19928706f6b5618c8f444e90f2b334ac1da5458010fa05b9b6152e9",

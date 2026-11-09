@@ -23,6 +23,17 @@
       "sources": [
         "library/assets/sha256/40/40651c44c1f185785c0f6cde044b8a9a25744afa2c7b6b542675eda549f250de.svg"
       ]
+    },
+    {
+      "path": "drawings/bfac3f892171c3e023cfc51dcbb40c774a6af4964b112481fe59666c80ed00a4.pdf",
+      "stored": "library/assets/sha256/bf/bfac3f892171c3e023cfc51dcbb40c774a6af4964b112481fe59666c80ed00a4.pdf",
+      "sha256": "bfac3f892171c3e023cfc51dcbb40c774a6af4964b112481fe59666c80ed00a4",
+      "originalReferences": [
+        "drawings/pcf-fixed-base-h62p5-r1/PCF-B01_R1_加工与装配图册.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/bf/bfac3f892171c3e023cfc51dcbb40c774a6af4964b112481fe59666c80ed00a4.pdf"
+      ]
     }
   ],
   "dependencies": [

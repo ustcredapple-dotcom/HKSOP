@@ -197,7 +197,7 @@
     "sourceExact": true,
     "nominalFixedPositionAssembly": true,
     "revision": "R3-H12p5B4R2",
-    "drawingPath": null,
+    "drawingPath": "drawings/standard-post-h12p5-b4-r2/assemblies/安装与孔网说明_R3_TN1_20261026_H12p5B4R2.pdf",
     "sourceDrawingSha256": "9b3fc20eae76e3d58b04da4850f78cd6fe618f08fd57a0454b8180ded5dc5ae7",
     "cloudUrl": "https://cad.onshape.com/documents/6e58c9cce55d2925e9e4e840/v/437700e874b02419d6267c3d/e/76cfea8f3d9c06cfb1cf5ee2",
     "cloudStatus": "frozen-independent-assembly-readback-pending"
@@ -308,7 +308,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/servo-pd-bilateral-r3/安装与孔网说明_R3_TN1_20261026.pdf",
         "previousSha256": "299f15a284deb6f7b53f3dd4637be1539800b3842c89b0f7cdb3a42315bf32bf",
         "sha256": "9b3fc20eae76e3d58b04da4850f78cd6fe618f08fd57a0454b8180ded5dc5ae7"
       }

@@ -7,9 +7,9 @@
   "revision": "R1",
   "stepPath": "step/combined-r1-20261015/1/MCV1-R1.step",
   "sourceStepSha256": "f270a2acbc536fa118e3c9c12b562f49d6e5dadf074658409ee6099c1abf7f7f",
-  "drawingPath": null,
+  "drawingPath": "drawings/combined-r1-20261015/1/MCV1-R1_加工与装配图.pdf",
   "sourceDrawingSha256": "8de273741f5c8d5011e7846e61789b6b884c1a55256208eee72c23262af4870b",
-  "dxfPath": null,
+  "dxfPath": "drawings/combined-r1-20261015/1/MCV1-R1_加工图_毫米.dxf",
   "sourceDxfSha256": "0d4f4ca9cfcca8af48c6d4ec04e84def1355cf4fcb68bf5a7550b440925914e4",
   "productionReady": false,
   "drawingStatus": "engineering-review",
@@ -30,8 +30,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "本版设计已提供与模型对应的独立打标文件。",
-    "notes": "1:1毫米轮廓；未实物打标、未验证工艺可读性。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "1:1毫米轮廓；未实物打标、未验证工艺可读性。",
+    "files": [
+      {
+        "face": "+X",
+        "text": "MCV1-R1",
+        "dxfPath": "drawings/combined-r1-20261015/1/MCV1-R1_激光打标_1比1.dxf",
+        "sha256": "3bddfde5b223ac12614491a88d01e43ec3380ee3220707efc89f7af8689bddc8",
+        "setupPdfPath": "drawings/combined-r1-20261015/1/MCV1-R1_激光打标_定位说明.pdf",
+        "setupPdfSha256": "b4a2f62ab3065f51e94b0df18d7bacba932c204679b507580a30c40ce87147a4"
+      }
+    ]
   },
   "originalSourceUrl": "",
   "sourceUrl": "https://cad.onshape.com/documents/d252aa346b87cc8b3b987f3a/v/4e1e09ef673f17dfcdbd1023/e/6506ee3cfe83b3ef2b6b007e",
@@ -52,6 +61,6 @@
     "authoritativePrecisionSource": "已核验本地完整 STEP；云端静态冻结版供查看。原生自由度、全套整体移动或完整复用协议尚未全部验收。",
     "physicalTrialPerformed": false
   },
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/combined-r1-20261015/dxf-pdf/custom-mcv1-r1_DXF.pdf",
   "dxfPdfSha256": "425418136dd67a3d2cb26820fe62deb90bb1d80b90338404c8c7ae8a82a8ae0a"
 }

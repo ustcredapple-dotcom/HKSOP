@@ -3,6 +3,28 @@
   "packageId": "custom-post-metric-137p5mm-m1",
   "files": [
     {
+      "path": "drawings/66a2fafb9a6f4c8ef934281c2c771044eb9a3530ac6b614de1e71b5f97ef5db2.pdf",
+      "stored": "library/assets/sha256/66/66a2fafb9a6f4c8ef934281c2c771044eb9a3530ac6b614de1e71b5f97ef5db2.pdf",
+      "sha256": "66a2fafb9a6f4c8ef934281c2c771044eb9a3530ac6b614de1e71b5f97ef5db2",
+      "originalReferences": [
+        "drawings/universal-post-b6-r1/万能柱_H137.5mm_B6_R1_加工审核图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/66/66a2fafb9a6f4c8ef934281c2c771044eb9a3530ac6b614de1e71b5f97ef5db2.pdf"
+      ]
+    },
+    {
+      "path": "drawings/9b70566d68072ce001a1150f8eba7268da44172711c12c6ce74d5e89344f5d5e.dxf",
+      "stored": "library/assets/sha256/9b/9b70566d68072ce001a1150f8eba7268da44172711c12c6ce74d5e89344f5d5e.dxf",
+      "sha256": "9b70566d68072ce001a1150f8eba7268da44172711c12c6ce74d5e89344f5d5e",
+      "originalReferences": [
+        "drawings/laser-marking/post-b6-r1/custom-post-metric-137p5mm-m1/custom-post-metric-137p5mm-m1_B6R1_side_laser.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/9b/9b70566d68072ce001a1150f8eba7268da44172711c12c6ce74d5e89344f5d5e.dxf"
+      ]
+    },
+    {
       "path": "cad/e2bc0e50708fbf166a75dc713de5c78deba9588d779ec91b747670d7a11dd3df.step",
       "stored": "library/assets/sha256/e2/e2bc0e50708fbf166a75dc713de5c78deba9588d779ec91b747670d7a11dd3df.step",
       "sha256": "e2bc0e50708fbf166a75dc713de5c78deba9588d779ec91b747670d7a11dd3df",
@@ -11,6 +33,17 @@
       ],
       "sources": [
         "library/assets/sha256/e2/e2bc0e50708fbf166a75dc713de5c78deba9588d779ec91b747670d7a11dd3df.step"
+      ]
+    },
+    {
+      "path": "drawings/e8494e5200c6098b3d4159030d17a8759a203645a233ccfd5a2666de2b222af7.pdf",
+      "stored": "library/assets/sha256/e8/e8494e5200c6098b3d4159030d17a8759a203645a233ccfd5a2666de2b222af7.pdf",
+      "sha256": "e8494e5200c6098b3d4159030d17a8759a203645a233ccfd5a2666de2b222af7",
+      "originalReferences": [
+        "drawings/laser-marking/post-b6-r1/custom-post-metric-137p5mm-m1/custom-post-metric-137p5mm-m1_B6R1_side_laser_setup.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/e8/e8494e5200c6098b3d4159030d17a8759a203645a233ccfd5a2666de2b222af7.pdf"
       ]
     }
   ],

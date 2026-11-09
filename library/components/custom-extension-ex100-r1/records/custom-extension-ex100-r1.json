@@ -8,8 +8,8 @@
   "seriesId": "extension-series-r1",
   "status": "加工审核版；销孔配合待确认",
   "stepPath": "step/extension-series-r1/延长100.step",
-  "drawingPath": null,
-  "dxfPath": null,
+  "drawingPath": "drawings/extension-series-r1/延长块系列加工图册_R1_TN1_20261026.pdf",
+  "dxfPath": "drawings/extension-series-r1/延长块系列参数图_R1_TN1_20261026.dxf",
   "sourceStepSha256": "2a66bcdd46e1cdc72f5930072564761948971f98c3934dbe70087168bdb1d9d4",
   "sourceDrawingSha256": "5a069ecb2e548903bf414ff8f889b726c9fc611758ee7e95642c49d3943741f0",
   "sourceDxfSha256": "5df077170731d5a03f42187c66746c9f480ea2c0d4604fcb3759ca85ecf68344",
@@ -474,7 +474,7 @@
     "revisionActor": "其他任务交付的本地长度系列 R1；接收端未修改模型",
     "importScope": "机械配件资料与出单，不替换现有器件或用户实例"
   },
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/extension-series-r1/延长块系列参数图_R1_DXF_TN1_20261026.pdf",
   "dxfPdfSha256": "3b5062639924a6f513739130527929dbf035d262bc0a4ceedd313a419a64174c",
   "drawingPages": [
     1,
@@ -511,8 +511,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_+X",
+        "text": "EX100",
+        "dxfPath": "drawings/laser-marking/custom-extension-ex100-r1/编号面_+X.dxf",
+        "sha256": "4717c454b0d822a819c203aa1d8f9ea3565dc69ed8149041a95408a08dae50ed",
+        "setupPdfPath": "drawings/laser-marking/custom-extension-ex100-r1/编号面_+X_定位说明.pdf",
+        "setupPdfSha256": "128495145bb273f40da7adc4449dce5d29d8cc95642a1660f24a0ddf7b5377fa"
+      }
+    ]
   },
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -520,17 +529,17 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/extension-series-r1/延长块系列加工图册_R1_TN1_20261026.pdf",
         "previousSha256": "83c9b39548d9d9ee1065f339ab6bf3aa7c7fe6fbe5e4240981fc3f3c1820cb5f",
         "sha256": "5a069ecb2e548903bf414ff8f889b726c9fc611758ee7e95642c49d3943741f0"
       },
       {
-        "path": null,
+        "path": "assets/drawings/extension-series-r1/延长块系列参数图_R1_DXF_TN1_20261026.pdf",
         "previousSha256": "3a4f070ce3fd2f05a976a0153e105210887fda6bf437837c5fedb64867ec52f1",
         "sha256": "3b5062639924a6f513739130527929dbf035d262bc0a4ceedd313a419a64174c"
       },
       {
-        "path": null,
+        "path": "assets/drawings/extension-series-r1/延长块系列参数图_R1_TN1_20261026.dxf",
         "previousSha256": "5e8a5054b187e74bea935e66a1f9d22fe8c853c8ae7c365fbf00834b2a192f35",
         "sha256": "5df077170731d5a03f42187c66746c9f480ea2c0d4604fcb3759ca85ecf68344"
       }

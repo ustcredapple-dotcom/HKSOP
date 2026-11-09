@@ -7,8 +7,8 @@
   "revision": "R2",
   "sourceUrl": "",
   "stepPath": "step/objective-post-r2/30-OBJ-M_R2.step",
-  "drawingPath": null,
-  "dxfPath": null,
+  "drawingPath": "drawings/objective-post-r2/30-OBJ-M_R2_加工工程图_TN1_20261026.pdf",
+  "dxfPath": "drawings/objective-post-r2/30-OBJ-M_R2_加工工程图_TN1_20261026.dxf",
   "sourceStepSha256": "65a360e33dba2c9ee3511908e08f158615d62b723520f55c353184c3ecf60f21",
   "sourceDrawingSha256": "5f62f39f670e49b1bd325fd10884dbcc7a744b155a0600fffbc0e9b31b438f6c",
   "sourceDxfSha256": "dfcc4f7bd2d98b11e3de011a1ca0355cd6edd72c670979d401de93ad12f13d00",
@@ -30,7 +30,7 @@
   "productionReady": false,
   "status": "CAD名义几何已核验；加工审核版",
   "notes": "单件当前修订STEP/PDF/DXF；实际装配与承载试验未进行。仅M为本次新建，原厂镜架和公制柱保持原来源。",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/objective-post-r2/30-OBJ-M_R2_加工工程图_DXF_TN1_20261026.pdf",
   "dxfPdfSha256": "6494a9be00b3ff9d6b4dea0d9c019491e13dfe59b9620b713fe4095845b5ae47",
   "drawingPages": [
     1,
@@ -67,8 +67,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "30-OBJ-M",
+        "dxfPath": "drawings/laser-marking/custom-30-obj-m-r2/编号面_-Y.dxf",
+        "sha256": "a757df2fd8a6808684fa837bcb36d828c21598bbfd9691abb5ea61a002ff9b5d",
+        "setupPdfPath": "drawings/laser-marking/custom-30-obj-m-r2/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "97150e61aa046e4a9af3018decf9b249beb832f633fde3bc3e9047f21c465df7"
+      }
+    ]
   },
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -76,17 +85,17 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/objective-post-r2/30-OBJ-M_R2_加工工程图_TN1_20261026.pdf",
         "previousSha256": "92c87969afb2d587ebb6e4809eabdce24946f997949f4a10dd9b20eece4d9bf2",
         "sha256": "5f62f39f670e49b1bd325fd10884dbcc7a744b155a0600fffbc0e9b31b438f6c"
       },
       {
-        "path": null,
+        "path": "assets/drawings/objective-post-r2/30-OBJ-M_R2_加工工程图_DXF_TN1_20261026.pdf",
         "previousSha256": "f5fce9a585aecdf252e8c3cca58e5337b052c44d5076353689baf0d211a7dad8",
         "sha256": "6494a9be00b3ff9d6b4dea0d9c019491e13dfe59b9620b713fe4095845b5ae47"
       },
       {
-        "path": null,
+        "path": "assets/drawings/objective-post-r2/30-OBJ-M_R2_加工工程图_TN1_20261026.dxf",
         "previousSha256": "e305176e274aa7deec757aaf23291dd83953acc614050d14c4c6811bce08f1a7",
         "sha256": "dfcc4f7bd2d98b11e3de011a1ca0355cd6edd72c670979d401de93ad12f13d00"
       }

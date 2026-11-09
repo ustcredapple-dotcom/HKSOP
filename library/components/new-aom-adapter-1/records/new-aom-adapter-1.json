@@ -8,7 +8,7 @@
   "notes": "M1公制修订；AOM采用已说明的原厂外形简化参考，晶体作用区不明；热性能与微调后的光轴待验证。。实物试装未完成。",
   "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/c9d59009e1d6f30166ba57ee",
   "stepPath": "step/metric-m1-20261006/08-AOM-B_METRIC_M1.step",
-  "drawingPath": null,
+  "drawingPath": "drawings/metric-m1-20261006/08-AOM-B_M1_加工工程图.pdf",
   "sourceStepSha256": "724b16df042c5174282972d24cc76565caf1d12fc37d46428e243dc86cb7ab21",
   "productionReady": false,
   "manufacturingSpec": {
@@ -21,7 +21,7 @@
   },
   "drawingRevision": "M1",
   "drawingStatus": "engineering-review",
-  "dxfPath": null,
+  "dxfPath": "drawings/metric-m1-20261006/08-AOM-B_M1_加工工程图.dxf",
   "manufacturingEvidence": {
     "sourcePackage": null,
     "sourceCode": "08-AOM-B",
@@ -44,7 +44,7 @@
   },
   "sourceDrawingSha256": "5378dcb2760b5257e7789c3d04f5b80590fd1d27d6f31a5776954a56ca7ff5e0",
   "sourceDxfSha256": "22810694139ccb6c9ecf9738e1fc8819b0ce926523985f709481b470d70149c4",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/metric-m1-20261006/08-AOM-B_M1_加工工程图_DXF.pdf",
   "dxfPdfSha256": "e42d981150a7d04cfeea99d49287f2e88a895a1d43b2ec1926293daac9163d54",
   "drawingPages": [
     1,
@@ -80,7 +80,16 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "08-AOM-B",
+        "dxfPath": "drawings/laser-marking/new-aom-adapter-1/编号面_-Y.dxf",
+        "sha256": "4cc9a1065f10e6edf6dc65f404bef3b3f818f02899d2e41b2199d743d4245b2b",
+        "setupPdfPath": "drawings/laser-marking/new-aom-adapter-1/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "88387da2821236b608361537b93277d74b0b3dc9e86934fb318c9360f6d57ca5"
+      }
+    ]
   }
 }

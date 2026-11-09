@@ -10,8 +10,8 @@
   "status": "加工审核版；定位孔配合与螺纹等级待核定",
   "sourceUrl": "https://cad.onshape.com/documents/3f1005e8109819b0d8f4538d/v/c7246a4f24bae6dce7d975eb/e/602681771d771fffb32d72c2",
   "stepPath": "step/dm1v-r1/DM1V-R1.step",
-  "drawingPath": null,
-  "dxfPath": null,
+  "drawingPath": "drawings/dm1v-r1/DM1V-R1_加工图.pdf",
+  "dxfPath": "drawings/dm1v-r1/DM1V-R1_加工图.dxf",
   "sourceStepSha256": "7edbe3ca64a74729f637edd4f822324db05a1e8e684a80304a5a75a07eb4e22a",
   "sourceDrawingSha256": "d91c9a412ab002c3c23a3a55cb17ffe2d55cae1bc0712c152d47b7b62f1c36a3",
   "sourceDxfSha256": "6189fa3b7542f67517055ad539204a75fe81b168026d82bb97a57154f9c9c52b",
@@ -31,8 +31,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "自制件身份标识",
-    "notes": "顶平面Z=5.5；DM1V-R1字高2.0；仅激光，不铣刻。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "顶平面Z=5.5；DM1V-R1字高2.0；仅激光，不铣刻。",
+    "files": [
+      {
+        "face": "Z=5.5 顶面",
+        "text": "DM1V-R1",
+        "dxfPath": "drawings/laser-marking/dm1v-r1/DM1V-R1_顶面激光.dxf",
+        "sha256": "5b11969ef3366fa78648187ebf72e243b2c50bf85f1afb7726ed7148501dfef0",
+        "setupPdfPath": "drawings/laser-marking/dm1v-r1/DM1V-R1_激光定位.pdf",
+        "setupPdfSha256": "75c7051874686ab25751a63ed557b362760525d727ade93395fbcc5b6ecb2fcd"
+      }
+    ]
   },
   "cloudReference": {
     "documentId": "3f1005e8109819b0d8f4538d",
@@ -51,6 +60,6 @@
     "reason": "已收到源作者冻结版本、42实体及整体移动撤销记录；本轮浏览器工具被禁用，独立云端尺寸回读待续。精确CAD采用本地/NAS冻结STEP。"
   },
   "notes": "0°与45°共用；柱端M4×8、镜架端M4×10、2×Ø2×8销。M4螺纹写作M4×0.7；制造等级及销孔配合待工艺确认。 可编辑DXF与同修订加工PDF联合使用；补充PDF引用该已核验加工图，不重复制造图。",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/dm1v-r1/DM1V-R1_加工图.pdf",
   "dxfPdfSha256": "d91c9a412ab002c3c23a3a55cb17ffe2d55cae1bc0712c152d47b7b62f1c36a3"
 }

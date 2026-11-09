@@ -3,6 +3,17 @@
   "packageId": "lbtek-pbs641-purchased",
   "files": [
     {
+      "path": "drawings/83ddb5fcf88973f3629b3f21f5af0c561e7244396f242c1652ee01d53a661c0e.pdf",
+      "stored": "library/assets/sha256/83/83ddb5fcf88973f3629b3f21f5af0c561e7244396f242c1652ee01d53a661c0e.pdf",
+      "sha256": "83ddb5fcf88973f3629b3f21f5af0c561e7244396f242c1652ee01d53a661c0e",
+      "originalReferences": [
+        "drawings/mt-cube-module-r1/PBS641-vendor.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/83/83ddb5fcf88973f3629b3f21f5af0c561e7244396f242c1652ee01d53a661c0e.pdf"
+      ]
+    },
+    {
       "path": "cad/e0c1e8e823f5965f1a67ee3de70b7ddde71a1206fcba01809ecd9b133485e171.step",
       "stored": "library/assets/sha256/e0/e0c1e8e823f5965f1a67ee3de70b7ddde71a1206fcba01809ecd9b133485e171.step",
       "sha256": "e0c1e8e823f5965f1a67ee3de70b7ddde71a1206fcba01809ecd9b133485e171",

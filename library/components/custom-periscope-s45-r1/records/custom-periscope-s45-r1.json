@@ -6,8 +6,8 @@
   "kind": "custom",
   "unit": "件",
   "stepPath": "step/laser308-periscope/27-S45_R1.step",
-  "drawingPath": null,
-  "dxfPath": null,
+  "drawingPath": "drawings/laser308-periscope-r2/28_308分体爬架_工程图册_R2_试制_TN1_20261026.pdf",
+  "dxfPath": "drawings/laser308-periscope/27-S45_R1_加工工程图.dxf",
   "sourceStepSha256": "6c43fd8b388b7e1fa6d1083ae42c2b259f34f5c97115ba8af700dd902c8a522d",
   "sourceDrawingSha256": "b10984871c8c6d3b22488586b2b75f3905d501762cb611d6e99a44587516358b",
   "drawingPages": [
@@ -25,7 +25,7 @@
   "status": "复用冻结27-S45 R1；不改实体",
   "notes": "定制件名义CAD已审；M6间隙螺钉不当作实测精密定位。",
   "drawingSourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/6c60a0fd2c8010c62a6dc997/e/7752908a3801caa1fe337bfd",
-  "dxfPdfPath": null,
+  "dxfPdfPath": "drawings/laser308-periscope/27-S45_R1_加工工程图_DXF.pdf",
   "dxfPdfSha256": "2f76f8160a10671ac185487ad21e93a17e35375b221d003de3d7566dac8f533b",
   "drawingAnnotationEvidence": {
     "/drawingPath": {
@@ -60,8 +60,17 @@
   "laserMarking": {
     "status": "required",
     "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
-    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_+X",
+        "text": "27-S45",
+        "dxfPath": "drawings/laser-marking/custom-periscope-s45-r1/编号面_+X.dxf",
+        "sha256": "d01cd1b16ebad00834300083b89efd69334c91b1d7372717914facddd6a5198c",
+        "setupPdfPath": "drawings/laser-marking/custom-periscope-s45-r1/编号面_+X_定位说明.pdf",
+        "setupPdfSha256": "a944c61f779617901fdbe99f2d9f5093b35a702da854477e0639bb42ab34bfc1"
+      }
+    ]
   },
   "threadCalloutAnnotationRevision": {
     "revision": "TN1-20261026",
@@ -69,7 +78,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/laser308-periscope-r2/28_308分体爬架_工程图册_R2_试制_TN1_20261026.pdf",
         "previousSha256": "f81fe1fc14beb1d6f99963ac14231b21ac41807f8c586a8221d79df54bb5531b",
         "sha256": "b10984871c8c6d3b22488586b2b75f3905d501762cb611d6e99a44587516358b"
       }

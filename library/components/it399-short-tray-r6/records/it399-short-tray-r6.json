@@ -6,7 +6,7 @@
   "unit": "件",
   "stepPath": "step/iontrap-it399-r6-motor2/MTL1-U75-R6.step",
   "sourceStepSha256": "e12d5d18c70a611bd872faf9d949044d918d5febbfaadfdc49dfd9270365d257",
-  "drawingPath": null,
+  "drawingPath": "drawings/iontrap-it399-r6-motor2/IT75_R6_长窄板与短托板加工图_TN1_20261026.pdf",
   "sourceDrawingSha256": "7d760f8b19b219d787b94dee20ba0290176cc6101f1def8b8bef0293c932c116",
   "drawingRevision": "MTL1-U75-R6",
   "drawingStatus": "engineering-review",
@@ -20,30 +20,39 @@
   "referenceFiles": [
     {
       "label": "源加工视图",
-      "dxfPath": null,
+      "dxfPath": "drawings/iontrap-it399-r6-motor2/MTL1-U75-R6_bottom_projection_1to1.dxf",
       "sha256": "14a10aa9a2faca6a5cad5a2e2fc8b1c7137cd6c4b01db85e5a1f55a06874415e"
     },
     {
       "label": "源加工视图",
-      "dxfPath": null,
+      "dxfPath": "drawings/iontrap-it399-r6-motor2/MTL1-U75-R6_front_projection_1to1.dxf",
       "sha256": "7e50de48404d6b8f0113c9c3e9aa462dec4921f56a7552f736609c88d57abb8f"
     },
     {
       "label": "源加工视图",
-      "dxfPath": null,
+      "dxfPath": "drawings/iontrap-it399-r6-motor2/MTL1-U75-R6_right_projection_1to1.dxf",
       "sha256": "36569746616f645be9a2483767493fb5ce06174cfdde90a02cbb1c9819732bf4"
     },
     {
       "label": "源加工视图",
-      "dxfPath": null,
+      "dxfPath": "drawings/iontrap-it399-r6-motor2/MTL1-U75-R6_top_projection_1to1.dxf",
       "sha256": "1844d0943a5c09db88a7872003baa141cb01f049f52ac485260c765d7cf5ca69"
     }
   ],
   "laserMarking": {
     "status": "required",
     "reason": "新加工件编号与方向标识",
-    "notes": "源1:1激光文件；不铣刻。按源定位图装夹。 本精选副本按用户要求不含打标及定位图纸；要求和原验收状态保持。",
-    "files": []
+    "notes": "源1:1激光文件；不铣刻。按源定位图装夹。",
+    "files": [
+      {
+        "face": "侧面 -V",
+        "text": "MTL1-U75-R6",
+        "dxfPath": "drawings/iontrap-it399-r6-motor2/laser/MTL1-U75-R6_SIDE_MINUS_V_1to1.dxf",
+        "sha256": "54f7b57355b53dfc65dbb09e2bc2583853d0f46ada78f016de2b71205ca37fd1",
+        "setupPdfPath": "drawings/iontrap-it399-r6-motor2/IT75_R6_长窄板与短托板加工图_TN1_20261026.pdf",
+        "setupPdfSha256": "7d760f8b19b219d787b94dee20ba0290176cc6101f1def8b8bef0293c932c116"
+      }
+    ]
   },
   "sourceReport": {
     "kind": "user-cad-package",
@@ -72,7 +81,7 @@
     "mechanicalRevisionChanged": false,
     "files": [
       {
-        "path": null,
+        "path": "assets/drawings/iontrap-it399-r6-motor2/IT75_R6_长窄板与短托板加工图_TN1_20261026.pdf",
         "previousSha256": "f67a54784ccb82f9e4b1dd14e0216a2d869e0adf81402bb06e3d9c64266bc617",
         "sha256": "7d760f8b19b219d787b94dee20ba0290176cc6101f1def8b8bef0293c932c116"
       }

@@ -1,9 +1,9 @@
-# Library
+# 元件库
 
-当前编辑源为registry.json列出的独立package.json和records文件。standard是通用套件，components是共用采购/制造零件，modules是组合模块，boards是本副本所需板型，custom仅收录本次所选工程必需的附加定义。
+[English](README.en.md)
 
-assets/sha256保存STEP和俯视渲染的唯一实体；各元件包的cad/rendering提供根目录内部的相对链接。resource-map.json记录包与资源的对应关系。
+编辑源是 `registry.json` 登记的独立 `package.json` 和记录文件。`standard/` 保存标准套件，`components/` 保存共用采购件与制造件，`modules/` 保存组合模块，`boards/` 保存底板定义，`custom/` 保存所选项目需要的定制定义。
 
-运行 `python3 hksop.py catalog build` 生成统一支持清单、搜索目录和当前构建数据。snapshots/web-current只是现行兼容索引，不保存历史库。
+`assets/sha256/` 按内容哈希保存模型、俯视图和现用图纸的唯一实体。每个包的 `cad/`、`rendering/` 和 `drawings/` 通过仓库内部相对链接访问资源，`resource-map.json` 记录它们的对应关系。包目录的中英文说明提供记录和文件入口。
 
-三视图和加工/打标图纸按用户要求不包含。记录中的这些运行文件入口为空，制造要求仍需在实际交付前补齐。
+在仓库根目录运行 `python3 hksop.py catalog build` 生成统一清单和搜索索引。`snapshots/web-current` 是现行兼容索引，不是历史库。现用图纸保留原修订与验收状态；文件存在不代表已完成新的制造验收。入库方法见[指南](../docs/component-intake.md)。

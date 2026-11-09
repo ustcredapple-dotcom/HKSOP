@@ -3,6 +3,28 @@
   "packageId": "custom-waveplate-double-05-m1",
   "files": [
     {
+      "path": "drawings/0d9a5d2fd644e865ae243f6019d1c1b79e6b1159f0ec76083a9395c66499ee73.pdf",
+      "stored": "library/assets/sha256/0d/0d9a5d2fd644e865ae243f6019d1c1b79e6b1159f0ec76083a9395c66499ee73.pdf",
+      "sha256": "0d9a5d2fd644e865ae243f6019d1c1b79e6b1159f0ec76083a9395c66499ee73",
+      "originalReferences": [
+        "drawings/waveplate05-m1/24-WP05-D_M1_加工工程图_DXF.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/0d/0d9a5d2fd644e865ae243f6019d1c1b79e6b1159f0ec76083a9395c66499ee73.pdf"
+      ]
+    },
+    {
+      "path": "drawings/29bc361109ecd3c5c30801276875ca30019a8ee7fafd62d855596fbee19dec91.pdf",
+      "stored": "library/assets/sha256/29/29bc361109ecd3c5c30801276875ca30019a8ee7fafd62d855596fbee19dec91.pdf",
+      "sha256": "29bc361109ecd3c5c30801276875ca30019a8ee7fafd62d855596fbee19dec91",
+      "originalReferences": [
+        "drawings/laser-marking/custom-waveplate-double-05-m1/编号面_-Y_定位说明.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/29/29bc361109ecd3c5c30801276875ca30019a8ee7fafd62d855596fbee19dec91.pdf"
+      ]
+    },
+    {
       "path": "cad/3451108510c088c0ae988dcacb02334de9cc78620046e87de9f4f827e9025627.step",
       "stored": "library/assets/sha256/34/3451108510c088c0ae988dcacb02334de9cc78620046e87de9f4f827e9025627.step",
       "sha256": "3451108510c088c0ae988dcacb02334de9cc78620046e87de9f4f827e9025627",
@@ -11,6 +33,39 @@
       ],
       "sources": [
         "library/assets/sha256/34/3451108510c088c0ae988dcacb02334de9cc78620046e87de9f4f827e9025627.step"
+      ]
+    },
+    {
+      "path": "drawings/493b71bcb3f12dd41e12dce435e83750aefd1fdb2abf588b58a3451c34f558f7.pdf",
+      "stored": "library/assets/sha256/49/493b71bcb3f12dd41e12dce435e83750aefd1fdb2abf588b58a3451c34f558f7.pdf",
+      "sha256": "493b71bcb3f12dd41e12dce435e83750aefd1fdb2abf588b58a3451c34f558f7",
+      "originalReferences": [
+        "drawings/waveplate05-m1/24-WP05-D_M1_加工工程图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/49/493b71bcb3f12dd41e12dce435e83750aefd1fdb2abf588b58a3451c34f558f7.pdf"
+      ]
+    },
+    {
+      "path": "drawings/cc12e26c9c46b7951622604986e0c1b7f1cec28466365fd09b0ab85826e8562b.dxf",
+      "stored": "library/assets/sha256/cc/cc12e26c9c46b7951622604986e0c1b7f1cec28466365fd09b0ab85826e8562b.dxf",
+      "sha256": "cc12e26c9c46b7951622604986e0c1b7f1cec28466365fd09b0ab85826e8562b",
+      "originalReferences": [
+        "drawings/waveplate05-m1/24-WP05-D_M1_加工工程图.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/cc/cc12e26c9c46b7951622604986e0c1b7f1cec28466365fd09b0ab85826e8562b.dxf"
+      ]
+    },
+    {
+      "path": "drawings/cce2bcd34b795b839c048427727f9c2c4ade5c181ac13ea989559ed644bd1e1b.dxf",
+      "stored": "library/assets/sha256/cc/cce2bcd34b795b839c048427727f9c2c4ade5c181ac13ea989559ed644bd1e1b.dxf",
+      "sha256": "cce2bcd34b795b839c048427727f9c2c4ade5c181ac13ea989559ed644bd1e1b",
+      "originalReferences": [
+        "drawings/laser-marking/custom-waveplate-double-05-m1/编号面_-Y.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/cc/cce2bcd34b795b839c048427727f9c2c4ade5c181ac13ea989559ed644bd1e1b.dxf"
       ]
     }
   ],

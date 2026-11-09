@@ -1,18 +1,17 @@
 <p align="center">
-  <img src="docs/assets/hksop-cover.svg" alt="HKSOP — Hong Kong Standard Optical Protocol. A unified component library and layout tool for modular tabletop optics." width="100%">
+  <img src="docs/assets/hksop-cover.svg" alt="HKSOP — From a sketch to an optical system. Universal posts, device adapters, and shared design data." width="100%">
 </p>
 
-<h1 align="center">HKSOP · Modular Tabletop Optics</h1>
+<h1 align="center">HKSOP · Hong Kong Standard Optical Protocol</h1>
 
-<p align="center">A practical toolset for designing, checking, and building tabletop optical setups.</p>
+<p align="center">A common mechanical interface and a machine-readable design workflow for tabletop optics.</p>
 
 <p align="center">
   <a href="#overview">Overview</a> ·
-  <a href="#design">How It Works</a> ·
-  <a href="#layout">Repository Tour</a> ·
+  <a href="#sketch-to-3d">Sketch to 3D</a> ·
+  <a href="#mechanical-system">Posts &amp; Adapters</a> ·
+  <a href="#standard">Why 12.5 mm?</a> ·
   <a href="#quick-start">Quick Start</a> ·
-  <a href="#workflows">Workflows</a> ·
-  <a href="#examples">Examples</a> ·
   <a href="#documentation">Documentation</a>
 </p>
 
@@ -22,72 +21,132 @@
 </p>
 
 <a id="overview"></a>
-## 项目介绍 / What is HKSOP?
+## 从实验想法到可复用的设计 / From an idea to a reusable design
 
-在实验室搭一套模块化光路，从头到尾要处理不少零散的工作：挑镜架和光学元件，在面包板上排好位置，计算光路，再去三维软件里拼总装、检查干涉，最后列采购清单、准备转接件的加工资料。如果这些步骤各用各的文件，换一个镜架或者调整一下光轴高度，二维图、三维模型和采购单就得挨个手改，很容易漏掉。
+HKSOP 的设计来自**香港大学 HKU Ultracold Atom Lab（ZZLab）**。我们在搭光路时反复遇到同一个问题：手稿表达了实验想法，二维图摆好了元件，三维模型却仍要重新拼装；改一个镜架，光学面、转接件、支撑高度和采购清单都可能跟着变。
 
-**HKSOP（Hong Kong Standard Optical Protocol）的设计来自香港大学 HKU Ultracold Atom Lab（ZZLab）**。我们把常用元件的厂家型号、安装孔位、真实光学面的坐标、二维俯视图和三维 STEP 模型，组织成统一格式的元件包。网页编辑器、光路计算、三维装配复建和 BOM 导出使用同一套定义：二维布局确定后，可以按元件已支持的交互规则检查光线与高斯光束传播，再用配套脚本复建三维子装配和总装，整理采购需求。
+这套协议把这些关系明确下来。机械上，万能柱提供可复用的支撑和定位接口，转接件把不同厂家的器件接到同一体系。数据上，元件包描述真实孔位、光学基准和 CAD，项目 JSON 描述这一次实验怎样使用它们。人和 AI 可以沿着同一份工程定义完成布局、光路检查、三维复建和交付。
 
-这个仓库是面向公开分享的精选版本。当前有 **694 个元件包**，包含 **432 条零件记录、263 条装配套件记录和 6 种底板定义**，配套 **584 份去重 STEP、376 份俯视资源、539 份 PDF 和 349 份 DXF**，以及基础反射、一分三和 DoublePass 三个工程 JSON 示例。一个包可以包含多条记录，包数与记录数不是同一个统计口径。当前资料版本为 `2026-11-09.hksop-github-cad-2`。
+HKSOP was developed at the **HKU Ultracold Atom Lab (ZZLab), The University of Hong Kong**. A sketch captures the experimental idea, but translating it into a layout, a CAD assembly and a parts list often means entering the same decisions several times. Changing one mount can affect the optical datum, adapter, support height and purchasing list.
 
-元件对应的现用三视图、加工图和激光打标资料也随库提供，按内容哈希去重，沿用原记录中的修订和验收状态。具体文件及覆盖范围可查[收录范围](docs/selection.json)、[资源清单](docs/asset-manifest.json)和[图纸恢复记录](docs/cad-restoration.json)。具体项目的历史三维成果和整套交付压缩包不在这个精选版本中。
+HKSOP makes those relationships explicit. Universal posts provide reusable support and locating interfaces; device-specific adapters connect different commercial components to that system. Component packages describe real mounting geometry, optical datums and CAD. Project JSON describes how those components are used in an experiment. People and AI can work from that shared definition through layout, optical checks, 3D reconstruction and delivery.
 
-Building a tabletop optical setup usually involves several separate files: part lists, a breadboard layout, ray-tracing inputs, a CAD assembly, purchasing spreadsheets, and drawings for custom adapters. Changing one mount or the optical axis height can mean updating all of them by hand.
+<details>
+<summary><strong>当前仓库收录范围 / What is included</strong></summary>
 
-**HKSOP was developed at the HKU Ultracold Atom Lab (ZZLab), The University of Hong Kong.** It brings part numbers, mounting hole coordinates, optical reference surfaces, top-view assets, and STEP models into a common component package format. The web editor, optical calculations, 3D assembly rebuild, and BOM export use these definitions. After arranging a layout, you can check ray paths and Gaussian beam propagation for supported elements, reconstruct sub-assemblies and the full assembly with the CAD workflow, and prepare the purchasing BOM.
+当前精选库有 **694 个包**，包含 **432 条零件记录、263 条套件记录和 6 种底板定义**；现用资源包括 **584 份去重 STEP、376 份俯视资源、539 份 PDF 和 349 份 DXF**。一个包可以含多条记录，因此这些统计不应相加。项目目录提供基础反射、一分三和 DoublePass 三个可导入 JSON 示例。当前资料版本为 `2026-11-09.hksop-github-cad-2`。
 
-This curated edition contains the package and asset counts listed above, including current component drawings and laser-marking files. Package counts and record counts measure different things: one package may contain several records. Asset revisions and existing verification states are preserved. See the [scope](docs/selection.json), [asset manifest](docs/asset-manifest.json), and [drawing restoration record](docs/cad-restoration.json) for the exact contents; historical project assemblies and complete delivery archives are outside this edition.
+The curated library contains **694 packages**, with **432 component records, 263 kit records and 6 board definitions**. Current assets include **584 unique STEP files, 376 top-view resources, 539 PDFs and 349 DXFs**. Packages can contain multiple records, so these counts are not additive. The project directory includes three importable JSON examples: Basic Reflection, 1-to-3 and DoublePass.
 
-<a id="design"></a>
-## 设计思路 / How It Works
+现用元件图纸随库提供，修订与原有验收状态保持不变。下文成像项目的图片用于说明实际工作过程；它的完整定制依赖和三维总装没有因此加入精选库。文件范围见[收录清单](docs/selection.json)、[元件资源清单](docs/asset-manifest.json)和[首页图片来源](docs/assets/sources.json)。
 
-首先，图片对齐不能代替孔位和光学基准的核对。二维俯视图用于显示，STEP 提供三维几何；元件装在哪个安装孔上、实际反射或透射面在什么位置、光线如何与元件作用，都需要在协议中明确。这样才能把屏幕上的布局与实际装配联系起来。装配公差、调整范围和实物表现仍需按具体设计检查。
+Current component drawings retain their original revisions and verification states. The imaging-project images below illustrate a real workflow; its full custom dependency set and assembly are not added to the curated library. See the [selection](docs/selection.json), [component asset manifest](docs/asset-manifest.json) and [homepage image sources](docs/assets/sources.json) for the scope.
 
-每个元件在 `library/` 下有自己的包目录，维护记录、资源和必要说明。正式启用的包登记在 `library/registry.json`，由编译器汇总为 `catalog.json` 和检索索引。修改旧元件或添加新元件时，主要维护对应的包；未登记的草稿不会进入当前支持清单。
+</details>
 
-同一型号换成 45°、90° 或另一种转接装法时，可以共用确实相同的采购零件记录，但安装接口、孔位、支撑高度和光路参数要分别描述。转接件或紧固件发生变化时，BOM 也要跟着更新，不能只旋转二维图片。
+<a id="sketch-to-3d"></a>
+## 手稿 → JSON → 三维总装 / From sketch to 3D
 
-项目文件 `project.zzoptics.json` 记录选用的套件、位置、方向、板层、光源和光学设置等工程数据，模型与图纸留在元件库中。较大的资源集中存放在 `library/assets/sha256/`，按内容哈希去重。多个项目引用同一个元件时，共用同一份资源。
+![Engineering workflow from a hand sketch through project JSON, optical checks, hierarchical CAD and delivery](docs/assets/sketch-to-system.svg)
 
-元件资料做到哪一步，就记录到哪一步。每个包分别声明 `display`、`placement`、`simulation`、`procurement` 和 `manufacturing` 的状态与证据。只有采购型号和外形资料的元件，可以先用于相应工作；尚未核验的光学参数或制造信息保持待核验，不填假定值来凑齐状态。
+### 先把想法说清楚 / Start with the experimental intent
 
-Visual alignment is only a starting point. Top-view assets provide the display, STEP files provide 3D geometry, and the protocol defines mounting holes, optical reference surfaces, and beam interactions. These definitions connect the screen layout to the assembly; tolerances, adjustment ranges, and physical performance still need to be checked for the actual design.
+下面的手稿来自实际的**成像及光镊**项目。最初只画了左侧成像光路：在哪块小板上放镜架、光从哪里来、怎样分到相机，以及各片透镜的焦距。把手稿变成工程数据时，先确认元件型号、镜面正反、波长和关键距离，再映射到库中已有的套件。这个项目里，手写的小板入口透镜曾被读成 f=180 mm，经用户确认后改为 **f=100 mm**。这一步需要理解和确认实验意图。
 
-Each component package is maintained independently under `library/`. Packages listed in `library/registry.json` are compiled into the shared catalog and indexes, while unregistered drafts stay outside the supported inventory. Mounting variants reuse genuinely shared part records and define their own interfaces, support geometry, optical behavior, and any changed BOM items.
+The sketch below comes from the **imaging and optical-tweezers project**. It initially described the imaging path on the left: the sub-board, mirrors, camera branches and focal lengths. Before creating the project, the component choices, reflecting faces, wavelengths and critical distances were resolved and mapped to registered kits. One handwritten focal length was initially read as 180 mm; the user clarified that it was **100 mm**. Interpreting and reviewing the design is part of the workflow.
 
-Project JSON files store the layout and optical settings rather than duplicating models and drawings. Assets are shared by content hash under `library/assets/sha256/`. Readiness is tracked separately for display, placement, simulation, procurement, and manufacturing, with evidence for each; an unverified property remains unverified.
+<p align="center">
+  <a href="docs/assets/imaging-hand-sketch.jpg"><img src="docs/assets/imaging-hand-sketch.jpg" width="48%" alt="Initial user-drawn imaging sketch on a printed board layout"></a>
+  <a href="docs/assets/imaging-tweezers-layout-r10.png"><img src="docs/assets/imaging-tweezers-layout-r10.png" width="48%" alt="R10 combined imaging and optical-tweezers layout with rendered beam envelopes"></a>
+</p>
 
-<a id="layout"></a>
-## 目录说明 / Repository Tour
+*左：最初的成像手稿。右：后来加入右侧 532 nm 光镊支路的 R10 布局。点击图片查看细节。 / Left: the initial imaging sketch. Right: the later R10 layout, with the 532 nm tweezers path added on the right. Open either image for detail.*
 
-仓库把软件、元件和具体工程分开维护。`engine/` 负责校验、摆放、光路计算、渲染、CAD 辅助和界面；`library/` 保存当前元件定义及资源；`projects/` 放示例工程；`skills/` 和 `docs/` 提供操作规范与说明。各主要目录的说明提供英文入口。
+### 用 JSON 留下可继续修改的设计 / Make the design explicit in JSON
 
-The repository separates software, component definitions, and project layouts. `engine/` contains validation, layout, optics, rendering, CAD helpers, and applications; `library/` holds the current definitions and assets; `projects/` contains example layouts; and `skills/` and `docs/` contain workflows and documentation. Directory guides include English versions.
+JSON 保存的是器件实例和工程关系：使用哪个套件、属于哪块板、相对板原点的位置、转角、选用的万能柱，以及光源和光学设置。比如下面这条记录来自 R10：同一个一英寸镜架套件安装在右侧小板上，位置为板内 `(25, 75) mm`、转角为 `90°`，支撑从 25 mm 柱换成 37.5 mm 柱。它的世界坐标还要经过小板的位置与姿态变换。这里展示的是**实例字段摘录**，完整工程还需要板定义、光学配置和对应元件库。
 
-```text
-HKSOP/
-├── hksop.py                         # 命令行入口 / Main CLI
-├── engine/                          # 校验、布局、光学与 CAD / Software engine
-├── library/                         # 当前元件库 / Current component library
-│   ├── standard/                    # 标准装配套件 / Standard kits
-│   ├── components/                  # 采购件与自制件 / Purchased and machined parts
-│   ├── modules/                     # 组合模块 / Composite modules
-│   ├── boards/                      # 底板与孔位 / Boards and hole patterns
-│   ├── custom/                      # 项目定制定义 / Project-specific definitions
-│   ├── assets/sha256/               # 模型、俯视图与图纸 / Models, views and drawings
-│   ├── registry.json               # 已登记的包 / Registered source packages
-│   └── catalog.json                # 自动生成的总表 / Generated catalog
-├── projects/                        # 示例光路 / Example layouts
-├── skills/                          # 设计、入库与交付规范 / Engineering workflows
-├── docs/                            # 说明与验证记录 / Documentation and verification
-└── config/                          # 范围及本机配置 / Scope and local configuration
+JSON records the kit, parent board, local position, orientation, selected post and optical configuration of each instance. This excerpt from R10 places a one-inch mirror kit at `(25, 75) mm` on the right-hand sub-board, rotates it by `90°`, and substitutes a 37.5 mm post for the 25 mm post. The board transform then determines its world position. This is an **instance excerpt**; a complete project also needs the board, optical settings and matching library.
+
+```json
+{
+  "id": "R-M1-1inch",
+  "kitId": "adjustable-1-45",
+  "boardId": "right532-subboard",
+  "xMm": 25.0,
+  "yMm": 75,
+  "rotationDeg": 90,
+  "universalPostSelection": {
+    "custom-post-metric-25mm-m1": "custom-post-metric-37p5mm-m1"
+  }
+}
 ```
 
-库里的 `components` 是单独采购或加工的零件，例如镜架、接杆和转接件；`kits` 是由这些零件组成、可以在编辑器里摆放的装配单元；`registeredBoards` 描述底板的真实外形、孔位和修订。项目中的实例则记录某个套件在这次工程里的位置、方向和设置。
+在二维阶段，既检查实际安装孔能否落到板孔上，也检查光线是否从正确的光学面入射、透镜间距是否满足设计。成像路径的 f400/f100 透镜间折叠光程调整为 **500 mm**；右侧 AOD 的已确认参考点到 f100 透镜调整为 **100 mm**。光束包络使用记录下来的假设：例如 532 nm 入射束腰直径 3.5 mm、M²=1；这张图没有计算 AOD 衍射效率和截光，AOD 的实际晶体作用面也未被确认为已知基准。
 
-平时修改元件，以各包的记录文件和 `registry.json` 为源。`catalog.json`、各类索引、HTML 目录和 `runtime/` 是构建结果，改完源文件后重新生成即可。`library/snapshots/web-current` 是当前兼容索引，不是历史元件库备份。
+The 2D review checks actual mounting holes, the illuminated side of each optical surface and the intended optical distances. The imaging f400/f100 pair was adjusted to a **500 mm** folded separation; the agreed AOD reference was placed **100 mm** from the following f100 lens. Beam envelopes use recorded assumptions, including a 3.5 mm input waist diameter and M²=1 for 532 nm. This rendering does not model AOD diffraction efficiency or clipping, and the crystal interaction plane was not established as a known datum.
 
-In the library, `components` are individual purchased or machined parts, `kits` are placeable assemblies, and `registeredBoards` define board geometry, mounting holes, and revisions. Project instances describe where a kit is used and how it is configured in a particular layout. Edit the package records and registry, then rebuild the generated catalog, indexes, and runtime. `library/snapshots/web-current` is the current compatibility index, not a historical library archive.
+### 用真实几何检查装不装得下 / Rebuild and inspect the real assembly
+
+三维阶段把现有器件、转接件、万能柱和紧固件组成独立子装配，再按 JSON 与板层变换放入总装。下面是随后完成的 **R11 下板总装**。右侧模块采用 20 mm 小板、18.064 mm 支腿和板上 75 mm 光高，合计为相对下板顶面的 **113.064 mm**。这个高度来自实际系统接口，并没有被强行取整到 12.5 mm。
+
+In 3D, the existing device, adapter, post and fasteners form a kit sub-assembly, which is placed using the project and board transforms. The subsequent **R11 lower-board assembly** is shown below. Its right-hand module combines a 20 mm board, 18.064 mm legs and a 75 mm optical height above that board, giving **113.064 mm** above the lower-board surface. That height follows the actual system interface; it is not rounded to a 12.5 mm multiple.
+
+![R11 lower-board assembly with imaging on the left and the 532 nm optical-tweezers path on the right](docs/assets/imaging-tweezers-assembly-r11.png)
+
+三维核对还发现了二维图没有充分暴露的问题：小板缺口要加深，一条支腿要移开框架立柱，两片蓝色镜片需要约 **0.813 mm** 的补偿垫环，让真实反射面回到指定基准。修正后再核对孔位、光高、实体干涉和装配层级。这个过程会把发现的问题带回项目或元件定义，形成下一次可复建的版本。
+
+The CAD review exposed details that were not fully apparent in the layout: a deeper board cutout, a leg moved clear of a frame column, and approximately **0.813 mm** compensation spacers at two blue mirror mounts to bring the real reflecting surfaces back to their intended datums. Mounting holes, optical heights, solid interference and assembly hierarchy were checked after those changes. Findings feed back into the project or component definition for the next rebuild.
+
+这是一条已经实际使用的人与 AI 协作流程。当前仓库提供协议、编辑器、库和复建工具；具体 CAD 复建仍要适配项目支持的套件与板层。图中模型是静态工程装配，不代表机构运动、所有光学参数或加工放行均已完成。详细过程与图片阶段见[案例说明](docs/workflow-case-study.md)。
+
+This is an engineering workflow used by people working with AI. The repository provides the protocol, editor, library and reconstruction tools; CAD rebuilds still need a project-compatible set of kits and board transforms. The result shown is a static engineering assembly, with its recorded limits on mechanism motion, optical parameters and manufacturing approval. See the [case study](docs/workflow-case-study.en.md) for the stages and evidence.
+
+
+<a id="mechanical-system"></a>
+## 万能柱与转接件体系 / Universal posts and adapters
+
+万能柱负责可重复使用的下半部分：底座与板孔连接，柱体确定支撑高度，顶面接口连接转接件。转接件负责器件特有的上半部分：接住厂家原有安装面，把真实光学中心、反射面或透射轴带到协议要求的位置。镜架、PBS、波片架、AOD 或相机保留自己的实际尺寸，通过不同转接件进入同一套装配体系。
+
+这样，新增器件时可以沿用已有柱和底座接口，把设计工作集中到确实不同的连接处。一个可摆放的 `kit` 包含器件、转接件、支撑及所需紧固件，并声明安装孔、光学基准、外形和 BOM。45° 与 90° 安装变体要分别描述自己的几何；只有确实共用的零件才共用记录。
+
+A universal post supplies the reusable lower interface: a base fixed to the board, a defined support height, and a top interface for the adapter. The adapter handles the device-specific connection and brings the actual optical centre, reflecting surface or transmission axis to the required datum. Mirror mounts, PBS holders, waveplates, AODs and cameras keep their real dimensions and join the system through their own adapters.
+
+Adding a device can therefore reuse the established post and board interface, while concentrating new design work on the connection that differs. A placeable `kit` describes the device, adapter, support and required fasteners, together with mounting holes, optical datums, envelope and BOM. The 45° and 90° mounting variants each describe their own geometry and share only the parts that are actually identical.
+
+![Conceptual device-adapter-post stack and nominal H25 base hole pattern](docs/assets/post-adapter-system.svg)
+
+常用标准光高为相对相应支撑平面的 **62.5 mm**。当前万能柱标准系列为 **12.5、25、37.5…150 mm**；柱高已经包含底座。转接件补齐器件安装面到真实光学基准之间的差值，其有效高度可以不是 12.5 mm 的整数倍。多层系统还要加上板厚和支腿等明确的支撑高度。定位销负责所设计的定位约束，螺钉提供夹紧；最终能否可靠装配仍取决于实际孔、公差、接触面和操作空间。
+
+The usual nominal optical height is **62.5 mm above the relevant support plane**. The current standard post series is **12.5, 25, 37.5 … 150 mm**, with the base included in the stated height. The adapter compensates for the device's actual mounting-to-optical-datum distance; its effective height need not be a multiple of 12.5 mm. Multi-level assemblies also account for board and leg heights. Locating pins provide their designed constraints and screws provide clamping; fit depends on the actual holes, tolerances, contact surfaces and access.
+
+<a id="standard"></a>
+## 为什么是标准协议：12.5 mm 定位机制 / What makes it standard?
+
+这里的“标准”指一套共同遵守的工程约定：单位、坐标原点、安装孔、光学基准、支撑高度和安装方向都有明确含义。**12.5 mm 是这个体系常用的几何模数**。常规板的 12.5 mm 或 25 mm 孔距、以 12.5 mm 递增的柱高，以及明确的套件孔位，使不同器件可以在同一布局中组合，也让程序能够判断一个摆法是否成立。
+
+以上图的 25 mm 万能柱底座为例，底座外形为 35 × 35 mm，四个安装孔构成 **25 × 25 mm** 的方阵。以柱轴为局部原点，孔中心就是 **(±12.5, ±12.5) mm**。对应的可调反射镜套件把光学中心定义在这个原点上方 62.5 mm，转接件负责实现这一关系。把套件移到另一处或旋转后，程序应变换这四个真实孔位，核对它们与目标板孔的重合关系。仅把图标中心吸到网格上，并不能证明可以固定。
+
+底板自己的原点和孔阵偏移同样重要。常规网格按 `edgeOffsetMm + index × pitchMm` 定位；异形板和已登记底板以真实的 `holesMm` 孔表为准。孔表里没有的孔，不能因为 `pitchMm` 写了 12.5 就推定存在。特殊光高、偏置底座和自定义转接件可以纳入体系，但必须把实际尺寸、变换和适用范围写清楚。**12.5 mm 表示设计规则，不表示定位精度，也不是国际认证。**
+
+“Standard” means a shared engineering contract: units, coordinate origins, mounting holes, optical datums, support heights and allowed configurations have defined meanings. **12.5 mm is a common geometric module**. The 12.5 mm or 25 mm pitches of supported regular boards, the 12.5 mm post-height increments and explicit kit mounting patterns make components composable and placements checkable.
+
+For the H25 post shown above, a 35 × 35 mm base carries a **25 × 25 mm** mounting-hole square. Relative to the post axis, the hole centres are **(±12.5, ±12.5) mm**. The corresponding adjustable-mirror kit defines its optical centre 62.5 mm above that origin, with the adapter establishing the relationship. A translated or rotated kit must bring those actual transformed holes onto compatible board holes. Snapping the icon centre to a grid alone does not establish a mountable placement.
+
+Board origins and grid offsets matter too. A regular grid uses `edgeOffsetMm + index × pitchMm`; registered and custom boards use their actual `holesMm` definitions. Declaring a 12.5 mm pitch does not create holes absent from that map. Special heights, offset bases and custom adapters can fit the same protocol when their real dimensions and transforms are explicit. **The 12.5 mm module is a design convention, not a positioning tolerance or an international certification.**
+
+这些关系可以直接追溯到[万能柱记录](library/components/custom-post-metric-25mm-m1/records/custom-post-metric-25mm-m1.json)、[可调反射镜套件](library/standard/adjustable/adjustable-1/records/adjustable-1-45.json)和[孔位对齐实现](engine/layout/javascript/web/layout.js)。 / These relationships are recorded in the [post definition](library/components/custom-post-metric-25mm-m1/records/custom-post-metric-25mm-m1.json), [mirror kit](library/standard/adjustable/adjustable-1/records/adjustable-1-45.json) and [mounting-alignment implementation](engine/layout/javascript/web/layout.js).
+
+<a id="design"></a>
+## 同一份定义，贯穿整个工程 / One definition through the project
+
+元件库与项目承担不同工作。元件包维护型号、机械接口、光学行为、采购组成和当前模型；`library/registry.json` 决定哪些包进入正式清单，编译器再生成 catalog 与索引。新元件主要维护自己的包，其他项目继续引用稳定 ID。项目 JSON 保存实例和实验设置，大型 STEP、俯视图与图纸按内容哈希共享。
+
+二维图片、光学计算与三维几何也有各自的依据。图片负责展示，光学规则描述支持的相互作用，CAD 提供真实实体；三者通过明确的基准和变换对应。三维复建保留“零件 → 套件子装配 → 项目实例”的层级。不同用途分别记录 `display`、`placement`、`simulation`、`procurement` 和 `manufacturing` 的状态与证据，避免把“能显示”当作“可以加工”。
+
+The library owns part numbers, mechanical interfaces, optical behavior, BOM composition and current assets. `library/registry.json` selects the supported packages, and the compiler generates the shared catalog and indexes. New devices are maintained in their own packages while projects reference stable IDs. Project JSON stores instances and experimental settings; large STEP files, views and drawings are shared by content hash.
+
+Display assets, optical rules and CAD serve distinct roles and are connected through explicit datums and transforms. The 3D workflow preserves the hierarchy from parts to kit sub-assemblies to project occurrences. Readiness and evidence are recorded separately for `display`, `placement`, `simulation`, `procurement` and `manufacturing`, so a viewable model does not imply a manufacturing release.
 
 <a id="quick-start"></a>
 ## 快速上手 / Quick Start
@@ -129,8 +188,40 @@ CAD operations require the [CAD dependencies](engine/requirements-cad.txt). Inst
 
 </details>
 
+<a id="layout"></a>
+## 目录说明 / Repository Tour
+
+仓库把软件、元件和具体工程分开维护。`engine/` 负责校验、摆放、光路计算、渲染、CAD 辅助和界面；`library/` 保存当前元件定义及资源；`projects/` 放示例工程；`skills/` 和 `docs/` 提供操作规范与说明。各主要目录的说明提供英文入口。
+
+The repository separates software, component definitions, and project layouts. `engine/` contains validation, layout, optics, rendering, CAD helpers, and applications; `library/` holds the current definitions and assets; `projects/` contains example layouts; and `skills/` and `docs/` contain workflows and documentation. Directory guides include English versions.
+
+```text
+HKSOP/
+├── hksop.py                         # 命令行入口 / Main CLI
+├── engine/                          # 校验、布局、光学与 CAD / Software engine
+├── library/                         # 当前元件库 / Current component library
+│   ├── standard/                    # 标准装配套件 / Standard kits
+│   ├── components/                  # 采购件与自制件 / Purchased and machined parts
+│   ├── modules/                     # 组合模块 / Composite modules
+│   ├── boards/                      # 底板与孔位 / Boards and hole patterns
+│   ├── custom/                      # 项目定制定义 / Project-specific definitions
+│   ├── assets/sha256/               # 模型、俯视图与图纸 / Models, views and drawings
+│   ├── registry.json               # 已登记的包 / Registered source packages
+│   └── catalog.json                # 自动生成的总表 / Generated catalog
+├── projects/                        # 示例光路 / Example layouts
+├── skills/                          # 设计、入库与交付规范 / Engineering workflows
+├── docs/                            # 说明与验证记录 / Documentation and verification
+└── config/                          # 范围及本机配置 / Scope and local configuration
+```
+
+库里的 `components` 是单独采购或加工的零件，例如镜架、接杆和转接件；`kits` 是由这些零件组成、可以在编辑器里摆放的装配单元；`registeredBoards` 描述底板的真实外形、孔位和修订。项目中的实例则记录某个套件在这次工程里的位置、方向和设置。
+
+平时修改元件，以各包的记录文件和 `registry.json` 为源。`catalog.json`、各类索引、HTML 目录和 `runtime/` 是构建结果，改完源文件后重新生成即可。`library/snapshots/web-current` 是当前兼容索引，不是历史元件库备份。
+
+In the library, `components` are individual purchased or machined parts, `kits` are placeable assemblies, and `registeredBoards` define board geometry, mounting holes, and revisions. Project instances describe where a kit is used and how it is configured in a particular layout. Edit the package records and registry, then rebuild the generated catalog, indexes, and runtime. `library/snapshots/web-current` is the current compatibility index, not a historical library archive.
+
 <a id="workflows"></a>
-## 使用方法 / Everyday Workflows
+## 日常维护与交付 / Maintaining and delivering a design
 
 ### 添加新元件 / Adding a component
 
@@ -150,15 +241,11 @@ python hksop.py package adopt runtime/staging/<stage-id>
 
 After adoption, rebuild the catalog and runtime and verify the package in a project. Check the top view, mounting holes, optical axis height, supported tracing, and BOM output. Package checks cover structure, catalog contracts, BOM references, and declared assets; they do not certify physical fit. See the [onboarding guide](docs/component-intake.en.md) and [upload workflow guide](skills/hksop-component-upload/README.en.md).
 
-### 搭光路、复建三维与准备交付 / Designing and delivering a setup
+### 从核对到交付 / From review to delivery
 
-先确定底板、光轴高度和所需套件，再在编辑器中摆放器件、配置入射光，检查孔位、干涉和光路，保存当前 `project.zzoptics.json`。三维复建流程使用配套 STEP 和布局变换建立器件子装配及总装，随后还要核对层级、内部姿态和装配基准。
+布局与三维核对完成后，从当前 BOM 整理采购型号、数量和来源。自制件的加工包还需要同一修订的模型、工程图、孔与螺纹标注、材料、表面处理和打标要求；按[加工包规范](skills/hksop-manufacturing-package/SKILL.md)或[客户包规范](skills/hksop-customer-package/SKILL.md)核对。STEP 给出几何，制造所需的完整要求与放行状态仍需在交付包中明确。
 
-采购时从 BOM 整理型号、数量和来源。需要加工自制件或交付整套系统时，按[加工包规范](skills/hksop-manufacturing-package/SKILL.md)或[客户包规范](skills/hksop-customer-package/SKILL.md)，检查当前修订的模型、工程图、孔与螺纹标注、材料、表面处理和打标要求。**STEP 可以是装配模型或加工几何，但单独一份 STEP 不等于完整加工包；下单前需要核对相应图纸、工艺要求和验收状态。**
-
-Choose the board, optical axis height, and kits, then place the components, configure the beams, check mounting constraints and clearances, and save the project JSON. The 3D workflow rebuilds kit sub-assemblies and the overall assembly from the library STEP files and layout transforms; verify the resulting hierarchy, internal poses, and datums.
-
-Use the BOM to prepare purchasing quantities and sources. For custom machining or system handoff, follow the [manufacturing](skills/hksop-manufacturing-package/README.en.md) or [customer delivery](skills/hksop-customer-package/README.en.md) guide and check the matching model revision, drawings, hole and thread callouts, material, finish, and marking requirements. A STEP file can provide assembly or machining geometry, but it is not a complete manufacturing package by itself.
+After layout and CAD review, use the current BOM for purchasing quantities and sources. Custom parts also need matching revisions of models and drawings, hole and thread callouts, materials, finishes and marking instructions. Follow the [manufacturing](skills/hksop-manufacturing-package/README.en.md) or [customer delivery](skills/hksop-customer-package/README.en.md) workflow. STEP supplies geometry; the delivery package must also state the manufacturing requirements and release status.
 
 <a id="examples"></a>
 ## 示例光路 / Example Setups
@@ -169,6 +256,17 @@ Use the BOM to prepare purchasing quantities and sources. For custom machining o
 
 [Basic Reflection](projects/基础反射示例/README.en.md) contains one adjustable mirror-mount instance for learning the project format and editor controls; it has no configured light source. [1-to-3](projects/一分三示例/README.en.md) uses 18 instances to demonstrate a branching layout. [DoublePass](projects/DoublePass示例/README.en.md) uses 12 instances, including project-specific custom definitions. All three have editor compatibility check records; their original physical and manufacturing acceptance limits remain unchanged.
 
+### DoublePass：从摆放到装配 / From placement to assembly
+
+下面两张真实资料来自 DoublePass 手动镜架 **R8**：左侧是编辑器中的布局，右侧是对应的三维总装。不同镜架、PBS、透镜和波片支撑共用这套柱与转接件体系，也保留各自的结构。图片展示这一修订的工作成果，不代表后续改版。
+
+These images show the manual-mount **R8** DoublePass configuration: the editor layout on the left and its CAD assembly on the right. Different mirrors, PBS holders, lenses and waveplate supports use the common post-and-adapter system while retaining their own geometry. The images document this revision rather than later redesigns.
+
+<p align="center">
+  <a href="docs/assets/double-pass-layout-r8.png"><img src="docs/assets/double-pass-layout-r8.png" width="48%" alt="DoublePass R8 layout in the editor"></a>
+  <a href="docs/assets/double-pass-assembly-r8.png"><img src="docs/assets/double-pass-assembly-r8.png" width="48%" alt="DoublePass R8 hierarchical CAD assembly preview"></a>
+</p>
+
 ## 文件管理约定 / File and Version Rules
 
 引擎和元件库只维护当前有效的代码、定义及现用资源，不同现用型号和安装变体可以并存。当前元件的 STEP、俯视图和配套图纸属于正式库资源；项目按需要保留当前最终成果，历史只保留人工确认或正式交付的工程 JSON 里程碑，并按内容去重。
@@ -178,13 +276,11 @@ Use the BOM to prepare purchasing quantities and sources. For custom machining o
 The engine and library retain active code, definitions, and assets, including current component models and drawings. Active mounting variants can coexist. Projects retain their current deliverables as needed; historical retention is limited to deduplicated, confirmed engineering JSON milestones. This repository includes three current examples, without historical project CAD or delivery packages. Runtime data, build caches, local logs, and machine configuration are not committed. Historical JSON files must be checked against the current library when reopened; see the [retention policy](docs/retention-policy.en.md).
 
 <a id="documentation"></a>
-## 相关文档 / Documentation
+## 继续阅读 / Documentation
 
-了解文件关系可先看[架构说明](docs/architecture.md)和[元件库说明](library/README.md)，命令用法见[命令参考](docs/commands.md)。设计新元件时，结合[设计规范](skills/hksop-component-design/SKILL.md)、[入库指南](docs/component-intake.md)与[包结构 schema](engine/schemas/hksop-package.schema.json)。让助手参与工作前，先读 [HKSOP 上下文](skills/HKSOP_CONTEXT.md)，再选择[标准光学协议](skills/hksop-standard-optics/SKILL.md)及对应专项规范。
+实际设计过程见[手稿到三维案例](docs/workflow-case-study.md)，文件与数据关系见[架构说明](docs/architecture.md)、[元件库说明](library/README.md)和[命令参考](docs/commands.md)。新增元件时结合[设计规范](skills/hksop-component-design/SKILL.md)、[入库指南](docs/component-intake.md)和[包 schema](engine/schemas/hksop-package.schema.json)。让 AI 助手参与前，先读 [HKSOP 上下文](skills/HKSOP_CONTEXT.md)与[标准光学协议](skills/hksop-standard-optics/SKILL.md)。
 
-需要核对资料时，可查看[收录范围](docs/selection.json)、[资源清单](docs/asset-manifest.json)、[初始本地验收](docs/verification.md)、[运行验证](docs/runtime-verification.json)和[示例验证](docs/example-verification.json)。初始记录描述的是当时状态；当前清单应从 `main` 上的元件包重新编译，生成的 `catalog.json` 本身不提交到 Git。
-
-English readers can start with the [architecture guide](docs/architecture.en.md), [library guide](library/README.en.md), [CLI reference](docs/commands.en.md), and [component onboarding guide](docs/component-intake.en.md). The [skills directory guide](skills/README.en.md) explains the design and delivery workflows, and the [documentation index](docs/README.en.md) links to English guides and verification records. Build the current catalog from the source packages on `main`; the generated `catalog.json` is not tracked in Git.
+English documentation includes the [sketch-to-3D case study](docs/workflow-case-study.en.md), [architecture](docs/architecture.en.md), [library](library/README.en.md), [CLI](docs/commands.en.md) and [component onboarding](docs/component-intake.en.md) guides. The [skills guide](skills/README.en.md) explains the design and delivery workflows, and the [documentation index](docs/README.en.md) links to verification records. Build the current catalog from source packages; the generated `catalog.json` is not tracked in Git.
 
 ## 来源与联系 / Origin and Contact
 
@@ -192,6 +288,10 @@ English readers can start with the [architecture guide](docs/architecture.en.md)
 
 This design comes from the **HKU Ultracold Atom Lab (ZZLab), The University of Hong Kong**. Visit [Ultracold@HKU](https://www.ultracold.hku.hk/) for the lab website. For this project, contact **Wang Junjie** at [u3013215@connect.hku.hk](mailto:u3013215@connect.hku.hk) or through [ustcredapple-dotcom](https://github.com/ustcredapple-dotcom).
 
----
+## From AI. For AI.
 
-<p align="center"><strong>HKSOP · Hong Kong Standard Optical Protocol</strong><br>HKU Ultracold Atom Lab · ZZLab</p>
+这套体系是在真实实验设计中，由人与 AI 一起迭代出来的。手稿里的意图经过确认，成为明确的器件、坐标、光学基准和装配关系；每次修正也留下可以检查和继续使用的数据。下一个 AI 接手时，可以读取这些定义和验证结果，知道改的是哪个元件、会影响哪些关系，再与研究者一起完成下一轮设计。
+
+The system has evolved through real experimental design, with people and AI working together. Reviewed sketches become explicit components, coordinates, optical datums and assembly relationships. Revisions leave data that can be inspected and reused. The next AI can read those definitions and verification results, identify what a change affects, and continue the design with the researcher.
+
+<p align="center"><strong>From AI. For AI.</strong><br><br><strong>Building an AI-native experimental system.</strong></p>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="660" viewBox="0 0 1400 660" role="img" aria-labelledby="title desc">
+<title id="title">Universal posts, adapters and the 12.5 mm positioning module</title>
+<desc id="desc">A conceptual side view separates device datum, effective adapter height and total post height. A dimensioned nominal plan of the H25 B6-R1 post base has a 35 by 35 millimetre outline and four mounting holes on a 25 by 25 millimetre square, at plus or minus 12.5 millimetres from its centre. Drawings are explanatory, not manufacturing instructions.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#8b6b3b"/></marker></defs>
+<rect width="1400" height="660" fill="#f4f2ec"/>
+<g font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" fill="#17343e">
+  <text x="44" y="50" font-size="17" letter-spacing="2" fill="#7a6b53">THE INTERFACE IS THE STANDARD</text>
+  <text x="44" y="98" font-size="30" font-weight="600">One support system. Different optical devices.</text>
+  <path d="M710 137V575" stroke="#cfcfc7"/>
+  <text x="44" y="148" font-size="16" font-weight="600">SIDE VIEW / CONCEPT</text>
+  <text x="759" y="148" font-size="16" font-weight="600">PLAN / H25 POST BASE, B6-R1</text>
+  <path d="M49 513H652" stroke="#8a9796" stroke-width="3"/>
+  <rect x="131" y="481" width="219" height="32" fill="#7f9aa1"/>
+  <rect x="181" y="363" width="119" height="118" fill="#a1b6ba" stroke="#47717d" stroke-width="2"/>
+  <rect x="154" y="325" width="173" height="38" fill="#d8b585" stroke="#997c53" stroke-width="2"/>
+  <rect x="197" y="211" width="86" height="114" rx="4" fill="#c6d8db" stroke="#47717d" stroke-width="2"/>
+  <circle cx="240" cy="257" r="27" fill="#e6f0f1" stroke="#47717d" stroke-width="2"/>
+  <path d="M74 257H625" stroke="#168366" stroke-width="2" stroke-dasharray="9 5"/>
+  <circle cx="240" cy="257" r="5" fill="#168366"/>
+  <text x="363" y="245" font-size="18" font-weight="600" fill="#168366">Actual optical datum</text>
+  <text x="363" y="282" font-size="16">Device reference height</text>
+  <text x="363" y="347" font-size="16">Effective adapter height</text>
+  <text x="363" y="414" font-size="16">Total post height</text>
+  <text x="363" y="439" font-size="14" fill="#607278">Includes the base</text>
+  <text x="44" y="544" font-size="15" fill="#607278">Support plane = local Z reference</text>
+  <path d="M90 257V513" stroke="#8b6b3b" marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <text x="72" y="390" transform="rotate(-90 72 390)" font-size="16" text-anchor="middle" fill="#8b6b3b">62.5 mm nominal axis target</text>
+  <g fill="none" stroke="#aab5b3"><path d="M1036 171V480M850 325H1221" stroke-dasharray="5 5"/></g>
+  <rect x="896" y="185" width="280" height="280" fill="#c6d8db" fill-opacity="0.55" stroke="#47717d" stroke-width="2"/>
+  <circle cx="1036" cy="325" r="100" fill="none" stroke="#819c9f" stroke-width="1.5"/>
+  <g fill="#f4f2ec" stroke="#47717d" stroke-width="2"><circle cx="936" cy="225" r="25.6"/><circle cx="1136" cy="225" r="25.6"/><circle cx="936" cy="425" r="25.6"/><circle cx="1136" cy="425" r="25.6"/></g>
+  <path d="M1026 325H1046M1036 315V335" stroke="#168366" stroke-width="2"/>
+  <path d="M936 458V505M1136 458V547M1036 471V547" stroke="#b6a88f"/>
+  <path d="M936 493H1136" stroke="#8b6b3b" marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <text x="1036" y="484" font-size="17" text-anchor="middle" fill="#8b6b3b">25 mm</text>
+  <path d="M1036 533H1136" stroke="#8b6b3b" marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <text x="1086" y="564" font-size="18" font-weight="600" text-anchor="middle" fill="#8b6b3b">12.5 mm</text>
+  <text x="759" y="600" font-size="16">Hole centres: (±12.5, ±12.5) mm</text>
+  <text x="759" y="625" font-size="14" fill="#607278">35 × 35 mm base · Four Ø6.4 mm holes · Nominal dimensions</text>
+  <text x="44" y="600" font-size="16">Device + adapter + post = a placeable kit</text>
+  <text x="44" y="625" font-size="14" fill="#607278">Schematic only. Use the current part drawing for manufacture.</text>
+</g>
+</svg>

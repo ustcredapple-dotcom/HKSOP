@@ -1,0 +1,61 @@
+{
+  "format": "hksop-homepage-image-sources-v1",
+  "scope": "Documentation images only; this does not add the full imaging project or its CAD dependency set to the curated library.",
+  "images": [
+    {
+      "file": "imaging-hand-sketch.jpg",
+      "project": "Imaging and optical tweezers",
+      "stage": "Initial imaging sketch",
+      "date": "2026-11-04",
+      "originalFilename": "reference-rotated.jpg",
+      "sha256": "7d015c16192c16c1b67a6d057b8bcaa9c44dd19dec2ae9eac802b04391c0976e",
+      "bytes": 932356,
+      "note": "Existing upright copy of the user-drawn imaging layout. It predates the added right-hand 532 nm path.",
+      "copiedWithoutPixelChanges": true
+    },
+    {
+      "file": "imaging-tweezers-layout-r10.png",
+      "project": "Imaging and optical tweezers",
+      "stage": "R10 combined 2D layout and Gaussian-envelope rendering",
+      "date": "2026-11-04",
+      "originalFilename": "下底板_成像与光镊_R10_高斯总俯视.png",
+      "sha256": "28f3b2f24378db0a66f57845372208da7dff69edbe4d7ad5d271a32f4bbadc7c",
+      "bytes": 1642243,
+      "note": "Left: 369/399 nm imaging. Right: later 532 nm tweezers addition. Rendering assumptions and outstanding mechanical compensation are printed on the source image.",
+      "copiedWithoutPixelChanges": true
+    },
+    {
+      "file": "imaging-tweezers-assembly-r11.png",
+      "project": "Imaging and optical tweezers",
+      "stage": "R11 lower-board 3D assembly preview",
+      "date": "2026-11-05",
+      "originalFilename": "FOR1_Imaging_Tweezers_R11_ISO.png",
+      "sha256": "44dbdf180a36eaccad35e0d75b74d4a4f2b48aac1a58a94cc375a81e33e2cf7f",
+      "bytes": 354037,
+      "note": "Subsequent CAD stage: actual kit geometry, support structures and beam references. A CAD preview, not a photograph or a manufacturing approval.",
+      "copiedWithoutPixelChanges": true
+    },
+    {
+      "file": "double-pass-layout-r8.png",
+      "project": "DoublePass",
+      "stage": "R8 manual-mount editor layout",
+      "date": "2026-11-06",
+      "originalFilename": "R8_手动版编辑器.png",
+      "sha256": "44c043b347dd68b377be566e172d937f7af98e7456801b95d2a4830e5921bda2",
+      "bytes": 227975,
+      "note": "Existing editor screenshot for the manual-mount R8 configuration.",
+      "copiedWithoutPixelChanges": true
+    },
+    {
+      "file": "double-pass-assembly-r8.png",
+      "project": "DoublePass",
+      "stage": "R8 manual-mount 3D assembly preview",
+      "date": "2026-11-06",
+      "originalFilename": "R8_总装斜视.png",
+      "sha256": "2ab43de9405a70817268fbe86d663ee61f22c116f416d4be59737343de3551fc",
+      "bytes": 404156,
+      "note": "Existing CAD preview corresponding to the R8 manual-mount configuration; later project changes are not shown.",
+      "copiedWithoutPixelChanges": true
+    }
+  ]
+}

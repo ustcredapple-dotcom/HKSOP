@@ -1,0 +1,148 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "periscope-fixed-25s4-h62p5-to312p5-r1",
+  "files": [
+    {
+      "path": "cad/2025f97569d355739a6e30b2be2f52480fe529b06b7afc90a2030507c18d5818.step",
+      "stored": "library/assets/sha256/20/2025f97569d355739a6e30b2be2f52480fe529b06b7afc90a2030507c18d5818.step",
+      "sha256": "2025f97569d355739a6e30b2be2f52480fe529b06b7afc90a2030507c18d5818",
+      "originalReferences": [
+        "step/25-s4-r3.step"
+      ],
+      "sources": [
+        "library/assets/sha256/20/2025f97569d355739a6e30b2be2f52480fe529b06b7afc90a2030507c18d5818.step"
+      ]
+    },
+    {
+      "path": "cad/0211e14d0953cb5083d6f6c0b3a75772893065e2e6adf6da0fe8247f864ff20e.step",
+      "stored": "library/assets/sha256/02/0211e14d0953cb5083d6f6c0b3a75772893065e2e6adf6da0fe8247f864ff20e.step",
+      "sha256": "0211e14d0953cb5083d6f6c0b3a75772893065e2e6adf6da0fe8247f864ff20e",
+      "originalReferences": [
+        "step/25-s4-standard-h62p5-to312p5-r3-assembly.step"
+      ],
+      "sources": [
+        "library/assets/sha256/02/0211e14d0953cb5083d6f6c0b3a75772893065e2e6adf6da0fe8247f864ff20e.step"
+      ]
+    },
+    {
+      "path": "drawings/39c75c091cc45e328af73299ea89db9e159d0e5af79174ba8e90087b6e2c285e.pdf",
+      "stored": "library/assets/sha256/39/39c75c091cc45e328af73299ea89db9e159d0e5af79174ba8e90087b6e2c285e.pdf",
+      "sha256": "39c75c091cc45e328af73299ea89db9e159d0e5af79174ba8e90087b6e2c285e",
+      "originalReferences": [
+        "drawings/25-s4-r3.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/39/39c75c091cc45e328af73299ea89db9e159d0e5af79174ba8e90087b6e2c285e.pdf"
+      ]
+    },
+    {
+      "path": "drawings/671af94a1f0cc79df63d2991e232a7c09537e7843efedf800e5d4135be1c6e3a.pdf",
+      "stored": "library/assets/sha256/67/671af94a1f0cc79df63d2991e232a7c09537e7843efedf800e5d4135be1c6e3a.pdf",
+      "sha256": "671af94a1f0cc79df63d2991e232a7c09537e7843efedf800e5d4135be1c6e3a",
+      "originalReferences": [
+        "drawings/25-s4-standard-h62p5-to312p5-r3-assembly.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/67/671af94a1f0cc79df63d2991e232a7c09537e7843efedf800e5d4135be1c6e3a.pdf"
+      ]
+    },
+    {
+      "path": "drawings/9814cf49dce7814b3cc8c0398d517c67b85a71b72de51cc1df81747495b74111.pdf",
+      "stored": "library/assets/sha256/98/9814cf49dce7814b3cc8c0398d517c67b85a71b72de51cc1df81747495b74111.pdf",
+      "sha256": "9814cf49dce7814b3cc8c0398d517c67b85a71b72de51cc1df81747495b74111",
+      "originalReferences": [
+        "drawings/25-s4-r3-marking.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/98/9814cf49dce7814b3cc8c0398d517c67b85a71b72de51cc1df81747495b74111.pdf"
+      ]
+    },
+    {
+      "path": "drawings/a3aa7d6434a688952858855adf164cb83dd34834b443d8bf642530159c303afe.dxf",
+      "stored": "library/assets/sha256/a3/a3aa7d6434a688952858855adf164cb83dd34834b443d8bf642530159c303afe.dxf",
+      "sha256": "a3aa7d6434a688952858855adf164cb83dd34834b443d8bf642530159c303afe",
+      "originalReferences": [
+        "drawings/25-s4-r3-rear-marking.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/a3/a3aa7d6434a688952858855adf164cb83dd34834b443d8bf642530159c303afe.dxf"
+      ]
+    },
+    {
+      "path": "rendering/c7da1b25c498cfc0827e06bbf4d52fedf8bf5a50d93fa27d229ec422f48d00a1.svg",
+      "stored": "library/assets/sha256/c7/c7da1b25c498cfc0827e06bbf4d52fedf8bf5a50d93fa27d229ec422f48d00a1.svg",
+      "sha256": "c7da1b25c498cfc0827e06bbf4d52fedf8bf5a50d93fa27d229ec422f48d00a1",
+      "originalReferences": [
+        "topviews/25-s4-standard-h62p5-to312p5-r3-top.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/c7/c7da1b25c498cfc0827e06bbf4d52fedf8bf5a50d93fa27d229ec422f48d00a1.svg"
+      ]
+    },
+    {
+      "path": "rendering/1909c73ca24819e484c7ce80c78bcf0756604b8151ef108379c1c2bd683fc863.svg",
+      "stored": "library/assets/sha256/19/1909c73ca24819e484c7ce80c78bcf0756604b8151ef108379c1c2bd683fc863.svg",
+      "sha256": "1909c73ca24819e484c7ce80c78bcf0756604b8151ef108379c1c2bd683fc863",
+      "originalReferences": [
+        "topviews/25-s4-standard-h62p5-to312p5-r3-side.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/19/1909c73ca24819e484c7ce80c78bcf0756604b8151ef108379c1c2bd683fc863.svg"
+      ]
+    },
+    {
+      "path": "evidence/1dcdba6b5eb055bf3e607b1a51de8ef980c1c86a33b1d12da9739003801ddf9e.json",
+      "stored": "library/assets/sha256/1d/1dcdba6b5eb055bf3e607b1a51de8ef980c1c86a33b1d12da9739003801ddf9e.json",
+      "sha256": "1dcdba6b5eb055bf3e607b1a51de8ef980c1c86a33b1d12da9739003801ddf9e",
+      "originalReferences": [
+        "templates/25-s4-r3-geometry-review.json"
+      ],
+      "sources": [
+        "library/assets/sha256/1d/1dcdba6b5eb055bf3e607b1a51de8ef980c1c86a33b1d12da9739003801ddf9e.json"
+      ]
+    },
+    {
+      "path": "evidence/759b8aa6932527cd1be1fcde15fffb12393e3f564bca5410b77e38044cb063d4.json",
+      "stored": "library/assets/sha256/75/759b8aa6932527cd1be1fcde15fffb12393e3f564bca5410b77e38044cb063d4.json",
+      "sha256": "759b8aa6932527cd1be1fcde15fffb12393e3f564bca5410b77e38044cb063d4",
+      "originalReferences": [
+        "templates/25-s4-r3-marking-review.json"
+      ],
+      "sources": [
+        "library/assets/sha256/75/759b8aa6932527cd1be1fcde15fffb12393e3f564bca5410b77e38044cb063d4.json"
+      ]
+    },
+    {
+      "path": "evidence/c9858ce902af5aa874654ccf7b64e37679025296803e59242a415d4e226f9d77.json",
+      "stored": "library/assets/sha256/c9/c9858ce902af5aa874654ccf7b64e37679025296803e59242a415d4e226f9d77.json",
+      "sha256": "c9858ce902af5aa874654ccf7b64e37679025296803e59242a415d4e226f9d77",
+      "originalReferences": [
+        "templates/25-s4-r3-projection.json"
+      ],
+      "sources": [
+        "library/assets/sha256/c9/c9858ce902af5aa874654ccf7b64e37679025296803e59242a415d4e226f9d77.json"
+      ]
+    },
+    {
+      "path": "evidence/e0a6b78113b47ea68ceaad22dcb1dd2e03a2c1d70469486c1b815e5437813a29.json",
+      "stored": "library/assets/sha256/e0/e0a6b78113b47ea68ceaad22dcb1dd2e03a2c1d70469486c1b815e5437813a29.json",
+      "sha256": "e0a6b78113b47ea68ceaad22dcb1dd2e03a2c1d70469486c1b815e5437813a29",
+      "originalReferences": [
+        "templates/25-s4-r3-pdf-check.json"
+      ],
+      "sources": [
+        "library/assets/sha256/e0/e0a6b78113b47ea68ceaad22dcb1dd2e03a2c1d70469486c1b815e5437813a29.json"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-post-metric-12p5mm-m1",
+    "custom-13",
+    "mt-flf1s",
+    "hardware-iso4762-m6x12",
+    "hardware-h2-r3-m4x20",
+    "new-hardware-f0579b934c7c",
+    "periscope-d2x8-pin",
+    "dpt3-pin-d2x5"
+  ]
+}

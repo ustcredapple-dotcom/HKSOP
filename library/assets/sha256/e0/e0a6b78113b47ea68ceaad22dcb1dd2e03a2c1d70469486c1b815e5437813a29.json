@@ -1,0 +1,17 @@
+{
+  "machining": {
+    "pages": 2,
+    "sha256": "39c75c091cc45e328af73299ea89db9e159d0e5af79174ba8e90087b6e2c285e",
+    "textWithinPage": true
+  },
+  "marking": {
+    "pages": 1,
+    "sha256": "9814cf49dce7814b3cc8c0398d517c67b85a71b72de51cc1df81747495b74111",
+    "textWithinPage": true
+  },
+  "assembly": {
+    "pages": 1,
+    "sha256": "671af94a1f0cc79df63d2991e232a7c09537e7843efedf800e5d4135be1c6e3a",
+    "textWithinPage": true
+  }
+}

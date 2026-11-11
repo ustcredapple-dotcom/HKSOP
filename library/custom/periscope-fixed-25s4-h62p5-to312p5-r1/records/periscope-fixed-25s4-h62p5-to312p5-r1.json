@@ -1,0 +1,678 @@
+{
+  "id": "periscope-fixed-25s4-h62p5-to312p5-r1",
+  "name": "直向光爬架 · 四孔窄底双固定镜 · 62.5→312.5 mm",
+  "category": "periscope",
+  "variant": "1 inch · 45° 双固定镜 · R3",
+  "revision": "R3",
+  "description": "双 H12.5 底座、ZZ-13-M1 转接板、MT-FLF1S。45 mm 等宽直板与四孔底座，孔距50×25。",
+  "components": [
+    {
+      "componentId": "custom-periscope-25s4-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-post-metric-12p5mm-m1",
+      "quantity": 2
+    },
+    {
+      "componentId": "custom-13",
+      "quantity": 2
+    },
+    {
+      "componentId": "mt-flf1s",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-iso4762-m6x12",
+      "quantity": 12
+    },
+    {
+      "componentId": "hardware-h2-r3-m4x20",
+      "quantity": 4
+    },
+    {
+      "componentId": "new-hardware-f0579b934c7c",
+      "quantity": 2
+    },
+    {
+      "componentId": "periscope-d2x8-pin",
+      "quantity": 4
+    },
+    {
+      "componentId": "dpt3-pin-d2x5",
+      "quantity": 4
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "lower-mirror-optic",
+      "label": "下镜 · Ø25.4×6 mm · 膜层待选",
+      "type": "mirror",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 25.4,
+      "thicknessMm": 6,
+      "requiredAOIDeg": 45,
+      "note": "参考几何，采购需确认实际型号、净口、膜层和公差。"
+    },
+    {
+      "id": "upper-mirror-optic",
+      "label": "上镜 · Ø25.4×6 mm · 膜层待选",
+      "type": "mirror",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 25.4,
+      "thicknessMm": 6,
+      "requiredAOIDeg": 45,
+      "note": "参考几何，采购需确认实际型号、净口、膜层和公差。"
+    }
+  ],
+  "layout": {
+    "placementAllowed": true,
+    "opticalType": "empty",
+    "opticalDefaults": {
+      "elementType": "empty",
+      "inserted": true,
+      "configured": true
+    },
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalAxisHeightMm": null,
+    "opticalAssembly": {
+      "version": 3,
+      "verified": true,
+      "bounds": {
+        "min": [
+          -82.0,
+          -22.5,
+          0.0
+        ],
+        "max": [
+          18.450000099999947,
+          22.5,
+          337.5
+        ]
+      },
+      "nodes": [
+        {
+          "id": "lower-mirror",
+          "name": "下镜",
+          "type": "mirror",
+          "centerMm": [
+            0,
+            2.1213203435596424,
+            60.378679656440355
+          ],
+          "normal": [
+            0,
+            -0.7071067811865475,
+            0.7071067811865475
+          ],
+          "radiusMm": 12.7,
+          "geometryConfirmed": true,
+          "coatingFaceIndex": 0,
+          "clearApertureConfirmed": false,
+          "mechanicalClearRadiusMm": 11.5,
+          "faces": [
+            {
+              "centerMm": [
+                0,
+                0,
+                62.5
+              ],
+              "normal": [
+                0,
+                -0.7071067811865475,
+                0.7071067811865475
+              ],
+              "radiusMm": 12.7
+            },
+            {
+              "centerMm": [
+                0,
+                4.242640687119285,
+                58.257359312880716
+              ],
+              "normal": [
+                0,
+                0.7071067811865475,
+                -0.7071067811865475
+              ],
+              "radiusMm": 12.7
+            }
+          ],
+          "note": "按原厂后座沿正法线加6 mm定位镀膜面。原厂机械通光Ø23，镜片净口与膜层待选。"
+        },
+        {
+          "id": "upper-mirror",
+          "name": "上镜",
+          "type": "mirror",
+          "centerMm": [
+            0,
+            -2.1213203435596424,
+            314.62132034355966
+          ],
+          "normal": [
+            0,
+            0.7071067811865475,
+            -0.7071067811865475
+          ],
+          "radiusMm": 12.7,
+          "geometryConfirmed": true,
+          "coatingFaceIndex": 0,
+          "clearApertureConfirmed": false,
+          "mechanicalClearRadiusMm": 11.5,
+          "faces": [
+            {
+              "centerMm": [
+                0,
+                0,
+                312.5
+              ],
+              "normal": [
+                0,
+                0.7071067811865475,
+                -0.7071067811865475
+              ],
+              "radiusMm": 12.7
+            },
+            {
+              "centerMm": [
+                0,
+                -4.242640687119285,
+                316.74264068711926
+              ],
+              "normal": [
+                0,
+                -0.7071067811865475,
+                0.7071067811865475
+              ],
+              "radiusMm": 12.7
+            }
+          ],
+          "note": "按原厂后座沿正法线加6 mm定位镀膜面。原厂机械通光Ø23，镜片净口与膜层待选。"
+        }
+      ],
+      "internalElements": [
+        {
+          "id": "lower-mirror",
+          "name": "下镜",
+          "type": "mirror",
+          "slotId": "lower-mirror-optic",
+          "existingInAssembly": false,
+          "opticalDefaults": {
+            "elementType": "mirror",
+            "inserted": true,
+            "configured": false,
+            "coatingFaceIndex": 0,
+            "mirror": {
+              "mode": "data",
+              "model": "",
+              "samples": []
+            }
+          },
+          "sidePointMm": {
+            "xMm": 27.121320343559645,
+            "yMm": 60.378679656440355
+          },
+          "candidateFaces": [
+            {
+              "index": 0,
+              "sidePointMm": {
+                "xMm": 25,
+                "yMm": 62.5
+              }
+            }
+          ]
+        },
+        {
+          "id": "upper-mirror",
+          "name": "上镜",
+          "type": "mirror",
+          "slotId": "upper-mirror-optic",
+          "existingInAssembly": false,
+          "opticalDefaults": {
+            "elementType": "mirror",
+            "inserted": true,
+            "configured": false,
+            "coatingFaceIndex": 0,
+            "mirror": {
+              "mode": "data",
+              "model": "",
+              "samples": []
+            }
+          },
+          "sidePointMm": {
+            "xMm": 22.878679656440358,
+            "yMm": 314.62132034355966
+          },
+          "candidateFaces": [
+            {
+              "index": 0,
+              "sidePointMm": {
+                "xMm": 25,
+                "yMm": 312.5
+              }
+            }
+          ]
+        }
+      ],
+      "externalAxisHeightsMm": [
+        62.5,
+        312.5
+      ],
+      "sideView": {
+        "path": "topviews/1909c73ca24819e484c7ce80c78bcf0756604b8151ef108379c1c2bd683fc863.svg",
+        "topViewPath": "topviews/1909c73ca24819e484c7ce80c78bcf0756604b8151ef108379c1c2bd683fc863.svg",
+        "widthMm": 50,
+        "heightMm": 340,
+        "xMin": -25,
+        "zMin": 0,
+        "projectionAxisMm": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        }
+      },
+      "note": "标准 MT-FLF1S 实测 CAD 后座+6 mm 名义镜片；+Y→+Z→+Y。镜片镀膜待确认。"
+    },
+    "fixedUniversalPostComponentIds": [
+      "custom-post-metric-12p5mm-m1"
+    ],
+    "topViewPath": "topviews/c7da1b25c498cfc0827e06bbf4d52fedf8bf5a50d93fa27d229ec422f48d00a1.svg",
+    "topViewUrl": "./topviews/c7da1b25c498cfc0827e06bbf4d52fedf8bf5a50d93fa27d229ec422f48d00a1.svg",
+    "widthMm": 105,
+    "heightMm": 50,
+    "anchorXMm": 84,
+    "anchorYMm": 25,
+    "baseBoundsMm": {
+      "xMin": -82,
+      "yMin": -22.5,
+      "xMax": -18,
+      "yMax": 22.5
+    },
+    "basePolygonsMm": [
+      [
+        {
+          "xMm": -82,
+          "yMm": -22.5
+        },
+        {
+          "xMm": -18,
+          "yMm": -22.5
+        },
+        {
+          "xMm": -18,
+          "yMm": 22.5
+        },
+        {
+          "xMm": -82,
+          "yMm": 22.5
+        }
+      ]
+    ],
+    "collisionBoundsMm": {
+      "xMin": -82.05,
+      "yMin": -22.55,
+      "xMax": 18.500000762939454,
+      "yMax": 22.55
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -82.05,
+          "yMm": 22.55
+        },
+        {
+          "xMm": -17.95,
+          "yMm": 22.55
+        },
+        {
+          "xMm": -17.95,
+          "yMm": 18.303405
+        },
+        {
+          "xMm": -13.509352,
+          "yMm": 18.297705
+        },
+        {
+          "xMm": -13.19233,
+          "yMm": 18.211411
+        },
+        {
+          "xMm": -12.916823,
+          "yMm": 18.033809
+        },
+        {
+          "xMm": -12.660154,
+          "yMm": 17.680545
+        },
+        {
+          "xMm": -12.575113,
+          "yMm": 17.36302
+        },
+        {
+          "xMm": -12.56943,
+          "yMm": 14.130542
+        },
+        {
+          "xMm": -12.506976,
+          "yMm": 13.628327
+        },
+        {
+          "xMm": -12.161609,
+          "yMm": 12.922056
+        },
+        {
+          "xMm": -11.913354,
+          "yMm": 12.685911
+        },
+        {
+          "xMm": -11.701002,
+          "yMm": 12.578831
+        },
+        {
+          "xMm": -11.581987,
+          "yMm": 12.571749
+        },
+        {
+          "xMm": -10.138878,
+          "yMm": 13.078892
+        },
+        {
+          "xMm": -6.985897,
+          "yMm": 14.348773
+        },
+        {
+          "xMm": -5.86795,
+          "yMm": 14.715037
+        },
+        {
+          "xMm": -3.580624,
+          "yMm": 15.244111
+        },
+        {
+          "xMm": -1.203511,
+          "yMm": 15.512059
+        },
+        {
+          "xMm": 1.188151,
+          "yMm": 15.512914
+        },
+        {
+          "xMm": 3.535676,
+          "yMm": 15.251741
+        },
+        {
+          "xMm": 5.796861,
+          "yMm": 14.735857
+        },
+        {
+          "xMm": 8.659582,
+          "yMm": 13.71331
+        },
+        {
+          "xMm": 9.831508,
+          "yMm": 13.481817
+        },
+        {
+          "xMm": 10.648615,
+          "yMm": 13.436643
+        },
+        {
+          "xMm": 11.472423,
+          "yMm": 13.482565
+        },
+        {
+          "xMm": 12.275667,
+          "yMm": 13.619163
+        },
+        {
+          "xMm": 13.552549,
+          "yMm": 13.993901
+        },
+        {
+          "xMm": 14.369775,
+          "yMm": 14.109269
+        },
+        {
+          "xMm": 15.475296,
+          "yMm": 14.048197
+        },
+        {
+          "xMm": 16.281979,
+          "yMm": 13.83717
+        },
+        {
+          "xMm": 17.230071,
+          "yMm": 13.348736
+        },
+        {
+          "xMm": 17.834519,
+          "yMm": 12.805149
+        },
+        {
+          "xMm": 18.262658,
+          "yMm": 12.146855
+        },
+        {
+          "xMm": 18.484973,
+          "yMm": 11.358943
+        },
+        {
+          "xMm": 18.500001,
+          "yMm": -11.088588
+        },
+        {
+          "xMm": 18.365428,
+          "yMm": -11.891416
+        },
+        {
+          "xMm": 17.978157,
+          "yMm": -12.623872
+        },
+        {
+          "xMm": 17.63934,
+          "yMm": -13.011247
+        },
+        {
+          "xMm": 17.230071,
+          "yMm": -13.348736
+        },
+        {
+          "xMm": 16.528984,
+          "yMm": -13.739452
+        },
+        {
+          "xMm": 15.475296,
+          "yMm": -14.048197
+        },
+        {
+          "xMm": 14.925884,
+          "yMm": -14.109511
+        },
+        {
+          "xMm": 14.09343,
+          "yMm": -14.08601
+        },
+        {
+          "xMm": 13.552549,
+          "yMm": -13.993901
+        },
+        {
+          "xMm": 11.877885,
+          "yMm": -13.539694
+        },
+        {
+          "xMm": 11.061813,
+          "yMm": -13.448142
+        },
+        {
+          "xMm": 9.831508,
+          "yMm": -13.481817
+        },
+        {
+          "xMm": 8.659582,
+          "yMm": -13.71331
+        },
+        {
+          "xMm": 6.903207,
+          "yMm": -14.378562
+        },
+        {
+          "xMm": 4.680813,
+          "yMm": -15.024934
+        },
+        {
+          "xMm": 2.369097,
+          "yMm": -15.414727
+        },
+        {
+          "xMm": -9e-06,
+          "yMm": -15.545709
+        },
+        {
+          "xMm": -2.399533,
+          "yMm": -15.411319
+        },
+        {
+          "xMm": -4.739436,
+          "yMm": -15.011468
+        },
+        {
+          "xMm": -6.985897,
+          "yMm": -14.348773
+        },
+        {
+          "xMm": -9.752448,
+          "yMm": -13.224383
+        },
+        {
+          "xMm": -11.675537,
+          "yMm": -12.571262
+        },
+        {
+          "xMm": -11.913354,
+          "yMm": -12.685911
+        },
+        {
+          "xMm": -12.161609,
+          "yMm": -12.922056
+        },
+        {
+          "xMm": -12.506976,
+          "yMm": -13.628327
+        },
+        {
+          "xMm": -12.56943,
+          "yMm": -14.130542
+        },
+        {
+          "xMm": -12.575113,
+          "yMm": -17.36302
+        },
+        {
+          "xMm": -12.660154,
+          "yMm": -17.680545
+        },
+        {
+          "xMm": -12.916823,
+          "yMm": -18.033809
+        },
+        {
+          "xMm": -13.19233,
+          "yMm": -18.211411
+        },
+        {
+          "xMm": -13.509352,
+          "yMm": -18.297705
+        },
+        {
+          "xMm": -17.95,
+          "yMm": -18.303405
+        },
+        {
+          "xMm": -17.95,
+          "yMm": -22.55
+        },
+        {
+          "xMm": -82.05,
+          "yMm": -22.55
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -75.0,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -75.0,
+        "yMm": 12.5
+      },
+      {
+        "xMm": -25.0,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -25.0,
+        "yMm": 12.5
+      }
+    ],
+    "minimumAlignedMountingHoles": 4,
+    "mountingHoleRadiusMm": 3.2,
+    "geometryEvidence": {
+      "sourceStepSha256": "0211e14d0953cb5083d6f6c0b3a75772893065e2e6adf6da0fe8247f864ff20e",
+      "source": "sha256/1d/1dcdba6b5eb055bf3e607b1a51de8ef980c1c86a33b1d12da9739003801ddf9e.json",
+      "scope": "R3 名义 CAD 验收，实物待核",
+      "nominalBeamClearanceMm": 8
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "0211e14d0953cb5083d6f6c0b3a75772893065e2e6adf6da0fe8247f864ff20e",
+      "imageSha256": "c7da1b25c498cfc0827e06bbf4d52fedf8bf5a50d93fa27d229ec422f48d00a1",
+      "sideImageSha256": "1909c73ca24819e484c7ce80c78bcf0756604b8151ef108379c1c2bd683fc863",
+      "reportAsset": "sha256/c9/c9858ce902af5aa874654ccf7b64e37679025296803e59242a415d4e226f9d77.json"
+    }
+  },
+  "mechanicalConfiguration": {
+    "id": "S4-FIXED-62P5-312P5",
+    "family": "S4-fixed",
+    "bodyCode": "25-S4",
+    "inputHeightMm": 62.5,
+    "outputHeightMm": 312.5,
+    "standardMirrorKitSource": "fixed-1-45",
+    "upperToLowerRotationXDeg": 180,
+    "bracketWallFrontXMm": -50
+  },
+  "assemblyReference": {
+    "stepPath": "sha256/02/0211e14d0953cb5083d6f6c0b3a75772893065e2e6adf6da0fe8247f864ff20e.step",
+    "sourceStepSha256": "0211e14d0953cb5083d6f6c0b3a75772893065e2e6adf6da0fe8247f864ff20e",
+    "sha256": "0211e14d0953cb5083d6f6c0b3a75772893065e2e6adf6da0fe8247f864ff20e",
+    "drawingPath": "sha256/67/671af94a1f0cc79df63d2991e232a7c09537e7843efedf800e5d4135be1c6e3a.pdf",
+    "sourceDrawingSha256": "671af94a1f0cc79df63d2991e232a7c09537e7843efedf800e5d4135be1c6e3a",
+    "revision": "R3",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "containsFactoryMountFasteners": true,
+    "containsReferenceMirrors": true,
+    "physicalAssemblyValidated": false,
+    "note": "15 个命名叶件及两片参考镜片，共17实体。标准外加紧固件见 BOM。"
+  },
+  "releaseStage": "engineering-review",
+  "bundleStatus": "engineering-review",
+  "bundleNote": "工程审核。采用 M6×1.0；镜片镀膜、首件、实物板孔与紧固件实际尺寸待确认。",
+  "notes": "上下组同件，绕柱轴相差 180°。底板四孔共用 50×25 mm 矩形孔网。25 mm 网格安装时，光轴在横向两列孔的中间。",
+  "pendingRequirements": [
+    {
+      "id": "optics",
+      "label": "选定 Ø25.4×6 mm 镜片的实际型号、膜层和光学净口。"
+    },
+    {
+      "id": "first-article",
+      "label": "首件确认紧固件旋入、定位销露出、实际主板孔网相位、夹持、刚度和光高。"
+    }
+  ]
+}

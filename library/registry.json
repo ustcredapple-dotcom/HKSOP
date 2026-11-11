@@ -1,6 +1,6 @@
 {
   "format": "hksop-library-registry-v1",
-  "catalogVersion": "2026-11-09.hksop-github-cad-2",
+  "catalogVersion": "2026-11-11.hksop-github-25s4-r3",
   "packages": [
     "library/components/custom-04/package.json",
     "library/components/custom-05/package.json",
@@ -695,7 +695,8 @@
     "library/standard/adjustable/mt-am1t-h25-dual-m4-45-r4/package.json",
     "library/custom/project-kit-cage-f100-qwp780-r1/package.json",
     "library/custom/project-part-mop-50-dp-r1/package.json",
-    "library/custom/project-board-dp-f100-board-r7/package.json"
+    "library/custom/project-board-dp-f100-board-r7/package.json",
+    "library/custom/periscope-fixed-25s4-h62p5-to312p5-r1/package.json"
   ],
   "order": {
     "components": [
@@ -1130,7 +1131,8 @@
       "custom-dc2-f-r1",
       "custom-mt-am1-dual-m4-c4",
       "custom-mt-am1t-dual-m4-c4",
-      "mop-50-dp-r1"
+      "mop-50-dp-r1",
+      "custom-periscope-25s4-r1"
     ],
     "kits": [
       "waveplate",
@@ -1395,7 +1397,8 @@
       "fixed-dichroic-2inch-45-r1",
       "mt-am1-h25-dual-m4-45-r4",
       "mt-am1t-h25-dual-m4-45-r4",
-      "cage-f100-qwp780-r1"
+      "cage-f100-qwp780-r1",
+      "periscope-fixed-25s4-h62p5-to312p5-r1"
     ],
     "registeredBoards": [
       "stage-top-ls30-t",

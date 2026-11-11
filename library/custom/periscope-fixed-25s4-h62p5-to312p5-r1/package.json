@@ -1,0 +1,35 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "periscope-fixed-25s4-h62p5-to312p5-r1",
+  "displayName": "直向光爬架 · 四孔窄底双固定镜 · 62.5→312.5 mm",
+  "revision": "R3",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-periscope-25s4-r1.json"
+    },
+    {
+      "kind": "kits",
+      "path": "records/periscope-fixed-25s4-h62p5-to312p5-r1.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-post-metric-12p5mm-m1",
+    "custom-13",
+    "mt-flf1s",
+    "hardware-iso4762-m6x12",
+    "hardware-h2-r3-m4x20",
+    "new-hardware-f0579b934c7c",
+    "periscope-d2x8-pin",
+    "dpt3-pin-d2x5"
+  ],
+  "capabilities": {
+    "display": "CAD orthographic and complete named STEP",
+    "placement": "four mounting holes, 50×25 pattern; transverse half-pitch offset on 25 mm boards",
+    "simulation": "nominal double reflection; optical coatings pending",
+    "procurement": "catalog BOM; optic coating pending",
+    "manufacturing": "engineering-review; first article pending"
+  },
+  "sourceCatalogIdentity": "hksop-20261111T053938Z-9076a66c",
+  "distribution": "current-cad-topviews-and-drawings"
+}

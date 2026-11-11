@@ -1,7 +1,7 @@
 {
   "format": "hksop-snapshot-assets-v1",
   "snapshot": "web-current",
-  "sourceCatalogSha256": "07762e7e56699c91b85609ae5f6d4276d20f35b899e5b5001122f133f61b4fec",
+  "sourceCatalogSha256": "2d811fcf7b97be913755ecba8253179b33363aa21fc0f3e5c715778ed2d9cb9f",
   "links": {
     "assets/step/999016412889392b18dcd3c72f639298924842b03a8217a84a8e77ba08c6b164.step": "library/assets/sha256/99/999016412889392b18dcd3c72f639298924842b03a8217a84a8e77ba08c6b164.step",
     "assets/step/fddd458a55189ceb854a57af6ec5e69d673f3bcf1175bfb2cc25b562f4df9254.step": "library/assets/sha256/fd/fddd458a55189ceb854a57af6ec5e69d673f3bcf1175bfb2cc25b562f4df9254.step",
@@ -1862,7 +1862,19 @@
     "assets/sha256/82/8297d4bcdc80c787f684227f185af20326727a973cd74a2c1d287ddac07cecbb.pdf": "library/assets/sha256/82/8297d4bcdc80c787f684227f185af20326727a973cd74a2c1d287ddac07cecbb.pdf",
     "assets/sha256/e0/e0e5bd276003a652e8b23f2c40dce01a3807fbcb8b915d614bdbc7946eb43cd2.pdf": "library/assets/sha256/e0/e0e5bd276003a652e8b23f2c40dce01a3807fbcb8b915d614bdbc7946eb43cd2.pdf",
     "assets/sha256/bf/bf50dca6ea7927b807dfd2446b0bf69633ffd1acb26d359d1d6da8b18f72a7fa.dxf": "library/assets/sha256/bf/bf50dca6ea7927b807dfd2446b0bf69633ffd1acb26d359d1d6da8b18f72a7fa.dxf",
-    "assets/sha256/aa/aa261054fe05101230d2fb1bc5bdd5499c76afb722e2dec7576380d97e497aa5.pdf": "library/assets/sha256/aa/aa261054fe05101230d2fb1bc5bdd5499c76afb722e2dec7576380d97e497aa5.pdf"
+    "assets/sha256/aa/aa261054fe05101230d2fb1bc5bdd5499c76afb722e2dec7576380d97e497aa5.pdf": "library/assets/sha256/aa/aa261054fe05101230d2fb1bc5bdd5499c76afb722e2dec7576380d97e497aa5.pdf",
+    "assets/step/2025f97569d355739a6e30b2be2f52480fe529b06b7afc90a2030507c18d5818.step": "library/assets/sha256/20/2025f97569d355739a6e30b2be2f52480fe529b06b7afc90a2030507c18d5818.step",
+    "assets/step/0211e14d0953cb5083d6f6c0b3a75772893065e2e6adf6da0fe8247f864ff20e.step": "library/assets/sha256/02/0211e14d0953cb5083d6f6c0b3a75772893065e2e6adf6da0fe8247f864ff20e.step",
+    "assets/drawings/39c75c091cc45e328af73299ea89db9e159d0e5af79174ba8e90087b6e2c285e.pdf": "library/assets/sha256/39/39c75c091cc45e328af73299ea89db9e159d0e5af79174ba8e90087b6e2c285e.pdf",
+    "assets/drawings/671af94a1f0cc79df63d2991e232a7c09537e7843efedf800e5d4135be1c6e3a.pdf": "library/assets/sha256/67/671af94a1f0cc79df63d2991e232a7c09537e7843efedf800e5d4135be1c6e3a.pdf",
+    "assets/drawings/9814cf49dce7814b3cc8c0398d517c67b85a71b72de51cc1df81747495b74111.pdf": "library/assets/sha256/98/9814cf49dce7814b3cc8c0398d517c67b85a71b72de51cc1df81747495b74111.pdf",
+    "assets/drawings/a3aa7d6434a688952858855adf164cb83dd34834b443d8bf642530159c303afe.dxf": "library/assets/sha256/a3/a3aa7d6434a688952858855adf164cb83dd34834b443d8bf642530159c303afe.dxf",
+    "static/topviews/c7da1b25c498cfc0827e06bbf4d52fedf8bf5a50d93fa27d229ec422f48d00a1.svg": "library/assets/sha256/c7/c7da1b25c498cfc0827e06bbf4d52fedf8bf5a50d93fa27d229ec422f48d00a1.svg",
+    "static/topviews/1909c73ca24819e484c7ce80c78bcf0756604b8151ef108379c1c2bd683fc863.svg": "library/assets/sha256/19/1909c73ca24819e484c7ce80c78bcf0756604b8151ef108379c1c2bd683fc863.svg",
+    "assets/templates/1dcdba6b5eb055bf3e607b1a51de8ef980c1c86a33b1d12da9739003801ddf9e.json": "library/assets/sha256/1d/1dcdba6b5eb055bf3e607b1a51de8ef980c1c86a33b1d12da9739003801ddf9e.json",
+    "assets/templates/759b8aa6932527cd1be1fcde15fffb12393e3f564bca5410b77e38044cb063d4.json": "library/assets/sha256/75/759b8aa6932527cd1be1fcde15fffb12393e3f564bca5410b77e38044cb063d4.json",
+    "assets/templates/c9858ce902af5aa874654ccf7b64e37679025296803e59242a415d4e226f9d77.json": "library/assets/sha256/c9/c9858ce902af5aa874654ccf7b64e37679025296803e59242a415d4e226f9d77.json",
+    "assets/templates/e0a6b78113b47ea68ceaad22dcb1dd2e03a2c1d70469486c1b815e5437813a29.json": "library/assets/sha256/e0/e0a6b78113b47ea68ceaad22dcb1dd2e03a2c1d70469486c1b815e5437813a29.json"
   },
   "replacements": {
     "step/02_面包板/04_面包板_350225.step": "step/999016412889392b18dcd3c72f639298924842b03a8217a84a8e77ba08c6b164.step",
@@ -27338,6 +27350,114 @@
       "size": 30971,
       "source": "library/assets/sha256/ff/fff7fe1b3643b8c7753318a1d41c856457ebe26234de25f6571907fba9bfea61.dxf",
       "logical": "drawings/laser-marking/LS30-B/编号面_-Y.dxf",
+      "kind": "assets",
+      "uses": []
+    },
+    {
+      "stored": "library/assets/sha256/20/2025f97569d355739a6e30b2be2f52480fe529b06b7afc90a2030507c18d5818.step",
+      "sha256": "2025f97569d355739a6e30b2be2f52480fe529b06b7afc90a2030507c18d5818",
+      "size": 7173592,
+      "source": "library/assets/sha256/20/2025f97569d355739a6e30b2be2f52480fe529b06b7afc90a2030507c18d5818.step",
+      "logical": "step/25-s4-r3.step",
+      "kind": "assets",
+      "uses": []
+    },
+    {
+      "stored": "library/assets/sha256/02/0211e14d0953cb5083d6f6c0b3a75772893065e2e6adf6da0fe8247f864ff20e.step",
+      "sha256": "0211e14d0953cb5083d6f6c0b3a75772893065e2e6adf6da0fe8247f864ff20e",
+      "size": 12339640,
+      "source": "library/assets/sha256/02/0211e14d0953cb5083d6f6c0b3a75772893065e2e6adf6da0fe8247f864ff20e.step",
+      "logical": "step/25-s4-standard-h62p5-to312p5-r3-assembly.step",
+      "kind": "assets",
+      "uses": []
+    },
+    {
+      "stored": "library/assets/sha256/39/39c75c091cc45e328af73299ea89db9e159d0e5af79174ba8e90087b6e2c285e.pdf",
+      "sha256": "39c75c091cc45e328af73299ea89db9e159d0e5af79174ba8e90087b6e2c285e",
+      "size": 215375,
+      "source": "library/assets/sha256/39/39c75c091cc45e328af73299ea89db9e159d0e5af79174ba8e90087b6e2c285e.pdf",
+      "logical": "drawings/25-s4-r3.pdf",
+      "kind": "assets",
+      "uses": []
+    },
+    {
+      "stored": "library/assets/sha256/67/671af94a1f0cc79df63d2991e232a7c09537e7843efedf800e5d4135be1c6e3a.pdf",
+      "sha256": "671af94a1f0cc79df63d2991e232a7c09537e7843efedf800e5d4135be1c6e3a",
+      "size": 156695,
+      "source": "library/assets/sha256/67/671af94a1f0cc79df63d2991e232a7c09537e7843efedf800e5d4135be1c6e3a.pdf",
+      "logical": "drawings/25-s4-standard-h62p5-to312p5-r3-assembly.pdf",
+      "kind": "assets",
+      "uses": []
+    },
+    {
+      "stored": "library/assets/sha256/98/9814cf49dce7814b3cc8c0398d517c67b85a71b72de51cc1df81747495b74111.pdf",
+      "sha256": "9814cf49dce7814b3cc8c0398d517c67b85a71b72de51cc1df81747495b74111",
+      "size": 118379,
+      "source": "library/assets/sha256/98/9814cf49dce7814b3cc8c0398d517c67b85a71b72de51cc1df81747495b74111.pdf",
+      "logical": "drawings/25-s4-r3-marking.pdf",
+      "kind": "assets",
+      "uses": []
+    },
+    {
+      "stored": "library/assets/sha256/a3/a3aa7d6434a688952858855adf164cb83dd34834b443d8bf642530159c303afe.dxf",
+      "sha256": "a3aa7d6434a688952858855adf164cb83dd34834b443d8bf642530159c303afe",
+      "size": 104657,
+      "source": "library/assets/sha256/a3/a3aa7d6434a688952858855adf164cb83dd34834b443d8bf642530159c303afe.dxf",
+      "logical": "drawings/25-s4-r3-rear-marking.dxf",
+      "kind": "assets",
+      "uses": []
+    },
+    {
+      "stored": "library/assets/sha256/c7/c7da1b25c498cfc0827e06bbf4d52fedf8bf5a50d93fa27d229ec422f48d00a1.svg",
+      "sha256": "c7da1b25c498cfc0827e06bbf4d52fedf8bf5a50d93fa27d229ec422f48d00a1",
+      "size": 253715,
+      "source": "library/assets/sha256/c7/c7da1b25c498cfc0827e06bbf4d52fedf8bf5a50d93fa27d229ec422f48d00a1.svg",
+      "logical": "topviews/25-s4-standard-h62p5-to312p5-r3-top.svg",
+      "kind": "static",
+      "uses": []
+    },
+    {
+      "stored": "library/assets/sha256/19/1909c73ca24819e484c7ce80c78bcf0756604b8151ef108379c1c2bd683fc863.svg",
+      "sha256": "1909c73ca24819e484c7ce80c78bcf0756604b8151ef108379c1c2bd683fc863",
+      "size": 64654,
+      "source": "library/assets/sha256/19/1909c73ca24819e484c7ce80c78bcf0756604b8151ef108379c1c2bd683fc863.svg",
+      "logical": "topviews/25-s4-standard-h62p5-to312p5-r3-side.svg",
+      "kind": "static",
+      "uses": []
+    },
+    {
+      "stored": "library/assets/sha256/1d/1dcdba6b5eb055bf3e607b1a51de8ef980c1c86a33b1d12da9739003801ddf9e.json",
+      "sha256": "1dcdba6b5eb055bf3e607b1a51de8ef980c1c86a33b1d12da9739003801ddf9e",
+      "size": 8253,
+      "source": "library/assets/sha256/1d/1dcdba6b5eb055bf3e607b1a51de8ef980c1c86a33b1d12da9739003801ddf9e.json",
+      "logical": "templates/25-s4-r3-geometry-review.json",
+      "kind": "assets",
+      "uses": []
+    },
+    {
+      "stored": "library/assets/sha256/75/759b8aa6932527cd1be1fcde15fffb12393e3f564bca5410b77e38044cb063d4.json",
+      "sha256": "759b8aa6932527cd1be1fcde15fffb12393e3f564bca5410b77e38044cb063d4",
+      "size": 11012,
+      "source": "library/assets/sha256/75/759b8aa6932527cd1be1fcde15fffb12393e3f564bca5410b77e38044cb063d4.json",
+      "logical": "templates/25-s4-r3-marking-review.json",
+      "kind": "assets",
+      "uses": []
+    },
+    {
+      "stored": "library/assets/sha256/c9/c9858ce902af5aa874654ccf7b64e37679025296803e59242a415d4e226f9d77.json",
+      "sha256": "c9858ce902af5aa874654ccf7b64e37679025296803e59242a415d4e226f9d77",
+      "size": 21454,
+      "source": "library/assets/sha256/c9/c9858ce902af5aa874654ccf7b64e37679025296803e59242a415d4e226f9d77.json",
+      "logical": "templates/25-s4-r3-projection.json",
+      "kind": "assets",
+      "uses": []
+    },
+    {
+      "stored": "library/assets/sha256/e0/e0a6b78113b47ea68ceaad22dcb1dd2e03a2c1d70469486c1b815e5437813a29.json",
+      "sha256": "e0a6b78113b47ea68ceaad22dcb1dd2e03a2c1d70469486c1b815e5437813a29",
+      "size": 441,
+      "source": "library/assets/sha256/e0/e0a6b78113b47ea68ceaad22dcb1dd2e03a2c1d70469486c1b815e5437813a29.json",
+      "logical": "templates/25-s4-r3-pdf-check.json",
       "kind": "assets",
       "uses": []
     }

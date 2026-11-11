@@ -1,0 +1,552 @@
+{
+  "revision": "R3",
+  "wallFrontXmm": -50.0,
+  "wallBackXmm": -60.0,
+  "baseHolesXYMm": [
+    [
+      -75.0,
+      -12.5
+    ],
+    [
+      -75.0,
+      12.5
+    ],
+    [
+      -25.0,
+      -12.5
+    ],
+    [
+      -25.0,
+      12.5
+    ]
+  ],
+  "inputFaceCenterMm": [
+    0.0,
+    0.0,
+    62.5
+  ],
+  "outputFaceCenterMm": [
+    0.0,
+    0.0,
+    312.5
+  ],
+  "inputNormal": [
+    0.0,
+    -0.7071067811865476,
+    0.7071067811865476
+  ],
+  "outputNormal": [
+    -0.0,
+    0.7071067811865476,
+    -0.7071067811865476
+  ],
+  "standardRearPadAreasMm2": [
+    {
+      "areaMm2": 31.797239394238037,
+      "centerMm": [
+        -5.623587070820693,
+        2.861694303418212,
+        77.18138797099058
+      ]
+    },
+    {
+      "areaMm2": 23.676028490608108,
+      "centerMm": [
+        -4.2426406871194535,
+        4.242640687119451,
+        50.392333790175606
+      ]
+    },
+    {
+      "areaMm2": 6.973990155255224,
+      "centerMm": [
+        3.5442440019028743,
+        12.029525376141777,
+        68.85796472466512
+      ]
+    },
+    {
+      "areaMm2": 6.9739901552712364,
+      "centerMm": [
+        -12.029525376142102,
+        -3.5442440019031993,
+        68.85796472466255
+      ]
+    }
+  ],
+  "standardRearCenterSourceMm": [
+    -4.242640687119286,
+    4.242640687119286,
+    62.5
+  ],
+  "upperSourceToWorldRotation": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "upperSourceToWorldTranslationMm": [
+    -62.5,
+    0.0,
+    312.5
+  ],
+  "lowerSourceToWorldRotation": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      0
+    ]
+  ],
+  "lowerSourceToWorldTranslationMm": [
+    -62.5,
+    0.0,
+    62.5
+  ],
+  "upperPostRotation": [
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0
+    ]
+  ],
+  "lowerPostRotation": [
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      -1
+    ],
+    [
+      -1,
+      0,
+      0
+    ]
+  ],
+  "s4Parameters": {
+    "base_x": [
+      -82.0,
+      -18.0
+    ],
+    "base_y": [
+      -22.5,
+      22.5
+    ],
+    "base_z": [
+      0.0,
+      10.0
+    ],
+    "wall_x": [
+      -60.0,
+      -50.0
+    ],
+    "wall_z": [
+      10.0,
+      337.5
+    ],
+    "board_holes": [
+      [
+        -12.5,
+        -75.0
+      ],
+      [
+        12.5,
+        -75.0
+      ],
+      [
+        -12.5,
+        -25.0
+      ],
+      [
+        12.5,
+        -25.0
+      ]
+    ],
+    "wall_holes": [
+      [
+        -12.5,
+        37.5
+      ],
+      [
+        12.5,
+        37.5
+      ],
+      [
+        -12.5,
+        50.0
+      ],
+      [
+        12.5,
+        50.0
+      ],
+      [
+        -12.5,
+        62.5
+      ],
+      [
+        12.5,
+        62.5
+      ],
+      [
+        -12.5,
+        75.0
+      ],
+      [
+        12.5,
+        75.0
+      ],
+      [
+        -12.5,
+        87.5
+      ],
+      [
+        12.5,
+        87.5
+      ],
+      [
+        -12.5,
+        100.0
+      ],
+      [
+        12.5,
+        100.0
+      ],
+      [
+        -12.5,
+        112.5
+      ],
+      [
+        12.5,
+        112.5
+      ],
+      [
+        -12.5,
+        125.0
+      ],
+      [
+        12.5,
+        125.0
+      ],
+      [
+        -12.5,
+        137.5
+      ],
+      [
+        12.5,
+        137.5
+      ],
+      [
+        -12.5,
+        150.0
+      ],
+      [
+        12.5,
+        150.0
+      ],
+      [
+        -12.5,
+        162.5
+      ],
+      [
+        12.5,
+        162.5
+      ],
+      [
+        -12.5,
+        175.0
+      ],
+      [
+        12.5,
+        175.0
+      ],
+      [
+        -12.5,
+        187.5
+      ],
+      [
+        12.5,
+        187.5
+      ],
+      [
+        -12.5,
+        200.0
+      ],
+      [
+        12.5,
+        200.0
+      ],
+      [
+        -12.5,
+        212.5
+      ],
+      [
+        12.5,
+        212.5
+      ],
+      [
+        -12.5,
+        225.0
+      ],
+      [
+        12.5,
+        225.0
+      ],
+      [
+        -12.5,
+        237.5
+      ],
+      [
+        12.5,
+        237.5
+      ],
+      [
+        -12.5,
+        250.0
+      ],
+      [
+        12.5,
+        250.0
+      ],
+      [
+        -12.5,
+        262.5
+      ],
+      [
+        12.5,
+        262.5
+      ],
+      [
+        -12.5,
+        275.0
+      ],
+      [
+        12.5,
+        275.0
+      ],
+      [
+        -12.5,
+        287.5
+      ],
+      [
+        12.5,
+        287.5
+      ],
+      [
+        -12.5,
+        300.0
+      ],
+      [
+        12.5,
+        300.0
+      ],
+      [
+        -12.5,
+        312.5
+      ],
+      [
+        12.5,
+        312.5
+      ],
+      [
+        -12.5,
+        325.0
+      ],
+      [
+        12.5,
+        325.0
+      ]
+    ],
+    "mirror_heights": [
+      62.5,
+      312.5
+    ],
+    "root_fillet": 3.0,
+    "marking": [
+      {
+        "text": "25-S4 R3",
+        "glyphs": 7,
+        "counters": 2,
+        "width_mm": 12.324,
+        "height_mm": 2.2,
+        "center": [
+          -60.0,
+          0.0,
+          332.1
+        ]
+      },
+      {
+        "text": "IN 62.5",
+        "glyphs": 6,
+        "counters": 1,
+        "width_mm": 9.302,
+        "height_mm": 2.2,
+        "center": [
+          -60.0,
+          0.0,
+          62.5
+        ]
+      },
+      {
+        "text": "OUT 312.5",
+        "glyphs": 8,
+        "counters": 1,
+        "width_mm": 14.2,
+        "height_mm": 2.2,
+        "center": [
+          -60.0,
+          0.0,
+          312.5
+        ]
+      }
+    ]
+  },
+  "holeAxisMaxErrorsMm": {
+    "lower pins": 1.330311970391023e-07,
+    "lower plate M4": 5.089957435867988e-07,
+    "lower mount M4": 5.755113471306457e-07,
+    "upper pins": 1.3303116689333078e-07,
+    "upper plate M4": 5.089957435867988e-07,
+    "upper mount M4": 5.755113270334627e-07
+  },
+  "structuralOverlapMm3": {},
+  "mirrorHolderOverlapMm3": [
+    [
+      "upper mirror vs holder",
+      0.0
+    ],
+    [
+      "lower mirror vs holder",
+      0.0
+    ]
+  ],
+  "beamDiameterMm": 8,
+  "beamHits": {
+    "IN": {},
+    "vertical": {},
+    "OUT": {}
+  },
+  "keyAccessOverlapMm3": {
+    "lower plate M4 0": 0.0,
+    "lower plate M4 -6.01": 0.0,
+    "lower holder M4": 0.0,
+    "upper plate M4 0": 0.0,
+    "upper plate M4 6.01": 0.0,
+    "upper holder M4": 0.0,
+    "base key -75.0 -12.5": 0.0,
+    "base key -75.0 12.5": 0.0,
+    "base key -25.0 -12.5": 0.0,
+    "base key -25.0 12.5": 0.0
+  },
+  "marking": [
+    {
+      "text": "25-S4 R3",
+      "glyphs": 7,
+      "counters": 2,
+      "width_mm": 12.324,
+      "height_mm": 2.2,
+      "center": [
+        -60.0,
+        0.0,
+        332.1
+      ]
+    },
+    {
+      "text": "IN 62.5",
+      "glyphs": 6,
+      "counters": 1,
+      "width_mm": 9.302,
+      "height_mm": 2.2,
+      "center": [
+        -60.0,
+        0.0,
+        62.5
+      ]
+    },
+    {
+      "text": "OUT 312.5",
+      "glyphs": 8,
+      "counters": 1,
+      "width_mm": 14.2,
+      "height_mm": 2.2,
+      "center": [
+        -60.0,
+        0.0,
+        312.5
+      ]
+    }
+  ],
+  "assemblyLeafNames": [
+    "SOLID",
+    "H12.5 B4-R2 lower post",
+    "H12.5 B4-R2 upper post",
+    "ZZ-13-M1 lower adapter",
+    "MT-FLF1S lower mount body",
+    "ZZ-13-M1 upper adapter",
+    "MT-FLF1S upper mount body",
+    "MT-FLF1S factory set screw upper",
+    "MT-FLF1S factory set screw lower",
+    "MT-FLF1S factory set screw upper",
+    "MT-FLF1S factory set screw lower",
+    "MT-FLF1S factory set screw upper",
+    "MT-FLF1S factory set screw lower",
+    "MT-FLF1S flexure upper",
+    "MT-FLF1S flexure lower",
+    "REF lower mirror D25.4x6",
+    "REF upper mirror D25.4x6"
+  ],
+  "assemblyBoundsMm": [
+    -82.0,
+    -22.5,
+    0.0,
+    18.450000099999947,
+    22.5,
+    337.5
+  ],
+  "volumesMm3": {
+    "backbone": 163936.31592323034
+  },
+  "manufacturingRelease": false,
+  "hashes": {
+    "25-s4-r3.step": "2025f97569d355739a6e30b2be2f52480fe529b06b7afc90a2030507c18d5818",
+    "25-s4-r3-assembly.step": "0211e14d0953cb5083d6f6c0b3a75772893065e2e6adf6da0fe8247f864ff20e"
+  },
+  "inputs": {
+    "25-S4 R2": "1347f08277344f86e761d01c18c7bada1c4a74ae7e24ba7ac1594a1226e3dd45",
+    "H12.5 B4-R2": "f8cc6a4451f8fa882365df56e03011e65c3cfc5c17658500756fed69cea412dd",
+    "fixed-1-45": "f2add05021ab57f5842ca4bd544707a80ce916415d073a04ced25d98dadea78c"
+  }
+}

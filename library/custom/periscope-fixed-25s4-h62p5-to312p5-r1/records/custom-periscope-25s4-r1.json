@@ -1,0 +1,49 @@
+{
+  "id": "custom-periscope-25s4-r1",
+  "name": "25-S4 R3 · 直竖板与四孔窄底座",
+  "model": "25-S4",
+  "revision": "R3",
+  "kind": "custom",
+  "unit": "件",
+  "status": "工程审核 · 两组标准镜架与四孔底座",
+  "stepPath": "sha256/20/2025f97569d355739a6e30b2be2f52480fe529b06b7afc90a2030507c18d5818.step",
+  "sourceStepSha256": "2025f97569d355739a6e30b2be2f52480fe529b06b7afc90a2030507c18d5818",
+  "drawingPath": "sha256/39/39c75c091cc45e328af73299ea89db9e159d0e5af79174ba8e90087b6e2c285e.pdf",
+  "sourceDrawingSha256": "39c75c091cc45e328af73299ea89db9e159d0e5af79174ba8e90087b6e2c285e",
+  "drawingRevision": "R3",
+  "drawingPages": [
+    1,
+    2
+  ],
+  "drawingStatus": "engineering-review",
+  "productionReady": false,
+  "dxfPath": "sha256/a3/a3aa7d6434a688952858855adf164cb83dd34834b443d8bf642530159c303afe.dxf",
+  "dxfPdfPath": "sha256/98/9814cf49dce7814b3cc8c0398d517c67b85a71b72de51cc1df81747495b74111.pdf",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "直竖板 10 mm，48×M6×1.0。矩形底座 64×45×10，4×Ø6.4 通孔，顶面沉孔 Ø11.25 深6，中心距 50×25。"
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "编号与固定构型的光高",
+    "notes": "背面实际轮廓从带标 STEP 提取。DXF 1:1 mm，激光打标。",
+    "files": [
+      {
+        "face": "X=-60 背面",
+        "text": "25-S4 R3 / IN 62.5 / OUT 312.5",
+        "dxfPath": "sha256/a3/a3aa7d6434a688952858855adf164cb83dd34834b443d8bf642530159c303afe.dxf",
+        "sha256": "a3aa7d6434a688952858855adf164cb83dd34834b443d8bf642530159c303afe",
+        "setupPdfPath": "sha256/98/9814cf49dce7814b3cc8c0398d517c67b85a71b72de51cc1df81747495b74111.pdf",
+        "setupPdfSha256": "9814cf49dce7814b3cc8c0398d517c67b85a71b72de51cc1df81747495b74111"
+      }
+    ]
+  },
+  "manufacturingEvidence": {
+    "source": "sha256/1d/1dcdba6b5eb055bf3e607b1a51de8ef980c1c86a33b1d12da9739003801ddf9e.json",
+    "drawingReview": "sha256/e0/e0a6b78113b47ea68ceaad22dcb1dd2e03a2c1d70469486c1b815e5437813a29.json",
+    "markingEvidence": "sha256/75/759b8aa6932527cd1be1fcde15fffb12393e3f564bca5410b77e38044cb063d4.json",
+    "physicalAssemblyValidated": false,
+    "productionApprovalGranted": false
+  }
+}

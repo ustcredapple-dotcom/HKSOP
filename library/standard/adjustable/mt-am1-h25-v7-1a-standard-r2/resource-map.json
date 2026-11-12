@@ -1,0 +1,49 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "mt-am1-h25-v7-1a-standard-r2",
+  "files": [
+    {
+      "path": "cad/0ef7ba4ab99d5806e3266b69ac5ee1f769d7c8daef2d678e327df7dbef00c854.step",
+      "stored": "library/assets/sha256/0e/0ef7ba4ab99d5806e3266b69ac5ee1f769d7c8daef2d678e327df7dbef00c854.step",
+      "sha256": "0ef7ba4ab99d5806e3266b69ac5ee1f769d7c8daef2d678e327df7dbef00c854",
+      "originalReferences": [
+        "step/mt-dual-m4-compact-r4/MT-AM1_H25_COMPACT_R4_0deg.step"
+      ],
+      "sources": [
+        "library/assets/sha256/0e/0ef7ba4ab99d5806e3266b69ac5ee1f769d7c8daef2d678e327df7dbef00c854.step"
+      ]
+    },
+    {
+      "path": "rendering/29c5edf16452f7a0766c26f74424eac239a9178ed8655c858d1419c8d2d25522.svg",
+      "stored": "library/assets/sha256/29/29c5edf16452f7a0766c26f74424eac239a9178ed8655c858d1419c8d2d25522.svg",
+      "sha256": "29c5edf16452f7a0766c26f74424eac239a9178ed8655c858d1419c8d2d25522",
+      "originalReferences": [
+        "topviews/mt-am1-h25-v7-1a-standard-r2__DUAL_M4_R4.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/29/29c5edf16452f7a0766c26f74424eac239a9178ed8655c858d1419c8d2d25522.svg"
+      ]
+    },
+    {
+      "path": "drawings/629f01d04f14fe3e5e11ee245cefa6f6772dcc968871069e0e4b28c528ccf568.pdf",
+      "stored": "library/assets/sha256/62/629f01d04f14fe3e5e11ee245cefa6f6772dcc968871069e0e4b28c528ccf568.pdf",
+      "sha256": "629f01d04f14fe3e5e11ee245cefa6f6772dcc968871069e0e4b28c528ccf568",
+      "originalReferences": [
+        "drawings/mt-dual-m4-compact-r4/mt-am1-h25-v7-1a-standard-r2_assembly.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/62/629f01d04f14fe3e5e11ee245cefa6f6772dcc968871069e0e4b28c528ccf568.pdf"
+      ]
+    }
+  ],
+  "dependencies": [
+    "custom-mt-am1-dual-m4-c4",
+    "custom-post-metric-25mm-m1",
+    "hardware-iso4762-m6x12",
+    "lbtek-mt-am1-purchased",
+    "metric-m1-post-m4x14",
+    "metric-m1-post-pin-d2x8",
+    "v7-iso4762-m4x16",
+    "v7-pin-d2x6"
+  ]
+}

@@ -6,8 +6,9 @@
   "records": [
     {
       "kind": "components",
-      "path": "record.json"
+      "path": "records/mt-am1s5.json"
     }
   ],
-  "origin": "current-published-catalog"
+  "origin": "current-published-catalog",
+  "distribution": "current-cad-topviews-and-drawings"
 }

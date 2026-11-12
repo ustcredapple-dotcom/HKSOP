@@ -3,32 +3,48 @@
   "packageId": "custom-post-metric-25mm-m1",
   "files": [
     {
-      "path": "cad/00a48e49560838f810f325e560688f62f8f3a3fe3acc098f7d4122cad9538ba8.step",
-      "stored": "library/assets/sha256/00/00a48e49560838f810f325e560688f62f8f3a3fe3acc098f7d4122cad9538ba8.step",
-      "sha256": "00a48e49560838f810f325e560688f62f8f3a3fe3acc098f7d4122cad9538ba8",
-      "originalReferences": [],
-      "sources": []
+      "path": "drawings/3cb25a5a5893f07e4301dab1adb6af208efc137ebee785cc8c31f7c39afe60f7.dxf",
+      "stored": "library/assets/sha256/3c/3cb25a5a5893f07e4301dab1adb6af208efc137ebee785cc8c31f7c39afe60f7.dxf",
+      "sha256": "3cb25a5a5893f07e4301dab1adb6af208efc137ebee785cc8c31f7c39afe60f7",
+      "originalReferences": [
+        "drawings/laser-marking/post-b6-r1/custom-post-metric-25mm-m1/custom-post-metric-25mm-m1_B6R1_side_laser.dxf"
+      ],
+      "sources": [
+        "library/assets/sha256/3c/3cb25a5a5893f07e4301dab1adb6af208efc137ebee785cc8c31f7c39afe60f7.dxf"
+      ]
     },
     {
-      "path": "drawings/17930567ede8705d58ba01f5979e506bfce18155f072812e42b9e2f17ffc79ea.pdf",
-      "stored": "library/assets/sha256/17/17930567ede8705d58ba01f5979e506bfce18155f072812e42b9e2f17ffc79ea.pdf",
-      "sha256": "17930567ede8705d58ba01f5979e506bfce18155f072812e42b9e2f17ffc79ea",
-      "originalReferences": [],
-      "sources": []
+      "path": "drawings/4d70e21e908e44f6309fb644d9723a5b8c1d6413e7ef3e9d626686eb522daad7.pdf",
+      "stored": "library/assets/sha256/4d/4d70e21e908e44f6309fb644d9723a5b8c1d6413e7ef3e9d626686eb522daad7.pdf",
+      "sha256": "4d70e21e908e44f6309fb644d9723a5b8c1d6413e7ef3e9d626686eb522daad7",
+      "originalReferences": [
+        "drawings/laser-marking/post-b6-r1/custom-post-metric-25mm-m1/custom-post-metric-25mm-m1_B6R1_side_laser_setup.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/4d/4d70e21e908e44f6309fb644d9723a5b8c1d6413e7ef3e9d626686eb522daad7.pdf"
+      ]
     },
     {
-      "path": "drawings/8ea86a64a3a36bd52a8c1573ad67a98b6793ac49f410053b44c07f41edf6c451.dxf",
-      "stored": "library/assets/sha256/8e/8ea86a64a3a36bd52a8c1573ad67a98b6793ac49f410053b44c07f41edf6c451.dxf",
-      "sha256": "8ea86a64a3a36bd52a8c1573ad67a98b6793ac49f410053b44c07f41edf6c451",
-      "originalReferences": [],
-      "sources": []
+      "path": "drawings/79e9a3bb3fbdc066a84360aa8f8ec4c55addfb6a8890f1b12e1dd46bad016f8b.pdf",
+      "stored": "library/assets/sha256/79/79e9a3bb3fbdc066a84360aa8f8ec4c55addfb6a8890f1b12e1dd46bad016f8b.pdf",
+      "sha256": "79e9a3bb3fbdc066a84360aa8f8ec4c55addfb6a8890f1b12e1dd46bad016f8b",
+      "originalReferences": [
+        "drawings/universal-post-b6-r1/万能柱_H25mm_B6_R1_加工审核图.pdf"
+      ],
+      "sources": [
+        "library/assets/sha256/79/79e9a3bb3fbdc066a84360aa8f8ec4c55addfb6a8890f1b12e1dd46bad016f8b.pdf"
+      ]
     },
     {
-      "path": "drawings/a107eacfed1eab33e386aa62d9d91a11aaf51f68b68ca11f4e5223b388769250.pdf",
-      "stored": "library/assets/sha256/a1/a107eacfed1eab33e386aa62d9d91a11aaf51f68b68ca11f4e5223b388769250.pdf",
-      "sha256": "a107eacfed1eab33e386aa62d9d91a11aaf51f68b68ca11f4e5223b388769250",
-      "originalReferences": [],
-      "sources": []
+      "path": "cad/b6729cdb0b48cf2269883aa92d1d10b6489f250f6f4796ae54313e948b1e6778.step",
+      "stored": "library/assets/sha256/b6/b6729cdb0b48cf2269883aa92d1d10b6489f250f6f4796ae54313e948b1e6778.step",
+      "sha256": "b6729cdb0b48cf2269883aa92d1d10b6489f250f6f4796ae54313e948b1e6778",
+      "originalReferences": [
+        "step/universal-post-b6-r1/万能柱_H25mm_B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/b6/b6729cdb0b48cf2269883aa92d1d10b6489f250f6f4796ae54313e948b1e6778.step"
+      ]
     }
   ],
   "dependencies": []

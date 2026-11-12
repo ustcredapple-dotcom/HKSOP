@@ -3,15 +3,15 @@
   "snapshots": [
     {
       "id": "web-current",
-      "role": "current-with-selected-history",
-      "version": "2026-11-12.hksop-history-r1",
-      "sha256": "b362830e14a7edd6e4daf5cee8c365fb3e86e035cde37d986181d57abaa3def8",
+      "role": "current-standard",
+      "version": "2026-11-12.standard-restored-no-r8",
+      "sha256": "399af2810c1dab5a3c9d48c48275f54334c59363a2fda865a8db3dd6ebd13746",
       "counts": {
-        "components": 630,
-        "kits": 361,
+        "components": 433,
+        "kits": 264,
         "registeredBoards": 6
       },
-      "assetCount": 3387,
+      "assetCount": 1872,
       "missingCount": 0
     }
   ]

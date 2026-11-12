@@ -6,8 +6,9 @@
   "records": [
     {
       "kind": "components",
-      "path": "record.json"
+      "path": "records/mt-flf1s.json"
     }
   ],
-  "origin": "current-published-catalog"
+  "origin": "current-published-catalog",
+  "distribution": "current-cad-topviews-and-drawings"
 }

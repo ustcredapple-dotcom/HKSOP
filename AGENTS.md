@@ -10,3 +10,5 @@
 - 每次实质修改追加PROJECT_LOG.md，记录验证、成果与后续；日志及本机环境不进入后续Git提交。
 - GitHub 按任务增量更新。每次只提交新增或实际变更的元件、资源及必要索引条目，既有元件和资源直接复用。
 - 2026-11-12：每次更新元件按用户当次明确选择执行：保留时将旧版本、CAD及配套资料存入 `library/history`，不保留时跳过本次历史归档；未说明先确认。历史元件在旧工程中可解析/渲染，但不得出现在新建拖入列表或允许新增。此条覆盖旧版删除/current-only条款，按 [旧设计依赖协议](docs/component-history.md) 执行。
+
+- 2026-11-12：多功能转接板 UMA1-R8 及其套件仅保留在 NAS/本地 `library/custom`，作为附加选项。GitHub 分发禁止引入这两个包及其专属资源；按 `config/distribution.json` 的 `excludedPackageIds` 排除。原配套标准器件保持现用，不因该本地附加件移入 History。

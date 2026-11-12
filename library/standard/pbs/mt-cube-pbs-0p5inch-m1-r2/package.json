@@ -1,25 +1,32 @@
 {
   "format": "hksop-package-v1",
   "packageId": "mt-cube-pbs-0p5inch-m1-r2",
-  "revision": "UMA1-R8",
-  "displayName": "UMA1-R8 · 半英寸 PBS · 45°",
-  "origin": "Current R8; old 0° retained in library/history",
+  "revision": "M1-R2-B6R1",
+  "displayName": "MT立方体PBS模块 · 0.5 inch · H37.5 · M1-R2",
   "records": [
     {
       "kind": "kits",
-      "path": "records/mt-cube-pbs-0p5inch-m1-r2-45.json"
+      "path": "records/mt-cube-pbs-0p5inch-m1-r2.json"
     }
   ],
   "componentDependencies": [
+    "custom-mt-cube-adapter-0p5inch-m1-r2",
     "custom-post-metric-37p5mm-m1",
-    "custom-uma1-r8",
-    "hardware-dowel-d2x6",
     "hardware-iso4762-m6x12",
     "lbtek-mt-am05-purchased",
     "lbtek-mt-csb05-purchased",
-    "lbtek-pbs621-purchased",
-    "metric-m1-post-m4x14",
-    "metric-m1-post-pin-d2x8"
+    "metric-m1-post-pin-d2x8",
+    "new-r3-hardware-b7a3ea97ce89",
+    "v7-iso4762-m4x12"
   ],
-  "assets": []
+  "capabilities": {
+    "display": "available",
+    "placement": "declared",
+    "simulation": "not-declared",
+    "procurement": "see-bom-and-source-record",
+    "manufacturing": "see-per-part-records-and-evidence",
+    "note": "Migration preserves source claims; no new physical acceptance is implied."
+  },
+  "origin": "current-published-catalog",
+  "distribution": "current-cad-topviews-and-drawings"
 }

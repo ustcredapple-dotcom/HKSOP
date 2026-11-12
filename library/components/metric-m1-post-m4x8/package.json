@@ -6,8 +6,9 @@
   "records": [
     {
       "kind": "components",
-      "path": "record.json"
+      "path": "records/metric-m1-post-m4x8.json"
     }
   ],
-  "origin": "current-published-catalog"
+  "origin": "current-published-catalog",
+  "distribution": "current-cad-topviews-and-drawings"
 }

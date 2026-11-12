@@ -1,8 +1,0 @@
-{
-  "id": "hardware-iso4762-m2p5x8",
-  "name": "M2.5×8 内六角圆柱头螺钉",
-  "model": "M2.5×0.45×8",
-  "kind": "standard",
-  "unit": "颗",
-  "notes": "PCF底座固定4颗；名义旋入5mm，按原件接口实测确认。"
-}

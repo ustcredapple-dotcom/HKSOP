@@ -36,9 +36,9 @@ HKSOP makes those relationships explicit. Universal posts provide reusable suppo
 <details>
 <summary><strong>当前仓库收录范围 / What is included</strong></summary>
 
-当前精选库有 **695 个包**：现用 **438 条零件、265 条套件和 6 种底板**；另有 **288 条冻结历史定义**，供旧工程继续解析和显示，不支持新增拖入。共享资源含 **598 份 STEP、386 份渲染资源、548 份 PDF 和 357 份 DXF**。项目目录保留三个可导入示例。当前资料版本为 `2026-11-12.hksop-history-r1`。
+当前精选库有 **695 个包**：现用 **433 条零件、264 条套件和 6 种底板**。原镜架/PBS 配套套件已恢复；多功能转接板 UMA1-R8 仅作为本地附加项，不包含在 GitHub 分发中。历史兼容功能保留，目前没有冻结历史定义。共享资源含 **586 份 STEP、378 份渲染资源、542 份 PDF 和 350 份 DXF**。项目目录保留三个可导入示例。当前资料版本为 `2026-11-12.standard-restored-no-r8`。
 
-The curated library contains **695 packages**, with **438 active components, 265 active kits and 6 board definitions**, plus **288 frozen historical definitions** for existing designs. Historical entries can render but cannot be newly placed. Shared resources include **598 STEP files, 386 rendering resources, 548 PDFs and 357 DXFs**. The three importable examples remain available.
+The curated library contains **695 packages**, with **433 active components, 264 active kits and 6 board definitions**. Original mirror/PBS adapter kits are restored; UMA1-R8 remains a local-only additional option and is excluded from this GitHub distribution. History support remains available, with no frozen definitions currently registered. Shared resources include **586 STEP files, 378 rendering resources, 542 PDFs and 350 DXFs**. The three importable examples remain available.
 
 现用元件图纸随库提供，修订与原有验收状态保持不变。下文成像项目的图片用于说明实际工作过程；它的完整定制依赖和三维总装没有因此加入精选库。文件范围见[收录清单](docs/selection.json)、[元件资源清单](docs/asset-manifest.json)和[首页图片来源](docs/assets/sources.json)。
 

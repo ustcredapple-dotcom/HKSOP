@@ -33,6 +33,7 @@ AI 已经验证过的设计直接复用验收，只验证新增、变更及其�
 
 先定位当前项目源记录及最后交付清单，核对其哈希；不要以文件名或旧 `passed` 判断最终版本。取得镜架型号/原厂 STEP、镜厚、电机本体及输出接口、目标光高、柱与转接件、调节方向和需要保护的通光区域。缺少关键接口时先推进可独立部分，将缺值记为待核实，不借另一个型号补齐。
 
+- 自制加工件的倒 C 角：按 [统一倒角规则](../zzlab-modular-optics/references/design-rules.md#chamfer-protocol) 使用默认 C0.3×45°，保护功能边/配合，核对实际 CAD、STEP 和加工图；不改原厂件。
 - 原厂接口、长杆/浮动机构与通光约束：读 [references/mechanical-workflow.md](references/mechanical-workflow.md)。
 - 继承项目 V2 时：读 [references/v2-baseline.md](references/v2-baseline.md)，其中是版本实例，不能变成其他型号的默认尺寸。
 - 加工图：孔径、螺纹、深度、沉孔和入口须用孔旁紧凑短引线标注（保留原定位尺寸，不逐孔堆审核说明或另加整页）；孔位和基准沿用原定位方法（包括原坐标表）；孔规格表仅补充。同规格组孔可合并数量规格；歧义用剖视/详图消除，未知不猜。具体交接要求见 [references/library-handoff.md](references/library-handoff.md)。

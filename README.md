@@ -284,6 +284,12 @@ The engine and library retain active code, definitions, and assets, including cu
 
 English documentation includes the [sketch-to-3D case study](docs/workflow-case-study.en.md), [architecture](docs/architecture.en.md), [library](library/README.en.md), [CLI](docs/commands.en.md) and [component onboarding](docs/component-intake.en.md) guides. The [skills guide](skills/README.en.md) explains the design and delivery workflows, and the [documentation index](docs/README.en.md) links to verification records. Build the current catalog from source packages; the generated `catalog.json` is not tracked in Git.
 
+### AI 自动设计倒 C 角 / AI design chamfers
+
+自制加工件普通外露非功能锐边和间隙孔外孔口默认 **C0.3×45°**；定位、配合及薄壁处单独判断。倒角须进入实际 CAD/STEP，并与加工图一致；见 [倒 C 角协议](skills/zzlab-modular-optics/references/design-rules.md#chamfer-protocol)。
+
+For custom machined parts, use **C0.3 × 45°** for ordinary exposed non-functional sharp edges and clearance-hole mouths where material permits. Assess functional edges, fits and thin sections individually. Model the accepted chamfers in CAD/STEP and match the drawings; see the [chamfer protocol](skills/zzlab-modular-optics/references/design-rules.md#chamfer-protocol).
+
 ## 来源与联系 / Origin and Contact
 
 本项目的设计来自**香港大学 HKU Ultracold Atom Lab（ZZLab）**。实验室网页为 [Ultracold@HKU](https://www.ultracold.hku.hk/)。项目联系 **Wang Junjie**，邮箱 [u3013215@connect.hku.hk](mailto:u3013215@connect.hku.hk)，GitHub 为 [ustcredapple-dotcom](https://github.com/ustcredapple-dotcom)。

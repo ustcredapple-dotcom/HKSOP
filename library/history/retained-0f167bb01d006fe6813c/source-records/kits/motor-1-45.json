@@ -1,0 +1,524 @@
+{
+  "category": "motor",
+  "variant": "1 inch",
+  "description": "真实V2源修订：四独立平板、世界竖直4.3mm槽、独立10-S2补偿转接件；保留商业镜架、两舵机与两轴套。",
+  "components": [
+    {
+      "componentId": "custom-post-metric-25mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-adapter-10-s2-r2",
+      "quantity": 1
+    },
+    {
+      "componentId": "mt-am1s5",
+      "quantity": 1
+    },
+    {
+      "componentId": "encoder-servo",
+      "quantity": 2
+    },
+    {
+      "componentId": "motor-adapter-m3",
+      "quantity": 2
+    },
+    {
+      "componentId": "custom-motor-ms2-a-r3-thru",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-ms2-l-r2",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-ms2-h-r2",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-ms2-s-r2",
+      "quantity": 1
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "mirror",
+      "label": "反射镜",
+      "type": "mirror",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 25.4
+    }
+  ],
+  "status": "CAD名义装配和加工审核通过；未实物试装",
+  "notes": "原ID保持。旧bracket/custom-10仅留库及历史，不计入当前BOM。单M4竖槽靠摩擦锁紧，未验证带电行程、舵机标定、载荷、抗滑移或加工放行。 B6 R1：万能柱底座6 mm，原标称总高和光学基准保持；当前完整STEP已实际换柱，未实物试装。 MS2-A采用R3-THRU，两孔改贯通螺纹，底部不再开方槽。原6颗DIN7991 M3×10不变；J1/J2名义旋入5.1 mm。 云端已冻结并完成静态复核，严格几何比较仍有差异，仅供装配参考；加工以本库原审核 STEP 和图纸为准。 已检查整组移动与撤销恢复，内部运动未验。",
+  "metricRevision": {
+    "revision": "M1",
+    "sourceVersionId": "6e749963ebef18952db7c82d",
+    "nominalAxisHeightMm": 62.5,
+    "horizontalDatumsPreserved": true,
+    "supportMigration": {
+      "custom-02": "custom-post-metric-12p5mm-m1",
+      "custom-01": "custom-post-metric-25mm-m1",
+      "custom-03": "custom-post-metric-37p5mm-m1",
+      "custom-post-2inch": "custom-post-metric-50mm-m1",
+      "custom-post-2p5inch": "custom-post-metric-62p5mm-m1",
+      "custom-post-3inch": "custom-post-metric-75mm-m1",
+      "custom-post-3p5inch": "custom-post-metric-87p5mm-m1",
+      "custom-post-4inch": "custom-post-metric-100mm-m1",
+      "custom-post-4p5inch": "custom-post-metric-112p5mm-m1",
+      "custom-post-5inch": "custom-post-metric-125mm-m1",
+      "custom-post-5p5inch": "custom-post-metric-137p5mm-m1",
+      "custom-post-6inch": "custom-post-metric-150mm-m1"
+    },
+    "physicalTrialCompleted": false
+  },
+  "revision": "MS2-A-R3-THRU-B6R1",
+  "productionReady": false,
+  "id": "motor-1-45",
+  "name": "电动反射镜 · 1 inch · 45° · MS2-A R3-THRU",
+  "layout": {
+    "topViewPath": "topviews/motor-1-45-ms2-r3-thru.svg",
+    "topViewUrl": "./topviews/motor-1-45-ms2-r3-thru.svg",
+    "widthMm": 85,
+    "heightMm": 85,
+    "anchorXMm": 65,
+    "anchorYMm": 65,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "collisionBoundsMm": {
+      "xMin": -62.711435713727276,
+      "yMin": -17.6,
+      "xMax": 17.6,
+      "yMax": 62.7029782211683
+    },
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "placementAllowed": true,
+    "status": "真实总装STEP投影",
+    "note": "全部38叶片真实投影；网格偏差0.15mm、简化0.04mm、碰撞余量0.1mm。碰撞多边形保守填充内孔；原H25四真实M6孔及板内底座规则保持。",
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -62.711435713727276,
+          "yMm": 19.577922061358016
+        },
+        {
+          "xMm": -19.586379553919983,
+          "yMm": 62.7029782211683
+        },
+        {
+          "xMm": 12.374846955705298,
+          "yMm": 30.741751711535997
+        },
+        {
+          "xMm": 8.845933838789216,
+          "yMm": 27.212838594619715
+        },
+        {
+          "xMm": 10.337486589579203,
+          "yMm": 25.721285843829847
+        },
+        {
+          "xMm": 10.561809685604766,
+          "yMm": 25.39230901034686
+        },
+        {
+          "xMm": 10.647297909646392,
+          "yMm": 25.073453908997287
+        },
+        {
+          "xMm": 10.635083697098926,
+          "yMm": 24.745506330560325
+        },
+        {
+          "xMm": 10.526743875034464,
+          "yMm": 24.435754354856343
+        },
+        {
+          "xMm": 10.336403821196845,
+          "yMm": 24.177825177433537
+        },
+        {
+          "xMm": 9.174803152817862,
+          "yMm": 23.016224509054418
+        },
+        {
+          "xMm": 9.288734645688619,
+          "yMm": 22.902292957889408
+        },
+        {
+          "xMm": 9.286280816666386,
+          "yMm": 22.45824449956308
+        },
+        {
+          "xMm": 8.340227987354362,
+          "yMm": 21.512191670251052
+        },
+        {
+          "xMm": 9.02330046432066,
+          "yMm": 20.891675942558624
+        },
+        {
+          "xMm": 9.417293121850179,
+          "yMm": 20.27427562574458
+        },
+        {
+          "xMm": 9.675779146648395,
+          "yMm": 19.433086724886422
+        },
+        {
+          "xMm": 10.933187251949334,
+          "yMm": 20.689595607663087
+        },
+        {
+          "xMm": 11.618481050659293,
+          "yMm": 21.265603998532036
+        },
+        {
+          "xMm": 11.883531305304668,
+          "yMm": 21.37538514581776
+        },
+        {
+          "xMm": 12.21439649328374,
+          "yMm": 21.38774820777917
+        },
+        {
+          "xMm": 12.531429366653695,
+          "yMm": 21.302784329111685
+        },
+        {
+          "xMm": 12.80618067224075,
+          "yMm": 21.1301380665979
+        },
+        {
+          "xMm": 16.326388593899445,
+          "yMm": 17.6
+        },
+        {
+          "xMm": 17.6,
+          "yMm": 17.6
+        },
+        {
+          "xMm": 17.6,
+          "yMm": -17.6
+        },
+        {
+          "xMm": -17.6,
+          "yMm": -17.6
+        },
+        {
+          "xMm": -17.6,
+          "yMm": -17.163504271545442
+        },
+        {
+          "xMm": -21.546465017507575,
+          "yMm": -13.217039254038971
+        },
+        {
+          "xMm": -21.772184901768195,
+          "yMm": -12.790142881397792
+        },
+        {
+          "xMm": -21.790758594524846,
+          "yMm": -12.297959422293218
+        },
+        {
+          "xMm": -21.548277176936665,
+          "yMm": -11.794184067780012
+        },
+        {
+          "xMm": -19.742314190600002,
+          "yMm": -9.984304053967762
+        },
+        {
+          "xMm": -19.742314190600002,
+          "yMm": -9.616510967624777
+        },
+        {
+          "xMm": -20.20439625570072,
+          "yMm": -9.450766025988113
+        },
+        {
+          "xMm": -20.82749819203401,
+          "yMm": -9.07584200204316
+        },
+        {
+          "xMm": -21.16649339491962,
+          "yMm": -8.779964326915731
+        },
+        {
+          "xMm": -21.516697811768424,
+          "yMm": -8.344734128876732
+        },
+        {
+          "xMm": -22.460473469542688,
+          "yMm": -9.288509786651
+        },
+        {
+          "xMm": -22.902534088764824,
+          "yMm": -9.288509786651
+        },
+        {
+          "xMm": -23.016217744807367,
+          "yMm": -9.17479638857454
+        },
+        {
+          "xMm": -24.18074690579205,
+          "yMm": -10.339325549559357
+        },
+        {
+          "xMm": -24.50974792965122,
+          "yMm": -10.563634649576562
+        },
+        {
+          "xMm": -24.82864620704512,
+          "yMm": -10.64908318547322
+        },
+        {
+          "xMm": -25.15602356371306,
+          "yMm": -10.636833589045136
+        },
+        {
+          "xMm": -25.44347520643612,
+          "yMm": -10.54016928549828
+        },
+        {
+          "xMm": -25.70177924563222,
+          "yMm": -10.360060392365265
+        },
+        {
+          "xMm": -27.214408139496,
+          "yMm": -8.8475033836639
+        },
+        {
+          "xMm": -30.750209204100003,
+          "yMm": -12.383304448267298
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "actual-step-triangle-projection-ms2-r2",
+    "opticalAxisHeightMm": 62.5,
+    "opticalAxisHeightSource": "真实三共面后座 + 用户指定名义6mm镜厚，经10-S2补偿后前光面回柱轴；非实物镜厚测量或光学校准。",
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalSurfaceAngleDeg": 45.0,
+    "opticalType": "mirror",
+    "geometryEvidence": {
+      "sourceStepSha256": "ac5685abb016b2b76b687e929d79c0b8f83f2a21e65b59720ecd92ec53629892",
+      "sourceStep": null,
+      "imageSha256": "b608cf37b3d853df5109f9686b0c2889291b6158beeb08307ca0b566a5ea1f41",
+      "leafCount": 38,
+      "onlyTwoPilotHolesExtended": true,
+      "allOtherSourceStatementsAndOccurrenceTransformsPreserved": true
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "ac5685abb016b2b76b687e929d79c0b8f83f2a21e65b59720ecd92ec53629892",
+      "imageSha256": "b608cf37b3d853df5109f9686b0c2889291b6158beeb08307ca0b566a5ea1f41",
+      "frameAndAnchorPreserved": true
+    }
+  },
+  "assemblyAssets": [
+    {
+      "stepPath": "step/ms2-r3-thru-20261020/motor-1-45__MS2-A_R3-THRU_B6.step",
+      "sha256": "ac5685abb016b2b76b687e929d79c0b8f83f2a21e65b59720ecd92ec53629892",
+      "role": "nominal-CAD-reference-assembly",
+      "assemblyLeafCount": 38,
+      "includesNominal6mmMirror": false,
+      "manufacturingUse": "当前分件STEP和R3-THRU图纸为单件加工依据"
+    }
+  ],
+  "mechanicalRevision": {
+    "revision": "MS2-A-R3-THRU",
+    "sourceAssemblySha256": "734be7f9a7dbb49793ec7110790eb146bfd3728001ac16f963aa17dc3950a728",
+    "assemblySha256": "ac5685abb016b2b76b687e929d79c0b8f83f2a21e65b59720ecd92ec53629892",
+    "frontPointBoardMm": [
+      0,
+      0,
+      62.5
+    ],
+    "normalBoard": [
+      0.7071067811865476,
+      -0.7071067811865475,
+      0.0
+    ],
+    "mirrorTangentBoard": [
+      -0.7071067811865475,
+      -0.7071067811865476,
+      0.0
+    ],
+    "mirrorThicknessMm": 6,
+    "mirrorThicknessBasis": "用户指定名义值；未实物测量",
+    "conditionalFasteners": [
+      {
+        "id": "DIN7991-M3x10",
+        "quantity": 6,
+        "headDiameterMm": 6,
+        "headHeightMm": 1.7,
+        "driver": "H2",
+        "engagementMm": 5.1,
+        "bottomGapMm": 1.9,
+        "note": "必须指定DIN7991源头型，不以更大ISO10642头直接代换；板组预装。 J1/J2现为通孔，螺钉尖端至底面9.5 mm；其余4孔原盲孔余量不变。"
+      },
+      {
+        "id": "ISO4762-M2x10",
+        "quantity": 4,
+        "driver": "H1.5",
+        "engagementMm": 5,
+        "bottomGapMm": 2,
+        "note": "真实舵机源名义M2 pilot；厂家牙型待核。"
+      },
+      {
+        "id": "ISO4762-M4x20",
+        "quantity": 1,
+        "driver": "H3",
+        "gripMm": 14,
+        "protrusionMm": 2
+      },
+      {
+        "id": "DIN125A-M4-4.3x9x0.8",
+        "quantity": 1
+      },
+      {
+        "id": "ISO4032-M4-AF7-height3.2",
+        "quantity": 1
+      },
+      {
+        "id": "ISO4762-M4x16",
+        "quantity": 2,
+        "interfaces": [
+          "H25中心",
+          "MT底部"
+        ],
+        "engagementMm": [
+          7.9,
+          7
+        ],
+        "bottomGapMm": [
+          4.1,
+          5.1
+        ]
+      },
+      {
+        "id": "dowel-D2x8",
+        "quantity": 2,
+        "interfaces": [
+          "H25↔10-S2"
+        ],
+        "nominalInsertionMm": [
+          4,
+          4
+        ],
+        "note": "定位销公差/压入端/端部倒角待实物确认。"
+      },
+      {
+        "id": "dowel-D2x5",
+        "quantity": 2,
+        "interfaces": [
+          "10-S2↔MT底部"
+        ],
+        "nominalInsertionMm": [
+          3.3,
+          1.7
+        ],
+        "nominalBottomGapMm": [
+          0.9,
+          0.2
+        ],
+        "note": "源销孔深1.9，短侧插1.7；实物孔深/销倒角待核，禁止顶死。"
+      }
+    ],
+    "limitations": [
+      "螺纹采用源名义圆柱，不是牙型/配合级/扭矩验证。",
+      "所有设置均断电；无舵机标定/带电行程/结构FEM。",
+      "单M4无销的竖槽靠摩擦锁紧，重复定位/抗滑移未实测。",
+      "商用源夹持唇/镜片倒角相容待实物核定。",
+      "M2与平板接合螺钉按预装顺序核工具；未声明装上镜架后全部螺钉可原位维护。",
+      "图纸是加工审核资料；螺纹配合级、加工公差、阳极/喷砂影响和实物短L形工具尺寸须在投料前确认。",
+      "原10源柱销孔与中心沉孔局部相交、偏置沉孔底边开口约0.125mm被保留；未声明完整圆孔包围。",
+      "光面由三真实共面后座加名义6mm厚度计算；未实物测量镜片厚度、倒角或夹持变形。",
+      "未执行Onshape云导入、舵机标定、负载/滑移/FEM或带电运动验收。"
+    ],
+    "manifestSha256": "cfc1da15c9e9b675ccbc844e7523c72b3b385f7d2d48884dc4bd0608993e299f"
+  },
+  "postBaseRevision": {
+    "revision": "B6-R1",
+    "baseThicknessMm": 6,
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "cloudStatus": "pending",
+    "physicalAssemblyAccepted": false,
+    "previousSourceUrl": "https://cad.onshape.com/documents/3a3c1d8089df865b8b4e822a/v/6e749963ebef18952db7c82d/e/8bf6e28be88ed5cb2e43cd82",
+    "sourceAssemblySha256": "d66ce8528db807408ba29076ca9231a7b9cc3780b0c58a3fdca18f7a2b5fadd6",
+    "currentAssemblySha256": "ac5685abb016b2b76b687e929d79c0b8f83f2a21e65b59720ecd92ec53629892",
+    "replacementReportSha256": "8322b08697add361086b25eeb6bb3a110776f40f93cceca533bfc16cff5240a5",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "assemblyReference": {
+    "stepPath": "step/ms2-r3-thru-20261020/motor-1-45__MS2-A_R3-THRU_B6.step",
+    "sourceStepSha256": "ac5685abb016b2b76b687e929d79c0b8f83f2a21e65b59720ecd92ec53629892",
+    "revision": "MS2-A-R3-THRU-B6R1",
+    "sourceExact": false,
+    "sourceDerivedByVerifiedSinglePartReplacement": true,
+    "nominalFixedPositionAssembly": true,
+    "drawingPath": "drawings/ms2-r3-thru-20261020/motor-1-45_装配变更说明_TN1_20261026.pdf",
+    "sourceDrawingSha256": "8297d4bcdc80c787f684227f185af20326727a973cd74a2c1d287ddac07cecbb",
+    "includeInBundle": true,
+    "cloudStatus": "static-reference-reviewed-with-findings",
+    "cloudUrl": "https://cad.onshape.com/documents/393d464497722c1956aa3ed6/v/e36b2e7bf05b52c3c6b0881c/e/441c88cbb57f5b95c7980305"
+  },
+  "mechanicalConfiguration": {
+    "id": "motor-1-45-MS2-A-R3-THRU-B6",
+    "sourceNominalPosePreserved": true,
+    "nativeMotionMates": false
+  },
+  "sourceUrl": "https://cad.onshape.com/documents/393d464497722c1956aa3ed6/v/e36b2e7bf05b52c3c6b0881c/e/441c88cbb57f5b95c7980305",
+  "cloudReference": {
+    "url": "https://cad.onshape.com/documents/393d464497722c1956aa3ed6/v/e36b2e7bf05b52c3c6b0881c/e/441c88cbb57f5b95c7980305",
+    "versionId": "e36b2e7bf05b52c3c6b0881c",
+    "reviewedAt": "2026-10-20T23:30:14.574588+08:00",
+    "status": "static-reference-with-geometric-findings",
+    "strictGeometryIdentity": false,
+    "automaticCloudReuseAllowed": false,
+    "sourceStepSha256": "ac5685abb016b2b76b687e929d79c0b8f83f2a21e65b59720ecd92ec53629892",
+    "readbackSha256": "1f92f9986e4b2a4285be97b7f194b5fa45c115f9ef8303a6b804deede52a3b11",
+    "allSolidsValid": true,
+    "internalMotionTested": false,
+    "physicalTrialCompleted": false
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": "assets/drawings/ms2-r3-thru-20261020/motor-1-45_装配变更说明_TN1_20261026.pdf",
+        "previousSha256": "d1f1322369a2867e7c802246d51c4f5344f628ba8229cd8fb01d6a25d6fd04b1",
+        "sha256": "8297d4bcdc80c787f684227f185af20326727a973cd74a2c1d287ddac07cecbb"
+      }
+    ]
+  }
+}

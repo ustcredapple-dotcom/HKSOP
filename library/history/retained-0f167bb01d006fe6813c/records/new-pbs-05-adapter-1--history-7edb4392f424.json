@@ -1,0 +1,135 @@
+{
+  "id": "new-pbs-05-adapter-1--history-7edb4392f424",
+  "name": "固定半英寸PBS下板",
+  "model": "02-PBS-L-M1",
+  "kind": "custom",
+  "unit": "件",
+  "status": "M1公制加工审核图；PDF、DXF与STEP同源",
+  "notes": "M1公制修订；M4×7是名义选型，不能直接用×8替代；应按孔深核实。。实物试装未完成。",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/05b198d8a229b2c028d67b6d",
+  "stepPath": "step/history-1f4972e5cf6b663a33563a3ff0215c4a3a9ac19587b1d4836b9d9f33e4216ab9.step",
+  "drawingPath": "drawings/history-d5ad2d488f798672b6674de808673fa9183aa5a874e27f2f7247aa8e6d988b5f.pdf",
+  "sourceStepSha256": "1f4972e5cf6b663a33563a3ff0215c4a3a9ac19587b1d4836b9d9f33e4216ab9",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "threadClass": "待确认",
+    "profileId": "r6_316L_passivated",
+    "policyVersion": "supplied-manufacturing-M1-2026-10-05",
+    "processDetails": "M3孔为通孔攻牙，非普通Ø2.5通孔。 层间销孔从顶面加工；柱销孔从主底面加工。"
+  },
+  "drawingRevision": "M1",
+  "drawingStatus": "engineering-review",
+  "dxfPath": "drawings/history-8e6f4938acf48d8d78a34ff0e67bcb27e4fbef1cdc7dad4cbd3fc160b4761742.dxf",
+  "manufacturingEvidence": {
+    "sourcePackage": null,
+    "sourceCode": "02-PBS-L",
+    "sourceStepSha256": "1f4972e5cf6b663a33563a3ff0215c4a3a9ac19587b1d4836b9d9f33e4216ab9",
+    "drawingSha256": "d5ad2d488f798672b6674de808673fa9183aa5a874e27f2f7247aa8e6d988b5f",
+    "dxfSha256": "8e6f4938acf48d8d78a34ff0e67bcb27e4fbef1cdc7dad4cbd3fc160b4761742",
+    "pageCount": 3,
+    "metricMigration": {
+      "post_height_old_mm": 38.1,
+      "post_height_new_mm": 37.5,
+      "selected_height_delta_mm": 0,
+      "world_bottom_delta_mm": -0.6,
+      "supplier_translation_mm": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "physicalTrialCompleted": false
+  },
+  "sourceDrawingSha256": "d5ad2d488f798672b6674de808673fa9183aa5a874e27f2f7247aa8e6d988b5f",
+  "sourceDxfSha256": "8e6f4938acf48d8d78a34ff0e67bcb27e4fbef1cdc7dad4cbd3fc160b4761742",
+  "dxfPdfPath": "drawings/history-4a2f4d3650e158f927a0a083e831e4702e3f6236f3468bed3648cda6771b918f.pdf",
+  "dxfPdfSha256": "4a2f4d3650e158f927a0a083e831e4702e3f6236f3468bed3648cda6771b918f",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "21810c29eb50162d926b91769aea3a02f553c9fbb0d63b5859ef5920b61869d0",
+      "currentPdfSha256": "074154db9f739b0485bb13d46256a91ce3571b20a3f666bd4735ef7034c7e294",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "3439dc4a3d82c7280fc164ee4e8a8d6a4f3542aff8aa872b78111bd6c1709028",
+      "currentPdfSha256": "4a2f4d3650e158f927a0a083e831e4702e3f6236f3468bed3648cda6771b918f",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "02-PBS-L",
+        "dxfPath": "drawings/history-0a77456fef31301173c0aae3422e259ced6e6f76d7c23f3f071098b9d1f6ceee.dxf",
+        "sha256": "0a77456fef31301173c0aae3422e259ced6e6f76d7c23f3f071098b9d1f6ceee",
+        "setupPdfPath": "drawings/history-0df7640d5f5c7e25ce08a14adb5871e99611e6d9244913925d5ba0994b2bb3cb.pdf",
+        "setupPdfSha256": "0df7640d5f5c7e25ce08a14adb5871e99611e6d9244913925d5ba0994b2bb3cb"
+      }
+    ]
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": "assets/drawings/history-d5ad2d488f798672b6674de808673fa9183aa5a874e27f2f7247aa8e6d988b5f.pdf",
+        "previousSha256": "628b5852bf1cca88ad1ad044738c525c1cd8bb260320e6633ea71fcf78dadeff",
+        "sha256": "d5ad2d488f798672b6674de808673fa9183aa5a874e27f2f7247aa8e6d988b5f"
+      },
+      {
+        "path": "assets/drawings/history-b5b7527f2b32c548fc4d0738db0f945193da976f99573ac53bd9e69265c9c711.pdf",
+        "previousSha256": "1cb0af9a0765a78a5b73546ac42ae2a6eae96b1d74da93878a924e3af8e49db9",
+        "sha256": "b5b7527f2b32c548fc4d0738db0f945193da976f99573ac53bd9e69265c9c711"
+      },
+      {
+        "path": "assets/drawings/history-4a2f4d3650e158f927a0a083e831e4702e3f6236f3468bed3648cda6771b918f.pdf",
+        "previousSha256": "d323e4320ae3af13d5b271c14ce839c01d006a959f98b8a0096ea8fcbb7a4f91",
+        "sha256": "4a2f4d3650e158f927a0a083e831e4702e3f6236f3468bed3648cda6771b918f"
+      },
+      {
+        "path": "assets/drawings/history-8e6f4938acf48d8d78a34ff0e67bcb27e4fbef1cdc7dad4cbd3fc160b4761742.dxf",
+        "previousSha256": "031035f43a29318122cf81a13ab060673454e78f29a986a018660f1990b95d1b",
+        "sha256": "8e6f4938acf48d8d78a34ff0e67bcb27e4fbef1cdc7dad4cbd3fc160b4761742"
+      },
+      {
+        "path": "assets/drawings/history-c693ba8dc6cba52f4be65c03e843530f791b9c31eab57bd3388dad71cccb444e.dxf",
+        "previousSha256": "97078cbfc34969eaaf14aa55791b42fefd22149b7999e03fce28eabdda710a52",
+        "sha256": "c693ba8dc6cba52f4be65c03e843530f791b9c31eab57bd3388dad71cccb444e"
+      }
+    ]
+  },
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "new-pbs-05-adapter-1",
+    "revision": null,
+    "sourceRecordSha256": "709f56518e81755dad9b3444afdc3d12ca6014fe5c5e3ea997aa06cf6fb91372"
+  }
+}

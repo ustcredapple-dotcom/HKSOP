@@ -7,3 +7,5 @@ Start with the [architecture guide](architecture.en.md), [CLI reference](command
 `selection.json` and `asset-manifest.json` describe the current scope and files. `cad-restoration.json` records current drawing restoration and hash checks. `example-verification.json` and `runtime-verification.json` preserve checks performed at their recorded times; a later publication or asset restoration does not turn them into new physical acceptance tests.
 
 For the real project behind the homepage workflow, read the [sketch-to-3D case study](workflow-case-study.en.md) and [image provenance guide](assets/README.en.md).
+
+The [component-history protocol](component-history.md) defines preservation of old-design dependencies in `library/history`, historical rendering and new-placement restrictions.

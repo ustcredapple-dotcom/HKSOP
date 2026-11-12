@@ -1,0 +1,18 @@
+{
+  "id": "mpbs24-532--history-af6d1b401ac9",
+  "name": "带安装座偏振分束立方体",
+  "model": "MPBS24-532",
+  "kind": "lubang",
+  "unit": "个",
+  "sourceUrl": "https://www.lbtek.com/product/179",
+  "notes": "按原装配保留；可在光学件选填栏替换型号。",
+  "status": "已核对",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "mpbs24-532",
+    "revision": null,
+    "sourceRecordSha256": "76c4f7175344c9c42ee213114a2aec3c18112ab6a42a65e45b4ce37695b1cc7c"
+  }
+}

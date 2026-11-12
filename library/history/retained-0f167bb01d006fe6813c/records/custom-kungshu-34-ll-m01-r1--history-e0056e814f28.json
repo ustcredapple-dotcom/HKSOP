@@ -1,0 +1,49 @@
+{
+  "id": "custom-kungshu-34-ll-m01-r1--history-e0056e814f28",
+  "name": "34-LL-M01 定制转接件",
+  "model": "34-LL-M01",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R1",
+  "productionReady": false,
+  "drawingStatus": "engineering-review",
+  "status": "CAD及图纸审核版；未实装、未制造放行",
+  "stepPath": "step/history-840d8e52efae208b0cf78c79a4e00e9e0b64084335023ac481e613e0fb165f0e.step",
+  "drawingPath": "drawings/history-ba3a2696c10fe562dd6931be815902460383f4bb454d996f4b169bc4aca015c3.pdf",
+  "sourceStepSha256": "840d8e52efae208b0cf78c79a4e00e9e0b64084335023ac481e613e0fb165f0e",
+  "sourceDrawingSha256": "ba3a2696c10fe562dd6931be815902460383f4bb454d996f4b169bc4aca015c3",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "按本修订加工图；编号激光打标，不铣刻。通用公差及表面粗糙度未指定。"
+  },
+  "manufacturingEvidence": {
+    "sourceStepSha256": "840d8e52efae208b0cf78c79a4e00e9e0b64084335023ac481e613e0fb165f0e",
+    "drawingSha256": "ba3a2696c10fe562dd6931be815902460383f4bb454d996f4b169bc4aca015c3",
+    "physicalAssemblyTested": false,
+    "engineeringReleaseApproved": false
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "源R1编号及逐面打标资料已接收，当前STEP SHA匹配。",
+    "notes": "激光打标，不铣刻。CAD凹深仅显示；实物已有相同编号不重复。",
+    "files": [
+      {
+        "face": "34-LL-M01_top_1to1_mm",
+        "text": "34-LL-M01",
+        "dxfPath": "drawings/history-febab0cb5e774d5f922dda2ffd8c91c8d2b192b69c4316d95c27ffe28b434628.dxf",
+        "sha256": "febab0cb5e774d5f922dda2ffd8c91c8d2b192b69c4316d95c27ffe28b434628",
+        "setupPdfPath": "drawings/history-674c652ed2105ffe8536b9d4f2c413245ba37949caf92755c27babb45eb120ba.pdf",
+        "setupPdfSha256": "674c652ed2105ffe8536b9d4f2c413245ba37949caf92755c27babb45eb120ba"
+      }
+    ]
+  },
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "custom-kungshu-34-ll-m01-r1",
+    "revision": "R1",
+    "sourceRecordSha256": "29f3af78c83ebef48ea5e0aa115c28d9574a0d6d7ac79703749b969d3b628f62"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "new-pbs-05-vendor-2--history-8e8b8e41101f",
+  "name": "半英寸偏振分束立方体",
+  "model": "PBS22-532",
+  "kind": "lubang",
+  "unit": "个",
+  "status": "原装配型号已核对",
+  "sourceUrl": "https://www.lbtek.com/product/179",
+  "notes": "",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "new-pbs-05-vendor-2",
+    "revision": null,
+    "sourceRecordSha256": "dd06206e6b9a98ef62da8b0f6d3a69feb8c825cdc91801e7f53248923413636f"
+  }
+}

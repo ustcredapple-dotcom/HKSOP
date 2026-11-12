@@ -1,0 +1,20 @@
+{
+  "id": "hpb-1-2--history-373c88dd191c",
+  "name": "1 inch前置反射镜调整架",
+  "model": "HPB-1-2",
+  "kind": "lubang",
+  "unit": "件",
+  "stepPath": "step/history-91362f85c4280c42c5d3fc7b8aa7f8a76323ae302a4d2d2cd8499ccf7580ddcd.step",
+  "sourceStepSha256": "91362f85c4280c42c5d3fc7b8aa7f8a76323ae302a4d2d2cd8499ccf7580ddcd",
+  "status": "用户提供原厂STEP；开放曲面参考",
+  "notes": "来源为本次用户附件；保持原几何。镜片、透镜及光纤接口未选型。安装孔Ø4.2通孔，头部腔Ø8；名义孔高25.4 mm。",
+  "productionReady": false,
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "hpb-1-2",
+    "revision": null,
+    "sourceRecordSha256": "35a96b0a4d7801ed22458b11597fb1f6246285eae0024724d74c84db52561887"
+  }
+}

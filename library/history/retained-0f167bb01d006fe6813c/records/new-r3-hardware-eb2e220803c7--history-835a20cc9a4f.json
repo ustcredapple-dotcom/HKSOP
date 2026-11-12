@@ -1,0 +1,18 @@
+{
+  "id": "new-r3-hardware-eb2e220803c7--history-835a20cc9a4f",
+  "name": "DIN7984 / Bossard BN2844 M4×8 低头内六角螺钉",
+  "model": "DIN7984 / Bossard BN2844 M4×8 低头内六角螺钉",
+  "kind": "standard",
+  "unit": "个",
+  "status": "装配数量已核对；规格按源装配",
+  "sourceUrl": "https://www.tme.eu/Document/21a26ed7e385e775ac867bae5b3450a8/BN_2844_1_Bossard_1.pdf",
+  "notes": "头径7、高2.8、AF2.5；不得使用普通圆柱头替代。",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "new-r3-hardware-eb2e220803c7",
+    "revision": null,
+    "sourceRecordSha256": "705b35487fc983982e3c3ceddd1d4d28d5a2f812d1b7d1ac94709d5f294e7b36"
+  }
+}

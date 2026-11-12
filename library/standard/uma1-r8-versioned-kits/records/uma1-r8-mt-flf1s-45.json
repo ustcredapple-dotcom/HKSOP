@@ -1,0 +1,514 @@
+{
+  "category": "fixed",
+  "description": "四接口共用闭口转接板；柱中心与对应偏置M4同时锁紧。",
+  "components": [
+    {
+      "componentId": "custom-post-metric-25mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-uma1-r8",
+      "quantity": 1
+    },
+    {
+      "componentId": "mt-flf1s",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-dowel-d2x6",
+      "quantity": 2
+    },
+    {
+      "componentId": "metric-m1-post-pin-d2x14",
+      "quantity": 2
+    },
+    {
+      "componentId": "metric-m1-post-m4x20",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-iso4762-m6x12",
+      "quantity": 4
+    },
+    {
+      "componentId": "custom-ps25-s6-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-m4x8",
+      "quantity": 1
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "mirror",
+      "label": "反射镜",
+      "type": "mirror",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 25.4,
+      "thicknessMm": 6
+    }
+  ],
+  "status": "标准库当前工程审核版；未实物试装",
+  "notes": "先固定裸柱，再用两个M4锁紧转接板，最后装镜架与镜片；切换孔组时先抬离定位销。标准紧固件列BOM，STEP未另造紧固件实体。固定镜架的6mm圆垫位于柱顶；光高62.1mm。",
+  "revision": "UMA1-R8",
+  "releaseStage": "engineering-review",
+  "productionReady": false,
+  "includedSupplierHardware": [],
+  "mechanical": {
+    "nominalAxisHeightMm": 62.1,
+    "heightChainMm": [
+      25,
+      6,
+      12.1,
+      19
+    ],
+    "adapterRevision": "UMA1-R8",
+    "shim": {
+      "componentId": "custom-ps25-s6-r1",
+      "position": "column top",
+      "bottomZMm": 25,
+      "topZMm": 31
+    },
+    "postHeightMm": 25
+  },
+  "variant": "45deg / H62.1 / UMA1-R8",
+  "id": "uma1-r8-mt-flf1s-45",
+  "name": "MT-FLF1S · 45° · UMA1-R8",
+  "layout": {
+    "topViewPath": "topviews/uma1-r8-flf1s-45deg.svg",
+    "topViewUrl": "./topviews/uma1-r8-flf1s-45deg.svg",
+    "widthMm": 39.3546,
+    "heightMm": 39.3546,
+    "anchorXMm": 18.5828,
+    "anchorYMm": 18.5828,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "collisionBoundsMm": {
+      "xMin": -17.749705315021302,
+      "yMin": -19.94610432977926,
+      "xMax": 19.94610432977926,
+      "yMax": 17.753119773015488
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -17.748821,
+          "yMm": 8.852443
+        },
+        {
+          "xMm": -17.749705,
+          "yMm": 8.864794
+        },
+        {
+          "xMm": -17.675,
+          "yMm": 9.27824
+        },
+        {
+          "xMm": -17.675,
+          "yMm": 17.2
+        },
+        {
+          "xMm": -17.673097,
+          "yMm": 17.209567
+        },
+        {
+          "xMm": -17.629163,
+          "yMm": 17.315633
+        },
+        {
+          "xMm": -17.62332,
+          "yMm": 17.324158
+        },
+        {
+          "xMm": -17.274656,
+          "yMm": 17.656674
+        },
+        {
+          "xMm": -17.266712,
+          "yMm": 17.661784
+        },
+        {
+          "xMm": -17.257438,
+          "yMm": 17.663582
+        },
+        {
+          "xMm": -9.278928,
+          "yMm": 17.674996
+        },
+        {
+          "xMm": -8.94799,
+          "yMm": 17.75312
+        },
+        {
+          "xMm": -8.936035,
+          "yMm": 17.753005
+        },
+        {
+          "xMm": -8.631883,
+          "yMm": 17.675
+        },
+        {
+          "xMm": 17.2,
+          "yMm": 17.675
+        },
+        {
+          "xMm": 17.209567,
+          "yMm": 17.673097
+        },
+        {
+          "xMm": 17.315633,
+          "yMm": 17.629163
+        },
+        {
+          "xMm": 17.323744,
+          "yMm": 17.623744
+        },
+        {
+          "xMm": 17.623744,
+          "yMm": 17.323744
+        },
+        {
+          "xMm": 17.629163,
+          "yMm": 17.315633
+        },
+        {
+          "xMm": 17.673097,
+          "yMm": 17.209567
+        },
+        {
+          "xMm": 17.675,
+          "yMm": 17.2
+        },
+        {
+          "xMm": 17.675,
+          "yMm": -2.541295
+        },
+        {
+          "xMm": 17.898225,
+          "yMm": -3.508602
+        },
+        {
+          "xMm": 19.357048,
+          "yMm": -4.967425
+        },
+        {
+          "xMm": 19.361853,
+          "yMm": -4.97417
+        },
+        {
+          "xMm": 19.630919,
+          "yMm": -5.527513
+        },
+        {
+          "xMm": 19.633327,
+          "yMm": -5.536116
+        },
+        {
+          "xMm": 19.946104,
+          "yMm": -8.87771
+        },
+        {
+          "xMm": 19.94472,
+          "yMm": -8.88855
+        },
+        {
+          "xMm": 19.716431,
+          "yMm": -9.519097
+        },
+        {
+          "xMm": 19.710602,
+          "yMm": -9.528264
+        },
+        {
+          "xMm": 17.675,
+          "yMm": -11.563865
+        },
+        {
+          "xMm": 17.675,
+          "yMm": -17.2
+        },
+        {
+          "xMm": 17.673097,
+          "yMm": -17.209567
+        },
+        {
+          "xMm": 17.629163,
+          "yMm": -17.315633
+        },
+        {
+          "xMm": 17.623744,
+          "yMm": -17.323744
+        },
+        {
+          "xMm": 17.323744,
+          "yMm": -17.623744
+        },
+        {
+          "xMm": 17.315633,
+          "yMm": -17.629163
+        },
+        {
+          "xMm": 17.209567,
+          "yMm": -17.673097
+        },
+        {
+          "xMm": 17.2,
+          "yMm": -17.675
+        },
+        {
+          "xMm": 11.563865,
+          "yMm": -17.675
+        },
+        {
+          "xMm": 9.528264,
+          "yMm": -19.710602
+        },
+        {
+          "xMm": 9.519097,
+          "yMm": -19.716431
+        },
+        {
+          "xMm": 8.88855,
+          "yMm": -19.94472
+        },
+        {
+          "xMm": 8.87771,
+          "yMm": -19.946104
+        },
+        {
+          "xMm": 5.536116,
+          "yMm": -19.633327
+        },
+        {
+          "xMm": 5.527513,
+          "yMm": -19.630919
+        },
+        {
+          "xMm": 4.97417,
+          "yMm": -19.361853
+        },
+        {
+          "xMm": 4.967425,
+          "yMm": -19.357048
+        },
+        {
+          "xMm": 3.508602,
+          "yMm": -17.898225
+        },
+        {
+          "xMm": 2.541295,
+          "yMm": -17.675
+        },
+        {
+          "xMm": -17.2,
+          "yMm": -17.675
+        },
+        {
+          "xMm": -17.209567,
+          "yMm": -17.673097
+        },
+        {
+          "xMm": -17.315633,
+          "yMm": -17.629163
+        },
+        {
+          "xMm": -17.323744,
+          "yMm": -17.623744
+        },
+        {
+          "xMm": -17.623744,
+          "yMm": -17.323744
+        },
+        {
+          "xMm": -17.629163,
+          "yMm": -17.315633
+        },
+        {
+          "xMm": -17.673097,
+          "yMm": -17.209567
+        },
+        {
+          "xMm": -17.675,
+          "yMm": -17.2
+        },
+        {
+          "xMm": -17.675,
+          "yMm": 8.630981
+        },
+        {
+          "xMm": -17.748821,
+          "yMm": 8.852443
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "uma1-r8-20261112",
+    "placementAllowed": true,
+    "status": "当前完整STEP真实俯视；柱轴与底座孔位保持",
+    "note": "每叶实体投影凸包合并并加0.175mm保守余量；仅平面包络，不代表全行程3D干涉验收。",
+    "opticalAxisHeightMm": 62.1,
+    "opticalAxisHeightSource": "当前UMA1-R8实际高度链；沿用设计审核",
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalType": "mirror",
+    "opticalSurfaceAngleDeg": 45,
+    "geometryEvidence": {
+      "sourceStep": "step/uma1-r8-flf1s-45deg.step",
+      "sourceSha256": "6185ddf74899d57bb4f39dfedc2aa03a251e7a63b11e5e36ae8f758d6b20abde",
+      "imageSha256": "b56d0b9cc3443495c2ec6626203f49fd33f9206587c3acf919dfa4ca6d9a9d4f",
+      "partCount": 9,
+      "rigidReadbackVertexErrorMm": 1.5766943306516623e-11,
+      "collisionVerticesChecked": 58701,
+      "collisionOutsideVertices": 0,
+      "sourceToKit": {
+        "rotationRows": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "originSourceMm": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "opticalGeometryEvidence": {
+      "referenceKind": "actual bearing seat plus nominal D25.4 T6 mirror front",
+      "trueFrontCenterLayoutMm": [
+        0,
+        0,
+        62.1
+      ],
+      "cubeCenterLayoutMm": null,
+      "mirrorThicknessMm": 6,
+      "sourceStepSha256": "6185ddf74899d57bb4f39dfedc2aa03a251e7a63b11e5e36ae8f758d6b20abde",
+      "acceptedReview": "projects/four-mirror-adapter-review/design-verification.json"
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "6185ddf74899d57bb4f39dfedc2aa03a251e7a63b11e5e36ae8f758d6b20abde",
+      "imageSha256": "b56d0b9cc3443495c2ec6626203f49fd33f9206587c3acf919dfa4ca6d9a9d4f",
+      "revision": "UMA1-R8",
+      "renderRole": "complete",
+      "frameAndAnchorRecomputedFromCurrentGeometry": true,
+      "mountingOriginPreserved": true
+    }
+  },
+  "assemblyReference": {
+    "stepPath": "step/uma1-r8-flf1s-45deg.step",
+    "sourceStepSha256": "6185ddf74899d57bb4f39dfedc2aa03a251e7a63b11e5e36ae8f758d6b20abde",
+    "sha256": "6185ddf74899d57bb4f39dfedc2aa03a251e7a63b11e5e36ae8f758d6b20abde",
+    "revision": "UMA1-R8",
+    "drawingPath": "drawings/uma1-r8-design-review.pdf",
+    "sourceDrawingSha256": "c16bbf07c850a8bcc5047331512c55dd417249b097a0dfc7f4b6ab512ae957a3",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "includeInBundle": true,
+    "coordinateFrame": "kit-local; column axis XY0, base underside Z0, +Z up",
+    "sourceToKit": {
+      "rotationRows": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "originSourceMm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "additionalStandardFastenerCADIncluded": false
+  },
+  "dualPostFixation": {
+    "quantity": 2,
+    "screw": "M4x20",
+    "nominalEngagementMm": 5.9,
+    "postClockDeg": 270,
+    "upperRotationDeg": 45,
+    "screwCentersKitMm": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        -6.010407640085654,
+        6.0104076400856545
+      ]
+    ],
+    "pinCentersKitMm": [
+      [
+        -3.5355339059327378,
+        -3.5355339059327373
+      ],
+      [
+        3.5355339059327378,
+        3.5355339059327373
+      ]
+    ],
+    "postHoleAxisErrorMm": 4.892412132303089e-13,
+    "physicalTest": false
+  },
+  "designRevisionEvidence": {
+    "acceptanceReuse": true,
+    "sourceReviewPath": "projects/four-mirror-adapter-review/design-verification.json",
+    "sourceReviewSha256": "a21aa6d1ba568374acd51d01cbedf963b82bf2b9ca746c6d7451f17e1d4fc54f",
+    "newScope": [
+      "45-degree post clock and two screws/two pins",
+      "true topview and collision mapping",
+      "library BOM/resource replacement"
+    ],
+    "physicalAssemblyTested": false,
+    "manufacturingReleased": false,
+    "cloudStatus": "local-HKSOP-only-not-synced"
+  }
+}

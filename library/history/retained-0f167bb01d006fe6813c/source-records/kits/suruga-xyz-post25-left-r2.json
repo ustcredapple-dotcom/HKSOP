@@ -1,0 +1,371 @@
+{
+  "name": "Suruga XYZ · 左四孔 H25 万能柱",
+  "category": "manual-stage",
+  "variant": "left four output holes / formal H25 / R2",
+  "revision": "R2-ZPANEL-R2-B6R1",
+  "sourceUrl": "https://cad.onshape.com/documents/f1f5a5305a5cfb7d89601e0a/v/a805b8df0bd4f1102f740dd2/e/7bd6d1c7d2c53dfb6cd4ec70",
+  "description": "Suruga XYZ · 左四孔 H25 万能柱；独立BOM和真实机械/光学基准。",
+  "components": [
+    {
+      "componentId": "custom-suruga-xyz-base-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-suruga-xyz-zpanel-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-post-metric-25mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-iso4762-m6x16",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-iso4762-m3x8",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-iso4762-m3x10",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-iso4762-m6x12",
+      "quantity": 4
+    }
+  ],
+  "opticalSlots": [],
+  "layout": {
+    "widthMm": 75.0,
+    "heightMm": 100.0,
+    "anchorXMm": 37.5,
+    "anchorYMm": 37.5,
+    "baseBoundsMm": {
+      "xMin": -37.5,
+      "xMax": 37.5,
+      "yMin": -37.5,
+      "yMax": 37.5
+    },
+    "collisionBoundsMm": {
+      "xMin": -37.5,
+      "xMax": 37.5,
+      "yMin": -62.5,
+      "yMax": 37.5
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -0.002471,
+          "yMm": -62.5
+        },
+        {
+          "xMm": -24.997529,
+          "yMm": -62.5
+        },
+        {
+          "xMm": -24.997529,
+          "yMm": -41.5
+        },
+        {
+          "xMm": -30.0,
+          "yMm": -41.5
+        },
+        {
+          "xMm": -30.0,
+          "yMm": -37.5
+        },
+        {
+          "xMm": -37.2,
+          "yMm": -37.5
+        },
+        {
+          "xMm": -37.5,
+          "yMm": -37.2
+        },
+        {
+          "xMm": -37.5,
+          "yMm": 37.2
+        },
+        {
+          "xMm": -37.2,
+          "yMm": 37.5
+        },
+        {
+          "xMm": 37.2,
+          "yMm": 37.5
+        },
+        {
+          "xMm": 37.5,
+          "yMm": 37.2
+        },
+        {
+          "xMm": 37.5,
+          "yMm": -37.2
+        },
+        {
+          "xMm": 37.2,
+          "yMm": -37.5
+        },
+        {
+          "xMm": 5.0,
+          "yMm": -37.5
+        },
+        {
+          "xMm": 5.0,
+          "yMm": -41.5
+        },
+        {
+          "xMm": -0.002471,
+          "yMm": -41.5
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -25,
+        "yMm": -25
+      },
+      {
+        "xMm": -25,
+        "yMm": 25
+      },
+      {
+        "xMm": 25,
+        "yMm": -25
+      },
+      {
+        "xMm": 25,
+        "yMm": 25
+      }
+    ],
+    "topViewPath": "topviews/suruga-xyz-post25-left-r2__B6_R1.svg",
+    "topViewUrl": "./topviews/suruga-xyz-post25-left-r2__B6_R1.svg",
+    "placementAllowed": false,
+    "opticalType": "unsupported",
+    "opticalDatumVerified": false,
+    "opticalCenterMm": null,
+    "geometryEvidence": {
+      "path": "evidence/motor-r2/projection/32_XYZ_LEFT_H25_REFERENCE_R2.json",
+      "sourceStepSha256": "a08e2d1ceeb9fa55634fd63515ab07ebbd74d80220bc99c1d8d29c3c417c70ff",
+      "scope": "Actual complete XYZ accessory at calibrated midpoint; dimension-based Suruga interfaces and unchanged chosen commercial geometries.",
+      "receiverUpdate": "32-XYZ-Z_R2; geometry/receiver-geometry.json",
+      "previousProjectionSource": {},
+      "sourceStep": "step/universal-post-b6-r1/assemblies/suruga-xyz-post25-left-r2__B6_R1.step",
+      "sourceSha256": "a08e2d1ceeb9fa55634fd63515ab07ebbd74d80220bc99c1d8d29c3c417c70ff",
+      "imageSha256": "807f28a24cd1dc5bdb681f9d2c3bd5fac75531559d289336d7e1caef4c7ec972",
+      "partCount": 7,
+      "triangleCount": 21722,
+      "meshDeflectionMm": 0.035,
+      "postBaseRevision": {
+        "revision": "B6-R1",
+        "sourceRole": "complete",
+        "xyFootprintAndFunctionalDatumsPreserved": true,
+        "projectionReportSha256": "c52945f58e516ad7475a67f3e502e80aa2732efc10ace9930a9a4b47d2d38f9b",
+        "displayTransform": null,
+        "sourceGeometryChangedByRenderer": false
+      }
+    },
+    "opticalSimulationNote": "Current engine supports registered static 3D mirrors; this XYZ complete configuration has not undergone optical/runtime integration acceptance. Continuous XYZ motion and vertical subBoard editing are unregistered.",
+    "fixedUniversalPostComponentIds": [
+      "custom-post-metric-25mm-m1"
+    ],
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "a08e2d1ceeb9fa55634fd63515ab07ebbd74d80220bc99c1d8d29c3c417c70ff",
+      "imageSha256": "807f28a24cd1dc5bdb681f9d2c3bd5fac75531559d289336d7e1caef4c7ec972",
+      "revision": "B6-R1",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null
+    }
+  },
+  "status": "名义CAD装配审核；本XYZ整体运行时及实物接口验收未执行",
+  "releaseStage": "engineering-review",
+  "productionReady": false,
+  "assemblyReference": {
+    "stepPath": "step/universal-post-b6-r1/assemblies/suruga-xyz-post25-left-r2__B6_R1.step",
+    "sourceStepSha256": "a08e2d1ceeb9fa55634fd63515ab07ebbd74d80220bc99c1d8d29c3c417c70ff",
+    "drawingPath": "drawings/standard-post-h12p5-b4-r2/assemblies/XYZ三轴位移台_总装与安装说明_20261015_TN1_20261026_H12p5B4R2.pdf",
+    "sourceDrawingSha256": "1593100511b0af9b5cd87c3eb59a9b8649760c25d1c827b93fa90f82347c7088",
+    "note": "Independent complete assembly reference; not a single-part machining model or certified motion assembly.",
+    "revision": "R2-ZPANEL-R2-B6R1",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "sha256": "a08e2d1ceeb9fa55634fd63515ab07ebbd74d80220bc99c1d8d29c3c417c70ff"
+  },
+  "updateAtlasReference": {
+    "drawingPath": "drawings/xyz-left-and-standard-mt-r2/32_本次更新图册_R2.pdf",
+    "sourceDrawingSha256": "f29ed779ecd33744f4d88e104bf2d329372cf2d58c9bc50580fd0d9eaf2894c6",
+    "scope": "This-delivery update atlas; new items documented independently from the existing full library."
+  },
+  "assemblyAssets": [
+    {
+      "id": "suruga-xyz-post25-left-r2",
+      "kind": "left-post-only",
+      "stepPath": "step/universal-post-b6-r1/assemblies/suruga-xyz-post25-left-r2__B6_R1.step",
+      "sourceStepSha256": "a08e2d1ceeb9fa55634fd63515ab07ebbd74d80220bc99c1d8d29c3c417c70ff",
+      "topViewPath": "topviews/suruga-xyz-post25-left-r2__B6_R1.svg",
+      "projectionEvidencePath": "evidence/motor-r2/projection/32_XYZ_LEFT_H25_REFERENCE_R2.json",
+      "role": "nominal-CAD-reference-assembly",
+      "manufacturingUse": "Assembly reference only; use registered single-part assets for manufacture.",
+      "revision": "R2-ZPANEL-R2",
+      "sha256": "a08e2d1ceeb9fa55634fd63515ab07ebbd74d80220bc99c1d8d29c3c417c70ff"
+    }
+  ],
+  "mountedExistingHardware": [
+    {
+      "identity": "用户已有Suruga X/Y/Z位移台；采用40×40×16及32×32标准接口",
+      "quantity": 1,
+      "procurement": "existing-excluded",
+      "exactModel": null
+    },
+    {
+      "identity": "SURUGA SEIKI A47-106 L支架",
+      "quantity": 1,
+      "procurement": "existing-excluded",
+      "identifiedFrom": "user photograph engraving"
+    }
+  ],
+  "mechanicalInterfaceProtocol": {
+    "version": "zzlab-xyz-mounted-device-v2",
+    "evidencePath": "evidence/motor-r2/contracts/left-post.json",
+    "sha256": "d1f4d96b3f12c4a7663c985505fb66c1be50391cb936b479c0dcdd12a5df52b6",
+    "coordinateValidationPath": "evidence/motor-r2/suruga-xyz-post25-left-r2-coordinate-validation.json",
+    "outputPlateR2": {
+      "componentId": "custom-suruga-xyz-zpanel-r1",
+      "revision": "R2",
+      "thread": "M6x1",
+      "holeCount": 11,
+      "throughThicknessMm": 10,
+      "maximumEngagementMm": 8,
+      "plateLocalHoleCentersMm": [
+        [
+          -25.0,
+          -12.5
+        ],
+        [
+          -25.0,
+          0.0
+        ],
+        [
+          -25.0,
+          12.5
+        ],
+        [
+          -12.5,
+          0.0
+        ],
+        [
+          0.0,
+          -12.5
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          12.5
+        ],
+        [
+          12.5,
+          0.0
+        ],
+        [
+          25.0,
+          -12.5
+        ],
+        [
+          25.0,
+          0.0
+        ],
+        [
+          25.0,
+          12.5
+        ]
+      ],
+      "frame": "plate-local XY; z=10 entry, direction -Z",
+      "worldAtMidpoint": "X=x, Y=-27.5-z, Z=87.5+y",
+      "notBoardMountingHoles": true,
+      "motionVerified": false
+    }
+  },
+  "bomReviewProtocol": {
+    "evidencePath": "evidence/motor-r2/bom/left-post.json",
+    "sha256": "89f40fcfb34366fb42ba22d01ed1c16baf9388c34b3dababddc8151b099b34b4",
+    "hardwareSelectionEvidencePath": "evidence/motor-r2/bom/hardware-source-selection.json",
+    "hardwareSelectionSha256": "9c4be1fbffddfb1c64b95a81471d493fa5685d132e8294a063d65c967d93027e",
+    "scope": "Import-package-relative current application proof; inherited source/component notes are not new installation verification."
+  },
+  "runtimeCompatibility": {
+    "xyzMotion": "unsupported",
+    "verticalSubBoard": "unsupported",
+    "stageModuleRegistered": false,
+    "runtimeModified": false,
+    "static3DMirrorEngine": "available-but-this-kit-not-runtime-validated"
+  },
+  "conditionalSourceFasteners": [],
+  "includedSupplierHardware": [],
+  "configurationKind": "left-post-only",
+  "relationToPreviousObjectiveTask": "independent-XYZ-accessory-no-objective-components",
+  "notes": "XYZ配套仅裸左H25及V7，当前资料参考；两个手动架为标准native独立器件，明确不装XYZ台、不含B/Z或台固定五金，不关联前一物镜任务。空AM1T不建透射/镜面模型；AM1采用真实镜座及6mm名义镜厚，镜型/镀膜由显式选配确认。 R2：输出板共11个M6×1通牙，新增中排5孔；原底部安装孔和整体基准保持。 B6 R1：万能柱底座6 mm，原标称总高和光学基准保持；当前完整STEP已实际换柱，未实物试装。 本轮装配说明补齐：11孔R2输出板已在总装中；台体为尺寸接口参考，实物/全行程未验证。",
+  "leftPostReference": {
+    "id": "suruga-xyz-post25-left-r2",
+    "kind": "left-post-only",
+    "stepPath": "step/universal-post-b6-r1/assemblies/suruga-xyz-post25-left-r2__B6_R1.step",
+    "sourceStepSha256": "a08e2d1ceeb9fa55634fd63515ab07ebbd74d80220bc99c1d8d29c3c417c70ff",
+    "topViewPath": "topviews/suruga-xyz-post25-left-r2__B6_R1.svg",
+    "projectionEvidencePath": "evidence/motor-r2/projection/32_XYZ_LEFT_H25_REFERENCE_R2.json",
+    "role": "nominal-CAD-reference-assembly",
+    "manufacturingUse": "Assembly reference only; use registered single-part assets for manufacture.",
+    "sha256": "a08e2d1ceeb9fa55634fd63515ab07ebbd74d80220bc99c1d8d29c3c417c70ff"
+  },
+  "postBaseRevision": {
+    "revision": "B6-R1",
+    "baseThicknessMm": 6,
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "cloudStatus": "pending",
+    "physicalAssemblyAccepted": false,
+    "previousSourceUrl": "",
+    "sourceAssemblySha256": "5c709015df261ef95d30e01d9bdd05dff0955f0b26ec8a23ff2b5cf8ed20985a",
+    "currentAssemblySha256": "a08e2d1ceeb9fa55634fd63515ab07ebbd74d80220bc99c1d8d29c3c417c70ff",
+    "replacementReportSha256": "d07582a9f860f0d62563e5710307de56ec96646c98f61596e6f4a8ead31589bb",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "cloudReference": {
+    "active": false,
+    "current": false,
+    "status": "reviewed-reference-local-precision-source",
+    "documentId": "f1f5a5305a5cfb7d89601e0a",
+    "versionId": "a805b8df0bd4f1102f740dd2",
+    "elementId": "7bd6d1c7d2c53dfb6cd4ec70",
+    "sourceUrl": "https://cad.onshape.com/documents/f1f5a5305a5cfb7d89601e0a/v/a805b8df0bd4f1102f740dd2/e/7bd6d1c7d2c53dfb6cd4ec70",
+    "sourceStepSha256": "a08e2d1ceeb9fa55634fd63515ab07ebbd74d80220bc99c1d8d29c3c417c70ff",
+    "strictWholeAssemblyGeometryEquivalent": false,
+    "allPostSolidsStrictGeometryEquivalent": true,
+    "allAssemblyIdentityAndPoseReferencesPassed": false,
+    "actualCloudAcceptanceSha256": "d989a799138415a93cf804a8080ad2712f38479d94a6e4d5dfb2f8121d4fb567",
+    "cloudMapSha256": "d989a799138415a93cf804a8080ad2712f38479d94a6e4d5dfb2f8121d4fb567",
+    "authoritativePrecisionSource": "当前已核验本地 B6 完整 STEP。云端 BRep 仅为回读参考；原生层级/运动及原厂转译差异未全部通过，不能用于自动精密复用。"
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": "assets/drawings/combined-r1-20261015/2/XYZ三轴位移台_总装与安装说明_20261015_TN1_20261026.pdf",
+        "previousSha256": "404fff35ed8760978fc02bc5557389b63fcf1ca91078ab3791ca9ea6bf537324",
+        "sha256": "1593100511b0af9b5cd87c3eb59a9b8649760c25d1c827b93fa90f82347c7088"
+      }
+    ]
+  },
+  "h12p5AssemblyInstructionUpdate": {
+    "revision": "2026-10-28",
+    "partGeometryChanged": false,
+    "scope": "Only ordinary H12.5 post references in shared assembly instruction PDF updated."
+  },
+  "id": "suruga-xyz-post25-left-r2"
+}

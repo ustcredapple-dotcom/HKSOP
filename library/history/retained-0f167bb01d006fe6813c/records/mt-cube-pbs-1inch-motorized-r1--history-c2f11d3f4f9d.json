@@ -1,0 +1,592 @@
+{
+  "name": "MT立方体PBS模块 · 1 inch · 电动竖直驱动 · R1",
+  "category": "pbs",
+  "variant": "motorized-vertical-R1",
+  "revision": "R1",
+  "description": "光高62.5mm；当前B6-R1柱；原镜架式及手动版本保留。厂家附薄头夹紧螺钉不重复采购。仅名义CAD与离散姿态检查，未实装、未做完整行程或通电测试。 舵机沿用已接受的近似模型，实际型号/线缆/扭矩待测；H2杆按配套版本。",
+  "components": [
+    {
+      "componentId": "custom-post-metric-25mm-m1--history-f964ae955626",
+      "quantity": 1
+    },
+    {
+      "componentId": "mt-am1s5--history-dd5722aaf986",
+      "quantity": 1
+    },
+    {
+      "componentId": "lbtek-mt-csb1-purchased--history-f085058c68f2",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-iso4762-m4x12--history-3b61a28705cd",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-pin-d2x8--history-c15d3a11ee05",
+      "quantity": 2
+    },
+    {
+      "componentId": "new-r3-hardware-b7a3ea97ce89--history-22edf26b733d",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-iso4762-m6x12--history-07efdd9c6a33",
+      "quantity": 4
+    },
+    {
+      "componentId": "encoder-servo--history-70776fa677e6",
+      "quantity": 2
+    },
+    {
+      "componentId": "custom-mcv1-r1--history-b18218045ccf",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-h2d1-b-r3--history-ccd3db561fc8",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-h2d1-s-r3--history-0b509efd53d6",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-motor-h2d1-l-r2--history-f01c8de4c573",
+      "quantity": 1
+    },
+    {
+      "componentId": "motor-adapter-m3--history-d4191b3691c5",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-h2-r3-m2x10--history-421cacc16a93",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-iso4762-m3x8--history-853a3d4b164d",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-h2-r3-m4x20--history-597cdbd4361c",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-h2-r3-m4-washer--history-7a162c26ddc0",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-source-m4-nut--history-7c2e89ce38d9",
+      "quantity": 1
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "cube",
+      "label": "PBS641裸立方光学件",
+      "type": "pbs",
+      "quantity": 1,
+      "unit": "个",
+      "referenceComponentId": "lbtek-pbs641-purchased--history-40bcbfce66e4",
+      "referenceModel": "PBS641",
+      "cubeEdgeMm": 25.4,
+      "notes": "25.4为立方边长，不是圆片直径。厂家模型在参考总装中；实际采购需明确选配，未选择不计固定购买量。光学响应仍unsupported。"
+    }
+  ],
+  "status": "工程审核版；未实物试装",
+  "releaseStage": "engineering-review",
+  "bundleStatus": "engineering-review",
+  "bundleNote": null,
+  "notes": "光高62.5mm；当前B6-R1柱；原镜架式及手动版本保留。厂家附薄头夹紧螺钉不重复采购。仅名义CAD与离散姿态检查，未实装、未做完整行程或通电测试。 舵机沿用已接受的近似模型，实际型号/线缆/扭矩待测；H2杆按配套版本。",
+  "layout": {
+    "placementAllowed": true,
+    "opticalType": "unsupported",
+    "opticalAxisHeightMm": 62.5,
+    "nominalOpticalHeightMm": 62.5,
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalSurfaceAngleDeg": 135,
+    "opticalDatumVerified": false,
+    "opticalDatumScope": "nominal CAD reference only; physical calibration not performed",
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "basePolygonsMm": [
+      [
+        {
+          "xMm": -17.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": -17.5
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "mountingHoleRadiusMm": 3.3,
+    "note": "真实STEP正交俯视；柱底四孔为安装基准；工程审核状态。",
+    "opticalSimulationNote": "未提供P/S透反率与相位，沿用原PBS的unsupported交互。",
+    "topViewPath": "topviews/history-76e688c2b26c43908f74939746149fae8705df42d41a3b7605c481e13ec5dc44.svg",
+    "topViewUrl": "./topviews/history-76e688c2b26c43908f74939746149fae8705df42d41a3b7605c481e13ec5dc44.svg",
+    "widthMm": 67,
+    "heightMm": 98,
+    "anchorXMm": 33,
+    "anchorYMm": 20,
+    "collisionBoundsMm": {
+      "xMin": -30.438000000000002,
+      "yMin": -75.72275533905932,
+      "xMax": 31.95,
+      "yMax": 17.53535533905933
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -25.45,
+          "yMm": -28.4874
+        },
+        {
+          "xMm": -25.399226,
+          "yMm": -28.164741
+        },
+        {
+          "xMm": -25.250583,
+          "yMm": -27.871836
+        },
+        {
+          "xMm": -25.018809,
+          "yMm": -27.639077
+        },
+        {
+          "xMm": -24.726312,
+          "yMm": -27.489393
+        },
+        {
+          "xMm": -24.401807,
+          "yMm": -27.437436
+        },
+        {
+          "xMm": -22.7118,
+          "yMm": -27.4374
+        },
+        {
+          "xMm": -22.707996,
+          "yMm": -27.24887
+        },
+        {
+          "xMm": -22.427039,
+          "yMm": -26.967808
+        },
+        {
+          "xMm": -21.063742,
+          "yMm": -26.964
+        },
+        {
+          "xMm": -21.110089,
+          "yMm": -26.642228
+        },
+        {
+          "xMm": -21.122431,
+          "yMm": -26.336183
+        },
+        {
+          "xMm": -21.103731,
+          "yMm": -25.979383
+        },
+        {
+          "xMm": -21.040929,
+          "yMm": -25.620794
+        },
+        {
+          "xMm": -20.953224,
+          "yMm": -25.309133
+        },
+        {
+          "xMm": -20.811268,
+          "yMm": -24.966903
+        },
+        {
+          "xMm": -20.670951,
+          "yMm": -24.699722
+        },
+        {
+          "xMm": -20.504047,
+          "yMm": -24.45
+        },
+        {
+          "xMm": -22.398867,
+          "yMm": -24.447557
+        },
+        {
+          "xMm": -23.319198,
+          "yMm": -24.360788
+        },
+        {
+          "xMm": -23.515564,
+          "yMm": -24.250583
+        },
+        {
+          "xMm": -23.643828,
+          "yMm": -24.141027
+        },
+        {
+          "xMm": -23.750583,
+          "yMm": -24.015564
+        },
+        {
+          "xMm": -23.8693,
+          "yMm": -23.803649
+        },
+        {
+          "xMm": -23.921441,
+          "yMm": -23.643145
+        },
+        {
+          "xMm": -23.95,
+          "yMm": -23.4
+        },
+        {
+          "xMm": -23.95,
+          "yMm": -17.8
+        },
+        {
+          "xMm": -23.899226,
+          "yMm": -17.477441
+        },
+        {
+          "xMm": -23.750583,
+          "yMm": -17.184436
+        },
+        {
+          "xMm": -23.583327,
+          "yMm": -17.002872
+        },
+        {
+          "xMm": -23.37845,
+          "yMm": -16.865386
+        },
+        {
+          "xMm": -23.222559,
+          "yMm": -16.800774
+        },
+        {
+          "xMm": -22.980431,
+          "yMm": -16.753137
+        },
+        {
+          "xMm": -17.55,
+          "yMm": -16.75
+        },
+        {
+          "xMm": -17.535355,
+          "yMm": 17.535355
+        },
+        {
+          "xMm": 17.535355,
+          "yMm": 17.535355
+        },
+        {
+          "xMm": 17.55,
+          "yMm": -16.75
+        },
+        {
+          "xMm": 23.5785,
+          "yMm": -16.7531
+        },
+        {
+          "xMm": 23.903649,
+          "yMm": -16.8307
+        },
+        {
+          "xMm": 24.115564,
+          "yMm": -16.949417
+        },
+        {
+          "xMm": 24.243828,
+          "yMm": -17.058973
+        },
+        {
+          "xMm": 24.394183,
+          "yMm": -17.249736
+        },
+        {
+          "xMm": 24.470807,
+          "yMm": -17.399988
+        },
+        {
+          "xMm": 24.521441,
+          "yMm": -17.556855
+        },
+        {
+          "xMm": 24.549961,
+          "yMm": -17.798027
+        },
+        {
+          "xMm": 24.55,
+          "yMm": -23.4
+        },
+        {
+          "xMm": 24.499226,
+          "yMm": -23.722559
+        },
+        {
+          "xMm": 24.394183,
+          "yMm": -23.950264
+        },
+        {
+          "xMm": 24.241027,
+          "yMm": -24.143828
+        },
+        {
+          "xMm": 23.97845,
+          "yMm": -24.334614
+        },
+        {
+          "xMm": 23.74695,
+          "yMm": -24.420529
+        },
+        {
+          "xMm": 23.5,
+          "yMm": -24.45
+        },
+        {
+          "xMm": 20.999211,
+          "yMm": -24.45
+        },
+        {
+          "xMm": 20.746055,
+          "yMm": -24.703155
+        },
+        {
+          "xMm": 20.7107,
+          "yMm": -24.7178
+        },
+        {
+          "xMm": 20.670021,
+          "yMm": -24.697831
+        },
+        {
+          "xMm": 20.848301,
+          "yMm": -25.040402
+        },
+        {
+          "xMm": 20.94129,
+          "yMm": -25.274897
+        },
+        {
+          "xMm": 21.07096,
+          "yMm": -25.764175
+        },
+        {
+          "xMm": 21.124945,
+          "yMm": -26.359053
+        },
+        {
+          "xMm": 21.062637,
+          "yMm": -26.964
+        },
+        {
+          "xMm": 22.4085,
+          "yMm": -26.964
+        },
+        {
+          "xMm": 22.708694,
+          "yMm": -27.248866
+        },
+        {
+          "xMm": 22.7125,
+          "yMm": -27.4374
+        },
+        {
+          "xMm": 24.484427,
+          "yMm": -27.440753
+        },
+        {
+          "xMm": 24.803649,
+          "yMm": -27.5181
+        },
+        {
+          "xMm": 25.083117,
+          "yMm": -27.690079
+        },
+        {
+          "xMm": 25.220911,
+          "yMm": -27.832691
+        },
+        {
+          "xMm": 25.321114,
+          "yMm": -27.983351
+        },
+        {
+          "xMm": 25.398853,
+          "yMm": -28.16348
+        },
+        {
+          "xMm": 25.441842,
+          "yMm": -28.355944
+        },
+        {
+          "xMm": 25.45,
+          "yMm": -30.6374
+        },
+        {
+          "xMm": 30.4,
+          "yMm": -30.6374
+        },
+        {
+          "xMm": 30.45,
+          "yMm": -30.6874
+        },
+        {
+          "xMm": 30.45,
+          "yMm": -59.6374
+        },
+        {
+          "xMm": 31.9,
+          "yMm": -59.6374
+        },
+        {
+          "xMm": 31.95,
+          "yMm": -59.6874
+        },
+        {
+          "xMm": 31.935355,
+          "yMm": -75.722755
+        },
+        {
+          "xMm": -30.423355,
+          "yMm": -75.722755
+        },
+        {
+          "xMm": -30.438,
+          "yMm": -30.6874
+        },
+        {
+          "xMm": -30.388,
+          "yMm": -30.6374
+        },
+        {
+          "xMm": -25.45,
+          "yMm": -30.6374
+        }
+      ]
+    ],
+    "geometryEvidence": {
+      "source": "SHA-bound delivered STEP triangulation and B6 post planar-face audit",
+      "stepSha256": "35894efb38eedd1ce289dd93f6bc8b3b2d985f5e54147c9a8d1b69654e57e6ae",
+      "topViewSha256": "76e688c2b26c43908f74939746149fae8705df42d41a3b7605c481e13ec5dc44",
+      "leafCount": 39,
+      "solidCount": 39,
+      "mountingDatum": "35 mm B6 post footprint at world XY origin; nominal M6-hole offsets ±12.5 mm",
+      "sourcePoseUnchanged": true,
+      "base6mmVerified": true,
+      "physicalTrial": false,
+      "knownOEMValidityWarnings": 0
+    }
+  },
+  "assemblyReference": {
+    "stepPath": "step/history-35894efb38eedd1ce289dd93f6bc8b3b2d985f5e54147c9a8d1b69654e57e6ae.step",
+    "sourceStepSha256": "35894efb38eedd1ce289dd93f6bc8b3b2d985f5e54147c9a8d1b69654e57e6ae",
+    "sha256": "35894efb38eedd1ce289dd93f6bc8b3b2d985f5e54147c9a8d1b69654e57e6ae",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "containsSimplifiedManufacturerReference": true,
+    "note": "完整设计参考总装；外加标准五金按BOM，未把检验包络虚报为精细螺钉实体。",
+    "drawingPath": "drawings/history-d02431197ed22e6cb67edd876abaf0bfee42e4b24ced46e27de12a6baf851d51.pdf",
+    "sourceDrawingSha256": "d02431197ed22e6cb67edd876abaf0bfee42e4b24ced46e27de12a6baf851d51"
+  },
+  "assemblyAssets": [
+    {
+      "stepPath": "step/history-35894efb38eedd1ce289dd93f6bc8b3b2d985f5e54147c9a8d1b69654e57e6ae.step",
+      "sha256": "35894efb38eedd1ce289dd93f6bc8b3b2d985f5e54147c9a8d1b69654e57e6ae",
+      "role": "nominal-CAD-reference-assembly",
+      "additionalStandardFastenerCADIncluded": false
+    }
+  ],
+  "mechanicalConfiguration": {
+    "id": "motorized-vertical-R1",
+    "source": "exact delivered assembly, fixed nominal state"
+  },
+  "capabilities": {
+    "layout": true,
+    "mounting": "nominal CAD checked; physical confirmation pending",
+    "opticalSimulation": false,
+    "productionApproval": false
+  },
+  "sourceUrl": "https://cad.onshape.com/documents/0257d98beba4068e2743612a/v/d185ce63f5ee830350017b06/e/767a6cc21b04fad10e1030c3",
+  "mechanical": {
+    "heightChainMm": [
+      25,
+      12.100000000000001,
+      25.4
+    ],
+    "opticalCenterMm": [
+      -3.552713678800501e-15,
+      3.552713678800501e-15,
+      62.50000000000001
+    ],
+    "fixedPositionStep": true,
+    "physicalAssemblyTested": false,
+    "includedOEMClampNotRepurchased": true
+  },
+  "originalSourceUrl": "https://www.lbtek.com/product/1258",
+  "cloudReference": {
+    "active": false,
+    "current": false,
+    "status": "reviewed-reference-local-precision-source",
+    "documentId": "0257d98beba4068e2743612a",
+    "workspaceId": "fab352fdd0ecc2e72bba1804",
+    "versionId": "d185ce63f5ee830350017b06",
+    "elementId": "767a6cc21b04fad10e1030c3",
+    "sourceUrl": "https://cad.onshape.com/documents/0257d98beba4068e2743612a/v/d185ce63f5ee830350017b06/e/767a6cc21b04fad10e1030c3",
+    "sourceStepSha256": "35894efb38eedd1ce289dd93f6bc8b3b2d985f5e54147c9a8d1b69654e57e6ae",
+    "strictWholeAssemblyGeometryEquivalent": false,
+    "allPostSolidsStrictGeometryEquivalent": true,
+    "allAssemblyIdentityAndPoseReferencesPassed": false,
+    "actualCloudAcceptanceSha256": "90c1617c89c1856c70c43d74572bc89701d08208adb4d54ef99e9f2a71839459",
+    "authoritativePrecisionSource": "已核验本地完整 STEP；云端静态冻结版供查看。原生自由度、全套整体移动或完整复用协议尚未全部验收。",
+    "physicalTrialPerformed": false
+  },
+  "h12p5AssemblyInstructionUpdate": {
+    "revision": "2026-10-28",
+    "partGeometryChanged": false,
+    "scope": "Only ordinary H12.5 post references in shared assembly instruction PDF updated."
+  },
+  "id": "mt-cube-pbs-1inch-motorized-r1--history-c2f11d3f4f9d",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "mt-cube-pbs-1inch-motorized-r1",
+    "revision": "R1",
+    "sourceRecordSha256": "f0c0cedf97f2ebc7b873d05508eb152be59c3919115a60f50a4b3f0d3d5d4ce4"
+  }
+}

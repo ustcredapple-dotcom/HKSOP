@@ -1,0 +1,52 @@
+{
+  "id": "custom-kungshu-33-dr-r1--history-cd577f0cbd3d",
+  "name": "33-DR R2 手动/电动共用紧凑转接板",
+  "model": "33-DR",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R2-COMPACT-2B",
+  "productionReady": false,
+  "drawingStatus": "engineering-review",
+  "status": "紧凑双螺钉；CAD及图纸审核版；未实物试装",
+  "stepPath": "step/history-ecf5284797d75c3775f5d5df5b916a4badd801677e191905b09cba8bf3d55b7f.step",
+  "drawingPath": "drawings/history-935b9be2bcc8d0f4e0ab013394e8a46c1e38e26be6f907ea3b310f2889cd3b92.pdf",
+  "sourceStepSha256": "ecf5284797d75c3775f5d5df5b916a4badd801677e191905b09cba8bf3d55b7f",
+  "sourceDrawingSha256": "935b9be2bcc8d0f4e0ab013394e8a46c1e38e26be6f907ea3b310f2889cd3b92",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "按同修订图纸加工；编号激光打标，不铣刻。"
+  },
+  "manufacturingEvidence": {
+    "sourceStepSha256": "ecf5284797d75c3775f5d5df5b916a4badd801677e191905b09cba8bf3d55b7f",
+    "drawingSha256": "935b9be2bcc8d0f4e0ab013394e8a46c1e38e26be6f907ea3b310f2889cd3b92",
+    "geometryValidated": true,
+    "pdfVisualReviewPassed": true,
+    "physicalAssemblyTested": false,
+    "engineeringReleaseApproved": false
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "R2共用紧凑板身份标识",
+    "notes": "激光打标，不铣刻；CAD凹深仅显示。",
+    "files": [
+      {
+        "face": "Y=-12.8 编号面",
+        "text": "33-DR R2",
+        "dxfPath": "drawings/history-82b088ca7bb87e1a06990b5d027892d4a31338864128ad9b8c6e218ce151aa59.dxf",
+        "sha256": "82b088ca7bb87e1a06990b5d027892d4a31338864128ad9b8c6e218ce151aa59",
+        "setupPdfPath": "drawings/history-8fb4826eaab25868b6f6c8ed24f4e00ef2e59748719a3f83663cf11f6dbdf20f.pdf",
+        "setupPdfSha256": "8fb4826eaab25868b6f6c8ed24f4e00ef2e59748719a3f83663cf11f6dbdf20f"
+      }
+    ]
+  },
+  "notes": "柱顶中心及偏置8.5mm的M4双螺钉，共用Ø8.25深4沉孔槽；2×M4×14；保留原柱销、镜架销/螺孔和支架M3接口。手动、电动共用。",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "custom-kungshu-33-dr-r1",
+    "revision": "R2-COMPACT-2B",
+    "sourceRecordSha256": "6b84746b426e2675c5934963c4d80da64131e8f32c529004d8ba67ef5c79365a"
+  }
+}

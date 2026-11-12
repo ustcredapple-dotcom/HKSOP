@@ -1,0 +1,95 @@
+{
+  "id": "new-lens-filter-adapter-2",
+  "name": "一英寸透镜上板",
+  "model": "05-LENS-U-M1",
+  "kind": "custom",
+  "unit": "件",
+  "status": "M1公制加工审核图；PDF、DXF与STEP同源",
+  "notes": "M1公制修订；厚透镜的几何对称中面不是光学主平面。。实物试装未完成。",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/45acd22ae10c019b5a66f07c",
+  "stepPath": "step/metric-m1-20261006/05-LENS-U_METRIC_M1.step",
+  "drawingPath": "drawings/metric-m1-20261006/05-LENS-U_M1_加工工程图.pdf",
+  "sourceStepSha256": "0e41c6f4b16b4043e32837769dc292bb014bf3fc7a8b543e75c0e4c7528b15cf",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "threadClass": "待确认",
+    "profileId": "r6_316L_passivated",
+    "policyVersion": "supplied-manufacturing-M1-2026-10-05",
+    "processDetails": "前方宽4.4开放槽供内六角杆通过，不是螺钉头沉孔。 两短挡保留；透镜几何中面经柱心。"
+  },
+  "drawingRevision": "M1",
+  "drawingStatus": "engineering-review",
+  "dxfPath": "drawings/metric-m1-20261006/05-LENS-U_M1_加工工程图.dxf",
+  "manufacturingEvidence": {
+    "sourcePackage": null,
+    "sourceCode": "05-LENS-U",
+    "sourceStepSha256": "0e41c6f4b16b4043e32837769dc292bb014bf3fc7a8b543e75c0e4c7528b15cf",
+    "drawingSha256": "30630a3e59987381e58a2779741d774ad3767f7074e14ebc08447f2cedcad67c",
+    "dxfSha256": "d62496665e2c23a408249afbc9cf446401445e320a5a1a7177f04ba66263a865",
+    "pageCount": 3,
+    "metricMigration": {
+      "post_height_old_mm": 25.4,
+      "post_height_new_mm": 25,
+      "selected_height_delta_mm": -0.6,
+      "world_bottom_delta_mm": -0.4,
+      "supplier_translation_mm": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "physicalTrialCompleted": false
+  },
+  "sourceDrawingSha256": "30630a3e59987381e58a2779741d774ad3767f7074e14ebc08447f2cedcad67c",
+  "sourceDxfSha256": "d62496665e2c23a408249afbc9cf446401445e320a5a1a7177f04ba66263a865",
+  "dxfPdfPath": "drawings/metric-m1-20261006/05-LENS-U_M1_加工工程图_DXF.pdf",
+  "dxfPdfSha256": "60c300ee5ac4be4dcc82b5c238c685f6bf6fb5e627d5bb6f43dff1c8860ae27b",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "34abff4781a06acaa04050a950f7f13c39b77a4cf46ad7bd4197dc125a7b3d3e",
+      "currentPdfSha256": "4d89644065a7e0278b68035790dd0abee496d279fa0aaa940ef2ebff0d0ba763",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "16934878688e433caab60fd0dfca9d983010ca634401f997391e9505013e24f0",
+      "currentPdfSha256": "60c300ee5ac4be4dcc82b5c238c685f6bf6fb5e627d5bb6f43dff1c8860ae27b",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "05-LENS-U",
+        "dxfPath": "drawings/laser-marking/new-lens-filter-adapter-2/编号面_-Y.dxf",
+        "sha256": "72aab9927b03963573826d9692df4026869e81150aabf2d0a28743fa30b05358",
+        "setupPdfPath": "drawings/laser-marking/new-lens-filter-adapter-2/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "918ba1a2e19c98d0543e79ee191a6346b008101fcc17b3239286a68d84f6da22"
+      }
+    ]
+  }
+}

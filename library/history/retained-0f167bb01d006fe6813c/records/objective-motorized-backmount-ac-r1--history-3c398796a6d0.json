@@ -1,0 +1,897 @@
+{
+  "name": "MT-AM1T 物镜架 · 背孔双电机",
+  "category": "objective",
+  "variant": "左上 A / 右下 C · H25 公制柱 · 光轴 62.5 mm",
+  "revision": "AC-R1-B6",
+  "sourceUrl": "https://www.lbtek.com/product/1262",
+  "description": "直接夹持物镜的 MT-AM1T 加装两台电机；左下调节器保留手动。沿用 V7 固定后框侧孔支撑。",
+  "components": [
+    {
+      "componentId": "custom-30-obj-m-r2--history-b363926ef918",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-post-metric-25mm-m1--history-f964ae955626",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-hardware-0cc1a2908550--history-f9378ee7bdc9",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-iso4762-m6x12--history-07efdd9c6a33",
+      "quantity": 4
+    },
+    {
+      "componentId": "new-hardware-d56c7b8035c3--history-5954cee9aa6c",
+      "quantity": 2
+    },
+    {
+      "componentId": "new-r3-hardware-b7a3ea97ce89--history-22edf26b733d",
+      "quantity": 2
+    },
+    {
+      "componentId": "custom-v7-1in-main--history-5a205fcdffc4",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-obj-v7-side-r1--history-96b06f971e12",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-v7-m3-h2--history-85f6b028359e",
+      "quantity": 2
+    },
+    {
+      "componentId": "v7-source-encoder-servo--history-458214f66133",
+      "quantity": 2
+    },
+    {
+      "componentId": "v7-source-m2x10--history-e3e3763f478a",
+      "quantity": 4
+    },
+    {
+      "componentId": "v7-source-m4-nut--history-7c2e89ce38d9",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-source-m4x20-thin--history-277f227efa3b",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-source-retaining-washer--history-ec980dadf4a6",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-pin-d2x6--history-182bfc050a3a",
+      "quantity": 2
+    },
+    {
+      "componentId": "v7-din7991-m3x10--history-9bf2bd03b783",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [],
+  "layout": {
+    "widthMm": 161,
+    "heightMm": 111.5,
+    "anchorXMm": 81,
+    "anchorYMm": 56.1,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "xMax": 17.5,
+      "yMin": -17.5,
+      "yMax": 17.5
+    },
+    "collisionBoundsMm": {
+      "xMin": -80.0000044636,
+      "yMin": -54.33883146095,
+      "xMax": 78.85924876813,
+      "yMax": 55.02531276774
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": 35.590067,
+          "yMm": 25.397296
+        },
+        {
+          "xMm": 36.659249,
+          "yMm": 25.397296
+        },
+        {
+          "xMm": 37.159249,
+          "yMm": 24.899135
+        },
+        {
+          "xMm": 37.159249,
+          "yMm": 19.040354
+        },
+        {
+          "xMm": 39.359249,
+          "yMm": 19.040354
+        },
+        {
+          "xMm": 39.359249,
+          "yMm": 19.899749
+        },
+        {
+          "xMm": 39.859249,
+          "yMm": 19.899749
+        },
+        {
+          "xMm": 39.859249,
+          "yMm": 20.248569
+        },
+        {
+          "xMm": 37.859249,
+          "yMm": 20.248569
+        },
+        {
+          "xMm": 37.859249,
+          "yMm": 24.048569
+        },
+        {
+          "xMm": 39.859249,
+          "yMm": 24.048569
+        },
+        {
+          "xMm": 39.859249,
+          "yMm": 44.156188
+        },
+        {
+          "xMm": 37.859249,
+          "yMm": 44.156188
+        },
+        {
+          "xMm": 37.859249,
+          "yMm": 47.956188
+        },
+        {
+          "xMm": 39.859249,
+          "yMm": 47.956188
+        },
+        {
+          "xMm": 39.859249,
+          "yMm": 48.305434
+        },
+        {
+          "xMm": 43.859249,
+          "yMm": 48.305434
+        },
+        {
+          "xMm": 43.859249,
+          "yMm": 53.563454
+        },
+        {
+          "xMm": 44.859249,
+          "yMm": 53.563454
+        },
+        {
+          "xMm": 44.859249,
+          "yMm": 55.025313
+        },
+        {
+          "xMm": 76.859249,
+          "yMm": 55.025313
+        },
+        {
+          "xMm": 76.859249,
+          "yMm": 53.563454
+        },
+        {
+          "xMm": 78.859249,
+          "yMm": 53.563454
+        },
+        {
+          "xMm": 78.859249,
+          "yMm": 23.402346
+        },
+        {
+          "xMm": 76.859249,
+          "yMm": 23.402346
+        },
+        {
+          "xMm": 76.859249,
+          "yMm": 19.026877
+        },
+        {
+          "xMm": 75.359249,
+          "yMm": 19.026877
+        },
+        {
+          "xMm": 75.359249,
+          "yMm": 4.682306
+        },
+        {
+          "xMm": 46.359249,
+          "yMm": 4.682306
+        },
+        {
+          "xMm": 46.359249,
+          "yMm": 14.9012
+        },
+        {
+          "xMm": 44.859249,
+          "yMm": 14.9012
+        },
+        {
+          "xMm": 44.859249,
+          "yMm": -14.900001
+        },
+        {
+          "xMm": 46.359249,
+          "yMm": -14.900001
+        },
+        {
+          "xMm": 46.359249,
+          "yMm": -2.890351
+        },
+        {
+          "xMm": 75.359249,
+          "yMm": -2.890351
+        },
+        {
+          "xMm": 75.359249,
+          "yMm": -15.747861
+        },
+        {
+          "xMm": 76.859249,
+          "yMm": -15.747861
+        },
+        {
+          "xMm": 76.859249,
+          "yMm": -20.934616
+        },
+        {
+          "xMm": 78.859249,
+          "yMm": -20.934616
+        },
+        {
+          "xMm": 78.859249,
+          "yMm": -51.763641
+        },
+        {
+          "xMm": 76.859249,
+          "yMm": -51.763641
+        },
+        {
+          "xMm": 76.859249,
+          "yMm": -54.338831
+        },
+        {
+          "xMm": 44.859249,
+          "yMm": -54.338831
+        },
+        {
+          "xMm": 44.859249,
+          "yMm": -51.763641
+        },
+        {
+          "xMm": 43.859249,
+          "yMm": -51.763641
+        },
+        {
+          "xMm": 43.859249,
+          "yMm": -43.695019
+        },
+        {
+          "xMm": 39.859249,
+          "yMm": -43.695019
+        },
+        {
+          "xMm": 39.859249,
+          "yMm": -42.507557
+        },
+        {
+          "xMm": 37.859249,
+          "yMm": -42.507557
+        },
+        {
+          "xMm": 37.859249,
+          "yMm": -38.707557
+        },
+        {
+          "xMm": 39.859249,
+          "yMm": -38.707557
+        },
+        {
+          "xMm": 39.859249,
+          "yMm": -30.4
+        },
+        {
+          "xMm": 25.287363,
+          "yMm": -30.4
+        },
+        {
+          "xMm": 25.287363,
+          "yMm": -31.6
+        },
+        {
+          "xMm": 21.787363,
+          "yMm": -31.6
+        },
+        {
+          "xMm": 21.787363,
+          "yMm": -34.8
+        },
+        {
+          "xMm": 20.287363,
+          "yMm": -34.8
+        },
+        {
+          "xMm": 20.287363,
+          "yMm": -36.4
+        },
+        {
+          "xMm": 16.287363,
+          "yMm": -36.4
+        },
+        {
+          "xMm": 16.287363,
+          "yMm": -34.8
+        },
+        {
+          "xMm": 14.787363,
+          "yMm": -34.8
+        },
+        {
+          "xMm": 14.787363,
+          "yMm": -31.6
+        },
+        {
+          "xMm": 11.287363,
+          "yMm": -31.6
+        },
+        {
+          "xMm": 11.287363,
+          "yMm": -30.4
+        },
+        {
+          "xMm": 11.787363,
+          "yMm": -30.4
+        },
+        {
+          "xMm": 11.787363,
+          "yMm": -25.5
+        },
+        {
+          "xMm": -13.7,
+          "yMm": -25.5
+        },
+        {
+          "xMm": -14.0,
+          "yMm": -25.2
+        },
+        {
+          "xMm": -14.0,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -17.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -17.5,
+          "yMm": -16.1
+        },
+        {
+          "xMm": -27.999993,
+          "yMm": -16.1
+        },
+        {
+          "xMm": -28.399993,
+          "yMm": -16.5
+        },
+        {
+          "xMm": -28.899993,
+          "yMm": -16.929487
+        },
+        {
+          "xMm": -42.000007,
+          "yMm": -16.929487
+        },
+        {
+          "xMm": -42.500007,
+          "yMm": -16.5
+        },
+        {
+          "xMm": -43.000004,
+          "yMm": -16.000002
+        },
+        {
+          "xMm": -43.100004,
+          "yMm": -16.100002
+        },
+        {
+          "xMm": -78.000004,
+          "yMm": -16.099854
+        },
+        {
+          "xMm": -78.209061,
+          "yMm": -16.088898
+        },
+        {
+          "xMm": -78.415828,
+          "yMm": -16.05615
+        },
+        {
+          "xMm": -78.618038,
+          "yMm": -16.001968
+        },
+        {
+          "xMm": -78.813478,
+          "yMm": -15.926947
+        },
+        {
+          "xMm": -79.000004,
+          "yMm": -15.831908
+        },
+        {
+          "xMm": -79.175575,
+          "yMm": -15.717892
+        },
+        {
+          "xMm": -79.338266,
+          "yMm": -15.586149
+        },
+        {
+          "xMm": -79.486294,
+          "yMm": -15.438122
+        },
+        {
+          "xMm": -79.618038,
+          "yMm": -15.275433
+        },
+        {
+          "xMm": -79.732055,
+          "yMm": -15.099864
+        },
+        {
+          "xMm": -79.827095,
+          "yMm": -14.913339
+        },
+        {
+          "xMm": -79.902117,
+          "yMm": -14.717901
+        },
+        {
+          "xMm": -79.9563,
+          "yMm": -14.515692
+        },
+        {
+          "xMm": -79.989048,
+          "yMm": -14.308928
+        },
+        {
+          "xMm": -80.000004,
+          "yMm": -14.099484
+        },
+        {
+          "xMm": -80.000004,
+          "yMm": 14.099484
+        },
+        {
+          "xMm": -79.989048,
+          "yMm": 14.308928
+        },
+        {
+          "xMm": -79.9563,
+          "yMm": 14.515692
+        },
+        {
+          "xMm": -79.902117,
+          "yMm": 14.717901
+        },
+        {
+          "xMm": -79.827095,
+          "yMm": 14.913339
+        },
+        {
+          "xMm": -79.732055,
+          "yMm": 15.099864
+        },
+        {
+          "xMm": -79.618038,
+          "yMm": 15.275433
+        },
+        {
+          "xMm": -79.486294,
+          "yMm": 15.438122
+        },
+        {
+          "xMm": -79.338266,
+          "yMm": 15.586149
+        },
+        {
+          "xMm": -79.175575,
+          "yMm": 15.717892
+        },
+        {
+          "xMm": -79.000004,
+          "yMm": 15.831908
+        },
+        {
+          "xMm": -78.813478,
+          "yMm": 15.926947
+        },
+        {
+          "xMm": -78.618038,
+          "yMm": 16.001968
+        },
+        {
+          "xMm": -78.415828,
+          "yMm": 16.05615
+        },
+        {
+          "xMm": -78.209061,
+          "yMm": 16.088898
+        },
+        {
+          "xMm": -78.000004,
+          "yMm": 16.099854
+        },
+        {
+          "xMm": -43.100004,
+          "yMm": 16.100002
+        },
+        {
+          "xMm": -43.000004,
+          "yMm": 16.000002
+        },
+        {
+          "xMm": -42.500007,
+          "yMm": 16.5
+        },
+        {
+          "xMm": -42.000007,
+          "yMm": 16.929487
+        },
+        {
+          "xMm": -28.899993,
+          "yMm": 16.929487
+        },
+        {
+          "xMm": -28.399993,
+          "yMm": 16.5
+        },
+        {
+          "xMm": -27.999993,
+          "yMm": 16.1
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 16.1
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": -14.0,
+          "yMm": 17.5
+        },
+        {
+          "xMm": -14.0,
+          "yMm": 25.2
+        },
+        {
+          "xMm": -13.7,
+          "yMm": 25.5
+        },
+        {
+          "xMm": 35.487363,
+          "yMm": 25.5
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "topViewPath": "topviews/history-c86869eb79d09e543fa5d553e731a420cc9f32ebb88b17e2406ea2e56de9ae66.svg",
+    "topViewUrl": "./topviews/history-c86869eb79d09e543fa5d553e731a420cc9f32ebb88b17e2406ea2e56de9ae66.svg",
+    "placementAllowed": true,
+    "minimumAlignedMountingHoles": 4,
+    "opticalType": "unsupported",
+    "opticalCenterMm": null,
+    "opticalDatumVerified": false,
+    "opticalAxisHeightMm": 62.5,
+    "opticalAxisHeightSource": "公制柱25 + 一体转接件12.1 + 原厂轴高25.4 =62.5；相对小板顶面。",
+    "mountingDatumVerified": true,
+    "supportDatumVerified": true,
+    "opticalClearApertureVerified": false,
+    "fullObjectiveEnvelopeModeled": true,
+    "collisionGeometryScope": "47实体完整名义包络；三角网格真实XY投影。新增电机/支撑计入；10个沿用安装紧固件为BOM-only。",
+    "geometryEvidence": {
+      "sourceStepSha256": "ca5ea4ee301e22009c6ca31368e2f41a1dc1ae6e5bbff4e2ab10980075ad16d0",
+      "partCount": 47,
+      "imageSha256": "c86869eb79d09e543fa5d553e731a420cc9f32ebb88b17e2406ea2e56de9ae66",
+      "triangleCount": 518290,
+      "meshDeflectionMm": 0.035,
+      "sourcePoseUnchanged": true,
+      "addedGeometryNominalInterferencePassed": true,
+      "physicalAcceptance": "not-performed"
+    },
+    "opticalSimulationNote": "官方焦距10 mm、工作距离20 mm及名义焦点参考已收录。装配通光口径和内部传播模型尚未核实，光束在这里暂停；请在下方查看物镜官方参数。",
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "ca5ea4ee301e22009c6ca31368e2f41a1dc1ae6e5bbff4e2ab10980075ad16d0",
+      "imageSha256": "c86869eb79d09e543fa5d553e731a420cc9f32ebb88b17e2406ea2e56de9ae66",
+      "newFrameForAddedMotorEnvelope": true
+    },
+    "measurementPointsMm": [
+      {
+        "id": "objective-front-center",
+        "label": "物镜前端面中心",
+        "xMm": -80.0000044636063,
+        "yMm": 0,
+        "zMm": 62.5,
+        "verified": true,
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "definition": "axis intersection with the front mechanical metal annulus (source CAD face26), not lens principal plane or focus",
+        "sourceStepSha256": "1cb4d1ee48491f7970764cdf3f95d6f4e1f6c736eec71642459e7b98d8327d31",
+        "physicalAcceptance": "not-performed"
+      }
+    ]
+  },
+  "status": "工程审核版；待实物与电气验收",
+  "bundleStatus": "engineering-review",
+  "releaseStage": "engineering-review",
+  "notes": "直接夹持物镜的 MT-AM1T；后视 A 左上、C 右下电动，B 左下手动。原物镜、30-OBJ-M、H25 B6柱、安装孔及前端测量点保留。新增板 OBJ-V7-S R1，主板/接头复用V7。原厂重复旋钮18与16严格重合，仅新总装去重。名义H2插深1.8/底余1.2 mm；±0.75 mm仅接头轴向设置范围，不等于实际带电调角。电机具体采购SKU、电缆、扭矩、振动、完整运动待实物核验。",
+  "optionalNotes": [
+    "通用模块相对支撑板顶面的物镜轴高为62.5 mm；总光高另加承载板/位移台高度。",
+    "测量要求：物镜前机械端面中心必须是独立可选测量点，随器件旋转、子板姿态和位移台位置实时更新；前端面与工作距离终点、焦点和主平面分别登记。"
+  ],
+  "assemblyReference": {
+    "stepPath": "step/history-ca5ea4ee301e22009c6ca31368e2f41a1dc1ae6e5bbff4e2ab10980075ad16d0.step",
+    "sourceStepSha256": "ca5ea4ee301e22009c6ca31368e2f41a1dc1ae6e5bbff4e2ab10980075ad16d0",
+    "sha256": "ca5ea4ee301e22009c6ca31368e2f41a1dc1ae6e5bbff4e2ab10980075ad16d0",
+    "revision": "AC-R1-B6",
+    "nominalFixedPositionAssembly": true,
+    "includeInBundle": true,
+    "sourceExact": true,
+    "drawingPath": "drawings/history-375d2abe10df210870f266b2541afa8812ab4209b61ae30fd73502d952fd489f.pdf",
+    "sourceDrawingSha256": "375d2abe10df210870f266b2541afa8812ab4209b61ae30fd73502d952fd489f",
+    "note": "47叶件/2子装配；新增支撑五金均建模，沿用模块10个安装紧固件/销为BOM-only；不含原生配合。"
+  },
+  "attachmentReference": {
+    "stepPath": "step/history-ca5ea4ee301e22009c6ca31368e2f41a1dc1ae6e5bbff4e2ab10980075ad16d0.step",
+    "sourceStepSha256": "ca5ea4ee301e22009c6ca31368e2f41a1dc1ae6e5bbff4e2ab10980075ad16d0",
+    "sha256": "ca5ea4ee301e22009c6ca31368e2f41a1dc1ae6e5bbff4e2ab10980075ad16d0",
+    "revision": "AC-R1-B6",
+    "nominalFixedPositionAssembly": true,
+    "includeInBundle": true,
+    "sourceExact": true,
+    "drawingPath": "drawings/history-375d2abe10df210870f266b2541afa8812ab4209b61ae30fd73502d952fd489f.pdf",
+    "sourceDrawingSha256": "375d2abe10df210870f266b2541afa8812ab4209b61ae30fd73502d952fd489f",
+    "note": "47叶件/2子装配；新增支撑五金均建模，沿用模块10个安装紧固件/销为BOM-only；不含原生配合。"
+  },
+  "installationCompatibility": {
+    "stageModuleIds": [
+      "stage-board-lbtek-ls30-6l1",
+      "stage-board-lbtek-ls30-6r1",
+      "stage-board-thorlabs-mt1m",
+      "stage-board-thorlabs-pt1m",
+      "stage-board-lbtek-ls30-6l1-r3",
+      "stage-board-lbtek-ls30-6r1-r3"
+    ],
+    "scope": "此模块不包含位移台；使用四个25 mm间距的M6安装孔，按实际板面孔位安装，位移台由独立模块清单展开。"
+  },
+  "mechanicalRearDatum": {
+    "definition": "rear threaded mechanical end center, 5 mm behind mounting shoulder",
+    "frontDistanceLmm": 98.287362902251,
+    "mountAxisOffsetAmm": 18.287362902251004,
+    "rearOffsetDmm": -18.287362902251004,
+    "targetCenterMm": [
+      0,
+      0,
+      62.5
+    ],
+    "status": "source-derived-seated-interface-nominal-geometry",
+    "frontDistanceClassification": "derived-not-measured",
+    "noExtraAdapter": true,
+    "sourceEvidence": {
+      "path": "evidence/source/datum/rear-datum-input.json",
+      "sha256": "bcaf6e1b53807cfdcfd91b95a0047cc2a6ce83b9e1b7c40e4d1f37471cd7c0ab"
+    },
+    "physicalAcceptance": "not-performed",
+    "frontFaceCenterMm": {
+      "xMm": -80.0000044636063,
+      "yMm": 0,
+      "zMm": 62.5
+    },
+    "mountingShoulderCenterMm": {
+      "xMm": -5,
+      "yMm": 0,
+      "zMm": 62.5
+    }
+  },
+  "mountedExistingHardware": [
+    {
+      "componentId": "lbtek-mt-am1t-purchased--history-36459557d61e",
+      "quantity": 1,
+      "procurement": "existing-excluded"
+    },
+    {
+      "identity": "用户已有Mitutoyo M Plan Apo NIR 20X/0.40物镜",
+      "quantity": 1,
+      "procurement": "existing-excluded",
+      "exactOrderNumber": null
+    },
+    {
+      "identity": "原厂附送M4×14",
+      "quantity": 1,
+      "procurement": "existing-excluded"
+    }
+  ],
+  "objectiveSpecification": {
+    "format": "zzlab-objective-specification-v1",
+    "manufacturer": "Mitutoyo",
+    "model": "M Plan Apo NIR 20× / 0.40",
+    "identification": "Photo confirms standard NIR, 20×, NA 0.40, infinity/0, f=200; not NIR B, HR or LCD. Physical order-number suffix not visible.",
+    "catalogReferenceOrderNumber": "378-824-16",
+    "physicalOrderNumber": null,
+    "magnification": 20,
+    "numericalAperture": 0.4,
+    "focalLengthMm": 10,
+    "focalLengthReferenceWavelengthNm": 550,
+    "workingDistanceMm": 20,
+    "workingDistanceDatum": "front mechanical face to nominal in-focus specimen plane",
+    "tubeLensFocalLengthMm": 200,
+    "infinityCorrected": true,
+    "coverGlassThicknessMm": 0,
+    "correctionWavelengthNm": {
+      "min": 480,
+      "max": 1800
+    },
+    "parfocalDistanceMm": 95,
+    "parfocalDatum": "mounting shoulder to nominal in-focus specimen plane",
+    "frontFaceFromShoulderMm": 75,
+    "rearThreadProjectionMm": 5,
+    "derivedPupilDiameterMm": 8,
+    "pupilDerivation": "2 × NA × f; nominal pupil, NOT verified mechanical clear aperture",
+    "nominalRearThreadEndToFocusMm": 100,
+    "nominalFocusDerivation": "5 mm thread projection + 95 mm parfocal distance; equivalent to 80 mm body length + 20 mm WD",
+    "nominalFocusInKitMm": {
+      "xMm": -100,
+      "yMm": 0,
+      "zMm": 62.5
+    },
+    "nominalFocusBasis": "R2 source-derived rear mechanical datum [0,0,62.5], objective pointing local -X, zero tip/tilt; not a measured focus or exact Gaussian waist.",
+    "sourceUrl": "https://www.mitutoyo.co.jp/products/sensors-and-devices-incorporated-units/built-in-optical-instruments/tube-and-objective-lenses-and-eyepiece/nir/378-824-16/",
+    "catalogUrl": "https://www2.mitutoyo.co.jp/eng/support/service/catalog/04/E14020.pdf",
+    "catalogPdfPages": [
+      16,
+      22
+    ],
+    "retrievedAt": "2026-10-07",
+    "sourcePdfSha256": "52809eda5ae160735d173f87a40b5ff01e717cda6464a80cea48301f4b69ff81",
+    "photoSha256": "8e97cd59d0e6239cdac872605eaa91df5ec1f0b05ee67fa2775447522b8b4f3e",
+    "simulationStatus": "reference-parameters-only",
+    "notes": "官方名义参数：20×、NA 0.40、焦距10 mm（550 nm）、工作距离20 mm；f=200是配套管镜焦距。波长补偿范围480–1800 nm，不是保证全波段透过率或损伤阈值。超过1100 nm时，官方提示焦点相对可见光可能偏移。",
+    "simulationLimit": "工作距离从物镜前端面量起；焦距从主平面量起，两者不能混用。尚无完整光学处方、已核实装配通光口径和波长响应；本次登记名义焦点参考，不把柱轴或镜架表面当作薄透镜。"
+  },
+  "libraryVisibility": "active",
+  "objectiveModelReference": {
+    "supplier": "Thorlabs",
+    "supplierModel": "MY20X-824",
+    "manufacturer": "Mitutoyo",
+    "sourceUrl": "https://www.thorlabs.com/item/MY20X-824",
+    "cadAsset": {
+      "stepPath": "step/history-1cb4d1ee48491f7970764cdf3f95d6f4e1f6c736eec71642459e7b98d8327d31.step",
+      "sourceStepSha256": "1cb4d1ee48491f7970764cdf3f95d6f4e1f6c736eec71642459e7b98d8327d31"
+    },
+    "drawingAsset": {
+      "drawingPath": "drawings/history-f0271ddee913372f5659f0898e31d0da9f191942419bdd4817575cc30005b96f.pdf",
+      "sourceDrawingSha256": "f0271ddee913372f5659f0898e31d0da9f191942419bdd4817575cc30005b96f"
+    },
+    "sourceToKit": {
+      "rotationRows": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "translationMm": [
+        330,
+        240,
+        62.5
+      ],
+      "scale": 1,
+      "units": "mm"
+    },
+    "sourceDatumFaceIndices": {
+      "rearThreadEnd": 0,
+      "mountingShoulder": 11,
+      "frontMechanicalAnnulus": 26
+    },
+    "physicalOrderSuffix": null,
+    "physicalOrderSuffixReason": "用户照片未见后缀；本次官方供应商CAD的型号与外形尺寸系列一致，不声称实物后缀已经确认。",
+    "modelScope": "supplier-official external envelope and mounting interface; not internal optical prescription or manufacturing model"
+  },
+  "postBaseRevision": {
+    "revision": "B6-R1",
+    "baseThicknessMm": 6,
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "cloudStatus": "pending",
+    "physicalAssemblyAccepted": false,
+    "previousSourceUrl": "https://www.thorlabs.com/item/MY20X-824",
+    "sourceAssemblySha256": "21aa48fc37543c44130f9ccceecd3b711fa835783f7babf4513f01935f9c9cdc",
+    "currentAssemblySha256": "77b1e899a3fbbb0b927cf253d4420bae3348424c11d1e9a7926cfe5ebe3ea588",
+    "replacementReportSha256": "53e03728f9cd62a44e7cafcf75afe900cc1984b096964c7b9cf58a892115beb0",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "productionReady": false,
+  "assemblyAssets": [
+    {
+      "stepPath": "step/history-d8fa0892d0d4fdb2843743630b6b16ccdcdaa026ca485c677115637d0b1a1310.step",
+      "sha256": "d8fa0892d0d4fdb2843743630b6b16ccdcdaa026ca485c677115637d0b1a1310",
+      "note": "17件电动改装组件；后视坐标，不含原物镜模块。"
+    },
+    {
+      "drawingPath": "drawings/history-375d2abe10df210870f266b2541afa8812ab4209b61ae30fd73502d952fd489f.pdf",
+      "sha256": "375d2abe10df210870f266b2541afa8812ab4209b61ae30fd73502d952fd489f",
+      "note": "真实后视/侧视、装配顺序与验收边界。"
+    }
+  ],
+  "motorization": {
+    "motorCount": 2,
+    "axesRearView": [
+      "upper-left-A",
+      "lower-right-C"
+    ],
+    "manualRearViewAxis": "lower-left-B",
+    "nominalSocketInsertionMm": 1.8,
+    "socketDepthMm": 3,
+    "bottomClearanceMm": 1.2,
+    "relativeAxialSetupSamplesMm": [
+      -0.75,
+      0,
+      0.75
+    ],
+    "sourceV7GeometryReused": true,
+    "fullPoweredMotionValidated": false,
+    "motorElectricalSkuConfirmed": false,
+    "inheritedBomOnlyHardwareCount": 10
+  },
+  "id": "objective-motorized-backmount-ac-r1--history-3c398796a6d0",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "objective-motorized-backmount-ac-r1",
+    "revision": "AC-R1-B6",
+    "sourceRecordSha256": "b31e660ac9e7db9a34d4628e72ca04d2fc89eb52267d5cd72f9220e418692a56"
+  }
+}

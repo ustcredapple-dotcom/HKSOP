@@ -413,7 +413,32 @@
     if (own(m, 'moduleElevation')) { keys(m.moduleElevation, ['elevationMm', 'elevationSupportCount'], 'metadata.moduleElevation'); result.moduleElevation = elevationFields(m.moduleElevation, 'metadata.moduleElevation'); }
     return result;
   }
+  function resolveHistoricalReferences(input,catalog={}) {
+    const rules=catalog.historyResolution||[];
+    if(!rules.length)return input;
+    const source=JSON.parse(JSON.stringify(input)),version=source.catalogVersion;
+    const tables={kits:new Map((catalog.kits||[]).map(k=>[k.id,k])),components:new Map((catalog.components||[]).map(k=>[k.id,k])),registeredBoards:new Map((catalog.registeredBoards||[]).map(k=>[k.id,k]))};
+    const hints=new Map((source.catalogReferenced||[]).map(k=>[k.id,k]));
+    function resolve(id,kind) {
+      if(typeof id!=='string')return id;
+      const relevant=rules.filter(r=>r.kind===kind&&r.originalId===id),exact=[...new Set(relevant.filter(r=>r.catalogVersion===version).map(r=>r.recordId))];
+      if(exact.length>1)fail('history_version_ambiguous','同一版本存在冲突的历史映射。',id);
+      if(exact.length===1){if(!tables[kind].has(exact[0]))fail('history_resource_missing','历史器件定义尚未恢复。',id);return exact[0]}
+      const current=tables[kind].get(id);
+      if(!relevant.length||current?.lifecycle?.state==='historical'||version===catalog.version)return id;
+      const revision=hints.get(id)?.revision;
+      if(revision){const options=new Set(relevant.filter(r=>r.revision===revision).map(r=>r.recordId));if(current?.revision===revision)options.add(id);if(options.size===1)return [...options][0]}
+      fail('history_version_ambiguous','此器件已有多个版本，无法从工程版本锁唯一确定；请使用明确的历史版本映射，原文件未改写。',id);
+    }
+    function walk(value){if(Array.isArray(value)){value.forEach(walk);return}if(!value||typeof value!=='object')return;for(const [field,kind]of [['kitId','kits'],['componentId','components'],['registeredBoardId','registeredBoards']])if(field in value)value[field]=resolve(value[field],kind);Object.values(value).forEach(walk)}
+    walk(source.layout||source);walk(source.extras);
+    for(const i of (source.layout||source).instances||[])if(i.universalPostSelection&&typeof i.universalPostSelection==='object'){const kit=tables.kits.get(i.kitId),refs=new Set((kit?.components||[]).map(r=>r.componentId));i.universalPostSelection=Object.fromEntries(Object.entries(i.universalPostSelection).map(([key,value])=>{const frozen=[...refs].find(id=>tables.components.get(id)?.lifecycle?.originalId===key);const exact=rules.some(r=>r.kind==='components'&&r.originalId===value&&r.catalogVersion===version),peers=[...tables.components.values()].filter(r=>kit?.lifecycle?.historyId&&r.lifecycle?.historyId===kit.lifecycle.historyId&&r.lifecycle?.originalId===value);const target=frozen&&value===key?frozen:exact?resolve(value,'components'):peers.length===1?peers[0].id:kit?.lifecycle?.state==='historical'?resolve(value,'components'):value;return[frozen||key,target]}));}
+    if(Array.isArray(source.moduleQuantities))source.moduleQuantities=source.moduleQuantities.map(([id,n])=>[resolve(id,'kits'),n]);
+    if(Array.isArray(source.catalogReferenced))source.catalogReferenced=source.catalogReferenced.map(r=>({...r,id:resolve(r.id,'kits')}));
+    return source;
+  }
   function normalize(source, mode, options) {
+    if(mode!=='create')source=resolveHistoricalReferences(source,options.catalog);
     const { kits, getKit } = environment(options);
     const legacyManualUpgrade = legacyManualProject(source, options.catalog);
     const metric=typeof module==='object'&&module.exports?require('./metric-migration.js'):globalThis.ZZLabMetricMigration;
@@ -557,14 +582,14 @@
       id(iid, 'ui.selectedIds'); if (!instances.has(iid)) fail('unknown_instance', '选中状态引用了不存在的实例。', 'ui.selectedIds');
       if (selected.has(iid)) fail('duplicate_id', '选中实例不能重复。', 'ui.selectedIds'); selected.add(iid); ui.selectedIds.push(iid);
     }
-    if (own(source, 'catalogReferenced')) for (const ref of list(source.catalogReferenced, 'catalogReferenced')) { keys(ref, ['id', 'name'], 'catalogReferenced', ['id', 'name']); getKit(ref.id, 'catalogReferenced.id'); text(ref.name, 'catalogReferenced.name', 256, true); }
+    if (own(source, 'catalogReferenced')) for (const ref of list(source.catalogReferenced, 'catalogReferenced')) { keys(ref, ['id', 'name', 'revision'], 'catalogReferenced', ['id', 'name']);if(ref.revision!==undefined)text(ref.revision,'catalogReferenced.revision',256,true); getKit(ref.id, 'catalogReferenced.id'); text(ref.name, 'catalogReferenced.name', 256, true); }
     const requirements = own(source, 'requires') ? list(source.requires, 'requires', 8) : [];
     if (requirements.some(v => !SUPPORTED_CAPABILITIES.includes(v)) || new Set(requirements).size !== requirements.length) fail('unsupported_capability', '工程要求的交互能力不受支持。', 'requires');
     const needed = [layout.subBoards?.some(p => p.stageMotion) ? STAGE_CAPABILITY : null, layout.collisionOverrides?.length ? COLLISION_CAPABILITY : null, layout.instances.some(i=>own(i,'manualMount')||options.catalog.kits.some(k=>k.id===i.kitId&&k.layout?.manualMountingPolicy)) ? MANUAL_SOURCE_CAPABILITY : null].filter(Boolean);
     for (const capability of needed) if (mode !== 'create' && !requirements.includes(capability) && !(capability === MANUAL_SOURCE_CAPABILITY && legacyManualUpgrade)) fail('missing_capability', `工程必须声明 ${capability}。`, 'requires');
     const normalizedRequirements = SUPPORTED_CAPABILITIES.filter(value => requirements.includes(value) || needed.includes(value));
     const result = { format: FORMAT, version: VERSION, ...(normalizedRequirements.length ? { requires: normalizedRequirements } : {}), metadata: metadata(source.metadata, mode, options), catalogVersion: text(legacyManualUpgrade ? options.catalog.version : supplied(source, 'catalogVersion', options.catalog.version || ''), 'catalogVersion', 128), layout, optical, extras, moduleQuantities, ui,
-      catalogReferenced: [...referenced].sort().map(kid => ({ id: kid, name: text(kits.get(kid).name || kid, 'catalog.name', 256, true) })) };
+      catalogReferenced: [...referenced].sort().map(kid => ({ id: kid, name: text(kits.get(kid).name || kid, 'catalog.name', 256, true), ...(kits.get(kid).revision?{revision:kits.get(kid).revision}:{}) })) };
     if (own(source, 'opticalRendering')) {
       const fields = ['generated', 'visible', 'autoRestore'];
       keys(source.opticalRendering, fields, 'opticalRendering', fields);
@@ -594,5 +619,5 @@
     if (legacyManualProject(value, options.catalog)) warnings.push('旧935实例的位置和出光设置已载入；实际板面光高仍需人工安装确认。重新保存后工程将要求手动安装能力。');
     return { project, legacy, warnings };
   }
-  return Object.freeze({ FORMAT, VERSION, EXTENSION, MAX_BYTES, MAX_INSTANCES, MAX_COLLISION_OVERRIDES, ProjectFileError, create, parse });
+  return Object.freeze({ FORMAT, VERSION, EXTENSION, MAX_BYTES, MAX_INSTANCES, MAX_COLLISION_OVERRIDES, ProjectFileError, create, parse, resolveHistoricalReferences });
 });

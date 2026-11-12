@@ -1,0 +1,73 @@
+{
+  "id": "custom-05--history-38b3e668fd4b",
+  "name": "面包板1530",
+  "model": "ZZ-05",
+  "kind": "custom",
+  "unit": "件",
+  "status": "加工审核图",
+  "notes": "图纸为加工审核版。",
+  "sourceUrl": "https://cad.onshape.com/documents/3a3c1d8089df865b8b4e822a/w/751844d84c1560d9a3edb630/e/7952767161c95fe29267fc4d",
+  "stepPath": "step/history-fddd458a55189ceb854a57af6ec5e69d673f3bcf1175bfb2cc25b562f4df9254.step",
+  "drawingPath": "drawings/history-ba621729b0d9a812ce769cb6c5d01b52a7f24f0f313d8ab522e8bdda81422eb7.pdf",
+  "manufacturingSpec": {
+    "material": "6061 铝合金",
+    "surfaceTreatment": "黑色阳极氧化",
+    "threadClass": "待确认",
+    "profileId": "breadboard",
+    "policyVersion": "materials-2026-09-24.2"
+  },
+  "sourceDrawingSha256": "ba621729b0d9a812ce769cb6c5d01b52a7f24f0f313d8ab522e8bdda81422eb7",
+  "drawingPages": [
+    1,
+    2
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "fb1de39f4f5236f2994a5642b397088ebc40e9163d99740e5e23c8dbccd639bd",
+      "currentPdfSha256": "ba621729b0d9a812ce769cb6c5d01b52a7f24f0f313d8ab522e8bdda81422eb7",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "按本轮补齐要求增加识别编号；已核当前 STEP 外表面位置。",
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。",
+    "files": [
+      {
+        "dxfPath": "drawings/history-0f1ac407d4251323c558df31021c356662c3418bfa0a2ee595311f01a38d32b1.dxf",
+        "sha256": "0f1ac407d4251323c558df31021c356662c3418bfa0a2ee595311f01a38d32b1",
+        "setupPdfPath": "drawings/history-e2adad073085ec7dbb200b7f648c061b2570d2a4e36e7da1a1a93122c93e1fb3.pdf",
+        "setupPdfSha256": "e2adad073085ec7dbb200b7f648c061b2570d2a4e36e7da1a1a93122c93e1fb3",
+        "face": "编号面",
+        "text": "ZZ-05"
+      }
+    ]
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": "assets/drawings/history-ba621729b0d9a812ce769cb6c5d01b52a7f24f0f313d8ab522e8bdda81422eb7.pdf",
+        "previousSha256": "ac9f1df2cc3f00e0418d1348b21ea96b42cba9a8cbc4ad2c9115f62c7b72d3a0",
+        "sha256": "ba621729b0d9a812ce769cb6c5d01b52a7f24f0f313d8ab522e8bdda81422eb7"
+      }
+    ]
+  },
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "custom-05",
+    "revision": null,
+    "sourceRecordSha256": "c23e0f9fcec11ad5c2794d86da41cbee41197c587a30f2d4969c3e367e060160"
+  }
+}

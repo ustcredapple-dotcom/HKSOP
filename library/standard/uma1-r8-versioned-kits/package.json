@@ -1,0 +1,57 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "uma1-r8-versioned-kits",
+  "revision": "UMA1-R8",
+  "displayName": "UMA1-R8 新版独立版本入口",
+  "origin": "2026-11-12 explicit user retention exception for seven pre-UMA1-R8 kit IDs",
+  "records": [
+    {
+      "kind": "kits",
+      "path": "records/uma1-r8-mt-flf1s-0.json"
+    },
+    {
+      "kind": "kits",
+      "path": "records/uma1-r8-mt-flf1s-45.json"
+    },
+    {
+      "kind": "kits",
+      "path": "records/uma1-r8-mt-am1s5-0.json"
+    },
+    {
+      "kind": "kits",
+      "path": "records/uma1-r8-mt-am1s5-45.json"
+    },
+    {
+      "kind": "kits",
+      "path": "records/uma1-r8-mt-am1-0.json"
+    },
+    {
+      "kind": "kits",
+      "path": "records/uma1-r8-pbs05-0.json"
+    },
+    {
+      "kind": "kits",
+      "path": "records/uma1-r8-mt-am1-45.json"
+    }
+  ],
+  "componentDependencies": [
+    "custom-post-metric-25mm-m1",
+    "custom-post-metric-37p5mm-m1",
+    "custom-ps25-s6-r1",
+    "custom-uma1-r8",
+    "hardware-dowel-d2x6",
+    "hardware-iso4762-m6x12",
+    "hardware-m4x16-low-head",
+    "lbtek-mt-am05-purchased",
+    "lbtek-mt-am1-purchased",
+    "lbtek-mt-csb05-purchased",
+    "metric-m1-post-m4x14",
+    "metric-m1-post-m4x20",
+    "metric-m1-post-m4x8",
+    "metric-m1-post-pin-d2x14",
+    "metric-m1-post-pin-d2x8",
+    "mt-am1s5",
+    "mt-flf1s"
+  ],
+  "assets": []
+}

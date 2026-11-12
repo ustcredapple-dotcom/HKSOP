@@ -1,0 +1,13 @@
+{
+  "id": "lbtek-amm-1b-purchased",
+  "name": "麓邦 AMM-1B 调整镜架",
+  "model": "AMM-1B",
+  "kind": "lubang",
+  "unit": "个",
+  "status": "原厂21实体参考；实物待核",
+  "notes": "厂家原件；不按定制转接件加工。",
+  "provenance": {
+    "sourcePackageSha256": "f280d0864a7abc378f5cc04c7c79c308607e0df0925a7167472eedc2f82ac682",
+    "sourceFile": "inputs/AMM-1B_official.step"
+  }
+}

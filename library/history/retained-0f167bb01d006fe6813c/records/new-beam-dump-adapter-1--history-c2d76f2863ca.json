@@ -1,0 +1,103 @@
+{
+  "id": "new-beam-dump-adapter-1--history-c2d76f2863ca",
+  "name": "光阱双柱梁",
+  "model": "07-BT-M1",
+  "kind": "custom",
+  "unit": "件",
+  "status": "M1公制加工审核图；PDF、DXF与STEP同源",
+  "notes": "M1公制修订；未进行吸收功率或热性能验证。。实物试装未完成。",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/6e96bf936c88221069c6d026",
+  "stepPath": "step/history-54e2be3b84e7923ddefe54f7af159c7925e62b9fbda9c4cb3e86a01c6282b35c.step",
+  "drawingPath": "drawings/history-94adc39a83b6590abd86d97891cd1bbf4c769734edf8f5a00d2b86d46155613f.pdf",
+  "sourceStepSha256": "54e2be3b84e7923ddefe54f7af159c7925e62b9fbda9c4cb3e86a01c6282b35c",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "threadClass": "待确认",
+    "profileId": "r6_316L_passivated",
+    "policyVersion": "supplied-manufacturing-M1-2026-10-05",
+    "processDetails": "前立壁M3沉孔从X=-4朝+X加工；侧壁厚4。 4个柱端M4孔均按图保留，包括备用位置。"
+  },
+  "drawingRevision": "M1",
+  "drawingStatus": "engineering-review",
+  "dxfPath": "drawings/history-881c5a8f0b75a3053c91efa1a4bdf47d76828a0c973247bdea9086038b64cfea.dxf",
+  "manufacturingEvidence": {
+    "sourcePackage": null,
+    "sourceCode": "07-BT",
+    "sourceStepSha256": "54e2be3b84e7923ddefe54f7af159c7925e62b9fbda9c4cb3e86a01c6282b35c",
+    "drawingSha256": "94adc39a83b6590abd86d97891cd1bbf4c769734edf8f5a00d2b86d46155613f",
+    "dxfSha256": "881c5a8f0b75a3053c91efa1a4bdf47d76828a0c973247bdea9086038b64cfea",
+    "pageCount": 3,
+    "metricMigration": {
+      "post_height_old_mm": 25.4,
+      "post_height_new_mm": 25,
+      "selected_height_delta_mm": -0.6,
+      "world_bottom_delta_mm": -0.4,
+      "supplier_translation_mm": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "physicalTrialCompleted": false
+  },
+  "sourceDrawingSha256": "94adc39a83b6590abd86d97891cd1bbf4c769734edf8f5a00d2b86d46155613f",
+  "sourceDxfSha256": "881c5a8f0b75a3053c91efa1a4bdf47d76828a0c973247bdea9086038b64cfea",
+  "dxfPdfPath": "drawings/history-82d34ee2054529da73516a26c7b14a8764291f166661c11fd1bc54a381ad60e3.pdf",
+  "dxfPdfSha256": "82d34ee2054529da73516a26c7b14a8764291f166661c11fd1bc54a381ad60e3",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "b473d08cf84c7381169216e05ea0a0f8999c7da134ca770a66b56cc1e3d6e3e2",
+      "currentPdfSha256": "0f29f7b3d951cb9769cefb782e9ca9d995209728050e4995eb2d3c3e54673421",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "3f5e07742dfd3f26d97e87e3bac8f07b6612659135c84863d93563c4d1e7d8fa",
+      "currentPdfSha256": "82d34ee2054529da73516a26c7b14a8764291f166661c11fd1bc54a381ad60e3",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "07-BT",
+        "dxfPath": "drawings/history-78d0787ffa2924b26b757cd9ccf455d7c807f7899943def8de268c1728ad9dd5.dxf",
+        "sha256": "78d0787ffa2924b26b757cd9ccf455d7c807f7899943def8de268c1728ad9dd5",
+        "setupPdfPath": "drawings/history-651d660a4824ce4d32837569cf07bf24c5eb45f16b78609203fbd1bb87d13080.pdf",
+        "setupPdfSha256": "651d660a4824ce4d32837569cf07bf24c5eb45f16b78609203fbd1bb87d13080"
+      }
+    ]
+  },
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "new-beam-dump-adapter-1",
+    "revision": null,
+    "sourceRecordSha256": "3300a5698c5c2c3ee666fd733dd1fc74851863b8671eb289013133434ac3cef7"
+  }
+}

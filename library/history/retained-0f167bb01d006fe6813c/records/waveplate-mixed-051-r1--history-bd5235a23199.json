@@ -1,0 +1,449 @@
+{
+  "name": "混合双波片 · CMRM05S + CRM-1AS",
+  "category": "waveplate",
+  "variant": "WP051-D R1 · H37.5 · 光高62.5",
+  "description": "半英寸与一英寸波片各自独立旋转；一体阶梯板共用正式H37.5柱。",
+  "sourceUrl": "https://cad.onshape.com/documents/927906689e9eb5f1b2917081/v/d5ec15e16e3e9dfea9269129/e/73d212df4376a6caaad854b5",
+  "components": [
+    {
+      "componentId": "custom-wp051-d-r1--history-010b2c0d556a",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-post-metric-37p5mm-m1--history-dbc1a1ce35ca",
+      "quantity": 1
+    },
+    {
+      "componentId": "cmrm05s--history-459ca8b179c2",
+      "quantity": 1
+    },
+    {
+      "componentId": "crm-1as--history-7693a8e6b443",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-hardware-f0579b934c7c--history-d07e1f3b83df",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-hardware-0cc1a2908550--history-f9378ee7bdc9",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-hardware-1d23c1ca342d--history-5fd7720397eb",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-hardware-ff9fb49c865c--history-c445397891fa",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "wave-1",
+      "label": "半英寸波片位 · 正向第1片",
+      "type": "waveplate",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 12.7,
+      "maxThicknessMm": 7.2,
+      "note": "CAD中532nm片仅为机械参考；不等于采购或已安装光学型号。"
+    },
+    {
+      "id": "wave-2",
+      "label": "一英寸波片位 · 正向第2片",
+      "type": "waveplate",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 25.4,
+      "note": "CAD中532nm片仅为机械参考；不等于采购或已安装光学型号。",
+      "maxThicknessMm": 9.4
+    }
+  ],
+  "layout": {
+    "topViewPath": "topviews/history-3355f74c2e101aadfe793389796f903d63290552fcc71a5adc2cb7c3efd2be7a.svg",
+    "topViewUrl": "./topviews/history-3355f74c2e101aadfe793389796f903d63290552fcc71a5adc2cb7c3efd2be7a.svg",
+    "widthMm": 50.2500002000036,
+    "heightMm": 43.20000000002504,
+    "anchorXMm": 20.7500001,
+    "anchorYMm": 21.60000000002504,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "basePolygonsMm": [
+      [
+        {
+          "xMm": -17.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": -17.5
+        }
+      ]
+    ],
+    "collisionBoundsMm": {
+      "xMin": -20.32499961853027,
+      "yMin": -21.174999999999997,
+      "xMax": 29.07499961853027,
+      "yMax": 21.174999999999997
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -20.325,
+          "yMm": 11.87307
+        },
+        {
+          "xMm": -18.675,
+          "yMm": 11.87307
+        },
+        {
+          "xMm": -18.675,
+          "yMm": 11.575
+        },
+        {
+          "xMm": -17.675,
+          "yMm": 11.575
+        },
+        {
+          "xMm": -17.675,
+          "yMm": 17.675
+        },
+        {
+          "xMm": 12.82507,
+          "yMm": 17.675
+        },
+        {
+          "xMm": 12.8329,
+          "yMm": 20.6062
+        },
+        {
+          "xMm": 12.92378,
+          "yMm": 20.85253
+        },
+        {
+          "xMm": 13.06135,
+          "yMm": 21.0136
+        },
+        {
+          "xMm": 13.24194,
+          "yMm": 21.12426
+        },
+        {
+          "xMm": 13.49457,
+          "yMm": 21.175
+        },
+        {
+          "xMm": 21.00543,
+          "yMm": 21.175
+        },
+        {
+          "xMm": 21.25907,
+          "yMm": 21.12406
+        },
+        {
+          "xMm": 21.51266,
+          "yMm": 20.93982
+        },
+        {
+          "xMm": 21.60197,
+          "yMm": 20.80616
+        },
+        {
+          "xMm": 21.6671,
+          "yMm": 20.6057
+        },
+        {
+          "xMm": 21.67493,
+          "yMm": 17.97495
+        },
+        {
+          "xMm": 27.225,
+          "yMm": 17.97499
+        },
+        {
+          "xMm": 27.225,
+          "yMm": 18.17029
+        },
+        {
+          "xMm": 29.075,
+          "yMm": 18.17029
+        },
+        {
+          "xMm": 29.075,
+          "yMm": -18.17029
+        },
+        {
+          "xMm": 27.225,
+          "yMm": -18.17029
+        },
+        {
+          "xMm": 27.225,
+          "yMm": -17.97499
+        },
+        {
+          "xMm": 21.67493,
+          "yMm": -17.97495
+        },
+        {
+          "xMm": 21.6671,
+          "yMm": -20.6057
+        },
+        {
+          "xMm": 21.60197,
+          "yMm": -20.80616
+        },
+        {
+          "xMm": 21.51266,
+          "yMm": -20.93982
+        },
+        {
+          "xMm": 21.25907,
+          "yMm": -21.12406
+        },
+        {
+          "xMm": 21.00543,
+          "yMm": -21.175
+        },
+        {
+          "xMm": 13.49457,
+          "yMm": -21.175
+        },
+        {
+          "xMm": 13.24194,
+          "yMm": -21.12426
+        },
+        {
+          "xMm": 13.06135,
+          "yMm": -21.0136
+        },
+        {
+          "xMm": 12.92378,
+          "yMm": -20.85253
+        },
+        {
+          "xMm": 12.8329,
+          "yMm": -20.6062
+        },
+        {
+          "xMm": 12.82507,
+          "yMm": -17.675
+        },
+        {
+          "xMm": -17.675,
+          "yMm": -17.675
+        },
+        {
+          "xMm": -17.675,
+          "yMm": -11.575
+        },
+        {
+          "xMm": -18.675,
+          "yMm": -11.575
+        },
+        {
+          "xMm": -18.675,
+          "yMm": -11.87308
+        },
+        {
+          "xMm": -20.325,
+          "yMm": -11.87308
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "received-real-cad-20261012",
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "minimumAlignedMountingHoles": 4,
+    "mountingHoleRadiusMm": 3.2,
+    "placementAllowed": true,
+    "opticalAxisHeightMm": 62.5,
+    "nominalOpticalHeightMm": 62.5,
+    "opticalSurfaceAngleDeg": 90,
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "geometryEvidence": {
+      "sourceStepSha256": "dc6f6f50338b9d99732ed609854c518312522016eda4fb882b56aca486f3add9",
+      "leafCount": 20,
+      "meshDeflectionMm": 0.035,
+      "collisionGuardMm": 0.175,
+      "collisionMethod": "union of actual XY mesh triangle projection, simplify0.02 then guard0.025; inner openings conservatively filled",
+      "frame": "source assembly XY0=post axis/nominal optical frame; supportZ0",
+      "physicalAssemblyTested": false,
+      "previousProjectionSource": {
+        "meshDeflectionMm": 0.035
+      },
+      "sourceStep": "step/history-dc6f6f50338b9d99732ed609854c518312522016eda4fb882b56aca486f3add9.step",
+      "sourceSha256": "dc6f6f50338b9d99732ed609854c518312522016eda4fb882b56aca486f3add9",
+      "imageSha256": "3355f74c2e101aadfe793389796f903d63290552fcc71a5adc2cb7c3efd2be7a",
+      "partCount": 20,
+      "triangleCount": 241142,
+      "postBaseRevision": {
+        "revision": "B6-R1",
+        "sourceRole": "complete",
+        "xyFootprintAndFunctionalDatumsPreserved": true,
+        "projectionReportSha256": "83c5a0b448deaf4d21b6eceb4993ee532ec3036670dcff30277d88b3d4aa2d21",
+        "displayTransform": null,
+        "sourceGeometryChangedByRenderer": false
+      }
+    },
+    "opticalType": "waveplate",
+    "opticalDefaults": {
+      "elementType": "waveplate",
+      "surfaceAngleDeg": 90,
+      "inserted": true,
+      "configured": false,
+      "waveplates": [
+        {
+          "inserted": true
+        },
+        {
+          "inserted": true
+        }
+      ]
+    },
+    "opticalDatumVerified": true,
+    "opticalAxisHeightSource": "37.5 + 10 + 15 = 62.5；37.5 + 4 + 21 = 62.5。",
+    "opticalSimulationNote": "以共线双薄波片序列等效，两片独立设置快轴/延迟；不解析31.96mm内部间距。机械旋钮角不自动等于快轴角；实际通光口径待填。",
+    "opticalGeometryEvidence": {
+      "physicalWaveplateCentersMm": [
+        [
+          -12.86,
+          0,
+          62.5
+        ],
+        [
+          19.1,
+          0,
+          62.5
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "sourceStepSha256": "dc6f6f50338b9d99732ed609854c518312522016eda4fb882b56aca486f3add9",
+      "referenceModelsAreDefaultPurchase": false,
+      "actualFastAxisToDialCalibrationKnown": false,
+      "equivalentThinSequence": true,
+      "physicalInterplateDistanceMm": 31.96,
+      "manufacturerReference": "https://www.lbtek.com/product/116#CRM-1AS"
+    },
+    "opticalInteraction": {
+      "format": "zzlab-optical-interaction",
+      "version": 1,
+      "model": "planar",
+      "onNoMatch": "block",
+      "inputs": [
+        {
+          "id": "axial",
+          "direction": {
+            "angleDeg": 0,
+            "halfAngleDeg": 5,
+            "bidirectional": true
+          },
+          "steps": [
+            {
+              "op": "waveplate"
+            }
+          ]
+        }
+      ]
+    },
+    "status": "真实STEP俯视与公制安装基准已核；光学配置待选",
+    "note": "两种商架共用正式H37.5柱，四个底孔±12.5；两波片轴高62.5。",
+    "opticalClearApertureVerified": false,
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "dc6f6f50338b9d99732ed609854c518312522016eda4fb882b56aca486f3add9",
+      "imageSha256": "3355f74c2e101aadfe793389796f903d63290552fcc71a5adc2cb7c3efd2be7a",
+      "revision": "B6-R1",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null
+    }
+  },
+  "releaseStage": "engineering-review",
+  "status": "WP051-D R1本地设计审核；原厂简化螺纹交叠留档；未实装",
+  "bundleStatus": "complete",
+  "notes": "原厂简化螺纹交叠已留档；未实装。先离柱安装两商架，再固定到柱。实际波片波长/延迟量/快轴仍待配置。 B6 R1：万能柱底座6 mm，原标称总高和光学基准保持；当前完整STEP已实际换柱，未实物试装。",
+  "assemblyReference": {
+    "stepPath": "step/history-dc6f6f50338b9d99732ed609854c518312522016eda4fb882b56aca486f3add9.step",
+    "sourceStepSha256": "dc6f6f50338b9d99732ed609854c518312522016eda4fb882b56aca486f3add9",
+    "nominalFixedPositionAssembly": true,
+    "standardScrewsAndPinsDetailedModels": false,
+    "revision": "R1-B6R1",
+    "sourceExact": true,
+    "sha256": "dc6f6f50338b9d99732ed609854c518312522016eda4fb882b56aca486f3add9"
+  },
+  "revision": "R1-B6R1",
+  "postBaseRevision": {
+    "revision": "B6-R1",
+    "baseThicknessMm": 6,
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "cloudStatus": "pending",
+    "physicalAssemblyAccepted": false,
+    "previousSourceUrl": "",
+    "sourceAssemblySha256": "0390eba8103e046dacad9a0c63031e745c5fa8767070623d880e2c2821473805",
+    "currentAssemblySha256": "dc6f6f50338b9d99732ed609854c518312522016eda4fb882b56aca486f3add9",
+    "replacementReportSha256": "53ac75126533adde6b7bb8a9fd9fd1c3a3da8587b8ab46898d168c223caf5618",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "cloudReference": {
+    "active": false,
+    "current": false,
+    "status": "reviewed-reference-local-precision-source",
+    "documentId": "927906689e9eb5f1b2917081",
+    "versionId": "d5ec15e16e3e9dfea9269129",
+    "elementId": "73d212df4376a6caaad854b5",
+    "sourceUrl": "https://cad.onshape.com/documents/927906689e9eb5f1b2917081/v/d5ec15e16e3e9dfea9269129/e/73d212df4376a6caaad854b5",
+    "sourceStepSha256": "dc6f6f50338b9d99732ed609854c518312522016eda4fb882b56aca486f3add9",
+    "strictWholeAssemblyGeometryEquivalent": false,
+    "allPostSolidsStrictGeometryEquivalent": true,
+    "allAssemblyIdentityAndPoseReferencesPassed": false,
+    "actualCloudAcceptanceSha256": "d989a799138415a93cf804a8080ad2712f38479d94a6e4d5dfb2f8121d4fb567",
+    "cloudMapSha256": "d989a799138415a93cf804a8080ad2712f38479d94a6e4d5dfb2f8121d4fb567",
+    "authoritativePrecisionSource": "当前已核验本地 B6 完整 STEP。云端 BRep 仅为回读参考；原生层级/运动及原厂转译差异未全部通过，不能用于自动精密复用。"
+  },
+  "id": "waveplate-mixed-051-r1--history-bd5235a23199",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "waveplate-mixed-051-r1",
+    "revision": "R1-B6R1",
+    "sourceRecordSha256": "93db4eac1ee7dad11504ccda91d493dcf39dc8eaa1dcf70afcb1248aa2a42f31"
+  }
+}

@@ -14,5 +14,8 @@
   "githubVisibility": "public",
   "currentComponentCad": true,
   "laserMarkingFiles": true,
-  "scopeUpdatedAt": "2026-11-09T14:46:37+08:00"
+  "scopeUpdatedAt": "2026-11-12",
+  "historicalComponentDependencies": true,
+  "historyDirectory": "library/history",
+  "historyNewPlacement": false
 }

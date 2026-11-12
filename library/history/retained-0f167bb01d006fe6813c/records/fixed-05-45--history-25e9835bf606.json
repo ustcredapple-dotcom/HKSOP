@@ -1,0 +1,345 @@
+{
+  "category": "fixed",
+  "variant": "0.5 inch",
+  "description": "原装配镜架及自制安装件；反射镜波长和型号可选填。",
+  "components": [
+    {
+      "componentId": "custom-post-metric-37p5mm-m1--history-dbc1a1ce35ca",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-14--history-ed34dca981e2",
+      "quantity": 1
+    },
+    {
+      "componentId": "mt-flf05s--history-a306252a5cae",
+      "quantity": 1
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "mirror",
+      "label": "反射镜",
+      "type": "mirror",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 12.7
+    }
+  ],
+  "status": "已核对",
+  "notes": "公制M1支撑与转接；保持原光学口径、XY布局、选配及光路交互。 B6 R1：万能柱底座6 mm，原标称总高和光学基准保持；当前完整STEP已实际换柱，未实物试装。",
+  "metricRevision": {
+    "revision": "M1",
+    "sourceVersionId": "6e749963ebef18952db7c82d",
+    "nominalAxisHeightMm": 62.5,
+    "horizontalDatumsPreserved": true,
+    "supportMigration": {
+      "custom-02": "custom-post-metric-12p5mm-m1",
+      "custom-01": "custom-post-metric-25mm-m1",
+      "custom-03": "custom-post-metric-37p5mm-m1",
+      "custom-post-2inch": "custom-post-metric-50mm-m1",
+      "custom-post-2p5inch": "custom-post-metric-62p5mm-m1",
+      "custom-post-3inch": "custom-post-metric-75mm-m1",
+      "custom-post-3p5inch": "custom-post-metric-87p5mm-m1",
+      "custom-post-4inch": "custom-post-metric-100mm-m1",
+      "custom-post-4p5inch": "custom-post-metric-112p5mm-m1",
+      "custom-post-5inch": "custom-post-metric-125mm-m1",
+      "custom-post-5p5inch": "custom-post-metric-137p5mm-m1",
+      "custom-post-6inch": "custom-post-metric-150mm-m1"
+    },
+    "physicalTrialCompleted": false
+  },
+  "revision": "CURRENT-B6R1",
+  "id": "fixed-05-45--history-25e9835bf606",
+  "name": "固定式反射镜 · 0.5 inch · 45°",
+  "sourceUrl": "https://cad.onshape.com/documents/3829d7c10cd7af42e9303073/v/84e75150103aec33a7dfdf09/e/eb1fccc25989de0e17b40020",
+  "layout": {
+    "topViewPath": "topviews/history-c40085b8f9e6f20787372b8839cb6ea9d92fc828dbb009fd84d82aa570e84b91.svg",
+    "topViewUrl": "./topviews/history-c40085b8f9e6f20787372b8839cb6ea9d92fc828dbb009fd84d82aa570e84b91.svg",
+    "widthMm": 36.5,
+    "heightMm": 36.5,
+    "anchorXMm": 18.25,
+    "anchorYMm": 18.25,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "collisionBoundsMm": {
+      "xMin": -17.65,
+      "yMin": -17.65,
+      "xMax": 17.65,
+      "yMax": 17.65
+    },
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "placementAllowed": true,
+    "status": "修改后完整装配 STEP 俯视图与实际安装孔已核验",
+    "note": "镜架后挡面沿朝外法线加指定镜厚已在真实装配验收；保留柱中心及四安装孔吸附坐标。碰撞轮廓来自修正后完整 CAD 投影，保留0.15 mm余量。",
+    "sourceUrl": "https://cad.onshape.com/documents/3a3c1d8089df865b8b4e822a/v/6e749963ebef18952db7c82d/e/7d73747d81a944a9aa75d848",
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -17.65,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -17.65,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 17.65,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 17.65,
+          "yMm": -17.65
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "original-mirror-cad-projection-2026-10-05.1",
+    "opticalAxisHeightMm": 62.5,
+    "opticalAxisHeightSource": "公制M1：原生转接件与公制柱尺寸链共同降低1 mm；保留原光学面与水平安装基准，名义光高62.5 mm。",
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalSurfaceAngleDeg": 45,
+    "opticalGeometryEvidence": {
+      "referenceKind": "mirror holder real bearing seat + user specified mirror thickness",
+      "mirrorThicknessMm": 3,
+      "backstopCenterLayoutMm": [
+        -2.12132034,
+        2.12132034,
+        63.5
+      ],
+      "outwardNormalLayout": [
+        0.70710678,
+        -0.70710678,
+        0.0
+      ],
+      "trueFrontCenterLayoutMm": [
+        0.0,
+        0.0,
+        63.5
+      ],
+      "errorToExistingPlaneMm": 0.0,
+      "unchangedWithinToleranceMm": 0.5,
+      "sourceSha256": "629b8848d23bd91a760711091bcb4d56824870dae100b0b32c066159233d3e88",
+      "acceptanceAudit": null,
+      "coordinateFrame": {
+        "originSourceMm": [
+          -19.25728853,
+          -40.20512929,
+          38.7323521
+        ],
+        "layoutRowsInSource": [
+          [
+            -0.70710678,
+            0.0,
+            0.70710678
+          ],
+          [
+            0.70710678,
+            0.0,
+            0.70710678
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "yawFromOriginal90FrameDeg": 315.0,
+        "intrinsicPostYawDeg": 45.0,
+        "legacyCaptureQuadrantAdjustmentDeg": -90.0,
+        "postDatumHoleOffsetsMm": [
+          [
+            8.5,
+            0.0
+          ],
+          [
+            -6.01040764,
+            -6.01040764
+          ]
+        ],
+        "measuredMountingHoleOffsetsMm": [
+          [
+            -12.5,
+            -12.5
+          ],
+          [
+            -12.5,
+            12.5
+          ],
+          [
+            12.5,
+            -12.5
+          ],
+          [
+            12.5,
+            12.5
+          ]
+        ],
+        "heightAxis": "source +Y",
+        "orientationMethod": "Asymmetric original-post M4 top-hole pair, then legacy square-base quadrant from directed mirror face; baseline 90-degree layout X=-source X, Y=source Z"
+      }
+    },
+    "geometryEvidence": {
+      "sourceStep": "step/history-deca1c8eb26ec59492dea8f333c36bef1ed4f0eae82f18316a90abcc2c45a0ad.step",
+      "sourceSha256": "deca1c8eb26ec59492dea8f333c36bef1ed4f0eae82f18316a90abcc2c45a0ad",
+      "imageSha256": "c40085b8f9e6f20787372b8839cb6ea9d92fc828dbb009fd84d82aa570e84b91",
+      "partCount": 6,
+      "triangleCount": 48093,
+      "guardMm": 0.15,
+      "meshDeflectionMm": 0.035,
+      "faceColoursPreserved": true,
+      "previousProjectionSource": {
+        "sourceStep": null,
+        "sourceSha256": "629b8848d23bd91a760711091bcb4d56824870dae100b0b32c066159233d3e88",
+        "imageSha256": "66022405d9bd0fc13f37afd2814603218ca44d3767ce1b43a909607e2a1dfcdc",
+        "partCount": 6,
+        "triangleCount": 47896,
+        "meshDeflectionMm": 0.04
+      },
+      "postBaseRevision": {
+        "revision": "B6-R1",
+        "sourceRole": "complete",
+        "xyFootprintAndFunctionalDatumsPreserved": true,
+        "projectionReportSha256": "cb735ccfe7183fa2ae8114fb7f46f24751d714e74569064a8b50251d45c11a49",
+        "displayTransform": {
+          "rotationRows": [
+            [
+              -0.7071067811865476,
+              0,
+              0.7071067811865476
+            ],
+            [
+              0.7071067811865476,
+              0,
+              0.7071067811865476
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "originSourceMm": [
+            -19.257288532675897,
+            -39.2051292859018,
+            38.7323520976932
+          ],
+          "operation": "kitPoint = rotationRows * (nativePoint-originSourceMm)",
+          "determinant": 1,
+          "uniformScale": 1,
+          "evidence": null,
+          "evidenceSha256": "7504a1479135ec323517bc992c195c1b3a14e6cb041e1b22709a6f6d29e4ceb7",
+          "sourceSha256": "03db4395d76796aa3c33d2da655c5ddf89ca1707af8e653f347c6f8cab79a429"
+        },
+        "sourceGeometryChangedByRenderer": false
+      }
+    },
+    "opticalType": "mirror",
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "deca1c8eb26ec59492dea8f333c36bef1ed4f0eae82f18316a90abcc2c45a0ad",
+      "imageSha256": "c40085b8f9e6f20787372b8839cb6ea9d92fc828dbb009fd84d82aa570e84b91",
+      "revision": "B6-R1",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": {
+        "rotationRows": [
+          [
+            -0.7071067811865476,
+            0,
+            0.7071067811865476
+          ],
+          [
+            0.7071067811865476,
+            0,
+            0.7071067811865476
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "originSourceMm": [
+          -19.257288532675897,
+          -39.2051292859018,
+          38.7323520976932
+        ],
+        "operation": "kitPoint = rotationRows * (nativePoint-originSourceMm)",
+        "determinant": 1,
+        "uniformScale": 1,
+        "evidence": null,
+        "evidenceSha256": "7504a1479135ec323517bc992c195c1b3a14e6cb041e1b22709a6f6d29e4ceb7",
+        "sourceSha256": "03db4395d76796aa3c33d2da655c5ddf89ca1707af8e653f347c6f8cab79a429"
+      }
+    }
+  },
+  "postBaseRevision": {
+    "revision": "B6-R1",
+    "baseThicknessMm": 6,
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "cloudStatus": "frozen-post-and-assembly-pose-verified-nonpost-partial",
+    "physicalAssemblyAccepted": false,
+    "previousSourceUrl": "https://cad.onshape.com/documents/3a3c1d8089df865b8b4e822a/v/6e749963ebef18952db7c82d/e/7d73747d81a944a9aa75d848",
+    "sourceAssemblySha256": "03db4395d76796aa3c33d2da655c5ddf89ca1707af8e653f347c6f8cab79a429",
+    "currentAssemblySha256": "deca1c8eb26ec59492dea8f333c36bef1ed4f0eae82f18316a90abcc2c45a0ad",
+    "replacementReportSha256": "8cb5c1e0b64b436779f8bcf27c55264519a52ccddbcb33bb87a131d2c0d94ac2",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "assemblyReference": {
+    "stepPath": "step/history-deca1c8eb26ec59492dea8f333c36bef1ed4f0eae82f18316a90abcc2c45a0ad.step",
+    "sourceStepSha256": "deca1c8eb26ec59492dea8f333c36bef1ed4f0eae82f18316a90abcc2c45a0ad",
+    "revision": "CURRENT-B6R1",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "sourceUrl": "https://cad.onshape.com/documents/3829d7c10cd7af42e9303073/v/84e75150103aec33a7dfdf09/e/eb1fccc25989de0e17b40020"
+  },
+  "cloudReference": {
+    "active": false,
+    "current": false,
+    "status": "reviewed-reference-local-precision-source",
+    "documentId": "3829d7c10cd7af42e9303073",
+    "versionId": "84e75150103aec33a7dfdf09",
+    "elementId": "eb1fccc25989de0e17b40020",
+    "sourceUrl": "https://cad.onshape.com/documents/3829d7c10cd7af42e9303073/v/84e75150103aec33a7dfdf09/e/eb1fccc25989de0e17b40020",
+    "sourceStepSha256": "deca1c8eb26ec59492dea8f333c36bef1ed4f0eae82f18316a90abcc2c45a0ad",
+    "strictWholeAssemblyGeometryEquivalent": false,
+    "allPostSolidsStrictGeometryEquivalent": true,
+    "allAssemblyIdentityAndPoseReferencesPassed": false,
+    "actualCloudAcceptanceSha256": "d989a799138415a93cf804a8080ad2712f38479d94a6e4d5dfb2f8121d4fb567",
+    "cloudMapSha256": "d989a799138415a93cf804a8080ad2712f38479d94a6e4d5dfb2f8121d4fb567",
+    "authoritativePrecisionSource": "当前已核验本地 B6 完整 STEP。云端 BRep 仅为回读参考；原生层级/运动及原厂转译差异未全部通过，不能用于自动精密复用。"
+  },
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "fixed-05-45",
+    "revision": "CURRENT-B6R1",
+    "sourceRecordSha256": "6edf9754877ae9d9261eb8fd573ae4fe4c6aa8e5e9ee2c1efa50247804f2ba5b"
+  }
+}

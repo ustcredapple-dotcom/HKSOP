@@ -1,0 +1,62 @@
+{
+  "id": "motor-bracket-22--history-088f5de41bb1",
+  "name": "支架2-2",
+  "kind": "custom",
+  "model": "支架2-2",
+  "unit": "个",
+  "stepPath": "step/history-78a7448998625e8016147bb4f1c02cf177ec86e6ca98648ebd0f22f1fc6304a1.step",
+  "drawingPath": "drawings/history-765de3f6550aea223380658345208dcc4db54c3461ffa14449ac499e991ad013.pdf",
+  "status": "详细加工审核图；V2孔型及整体几何已核验",
+  "notes": "Onshape V2 孔特征已只读核验：2×M4 正常间隙孔 Ø4.5、2×M2 正常间隙孔 Ø2.4，均到下一个面。均为间隙孔，不攻丝。V2 新导出与原 STEP 同坐标双向实体差为空，整体几何一致；保留原 STEP。材料6061铝合金，黑色阳极氧化。",
+  "sourceUrl": "https://cad.onshape.com/documents/68e941971d564ba3b6503f2e/v/17b28d997db0412d3167d90f/e/f86b3b0701b3eb8155391e86",
+  "manufacturingSpec": {
+    "material": "6061 铝合金",
+    "surfaceTreatment": "黑色阳极氧化",
+    "threadClass": "待确认",
+    "profileId": "otherCustom",
+    "policyVersion": "materials-2026-09-24.2"
+  },
+  "sourceDrawingSha256": "765de3f6550aea223380658345208dcc4db54c3461ffa14449ac499e991ad013",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "b919f361b92e9860dc131ef2d3aecbb69ab8eb908d46198075e6153384e2b0b9",
+      "currentPdfSha256": "765de3f6550aea223380658345208dcc4db54c3461ffa14449ac499e991ad013",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "支架本体新增2-2编号LM1；纠正先前误用22-PIN定位销证据。",
+    "notes": "激光打标，不铣刻。主体STEP及孔位保持；原凹深仅显示。实物已有相同标识不重复；参数须首件试样确认。",
+    "files": [
+      {
+        "face": "编号面_LM1",
+        "text": "2-2",
+        "dxfPath": "drawings/history-a70863fba1298989a96f003630ddf0889afb1472801b4105f4b90ed38a736212.dxf",
+        "sha256": "a70863fba1298989a96f003630ddf0889afb1472801b4105f4b90ed38a736212",
+        "setupPdfPath": "drawings/history-d50cdbede023c68987a55e5a5802f59ace1c770aabf68e6f50d3bf7bf660c097.pdf",
+        "setupPdfSha256": "d50cdbede023c68987a55e5a5802f59ace1c770aabf68e6f50d3bf7bf660c097"
+      }
+    ]
+  },
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "motor-bracket-22",
+    "revision": null,
+    "sourceRecordSha256": "2279b4df453e4c319f7e14fd753394395f360ba6eedad356ade5444936c96b56"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "uma1-r8-interface",
+  "files": [
+    {
+      "path": "drawings/1d1c4d28930a6efe732cac1af4cb1ae7444fd6e08b075f4fef04088c8e5294e1.dxf",
+      "stored": "library/assets/sha256/1d/1d1c4d28930a6efe732cac1af4cb1ae7444fd6e08b075f4fef04088c8e5294e1.dxf",
+      "sha256": "1d1c4d28930a6efe732cac1af4cb1ae7444fd6e08b075f4fef04088c8e5294e1",
+      "originalReferences": [],
+      "sources": []
+    },
+    {
+      "path": "cad/3caa98a536fbca87ea0c782b3bc4da36473459918573a4e1679bb05ace206b8b.step",
+      "stored": "library/assets/sha256/3c/3caa98a536fbca87ea0c782b3bc4da36473459918573a4e1679bb05ace206b8b.step",
+      "sha256": "3caa98a536fbca87ea0c782b3bc4da36473459918573a4e1679bb05ace206b8b",
+      "originalReferences": [],
+      "sources": []
+    },
+    {
+      "path": "drawings/c12ee7bb8ad2173b3d506b8c10c275026565d6e8791216fc5e6c83e5d5e8cf2e.dxf",
+      "stored": "library/assets/sha256/c1/c12ee7bb8ad2173b3d506b8c10c275026565d6e8791216fc5e6c83e5d5e8cf2e.dxf",
+      "sha256": "c12ee7bb8ad2173b3d506b8c10c275026565d6e8791216fc5e6c83e5d5e8cf2e",
+      "originalReferences": [],
+      "sources": []
+    },
+    {
+      "path": "drawings/c14cc1c2f09bb5a83366285079cc44804b244ca1a312673ba091b58297265278.dxf",
+      "stored": "library/assets/sha256/c1/c14cc1c2f09bb5a83366285079cc44804b244ca1a312673ba091b58297265278.dxf",
+      "sha256": "c14cc1c2f09bb5a83366285079cc44804b244ca1a312673ba091b58297265278",
+      "originalReferences": [],
+      "sources": []
+    },
+    {
+      "path": "drawings/c16bbf07c850a8bcc5047331512c55dd417249b097a0dfc7f4b6ab512ae957a3.pdf",
+      "stored": "library/assets/sha256/c1/c16bbf07c850a8bcc5047331512c55dd417249b097a0dfc7f4b6ab512ae957a3.pdf",
+      "sha256": "c16bbf07c850a8bcc5047331512c55dd417249b097a0dfc7f4b6ab512ae957a3",
+      "originalReferences": [],
+      "sources": []
+    },
+    {
+      "path": "cad/ca5f9f1a2ccf6e3855f967032a2745547f5c576378ddbd84a583d315a54036c7.step",
+      "stored": "library/assets/sha256/ca/ca5f9f1a2ccf6e3855f967032a2745547f5c576378ddbd84a583d315a54036c7.step",
+      "sha256": "ca5f9f1a2ccf6e3855f967032a2745547f5c576378ddbd84a583d315a54036c7",
+      "originalReferences": [],
+      "sources": []
+    },
+    {
+      "path": "drawings/e8a7c0b796475255650916fea2b5c2b34e220590b5eb358cfabfaa198e38d430.pdf",
+      "stored": "library/assets/sha256/e8/e8a7c0b796475255650916fea2b5c2b34e220590b5eb358cfabfaa198e38d430.pdf",
+      "sha256": "e8a7c0b796475255650916fea2b5c2b34e220590b5eb358cfabfaa198e38d430",
+      "originalReferences": [],
+      "sources": []
+    },
+    {
+      "path": "drawings/ebada27005145886d81576dfe5a52c019760fbb2eeb8ffd5936c81e0a45893b9.dxf",
+      "stored": "library/assets/sha256/eb/ebada27005145886d81576dfe5a52c019760fbb2eeb8ffd5936c81e0a45893b9.dxf",
+      "sha256": "ebada27005145886d81576dfe5a52c019760fbb2eeb8ffd5936c81e0a45893b9",
+      "originalReferences": [],
+      "sources": []
+    },
+    {
+      "path": "drawings/ef874167786b6f8039e76ab9bd7ab559e41549e4bd7f08126448a2acffd6149a.dxf",
+      "stored": "library/assets/sha256/ef/ef874167786b6f8039e76ab9bd7ab559e41549e4bd7f08126448a2acffd6149a.dxf",
+      "sha256": "ef874167786b6f8039e76ab9bd7ab559e41549e4bd7f08126448a2acffd6149a",
+      "originalReferences": [],
+      "sources": []
+    }
+  ],
+  "dependencies": []
+}

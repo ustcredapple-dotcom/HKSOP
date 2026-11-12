@@ -6,9 +6,8 @@
   "records": [
     {
       "kind": "components",
-      "path": "records/lbtek-mt-am1-purchased.json"
+      "path": "record.json"
     }
   ],
-  "origin": "current-published-catalog",
-  "distribution": "current-cad-topviews-and-drawings"
+  "origin": "current-published-catalog"
 }

@@ -1,0 +1,458 @@
+{
+  "name": "单波片 · CRM-1AS",
+  "category": "waveplate",
+  "variant": "公制 M1 · 名义光高62.5 mm",
+  "description": "M1真实装配俯视图；保持原安装与光学XY基准，配套公制转接件、正式万能柱及同源加工图。",
+  "sourceUrl": "https://cad.onshape.com/documents/684fd3e5421c2a6bdd8d57f2/v/1054c61cbeea1628fe9c2e74/e/8bbb3871da6fe56548e32bd9",
+  "components": [
+    {
+      "componentId": "custom-post-metric-25mm-m1--history-f964ae955626",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-waveplate-single-adapter-1--history-b52a2dcb4b9a",
+      "quantity": 1
+    },
+    {
+      "componentId": "crm-1as--history-7693a8e6b443",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-waveplate-single-vendor-2--history-5552c09f3fdc",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-m4x18--history-a0ba90cbe402",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-pin-d2x8--history-c15d3a11ee05",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "optic",
+      "label": "波片",
+      "type": "waveplate",
+      "quantity": 1,
+      "unit": "片",
+      "replacesComponentId": "new-waveplate-single-vendor-2--history-5552c09f3fdc",
+      "diameterMm": 25.4
+    }
+  ],
+  "status": "M1加工审核版",
+  "notes": "波片轴向位置沿用已允许的偏移；未把实际快轴或消光比视作CAD验证。 先离柱从底面固定商用波片架，压靠与光学平面平行的短挡；柱螺钉可预放，再将整件按两销落柱，从露出的柱固定孔拧紧。 非柱侧安装紧固件仍按孔表与实物选配。 B6 R1：万能柱底座6 mm，原标称总高和光学基准保持；当前完整STEP已实际换柱，未实物试装。",
+  "releaseStage": "engineering-review",
+  "bundleStatus": "complete",
+  "bundleNote": "冻结M1 STEP、三页加工PDF及可编辑DXF配套；未作实物试装验收。",
+  "layout": {
+    "topViewPath": "topviews/history-bf374f6d9074329ed9d5dd1289bf1d05c3445c0c56015bf15eceb8f6bd0581fe.svg",
+    "topViewUrl": "./topviews/history-bf374f6d9074329ed9d5dd1289bf1d05c3445c0c56015bf15eceb8f6bd0581fe.svg",
+    "widthMm": 38.35305696,
+    "heightMm": 43.500004,
+    "anchorXMm": 18.22652848,
+    "anchorYMm": 21.75,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "collisionBoundsMm": {
+      "xMin": -17.65,
+      "yMin": -21.150004,
+      "xMax": 19.55,
+      "yMax": 21.15
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": 3.936998,
+          "yMm": -21.148454
+        },
+        {
+          "xMm": 3.661098,
+          "yMm": -21.058808
+        },
+        {
+          "xMm": 3.474001,
+          "yMm": -20.885858
+        },
+        {
+          "xMm": 3.380035,
+          "yMm": -20.701439
+        },
+        {
+          "xMm": 3.35,
+          "yMm": -20.511805
+        },
+        {
+          "xMm": 3.35,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -17.65,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -17.65,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 3.3503,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 3.356203,
+          "yMm": 20.602121
+        },
+        {
+          "xMm": 3.420116,
+          "yMm": 20.798823
+        },
+        {
+          "xMm": 3.57595,
+          "yMm": 20.996498
+        },
+        {
+          "xMm": 3.79557,
+          "yMm": 21.119491
+        },
+        {
+          "xMm": 3.988195,
+          "yMm": 21.15
+        },
+        {
+          "xMm": 11.514774,
+          "yMm": 21.15
+        },
+        {
+          "xMm": 11.755925,
+          "yMm": 21.102032
+        },
+        {
+          "xMm": 12.030595,
+          "yMm": 20.8855
+        },
+        {
+          "xMm": 12.148445,
+          "yMm": 20.566053
+        },
+        {
+          "xMm": 12.149772,
+          "yMm": 17.949952
+        },
+        {
+          "xMm": 17.75,
+          "yMm": 17.949989
+        },
+        {
+          "xMm": 17.75,
+          "yMm": 18.14529
+        },
+        {
+          "xMm": 19.55,
+          "yMm": 18.14529
+        },
+        {
+          "xMm": 19.55,
+          "yMm": -18.14529
+        },
+        {
+          "xMm": 17.75,
+          "yMm": -18.14529
+        },
+        {
+          "xMm": 17.75,
+          "yMm": -17.949989
+        },
+        {
+          "xMm": 12.149772,
+          "yMm": -17.949952
+        },
+        {
+          "xMm": 12.148447,
+          "yMm": -20.563024
+        },
+        {
+          "xMm": 12.05785,
+          "yMm": -20.841851
+        },
+        {
+          "xMm": 11.839638,
+          "yMm": -21.060064
+        },
+        {
+          "xMm": 11.520732,
+          "yMm": -21.150004
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "metric-m1-2026-10-06",
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "placementAllowed": true,
+    "status": "M1 STEP实际俯视投影与安装孔已核验",
+    "note": "实际 STEP 俯视投影；碰撞轮廓按 CAD 投影细分并保留 0.15 mm 余量；按底座真实安装孔吸附。",
+    "nominalOpticalHeightMm": 62.5,
+    "geometryEvidence": {
+      "sourceStep": "step/history-bb5133fb0cd7ae1d698d459adcdfad0a0211604ab2d2c795508cd45eb504c819.step",
+      "sourceSha256": "bb5133fb0cd7ae1d698d459adcdfad0a0211604ab2d2c795508cd45eb504c819",
+      "partCount": 13,
+      "postCount": 1,
+      "imageSha256": "bf374f6d9074329ed9d5dd1289bf1d05c3445c0c56015bf15eceb8f6bd0581fe",
+      "faceColoursPreserved": true,
+      "excludedReferenceCount": 0,
+      "guardMm": 0.15,
+      "meshDeflectionMm": 0.035,
+      "axes": "world X right / Y up / Z height",
+      "referenceAssembly": {
+        "assetKind": "assembly-reference-not-manufacturing-part",
+        "stepPath": "step/history-bb5133fb0cd7ae1d698d459adcdfad0a0211604ab2d2c795508cd45eb504c819.step",
+        "sha256": "bb5133fb0cd7ae1d698d459adcdfad0a0211604ab2d2c795508cd45eb504c819"
+      },
+      "previousProjectionSource": {
+        "sourceStep": null,
+        "sourceSha256": "2154e8e5deebec269633cbf8428e59beec2c4f45d2fa4d1516823eb504d1a562",
+        "imageSha256": "846c290a66468c63b67a8e71234c96308c2ed9bda716d38d0c53afd8fa2c8aa8",
+        "partCount": 13,
+        "meshDeflectionMm": 0.04
+      },
+      "triangleCount": 137584,
+      "postBaseRevision": {
+        "revision": "B6-R1",
+        "sourceRole": "complete",
+        "xyFootprintAndFunctionalDatumsPreserved": true,
+        "projectionReportSha256": "311c18dfc92471a076d4d91be8a6d0f73abe7dee5c7c372add2d75a1bc4dc5d6",
+        "displayTransform": null,
+        "sourceGeometryChangedByRenderer": false
+      }
+    },
+    "opticalType": "waveplate",
+    "opticalSurfaceAngleDeg": 90.0,
+    "opticalAxisHeightMm": 62.5,
+    "opticalCenterMm": {
+      "xMm": 9.6,
+      "yMm": 0.0
+    },
+    "opticalAxisHeightSource": "冻结M1总装、正式公制柱及商用件实际刚体变换已回读；名义光高62.5 mm。",
+    "opticalDatumVerified": true,
+    "opticalSimulationNote": "两块原厂基片名义接合面距柱轴沿法向 +9.6 mm；按真实圆柱轴线定位，不采用削边基片面质心；快轴相对刻度仍须实测确认。",
+    "mountingHoleRadiusMm": 3.2,
+    "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/2ed7fb2849af8aa467c0db11/e/18ac366ce0655ce82eeef78b",
+    "basePolygonsMm": [
+      [
+        {
+          "xMm": -17.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": -17.5
+        }
+      ]
+    ],
+    "opticalGeometryEvidence": {
+      "coordinateFrame": "world X right / Y up / Z height",
+      "sourceDatumHeightMm": 62.5,
+      "opticalCenterMm": {
+        "xMm": 9.6,
+        "yMm": 0.0
+      },
+      "referencePointWorldMm": [
+        9.6,
+        0.0,
+        62.5
+      ],
+      "planeNormalWorld": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "opticalSurfaceAngleDeg": 90.0,
+      "simulationType": "waveplate",
+      "referenceKind": "actual two-substrate interface and circular axis",
+      "axisCylinder": {
+        "radiusMm": 12.7,
+        "axisPointWorldMm": [
+          9.6,
+          0.0,
+          62.5
+        ],
+        "axisWorld": [
+          -1.0,
+          -0.0,
+          -0.0
+        ],
+        "axisPointLayoutMm": [
+          9.6,
+          0.0,
+          62.5
+        ],
+        "axisLayout": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "boundsWorldMm": [
+          8.0,
+          0.0,
+          49.8,
+          9.6,
+          12.7,
+          75.2
+        ]
+      },
+      "sourceLeaf": "HWP25-532A_substrate_1",
+      "cadPlane": {
+        "areaMm2": 502.8046539555552,
+        "centerWorldMm": [
+          9.6,
+          0.09532393,
+          62.5
+        ],
+        "normalWorld": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "centerLayoutMm": [
+          9.6,
+          0.09532393,
+          62.5
+        ],
+        "normalLayout": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "boundsWorldMm": [
+          9.6,
+          -12.0,
+          49.8,
+          9.6,
+          12.7,
+          75.2
+        ]
+      },
+      "geometricReferenceOnly": true,
+      "note": "两块原厂基片名义接合面距柱轴沿法向 +9.6 mm；按真实圆柱轴线定位，不采用削边基片面质心；快轴相对刻度仍须实测确认。",
+      "migrationEvidence": {
+        "sourceSha256": "2154e8e5deebec269633cbf8428e59beec2c4f45d2fa4d1516823eb504d1a562",
+        "providerReadbackStatus": "PASS_REPLACEMENT_READBACK_FINAL_POST_SOURCE_CHECK_REQUIRED_SEPARATELY",
+        "supplierTranslationMm": [
+          0,
+          0,
+          -1
+        ],
+        "measuredAgainstFrozenM1": true,
+        "physicalTrialCompleted": false
+      }
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "bb5133fb0cd7ae1d698d459adcdfad0a0211604ab2d2c795508cd45eb504c819",
+      "imageSha256": "bf374f6d9074329ed9d5dd1289bf1d05c3445c0c56015bf15eceb8f6bd0581fe",
+      "revision": "B6-R1",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null
+    }
+  },
+  "sourceOnshapeStatus": "M1_FIXED_VERSION_ASSEMBLY_VERIFIED",
+  "optionalNotes": [
+    "M1柱侧螺钉与销钉已按同源BOM计入；其余安装紧固件按孔表和实测有效牙深选配。"
+  ],
+  "manufacturingRevision": "M1",
+  "manufacturingEvidence": {
+    "sourceAssembly": {
+      "stepPath": "step/history-bb5133fb0cd7ae1d698d459adcdfad0a0211604ab2d2c795508cd45eb504c819.step",
+      "sha256": "bb5133fb0cd7ae1d698d459adcdfad0a0211604ab2d2c795508cd45eb504c819"
+    },
+    "sourceVersionId": "4931897f80d530bffcf46a4e",
+    "customCodes": [
+      "01-WP"
+    ],
+    "hardwarePolicy": "M1 supplied column-side screws and pins included; other mounting fasteners remain optional pending selection.",
+    "topViewVisualReviewPassed": true,
+    "physicalTrialCompleted": false
+  },
+  "metricRevision": {
+    "revision": "M1",
+    "nativeAssemblySha256": "2154e8e5deebec269633cbf8428e59beec2c4f45d2fa4d1516823eb504d1a562",
+    "nominalAxisHeightMm": 62.5,
+    "sourceVersionId": "4931897f80d530bffcf46a4e",
+    "preservedInstanceXY": true
+  },
+  "postBaseRevision": {
+    "revision": "B6-R1",
+    "baseThicknessMm": 6,
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "cloudStatus": "pending",
+    "physicalAssemblyAccepted": false,
+    "previousSourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/18ac366ce0655ce82eeef78b",
+    "sourceAssemblySha256": "2154e8e5deebec269633cbf8428e59beec2c4f45d2fa4d1516823eb504d1a562",
+    "currentAssemblySha256": "bb5133fb0cd7ae1d698d459adcdfad0a0211604ab2d2c795508cd45eb504c819",
+    "replacementReportSha256": "b0cbd69c0a150e25e279b360e0021198342e3a0890a29cee7f219a7ebd2da976",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "revision": "CURRENT-B6R1",
+  "assemblyReference": {
+    "stepPath": "step/history-bb5133fb0cd7ae1d698d459adcdfad0a0211604ab2d2c795508cd45eb504c819.step",
+    "sourceStepSha256": "bb5133fb0cd7ae1d698d459adcdfad0a0211604ab2d2c795508cd45eb504c819",
+    "revision": "CURRENT-B6R1",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true
+  },
+  "cloudReference": {
+    "active": false,
+    "current": false,
+    "status": "reviewed-reference-local-precision-source",
+    "documentId": "684fd3e5421c2a6bdd8d57f2",
+    "versionId": "1054c61cbeea1628fe9c2e74",
+    "elementId": "8bbb3871da6fe56548e32bd9",
+    "sourceUrl": "https://cad.onshape.com/documents/684fd3e5421c2a6bdd8d57f2/v/1054c61cbeea1628fe9c2e74/e/8bbb3871da6fe56548e32bd9",
+    "sourceStepSha256": "bb5133fb0cd7ae1d698d459adcdfad0a0211604ab2d2c795508cd45eb504c819",
+    "strictWholeAssemblyGeometryEquivalent": false,
+    "allPostSolidsStrictGeometryEquivalent": true,
+    "allAssemblyIdentityAndPoseReferencesPassed": false,
+    "actualCloudAcceptanceSha256": "d989a799138415a93cf804a8080ad2712f38479d94a6e4d5dfb2f8121d4fb567",
+    "cloudMapSha256": "d989a799138415a93cf804a8080ad2712f38479d94a6e4d5dfb2f8121d4fb567",
+    "authoritativePrecisionSource": "当前已核验本地 B6 完整 STEP。云端 BRep 仅为回读参考；原生层级/运动及原厂转译差异未全部通过，不能用于自动精密复用。"
+  },
+  "id": "new-waveplate-single--history-867a573dd79f",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "new-waveplate-single",
+    "revision": "CURRENT-B6R1",
+    "sourceRecordSha256": "313bda39456be6321b1e2e5e8714251504f76754748ffc91c37450779a10b03b"
+  }
+}

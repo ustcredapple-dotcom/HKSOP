@@ -1,0 +1,42 @@
+{
+  "id": "motor-adapter-m3--history-d4191b3691c5",
+  "name": "转接螺纹 m3toh2",
+  "kind": "custom",
+  "model": "转接螺纹 m3toh2（11 mm）",
+  "unit": "个",
+  "stepPath": "step/history-87960d0af1526a2b8210c56b2f5d030200d03dd233a805bce82bcf2fc0bbaf64.step",
+  "drawingPath": "drawings/history-2266d58c33851230a7960b9276b0e07ab1d75224de3b22fdb1cdaebeec6dd4e3.pdf",
+  "status": "加工审核图；V2来源及配套图纸已核验",
+  "notes": "11 mm 原版：4 mm M3×0.5螺纹端、1 mm Ø4凸缘、6 mm对边1.98六角驱动段。STEP为简化牙形；来源精确对应Onshape V2文档版本及原零件，已与原PDF尺寸核验。",
+  "sourceUrl": "https://cad.onshape.com/documents/68e941971d564ba3b6503f2e/v/17b28d997db0412d3167d90f/e/944b60af1f66d553e0091896",
+  "manufacturingSpec": {
+    "material": "6061 铝合金",
+    "surfaceTreatment": "黑色阳极氧化",
+    "threadClass": "待确认",
+    "profileId": "otherCustom",
+    "policyVersion": "materials-2026-09-24.2"
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "按本轮补齐要求增加识别编号；已核当前 STEP 外表面位置。",
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。 此件 Ø4×1 mm 肩部用圆柱展开 DXF，字高0.6 mm；须旋转轴/曲面展开打标，不能按平面投影加工。",
+    "files": [
+      {
+        "dxfPath": "drawings/history-b2fba38a2467c3fd698640ab7e7b4f7c04ef30d4d3731ae72909fead9a5481d9.dxf",
+        "sha256": "b2fba38a2467c3fd698640ab7e7b4f7c04ef30d4d3731ae72909fead9a5481d9",
+        "setupPdfPath": "drawings/history-9a8b6c7429bf1ef797009cf10771127652521901fd69b36d5ef5cc27753cb3f0.pdf",
+        "setupPdfSha256": "9a8b6c7429bf1ef797009cf10771127652521901fd69b36d5ef5cc27753cb3f0",
+        "face": "圆柱肩部_展开",
+        "text": "11-H2 V2"
+      }
+    ]
+  },
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "motor-adapter-m3",
+    "revision": null,
+    "sourceRecordSha256": "7d25df1031c2da390c6df360b67f2d8962d8af40a08fc0f606a78fcb317cc79e"
+  }
+}

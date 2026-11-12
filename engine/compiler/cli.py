@@ -5,6 +5,8 @@ from concurrent.futures import ThreadPoolExecutor
 from functools import lru_cache
 
 ROOT=Path(__file__).resolve().parents[2]
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+import history as retained_history
 KINDS=('components','kits','registeredBoards')
 PACKAGE_OWNERS={}
 PACKAGE_INFO=[]
@@ -66,6 +68,13 @@ def source_catalog():
   order=registry['order'][kind]
   if set(order)!=set(tables[kind]):raise ValueError('Registry order differs from package records: '+kind)
   result[kind]=[tables[kind][i] for i in order]
+ history_index=retained_history.read_index(ROOT)
+ result['historyResolution']=history_index['resolutions']
+ for entry in history_index['entries']:
+  post=entry.get('catalogMetadata',{}).get('universalPost')
+  if post and post['componentId']in tables['components']:
+   posts=result.setdefault('universalPostSeries',{}).setdefault('posts',[])
+   if not any(p['componentId']==post['componentId']for p in posts):posts.append(post)
  validate(result)
  PACKAGE_OWNERS=owners
  PACKAGE_INFO=info
@@ -133,11 +142,19 @@ def resource_key(value):
  return value
 
 def current_assets(catalog,assets):
+ assets=copy.deepcopy(assets)
+ for entry in retained_history.read_index(ROOT)['entries']:
+  for ref in entry.get('assetReferences',[]):
+   if ref['logical']in assets['links']and assets['links'][ref['logical']]!=ref['stored']:raise ValueError('Immutable historical asset alias conflict: '+ref['logical'])
+   assets['links'][ref['logical']]=ref['stored']
+   logical=ref['logical'];tail=logical.split('/',1)[1];assets['replacements'].update({logical:logical,tail:tail})
  values=set(value_strings(catalog));keys={resource_key(v) for v in values}
  for v in values:
   if v in assets['replacements']:keys.add(resource_key(assets['replacements'][v]))
  for rel in read(ROOT/'library/registry.json')['packages']:
   keys.update(a['target'] for a in read(ROOT/rel).get('assets',[]))
+ for entry in retained_history.read_index(ROOT)['entries']:
+  for ref in entry.get('assetReferences',[]):keys.update((resource_key(ref['logical']),resource_key(ref['stored'])))
  links={k:v for k,v in assets['links'].items() if resource_key(k) in keys or resource_key(v) in keys}
  kept=set(links.values())
  keptkeys={resource_key(x) for x in kept}
@@ -185,7 +202,9 @@ def collect_unused_assets(assets):
   with ThreadPoolExecutor(max_workers=12) as pool:return sum(pool.map(clean_bucket,list(root.iterdir())))
  return 0
 def compile_catalog(snapshot='web-current'):
- c=snapshot_catalog(snapshot);asset=read(ROOT/'library/snapshots'/snapshot/'assets.json')
+ c=snapshot_catalog(snapshot)
+ if snapshot=='web-current':retained_history.observe_catalog(ROOT,c)
+ asset=read(ROOT/'library/snapshots'/snapshot/'assets.json')
  mapping=dict(asset['replacements'])
  # Export helpers reject child symlinks. Point asset paths directly at CAS files.
  for old,new in list(mapping.items()):
@@ -223,6 +242,7 @@ def compile_catalog(snapshot='web-current'):
 def source_fingerprint():
  h=hashlib.sha256()
  files=[ROOT/'library/registry.json',ROOT/'library/catalog-meta.json']
+ if (ROOT/'library/history/index.json').exists():files.append(ROOT/'library/history/index.json')
  def package_files(rel):
   p=internal(ROOT,rel);result=[p]
   for record in read(p)['records']:
@@ -276,19 +296,28 @@ def build_runtime(profile='web',snapshot='web-current',_built=None):
   (dest/'PROJECT_LOG.md').touch(exist_ok=True)
  write(dest/'hksop-runtime.json',{'profile':profile,'snapshot':snapshot,'sourceMap':'engine/runtime-map.json','generatedAt':time.time(),'productionServiceChanged':False})
  return dest
-def stage_package(path,collection='custom'):
+def history_choice(before,after,choice):
+ if choice not in (None,'retain','discard'):raise ValueError('history must be retain or discard')
+ replaced=any(any(r.get('lifecycle',{}).get('state')!='historical'and {v['id']:v for v in after[k]}.get(r['id'])!=r for r in before[k])for k in KINDS)
+ if replaced and choice is None:raise ValueError('Updating existing definitions requires explicit --history retain|discard for this update')
+ return choice
+def stage_package(path,collection='custom',history=None):
  p=Path(path).resolve();p=p/'package.json' if p.is_dir() else p
- m,records=expand(p);catalog=source_catalog();registry=read(ROOT/'library/registry.json')
+ m,records=expand(p)
+ if collection=='history'and any(r.get('lifecycle',{}).get('state')!='historical'or r.get('lifecycle',{}).get('canCreate')is not False for _,r in records):raise ValueError('History records must disable new placement')
+ catalog=source_catalog();before_catalog=copy.deepcopy(catalog);registry=read(ROOT/'library/registry.json')
  existing=PACKAGE_OWNERS.get(m['packageId'])
  tables={k:{r['id']:r for r in catalog[k]} for k in KINDS}
  oldids={k:set() for k in KINDS}
  if existing:
   _,old=expand(ROOT/existing)
+  if existing.startswith('library/history/') and records!=old:raise ValueError('Historical package is immutable; create a new current version instead')
   for k,r in old:oldids[k].add(r['id']);tables[k].pop(r['id'])
  for k,row in records:
   if row['id'] in tables[k]:raise ValueError('An unrelated package owns ID: '+row['id'])
   tables[k][row['id']]=row
  for k in KINDS:catalog[k]=list(tables[k].values())
+ history=history_choice(before_catalog,catalog,history)
  validate(catalog)
  validate_legacy(catalog)
  paths={'package.json'}
@@ -337,16 +366,17 @@ def stage_package(path,collection='custom'):
   source=contained(p.parent,rel);out=contained(dest/'package',rel);out.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(source,out)
  target=existing or 'library/'+collection+'/'+m['packageId']+'/package.json'
  receipt={'format':'hksop-stage-v1','baseFingerprint':fingerprint,'assetFingerprint':asset_fingerprint,'packageId':m['packageId'],'target':target,'oldIds':{k:sorted(v) for k,v in oldids.items()},'files':{rel:sha((dest/'package'/rel).read_bytes()) for rel in paths},'checks':{'recordStructure':True,'bomReferences':True,'declaredAssetHashes':True,'resourceReferences':True},'physicalAcceptance':'not-performed-by-structural-stage'}
+ receipt['historyPolicy']=history
  write(dest/'stage.json',receipt);return dest
-def adopt_stage(path):
+def adopt_stage(path,history=None):
  lock=ROOT/'runtime/locks/library.lock';lock.parent.mkdir(parents=True,exist_ok=True)
  try:fd=os.open(lock,os.O_CREAT|os.O_EXCL|os.O_WRONLY)
  except FileExistsError:raise ValueError('Another library write is active; inspect runtime/locks/library.lock')
  try:
   os.write(fd,str(os.getpid()).encode());os.close(fd)
-  return _adopt_stage(path)
+  return _adopt_stage(path,history)
  finally:lock.unlink(missing_ok=True)
-def _adopt_stage(path):
+def _adopt_stage(path,history=None):
  dest=Path(path).resolve();receipt=read(dest/'stage.json')
  if receipt['baseFingerprint']!=source_fingerprint():raise ValueError('Library changed since staging; create a new stage')
  if receipt['assetFingerprint']!=sha(encoded(read(ROOT/'library/snapshots/web-current/assets.json'))):raise ValueError('Assets changed since staging; create a new stage')
@@ -356,19 +386,26 @@ def _adopt_stage(path):
  registry=read(ROOT/'library/registry.json')
  before_catalog=source_catalog()
  allowed_targets={PACKAGE_OWNERS[m['packageId']]} if m['packageId'] in PACKAGE_OWNERS else set()
- allowed_targets.update('library/'+section+'/'+m['packageId']+'/package.json' for section in ('custom','standard'))
+ allowed_targets.update('library/'+section+'/'+m['packageId']+'/package.json' for section in ('custom','standard','history'))
  if receipt['target'] not in allowed_targets:raise ValueError('Stage target does not match package identity')
  if receipt['packageId']!=m['packageId']:raise ValueError('Stage identity changed')
  assets=read(ROOT/'library/snapshots/web-current/assets.json')
  before_assets=copy.deepcopy(assets)
+ prospective=copy.deepcopy(before_catalog)
+ for kind in KINDS:
+  prospective[kind]=[r for r in prospective[kind]if r['id']not in receipt['oldIds'][kind]]+[r for k,r in records if k==kind]
+ if history is not None and receipt.get('historyPolicy')is not None and history!=receipt['historyPolicy']:raise ValueError('History choice differs from staged choice; restage this update')
+ history=history_choice(before_catalog,prospective,history or receipt.get('historyPolicy'))
+ history_plan=retained_history.plan_update(ROOT,before_catalog,prospective,assets)if history=='retain'else None
+ history_created=[]
  # Resolve every destination before changing definitions; a generated asset link
  # must not turn an upload into a write to the shared immutable content store.
  for rel in receipt['files']:contained(target,rel)
  transaction=ROOT/'runtime/transactions'/('adopt-'+str(time.time_ns()));transaction.mkdir(parents=True)
  backup=transaction/'previous-package';had_target=target.exists();created_assets=[];moved=False;installed=False
- metadata=['library/registry.json','library/catalog-meta.json','library/snapshots/web-current/assets.json','library/snapshots/web-current/catalog.json.gz','library/snapshots/index.json']
+ metadata=['library/registry.json','library/catalog-meta.json','library/snapshots/web-current/assets.json','library/snapshots/web-current/catalog.json.gz','library/snapshots/index.json','library/history/index.json']
  previous={rel:(ROOT/rel).read_bytes() if (ROOT/rel).exists() else None for rel in metadata}
- write(transaction/'transaction.json',{'state':'in-progress','target':receipt['target'],'policy':'temporary rollback; delete after success'})
+ write(transaction/'transaction.json',{'state':'in-progress','target':receipt['target'],'policy':'temporary rollback; delete after success','historyPolicy':history})
  for rel,data in previous.items():
   if data is not None:
    q=transaction/'metadata'/rel;q.parent.mkdir(parents=True,exist_ok=True);q.write_bytes(data)
@@ -381,6 +418,8 @@ def _adopt_stage(path):
   for k in KINDS:
    order=[i for i in registry['order'][k] if i not in receipt['oldIds'][k]]
    order.extend(row['id'] for kind,row in records if kind==k);registry['order'][k]=order
+  if history_plan and history_plan['records']:history_created=[(ROOT/history_plan['packagePath']).parent]
+  retained_history.install(ROOT,history_plan,registry)
   for a in m.get('assets',[]):
    source=contained(target,a['path']);ext=source.suffix.lower();stored=ROOT/'library/assets/sha256'/a['sha256'][:2]/(a['sha256']+ext);stored.parent.mkdir(parents=True,exist_ok=True)
    if not stored.exists():shutil.copyfile(source,stored);created_assets.append(stored)
@@ -394,9 +433,10 @@ def _adopt_stage(path):
   current_row={'id':'web-current','role':'current-only','version':after_catalog['version'],'sha256':sha(after_bytes),'counts':validate(after_catalog),'assetCount':len(assets['links']),'missingCount':len(assets.get('missing',[]))}
   write(ROOT/'library/snapshots/index.json',{'format':'hksop-snapshot-index-v1','snapshots':[current_row]})
   remove_tree(ROOT/'library/_build/web-current')
-  result=compile_catalog();refresh_package_resources(assets,[receipt['target']])
+  result=compile_catalog();refresh_package_resources(assets,[receipt['target']]+[(p/'package.json').relative_to(ROOT).as_posix()for p in history_created])
  except Exception:
   if installed:remove_tree(target)
+  for hp in history_created:remove_tree(hp)
   if moved:os.replace(backup,target)
   for rel,data in previous.items():
    p=ROOT/rel
@@ -414,7 +454,7 @@ def _adopt_stage(path):
   runtime=ROOT/'runtime/releases'/(profile+'-web-current')
   if runtime.exists():
    remove_tree(runtime);build_runtime(profile,'web-current',result)
- write(ROOT/'runtime/last-adoption.json',{'adoptedAt':time.time(),'catalog':str(result),'target':receipt['target'],'releasedAssetBytes':removed,'historyRetained':False})
+ write(ROOT/'runtime/last-adoption.json',{'adoptedAt':time.time(),'catalog':str(result),'target':receipt['target'],'releasedAssetBytes':removed,'historyPolicy':history,'historyRetained':bool(history_plan),'historyPackage':history_plan['packagePath']if history_plan else None,'historyRecords':len(history_plan['entries'])if history_plan else 0})
  remove_tree(dest)
  return result
 def export_package(package,output):
@@ -425,9 +465,21 @@ def export_package(package,output):
   paths.add(r['path'])
   if r.get('common'):paths.add(r['common'])
  for a in m.get('assets',[]):paths.add(a['path'])
+ resource_map=p.parent/'resource-map.json'
+ resources=read(resource_map).get('files',[])if resource_map.exists()and p.resolve().is_relative_to((ROOT/'library').resolve())else []
+ if resources:paths.add('resource-map.json')
+ historical=[]
+ if p.resolve().is_relative_to((ROOT/'library/history').resolve()):
+  historical=[e for e in retained_history.read_index(ROOT)['entries']if ROOT/e['packagePath']==p]
+  for entry in historical:paths.add(str(Path(entry['sourceRecordPath']).relative_to(p.parent.relative_to(ROOT))))
  output=Path(output);output.parent.mkdir(parents=True,exist_ok=True)
  with zipfile.ZipFile(output,'x',zipfile.ZIP_DEFLATED) as z:
   for rel in sorted(paths):z.write(contained(p.parent,rel),m['packageId']+'/'+rel)
+  for r in resources:
+   src=contained(ROOT,r['stored'])
+   if sha(src.read_bytes())!=r['sha256']:raise ValueError('Export resource hash mismatch: '+r['stored'])
+   if r['path']not in paths:z.write(src,m['packageId']+'/'+r['path'])
+  if historical:z.writestr(m['packageId']+'/history.json',encoded({'format':'hksop-history-export-v1','entries':historical}))
  with zipfile.ZipFile(output) as z:
   if z.testzip() is not None:raise ValueError('ZIP verification failed')
  return output
@@ -435,7 +487,7 @@ def main():
  p=argparse.ArgumentParser(description=__doc__);sub=p.add_subparsers(dest='command',required=True)
  q=sub.add_parser('catalog');q.add_argument('action',choices=['build','check','list']);q.add_argument('--snapshot',default='web-current')
  q=sub.add_parser('runtime');q.add_argument('action',choices=['build']);q.add_argument('--profile',choices=['web','editor'],default='web');q.add_argument('--snapshot',default='web-current')
- q=sub.add_parser('package');q.add_argument('action',choices=['check','stage','adopt','export']);q.add_argument('path');q.add_argument('--collection',choices=['custom','standard'],default='custom');q.add_argument('--output')
+ q=sub.add_parser('package');q.add_argument('action',choices=['check','stage','adopt','export']);q.add_argument('path');q.add_argument('--collection',choices=['custom','standard','history'],default='custom');q.add_argument('--output');q.add_argument('--history',choices=['retain','discard'])
  q=sub.add_parser('trace');q.add_argument('scene');q.add_argument('--node');q.add_argument('--snapshot',default='web-current');q.add_argument('--profile',choices=['web','editor'],default='editor')
  q=sub.add_parser('serve');q.add_argument('--profile',choices=['web','editor'],default='editor');q.add_argument('--snapshot',default='web-current');q.add_argument('--port',type=int,default=18943)
  args=p.parse_args()
@@ -447,8 +499,8 @@ def main():
  elif args.command=='runtime':result={'runtime':str(build_runtime(args.profile,args.snapshot))}
  elif args.command=='package':
   if args.action=='check':m,records=expand(Path(args.path)/'package.json' if Path(args.path).is_dir() else args.path);result={'packageId':m['packageId'],'records':len(records),'recordStructure':'valid'}
-  elif args.action=='stage':result={'stage':str(stage_package(args.path,args.collection))}
-  elif args.action=='adopt':result={'built':str(adopt_stage(args.path))}
+  elif args.action=='stage':result={'stage':str(stage_package(args.path,args.collection,args.history))}
+  elif args.action=='adopt':result={'built':str(adopt_stage(args.path,args.history))}
   else:
    if not args.output:raise ValueError('--output is required')
    result={'archive':str(export_package(args.path,args.output))}

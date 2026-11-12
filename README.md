@@ -36,9 +36,9 @@ HKSOP makes those relationships explicit. Universal posts provide reusable suppo
 <details>
 <summary><strong>当前仓库收录范围 / What is included</strong></summary>
 
-当前精选库有 **694 个包**，包含 **432 条零件记录、263 条套件记录和 6 种底板定义**；现用资源包括 **584 份去重 STEP、376 份俯视资源、539 份 PDF 和 349 份 DXF**。一个包可以含多条记录，因此这些统计不应相加。项目目录提供基础反射、一分三和 DoublePass 三个可导入 JSON 示例。当前资料版本为 `2026-11-09.hksop-github-cad-2`。
+当前精选库有 **695 个包**：现用 **438 条零件、265 条套件和 6 种底板**；另有 **288 条冻结历史定义**，供旧工程继续解析和显示，不支持新增拖入。共享资源含 **598 份 STEP、386 份渲染资源、548 份 PDF 和 357 份 DXF**。项目目录保留三个可导入示例。当前资料版本为 `2026-11-12.hksop-history-r1`。
 
-The curated library contains **694 packages**, with **432 component records, 263 kit records and 6 board definitions**. Current assets include **584 unique STEP files, 376 top-view resources, 539 PDFs and 349 DXFs**. Packages can contain multiple records, so these counts are not additive. The project directory includes three importable JSON examples: Basic Reflection, 1-to-3 and DoublePass.
+The curated library contains **695 packages**, with **438 active components, 265 active kits and 6 board definitions**, plus **288 frozen historical definitions** for existing designs. Historical entries can render but cannot be newly placed. Shared resources include **598 STEP files, 386 rendering resources, 548 PDFs and 357 DXFs**. The three importable examples remain available.
 
 现用元件图纸随库提供，修订与原有验收状态保持不变。下文成像项目的图片用于说明实际工作过程；它的完整定制依赖和三维总装没有因此加入精选库。文件范围见[收录清单](docs/selection.json)、[元件资源清单](docs/asset-manifest.json)和[首页图片来源](docs/assets/sources.json)。
 
@@ -201,7 +201,7 @@ The repository separates software, component definitions, and project layouts. `
 HKSOP/
 ├── hksop.py                         # 命令行入口 / Main CLI
 ├── engine/                          # 校验、布局、光学与 CAD / Software engine
-├── library/                         # 当前元件库 / Current component library
+├── library/                         # 现用元件及历史依赖 / Active components and history
 │   ├── standard/                    # 标准装配套件 / Standard kits
 │   ├── components/                  # 采购件与自制件 / Purchased and machined parts
 │   ├── modules/                     # 组合模块 / Composite modules
@@ -271,11 +271,11 @@ These images show the manual-mount **R8** DoublePass configuration: the editor l
 
 ## 文件管理约定 / File and Version Rules
 
-引擎和元件库只维护当前有效的代码、定义及现用资源，不同现用型号和安装变体可以并存。当前元件的 STEP、俯视图和配套图纸属于正式库资源；项目按需要保留当前最终成果，历史只保留人工确认或正式交付的工程 JSON 里程碑，并按内容去重。
+引擎维护当前有效代码；元件库维护现用定义，并在 `library/history` 保留旧设计依赖的版本和资料。历史实例仍可渲染，历史元件不进入新建拖入列表。不同现用型号和安装变体可以并存。当前元件的 STEP、俯视图和配套图纸属于正式库资源；项目按需要保留当前最终成果，历史只保留人工确认或正式交付的工程 JSON 里程碑，并按内容去重。
 
-这个仓库只放三个当前示例，不附历史项目的三维总装、旧 CAD、旧图纸或旧交付包。`runtime/`、构建缓存、项目日志和 `config/local-environment.json` 留在本机。历史 JSON 再打开时，需要检查它与当前元件库是否兼容。完整规则见[保留策略](docs/retention-policy.md)。
+这个仓库只放三个当前示例，不附无依赖的历史项目整套总装或旧交付包；旧设计依赖的元件 CAD、图纸及配套资料随 `library/history` 保留。`runtime/`、构建缓存、项目日志和 `config/local-environment.json` 留在本机。历史 JSON 再打开时按原版本身份解析并检查历史依赖。完整规则见[保留策略](docs/retention-policy.md)。
 
-The engine and library retain active code, definitions, and assets, including current component models and drawings. Active mounting variants can coexist. Projects retain their current deliverables as needed; historical retention is limited to deduplicated, confirmed engineering JSON milestones. This repository includes three current examples, without historical project CAD or delivery packages. Runtime data, build caches, local logs, and machine configuration are not committed. Historical JSON files must be checked against the current library when reopened; see the [retention policy](docs/retention-policy.en.md).
+The engine retains active code; the library keeps active components and old-design dependencies in `library/history`. Historical instances remain renderable, but historical components are unavailable for new placement. Active mounting variants can coexist. Projects retain their current deliverables as needed; historical retention is limited to deduplicated, confirmed engineering JSON milestones. This repository includes three current examples, without unrelated full historical project deliveries; required historical component CAD, drawings and supporting files are retained. Runtime data, build caches, local logs, and machine configuration are not committed. Historical JSON files must resolve their original version identities and dependencies when reopened; see the [retention policy](docs/retention-policy.en.md).
 
 <a id="documentation"></a>
 ## 继续阅读 / Documentation
@@ -310,3 +310,5 @@ This design comes from the **HKU Ultracold Atom Lab (ZZLab), The University of H
 The system has evolved through real experimental design, with people and AI working together. Reviewed sketches become explicit components, coordinates, optical datums and assembly relationships. Revisions leave data that can be inspected and reused. The next AI can read those definitions and verification results, identify what a change affects, and continue the design with the researcher.
 
 <p align="center"><strong>From AI. For AI.</strong></p>
+
+元件更新是否保留历史，以用户当次明确选择为准：保留则存入 `library/history`；不保留则不归档本次被替换版本；未说明先确认。已经保留的历史仍可供旧工程渲染，但不能新拖入。

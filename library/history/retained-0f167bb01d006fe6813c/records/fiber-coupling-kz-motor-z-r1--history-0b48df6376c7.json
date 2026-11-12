@@ -1,0 +1,588 @@
+{
+  "name": "CS30-KZ + XY耦合头 · 电动Z轴 R1",
+  "category": "coupling",
+  "variant": "后置旋钮 / 手动粗调＋电动精调 / H62.5",
+  "revision": "R1",
+  "description": "圆套筒＋平端紧定夹住原旋钮，H2滑动传扭。 保留XY底部固定、Z轴笼杆固定和62.5mm名义光高。",
+  "components": [
+    {
+      "componentId": "custom-fc-kz-r3-a--history-f7a59caecfa6",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-post-metric-25mm-m1--history-f964ae955626",
+      "quantity": 1
+    },
+    {
+      "componentId": "cs30-xy1d--history-f729a0c44f55",
+      "quantity": 1
+    },
+    {
+      "componentId": "cs30-kz--history-f071cffd1d5b",
+      "quantity": 1
+    },
+    {
+      "componentId": "mop-50--history-de8cfdcd34a2",
+      "quantity": 4
+    },
+    {
+      "componentId": "new-hardware-2675b0c6a8c3--history-1bdf631bfba8",
+      "quantity": 8
+    },
+    {
+      "componentId": "new-hardware-f0579b934c7c--history-d07e1f3b83df",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-hardware-1d23c1ca342d--history-5fd7720397eb",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-hardware-ff9fb49c865c--history-c445397891fa",
+      "quantity": 2
+    },
+    {
+      "componentId": "custom-fz-kz-br-r1--history-be908fe9b4aa",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-fz-kz-h2-r1--history-3fe8e96313be",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-fz-kz-sl-r1--history-7970016acc84",
+      "quantity": 1
+    },
+    {
+      "componentId": "encoder-servo--history-70776fa677e6",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-iso4762-m2x8--history-d489aa274c6d",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-flat-set-m3x6-soft-tip--history-306408df5c75",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-flat-set-m3x4--history-a74e94d84e1b",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "lens",
+      "label": "耦合透镜",
+      "type": "lens",
+      "quantity": 1,
+      "unit": "片"
+    },
+    {
+      "id": "fiber",
+      "label": "光纤／接头",
+      "type": "optic",
+      "quantity": 1,
+      "unit": "个"
+    }
+  ],
+  "layout": {
+    "topViewPath": "topviews/history-ec450c289641ecf45a393c1219b4266418f5ff90f79bf93889e0e9c428d088d3.svg",
+    "topViewUrl": "./topviews/history-ec450c289641ecf45a393c1219b4266418f5ff90f79bf93889e0e9c428d088d3.svg",
+    "widthMm": 69,
+    "heightMm": 145,
+    "anchorXMm": 30,
+    "anchorYMm": 125,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "collisionBoundsMm": {
+      "xMin": -27.55,
+      "yMin": -17.55,
+      "xMax": 36.05,
+      "yMax": 122.55
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -26.5,
+          "yMm": -0.05
+        },
+        {
+          "xMm": -27.55,
+          "yMm": 1.0
+        },
+        {
+          "xMm": -27.546194,
+          "yMm": 15.019134
+        },
+        {
+          "xMm": -26.5,
+          "yMm": 16.05
+        },
+        {
+          "xMm": -18.05,
+          "yMm": 16.05
+        },
+        {
+          "xMm": -18.05,
+          "yMm": 21.95
+        },
+        {
+          "xMm": -19.519134,
+          "yMm": 21.953806
+        },
+        {
+          "xMm": -20.05,
+          "yMm": 22.5
+        },
+        {
+          "xMm": -20.05,
+          "yMm": 42.0
+        },
+        {
+          "xMm": -20.0,
+          "yMm": 42.05
+        },
+        {
+          "xMm": -18.05,
+          "yMm": 42.05
+        },
+        {
+          "xMm": -18.05,
+          "yMm": 45.45
+        },
+        {
+          "xMm": -21.0,
+          "yMm": 45.45
+        },
+        {
+          "xMm": -21.05,
+          "yMm": 45.5
+        },
+        {
+          "xMm": -21.05,
+          "yMm": 88.5
+        },
+        {
+          "xMm": -21.0,
+          "yMm": 88.55
+        },
+        {
+          "xMm": -9.05,
+          "yMm": 88.55
+        },
+        {
+          "xMm": -9.046194,
+          "yMm": 122.519134
+        },
+        {
+          "xMm": -9.0,
+          "yMm": 122.55
+        },
+        {
+          "xMm": 17.9533,
+          "yMm": 122.55
+        },
+        {
+          "xMm": 18.0033,
+          "yMm": 122.5
+        },
+        {
+          "xMm": 18.0033,
+          "yMm": 120.55
+        },
+        {
+          "xMm": 21.019134,
+          "yMm": 120.546194
+        },
+        {
+          "xMm": 21.05,
+          "yMm": 120.5
+        },
+        {
+          "xMm": 21.05,
+          "yMm": 119.05
+        },
+        {
+          "xMm": 36.019134,
+          "yMm": 119.046194
+        },
+        {
+          "xMm": 36.05,
+          "yMm": 119.0
+        },
+        {
+          "xMm": 36.046194,
+          "yMm": 89.980866
+        },
+        {
+          "xMm": 36.0,
+          "yMm": 89.95
+        },
+        {
+          "xMm": 29.05,
+          "yMm": 89.95
+        },
+        {
+          "xMm": 29.046194,
+          "yMm": 83.980866
+        },
+        {
+          "xMm": 29.0,
+          "yMm": 83.95
+        },
+        {
+          "xMm": 28.0496,
+          "yMm": 83.95
+        },
+        {
+          "xMm": 28.0496,
+          "yMm": 83.0
+        },
+        {
+          "xMm": 28.018734,
+          "yMm": 82.953806
+        },
+        {
+          "xMm": 27.04,
+          "yMm": 82.95
+        },
+        {
+          "xMm": 27.04,
+          "yMm": 79.55
+        },
+        {
+          "xMm": 30.999,
+          "yMm": 79.55
+        },
+        {
+          "xMm": 31.045194,
+          "yMm": 79.519134
+        },
+        {
+          "xMm": 31.049,
+          "yMm": 73.55
+        },
+        {
+          "xMm": 35.998,
+          "yMm": 73.55
+        },
+        {
+          "xMm": 36.048,
+          "yMm": 73.5
+        },
+        {
+          "xMm": 36.05,
+          "yMm": 66.749615
+        },
+        {
+          "xMm": 35.991402,
+          "yMm": 66.125172
+        },
+        {
+          "xMm": 35.9716,
+          "yMm": 65.507313
+        },
+        {
+          "xMm": 35.991901,
+          "yMm": 64.866651
+        },
+        {
+          "xMm": 36.05,
+          "yMm": 64.249964
+        },
+        {
+          "xMm": 36.044184,
+          "yMm": 61.480841
+        },
+        {
+          "xMm": 35.998,
+          "yMm": 61.45
+        },
+        {
+          "xMm": 32.547843,
+          "yMm": 61.45
+        },
+        {
+          "xMm": 32.544831,
+          "yMm": 60.481357
+        },
+        {
+          "xMm": 32.4942,
+          "yMm": 60.45
+        },
+        {
+          "xMm": 32.12557,
+          "yMm": 60.45
+        },
+        {
+          "xMm": 32.123847,
+          "yMm": 53.491356
+        },
+        {
+          "xMm": 31.619394,
+          "yMm": 50.480866
+        },
+        {
+          "xMm": 31.5732,
+          "yMm": 50.45
+        },
+        {
+          "xMm": 31.305868,
+          "yMm": 50.45
+        },
+        {
+          "xMm": 31.298228,
+          "yMm": 42.079061
+        },
+        {
+          "xMm": 32.0,
+          "yMm": 42.05
+        },
+        {
+          "xMm": 32.05,
+          "yMm": 42.0
+        },
+        {
+          "xMm": 32.05,
+          "yMm": 22.5
+        },
+        {
+          "xMm": 31.5,
+          "yMm": 21.95
+        },
+        {
+          "xMm": 18.05,
+          "yMm": 21.95
+        },
+        {
+          "xMm": 18.05,
+          "yMm": 16.05
+        },
+        {
+          "xMm": 21.535355,
+          "yMm": 16.035355
+        },
+        {
+          "xMm": 22.546194,
+          "yMm": 15.019134
+        },
+        {
+          "xMm": 22.55,
+          "yMm": 12.55
+        },
+        {
+          "xMm": 22.7004,
+          "yMm": 12.55
+        },
+        {
+          "xMm": 22.704206,
+          "yMm": 13.369134
+        },
+        {
+          "xMm": 22.981166,
+          "yMm": 13.646194
+        },
+        {
+          "xMm": 24.518834,
+          "yMm": 13.646194
+        },
+        {
+          "xMm": 24.795794,
+          "yMm": 13.369134
+        },
+        {
+          "xMm": 24.7996,
+          "yMm": 12.55
+        },
+        {
+          "xMm": 24.918577,
+          "yMm": 12.546218
+        },
+        {
+          "xMm": 25.04617,
+          "yMm": 12.419192
+        },
+        {
+          "xMm": 25.05,
+          "yMm": 11.0498
+        },
+        {
+          "xMm": 28.9121,
+          "yMm": 11.0498
+        },
+        {
+          "xMm": 28.948113,
+          "yMm": 11.034486
+        },
+        {
+          "xMm": 29.3621,
+          "yMm": 10.5998
+        },
+        {
+          "xMm": 29.3621,
+          "yMm": 7.4002
+        },
+        {
+          "xMm": 28.9121,
+          "yMm": 6.9502
+        },
+        {
+          "xMm": 25.05,
+          "yMm": 6.9502
+        },
+        {
+          "xMm": 25.05,
+          "yMm": 5.6
+        },
+        {
+          "xMm": 24.918577,
+          "yMm": 5.453782
+        },
+        {
+          "xMm": 22.55,
+          "yMm": 5.45
+        },
+        {
+          "xMm": 22.55,
+          "yMm": 1.0
+        },
+        {
+          "xMm": 21.519134,
+          "yMm": -0.046194
+        },
+        {
+          "xMm": 17.55,
+          "yMm": -0.05
+        },
+        {
+          "xMm": 17.546194,
+          "yMm": -17.519134
+        },
+        {
+          "xMm": 17.5,
+          "yMm": -17.55
+        },
+        {
+          "xMm": -17.519134,
+          "yMm": -17.546194
+        },
+        {
+          "xMm": -17.55,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -17.55,
+          "yMm": -0.05
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "mountingHoleRadiusMm": 3.2,
+    "placementAllowed": true,
+    "status": "R1静态总装真CAD俯视；柱轴/四孔不变",
+    "opticalType": "coupler",
+    "opticalAxisHeightMm": 62.5,
+    "nominalOpticalHeightMm": 62.5,
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 9.55
+    },
+    "opticalDatumVerified": true,
+    "opticalSimulationNote": "采用与原光纤耦合系统相同的名义耦合头交互：可设置波长、出光光斑直径、功率及偏振。23 mm 为前置 XY 头机械净口；实际镜片/光纤端面、NA、模式匹配和耦合效率未标定。",
+    "geometryEvidence": {
+      "sourceStepSha256": "934999436d16bce15a289ad1473a7c23530ffeb87006257b7fc3ac1a7d5ddb87",
+      "leafCount": 34,
+      "solidCount": 18,
+      "postBaseThicknessMm": 6,
+      "postHeightMm": 25,
+      "base6mmVerified": true,
+      "physicalTrial": false,
+      "imageSha256": "ec450c289641ecf45a393c1219b4266418f5ff90f79bf93889e0e9c428d088d3",
+      "sourcePoseUnchanged": true,
+      "projectionMethod": "actual triangulated XY union, linear deflection0.035mm, buffer0.05mm, simplification0.015mm; internal footprint holes conservatively filled"
+    },
+    "topViewRenderEvidence": {
+      "sourceStepSha256": "934999436d16bce15a289ad1473a7c23530ffeb87006257b7fc3ac1a7d5ddb87",
+      "style": "zzlab-shaded-metal-v1",
+      "imageSha256": "ec450c289641ecf45a393c1219b4266418f5ff90f79bf93889e0e9c428d088d3",
+      "anchorWorldPositionPreserved": true
+    },
+    "note": "柱轴XY0/底面Z0；电机外形计入静态碰撞轮廓，未将未实测行程作为已验运动能力。",
+    "opticalDirectionDeg": -90,
+    "opticalClearApertureMm": 23,
+    "opticalClearApertureVerified": true,
+    "opticalCenterReference": "已从本版 STEP 核对前置 XY 头同轴圆柱 X=0、Z=62.5 mm，以 Y=0..19.1 mm 机械包络中面 Y=9.55 mm 作为名义光口；非实测镜片主面或光纤端面。",
+    "opticalDatumEvidence": {
+      "sourceStepSha256": "934999436d16bce15a289ad1473a7c23530ffeb87006257b7fc3ac1a7d5ddb87",
+      "review": "fiber-coupler-interaction-20261021",
+      "basis": "nominal-mechanical-reference",
+      "actualPrincipalPlaneMeasured": false
+    }
+  },
+  "status": "工程审核版；电机范围、防松与实物待验",
+  "notes": "粗调前停机并脱开电机/驱动，手调后重设插深并锁紧。电机实际型号、角度/圈数、反转防松及带电限位未确认；源CAD新增标准螺钉未绘制，按BOM采购。M2×8名义旋入5.5mm，头型待核。KZ原厂开放曲面警告保留。",
+  "assemblyReference": {
+    "stepPath": "step/history-934999436d16bce15a289ad1473a7c23530ffeb87006257b7fc3ac1a7d5ddb87.step",
+    "sourceStepSha256": "934999436d16bce15a289ad1473a7c23530ffeb87006257b7fc3ac1a7d5ddb87",
+    "sha256": "934999436d16bce15a289ad1473a7c23530ffeb87006257b7fc3ac1a7d5ddb87",
+    "revision": "R1",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "drawingPath": "drawings/history-52f13f814a6700453ca5a39850550ba12aaad2358366486a8ad771f5ac90ed74.pdf",
+    "sourceDrawingSha256": "52f13f814a6700453ca5a39850550ba12aaad2358366486a8ad771f5ac90ed74"
+  },
+  "mechanicalConfiguration": {
+    "adapterId": "custom-fc-kz-r3-a",
+    "postClockDeg": 0,
+    "mainKnob": "rear",
+    "groove": false,
+    "stepHeightMm": 7.5,
+    "XYMount": "bottom",
+    "ZMount": "cage rods",
+    "drive": "sleeve-set-screw-sliding-H2",
+    "coarseAdjustment": "disengage-drive-manual",
+    "fineAdjustment": "motor-actual-angular-range-unverified",
+    "motorized": true
+  },
+  "releaseStage": "engineering-review",
+  "bundleStatus": "engineering-review",
+  "bundleNote": "完整总装、6种新增单件各按本套用量、沿用R3底座及柱、加工PDF、激光DXF/定位PDF；未实装及通电验证。",
+  "capabilities": {
+    "layout": true,
+    "mounting": "nominal CAD only",
+    "opticalSimulation": true,
+    "productionApproval": false
+  },
+  "productionReady": false,
+  "id": "fiber-coupling-kz-motor-z-r1--history-0b48df6376c7",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "fiber-coupling-kz-motor-z-r1",
+    "revision": "R1",
+    "sourceRecordSha256": "23202ee978836a1bc8568057d34ab89d0c2d16b4fa8b8072cae3816ab86692d8"
+  }
+}

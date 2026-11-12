@@ -1,0 +1,39 @@
+{
+  "id": "custom-obj-v7-side-r1",
+  "name": "MT-AM1T 双电机背框侧支撑板",
+  "model": "OBJ-V7-S R1",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R1",
+  "status": "名义几何复验；待首件试装",
+  "productionReady": false,
+  "physicalAcceptance": "not-performed",
+  "manufacturingStatus": "review-required",
+  "stepPath": "step/objective-ac-r1/OBJ-V7-S_R1.step",
+  "sourceStepSha256": "ba79ef50cb49c60deec50a0c86a341a5b5e5de4b851d72fbc7c0b4d92765efb4",
+  "drawingPath": "drawings/objective-ac-r1/OBJ-V7-S_R1.pdf",
+  "sourceDrawingSha256": "32f2adbd0b00e75a994577aee5ba6b7bb26642a827e0c1513d3b5fcc5f5bafe1",
+  "drawingPages": [
+    1
+  ],
+  "manufacturingSpec": {
+    "material": "6061-T6 铝合金（本次设计指定）",
+    "surfaceTreatment": "待确认",
+    "processDetails": "5×19.5×28.071885865879 mm；固定框原槽保持，顶面降低3.71979114413 mm；2×M3×0.5牙深7，Ø2.5圆柱底孔深8，118°钻尖另深0.751。按冻结STEP与加工PDF。"
+  },
+  "laserMarking": {
+    "status": "required",
+    "notes": "激光打标；图面U=19.5-Y，V=Z，字高1.6；无铣刻深度。工艺待首件确认。",
+    "files": [
+      {
+        "face": "外侧面 local X=0",
+        "text": "OBJ-V7-S R1",
+        "dxfPath": "drawings/objective-ac-r1/OBJ-V7-S_R1_laser.dxf",
+        "sha256": "d6085d7b4ac66afc4d04bbb9eba7134cdcc9ed9c63a463ccbb9eb9cfc6d1d329",
+        "setupPdfPath": "drawings/objective-ac-r1/OBJ-V7-S_R1_laser.pdf",
+        "setupPdfSha256": "383c0a326829be424403feae979e0b7ecd382450d9e7802b6d725cdbf65668c6"
+      }
+    ]
+  },
+  "notes": "仅本新板为新增加工件；不得用原V7高度侧板替换。"
+}

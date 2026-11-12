@@ -1,0 +1,18 @@
+{
+  "id": "v7-source-retaining-washer--history-ec980dadf4a6",
+  "name": "V7 压紧垫片 Ø14/Ø4.4×1.2",
+  "kind": "standard",
+  "unit": "件",
+  "sourceUrl": "https://chatgpt.com/s/cx_6ac4918366588191ab1b8ae22e6f925b",
+  "standardSpec": "source-V7",
+  "status": "按指定尺寸选配并实测装配",
+  "notes": "保留原侧板夹紧件；按源件尺寸配套。",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "v7-source-retaining-washer",
+    "revision": null,
+    "sourceRecordSha256": "14e954b7ce3957147607b88e3ed4a25364976c9603c19b15dee5c57f7570878a"
+  }
+}

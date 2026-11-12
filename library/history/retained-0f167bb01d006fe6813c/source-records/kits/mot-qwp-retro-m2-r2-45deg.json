@@ -1,0 +1,989 @@
+{
+  "name": "MOT 反射镜＋波片 · 45° · R2",
+  "category": "cage",
+  "variant": "水平光轴 / 62.5 mm / H25 B6",
+  "revision": "R2",
+  "description": "AMC-1B＋CRM-1AS，反射镜与波片独立设置，可整套拖入。",
+  "components": [
+    {
+      "componentId": "custom-mot-ra-m2",
+      "quantity": 1
+    },
+    {
+      "componentId": "amc-1b",
+      "quantity": 1
+    },
+    {
+      "componentId": "mop-40",
+      "quantity": 4
+    },
+    {
+      "componentId": "crm-1as",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-post-metric-25mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-m4x8",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-pin-d2x8",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-iso4762-m3x5",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-iso4762-m6x12",
+      "quantity": 4
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "qwp-optic",
+      "label": "四分之一波片 · 型号/波长待选",
+      "type": "waveplate",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 25.4,
+      "thicknessMm": 3,
+      "clearApertureMm": 23.0,
+      "notes": "STEP中为尺寸参考玻璃；不默认计为实装光学片或理想光学参数。"
+    },
+    {
+      "id": "mirror-optic",
+      "label": "反射镜 · 型号/波长待选",
+      "type": "mirror",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 25.4,
+      "thicknessMm": 6,
+      "clearApertureMm": 23.5,
+      "notes": "STEP中为尺寸参考玻璃；不默认计为实装光学片或理想光学参数。"
+    }
+  ],
+  "layout": {
+    "placementAllowed": true,
+    "topViewPath": "topviews/mot-qwp-retro-m2-r2-45deg.svg",
+    "topViewUrl": "./topviews/mot-qwp-retro-m2-r2-45deg.svg",
+    "widthMm": 86,
+    "heightMm": 86,
+    "anchorXMm": 35,
+    "anchorYMm": 51,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "minimumAlignedMountingHoles": 4,
+    "collisionBoundsMm": {
+      "xMin": -32.957499999999996,
+      "yMin": -32.957499999999996,
+      "xMax": 48.87969553739753,
+      "yMax": 48.3756
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -32.902414,
+          "yMm": -7.475418
+        },
+        {
+          "xMm": -32.9575,
+          "yMm": -7.3583
+        },
+        {
+          "xMm": -32.913566,
+          "yMm": -7.252234
+        },
+        {
+          "xMm": -31.852866,
+          "yMm": -6.191534
+        },
+        {
+          "xMm": -31.7468,
+          "yMm": -6.1476
+        },
+        {
+          "xMm": -31.608709,
+          "yMm": -6.223581
+        },
+        {
+          "xMm": -27.648882,
+          "yMm": -2.26385
+        },
+        {
+          "xMm": -29.52159,
+          "yMm": -0.378281
+        },
+        {
+          "xMm": -29.612257,
+          "yMm": -0.196455
+        },
+        {
+          "xMm": -29.640791,
+          "yMm": 0.043921
+        },
+        {
+          "xMm": -29.594999,
+          "yMm": 0.242298
+        },
+        {
+          "xMm": -29.490726,
+          "yMm": 0.416146
+        },
+        {
+          "xMm": -24.11559,
+          "yMm": 5.792677
+        },
+        {
+          "xMm": -23.846701,
+          "yMm": 5.932773
+        },
+        {
+          "xMm": -23.53179,
+          "yMm": 5.932826
+        },
+        {
+          "xMm": -23.302125,
+          "yMm": 5.824431
+        },
+        {
+          "xMm": -22.982,
+          "yMm": 5.514332
+        },
+        {
+          "xMm": -17.65,
+          "yMm": 10.846332
+        },
+        {
+          "xMm": -17.65,
+          "yMm": 17.5
+        },
+        {
+          "xMm": -17.56369,
+          "yMm": 17.634381
+        },
+        {
+          "xMm": -19.685896,
+          "yMm": 19.791728
+        },
+        {
+          "xMm": -19.784907,
+          "yMm": 20.006023
+        },
+        {
+          "xMm": -19.829494,
+          "yMm": 20.299541
+        },
+        {
+          "xMm": -19.78489,
+          "yMm": 20.58164
+        },
+        {
+          "xMm": -19.651697,
+          "yMm": 20.847071
+        },
+        {
+          "xMm": -15.591466,
+          "yMm": 24.925266
+        },
+        {
+          "xMm": -15.411112,
+          "yMm": 25.066564
+        },
+        {
+          "xMm": -15.207677,
+          "yMm": 25.158907
+        },
+        {
+          "xMm": -14.776979,
+          "yMm": 25.19275
+        },
+        {
+          "xMm": -14.418318,
+          "yMm": 25.060422
+        },
+        {
+          "xMm": -12.948568,
+          "yMm": 23.6259
+        },
+        {
+          "xMm": -12.529097,
+          "yMm": 23.614482
+        },
+        {
+          "xMm": -12.100375,
+          "yMm": 23.201907
+        },
+        {
+          "xMm": -12.072525,
+          "yMm": 23.247192
+        },
+        {
+          "xMm": -12.296613,
+          "yMm": 23.483936
+        },
+        {
+          "xMm": -12.30565,
+          "yMm": 23.585995
+        },
+        {
+          "xMm": -11.470567,
+          "yMm": 24.799858
+        },
+        {
+          "xMm": -11.313254,
+          "yMm": 24.960422
+        },
+        {
+          "xMm": -13.924171,
+          "yMm": 27.58934
+        },
+        {
+          "xMm": -14.057337,
+          "yMm": 27.854773
+        },
+        {
+          "xMm": -14.102081,
+          "yMm": 28.148767
+        },
+        {
+          "xMm": -14.053751,
+          "yMm": 28.441956
+        },
+        {
+          "xMm": -13.917203,
+          "yMm": 28.705957
+        },
+        {
+          "xMm": -8.237766,
+          "yMm": 34.400766
+        },
+        {
+          "xMm": -7.924056,
+          "yMm": 34.608851
+        },
+        {
+          "xMm": -7.708865,
+          "yMm": 34.668056
+        },
+        {
+          "xMm": -7.484591,
+          "yMm": 34.675351
+        },
+        {
+          "xMm": -7.208044,
+          "yMm": 34.608851
+        },
+        {
+          "xMm": -7.012478,
+          "yMm": 34.50093
+        },
+        {
+          "xMm": -5.3032,
+          "yMm": 32.809632
+        },
+        {
+          "xMm": -4.984966,
+          "yMm": 33.127866
+        },
+        {
+          "xMm": -4.876144,
+          "yMm": 33.171775
+        },
+        {
+          "xMm": -3.696857,
+          "yMm": 33.162957
+        },
+        {
+          "xMm": -3.3941,
+          "yMm": 32.880432
+        },
+        {
+          "xMm": 0.743668,
+          "yMm": 37.0182
+        },
+        {
+          "xMm": -0.249408,
+          "yMm": 38.014876
+        },
+        {
+          "xMm": -0.367545,
+          "yMm": 38.226027
+        },
+        {
+          "xMm": -0.401175,
+          "yMm": 38.438517
+        },
+        {
+          "xMm": -0.353899,
+          "yMm": 38.675698
+        },
+        {
+          "xMm": -0.241501,
+          "yMm": 38.85908
+        },
+        {
+          "xMm": 1.875029,
+          "yMm": 40.977956
+        },
+        {
+          "xMm": 0.817198,
+          "yMm": 42.051947
+        },
+        {
+          "xMm": 0.817718,
+          "yMm": 42.873403
+        },
+        {
+          "xMm": 6.259335,
+          "yMm": 48.331667
+        },
+        {
+          "xMm": 6.3654,
+          "yMm": 48.3756
+        },
+        {
+          "xMm": 7.073878,
+          "yMm": 48.3743
+        },
+        {
+          "xMm": 7.179866,
+          "yMm": 48.330366
+        },
+        {
+          "xMm": 16.510566,
+          "yMm": 38.999666
+        },
+        {
+          "xMm": 16.554494,
+          "yMm": 38.894966
+        },
+        {
+          "xMm": 16.550995,
+          "yMm": 38.188716
+        },
+        {
+          "xMm": 16.507066,
+          "yMm": 38.083934
+        },
+        {
+          "xMm": 11.050535,
+          "yMm": 32.641198
+        },
+        {
+          "xMm": 10.232577,
+          "yMm": 32.63692
+        },
+        {
+          "xMm": 9.15815,
+          "yMm": 33.694918
+        },
+        {
+          "xMm": 7.03928,
+          "yMm": 31.578299
+        },
+        {
+          "xMm": 6.855898,
+          "yMm": 31.465901
+        },
+        {
+          "xMm": 6.618717,
+          "yMm": 31.418625
+        },
+        {
+          "xMm": 6.406002,
+          "yMm": 31.452301
+        },
+        {
+          "xMm": 6.195076,
+          "yMm": 31.570392
+        },
+        {
+          "xMm": 5.198402,
+          "yMm": 32.563466
+        },
+        {
+          "xMm": 2.899134,
+          "yMm": 30.264106
+        },
+        {
+          "xMm": 15.513335,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 17.5,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 17.606066,
+          "yMm": 17.606066
+        },
+        {
+          "xMm": 17.65,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.65,
+          "yMm": 15.513331
+        },
+        {
+          "xMm": 30.26415,
+          "yMm": 2.899082
+        },
+        {
+          "xMm": 33.528068,
+          "yMm": 6.163
+        },
+        {
+          "xMm": 32.53657,
+          "yMm": 7.157996
+        },
+        {
+          "xMm": 32.417701,
+          "yMm": 7.369902
+        },
+        {
+          "xMm": 32.384025,
+          "yMm": 7.582533
+        },
+        {
+          "xMm": 32.431301,
+          "yMm": 7.819698
+        },
+        {
+          "xMm": 32.543609,
+          "yMm": 8.002874
+        },
+        {
+          "xMm": 34.660318,
+          "yMm": 10.12195
+        },
+        {
+          "xMm": 33.602634,
+          "yMm": 11.196044
+        },
+        {
+          "xMm": 33.601569,
+          "yMm": 12.018585
+        },
+        {
+          "xMm": 38.632497,
+          "yMm": 17.049582
+        },
+        {
+          "xMm": 39.398434,
+          "yMm": 17.0599
+        },
+        {
+          "xMm": 39.504266,
+          "yMm": 17.015966
+        },
+        {
+          "xMm": 48.835766,
+          "yMm": 7.684466
+        },
+        {
+          "xMm": 48.879696,
+          "yMm": 7.579557
+        },
+        {
+          "xMm": 48.873788,
+          "yMm": 6.87532
+        },
+        {
+          "xMm": 48.829865,
+          "yMm": 6.771133
+        },
+        {
+          "xMm": 43.880065,
+          "yMm": 1.821433
+        },
+        {
+          "xMm": 43.775906,
+          "yMm": 1.777512
+        },
+        {
+          "xMm": 43.014863,
+          "yMm": 1.78314
+        },
+        {
+          "xMm": 41.94175,
+          "yMm": 2.840518
+        },
+        {
+          "xMm": 39.822674,
+          "yMm": 0.723809
+        },
+        {
+          "xMm": 39.639498,
+          "yMm": 0.611501
+        },
+        {
+          "xMm": 39.402317,
+          "yMm": 0.564225
+        },
+        {
+          "xMm": 39.189702,
+          "yMm": 0.597901
+        },
+        {
+          "xMm": 38.978591,
+          "yMm": 0.716138
+        },
+        {
+          "xMm": 37.9828,
+          "yMm": 1.708268
+        },
+        {
+          "xMm": 32.880432,
+          "yMm": -3.3941
+        },
+        {
+          "xMm": 33.126923,
+          "yMm": -3.6405
+        },
+        {
+          "xMm": 33.1718,
+          "yMm": -3.747527
+        },
+        {
+          "xMm": 33.1717,
+          "yMm": -4.8789
+        },
+        {
+          "xMm": 33.127766,
+          "yMm": -4.984966
+        },
+        {
+          "xMm": 32.809582,
+          "yMm": -5.30315
+        },
+        {
+          "xMm": 34.500967,
+          "yMm": -7.012534
+        },
+        {
+          "xMm": 34.608851,
+          "yMm": -7.208044
+        },
+        {
+          "xMm": 34.66806,
+          "yMm": -7.423163
+        },
+        {
+          "xMm": 34.675456,
+          "yMm": -7.646465
+        },
+        {
+          "xMm": 34.609071,
+          "yMm": -7.923404
+        },
+        {
+          "xMm": 34.400766,
+          "yMm": -8.237766
+        },
+        {
+          "xMm": 28.69636,
+          "yMm": -13.924171
+        },
+        {
+          "xMm": 28.430898,
+          "yMm": -14.057345
+        },
+        {
+          "xMm": 28.136824,
+          "yMm": -14.102081
+        },
+        {
+          "xMm": 27.843744,
+          "yMm": -14.053751
+        },
+        {
+          "xMm": 27.589225,
+          "yMm": -13.924094
+        },
+        {
+          "xMm": 24.815324,
+          "yMm": -11.168156
+        },
+        {
+          "xMm": 24.598151,
+          "yMm": -11.319472
+        },
+        {
+          "xMm": 24.499153,
+          "yMm": -11.345814
+        },
+        {
+          "xMm": 24.406334,
+          "yMm": -11.302466
+        },
+        {
+          "xMm": 24.21246,
+          "yMm": -11.108592
+        },
+        {
+          "xMm": 23.724154,
+          "yMm": -11.358325
+        },
+        {
+          "xMm": 23.472017,
+          "yMm": -11.439537
+        },
+        {
+          "xMm": 22.965284,
+          "yMm": -11.519867
+        },
+        {
+          "xMm": 22.440343,
+          "yMm": -11.494282
+        },
+        {
+          "xMm": 22.088959,
+          "yMm": -11.411627
+        },
+        {
+          "xMm": 24.979657,
+          "yMm": -14.307284
+        },
+        {
+          "xMm": 25.158807,
+          "yMm": -14.631923
+        },
+        {
+          "xMm": 25.192656,
+          "yMm": -15.062565
+        },
+        {
+          "xMm": 25.102501,
+          "yMm": -15.345744
+        },
+        {
+          "xMm": 24.929366,
+          "yMm": -15.587202
+        },
+        {
+          "xMm": 20.84726,
+          "yMm": -19.651471
+        },
+        {
+          "xMm": 20.58154,
+          "yMm": -19.78479
+        },
+        {
+          "xMm": 20.299667,
+          "yMm": -19.829381
+        },
+        {
+          "xMm": 20.005923,
+          "yMm": -19.784807
+        },
+        {
+          "xMm": 19.79233,
+          "yMm": -19.686297
+        },
+        {
+          "xMm": 17.634412,
+          "yMm": -17.563644
+        },
+        {
+          "xMm": 17.5,
+          "yMm": -17.65
+        },
+        {
+          "xMm": 10.846331,
+          "yMm": -17.65
+        },
+        {
+          "xMm": 5.514333,
+          "yMm": -22.981901
+        },
+        {
+          "xMm": 5.824562,
+          "yMm": -23.302291
+        },
+        {
+          "xMm": 5.932829,
+          "yMm": -23.531545
+        },
+        {
+          "xMm": 5.932801,
+          "yMm": -23.846855
+        },
+        {
+          "xMm": 5.792466,
+          "yMm": -24.115917
+        },
+        {
+          "xMm": 0.416609,
+          "yMm": -29.490362
+        },
+        {
+          "xMm": 0.242298,
+          "yMm": -29.595099
+        },
+        {
+          "xMm": 0.043936,
+          "yMm": -29.64079
+        },
+        {
+          "xMm": -0.196101,
+          "yMm": -29.612401
+        },
+        {
+          "xMm": -0.378283,
+          "yMm": -29.521589
+        },
+        {
+          "xMm": -2.26375,
+          "yMm": -27.648882
+        },
+        {
+          "xMm": -6.223568,
+          "yMm": -31.6087
+        },
+        {
+          "xMm": -6.1476,
+          "yMm": -31.7468
+        },
+        {
+          "xMm": -6.191534,
+          "yMm": -31.852866
+        },
+        {
+          "xMm": -7.252234,
+          "yMm": -32.913566
+        },
+        {
+          "xMm": -7.3583,
+          "yMm": -32.9575
+        },
+        {
+          "xMm": -7.464366,
+          "yMm": -32.913566
+        }
+      ]
+    ],
+    "opticalType": "empty",
+    "opticalDefaults": {
+      "elementType": "empty",
+      "inserted": true,
+      "configured": true
+    },
+    "opticalAxisHeightMm": 62.5,
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalSurfaceAngleDeg": -45,
+    "opticalDatumVerified": true,
+    "opticalClearApertureVerified": true,
+    "opticalAssembly": {
+      "version": 3,
+      "verified": true,
+      "nodes": [
+        {
+          "id": "qwp",
+          "name": "四分之一波片参考光学面",
+          "type": "waveplate",
+          "geometryConfirmed": true,
+          "centerMm": [
+            -13.081475451951128,
+            -13.08147545195113,
+            62.5
+          ],
+          "normal": [
+            -0.7071067811865475,
+            -0.7071067811865476,
+            0
+          ],
+          "radiusMm": 12.7,
+          "mechanicalClearRadiusMm": 11.5,
+          "faces": [
+            {
+              "centerMm": [
+                -13.081475451951128,
+                -13.08147545195113,
+                62.5
+              ],
+              "normal": [
+                -0.7071067811865475,
+                -0.7071067811865476,
+                0
+              ],
+              "radiusMm": 11.5
+            }
+          ]
+        },
+        {
+          "id": "mirror",
+          "name": "反射镜参考光学面",
+          "type": "mirror",
+          "geometryConfirmed": true,
+          "centerMm": [
+            0.0,
+            0.0,
+            62.5
+          ],
+          "normal": [
+            -0.7071067811865475,
+            -0.7071067811865476,
+            0
+          ],
+          "radiusMm": 12.7,
+          "mechanicalClearRadiusMm": 11.75,
+          "faces": [
+            {
+              "centerMm": [
+                0.0,
+                0.0,
+                62.5
+              ],
+              "normal": [
+                -0.7071067811865475,
+                -0.7071067811865476,
+                0
+              ],
+              "radiusMm": 11.75
+            }
+          ]
+        }
+      ],
+      "internalElements": [
+        {
+          "id": "qwp",
+          "name": "四分之一波片",
+          "type": "waveplate",
+          "slotId": "qwp-optic",
+          "existingInAssembly": false,
+          "opticalDefaults": {
+            "elementType": "waveplate",
+            "inserted": false,
+            "configured": false,
+            "clearApertureMm": 23.0
+          },
+          "sidePointMm": {
+            "xMm": 12.5,
+            "yMm": 65.5
+          }
+        },
+        {
+          "id": "mirror",
+          "name": "反射镜",
+          "type": "mirror",
+          "slotId": "mirror-optic",
+          "existingInAssembly": false,
+          "opticalDefaults": {
+            "elementType": "mirror",
+            "inserted": false,
+            "configured": false,
+            "clearApertureMm": 23.5,
+            "coatingFaceIndex": 0,
+            "mirror": {
+              "mode": "data",
+              "model": "",
+              "samples": []
+            }
+          },
+          "sidePointMm": {
+            "xMm": 31.0,
+            "yMm": 65.5
+          }
+        }
+      ],
+      "bounds": {
+        "min": [
+          -32.807451747164514,
+          -32.807475367454515,
+          -1e-07
+        ],
+        "max": [
+          48.730849639170174,
+          48.22585482983531,
+          92.5000001
+        ]
+      },
+      "notes": "薄波片作用面取3mm参考片中面；镜面为后座-6mm的真实前表面。光从波片侧进入并双程经过波片。型号/镀膜参数缺失保持待设置。",
+      "verificationScope": "Nominal CAD datums and mechanical apertures; not physical optical calibration.",
+      "sideView": {
+        "sideViewPath": "topviews/mot-qwp-retro-m2-r2-45deg-side.svg",
+        "path": "topviews/mot-qwp-retro-m2-r2-45deg-side.svg",
+        "url": "./topviews/mot-qwp-retro-m2-r2-45deg-side.svg",
+        "widthMm": 73,
+        "heightMm": 98,
+        "xMin": -31,
+        "zMin": -3,
+        "projectionAxisMm": [
+          0.7071067811865475,
+          0.7071067811865476,
+          0.0
+        ],
+        "sourceStepSha256": "69d30f0c5a52761b76d560bb5a99b625b0e231e45eea73745af3e64dcbc8d686"
+      }
+    },
+    "geometryEvidence": {
+      "sourceStepSha256": "69d30f0c5a52761b76d560bb5a99b625b0e231e45eea73745af3e64dcbc8d686",
+      "sourcePoseUnchanged": true,
+      "leafCount": 51,
+      "solidCount": 51,
+      "collisionProjectionBufferMm": 0.15,
+      "physicalTrial": false
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "69d30f0c5a52761b76d560bb5a99b625b0e231e45eea73745af3e64dcbc8d686",
+      "imageSha256": "8c20f5848624fda0aa3c28bb41a278ff98eab5061ae2618649d15d891f3b4dca"
+    },
+    "status": "真实STEP俯视；独立复验通过",
+    "note": "安装锚点是万能柱轴；两态柱底四孔保持。"
+  },
+  "assemblyReference": {
+    "stepPath": "step/mot-ra-m2-r2/MOT_RA_M2_R2_45deg.step",
+    "sourceStepSha256": "69d30f0c5a52761b76d560bb5a99b625b0e231e45eea73745af3e64dcbc8d686",
+    "sha256": "69d30f0c5a52761b76d560bb5a99b625b0e231e45eea73745af3e64dcbc8d686",
+    "revision": "R2",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "note": "51叶件完整静态总装；镜片为名义参考；4颗柱底M6在安装BOM中，未实体建入本独立总装。",
+    "includeInBundle": true,
+    "drawingPath": "drawings/mot-ra-m2-r2/MOT-RA-M2_R2_两态装配说明.pdf",
+    "sourceDrawingSha256": "4a261a257c5b6dff59781a0391e961828649c09fd7d3a8cf2344a97034b321ab"
+  },
+  "assemblyAssets": [],
+  "productionReady": false,
+  "releaseStage": "engineering-review",
+  "status": "设计问题复验通过；未实物试装",
+  "notes": "0/45共用同一立板；45姿态M4使用局部Y=-8.5孔。R1.5真实内角。原厂SM1简化螺纹及尼龙夹头名义接触留档；有效牙深、夹紧重复性和完整调节行程待实物核验。光学片型号镀膜未选。",
+  "includedHardwareNotes": [
+    "4根MOP-40拆除原两端紧定螺钉后使用",
+    "独立总装51叶件；柱底4×M6×12按板厚/螺纹接口确认安装"
+  ],
+  "postBaseRevision": "B6-R1",
+  "sourceUrl": "https://cad.onshape.com/documents/81be0ac81c826661cc534b44/v/62305014a33ce9c6848d86f0/e/f878d6e2602c8d993085ffcc",
+  "id": "mot-qwp-retro-m2-r2-45deg"
+}

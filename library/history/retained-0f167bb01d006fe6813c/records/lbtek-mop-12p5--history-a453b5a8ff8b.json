@@ -1,0 +1,22 @@
+{
+  "id": "lbtek-mop-12p5--history-a453b5a8ff8b",
+  "name": "麓邦 MOP-12.5 · 入射侧同轴接杆",
+  "model": "MOP-12.5",
+  "kind": "lubang",
+  "unit": "根",
+  "sourceUrl": "https://www.lbtek.com/product/118",
+  "stepPath": "step/history-05c7f018c17f9e84fa50eeb3d02247156880cd6c07503f42de04b515d7657e04.step",
+  "drawingPath": "drawings/history-428501b6529527f0e8ff123350899808df15c4b4e5b0c3b77c345734cfc25526.pdf",
+  "sourceStepSha256": "05c7f018c17f9e84fa50eeb3d02247156880cd6c07503f42de04b515d7657e04",
+  "sourceDrawingSha256": "428501b6529527f0e8ff123350899808df15c4b4e5b0c3b77c345734cfc25526",
+  "status": "原厂参考；未实物验收",
+  "notes": "每套4根；拆两端附带机米。RAMC插入5.5，间隙1，OPM插入6；只锁OPM靠镜架的一排螺丝。",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "lbtek-mop-12p5",
+    "revision": null,
+    "sourceRecordSha256": "90b41d037cfefc4843a8848d0ffb3e86b47ede9999bcab7751cc02b347f6c23f"
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "name": "Suruga 三轴位移台",
+  "category": "manual-stage",
+  "variant": "台身 · 含安装转接板",
+  "revision": "R1-ZPANEL-R2",
+  "sourceUrl": "https://eng.surugaseiki.com/products/manual-x-stage/products?katashiki=BSS16-40C",
+  "description": "三轴位移台本体与底部、Z 轴输出转接板；不带万能柱或反射镜。可点击加入画布并整套移动、旋转、复制。原厂台身为授权尺寸参考，不含旋钮细节。",
+  "components": [
+    {
+      "componentId": "custom-suruga-xyz-base-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-suruga-xyz-zpanel-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-iso4762-m6x16",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-iso4762-m3x8",
+      "quantity": 4
+    },
+    {
+      "componentId": "hardware-iso4762-m3x10",
+      "quantity": 4
+    }
+  ],
+  "opticalSlots": [],
+  "layout": {
+    "widthMm": 75.0,
+    "heightMm": 75.0,
+    "anchorXMm": 37.5,
+    "anchorYMm": 37.5,
+    "baseBoundsMm": {
+      "xMin": -37.5,
+      "xMax": 37.5,
+      "yMin": -37.5,
+      "yMax": 37.5
+    },
+    "collisionBoundsMm": {
+      "xMin": -37.5,
+      "xMax": 37.5,
+      "yMin": -37.5,
+      "yMax": 37.5
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": 37.2,
+          "yMm": -37.5
+        },
+        {
+          "xMm": -37.2,
+          "yMm": -37.5
+        },
+        {
+          "xMm": -37.5,
+          "yMm": -37.2
+        },
+        {
+          "xMm": -37.5,
+          "yMm": 37.2
+        },
+        {
+          "xMm": -37.2,
+          "yMm": 37.5
+        },
+        {
+          "xMm": 37.2,
+          "yMm": 37.5
+        },
+        {
+          "xMm": 37.5,
+          "yMm": 37.2
+        },
+        {
+          "xMm": 37.5,
+          "yMm": -37.2
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -25,
+        "yMm": -25
+      },
+      {
+        "xMm": -25,
+        "yMm": 25
+      },
+      {
+        "xMm": 25,
+        "yMm": -25
+      },
+      {
+        "xMm": 25,
+        "yMm": 25
+      }
+    ],
+    "topViewPath": "topviews/kit_suruga-xyz-grid-reference-r1.svg",
+    "topViewUrl": "./topviews/kit_suruga-xyz-grid-reference-r1.svg",
+    "placementAllowed": true,
+    "opticalCenterMm": null,
+    "opticalDatumVerified": false,
+    "geometryEvidence": {
+      "path": "evidence/cad/projection.json",
+      "sourceStepSha256": "9a4a4d76795954c702c55385de5bf74ff8cd9fe8c1562238dfbb28366868fe66",
+      "scope": "保留既有标准接口名义中位参考模型；开放静态摆放，不代表原厂旋钮/全行程模型已核验。",
+      "receiverUpdate": "32-XYZ-Z_R2; geometry/receiver-geometry.json"
+    },
+    "opticalSimulationNote": "纯机械台身，不定义光学类型或光心，不参与整体光高换柱；若光线到达此参考位置，追踪保持未支持提示。",
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "9a4a4d76795954c702c55385de5bf74ff8cd9fe8c1562238dfbb28366868fe66",
+      "imageSha256": "abee2da76900b48bd44b74545564cdaf19f9db0c902ee652f5cab6a5508a426f",
+      "dimensionsAndAnchorPreserved": true,
+      "geometryChanged": true,
+      "excludedLeaves": [],
+      "evidencePackageId": "xyz-zpanel-r2-20261010",
+      "scope": "Only five internal holes added on vertical output plate; no external/base/anchor/optical change."
+    },
+    "note": "台身按已授权尺寸参考显示，旋钮细节未建模；包含原安装转接板，不带万能柱或反射镜。可整体摆放，暂不支持 XYZ 连续调节。",
+    "mechanicalOnly": true
+  },
+  "status": "尺寸参考 · 可摆放；实物型号与接口待核对",
+  "releaseStage": "engineering-review",
+  "notes": "按现有授权 40/32/16 mm 接口参考模型摆放。整套底板四孔为 50×50 mm M6 安装孔网；XYZ 连续调节与竖直输出面编辑未启用。已有台身与 A47-106 支架不重复采购；出单仅包含原 BOM 的转接板和五金。 R2：输出板共11个M6×1通牙，新增中排5孔；原底部安装孔和整体基准保持。 本轮装配说明补齐：11孔R2输出板已在总装中；台体为尺寸接口参考，实物/全行程未验证。",
+  "assemblyReference": {
+    "stepPath": "step/suruga-xyz-zpanel-r2/assemblies/32_XYZ_GRID_INTERFACE_REFERENCE_R1_ZPANEL_R2.step",
+    "sourceStepSha256": "9a4a4d76795954c702c55385de5bf74ff8cd9fe8c1562238dfbb28366868fe66",
+    "note": "标定中位机械参考；不是单件制造 STEP 或已验证可运动原生配合",
+    "drawingPath": "drawings/standard-post-h12p5-b4-r2/assemblies/XYZ三轴位移台_总装与安装说明_20261015_TN1_20261026_H12p5B4R2.pdf",
+    "sourceDrawingSha256": "1593100511b0af9b5cd87c3eb59a9b8649760c25d1c827b93fa90f82347c7088"
+  },
+  "mechanicalInterfaceProtocol": {
+    "version": "zzlab-xyz-mechanical-interface-v1",
+    "evidencePath": "evidence/xyz-mechanical-interface.json",
+    "sha256": "e6777ffbf69bbbaf0f434c31d5d8860899b7533142f3611e0c8e66cfd0081183",
+    "coordinateValidationPath": "evidence/xyz-interface-coordinate-validation.json",
+    "outputPlateR2": {
+      "componentId": "custom-suruga-xyz-zpanel-r1",
+      "revision": "R2",
+      "thread": "M6x1",
+      "holeCount": 11,
+      "throughThicknessMm": 10,
+      "maximumEngagementMm": 8,
+      "plateLocalHoleCentersMm": [
+        [
+          -25.0,
+          -12.5
+        ],
+        [
+          -25.0,
+          0.0
+        ],
+        [
+          -25.0,
+          12.5
+        ],
+        [
+          -12.5,
+          0.0
+        ],
+        [
+          0.0,
+          -12.5
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          12.5
+        ],
+        [
+          12.5,
+          0.0
+        ],
+        [
+          25.0,
+          -12.5
+        ],
+        [
+          25.0,
+          0.0
+        ],
+        [
+          25.0,
+          12.5
+        ]
+      ],
+      "frame": "plate-local XY; z=10 entry, direction -Z",
+      "worldAtMidpoint": "X=x, Y=-27.5-z, Z=87.5+y",
+      "notBoardMountingHoles": true,
+      "motionVerified": false
+    }
+  },
+  "runtimeCompatibility": {
+    "xyzMotion": "unsupported",
+    "verticalSubBoard": "unsupported",
+    "stageModuleRegistered": false,
+    "runtimeModified": false,
+    "staticPlacement": "supported"
+  },
+  "mountedExistingHardware": [
+    {
+      "identity": "用户已有Suruga X/Y/Z位移台，采用40x40x16和32x32标准接口",
+      "quantity": 1,
+      "procurement": "existing-excluded",
+      "exactModel": null
+    },
+    {
+      "identity": "SURUGA SEIKI A47-106 L支架",
+      "quantity": 1,
+      "procurement": "existing-excluded",
+      "identification": "read from supplied photo label"
+    }
+  ],
+  "stageIdentity": {
+    "model": "40 mm侧驱标准接口参数（实物银台型号待确认）",
+    "candidateManufacturerFamily": "SURUGA SEIKI BSS16-40C/40CZ family",
+    "exactPhotographedStageModel": null,
+    "status": "user-authorized-standard-interface",
+    "sourceUrl": "https://eng.surugaseiki.com/products/manual-x-stage/products?katashiki=BSS16-40C"
+  },
+  "postMountingExampleReference": {
+    "stepPath": "step/universal-post-b6-r1/assemblies/asset-suruga-post-example__B6_R1.step",
+    "sourceStepSha256": "537d5e33d2889131fda4054f789710336c6dd239aea1cd6b5433bea37b913a87",
+    "note": "可选H25正式万能柱安装示例；柱和4x M6x12未自动加入主BOM",
+    "sha256": "537d5e33d2889131fda4054f789710336c6dd239aea1cd6b5433bea37b913a87"
+  },
+  "optionalAdditionalBOM": [
+    {
+      "componentId": "custom-post-metric-25mm-m1",
+      "quantity": 1,
+      "selection": "optional existing-or-new post, not selected by this kit"
+    },
+    {
+      "componentId": "hardware-iso4762-m6x12",
+      "quantity": 4,
+      "selection": "optional, required only when selecting one post"
+    }
+  ],
+  "optionalNotes": [
+    "可选追加正式H25万能柱1件及M6x12螺钉4件；本批主BOM仅两块转接板和台/主板固定螺钉。",
+    "万能柱轴线中心与本板六个输出孔保持12.5mm模数；柱顶偏置M4/Ø2销孔保留真实接口，不当作网格孔。"
+  ],
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": "assets/drawings/combined-r1-20261015/2/XYZ三轴位移台_总装与安装说明_20261015_TN1_20261026.pdf",
+        "previousSha256": "404fff35ed8760978fc02bc5557389b63fcf1ca91078ab3791ca9ea6bf537324",
+        "sha256": "1593100511b0af9b5cd87c3eb59a9b8649760c25d1c827b93fa90f82347c7088"
+      }
+    ]
+  },
+  "h12p5AssemblyInstructionUpdate": {
+    "revision": "2026-10-28",
+    "partGeometryChanged": false,
+    "scope": "Only ordinary H12.5 post references in shared assembly instruction PDF updated."
+  },
+  "id": "suruga-xyz-grid-reference-r1"
+}

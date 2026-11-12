@@ -1,0 +1,20 @@
+{
+  "id": "lbtek-amm3-1dr--history-079f48f96478",
+  "name": "麓邦 AMM3-1DR · D形反射镜调整架",
+  "model": "AMM3-1DR",
+  "kind": "lubang",
+  "unit": "个",
+  "sourceUrl": "https://www.lbtek.com/product/266?fid=36&sid=103&tid=104",
+  "stepPath": "step/history-b86dcd9dcc632931f2aa892de1b07cd8cf87659d39f29f8aaec4f1a9c16f2972.step",
+  "sourceStepSha256": "b86dcd9dcc632931f2aa892de1b07cd8cf87659d39f29f8aaec4f1a9c16f2972",
+  "status": "原厂几何参考；未实物试装",
+  "notes": "原厂架体旋成立式刀口姿态；总装中两只夹持螺钉后退0.3 mm。采购件，不按转接板加工。",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "lbtek-amm3-1dr",
+    "revision": null,
+    "sourceRecordSha256": "5534db60ac922155f05c0dd2dcc4910471db5ee741c63629992d2156bdee8586"
+  }
+}

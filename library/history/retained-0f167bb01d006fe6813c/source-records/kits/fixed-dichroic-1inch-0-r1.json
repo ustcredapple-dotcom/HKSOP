@@ -1,0 +1,217 @@
+{
+  "name": "固定双色镜 · 1 inch · 0° · R1",
+  "category": "fixed",
+  "variant": "MT-FLF1S · Ø25.4×3.2 · H62.5",
+  "revision": "R1",
+  "description": "真实双色镜厚度补偿转接板，0°/45°为机械安装朝向。",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/w/d67de20d807c6dd6e1db6440/e/59fd4a91553da1b4cae88248",
+  "components": [
+    {
+      "componentId": "custom-post-metric-25mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-dc1-f-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "mt-flf1s",
+      "quantity": 1
+    },
+    {
+      "componentId": "hardware-h2-r3-m4x20",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-hardware-0cc1a2908550",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-pin-d2x8",
+      "quantity": 2
+    },
+    {
+      "componentId": "new-hardware-d56c7b8035c3",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "dichroic",
+      "label": "双色镜片（波段/型号待选）",
+      "type": "optic",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 25.4
+    }
+  ],
+  "status": "极速入库 · 工程审核版 · 未实物试装",
+  "releaseStage": "fast-upload",
+  "productionReady": false,
+  "notes": "复用MT-FLF1S，镜厚补偿2.8 mm；前侧膜面穿柱轴，名义光高62.5。0/45°是机械朝向，镜片额定AOI45°；镀膜型号、截止波长及P/S系数相位待选，不假设理想分光。底部M6螺钉长度按实际面包板选配。紧固件按设计说明，通用螺钉/销未重复建模。原厂未加载夹紧形态保留，实装和制造放行未完成。",
+  "assemblyReference": {
+    "stepPath": "step/fixed-dichroic-r1/DC1-F_R1_0deg_assembly.step",
+    "sourceStepSha256": "7d541143e121a63b6f17d5b7f759acef933b97d4d60a0127f8eddb3680475ee1",
+    "sourceExact": true,
+    "revision": "R1-0deg",
+    "includeInBundle": true,
+    "nominalFixedPositionAssembly": true,
+    "drawingPath": "drawings/fixed-dichroic-r1/加工清单.pdf",
+    "sourceDrawingSha256": "5f6fcad7b0984f90c5a330c98dd3f6bdcdd1353ec5e42d0afdc42fc300323cf3",
+    "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/w/d67de20d807c6dd6e1db6440/e/59fd4a91553da1b4cae88248",
+    "cloudStatus": "producer-uploaded-not-rechecked-fast-scope"
+  },
+  "fastUpload": {
+    "schema": "zzlab-fast-kit-upload-v1",
+    "archiveSha256": "59be94ab8936edd15444e467f82191ba3e922b4814bdb5ef66326fb75db9f03a",
+    "atlas": "excluded-by-user-scope",
+    "onshape": "existing-producer-upload-links-retained-not-rechecked",
+    "physicalAssemblyValidated": false,
+    "productionApprovalGranted": false
+  },
+  "layout": {
+    "topViewPath": "topviews/fixed-dichroic-1inch-0-r1.svg",
+    "topViewUrl": "./topviews/fixed-dichroic-1inch-0-r1.svg",
+    "widthMm": 38,
+    "heightMm": 38,
+    "anchorXMm": 19,
+    "anchorYMm": 19,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "minimumAlignedMountingHoles": 4,
+    "mountingConfirmed": true,
+    "placementAllowed": true,
+    "status": "完整R1真实STEP投影；固定柱脚孔网与上装45°分别登记",
+    "note": "柱心锚点，25 mm孔距；0/45为机械朝向。镜片按AOI45°布置入光。",
+    "collisionBoundsMm": {
+      "xMin": -17.65,
+      "yMin": -17.65,
+      "xMax": 17.65,
+      "yMax": 17.65
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": 17.65,
+          "yMm": -17.5
+        },
+        {
+          "xMm": 17.606066,
+          "yMm": -17.606066
+        },
+        {
+          "xMm": 17.5,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -17.5,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -17.606066,
+          "yMm": -17.606066
+        },
+        {
+          "xMm": -17.65,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -17.65,
+          "yMm": 17.5
+        },
+        {
+          "xMm": -17.606066,
+          "yMm": 17.606066
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 17.5,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 17.606066,
+          "yMm": 17.606066
+        },
+        {
+          "xMm": 17.65,
+          "yMm": 17.5
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "dc-r1-20261107",
+    "opticalType": "dichroic",
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalAxisHeightMm": 62.5,
+    "nominalOpticalHeightMm": 62.5,
+    "opticalAxisHeightSource": "冻结R1 STEP与原设计all-four-angles验收；前膜面通过柱轴",
+    "opticalSurfaceAngleDeg": 0,
+    "opticalDatumVerified": true,
+    "opticalSimulationNote": "前膜面几何已确认；实际镀膜及波段未选，无系数时停止传播。薄面模型不包含基片折射侧移。",
+    "opticalDefaults": {
+      "elementType": "dichroic",
+      "inserted": false,
+      "configured": false,
+      "dichroic": {
+        "mode": "data",
+        "model": "",
+        "samples": []
+      }
+    },
+    "opticalGeometryEvidence": {
+      "referencePointWorldMm": [
+        0,
+        0,
+        62.5
+      ],
+      "surfaceAngleDeg": 0,
+      "mirrorThicknessMm": 3.2,
+      "source": "R1 all-four-angles and supplier-seat compensated thickness",
+      "physicalTrialCompleted": false
+    },
+    "geometryEvidence": {
+      "sourceStep": "step/fixed-dichroic-r1/DC1-F_R1_0deg_assembly.step",
+      "sourceSha256": "7d541143e121a63b6f17d5b7f759acef933b97d4d60a0127f8eddb3680475ee1",
+      "imageSha256": "d77117cb797d3fcdf97c3b15f6bec5e39bdb3000417dc553cd22d962fdb21e13",
+      "partCount": 8,
+      "triangleCount": 39648,
+      "guardMm": 0.15,
+      "meshDeflectionMm": 0.035
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "7d541143e121a63b6f17d5b7f759acef933b97d4d60a0127f8eddb3680475ee1",
+      "imageSha256": "d77117cb797d3fcdf97c3b15f6bec5e39bdb3000417dc553cd22d962fdb21e13",
+      "renderRole": "complete",
+      "revision": "R1"
+    }
+  },
+  "id": "fixed-dichroic-1inch-0-r1"
+}

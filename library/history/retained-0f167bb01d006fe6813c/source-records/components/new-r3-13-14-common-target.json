@@ -1,0 +1,103 @@
+{
+  "id": "new-r3-13-14-common-target",
+  "name": "13/14共用靶片",
+  "model": "13-TGT-M1",
+  "kind": "custom",
+  "unit": "件",
+  "status": "M1公制加工审核图；PDF、DXF与STEP同源",
+  "notes": "M1公制修订；仅名义机械对准，实物装配和未注公差仍须验收。。实物试装未完成。",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/d309fba8e88852ca6a4bcd32",
+  "stepPath": "step/metric-m1-20261006/13-TGT_METRIC_M1.step",
+  "drawingPath": "drawings/metric-m1-20261006/13-TGT_M1_加工工程图.pdf",
+  "sourceStepSha256": "81a72f66320ecfeccd79025ed7918dac2ff6bfd1aa613668dce331349ff1aabe",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "threadClass": "待确认",
+    "profileId": "r6_316L_passivated",
+    "policyVersion": "supplied-manufacturing-M1-2026-10-05",
+    "processDetails": "13/14共用此孔靶片；迎光面为局部Y0。 原有刻线及数字深0.1；识别编号深0.2。 仅用于低功率可见对准，不作高功率光束终止器。"
+  },
+  "drawingRevision": "M1",
+  "drawingStatus": "engineering-review",
+  "dxfPath": "drawings/metric-m1-20261006/13-TGT_M1_加工工程图.dxf",
+  "manufacturingEvidence": {
+    "sourcePackage": null,
+    "sourceCode": "13-TGT",
+    "sourceStepSha256": "81a72f66320ecfeccd79025ed7918dac2ff6bfd1aa613668dce331349ff1aabe",
+    "drawingSha256": "a1430fae7bdd7ad2b48ded789ad8331fcc44538d2ff886ccfb3de1c8a18b2138",
+    "dxfSha256": "7982cc97f7c3616ae73daedf058980db3a5760279912f00660013edcafcc221e",
+    "pageCount": 3,
+    "metricMigration": {
+      "post_height_old_mm": null,
+      "post_height_new_mm": null,
+      "selected_height_delta_mm": 0,
+      "world_bottom_delta_mm": -1,
+      "supplier_translation_mm": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "physicalTrialCompleted": false
+  },
+  "sourceDrawingSha256": "a1430fae7bdd7ad2b48ded789ad8331fcc44538d2ff886ccfb3de1c8a18b2138",
+  "sourceDxfSha256": "7982cc97f7c3616ae73daedf058980db3a5760279912f00660013edcafcc221e",
+  "dxfPdfPath": "drawings/metric-m1-20261006/13-TGT_M1_加工工程图_DXF.pdf",
+  "dxfPdfSha256": "36d1d7452e5b74b1420278d75c618e494dc715baa44b7e96dfa00fa3bcc90c10",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "e0cec95da78a84dcb4018b11b2e308d4232830921a0a015a1e606f264321c352",
+      "currentPdfSha256": "57cf7f9bc2aeeed21ac5327359ed986b3e34a882886f4a03cff5748e02bf078f",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "df278d4bcf4c41d8451a2634e7d8eef4cf416e1a503af073094132f366401272",
+      "currentPdfSha256": "36d1d7452e5b74b1420278d75c618e494dc715baa44b7e96dfa00fa3bcc90c10",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "13-TGT",
+        "dxfPath": "drawings/laser-marking/new-r3-13-14-common-target/编号面_-Y.dxf",
+        "sha256": "dccbff4e8f6700e3136afeb3ed2a364784f475f26a3e1d959b3e70294fc4f478",
+        "setupPdfPath": "drawings/laser-marking/new-r3-13-14-common-target/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "422ce7f8145cee480f03c6757263d4071597cf8a5ce49472610ce6f5ac8558b1"
+      },
+      {
+        "face": "functional_scale_-X",
+        "text": "62.5",
+        "dxfPath": "drawings/laser-marking/new-r3-13-14-common-target/functional_scale_-X.dxf",
+        "sha256": "339794896c336b6f271e2070576638ffb17fdd6dd6b25e34f7f4337ae9fa060a",
+        "setupPdfPath": "drawings/laser-marking/new-r3-13-14-common-target/functional_scale_-X_定位说明.pdf",
+        "setupPdfSha256": "3f73f6f48abeaa48a7dc10632a3eb49ffc6a2c091b798dece3a8a8250d54c481"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "new-r6-camera-flir-bfs-u3-16s2-cs--history-4a1ee8241eae",
+  "name": "FLIR Blackfly S 相机 · CS接口",
+  "model": "BFS-U3-16S2-CS",
+  "kind": "standard",
+  "unit": "台",
+  "status": "机械型号已核对；具体彩色/黑白采购后缀待确认",
+  "sourceUrl": "https://softwareservices.flir.com/BFS-U3-16S2/latest/40-Installation/Dimensions.htm",
+  "notes": "商业整机，无需加工。可修正试制样件：相机绕镜头轴转90°，名义轴高63.5 mm。CS法兰至感光面12.759333 mm为源设计估计，尚未由厂家或实测确认；不能将壳体中心或镜头孔封底当作感光面。外接镜头和线缆空间未建模。",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "new-r6-camera-flir-bfs-u3-16s2-cs",
+    "revision": null,
+    "sourceRecordSha256": "b6e82c8964fbc2e7b88c2d3d71907229e40b79b1c640f6686335333190a43f3a"
+  }
+}

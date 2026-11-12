@@ -1,0 +1,94 @@
+{
+  "id": "custom-mt-cube-adapter-m1-r1--history-9a5e10168b9d",
+  "name": "MT立方体分束模块单体转接件",
+  "model": "MCB-1R1",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "M1-R1",
+  "sourceUrl": "https://www.lbtek.com/product/1258",
+  "stepPath": "step/history-c689d2bb11fb451dbb4e5506b214e6f9b8a5c09cef5867f28503e93dfc96dc29.step",
+  "drawingPath": "drawings/history-e2dc13977373a34e77df856466bfc8e25d11e96bee046abb74405057ca4765e0.pdf",
+  "dxfPath": "drawings/history-459335f3adb45d61736dc3664c74f577963e975e226294461a22aa7ec75e2e0f.dxf",
+  "productionReady": false,
+  "drawingStatus": "engineering-review",
+  "status": "同源CAD/PDF/DXF加工审核版；实物未试装",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "threadClass": "待逐件审核",
+    "pinFitClass": "待逐件审核",
+    "processDetails": "厚12.1；六孔与盲孔深度按冻结孔表及PDF；纵向外边R0.6；实体刻字MCB-1R1。按项目约定不标通用公差和粗糙度。"
+  },
+  "manufacturingEvidence": {
+    "sourceStepSha256": "c689d2bb11fb451dbb4e5506b214e6f9b8a5c09cef5867f28503e93dfc96dc29",
+    "drawingSha256": "e2dc13977373a34e77df856466bfc8e25d11e96bee046abb74405057ca4765e0",
+    "dxfSha256": "459335f3adb45d61736dc3664c74f577963e975e226294461a22aa7ec75e2e0f",
+    "parameterSha256": "9014f036951c7a1202c702453e9e88509d7f11d4b6a05f2036822e9811242354",
+    "mechanicalChecksSha256": "eef23feebfbe92bce5488dd3d95d68cadb8591939b1da1818614393f415a9098",
+    "physicalAssemblyTested": false,
+    "engineeringReleaseApproved": false
+  },
+  "provenance": {
+    "originalDesign": "new adapter geometry created for this authorized module",
+    "vendorMounts": "manufacturer originals; rigidly transformed only",
+    "formalPost": "existing M1 H25 unchanged"
+  },
+  "notes": "新单体转接件不改厂家架/立方体，不改正式H25。螺纹仅底孔加图纸攻牙标注，无螺旋牙型；配合和加工审批待确认。",
+  "dxfPdfPath": "drawings/history-cafe99af02f5888035c1255c5c659da5c29ee8c22fd1e4792882ea4e48ca6885.pdf",
+  "dxfPdfSha256": "cafe99af02f5888035c1255c5c659da5c29ee8c22fd1e4792882ea4e48ca6885",
+  "sourceDrawingSha256": "e2dc13977373a34e77df856466bfc8e25d11e96bee046abb74405057ca4765e0",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "311cbe6aec02f9ef4561e8f1d7b2a6aebfd69dd37e040c917dac28795d1df3a9",
+      "currentPdfSha256": "e2dc13977373a34e77df856466bfc8e25d11e96bee046abb74405057ca4765e0",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "3a2e5e61fa278529ae882711e0584ea8776fa4c7d5168550b942ac1419dbcca8",
+      "currentPdfSha256": "cafe99af02f5888035c1255c5c659da5c29ee8c22fd1e4792882ea4e48ca6885",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前 STEP 原字形及功能文字改用激光打标，完整轮廓与位置已提取核验。",
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。",
+    "files": [
+      {
+        "dxfPath": "drawings/history-98b05260ecafd93f6b0b1168000770abb2c233023ce854f9bc4e291b0510f6d4.dxf",
+        "sha256": "98b05260ecafd93f6b0b1168000770abb2c233023ce854f9bc4e291b0510f6d4",
+        "setupPdfPath": "drawings/history-75ce1a96d3863a1c8dca1f49ab742aca0a309da039af081c97c5147a47d1d41c.pdf",
+        "setupPdfSha256": "75ce1a96d3863a1c8dca1f49ab742aca0a309da039af081c97c5147a47d1d41c",
+        "face": "编号面",
+        "text": "MCB-1R1"
+      }
+    ]
+  },
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "custom-mt-cube-adapter-m1-r1",
+    "revision": "M1-R1",
+    "sourceRecordSha256": "1edf9dc4e85d900127c3a34f14e15f60be514ace778ff502c65d7700f45f43bb"
+  }
+}

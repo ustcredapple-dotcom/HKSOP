@@ -1,0 +1,34 @@
+{
+  "id": "motor-adapter-28",
+  "name": "28mmM3toH2",
+  "kind": "custom",
+  "model": "28mmM3toH2",
+  "unit": "个",
+  "stepPath": "step/09_电动镜架/28mmM3toH2.step",
+  "drawingPath": "drawings/09_电动镜架/28mmM3toH2_材料工艺更新.pdf",
+  "status": "参考尺寸图；V2外螺纹及整体几何已核验",
+  "notes": "Onshape V2 外部螺纹特征已只读核验：ISO M3×0.5，给定长度5 mm；端部倒角0.461 mm / 30°，分割面启用。实存 STEP 六角杆长28 mm、法兰厚1 mm、螺纹端含倒角长5 mm，与V2新导出同坐标双向实体差为空，整体几何一致；保留原STEP。STEP螺纹以圆柱简化，按参考图M3×0.5标注加工。材料6061铝合金，黑色阳极氧化。",
+  "sourceUrl": "https://cad.onshape.com/documents/68e941971d564ba3b6503f2e/v/17b28d997db0412d3167d90f/e/3848b609e48a335a9e8b3a0b",
+  "manufacturingSpec": {
+    "material": "6061 铝合金",
+    "surfaceTreatment": "黑色阳极氧化",
+    "threadClass": "待确认",
+    "profileId": "otherCustom",
+    "policyVersion": "materials-2026-09-24.2"
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "按本轮补齐要求增加识别编号；已核当前 STEP 外表面位置。",
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。 此件 Ø4×1 mm 肩部用圆柱展开 DXF，字高0.6 mm；须旋转轴/曲面展开打标，不能按平面投影加工。",
+    "files": [
+      {
+        "dxfPath": "drawings/laser-marking/lm1-20261015/motor-adapter-28/圆柱肩部_展开.dxf",
+        "sha256": "6f0fc73fd5618439e600878c1284d9842949c961755053f6977c7fe5436430a5",
+        "setupPdfPath": "drawings/laser-marking/lm1-20261015/motor-adapter-28/圆柱肩部_展开_定位.pdf",
+        "setupPdfSha256": "517baf5203caa209098e08b04be757a8e1207312ca37f7516c762bd9717b3b55",
+        "face": "圆柱肩部_展开",
+        "text": "28-H2"
+      }
+    ]
+  }
+}

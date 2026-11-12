@@ -1,0 +1,66 @@
+{
+  "id": "custom-mcve05-r1",
+  "name": "MCVE05-R1 PBS 半英寸电动竖直版加工件",
+  "model": "MCVE05-R1",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R1",
+  "stepPath": "step/combined-r1-20261015/0/MCVE05-R1.step",
+  "sourceStepSha256": "368f829c2c84d5e613f58a3c1be942181b4f65f367a1cff9d98d065f0a7e762b",
+  "drawingPath": "drawings/combined-r1-20261015/0/MCVE05-R1_加工图.pdf",
+  "sourceDrawingSha256": "91db4cc270d97e353ab9d9c0c158e1f6a25703407c515da8535002d733f30e5f",
+  "dxfPath": "drawings/combined-r1-20261015/0/MCVE05-R1_加工图_毫米.dxf",
+  "sourceDxfSha256": "352508bfbd6e5ae8afe73b3c8005c41470001b84471df38a611c385d5658dcbc",
+  "productionReady": false,
+  "drawingStatus": "engineering-review",
+  "status": "工程审核版；未实物试装或制造放行",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "threadClass": "待首件工艺确认",
+    "pinFitClass": "待首件工艺确认",
+    "processDetails": "按同版加工图；编号采用激光打标，不铣刻；不额外加入通用公差与粗糙度。"
+  },
+  "provenance": {
+    "originalDesign": "User-delivered design package; authorship not inferred",
+    "sourcePackageSha256": "f6b96cef42a98cd31d99daa7b1473b79edf1be9b082d0e6838bb86859cec2bd9",
+    "sourceModelPath": "models/parts/MCVE05-R1.step",
+    "importer": "Codex combined release"
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "本版设计已提供与模型对应的独立打标文件。",
+    "notes": "1:1毫米轮廓；未实物打标、未验证工艺可读性。",
+    "files": [
+      {
+        "face": "+X",
+        "text": "MCVE05-R1",
+        "dxfPath": "drawings/combined-r1-20261015/0/MCVE05-R1_激光打标_1比1.dxf",
+        "sha256": "e1dc6ee09e5651b3aa340fea7dbf606a9e038d963cb90e8d4312a1930199289c",
+        "setupPdfPath": "drawings/combined-r1-20261015/0/MCVE05-R1_激光打标_定位说明.pdf",
+        "setupPdfSha256": "9d0503f7fdd683dad4faceb426454a054fd65253956a2af21b467374b1507576"
+      }
+    ]
+  },
+  "originalSourceUrl": "",
+  "sourceUrl": "https://cad.onshape.com/documents/d252aa346b87cc8b3b987f3a/v/4e1e09ef673f17dfcdbd1023/e/46647de72e414c990035bb78",
+  "cloudReference": {
+    "active": false,
+    "current": false,
+    "status": "reviewed-reference-local-precision-source",
+    "documentId": "d252aa346b87cc8b3b987f3a",
+    "workspaceId": "a47b5eaa766cffa6d4fe64a6",
+    "versionId": "4e1e09ef673f17dfcdbd1023",
+    "elementId": "46647de72e414c990035bb78",
+    "sourceUrl": "https://cad.onshape.com/documents/d252aa346b87cc8b3b987f3a/v/4e1e09ef673f17dfcdbd1023/e/46647de72e414c990035bb78",
+    "sourceStepSha256": "368f829c2c84d5e613f58a3c1be942181b4f65f367a1cff9d98d065f0a7e762b",
+    "strictWholeAssemblyGeometryEquivalent": true,
+    "allPostSolidsStrictGeometryEquivalent": null,
+    "allAssemblyIdentityAndPoseReferencesPassed": false,
+    "actualCloudAcceptanceSha256": "114fba05c1440fcfa3500da1b00538745d589ac484b2f5004fd1e2cfd7678fc9",
+    "authoritativePrecisionSource": "已核验本地完整 STEP；云端静态冻结版供查看。原生自由度、全套整体移动或完整复用协议尚未全部验收。",
+    "physicalTrialPerformed": false
+  },
+  "dxfPdfPath": "drawings/combined-r1-20261015/dxf-pdf/custom-mcve05-r1_DXF.pdf",
+  "dxfPdfSha256": "8759c8c4a7ffde150baff3cbab36dd0fcbf90b2f6b0812940135f4f1493f7be1"
+}

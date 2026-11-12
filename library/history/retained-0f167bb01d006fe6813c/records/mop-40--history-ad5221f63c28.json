@@ -1,0 +1,19 @@
+{
+  "id": "mop-40--history-ad5221f63c28",
+  "name": "Ø6×40 mm 笼杆",
+  "model": "MOP-40",
+  "kind": "lubang",
+  "unit": "个",
+  "stepPath": "step/history-2c2b97c3e8c44e0d341be188f86b39f88b879003bae57fce62929d6b5868149b.step",
+  "sourceStepSha256": "2c2b97c3e8c44e0d341be188f86b39f88b879003bae57fce62929d6b5868149b",
+  "status": "用户提供原厂CAD/尺寸图已核；未实装",
+  "notes": "原厂型号与机械接口依据包内二维图及STEP；MOP-40实际有效牙深需首件核对。",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "mop-40",
+    "revision": null,
+    "sourceRecordSha256": "f47c3eaefc72b3d35ecea0a4d6665c02a9bef973df65bbab37b9c857b25ce508"
+  }
+}

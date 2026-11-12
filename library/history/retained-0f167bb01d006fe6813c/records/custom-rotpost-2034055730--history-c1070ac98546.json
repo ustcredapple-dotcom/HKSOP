@@ -1,0 +1,165 @@
+{
+  "id": "custom-rotpost-2034055730--history-c1070ac98546",
+  "name": "特制万能柱 H25 / ROT +45.000°",
+  "model": "UP25R+45.000-F57D99",
+  "kind": "custom",
+  "unit": "件",
+  "status": "自定义角度；本地生成加工审核版",
+  "notes": "基于B6-R1；H25；相对电动反射镜 · 1 inch · H2直连，俯视逆时针增量+45.000°；底座保持，顶部孔组共同旋转。必须新制并激光打标：UP25R+45.000-F57D99；激光打标，不铣刻。原螺纹等级待确认；未实物试装或加工放行。 云端已冻结并完成几何回读；实物试装与加工放行仍待确认。",
+  "stepPath": "step/history-4b2249ce0ea5bca4594a7c2d79e1d4a66886a093eac9e3c13afd07ce109a0344.step",
+  "drawingPath": "drawings/history-563b6bc2346eab2ed7d4e6b75186520944d6508fdb6f5c8ed98c73300ed5506f.pdf",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "退磁、喷砂",
+    "threadClass": "待确认",
+    "profileId": "post316L",
+    "policyVersion": "materials-2026-09-24.2",
+    "processDetails": "基于B6-R1；H25；相对电动反射镜 · 1 inch · H2直连，俯视逆时针增量+45.000°；底座保持，顶部孔组共同旋转。必须新制并激光打标：UP25R+45.000-F57D99；激光打标，不铣刻。原螺纹等级待确认；未实物试装或加工放行。"
+  },
+  "postTopThread": "M4",
+  "heightMm": 25.0,
+  "revision": "B6-R1-ROT1",
+  "seriesId": "custom-top-interface-rotation",
+  "sourceStepSha256": "4b2249ce0ea5bca4594a7c2d79e1d4a66886a093eac9e3c13afd07ce109a0344",
+  "drawingRevision": "B6-R1-ROT1",
+  "drawingStatus": "engineering-review",
+  "productionReady": false,
+  "sourceDrawingSha256": "563b6bc2346eab2ed7d4e6b75186520944d6508fdb6f5c8ed98c73300ed5506f",
+  "drawingPages": [
+    1,
+    2
+  ],
+  "laserMarking": {
+    "status": "required",
+    "reason": "特制顶部孔组必须标识角度与唯一编号",
+    "notes": "激光打标，不铣刻；底板侧面；相对所选原套件俯视逆时针为正",
+    "files": [
+      {
+        "face": "底座侧面",
+        "text": "UP25R+45.000-F57D99 / ROT +45.000 DEG",
+        "dxfPath": "drawings/history-51ccc76daf4e9e168a060b1c2ab1a0e5cbdcd05c35f25253d646eb823fb7236b.dxf",
+        "sha256": "51ccc76daf4e9e168a060b1c2ab1a0e5cbdcd05c35f25253d646eb823fb7236b",
+        "setupPdfPath": "drawings/history-6a07b2ba253a085a71e52f7f597149ce27bee0c783a30430b5f10766363a7acc.pdf",
+        "setupPdfSha256": "6a07b2ba253a085a71e52f7f597149ce27bee0c783a30430b5f10766363a7acc"
+      }
+    ]
+  },
+  "mechanicalInterface": {
+    "baseThicknessMm": 6,
+    "stemExposedHeightMm": 19.0
+  },
+  "sourceUrl": "https://cad.onshape.com/documents/930140338866619baa619312/v/3ca69bb8f38a56af749e6e4b/e/96231af834d8c1066bb034ff",
+  "manufacturingEvidence": {
+    "revision": "B6-R1-ROT1",
+    "sourceStepSha256": "4b2249ce0ea5bca4594a7c2d79e1d4a66886a093eac9e3c13afd07ce109a0344",
+    "drawingSha256": "563b6bc2346eab2ed7d4e6b75186520944d6508fdb6f5c8ed98c73300ed5506f",
+    "pageCount": 2,
+    "geometryValidated": true,
+    "pdfVisualReviewPassed": true,
+    "physicalAssemblyValidated": false,
+    "productionApprovalGranted": false,
+    "sourceGeometryKind": "local-parametric-exact-brep-rotation",
+    "generatorSha256": "6b09efb085506af60153591c8fac59e1aa385c7e83c67f7dc840281b3a6595a4",
+    "visualReviewEvidence": "核验/最终图纸与BOM复核.json"
+  },
+  "sourceReference": {
+    "componentId": "custom-post-metric-25mm-m1--history-f964ae955626",
+    "stepSha256": "b6729cdb0b48cf2269883aa92d1d10b6489f250f6f4796ae54313e948b1e6778",
+    "catalogVersion": "2026-10-19.qp1-amp2r-r1-review1-dpt3-module-r2-for1-mirror-layer-r1-399-r6-motor2",
+    "role": "original standard post before top-hole rotation",
+    "originalEvidence": {
+      "manufacturingEvidence": {
+        "revision": "B6-R1",
+        "sourceStepSha256": "b6729cdb0b48cf2269883aa92d1d10b6489f250f6f4796ae54313e948b1e6778",
+        "drawingSha256": "79e9a3bb3fbdc066a84360aa8f8ec4c55addfb6a8890f1b12e1dd46bad016f8b",
+        "pageCount": 2,
+        "geometryValidated": true,
+        "pdfVisualReviewPassed": true,
+        "physicalAssemblyValidated": false,
+        "productionApprovalGranted": false,
+        "sourceVersionId": "04f8ec309a2623b8b9552173",
+        "sourceElementId": "8790df9e1a883b14776f56e2",
+        "sourceGeometryKind": "authorized-local-exact-brep-revision",
+        "baseSourceStepSha256": "35c8375054b8ce65b07248003db2db1a1c115c067e901089d194dbffb8e930d2",
+        "baseSourceRevision": "M1",
+        "baseSourceUrl": "https://cad.onshape.com/documents/3a3c1d8089df865b8b4e822a/v/717979e25918fc346b4f0518/e/c0b5b3ef527f26d35662c923",
+        "generatorSha256": "38d690d2f8680e13a311b9da2d8249ce4e86a059e2247785603e206264e47273",
+        "geometryReviewSha256": "516648a1be4797eb6d9412ba371d767992f3e8b57c855f22d496a46b09186c01",
+        "measurementSha256": "577e1da7a914e58d1d4e66b6217ca8d8afed87c470acf90afa074effead46a5f",
+        "cloudGeometryReviewSha256": "aa942cc7ef2cf3a1c8f38efba04a57edcb67a50221ba22114cdac86b05acb8b8"
+      },
+      "drawingAnnotationEvidence": {
+        "/drawingPath": {
+          "revision": "B6-R1",
+          "currentPdfSha256": "79e9a3bb3fbdc066a84360aa8f8ec4c55addfb6a8890f1b12e1dd46bad016f8b",
+          "annotatedPages": [
+            1,
+            2
+          ],
+          "originalPositionDimensionsPreserved": true,
+          "geometryChanged": true,
+          "reviewScope": "Current B6 exact STEP HLR, original post coordinate datums, directly attached hole-group specifications and individually rendered/viewed pages; physical/production acceptance not performed."
+        }
+      },
+      "postBaseRevision": {
+        "revision": "B6-R1",
+        "previousRevision": "M1",
+        "baseThicknessMm": 6,
+        "nominalHeightMm": 25.0,
+        "nativeHeightAxis": "Y",
+        "seatingPlaneMm": -4,
+        "baseTopPlaneMm": 2,
+        "topPlaneMm": 21.0,
+        "heightAndAllOriginalFunctionalDatumsPreserved": true,
+        "previousRecordSha256": "936117c181e96f734c4a44974cd4e3d7c0ea9025ffc8c70f8faa28077c9beff0",
+        "previousStepSha256": "35c8375054b8ce65b07248003db2db1a1c115c067e901089d194dbffb8e930d2",
+        "previousDrawingSha256": "169b8ef0f3a56d9cd8625ddcbac3f014d9a8d4c23fa0f2b71be35f276e6df544",
+        "originalArchiveStatus": "pending-final-release-acceptance",
+        "cloudStatus": "frozen-strict-geometry-equivalent",
+        "authorization": "2026-10-15 user requested every universal post base4→6, total height unchanged; originals archived after completion."
+      },
+      "cloudReference": {
+        "active": true,
+        "current": true,
+        "status": "frozen-geometry-verified",
+        "documentId": "894af481abaf8644d053faa3",
+        "versionId": "04f8ec309a2623b8b9552173",
+        "elementId": "8790df9e1a883b14776f56e2",
+        "sourceUrl": "https://cad.onshape.com/documents/894af481abaf8644d053faa3/v/04f8ec309a2623b8b9552173/e/8790df9e1a883b14776f56e2",
+        "sourceStepSha256": "b6729cdb0b48cf2269883aa92d1d10b6489f250f6f4796ae54313e948b1e6778",
+        "strictGeometryEquivalent": true,
+        "singlePartInIndependentAssembly": true,
+        "nativeParametricFeatureHistoryRetainedInOriginalArchive": true
+      }
+    },
+    "originalSourceUrl": "https://cad.onshape.com/documents/894af481abaf8644d053faa3/v/04f8ec309a2623b8b9552173/e/8790df9e1a883b14776f56e2"
+  },
+  "rotation": {
+    "schema": "zzlab-simple-kit-rotation-v1",
+    "angleDeg": 45,
+    "baselineKitId": "motor-1-90-h2-coplanar-r1",
+    "partCode": "UP25R+45.000-F57D99",
+    "localOnly": false
+  },
+  "cloudReference": {
+    "url": "https://cad.onshape.com/documents/930140338866619baa619312/v/3ca69bb8f38a56af749e6e4b/e/96231af834d8c1066bb034ff",
+    "versionId": "3ca69bb8f38a56af749e6e4b",
+    "reviewedAt": "2026-10-20T23:30:14.574588+08:00",
+    "status": "geometry-reviewed",
+    "strictGeometryIdentity": true,
+    "automaticCloudReuseAllowed": true,
+    "sourceStepSha256": "4b2249ce0ea5bca4594a7c2d79e1d4a66886a093eac9e3c13afd07ce109a0344",
+    "readbackSha256": "94bd53bc0a3ef3bda4db51653586b28619233a7b52062056bd282db865a9de25",
+    "allSolidsValid": true,
+    "internalMotionTested": false,
+    "physicalTrialCompleted": false
+  },
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "custom-rotpost-2034055730",
+    "revision": "B6-R1-ROT1",
+    "sourceRecordSha256": "a7fc5d29245e813cdc8afc561c13466bf5a82333553f555ce2a0acf500491769"
+  }
+}

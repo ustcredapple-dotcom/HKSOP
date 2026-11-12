@@ -1,0 +1,28 @@
+{
+  "id": "hardware-iso4762-m2x8--history-d489aa274c6d",
+  "name": "ISO 4762 M2×8 内六角圆柱头螺钉",
+  "model": "M2×8",
+  "kind": "standard",
+  "unit": "颗",
+  "revision": "R1",
+  "standardSpec": {
+    "standard": "ISO 4762",
+    "thread": "M2x0.4",
+    "nominalDiameterMm": 2,
+    "lengthMm": 8,
+    "headDiameterMm": 3.8,
+    "headHeightMm": 2,
+    "material": null,
+    "finish": null
+  },
+  "status": "规格已定义；实物头部尺寸及原厂入口待验",
+  "notes": "M2螺钉名义头包络 Ø3.8×2 用于本次 CAD 工具检查；材质、表面处理不补猜。官方当前 LS35x.Lab 共享 STEP 为 22 实体参考源，产品选型含 .Lab.E；E 实物型号/编码器零点/中位孔网未验。底部四安装孔中 native(15,-10) 对应原厂实体22未提供完整 Ø4 入口，标准 M2 头和工具路径在共享源中受阻；不得据本候选宣称四孔装配通过。",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "hardware-iso4762-m2x8",
+    "revision": "R1",
+    "sourceRecordSha256": "e91f4af6b5d1d24874d96200810bb16a40ae862e5a498894fb00adaf6720c2f4"
+  }
+}

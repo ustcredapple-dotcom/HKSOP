@@ -1,18 +1,18 @@
 {
   "format": "hksop-snapshot-index-v1",
-  "policy": "current-only",
   "snapshots": [
     {
       "id": "web-current",
-      "role": "current-only",
-      "version": "2026-11-11.hksop-github-25s4-r3",
-      "sha256": "2d811fcf7b97be913755ecba8253179b33363aa21fc0f3e5c715778ed2d9cb9f",
+      "role": "current-with-selected-history",
+      "version": "2026-11-12.hksop-history-r1",
+      "sha256": "b362830e14a7edd6e4daf5cee8c365fb3e86e035cde37d986181d57abaa3def8",
       "counts": {
-        "components": 433,
-        "kits": 264,
+        "components": 630,
+        "kits": 361,
         "registeredBoards": 6
       },
-      "assetCount": 1872
+      "assetCount": 3387,
+      "missingCount": 0
     }
   ]
 }

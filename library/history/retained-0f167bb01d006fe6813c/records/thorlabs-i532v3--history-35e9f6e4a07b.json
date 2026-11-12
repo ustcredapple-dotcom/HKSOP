@@ -1,0 +1,21 @@
+{
+  "id": "thorlabs-i532v3--history-35e9f6e4a07b",
+  "name": "Thorlabs I532V3 · 532 nm 隔离器",
+  "model": "I532V3",
+  "kind": "standard",
+  "unit": "个",
+  "sourceUrl": "https://www.thorlabs.com/zh/item/I532V3",
+  "stepPath": "step/history-48f9ef62a04a3ada018d0b2dbe0a219b36b35a94f1c64c6d08c39b4a4864698d.step",
+  "drawingPath": "drawings/history-cd913f1f068a62893a898dc944d8501e2fa4d759497864dc3b175365e69623f8.pdf",
+  "sourceStepSha256": "48f9ef62a04a3ada018d0b2dbe0a219b36b35a94f1c64c6d08c39b4a4864698d",
+  "sourceDrawingSha256": "cd913f1f068a62893a898dc944d8501e2fa4d759497864dc3b175365e69623f8",
+  "notes": "原厂表面参考模型（0实体）；内部光学作用面、隔离率及热额定值未在软件实现。",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "thorlabs-i532v3",
+    "revision": null,
+    "sourceRecordSha256": "1797dcb2d28d31f9fe53c36e3ff9164345c386e0136c871a4a366c20e3abcf5e"
+  }
+}

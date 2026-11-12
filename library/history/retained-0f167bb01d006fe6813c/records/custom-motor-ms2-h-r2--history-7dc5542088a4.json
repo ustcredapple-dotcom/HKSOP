@@ -1,0 +1,112 @@
+{
+  "id": "custom-motor-ms2-h-r2--history-7dc5542088a4",
+  "name": "MS2-H · V2电动镜架独立加工件",
+  "model": "MS2-H",
+  "kind": "custom",
+  "unit": "件",
+  "status": "真实STEP及加工审核图；未投产",
+  "notes": "原V2支架改为四块独立5mm平板。实体、孔与刻字已作CAD审核；加工公差、实物工具、舵机牙型与摩擦锁紧仍待实验确认。",
+  "stepPath": "step/history-bec729ed2d7db30110abe64ea156ad8b7663faa42638d46a8c2ae01432fabe1d.step",
+  "drawingPath": "drawings/history-432c2f1771a253216e5d96d92e48cf917e25f79e76295d33014a4bda6d9da218.pdf",
+  "dxfPath": "drawings/history-7ee7836b16bc8f67d2656cd328e21fbeec5607227712ce8da4d681972933f958.dxf",
+  "sourceStepSha256": "bec729ed2d7db30110abe64ea156ad8b7663faa42638d46a8c2ae01432fabe1d",
+  "sourceDrawingSha256": "432c2f1771a253216e5d96d92e48cf917e25f79e76295d33014a4bda6d9da218",
+  "sourceDxfSha256": "7ee7836b16bc8f67d2656cd328e21fbeec5607227712ce8da4d681972933f958",
+  "drawingRevision": "MS2-r2",
+  "drawingStatus": "engineering-review",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "6061 铝合金",
+    "surfaceTreatment": "黑色阳极氧化",
+    "profileId": "al6061",
+    "threadClass": "待实物确认",
+    "policyVersion": "source-specific-ms2-r2"
+  },
+  "manufacturingEvidence": {
+    "revision": "MS2-r2",
+    "sourceStepSha256": "bec729ed2d7db30110abe64ea156ad8b7663faa42638d46a8c2ae01432fabe1d",
+    "drawingSha256": "432c2f1771a253216e5d96d92e48cf917e25f79e76295d33014a4bda6d9da218",
+    "dxfSha256": "7ee7836b16bc8f67d2656cd328e21fbeec5607227712ce8da4d681972933f958",
+    "pdfPages": 7,
+    "physicalTrialCompleted": false,
+    "mechanicalManifestSha256": "cfc1da15c9e9b675ccbc844e7523c72b3b385f7d2d48884dc4bd0608993e299f",
+    "singleSolid": true,
+    "materialBasis": "继承被修改V2支架6061黑阳极"
+  },
+  "dxfPdfPath": "drawings/history-c795ace5f8823503ec5c4e365105b120f1dc12abea14789e160d3a850496efb5.pdf",
+  "dxfPdfSha256": "c795ace5f8823503ec5c4e365105b120f1dc12abea14789e160d3a850496efb5",
+  "drawingPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "436748d6d4a4806101ce3ffe08a7517d6dde6f1e8f1b4ea3efa954ad44494db9",
+      "currentPdfSha256": "432c2f1771a253216e5d96d92e48cf917e25f79e76295d33014a4bda6d9da218",
+      "annotatedPages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "41801dc33be403de1ce058d64aa4b8ff7134bdb01266d5c5654c3e6fb542d3c1",
+      "currentPdfSha256": "c795ace5f8823503ec5c4e365105b120f1dc12abea14789e160d3a850496efb5",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前 STEP 原字形及功能文字改用激光打标，完整轮廓与位置已提取核验。",
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。",
+    "files": [
+      {
+        "dxfPath": "drawings/history-b8dae355edc3c62cdad447502d756ba06e9c9ca8516ca5b55e93bd7b6890c40d.dxf",
+        "sha256": "b8dae355edc3c62cdad447502d756ba06e9c9ca8516ca5b55e93bd7b6890c40d",
+        "setupPdfPath": "drawings/history-a1e676da589559c768430cebec98a9a28d8472ad27e615861023b2d33e527baf.pdf",
+        "setupPdfSha256": "a1e676da589559c768430cebec98a9a28d8472ad27e615861023b2d33e527baf",
+        "face": "编号面",
+        "text": "MS2-H"
+      }
+    ]
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": "assets/drawings/history-432c2f1771a253216e5d96d92e48cf917e25f79e76295d33014a4bda6d9da218.pdf",
+        "previousSha256": "e2375530faf8bcf8d9019ac0cd7942d548a4aca59bddfb1264f4fa6f800315c6",
+        "sha256": "432c2f1771a253216e5d96d92e48cf917e25f79e76295d33014a4bda6d9da218"
+      }
+    ]
+  },
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "custom-motor-ms2-h-r2",
+    "revision": null,
+    "sourceRecordSha256": "2ad90d3fc9166e94e2183a13edcd7d78ab882db4c334080be6e1e6d2ecf9fdb4"
+  }
+}

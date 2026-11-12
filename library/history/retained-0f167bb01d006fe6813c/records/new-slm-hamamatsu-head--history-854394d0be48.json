@@ -1,0 +1,18 @@
+{
+  "id": "new-slm-hamamatsu-head--history-854394d0be48",
+  "name": "滨松 SLM 无水冷光学头",
+  "model": "X15213-03B",
+  "kind": "standard",
+  "unit": "个",
+  "status": "系列参考；实物光头标签映射待确认",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/2ed7fb2849af8aa467c0db11/e/dfc6c52821b76c677e58bbbd",
+  "notes": "布局来源为X15213系列官方LEJ-F10013；用户光头LSH090/5930-03B标签与采购子型号映射未核实。按光头1个登记，不把壳体、玻璃或零厚反射参考面拆成加工件，不包含控制器。",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "new-slm-hamamatsu-head",
+    "revision": null,
+    "sourceRecordSha256": "0960dee34ff9dff0d2e6e136126c7a1c53546e0e8e174e44480ad4fdba87a390"
+  }
+}

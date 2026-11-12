@@ -1,0 +1,16 @@
+{
+  "id": "periscope-m4x14-screw--history-e374a814a570",
+  "name": "内六角圆柱头螺钉 M4×14",
+  "model": "M4×14",
+  "kind": "standard",
+  "unit": "颗",
+  "notes": "上镜架侧沉孔夹9mm、入27座名义5mm；厂家和材质未指定。",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "periscope-m4x14-screw",
+    "revision": null,
+    "sourceRecordSha256": "26b48d386cf26d9b4938c707e846407dea9f8c4d9696f53f1654effd78634a60"
+  }
+}

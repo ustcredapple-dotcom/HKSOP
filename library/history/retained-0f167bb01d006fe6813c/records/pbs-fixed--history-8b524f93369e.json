@@ -1,0 +1,599 @@
+{
+  "name": "固定式 PBS · 1 inch",
+  "category": "pbs",
+  "variant": "固定式",
+  "description": "原装配含 MPBS24-532，可选填另一型号替换。",
+  "sourceUrl": "https://cad.onshape.com/documents/684fd3e5421c2a6bdd8d57f2/v/1054c61cbeea1628fe9c2e74/e/18f000eae108ef75d0f6fda6",
+  "components": [
+    {
+      "componentId": "custom-post-metric-25mm-m1--history-f964ae955626",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-08--history-a319af023833",
+      "quantity": 1
+    },
+    {
+      "componentId": "pcms1--history-90c3123abbc6",
+      "quantity": 1
+    },
+    {
+      "componentId": "mpbs24-532--history-af6d1b401ac9",
+      "quantity": 1
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "pbs",
+      "label": "PBS 光学件",
+      "type": "pbs",
+      "quantity": 1,
+      "unit": "个",
+      "diameterMm": 25.4,
+      "replacesComponentId": "mpbs24-532--history-af6d1b401ac9"
+    }
+  ],
+  "status": "已核对",
+  "notes": "公制M1支撑与转接；保持原光学口径、XY布局、选配及光路交互。 B6 R1：万能柱底座6 mm，原标称总高和光学基准保持；当前完整STEP已实际换柱，未实物试装。",
+  "layout": {
+    "topViewPath": "topviews/history-0f4d633dab0d2892ba47b92f34b1733fd0c045cdc7cf4305a86e44daa2d40334.svg",
+    "topViewUrl": "./topviews/history-0f4d633dab0d2892ba47b92f34b1733fd0c045cdc7cf4305a86e44daa2d40334.svg",
+    "widthMm": 38.595952,
+    "heightMm": 38.7009,
+    "anchorXMm": 19.297976,
+    "anchorYMm": 19.245502,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "collisionBoundsMm": {
+      "xMin": -19.42045,
+      "yMin": -19.577871,
+      "xMax": 19.42045,
+      "yMax": 19.367976
+    },
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "placementAllowed": true,
+    "status": "原装配俯视图已标定",
+    "note": "完整原装配正投影视图；碰撞按实际俯视外轮廓细分，保留开放凹口并包含完整底座。轮廓带约0.25 mm保守余量；上部允许出板，底座必须在板内。此为平面布局检查。",
+    "sourceUrl": "https://cad.onshape.com/documents/3a3c1d8089df865b8b4e822a/v/6e749963ebef18952db7c82d/e/1db63d108191d7244f8fb0ee",
+    "calibration": {
+      "referenceWidthMm": 35,
+      "referenceHeightMm": 35,
+      "pixelsPerMm": 9.528571,
+      "referenceBoundsPx": 48,
+      "centerPx": [
+        762.5,
+        270.00000000000745
+      ],
+      "imageRotationDeg": 0,
+      "marginMm": 0.25,
+      "captureSha256": "4de6476d957e4f9d0d5cb42b0f9dbd5aca7d81088d874c7787b0abee1dfd1a40"
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -19.315502,
+          "yMm": -16.849235
+        },
+        {
+          "xMm": -19.42045,
+          "yMm": -16.849235
+        },
+        {
+          "xMm": -19.42045,
+          "yMm": 9.275732
+        },
+        {
+          "xMm": -19.210555,
+          "yMm": 9.380679
+        },
+        {
+          "xMm": -19.210555,
+          "yMm": 9.712804
+        },
+        {
+          "xMm": -19.105607,
+          "yMm": 9.712804
+        },
+        {
+          "xMm": -19.105607,
+          "yMm": 9.85123
+        },
+        {
+          "xMm": -19.42045,
+          "yMm": 10.061125
+        },
+        {
+          "xMm": -19.42045,
+          "yMm": 16.744288
+        },
+        {
+          "xMm": -19.273037,
+          "yMm": 16.744288
+        },
+        {
+          "xMm": -19.168089,
+          "yMm": 17.478921
+        },
+        {
+          "xMm": -19.035456,
+          "yMm": 17.478921
+        },
+        {
+          "xMm": -18.9611,
+          "yMm": 17.776342
+        },
+        {
+          "xMm": -18.634676,
+          "yMm": 17.993959
+        },
+        {
+          "xMm": -18.513852,
+          "yMm": 18.35643
+        },
+        {
+          "xMm": -18.15138,
+          "yMm": 18.477254
+        },
+        {
+          "xMm": -17.907391,
+          "yMm": 18.843238
+        },
+        {
+          "xMm": -17.846237,
+          "yMm": 18.843238
+        },
+        {
+          "xMm": -17.846237,
+          "yMm": 18.948186
+        },
+        {
+          "xMm": -17.636342,
+          "yMm": 18.948186
+        },
+        {
+          "xMm": -17.636342,
+          "yMm": 18.982982
+        },
+        {
+          "xMm": -17.216552,
+          "yMm": 19.087929
+        },
+        {
+          "xMm": -17.216552,
+          "yMm": 19.263028
+        },
+        {
+          "xMm": -16.481919,
+          "yMm": 19.263028
+        },
+        {
+          "xMm": -16.481919,
+          "yMm": 19.367976
+        },
+        {
+          "xMm": 16.586867,
+          "yMm": 19.367976
+        },
+        {
+          "xMm": 16.586867,
+          "yMm": 19.263028
+        },
+        {
+          "xMm": 17.111604,
+          "yMm": 19.263028
+        },
+        {
+          "xMm": 17.111604,
+          "yMm": 19.158081
+        },
+        {
+          "xMm": 17.426447,
+          "yMm": 19.158081
+        },
+        {
+          "xMm": 17.426447,
+          "yMm": 19.053133
+        },
+        {
+          "xMm": 17.61906,
+          "yMm": 19.053133
+        },
+        {
+          "xMm": 17.724008,
+          "yMm": 18.843238
+        },
+        {
+          "xMm": 17.933903,
+          "yMm": 18.843238
+        },
+        {
+          "xMm": 18.03885,
+          "yMm": 18.633343
+        },
+        {
+          "xMm": 18.248745,
+          "yMm": 18.633343
+        },
+        {
+          "xMm": 18.394436,
+          "yMm": 18.341962
+        },
+        {
+          "xMm": 18.685817,
+          "yMm": 18.196272
+        },
+        {
+          "xMm": 18.685817,
+          "yMm": 17.959864
+        },
+        {
+          "xMm": 18.9611,
+          "yMm": 17.776342
+        },
+        {
+          "xMm": 19.035456,
+          "yMm": 17.478921
+        },
+        {
+          "xMm": 19.210555,
+          "yMm": 17.478921
+        },
+        {
+          "xMm": 19.210555,
+          "yMm": 17.164078
+        },
+        {
+          "xMm": 19.315502,
+          "yMm": 17.164078
+        },
+        {
+          "xMm": 19.315502,
+          "yMm": 16.744288
+        },
+        {
+          "xMm": 19.42045,
+          "yMm": 16.744288
+        },
+        {
+          "xMm": 19.42045,
+          "yMm": 9.912384
+        },
+        {
+          "xMm": 19.166761,
+          "yMm": 9.912384
+        },
+        {
+          "xMm": 18.995287,
+          "yMm": 9.655172
+        },
+        {
+          "xMm": 19.166761,
+          "yMm": 9.397961
+        },
+        {
+          "xMm": 19.42045,
+          "yMm": 9.397961
+        },
+        {
+          "xMm": 19.42045,
+          "yMm": -16.954183
+        },
+        {
+          "xMm": 19.315502,
+          "yMm": -16.954183
+        },
+        {
+          "xMm": 19.315502,
+          "yMm": -17.373973
+        },
+        {
+          "xMm": 19.210555,
+          "yMm": -17.373973
+        },
+        {
+          "xMm": 19.210555,
+          "yMm": -17.583868
+        },
+        {
+          "xMm": 19.105607,
+          "yMm": -17.583868
+        },
+        {
+          "xMm": 19.105607,
+          "yMm": -17.776482
+        },
+        {
+          "xMm": 18.895712,
+          "yMm": -17.881429
+        },
+        {
+          "xMm": 18.895712,
+          "yMm": -18.213553
+        },
+        {
+          "xMm": 18.668535,
+          "yMm": -18.213553
+        },
+        {
+          "xMm": 18.58087,
+          "yMm": -18.388885
+        },
+        {
+          "xMm": 18.58087,
+          "yMm": -18.543986
+        },
+        {
+          "xMm": 18.15138,
+          "yMm": -18.687149
+        },
+        {
+          "xMm": 17.933764,
+          "yMm": -19.013574
+        },
+        {
+          "xMm": 17.636342,
+          "yMm": -19.087929
+        },
+        {
+          "xMm": 17.636342,
+          "yMm": -19.263028
+        },
+        {
+          "xMm": 17.426447,
+          "yMm": -19.263028
+        },
+        {
+          "xMm": 17.426447,
+          "yMm": -19.367976
+        },
+        {
+          "xMm": 17.006657,
+          "yMm": -19.367976
+        },
+        {
+          "xMm": 17.006657,
+          "yMm": -19.472924
+        },
+        {
+          "xMm": 13.648336,
+          "yMm": -19.472924
+        },
+        {
+          "xMm": 13.648336,
+          "yMm": -19.577871
+        },
+        {
+          "xMm": 11.329175,
+          "yMm": -19.577871
+        },
+        {
+          "xMm": 11.329175,
+          "yMm": -19.472924
+        },
+        {
+          "xMm": 9.66033,
+          "yMm": -19.472924
+        },
+        {
+          "xMm": 9.66033,
+          "yMm": -19.577871
+        },
+        {
+          "xMm": 6.921379,
+          "yMm": -19.577871
+        },
+        {
+          "xMm": 6.921379,
+          "yMm": -19.472924
+        },
+        {
+          "xMm": -5.452114,
+          "yMm": -19.472924
+        },
+        {
+          "xMm": -5.452114,
+          "yMm": -19.577871
+        },
+        {
+          "xMm": -8.82075,
+          "yMm": -19.577871
+        },
+        {
+          "xMm": -8.82075,
+          "yMm": -19.472924
+        },
+        {
+          "xMm": -9.230225,
+          "yMm": -19.472924
+        },
+        {
+          "xMm": -9.230225,
+          "yMm": -19.577871
+        },
+        {
+          "xMm": -12.388966,
+          "yMm": -19.577871
+        },
+        {
+          "xMm": -12.388966,
+          "yMm": -19.472924
+        },
+        {
+          "xMm": -17.006657,
+          "yMm": -19.472924
+        },
+        {
+          "xMm": -17.006657,
+          "yMm": -19.367976
+        },
+        {
+          "xMm": -17.426447,
+          "yMm": -19.367976
+        },
+        {
+          "xMm": -17.426447,
+          "yMm": -19.192877
+        },
+        {
+          "xMm": -17.846237,
+          "yMm": -19.087929
+        },
+        {
+          "xMm": -17.846237,
+          "yMm": -19.053133
+        },
+        {
+          "xMm": -17.896132,
+          "yMm": -19.053133
+        },
+        {
+          "xMm": -18.2826,
+          "yMm": -18.537843
+        },
+        {
+          "xMm": -18.895712,
+          "yMm": -18.047353
+        },
+        {
+          "xMm": -18.895712,
+          "yMm": -17.881429
+        },
+        {
+          "xMm": -19.0687,
+          "yMm": -17.794935
+        },
+        {
+          "xMm": -19.152892,
+          "yMm": -17.373973
+        },
+        {
+          "xMm": -19.315502,
+          "yMm": -17.373973
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "silhouette-2026-09-24.1",
+    "opticalAxisHeightMm": 62.5,
+    "opticalAxisHeightSource": "公制M1：原生转接件与公制柱尺寸链共同降低1 mm；保留原光学面与水平安装基准，名义光高62.5 mm。",
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalSurfaceAngleDeg": 45,
+    "opticalType": "pbs",
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "ba4f6c1360a775a8fd4f7e03ae5b33555cb00b20aeba4aa3b5ef0caf44c45886",
+      "imageSha256": "0f4d633dab0d2892ba47b92f34b1733fd0c045cdc7cf4305a86e44daa2d40334",
+      "revision": "B6-R1",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null
+    },
+    "geometryEvidence": {
+      "previousProjectionSource": {},
+      "sourceStep": "step/history-ba4f6c1360a775a8fd4f7e03ae5b33555cb00b20aeba4aa3b5ef0caf44c45886.step",
+      "sourceSha256": "ba4f6c1360a775a8fd4f7e03ae5b33555cb00b20aeba4aa3b5ef0caf44c45886",
+      "imageSha256": "0f4d633dab0d2892ba47b92f34b1733fd0c045cdc7cf4305a86e44daa2d40334",
+      "partCount": 13,
+      "triangleCount": 50757,
+      "meshDeflectionMm": 0.035,
+      "postBaseRevision": {
+        "revision": "B6-R1",
+        "sourceRole": "complete",
+        "xyFootprintAndFunctionalDatumsPreserved": true,
+        "projectionReportSha256": "7cd752070275f95506d115879cd44412c3f6c87254ec13dbb4238c5082ad36a1",
+        "displayTransform": null,
+        "sourceGeometryChangedByRenderer": false
+      }
+    }
+  },
+  "metricRevision": {
+    "revision": "M1",
+    "sourceVersionId": "6e749963ebef18952db7c82d",
+    "nominalAxisHeightMm": 62.5,
+    "horizontalDatumsPreserved": true,
+    "supportMigration": {
+      "custom-02": "custom-post-metric-12p5mm-m1",
+      "custom-01": "custom-post-metric-25mm-m1",
+      "custom-03": "custom-post-metric-37p5mm-m1",
+      "custom-post-2inch": "custom-post-metric-50mm-m1",
+      "custom-post-2p5inch": "custom-post-metric-62p5mm-m1",
+      "custom-post-3inch": "custom-post-metric-75mm-m1",
+      "custom-post-3p5inch": "custom-post-metric-87p5mm-m1",
+      "custom-post-4inch": "custom-post-metric-100mm-m1",
+      "custom-post-4p5inch": "custom-post-metric-112p5mm-m1",
+      "custom-post-5inch": "custom-post-metric-125mm-m1",
+      "custom-post-5p5inch": "custom-post-metric-137p5mm-m1",
+      "custom-post-6inch": "custom-post-metric-150mm-m1"
+    },
+    "physicalTrialCompleted": false
+  },
+  "postBaseRevision": {
+    "revision": "B6-R1",
+    "baseThicknessMm": 6,
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "cloudStatus": "pending",
+    "physicalAssemblyAccepted": false,
+    "previousSourceUrl": "https://cad.onshape.com/documents/3a3c1d8089df865b8b4e822a/v/6e749963ebef18952db7c82d/e/1db63d108191d7244f8fb0ee",
+    "sourceAssemblySha256": "58b0bd01550acf679072caf39c5b560da77f36f3efd81650e58acd3d350615b3",
+    "currentAssemblySha256": "ba4f6c1360a775a8fd4f7e03ae5b33555cb00b20aeba4aa3b5ef0caf44c45886",
+    "replacementReportSha256": "0acb9e57ffd7f7507f2392069bd7072e5dde58ec2d73118ae42bd5369ce1dc6c",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "revision": "CURRENT-B6R1",
+  "assemblyReference": {
+    "stepPath": "step/history-ba4f6c1360a775a8fd4f7e03ae5b33555cb00b20aeba4aa3b5ef0caf44c45886.step",
+    "sourceStepSha256": "ba4f6c1360a775a8fd4f7e03ae5b33555cb00b20aeba4aa3b5ef0caf44c45886",
+    "revision": "CURRENT-B6R1",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true
+  },
+  "cloudReference": {
+    "active": false,
+    "current": false,
+    "status": "reviewed-reference-local-precision-source",
+    "documentId": "684fd3e5421c2a6bdd8d57f2",
+    "versionId": "1054c61cbeea1628fe9c2e74",
+    "elementId": "18f000eae108ef75d0f6fda6",
+    "sourceUrl": "https://cad.onshape.com/documents/684fd3e5421c2a6bdd8d57f2/v/1054c61cbeea1628fe9c2e74/e/18f000eae108ef75d0f6fda6",
+    "sourceStepSha256": "ba4f6c1360a775a8fd4f7e03ae5b33555cb00b20aeba4aa3b5ef0caf44c45886",
+    "strictWholeAssemblyGeometryEquivalent": false,
+    "allPostSolidsStrictGeometryEquivalent": true,
+    "allAssemblyIdentityAndPoseReferencesPassed": false,
+    "actualCloudAcceptanceSha256": "d989a799138415a93cf804a8080ad2712f38479d94a6e4d5dfb2f8121d4fb567",
+    "cloudMapSha256": "d989a799138415a93cf804a8080ad2712f38479d94a6e4d5dfb2f8121d4fb567",
+    "authoritativePrecisionSource": "当前已核验本地 B6 完整 STEP。云端 BRep 仅为回读参考；原生层级/运动及原厂转译差异未全部通过，不能用于自动精密复用。"
+  },
+  "id": "pbs-fixed--history-8b524f93369e",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "pbs-fixed",
+    "revision": "CURRENT-B6R1",
+    "sourceRecordSha256": "452e30049ada647f058485add11e5b0ab7673496443530f178c31171e3422434"
+  }
+}

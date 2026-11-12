@@ -1,0 +1,10 @@
+{
+  "id": "metric-m1-post-m4x20",
+  "name": "柱侧固定内六角圆柱头螺钉 M4×20",
+  "model": "M4×20",
+  "kind": "standard",
+  "unit": "件",
+  "standardSpec": "dimension-specified",
+  "status": "名义尺寸链已验；实物配合待核对",
+  "notes": "UMA1-R8固定镜架构型：穿8.1mm槽底与6mm圆垫，名义入柱5.9mm。"
+}

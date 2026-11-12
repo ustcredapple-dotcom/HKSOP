@@ -1,0 +1,104 @@
+{
+  "id": "custom-motor-ms2-l-r2",
+  "name": "MS2-L · V2电动镜架独立加工件",
+  "model": "MS2-L",
+  "kind": "custom",
+  "unit": "件",
+  "status": "真实STEP及加工审核图；未投产",
+  "notes": "原V2支架改为四块独立5mm平板。实体、孔与刻字已作CAD审核；加工公差、实物工具、舵机牙型与摩擦锁紧仍待实验确认。",
+  "stepPath": "step/motor-slot-split-r2/MS2-L.step",
+  "drawingPath": "drawings/motor-slot-split-r2/V2-1inch-MS2-r2-mechanical-review_TN1_20261026.pdf",
+  "dxfPath": "drawings/motor-slot-split-r2/MS2-L.dxf",
+  "sourceStepSha256": "6805e8a6f5f5bfc882ed015270356e80cf482b5f63f7d042621834c0541f39aa",
+  "sourceDrawingSha256": "432c2f1771a253216e5d96d92e48cf917e25f79e76295d33014a4bda6d9da218",
+  "sourceDxfSha256": "5ffdad556f7a084f828d8024aee4362d105b993600188fb45a72b368418298f1",
+  "drawingRevision": "MS2-r2",
+  "drawingStatus": "engineering-review",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "6061 铝合金",
+    "surfaceTreatment": "黑色阳极氧化",
+    "profileId": "al6061",
+    "threadClass": "待实物确认",
+    "policyVersion": "source-specific-ms2-r2"
+  },
+  "manufacturingEvidence": {
+    "revision": "MS2-r2",
+    "sourceStepSha256": "6805e8a6f5f5bfc882ed015270356e80cf482b5f63f7d042621834c0541f39aa",
+    "drawingSha256": "432c2f1771a253216e5d96d92e48cf917e25f79e76295d33014a4bda6d9da218",
+    "dxfSha256": "5ffdad556f7a084f828d8024aee4362d105b993600188fb45a72b368418298f1",
+    "pdfPages": 7,
+    "physicalTrialCompleted": false,
+    "mechanicalManifestSha256": "cfc1da15c9e9b675ccbc844e7523c72b3b385f7d2d48884dc4bd0608993e299f",
+    "singleSolid": true,
+    "materialBasis": "继承被修改V2支架6061黑阳极"
+  },
+  "dxfPdfPath": "drawings/motor-slot-split-r2/MS2-L_DXF.pdf",
+  "dxfPdfSha256": "54bffd66b22f2817237dc6abc76e23cdf20309f3c8d42ea70162a0f8967003ab",
+  "drawingPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "436748d6d4a4806101ce3ffe08a7517d6dde6f1e8f1b4ea3efa954ad44494db9",
+      "currentPdfSha256": "432c2f1771a253216e5d96d92e48cf917e25f79e76295d33014a4bda6d9da218",
+      "annotatedPages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "81d02a0fe11eb21ab0d0d2583dfbd8e6371445bae4608ddaee44da49179b13cd",
+      "currentPdfSha256": "54bffd66b22f2817237dc6abc76e23cdf20309f3c8d42ea70162a0f8967003ab",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前 STEP 原字形及功能文字改用激光打标，完整轮廓与位置已提取核验。",
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。",
+    "files": [
+      {
+        "dxfPath": "drawings/laser-marking/lm1-20261015/custom-motor-ms2-l-r2/编号面.dxf",
+        "sha256": "ee08db7f3d24b98d2a79729f7ffea9117cac5c1a1858be5a9d4b45b7e9993c0b",
+        "setupPdfPath": "drawings/laser-marking/lm1-20261015/custom-motor-ms2-l-r2/编号面_定位.pdf",
+        "setupPdfSha256": "73d9dcea2b19143955e992f8e3210dc139de1feb90e7ee28632010122a3812b8",
+        "face": "编号面",
+        "text": "MS2-L"
+      }
+    ]
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": "assets/drawings/motor-slot-split-r2/V2-1inch-MS2-r2-mechanical-review_TN1_20261026.pdf",
+        "previousSha256": "e2375530faf8bcf8d9019ac0cd7942d548a4aca59bddfb1264f4fa6f800315c6",
+        "sha256": "432c2f1771a253216e5d96d92e48cf917e25f79e76295d33014a4bda6d9da218"
+      }
+    ]
+  }
+}

@@ -3,36 +3,36 @@
   "packageId": "mt-cube-pbs-0p5inch-m1-r2",
   "files": [
     {
-      "path": "rendering/9f941575690d928d93abc2e23744457771f369a16cc13029d4fb639b45b6766f.svg",
-      "stored": "library/assets/sha256/9f/9f941575690d928d93abc2e23744457771f369a16cc13029d4fb639b45b6766f.svg",
-      "sha256": "9f941575690d928d93abc2e23744457771f369a16cc13029d4fb639b45b6766f",
-      "originalReferences": [
-        "topviews/mt-cube-pbs-0p5inch-m1-r2__B6_R1.svg"
-      ],
-      "sources": [
-        "library/assets/sha256/9f/9f941575690d928d93abc2e23744457771f369a16cc13029d4fb639b45b6766f.svg"
-      ]
+      "path": "rendering/429a42e0308bef032b824f7659d116af77fcb6fa1e3d4b2b2701eee53ac0ca7a.svg",
+      "stored": "library/assets/sha256/42/429a42e0308bef032b824f7659d116af77fcb6fa1e3d4b2b2701eee53ac0ca7a.svg",
+      "sha256": "429a42e0308bef032b824f7659d116af77fcb6fa1e3d4b2b2701eee53ac0ca7a",
+      "originalReferences": [],
+      "sources": []
     },
     {
-      "path": "cad/ad38a80e84da077f2fb98cc806d249667952bcf1ec5343f4d5fd8c8b37cf6684.step",
-      "stored": "library/assets/sha256/ad/ad38a80e84da077f2fb98cc806d249667952bcf1ec5343f4d5fd8c8b37cf6684.step",
-      "sha256": "ad38a80e84da077f2fb98cc806d249667952bcf1ec5343f4d5fd8c8b37cf6684",
-      "originalReferences": [
-        "step/universal-post-b6-r1/assemblies/mt-cube-pbs-0p5inch-m1-r2__B6_R1.step"
-      ],
-      "sources": [
-        "library/assets/sha256/ad/ad38a80e84da077f2fb98cc806d249667952bcf1ec5343f4d5fd8c8b37cf6684.step"
-      ]
+      "path": "cad/b2df90933cb3226e065ff1c068502b3ec6abd0f616ff9ef7e5ee1bd3bf50e426.step",
+      "stored": "library/assets/sha256/b2/b2df90933cb3226e065ff1c068502b3ec6abd0f616ff9ef7e5ee1bd3bf50e426.step",
+      "sha256": "b2df90933cb3226e065ff1c068502b3ec6abd0f616ff9ef7e5ee1bd3bf50e426",
+      "originalReferences": [],
+      "sources": []
+    },
+    {
+      "path": "drawings/c16bbf07c850a8bcc5047331512c55dd417249b097a0dfc7f4b6ab512ae957a3.pdf",
+      "stored": "library/assets/sha256/c1/c16bbf07c850a8bcc5047331512c55dd417249b097a0dfc7f4b6ab512ae957a3.pdf",
+      "sha256": "c16bbf07c850a8bcc5047331512c55dd417249b097a0dfc7f4b6ab512ae957a3",
+      "originalReferences": [],
+      "sources": []
     }
   ],
   "dependencies": [
-    "custom-mt-cube-adapter-0p5inch-m1-r2",
     "custom-post-metric-37p5mm-m1",
+    "custom-uma1-r8",
+    "hardware-dowel-d2x6",
     "hardware-iso4762-m6x12",
     "lbtek-mt-am05-purchased",
     "lbtek-mt-csb05-purchased",
-    "metric-m1-post-pin-d2x8",
-    "new-r3-hardware-b7a3ea97ce89",
-    "v7-iso4762-m4x12"
+    "lbtek-pbs621-purchased",
+    "metric-m1-post-m4x14",
+    "metric-m1-post-pin-d2x8"
   ]
 }

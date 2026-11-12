@@ -1,0 +1,18 @@
+{
+  "id": "crm-1as--history-7693a8e6b443",
+  "name": "一英寸波片旋转架",
+  "model": "CRM-1AS",
+  "kind": "lubang",
+  "unit": "个",
+  "sourceUrl": "https://www.lbtek.com/product/116",
+  "notes": "",
+  "status": "已核对",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "crm-1as",
+    "revision": null,
+    "sourceRecordSha256": "a3882a9c5cd1d943ea2320f4061a1f53bb008e2d42260408e5e3580d62ede825"
+  }
+}

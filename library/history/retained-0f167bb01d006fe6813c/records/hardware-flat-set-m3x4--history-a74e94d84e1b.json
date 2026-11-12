@@ -1,0 +1,17 @@
+{
+  "id": "hardware-flat-set-m3x4--history-a74e94d84e1b",
+  "name": "M3×4 平端紧定螺钉",
+  "model": "M3×4 平端紧定螺钉",
+  "kind": "standard",
+  "unit": "颗",
+  "status": "规格按审核设计；实物待核",
+  "notes": "用于KZ旋钮套筒；平端、H1.5工具。",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "hardware-flat-set-m3x4",
+    "revision": null,
+    "sourceRecordSha256": "f0a0050e2b0295d12e021ce31c7e021f5246058d6cb649959ac15cbd446f19fc"
+  }
+}

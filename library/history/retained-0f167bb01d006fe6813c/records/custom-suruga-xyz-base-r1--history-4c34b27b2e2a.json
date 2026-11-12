@@ -1,0 +1,88 @@
+{
+  "id": "custom-suruga-xyz-base-r1--history-4c34b27b2e2a",
+  "name": "32-XYZ-B 底部一体转接板",
+  "model": "32-XYZ-B",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R1",
+  "sourceUrl": "",
+  "stepPath": "step/history-8aaa2ec0e2a620992263843594455b57b5222e6714d3c0af154faf5825bfcde0.step",
+  "drawingPath": "drawings/history-ae6242bf9cf8fcb134b036780b144fd1170749114c28b1d915a320e145dcc740.pdf",
+  "dxfPath": "drawings/history-32415f7c084632751a3d3bbe2ef433096d77fabfd88a866369d0a781aa35344b.dxf",
+  "drawingPages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "sourceStepSha256": "8aaa2ec0e2a620992263843594455b57b5222e6714d3c0af154faf5825bfcde0",
+  "sourceDrawingSha256": "ae6242bf9cf8fcb134b036780b144fd1170749114c28b1d915a320e145dcc740",
+  "sourceDxfSha256": "32415f7c084632751a3d3bbe2ef433096d77fabfd88a866369d0a781aa35344b",
+  "manufacturingSpec": {
+    "material": "316L不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "generalToleranceAndRoughness": "用户现行规则明确省略；不是待补字段"
+  },
+  "manufacturingEvidence": {
+    "revision": "R1",
+    "sourceStepSha256": "8aaa2ec0e2a620992263843594455b57b5222e6714d3c0af154faf5825bfcde0",
+    "drawingSha256": "ae6242bf9cf8fcb134b036780b144fd1170749114c28b1d915a320e145dcc740",
+    "dxfSha256": "32415f7c084632751a3d3bbe2ef433096d77fabfd88a866369d0a781aa35344b",
+    "sourceEvidencePath": "evidence/cad/geometry_check.json",
+    "drawingStatus": "engineering-review"
+  },
+  "productionReady": false,
+  "status": "名义 CAD 几何与接口已核验；加工审核版",
+  "notes": "本次定制板；STEP/PDF/DXF 和孔表绑定同修订。实装、承载及工艺批准未由软件校验代替。",
+  "dxfPdfPath": "drawings/history-aed07943abf2ecae407ab2b944bd6b926685f0d7e058e8e517141b1893f2433d.pdf",
+  "dxfPdfSha256": "aed07943abf2ecae407ab2b944bd6b926685f0d7e058e8e517141b1893f2433d",
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "31e2fdd96d15654e5ecca041a54a42b4b2f3117b9a4bb89012bde316b65f0cb8",
+      "currentPdfSha256": "dc33f5c2ac0c757d81386bccb3f812b6288070e342555419afc9735831dc5f85",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "3e47f13f082282265bc89a9b21e611f771a6bcc0559cddb18768b10a95d28df0",
+      "currentPdfSha256": "aed07943abf2ecae407ab2b944bd6b926685f0d7e058e8e517141b1893f2433d",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "32-XYZ-B",
+        "dxfPath": "drawings/history-27f0bab58058841ad6a92c7b8daed66be91b21edd44fb080ee38107283a25ec5.dxf",
+        "sha256": "27f0bab58058841ad6a92c7b8daed66be91b21edd44fb080ee38107283a25ec5",
+        "setupPdfPath": "drawings/history-aaebcc09e0256c18dafaeb5b843e3866fb150c4ee3039514e8c5cca55e662ee0.pdf",
+        "setupPdfSha256": "aaebcc09e0256c18dafaeb5b843e3866fb150c4ee3039514e8c5cca55e662ee0"
+      }
+    ]
+  },
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "custom-suruga-xyz-base-r1",
+    "revision": "R1",
+    "sourceRecordSha256": "fefe09d2bd7b27c494977fdde87fdd702559a98958ec8a4cdf0fe24739b4cca5"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "mt-flf05s--history-a306252a5cae",
+  "name": "0.5 inch 固定镜架",
+  "model": "MT-FLF05S",
+  "kind": "lubang",
+  "unit": "个",
+  "sourceUrl": "https://en.lbtek.com/product/577",
+  "notes": "",
+  "status": "已核对",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "mt-flf05s",
+    "revision": null,
+    "sourceRecordSha256": "053c4afd784d431f86d84445c9031a4a241a96301adffb60af89def4b2bf5c81"
+  }
+}

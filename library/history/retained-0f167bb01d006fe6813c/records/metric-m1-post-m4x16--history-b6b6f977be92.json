@@ -1,0 +1,17 @@
+{
+  "id": "metric-m1-post-m4x16--history-b6b6f977be92",
+  "name": "柱侧固定内六角圆柱头螺钉 M4×16",
+  "model": "M4×16",
+  "kind": "standard",
+  "unit": "个",
+  "status": "名义长度链已核验；实际螺纹啮合与公差待实装",
+  "notes": "有效夹紧厚度与旋入深度按M1转接件逐项核对；对应21-SLM。非承载强度验收。",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "metric-m1-post-m4x16",
+    "revision": null,
+    "sourceRecordSha256": "0094806cf78a34e1805f3c9459ccec1e34cb754e70587fdfb6342e80eb8ee211"
+  }
+}

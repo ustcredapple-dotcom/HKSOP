@@ -1,0 +1,84 @@
+{
+  "format": "hksop-package-v1",
+  "packageId": "uma1-r8-interface",
+  "revision": "UMA1-R8",
+  "displayName": "UMA1-R8通用板与柱顶垫片",
+  "origin": "2026-11-12 user-approved four-mount replacement; prior design acceptance reused",
+  "records": [
+    {
+      "kind": "components",
+      "path": "records/custom-uma1-r8.json"
+    },
+    {
+      "kind": "components",
+      "path": "records/custom-ps25-s6-r1.json"
+    },
+    {
+      "kind": "components",
+      "path": "records/hardware-m4x16-low-head.json"
+    },
+    {
+      "kind": "components",
+      "path": "records/metric-m1-post-m4x20.json"
+    },
+    {
+      "kind": "components",
+      "path": "records/metric-m1-post-pin-d2x14.json"
+    }
+  ],
+  "assets": [
+    {
+      "path": "payload/uma1-r8-design-review.pdf",
+      "target": "assets/drawings/uma1-r8-design-review.pdf",
+      "sha256": "c16bbf07c850a8bcc5047331512c55dd417249b097a0dfc7f4b6ab512ae957a3"
+    },
+    {
+      "path": "payload/uma1-r8-marking-setup.pdf",
+      "target": "assets/drawings/uma1-r8-marking-setup.pdf",
+      "sha256": "e8a7c0b796475255650916fea2b5c2b34e220590b5eb358cfabfaa198e38d430"
+    },
+    {
+      "path": "payload/uma1-r8.step",
+      "target": "assets/step/uma1-r8.step",
+      "sha256": "3caa98a536fbca87ea0c782b3bc4da36473459918573a4e1679bb05ace206b8b"
+    },
+    {
+      "path": "payload/uma1-r8_marking_1to1.dxf",
+      "target": "assets/drawings/uma1-r8_marking_1to1.dxf",
+      "sha256": "ef874167786b6f8039e76ab9bd7ab559e41549e4bd7f08126448a2acffd6149a"
+    },
+    {
+      "path": "payload/uma1-r8_top_holes_1to1.dxf",
+      "target": "assets/drawings/uma1-r8_top_holes_1to1.dxf",
+      "sha256": "c12ee7bb8ad2173b3d506b8c10c275026565d6e8791216fc5e6c83e5d5e8cf2e"
+    },
+    {
+      "path": "payload/uma1-r8_bottom_holes_1to1.dxf",
+      "target": "assets/drawings/uma1-r8_bottom_holes_1to1.dxf",
+      "sha256": "ebada27005145886d81576dfe5a52c019760fbb2eeb8ffd5936c81e0a45893b9"
+    },
+    {
+      "path": "payload/ps25-s6-r1.step",
+      "target": "assets/step/ps25-s6-r1.step",
+      "sha256": "ca5f9f1a2ccf6e3855f967032a2745547f5c576378ddbd84a583d315a54036c7"
+    },
+    {
+      "path": "payload/ps25-s6-r1_rear_1to1.dxf",
+      "target": "assets/drawings/ps25-s6-r1_rear_1to1.dxf",
+      "sha256": "c14cc1c2f09bb5a83366285079cc44804b244ca1a312673ba091b58297265278"
+    },
+    {
+      "path": "payload/ps25-s6-r1_top_holes_1to1.dxf",
+      "target": "assets/drawings/ps25-s6-r1_top_holes_1to1.dxf",
+      "sha256": "1d1c4d28930a6efe732cac1af4cb1ae7444fd6e08b075f4fef04088c8e5294e1"
+    }
+  ],
+  "componentDependencies": [],
+  "capabilities": {
+    "display": "part CAD available",
+    "placement": "nominal CAD checked; physical trial pending",
+    "simulation": "existing mirror model retained; PBS remains unsupported",
+    "procurement": "explicit BOM; optics optional; supplier PBS screw not purchased twice",
+    "manufacturing": "engineering review; no production release"
+  }
+}

@@ -1,14 +1,35 @@
 {
   "format": "hksop-package-v1",
   "packageId": "custom-post-metric-25mm-m1",
-  "revision": "B6-R1",
-  "displayName": "万能柱 25 mm · 底座6 mm B6 R1",
+  "revision": "B6-R2-C03",
+  "displayName": "万能柱 25 mm · 底座6 mm B6 R2 · C0.3",
   "records": [
     {
       "kind": "components",
-      "path": "records/custom-post-metric-25mm-m1.json"
+      "path": "record.json"
     }
   ],
-  "origin": "current-published-catalog",
-  "distribution": "current-cad-topviews-and-drawings"
+  "origin": "authorized HKSOP standard post C0.3 mechanical revision",
+  "assets": [
+    {
+      "path": "payload/post.step",
+      "target": "assets/step/universal-post-h25-b6r2-c03.step",
+      "sha256": "00a48e49560838f810f325e560688f62f8f3a3fe3acc098f7d4122cad9538ba8"
+    },
+    {
+      "path": "payload/drawing.pdf",
+      "target": "assets/drawings/universal-post-h25-b6r2-c03-review.pdf",
+      "sha256": "17930567ede8705d58ba01f5979e506bfce18155f072812e42b9e2f17ffc79ea"
+    },
+    {
+      "path": "payload/mark.dxf",
+      "target": "assets/drawings/universal-post-h25-b6r2-c03-side-mark.dxf",
+      "sha256": "8ea86a64a3a36bd52a8c1573ad67a98b6793ac49f410053b44c07f41edf6c451"
+    },
+    {
+      "path": "payload/mark-setup.pdf",
+      "target": "assets/drawings/universal-post-h25-b6r2-c03-side-setup.pdf",
+      "sha256": "a107eacfed1eab33e386aa62d9d91a11aaf51f68b68ca11f4e5223b388769250"
+    }
+  ]
 }

@@ -1,0 +1,131 @@
+{
+  "id": "custom-post-metric-37p5mm-m1--history-61833e8c81f3",
+  "name": "万能柱 37.5 mm · 底座6 mm B6 R3 · C0.3",
+  "model": "ZZ-POST-H37P5MM",
+  "kind": "custom",
+  "unit": "件",
+  "status": "C0.3×45°；加工审核版",
+  "notes": "B6R3-C03：底座外棱、柱顶外圈、4×Ø6.4安装通孔两端等边 C0.3×45°；底部M6×1圆柱深20 mm，两钻尖余厚约3.01 mm。定位和螺纹孔及柱根保留。 底座、柱顶安装基准和标称总高保持。",
+  "stepPath": "step/history-31359f961d3a5e6e1b0690b5233c2a3d7c5778cde03a59b78da5f8171e843083.step",
+  "drawingPath": "drawings/history-fcf42193dfbe5034177de86a1cb2d18049a1a693f322f00ce774a3f2ba01714f.pdf",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "退磁、喷砂",
+    "threadClass": "待确认",
+    "profileId": "post316L",
+    "policyVersion": "materials-2026-09-24.2",
+    "processDetails": "B6R3-C03：底座外棱、柱顶外圈、4×Ø6.4安装通孔两端等边 C0.3×45°；底部M6×1圆柱深20 mm，两钻尖余厚约3.01 mm。定位和螺纹孔及柱根保留。 底座、柱顶安装基准和标称总高保持。 316L退磁、喷砂；激光打标，不铣刻；未实物试装或加工放行。"
+  },
+  "postTopThread": "M4",
+  "heightMm": 37.5,
+  "revision": "B6-R3-C03",
+  "seriesId": "metric-12p5-r1",
+  "sourceStepSha256": "31359f961d3a5e6e1b0690b5233c2a3d7c5778cde03a59b78da5f8171e843083",
+  "drawingRevision": "B6-R3-C03",
+  "drawingStatus": "engineering-review",
+  "productionReady": false,
+  "manufacturingEvidence": {
+    "revision": "B6-R3-C03",
+    "sourceStepSha256": "31359f961d3a5e6e1b0690b5233c2a3d7c5778cde03a59b78da5f8171e843083",
+    "drawingSha256": "fcf42193dfbe5034177de86a1cb2d18049a1a693f322f00ce774a3f2ba01714f",
+    "pageCount": 2,
+    "geometryValidated": true,
+    "pdfVisualReviewPassed": true,
+    "physicalAssemblyValidated": false,
+    "productionApprovalGranted": false,
+    "sourceGeometryKind": "authorized-local-exact-brep-revision",
+    "baseSourceStepSha256": "c391c47d53b814ed71b6d94e397283c6636fb1175560539471906293a0b1ed56",
+    "baseSourceRevision": "B6-R2",
+    "geometryReviewSha256": "49d2ffb63022dfe59f1b8e552f50987d439c50eb15a1bad877d624f3fed1e358",
+    "generatorSha256": "c9ac0d51019c4d611325adcb451d426d4dadc7c1d3512f9920e4edfcfdc66c2b",
+    "reusedApprovedCad": true,
+    "baseSourceUrl": "https://cad.onshape.com/documents/894af481abaf8644d053faa3/v/04f8ec309a2623b8b9552173/e/c85d1173918725f4ab7c241e",
+    "minimumAxialWebMm": 3.00643,
+    "drillTipDepthMm": 21.50215,
+    "effectiveThreadDepthStatus": "first-article-verification-pending"
+  },
+  "sourceDrawingSha256": "fcf42193dfbe5034177de86a1cb2d18049a1a693f322f00ce774a3f2ba01714f",
+  "drawingPages": [
+    1,
+    2
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "B6-R3-C03",
+      "currentPdfSha256": "fcf42193dfbe5034177de86a1cb2d18049a1a693f322f00ce774a3f2ba01714f",
+      "annotatedPages": [
+        1,
+        2
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "geometryChanged": true,
+      "reviewScope": "C0.3 affected edges, updated exact CAD orthographic views and existing hole coordinates retained; pages rendered and reviewed; first article and production approval pending."
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "底座侧面保留型号与高度，修订标识更新为 B6R3。",
+    "notes": "激光打标，不铣刻；配套1:1字形DXF和独立定位PDF；设备参数及首件工艺待试样，不重复打标已有同标识实物。",
+    "files": [
+      {
+        "face": "底板外侧编号面",
+        "text": "H37.5 B6R3 / ZZPOST",
+        "dxfPath": "drawings/history-0e1e236a2d623d90f08af0f488d20b5d0d5e808b698a066c68242bbf83425edb.dxf",
+        "sha256": "0e1e236a2d623d90f08af0f488d20b5d0d5e808b698a066c68242bbf83425edb",
+        "setupPdfPath": "drawings/history-e553f8259c511b990ab3fec18735f4d9d4848deda454bce9db63cad377629028.pdf",
+        "setupPdfSha256": "e553f8259c511b990ab3fec18735f4d9d4848deda454bce9db63cad377629028"
+      }
+    ]
+  },
+  "mechanicalInterface": {
+    "baseThicknessMm": 6,
+    "stemExposedHeightMm": 31.5,
+    "bottomCenterBlindHole": {
+      "thread": "M6x1",
+      "nominalDepthMm": 20,
+      "cylindricalBoreDiameterMm": 5,
+      "cylindricalDepthMm": 20,
+      "drillTipDepthMm": 21.50215,
+      "minimumWebToTopCenterHoleMm": 3.00643
+    }
+  },
+  "postBaseRevision": {
+    "revision": "B6-R3-C03",
+    "previousRevision": "B6-R2",
+    "baseThicknessMm": 6,
+    "nominalHeightMm": 37.5,
+    "nativeHeightAxis": "Y",
+    "seatingPlaneMm": -4,
+    "baseTopPlaneMm": 2,
+    "topPlaneMm": 33.5,
+    "heightAndAllOriginalFunctionalDatumsPreserved": true,
+    "previousRecordSha256": "dd0a3283cd03192e73b938cc34c084cf03c48faec213951843fbfc6398fff050",
+    "previousStepSha256": "c391c47d53b814ed71b6d94e397283c6636fb1175560539471906293a0b1ed56",
+    "previousDrawingSha256": "1ba2c5ad5c47d3e6c5cf9ed1236a5f52d3e7a5348ff34da48018c0cd70ecbabb",
+    "originalArchiveStatus": "provenance-only",
+    "cloudStatus": "local-hksop-revision-not-synced",
+    "authorization": "2026-11-11 用户确认标准万能柱 C0.3×45° 倒角并更新 HKSOP；H37.5底M6保持20。"
+  },
+  "stepMarking": {
+    "engineVersion": "0.2.0",
+    "status": "verified",
+    "sourceStepSha256": "b9af5f1978bca8c38b7d1ffc31f92cc326eb368e9ec52264e795b20ca0fdfad3",
+    "markedStepSha256": "31359f961d3a5e6e1b0690b5233c2a3d7c5778cde03a59b78da5f8171e843083",
+    "displayDepthMm": 0.02,
+    "preservesEngineeringGeometry": true
+  },
+  "edgeChamfer": {
+    "equalLegMm": 0.3,
+    "angleDeg": 45,
+    "scope": "stem-top-base-perimeter-and-mounting-hole-mouths",
+    "preservesAssemblyDatums": true
+  },
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "pre-uma1-r8-20261112",
+    "originalId": "custom-post-metric-37p5mm-m1",
+    "revision": "B6-R3-C03",
+    "sourceRecordSha256": "12281bad82ada0e5cc0dd604363929fe54a91e58d9555d7a528594c1589126bf"
+  }
+}

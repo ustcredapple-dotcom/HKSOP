@@ -1,0 +1,18 @@
+{
+  "id": "new-r3-hardware-b7a3ea97ce89--history-22edf26b733d",
+  "name": "Ø2×5 圆柱销",
+  "model": "Ø2×5 圆柱销",
+  "kind": "standard",
+  "unit": "个",
+  "status": "装配数量已核对；规格按源装配",
+  "sourceUrl": "",
+  "notes": "商业架仅插入1.5mm；转接座插入3.5mm。",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "pre-uma1-r8-20261112",
+    "originalId": "new-r3-hardware-b7a3ea97ce89",
+    "revision": null,
+    "sourceRecordSha256": "77d8ef63806c8f8289c0336d7a77d95671e22fd3ef74346f1016845d8db1916f"
+  }
+}

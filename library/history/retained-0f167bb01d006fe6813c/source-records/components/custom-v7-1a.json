@@ -1,0 +1,122 @@
+{
+  "id": "custom-v7-1a",
+  "name": "V7 1英寸电动镜架 万能柱转接块",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "V7-R1",
+  "status": "加工审核资料；实物验收未执行",
+  "sourceUrl": "https://chatgpt.com/s/cx_6ac4918366588191ab1b8ae22e6f925b",
+  "productionReady": false,
+  "manufacturingStatus": "review-required",
+  "physicalAcceptance": "not-performed",
+  "stepPath": "step/motorized-v7-r1/custom-v7-1a.step",
+  "sourceStepSha256": "ac51ac13853e5c925e5c41d80796d16e382c7f9665282b2af25b33e2fa9085f8",
+  "manufacturingSpec": {
+    "material": "316L stainless steel",
+    "surfaceTreatment": "去磁、钝化；接触面精加工",
+    "processDetails": "功能孔径/深度见 R1 图纸与 parts.json；不附加通用公差和粗糙度。"
+  },
+  "origin": "new-adapter-r1",
+  "manufacturingEvidence": {
+    "sourceStepSha256": "ac51ac13853e5c925e5c41d80796d16e382c7f9665282b2af25b33e2fa9085f8",
+    "revision": "V7-R1",
+    "assetKind": "manufactured-single-part",
+    "physicalAcceptance": "not-performed",
+    "drawingSha256": "1865b02d6020ea7aee3d5dafd1b7f7d5bc86c5aebc5c687aafbc53e6e9eae9c6",
+    "drawingScope": "R1 new adapter detailed review drawings",
+    "dxfSha256": "6b321faf614a136fd1310bd2a11d6fdc531ea8ae7f4a16b6b9bc02aee8631cf2"
+  },
+  "drawingPath": "drawings/standard-post-h12p5-b4-r2/assemblies/custom-v7-1a_B6_R1_安装及原加工图_TN1_20261026_H12p5B4R2.pdf",
+  "sourceDrawingSha256": "1865b02d6020ea7aee3d5dafd1b7f7d5bc86c5aebc5c687aafbc53e6e9eae9c6",
+  "dxfPath": "drawings/motorized-v7-r1/custom-v7-1a.dxf",
+  "sourceDxfSha256": "6b321faf614a136fd1310bd2a11d6fdc531ea8ae7f4a16b6b9bc02aee8631cf2",
+  "dxfPdfPath": "drawings/motorized-v7-r1/custom-v7-1a_DXF.pdf",
+  "dxfPdfSha256": "49d80e2a597b162c7eb5a8e4c31db5ef025dbbe2331124f97bc3ab6478228189",
+  "drawingPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "H12p5-B4R2-installation",
+      "currentPdfSha256": "1865b02d6020ea7aee3d5dafd1b7f7d5bc86c5aebc5c687aafbc53e6e9eae9c6",
+      "annotatedPages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "geometryChanged": false,
+      "reviewScope": "H12.5 B4-R2 assembly views and notes updated; unchanged adapter machining pages retained. No physical/manufacturing release.",
+      "previousPdfSha256": "c72fc188c98d8ea9109020dc053896f5be97e85b59d5d211259af3bae5d6a760",
+      "unchangedMachiningPages": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "ebeeedbf90cd55034491e31109c5f2d3f25d4b48b6f4340f3e76d12d09b5fcc0",
+      "currentPdfSha256": "49d80e2a597b162c7eb5a8e4c31db5ef025dbbe2331124f97bc3ab6478228189",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "V7-1A",
+        "dxfPath": "drawings/laser-marking/custom-v7-1a/编号面_-Y.dxf",
+        "sha256": "9917f8b2d372496a1436d1da5c648c830b1d35d55103286fe17a50dba05d91f3",
+        "setupPdfPath": "drawings/laser-marking/custom-v7-1a/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "8b1f66a13d823c053e03ab5e8b716ea1ebc6316a06ad8431806002408a557a95"
+      }
+    ]
+  },
+  "drawingRevision": "CURRENT-H12p5B4R2-INSTALL",
+  "installationRevision": {
+    "revision": "B6-R1",
+    "adapterGeometryChanged": false,
+    "sourcePostBaseThicknessMm": 6,
+    "nominalOpticalHeightPreserved": true,
+    "physicalAssemblyAccepted": false
+  },
+  "notes": "本版安装页已按6 mm柱底及当前BOM修订；转接件本体加工尺寸保持。",
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": "assets/drawings/installation-b6-r1/custom-v7-1a_B6_R1_安装及原加工图_TN1_20261026.pdf",
+        "previousSha256": "76d6f0ccd1684ff21f768b06c9ea0bc5da93692b067abe2d4fc0b5be7565e3a7",
+        "sha256": "f17dee5adcff22e1b4fc2a27c271e0a1c4265c8827c93232c03d631aff591f4f"
+      }
+    ]
+  },
+  "h12p5AssemblyInstructionUpdate": {
+    "revision": "2026-10-28",
+    "partGeometryChanged": false,
+    "scope": "Only ordinary H12.5 post references in shared assembly instruction PDF updated."
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "name": "半英寸薄型镜架",
+  "category": "fixed",
+  "variant": "3 mm 镜片 / 62.5 mm",
+  "description": "胶头机米直接夹紧，保留真实镜面和安装基准。机械前反射面X0；实际镀膜型号/波长与P、S反射率和相位须选配后计算。",
+  "sourceUrl": "https://cad.onshape.com/documents/926b995fb9b7674e9010a9db/v/333905fafe338d0bdd05bfb9/e/42579f5482ae66eb61ed900a",
+  "sourceOnshapeStatus": "SOURCE_FIXED_VERSION; receiver library cloud copy pending",
+  "revision": "R3-B6R1",
+  "components": [
+    {
+      "componentId": "custom-h05-a3-r3--history-4ddc2cb17276",
+      "quantity": 1
+    },
+    {
+      "componentId": "ganter-gn9135-m3-3-ku--history-d7823184a7ac",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-post-metric-25mm-m1--history-f964ae955626",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-m4x8--history-205d6053e844",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-pin-d2x8--history-c15d3a11ee05",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "optic",
+      "label": "Ø12.7×3 mm反射镜片",
+      "type": "mirror",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 12.7
+    }
+  ],
+  "status": "加工审核版；待实物试装",
+  "releaseStage": "engineering-review",
+  "bundleStatus": "complete",
+  "bundleNote": "自制件STEP与三页加工/装配PDF齐全；光学片型号选填。",
+  "notes": "本体光高37.5 mm＋H25正式万能柱＝62.5 mm；含M4×8一颗、Ø2×8销两颗及胶头机米一颗。 B6 R1：万能柱底座6 mm，原标称总高和光学基准保持；当前完整STEP已实际换柱，未实物试装。",
+  "layout": {
+    "widthMm": 36.5,
+    "heightMm": 36.5,
+    "anchorXMm": 18.25,
+    "anchorYMm": 18.25,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "basePolygonsMm": [
+      [
+        {
+          "xMm": 17.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": -17.5,
+          "yMm": -17.5
+        }
+      ]
+    ],
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "collisionBoundsMm": {
+      "xMin": -17.65,
+      "yMin": -17.65,
+      "xMax": 17.65,
+      "yMax": 17.65
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": 17.65,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -17.65,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -17.65,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 17.65,
+          "yMm": 17.65
+        }
+      ]
+    ],
+    "topViewPath": "topviews/history-711e9738aa38d2011cb7593784faea2c666615b4173c6e017967606a5497163c.svg",
+    "topViewUrl": "./topviews/history-711e9738aa38d2011cb7593784faea2c666615b4173c6e017967606a5497163c.svg",
+    "placementAllowed": true,
+    "minimumAlignedMountingHoles": 4,
+    "nominalOpticalHeightMm": 62.5,
+    "opticalAxisHeightMm": 62.5,
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalSurfaceAngleDeg": 90,
+    "opticalDatumVerified": true,
+    "collisionGeometryVersion": "thin-clamps-r3-20261010",
+    "status": "真实STEP投影和25 mm安装孔群已核验",
+    "note": "安装锚点为正式公制柱中心；四个Ø6.4孔位于±12.5 mm；轮廓按真实CAD投影。",
+    "opticalAxisHeightSource": "原R3冻结总装读回；柱高与机加工件高度链分别核验。",
+    "opticalClearApertureMm": 11.5,
+    "opticalType": "mirror",
+    "opticalSimulationNote": "机械前反射面X0；实际镀膜型号/波长与P、S反射率和相位须选配后计算。",
+    "opticalDefaults": {
+      "elementType": "mirror",
+      "inserted": false,
+      "configured": false,
+      "clearApertureMm": 11.5,
+      "mirror": {
+        "mode": "data",
+        "model": "",
+        "samples": []
+      }
+    },
+    "opticalInteraction": {
+      "format": "zzlab-optical-interaction",
+      "version": 1,
+      "model": "planar",
+      "onNoMatch": "block",
+      "heightToleranceMm": 0.1,
+      "inputs": [
+        {
+          "id": "optic",
+          "steps": [
+            {
+              "op": "mirror"
+            }
+          ]
+        }
+      ]
+    },
+    "opticalGeometryEvidence": {
+      "coordinateFrame": "world X right / Y up / Z height",
+      "referencePointWorldMm": [
+        0,
+        0,
+        62.5
+      ],
+      "planeNormalWorld": [
+        -1,
+        0,
+        0
+      ],
+      "referenceKind": "front reflecting plane of nominal 3mm mirror",
+      "coatingIdentityVerified": false,
+      "sourceStepSha256": "f21383051e1b59b70316007d16f536ffb38597b4b3712120877848caa7134ed0",
+      "physicalTrialCompleted": false
+    },
+    "geometryEvidence": {
+      "sourceStep": "step/history-f21383051e1b59b70316007d16f536ffb38597b4b3712120877848caa7134ed0.step",
+      "sourceSha256": "f21383051e1b59b70316007d16f536ffb38597b4b3712120877848caa7134ed0",
+      "excludedReferences": [],
+      "cadFrameAlreadyKitLocal": true,
+      "sourceToKit": {
+        "matrixRows": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "translationMm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "previousProjectionSource": {
+        "sourceStep": "step/history-d1f9ec42d7668a47f953d7f252bc82c3bedfa2ab31df0a34cb7eca8664b54c27.step",
+        "sourceSha256": "d1f9ec42d7668a47f953d7f252bc82c3bedfa2ab31df0a34cb7eca8664b54c27"
+      },
+      "imageSha256": "711e9738aa38d2011cb7593784faea2c666615b4173c6e017967606a5497163c",
+      "partCount": 8,
+      "triangleCount": 14422,
+      "meshDeflectionMm": 0.035,
+      "postBaseRevision": {
+        "revision": "B6-R1",
+        "sourceRole": "complete",
+        "xyFootprintAndFunctionalDatumsPreserved": true,
+        "projectionReportSha256": "0ad39792c80dfa46e1c7038e2063a8ccb2a228cff8c1cb4a71a0d47b322c3eb0",
+        "displayTransform": null,
+        "sourceGeometryChangedByRenderer": false
+      }
+    },
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "f21383051e1b59b70316007d16f536ffb38597b4b3712120877848caa7134ed0",
+      "imageSha256": "711e9738aa38d2011cb7593784faea2c666615b4173c6e017967606a5497163c",
+      "revision": "B6-R1",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null
+    }
+  },
+  "assemblyAssets": [
+    {
+      "stepPath": "step/history-f21383051e1b59b70316007d16f536ffb38597b4b3712120877848caa7134ed0.step",
+      "sha256": "f21383051e1b59b70316007d16f536ffb38597b4b3712120877848caa7134ed0",
+      "role": "nominal-CAD-reference-assembly",
+      "includesPlaceholderOptics": true,
+      "revision": "R3"
+    }
+  ],
+  "manufacturingEvidence": {
+    "sourceVersionId": "6e2be70a92a934705469593a",
+    "sourceAssembly": {
+      "stepPath": "step/history-f21383051e1b59b70316007d16f536ffb38597b4b3712120877848caa7134ed0.step",
+      "sha256": "f21383051e1b59b70316007d16f536ffb38597b4b3712120877848caa7134ed0"
+    },
+    "physicalTrialCompleted": false,
+    "receiverDerivation": "Unmodified provider world assembly"
+  },
+  "postBaseRevision": {
+    "revision": "B6-R1",
+    "baseThicknessMm": 6,
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "cloudStatus": "pending",
+    "physicalAssemblyAccepted": false,
+    "previousSourceUrl": "https://cad.onshape.com/documents/10c8e5c8e9710143cb15d1ab/v/6e2be70a92a934705469593a/e/d2aab9ad3ded8a1d153c9b8c",
+    "sourceAssemblySha256": "d1f9ec42d7668a47f953d7f252bc82c3bedfa2ab31df0a34cb7eca8664b54c27",
+    "currentAssemblySha256": "f21383051e1b59b70316007d16f536ffb38597b4b3712120877848caa7134ed0",
+    "replacementReportSha256": "20862fd1eeea2d8c756e9f336336450682c4754f3a96a9f5c27f4ce80d943604",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "assemblyReference": {
+    "stepPath": "step/history-f21383051e1b59b70316007d16f536ffb38597b4b3712120877848caa7134ed0.step",
+    "sourceStepSha256": "f21383051e1b59b70316007d16f536ffb38597b4b3712120877848caa7134ed0",
+    "revision": "R3-B6R1",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true
+  },
+  "cloudReference": {
+    "active": false,
+    "current": false,
+    "status": "reviewed-reference-local-precision-source",
+    "documentId": "926b995fb9b7674e9010a9db",
+    "versionId": "333905fafe338d0bdd05bfb9",
+    "elementId": "42579f5482ae66eb61ed900a",
+    "sourceUrl": "https://cad.onshape.com/documents/926b995fb9b7674e9010a9db/v/333905fafe338d0bdd05bfb9/e/42579f5482ae66eb61ed900a",
+    "sourceStepSha256": "f21383051e1b59b70316007d16f536ffb38597b4b3712120877848caa7134ed0",
+    "strictWholeAssemblyGeometryEquivalent": false,
+    "allPostSolidsStrictGeometryEquivalent": true,
+    "allAssemblyIdentityAndPoseReferencesPassed": false,
+    "actualCloudAcceptanceSha256": "d989a799138415a93cf804a8080ad2712f38479d94a6e4d5dfb2f8121d4fb567",
+    "cloudMapSha256": "d989a799138415a93cf804a8080ad2712f38479d94a6e4d5dfb2f8121d4fb567",
+    "authoritativePrecisionSource": "当前已核验本地 B6 完整 STEP。云端 BRep 仅为回读参考；原生层级/运动及原厂转译差异未全部通过，不能用于自动精密复用。"
+  },
+  "id": "thin-mirror-05-r3--history-b93c8c8e5e8d",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "thin-mirror-05-r3",
+    "revision": "R3-B6R1",
+    "sourceRecordSha256": "84e95c04908cce49234a4faaf931308255b6f3b11d915a6719b4487107a2dd13"
+  }
+}

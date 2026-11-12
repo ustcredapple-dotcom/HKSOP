@@ -1,0 +1,95 @@
+{
+  "id": "new-iris-adapter-2",
+  "name": "可变光阑上板",
+  "model": "06-IRIS-U-M1",
+  "kind": "custom",
+  "unit": "件",
+  "status": "M1公制加工审核图；PDF、DXF与STEP同源",
+  "notes": "M1公制修订；虹膜叶片缺失于厂家CAD，叶片作用面待确认。。实物试装未完成。",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/f67a7160b86c862038086176",
+  "stepPath": "step/metric-m1-20261006/06-IRIS-U_METRIC_M1.step",
+  "drawingPath": "drawings/metric-m1-20261006/06-IRIS-U_M1_加工工程图.pdf",
+  "sourceStepSha256": "803520c4de587e5abb1e0a819dc4c27ef049db3e6be982f8ccf99b376d03a5d6",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "threadClass": "待确认",
+    "profileId": "r6_316L_passivated",
+    "policyVersion": "supplied-manufacturing-M1-2026-10-05",
+    "processDetails": "柱M4沉孔从顶面加工；商业M4沉孔从主底面加工。 叶片实际轴向作用面待实测，不以外框中面作保证。"
+  },
+  "drawingRevision": "M1",
+  "drawingStatus": "engineering-review",
+  "dxfPath": "drawings/metric-m1-20261006/06-IRIS-U_M1_加工工程图.dxf",
+  "manufacturingEvidence": {
+    "sourcePackage": null,
+    "sourceCode": "06-IRIS-U",
+    "sourceStepSha256": "803520c4de587e5abb1e0a819dc4c27ef049db3e6be982f8ccf99b376d03a5d6",
+    "drawingSha256": "9862eba0f584bab8dd4a05597855dd0dbcd425f4b52d2a660c668da9b1ca0c31",
+    "dxfSha256": "91fa5ded18fbf9b7fb36c674a950a6456640f4795a9954869feced406e213e0c",
+    "pageCount": 3,
+    "metricMigration": {
+      "post_height_old_mm": 25.4,
+      "post_height_new_mm": 25,
+      "selected_height_delta_mm": -0.6,
+      "world_bottom_delta_mm": -0.4,
+      "supplier_translation_mm": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "physicalTrialCompleted": false
+  },
+  "sourceDrawingSha256": "9862eba0f584bab8dd4a05597855dd0dbcd425f4b52d2a660c668da9b1ca0c31",
+  "sourceDxfSha256": "91fa5ded18fbf9b7fb36c674a950a6456640f4795a9954869feced406e213e0c",
+  "dxfPdfPath": "drawings/metric-m1-20261006/06-IRIS-U_M1_加工工程图_DXF.pdf",
+  "dxfPdfSha256": "b46404b42d1516b33e0096e39057a20b664fa8b327f8182cda93975dc54c1d55",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "d4eb3c485f6ba6e67deea812f18d437a0e14ce5bd7ac50f7844b35512e26c348",
+      "currentPdfSha256": "d0fdc166081e03c4125625735fd7d2b7db93e7723ac84084f52742c70214a0dc",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "9ff937dfda1be8c42f0b37d1cda77027e22328b29a5e0d40701514bd4905f976",
+      "currentPdfSha256": "b46404b42d1516b33e0096e39057a20b664fa8b327f8182cda93975dc54c1d55",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "06-IRIS-U",
+        "dxfPath": "drawings/laser-marking/new-iris-adapter-2/编号面_-Y.dxf",
+        "sha256": "4b95217d033998ccaa1383c7eceb8b8c0a9ebe0dbed493da1fec40a94b5abdec",
+        "setupPdfPath": "drawings/laser-marking/new-iris-adapter-2/编号面_-Y_定位说明.pdf",
+        "setupPdfSha256": "f2a8f84d7c5ba0aa4b3374022ca042675040f94899552c168b82b630ba75e47a"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "metric-m1-post-pin-d2x14",
+  "name": "柱顶圆垫接口定位销 Ø2×14",
+  "model": "Ø2×14",
+  "kind": "standard",
+  "unit": "件",
+  "standardSpec": "dimension-specified",
+  "status": "名义尺寸链已验；实物配合待核对",
+  "notes": "柱内4+圆垫6+转接板内4；两端盲孔圆柱深4.2，禁止压到钻尖。"
+}

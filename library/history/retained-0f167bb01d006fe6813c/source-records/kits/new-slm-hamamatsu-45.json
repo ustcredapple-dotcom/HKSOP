@@ -1,0 +1,375 @@
+{
+  "name": "滨松 SLM · 无水冷光学头 · −45°",
+  "category": "slm",
+  "variant": "公制 M1 · 名义光高62.5 mm",
+  "description": "M1真实装配俯视图；保持原安装与光学XY基准，配套公制转接件、正式万能柱及同源加工图。",
+  "sourceUrl": "https://cad.onshape.com/documents/9366703df3e39ee0154715df/v/9a91a1d63272fc599d1d1196/e/6f2e4a00f368f3d7bd32a75e",
+  "sourceOnshapeStatus": "M1_FIXED_VERSION_ASSEMBLY_VERIFIED",
+  "components": [
+    {
+      "componentId": "custom-post-metric-25mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-slm-21-adapter",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-slm-hamamatsu-head",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-slm-m6x8-review",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-m4x16",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-pin-d2x8",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [],
+  "layout": {
+    "topViewPath": "topviews/new-slm-hamamatsu-45__B6_R1.svg",
+    "topViewUrl": "./topviews/new-slm-hamamatsu-45__B6_R1.svg",
+    "widthMm": 55.717933,
+    "heightMm": 55.717933,
+    "anchorXMm": 24.358788,
+    "anchorYMm": 24.358788,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "basePolygonsMm": [
+      [
+        {
+          "xMm": -17.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": -17.5
+        }
+      ]
+    ],
+    "collisionBoundsMm": {
+      "xMin": -23.758788,
+      "yMin": -30.759145,
+      "xMax": 30.759145,
+      "yMax": 23.758788
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": 8.017976,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 9.235429,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 15.344217,
+          "yMm": 23.758788
+        },
+        {
+          "xMm": 22.37993,
+          "yMm": 16.723075
+        },
+        {
+          "xMm": 29.698485,
+          "yMm": 9.40452
+        },
+        {
+          "xMm": 22.98097,
+          "yMm": 2.687006
+        },
+        {
+          "xMm": 30.759145,
+          "yMm": -5.091169
+        },
+        {
+          "xMm": 5.091169,
+          "yMm": -30.759145
+        },
+        {
+          "xMm": -2.687006,
+          "yMm": -22.98097
+        },
+        {
+          "xMm": -9.40452,
+          "yMm": -29.698485
+        },
+        {
+          "xMm": -23.758788,
+          "yMm": -15.344217
+        },
+        {
+          "xMm": -17.65,
+          "yMm": -9.235429
+        },
+        {
+          "xMm": -17.65,
+          "yMm": -8.017976
+        },
+        {
+          "xMm": -22.839549,
+          "yMm": -2.828427
+        },
+        {
+          "xMm": -17.65,
+          "yMm": 2.361122
+        },
+        {
+          "xMm": -17.65,
+          "yMm": 17.65
+        },
+        {
+          "xMm": -2.361122,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 2.828427,
+          "yMm": 22.839549
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "metric-m1-2026-10-06",
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "placementAllowed": true,
+    "status": "M1 STEP实际俯视投影与安装孔已核验",
+    "note": "按四个实际底座孔吸附；碰撞按四实体细分投影加0.15毫米余量。光学头为官方图纸布局重建，电缆及外接件未建模；光学与装配尺寸为名义值。 无水冷光学头是依据滨松 LEJ-F10013 图纸重建的布局模型，非原厂制造CAD；FPC和线缆未建模。 名义反射面通过柱中心轴，名义反射中心高63.5 mm；玻璃前表面不作为反射基准。实物光学中心和反射深度有原厂公差。",
+    "nominalOpticalHeightMm": 62.5,
+    "opticalGeometryEvidence": {
+      "coordinateFrame": "world X right / Y up / Z height",
+      "sourceDatumHeightMm": 62.5,
+      "opticalCenterMm": {
+        "xMm": 0.0,
+        "yMm": 0.0
+      },
+      "referencePointWorldMm": [
+        0.0,
+        0.0,
+        62.5
+      ],
+      "planeNormalWorld": [
+        0.70710678,
+        -0.70710678,
+        0.0
+      ],
+      "opticalSurfaceAngleDeg": 45.0,
+      "referenceKind": "source reconstruction specified reflection plane; not front cover glass",
+      "sourceLeaf": "SLM_REFLECTION_ZERO_THICKNESS_REFERENCE",
+      "cadPlane": {
+        "areaMm2": 203.51999999999813,
+        "centerWorldMm": [
+          0.0,
+          0.0,
+          62.5
+        ],
+        "normalWorld": [
+          -0.70710678,
+          0.70710678,
+          0.0
+        ],
+        "centerLayoutMm": [
+          0.0,
+          0.0,
+          62.5
+        ],
+        "normalLayout": [
+          -0.70710678,
+          0.70710678,
+          0.0
+        ],
+        "boundsWorldMm": [
+          -5.62149891,
+          -5.62149891,
+          56.1,
+          5.62149891,
+          5.62149891,
+          68.9
+        ]
+      },
+      "activeAreaMm": {
+        "widthMm": 15.9,
+        "heightMm": 12.8
+      },
+      "coverGlassParallelFaceOffsetsMm": [
+        -3.0,
+        0.0
+      ],
+      "sourceType": "依据滨松官方图纸重建的布局模型，非原厂制造 CAD",
+      "geometricReferenceOnly": true,
+      "phaseResponseVerified": false,
+      "note": "名义反射面通过柱轴 (0,0,62.5)，不可用前玻璃面替代。零厚参考面只用于光学定位，不参与实体渲染与碰撞。未定义 SLM 像素相位图、衍射或偏振响应；不由外形模型推断。",
+      "migrationEvidence": {
+        "sourceSha256": "3f599f12db5479149a47314c90d7e1a9f8d7e24eb8ebf2cda99c8b701b41d65d",
+        "providerReadbackStatus": "PASS_REPLACEMENT_READBACK_FINAL_POST_SOURCE_CHECK_REQUIRED_SEPARATELY",
+        "supplierTranslationMm": [
+          0,
+          0,
+          -1
+        ],
+        "measuredAgainstFrozenM1": true,
+        "physicalTrialCompleted": false
+      }
+    },
+    "geometryEvidence": {
+      "sourceStep": "step/universal-post-b6-r1/assemblies/new-slm-hamamatsu-45__B6_R1.step",
+      "sourceSha256": "3afa266cfd8e2b4afe449f4efc7f649c304d53e5ee2d8a3f2b63cf9650747554",
+      "partCount": 5,
+      "postCount": 1,
+      "imageSha256": "4f3edb0f7bec26029582bf8e8b933f5a2de03c8c37ce1ee19204033c52cfd436",
+      "faceColoursPreserved": true,
+      "excludedReferenceCount": 1,
+      "guardMm": 0.15,
+      "meshDeflectionMm": 0.035,
+      "axes": "world X right / Y up / Z height",
+      "referenceAssembly": {
+        "assetKind": "assembly-reference-not-manufacturing-part",
+        "stepPath": "step/universal-post-b6-r1/assemblies/new-slm-hamamatsu-45__B6_R1.step",
+        "sha256": "3afa266cfd8e2b4afe449f4efc7f649c304d53e5ee2d8a3f2b63cf9650747554"
+      },
+      "previousProjectionSource": {
+        "sourceStep": null,
+        "sourceSha256": "3f599f12db5479149a47314c90d7e1a9f8d7e24eb8ebf2cda99c8b701b41d65d",
+        "imageSha256": "65b467c0476797dfd9d898147b08e4a2595aba9df570f8fbe4e0ca905728c8f7",
+        "partCount": 4,
+        "meshDeflectionMm": 0.04
+      },
+      "triangleCount": 16876,
+      "postBaseRevision": {
+        "revision": "B6-R1",
+        "sourceRole": "complete",
+        "xyFootprintAndFunctionalDatumsPreserved": true,
+        "projectionReportSha256": "0abfa88b794909274ad1b49cb746bbcef99f33dcdc0217b76fcd906adabba130",
+        "displayTransform": null,
+        "sourceGeometryChangedByRenderer": false
+      }
+    },
+    "opticalType": "unsupported",
+    "opticalAxisHeightMm": 62.5,
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalSurfaceAngleDeg": 45,
+    "opticalDatumVerified": true,
+    "opticalAxisHeightSource": "冻结M1总装、正式公制柱及商用件实际刚体变换已回读；名义光高62.5 mm。",
+    "opticalSimulationNote": "名义反射面通过柱轴 (0,0,62.5)，不可用前玻璃面替代。零厚参考面只用于光学定位，不参与实体渲染与碰撞。未定义 SLM 像素相位图、衍射或偏振响应；不由外形模型推断。",
+    "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/2ed7fb2849af8aa467c0db11/e/bb9b21ca69606beedb869f8f",
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "3afa266cfd8e2b4afe449f4efc7f649c304d53e5ee2d8a3f2b63cf9650747554",
+      "imageSha256": "4f3edb0f7bec26029582bf8e8b933f5a2de03c8c37ce1ee19204033c52cfd436",
+      "revision": "B6-R1",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null
+    }
+  },
+  "status": "M1加工审核版",
+  "releaseStage": "manufacturing-review",
+  "bundleStatus": "complete",
+  "bundleNote": "冻结M1 STEP、三页加工PDF及可编辑DXF配套；未作实物试装验收。",
+  "notes": "背孔高24±0.15、反射面深14.2±0.3；光学中心高24适用厂家未注±1。M6深4的有效牙深及公差需实测。 裸柱锁台后装L座并锁前M4，再落入SLM头，底面坐合且背面靠挡，最后从背部M6固定。背M6×8仅为名义选型起点，安装前测有效牙深和实际伸出。 非柱侧安装紧固件仍按孔表与实物选配。 B6 R1：万能柱底座6 mm，原标称总高和光学基准保持；当前完整STEP已实际换柱，未实物试装。",
+  "optionalNotes": [
+    "M1柱侧螺钉与销钉已按同源BOM计入；其余安装紧固件按孔表和实测有效牙深选配。"
+  ],
+  "sourceAssembly": {
+    "documentId": "fd8b55510f12b0bdce032326",
+    "versionId": "2ed7fb2849af8aa467c0db11",
+    "elementId": "bb9b21ca69606beedb869f8f",
+    "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/2ed7fb2849af8aa467c0db11/e/bb9b21ca69606beedb869f8f",
+    "stepSha256": "8bb93d7dfa23b88e2b5bfe77c1dc55e8367365d7196e09735a97ebfa0dc7079f",
+    "sourceModelPurpose": "layout-reconstruction"
+  },
+  "metricRevision": {
+    "revision": "M1",
+    "nativeAssemblySha256": "3f599f12db5479149a47314c90d7e1a9f8d7e24eb8ebf2cda99c8b701b41d65d",
+    "nominalAxisHeightMm": 62.5,
+    "sourceVersionId": "4931897f80d530bffcf46a4e",
+    "preservedInstanceXY": true
+  },
+  "manufacturingRevision": "M1",
+  "manufacturingEvidence": {
+    "sourceAssembly": {
+      "stepPath": "step/universal-post-b6-r1/assemblies/new-slm-hamamatsu-45__B6_R1.step",
+      "sha256": "3afa266cfd8e2b4afe449f4efc7f649c304d53e5ee2d8a3f2b63cf9650747554"
+    },
+    "sourceVersionId": "4931897f80d530bffcf46a4e",
+    "customCodes": [],
+    "hardwarePolicy": "M1 supplied column-side screws and pins included; other mounting fasteners remain optional pending selection.",
+    "topViewVisualReviewPassed": true,
+    "physicalTrialCompleted": false
+  },
+  "postBaseRevision": {
+    "revision": "B6-R1",
+    "baseThicknessMm": 6,
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "cloudStatus": "pending",
+    "physicalAssemblyAccepted": false,
+    "previousSourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/bb9b21ca69606beedb869f8f",
+    "sourceAssemblySha256": "3f599f12db5479149a47314c90d7e1a9f8d7e24eb8ebf2cda99c8b701b41d65d",
+    "currentAssemblySha256": "3afa266cfd8e2b4afe449f4efc7f649c304d53e5ee2d8a3f2b63cf9650747554",
+    "replacementReportSha256": "155dafeac8cc2e0e87de54b604786c63da139c76acd8cc876c8964159ff5ce3e",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "revision": "CURRENT-B6R1",
+  "assemblyReference": {
+    "stepPath": "step/universal-post-b6-r1/assemblies/new-slm-hamamatsu-45__B6_R1.step",
+    "sourceStepSha256": "3afa266cfd8e2b4afe449f4efc7f649c304d53e5ee2d8a3f2b63cf9650747554",
+    "revision": "CURRENT-B6R1",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true
+  },
+  "cloudReference": {
+    "active": false,
+    "current": false,
+    "status": "reviewed-reference-local-precision-source",
+    "documentId": "9366703df3e39ee0154715df",
+    "versionId": "9a91a1d63272fc599d1d1196",
+    "elementId": "6f2e4a00f368f3d7bd32a75e",
+    "sourceUrl": "https://cad.onshape.com/documents/9366703df3e39ee0154715df/v/9a91a1d63272fc599d1d1196/e/6f2e4a00f368f3d7bd32a75e",
+    "sourceStepSha256": "3afa266cfd8e2b4afe449f4efc7f649c304d53e5ee2d8a3f2b63cf9650747554",
+    "strictWholeAssemblyGeometryEquivalent": false,
+    "allPostSolidsStrictGeometryEquivalent": true,
+    "allAssemblyIdentityAndPoseReferencesPassed": false,
+    "actualCloudAcceptanceSha256": "d989a799138415a93cf804a8080ad2712f38479d94a6e4d5dfb2f8121d4fb567",
+    "cloudMapSha256": "d989a799138415a93cf804a8080ad2712f38479d94a6e4d5dfb2f8121d4fb567",
+    "authoritativePrecisionSource": "当前已核验本地 B6 完整 STEP。云端 BRep 仅为回读参考；原生层级/运动及原厂转译差异未全部通过，不能用于自动精密复用。"
+  },
+  "id": "new-slm-hamamatsu-45"
+}

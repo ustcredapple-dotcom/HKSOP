@@ -1,0 +1,763 @@
+{
+  "name": "HPB-1-2反射镜架 0°",
+  "category": "adjustable",
+  "variant": "共用HPB1-A-R2",
+  "revision": "R2",
+  "description": "标准名义光高62.5 mm；0°/45°共用同一HPB1-A-R2，按柱顶定位孔换向。",
+  "components": [
+    {
+      "componentId": "custom-post-metric-25mm-m1--history-f964ae955626",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-hpb1-a--history-f440cd64f6f4",
+      "quantity": 1
+    },
+    {
+      "componentId": "hpb-1-2--history-373c88dd191c",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-m4x16--history-b6b6f977be92",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-pin-d2x8--history-c15d3a11ee05",
+      "quantity": 2
+    },
+    {
+      "componentId": "v7-iso4762-m4x12--history-3b61a28705cd",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-pin-d2x6--history-182bfc050a3a",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "optic",
+      "label": "Ø25.4×6反射镜（未选型）",
+      "type": "mirror",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 25.4,
+      "thicknessMm": 6
+    }
+  ],
+  "layout": {
+    "topViewPath": "topviews/history-95799933d39341f835d0a0fcff6401a7e29e35f3cae7b9dc62304746f5b68f14.svg",
+    "widthMm": 55,
+    "heightMm": 73,
+    "anchorXMm": 28,
+    "anchorYMm": 19,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "collisionBoundsMm": {
+      "xMin": -26.697755789826548,
+      "yMin": -52.05,
+      "xMax": 25.45,
+      "yMax": 17.53535533905933
+    },
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "placementAllowed": true,
+    "status": "名义安装与真实俯视投影已核；实物与运动待验",
+    "opticalType": "mirror",
+    "opticalAxisHeightMm": 62.5,
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalDatumVerified": true,
+    "opticalSimulationNote": "按6mm厚参考镜片的名义前表面；镀膜与实际装片另行配置。",
+    "geometryEvidence": {
+      "source": "Exact delivered assembly STEP XY triangulated projection",
+      "sourceStepSha256": "6de442a0cabc55d57d1c8f9d0baa1195fd4c9b5185172f42cad472524772020f",
+      "leafCount": 4,
+      "base6mmVerified": true,
+      "projectionMethod": "actual triangulated XY union, linear deflection0.035mm, buffer0.05mm, simplification0.015mm; internal footprint holes conservatively filled",
+      "physicalTrial": false,
+      "sourcePoseUnchanged": true,
+      "imageSha256": "95799933d39341f835d0a0fcff6401a7e29e35f3cae7b9dc62304746f5b68f14"
+    },
+    "opticalSurfaceAngleDeg": 0,
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -25.020711,
+          "yMm": -26.95
+        },
+        {
+          "xMm": -25.45,
+          "yMm": -26.5
+        },
+        {
+          "xMm": -25.45,
+          "yMm": -17.0
+        },
+        {
+          "xMm": -25.4,
+          "yMm": -16.95
+        },
+        {
+          "xMm": -24.761954,
+          "yMm": -16.95
+        },
+        {
+          "xMm": -25.055801,
+          "yMm": -16.849241
+        },
+        {
+          "xMm": -25.300847,
+          "yMm": -16.709274
+        },
+        {
+          "xMm": -25.300763,
+          "yMm": -14.790501
+        },
+        {
+          "xMm": -24.937341,
+          "yMm": -14.60345
+        },
+        {
+          "xMm": -24.412751,
+          "yMm": -14.451871
+        },
+        {
+          "xMm": -23.820011,
+          "yMm": -14.45
+        },
+        {
+          "xMm": -23.318434,
+          "yMm": -13.953806
+        },
+        {
+          "xMm": -21.95,
+          "yMm": -13.95
+        },
+        {
+          "xMm": -21.95,
+          "yMm": -10.1
+        },
+        {
+          "xMm": -21.597337,
+          "yMm": -9.47577
+        },
+        {
+          "xMm": -21.5536,
+          "yMm": -9.45
+        },
+        {
+          "xMm": -21.42583,
+          "yMm": -9.45
+        },
+        {
+          "xMm": -21.398954,
+          "yMm": -9.268738
+        },
+        {
+          "xMm": -21.249835,
+          "yMm": -8.811682
+        },
+        {
+          "xMm": -21.012472,
+          "yMm": -8.400638
+        },
+        {
+          "xMm": -20.698214,
+          "yMm": -8.05
+        },
+        {
+          "xMm": -24.9,
+          "yMm": -8.05
+        },
+        {
+          "xMm": -25.446194,
+          "yMm": -7.519134
+        },
+        {
+          "xMm": -25.4498,
+          "yMm": -0.499999
+        },
+        {
+          "xMm": -24.8998,
+          "yMm": 0.05
+        },
+        {
+          "xMm": -17.55,
+          "yMm": 0.05
+        },
+        {
+          "xMm": -17.535355,
+          "yMm": 17.535355
+        },
+        {
+          "xMm": 17.535355,
+          "yMm": 17.535355
+        },
+        {
+          "xMm": 17.55,
+          "yMm": 0.05
+        },
+        {
+          "xMm": 23.4,
+          "yMm": 0.05
+        },
+        {
+          "xMm": 23.95,
+          "yMm": -0.5
+        },
+        {
+          "xMm": 23.946194,
+          "yMm": -7.519134
+        },
+        {
+          "xMm": 23.4,
+          "yMm": -8.05
+        },
+        {
+          "xMm": 19.824202,
+          "yMm": -8.05
+        },
+        {
+          "xMm": 19.928245,
+          "yMm": -8.5
+        },
+        {
+          "xMm": 20.0536,
+          "yMm": -8.5
+        },
+        {
+          "xMm": 20.096902,
+          "yMm": -8.525001
+        },
+        {
+          "xMm": 20.45,
+          "yMm": -9.150012
+        },
+        {
+          "xMm": 20.4495,
+          "yMm": -11.95
+        },
+        {
+          "xMm": 24.9,
+          "yMm": -11.95
+        },
+        {
+          "xMm": 25.45,
+          "yMm": -12.5
+        },
+        {
+          "xMm": 25.446194,
+          "yMm": -26.519134
+        },
+        {
+          "xMm": 24.919134,
+          "yMm": -27.046194
+        },
+        {
+          "xMm": 23.818168,
+          "yMm": -27.05
+        },
+        {
+          "xMm": 23.9474,
+          "yMm": -27.2
+        },
+        {
+          "xMm": 23.932764,
+          "yMm": -31.835346
+        },
+        {
+          "xMm": 23.6975,
+          "yMm": -32.05
+        },
+        {
+          "xMm": 20.6994,
+          "yMm": -32.05
+        },
+        {
+          "xMm": 20.6994,
+          "yMm": -36.95
+        },
+        {
+          "xMm": 24.694782,
+          "yMm": -36.951859
+        },
+        {
+          "xMm": 24.897421,
+          "yMm": -37.009087
+        },
+        {
+          "xMm": 25.036961,
+          "yMm": -37.109611
+        },
+        {
+          "xMm": 25.140387,
+          "yMm": -37.252023
+        },
+        {
+          "xMm": 25.193056,
+          "yMm": -37.415943
+        },
+        {
+          "xMm": 25.193056,
+          "yMm": -46.084057
+        },
+        {
+          "xMm": 25.140387,
+          "yMm": -46.247977
+        },
+        {
+          "xMm": 25.039889,
+          "yMm": -46.387461
+        },
+        {
+          "xMm": 24.935222,
+          "yMm": -46.46993
+        },
+        {
+          "xMm": 24.775983,
+          "yMm": -46.535253
+        },
+        {
+          "xMm": 23.199609,
+          "yMm": -46.55
+        },
+        {
+          "xMm": 23.184962,
+          "yMm": -51.785348
+        },
+        {
+          "xMm": 22.8997,
+          "yMm": -52.05
+        },
+        {
+          "xMm": 12.4003,
+          "yMm": -52.05
+        },
+        {
+          "xMm": 12.104207,
+          "yMm": -51.769136
+        },
+        {
+          "xMm": 12.100391,
+          "yMm": -46.55
+        },
+        {
+          "xMm": 10.524017,
+          "yMm": -46.535253
+        },
+        {
+          "xMm": 10.364778,
+          "yMm": -46.46993
+        },
+        {
+          "xMm": 10.260111,
+          "yMm": -46.387461
+        },
+        {
+          "xMm": 10.159613,
+          "yMm": -46.247977
+        },
+        {
+          "xMm": 10.106944,
+          "yMm": -46.084057
+        },
+        {
+          "xMm": 10.106944,
+          "yMm": -37.415943
+        },
+        {
+          "xMm": 10.159613,
+          "yMm": -37.252023
+        },
+        {
+          "xMm": 10.263039,
+          "yMm": -37.109611
+        },
+        {
+          "xMm": 10.402579,
+          "yMm": -37.009087
+        },
+        {
+          "xMm": 10.605218,
+          "yMm": -36.951859
+        },
+        {
+          "xMm": 14.6006,
+          "yMm": -36.95
+        },
+        {
+          "xMm": 14.6006,
+          "yMm": -32.05
+        },
+        {
+          "xMm": 11.6025,
+          "yMm": -32.05
+        },
+        {
+          "xMm": 11.356411,
+          "yMm": -31.819145
+        },
+        {
+          "xMm": 11.3511,
+          "yMm": -29.750037
+        },
+        {
+          "xMm": 11.4011,
+          "yMm": -29.7
+        },
+        {
+          "xMm": 11.737026,
+          "yMm": -29.7
+        },
+        {
+          "xMm": 11.736736,
+          "yMm": -29.3
+        },
+        {
+          "xMm": 11.4011,
+          "yMm": -29.3
+        },
+        {
+          "xMm": 11.3511,
+          "yMm": -29.249963
+        },
+        {
+          "xMm": 11.3526,
+          "yMm": -27.199963
+        },
+        {
+          "xMm": 11.481832,
+          "yMm": -27.05
+        },
+        {
+          "xMm": 9.05,
+          "yMm": -27.05
+        },
+        {
+          "xMm": 9.048164,
+          "yMm": -27.949009
+        },
+        {
+          "xMm": 8.99972,
+          "yMm": -28.150506
+        },
+        {
+          "xMm": 8.892816,
+          "yMm": -28.323841
+        },
+        {
+          "xMm": 8.741235,
+          "yMm": -28.453203
+        },
+        {
+          "xMm": 8.599009,
+          "yMm": -28.518712
+        },
+        {
+          "xMm": 8.4,
+          "yMm": -28.55
+        },
+        {
+          "xMm": -8.449128,
+          "yMm": -28.548059
+        },
+        {
+          "xMm": -8.693306,
+          "yMm": -28.48002
+        },
+        {
+          "xMm": -8.892961,
+          "yMm": -28.323592
+        },
+        {
+          "xMm": -9.018716,
+          "yMm": -28.098996
+        },
+        {
+          "xMm": -9.05,
+          "yMm": -27.789181
+        },
+        {
+          "xMm": -9.250079,
+          "yMm": -27.659613
+        },
+        {
+          "xMm": -9.473784,
+          "yMm": -27.469124
+        },
+        {
+          "xMm": -9.642345,
+          "yMm": -27.282926
+        },
+        {
+          "xMm": -9.80845,
+          "yMm": -27.05
+        },
+        {
+          "xMm": -12.980289,
+          "yMm": -27.05
+        },
+        {
+          "xMm": -12.851,
+          "yMm": -27.19999
+        },
+        {
+          "xMm": -12.854403,
+          "yMm": -29.269127
+        },
+        {
+          "xMm": -12.9006,
+          "yMm": -29.3
+        },
+        {
+          "xMm": -13.607045,
+          "yMm": -29.3
+        },
+        {
+          "xMm": -13.606551,
+          "yMm": -29.7
+        },
+        {
+          "xMm": -12.9006,
+          "yMm": -29.7
+        },
+        {
+          "xMm": -12.854403,
+          "yMm": -29.730873
+        },
+        {
+          "xMm": -12.854808,
+          "yMm": -31.819139
+        },
+        {
+          "xMm": -13.101,
+          "yMm": -32.05
+        },
+        {
+          "xMm": -16.1,
+          "yMm": -32.05
+        },
+        {
+          "xMm": -16.1,
+          "yMm": -36.95
+        },
+        {
+          "xMm": -12.105118,
+          "yMm": -36.951859
+        },
+        {
+          "xMm": -11.902428,
+          "yMm": -37.009065
+        },
+        {
+          "xMm": -11.762875,
+          "yMm": -37.10967
+        },
+        {
+          "xMm": -11.661201,
+          "yMm": -37.248523
+        },
+        {
+          "xMm": -11.606844,
+          "yMm": -37.415943
+        },
+        {
+          "xMm": -11.606844,
+          "yMm": -46.084057
+        },
+        {
+          "xMm": -11.659365,
+          "yMm": -46.247872
+        },
+        {
+          "xMm": -11.760074,
+          "yMm": -46.38753
+        },
+        {
+          "xMm": -11.898823,
+          "yMm": -46.489099
+        },
+        {
+          "xMm": -12.023917,
+          "yMm": -46.535253
+        },
+        {
+          "xMm": -13.600197,
+          "yMm": -46.55
+        },
+        {
+          "xMm": -13.600221,
+          "yMm": -48.388657
+        },
+        {
+          "xMm": -13.6492,
+          "yMm": -49.500046
+        },
+        {
+          "xMm": -13.600404,
+          "yMm": -50.601685
+        },
+        {
+          "xMm": -13.604008,
+          "yMm": -51.769138
+        },
+        {
+          "xMm": -13.9002,
+          "yMm": -52.05
+        },
+        {
+          "xMm": -24.418934,
+          "yMm": -52.046194
+        },
+        {
+          "xMm": -24.6998,
+          "yMm": -51.750009
+        },
+        {
+          "xMm": -24.699577,
+          "yMm": -50.602477
+        },
+        {
+          "xMm": -24.6508,
+          "yMm": -49.500047
+        },
+        {
+          "xMm": -24.699782,
+          "yMm": -48.386848
+        },
+        {
+          "xMm": -24.6998,
+          "yMm": -46.55
+        },
+        {
+          "xMm": -26.276083,
+          "yMm": -46.535253
+        },
+        {
+          "xMm": -26.401177,
+          "yMm": -46.489099
+        },
+        {
+          "xMm": -26.539926,
+          "yMm": -46.38753
+        },
+        {
+          "xMm": -26.640635,
+          "yMm": -46.247872
+        },
+        {
+          "xMm": -26.693156,
+          "yMm": -46.084057
+        },
+        {
+          "xMm": -26.697756,
+          "yMm": -37.454943
+        },
+        {
+          "xMm": -26.640635,
+          "yMm": -37.252128
+        },
+        {
+          "xMm": -26.539926,
+          "yMm": -37.11247
+        },
+        {
+          "xMm": -26.397572,
+          "yMm": -37.009065
+        },
+        {
+          "xMm": -26.194882,
+          "yMm": -36.951859
+        },
+        {
+          "xMm": -22.2,
+          "yMm": -36.95
+        },
+        {
+          "xMm": -22.2,
+          "yMm": -32.05
+        },
+        {
+          "xMm": -25.199,
+          "yMm": -32.05
+        },
+        {
+          "xMm": -25.445195,
+          "yMm": -31.819132
+        },
+        {
+          "xMm": -25.449,
+          "yMm": -27.200005
+        },
+        {
+          "xMm": -25.218134,
+          "yMm": -26.953806
+        }
+      ]
+    ],
+    "mountingHoleRadiusMm": 3.3,
+    "sourceUrl": "https://cad.onshape.com/documents/c81e179e2c4e6dfd1bf2e8ef/v/b77231dbd95307e7989be262/e/b7f3a06eea1c28c05ebcd53d",
+    "opticalDatumScope": "Nominal CAD front face with Ø25.4×6 mm reference mirror; selected optic and physical calibration pending",
+    "topViewUrl": "./topviews/history-95799933d39341f835d0a0fcff6401a7e29e35f3cae7b9dc62304746f5b68f14.svg"
+  },
+  "status": "设计审核版；全行程及实物待验",
+  "notes": "真实厂商曲面参考保持；不声称全实体干涉或全行程通过。紧固件列BOM但总装未画；镜片为尺寸参考，不计固定采购BOM。 全行程及云端内部配合未验收。光学模拟以Ø25.4×6mm名义镜片前表面为基准。",
+  "assemblyReference": {
+    "stepPath": "step/history-6de442a0cabc55d57d1c8f9d0baa1195fd4c9b5185172f42cad472524772020f.step",
+    "sourceStepSha256": "6de442a0cabc55d57d1c8f9d0baa1195fd4c9b5185172f42cad472524772020f",
+    "revision": "R2",
+    "nominalFixedPositionAssembly": true,
+    "drawingPath": "drawings/history-45b0fb862579f06747d74ed64585534ad5420bd4c92d42932a86739fc15eb066.pdf",
+    "sourceDrawingSha256": "45b0fb862579f06747d74ed64585534ad5420bd4c92d42932a86739fc15eb066",
+    "sha256": "6de442a0cabc55d57d1c8f9d0baa1195fd4c9b5185172f42cad472524772020f",
+    "sourceExact": true,
+    "sourceUrl": "https://cad.onshape.com/documents/c81e179e2c4e6dfd1bf2e8ef/v/b77231dbd95307e7989be262/e/b7f3a06eea1c28c05ebcd53d"
+  },
+  "mechanicalConfiguration": {
+    "angleDeg": 0,
+    "postClockDeg": 0,
+    "adapterId": "custom-hpb1-a"
+  },
+  "releaseStage": "engineering-review",
+  "bundleStatus": "engineering-review",
+  "bundleNote": "保留原交付模型和BOM；原厂开放曲面、完整运动与实物验收未完成。",
+  "sourceUrl": "https://cad.onshape.com/documents/c81e179e2c4e6dfd1bf2e8ef/v/b77231dbd95307e7989be262/e/b7f3a06eea1c28c05ebcd53d",
+  "capabilities": {
+    "layout": true,
+    "mounting": "nominal CAD only",
+    "opticalSimulation": true,
+    "productionApproval": false
+  },
+  "id": "mirror-hpb1-0deg--history-8161795701a5",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "mirror-hpb1-0deg",
+    "revision": "R2",
+    "sourceRecordSha256": "5e61c8000ef0bf5419803e98d19475ab98adeeea4e5d8cfc50aca0054f758f84"
+  }
+}

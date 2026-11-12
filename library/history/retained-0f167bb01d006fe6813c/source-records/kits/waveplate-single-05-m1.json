@@ -1,0 +1,290 @@
+{
+  "name": "0.5 inch 单波片 · CMRM05S · 公制62.5",
+  "category": "waveplate",
+  "variant": "23-WP05-S M1 · 37.5mm万能柱 · 0°基准装配",
+  "description": "冻结单波片转接系统；柱轴、底孔和光学基准来自真实STEP。",
+  "sourceUrl": "https://cad.onshape.com/documents/4bb313da2c5d07780afc4308/v/d524d8fef820cd8f525ff079/e/1b24833313b114de22b88f99",
+  "components": [
+    {
+      "componentId": "custom-waveplate-single-05-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-post-metric-37p5mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "cmrm05s",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-hardware-1d23c1ca342d",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-hardware-f0579b934c7c",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-hardware-ff9fb49c865c",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "wave-1",
+      "label": "单片位 · 波片待选",
+      "type": "waveplate",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 12.7,
+      "maxThicknessMm": 7.2,
+      "note": "图中3.2mm厚532nm片仅机械参考；实际片型、波长、快轴和延迟未选。"
+    }
+  ],
+  "layout": {
+    "topViewPath": "topviews/waveplate-single-05-m1__B6_R1.svg",
+    "topViewUrl": "./topviews/waveplate-single-05-m1__B6_R1.svg",
+    "widthMm": 36.5,
+    "heightMm": 36.5,
+    "anchorXMm": 18.25,
+    "anchorYMm": 18.25,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "basePolygonsMm": [
+      [
+        {
+          "xMm": -17.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": -17.5
+        }
+      ]
+    ],
+    "collisionBoundsMm": {
+      "xMin": -17.65,
+      "yMin": -17.65,
+      "xMax": 17.65,
+      "yMax": 17.65
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -17.65,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -17.65,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 17.65,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 17.65,
+          "yMm": -17.65
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "waveplate05-M1-frozen-step-20261006",
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "minimumAlignedMountingHoles": 4,
+    "mountingHoleRadiusMm": 3.2,
+    "placementAllowed": true,
+    "opticalAxisHeightMm": 62.5,
+    "nominalOpticalHeightMm": 62.5,
+    "opticalSurfaceAngleDeg": 90,
+    "opticalCenterMm": {
+      "xMm": 5.36,
+      "yMm": 0
+    },
+    "geometryEvidence": {
+      "sourceStepSha256": "655988a3d0679abced1def51b743845108e9c3eaafe8455d7eba534d71b8cb6f",
+      "leafCount": 9,
+      "meshDeflectionMm": 0.035,
+      "meshAngularDeflectionRad": 0.16,
+      "collisionGuardMm": 0.15,
+      "collisionCoversActualProjection": true,
+      "frame": "X right/Y up/Z height; post axis XY0 and supportZ0",
+      "measuredLeafReport": "library/reviews/waveplate05-metric-m1-import-20261006/evidence/provider/projection_review.json",
+      "previousProjectionSource": {
+        "meshDeflectionMm": 0.04
+      },
+      "sourceStep": "step/universal-post-b6-r1/assemblies/waveplate-single-05-m1__B6_R1.step",
+      "sourceSha256": "655988a3d0679abced1def51b743845108e9c3eaafe8455d7eba534d71b8cb6f",
+      "imageSha256": "44aeba0fc2475be6ae2433e0bdc479e755828644cddb4c874343fa2a22b1e8b4",
+      "partCount": 9,
+      "triangleCount": 114712,
+      "postBaseRevision": {
+        "revision": "B6-R1",
+        "sourceRole": "complete",
+        "xyFootprintAndFunctionalDatumsPreserved": true,
+        "projectionReportSha256": "e351a5d4efb57f26b7b90954737b98cdad4691f294ce7fd1f951991eb91a9e36",
+        "displayTransform": null,
+        "sourceGeometryChangedByRenderer": false
+      }
+    },
+    "opticalType": "waveplate",
+    "opticalDefaults": {
+      "elementType": "waveplate",
+      "surfaceAngleDeg": 90,
+      "inserted": true,
+      "configured": false,
+      "waveplates": [
+        {
+          "inserted": true
+        }
+      ]
+    },
+    "opticalDatumVerified": true,
+    "opticalAxisHeightSource": "冻结装配：37.5mm正式柱+10mm转接承台+15mm原厂轴高=62.5mm；原轴XY0不变。",
+    "opticalSimulationNote": "单片真实名义功能中面X+5.36。CAD中532nm参考片不等于已选购/已安装；快轴、延迟与工作波长需用户确认。 Ø12.7是光片外径，不是有效通光口径；首次渲染须明确填写实际通光口径。机械0°不等于波片快轴0°。",
+    "opticalGeometryEvidence": {
+      "physicalWaveplateCentersMm": [
+        [
+          5.36,
+          0,
+          62.5
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "sourceStepSha256": "655988a3d0679abced1def51b743845108e9c3eaafe8455d7eba534d71b8cb6f",
+      "sourceReferenceModels": [
+        "HWP13-532A"
+      ],
+      "referenceModelsAreDefaultPurchase": false,
+      "actualFastAxisToDialCalibrationKnown": false,
+      "retardanceAtOperatingWavelengthKnown": false,
+      "equivalentThinSequence": false,
+      "physicalInterplateDistanceMm": null,
+      "positiveDirectionSequence": "X negative to X positive; reverse propagation is reversed by engine once"
+    },
+    "opticalInteraction": {
+      "format": "zzlab-optical-interaction",
+      "version": 1,
+      "model": "planar",
+      "onNoMatch": "block",
+      "inputs": [
+        {
+          "id": "axial",
+          "direction": {
+            "angleDeg": 0,
+            "halfAngleDeg": 5,
+            "bidirectional": true
+          },
+          "steps": [
+            {
+              "op": "waveplate"
+            }
+          ]
+        }
+      ]
+    },
+    "status": "真实STEP俯视与公制安装基准已核；光学配置待选",
+    "note": "四个底座实际孔±12.5；12.5/25网格均可四孔对齐，锚点是柱轴XY0。",
+    "opticalClearApertureVerified": false,
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "655988a3d0679abced1def51b743845108e9c3eaafe8455d7eba534d71b8cb6f",
+      "imageSha256": "44aeba0fc2475be6ae2433e0bdc479e755828644cddb4c874343fa2a22b1e8b4",
+      "revision": "B6-R1",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null
+    }
+  },
+  "releaseStage": "engineering-review",
+  "status": "冻结M1工程审核包；光学片待选、双销与螺纹末端须实配验收",
+  "bundleStatus": "complete",
+  "notes": "商架先离柱从底部M4×10固定，靠紧短平行后挡；再以两销接柱，并从露出的M4×12锁柱。该BOM按冻结图给出的名义建议尺寸，不证明已实装或紧固力。M4×10夹6入4（原厂有效牙5.5）；柱M4×12夹6入6（直段孔深8）；Ø2×8按4/4名义插入，两侧有效盲深4.2，实际倒角及配合验收。底座与用户面包板的M6螺钉长度未指定，另行选配。 本波片连接使用37.5mm柱的偏心H006固定孔（距柱轴8.5mm，图注M4深8、STEP钻孔直段8mm），M4×12名义旋入6mm；柱中心H007另为M4深12，两孔不同。末端完整牙与双销配合仍须实装确认。 B6 R1：万能柱底座6 mm，原标称总高和光学基准保持；当前完整STEP已实际换柱，未实物试装。",
+  "assemblyReference": {
+    "stepPath": "step/universal-post-b6-r1/assemblies/waveplate-single-05-m1__B6_R1.step",
+    "sourceStepSha256": "655988a3d0679abced1def51b743845108e9c3eaafe8455d7eba534d71b8cb6f",
+    "nominalFixedPositionAssembly": true,
+    "standardScrewsAndPinsDetailedModels": false,
+    "revision": "CURRENT-B6R1",
+    "sourceExact": true,
+    "sha256": "655988a3d0679abced1def51b743845108e9c3eaafe8455d7eba534d71b8cb6f"
+  },
+  "ownership": {
+    "originalDesign": "Existing authorized waveplate05 adapter design; commercial CMRM05S belongs to manufacturer.",
+    "revisions": [
+      "Existing R2 structure",
+      "M1 metric-height migration",
+      "Glyph-only cross-kernel repair"
+    ],
+    "currentImport": "2026-10-06 data and derived CAD projection only; source designs unchanged"
+  },
+  "hardwareEvidence": {
+    "policy": "nominal drawing recommendations, not observed hardware installation",
+    "source": "library/reviews/waveplate05-metric-m1-import-20261006/evidence/provider/23-WP05-S_spec.json",
+    "boardFasteners": "M6 length unconfirmed; excluded and explicitly pending"
+  },
+  "postBaseRevision": {
+    "revision": "B6-R1",
+    "baseThicknessMm": 6,
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "cloudStatus": "pending",
+    "physicalAssemblyAccepted": false,
+    "previousSourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/47e014352eaf3c315c242fdc/e/c2af6e088aa3a82f8689d854",
+    "sourceAssemblySha256": "a855e1421b368b16e40f81c1e1075c6085b4a473123b37ffd995d1aa067d8c79",
+    "currentAssemblySha256": "655988a3d0679abced1def51b743845108e9c3eaafe8455d7eba534d71b8cb6f",
+    "replacementReportSha256": "4a97cc722aeca6c56c0d1cbedb2f28b8dbda8c11ebdd26195e6b0e111103bcca",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "revision": "CURRENT-B6R1",
+  "cloudReference": {
+    "active": false,
+    "current": false,
+    "status": "reviewed-reference-local-precision-source",
+    "documentId": "4bb313da2c5d07780afc4308",
+    "versionId": "d524d8fef820cd8f525ff079",
+    "elementId": "1b24833313b114de22b88f99",
+    "sourceUrl": "https://cad.onshape.com/documents/4bb313da2c5d07780afc4308/v/d524d8fef820cd8f525ff079/e/1b24833313b114de22b88f99",
+    "sourceStepSha256": "655988a3d0679abced1def51b743845108e9c3eaafe8455d7eba534d71b8cb6f",
+    "strictWholeAssemblyGeometryEquivalent": false,
+    "allPostSolidsStrictGeometryEquivalent": true,
+    "allAssemblyIdentityAndPoseReferencesPassed": false,
+    "actualCloudAcceptanceSha256": "d989a799138415a93cf804a8080ad2712f38479d94a6e4d5dfb2f8121d4fb567",
+    "cloudMapSha256": "d989a799138415a93cf804a8080ad2712f38479d94a6e4d5dfb2f8121d4fb567",
+    "authoritativePrecisionSource": "当前已核验本地 B6 完整 STEP。云端 BRep 仅为回读参考；原生层级/运动及原厂转译差异未全部通过，不能用于自动精密复用。"
+  },
+  "id": "waveplate-single-05-m1"
+}

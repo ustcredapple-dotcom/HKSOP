@@ -1,0 +1,74 @@
+{
+  "id": "custom-am1b-r3--history-f2f6c192a774",
+  "name": "AMM-1B 直角台阶一体转接件 · R3",
+  "model": "AM1B-R3",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R3",
+  "stepPath": "step/history-af171e0475cda368f354d4ead289b06815db8f1d60c26eab776cf2f38398ff8e.step",
+  "sourceStepSha256": "af171e0475cda368f354d4ead289b06815db8f1d60c26eab776cf2f38398ff8e",
+  "drawingPath": "drawings/history-a9d31d619f9dc9c60174ec22edf3bc6a805cacd735edc9f5b6002214f60e4c26.pdf",
+  "sourceDrawingSha256": "a9d31d619f9dc9c60174ec22edf3bc6a805cacd735edc9f5b6002214f60e4c26",
+  "dxfPath": "drawings/history-9e2e370b17a20e1d6081b25c884ceec418c7f70d51138e95d5d70155e85aee07.dxf",
+  "sourceDxfSha256": "9e2e370b17a20e1d6081b25c884ceec418c7f70d51138e95d5d70155e85aee07",
+  "productionReady": false,
+  "drawingStatus": "engineering-review",
+  "status": "工程审核版；未实物试装或制造放行",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "threadClass": "待首件工艺确认",
+    "pinFitClass": "待首件工艺确认",
+    "processDetails": "按同版加工图；编号采用激光打标，不铣刻；不额外加入通用公差与粗糙度。"
+  },
+  "provenance": {
+    "originalDesign": "User-delivered design package; authorship not inferred",
+    "sourcePackageSha256": "f280d0864a7abc378f5cc04c7c79c308607e0df0925a7167472eedc2f82ac682",
+    "sourceModelPath": "models/AM1B_R3_ADAPTER.step",
+    "importer": "Codex combined release"
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "本版设计已提供与模型对应的独立打标文件。",
+    "notes": "1:1毫米轮廓；未实物打标、未验证工艺可读性。",
+    "files": [
+      {
+        "face": "按定位图的外侧平面",
+        "text": "AM1B",
+        "dxfPath": "drawings/history-192f5c5ead3d4eaad12bbef5ca330e63ca4f0f2696a891dd64644c126c9b9644.dxf",
+        "sha256": "192f5c5ead3d4eaad12bbef5ca330e63ca4f0f2696a891dd64644c126c9b9644",
+        "setupPdfPath": "drawings/history-bc72fa9f3ffa42a34ef8014cdf773d49acd8075bcdff301474be671eef69d89f.pdf",
+        "setupPdfSha256": "bc72fa9f3ffa42a34ef8014cdf773d49acd8075bcdff301474be671eef69d89f"
+      }
+    ]
+  },
+  "originalSourceUrl": "",
+  "sourceUrl": "https://cad.onshape.com/documents/d252aa346b87cc8b3b987f3a/v/4e1e09ef673f17dfcdbd1023/e/95e77153ecb001dfaac64ec3",
+  "cloudReference": {
+    "active": false,
+    "current": false,
+    "status": "reviewed-reference-local-precision-source",
+    "documentId": "d252aa346b87cc8b3b987f3a",
+    "workspaceId": "a47b5eaa766cffa6d4fe64a6",
+    "versionId": "4e1e09ef673f17dfcdbd1023",
+    "elementId": "95e77153ecb001dfaac64ec3",
+    "sourceUrl": "https://cad.onshape.com/documents/d252aa346b87cc8b3b987f3a/v/4e1e09ef673f17dfcdbd1023/e/95e77153ecb001dfaac64ec3",
+    "sourceStepSha256": "af171e0475cda368f354d4ead289b06815db8f1d60c26eab776cf2f38398ff8e",
+    "strictWholeAssemblyGeometryEquivalent": true,
+    "allPostSolidsStrictGeometryEquivalent": null,
+    "allAssemblyIdentityAndPoseReferencesPassed": false,
+    "actualCloudAcceptanceSha256": "114fba05c1440fcfa3500da1b00538745d589ac484b2f5004fd1e2cfd7678fc9",
+    "authoritativePrecisionSource": "已核验本地完整 STEP；云端静态冻结版供查看。原生自由度、全套整体移动或完整复用协议尚未全部验收。",
+    "physicalTrialPerformed": false
+  },
+  "dxfPdfPath": "drawings/history-b739b6f5bf42dada239a39b37877a205896d3af2fbb5f287e6e3603aeb5a79fb.pdf",
+  "dxfPdfSha256": "b739b6f5bf42dada239a39b37877a205896d3af2fbb5f287e6e3603aeb5a79fb",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "custom-am1b-r3",
+    "revision": "R3",
+    "sourceRecordSha256": "2d55ecd61a0c283fc30cbce66eb894f20d44f3de2ebc1c19db99cc28fccacedb"
+  }
+}

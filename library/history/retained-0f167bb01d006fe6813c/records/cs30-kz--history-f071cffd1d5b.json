@@ -1,0 +1,20 @@
+{
+  "id": "cs30-kz--history-f071cffd1d5b",
+  "name": "30 mm笼式Z调整架",
+  "model": "CS30-KZ",
+  "kind": "lubang",
+  "unit": "件",
+  "stepPath": "step/history-3525d93daf4b6d0f1c6cf5ac9b49cf1550c74accc23b65a58b06d034a1318269.step",
+  "sourceStepSha256": "3525d93daf4b6d0f1c6cf5ac9b49cf1550c74accc23b65a58b06d034a1318269",
+  "status": "用户提供原厂STEP；开放曲面参考",
+  "notes": "来源为本次用户附件；保持原几何。镜片、透镜及光纤接口未选型。文件名行程2 mm；未核验全行程。",
+  "productionReady": false,
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "cs30-kz",
+    "revision": null,
+    "sourceRecordSha256": "41f5a820fb50f0c96f0707b0b527d1077c3371b0af8ee88679448789ffaf736b"
+  }
+}

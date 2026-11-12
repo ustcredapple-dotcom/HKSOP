@@ -1,0 +1,84 @@
+{
+  "id": "custom-08",
+  "name": "固定式PBS 1inch",
+  "model": "ZZ-08-M1",
+  "kind": "custom",
+  "unit": "件",
+  "status": "公制M1加工审核图；STEP与孔表同源",
+  "notes": "配合公制支撑后的名义光高62.5 mm；保留已核验镜面孔组及孔规格。材料316L不锈钢，退磁、喷砂；尚未实物试装。",
+  "sourceUrl": "https://cad.onshape.com/documents/3a3c1d8089df865b8b4e822a/v/6e749963ebef18952db7c82d/e/000e430beb2cf9ea4fb3f647",
+  "stepPath": "step/original-metric-m1-20261006/custom-08_M1_native.step",
+  "drawingPath": "drawings/original-metric-m1-20261006/custom-08_M1_公制加工审核图_TN1_20261026.pdf",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "退磁、喷砂",
+    "threadClass": "待确认",
+    "profileId": "post316L",
+    "policyVersion": "materials-2026-09-24.2"
+  },
+  "sourceStepSha256": "e271185df6c104d52d1381f550e4fd36988c21a42093ad402f9ce94c79922140",
+  "sourceDrawingSha256": "ef36ca4ce6d882861f703d791810829f0c9942be6617d17dc16b72515da2341d",
+  "drawingRevision": "M1",
+  "productionReady": false,
+  "drawingStatus": "engineering-review",
+  "manufacturingEvidence": {
+    "revision": "M1",
+    "sourceVersionId": "6e749963ebef18952db7c82d",
+    "sourceStepSha256": "e271185df6c104d52d1381f550e4fd36988c21a42093ad402f9ce94c79922140",
+    "drawingSha256": "ef36ca4ce6d882861f703d791810829f0c9942be6617d17dc16b72515da2341d",
+    "holeTableRows": 6,
+    "pdfPages": 2,
+    "visualReviewPassed": true,
+    "physicalTrialCompleted": false
+  },
+  "drawingPages": [
+    1,
+    2
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "118d66c1e309a8629fabee3ad19053640a79a0deb9f867c455723cfb339f72d8",
+      "currentPdfSha256": "ef36ca4ce6d882861f703d791810829f0c9942be6617d17dc16b72515da2341d",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "按本轮补齐要求增加识别编号；已核当前 STEP 外表面位置。",
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。",
+    "files": [
+      {
+        "dxfPath": "drawings/laser-marking/lm1-20261015/custom-08/编号面.dxf",
+        "sha256": "53f7dce09ba518ef42b37f26e46fbb831fecfc78ed33ff770f93f0579b3c5816",
+        "setupPdfPath": "drawings/laser-marking/lm1-20261015/custom-08/编号面_定位.pdf",
+        "setupPdfSha256": "7f06b5fccaedf5baa5d8bd1eef6a5c91ec97d5d23860a60784420a8ec5884d5f",
+        "face": "编号面",
+        "text": "ZZ-08-M1"
+      }
+    ]
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": "assets/drawings/original-metric-m1-20261006/custom-08_M1_公制加工审核图_TN1_20261026.pdf",
+        "previousSha256": "75e7572248afef375b571607110ffff6d85ae7d6a787e0b4411562aef6388165",
+        "sha256": "ef36ca4ce6d882861f703d791810829f0c9942be6617d17dc16b72515da2341d"
+      },
+      {
+        "path": "assets/drawings/05_PBS/08_固定式PBS_1inch_加工审核图_TN1_20261026.pdf",
+        "previousSha256": "9a7d3c092a522e09abdbd785395eae32316f885509b6741e13176b38aca31eb6",
+        "sha256": "d3e2009c88c57d286f5d60b8543b16b47170c63df12b997e64fadc6785026d82"
+      }
+    ]
+  }
+}

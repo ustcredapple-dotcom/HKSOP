@@ -1,0 +1,17 @@
+{
+  "id": "kungshu-louc1-ll--history-0030720d99b8",
+  "name": "LOUC1-LL 原厂镜架",
+  "model": "LOUC1-LL",
+  "kind": "standard",
+  "unit": "个",
+  "status": "用户提供原厂曲面参考；型号按用户文件名",
+  "notes": "源OEM为开放曲面壳；不宣称闭合实体或实体干涉通过。实际光面及实物装配需核。",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "kungshu-louc1-ll",
+    "revision": null,
+    "sourceRecordSha256": "66bf95f3406dfca29c82dedeb3690df79c60d1b52c4219106653b07043e6ac87"
+  }
+}

@@ -146,9 +146,9 @@
     if(manufacturingRestricted)bundleButton.setAttribute('aria-describedby','manufacturing-download-access-note');else if (bundleBlocked) bundleButton.setAttribute('aria-describedby', 'bundle-blocked-note'); else bundleButton.removeAttribute('aria-describedby');
     document.querySelectorAll('[data-selected-badge]').forEach(b => { const card=libraryCards().find(k=>k.id===b.dataset.selectedBadge); const qty = card ? libraryCardQuantity(card) : 0; b.hidden = !qty; b.textContent = `已选 ${qty} 套`; });
   }
-  function libraryCards() { return window.ZZLabPeriscopes.cards(state.catalog).filter(k=>k.libraryVisibility!=='compatibility-only'&&!['one-to-three','dp-module'].includes(k.id)); }
+  function libraryCards() { return window.ZZLabPeriscopes.cards(state.catalog).filter(k=>k.lifecycle?.state!=='historical'&&k.lifecycle?.canCreate!==false&&k.libraryVisibility!=='compatibility-only'&&!['one-to-three','dp-module'].includes(k.id)); }
   function libraryCardQuantity(card) { return window.ZZLabPeriscopes.quantity(card,state.quantities)+(card.compatibilityKitIds||[]).reduce((total,id)=>total+(state.quantities.get(id)||0),0); }
-  function visibleBoards() { return (state.catalog.registeredBoards||[]).filter(b=>!b.stageOnly&&b.libraryVisibility!=='compatibility-only'); }
+  function visibleBoards() { return (state.catalog.registeredBoards||[]).filter(b=>b.lifecycle?.state!=='historical'&&b.lifecycle?.canCreate!==false&&!b.stageOnly&&b.libraryVisibility!=='compatibility-only'); }
   function renderFilters() {
     const categories = [{id:'all', label:'全部套件'}, ...(state.catalog.categories || []), ...(visibleBoards().length?[{id:'registered-boards',label:'面包板'}]:[])];
     $('category-filters').innerHTML = categories.map(c => { const count = libraryCards().filter(k => c.id === 'all' || k.category === c.id).length+(['all','registered-boards'].includes(c.id)?visibleBoards().length:0); return `<button type="button" class="filter-button" data-category="${escape(c.id)}" aria-pressed="${state.category === c.id}">${escape(c.label)}<span class="filter-count">${count}</span></button>`; }).join('');
@@ -350,7 +350,7 @@
     renderScope();updateButtons();
     $('layout-coordinate').textContent=chosen?`X ${chosen.xMm} · Y ${chosen.yMm} mm`:'左下角为坐标原点';
   }
-  function addKit(id) {if(!state.kits.has(id)||state.kits.get(id).layout?.placementAllowed===false)return;editor?.beginPlace(id);}
+  function addKit(id) {if(!state.kits.has(id)||state.kits.get(id).lifecycle?.canCreate===false||state.kits.get(id).lifecycle?.state==='historical'||state.kits.get(id).layout?.placementAllowed===false)return;editor?.beginPlace(id);}
   function renderScope() {
     const previous = $('extra-scope').value;
     $('extra-scope').innerHTML='<option value="">当前生成的整个方案</option>'+Array.from(state.quantities,([id,q])=>`<option value="${escape(id)}">${escape(state.kits.get(id).name)}（画布 ${q} 套）</option>`).join('')+libraryCards().filter(k=>!state.quantities.has(k.id)&&k.layout?.geometryStatus!=='awaiting-dimensions').map(k=>`<option value="${escape(k.id)}">${escape(k.name)}（${k.layout?.placementAllowed===false?'整套 · 每套':'未放置 · 每套'}）</option>`).join('');

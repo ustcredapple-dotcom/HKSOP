@@ -11,3 +11,5 @@ Current STEP models, top views, orthographic/shop drawings, and marking files ar
 On 2026-11-09 the user expanded distribution to include the selected components' current drawings in this repository. Original revisions and acceptance states are retained. Copying and hash verification do not constitute new manufacturing drawing approval; see [cad-restoration.json](cad-restoration.json).
 
 Machine-local runtime directories, build outputs, and interpreter settings are excluded from Git. The user subsequently requested public visibility, with current component models, top views, and supporting drawings committed alongside the source.
+
+Preserve old-design component versions and dependencies in `library/history`. The engine can resolve and render old instances, but history is unavailable for new placement; see the [retention policy](retention-policy.en.md).

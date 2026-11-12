@@ -13,11 +13,13 @@ def compatible(catalog, project):
     boards = {r['id']: r for r in catalog.get('registeredBoards', [])}
     stages = {r['id']: r for r in catalog.get('stageModules', [])}
     kits = {r['id'] for r in catalog.get('kits', [])}
+    redirects = {r['originalId']:r['recordId'] for r in catalog.get('historyResolution', []) if r['kind']=='kits' and r['catalogVersion']==project.get('catalogVersion')}
+    board_redirects = {r['originalId']:r['recordId'] for r in catalog.get('historyResolution', []) if r['kind']=='registeredBoards' and r['catalogVersion']==project.get('catalogVersion')}
     try:
         for plate in [{'board': layout.get('board', {})}, *layout.get('subBoards', [])]:
             board = plate.get('board', {})
             if board.get('registeredBoardId'):
-                row = boards.get(board['registeredBoardId'])
+                row = boards.get(board_redirects.get(board['registeredBoardId'],board['registeredBoardId']))
                 if not row or row['revision'] != board.get('registeredBoardRevision'):
                     return False
             motion = plate.get('stageMotion')
@@ -28,7 +30,7 @@ def compatible(catalog, project):
         refs = [i['kitId'] for i in layout.get('instances', [])]
         refs += [p[0] for p in project.get('moduleQuantities', [])]
         refs += [e['kitId'] for e in project.get('extras', []) if e.get('kitId')]
-        return all(k in kits for k in refs)
+        return all(redirects.get(k,k) in kits for k in refs)
     except (KeyError, TypeError, AttributeError, IndexError):
         return False
 
@@ -42,6 +44,22 @@ def resolve(library, project):
     active = library.snapshot()
     if (not version or active[1][0].get('version') == version) and compatible(active[1][0], project):
         return active
+    # The current catalog retains dependency-closed history. Prefer it for an
+    # old kit so historical rendering never re-enables an obsolete palette.
+    catalog=active[1][0]
+    historical={r['id']for kind in ('kits','components','registeredBoards')for r in catalog.get(kind,[])if r.get('lifecycle',{}).get('state')=='historical'}
+    redirects={r['originalId']for r in catalog.get('historyResolution',[])}
+    def references(value):
+        if isinstance(value,dict):
+            for key,child in value.items():
+                if key in ('kitId','componentId','registeredBoardId')and isinstance(child,str):yield child
+                else:yield from references(child)
+        elif isinstance(value,list):
+            for child in value:yield from references(child)
+    refs=set(references(project))|{x[0]for x in project.get('moduleQuantities',[])if isinstance(x,list)and x and isinstance(x[0],str)}
+    if refs.intersection(historical|redirects):
+        if compatible(catalog,project):return active
+        raise APIError('history_library_unavailable','此工程包含历史器件，但当前历史依赖不完整；原文件未改写。',409)
     # Receipts are small; skip incomplete staging directories and load only
     # likely candidates. Never change the live library pointer for an old file.
     candidates = []

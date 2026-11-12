@@ -1,0 +1,18 @@
+{
+  "id": "mft--history-4ccfcb6ec637",
+  "name": "Z 轴位移台",
+  "model": "MFT",
+  "kind": "lubang",
+  "unit": "个",
+  "sourceUrl": "https://www.lbtek.com/product/338",
+  "notes": "",
+  "status": "已核对",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "mft",
+    "revision": null,
+    "sourceRecordSha256": "3fd85c80eb0806e697ae818660a7505e26e90449925984973f6e6c1f5f7d98c8"
+  }
+}

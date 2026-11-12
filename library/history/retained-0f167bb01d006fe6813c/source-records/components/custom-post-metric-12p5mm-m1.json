@@ -1,0 +1,135 @@
+{
+  "id": "custom-post-metric-12p5mm-m1",
+  "name": "万能柱 12.5 mm · 底脚4 mm B4 R2 · M4",
+  "model": "ZZ-POST-H12P5MM",
+  "kind": "custom",
+  "unit": "件",
+  "status": "底脚4 mm / 总高保持；加工审核版",
+  "notes": "B4 R2：普通H12.5柱底脚6→4 mm，总高12.5 mm保持；底脚35×35×4，Ø25柱身露出8.5 mm。4×Ø6.4安装孔、25×25孔距、柱轴、顶面与底面保持；中心M4×0.7，偏置2×M4×0.7深8，4×Ø2.01圆柱深4.2。316L退磁、喷砂，激光打标。相同螺钉和垫片时可旋入长度增加2 mm，仍需核对螺长及接收孔深，未实物试装或放行加工。其他普通柱高度维持各自当前规格。",
+  "sourceUrl": "https://cad.onshape.com/documents/894af481abaf8644d053faa3/v/b80473c3aeec82959638c483/e/acf99203257d38bc7ac0ccdc",
+  "stepPath": "step/standard-post-h12p5-b4-r2/万能柱_H12.5mm_B4_R2.step",
+  "drawingPath": "drawings/standard-post-h12p5-b4-r2/万能柱_H12.5mm_B4_R2_加工审核图.pdf",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "退磁、喷砂",
+    "threadClass": "待确认",
+    "profileId": "post316L",
+    "policyVersion": "materials-2026-09-24.2",
+    "processDetails": "B4 R2：普通H12.5柱底脚6→4 mm，总高12.5 mm保持；底脚35×35×4，Ø25柱身露出8.5 mm。4×Ø6.4安装孔、25×25孔距、柱轴、顶面与底面保持；中心M4×0.7，偏置2×M4×0.7深8，4×Ø2.01圆柱深4.2。316L退磁、喷砂，激光打标。相同螺钉和垫片时可旋入长度增加2 mm，仍需核对螺长及接收孔深，未实物试装或放行加工。其他普通柱高度维持各自当前规格。"
+  },
+  "postTopThread": "M4",
+  "heightMm": 12.5,
+  "revision": "B4-R2",
+  "seriesId": "metric-12p5-r1",
+  "sourceStepSha256": "f8cc6a4451f8fa882365df56e03011e65c3cfc5c17658500756fed69cea412dd",
+  "drawingRevision": "B4-R2",
+  "drawingStatus": "engineering-review",
+  "productionReady": false,
+  "manufacturingEvidence": {
+    "revision": "B4-R2",
+    "sourceStepSha256": "f8cc6a4451f8fa882365df56e03011e65c3cfc5c17658500756fed69cea412dd",
+    "drawingSha256": "79d2373f5667daf643de82ea4f747a00eb8f6f9f065a9821508b6e96aecfaf3c",
+    "pageCount": 2,
+    "geometryValidated": true,
+    "pdfVisualReviewPassed": true,
+    "physicalAssemblyValidated": false,
+    "productionApprovalGranted": false,
+    "sourceVersionId": "b80473c3aeec82959638c483",
+    "sourceElementId": "acf99203257d38bc7ac0ccdc",
+    "sourceGeometryKind": "current-B6-exact-crown-face-cut2mm",
+    "baseSourceStepSha256": "ad2b34dd403f8f14cab972424705aeaa09b75ccc471075c24a5bddaf8c3cbed8",
+    "baseSourceRevision": "B6-R1",
+    "geometryReviewSha256": "b5e0deb4f0d4150898cb363806e707989d377bfce8131cdf0184a701713a01f5",
+    "measurementSha256": "f936e527654aec6d12f165c71f9869719f83aa2bb5ff26895616b891df6204e7",
+    "sourceFaceCutScope": "Only native Y=0..2 foot crown removed; totalH12.5, holes, drill tips unchanged.",
+    "cloudReadbackStatus": "download-pending-Mac-locked"
+  },
+  "postBottomThread": "M4",
+  "sourceDrawingSha256": "79d2373f5667daf643de82ea4f747a00eb8f6f9f065a9821508b6e96aecfaf3c",
+  "replaceSourceInExistingCarts": true,
+  "drawingPages": [
+    1,
+    2
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "B4-R2",
+      "currentPdfSha256": "79d2373f5667daf643de82ea4f747a00eb8f6f9f065a9821508b6e96aecfaf3c",
+      "annotatedPages": [
+        1,
+        2
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "geometryChanged": true,
+      "reviewScope": "Actual revised STEP HLR and all hole callouts; both pages visually reviewed."
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "底侧标明H12.5 B4R2，区分6 mm旧版。",
+    "notes": "字高2 mm，上下各1 mm；激光打标，非铣刻。",
+    "files": [
+      {
+        "face": "底脚侧面",
+        "text": "H12.5 B4R2",
+        "dxfPath": "drawings/laser-marking/standard-post-h12p5-b4-r2/custom-post-metric-12p5mm-m1_B4R2_side_laser.dxf",
+        "sha256": "4025809a7bb2419eb66921f983159378f89f0521d064a5e081faf10b44b822da",
+        "setupPdfPath": "drawings/laser-marking/standard-post-h12p5-b4-r2/custom-post-metric-12p5mm-m1_B4R2_side_laser_setup.pdf",
+        "setupPdfSha256": "fdf121cde21b6dd2f86bbec03b1ce130e233ea70c43fae7073223b71d758999b"
+      }
+    ]
+  },
+  "mechanicalInterface": {
+    "baseThicknessMm": 4,
+    "stemExposedHeightMm": 8.5
+  },
+  "postBaseRevision": {
+    "revision": "B4-R2",
+    "baseThicknessMm": 4,
+    "nominalHeightMm": 12.5,
+    "nativeHeightAxis": "Y",
+    "seatingPlaneMm": -4,
+    "baseTopPlaneMm": 0,
+    "topPlaneMm": 8.5,
+    "heightAndAllOriginalFunctionalDatumsPreserved": true,
+    "previousStepSha256": "ad2b34dd403f8f14cab972424705aeaa09b75ccc471075c24a5bddaf8c3cbed8",
+    "previousRecordSha256": "529c93b9fdadafdbb59e6fdcf819c2346c429f9b969b822501ff8fb99901b59f",
+    "cloudStatus": "download-pending-Mac-locked"
+  },
+  "cloudReference": {
+    "documentId": "894af481abaf8644d053faa3",
+    "workspaceId": "5d137a20d77611a370a45e36",
+    "versionId": "b80473c3aeec82959638c483",
+    "elementId": "acf99203257d38bc7ac0ccdc",
+    "partStudioElementId": "a0e813a0d9b5850777a2c297",
+    "cloudExportElementId": "366a61fdc7ecf38467bbce89",
+    "sourceUrl": "https://cad.onshape.com/documents/894af481abaf8644d053faa3/v/b80473c3aeec82959638c483/e/acf99203257d38bc7ac0ccdc",
+    "elementType": "Assembly",
+    "singlePartInIndependentAssembly": true,
+    "folderId": "aca6e9de7a0df4f3096709ed",
+    "folderName": "自制散件",
+    "currentAssemblyName": "ZZPOST_H12p5_B4R2__custom-post-metric-12p5mm-m1",
+    "nativeFeature": "移动面 1; selected old foot crown, inward offset2 mm",
+    "cloudSideFaceAreaMm2": 140,
+    "sideFaceWidthMm": 35,
+    "inferredBaseThicknessMm": 4,
+    "cloudReadbackStatus": "download-pending-Mac-locked",
+    "versionCreated": true,
+    "physicalTrialPerformed": false,
+    "active": true,
+    "current": true,
+    "status": "native-edit-frozen-readback-pending",
+    "sourceStepSha256": "f8cc6a4451f8fa882365df56e03011e65c3cfc5c17658500756fed69cea412dd",
+    "strictGeometryIdentity": false,
+    "automaticCloudReuseAllowed": false,
+    "physicalAssemblyAccepted": false
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-policy-carried-forward-B4R2",
+    "policy": "贯穿螺纹孔只标螺纹代号，盲牙保留深度；间隙孔仍标直径。",
+    "mechanicalRevisionChanged": true
+  },
+  "ownership": {
+    "revisionScope": "普通H12.5柱底脚6→4，保留总高和功能孔；其他普通柱保持。"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "hardware-pcf-base-m6-length-unconfirmed",
+  "name": "PCF 柱底 M6 安装螺钉（长度待核）",
+  "model": "M6×1（长度按接收板孔深选取）",
+  "kind": "standard",
+  "unit": "颗",
+  "status": "采购规格待确认",
+  "notes": "两根柱合计8颗。底脚6mm；不得把此条当成已确认螺长。"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "mft",
+  "name": "Z 轴位移台",
+  "model": "MFT",
+  "kind": "lubang",
+  "unit": "个",
+  "sourceUrl": "https://www.lbtek.com/product/338",
+  "notes": "",
+  "status": "已核对"
+}

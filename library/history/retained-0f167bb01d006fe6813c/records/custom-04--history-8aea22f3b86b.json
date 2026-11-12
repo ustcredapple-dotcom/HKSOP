@@ -1,0 +1,61 @@
+{
+  "id": "custom-04--history-8aea22f3b86b",
+  "name": "面包板350225",
+  "model": "ZZ-04",
+  "kind": "custom",
+  "unit": "件",
+  "status": "加工审核图",
+  "notes": "图纸为加工审核版。",
+  "sourceUrl": "https://cad.onshape.com/documents/3a3c1d8089df865b8b4e822a/w/751844d84c1560d9a3edb630/e/bbc9f96a4f32cc84bf638af7",
+  "stepPath": "step/history-999016412889392b18dcd3c72f639298924842b03a8217a84a8e77ba08c6b164.step",
+  "drawingPath": "drawings/history-0da149591afcba3f6eda6300af0e901da3ca343b98aeea9a707a8fe482f9180c.pdf",
+  "manufacturingSpec": {
+    "material": "6061 铝合金",
+    "surfaceTreatment": "黑色阳极氧化",
+    "threadClass": "待确认",
+    "profileId": "breadboard",
+    "policyVersion": "materials-2026-09-24.2"
+  },
+  "sourceDrawingSha256": "0da149591afcba3f6eda6300af0e901da3ca343b98aeea9a707a8fe482f9180c",
+  "drawingPages": [
+    1,
+    2
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "ecc4942dab3ab662bbd1d528791627cdefc0037a2b4868881f31ce42ea41268b",
+      "currentPdfSha256": "0da149591afcba3f6eda6300af0e901da3ca343b98aeea9a707a8fe482f9180c",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "按本轮补齐要求增加识别编号；已核当前 STEP 外表面位置。",
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。",
+    "files": [
+      {
+        "dxfPath": "drawings/history-7f862ddd8c1da6ebb9a4c36500529b58e45fa585744e9cd84ba89d2f9b14ddf4.dxf",
+        "sha256": "7f862ddd8c1da6ebb9a4c36500529b58e45fa585744e9cd84ba89d2f9b14ddf4",
+        "setupPdfPath": "drawings/history-aa28f85979ab07b47c8ed4934f70e329977d63afeb7db88b8ae517b2a4b4e439.pdf",
+        "setupPdfSha256": "aa28f85979ab07b47c8ed4934f70e329977d63afeb7db88b8ae517b2a4b4e439",
+        "face": "编号面",
+        "text": "ZZ-04"
+      }
+    ]
+  },
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "custom-04",
+    "revision": null,
+    "sourceRecordSha256": "8a783e01cd57b087508f60eebaa7cda680fcf1485cf82bf45b3dd27f93820511"
+  }
+}

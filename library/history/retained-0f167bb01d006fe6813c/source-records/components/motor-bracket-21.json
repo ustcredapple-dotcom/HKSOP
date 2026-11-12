@@ -1,0 +1,53 @@
+{
+  "id": "motor-bracket-21",
+  "name": "支架2-1",
+  "kind": "custom",
+  "model": "支架2-1",
+  "unit": "个",
+  "stepPath": "step/09_电动镜架/支架2-1.step",
+  "drawingPath": "drawings/09_电动镜架/支架2-1_详细加工审核图.pdf",
+  "status": "详细加工审核图；V2孔型及整体几何已核验",
+  "notes": "Onshape V2 孔特征已只读核验：2×M2 正常间隙孔 Ø2.4，完全贯穿。均为间隙孔，不攻丝。V2 新导出与原 STEP 同坐标双向实体差为空，整体几何一致；保留原 STEP。材料6061铝合金，黑色阳极氧化。",
+  "sourceUrl": "https://cad.onshape.com/documents/68e941971d564ba3b6503f2e/v/17b28d997db0412d3167d90f/e/2e70c211053a13e5d150f219",
+  "manufacturingSpec": {
+    "material": "6061 铝合金",
+    "surfaceTreatment": "黑色阳极氧化",
+    "threadClass": "待确认",
+    "profileId": "otherCustom",
+    "policyVersion": "materials-2026-09-24.2"
+  },
+  "sourceDrawingSha256": "76d05cc3e7ea4c245747f4080c7130c56fd8c6e025210f3849d7c8e102230995",
+  "drawingPages": [
+    1,
+    2
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "4fa6686c8e76caea3abbe1c4bf5a929d469b2f5c823cbdab03cbee56d3e1d740",
+      "currentPdfSha256": "76d05cc3e7ea4c245747f4080c7130c56fd8c6e025210f3849d7c8e102230995",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "按本轮补齐要求增加识别编号；已核当前 STEP 外表面位置。",
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。",
+    "files": [
+      {
+        "dxfPath": "drawings/laser-marking/lm1-20261015/motor-bracket-21/编号面.dxf",
+        "sha256": "b723875dff8f3810d97907f5224c52ec62ede676f5b269d54d3ddfad17d98ac3",
+        "setupPdfPath": "drawings/laser-marking/lm1-20261015/motor-bracket-21/编号面_定位.pdf",
+        "setupPdfSha256": "6f71f1467b621d629557c6c9fe3698271ae9f32a23d0d3ab0b9a5b6b5fc0cd8b",
+        "face": "编号面",
+        "text": "MB2-1"
+      }
+    ]
+  }
+}

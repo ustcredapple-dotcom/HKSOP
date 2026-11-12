@@ -1,8 +1,8 @@
 {
   "format": "hksop-subset-selection-v1",
-  "at": "2026-11-09T14:09:11+08:00",
-  "version": "2026-11-09.hksop-github-cad-2",
-  "sourceVersion": "hksop-20261109T035720Z-99011cb1",
+  "at": "2026-11-12T22:19:21.521529+08:00",
+  "version": "2026-11-12.hksop-history-r1",
+  "sourceVersion": "hksop-20261112T140839Z-history-r8-ui1",
   "policy": {
     "standardLibrary": true,
     "customProjects": [
@@ -19,12 +19,15 @@
     "githubVisibility": "public",
     "currentComponentCad": true,
     "laserMarkingFiles": true,
-    "scopeUpdatedAt": "2026-11-09T14:46:37+08:00"
+    "scopeUpdatedAt": "2026-11-12",
+    "historicalDependencies": "explicit retain for this replacement",
+    "historyDirectory": "library/history",
+    "historyNewPlacement": false
   },
-  "packages": 694,
+  "packages": 695,
   "counts": {
-    "components": 432,
-    "kits": 263,
+    "components": 630,
+    "kits": 361,
     "registeredBoards": 6
   },
   "customPackages": [
@@ -499,9 +502,7 @@
     "library/standard/pbs/pbs-adjustable/package.json",
     "library/standard/coupling/fiber-coupling/package.json",
     "library/standard/fixed/fixed-05/package.json",
-    "library/standard/fixed/fixed-1/package.json",
     "library/standard/adjustable/adjustable-05/package.json",
-    "library/standard/adjustable/adjustable-1/package.json",
     "library/standard/motor/motor-05/package.json",
     "library/standard/motor/motor-1/package.json",
     "library/standard/cage/cage/package.json",
@@ -633,7 +634,6 @@
     "library/standard/manual-stage/suruga-xyz-post25-left-r2/package.json",
     "library/standard/manual-stage/suruga-xyz-motor-2in-left-r2/package.json",
     "library/standard/adjustable/mt-am1t-h25-32t1-standard-r2/package.json",
-    "library/standard/adjustable/mt-am1-h25-v7-1a-standard-r2/package.json",
     "library/standard/piezo-stage/stage-board-zolix-ls35x-lab-e/package.json",
     "library/standard/motor/motor-1-90-h2-coplanar-r1/package.json",
     "library/standard/motor/motor-2-90-h2-coplanar-r1/package.json",
@@ -747,20 +747,34 @@
     "library/standard/fixed/fixed-dichroic-1inch-45-r1/package.json",
     "library/standard/fixed/fixed-dichroic-2inch-0-r1/package.json",
     "library/standard/fixed/fixed-dichroic-2inch-45-r1/package.json",
-    "library/standard/adjustable/mt-am1-h25-dual-m4-45-r4/package.json",
     "library/standard/adjustable/mt-am1t-h25-dual-m4-45-r4/package.json",
     "library/custom/project-kit-cage-f100-qwp780-r1/package.json",
     "library/custom/project-part-mop-50-dp-r1/package.json",
-    "library/custom/project-board-dp-f100-board-r7/package.json"
+    "library/custom/project-board-dp-f100-board-r7/package.json",
+    "library/custom/periscope-fixed-25s4-h62p5-to312p5-r1/package.json",
+    "library/standard/uma1-r8-interface/package.json",
+    "library/standard/uma1-r8-versioned-kits/package.json",
+    "library/history/pre-uma1-r8-20261112/package.json",
+    "library/history/retained-0f167bb01d006fe6813c/package.json"
   ],
-  "assetCount": 1848,
-  "assetBytes": 5463792332,
-  "stepFiles": 584,
-  "renderFiles": 376,
+  "assetCount": 1893,
+  "assetBytes": 5603783258,
+  "stepFiles": 598,
+  "renderFiles": 386,
   "largeAssets": [],
   "portableAssetReferencesRepaired": 0,
   "unusedBytesRemoved": 0,
-  "drawingFiles": 888,
-  "pdfFiles": 539,
-  "dxfFiles": 349
+  "drawingFiles": 905,
+  "pdfFiles": 548,
+  "dxfFiles": 357,
+  "activeCounts": {
+    "components": 438,
+    "kits": 265,
+    "registeredBoards": 6
+  },
+  "historicalCounts": {
+    "components": 192,
+    "kits": 96,
+    "registeredBoards": 0
+  }
 }

@@ -1,0 +1,20 @@
+{
+  "id": "v7-source-mt-am1--history-c826e0d98d3e",
+  "name": "原 V7 1英寸旋钮镜架 MT-AM1",
+  "model": "MT-AM1",
+  "kind": "lubang",
+  "unit": "个",
+  "sourceUrl": "https://chatgpt.com/s/cx_6ac4918366588191ab1b8ae22e6f925b",
+  "status": "沿用原 V7 装配器件，实物型号标签待核对",
+  "notes": "源交付标注型号；不与旧库 S5 型号自动合并。原厂整件内建五金不重复展开。",
+  "modelEvidence": "user-supplied-V7 BOM and STEP",
+  "procurementIdentityStatus": "source-design-name-not-physical-label-verified",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "v7-source-mt-am1",
+    "revision": null,
+    "sourceRecordSha256": "a87d45ebe7933a4a797d6af57c973f678a1aee8638dd416eeff36a8cd636a9a9"
+  }
+}

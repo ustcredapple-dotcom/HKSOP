@@ -1,0 +1,18 @@
+{
+  "id": "new-lens-filter-vendor-1--history-233f5affdfec",
+  "name": "透镜／滤光片安装架",
+  "model": "FLFT1A",
+  "kind": "lubang",
+  "unit": "个",
+  "status": "原装配型号已核对",
+  "sourceUrl": "https://www.lbtek.com/product/237",
+  "notes": "总装包含2个配套SM1R压圈，避免另算一对重复采购",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "new-lens-filter-vendor-1",
+    "revision": null,
+    "sourceRecordSha256": "06952aad45069fcf74b80d893864544f28974734b736031cb544e29b261c4dc8"
+  }
+}

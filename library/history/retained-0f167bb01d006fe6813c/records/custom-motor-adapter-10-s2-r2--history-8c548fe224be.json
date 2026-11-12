@@ -1,0 +1,117 @@
+{
+  "id": "custom-motor-adapter-10-s2-r2--history-8c548fe224be",
+  "name": "10-S2 · V2电动镜架独立加工件",
+  "model": "10-S2",
+  "kind": "custom",
+  "unit": "件",
+  "status": "真实STEP及加工审核图；未投产",
+  "notes": "独立10-S2补偿真实镜后座加名义6mm厚度的0.812637mm偏差；原custom-10保留。实体、孔与刻字已作CAD审核；加工公差、实物工具、舵机牙型与摩擦锁紧仍待实验确认。",
+  "stepPath": "step/history-9367959a75eb07c36309bbb25755300a91a32678429cb26f56645ef82983b328.step",
+  "drawingPath": "drawings/history-432c2f1771a253216e5d96d92e48cf917e25f79e76295d33014a4bda6d9da218.pdf",
+  "dxfPath": "drawings/history-8992852a0c7c4128b0de9c6ed7124e6538efbd4fd6ed5f2b05957eb1b5033908.dxf",
+  "sourceStepSha256": "9367959a75eb07c36309bbb25755300a91a32678429cb26f56645ef82983b328",
+  "sourceDrawingSha256": "432c2f1771a253216e5d96d92e48cf917e25f79e76295d33014a4bda6d9da218",
+  "sourceDxfSha256": "8992852a0c7c4128b0de9c6ed7124e6538efbd4fd6ed5f2b05957eb1b5033908",
+  "drawingRevision": "MS2-r2",
+  "drawingStatus": "engineering-review",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "退磁、喷砂",
+    "profileId": "post316L",
+    "threadClass": "待实物确认",
+    "policyVersion": "source-specific-ms2-r2"
+  },
+  "manufacturingEvidence": {
+    "revision": "MS2-r2",
+    "sourceStepSha256": "9367959a75eb07c36309bbb25755300a91a32678429cb26f56645ef82983b328",
+    "drawingSha256": "432c2f1771a253216e5d96d92e48cf917e25f79e76295d33014a4bda6d9da218",
+    "dxfSha256": "8992852a0c7c4128b0de9c6ed7124e6538efbd4fd6ed5f2b05957eb1b5033908",
+    "pdfPages": 7,
+    "physicalTrialCompleted": false,
+    "mechanicalManifestSha256": "cfc1da15c9e9b675ccbc844e7523c72b3b385f7d2d48884dc4bd0608993e299f",
+    "singleSolid": true,
+    "materialBasis": "继承原custom-10-M1的316L退磁喷砂"
+  },
+  "dxfPdfPath": "drawings/history-67dd7fcc5d422bebce77c5badcc58326dc69e0c97bc7817187e347b3d43b8f77.pdf",
+  "dxfPdfSha256": "67dd7fcc5d422bebce77c5badcc58326dc69e0c97bc7817187e347b3d43b8f77",
+  "drawingPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "436748d6d4a4806101ce3ffe08a7517d6dde6f1e8f1b4ea3efa954ad44494db9",
+      "currentPdfSha256": "432c2f1771a253216e5d96d92e48cf917e25f79e76295d33014a4bda6d9da218",
+      "annotatedPages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "71f219617eeddcc6133ce953875da6b43f415a698c249594704d1ec0ec085507",
+      "currentPdfSha256": "67dd7fcc5d422bebce77c5badcc58326dc69e0c97bc7817187e347b3d43b8f77",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前 STEP 原字形及功能文字改用激光打标，完整轮廓与位置已提取核验。",
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。",
+    "files": [
+      {
+        "dxfPath": "drawings/history-888bd2e50eb97bf1c95286d5b57ae2e031b44d783c63abcf42cee72d1408c6ff.dxf",
+        "sha256": "888bd2e50eb97bf1c95286d5b57ae2e031b44d783c63abcf42cee72d1408c6ff",
+        "setupPdfPath": "drawings/history-845821e6106c2abf35c4fe7d00783d61f0f45f36623ca37ff3fc8cb92b3a2d08.pdf",
+        "setupPdfSha256": "845821e6106c2abf35c4fe7d00783d61f0f45f36623ca37ff3fc8cb92b3a2d08",
+        "face": "编号面",
+        "text": "10-S2"
+      }
+    ]
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": "assets/drawings/history-432c2f1771a253216e5d96d92e48cf917e25f79e76295d33014a4bda6d9da218.pdf",
+        "previousSha256": "e2375530faf8bcf8d9019ac0cd7942d548a4aca59bddfb1264f4fa6f800315c6",
+        "sha256": "432c2f1771a253216e5d96d92e48cf917e25f79e76295d33014a4bda6d9da218"
+      },
+      {
+        "path": "assets/drawings/history-67dd7fcc5d422bebce77c5badcc58326dc69e0c97bc7817187e347b3d43b8f77.pdf",
+        "previousSha256": "75de8a760a0f8250d5341ab487e0760e28d2080b7a8a85687f5c25bbd7f54556",
+        "sha256": "67dd7fcc5d422bebce77c5badcc58326dc69e0c97bc7817187e347b3d43b8f77"
+      }
+    ]
+  },
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "custom-motor-adapter-10-s2-r2",
+    "revision": null,
+    "sourceRecordSha256": "a0e535d3ce9ad5c40a9e7642ddf4eb5241cbc63981dd82c5a2bd5b9607bf6851"
+  }
+}

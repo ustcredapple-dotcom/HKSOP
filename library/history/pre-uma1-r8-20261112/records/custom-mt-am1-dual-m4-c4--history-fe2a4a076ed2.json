@@ -1,0 +1,74 @@
+{
+  "id": "custom-mt-am1-dual-m4-c4--history-fe2a4a076ed2",
+  "name": "V7-1A-C4 · MT-AM1 双M4紧凑转接块",
+  "kind": "custom",
+  "unit": "件",
+  "model": "V7-1A-C4",
+  "revision": "DUAL-M4-R4",
+  "sourceUrl": "https://cad.onshape.com/documents/d32a929736555bdfc6de8444/v/466d9497c2cb5c8349cf5c24/e/f37322a11955027cba85ebf2",
+  "productionReady": false,
+  "manufacturingStatus": "engineering-review",
+  "status": "本地几何与图模已核；螺纹等级/销孔配合及实物首件待确认",
+  "stepPath": "step/history-41d4fc7d2422ecb2264b1fd2ba2d16f7b34dbfc08cc78ac364da5140660be718.step",
+  "drawingPath": "drawings/history-79c4645929c5d63526744084575c8eede9438af2ec50d38fc198b7560daad44d.pdf",
+  "sourceStepSha256": "41d4fc7d2422ecb2264b1fd2ba2d16f7b34dbfc08cc78ac364da5140660be718",
+  "sourceDrawingSha256": "79c4645929c5d63526744084575c8eede9438af2ec50d38fc198b7560daad44d",
+  "drawingPages": [
+    1
+  ],
+  "manufacturingSpec": {
+    "material": "316L不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "两处M4间隙孔，共用长圆沉槽；按R4逐孔标注和外轮廓顶点表加工。无通用公差/粗糙度要求。"
+  },
+  "manufacturingEvidence": {
+    "revision": "DUAL-M4-R4",
+    "sourceStepSha256": "41d4fc7d2422ecb2264b1fd2ba2d16f7b34dbfc08cc78ac364da5140660be718",
+    "drawingSha256": "79c4645929c5d63526744084575c8eede9438af2ec50d38fc198b7560daad44d",
+    "geometryEvidencePath": "evidence/verification-r4.json",
+    "physicalTrialCompleted": false
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "新零件唯一编号",
+    "notes": "激光打标，不铣刻；功率按同材试样确定。",
+    "files": [
+      {
+        "face": "-Y端面",
+        "text": "V7-1A-C4",
+        "dxfPath": "drawings/history-209d45a90473b5a391fc986c783568375259776821e181701e138f019bb3f08c.dxf",
+        "sha256": "209d45a90473b5a391fc986c783568375259776821e181701e138f019bb3f08c",
+        "setupPdfPath": "drawings/history-df8f38e30444ac158fbf22228b41f99195dd55df5c72741f065769b3ff898ef9.pdf",
+        "setupPdfSha256": "df8f38e30444ac158fbf22228b41f99195dd55df5c72741f065769b3ff898ef9"
+      }
+    ]
+  },
+  "notes": "本件供MT-AM1直向及45°两种安装共用；不替换其他器件所用旧转接块。",
+  "cloudReference": {
+    "documentId": "d32a929736555bdfc6de8444",
+    "workspaceId": "8dc709d15c4c27ccfd1dedc6",
+    "versionId": "466d9497c2cb5c8349cf5c24",
+    "elementId": "f37322a11955027cba85ebf2",
+    "active": false,
+    "current": false,
+    "elementType": "PARTSTUDIO",
+    "status": "uploaded-pending-independent-acceptance",
+    "sourceStepSha256": "41d4fc7d2422ecb2264b1fd2ba2d16f7b34dbfc08cc78ac364da5140660be718",
+    "sourceExact": false,
+    "strictGeometryIdentity": false,
+    "automaticCloudReuseAllowed": false,
+    "nativeMotionMatesVerified": false,
+    "physicalTrialCompleted": false,
+    "acceptanceNote": "Onshape import completed without translation error; one-part / assembly hierarchy and appearance observed. Independent cloud dimensional readback not performed. Local exact STEP remains precision authority.",
+    "url": "https://cad.onshape.com/documents/d32a929736555bdfc6de8444/v/466d9497c2cb5c8349cf5c24/e/f37322a11955027cba85ebf2",
+    "workspaceUrl": "https://cad.onshape.com/documents/d32a929736555bdfc6de8444/w/8dc709d15c4c27ccfd1dedc6/e/f37322a11955027cba85ebf2"
+  },
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "pre-uma1-r8-20261112",
+    "originalId": "custom-mt-am1-dual-m4-c4",
+    "revision": "DUAL-M4-R4",
+    "sourceRecordSha256": "6e2f7ee8b076bb472371ba2d155fa8ddd569bcf077588fdd8f5087d0176d06fd"
+  }
+}

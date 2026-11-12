@@ -1,0 +1,104 @@
+{
+  "id": "new-slm-21-adapter--history-949eebc251d3",
+  "name": "滨松SLM光学头一体L形转接件",
+  "model": "21-SLM-M1",
+  "kind": "custom",
+  "unit": "件",
+  "status": "M1公制加工审核图；PDF、DXF与STEP同源",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/e99174f48fca11822c613456",
+  "notes": "M1公制修订；背孔高24±0.15、反射面深14.2±0.3；光学中心高24适用厂家未注±1。M6深4的有效牙深及公差需实测。。实物试装未完成。",
+  "stepPath": "step/history-f663bd480a1fbe079d5b0087dbeba69e022b48bd70f828e7428ecc0fd169004b.step",
+  "drawingPath": "drawings/history-3f252c0f1c1fd2ecc1bad3c8e28d1236ee89451f63c81e5fed24296e24734cc2.pdf",
+  "dxfPath": "drawings/history-85e6914cd23e01c30704f138b1182cecde2788c23118bf56d8a66c244c86ce52.dxf",
+  "sourceStepSha256": "f663bd480a1fbe079d5b0087dbeba69e022b48bd70f828e7428ecc0fd169004b",
+  "sourceDrawingSha256": "3f252c0f1c1fd2ecc1bad3c8e28d1236ee89451f63c81e5fed24296e24734cc2",
+  "sourceDxfSha256": "85e6914cd23e01c30704f138b1182cecde2788c23118bf56d8a66c244c86ce52",
+  "productionReady": false,
+  "sourceDocumentsComplete": true,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "threadClass": "本件无攻牙孔",
+    "profileId": "slm316L-passivated",
+    "policyVersion": "supplied-manufacturing-M1-2026-10-05",
+    "processDetails": "保持本包专件去磁、钝化要求；不套用通用转接件喷砂要求。"
+  },
+  "drawingRevision": "M1",
+  "drawingStatus": "engineering-review",
+  "manufacturingEvidence": {
+    "sourcePackage": null,
+    "sourceCode": "21-SLM",
+    "sourceStepSha256": "f663bd480a1fbe079d5b0087dbeba69e022b48bd70f828e7428ecc0fd169004b",
+    "drawingSha256": "3f252c0f1c1fd2ecc1bad3c8e28d1236ee89451f63c81e5fed24296e24734cc2",
+    "dxfSha256": "85e6914cd23e01c30704f138b1182cecde2788c23118bf56d8a66c244c86ce52",
+    "pageCount": 3,
+    "metricMigration": {
+      "post_height_old_mm": 25.4,
+      "post_height_new_mm": 25,
+      "selected_height_delta_mm": -0.6,
+      "world_bottom_delta_mm": -0.4,
+      "supplier_translation_mm": [
+        0,
+        0,
+        -1
+      ]
+    },
+    "physicalTrialCompleted": false
+  },
+  "dxfPdfPath": "drawings/history-d73b1707c4cd488d932372ab8c4952ff28255cc49833f8400de99d2d73372624.pdf",
+  "dxfPdfSha256": "d73b1707c4cd488d932372ab8c4952ff28255cc49833f8400de99d2d73372624",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "993a6e1844e152fdd15c79c838bffd0308a6c919ac459e0297aaa0b388d6b614",
+      "currentPdfSha256": "bc7912bd3a6afe310e793a0b0189e86a85699315870a4fb59dbfd691f236e586",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "c185e47ffcfc969f3e823ccd697cd8ede07bc31b5ce28d742fa0d2d8906d2029",
+      "currentPdfSha256": "d73b1707c4cd488d932372ab8c4952ff28255cc49833f8400de99d2d73372624",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-X",
+        "text": "21-SLM",
+        "dxfPath": "drawings/history-50291b72733181f40b1c5d564a7e332b549e35711c33fc60ee7f367c64910e9a.dxf",
+        "sha256": "50291b72733181f40b1c5d564a7e332b549e35711c33fc60ee7f367c64910e9a",
+        "setupPdfPath": "drawings/history-100001d095f09801d71aef68781f4796a94b4284323b69d195913cef84054738.pdf",
+        "setupPdfSha256": "100001d095f09801d71aef68781f4796a94b4284323b69d195913cef84054738"
+      }
+    ]
+  },
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "new-slm-21-adapter",
+    "revision": null,
+    "sourceRecordSha256": "1e67fc4eda71a1bc6533b53cd4cf32f379e226cf07216dc13d7725d0a9746293"
+  }
+}

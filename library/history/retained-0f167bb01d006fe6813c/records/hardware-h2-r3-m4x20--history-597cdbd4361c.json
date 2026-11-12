@@ -1,0 +1,26 @@
+{
+  "id": "hardware-h2-r3-m4x20--history-597cdbd4361c",
+  "name": "H2 R3 M4×20 侧板夹紧螺钉 · 名义头Ø7×4",
+  "kind": "standard",
+  "unit": "颗",
+  "model": "M4×20, head Ø7×4",
+  "standardSpec": {
+    "standard": null,
+    "thread": "M4",
+    "lengthMm": 20,
+    "headDiameterMm": 7,
+    "headHeightMm": 4,
+    "material": null,
+    "finish": null
+  },
+  "status": "名义安装包络；头型、牙距及实物待核对",
+  "notes": "每套1颗；不使用旧V7高2mm薄头身份冒充本轮4mm头高。",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "hardware-h2-r3-m4x20",
+    "revision": null,
+    "sourceRecordSha256": "129e3433dd6c15f35df4784b6e9640822b2dea86b76e709558d6959d32b3d2a7"
+  }
+}

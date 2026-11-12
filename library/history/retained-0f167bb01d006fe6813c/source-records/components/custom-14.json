@@ -1,0 +1,85 @@
+{
+  "id": "custom-14",
+  "name": "固定反射镜 0.5inch",
+  "model": "ZZ-14-M1",
+  "kind": "custom",
+  "unit": "件",
+  "status": "公制M1加工审核图；STEP与孔表同源",
+  "notes": "配合公制支撑后的名义光高62.5 mm；保留已核验镜面孔组及孔规格。材料316L不锈钢，退磁、喷砂；尚未实物试装。",
+  "sourceUrl": "https://cad.onshape.com/documents/3a3c1d8089df865b8b4e822a/v/6e749963ebef18952db7c82d/e/00eeaba174014ed4c490c57b",
+  "stepPath": "step/original-metric-m1-20261006/custom-14_M1_native.step",
+  "drawingPath": "drawings/original-metric-m1-20261006/custom-14_M1_公制加工审核图_TN1_20261026.pdf",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "退磁、喷砂",
+    "threadClass": "待确认",
+    "profileId": "post316L",
+    "policyVersion": "materials-2026-09-24.2"
+  },
+  "revision": "C",
+  "drawingRevision": "M1",
+  "sourceStepSha256": "1746ad69dd36dc76319e03f031eeaa7c4dc1e051ab10e02c2ae2561dc8904a7b",
+  "manufacturingEvidence": {
+    "revision": "M1",
+    "sourceVersionId": "6e749963ebef18952db7c82d",
+    "sourceStepSha256": "1746ad69dd36dc76319e03f031eeaa7c4dc1e051ab10e02c2ae2561dc8904a7b",
+    "drawingSha256": "fd46649e81aa0c85a0301052094af86523a7361e57b4a4721306ee624cff8978",
+    "holeTableRows": 7,
+    "pdfPages": 2,
+    "visualReviewPassed": true,
+    "physicalTrialCompleted": false
+  },
+  "sourceDrawingSha256": "fd46649e81aa0c85a0301052094af86523a7361e57b4a4721306ee624cff8978",
+  "productionReady": false,
+  "drawingStatus": "engineering-review",
+  "drawingPages": [
+    1,
+    2
+  ],
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "d866a4916855207405519752801fbb2f533daa601e7b3bad9eb36f5d70869ff6",
+      "currentPdfSha256": "fd46649e81aa0c85a0301052094af86523a7361e57b4a4721306ee624cff8978",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "按本轮补齐要求增加识别编号；已核当前 STEP 外表面位置。",
+    "notes": "LM1；激光打标，不铣刻。原 CAD 凹深不作激光去除深度；已有相同标识不重复打标。功率、速度、遍数及最小可读字高须同材质/表面试样确认；未实物打标或首件放行。",
+    "files": [
+      {
+        "dxfPath": "drawings/laser-marking/lm1-20261015/custom-14/编号面.dxf",
+        "sha256": "cc09f153c99bfbfc1a1d4223d63c25b06e2f2ca2ed3757e97edff66c67bef4d1",
+        "setupPdfPath": "drawings/laser-marking/lm1-20261015/custom-14/编号面_定位.pdf",
+        "setupPdfSha256": "d5e735492d5a547b60adadd3fa734da90b54fc98b37881fae4b36151377f9d2c",
+        "face": "编号面",
+        "text": "ZZ-14-M1"
+      }
+    ]
+  },
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": "assets/drawings/original-metric-m1-20261006/custom-14_M1_公制加工审核图_TN1_20261026.pdf",
+        "previousSha256": "5db10da42ed437c6c033ad24d17696770a5552ff6075eef9c4407e758e8f95bb",
+        "sha256": "fd46649e81aa0c85a0301052094af86523a7361e57b4a4721306ee624cff8978"
+      },
+      {
+        "path": "assets/drawings/07_固定反射镜/14_固定反射镜_0.5inch_加工审核图_TN1_20261026.pdf",
+        "previousSha256": "bd46e3bccc6cc4673dd62a2f98866d6056af5abfdb5d93e69a93bce13e602c5d",
+        "sha256": "70c6e26f357bb1fac0e009f7f4fa665d485793ed88f52a1425261124514840b4"
+      }
+    ]
+  }
+}

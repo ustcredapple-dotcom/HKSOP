@@ -1,0 +1,460 @@
+{
+  "name": "居中双一英寸波片 WPC2-R1",
+  "category": "waveplate",
+  "variant": "双CRM-1AS · 居中背向 · H62.5",
+  "components": [
+    {
+      "componentId": "custom-post-metric-25mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "custom-wpc2-r1",
+      "quantity": 1
+    },
+    {
+      "componentId": "crm-1as",
+      "quantity": 2
+    },
+    {
+      "componentId": "hardware-h2-r3-m4x20",
+      "quantity": 1
+    },
+    {
+      "componentId": "v7-iso4762-m4x16",
+      "quantity": 2
+    },
+    {
+      "componentId": "metric-m1-post-pin-d2x8",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [
+    {
+      "id": "wave-1",
+      "label": "A侧波片（+Y侧，正向第1片）",
+      "type": "waveplate",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 25.4,
+      "maxThicknessMm": 9.4
+    },
+    {
+      "id": "wave-2",
+      "label": "B侧波片（−Y侧，正向第2片）",
+      "type": "waveplate",
+      "quantity": 1,
+      "unit": "片",
+      "diameterMm": 25.4,
+      "maxThicknessMm": 9.4
+    }
+  ],
+  "layout": {
+    "placementAllowed": true,
+    "topViewPath": "topviews/waveplate-centered-dual-1-wpc2-r1.svg",
+    "widthMm": 46,
+    "heightMm": 44,
+    "anchorXMm": 23,
+    "anchorYMm": 22,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "minimumAlignedMountingHoles": 4,
+    "collisionBoundsMm": {
+      "xMin": -21.15,
+      "yMin": -19.038581548406967,
+      "xMax": 21.15,
+      "yMax": 19.049999618530272
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -21.15,
+          "yMm": -3.5
+        },
+        {
+          "xMm": -21.110800677266766,
+          "yMm": -3.277687122342167
+        },
+        {
+          "xMm": -20.99792939719922,
+          "yMm": -3.082188633668016
+        },
+        {
+          "xMm": -20.825000117965697,
+          "yMm": -2.9370835336172036
+        },
+        {
+          "xMm": -20.612871542049675,
+          "yMm": -2.8598748350433483
+        },
+        {
+          "xMm": -17.65,
+          "yMm": -2.85
+        },
+        {
+          "xMm": -17.65,
+          "yMm": 2.85
+        },
+        {
+          "xMm": -20.612871542049675,
+          "yMm": 2.8598748350433483
+        },
+        {
+          "xMm": -20.825000117965697,
+          "yMm": 2.9370835336172036
+        },
+        {
+          "xMm": -20.99792939719922,
+          "yMm": 3.082188633668016
+        },
+        {
+          "xMm": -21.110800677266766,
+          "yMm": 3.277687122342167
+        },
+        {
+          "xMm": -21.15,
+          "yMm": 3.5
+        },
+        {
+          "xMm": -21.15,
+          "yMm": 11.0
+        },
+        {
+          "xMm": -21.110800659106022,
+          "yMm": 11.222312927554215
+        },
+        {
+          "xMm": -20.91781214071233,
+          "yMm": 11.497928947475769
+        },
+        {
+          "xMm": -20.61287115172288,
+          "yMm": 11.640125233780989
+        },
+        {
+          "xMm": -17.949951553344725,
+          "yMm": 11.65
+        },
+        {
+          "xMm": -17.949988194523087,
+          "yMm": 17.249999618530275
+        },
+        {
+          "xMm": -18.090449748850133,
+          "yMm": 17.284048050525865
+        },
+        {
+          "xMm": -18.145290756225585,
+          "yMm": 17.399999618530273
+        },
+        {
+          "xMm": -18.145290756225585,
+          "yMm": 18.899999618530273
+        },
+        {
+          "xMm": -18.066000266749487,
+          "yMm": 19.032287808182527
+        },
+        {
+          "xMm": 17.995290756225586,
+          "yMm": 19.049999618530272
+        },
+        {
+          "xMm": 18.12757894587784,
+          "yMm": 18.970709129054175
+        },
+        {
+          "xMm": 18.144568465226417,
+          "yMm": 17.38529704748084
+        },
+        {
+          "xMm": 18.078626291178526,
+          "yMm": 17.27527917668489
+        },
+        {
+          "xMm": 17.949988194523087,
+          "yMm": 17.249999618530275
+        },
+        {
+          "xMm": 17.949951553344725,
+          "yMm": 11.65
+        },
+        {
+          "xMm": 20.61287115172288,
+          "yMm": 11.640125233780989
+        },
+        {
+          "xMm": 20.91781214071233,
+          "yMm": 11.497928947475769
+        },
+        {
+          "xMm": 21.110800659106022,
+          "yMm": 11.222312927554215
+        },
+        {
+          "xMm": 21.15,
+          "yMm": 11.0
+        },
+        {
+          "xMm": 21.15,
+          "yMm": 3.5
+        },
+        {
+          "xMm": 21.110800677266766,
+          "yMm": 3.277687122342167
+        },
+        {
+          "xMm": 20.99792939719922,
+          "yMm": 3.082188633668016
+        },
+        {
+          "xMm": 20.825000117965697,
+          "yMm": 2.9370835336172036
+        },
+        {
+          "xMm": 20.612871542049675,
+          "yMm": 2.8598748350433483
+        },
+        {
+          "xMm": 17.65,
+          "yMm": 2.85
+        },
+        {
+          "xMm": 17.65,
+          "yMm": -2.85
+        },
+        {
+          "xMm": 20.59989754575543,
+          "yMm": -2.858166790851775
+        },
+        {
+          "xMm": 20.91781212310271,
+          "yMm": -3.002071037747999
+        },
+        {
+          "xMm": 21.105792179604226,
+          "yMm": -3.2655957123704282
+        },
+        {
+          "xMm": 21.15,
+          "yMm": -3.5
+        },
+        {
+          "xMm": 21.15,
+          "yMm": -11.0
+        },
+        {
+          "xMm": 21.110800659106022,
+          "yMm": -11.222312927554215
+        },
+        {
+          "xMm": 20.997929379589177,
+          "yMm": -11.417811625737578
+        },
+        {
+          "xMm": 20.82500042454413,
+          "yMm": -11.562916527797382
+        },
+        {
+          "xMm": 20.61287115172288,
+          "yMm": -11.640125233780989
+        },
+        {
+          "xMm": 17.949951553344725,
+          "yMm": -11.65
+        },
+        {
+          "xMm": 17.949988194523087,
+          "yMm": -17.249999618530275
+        },
+        {
+          "xMm": 18.090449748850133,
+          "yMm": -17.28404805052586
+        },
+        {
+          "xMm": 18.145290756225585,
+          "yMm": -17.399999618530273
+        },
+        {
+          "xMm": 18.145290756225585,
+          "yMm": -18.899999618530273
+        },
+        {
+          "xMm": 18.066000266749487,
+          "yMm": -19.032287808182527
+        },
+        {
+          "xMm": -18.05269327108035,
+          "yMm": -19.038581548406967
+        },
+        {
+          "xMm": -18.144568465226417,
+          "yMm": -18.914702189579707
+        },
+        {
+          "xMm": -18.145290756225585,
+          "yMm": -17.399999618530273
+        },
+        {
+          "xMm": -18.090449748850133,
+          "yMm": -17.28404805052586
+        },
+        {
+          "xMm": -17.949988194523087,
+          "yMm": -17.249999618530275
+        },
+        {
+          "xMm": -17.949951553344725,
+          "yMm": -11.65
+        },
+        {
+          "xMm": -20.61287115172288,
+          "yMm": -11.640125233780989
+        },
+        {
+          "xMm": -20.91781214071233,
+          "yMm": -11.497928947475769
+        },
+        {
+          "xMm": -21.110800659106022,
+          "yMm": -11.222312927554215
+        },
+        {
+          "xMm": -21.15,
+          "yMm": -11.0
+        },
+        {
+          "xMm": -21.15,
+          "yMm": -3.5
+        }
+      ]
+    ],
+    "opticalType": "waveplate",
+    "opticalAxisHeightMm": 62.5,
+    "opticalCenterMm": {
+      "xMm": 0,
+      "yMm": 0
+    },
+    "opticalSurfaceAngleDeg": 0,
+    "opticalGeometryEvidence": {
+      "physicalWaveplateCentersMm": [
+        [
+          0,
+          9.1,
+          62.5
+        ],
+        [
+          0,
+          -9.1,
+          62.5
+        ]
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "mechanicalClearApertureMm": 23,
+      "actualOpticalClearApertureMm": null,
+      "referenceGlassThicknessMm": 3.2,
+      "physicalInterplateDistanceMm": 18.2,
+      "sourceStepSha256": "2f6a4ba84feaeb1963c40aa80d8f852a5421aa66b45f95ab590e1573b109f28f",
+      "softwareForwardDirection": [
+        0,
+        -1,
+        0
+      ]
+    },
+    "calibration": {
+      "pixelsPerMm": 16,
+      "centerPx": [
+        368,
+        352
+      ],
+      "frameMm": [
+        46,
+        44
+      ],
+      "imageYDown": true,
+      "source": "orthographic complete STEP, camera parallelScale22, 736x704 pixels"
+    },
+    "opticalDefaults": {
+      "elementType": "waveplate",
+      "inserted": false,
+      "configured": false
+    },
+    "topViewUrl": "./topviews/waveplate-centered-dual-1-wpc2-r1.svg",
+    "mountingConfirmed": true,
+    "opticalDatumVerified": true,
+    "opticalClearApertureVerified": false,
+    "nominalOpticalHeightMm": 62.5,
+    "collisionGeometryVersion": "wpc2-r1-20261104",
+    "opticalSimulationNote": "复用现有双波片共面近似：正向沿-Y，顺序A(+Y侧)后B(-Y侧)，反向自动反序。实际两中面相隔18.2 mm；不模拟两片间传播。参考玻璃不是已选购光学件，实际波长、延迟、快轴和有效通光须填写。",
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "2f6a4ba84feaeb1963c40aa80d8f852a5421aa66b45f95ab590e1573b109f28f",
+      "imageSha256": "adbf848eee6cc925e2aeb1dd0a0378ee56b89cca70fbac0c2ce754a9940f66fd",
+      "revision": "WPC2-R1",
+      "renderRole": "complete"
+    },
+    "geometryEvidence": {
+      "sourceStep": "step/wpc2-r1/WPC2-R1_H62p5_assembly.step",
+      "sourceSha256": "2f6a4ba84feaeb1963c40aa80d8f852a5421aa66b45f95ab590e1573b109f28f",
+      "sourceStepSha256": "2f6a4ba84feaeb1963c40aa80d8f852a5421aa66b45f95ab590e1573b109f28f",
+      "imageSha256": "adbf848eee6cc925e2aeb1dd0a0378ee56b89cca70fbac0c2ce754a9940f66fd",
+      "partCount": 22,
+      "collisionGuardMm": 0.15,
+      "frame": "XY orthographic +X right +Y up, post axis origin, support Z0",
+      "physicalAssemblyTested": false
+    }
+  },
+  "assemblyReference": {
+    "stepPath": "step/wpc2-r1/WPC2-R1_H62p5_assembly.step",
+    "sourceStepSha256": "2f6a4ba84feaeb1963c40aa80d8f852a5421aa66b45f95ab590e1573b109f28f",
+    "revision": "WPC2-R1",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true,
+    "includeInBundle": true,
+    "sha256": "2f6a4ba84feaeb1963c40aa80d8f852a5421aa66b45f95ab590e1573b109f28f",
+    "drawingPath": "drawings/wpc2-r1/WPC2-R1_设计与验收.pdf",
+    "sourceDrawingSha256": "e7ebcf3097d08900ee166bd859c7659f8794f57772140a43af6590a537a97283"
+  },
+  "productionReady": false,
+  "releaseStage": "engineering-review",
+  "fastUpload": {
+    "schema": "zzlab-fast-kit-upload-v1",
+    "archiveSha256": "7322fbf8ec3744dff38a332c8c80d43cf3cd2073b90da6917e0356fd0968e56e",
+    "atlas": "excluded-by-user-scope",
+    "onshape": "excluded-by-user-scope",
+    "physicalAssemblyValidated": false,
+    "productionApprovalGranted": false
+  },
+  "notes": "独立新增ID；不替换旧waveplate，不改当前369precool实例。几何全周检查通过；未实物试装。实际波长/延迟/快轴/有效口径待选。临镜侧2mm锁紧使用短臂12mm、长臂60mm工具向远离镜片侧0~60度往复换位。Onshape未上传、总图册未收录。 中央M4×20圆柱头、两颗CRM底部M4×16及两枚Ø2×8销列入BOM；厂内锁钉/卡环包含于CRM，不重复采购。标准M6板固定螺钉随所配板厚选长。光学采用两片共面近似，实际片距18.2 mm；不是实测光学模型。",
+  "revision": "WPC2-R1",
+  "status": "极速入库 · 工程审核版 · 未实物试装",
+  "assemblyGuide": {
+    "drawingPath": "drawings/wpc2-r1/WPC2-R1_设计与验收.pdf"
+  },
+  "id": "waveplate-centered-dual-1-wpc2-r1"
+}

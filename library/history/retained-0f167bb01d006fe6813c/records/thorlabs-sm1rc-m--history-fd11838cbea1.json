@@ -1,0 +1,21 @@
+{
+  "id": "thorlabs-sm1rc-m--history-fd11838cbea1",
+  "name": "Thorlabs SM1RC/M · 公制夹具",
+  "model": "SM1RC/M",
+  "kind": "standard",
+  "unit": "个",
+  "sourceUrl": "https://www.thorlabs.com/item/SM1RC_M",
+  "stepPath": "step/history-450e910c727a8757c8d028ad94a89a6a8f97b0b05044c01d3304e92db5046244.step",
+  "drawingPath": "drawings/history-202f2b46765c6411e95d2ea70a755e0103bf87c1e8d0927cde0c676b2b4b40a7.pdf",
+  "sourceStepSha256": "450e910c727a8757c8d028ad94a89a6a8f97b0b05044c01d3304e92db5046244",
+  "sourceDrawingSha256": "202f2b46765c6411e95d2ea70a755e0103bf87c1e8d0927cde0c676b2b4b40a7",
+  "notes": "未订购；M4×0.7有效牙深仍待确认。",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "thorlabs-sm1rc-m",
+    "revision": null,
+    "sourceRecordSha256": "6eca28f4d2590de5c6f6bab17de8b518cd6ed88d3982cb2db8d78d9dafacbc7c"
+  }
+}

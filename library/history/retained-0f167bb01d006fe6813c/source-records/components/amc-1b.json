@@ -1,0 +1,11 @@
+{
+  "id": "amc-1b",
+  "name": "30 mm 笼式可调反射镜架",
+  "model": "AMC-1B",
+  "kind": "lubang",
+  "unit": "个",
+  "stepPath": "step/mot-ra-m2-r2/AMC-1B_OEM.step",
+  "sourceStepSha256": "d789a2e1d74e144d16bffb01f30bce6b3caf470a9c9e7e8e3c5d3e53db5b7699",
+  "status": "用户提供原厂CAD/尺寸图已核；未实装",
+  "notes": "Ø25.4镜片用后座距真实反射面6 mm；四笼杆方阵30×30 mm。"
+}

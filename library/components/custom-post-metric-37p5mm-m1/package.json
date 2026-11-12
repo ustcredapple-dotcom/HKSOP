@@ -1,14 +1,35 @@
 {
   "format": "hksop-package-v1",
   "packageId": "custom-post-metric-37p5mm-m1",
-  "revision": "B6-R1",
-  "displayName": "万能柱 37.5 mm · 底座6 mm B6 R1",
+  "revision": "B6-R3-C03",
+  "displayName": "万能柱 37.5 mm · 底座6 mm B6 R3 · C0.3",
   "records": [
     {
       "kind": "components",
-      "path": "records/custom-post-metric-37p5mm-m1.json"
+      "path": "record.json"
     }
   ],
-  "origin": "current-published-catalog",
-  "distribution": "current-cad-topviews-and-drawings"
+  "origin": "authorized HKSOP standard post C0.3 mechanical revision",
+  "assets": [
+    {
+      "path": "payload/post.step",
+      "target": "assets/step/universal-post-h37p5-b6r3-c03.step",
+      "sha256": "31359f961d3a5e6e1b0690b5233c2a3d7c5778cde03a59b78da5f8171e843083"
+    },
+    {
+      "path": "payload/drawing.pdf",
+      "target": "assets/drawings/universal-post-h37p5-b6r3-c03-review.pdf",
+      "sha256": "fcf42193dfbe5034177de86a1cb2d18049a1a693f322f00ce774a3f2ba01714f"
+    },
+    {
+      "path": "payload/mark.dxf",
+      "target": "assets/drawings/universal-post-h37p5-b6r3-c03-side-mark.dxf",
+      "sha256": "0e1e236a2d623d90f08af0f488d20b5d0d5e808b698a066c68242bbf83425edb"
+    },
+    {
+      "path": "payload/mark-setup.pdf",
+      "target": "assets/drawings/universal-post-h37p5-b6r3-c03-side-setup.pdf",
+      "sha256": "e553f8259c511b990ab3fec18735f4d9d4848deda454bce9db63cad377629028"
+    }
+  ]
 }

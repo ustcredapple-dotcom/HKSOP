@@ -120,7 +120,7 @@
     },
     "static/app.js": {
       "source": "engine/apps/frontend/web/app.js",
-      "sha256": "c5349418dd5e99a9bdf681cfcb1d979695a4e406071464fe024ab61da469aac3"
+      "sha256": "d0aa99f4b939c66142ac8f19fea56626021b5dc9c61f09838b2cdc452b06f187"
     },
     "static/canvas-workspace.css": {
       "source": "engine/apps/frontend/web/canvas-workspace.css",
@@ -148,7 +148,7 @@
     },
     "static/global-height.js": {
       "source": "engine/layout/javascript/web/global-height.js",
-      "sha256": "22387cdc1b75b8ef7cf311016c333ba8edd1dc8be17c9604b7d24926775842d6"
+      "sha256": "ea88d79977070f983d8482555fc7f5f71e5d2b435e12ae0020adc882acfdc44c"
     },
     "static/index.html": {
       "source": "engine/apps/frontend/web/index.html",
@@ -164,7 +164,7 @@
     },
     "static/layout.js": {
       "source": "engine/layout/javascript/web/layout.js",
-      "sha256": "a100ada1ca8365ce4767701359585513d9ee77b2d3bc7706029e70fc05664bc6"
+      "sha256": "d4f9196048247d6f1f2afaacb7f7bf71c81db8eed3698d2a4751590a5a5a60c9"
     },
     "static/manual-source-mount.js": {
       "source": "engine/layout/javascript/web/manual-source-mount.js",
@@ -215,11 +215,11 @@
     },
     "static/periscope-properties.js": {
       "source": "engine/layout/javascript/web/periscope-properties.js",
-      "sha256": "417ad48aaee0df5b6b826c858c66454603bf72336c821895c196f90bf9b5774e"
+      "sha256": "7713e4b2367ae14f44b8fd43e31fc8f271195880b74256f839c889fcee59fe69"
     },
     "static/project-file.js": {
       "source": "engine/apps/frontend/web/project-file.js",
-      "sha256": "2a5a4b6e56ec2668b686978707d54b977bf00f206554370d1eadd50c5dc875d3"
+      "sha256": "0f04f051e8d153daffba444cf16783ca34ef797d43560d5d67526c73eebb274b"
     },
     "static/project.css": {
       "source": "engine/apps/frontend/web/project.css",
@@ -227,7 +227,7 @@
     },
     "static/registered-boards.js": {
       "source": "engine/layout/javascript/web/registered-boards.js",
-      "sha256": "9391ec472bb43bb34ec143d4c27106f3db661497ca584df4d5f828cb06ebd121"
+      "sha256": "be8e062bef07cb1ae5385762e529a05af79afb998d96f33041e88fec5edfaa85"
     },
     "static/shared-kits.css": {
       "source": "engine/apps/frontend/web/shared-kits.css",
@@ -359,7 +359,7 @@
     },
     "project_library.py": {
       "source": "engine/apps/python/editor/project_library.py",
-      "sha256": "75ebea9099ed761137b25deac32e220851a3f96c1c6433fbe4f7da4d39f41d8c"
+      "sha256": "d6daf7868107bfb9f67366a092512a4523d6b0bd3e046c28c1d911c793279e1a"
     },
     "registered_boards.py": {
       "source": "engine/layout/python/editor/registered_boards.py",
@@ -383,7 +383,7 @@
     },
     "static/app.js": {
       "source": "engine/apps/frontend/editor/app.js",
-      "sha256": "0379e9705390b0007955dbfa038c6ec7dd9ec014f78c404c012cd9da6a0c1515"
+      "sha256": "d0e421beb14e2f34410a5262bcd913103a8226e5577eb6238abe1517c76c82fb"
     },
     "static/board-accessories.js": {
       "source": "engine/apps/frontend/editor/board-accessories.js",
@@ -419,7 +419,7 @@
     },
     "static/global-height.js": {
       "source": "engine/layout/javascript/editor/global-height.js",
-      "sha256": "e0840f2767fe99fd28a1971a870df2d366da46876034de9721e29ceac370d803"
+      "sha256": "9dcdbfbd6befaab0c42817e6338998967276238ba8db7f24e517d1834f7ce3d9"
     },
     "static/index.html": {
       "source": "engine/apps/frontend/editor/index.html",
@@ -435,7 +435,7 @@
     },
     "static/layout.js": {
       "source": "engine/layout/javascript/web/layout.js",
-      "sha256": "a100ada1ca8365ce4767701359585513d9ee77b2d3bc7706029e70fc05664bc6"
+      "sha256": "d4f9196048247d6f1f2afaacb7f7bf71c81db8eed3698d2a4751590a5a5a60c9"
     },
     "static/local-expert-mode.js": {
       "source": "engine/apps/frontend/editor/local-expert-mode.js",
@@ -498,7 +498,7 @@
     },
     "static/periscope-properties.js": {
       "source": "engine/layout/javascript/web/periscope-properties.js",
-      "sha256": "417ad48aaee0df5b6b826c858c66454603bf72336c821895c196f90bf9b5774e"
+      "sha256": "7713e4b2367ae14f44b8fd43e31fc8f271195880b74256f839c889fcee59fe69"
     },
     "static/project-drop.js": {
       "source": "engine/apps/frontend/editor/project-drop.js",
@@ -506,7 +506,7 @@
     },
     "static/project-file.js": {
       "source": "engine/apps/frontend/editor/project-file.js",
-      "sha256": "05dadeeccf66adc4a6e7f23d6c280360041af5b7118cd493b592461863a4f1ca"
+      "sha256": "8876d9717f36b40012c0ee3274f24c1606b1536f00d59a8b88b1bd73ac116b36"
     },
     "static/project.css": {
       "source": "engine/apps/frontend/web/project.css",
@@ -514,7 +514,7 @@
     },
     "static/registered-boards.js": {
       "source": "engine/layout/javascript/editor/registered-boards.js",
-      "sha256": "e1a65431cd0f46bdd6ae78baffdfffdd6fc8cf758cec8e9c1ea10f4392cc75b9"
+      "sha256": "e140729924cda20bf860952625f2bb15f95d8dd866c96f2c1a5220bcb5e95a2a"
     },
     "static/shared-kits.css": {
       "source": "engine/apps/frontend/web/shared-kits.css",

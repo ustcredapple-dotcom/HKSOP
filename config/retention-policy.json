@@ -1,14 +1,30 @@
 {
   "format": "hksop-retention-policy-v1",
   "engine": "current-only",
-  "componentLibrary": "current-only",
+  "componentLibrary": "current-plus-opt-in-design-history",
   "currentProjects": "current-final-deliverables",
   "projectHistory": "finalized-engineering-json-only",
-  "historicalCad": false,
-  "historicalDrawings": false,
+  "historicalCad": true,
+  "historicalDrawings": true,
   "historicalDeliveryPackages": false,
   "historicalLibrarySnapshots": false,
-  "temporaryRollback": "delete-after-successful-transaction",
+  "temporaryRollback": "delete-only-after-current-and-history-verification",
   "backups": "same-retained-set",
-  "changedAt": "2026-11-08"
+  "changedAt": "2026-11-12",
+  "libraryHistory": {
+    "directory": "library/history",
+    "scope": "old-design-dependencies",
+    "preserveUnknownDependencies": true,
+    "renderExisting": true,
+    "allowNewPlacement": false,
+    "showInPlacementPalette": false,
+    "protectReferencedAssets": true,
+    "versionIdentity": "immutable-definition-and-dependency-identity",
+    "fullLibrarySnapshots": false,
+    "selection": "explicit-per-update",
+    "defaultSelection": null,
+    "requireSelectionForReplacement": true,
+    "retainWhen": "retain-selected",
+    "discardScope": "this-replacement-only"
+  }
 }

@@ -1,0 +1,66 @@
+{
+  "id": "custom-mt-am1t-dual-m4-c4",
+  "name": "32-T1-C4 · MT-AM1T 双M4紧凑转接块",
+  "kind": "custom",
+  "unit": "件",
+  "model": "32-T1-C4",
+  "revision": "DUAL-M4-R4",
+  "sourceUrl": "https://cad.onshape.com/documents/9f0475206969402a7a58de19/v/864e583b17b4657281995508/e/69bb292b2df63eb4a2d0261f",
+  "productionReady": false,
+  "manufacturingStatus": "engineering-review",
+  "status": "本地几何与图模已核；螺纹等级/销孔配合及实物首件待确认",
+  "stepPath": "step/mt-dual-m4-compact-r4/32-T1-C4.step",
+  "drawingPath": "drawings/mt-dual-m4-compact-r4/32-T1-C4_machining.pdf",
+  "sourceStepSha256": "cb6fc6a294ba64216e1f5e143a7e67425bd02da1ef970d1077c61c4b6536a4c4",
+  "sourceDrawingSha256": "eb49174f90a85d43aeb572bd8997b940736e27b300bfc09d3b741941639b19a5",
+  "drawingPages": [
+    1
+  ],
+  "manufacturingSpec": {
+    "material": "316L不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "两处M4间隙孔，共用长圆沉槽；按R4逐孔标注和外轮廓顶点表加工。无通用公差/粗糙度要求。"
+  },
+  "manufacturingEvidence": {
+    "revision": "DUAL-M4-R4",
+    "sourceStepSha256": "cb6fc6a294ba64216e1f5e143a7e67425bd02da1ef970d1077c61c4b6536a4c4",
+    "drawingSha256": "eb49174f90a85d43aeb572bd8997b940736e27b300bfc09d3b741941639b19a5",
+    "geometryEvidencePath": "evidence/verification-r4.json",
+    "physicalTrialCompleted": false
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "新零件唯一编号",
+    "notes": "激光打标，不铣刻；功率按同材试样确定。",
+    "files": [
+      {
+        "face": "-Y端面",
+        "text": "32-T1-C4",
+        "dxfPath": "drawings/mt-dual-m4-compact-r4/32-T1-C4_marking.dxf",
+        "sha256": "260b1ce39246022ef881ccbe30c5b0bbada387f48b2353189ec3085321be421e",
+        "setupPdfPath": "drawings/mt-dual-m4-compact-r4/32-T1-C4_marking.pdf",
+        "setupPdfSha256": "c22e4998b62c27697c610ac49833eafa87d877742f64e1a31f1dbee699d7c887"
+      }
+    ]
+  },
+  "notes": "本件供MT-AM1T直向及45°两种安装共用；不替换其他器件所用旧转接块。",
+  "cloudReference": {
+    "documentId": "9f0475206969402a7a58de19",
+    "workspaceId": "40d67c4b3e41191831dc0c20",
+    "versionId": "864e583b17b4657281995508",
+    "elementId": "69bb292b2df63eb4a2d0261f",
+    "active": false,
+    "current": false,
+    "elementType": "PARTSTUDIO",
+    "status": "uploaded-pending-independent-acceptance",
+    "sourceStepSha256": "cb6fc6a294ba64216e1f5e143a7e67425bd02da1ef970d1077c61c4b6536a4c4",
+    "sourceExact": false,
+    "strictGeometryIdentity": false,
+    "automaticCloudReuseAllowed": false,
+    "nativeMotionMatesVerified": false,
+    "physicalTrialCompleted": false,
+    "acceptanceNote": "Onshape import completed without translation error; one-part / assembly hierarchy and appearance observed. Independent cloud dimensional readback not performed. Local exact STEP remains precision authority.",
+    "url": "https://cad.onshape.com/documents/9f0475206969402a7a58de19/v/864e583b17b4657281995508/e/69bb292b2df63eb4a2d0261f",
+    "workspaceUrl": "https://cad.onshape.com/documents/9f0475206969402a7a58de19/w/40d67c4b3e41191831dc0c20/e/69bb292b2df63eb4a2d0261f"
+  }
+}

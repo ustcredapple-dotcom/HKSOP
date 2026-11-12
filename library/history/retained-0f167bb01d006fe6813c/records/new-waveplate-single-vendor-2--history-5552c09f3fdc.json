@@ -1,0 +1,18 @@
+{
+  "id": "new-waveplate-single-vendor-2--history-5552c09f3fdc",
+  "name": "聚合物真零级半波片",
+  "model": "HWP25-532A",
+  "kind": "lubang",
+  "unit": "个",
+  "status": "原装配型号已核对",
+  "sourceUrl": "https://www.lbtek.com/product/659",
+  "notes": "",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "new-waveplate-single-vendor-2",
+    "revision": null,
+    "sourceRecordSha256": "63a74e23e19356fe3099543b7db44a5dcecd8e89f73881c5aaa22a5f0da9acd9"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "custom-waveplate-double-05-m1--history-045379f6d2de",
+  "name": "24-WP05-D 半英寸双波片一体转接块",
+  "model": "24-WP05-D M1",
+  "kind": "custom",
+  "unit": "件",
+  "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/47e014352eaf3c315c242fdc/e/b73787b5fcbde2fb95e25a9c",
+  "stepPath": "step/history-3451108510c088c0ae988dcacb02334de9cc78620046e87de9f4f827e9025627.step",
+  "drawingPath": "drawings/history-493b71bcb3f12dd41e12dce435e83750aefd1fdb2abf588b58a3451c34f558f7.pdf",
+  "dxfPath": "drawings/history-cc12e26c9c46b7951622604986e0c1b7f1cec28466365fd09b0ab85826e8562b.dxf",
+  "sourceStepSha256": "3451108510c088c0ae988dcacb02334de9cc78620046e87de9f4f827e9025627",
+  "sourceDrawingSha256": "493b71bcb3f12dd41e12dce435e83750aefd1fdb2abf588b58a3451c34f558f7",
+  "drawingPages": [
+    1,
+    2,
+    3
+  ],
+  "drawingSourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/47e014352eaf3c315c242fdc/e/e836d9fc82940247eb135dbb",
+  "revision": "M1",
+  "productionReady": false,
+  "drawingStatus": "engineering-review",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "按 M1 单件模型、三页加工图及 1:1 DXF 加工；孔位、螺纹与双销配合须试装验收。"
+  },
+  "notes": "以柱轴XY0为装配基准；转接块主底面Z37.5。原R2结构经M1高度迁移及跨内核字形修复；本轮仅整理导入，未新建原设计。",
+  "sourceEvidence": "library/reviews/waveplate05-metric-m1-import-20261006/evidence/provider/24-WP05-D_spec.json",
+  "dxfPdfPath": "drawings/history-0d9a5d2fd644e865ae243f6019d1c1b79e6b1159f0ec76083a9395c66499ee73.pdf",
+  "dxfPdfSha256": "0d9a5d2fd644e865ae243f6019d1c1b79e6b1159f0ec76083a9395c66499ee73",
+  "drawingAnnotationEvidence": {
+    "/drawingPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "5c5eae6e2b648f90f508ab50f98c62ef374830d00e565a9e123ca48e88f1104e",
+      "currentPdfSha256": "cb35e164b372aaaf08a1820c3ad262ecf49eae84adf70ee1e91530e92195bc1a",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    },
+    "/dxfPdfPath": {
+      "revision": "compact-hole-callouts-20261011",
+      "sourcePdfSha256": "2244a4a11fd23b353bc7de4394320af8fd7ef41cdceee1bb0249094e20b21a1e",
+      "currentPdfSha256": "0d9a5d2fd644e865ae243f6019d1c1b79e6b1159f0ec76083a9395c66499ee73",
+      "annotatedPages": [
+        1
+      ],
+      "originalPositionDimensionsPreserved": true,
+      "appendedVerbosePagesRemoved": true,
+      "geometryChanged": false,
+      "reviewScope": "AI source-PDF leader and short specification review; original positioning dimensions/tables retained; no physical assembly claim"
+    }
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "当前STEP既有编号/刻线已核定，按用户确认改作激光打标",
+    "notes": "激光打标，不铣刻；原CAD凹字深度仅显示参考，不作为去除深度。已有相同标识的实物不重复打标；设备参数按材料/表面处理试样确定。",
+    "files": [
+      {
+        "face": "编号面_-Y",
+        "text": "24-WP05-D",
+        "dxfPath": "drawings/history-cce2bcd34b795b839c048427727f9c2c4ade5c181ac13ea989559ed644bd1e1b.dxf",
+        "sha256": "cce2bcd34b795b839c048427727f9c2c4ade5c181ac13ea989559ed644bd1e1b",
+        "setupPdfPath": "drawings/history-29bc361109ecd3c5c30801276875ca30019a8ee7fafd62d855596fbee19dec91.pdf",
+        "setupPdfSha256": "29bc361109ecd3c5c30801276875ca30019a8ee7fafd62d855596fbee19dec91"
+      }
+    ]
+  },
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "custom-waveplate-double-05-m1",
+    "revision": "M1",
+    "sourceRecordSha256": "5527211373636b79b597865c270a573e9ebabec9dac6abb51909aa6d6dfdd274"
+  }
+}

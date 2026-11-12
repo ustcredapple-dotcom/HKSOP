@@ -1,0 +1,18 @@
+{
+  "id": "amp-1r--history-346fa7b8a663",
+  "name": "可调平台",
+  "model": "AMP-1R",
+  "kind": "lubang",
+  "unit": "个",
+  "sourceUrl": "https://www.lbtek.com/product/154",
+  "notes": "",
+  "status": "已核对",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "amp-1r",
+    "revision": null,
+    "sourceRecordSha256": "4b042f419d5ea8f729bacc0115c38fdf862972bc049c6bcc49c4c86399a16e09"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "mop-75",
+  "name": "75 mm 笼式接杆",
+  "model": "MOP-75",
+  "kind": "lubang",
+  "unit": "根",
+  "sourceUrl": "https://www.lbtek.com/product/118",
+  "status": "原厂尺寸与STEP已核对；包装附件待确认",
+  "stepPath": "step/03_耦合/coupler-dual-waveplate-r1/MOP-75-manufacturer.step",
+  "drawingPath": "drawings/03_耦合/coupler-dual-waveplate-r1/MOP-75-manufacturer.pdf",
+  "sourceStepSha256": "629630fe50b6d05fb7d0f7d37ced119f67669723d4864c2e2abdf760e874ca58",
+  "sourceDrawingSha256": "428501b6529527f0e8ff123350899808df15c4b4e5b0c3b77c345734cfc25526",
+  "notes": "数量按单根统计，4根；不自动转换四根包装。原厂CAD每杆含两端M3×6，不重复另加，包装实物随附情况需供应商确认。"
+}

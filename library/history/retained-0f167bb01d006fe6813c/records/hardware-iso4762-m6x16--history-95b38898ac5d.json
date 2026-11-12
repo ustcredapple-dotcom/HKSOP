@@ -1,0 +1,28 @@
+{
+  "id": "hardware-iso4762-m6x16--history-95b38898ac5d",
+  "name": "ISO 4762 M6x16 内六角圆柱头螺钉",
+  "model": "M6×16",
+  "kind": "standard",
+  "unit": "颗",
+  "revision": "R1-A7075",
+  "standardSpec": {
+    "standard": "ISO 4762:2004 (NBK technical excerpt)",
+    "thread": "M6x1.0",
+    "nominalDiameterMm": 6,
+    "lengthMm": 16,
+    "headDiameterMm": 10.22,
+    "headHeightMm": 6,
+    "material": null,
+    "finish": null
+  },
+  "notes": "ISO 4762 内六角圆柱头；材质及表面处理未指定，采购前确认实际头部与长度。",
+  "status": "规格已定义；实物待核对",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "hardware-iso4762-m6x16",
+    "revision": "R1-A7075",
+    "sourceRecordSha256": "03fe2da750f76b3c59aab291aee9c96e706dd3b47ca828a1f9f778af316e7645"
+  }
+}

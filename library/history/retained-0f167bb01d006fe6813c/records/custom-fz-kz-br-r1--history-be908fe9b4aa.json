@@ -1,0 +1,74 @@
+{
+  "id": "custom-fz-kz-br-r1--history-be908fe9b4aa",
+  "name": "FZ-KZ-BR-R1 双笼杆电机支架",
+  "model": "FZ-KZ-BR-R1",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R1",
+  "status": "工程审核版；实物与加工放行待确认",
+  "productionReady": false,
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化",
+    "processDetails": "按当前R1图纸加工；激光编号，不铣刻。不添加通用公差或粗糙度。"
+  },
+  "notes": "现有编码器舵机机械接口参考；实际杆孔配合、反向防松和实物行程待验证。",
+  "stepPath": "step/history-044ccf8e498400fdb388d3994c7050d3b42fcae94e35954c138b8886f8a29b9c.step",
+  "sourceStepSha256": "044ccf8e498400fdb388d3994c7050d3b42fcae94e35954c138b8886f8a29b9c",
+  "drawingPath": "drawings/history-03ebe9bfb945b8f43add3707a875048e83d7b288316e775a8ff32858aca54a7b.pdf",
+  "sourceDrawingSha256": "03ebe9bfb945b8f43add3707a875048e83d7b288316e775a8ff32858aca54a7b",
+  "dxfPath": "drawings/history-cec36766b98ff66b23e49ae23776af6bbe147e1829c7b49a9c214693e8a0b77b.dxf",
+  "sourceDxfSha256": "cec36766b98ff66b23e49ae23776af6bbe147e1829c7b49a9c214693e8a0b77b",
+  "laserMarking": {
+    "status": "required",
+    "reason": "新件R1唯一编号",
+    "notes": "实际字高1.5mm；按定位PDF装夹，圆柱面按弧长展开；激光打标，不铣刻。",
+    "files": [
+      {
+        "face": "编号面",
+        "text": "FZ-KZ-BR-R1",
+        "dxfPath": "drawings/history-91062f2361b2e61b124f72ed354944704ba044fe4bc15011eeff072cbc9fe440.dxf",
+        "sha256": "91062f2361b2e61b124f72ed354944704ba044fe4bc15011eeff072cbc9fe440",
+        "setupPdfPath": "drawings/history-f7d09c5550b5a92298d258fff7d7fb0d3a2240be5fa274d5ccae48724d6c768a.pdf",
+        "setupPdfSha256": "f7d09c5550b5a92298d258fff7d7fb0d3a2240be5fa274d5ccae48724d6c768a"
+      }
+    ]
+  },
+  "manufacturingEvidence": {
+    "sourceStepSha256": "044ccf8e498400fdb388d3994c7050d3b42fcae94e35954c138b8886f8a29b9c",
+    "drawingSha256": "03ebe9bfb945b8f43add3707a875048e83d7b288316e775a8ff32858aca54a7b",
+    "pageCount": 1,
+    "originalDrawingSha256": "a38e540cfe1c90156e3d308ae0dbedcfd2454bf2c3f69cfc7643f202722576d8",
+    "originalPage": 3,
+    "geometryValidated": true,
+    "physicalTrialCompleted": false,
+    "reviewScope": "Independent one-solid validity and assembly-instance identity check; source unchanged dimensioned page."
+  },
+  "dxfPdfPath": "drawings/history-cf0b07b2410173a13859316514721ebbce2611200f63053855ef55c516986eb0.pdf",
+  "dxfPdfSha256": "cf0b07b2410173a13859316514721ebbce2611200f63053855ef55c516986eb0",
+  "threadCalloutAnnotationRevision": {
+    "revision": "TN1-20261026",
+    "policy": "贯穿螺纹孔只标螺纹代号；盲牙深度、间隙孔、孔位和模型不变。",
+    "mechanicalRevisionChanged": false,
+    "files": [
+      {
+        "path": "assets/drawings/history-03ebe9bfb945b8f43add3707a875048e83d7b288316e775a8ff32858aca54a7b.pdf",
+        "previousSha256": "a92cb0ce1a225ff2e55758b9cbd28d994e9ed383c6c1e01064a3703dc16bf403",
+        "sha256": "03ebe9bfb945b8f43add3707a875048e83d7b288316e775a8ff32858aca54a7b"
+      },
+      {
+        "path": "assets/drawings/history-cec36766b98ff66b23e49ae23776af6bbe147e1829c7b49a9c214693e8a0b77b.dxf",
+        "previousSha256": "f786f94086ccd5cf4028efc6a6193f07a064311c26b15f5f51a6c700ce37e29e",
+        "sha256": "cec36766b98ff66b23e49ae23776af6bbe147e1829c7b49a9c214693e8a0b77b"
+      }
+    ]
+  },
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "custom-fz-kz-br-r1",
+    "revision": "R1",
+    "sourceRecordSha256": "c49fb6452e606bdccf4d3081ce03c9f1f2a37549d5eb8d0204e46a5e423c6377"
+  }
+}

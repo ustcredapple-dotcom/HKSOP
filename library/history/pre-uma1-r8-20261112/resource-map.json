@@ -1,0 +1,602 @@
+{
+  "format": "hksop-package-resources-v1",
+  "packageId": "pre-uma1-r8-20261112",
+  "files": [
+    {
+      "path": "cad/00a48e49560838f810f325e560688f62f8f3a3fe3acc098f7d4122cad9538ba8.step",
+      "stored": "library/assets/sha256/00/00a48e49560838f810f325e560688f62f8f3a3fe3acc098f7d4122cad9538ba8.step",
+      "sha256": "00a48e49560838f810f325e560688f62f8f3a3fe3acc098f7d4122cad9538ba8",
+      "originalReferences": [],
+      "sources": []
+    },
+    {
+      "path": "drawings/0b6e1d38c8f830fea4885fcaee60e608f924eae9fdc80e4fbc131c2a3e26bb04.pdf",
+      "stored": "library/assets/sha256/0b/0b6e1d38c8f830fea4885fcaee60e608f924eae9fdc80e4fbc131c2a3e26bb04.pdf",
+      "sha256": "0b6e1d38c8f830fea4885fcaee60e608f924eae9fdc80e4fbc131c2a3e26bb04",
+      "originalReferences": [
+        "drawings/07_固定反射镜/13_固定反射镜_1inch_加工审核图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/07_固定反射镜/13_固定反射镜_1inch_加工审核图_TN1_20261026.pdf",
+        "library/assets/sha256/0b/0b6e1d38c8f830fea4885fcaee60e608f924eae9fdc80e4fbc131c2a3e26bb04.pdf"
+      ]
+    },
+    {
+      "path": "drawings/0bd8320cfe299fa60de4761a5a9617d4238ae0466d8fff16e06dabbd3c9c35fb.pdf",
+      "stored": "library/assets/sha256/0b/0bd8320cfe299fa60de4761a5a9617d4238ae0466d8fff16e06dabbd3c9c35fb.pdf",
+      "sha256": "0bd8320cfe299fa60de4761a5a9617d4238ae0466d8fff16e06dabbd3c9c35fb",
+      "originalReferences": [
+        "drawings/mt-cube-size-family-r2/MT-AM05-vendor.pdf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/mt-cube-size-family-r2/MT-AM05-vendor.pdf",
+        "library/assets/sha256/0b/0bd8320cfe299fa60de4761a5a9617d4238ae0466d8fff16e06dabbd3c9c35fb.pdf"
+      ]
+    },
+    {
+      "path": "drawings/0e1e236a2d623d90f08af0f488d20b5d0d5e808b698a066c68242bbf83425edb.dxf",
+      "stored": "library/assets/sha256/0e/0e1e236a2d623d90f08af0f488d20b5d0d5e808b698a066c68242bbf83425edb.dxf",
+      "sha256": "0e1e236a2d623d90f08af0f488d20b5d0d5e808b698a066c68242bbf83425edb",
+      "originalReferences": [],
+      "sources": []
+    },
+    {
+      "path": "cad/0ef7ba4ab99d5806e3266b69ac5ee1f769d7c8daef2d678e327df7dbef00c854.step",
+      "stored": "library/assets/sha256/0e/0ef7ba4ab99d5806e3266b69ac5ee1f769d7c8daef2d678e327df7dbef00c854.step",
+      "sha256": "0ef7ba4ab99d5806e3266b69ac5ee1f769d7c8daef2d678e327df7dbef00c854",
+      "originalReferences": [
+        "step/mt-dual-m4-compact-r4/MT-AM1_H25_COMPACT_R4_0deg.step"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/step/mt-dual-m4-compact-r4/MT-AM1_H25_COMPACT_R4_0deg.step",
+        "library/assets/sha256/0e/0ef7ba4ab99d5806e3266b69ac5ee1f769d7c8daef2d678e327df7dbef00c854.step"
+      ]
+    },
+    {
+      "path": "drawings/17930567ede8705d58ba01f5979e506bfce18155f072812e42b9e2f17ffc79ea.pdf",
+      "stored": "library/assets/sha256/17/17930567ede8705d58ba01f5979e506bfce18155f072812e42b9e2f17ffc79ea.pdf",
+      "sha256": "17930567ede8705d58ba01f5979e506bfce18155f072812e42b9e2f17ffc79ea",
+      "originalReferences": [],
+      "sources": []
+    },
+    {
+      "path": "cad/179b34753972266b5b80022224223df63a09b3d1df4bcb8f5bad9e0a03e036f1.step",
+      "stored": "library/assets/sha256/17/179b34753972266b5b80022224223df63a09b3d1df4bcb8f5bad9e0a03e036f1.step",
+      "sha256": "179b34753972266b5b80022224223df63a09b3d1df4bcb8f5bad9e0a03e036f1",
+      "originalReferences": [
+        "step/mt-cube-size-family-r2/MCB-05R2.step"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/step/mt-cube-size-family-r2/MCB-05R2.step",
+        "library/assets/sha256/17/179b34753972266b5b80022224223df63a09b3d1df4bcb8f5bad9e0a03e036f1.step"
+      ]
+    },
+    {
+      "path": "drawings/209d45a90473b5a391fc986c783568375259776821e181701e138f019bb3f08c.dxf",
+      "stored": "library/assets/sha256/20/209d45a90473b5a391fc986c783568375259776821e181701e138f019bb3f08c.dxf",
+      "sha256": "209d45a90473b5a391fc986c783568375259776821e181701e138f019bb3f08c",
+      "originalReferences": [
+        "drawings/mt-dual-m4-compact-r4/V7-1A-C4_marking.dxf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/mt-dual-m4-compact-r4/V7-1A-C4_marking.dxf",
+        "library/assets/sha256/20/209d45a90473b5a391fc986c783568375259776821e181701e138f019bb3f08c.dxf"
+      ]
+    },
+    {
+      "path": "cad/25d6d459b07568db8f5ab438ed7f6ceef13d980ebd1ffc41acac3d24a7b706ac.step",
+      "stored": "library/assets/sha256/25/25d6d459b07568db8f5ab438ed7f6ceef13d980ebd1ffc41acac3d24a7b706ac.step",
+      "sha256": "25d6d459b07568db8f5ab438ed7f6ceef13d980ebd1ffc41acac3d24a7b706ac",
+      "originalReferences": [
+        "step/original-metric-m1-20261006/custom-10_M1_native.step"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/step/original-metric-m1-20261006/custom-10_M1_native.step",
+        "library/assets/sha256/25/25d6d459b07568db8f5ab438ed7f6ceef13d980ebd1ffc41acac3d24a7b706ac.step"
+      ]
+    },
+    {
+      "path": "rendering/29c5edf16452f7a0766c26f74424eac239a9178ed8655c858d1419c8d2d25522.svg",
+      "stored": "library/assets/sha256/29/29c5edf16452f7a0766c26f74424eac239a9178ed8655c858d1419c8d2d25522.svg",
+      "sha256": "29c5edf16452f7a0766c26f74424eac239a9178ed8655c858d1419c8d2d25522",
+      "originalReferences": [
+        "topviews/mt-am1-h25-v7-1a-standard-r2__DUAL_M4_R4.svg"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/static/topviews/mt-am1-h25-v7-1a-standard-r2__DUAL_M4_R4.svg",
+        "library/assets/sha256/29/29c5edf16452f7a0766c26f74424eac239a9178ed8655c858d1419c8d2d25522.svg"
+      ]
+    },
+    {
+      "path": "rendering/2cffb49f3c96d08378ad8f348e5e3c219cbe226c6dcc413976ad8b1eaef299b1.svg",
+      "stored": "library/assets/sha256/2c/2cffb49f3c96d08378ad8f348e5e3c219cbe226c6dcc413976ad8b1eaef299b1.svg",
+      "sha256": "2cffb49f3c96d08378ad8f348e5e3c219cbe226c6dcc413976ad8b1eaef299b1",
+      "originalReferences": [
+        "topviews/fixed-1-45__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/2c/2cffb49f3c96d08378ad8f348e5e3c219cbe226c6dcc413976ad8b1eaef299b1.svg"
+      ]
+    },
+    {
+      "path": "cad/2f447466b0678f4bac74621d66ca970e8eee1cc7b2a459103d19ba7519ef310d.step",
+      "stored": "library/assets/sha256/2f/2f447466b0678f4bac74621d66ca970e8eee1cc7b2a459103d19ba7519ef310d.step",
+      "sha256": "2f447466b0678f4bac74621d66ca970e8eee1cc7b2a459103d19ba7519ef310d",
+      "originalReferences": [
+        "step/mt-cube-size-family-r2/MT-CSB05-vendor.step"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/step/mt-cube-size-family-r2/MT-CSB05-vendor.step",
+        "library/assets/sha256/2f/2f447466b0678f4bac74621d66ca970e8eee1cc7b2a459103d19ba7519ef310d.step"
+      ]
+    },
+    {
+      "path": "cad/31359f961d3a5e6e1b0690b5233c2a3d7c5778cde03a59b78da5f8171e843083.step",
+      "stored": "library/assets/sha256/31/31359f961d3a5e6e1b0690b5233c2a3d7c5778cde03a59b78da5f8171e843083.step",
+      "sha256": "31359f961d3a5e6e1b0690b5233c2a3d7c5778cde03a59b78da5f8171e843083",
+      "originalReferences": [],
+      "sources": []
+    },
+    {
+      "path": "drawings/327cca115a72838ae5e71b16bc574204213c71428eaf10aba7416cee8544b9bb.pdf",
+      "stored": "library/assets/sha256/32/327cca115a72838ae5e71b16bc574204213c71428eaf10aba7416cee8544b9bb.pdf",
+      "sha256": "327cca115a72838ae5e71b16bc574204213c71428eaf10aba7416cee8544b9bb",
+      "originalReferences": [
+        "drawings/mt-cube-size-family-r2/MT-CSB05-vendor.pdf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/mt-cube-size-family-r2/MT-CSB05-vendor.pdf",
+        "library/assets/sha256/32/327cca115a72838ae5e71b16bc574204213c71428eaf10aba7416cee8544b9bb.pdf"
+      ]
+    },
+    {
+      "path": "rendering/33b20da9fe19920ae8e02b6674d74af25ad7fd477ab889d2d3895a9738a4594c.svg",
+      "stored": "library/assets/sha256/33/33b20da9fe19920ae8e02b6674d74af25ad7fd477ab889d2d3895a9738a4594c.svg",
+      "sha256": "33b20da9fe19920ae8e02b6674d74af25ad7fd477ab889d2d3895a9738a4594c",
+      "originalReferences": [
+        "topviews/mt-am1-h25-dual-m4-45-r4__DUAL_M4_R4.svg"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/static/topviews/mt-am1-h25-dual-m4-45-r4__DUAL_M4_R4.svg",
+        "library/assets/sha256/33/33b20da9fe19920ae8e02b6674d74af25ad7fd477ab889d2d3895a9738a4594c.svg"
+      ]
+    },
+    {
+      "path": "cad/41d4fc7d2422ecb2264b1fd2ba2d16f7b34dbfc08cc78ac364da5140660be718.step",
+      "stored": "library/assets/sha256/41/41d4fc7d2422ecb2264b1fd2ba2d16f7b34dbfc08cc78ac364da5140660be718.step",
+      "sha256": "41d4fc7d2422ecb2264b1fd2ba2d16f7b34dbfc08cc78ac364da5140660be718",
+      "originalReferences": [
+        "step/mt-dual-m4-compact-r4/V7-1A-C4.step"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/step/mt-dual-m4-compact-r4/V7-1A-C4.step",
+        "library/assets/sha256/41/41d4fc7d2422ecb2264b1fd2ba2d16f7b34dbfc08cc78ac364da5140660be718.step"
+      ]
+    },
+    {
+      "path": "drawings/42515be3f1339103768891e36ba46b0a07baf056bb848f78e56df80e8d767c3b.pdf",
+      "stored": "library/assets/sha256/42/42515be3f1339103768891e36ba46b0a07baf056bb848f78e56df80e8d767c3b.pdf",
+      "sha256": "42515be3f1339103768891e36ba46b0a07baf056bb848f78e56df80e8d767c3b",
+      "originalReferences": [
+        "drawings/laser-marking/custom-mt-cube-adapter-0p5inch-m1-r2/编号面_+X_定位说明.pdf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/laser-marking/custom-mt-cube-adapter-0p5inch-m1-r2/编号面_+X_定位说明.pdf",
+        "library/assets/sha256/42/42515be3f1339103768891e36ba46b0a07baf056bb848f78e56df80e8d767c3b.pdf"
+      ]
+    },
+    {
+      "path": "cad/45fca4abbef11d8ca178ecb73f1616421101af7596f5aae741bc5eab632c473e.step",
+      "stored": "library/assets/sha256/45/45fca4abbef11d8ca178ecb73f1616421101af7596f5aae741bc5eab632c473e.step",
+      "sha256": "45fca4abbef11d8ca178ecb73f1616421101af7596f5aae741bc5eab632c473e",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/adjustable-1-90__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/45/45fca4abbef11d8ca178ecb73f1616421101af7596f5aae741bc5eab632c473e.step"
+      ]
+    },
+    {
+      "path": "drawings/4bfefa81bdb613d48376c256f60eaadf3a14c066388120d456c95484c5c9582d.dxf",
+      "stored": "library/assets/sha256/4b/4bfefa81bdb613d48376c256f60eaadf3a14c066388120d456c95484c5c9582d.dxf",
+      "sha256": "4bfefa81bdb613d48376c256f60eaadf3a14c066388120d456c95484c5c9582d",
+      "originalReferences": [
+        "drawings/laser-marking/custom-mt-cube-adapter-0p5inch-m1-r2/编号面_+X.dxf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/laser-marking/custom-mt-cube-adapter-0p5inch-m1-r2/编号面_+X.dxf",
+        "library/assets/sha256/4b/4bfefa81bdb613d48376c256f60eaadf3a14c066388120d456c95484c5c9582d.dxf"
+      ]
+    },
+    {
+      "path": "drawings/543dc2521d71e4f6f2e3a9a50327273faa9b57a7763702a51beada7b25da3da7.pdf",
+      "stored": "library/assets/sha256/54/543dc2521d71e4f6f2e3a9a50327273faa9b57a7763702a51beada7b25da3da7.pdf",
+      "sha256": "543dc2521d71e4f6f2e3a9a50327273faa9b57a7763702a51beada7b25da3da7",
+      "originalReferences": [
+        "drawings/mt-cube-module-r1/MT-AM1-vendor.pdf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/mt-cube-module-r1/MT-AM1-vendor.pdf",
+        "library/assets/sha256/54/543dc2521d71e4f6f2e3a9a50327273faa9b57a7763702a51beada7b25da3da7.pdf"
+      ]
+    },
+    {
+      "path": "cad/5bf586696fe5afa1315c619650cc7da3a6994a25889e27833f66779871aa456b.step",
+      "stored": "library/assets/sha256/5b/5bf586696fe5afa1315c619650cc7da3a6994a25889e27833f66779871aa456b.step",
+      "sha256": "5bf586696fe5afa1315c619650cc7da3a6994a25889e27833f66779871aa456b",
+      "originalReferences": [
+        "step/mt-cube-size-family-r2/MT-AM05-vendor.step"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/step/mt-cube-size-family-r2/MT-AM05-vendor.step",
+        "library/assets/sha256/5b/5bf586696fe5afa1315c619650cc7da3a6994a25889e27833f66779871aa456b.step"
+      ]
+    },
+    {
+      "path": "drawings/629f01d04f14fe3e5e11ee245cefa6f6772dcc968871069e0e4b28c528ccf568.pdf",
+      "stored": "library/assets/sha256/62/629f01d04f14fe3e5e11ee245cefa6f6772dcc968871069e0e4b28c528ccf568.pdf",
+      "sha256": "629f01d04f14fe3e5e11ee245cefa6f6772dcc968871069e0e4b28c528ccf568",
+      "originalReferences": [
+        "drawings/mt-dual-m4-compact-r4/mt-am1-h25-v7-1a-standard-r2_assembly.pdf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/mt-dual-m4-compact-r4/mt-am1-h25-v7-1a-standard-r2_assembly.pdf",
+        "library/assets/sha256/62/629f01d04f14fe3e5e11ee245cefa6f6772dcc968871069e0e4b28c528ccf568.pdf"
+      ]
+    },
+    {
+      "path": "drawings/663931a8d0c600c2470edc7dd1a4922936718c821068fae60743396ed842c3a5.pdf",
+      "stored": "library/assets/sha256/66/663931a8d0c600c2470edc7dd1a4922936718c821068fae60743396ed842c3a5.pdf",
+      "sha256": "663931a8d0c600c2470edc7dd1a4922936718c821068fae60743396ed842c3a5",
+      "originalReferences": [
+        "drawings/mt-dual-m4-compact-r4/mt-am1-h25-dual-m4-45-r4_assembly.pdf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/mt-dual-m4-compact-r4/mt-am1-h25-dual-m4-45-r4_assembly.pdf",
+        "library/assets/sha256/66/663931a8d0c600c2470edc7dd1a4922936718c821068fae60743396ed842c3a5.pdf"
+      ]
+    },
+    {
+      "path": "drawings/689a3715689372e45994e653f0957eee27d9b5354738201a0aa8b925ce212c2c.pdf",
+      "stored": "library/assets/sha256/68/689a3715689372e45994e653f0957eee27d9b5354738201a0aa8b925ce212c2c.pdf",
+      "sha256": "689a3715689372e45994e653f0957eee27d9b5354738201a0aa8b925ce212c2c",
+      "originalReferences": [
+        "drawings/installation-b6-r1/MCB-05R2_B6_R1_安装及原加工图.pdf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/installation-b6-r1/MCB-05R2_B6_R1_安装及原加工图.pdf",
+        "library/assets/sha256/68/689a3715689372e45994e653f0957eee27d9b5354738201a0aa8b925ce212c2c.pdf"
+      ]
+    },
+    {
+      "path": "drawings/774966886c943ca2ce40246ff2d2588e0e0c414aee67e4c4c88ca88377093d2a.dxf",
+      "stored": "library/assets/sha256/77/774966886c943ca2ce40246ff2d2588e0e0c414aee67e4c4c88ca88377093d2a.dxf",
+      "sha256": "774966886c943ca2ce40246ff2d2588e0e0c414aee67e4c4c88ca88377093d2a",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-13/编号面.dxf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/laser-marking/lm1-20261015/custom-13/编号面.dxf",
+        "library/assets/sha256/77/774966886c943ca2ce40246ff2d2588e0e0c414aee67e4c4c88ca88377093d2a.dxf"
+      ]
+    },
+    {
+      "path": "rendering/77bd7a5ce2f3ce744ae16b1adbcd6df0bf9d7e72bcf55e659fbc0932a11d380a.svg",
+      "stored": "library/assets/sha256/77/77bd7a5ce2f3ce744ae16b1adbcd6df0bf9d7e72bcf55e659fbc0932a11d380a.svg",
+      "sha256": "77bd7a5ce2f3ce744ae16b1adbcd6df0bf9d7e72bcf55e659fbc0932a11d380a",
+      "originalReferences": [
+        "topviews/adjustable-1-45__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/77/77bd7a5ce2f3ce744ae16b1adbcd6df0bf9d7e72bcf55e659fbc0932a11d380a.svg"
+      ]
+    },
+    {
+      "path": "drawings/79c4645929c5d63526744084575c8eede9438af2ec50d38fc198b7560daad44d.pdf",
+      "stored": "library/assets/sha256/79/79c4645929c5d63526744084575c8eede9438af2ec50d38fc198b7560daad44d.pdf",
+      "sha256": "79c4645929c5d63526744084575c8eede9438af2ec50d38fc198b7560daad44d",
+      "originalReferences": [
+        "drawings/mt-dual-m4-compact-r4/V7-1A-C4_machining.pdf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/mt-dual-m4-compact-r4/V7-1A-C4_machining.pdf",
+        "library/assets/sha256/79/79c4645929c5d63526744084575c8eede9438af2ec50d38fc198b7560daad44d.pdf"
+      ]
+    },
+    {
+      "path": "drawings/88ed4eded4c42c0d2f021dc571a76ab455d6c222af4c142c6d039b97757957b8.pdf",
+      "stored": "library/assets/sha256/88/88ed4eded4c42c0d2f021dc571a76ab455d6c222af4c142c6d039b97757957b8.pdf",
+      "sha256": "88ed4eded4c42c0d2f021dc571a76ab455d6c222af4c142c6d039b97757957b8",
+      "originalReferences": [
+        "drawings/06_可调节反射镜/10_可调反射镜_1inch_加工审核图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/06_可调节反射镜/10_可调反射镜_1inch_加工审核图_TN1_20261026.pdf",
+        "library/assets/sha256/88/88ed4eded4c42c0d2f021dc571a76ab455d6c222af4c142c6d039b97757957b8.pdf"
+      ]
+    },
+    {
+      "path": "drawings/89479cb068502e76a9c1772d736c692cff368ddb55866e524dfdaff4d99dd6d2.pdf",
+      "stored": "library/assets/sha256/89/89479cb068502e76a9c1772d736c692cff368ddb55866e524dfdaff4d99dd6d2.pdf",
+      "sha256": "89479cb068502e76a9c1772d736c692cff368ddb55866e524dfdaff4d99dd6d2",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-10/编号面_定位.pdf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/laser-marking/lm1-20261015/custom-10/编号面_定位.pdf",
+        "library/assets/sha256/89/89479cb068502e76a9c1772d736c692cff368ddb55866e524dfdaff4d99dd6d2.pdf"
+      ]
+    },
+    {
+      "path": "drawings/8a1420a4226771b3d190fa2e8115395483dba97c0944378f0ffa5e7669cfbb8f.pdf",
+      "stored": "library/assets/sha256/8a/8a1420a4226771b3d190fa2e8115395483dba97c0944378f0ffa5e7669cfbb8f.pdf",
+      "sha256": "8a1420a4226771b3d190fa2e8115395483dba97c0944378f0ffa5e7669cfbb8f",
+      "originalReferences": [
+        "drawings/mt-cube-size-family-r2/PBS621-vendor.pdf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/mt-cube-size-family-r2/PBS621-vendor.pdf",
+        "library/assets/sha256/8a/8a1420a4226771b3d190fa2e8115395483dba97c0944378f0ffa5e7669cfbb8f.pdf"
+      ]
+    },
+    {
+      "path": "cad/8ea7acf535fad0334e6d673897d872ec0755f8133f23b3ffa756bcf048566c12.step",
+      "stored": "library/assets/sha256/8e/8ea7acf535fad0334e6d673897d872ec0755f8133f23b3ffa756bcf048566c12.step",
+      "sha256": "8ea7acf535fad0334e6d673897d872ec0755f8133f23b3ffa756bcf048566c12",
+      "originalReferences": [
+        "step/mt-cube-size-family-r2/PBS621-vendor.step"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/step/mt-cube-size-family-r2/PBS621-vendor.step",
+        "library/assets/sha256/8e/8ea7acf535fad0334e6d673897d872ec0755f8133f23b3ffa756bcf048566c12.step"
+      ]
+    },
+    {
+      "path": "drawings/8ea86a64a3a36bd52a8c1573ad67a98b6793ac49f410053b44c07f41edf6c451.dxf",
+      "stored": "library/assets/sha256/8e/8ea86a64a3a36bd52a8c1573ad67a98b6793ac49f410053b44c07f41edf6c451.dxf",
+      "sha256": "8ea86a64a3a36bd52a8c1573ad67a98b6793ac49f410053b44c07f41edf6c451",
+      "originalReferences": [],
+      "sources": []
+    },
+    {
+      "path": "drawings/8f43c2ecd26dfd18727334e39514ec33c98b8a0fb088dc292ece29d774bde676.pdf",
+      "stored": "library/assets/sha256/8f/8f43c2ecd26dfd18727334e39514ec33c98b8a0fb088dc292ece29d774bde676.pdf",
+      "sha256": "8f43c2ecd26dfd18727334e39514ec33c98b8a0fb088dc292ece29d774bde676",
+      "originalReferences": [
+        "drawings/original-metric-m1-20261006/custom-10_M1_公制加工审核图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/original-metric-m1-20261006/custom-10_M1_公制加工审核图_TN1_20261026.pdf",
+        "library/assets/sha256/8f/8f43c2ecd26dfd18727334e39514ec33c98b8a0fb088dc292ece29d774bde676.pdf"
+      ]
+    },
+    {
+      "path": "drawings/8fa22449936a43ca530f48c232a34e0a1b690ad71c8a1a77a6bfe9cd4d9d3e3b.pdf",
+      "stored": "library/assets/sha256/8f/8fa22449936a43ca530f48c232a34e0a1b690ad71c8a1a77a6bfe9cd4d9d3e3b.pdf",
+      "sha256": "8fa22449936a43ca530f48c232a34e0a1b690ad71c8a1a77a6bfe9cd4d9d3e3b",
+      "originalReferences": [
+        "drawings/original-metric-m1-20261006/custom-13_M1_公制加工审核图_TN1_20261026.pdf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/original-metric-m1-20261006/custom-13_M1_公制加工审核图_TN1_20261026.pdf",
+        "library/assets/sha256/8f/8fa22449936a43ca530f48c232a34e0a1b690ad71c8a1a77a6bfe9cd4d9d3e3b.pdf"
+      ]
+    },
+    {
+      "path": "cad/9231bed8d73badb046d8c4878c8e943045db4e83d3854693125067763eb30da6.step",
+      "stored": "library/assets/sha256/92/9231bed8d73badb046d8c4878c8e943045db4e83d3854693125067763eb30da6.step",
+      "sha256": "9231bed8d73badb046d8c4878c8e943045db4e83d3854693125067763eb30da6",
+      "originalReferences": [
+        "step/mt-dual-m4-compact-r4/MT-AM1_H25_COMPACT_R4_45deg.step"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/step/mt-dual-m4-compact-r4/MT-AM1_H25_COMPACT_R4_45deg.step",
+        "library/assets/sha256/92/9231bed8d73badb046d8c4878c8e943045db4e83d3854693125067763eb30da6.step"
+      ]
+    },
+    {
+      "path": "rendering/9f941575690d928d93abc2e23744457771f369a16cc13029d4fb639b45b6766f.svg",
+      "stored": "library/assets/sha256/9f/9f941575690d928d93abc2e23744457771f369a16cc13029d4fb639b45b6766f.svg",
+      "sha256": "9f941575690d928d93abc2e23744457771f369a16cc13029d4fb639b45b6766f",
+      "originalReferences": [
+        "topviews/mt-cube-pbs-0p5inch-m1-r2__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/9f/9f941575690d928d93abc2e23744457771f369a16cc13029d4fb639b45b6766f.svg"
+      ]
+    },
+    {
+      "path": "drawings/a107eacfed1eab33e386aa62d9d91a11aaf51f68b68ca11f4e5223b388769250.pdf",
+      "stored": "library/assets/sha256/a1/a107eacfed1eab33e386aa62d9d91a11aaf51f68b68ca11f4e5223b388769250.pdf",
+      "sha256": "a107eacfed1eab33e386aa62d9d91a11aaf51f68b68ca11f4e5223b388769250",
+      "originalReferences": [],
+      "sources": []
+    },
+    {
+      "path": "cad/ac2ccc4e320e317fc599ccaebb735ee438575fb9106b8e6a84c2fbf3b46f64ea.step",
+      "stored": "library/assets/sha256/ac/ac2ccc4e320e317fc599ccaebb735ee438575fb9106b8e6a84c2fbf3b46f64ea.step",
+      "sha256": "ac2ccc4e320e317fc599ccaebb735ee438575fb9106b8e6a84c2fbf3b46f64ea",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/fixed-1-90__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/ac/ac2ccc4e320e317fc599ccaebb735ee438575fb9106b8e6a84c2fbf3b46f64ea.step"
+      ]
+    },
+    {
+      "path": "cad/ad38a80e84da077f2fb98cc806d249667952bcf1ec5343f4d5fd8c8b37cf6684.step",
+      "stored": "library/assets/sha256/ad/ad38a80e84da077f2fb98cc806d249667952bcf1ec5343f4d5fd8c8b37cf6684.step",
+      "sha256": "ad38a80e84da077f2fb98cc806d249667952bcf1ec5343f4d5fd8c8b37cf6684",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/mt-cube-pbs-0p5inch-m1-r2__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/ad/ad38a80e84da077f2fb98cc806d249667952bcf1ec5343f4d5fd8c8b37cf6684.step"
+      ]
+    },
+    {
+      "path": "drawings/ba4dcf120eedb4ac100090401f51c5f23cf75e3098ee693b944e28da4d6a6d1c.pdf",
+      "stored": "library/assets/sha256/ba/ba4dcf120eedb4ac100090401f51c5f23cf75e3098ee693b944e28da4d6a6d1c.pdf",
+      "sha256": "ba4dcf120eedb4ac100090401f51c5f23cf75e3098ee693b944e28da4d6a6d1c",
+      "originalReferences": [
+        "drawings/mt-cube-size-family-r2/MCB-05R2-operations_DXF.pdf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/mt-cube-size-family-r2/MCB-05R2-operations_DXF.pdf",
+        "library/assets/sha256/ba/ba4dcf120eedb4ac100090401f51c5f23cf75e3098ee693b944e28da4d6a6d1c.pdf"
+      ]
+    },
+    {
+      "path": "drawings/bb8792fa1d04b8e84464626509bcc5d3607ff674fdf506ed2f1b437fcf64585a.dxf",
+      "stored": "library/assets/sha256/bb/bb8792fa1d04b8e84464626509bcc5d3607ff674fdf506ed2f1b437fcf64585a.dxf",
+      "sha256": "bb8792fa1d04b8e84464626509bcc5d3607ff674fdf506ed2f1b437fcf64585a",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-10/编号面.dxf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/laser-marking/lm1-20261015/custom-10/编号面.dxf",
+        "library/assets/sha256/bb/bb8792fa1d04b8e84464626509bcc5d3607ff674fdf506ed2f1b437fcf64585a.dxf"
+      ]
+    },
+    {
+      "path": "drawings/bc8208acf0bc57df76d62a836997d2093cec560562c03fdde4f13b46660562cf.pdf",
+      "stored": "library/assets/sha256/bc/bc8208acf0bc57df76d62a836997d2093cec560562c03fdde4f13b46660562cf.pdf",
+      "sha256": "bc8208acf0bc57df76d62a836997d2093cec560562c03fdde4f13b46660562cf",
+      "originalReferences": [
+        "drawings/laser-marking/lm1-20261015/custom-13/编号面_定位.pdf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/laser-marking/lm1-20261015/custom-13/编号面_定位.pdf",
+        "library/assets/sha256/bc/bc8208acf0bc57df76d62a836997d2093cec560562c03fdde4f13b46660562cf.pdf"
+      ]
+    },
+    {
+      "path": "drawings/c68b7b10f7f977181f05ec1611f422b8443841be07f74e21b7fbeb15272201ea.dxf",
+      "stored": "library/assets/sha256/c6/c68b7b10f7f977181f05ec1611f422b8443841be07f74e21b7fbeb15272201ea.dxf",
+      "sha256": "c68b7b10f7f977181f05ec1611f422b8443841be07f74e21b7fbeb15272201ea",
+      "originalReferences": [
+        "drawings/mt-cube-size-family-r2/MCB-05R2-operations.dxf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/mt-cube-size-family-r2/MCB-05R2-operations.dxf",
+        "library/assets/sha256/c6/c68b7b10f7f977181f05ec1611f422b8443841be07f74e21b7fbeb15272201ea.dxf"
+      ]
+    },
+    {
+      "path": "cad/c7cc33cd07dc850475ffc9df46789d5a5a63b6ec803579beb9dc6194aef56032.step",
+      "stored": "library/assets/sha256/c7/c7cc33cd07dc850475ffc9df46789d5a5a63b6ec803579beb9dc6194aef56032.step",
+      "sha256": "c7cc33cd07dc850475ffc9df46789d5a5a63b6ec803579beb9dc6194aef56032",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/adjustable-1-45__B6_R1.step"
+      ],
+      "sources": [
+        "library/assets/sha256/c7/c7cc33cd07dc850475ffc9df46789d5a5a63b6ec803579beb9dc6194aef56032.step"
+      ]
+    },
+    {
+      "path": "cad/d94c57ab754a7d72130c118e4d3db6eba633c4528a518ab3381b85ff9ea09e52.step",
+      "stored": "library/assets/sha256/d9/d94c57ab754a7d72130c118e4d3db6eba633c4528a518ab3381b85ff9ea09e52.step",
+      "sha256": "d94c57ab754a7d72130c118e4d3db6eba633c4528a518ab3381b85ff9ea09e52",
+      "originalReferences": [
+        "step/original-metric-m1-20261006/custom-13_M1_native.step"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/step/original-metric-m1-20261006/custom-13_M1_native.step",
+        "library/assets/sha256/d9/d94c57ab754a7d72130c118e4d3db6eba633c4528a518ab3381b85ff9ea09e52.step"
+      ]
+    },
+    {
+      "path": "drawings/df8f38e30444ac158fbf22228b41f99195dd55df5c72741f065769b3ff898ef9.pdf",
+      "stored": "library/assets/sha256/df/df8f38e30444ac158fbf22228b41f99195dd55df5c72741f065769b3ff898ef9.pdf",
+      "sha256": "df8f38e30444ac158fbf22228b41f99195dd55df5c72741f065769b3ff898ef9",
+      "originalReferences": [
+        "drawings/mt-dual-m4-compact-r4/V7-1A-C4_marking.pdf"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/drawings/mt-dual-m4-compact-r4/V7-1A-C4_marking.pdf",
+        "library/assets/sha256/df/df8f38e30444ac158fbf22228b41f99195dd55df5c72741f065769b3ff898ef9.pdf"
+      ]
+    },
+    {
+      "path": "rendering/e0c95b707cd8ed10d7eb86a4673113e3d8d972c57839812886f9347b625221bb.svg",
+      "stored": "library/assets/sha256/e0/e0c95b707cd8ed10d7eb86a4673113e3d8d972c57839812886f9347b625221bb.svg",
+      "sha256": "e0c95b707cd8ed10d7eb86a4673113e3d8d972c57839812886f9347b625221bb",
+      "originalReferences": [
+        "topviews/fixed-1-90__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/e0/e0c95b707cd8ed10d7eb86a4673113e3d8d972c57839812886f9347b625221bb.svg"
+      ]
+    },
+    {
+      "path": "cad/e153e583a86c2539335b44aaf453f9ee7f1e90066426ab2de85d665c42dd829a.step",
+      "stored": "library/assets/sha256/e1/e153e583a86c2539335b44aaf453f9ee7f1e90066426ab2de85d665c42dd829a.step",
+      "sha256": "e153e583a86c2539335b44aaf453f9ee7f1e90066426ab2de85d665c42dd829a",
+      "originalReferences": [
+        "step/mt-cube-module-r1/MT-AM1-vendor.step"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/step/mt-cube-module-r1/MT-AM1-vendor.step",
+        "library/assets/sha256/e1/e153e583a86c2539335b44aaf453f9ee7f1e90066426ab2de85d665c42dd829a.step"
+      ]
+    },
+    {
+      "path": "rendering/e2b6ff763460e9d693813116fbc07795c733b967d7c5b2c8c5f65640190433ae.svg",
+      "stored": "library/assets/sha256/e2/e2b6ff763460e9d693813116fbc07795c733b967d7c5b2c8c5f65640190433ae.svg",
+      "sha256": "e2b6ff763460e9d693813116fbc07795c733b967d7c5b2c8c5f65640190433ae",
+      "originalReferences": [
+        "topviews/adjustable-1-90__B6_R1.svg"
+      ],
+      "sources": [
+        "library/assets/sha256/e2/e2b6ff763460e9d693813116fbc07795c733b967d7c5b2c8c5f65640190433ae.svg"
+      ]
+    },
+    {
+      "path": "drawings/e553f8259c511b990ab3fec18735f4d9d4848deda454bce9db63cad377629028.pdf",
+      "stored": "library/assets/sha256/e5/e553f8259c511b990ab3fec18735f4d9d4848deda454bce9db63cad377629028.pdf",
+      "sha256": "e553f8259c511b990ab3fec18735f4d9d4848deda454bce9db63cad377629028",
+      "originalReferences": [],
+      "sources": []
+    },
+    {
+      "path": "cad/f2add05021ab57f5842ca4bd544707a80ce916415d073a04ced25d98dadea78c.step",
+      "stored": "library/assets/sha256/f2/f2add05021ab57f5842ca4bd544707a80ce916415d073a04ced25d98dadea78c.step",
+      "sha256": "f2add05021ab57f5842ca4bd544707a80ce916415d073a04ced25d98dadea78c",
+      "originalReferences": [
+        "step/universal-post-b6-r1/assemblies/fixed-1-45__B6_R1.step"
+      ],
+      "sources": [
+        "/Users/Shared/ZZLAB/OpticsKits/current/assets/step/universal-post-b6-r1/assemblies/fixed-1-45__B6_R1.step",
+        "library/assets/sha256/f2/f2add05021ab57f5842ca4bd544707a80ce916415d073a04ced25d98dadea78c.step"
+      ]
+    },
+    {
+      "path": "drawings/fcf42193dfbe5034177de86a1cb2d18049a1a693f322f00ce774a3f2ba01714f.pdf",
+      "stored": "library/assets/sha256/fc/fcf42193dfbe5034177de86a1cb2d18049a1a693f322f00ce774a3f2ba01714f.pdf",
+      "sha256": "fcf42193dfbe5034177de86a1cb2d18049a1a693f322f00ce774a3f2ba01714f",
+      "originalReferences": [],
+      "sources": []
+    }
+  ],
+  "dependencies": [
+    "custom-10--history-547f898a225f",
+    "custom-13--history-23d86c4d5263",
+    "custom-mt-am1-dual-m4-c4--history-fe2a4a076ed2",
+    "custom-mt-cube-adapter-0p5inch-m1-r2--history-2f7238d76696",
+    "custom-post-metric-25mm-m1--history-09d50dc278f3",
+    "custom-post-metric-37p5mm-m1--history-61833e8c81f3",
+    "hardware-iso4762-m6x12--history-07efdd9c6a33",
+    "lbtek-mt-am05-purchased--history-db15301360f7",
+    "lbtek-mt-am1-purchased--history-326f2a1b2e1b",
+    "lbtek-mt-csb05-purchased--history-05eb09aefe02",
+    "lbtek-pbs621-purchased--history-bd251c58fb1b",
+    "metric-m1-post-m4x14--history-a09db5208863",
+    "metric-m1-post-pin-d2x8--history-c15d3a11ee05",
+    "mt-am1s5--history-dd5722aaf986",
+    "mt-flf1s--history-9834aef7d848",
+    "new-r3-hardware-b7a3ea97ce89--history-22edf26b733d",
+    "v7-iso4762-m4x12--history-3b61a28705cd",
+    "v7-iso4762-m4x16--history-49ff4e2db23e",
+    "v7-pin-d2x6--history-182bfc050a3a"
+  ]
+}

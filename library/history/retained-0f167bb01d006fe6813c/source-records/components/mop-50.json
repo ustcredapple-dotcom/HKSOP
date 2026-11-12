@@ -1,0 +1,10 @@
+{
+  "id": "mop-50",
+  "name": "50 mm 笼式接杆",
+  "model": "MOP-50",
+  "kind": "lubang",
+  "unit": "根",
+  "sourceUrl": "https://www.lbtek.com/product/118",
+  "notes": "数量按单根统计；MOP-50-P4 是四根包装，未自动转换。",
+  "status": "已核对"
+}

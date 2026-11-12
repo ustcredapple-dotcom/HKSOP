@@ -1,0 +1,376 @@
+{
+  "name": "FLIR 相机 · BFS-U3-16S2-CS · −45°",
+  "category": "detector",
+  "variant": "公制 M1 · 名义光高62.5 mm",
+  "description": "M1真实装配俯视图；保持原安装与光学XY基准，配套公制转接件、正式万能柱及同源加工图。",
+  "sourceUrl": "https://cad.onshape.com/documents/4bb313da2c5d07780afc4308/v/d524d8fef820cd8f525ff079/e/c5087f399bb72ff812fb34aa",
+  "sourceOnshapeStatus": "M1_FIXED_VERSION_ASSEMBLY_VERIFIED",
+  "components": [
+    {
+      "componentId": "custom-post-metric-37p5mm-m1",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r6-20-camera-cs-adapter",
+      "quantity": 1
+    },
+    {
+      "componentId": "new-r6-camera-flir-bfs-u3-16s2-cs",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-m4x12",
+      "quantity": 1
+    },
+    {
+      "componentId": "metric-m1-post-pin-d2x8",
+      "quantity": 2
+    }
+  ],
+  "opticalSlots": [],
+  "status": "M1加工审核版",
+  "releaseStage": "manufacturing-review",
+  "bundleStatus": "complete",
+  "bundleNote": "冻结M1 STEP、三页加工PDF及可编辑DXF配套；未作实物试装验收。",
+  "notes": "CS至感光面12.759333mm为估计，并非整机厂保；需按实际传感器确认后修正。 先将裸柱锁到台面，再装L形转接块并锁柱端M4，最后由侧面水平螺钉固定相机。相机绕光轴90°，图像也会转90°。感光面位置使用可修正估计参数，不把封底或CS法兰面当芯片。 非柱侧安装紧固件仍按孔表与实物选配。 B6 R1：万能柱底座6 mm，原标称总高和光学基准保持；当前完整STEP已实际换柱，未实物试装。",
+  "layout": {
+    "topViewPath": "topviews/new-camera-flir-45__B6_R1.svg",
+    "topViewUrl": "./topviews/new-camera-flir-45__B6_R1.svg",
+    "widthMm": 54.61504098,
+    "heightMm": 52.783439,
+    "anchorXMm": 24.49618149,
+    "anchorYMm": 20.151502,
+    "baseBoundsMm": {
+      "xMin": -17.5,
+      "yMin": -17.5,
+      "xMax": 17.5,
+      "yMax": 17.5
+    },
+    "basePolygonsMm": [
+      [
+        {
+          "xMm": -17.5,
+          "yMm": -17.5
+        },
+        {
+          "xMm": -17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": 17.5
+        },
+        {
+          "xMm": 17.5,
+          "yMm": -17.5
+        }
+      ]
+    ],
+    "collisionBoundsMm": {
+      "xMin": -23.900209,
+      "yMin": -32.031937,
+      "xMax": 29.522887,
+      "yMax": 19.551502
+    },
+    "collisionPolygonsMm": [
+      [
+        {
+          "xMm": -10.139297,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -17.65,
+          "yMm": -17.65
+        },
+        {
+          "xMm": -17.65,
+          "yMm": -10.139297
+        },
+        {
+          "xMm": -23.900209,
+          "yMm": -3.889087
+        },
+        {
+          "xMm": -17.65,
+          "yMm": 2.361122
+        },
+        {
+          "xMm": -17.65,
+          "yMm": 17.65
+        },
+        {
+          "xMm": -2.361122,
+          "yMm": 17.65
+        },
+        {
+          "xMm": -0.459619,
+          "yMm": 19.551502
+        },
+        {
+          "xMm": 0.417664,
+          "yMm": 18.674219
+        },
+        {
+          "xMm": 0.535454,
+          "yMm": 18.792008
+        },
+        {
+          "xMm": 0.944285,
+          "yMm": 18.792008
+        },
+        {
+          "xMm": 2.106401,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 17.65,
+          "yMm": 17.65
+        },
+        {
+          "xMm": 17.65,
+          "yMm": 3.068229
+        },
+        {
+          "xMm": 27.021236,
+          "yMm": -6.303008
+        },
+        {
+          "xMm": 27.021236,
+          "yMm": -7.134378
+        },
+        {
+          "xMm": 26.623749,
+          "yMm": -7.531866
+        },
+        {
+          "xMm": 27.68323,
+          "yMm": -8.591347
+        },
+        {
+          "xMm": 26.339728,
+          "yMm": -9.93485
+        },
+        {
+          "xMm": 29.522887,
+          "yMm": -13.118009
+        },
+        {
+          "xMm": 23.371058,
+          "yMm": -19.269838
+        },
+        {
+          "xMm": 20.187899,
+          "yMm": -16.086679
+        },
+        {
+          "xMm": 4.242641,
+          "yMm": -32.031937
+        }
+      ]
+    ],
+    "collisionGeometryVersion": "metric-m1-2026-10-06",
+    "mountingHoleOffsetsMm": [
+      {
+        "xMm": -12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": -12.5,
+        "yMm": 12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": -12.5
+      },
+      {
+        "xMm": 12.5,
+        "yMm": 12.5
+      }
+    ],
+    "placementAllowed": true,
+    "status": "M1 STEP实际俯视投影与安装孔已核验",
+    "note": "实际 STEP 俯视投影；碰撞轮廓按 CAD 投影细分并保留 0.15 mm 余量；按底座真实安装孔吸附。",
+    "nominalOpticalHeightMm": 62.5,
+    "opticalGeometryEvidence": {
+      "coordinateFrame": "world X right / Y up / Z height",
+      "sourceDatumHeightMm": 62.5,
+      "opticalCenterMm": {
+        "xMm": 0.0,
+        "yMm": 0.0
+      },
+      "referencePointWorldMm": [
+        0.0,
+        0.0,
+        62.5
+      ],
+      "planeNormalWorld": [
+        0.70710678,
+        -0.70710678,
+        0.0
+      ],
+      "opticalSurfaceAngleDeg": 45.0,
+      "simulationType": "unsupported",
+      "referenceKind": "mechanical axis; active optical plane unverified",
+      "geometricReferenceOnly": true,
+      "opticalDatumVerified": false,
+      "note": "原厂 FLIR BFS-U3-16S2-CS 外形姿态及机械光轴已定位，高62.5；实际传感器面基准待确认，不能从壳体或接口面推断。",
+      "sourceLeaf": "FLIR_BFS_U3_16S2_CS_original_CAMERA_ROLL90",
+      "axisCylinder": {
+        "radiusMm": 11.5,
+        "axisPointWorldMm": [
+          -5.26676701,
+          5.26676701,
+          62.5
+        ],
+        "axisWorld": [
+          0.70710678,
+          -0.70710678,
+          -0.0
+        ],
+        "axisPointLayoutMm": [
+          -5.26676701,
+          5.26676701,
+          62.5
+        ],
+        "axisLayout": [
+          0.70710678,
+          -0.70710678,
+          -0.0
+        ],
+        "boundsWorldMm": [
+          -13.32429454,
+          -3.74884445,
+          62.5,
+          3.74884445,
+          13.32429454,
+          74.0
+        ]
+      },
+      "sensorPlanePending": true,
+      "migrationEvidence": {
+        "sourceSha256": "4c0b13d92e2e1e1d6eac70ac98b01cf145631f053c391375a660f74a84d82b32",
+        "providerReadbackStatus": "PASS_REPLACEMENT_READBACK_FINAL_POST_SOURCE_CHECK_REQUIRED_SEPARATELY",
+        "supplierTranslationMm": [
+          0,
+          0,
+          -1
+        ],
+        "measuredAgainstFrozenM1": true,
+        "physicalTrialCompleted": false
+      }
+    },
+    "geometryEvidence": {
+      "sourceStep": "step/universal-post-b6-r1/assemblies/new-camera-flir-45__B6_R1.step",
+      "sourceSha256": "f48597f62011d87f3e49352e67e02ad46b691bcf3867d24093c197a550b13f57",
+      "partCount": 3,
+      "postCount": 1,
+      "imageSha256": "1d5a1b73bd8fa724d9a6c267fd21c141bfa7789b388ac831c1211ca97194b1f0",
+      "faceColoursPreserved": true,
+      "excludedReferenceCount": 0,
+      "guardMm": 0.15,
+      "meshDeflectionMm": 0.035,
+      "axes": "world X right / Y up / Z height",
+      "referenceAssembly": {
+        "assetKind": "assembly-reference-not-manufacturing-part",
+        "stepPath": "step/universal-post-b6-r1/assemblies/new-camera-flir-45__B6_R1.step",
+        "sha256": "f48597f62011d87f3e49352e67e02ad46b691bcf3867d24093c197a550b13f57"
+      },
+      "previousProjectionSource": {
+        "sourceStep": null,
+        "sourceSha256": "4c0b13d92e2e1e1d6eac70ac98b01cf145631f053c391375a660f74a84d82b32",
+        "imageSha256": "85046c0d0871f263ff6ea37375e36f63cd9c12603a1b457af580d77a52afba90",
+        "partCount": 3,
+        "meshDeflectionMm": 0.04
+      },
+      "triangleCount": 118315,
+      "postBaseRevision": {
+        "revision": "B6-R1",
+        "sourceRole": "complete",
+        "xyFootprintAndFunctionalDatumsPreserved": true,
+        "projectionReportSha256": "af5315b7746e63668acc29c00838cf8d2d58b7104a6ce3ff57f9758ff694de2d",
+        "displayTransform": null,
+        "sourceGeometryChangedByRenderer": false
+      }
+    },
+    "sourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/2ed7fb2849af8aa467c0db11/e/c075b669ec92da933edefe10",
+    "opticalType": "unsupported",
+    "opticalCenterMm": {
+      "xMm": 0.0,
+      "yMm": 0.0
+    },
+    "opticalAxisHeightMm": 62.5,
+    "opticalAxisHeightSource": "冻结M1总装、正式公制柱及商用件实际刚体变换已回读；名义光高62.5 mm。",
+    "opticalSurfaceAngleDeg": 45.0,
+    "opticalDatumVerified": false,
+    "opticalSimulationNote": "原厂 FLIR BFS-U3-16S2-CS 外形姿态及机械光轴已定位，高62.5；实际传感器面基准待确认，不能从壳体或接口面推断。",
+    "topViewRenderEvidence": {
+      "style": "zzlab-shaded-metal-v1",
+      "sourceStepSha256": "f48597f62011d87f3e49352e67e02ad46b691bcf3867d24093c197a550b13f57",
+      "imageSha256": "1d5a1b73bd8fa724d9a6c267fd21c141bfa7789b388ac831c1211ca97194b1f0",
+      "revision": "B6-R1",
+      "frameAndAnchorPreserved": true,
+      "renderRole": "complete",
+      "displayTransform": null
+    }
+  },
+  "metricRevision": {
+    "revision": "M1",
+    "nativeAssemblySha256": "4c0b13d92e2e1e1d6eac70ac98b01cf145631f053c391375a660f74a84d82b32",
+    "nominalAxisHeightMm": 62.5,
+    "sourceVersionId": "4931897f80d530bffcf46a4e",
+    "preservedInstanceXY": true
+  },
+  "manufacturingRevision": "M1",
+  "manufacturingEvidence": {
+    "sourceAssembly": {
+      "stepPath": "step/universal-post-b6-r1/assemblies/new-camera-flir-45__B6_R1.step",
+      "sha256": "f48597f62011d87f3e49352e67e02ad46b691bcf3867d24093c197a550b13f57"
+    },
+    "sourceVersionId": "4931897f80d530bffcf46a4e",
+    "customCodes": [],
+    "hardwarePolicy": "M1 supplied column-side screws and pins included; other mounting fasteners remain optional pending selection.",
+    "topViewVisualReviewPassed": true,
+    "physicalTrialCompleted": false
+  },
+  "optionalNotes": [
+    "M1柱侧螺钉与销钉已按同源BOM计入；其余安装紧固件按孔表和实测有效牙深选配。"
+  ],
+  "postBaseRevision": {
+    "revision": "B6-R1",
+    "baseThicknessMm": 6,
+    "nominalAndOpticalHeightsPreserved": true,
+    "geometryStatus": "passed",
+    "cloudStatus": "pending",
+    "physicalAssemblyAccepted": false,
+    "previousSourceUrl": "https://cad.onshape.com/documents/fd8b55510f12b0bdce032326/v/4931897f80d530bffcf46a4e/e/c075b669ec92da933edefe10",
+    "sourceAssemblySha256": "4c0b13d92e2e1e1d6eac70ac98b01cf145631f053c391375a660f74a84d82b32",
+    "currentAssemblySha256": "f48597f62011d87f3e49352e67e02ad46b691bcf3867d24093c197a550b13f57",
+    "replacementReportSha256": "5d233f0d457c9599ce97fcbcfb4700515a15ac8ce7bd8f821a07a4e9e6d58cec",
+    "originalEntitiesAndPosesPreserved": true
+  },
+  "revision": "CURRENT-B6R1",
+  "assemblyReference": {
+    "stepPath": "step/universal-post-b6-r1/assemblies/new-camera-flir-45__B6_R1.step",
+    "sourceStepSha256": "f48597f62011d87f3e49352e67e02ad46b691bcf3867d24093c197a550b13f57",
+    "revision": "CURRENT-B6R1",
+    "sourceExact": true,
+    "nominalFixedPositionAssembly": true
+  },
+  "cloudReference": {
+    "active": false,
+    "current": false,
+    "status": "reviewed-reference-local-precision-source",
+    "documentId": "4bb313da2c5d07780afc4308",
+    "versionId": "d524d8fef820cd8f525ff079",
+    "elementId": "c5087f399bb72ff812fb34aa",
+    "sourceUrl": "https://cad.onshape.com/documents/4bb313da2c5d07780afc4308/v/d524d8fef820cd8f525ff079/e/c5087f399bb72ff812fb34aa",
+    "sourceStepSha256": "f48597f62011d87f3e49352e67e02ad46b691bcf3867d24093c197a550b13f57",
+    "strictWholeAssemblyGeometryEquivalent": false,
+    "allPostSolidsStrictGeometryEquivalent": true,
+    "allAssemblyIdentityAndPoseReferencesPassed": false,
+    "actualCloudAcceptanceSha256": "d989a799138415a93cf804a8080ad2712f38479d94a6e4d5dfb2f8121d4fb567",
+    "cloudMapSha256": "d989a799138415a93cf804a8080ad2712f38479d94a6e4d5dfb2f8121d4fb567",
+    "authoritativePrecisionSource": "当前已核验本地 B6 完整 STEP。云端 BRep 仅为回读参考；原生层级/运动及原厂转译差异未全部通过，不能用于自动精密复用。"
+  },
+  "id": "new-camera-flir-45"
+}

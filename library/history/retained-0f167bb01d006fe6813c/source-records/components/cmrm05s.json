@@ -1,0 +1,12 @@
+{
+  "id": "cmrm05s",
+  "name": "半英寸旋转调整架 CMRM05S",
+  "model": "CMRM05S",
+  "kind": "lubang",
+  "unit": "个",
+  "sourceUrl": "https://www.lbtek.com/product/213",
+  "stepPath": "step/waveplate05-m1/CMRM05S_manufacturer.step",
+  "sourceStepSha256": "04628d4c55ab6095d2bba4ea7e4df03753523c43a3c15acec121e1bd4b2b86e5",
+  "notes": "原厂完整整件，含自带锁钉及一个SM05卡环，勿拆分重复采购。适用Ø12.7mm、最大厚7.2mm；底M4。型号材料6061-T6/黑色阳极氧化来自保存的原厂资料；不是定制加工件。",
+  "sourceEvidence": "library/reviews/waveplate05-metric-m1-import-20261006/evidence/provider/CMRM05S_sources.json"
+}

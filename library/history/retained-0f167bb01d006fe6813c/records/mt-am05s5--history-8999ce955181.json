@@ -1,0 +1,18 @@
+{
+  "id": "mt-am05s5--history-8999ce955181",
+  "name": "0.5 inch 可调镜架",
+  "model": "MT-AM05S5",
+  "kind": "lubang",
+  "unit": "个",
+  "sourceUrl": "https://en.lbtek.com/product/391",
+  "notes": "",
+  "status": "已核对",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "mt-am05s5",
+    "revision": null,
+    "sourceRecordSha256": "ac385d2ad4a7f9a818db5f81f7d40e7b0bd5278e344319b2b2de8f32950091a2"
+  }
+}

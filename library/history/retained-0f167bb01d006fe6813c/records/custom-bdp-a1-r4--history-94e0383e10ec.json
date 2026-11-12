@@ -1,0 +1,52 @@
+{
+  "id": "custom-bdp-a1-r4--history-94e0383e10ec",
+  "name": "BDP-A1 R4 · 后置PD光阱双螺钉转接板",
+  "model": "BDP-A1 R4",
+  "kind": "custom",
+  "unit": "件",
+  "revision": "R4",
+  "productionReady": false,
+  "drawingStatus": "engineering-review",
+  "status": "机械审核版；未放行加工",
+  "stepPath": "step/history-87f59e1c3eb1d033d982cbd12a75f7c65ce35b48a39df2d69b193e25c751a1f6.step",
+  "drawingPath": "drawings/history-950790810c6a8a65fd5264277598606b015e9f50514d3caf4e97c1f6864f8e90.pdf",
+  "sourceStepSha256": "87f59e1c3eb1d033d982cbd12a75f7c65ce35b48a39df2d69b193e25c751a1f6",
+  "sourceDrawingSha256": "950790810c6a8a65fd5264277598606b015e9f50514d3caf4e97c1f6864f8e90",
+  "manufacturingSpec": {
+    "material": "316L 不锈钢",
+    "surfaceTreatment": "去磁、钝化；去毛刺，保护接触面和定位孔",
+    "processDetails": "外廓105.5×52×18.5 mm；中段厚10 mm。H1两销孔之间12.8×4.3长孔，两端各Ø8.25深4圆沉孔，配2×M4×12。两销孔仍为(0,±5)；保留直角前靠位和台阶，无退刀槽。其余孔位及加工规格见R4 PDF。"
+  },
+  "manufacturingEvidence": {
+    "sourceStepSha256": "87f59e1c3eb1d033d982cbd12a75f7c65ce35b48a39df2d69b193e25c751a1f6",
+    "drawingSha256": "950790810c6a8a65fd5264277598606b015e9f50514d3caf4e97c1f6864f8e90",
+    "producerVerificationSha256": "28f0019bc80c77000b55547d35fda59ca6590ed38313ab2bc86658bd40e92d97",
+    "physicalAssemblyTested": false,
+    "engineeringReleaseApproved": false,
+    "receiverScope": "极速接收：文件/基准/可用性核验，复用生产者几何检查"
+  },
+  "laserMarking": {
+    "status": "required",
+    "reason": "新制件身份标识",
+    "notes": "PDF第4页打标定位；前托Y=-21外侧面，字右+X、字顶+Z。DXF面坐标(X,Z)，1:1 mm；0.02模型浅痕仅示意，不铣刻。",
+    "files": [
+      {
+        "face": "前托 Y=-21 外侧面",
+        "text": "BDP-A1",
+        "dxfPath": "drawings/history-99e066995aef35bf9b40e9861bd8071f03a27f761bbecacc5241cbe49c701b7b.dxf",
+        "sha256": "99e066995aef35bf9b40e9861bd8071f03a27f761bbecacc5241cbe49c701b7b",
+        "setupPdfPath": "drawings/history-950790810c6a8a65fd5264277598606b015e9f50514d3caf4e97c1f6864f8e90.pdf",
+        "setupPdfSha256": "950790810c6a8a65fd5264277598606b015e9f50514d3caf4e97c1f6864f8e90"
+      }
+    ]
+  },
+  "notes": "H1双M4名义旋入6 mm，H3的PD有效M4牙深待实测；销孔配合等级、实物夹紧和镜架全行程待验。",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "custom-bdp-a1-r4",
+    "revision": "R4",
+    "sourceRecordSha256": "745534bc0dbc39df16d7eb270653c0265141fac4a22eb100e02325453c396e6b"
+  }
+}

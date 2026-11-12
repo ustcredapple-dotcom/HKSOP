@@ -1,0 +1,17 @@
+{
+  "id": "hardware-iso4762-m3x5--history-1ae64e315e4b",
+  "name": "内六角圆柱头螺钉 M3×5",
+  "model": "M3×5 ISO4762",
+  "kind": "standard",
+  "unit": "个",
+  "status": "名义长度核对；有效牙深待首件核验",
+  "notes": "本总装4颗由立板背面拉紧杆端；名义旋入4mm，不将模型4.2mm孔深当作可用牙深保证。",
+  "lifecycle": {
+    "state": "historical",
+    "canCreate": false,
+    "historyId": "retained-0f167bb01d006fe6813c",
+    "originalId": "hardware-iso4762-m3x5",
+    "revision": null,
+    "sourceRecordSha256": "53d5bb08ad4d58c5d924bc1476115efd8c133968597a9bc55e26f11a7e08fc29"
+  }
+}
